@@ -5,8 +5,8 @@ ideas = {
 			modifier = {
 				stability_factor = -0.15
 				war_support_factor = 0.05
-				production_factory_efficiency_gain_factor = -5
-				production_speed_buildings_factor = -5
+				production_factory_efficiency_gain_factor = -0.5
+				production_speed_buildings_factor = -0.5
 			}
 		}
 	}

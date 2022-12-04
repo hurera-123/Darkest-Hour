@@ -294,30 +294,8 @@ FRA_Colonial_Empire_category = {
 			army_experience = 10
 			add_political_power = 50
 			add_stability = 0.05
-			461 = {
-				remove_dynamic_modifier = {
-					modifier = FRA_Insurrectionary_Centers
-				}
-			}
-			462 = {
-				remove_dynamic_modifier = {
-					modifier = FRA_Insurrectionary_Centers
-				}
-			}
-			1139 = {
-				remove_dynamic_modifier = {
-					modifier = FRA_Insurrectionary_Centers
-				}
-			}
-			1141 = {
-				remove_dynamic_modifier = {
-					modifier = FRA_Insurrectionary_Centers
-				}
-			}
-			1142 = {
-				remove_dynamic_modifier = {
-					modifier = FRA_Insurrectionary_Centers
-				}
+			MOR = {
+				remove_ideas = MOR_Atlas_Rebellion
 			}
 		}
 	}

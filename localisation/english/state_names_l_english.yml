@@ -42,8 +42,8 @@
  STATE_14_breton: "Breizh" #Breton
  STATE_14_exonym: "Brittany" #Exonym
 
- STATE_15: "Normandie"
- STATE_15_exonym: "Normandy" #Exonym
+ STATE_15: "Basse-Normandie"
+ STATE_15_exonym: "Lower-Normandy" #Exonym
 
  STATE_16: "Ile-de-France"
 
@@ -2229,7 +2229,7 @@
 
  STATE_1025: "Ain"
 
- STATE_1026: "Seine-Maritime"
+ STATE_1026: "Seine-Inférieure"
 
  STATE_1027: "Seine-et-Marne"
 

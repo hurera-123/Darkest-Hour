@@ -2166,8 +2166,6 @@
  remove_popularity_to_Undecided_tt: "Changes §gUndecided§! Popularity by [?support_to_remove|+=2%%].\n"
 
  ### Dynamic Modifiers
- FRA_Economique_Crisis: "Economic Crisis"
- FRA_Insurrectionary_Centers: "Insurrection Centers"
  FRA_Colonial_Unrest: "Colonial Unrest"
  FRA_Neo_Destour: "Néo-Destour"
  FRA_Uncooperative_Italians: "Uncooperative Italians"

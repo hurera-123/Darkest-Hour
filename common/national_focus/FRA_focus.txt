@@ -3784,6 +3784,12 @@ focus_tree = {
 		y = 1
 		completion_reward = { 
 			add_political_power = 100
+			TUN = {
+				add_stability = 0.1
+				add_autonomy_ratio = {
+					value = -0.1
+				}
+			}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
