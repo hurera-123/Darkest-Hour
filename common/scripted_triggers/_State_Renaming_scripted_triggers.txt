@@ -114,3 +114,7 @@ State_Renaming_Croatian = {
 		tag = CRO
 	}
 }
+
+State_Renaming_Greek = {
+	tag = GRE
+}
