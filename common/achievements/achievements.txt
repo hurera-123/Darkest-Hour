@@ -50,8 +50,8 @@ Socialism_has_been_Achieved = {
 		custom_trigger_tooltip = {
 			tooltip = Socialism_has_been_Achieved_tt
 			OR = {
-				communism > 0.95
-				socialism > 0.95
+				communist > 0.95
+				socialist > 0.95
 			}
 		}
 	}
@@ -176,7 +176,7 @@ We_Solved_World_Hunger = {
 		custom_trigger_tooltip = {
 			tooltip = We_Solved_World_Hunger_tt
 			TUR = {
-				every_core_state = {
+				all_core_state = {
 					is_controlled_by = HUN
 				}
 			}
@@ -195,7 +195,7 @@ Graveyard_of_the_Superpowers = {
 		custom_trigger_tooltip = {
 			tooltip = Graveyard_of_the_Superpowers_tt
 			VIE = {
-				every_core_state = {
+				all_core_state = {
 					is_controlled_by = AFG
 				}
 			}
