@@ -5978,7 +5978,7 @@ guiTypes = {
 	#################################################################
 	containerWindowType = {
 		name = "technology_unit_stat_item"
-		position = { x=0 y=2 }
+		position = { x=0 y=38 }
 		size = { width=224 height=25 }
 		clipping = no
 		background = {

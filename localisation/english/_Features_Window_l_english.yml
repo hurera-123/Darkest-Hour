@@ -24,7 +24,7 @@
  DH_FEATURES_WINDOW_TEXT_CONSTRUCTION: "Display the speed of constrictions. Can be turned §Gon§! and §Roff§!.\n\nCredits to "Yes, Paimon" on Steam Workshop."
 
  DH_FEATURES_WINDOW_TITLE_ECONOMY: "Economy"
- DH_FEATURES_WINDOW_TEXT_ECONOMY: "Money is primarily gained from consumer goods.\n\nIt's primarily spent for military factories - by assigning a factory to producing X, it will cost money.\n\nYou can also spend the money for other things such as in events, decisions, or focuses.\n\n§RKeep an aye out for inflation!§!"
+ DH_FEATURES_WINDOW_TEXT_ECONOMY: "Money is primarily gained from consumer goods.\n\nIt's primarily spent for military factories - by assigning a factory to producing X, it will cost money.\n\nYou can also spend the money for other things such as in events, decisions, or focuses.\n\n§RKeep an eye out for inflation!§!"
 
  DH_FEATURES_WINDOW_TITLE_DEPRESSION: "Depression"
  DH_FEATURES_WINDOW_TEXT_DEPRESSION: "There are 2 values: unemployment and the impact of unemployment.\n\nEach of the % of the unemployment brings a §Rdebuff§! to the nation. \n\nItaly, for example, has 30% of unemployment with neutral impact."

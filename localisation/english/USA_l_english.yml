@@ -589,20 +589,20 @@
  USA_Flavor.11.A: "”You talkin' to me?”"
 
  USA_Flavor.12.t: "On Our Way"
- USA_Flavor.12.d: "[FROM.GetNewsIcon]"
- USA_Flavor.12.A: "April 12, 1934"
+ USA_Flavor.12.d: "[FROM.GetNewsIcon]Harvey Fletcher is filled with confidence as he prepares to demonstrate stereo sound to a crowd of 300 investors and reporters who have all been invited to Philadelphia to witness the high fidelity demonstration.\n\nHarvey is overjoyed as the audience is taken aback by the high-quality sound coming from the stereo. Harvey oversaw electrical sound recording research, including the first successful stereophonic recordings, the first live stereo sound transmission, and the creation of the first vinyl record, all of which contributed to a significant breakthrough in electrical sound.\n\nHarvey has accomplished so much in such a short period of time thanks to the assistance of Leopold Stokowski, conductor of the Philadelphia Orchestra."
+ USA_Flavor.12.A: "A vinyl? I should buy one"
 
  USA_Flavor.13.t: "The End of Bonnie & Clyde"
- USA_Flavor.13.d: "[FROM.GetNewsIcon]"
- USA_Flavor.13.A: "May 23, 1934"
+ USA_Flavor.13.d: "[FROM.GetNewsIcon]Newspapers are full of nothing but what happened last night, May 23. Six police officers had successfully shot dead the renowned criminals Bonnie Parker and Clyde Barrow.\n\nOn May 21, four members of the posse learned that Barrow and Parker planned to visit Ivy Methvin in Bienville Parish that evening. The posse planned an ambush on Louisiana State Highway 154, south of Gibsland, heading toward Sailes. The posse was about to give up after waiting until the next morning with no sign of the criminals when they heard a car approaching at high speed at around 9:15 a.m. on May 23. The posse had previously positioned a car in the bushes near the posse's location.\n\nThe car started to slow down, and the six cops opened fire while it was still moving. Parker was heard screaming in terror inside the car after Barrow was fatally shot in the head. The cops fired approximately 130 bullets into the car, emptying their weapons. Despite the fact that the two had survived several bullet wounds in previous encounters with the law, the shots on this day proved fatal."
+ USA_Flavor.13.A: "And so the story ends."
 
  USA_Flavor.14.t: "Al Capone In Alcatraz"
- USA_Flavor.14.d: "[FROM.GetNewsIcon]"
- USA_Flavor.14.A: "August 22, 1934"
+ USA_Flavor.14.d: "[FROM.GetNewsIcon]Mr Al Capone has been acting reasonably well thus far; he has been very competent at his jail job of stitching bottoms on shoes for eight hours a day, which is remarkable given his withdrawal symptoms.\n\nWhen Al Capone arrived at the penitentiary, I expected a fierce, violent, but wholesome mob boss, but that was not the case. While he is dangerous, he is also a complete shambles, and many of his fellow inmates regard him as having a weak personality. When he arrived, he was diagnosed with syphilis and gonorrhoea, which were bad enough, but when you add in the cocaine addiction and withdrawal symptoms, I'm surprised he hasn't gone insane.\n\nBut Al Capone is not completely defenceless; Red Rudensky, a seasoned convict and former Capone gang small-time criminal associate, has been defending him from other inmates. For unknown reasons, I and others have been ordered to defend Capone and Rudensky, though I'm pretty sure Capone bribed our boss or something.\n\nCapone may be transferred to the newly opened Alcatraz Federal Penitentiary off the coast of San Francisco, according to reports. That location appears to be a nightmare, making it ideal for that crook."
+ USA_Flavor.14.A: "I wouldn’t want to be moved there myself."
 
  USA_Flavor.15.t: "Textile Workers Strike"
- USA_Flavor.15.d: "[FROM.GetNewsIcon]"
- USA_Flavor.15.A: "September 1, 1934"
+ USA_Flavor.15.d: "[FROM.GetNewsIcon]Panic and unrest have erupted in the southern cotton mills.\n\nFollowing poor wages, hard working hours, and significant retaliation from mill owners, a force of nearly 20,000 workers went on strike in just a few days. The mill owners were caught off guard, and in just a week,  the number of textile employees on strike rose to 400,000.\n\nFor quite some time before the strike, the United Textile Workers, or UTW for short, had been promoting and demanding a minimum salary of $20 per week, union recognition in the south, and the reinstatement of workers fired for union activities.\n\nThe strike has caused the southern textile industry to close, and authorities have retaliated with violence. Numerous people have died as a result of heavy violence between union-led strikes and local authorities, and on September 6, a day of fighting in Chiquola gained the nickname "Chiquola Mill Massacre." The national guard has somewhat managed in putting an end to the strikes by inflicting heavy casualties.\n\nSo far, the strikers' fate remains unknown."
+ USA_Flavor.15.A: "Which side are you on... Which side are you on..."
 
  USA_Flavor.16.t: "Smedley Butler's Testimony"
  USA_Flavor.16.d: "[FROM.GetNewsIcon]"
@@ -874,8 +874,8 @@
  USA_Japanese_Leaders_Trial.13.A: ""
 
  USA_Japanese_Leaders_Trial.14.t: "The End of The Tokyo Trials"
- USA_Japanese_Leaders_Trial.14.d: ""
- USA_Japanese_Leaders_Trial.14.A: ""
+ USA_Japanese_Leaders_Trial.14.d: "Today, after months of deliberations and talks between the two parties, the Tokyo Trials have come to an end.\n\nAlthough they were hesitant at first, the Japanese government accepted the verdict of the Military Tribunal of the Far East, which was in charge of the trials. A few articles have been written, and among them, Japan accepts all of those verdicts, as well as full support and provision of buildings for prison sentences and executions.\n\nSome argue that the government accepts suppressing the rights to grant clemency, reduce sentences, or even grant parole to those prisoners because of their crimes against humanity, thereby "taking away their right to humanity," as stated by an American representative.\n\nAs the trials come to an end, so does this bloody and painful chapter in Asia's history, and the region's future is irreversibly altered as a result."
+ USA_Japanese_Leaders_Trial.14.A: "Let’s pray that we never have to take part in such trials again."
 
  #Cash and Carry Events
  USA_Cash_and_Carry.1.t: "The USA Offers Fighters"
@@ -892,17 +892,17 @@
  USA_Cash_and_Carry.3.A: "Now all the Brits have to do is tow them to Canada."
 
  USA_Cash_and_Carry.4.t: "The USA Offers Weapons"
- USA_Cash_and_Carry.4.d: ""
- USA_Cash_and_Carry.4.A: "We'll take whatever we can get!"
- USA_Cash_and_Carry.4.B: "We will have to pass, sorry."
+ USA_Cash_and_Carry.4.d: "The US has just sent a coded telegram inquiring about the possibility of them supplying weapons for our war. They are doing this to aid in the defence of democracy around the world against the massive threat posed by authoritarian powers.\n\nArmed assistance from the United States would undoubtedly be of great help to us, as weapon production could be hampered at any time during the war by enemy attacks. It would also enable us to get closer to them and strengthen ties between our two countries.\n\nAlternatively, we could decline their assistance in order to prevent American influence from spreading too far after the war. When we win, they may claim that they were the ones who kept us afloat, implying that they played a larger role than they actually did.\n\nSo, what should we do? A single decision can tip the balance of a war, and a single error can lead to total defeat."
+ USA_Cash_and_Carry.4.A: "We need those weapons, and we need them now."
+ USA_Cash_and_Carry.4.B: "We will not be subverted by American influence!"
 
  USA_Cash_and_Carry.5.t: "[From.GetName] Declines"
- USA_Cash_and_Carry.5.d: ""
- USA_Cash_and_Carry.5.A: "Shame."
+ USA_Cash_and_Carry.5.d: "[From.GetName] has refused to accept our assistance, and as such, we will not be providing any sort of weaponry to help their war efforts.\n\nThis is an unfortunate response, as we feel this decision will not benefit either side. Their refusal means that they could struggle to ensure that their forces have enough weapons, which could severely affect their combat efficiency. It also means that we will not be able to properly show ourselves as a force for the protection of democracy around the world.\n\nHowever, if that is their choice, we must abide by it, and perhaps send these weapons to other nations that are more likely to accept them."
+ USA_Cash_and_Carry.5.A: "Don’t come crying to us when your nation has fallen!"
 
  USA_Cash_and_Carry.6.t: "[From.GetName] Accepts"
- USA_Cash_and_Carry.6.d: ""
- USA_Cash_and_Carry.6.A: "They need Guns, from America they will have Guns."
+ USA_Cash_and_Carry.6.d: "[From.GetName] has graciously accepted our assistance, hoping that our weapons will soon reach the front lines and assist them in winning the war.\n\nThis delighted us, and as soon as the telegraph arrived, we began preparing shipments of weapons to be sent, demonstrating our genuine willingness to assist them. Their acceptance has enabled us to export our weapons, allowing us to profit from them and possibly reap some post-war benefits when they begin rebuilding, as we will be regarded as a reliable partner.\n\nWith our help, they will surely be able to put up a better fight against their adversaries."
+ USA_Cash_and_Carry.6.A: "With Uncle Sam by your side, you have nothing to fear!"
 
  USA_Department_of_War.1.t: "The Manhattan Project"
  USA_Department_of_War.1.d: "Philip Turner's job is straightforward. He spends the entire day standing in front of a gauge, and when it reaches a hundred, he opens a valve to release the pressure in the pipe. When all of the pressure has been released, he tightens the valve again and repeats the process. He does have to wear special shielding to do the work, but the pay is good and the work is simple. Philip is unsure of the purpose of his work. He is not required to understand.\n\nIn reality, Philip is enriching uranium for a project at Los Alamos National Laboratory in the American West. The project, officially codenamed Development of Substitute Materials, was authorised earlier this year by President Roosevelt to pursue two lines of development exploring the potential explosive capabilities of uranium and the recently discovered plutonium. It is also in charge of gathering information on the German nuclear energy project.\n\nCertain voices in the scientific community have been debating the feasibility of such a uranium bomb for several years. It has been suggested that a bomb of this type could harness the explosive power of thousands of tonnes of TNT. As of now, the project's ability to produce any significant results is unknown. Much of the money is currently being spent on just building the facilities needed to enrich uranium to the level required for research. However, if information about the German nuclear project is correct, there may be a real need to develop this weapon."
