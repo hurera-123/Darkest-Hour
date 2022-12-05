@@ -334,6 +334,25 @@ characters={
 				FM_Bellicistes
 			}
 		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=FRA_Paul_Reynaud_AM
+			allowed={
+				tag=FRA
+			}
+			visible={
+				NOT = { has_country_flag = Paul_Reynaud_unavailable }
+				D_Minister_Allowed = yes
+			}
+			available = {
+				set_temp_variable = {party_id = 5} #AD
+				set_temp_variable = {support_to_check = 0.70}
+				has_at_least_parliament_party_support = yes
+			}
+			traits={
+				AM_Laissez-faire_Capitalist
+			}
+		}
 	}
 	FRA_Albert_Sarraut = {
 		name= FRA_Albert_Sarraut

@@ -129,7 +129,7 @@ FRA_Containment_of_Fascism = {
 		original_tag = FRA
 	}
 	visible = {
-		has_completed_focus = FRA_Bastion_of_Anti_Fascism
+		has_completed_focus = FRA_Promote_Anti_Fascist_Policy
 	}
 }
 GER_Heim_ins_Reich_category = {

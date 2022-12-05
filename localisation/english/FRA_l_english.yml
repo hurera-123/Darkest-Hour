@@ -1056,6 +1056,9 @@
  FRA_Great_Social_Reform: "The Great Social Reforms"
  FRA_Great_Social_Reform_desc: ""
 
+ FRA_Create_the_CNRS: "Create the CNRS"
+ FRA_Create_the_CNRS_desc: ""
+
  FRA_Securite_Social: "The Securite Social"
  FRA_Securite_Social_desc: ""
 
@@ -1077,6 +1080,24 @@
  FRA_Unity_for_the_Left: "Unity for the Left"
  FRA_Unity_for_the_Left_desc: ""
 
+ FRA_Le_Triomphe_de_la_Sociale: "Le Triomphe de la Sociale"
+ FRA_Le_Triomphe_de_la_Sociale_desc: ""
+
+ FRA_National_Office_of_Industry: "National Office of Industry"
+ FRA_National_Office_of_Industry_desc: ""
+
+ FRA_The_Under_Secretariat_for_Mining_Affairs: "The Under-Secretariat for Mining Affairs"
+ FRA_The_Under_Secretariat_for_Mining_Affairs_desc: ""
+
+ FRA_Promote_Anti_Fascist_Policy: "Promote Anti-Fascist Policy"
+ FRA_Promote_Anti_Fascist_Policy_desc: ""
+
+ FRA_The_Bastion_of_Democracy: "The Bastion of Democracy"
+ FRA_The_Bastion_of_Democracy_desc: ""
+
+ FRA_The_Peace_Front: "The Peace Front"
+ FRA_The_Peace_Front_desc: ""
+
 ### Daladier ###
 
  FRA_The_end_of_the_Ruling_party: "The End of [FRA.GetRulingPartyLong]"
@@ -1094,14 +1115,23 @@
  FRA_Buy_Amerian_Planes: "Buy American Planes"
  FRA_Buy_Amerian_Planes_des: ""
  
- FRA_Hundred_Milions_Mens: "110 Milion Men"
- FRA_Hundred_Milions_Mens_desc: ""
+ FRA_The_Firmness_Policy: "The Firmness Policy"
+ FRA_The_Firmness_Policy_desc: ""
+
+ FRA_Reynaud_Deregulation_Policy: "Reynaud's Deregulation Policy"
+ FRA_Reynaud_Deregulation_Policy_desc: ""
+
+ FRA_Rule_by_Decret_Law: "Rule by Decret Law"
+ FRA_Rule_by_Decret_Law_desc: ""
 
  FRA_Act_Against_the_Enemy_of_the_State: "Act Against the Enemies of the State"
  FRA_Act_Against_the_Enemy_of_the_State_desc: ""
 
  FRA_War_On_Pacifism: "War on Pacifism"
  FRA_War_On_Pacifism_desc: ""
+
+ FRA_National_Defense_Bonds: "National Defense Bonds"
+ FRA_National_Defense_Bonds_desc: ""
 
  FRA_Put_An_End_To_Parliament_Instability: "Put an End to Parliament Instability"
  FRA_Put_An_End_To_Parliament_Instability_desc: ""
@@ -1646,7 +1676,7 @@
  FRA_Renaissance_Republicaine_3_desc: ""
 
  FRA_Scars_of_the_Great_War: "Scars of the Great War "
- FRA_Scars_of_the_Great_War_2: "Scars of the Great War "
+ FRA_Scars_of_the_Great_War_desc: ""
 
  FRA_Les_5_Glorieuses: "Les Cinq Glorieuses"
  FRA_Les_5_Glorieuses_desc: ""
@@ -1827,6 +1857,9 @@
 
  FRA_Keep_Fighting_in_Africa: "Keep Fighting in Africa"
  FRA_Keep_Fighting_in_Africa_desc: ""
+
+ FRA_National_Office_of_Industry: "The National Office of Industry"
+ FRA_National_Office_of_Industry_2: "The National Office of Industry"
 
 ##########################################
 ## Archive Ideas

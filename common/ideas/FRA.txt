@@ -31,7 +31,7 @@ ideas = {
 				is_democratic =  yes
 			}
 			modifier = {
-				political_power_gain = 0.15
+				political_power_factor = 0.15
 				democratic_drift = -0.03
 			}
 		}
@@ -77,16 +77,6 @@ ideas = {
 			modifier = {
 				monthly_population = -0.25
 				conscription_factor = -0.02
-			}
-		}
-		FRA_Scars_of_the_Great_War_2 = {
-			allowed_civil_war = {
-				always = no
-			}
-			picture = FRA_Scars_Of_The_Great_War
-			modifier = {
-				monthly_population = -0.1
-				conscription_factor = -0.01
 			}
 		}
 		#### They shall not pass
@@ -1348,6 +1338,56 @@ ideas = {
 				surrender_limit = 0.5
 				mobilization_speed = 0.25
 				conscription_factor = 0.25
+			}
+		}
+		FRA_National_Office_of_Industry = {
+			available = {
+				NOT = {
+					has_global_flag = VIC_Vichy_Established
+				}
+			}
+			picture = GFX_idea_
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_start_efficiency_factor = 0.1
+			}
+		}
+		FRA_National_Office_of_Industry_2 = {
+			available = {
+				NOT = {
+					has_global_flag = VIC_Vichy_Established
+				}
+			}
+			picture = GFX_idea_
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_start_efficiency_factor = 0.1
+				local_resources_factor = 0.15
+			}
+		}
+		FRA_Defender_of_the_Republic = {
+			available = {
+				NOT = {
+					has_global_flag = VIC_Vichy_Established
+				}
+			}
+			picture = GFX_idea_
+			modifier = {
+				war_support_factor = 0.1
+				army_morale_factor = 0.05
+				surrender_limit = 0.1
+			}
+		}
+		FRA_National_Defense_Bonds= {
+			available = {
+				NOT = {
+					has_war = yes
+				}
+			}
+			picture = GFX_idea_
+			modifier = {
+				money_income_factor = 0.03
+				political_power_factor = -0.1
 			}
 		}
 	}

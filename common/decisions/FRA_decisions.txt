@@ -2777,24 +2777,6 @@ FRA_Le_Front_Populaire_category = {
 			}
 		}
 	}
-	FRA_Jean_Zays_Reforms = {
-		icon = putIcon
-		fire_only_once = yes
-		allowed = {
-			original_tag = FRA
-		}
-		available = {
-		}
-		cost = 150
-		complete_effect = {
-			increase_slider_research_spending = yes
-			add_days_mission_timeout = {
-				mission = FRA_Le_Front_Populaire
-				days = 31
-			}
-			add_stability = 0.1
-		}
-	}
 }
 war_measures = {
 	FRA_Mobilisation_General = {
@@ -2843,6 +2825,8 @@ war_measures = {
 			}
 			add_ideas = three_year_service
 
+			set_country_flag = FRA_General_Mobilization
+			mark_focus_tree_layout_dirty = yes
 			complete_national_focus = FRA_General_Mobilization
 
 			news_event = { id = FRA_Wartime_Tree.0 }
@@ -3245,6 +3229,8 @@ FRA_Battle_of_France_category = {
 				}
 				country_event = { id = FRA_Wartime_Tree.17 }
 			}
+			set_country_flag = FRA_Frances_Darkest_Hour
+			mark_focus_tree_layout_dirty = yes
 			complete_national_focus = FRA_Frances_Darkest_Hour
 		}
 		timeout_effect = {
