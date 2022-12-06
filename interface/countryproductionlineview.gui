@@ -1,4 +1,4 @@
-@prod_icon_pos_x = 358
+@prod_icon_pos_x = 358ate
 @prod_sub_pos_x = 379
 @prod_add_pos_x = 453
 @prod_nof_pos_x = 403
@@ -4109,7 +4109,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "military_equipment_info_entry"
 		position = { x=0 y=0 }
-		size = { width=342 height= 80 }
+		size = { width=380 height= 80 }
 		clipping = no
 
 		buttonType = {
@@ -4227,7 +4227,7 @@ guiTypes = {
 
 		gridBoxType = {
 			name = "resources_grid"
-			position = { x = 370 y = 10 }
+			position = { x = 371 y = 10 }
 			size = { width = 48 height = 150 }
 			slotsize = { width = 35 height = 23 }
 			max_slots_vertical = 6
