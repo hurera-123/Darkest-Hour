@@ -301,21 +301,13 @@
  ENG_Abdication_Crisis.17.d: ""
  ENG_Abdication_Crisis.17.A: ""
 
- ENG_Abdication_Crisis.18.t: "A Stirring Speech"
+ ENG_Abdication_Crisis.18.t: "Minor Inconveniences"
  ENG_Abdication_Crisis.18.d: ""
  ENG_Abdication_Crisis.18.A: ""
 
- ENG_Abdication_Crisis.19.t: "Minor Inconveniences"
- ENG_Abdication_Crisis.19.d: ""
- ENG_Abdication_Crisis.19.A: ""
-
- ENG_Abdication_Crisis.20.t: "A Flat Reception"
+ ENG_Abdication_Crisis.20.t: "A Less-Than-Smooth Ride"
  ENG_Abdication_Crisis.20.d: ""
  ENG_Abdication_Crisis.20.A: ""
-
- ENG_Abdication_Crisis.21.t: "A Less-Than-Smooth Ride"
- ENG_Abdication_Crisis.21.d: ""
- ENG_Abdication_Crisis.21.A: ""
 
  ENG_Abdication_Crisis.22.t: "The Coronation of Edward VIII" # Morganatic Marriage
  ENG_Abdication_Crisis.22.d: "[FROM.GetNewsIcon]"

@@ -1958,7 +1958,7 @@ country_event = {
 }
 
 ##################################################################
-#  Oxford chancellor elections
+#  Simon's Way Out
 #########################################################################
 country_event = {
 	id = ENG_Oxford_Election.1
@@ -2004,7 +2004,7 @@ country_event = {
 }
 
 #########################################################################
-#  The necessary prerequisite
+#  The Necessary Prerequisite
 #########################################################################
 country_event = {
 	id = ENG_Oxford_Election.2
@@ -2027,7 +2027,7 @@ country_event = {
 }
 
 #########################################################################
-#  Churchill's return from the wilderness
+#  Churchill's Return from the Wilderness
 #########################################################################
 country_event = {
 	id = ENG_Oxford_Election.3
@@ -3652,7 +3652,7 @@ country_event = {
 }
 
 ##################################################################
-#  A Stirring Speech
+#  Minor Inconveniences
 ##################################################################
 country_event = {
 	id = ENG_Abdication_Crisis.18
@@ -3660,30 +3660,9 @@ country_event = {
 	desc = ENG_Abdication_Crisis.18.d
 	picture = GFX_
 	is_triggered_only = yes
-	# Accept
+	#
 	option = {
 		name = ENG_Abdication_Crisis.18.A
-		hidden_effect = {
-			country_event = {
-				id = ENG_Abdication_Crisis.19
-				days = 6
-			}
-		}
-	}
-}
-
-##################################################################
-#  Minor Inconveniences
-##################################################################
-country_event = {
-	id = ENG_Abdication_Crisis.19
-	title = ENG_Abdication_Crisis.19.t
-	desc = ENG_Abdication_Crisis.19.d
-	picture = GFX_
-	is_triggered_only = yes
-	# Accept
-	option = {
-		name = ENG_Abdication_Crisis.19.A
 		hidden_effect = {
 			news_event = {
 				id = ENG_Abdication_Crisis.22
@@ -3694,7 +3673,7 @@ country_event = {
 }
 
 ##################################################################
-#  A Flat Reception
+#  A Less-Than-Smooth Ride
 ##################################################################
 country_event = {
 	id = ENG_Abdication_Crisis.20
@@ -3702,30 +3681,9 @@ country_event = {
 	desc = ENG_Abdication_Crisis.20.d
 	picture = GFX_
 	is_triggered_only = yes
-	# Accept
+	#
 	option = {
 		name = ENG_Abdication_Crisis.20.A
-		hidden_effect = {
-			country_event = {
-				id = ENG_Abdication_Crisis.21
-				days = 12
-			}
-		}
-	}
-}
-
-##################################################################
-#  A Less-Than-Smooth Ride
-##################################################################
-country_event = {
-	id = ENG_Abdication_Crisis.21
-	title = ENG_Abdication_Crisis.21.t
-	desc = ENG_Abdication_Crisis.21.d
-	picture = GFX_
-	is_triggered_only = yes
-	# Accept
-	option = {
-		name = ENG_Abdication_Crisis.21.A
 		hidden_effect = {
 			news_event = {
 				id = ENG_Abdication_Crisis.22
@@ -5599,21 +5557,35 @@ country_event = {
 		random_core_state = {
 			add_building_construction = {
 				type = infrastructure
-				level = 1
+				level = 2
 				instant_build = yes
 			}
 		}
 		random_core_state = {
 			add_building_construction = {
 				type = infrastructure
-				level = 1
+				level = 2
 				instant_build = yes
 			}
 		}
 		random_core_state = {
 			add_building_construction = {
 				type = infrastructure
-				level = 1
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_core_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_core_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
 				instant_build = yes
 			}
 		}
@@ -5642,7 +5614,7 @@ country_event = {
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = industrial_complex
-				level = 2
+				level = 1
 				instant_build = yes
 			}
 		}
@@ -5650,7 +5622,7 @@ country_event = {
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
 				type = industrial_complex
-				level = 2
+				level = 1
 				instant_build = yes
 			}
 		}
