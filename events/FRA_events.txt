@@ -1988,7 +1988,7 @@ country_event = {
 			ideology = authoritarian
 			popularity = 0.01
 		}
-		complete_national_focus = FRA_PRRRS_AD_FR_Government
+		#complete_national_focus = FRA_PRRRS_AD_FR_Government
 	}
 	option = {
 		name = FRA_1936_Election_Results.4.B
@@ -2000,7 +2000,7 @@ country_event = {
 			ideology = fascist
 			popularity = 0.03
 		}
-		complete_national_focus = FRA_PRRRS_AD_governement
+		#complete_national_focus = FRA_PRRRS_AD_governement
 	}
 }
 #########################################################################
@@ -2319,6 +2319,42 @@ news_event = {
 				active = yes
 			}
 		}
+	}
+}
+#########################################################################
+# The Nantes Congress
+#########################################################################
+news_event = {
+	id = FRA_Front_Populaire_1936.6
+	title = FRA_Front_Populaire_1936.6.t
+	desc = FRA_Front_Populaire_1936.6.d
+	picture = To_Be_Inserted
+	is_triggered_only = yes
+	#
+	option = {
+		name = FRA_Front_Populaire_1936.6.A
+		add_war_support = 0.05
+		set_temp_variable = { party_id = 8 } # SFIO
+		set_temp_variable = { support_to_add = -0.25 }
+		change_party_support = yes
+		set_country_flag = FRA_Support_Blum_Faction
+	}
+	option = {
+		name = FRA_Front_Populaire_1936.6.B
+		add_stability = 0.05
+		add_political_power = 75	
+	}
+	option = {
+		name = FRA_Front_Populaire_1936.6.C
+		add_war_support = -0.05
+		add_stability = 0.1
+		set_temp_variable = { party_id = 8 } # SFIO
+		set_temp_variable = { support_to_add = -0.25 }
+		change_party_support = yes
+		hidden_effect = {
+			decrease_slider_army = yes
+		}
+		decrease_slider_army = yes
 	}
 }
 #########################################################################
@@ -4214,7 +4250,6 @@ country_event = {
 					limit = {
 						OR = {
 							state = 763
-							state = 1028
 							state = 1637
 							state = 19
 							state = 23
@@ -4236,7 +4271,6 @@ country_event = {
 							state = 1022
 							state = 29
 							state = 1027
-							state = 1028
 							state = 1028
 						}
 					}
@@ -4315,6 +4349,15 @@ country_event = {
 				add_to_faction = FFL
 			}
 			FFL = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = become_vichy
+							has_completed_focus = FRA_Keep_Fighting_in_Africa
+						}
+					}
+					change_tag_from = FRA
+				}
 				inherit_technology = FRA
 				set_capital = {
 					state = 790

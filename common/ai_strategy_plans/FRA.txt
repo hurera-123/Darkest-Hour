@@ -32,7 +32,6 @@ France_historical = {
 		FRA_The_Wise_of_Tournefeuille
 		FRA_The_Concentration_Republicaine
 		FRA_Armee_de_Terre
-		FRA_Sanitize_Finances
 		# 1935
 		FRA_The_Maginot_Line
 		FRA_Limit_Foreign_Workers_Job
@@ -52,13 +51,10 @@ France_historical = {
 		FRA_Ban_the_Far_Right_Ligue
 		FRA_Begin_Nationalisation
 		FRA_Control_Bank_de_France
-		FRA_Nationalise_Private_Arm_Factory
 		FRA_National_Office_Agriulture
-		FRA_Continue_Electrification_France
 		# 1937
 		FRA_Keep_Vuillemin_in_Charge
 		FRA_begin_rearmament
-		FRA_Creat_SNCA
 		FRA_Politique_des_Prototypes
 		FRA_Feu_et_Acier
 		FRA_Franc_Devaluation
@@ -76,15 +72,12 @@ France_historical = {
 		FRA_War_On_Pacifism
 		# 1939
 		FRA_Buy_Amerian_Planes
-		FRA_Put_An_End_To_Parliament_Instability
 		FRA_Protect_Tunisia
 		FRA_Toulon_of_the_South
-		FRA_Hundred_Milions_Mens
 		FRA_La_Voie_Sacree
 		FRA_A_Force_to_Be_Reckoned_With
 		FRA_The_Maritime_Zones
 		FRA_Supreme_Role_OF_Machinegun
-		FRA_La_Voie_Sacree
 		# 1940
 		FRA_General_Mobilization
 		FRA_Form_War_Gouvernment
@@ -94,8 +87,8 @@ France_historical = {
 		FRA_The_Supreme_War_Council
 		FRA_Mobilize_the_Colonies
 		FRA_Plan_Mandel
-		FRA_Inter_Allied_Air_Command
-		FRA_Mass_Produce_H_Thirty_Nine
-		FRA_Hundred_Million_Bayonets
+		FRA_Desperate_Defence
+		FRA_The_Mediterranean_Retreat
+		FRA_Keep_Fighting_in_Africa
 	}
 }

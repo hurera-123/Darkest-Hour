@@ -365,6 +365,13 @@
  FRA_Front_Populaire_1936.5.d: "[FROM.GetNewsIcon]After much deliberation, France and the Soviet Union announced a defensive alliance today in Moscow. After both countries signed the accord, thunderous applause could be heard even outside the building.\n\nSince the SFIO assumed control of the French Republic, there has been talk of the countries forming a defence alliance as tensions in Europe escalate. Despite their opposing philosophies, the two countries have resolved to put aside their disagreements. While many communists and socialists in France and the Soviet Union welcomed the news, many were dissatisfied because they had hoped for a far more immediate relationship.\n\nThe international community's reaction has been varied; while some countries feel that this new defence alliance will stabilise Europe and slow the rise of fascism, many others are concerned that it will simply cause long-term diplomatic damage in Europe."
  FRA_Front_Populaire_1936.5.A: "Will this really stabilise Europe?"
 
+ FRA_Front_Populaire_1936.6.t: "The Nantes Congress"
+ FRA_Front_Populaire_1936.6.d: ""
+ FRA_Front_Populaire_1936.6.A: "We must protect European democracy!"
+ FRA_Front_Populaire_1936.6.B: "The protection of our workers is of absolute importance!"
+ FRA_Front_Populaire_1936.6.C: "Peace at all costs!"
+ FRA_Support_Blum_Faction: "§YYou have chosen the faction of Blum and Thorez§!"
+
  FRA_Front_Populaire_1936.8.t: "Integration of Algeria"
  FRA_Front_Populaire_1936.8.d: "After years of French colonial rule in Algeria, we have finally begun to discuss the African colony's integration and incorporation.\n\nSince Algeria's colonisation, the African colony has become a vital and important part of the republic, not only because it provides us with more naval and trade advantages in the Mediterranean, but also because it contains many valuable resources that benefit our economy, such as gold, iron, and coal.\n\nAnother reason why integration of the African colony would be beneficial is that Algeria has had many revolts over the years, most of which have been unsuccessful, but the revolts have destabilised the colony and caused unrest among the Algerian people due to how brutal some of the methods of clearing unrest have been. Algerian integration could potentially weaken the colony's opposition.\n\nFurthermore, the colony has been a part of the republic for so long that many people now consider Algeria to be a part of the French mainland, so integrating the colony makes perfect sense."
  FRA_Front_Populaire_1936.8.A: "How dare you say that Algeria isn’t a part of the mainland?"

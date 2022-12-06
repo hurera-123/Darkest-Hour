@@ -5100,6 +5100,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_P_D_Alexander_Bustamante"
+        texturefile = "gfx/leaders/JAM/P_D_Alexander_Bustamante.png"
+    }
+
+    spriteType = {
         name = "GFX_M_Akira_Muto"
         texturefile = "gfx/leaders/JAP/M_Akira_Muto.png"
     }

@@ -693,10 +693,9 @@ leader_traits = {
 	}
 	# Napoleon of Arabia
 	L_Napoleon_of_Arabia = {
-		supply_consumption_factor = -0.2
-		army_attack_factor = 0.25
-		army_org_factor = 0.2
-		heat_attrition_factor = -0.2
+		supply_consumption_factor = -0.1
+		army_attack_factor = 0.05
+		heat_attrition_factor = -0.1
 	}
 	### France ###
 	# Edouard Daladier #

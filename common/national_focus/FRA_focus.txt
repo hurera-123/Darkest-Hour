@@ -345,11 +345,9 @@ focus_tree = {
 		id = FRA_Continue_Herriot_Deflation
 		icon = GFX_FRA_Cut_The_Salaries_Of_Civil_Servants
 		cost = 28
+		relative_position_id = FRA_Side_with_the_Radicaux
 		x = 1
 		y = 2
-		relative_position_id = {
-			FRA_Side_with_the_Radicaux
-		}
 		prerequisite = {
 			focus = FRA_Side_with_the_Radicaux
 			focus = FRA_The_Concentration_Republicaine
@@ -1344,7 +1342,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = { 
-			add_stability = -0.1
+			country_event = { id = FRA_Front_Populaire_1936.6 }
 		}
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_STABILITY }
 	}
@@ -1361,6 +1359,9 @@ focus_tree = {
 		relative_position_id = FRA_War_On_Pacifism
 		x = 0
 		y = 2
+		available = {
+			has_country_flag = FRA_Support_Blum_Faction
+		}
 		completion_reward = { 
 			unlock_decision_category_tooltip = FRA_Containment_of_Fascism
 		}
@@ -3804,6 +3805,9 @@ focus_tree = {
 		y = 8
 		allow_branch = {
 			has_country_flag = FRA_General_Mobilization
+			NOT = {
+				has_cosmetic_tag = FRA_VICHY
+			}
 		}
 		available = {
 			always = no
@@ -4110,6 +4114,9 @@ focus_tree = {
 		y = 8
 		allow_branch = {
 			has_country_flag = FRA_Frances_Darkest_Hour
+			NOT = {
+				has_cosmetic_tag = FRA_VICHY
+			}
 		}
 		available = {
 			always = no
