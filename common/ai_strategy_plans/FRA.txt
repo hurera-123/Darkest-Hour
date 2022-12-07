@@ -41,7 +41,7 @@ France_historical = {
 		FRA_Protect_Local_Market
 		FRA_Gamelin_Static_Warfare
 		FRA_Marine_National
-		FRA_Ban_armed_Militaia
+		FRA_Ban_armed_Militias
 		# 1936
 		FRA_Prepare_The_Second_Trench_Warfare
 		FRA_Tactic_over_strategy

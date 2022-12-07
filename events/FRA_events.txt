@@ -205,6 +205,9 @@ country_event = {
 			}
 		}
 		hidden_effect = {
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
 			add_ideas = { FRA_Pierre_Laval_FM FRA_Joseph_Paganon_MoS FRA_Laurent_Eynac_AM }
 		}
 		add_stability = 0.05
@@ -402,6 +405,9 @@ country_event = {
 			}
 		}
 		hidden_effect = {
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
 			add_ideas = {FRA_Edouard_Daladier_FM FRA_Eugene_Frot_MoS FRA_Joseph_Paganon_AM}
 		}
 		add_political_power = 20
@@ -687,6 +693,9 @@ country_event = {
 			}
 		}
 		hidden_effect = {
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
 			add_ideas = {FRA_Louis_Barthou_FM FRA_Albert_Sarraut_MoS FRA_Pierre_Etienne_Flandin_AM}
 		}
 		hidden_effect = {
@@ -973,6 +982,7 @@ country_event = {
 	is_triggered_only = yes
 	immediate = {
 		hidden_effect = {
+			rem
 			if = {
 				limit = {
 					check_variable = {
@@ -1076,6 +1086,9 @@ news_event = {
 			}
 		}
 		hidden_effect = {
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
 			add_ideas = {FRA_Pierre_Laval_FM FRA_Marcel_Regnier_MoS FRA_Henri_Roy_AM}
 		}
 		set_temp_variable = { party_id = 5 } # AD
@@ -1162,7 +1175,7 @@ country_event = {
 				}
 				# Both Die as historical
 				news_event = { id = FRA_Assassination_of_Alexander_I.5 hours = 12 }
-				set_country_flag = Louis_Barthou_unavailable
+				retire_character = FRA_Louis_Barthou
 				add_ideas = FRA_Pierre_Laval_FM
 				YUG = {
 					deactivate_advisor = YUG_Aleksandar_I_HoG
@@ -1177,6 +1190,7 @@ country_event = {
 					25 = {
 						news_event = { id = FRA_Assassination_of_Alexander_I.5 hours = 12 }
 						set_country_flag = Louis_Barthou_unavailable
+						retire_character = FRA_Louis_Barthou
 						add_ideas = FRA_Pierre_Laval_FM
 						YUG = {
 							deactivate_advisor = YUG_Aleksandar_I_HoG
@@ -1204,6 +1218,7 @@ country_event = {
 					25 = {
 						news_event = { id = FRA_Assassination_of_Alexander_I.8 hours = 12 }
 						set_country_flag = Louis_Barthou_unavailable
+						retire_character = FRA_Louis_Barthou
 						add_ideas = FRA_Pierre_Laval_FM
 						country_event = { id = FRA_Assassination_of_Alexander_I.9 days = 2 }
 					}
@@ -1308,6 +1323,7 @@ country_event = {
 			set_temp_variable = { reform_progress_to_add = -10 }
 			FRA_add_reform_of_the_state_progress = yes
 		}
+		remove_ideas_with_trait = Position_Minister_of_Security
 		add_ideas = FRA_Paul_Marchandeau_MoS
 	}
 }
@@ -1779,13 +1795,18 @@ country_event = {
 		add_political_power = 100
 		if = {
 			limit = {
-				has_idea = FRA_Decret_Lois
+				has_idea = FRA_Full_Economic_Power
 			}
-			remove_ideas = FRA_Decret_Lois
+			remove_ideas = FRA_Full_Economic_Power
 		}
 		set_country_flag = FRA_Popular_Front_Victory
 		clr_country_flag = FRA_1936_Election_Unlocked
 		mark_focus_tree_layout_dirty = yes
+		set_party_name = {
+			ideology = democratic
+			long_name = "Front Populaire"
+			name = "FP"
+		}
 		hidden_effect = {
 			# Party Seats
 			set_variable = { party_influence_4 = 0.22 }	# FR
@@ -1844,9 +1865,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_idea = FRA_Decret_Lois
+				has_idea = FRA_Full_Economic_Power
 			}
-			remove_ideas = FRA_Decret_Lois
+			remove_ideas = FRA_Full_Economic_Power
 		}
 		complete_national_focus = FRA_Victory_of_the_Nouveau_Bloc_National
 		country_event = { id = FRA_1936_Election_Results.4 days = 31 }
@@ -1892,6 +1913,9 @@ country_event = {
 			}
 		}
 		hidden_effect = {
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
 			add_ideas = {FRA_Yvon_Delbos_FM FRA_Roger_Salengro_MoS FRA_Albert_Bedouce_AM}
 		}
 	}
@@ -2049,7 +2073,15 @@ country_event = {
 				}
 			}
 		}
+		set_party_name = {
+			ideology = democratic
+			long_name = "Parti Radical"
+			name = "RAD"
+		}
 		hidden_effect = {
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
 			add_ideas = {FRA_Georges_Bonnet_FM FRA_Albert_Sarraut_MoS FRA_Ludovic_Oscar_Frossard_AM}
 		}
 		hidden_effect = {
@@ -2542,17 +2574,6 @@ country_event = {
 	fire_only_once = no
 	is_triggered_only = yes
 	immediate = {
-		if = {
-			limit = { 
-				has_country_leader = {
-					name = "Joseph Paul-Boncour"
-				}
-			}
-			hidden_effect = {
-				remove_ideas_with_trait = Position_Armaments_Minister
-				add_ideas = {FRA_Joseph_Paganon_AM}
-			}
-		}
 		hidden_effect = {
 			set_temp_variable = { party_id = 4 } # FR
 			set_temp_variable = { support_to_add = 1 }
@@ -2594,6 +2615,22 @@ country_event = {
 			change_party_support = yes
 			set_temp_variable = { support_to_add = -0.8 }
 			change_party_support = yes
+		}
+		if = {
+			limit = { 
+				has_country_leader = {
+					name = "Joseph Paul-Boncour"
+				}
+			}
+			hidden_effect = {
+				remove_ideas_with_trait = Position_Armaments_Minister
+				add_ideas =  FRA_Joseph_Paganon_AM
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = "Parti Radical"
+				name = "RAD"
+			}
 		}
 	}
 	option = {
@@ -2704,24 +2741,51 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = FRA_Parliament.1.A
-		set_temp_variable = { party_id = 4 }
-		set_temp_variable = { support_to_add = -0.40 }
-		change_party_support = yes
-		set_temp_variable = { party_id = 5 }
-		set_temp_variable = { support_to_add = -0.40 }
-		change_party_support = yes
-		set_temp_variable = { party_id = 6 }
-		set_temp_variable = { support_to_add = -0.40 }
-		change_party_support = yes
-		set_temp_variable = { party_id = 7 }
-		set_temp_variable = { support_to_add = -0.40 }
-		change_party_support = yes
-		set_temp_variable = { party_id = 8 }
-		set_temp_variable = { support_to_add = -0.40 }
-		change_party_support = yes
-		set_temp_variable = { party_id = 9 }
-		set_temp_variable = { support_to_add = -0.40 }
-		change_party_support = yes
+		if = {
+			limit = { has_idea = FRA_The_Third_Republic }
+			set_temp_variable = { party_id = 4 }
+			set_temp_variable = { support_to_add = -0.40 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 5 }
+			set_temp_variable = { support_to_add = -0.40 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 6 }
+			set_temp_variable = { support_to_add = -0.40 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 7 }
+			set_temp_variable = { support_to_add = -0.40 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 8 }
+			set_temp_variable = { support_to_add = -0.40 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 9 }
+			set_temp_variable = { support_to_add = -0.40 }
+			change_party_support = yes
+		}
+		else_if = {
+			limit = { has_country_leader = FRA_Gaston_Doumergue }
+			add_political_power = -50
+		}
+		else = {
+			set_temp_variable = { party_id = 4 }
+			set_temp_variable = { support_to_add = -0.20 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 5 }
+			set_temp_variable = { support_to_add = -0.20 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 6 }
+			set_temp_variable = { support_to_add = -0.20 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 7 }
+			set_temp_variable = { support_to_add = -0.20 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 8 }
+			set_temp_variable = { support_to_add = -0.20 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 9 }
+			set_temp_variable = { support_to_add = -0.20 }
+			change_party_support = yes
+		}
 	}
 }
 
@@ -2803,7 +2867,7 @@ country_event = {
 	}
 	option = {
 		name = FRA_Events.38.A
-		set_temp_variable = { unemployment_value = 0.05 }
+		set_temp_variable = { unemployment_value = 0.03 }
 		add_unemployment_effect = yes
 	}
 }
@@ -2823,7 +2887,7 @@ country_event = {
 	}
 	option = {
 		name = FRA_Events.39.A
-		set_temp_variable = { unemployment_value = 0.05 }
+		set_temp_variable = { unemployment_value = 0.02 }
 		add_unemployment_effect = yes
 	}
 }

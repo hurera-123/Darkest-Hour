@@ -726,7 +726,7 @@ leader_traits = {
 	# Gastounet
 	L_Gastounet = {
 		stability_factor = 0.15
-		Minister_cost_factor = 0.30
+		Minister_cost_factor = -0.30
 	}
 	#Bad Health
 	L_Bad_Health = {
@@ -1836,10 +1836,10 @@ leader_traits = {
 	# Military Genius
 	CoArmy_Military_Genius = {
 		experience_gain_army = 0.15
-		army_org_factor = 0.10
-		army_morale_factor = 0.15
+		army_org_factor = 0.05
+		army_morale_factor = 0.05
 		breakthrough_factor = 0.1
-		planning_speed = 0.3
+		planning_speed = 0.15
 	}
 	################################################################################
 	## Chief of Navy traits
