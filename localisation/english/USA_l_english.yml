@@ -853,13 +853,13 @@
  USA_Japanese_Leaders_Trial.8.A: ""
 
  USA_Japanese_Leaders_Trial.9.t: "The Imperial Princes"
- USA_Japanese_Leaders_Trial.9.d: ""
- USA_Japanese_Leaders_Trial.9.A: "No man is too important to answer for his crimes"
- USA_Japanese_Leaders_Trial.9.B: "We can't afford to destabilize Japan"
+ USA_Japanese_Leaders_Trial.9.d: "The Japanese Army and its scientists were responsible for some of the worst things that ever happened on the Asian continent during the long years of the Pacific War. Some of these horrors included human experimentation programmes. The results of experiments aimed at testing human resistance to viruses, epidemics, or radiation are horrifying to see or even read.\n\nThe results of these experiments, which were partially funded and supplied by Tojo's government and his associates, were condemned by the Allies immediately after their discovery and are now being dismantled by joint Chinese and American forces in the region.\n\nA macabre discovery, however, has been made: the list of those responsible. Members of the Imperial Japanese Family have also been found on this list. Naruhiko, Prince Higashikuni; Yasuhito, Prince Chichibu; Takahito, Prince Mikasa; and Tsuneyoshi, Prince Takeda are among them. They are all involved in these crimes, in some way. The occupation forces are now faced with a dilemma: should they be tried for their crimes or forgiven because of their dynastic ties?"
+ USA_Japanese_Leaders_Trial.9.A: "No exceptions: they will be judged like all the others!"
+ USA_Japanese_Leaders_Trial.9.B: "We shouldn't alienate the imperial family, let them go free..."
 
  USA_Japanese_Leaders_Trial.10.t: "The Trial of the Princes"
- USA_Japanese_Leaders_Trial.10.d: ""
- USA_Japanese_Leaders_Trial.10.A: ""
+ USA_Japanese_Leaders_Trial.10.d: "Today, the court issued a special ruling: the Imperial Princes were sentenced for their ties to the Japanese atrocities in China. Naruhiko, Prince Higashikuni; Yasuhito, Prince Chichibu; Takahito, Prince Mikasa; and Tsuneyoshi, Prince Takeda were the accused.\n\nFirst, due to their lack of knowledge about the situation, Princes Naruhiko and Tsuneyoshi were sentenced to prison, which was later commuted to house arrest, in this case inside the royal palace in Tokyo.\n\nSecond, Prince Takahito, who was accused of knowing about the events but not being directly involved, was sentenced to ten years in prison with no possibility of commutation.\n\nFinally, Prince Yasuhito, who is accused of directly participating in some of the experiences. Despite his arguments that he has tuberculosis and thus should suffer no further harm from this war, the Emperor's Showa oldest brother was sentenced to death, and he now awaits his execution by hanging, which is expected after the trial concludes."
+ USA_Japanese_Leaders_Trial.10.A: "They got what they deserved, and justice has been done."
 
  USA_Japanese_Leaders_Trial.11.t: "The Trial of Akira Muto"
  USA_Japanese_Leaders_Trial.11.d: "Akira Muto is a well-known Japanese general as well as a war criminal. He was largely responsible for the rape of Nanking and the persecution of Philipine and Chinese prisoners of war and civilians.\n\nThe judges found Muto guilty of execution of a common plan or conspiracy to wage wars of aggression, and war or wars in violation of international law, waging unprovoked war on China, waging aggressive war against the United States of America, waging aggressive war against the British Commonwealth (Crown colonies and protectorates of the United Kingdom in the Far East and South Asia, Australia and New Zealand), and waging aggressive war against the Netherlands (Dutch East Indies). He will be sentenced to death by hanging at Sugamo Prison."
@@ -870,8 +870,8 @@
  USA_Japanese_Leaders_Trial.12.A: "Finally the \"Razor\" has faced justice..."
 
  USA_Japanese_Leaders_Trial.13.t: "The Sentences Are Given"
- USA_Japanese_Leaders_Trial.13.d: ""
- USA_Japanese_Leaders_Trial.13.A: ""
+ USA_Japanese_Leaders_Trial.13.d: "After months of deliberation and thousands of pages of notes, opinions, and other evidence, the judges are ready to deliver their verdict to the hundreds of accused. Even the imperial family had been accused of involvement, but despite their presence, one figure was conspicuously absent throughout the trial: Emperor Showa Hirohito.\n\nFor some, such as Shumei Okawa, the charges were dropped after our doctors determined that he was mentally unfit to stand trial. Yosuke Matsuoka and Osami Nagano died of natural causes during the trial, and their charges were also dropped.\n\nSentences have been handed down on either side. Six people have been sentenced to death for war crimes, crimes against humanity, and crimes against peace. They will be hanged once the trials are completed. Iwane Matsui, one of the defendants, was also sentenced to death for war crimes and crimes against humanity. He will also be hanged once the trials are completed.\n\nFinally, six defendants will spend the rest of their lives in prison due to their lack of involvement or knowledge of the situation during the operations.\n\nThose sentenced to death will be executed soon at Sugamo Prison. To oversee the process, an Allied Council will be formed."
+ USA_Japanese_Leaders_Trial.13.A: "Justice has finally been done. The war against human horror ends."
 
  USA_Japanese_Leaders_Trial.14.t: "The End of The Tokyo Trials"
  USA_Japanese_Leaders_Trial.14.d: "Today, after months of deliberations and talks between the two parties, the Tokyo Trials have come to an end.\n\nAlthough they were hesitant at first, the Japanese government accepted the verdict of the Military Tribunal of the Far East, which was in charge of the trials. A few articles have been written, and among them, Japan accepts all of those verdicts, as well as full support and provision of buildings for prison sentences and executions.\n\nSome argue that the government accepts suppressing the rights to grant clemency, reduce sentences, or even grant parole to those prisoners because of their crimes against humanity, thereby "taking away their right to humanity," as stated by an American representative.\n\nAs the trials come to an end, so does this bloody and painful chapter in Asia's history, and the region's future is irreversibly altered as a result."
@@ -1067,7 +1067,7 @@
 
  #### Defence Against Agression
  USA_Defence_Against_Agression_Category: "A Defense Against Aggression"
- USA_Defence_Against_Agression_Category_desc: ""
+ USA_Defence_Against_Agression_Category_desc: "The world's impending total war is becoming clearer by the day. While we must do everything possible to keep our people safe from the dangers of another war, we must also ensure that we are ready to fight if our great nation's security and strength are ever threatened.\n\nNothing gets done in this country without the people's support, so rallying their support and gradually stripping away their isolationist mentality should be the first step in preparing our country for war. We will launch propaganda campaigns to draw attention to the fact that, whether we like it or not, war is already being waged outside the United States, and that it may one day reach American shores as well."
 
  USA_Defence_Against_Agression_Mission: "A Defense Against Aggression"
  USA_Defence_Against_Agression_Mission_desc: ""
@@ -1117,7 +1117,7 @@
 
  ### Reciprocal Deals
  USA_Reciprocal_Deals_Category: "Reciprocal Deals"
- USA_Reciprocal_Deals_Category_desc: "\n\n\n£decision_header_USA_Reciprocal_Deals£\n\n\n\n"
+ USA_Reciprocal_Deals_Category_desc: "\n\n\n£decision_header_USA_Reciprocal_Deals£\n\n\n\nOur trade with the international community had previously suffered greatly due to the imposition of various tariffs and duties on imported and exported goods. However, we have recently been able to reduce these taxes and resume international trade.\n\nNow is the time to approach the various nations of the world and strike deals in which we lower our tariffs on imported goods in exchange for lower taxes on our exported goods. This will undoubtedly revitalize global trade and reinvigorate the American economy."
  USA_Doing_Reciprocal_Deal: "Doing a Trade Agreement"
  USA_Trade_Agreement_Reciprocal: "Reciprocal Trade Agreement"
  USA_Trade_Agreement_Reciprocal_opinion: "Reciprocal Trade Agreement"
@@ -1159,7 +1159,7 @@
 
  ### Landon's Private Investment Decisions
  USA_Landon_Private_Investments_Category: "Landon's Private Investments"
- USA_Landon_Private_Investments_Category_desc: "\n\n\n£decision_header_USA_Landons_Private_Investments£\n\n\n\n"
+ USA_Landon_Private_Investments_Category_desc: "\n\n\n£decision_header_USA_Landons_Private_Investments£\n\n\n\nPrivate companies and businesses are the lifeblood of the American economy as a capitalist nation. Many world-famous companies have their roots in American soil, and they undoubtedly contribute to America's image as a land of opportunity and wealth. Our great nation would not have been as prosperous and influential as it is today without entrepreneurship and investment.\n\nWhile previous administrations recognized the significance of these initiatives and supported them in theory, it has become painfully clear that this support has not been translated into practical action. This cannot continue. As a responsible government, we will now invest in these businesses to ensure their success, and thus the success of the American nation as a whole."
  USA_Encourage_Investment_In_Ford_Motors: "Encourage Investment In Ford Motors"
  USA_Encourage_Investment_In_Southwestern_Bell: "Encourage Investment In Southwestern Bell"
  USA_Encourage_Investment_In_US_Steel: "Encourage Investment In U.S. Steel"
@@ -1168,7 +1168,7 @@
 
  ### USACE Projects
  USA_USACE_Projects_Category: "USACE Projects"
- USA_USACE_Projects_Category_desc: "\n\n\n£decision_header_USA_USACE£\n\n\n\n"
+ USA_USACE_Projects_Category_desc: "\n\n\n£decision_header_USA_USACE£\n\n\n\nThe USACE has long been known for its adaptability and resourcefulness. Their official mission is to "deliver vital public and military engineering services; partnering in peace and war to strengthen our nation's security, energize the economy, and reduce disaster risks," and they have made significant progress in this regard for many years.\n\nWe will use their services to literally and metaphorically build up the United States. With their assistance, we will launch large-scale construction projects across the country, ranging from national infrastructure to military installations and resource extraction facilities. These will strengthen our economy and improve our standing on the global stage."
  USA_USACE_Projects_In_the_Northeast: "USACE Projects in the Northeast"
  USA_USACE_Projects_In_the_South: "USACE Projects in the South"
  USA_USACE_Projects_In_the_Midwest: "USACE Projects in the Midwest"
@@ -1184,7 +1184,7 @@
 
  ### Military Rearmament
  USA_Military_Rearmament_1940_Category: "Military Rearmament"
- USA_Military_Rearmament_1940_Category_desc: "\n\n\n£decision_header_USA_Military_Rearmament£\n\n\n\n§RAttention every decision will be selectable only two times!§!"
+ USA_Military_Rearmament_1940_Category_desc: "\n\n\n£decision_header_USA_Military_Rearmament£\n\n\n\nThe United States' strong industrial base was on display during the Great War, with our country arming the Entente in their fight against the Central Powers. However, with the end of the Great War and the Great Depression choking the American economy, our military industry has gradually fallen behind that of other world powers, leading many to believe that the US will be unable to arm itself or its allies if a large conflict erupts.\n\nObviously, this is not the case. Our industrial base is still as strong as ever, and if pushed hard enough, it could very well arm every single democratic nation in the world in their fight against tyranny. Now is the time to make that push and shift our manufacturing focus from consumer goods to weapons and ammunition.\n\n§RAttention every decision will be selectable only two times!§!"
  USA_Focus_on_Assembling_Infantry_And_Support_Weapons: "Focus on Assembling Infantry and Support Weapons"
  USA_Focus_on_Making_Big_Guns: "Focus on Making Big Guns"
  USA_Focus_on_Manufacturing_Armoured_Vehicles: "Focus on Manufacturing Armored Vehicles"
@@ -1196,7 +1196,7 @@
 
  ### Office of Coordination of Inter-American Affairs
  USA_The_Office_of_the_Coordinator_of_Inter_American_Affairs_Category: "The Office of the Coordinator of Inter-American Affairs"
- USA_The_Office_of_the_Coordinator_of_Inter_American_Affairs_Category_desc: "\n\n\n£decision_header_USA_The_Office_of_the_Coordinator_of_Inter_American_Affairs£\n\n\n\n"
+ USA_The_Office_of_the_Coordinator_of_Inter_American_Affairs_Category_desc: "\n\n\n£decision_header_USA_The_Office_of_the_Coordinator_of_Inter_American_Affairs£\n\n\n\nPresident James Monroe articulated a doctrine of separation between the Old and New Worlds over a century ago. Recognizing that a threat to any American nation was a threat to the United States, he urged Europe to stay away from the Americas. However, it has now been revealed that the Axis powers have been trying to influence various Latin American nations in order to gain their loyalty and possibly use them as a base to launch attacks on American soil.\n\nThis threat cannot be ignored any longer. We will try to counter Axis propaganda in the Americas and ensure the solidarity of all American nations in our struggle against war and violent ideologies."
  USA_Counter_Foreign_Influences_In_Latin_America: "Counter Foreign Influences in Latin America"
  USA_Improve_US_Latin_American_Relations: "Improve US-Latin American Relations"
  USA_Improve_US_Latin_American_Relations_opinion: "Improve US-Latin American Relations"
@@ -1236,7 +1236,7 @@
 
  ### De-Militarization
  USA_Gradual_Occupied_De_Militarization_Category: "Gradual Occupied De-Militarization"
- USA_Gradual_Occupied_De_Militarization_Category_desc: ""
+ USA_Gradual_Occupied_De_Militarization_Category_desc: "It is well known that the Nazis prioritized war and global dominance. As a result, the Nazis had been preparing the German military and the German economy for war for nearly two decades. As a byproduct, despite defeat, the German nation remains heavily militarized.\n\nWe can't start any reconstruction programs or rally the German people's support as long as the country is heavily militarized. Therefore, we will now begin the demilitarization of the German nation, beginning with the people and progressing to the economy and industrial base."
  USA_Ask_To_Fill_In_Questionnaires: "Ask to Fill in Questionnaires"
  USA_Verify_Claims_of_Participation: "Verify Claims of Participation"
  USA_Take_Control_of_the_German_Media: "Take Control of the German Media"
@@ -1248,7 +1248,7 @@
 
 ### Cash and Carry
 USA_Cash_and_Carry_Category: "Cash and Carry"
-USA_Cash_and_Carry_Category_desc: "\n\n\n£decision_header_USA_Cash_and_Carry£\n\n\n\n"
+USA_Cash_and_Carry_Category_desc: "\n\n\n£decision_header_USA_Cash_and_Carry£\n\n\n\nWhile our country values neutrality, it is becoming increasingly clear that absolute neutrality is an impossibility. With war raging in Europe and Asia, many nations are now facing the threat of tyranny in their homelands and are lacking the necessary materials and supplies to fight for their freedom and liberty.\n\nIt is our responsibility, as the self-proclaimed "Arsenal of Democracy," to assist our fellow democracies in their struggle. Although the Neutrality Acts have severely limited our options, we can still use the Cash and Carry clause to provide some assistance to these countries. American weapons will protect liberty around the world!"
 USA_Sell_Fighters_to_UK: "Sell Fighters to UK"
 USA_Send_Aid_to_China: "Send Aid to China"
 USA_Send_Aid_to_FRA: "Send Aid to France"
@@ -1271,7 +1271,7 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
 
 ### OSS
  USA_OSS_Category: "The Office of Strategic Services"
- USA_OSS_Category_desc: "\n\n\n£decision_header_USA_The_Office_of_Strategic_Services£\n\n\n\n"
+ USA_OSS_Category_desc: "\n\n\n£decision_header_USA_The_Office_of_Strategic_Services£\n\n\n\nIn the past, the United States was severely lacking in intelligence. While many nations developed extensive intelligence agencies to monitor every aspect of their nation and collect information from hostile nations, US intelligence remained decentralized and inefficient, posing a significant threat to national security. The Office of Strategic Services was established with these interests in mind.\n\nWe can now keep a better eye on both the domestic and international situation thanks to a centralized intelligence agency. The OSS continues to work tirelessly to protect American citizens and safeguard the United States."
  USA_Sow_Distrust: "Sow Distrust Among our Enemies' Population"
  USA_Sow_Distrust_cost: "£command_power §Y10§!"
  USA_Sow_Distrust_cost_blocked: "£command_power §R10§!"
@@ -1289,7 +1289,7 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
  USA_War_Plans_2_cost_blocked: "£command_power §R20§!"
 ### War Plans
  USA_War_Plans_Category: "The War Plans Division"
- USA_War_Plans_Category_desc: "\n\n\n£decision_header_USA_War_Plans£\n\n\n\n"
+ USA_War_Plans_Category_desc: "\n\n\n£decision_header_USA_War_Plans£\n\n\n\nhe American people's hard work and ingenuity have made the country one of the strongest in the world. There are, however, other major powers in the world. While we have been able to develop positive relationships with many of them, this does not always have to be the case. As a major power, the United States is constantly threatened by foreign attack.\n\nAs a result, the United States Armed Forces have created a number of color-coded war plans that outline potential strategies for a variety of hypothetical war scenarios. Now that these scenarios have transpired, we can use the invaluable knowledge provided by these war plans to strike our enemies and ensure an American victory!"
  USA_War_Plan_Black: "Enact War Plan Black"
  USA_War_Plan_Red: "Enact War Plan Red"
  USA_War_Plan_Gold: "Enact War Plan Gold"
@@ -1310,7 +1310,7 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
 
 ### Rainbow Plans
  USA_The_Rainbow_Plans_Category: "The Rainbow Plans"
- USA_The_Rainbow_Plans_Category_desc: "\n\n\n£decision_header_USA_War_Plans£\n\n\n\n"
+ USA_The_Rainbow_Plans_Category_desc: "\n\n\n£decision_header_USA_War_Plans£\n\n\n\nWhen events in Europe and Asia came to a head, our war planners realized that the United States might have to fight on multiple fronts across continents. The color-coded War Plans were ineffective in this regard because they were primarily focused on a single nation. As a result, they devised the so-called "Rainbow Plans," which foresaw and prepared for hemispheric warfare.\n\nNow that these scenarios have played out, we can use the invaluable information provided by these plans to strike our adversaries and ensure an American victory!"
  USA_Rainbow_1: "Enact Rainbow 1"
  USA_Rainbow_2: "Enact Rainbow 2"
  USA_Rainbow_3: "Enact Rainbow 3"
@@ -1320,7 +1320,7 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
 
 ### Air War Plans
  USA_Air_War_Plans_Division_Category: "Air War Plans Division"
- USA_Air_War_Plans_Division_Category_desc: "\n\n\n£decision_header_USA_Air_War_Plans_Division£\n\n\n\n"
+ USA_Air_War_Plans_Division_Category_desc: "\n\n\n£decision_header_USA_Air_War_Plans_Division£\n\n\n\n"Air superiority is the ultimate expression of military power," Prime Minister Churchill once said. It was crystal clear that control of the skies was required to achieve military victory, and as such, strengthening our aerial forces was required to ensure the USA's survival and victory.\n\nWith this in mind, an Air War Plans Division was established, and they have now developed various plans to ensure US air superiority in the various theatres of the war. These plans, which cover everything from production figures to details about offensive operations across continents, call for a complete overhaul of the US Air Force. If we stick to these plans, there is no doubt that we will win and that liberty will triumph in this fight against tyranny!"
  USA_Prepare_AWPD_1: "Prepare AWPD-1"
  USA_Enact_AWPD_1: "Enact AWPD-1"
  USA_Improve_AWPD_1: "Improve AWPD-1"
@@ -1335,7 +1335,7 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
 
  ### Filipino Situation
  USA_PHI_Situation_Category: "The Filipino Situation"
- USA_PHI_Situation_Category_desc: "\n\n\n£decision_header_USA_Filipino_Situation£\n\n\n\n"
+ USA_PHI_Situation_Category_desc: "\n\n\n£decision_header_USA_Filipino_Situation£\n\n\n\nEven though the majority of Filipinos recognize that the Philippine Islands rightfully belong to the United States, some continue to oppose their incorporation into our great nation. While these nationalistic elements appear to be scattered across the country, there is still the possibility that they will form a large network and one day overthrow the legitimate Filipino government.\n\nTo prevent the Philippines from devolving into anarchy and tyranny, we will root out these nationalists, destroy their networks, and crack down on so-called "independence" movements."
  USA_Reexamine_Dorr_V_USA: "Re-examine Dorr v. United States"
  USA_Reexamine_Dorr_V_USA.tt: "§YThis is but the first step in reversing the Insular Status of the Philippine Islands.§!"
  USA_Repeal_Tariffs_on_Filipino_Trade: "Repeal Tariffs on Filipino Trade"

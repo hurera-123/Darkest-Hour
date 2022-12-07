@@ -552,7 +552,7 @@ ideas = {
 				}
 			}
 			traits = {
-				
+				POSITION_Prime_Minister
 				L_Local_Tyrant
 			}
 		}

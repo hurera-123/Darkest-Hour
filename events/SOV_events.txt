@@ -3043,16 +3043,6 @@ country_event = {
 			transfer_state = 770
 			transfer_state = 163
 			transfer_state = 1091
-			create_country_leader = {
-				name = "Josep Tito"
-				picture = GFX_P_C_Josep_Broz_Tito_1950
-				expire = "1947.1.1"
-				ideology = stalinism
-				traits = {
-					POSITION_Prime_Minister
-					SUBIDEOLOGY_Stalinism
-				}
-			}
 			add_ideas = YUG_Ivan_Ribar_HoG
 			retire_character = YUG_Aleksandar_I
 			retire_character = YUG_Petar_II
@@ -3067,6 +3057,7 @@ country_event = {
 					ruling_party = communist
 					elections_allowed = no
 				}
+				set_cosmetic_tag = YUG_AVNOJ_communist
 			}
 		}
 		add_to_faction = YUG

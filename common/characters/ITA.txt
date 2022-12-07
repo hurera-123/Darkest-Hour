@@ -450,7 +450,7 @@ characters={
 		country_leader={
 			ideology=social_conservatism
 			traits={ 
-				POSITION_President
+				POSITION_Prime_Minister
 				SUBIDEOLOGY_Social_Conservatism
 				L_Backroom_Backstabber
 			}

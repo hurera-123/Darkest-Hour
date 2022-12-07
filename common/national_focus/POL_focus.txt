@@ -87,7 +87,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = POL_Charasmatic_Authoritarianism
+		id = POL_Charismatic_Authoritarianism
 		icon = GFX_GENERIC_Ideology_Authoritarian_Democracy
 		cost = 70
 		prerequisite = {
@@ -104,13 +104,13 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Ratify_April_Constitution
-		icon = GFX_GENERIC_New_Constitution
+		icon = GFX_focus_POL_complete_april_constitution
 		cost = 0
 		prerequisite = {
 			focus = POL_State_Sponsored_Assimilation
 		}
 		prerequisite = {
-			focus = POL_Charasmatic_Authoritarianism
+			focus = POL_Charismatic_Authoritarianism
 		}
 		available = {
 			always = no
@@ -121,7 +121,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Sanation_Left
-		icon = GFX_goal_unknown
+		icon = GFX_focus_POL_sanation_left
 		cost = 0
 		available = {
 			always = no
@@ -139,7 +139,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Chase_True_Enemy
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_war_with_comintern
 		cost = 70
 		prerequisite = {
 			focus = POL_Sanation_Left
@@ -149,8 +149,8 @@ focus_tree = {
 		y = 1
 	}
 	focus = {
-		id = POL_Beetween_the_seas_concept
-		icon = GFX_goal_unknown
+		id = POL_Between_the_seas_concept
+		icon = GFX_goal_generic_alliance
 		cost = 70
 		prerequisite = {
 			focus = POL_Chase_True_Enemy
@@ -161,29 +161,29 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Promethean_Project
-		icon = GFX_goal_unknown
+		icon = GFX_GENERIC_Ideology_Conservatism
 		cost = 70
 		prerequisite = {
-			focus = POL_Beetween_the_seas_concept
+			focus = POL_Between_the_seas_concept
 		}
-		relative_position_id = POL_Beetween_the_seas_concept
+		relative_position_id = POL_Between_the_seas_concept
 		x = -1
 		y = 1
 	}
 	focus = {
 		id = POL_Solidarity_Ruthenians
-		icon = GFX_goal_unknown
+		icon = GFX_focus_POL_ukrainian_army
 		cost = 70
 		prerequisite = {
-			focus = POL_Beetween_the_seas_concept
+			focus = POL_Between_the_seas_concept
 		}
-		relative_position_id = POL_Beetween_the_seas_concept
+		relative_position_id = POL_Between_the_seas_concept
 		x = 1
 		y = 1
 	}
 	focus = {
 		id = POL_Deal_With_Huns
-		icon = GFX_goal_unknown
+		icon = GFX_focus_attack_soviet
 		cost = 70
 		prerequisite = {
 			focus = POL_Promethean_Project
@@ -208,7 +208,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Legion_of_Merit
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_military_mission
 		cost = 70
 		prerequisite = {
 			focus = POL_Cooperate_with_Sosnowski
@@ -219,7 +219,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Doctrine_of_Defense
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_defence
 		cost = 70
 		prerequisite = {
 			focus = POL_Cooperate_with_Sosnowski
@@ -230,7 +230,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_San_Narew_Line
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_fortify_city
 		cost = 70
 		prerequisite = {
 			focus = POL_Legion_of_Merit
@@ -244,7 +244,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Castle_over_Varsaw
-		icon = GFX_goal_unknown
+		icon = GFX_focus_POL_the_castle
 		cost = 0
 		available = {
 			always = no
@@ -262,7 +262,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Budgetary_Reform
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_New_Budget
 		cost = 70
 		prerequisite = {
 			focus = POL_Castle_over_Varsaw
@@ -273,7 +273,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Consolidate_Elite_Support
-		icon = GFX_goal_unknown
+		icon = GFX_GENERIC_Modern_Elitism
 		cost = 70
 		prerequisite = {
 			focus = POL_Castle_over_Varsaw
@@ -284,7 +284,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Policy_Neutrality
-		icon = GFX_goal_unknown
+		icon = GFX_GENERIC_An_Act_Of_Neutrality
 		cost = 70
 		prerequisite = {
 			focus = POL_Budgetary_Reform
@@ -295,7 +295,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Ressurect_Galician_Oil
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_oil_refinery
 		cost = 70
 		prerequisite = {
 			focus = POL_Castle_over_Varsaw
@@ -306,7 +306,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Crush_Army_Influence
-		icon = GFX_goal_unknown
+		icon = GFX_focus_eng_move_to_secure_the_dominions
 		cost = 70
 		prerequisite = {
 			focus = POL_Ressurect_Galician_Oil
@@ -317,7 +317,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Heir_Of_Marshal
-		icon = GFX_goal_unknown
+		icon = GFX_focus_POL_consolidate_sanation_government
 		cost = 70
 		prerequisite = {
 			focus = POL_Policy_Neutrality
@@ -596,7 +596,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Keynesian_Economics
-		icon = GFX_goal_unknown
+		icon = GFX_focus_mex_privatisation
 		cost = 0
 		available = {
 			always = no
@@ -616,7 +616,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Expand_Silesian_Mining
-		icon = GFX_goal_unknown
+		icon = GFX_GENERIC_Coal_Mining
 		cost = 70
 		prerequisite = {
 			focus = POL_Keynesian_Economics
@@ -627,7 +627,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Attract_Western_Investement
-		icon = GFX_goal_unknown
+		icon = GFX_focus_GRE_reevaluating_the_drachma
 		cost = 70
 		prerequisite = {
 			focus = POL_Keynesian_Economics
@@ -638,7 +638,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Reinforce_Banking_Sector
-		icon = GFX_goal_unknown
+		icon = GFX_GENERIC_Restore_Confidence_in_the_Bank
 		cost = 70
 		prerequisite = {
 			focus = POL_Attract_Western_Investement
@@ -649,7 +649,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Continue_Rural_Education
-		icon = GFX_goal_unknown
+		icon = GFX_focus_POL_nationalist_education
 		cost = 70
 		prerequisite = {
 			focus = POL_Reinforce_Banking_Sector
@@ -663,7 +663,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Enrich_the_East
-		icon = GFX_goal_unknown
+		icon = GFX_GENERIC_Agrarian_Reform
 		cost = 70
 		prerequisite = {
 			focus = POL_Attract_Western_Investement
@@ -674,7 +674,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Finish_Warsaw_Station
-		icon = GFX_goal_unknown
+		icon = GFX_focus_POL_warsaw_main_station
 		cost = 70
 		prerequisite = {
 			focus = POL_Keynesian_Economics
@@ -685,7 +685,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Extend_Public_Works
-		icon = GFX_goal_unknown
+		icon = GFX_GENERIC_Public_Works
 		cost = 70
 		prerequisite = {
 			focus = POL_Enrich_the_East
@@ -699,7 +699,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Investment_Frenzy
-		icon = GFX_goal_unknown
+		icon = GFX_GENERIC_Stimulus_Plan
 		cost = 70
 		prerequisite = {
 			focus = POL_Continue_Rural_Education
@@ -1384,7 +1384,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Approve_New_Tank_Quotas
-		icon = GFX_GENERIC_Tank_Destroyers
+		icon = GFX_focus_generic_tank_production
 		cost = 70
 		prerequisite = {
 			focus = POL_All_is_Not_Yet_Lost
@@ -1481,7 +1481,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_The_Danzig_Gambit
-		icon = GFX_GENERIC_Coastal_Defense
+		icon = GFX_focus_POL_clamp_down_on_danzig
 		cost = 70
 		available = {
 			owns_state = 85
@@ -1570,7 +1570,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Offshore_Ship_Construction
-		icon = GFX_GENERIC_Navy
+		icon = GFX_focus_POL_develop_polish_shipbuilding
 		cost = 70
 		x = 3
 		y = 1
@@ -1606,7 +1606,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Embrace_the_Maritime_and_Colonial_League
-		icon = GFX_GENERIC_New_Constitution
+		icon = GFX_focus_POL_colonial_league
 		cost = 30
 		x = 5
 		y = 1
@@ -1754,7 +1754,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Open_PZL_Factory
-		icon = GFX_GENERIC_Militarize_Civilian_Airports
+		icon = GFX_focus_generic_aircraft_production
 		prerequisite = {
 			focus = POL_Warsaw_Airport
 		}
@@ -1802,7 +1802,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Support_from_the_Skies
-		icon = GFX_GENERIC_ASW_Tactics
+		icon = GFX_focus_generic_tank_air_support
 		cost = 40
 		prerequisite = {
 			focus = POL_Keep_Ludomil_Rayski
@@ -1930,7 +1930,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Aerial_Combat_Maneuvers
-		icon = GFX_GENERIC_International_Airport
+		icon = GFX_focus_generic_multi_role_aircraft
 		cost = 40
 		prerequisite = {
 			focus = POL_Appoint_Joseph_Zajac

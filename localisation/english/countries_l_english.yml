@@ -728,7 +728,7 @@
  ROM_SOV_AUTONOMY_SSR: "Romanian Soviet Socialist Republic"
  ROM_SOV_communist_AUTONOMY_Puppet: "Romanian Soviet Republic"
  ROM_SOV_communist_AUTONOMY_Satellite: "Romanian People's Republic"
- ROM_SOV_1946_communist_AUTONOMY_Satellite: "Kingdom of Romania"
+ ROM_SOV_1946: "Kingdom of Romania"
 
  ### Yugoslavia
  YUG_fascist: "Kingdom of Yugoslavia"
@@ -840,6 +840,9 @@
 
  ALB_ITA_fascist: "Kingdom of Albania"
  ALB_ITA_fascist_DEF: "The Kingdom of Albania"
+ 
+ ALB_1944_communist: "Democratic Government of Albania"
+ ALB_1944_communist_DEF: "The Democratic Government of Albania"
 
  ### Algeria
  ALG_fascist: "Algerian State"
@@ -1019,7 +1022,7 @@
  HUN_SOV_AUTONOMY_SSR: "Hungarian Soviet Socialist Republic"
  HUN_SOV_communist_AUTONOMY_Puppet: "Hungarian Soviet Republic"
  HUN_SOV_communist_AUTONOMY_Satellite: "Hungarian People's Republic"
- HUN_SOV_1946_communist_AUTONOMY_Satellite: "Hungarian Republic"
+ HUN_SOV_1946: "Republic of Hungary"
 
  ### Afghanistan
  AFG_fascist: "Kingdom of Afghanistan"

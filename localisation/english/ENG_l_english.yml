@@ -193,26 +193,35 @@
 #  British Mers El Kebir Events
 ######################################################################
  ENG_Raid_On_Mers_El_Kebir.1.t: "Somerville's Ultimatum"
- ENG_Raid_On_Mers_El_Kebir.1.d: ""
+ ENG_Raid_On_Mers_El_Kebir.1.d: "The commander of a British Carrier, Captain Cedric Holland, has just contacted us. He has issued an ultimatum on behalf of British Admiral James Somerville, the terms of which contradict the German-French armistice. We must surrender our most powerful fleet of warships at Mers-el-Kébir in French Algeria immediately, sail to British ports with a reduced crew, and join the fight against the German Reich. If this demand is not met, we will sail to the French West Indies to be demilitarised. If this deadline is not met, the British will launch an attack in six hours.\n\nAdmiral Marcel-Bruno Gensoul has been given three options for responding:\n\nThe first option is to comply with their demands and hand over our warships to the British. Some believe that a British attack would be disastrous for us and that we would have no chance of repelling it. This would significantly strengthen the British fleet while harming the Axis naval power.\n\nThe second and most popular option is to flatly refuse the demands and prepare for an attack by the British. This is our most powerful warship fleet, and it will easily dispatch the British hounds. If we succeed, the British will be humiliated, and our allegiance to the Axis will be cemented.\n\nThe third and most contentious option would be to sink the entire fleet. That way, even if things look hopeless for us, we won't give the British the satisfaction of capturing us and bolstering their fleet. This would not help the British or the Axis, but it would safeguard our honour in an otherwise hopeless situation."
  ENG_Raid_On_Mers_El_Kebir.1.A: "Vive la France libre!"
  ENG_Raid_On_Mers_El_Kebir.1.B: "We can't give them our ships, but they will not aid the Hun"
  ENG_Raid_On_Mers_El_Kebir.1.C: "We have no choice but to refuse their obscene demands"
  ENG_French_Fleet_Transferred_tt: "§Y4 Battleships and 5 Destroyers will be transferred to the British§!"
+
  ENG_Raid_On_Mers_El_Kebir.2.t: "The French Fleet Defects"
- ENG_Raid_On_Mers_El_Kebir.2.d: ""
+ ENG_Raid_On_Mers_El_Kebir.2.d: "Wonderful news! The French fleet of warships at Mers-el-Kébir in French Algeria has fully agreed to our demands and is on its way to British ports to fight the German Reich. This latest addition to our already formidable fleet will fortify the Allies and increase our chances of total naval superiority and dominance over the Axis powers. The Axis, on the other hand, have suffered a catastrophic loss today that they will not be able to recover from anytime soon. Now that we have control of such a powerful group of warships, it is time to take to the seas and show the Axis just how much they lost on this day!"
  ENG_Raid_On_Mers_El_Kebir.2.A: "We may still hang out that washing yet"
+
  ENG_Raid_On_Mers_El_Kebir.3.t: "The French Scuttle Their Fleet"
- ENG_Raid_On_Mers_El_Kebir.3.d: ""
+ ENG_Raid_On_Mers_El_Kebir.3.d: "The French sank their fleet instead of handing it over to the us.\n\nAfter our ultimatum, the French fleet of warships at Mers-el-Kébir in French Algeria was completely sunk, which surprised almost everyone. According to reports, the French sank them in order to avoid being captured by us. While this saves us the trouble of attacking and destroying them ourselves, we would have preferred if they had instead surrendered the fleet. Nonetheless the Axis powers have suffered a severe loss that they will not be able to recover from anytime soon now that this fleet has been destroyed."
  ENG_Raid_On_Mers_El_Kebir.3.A: "What Cowards..."
+
  ENG_Raid_On_Mers_El_Kebir.4.t: "The French Refuse"
- ENG_Raid_On_Mers_El_Kebir.4.d: ""
+ ENG_Raid_On_Mers_El_Kebir.4.d: "As expected, the French fleet of warships at Mers-el-Kébir in French Algeria has refused all of our demands and are determined to fight until the bitter end. Now that we've given them a chance to surrender, which they foolishly refused, it's time to demonstrate the Royal Navy's might. If we can't have these ships, the Axis can't be allowed to use them either. Because this was the expected response, we have already prepared everything for the attack, and we will strike within 6 hours. Sinking this fleet will serve as a show of strength to the rest of the Axis powers, as well as an example that defying the Allied fleet is unwise."
  ENG_Raid_On_Mers_El_Kebir.4.A: "If they aren't with us..."
+
  ENG_Raid_On_Mers_El_Kebir.5.t: "The French Navy Defects to the British!"
- ENG_Raid_On_Mers_El_Kebir.5.d: "[FROM.GetNewsIcon]"
- ENG_Raid_On_Mers_El_Kebir.5.A: ""
+ ENG_Raid_On_Mers_El_Kebir.5.d: "[FROM.GetNewsIcon]The Allies celebrated today as the entire French fleet at Mers-el-Kébir in French Algeria, including the French navy's most powerful warships under Admiral Marcel-Bruno Gensoul's command, arrived in British ports with reduced crews to surrender control in response to the United Kingdom's ultimatum. The French navy has joined the Allies in their fight against the Germans.\n\nRecognizing British naval superiority and knowing they had no chance of repelling a British attack, the Admiral agreed to all demands. This, in turn, represents a massive increase in naval power for the United Kingdom and the Allies, while the Axis and their naval power suffer a massive loss. Will this new fleet of powerful warships be able to successfully end the battle for the seas?"
+ ENG_Raid_On_Mers_El_Kebir.5.A: "Welcome old friends!"
+ ENG_Raid_On_Mers_El_Kebir.5.B: "Traitors!"
+ ENG_Raid_On_Mers_El_Kebir.5.C: "The French switch sides... again?"
+
  ENG_Raid_On_Mers_El_Kebir.6.t: "French Fleet Scuttled at Mers El Kebir!"
- ENG_Raid_On_Mers_El_Kebir.6.d: "[FROM.GetNewsIcon]"
- ENG_Raid_On_Mers_El_Kebir.6.A: ""
+ ENG_Raid_On_Mers_El_Kebir.6.d: "[FROM.GetNewsIcon]Following the United Kingdom's ultimatum to the French, the French fleet at Mers-el-Kébir in French Algeria, which included the French navy's most powerful warships, was completely and utterly destroyed, down to the last ship. According to early reports, it was not the Allies, the Axis, or any other foreign power that sank the fleet, but rather Admiral Marcel-Bruno Gensoul and his naval staff.\n\nWhile the exact reasons for this are unknown, one thing is certain: no one wins in this situation. These ships can no longer be used in the battle for naval supremacy by either the Allies or the Axis. It's bad for the Allies, but it's even worse for the Axis. It remains to be seen how far this incident will have an impact in the future, but for the time being, the battle for the seas continues."
+ ENG_Raid_On_Mers_El_Kebir.6.A: "Are they insane?"
+ ENG_Raid_On_Mers_El_Kebir.6.B: "The French play to no one."
+
  ENG_Raid_On_Mers_El_Kebir.7.t: "The British Attack at Mers El Kebir"
  ENG_Raid_On_Mers_El_Kebir.7.d: "[FROM.GetNewsIcon]The British Royal Navy has just attacked a French naval base at Mers-el-Kébir in French Algeria, in what will undoubtedly go down in history as one of the strangest events of the war. The British attacked their former ally's flotilla with the stated goal of sinking as many ships as possible in the harbor to prevent them from falling into Axis hands. After France rejected a British ultimatum to hand over their fleet, which would have violated France's surrender agreement with Germany, the British commander gave the order for his naval force to fire on the French ships.\n\nFollowing the French surrender, the French agreed to keep their navy neutral in exchange for the Germans granting relative autonomy in the zone libre, the free southern part of France. However, both Hitler and Churchill were dissatisfied with this arrangement. Hitler feared that the French would eventually join the British in their fight against Germany, whereas Churchill feared that the French navy would be swallowed up by the Italian and German Navies.\n\nThis has been viewed as a complete and utter betrayal by French civilians, who are already suffering a humiliating defeat at the hands of the Germans. German propaganda is already working hard to make this story go viral. Philippe Pétain, the French President, has monopolized the attacks by severing diplomatic ties with the United Kingdom. The attack has sparked debate even within the United Kingdom.\n\nOthers, on the other hand, interpret it as evidence that the unwavering British resolve to win this war has not yet been overcome."
  ENG_Raid_On_Mers_El_Kebir.7.A: "Regardless, it must be recognized as a tragedy that over a thousand French sailors were killed."
@@ -436,10 +445,10 @@
 #  Tizard's Research Events
 ######################################################################
  ENG_Tizards_Research.1.t: "Tizard's Experimental Research"
- ENG_Tizards_Research.1.d: ""
- ENG_Tizards_Research.1.A: "Leave Him Be"
- ENG_Tizards_Research.1.B: "Lower Funding"
- ENG_Tizards_Research.1.C: "Higher Funding"
+ ENG_Tizards_Research.1.d: "Scientist Henry Tizard, a former second lieutenant in the Great War known for his unusual training methods, has requested government funding and assistance to aid in the research of new methods of spotting aircraft.\n\nTizard has been researching and developing new methods for identifying aircraft, but unlike some other experts, his research has a lot of potential. Some government officials believe that funding Tizard's research would be a waste of money, while others believe that the government should invest heavily in his work.\n\nIf the government funds Tizard's research and the work is extensive, a new era in aeroplane detection technology will undoubtedly emerge."
+ ENG_Tizards_Research.1.A: "No funding or assistance from the government!"
+ ENG_Tizards_Research.1.B: "Only a tiny bit of funding from the government"
+ ENG_Tizards_Research.1.C: "A significant amount of funding from the government"
 
  ENG_Tizards_Research.2.t: "Tizard's Showcase"
  ENG_Tizards_Research.2.d: "Unsurprisingly, Tizard didn't do much to further his research after the government opted not to fund it.\n\nTizard was devastated and furious when he learned that the government had decided not to fund his research, but that was the decision, and it couldn't be changed. Tizard made an effort to advance his research further, but he was unable to do so due to a lack of funds and motivation.\n\nHowever, Tizard's research has only moderately helped. Although some government officials are currently having second thoughts, there is now nothing they can do."
@@ -540,8 +549,8 @@
  ENG_Ramsay_Events.1.A: "The health of the Prime Minister is very worrying"
 
  ENG_Ramsay_Events.2.t: "A Rogue Element"
- ENG_Ramsay_Events.2.d: ""
- ENG_Ramsay_Events.2.A: ""
+ ENG_Ramsay_Events.2.d: "With the rise of Adolf Hitler in Germany and Benito Mussolini in Italy, Oswald Mosley, the leader of the British Union of Fascists, poses a threat to the United Kingdom's political and internal security. His persuasive oratory skills could jeopardise the stability and unity of the United Kingdom and its Empire around the world. Worryingly, he has been seen with Edward the VIII and his mistress Wallis Simpson, as well as other important royal figures.\n\nThe MI5 has proposed that he be monitored more closely by listening in on his conversations with party members in order to keep an eye on him and his organisation.\n\nHopefully we can prevent the BUF from expanding further in this manner."
+ ENG_Ramsay_Events.2.A: "Let’s hope the King doesn’t have such radical thoughts..."
 
  ENG_Ramsay_Events.3.t: "Preventing A Future Headache"
  ENG_Ramsay_Events.3.d: "The British Union of Fascists has gained up to 50,000 members in recent years, mainly thanks to Oswald Mosley and his notable oratory skills that have helped to convince the public to provide financial support to the BUF, enabling it to challenge the political establishment. We must convince MI5 to launch a sting operation in cooperation with the London Metropolitan Police to arrest Mosley and other members of his organization. Thankfully they have already infiltrated his organization and we have plenty of evidence against him and his acolytes.\n\nBy detaining him, we will ensure that his organization and any other fascist movements that have appeared in our nation are shut down once and for all to ensure political stability within the United Kingdom and our Empire overseas. There can be no place in our nation for such radical and destructive views that threaten democracy itself!"
@@ -663,7 +672,7 @@
  ENG_Wartime_Tree.4.c: "We should aim for a more long term cooperation."
 
  ENG_Wartime_Tree.5.t: "Tizard successful"
- ENG_Wartime_Tree.5.d: "The US government has agreed to our proposal and have shared some of their research data with our delegation."
+ ENG_Wartime_Tree.5.d: "The Tizard Mission has been completed after a few months of waiting! The delegation did not return empty-handed: after lengthy negotiations, they obtained plans for RADAR technology, which should now aid us in the current war.\n\nEven if the collaborations with the American behemoth were not as fruitful as some would have liked, the RADAR is a significant step forward. Military industries have already installed them on planes and ships to improve visibility in Europe's seas and skies."
  ENG_Wartime_Tree.5.a: "Jolly good!"
 
  ENG_Wartime_Tree.6.t: "Tizard rejected"
@@ -740,49 +749,51 @@
 #  Wartime Decision Events
 ######################################################################
  Operation_Torch.1.t: "The Cherchell Conference"
- Operation_Torch.1.d: ""
- Operation_Torch.1.A: ""
+ Operation_Torch.1.d: "American Major General Mark Clark finally arrived in Cherchell, French Algeria, a few days ago. Arriving in the city's port during the night of October 21-22, the major arrived with a submarine, an unusual but functional choice. The goal of this manoeuvre is straightforward: he was sent here to meet with a Vichy French commander named Charles Mast.\n\nMast was chosen for a simple reason. He was arrested and detained because he was suspected of being an opponent of the Vichy Regime, and thus an opponent of Pétain, Hitler, or even Mussolini. His release was facilitated by a friend, colonel Numata, a Japanese military attaché in the Vichy regime. Mast has only been a chief of staff in North Africa since those events.\n\nDuring their discussions, Mast agreed not to intervene against the Allies when they begin landing in North Africa, and he also promised that his troops would not intervene. The two men parted at sunrise, both pleased with the new turn of events."
+ Operation_Torch.1.A: "A new victory for the free world!"
  Allies_Cherchell_Ended: "The Cherchell Conference has ended"
 
  Operation_Torch.2.t: "Albion Strikes"
- Operation_Torch.2.d: ""
- Operation_Torch.2.A: ""
+ Operation_Torch.2.d: "History was written in North Africa just a few days ago. The start of Operation Torch was finally carried out after months of planning.\n\nThe British forces, along with some American volunteers and, of course, Free French troops, have begun the invasion of Vichy France. The city of Algiers fell quickly thanks to the cooperation of French General Mast, but resistance has been stronger in Tunisia and Morocco, and some cities continue to resist the Allies' intervention. Fearing for their lives, some leaders have handed over the Tunisian Protectorate to the Germans, further delaying the operation's conclusion.\n\nHowever, in the cities that do not oppose us, a large number of settlers and soldiers are relieved to see the return of democracy in their lands, with some municipal buildings already flying the flag of free France as well as the English or American flags. Even if the fighting continues, North Africa's future will be assured in a few weeks in the name of the King and the Allies!"
+ Operation_Torch.2.A: "Will the rest of them follow us, or will they fight on the side of the Axis?"
 
  Operation_Torch.3.t: "Allies Defeated in French North Africa"
- Operation_Torch.3.d: "[FROM.GetNewsIcon]"
- Operation_Torch.3.A: ""
- Operation_Torch.3.B: ""
+ Operation_Torch.3.d: "[FROM.GetNewsIcon]Breaking news from French North Africa! Despite their best efforts to land peacefully in Algeria, the Allied forces were turned back into the Mediterranean Sea!\n\nAccording to journalists in the region, a soldier discovered the plot of the French commander Charles Mast and reported it to his superiors. Mast was quickly arrested, and the Vichy regime immediately sent more men to Africa to defend the colonies!\n\nThe fighting was brutal for both British and American troops, as many soldiers had died before reaching the beach. The Free France supporters in the city, led by one of De Gaulle's friends, have been missing for days, and everyone agrees that they were apprehended by Joseph Darnand's Milice.\n\nAccording to other reports, the situation in Tunisia and Morocco is not much better. Despite a successful landing in Agadir's south, the troops were surrounded by enemy forces and quickly imprisoned. The population has reacted negatively to this news across the Allies' sphere, and many are beginning to question the leaders' decisions."
+ Operation_Torch.3.A: "Like Gallipoli all over again..."
+ Operation_Torch.3.B: "Stay away, and don’t come back!"
+ Operation_Torch.3.C: "Another twist in the war."
 
  Operation_Torch.4.t: "Allies Landed in French North Africa"
  Operation_Torch.4.d: "[FROM.GetNewsIcon]"
  Operation_Torch.4.A: ""
  Operation_Torch.4.B: ""
+ Operation_Torch.4.C: ""
 
  Operation_Torch.5.t: "Operation Torch Succeeds"
- Operation_Torch.5.d: "[FROM.GetNewsIcon]"
- Operation_Torch.5.A: ""
- Operation_Torch.5.B: ""
- Operation_Torch.5.C: ""
- Operation_Torch.5.D: ""
- Operation_Torch.5.E: ""
+ Operation_Torch.5.d: "[FROM.GetNewsIcon]It took days to complete the operation, but the Allies finally defeated Vichy France! Or, at the very least, they have defeated their colonial forces. The landing, which was supported by American and British troops as well as hundreds of Free France volunteers, was a complete success!\n\nWhen the allied troops were close to cities, the resistance rose up against the collaborators in many cities, causing the Vichy troops to become disorganised completely.\n\nMorocco and Tunisia have caused the most trouble. When the troops try to set foot in Morocco, the garrison opens fire on them. After a few days, however, the garrison surrendered when Free France troops attacked them on a second front. The second issue stems from Tunisia, where the Vichy regime handed over the protectorate to German forces. Following tradition, the Teutons quickly dispatched a large number of troops and materials to consolidate their foothold in Africa.\n\nOverall, the operation was a huge success, and it was widely celebrated in the Allied world."
+ Operation_Torch.5.A: "We follow the torch of liberty!"
+ Operation_Torch.5.B: "Hopefully this won't upset the Germans."
+ Operation_Torch.5.C: "A painful thorn in our side."
+ Operation_Torch.5.D: "One step closer to liberating our home"
+ Operation_Torch.5.E: "A turning point?"
  FRA_HCFA_is_released: "§RDarlan has made a deal with the Allies, taking our territory in Africa with him§!"
 
  Operation_Torch.6.t: "Petain Signs the Pact of Steel"
- Operation_Torch.6.d: "[FROM.GetNewsIcon]"
- Operation_Torch.6.A: ""
- Operation_Torch.6.B: ""
+ Operation_Torch.6.d: "[FROM.GetNewsIcon]Today, dark clouds appeared in Europe's sky. Following the failure of Operation Torch, the French leader, Philippe Pétain, initiated a new rapprochement with the German Reich. He has officially asked the German chancellor to join the Axis, claiming that Vichy France has clearly demonstrated his military capabilities by rejecting Allies troops right in the sea.\n\nThe Reich quickly accepted the offer, and a few hours later, Hitler and Pétain made a public declaration in Paris, informing the French people that the French State was now a partner in the conflict with Germany and Italy.\n\nFollowing the declaration, most collaborationist leaders, including Milice leader Joseph Darnand, RNP leader Marcel Déat, and PPF leader Jacques Doriot, celebrated the new cooperation with military parades in the streets of Paris, Bordeaux, Marseille, and Vichy.\n\nEven Pétain's second in command, Pierre Laval, has endorsed the situation, claiming that "after such a defeat, our enemies will think twice before launching another attack against France!""
+ Operation_Torch.6.A: "The French State sinks further into darkness."
+ Operation_Torch.6.B: "Congratulations to our new allies!"
  Operation_Torch.6.C: ""
 
  Operation_Torch.7.t: "Romance of the Three Nations"
- Operation_Torch.7.d: ""
- Operation_Torch.7.A: ""
+ Operation_Torch.7.d: "It's been a long time since France has been so divided. Even during the Paris Commune of 1870-1871, we were not as divided as we are today.\n\nFollowing years of division in French society, tens of movements have emerged, gradually fracturing the country. The worst was in 1934, when the leagues attempted to permanently demolish the government. And, based on the situation today, it appears that some of them have finally gotten what they want.\n\nFollowing the fall of France, Maréchal Phillipe Pétain obtained full powers and, rather than using them to push back the Germans, began peace talks with them. After a few hours, Hitler declared the occupation of North France, and the Vichy Regime took control of the south.\n\nAt the same time, the young General Charles de Gaulles decided not to resign, and a few days after the declaration, he issued a call from London to the French to resist the Germans and join Free France in fighting fascism and collaborators.\n\nFinally, in North Africa, Admiral François Darlan attempts to consolidate control in his French Civil and Military High Command, and no one knows to whom he will pledge allegiance for the time being."
+ Operation_Torch.7.A: "Who will win in the end? Collaborationists or the Resistance? Fascists or Republicans?"
 
 ######################################################################
 #  Baldwin Events
 ######################################################################
  ENG_Baldwin_Events.1.t: "Continuing the Anglo-German Naval Negotiations"
- ENG_Baldwin_Events.1.d: ""
- ENG_Baldwin_Events.1.A: ""
+ ENG_Baldwin_Events.1.d: "Germany presented their own demand at the World Disarmament Conference, known as "Gleichberechtigung," or the repeal of Part V of the Treaty of Versailles. Germany was eventually allowed to partially rearm its own nation after several discussions and agreements.\n\nGermany's diplomatic stance has gradually shifted since then. It is gradually seeing Britain as a potential ally and communicating with it amicably. During the official negotiations of the British-German naval treaty, however, the British envoy Simon and the German diplomat Ribbentrop disagreed.\n\nBecause Baldwin's administration wished to avoid an armaments race with Germany, the British cabinet voted in favour of a motion to continue talks. They informed Ribbentrop and his delegation that the British side agreed that the Kriegsmarine's total tonnage would be 35% of the Royal Navy's total tonnage on a permanent basis.\n\nThe negotiations went on smoothly. Britain's new foreign secretary believes it is the start of an Anglo-German alliance."
+ ENG_Baldwin_Events.1.A: "Let us hope for a good deal!"
 
  ENG_Baldwin_Events.2.t: "A New Governmental Mandate"
  ENG_Baldwin_Events.2.d: ""
@@ -822,12 +833,12 @@
 #  Chamberlain Events
 ######################################################################
  ENG_Chamberlain_Events.1.t: "The Irish Constitution"
- ENG_Chamberlain_Events.1.d: ""
- ENG_Chamberlain_Events.1.A: ""
+ ENG_Chamberlain_Events.1.d: "Since the end of the Irish War of Independence in 1921, the creation of an Irish constitution has been a top priority. The Irish Constituent Assembly adopted the Irish Free State Constitution in 1922, but it still needs to be revised because Ireland's freedom is not fully realised.\n\nAs a result, despite constituting only 38% of the electorate, 56% of Irish residents supported the formation of the Irish constitution in the referendum on July 1, 1937.\n\nAccording to the Irish Constitution, Ireland is a sovereign autonomous state, not a vassal state or a territory of another government. Citizens in Ireland are free to make their own choices, and only a referendum can change the constitution.\n\nIreland has a bicameral legislative system, a separation of powers system, and judicial review. The constitution is based on a representative democracy, which requires the president to be elected as the head of state."
+ ENG_Chamberlain_Events.1.A: "Let's hope this brings stability."
 
  ENG_Chamberlain_Events.2.t: "Britannia at War"
- ENG_Chamberlain_Events.2.d: ""
- ENG_Chamberlain_Events.2.A: ""
+ ENG_Chamberlain_Events.2.d: "The Great War cost us the best of a generation, and our citizens hope that there will never be another war, allowing us to advance in peace and stability.\n\nHowever, the German declaration of war quickly dashed these hopes. Since Germany declared war on the European continent, our Prime Minister Chamberlain has advocated for an appeasement strategy. He even used the phrase "a generation of peace" to describe the shaky peace treaty he signed with Germany.\n\nIn retrospect, Chamberlain waving his paper and seeing the misery of our European brethren, which eventually resulted in the war that Germany began coming to our UK, appears farcical.\n\nNow that we are involved in another war, we must think carefully about the future of our country and nation, and we must not allow the proud empire on which the sun never sets to be dismembered by other countries."
+ ENG_Chamberlain_Events.2.A: "We shall never surrender!"
 
 ######################################################################
 #  British Focuses

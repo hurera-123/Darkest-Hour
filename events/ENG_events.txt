@@ -1749,12 +1749,40 @@ news_event = {
 	id = ENG_Raid_On_Mers_El_Kebir.5
 	title = ENG_Raid_On_Mers_El_Kebir.5.t
 	desc = ENG_Raid_On_Mers_El_Kebir.5.d
-	picture = GFX_report_ENG_Future_of_Warfare
+	picture = GFX_
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = yes
 	option = {
 		name = ENG_Raid_On_Mers_El_Kebir.5.A
+		trigger = {
+			OR = {
+				tag = ENG
+				is_in_faction_with = ENG
+			}
+		}
+	}
+	option = {
+		name = ENG_Raid_On_Mers_El_Kebir.5.B
+		trigger = {
+			OR = {
+				tag = GER
+				is_in_faction_with = GER
+			}
+		}
+	}
+	option = {
+		name = ENG_Raid_On_Mers_El_Kebir.5.C
+		trigger = {
+			NOT = {
+				OR = {
+					tag = ENG
+					tag = GER
+					is_in_faction_with = ENG
+					is_in_faction_with = GER
+				}
+			}
+		}
 	}
 }
 
@@ -1765,12 +1793,33 @@ news_event = {
 	id = ENG_Raid_On_Mers_El_Kebir.6
 	title = ENG_Raid_On_Mers_El_Kebir.6.t
 	desc = ENG_Raid_On_Mers_El_Kebir.6.d
-	picture = GFX_report_ENG_Future_of_Warfare
+	picture = GFX_
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = yes
 	option = {
 		name = ENG_Raid_On_Mers_El_Kebir.6.A
+		trigger = {
+			OR = {
+				tag = ENG
+				is_in_faction_with = ENG
+				tag = GER
+				is_in_faction_with = GER
+			}
+		}
+	}
+	option = {
+		name = ENG_Raid_On_Mers_El_Kebir.6.B
+		trigger = {
+			NOT = {
+				OR = {
+					tag = ENG
+					tag = GER
+					is_in_faction_with = ENG
+					is_in_faction_with = GER
+				}
+			}
+		}
 	}
 }
 
