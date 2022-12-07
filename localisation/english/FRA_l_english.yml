@@ -1021,8 +1021,8 @@
  FRA_Formalize_the_Post_of_President_du_Conseil: "Formalise the Post of Président du Conseil"
  FRA_Formalize_the_Post_of_President_du_Conseil_desc: ""
 
- FRA_Ban_armed_Militaia: "Ban Armed Militias"
- FRA_Ban_armed_Militaia_desc: "While the Fascist Organizations and parties are still small and in the grand scheme of things simply irrelevant, their vehement opposition to everything this state stands for and their tendency for violence, accompanied by fanatical paramilitaries and thuggish followers, it is no surprise that the existence of these Organizations and Parties has become a major undermining factor to the stability of our Republic.\nTo exploit the Fascist's current weakness and limit the damages they have already done to France, it has become a necessity to quickly and decisively crack-down on any Fascist organization, in a series of countrywide raids, mass arrests, and forced dissolutions."
+ FRA_Ban_armed_Militias: "Ban Armed Militias"
+ FRA_Ban_armed_Militias_desc: "While the Fascist Organizations and parties are still small and in the grand scheme of things simply irrelevant, their vehement opposition to everything this state stands for and their tendency for violence, accompanied by fanatical paramilitaries and thuggish followers, it is no surprise that the existence of these Organizations and Parties has become a major undermining factor to the stability of our Republic.\nTo exploit the Fascist's current weakness and limit the damages they have already done to France, it has become a necessity to quickly and decisively crack-down on any Fascist organization, in a series of countrywide raids, mass arrests, and forced dissolutions."
 
 ### National Union ###
 
@@ -1685,6 +1685,9 @@
  FRA_Scars_of_the_Great_War: "Scars of the Great War "
  FRA_Scars_of_the_Great_War_desc: ""
 
+ FRA_Full_Economic_Power: "Full Economic Power"
+ FRA_Full_Economic_Power_desc: ""
+
  FRA_Les_5_Glorieuses: "Les Cinq Glorieuses"
  FRA_Les_5_Glorieuses_desc: ""
 
@@ -1912,6 +1915,7 @@
 
  ### Economy
  FRA_Budget_Austerity: "Budget Austerity"
+ FRA_Invest_in_Great_Works: "Invest in Great Works"
  FRA_Franc_Devaluation: "Devalue the Franc"
  FRA_Creation_of_the_Compagnie_Nationale_du_Rhone: "Creation of the Compagnie Nationale du Rhône"
  FRA_Continue_construction_of_Autoroutes: "The Plan Frost"
@@ -2109,6 +2113,7 @@
  FRA_Les_Grandes_Reformes_Sociales_category_desc: "\n\n\n£decision_header_FRA_Les_Grandes_Reformes_Sociales£\n\n\n\n"
  FRA_Applied_the_Programe_of_the_Front: "Apply the Program of the Front"
  FRA_Jean_Zays_Reforms: "Jean Zay's Reforms"
+ FRA_Nationalize_the_Air_Industry: "Nationalize the Air Industry"
  
  ### Le Pacte Oriental
  FRA_Eastern_Pact_category: "The Eastern Pact"
@@ -2176,6 +2181,10 @@
  FRA_OTHER_SUPPORT_BAR_TEXT: "Undecided ([?FRA_Undecided_Support|2%%Y])"
 
  ### Tooltips
+
+ Separation_tt: "-------------------------------------------------------------"
+ FRA_Parliament_Info_tt: "§RThe success of the law will depend of your total support in the parliament.§!"
+ FRA_Launched_the_Reform_of_the_State: "§RCurrently Working on the Reform of the State§!"
 
  FRA_Third_Republic_tt: "§RIf your total parliament support falls below 40%, the current government will fall.§!."
  FRA_Nouvelle_Grande_Armee_tt: "§R The New Grande Armee will rise!§!"

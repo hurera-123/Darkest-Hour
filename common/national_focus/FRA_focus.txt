@@ -18,7 +18,7 @@ focus_tree = {
 		id = FRA_Cartel_des_Gauches
 		icon = GFX_GENERIC_Ideology_Democratic_Socialism
 		cost = 0
-		x = -2
+		x = 0
 		y = 0
 		allow_branch = {
 			is_democratic = yes
@@ -32,7 +32,8 @@ focus_tree = {
 		id = FRA_National_republican_League
 		icon = GFX_GENERIC_Ideology_Conservatism
 		cost = 0
-		x = 1
+		relative_position_id = FRA_Cartel_des_Gauches
+		x = 4
 		y = 0
 		allow_branch = {
 			is_democratic = yes
@@ -85,7 +86,7 @@ focus_tree = {
 		icon = GFX_GENERIC_Populist_Politics
 		cost = 28
 		relative_position_id = FRA_Apply_Huygen_Books
-		x = -1
+		x = 0
 		y = 1
 		available = {
 			hidden_trigger = {
@@ -136,7 +137,7 @@ focus_tree = {
 		icon = GFX_GENERIC_Road_Construction
 		cost = 56
 		relative_position_id = FRA_Apply_Huygen_Books
-		x = 1
+		x = 2
 		y = 1
 		available = {
 			hidden_trigger = {
@@ -250,7 +251,7 @@ focus_tree = {
 		icon = GFX_FRA_RAD_AD_FR
 		cost = 28
 		relative_position_id = FRA_Cartel_des_Gauches
-		x = 1
+		x = 2
 		y = 1
 		available = {
 			hidden_trigger = {
@@ -346,8 +347,8 @@ focus_tree = {
 		icon = GFX_FRA_Cut_The_Salaries_Of_Civil_Servants
 		cost = 28
 		relative_position_id = FRA_Side_with_the_Radicaux
-		x = 1
-		y = 2
+		x = 2
+		y = 1
 		prerequisite = {
 			focus = FRA_Side_with_the_Radicaux
 			focus = FRA_The_Concentration_Republicaine
@@ -387,6 +388,9 @@ focus_tree = {
 			add_unemployment_effect = yes
 			add_stability = 0.025
 			add_political_power = -25
+			set_temp_variable = { party_id = 8 } # SFIO
+			set_temp_variable = { support_to_add = -0.05 }
+			change_party_support = yes
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 	}
@@ -537,7 +541,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY }
 	}
 	focus = {
-		id = FRA_Ban_armed_Militaia
+		id = FRA_Ban_armed_Militias
 		icon = GFX_GENERIC_Dissolve_Fascist_Organizations
 		cost = 56
 		available = {
@@ -547,6 +551,7 @@ focus_tree = {
 				}
 			}
 			has_idea = FRA_Milices_Fascistes
+			date > 1934.2.6 
 		}
 		relative_position_id = FRA_Reorganize_Wheat_Market
 		x = 0
@@ -565,7 +570,7 @@ focus_tree = {
 		id = FRA_National_Union_Government
 		icon = GFX_GENERIC_Parliament
 		cost = 28
-		x = 7
+		x = 10
 		y = 0
 		allow_branch = {
 			has_country_flag = National_Union_Doumergue
@@ -611,7 +616,7 @@ focus_tree = {
 			focus = FRA_National_Union_Government
 		}
 		relative_position_id = FRA_National_Union_Government
-		x = 2
+		x = 3
 		y = 1
 		completion_reward = {
 			custom_effect_tooltip = FRA_Fixing_the_Current_Situation_tt
@@ -628,6 +633,77 @@ focus_tree = {
 				modifier_value = -0.05
 			}
 			change_unemployment_value_modifier = yes
+		}
+	}
+	focus = {
+		id = FRA_Full_Economic_Power_for_the_Wise
+		icon = GFX_FRA_Constitution
+		cost = 56
+		available = {
+			has_country_flag = FRA_Reform_of_the_State_Success
+		}
+		prerequisite = {
+			focus = FRA_Fix_the_Current_Situation
+		}
+		relative_position_id = FRA_Fix_the_Current_Situation
+		x = 0
+		y = 1
+		completion_reward = { 
+			add_ideas = FRA_Full_Economic_Power
+		}
+	}
+	focus = {
+		id = FRA_Establish_the_Commissariat_au_Plan
+		icon = GFX_FRA_Establish_the_Commissariat_au_Plan
+		cost = 56
+		prerequisite = {
+			focus = FRA_Full_Economic_Power_for_the_Wise
+		}
+		relative_position_id = FRA_Full_Economic_Power_for_the_Wise
+		x = -1
+		y = 1
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = FRA_Renaissance_Republicaine
+				add_idea = FRA_Renaissance_Republicaine_2
+			}
+		}
+	}
+	focus = {
+		id = FRA_Establish_the_French_Regions
+		icon = GFX_FRA_Establish_the_French_Regions
+		cost = 56
+		prerequisite = {
+			focus = FRA_Full_Economic_Power_for_the_Wise
+		}
+		relative_position_id = FRA_Full_Economic_Power_for_the_Wise
+		x = 1
+		y = 1
+		completion_reward = { 
+			every_core_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+			add_political_power = 200
+		}
+	}
+	focus = {
+		id = FRA_A_New_Era_of_Prosperity
+		icon = GFX_FRA_New_Era_of_Prosperity
+		cost = 56
+		prerequisite = {
+			focus = FRA_Establish_the_Commissariat_au_Plan
+		}
+		prerequisite = {
+			focus = FRA_Establish_the_French_Regions
+		}
+		relative_position_id = FRA_Establish_the_Commissariat_au_Plan
+		x = 1
+		y = 1
+		completion_reward = { 
+			add_timed_idea = {
+				idea = FRA_Les_5_Glorieuses
+				days = 1825
+			}
 		}
 	}
 	focus = {
@@ -814,8 +890,8 @@ focus_tree = {
 		available = {
 			has_country_flag = FRA_Popular_Front_Victory
 		}
-		x = -1
-		y = 6
+		x = 2
+		y = 7
 		allow_branch = {
 			#has_country_flag = FRA_Popular_Front_Victory
 			is_democratic = yes
@@ -913,6 +989,8 @@ focus_tree = {
 			}
 		}
 		completion_reward = { 
+			set_temp_variable = { unemployment_value = -0.01}
+			add_unemployment_effect = yes
 			random_owned_controlled_state = {
 				limit = {
 					is_core_of = FRA
@@ -946,6 +1024,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			unlock_decision_tooltip = FRA_Nationalize_the_Air_Industry
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
@@ -1780,7 +1859,7 @@ focus_tree = {
 		icon = GFX_FRA_Armee_de_Terre
 		cost = 14
 		cancelable = no
-		x = 19
+		x = 23
 		y = 0
 		offset = {
 			x = -7
@@ -2548,7 +2627,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = 34
+		x = 38
 		y = 0
 		offset = {
 			x = -7
@@ -2890,7 +2969,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = 46
+		x = 50
 		y = 0
 		offset = {
 			x = -7
@@ -3438,7 +3517,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = -10
+		x = -7
 		y = 0
 		completion_reward = {
 			unlock_decision_category_tooltip = FRA_Colonial_Empire_category

@@ -378,7 +378,7 @@ recruit_character = FRA_Henri_Mordacq
 		FRA_Albert_Lebrun_HoG
 		FRA_Joseph_Paul_Boncour_FM
 		FRA_Georges_Bonnet_AM
-		FRA_Marx_Darnoy_MoS
+		FRA_Camille_Chautemps_MoS
 		FRA_Joseph_Paganon_HoI
 		# Military Staff
 		FRA_Maurice_Gamelin_CoArmy
