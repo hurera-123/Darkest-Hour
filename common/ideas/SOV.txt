@@ -2291,7 +2291,7 @@ ideas = {
 				planning_speed = 0.05
 			}
 		}
-		SOV_Operation_Groza_2  ={
+		SOV_Operation_Groza_2 = {
 			allowed = {
 				always = no
 			}
@@ -2332,6 +2332,84 @@ ideas = {
 				planning_speed = 0.15
 				army_morale_factor = 0.1
 				army_speed_factor = 0.05
+			}
+		}
+		SOV_Operation_Groza_Military_Industry = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
+		SOV_Operation_Groza_Draft_Mobilization = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_
+
+			modifier = {
+				mobilization_speed = 0.1
+				conscription_factor = 0.1
+			}
+		}
+		SOV_Operation_Groza_Air_Superiority = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_
+
+			modifier = {
+				production_speed_air_base_factor = 0.1
+			}
+			equipment_bonus = {
+				fighter = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
+		SOV_Operation_Groza_Baltic_Seaports = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_
+
+			modifier = {
+				industrial_capacity_dockyard = 0.1
+				production_speed_dockyard_factor = 0.1
 			}
 		}
 		SOV_Operation_Groza_Completed = {

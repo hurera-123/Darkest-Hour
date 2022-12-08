@@ -84,6 +84,17 @@ set_up_decisions_for_war_room_operation_1 = {
 }
 
 complete_war_room_operation_1 = {
+	hidden_effect = {
+		remove_ideas = {
+			SOV_Operation_Groza_1
+			SOV_Operation_Groza_2
+			SOV_Operation_Groza_3
+			SOV_Operation_Groza_Military_Industry
+			SOV_Operation_Groza_Draft_Mobilization
+			SOV_Operation_Groza_Air_Superiority
+			SOV_Operation_Groza_Baltic_Seaports
+		}
+	}
 	add_political_power = 100
 	add_war_support = 0.1
 	add_stability = 0.05
@@ -95,6 +106,18 @@ complete_war_room_operation_1 = {
 }
 
 fail_war_room_operation_1 = {
+	hidden_effect = {
+		remove_ideas = {
+			SOV_Operation_Groza_1
+			SOV_Operation_Groza_2
+			SOV_Operation_Groza_3
+			SOV_Operation_Groza_Military_Industry
+			SOV_Operation_Groza_Draft_Mobilization
+			SOV_Operation_Groza_Air_Superiority
+			SOV_Operation_Groza_Baltic_Seaports
+			SOV_Operation_Groza_Completed
+		}
+	}
 	add_political_power = -100
 	add_stability = -0.1
 	add_war_support = -0.1
@@ -242,7 +265,10 @@ war_room_operation_decision_remove_effect_operation_groza_decision_assure_produc
 	show_remove_effect_war_room_operation_decision_general_tooltip = yes
 	set_temp_variable = { amount = 5 }
 	add_war_room_operation_progress = yes
-	army_experience = 5
+	add_timed_idea = {
+		idea = SOV_Operation_Groza_Military_Industry
+		days = 150
+	}
 }
 war_room_operation_decision_cancel_effect_operation_groza_decision_assure_production_in_the_military_industry = {
 #	show_cancel_effect_war_room_operation_decision_general_tooltip = yes
@@ -257,7 +283,10 @@ war_room_operation_decision_remove_effect_operation_groza_decision_draft_mobiliz
 	show_remove_effect_war_room_operation_decision_general_tooltip = yes
 	set_temp_variable = { amount = 15 }
 	add_war_room_operation_progress = yes
-	army_experience = 5
+	add_timed_idea = {
+		idea = SOV_Operation_Groza_Draft_Mobilization
+		days = 150
+	}
 }
 war_room_operation_decision_cancel_effect_operation_groza_decision_draft_mobilization_order_41 = {
 #	show_cancel_effect_war_room_operation_decision_general_tooltip = yes
@@ -402,7 +431,10 @@ war_room_operation_decision_remove_effect_operation_groza_decision_assure_air_su
 	show_remove_effect_war_room_operation_decision_general_tooltip = yes
 	set_temp_variable = { amount = 15 }
 	add_war_room_operation_progress = yes
-	air_experience = 5
+	add_timed_idea = {
+		idea = SOV_Operation_Groza_Air_Superiority
+		days = 150
+	}
 }
 war_room_operation_decision_cancel_effect_operation_groza_decision_assure_air_superiority = {
 #	show_cancel_effect_war_room_operation_decision_general_tooltip = yes
@@ -460,7 +492,10 @@ war_room_operation_decision_remove_effect_operation_groza_decision_assure_contro
 	show_remove_effect_war_room_operation_decision_general_tooltip = yes
 	set_temp_variable = { amount = 15 }
 	add_war_room_operation_progress = yes
-	navy_experience = 5
+	add_timed_idea = {
+		idea = SOV_Operation_Groza_Baltic_Seaports
+		days = 150
+	}
 }
 war_room_operation_decision_cancel_effect_operation_groza_decision_assure_control_of_baltic_seaports = {
 #	show_cancel_effect_war_room_operation_decision_general_tooltip = yes

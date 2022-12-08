@@ -188,7 +188,7 @@
  WAR_ROOM_OPERATION_1_DESC: "The Workers Revolution will be carried forward to the West. For too long has the Soviet Union cuddled up to the fascists in the West. \n\nIf another war is to befall the Soviet people, it must be us who have the means to wage war and the means to win. We must prepare for the liberation of the workers in Europe and then of the world."
 
  # Decision Categories:
- war_room_operation_category_1: "$WAR_ROOM_OPERATION_1_NAME$"
+ war_room_operation_category_1: "Operation $WAR_ROOM_OPERATION_1_NAME$"
  war_room_operation_category_1_desc: "$WAR_ROOM_OPERATION_1_DESC$"
 
  # Decisions:
