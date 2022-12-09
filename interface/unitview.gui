@@ -405,7 +405,7 @@ guiTypes = {
 
 		iconType = {
 			name = "group_div_count_bg"
-			position = {x=311 y=3}
+			position = {x=442 y=3}
 			spriteType ="GFX_group_div_count_bg"
 			frame = 1
 		}
@@ -707,7 +707,7 @@ guiTypes = {
 		}
 		positionType = {
 			name = "select_all_button_army_group_position"
-			position = {x=301 y=77}
+			position = {x=431 y=77}
 		}
 
 		buttonType = {
@@ -718,7 +718,7 @@ guiTypes = {
 		}
 		positionType = {
 			name = "army_motorization_priority_button_army_group_position"
-			position = {x=346 y=77}
+			position = {x=481 y=77}
 		}
 
 		iconType = {
@@ -729,7 +729,7 @@ guiTypes = {
 		}
 		positionType = {
 			name = "army_motorization_priority_button_overlay_army_group_position"
-			position = {x=353 y=77}
+			position = {x=488 y=77}
 		}
 
 		buttonType = {
@@ -741,7 +741,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "toggle_armies_divisions_button"
-			position = {x=387 y=77}
+			position = {x=523 y=77}
 			spriteType = "GFX_army_group_toggle_armies_divisions_btn"
 			clicksound = click_default
 			pdx_tooltip = "TOGGLE_ARMY_GROUP_VIEW_ARMIES_DIVISIONS"
