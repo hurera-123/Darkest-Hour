@@ -662,8 +662,8 @@
  ENG_Wartime_Tree.2.a: "We shall never surrender!"
 
  ENG_Wartime_Tree.3.t: "The Czechoslovak Government-in-Exile"
- ENG_Wartime_Tree.3.d: ""
- ENG_Wartime_Tree.3.a: "Response"
+ ENG_Wartime_Tree.3.d: "The Germans have taken another step toward extinguishing European liberty. With their conquest of Paris, they have placed the lives of many important officials from various European nations in danger. Paris had been hosting many governments in exile, each of whom represented their people's continuing fighting spirit and desire to oppose Fascism. The Czechoslovak Government-in-Exile was one such government.\n\nAs the Germans marched into Paris, plans were being made to relocate them to the United Kingdom, where they could continue fighting for their country's freedom and security. Those preparations have now paid off, with the establishment of a formal Czechoslovak Government-in-Exile in London, led by [CZE.GetLeader].\n\nThis relocation, however, is not without complications. For one thing, the Czechoslovaks have made it clear that they intend to reverse the Munich Agreement at the end of the war. Many of our officials have reported that they continue to hold us in contempt and anger for signing the agreement in the first place.\n\nAnother issue is the Germans' creation of [SLO.GetNameDef]. While it claims to be a sovereign Slovak nation, there is no doubt that it is a German puppet. In any case, there is some debate over whether the Czechoslovak Government-in-Exile is truly a Czechoslovak Government-in-Exile or simply a Czech Government-in-Exile.\n\nIn any case, with all formalities completed, [CZE.GetLeader] will be settling into the London weather and organising the Czechoslovak resistance from his English Oak table."
+ ENG_Wartime_Tree.3.a: "We shall wish them the best."
 
  ENG_Wartime_Tree.4.t: "The Tizard mission"
  ENG_Wartime_Tree.4.d: "The British government have sent us a scientific delegation led by Henry Tizard with an interesting proposal. The British are willing to pool their research efforts with ours in several key areas as they do not have the industrial capacity to produce their inventions in great enough numbers."
@@ -684,12 +684,12 @@
  ENG_Wartime_Tree.7.a: "After months of dark storms, the skies of Europe finally see the sun appear!"
 
  ENG_Wartime_Tree.8.t: "The Atlantic Charter"
- ENG_Wartime_Tree.8.d: ""
+ ENG_Wartime_Tree.8.d: "Yesterday, the President of the United States [USA.GetLeader] and the Prime Minister met to discuss their post-war goals and visions. After hours of deliberation, both leaders signed a charter outlining their respective visions.\n\nThis agreement, dubbed the \"Atlantic Charter\" by experts, has made it clear that the United States supports the Allies in the war. It contains eight clauses ranging from limiting territorial expansion to ensuring increased global trade.\n\nThe Charter's reception has been mixed. While the clauses concerning freedom of the seas and increased global trade have received widespread support, the third clause, which states: \"All people have the right to self-determination,\" has sparked controversy.\n\nWhile colonial powers such as ourselves and the Netherlands argue that the clause should not apply to their own colonies, the colonies themselves appear to have seen the Charter as a ray of hope.\n\nThe Charter has also heightened tensions between the Western Allies and the Soviet Union because it does not specify whether the people of the Baltic nations, Eastern Poland, and Ukraine also have the right to self-determination. While the Soviets appear determined to maintain their stranglehold on Eastern Europe, the response of the Western Allies remains to be seen."
  ENG_Wartime_Tree.8.a: "One Step Closer - Together."
 
  ENG_Wartime_Tree.9.t: "The Death of Appeasement"
- ENG_Wartime_Tree.9.d: ""
- ENG_Wartime_Tree.9.a: "We Have Thrown Down the Gauntlet."
+ ENG_Wartime_Tree.9.d: "\"Well, Sam...\" asked James, pointing to the headline: WAR IN EUROPE. "What do you think of appeasement now, eh?"\n"It was a noble attempt to safeguard peace." said Samuel, calmly sipping his tea.\n"Noble attempt? Are you out of your bloody mind? This was the stupidest idea of them all. Instead of defending European liberty, we stood by like idiots. And now, thousands will pay for it with their lives!" James yelled. Samuel could feel the anger bubbling up.\n\n"You don't know what you're talking about, James. Leave it." he said, tightening his grip on his cup.\n"Oh, I bloody well do! You old men are pussies, is what. They wanna hide in their houses because of some old war that happened years ago. Me? I'm not like that. If my country wants me to, I won't even think twice before picking up a gun to shoot the fascists!" James retaliated. Samuel saw red. He stood up, dropping the cup of tea to the ground. It shattered to pieces, spilling tea all over.\n\n"Do you have any idea what its like in the trenches, you silly boy? Have you ever seen all your comrades die beside you as you shared a hole in the ground with rats and disease? Have you ever felt a ringing in your ear from artillery exploding next to you? Have you ever seen someone's brains drip out their ears?" he screamed, "No you haven't! So don't tell me you know what war is, and for God's sake, don't even think you'll survive a day out there!" he stormed out of the café.\n\nAs Samuel walked back back home, he felt dreadful. Despite his protests, there was no denying that appeasement had failed. There was no denying that European peace had been shattered, just like his tea cup. There was no denying that, like his tea, the blood of thousands, if not millions, of people would be spilled all over....."
+ ENG_Wartime_Tree.9.a: "We have thrown down the gauntlet."
  ENG_Wartime_Tree.9.a.tt: "We will stop this tyrant or §Rdie§! trying"
 
  ENG_Wartime_Tree.10.t: "Roaring Factories"
@@ -2349,7 +2349,6 @@
  ENG_Rearmament_of_the_Nation: "Re-Armament of the Nation"
  ENG_Preperation_for_the_Inevitable: "Preparations for the Inevitable"
  ENG_War_to_End_All_Wars: "War to End All Wars"
- ENG_War_to_End_All_Wars_2: "War to End All Wars"
  ENG_A_New_Wave_of_Conservatism: "A New Wave of Conservatism"
  ENG_Reduced_Indian_Autonomy: "Reduced Indian Autonomy"
  ENG_Imperial_Pride: "Imperial Pride"

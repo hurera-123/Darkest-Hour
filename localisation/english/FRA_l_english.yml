@@ -213,12 +213,13 @@
  FRA_Assassination_of_Alexander_I.6.A: ""
 
  FRA_Assassination_of_Alexander_I.7.t: "Foiled Assassination Attempt on Lives of King Alexander and Louis Barthou"
- FRA_Assassination_of_Alexander_I.7.d: "[FROM.GetNewsIcon]"
- FRA_Assassination_of_Alexander_I.7.A: ""
+ FRA_Assassination_of_Alexander_I.7.d: "[FROM.GetNewsIcon]A potentially disastrous incident for the country has occurred! French Minister Barthou and Yugoslav King Alexander narrowly escaped an assassination attempt.\n\nWhile the King and the Minister were slowly driving through the streets in their car, a Bulgarian terrorist emerged from the crowd and attempted to shoot both the King and the FM with a Mauser. Fortunately, patrolling police noticed the gun and pushed it away from the car, causing the assassin to miss the shot. The assassin attempted to flee but was apprehended by the angry crowd and reported beaten to death, while the police appear to make no attempt to stop them. The terrorist was thought to be a Macedonian separatist seeking vengeance on King Alexander.\n\nThis assassination attempt had the potential to be a huge disaster, not only for the political environment in France, but also for our diplomatic relations with Yugoslavia. Fortunately, neither of them was hurt."
+ FRA_Assassination_of_Alexander_I.7.A: "A close call, that’s for sure."
 
  FRA_Assassination_of_Alexander_I.8.t: "French Minister Barthou Killed in Marseille, King Alexander Alive and Well"
- FRA_Assassination_of_Alexander_I.8.d: "[FROM.GetNewsIcon]"
- FRA_Assassination_of_Alexander_I.8.A: ""
+ FRA_Assassination_of_Alexander_I.8.d: "[FROM.GetNewsIcon]A disastrous incident for the country has occurred! French Minister Barthou was assassinated while visiting France with King Alexander of Yugoslavia.\n\nWhile the King and the Minister were being driven slowly through the streets in the car, a Bulgarian terrorist emerged from the crowd and attempted to shoot both the King and the FM with a Mauser.\n\nAfter two shots were fired at the FM, patrolling police noticed the assassin and pushed the gun away from the car, causing the assassin to miss the shots aimed at King Alexander. The assassin attempted to flee but was apprehended by the angry crowd and reported beaten to death, while the police appear to make no attempt to stop them. He died of his injury later in prison. The Terrorist was thought to be a Macedonian Separatist seeking vengeance against King Alexander.\n\nThis assassination attempt could have serious consequences for France's political environment, as the death of Barthou would mean a significant weakening of the Reformist government."
+ FRA_Assassination_of_Alexander_I.8.A: "At least our King is safe..."
+ FRA_Assassination_of_Alexander_I.8.B: "A horrible tragedy!"
 
  FRA_Assassination_of_Alexander_I.9.t: "Reformist Government Takes a Great Hit with Barthou's death"
  FRA_Assassination_of_Alexander_I.9.d: ""

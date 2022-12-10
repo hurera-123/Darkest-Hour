@@ -26,8 +26,8 @@ news_event = {
 	title = POL_Death_of_Pilsudski.1.t
 	desc = POL_Death_of_Pilsudski.1.d
 	picture = GFX_news_POL_Death_of_Pilsudski
-	fire_only_once = yes
 	is_triggered_only = yes
+	major = yes
 	# trigger = {
 	# 	date > 1935.5.12
 	# 	has_start_date < 1935.5.12
@@ -895,12 +895,12 @@ country_event = { #The Path of the Second Republic
 			popularity = 0.05
 		}
 		create_country_leader = {
-			name = "Rydz-Smigly"
-			picture = GFX_M_Edward_Rydz_Smigly
+			name = "Ignacy Mościcki"
+			picture = GFX_P_A_Ignacy_Moscicki
 			expire = "1941.12.2"
 			ideology = authoritarian_democracy
 			traits = {
-				POSITION_Prime_Minister
+				POSITION_President
 				SUBIDEOLOGY_Authoritarian_Democracy
 			}
 		}

@@ -30,6 +30,10 @@ country_event = {
 		name = EST_Soviet_Annexation.1.B
 		ai_chance = {
 			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 		SOV = {
 			create_wargoal = {
@@ -270,6 +274,10 @@ country_event = {
 		name = LAT_Soviet_Annexation.3.B
 		ai_chance = {
 			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 		SOV = {
 			create_wargoal = {
@@ -474,6 +482,10 @@ country_event = {
 		name = LIT_Soviet_Annexation.3.B
 		ai_chance = {
 			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 		SOV = {
 			create_wargoal = {

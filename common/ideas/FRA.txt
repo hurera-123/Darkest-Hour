@@ -1334,7 +1334,7 @@ ideas = {
 					has_global_flag = VIC_Vichy_Established
 				}
 			}
-			picture = GFX_idea_
+			picture = GFX_idea_man_five_year_plan_industry
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05
 				production_factory_start_efficiency_factor = 0.1
@@ -1346,7 +1346,7 @@ ideas = {
 					has_global_flag = VIC_Vichy_Established
 				}
 			}
-			picture = GFX_idea_
+			picture = GFX_idea_man_five_year_plan_industry
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05
 				production_factory_start_efficiency_factor = 0.1
@@ -1359,7 +1359,7 @@ ideas = {
 					has_global_flag = VIC_Vichy_Established
 				}
 			}
-			picture = GFX_idea_
+			picture = FRA_national_mobilization_focus
 			modifier = {
 				war_support_factor = 0.1
 				army_morale_factor = 0.05
@@ -1372,7 +1372,7 @@ ideas = {
 					has_war = yes
 				}
 			}
-			picture = GFX_idea_
+			picture = GFX_idea_tur_balkan_central_bank_wealthy_greece
 			modifier = {
 				money_income_factor = 0.03
 				political_power_factor = -0.1

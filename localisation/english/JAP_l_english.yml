@@ -518,13 +518,13 @@
  JAP_Pan_Asianism.1.t: "Invitation to Hakkō Ichiu" #For Chinese subject
  JAP_Pan_Asianism.1.d: ""
  JAP_Pan_Asianism.1.A: ""
- JAP_Pan_Asianism.2.t: "No longer a crown of Japan" #For Chinese subject
+ JAP_Pan_Asianism.2.t: "No Longer a Crown of Japan" #For Chinese subject
  JAP_Pan_Asianism.2.d: ""
  JAP_Pan_Asianism.2.A: ""
- JAP_Pan_Asianism.3.t: "[From.GetNameDef] leaves Hakkō Ichiu" #For Japan
+ JAP_Pan_Asianism.3.t: "[From.GetNameDef] Leaves Hakkō Ichiu" #For Japan
  JAP_Pan_Asianism.3.d: ""
  JAP_Pan_Asianism.3.A: ""
- JAP_Pan_Asianism.4.t: "The collapes of Hakkō Ichiu"  #For Japan
+ JAP_Pan_Asianism.4.t: "The Collapse of Hakkō Ichiu"  #For Japan
  JAP_Pan_Asianism.4.d: ""
  JAP_Pan_Asianism.4.A: ""
  JAP_Pan_Asianism.5.t: "Tōa Shin Chitsujo"  #For Japan
@@ -536,46 +536,46 @@
  JAP_Pan_Asianism.7.t: "Withdraw from Tōa Shin Chitsujo" #For subject
  JAP_Pan_Asianism.7.d: ""
  JAP_Pan_Asianism.7.A: ""
- JAP_Pan_Asianism.8.t: "[From.GetNameDef] leaves Tōa Shin Chitsujo" #For Japan
+ JAP_Pan_Asianism.8.t: "[From.GetNameDef] Leaves Tōa Shin Chitsujo" #For Japan
  JAP_Pan_Asianism.8.d: ""
  JAP_Pan_Asianism.8.A: ""
- JAP_Pan_Asianism.9.t: "The collapes of Tōa Shin Chitsujo" #For Japan
+ JAP_Pan_Asianism.9.t: "The Collapse of Tōa Shin Chitsujo" #For Japan
  JAP_Pan_Asianism.9.d: ""
  JAP_Pan_Asianism.9.A: ""
- JAP_Pan_Asianism.10.t: "The beginning of Dai Toa Kyoeiken" #For Japan
+ JAP_Pan_Asianism.10.t: "The Beginning of Dai Toa Kyoeiken" #For Japan
  JAP_Pan_Asianism.10.d: "While existing in other forms and different names for several years already, the idea of a “Greater East Asia Co-Prosperity Sphere”, formally announced by the Foreign Minister in a press interview, is a far more immediate and concrete reality.\n\nIn light of the recent and continuous destabilization of the Old Continent, the Western Imperialists, along with their hold over their colonies in East Asia, have been greatly weakened. This has allowed us to take a far bolder and active stance on the subject of Asian liberation and self-determination, even to the point of conflict.\n\nThe oppressed people of Việt, Indonesia, and countless other Asian lands will finally be able to proudly state their heritage, national identity and fully express their national aspirations.\n\nThe Empire of Japan, as the foremost economic and military power of the region, will obviously lead the free people of Asia towards everlasting glory and prosperity. For that to happen, however, sacrifices must be made. The Sphere must act as the collective for the mutual benefits of all of its Asian members, with the Home Islands deserving the largest "benefits", appropriate to its position in this International framework. Since ours is the only force capable of challenging the Europeans, to us will most of the iron, aluminum, tungsten, and all manners of strategic goods be transported, because only we have the requisite industrial capacity to process and utilise them effectively. Japanese oversight is, then, after all, will be quite indispensable in all military affairs of our Asian "partners".\n\nPerhaps a time will come in the future when they will be capable of determining their own fate, but for now, the Emperor and his loyal subjects will guide the helpless people of East Asia into a new age."
  JAP_Pan_Asianism.10.A: "Eight corners of the world united under one roof."
  JAP_Pan_Asianism.11.t: "Japan form the new alliance" #For subject
  JAP_Pan_Asianism.11.d: ""
  JAP_Pan_Asianism.11.A: ""
- JAP_Pan_Asianism.12.t: "[From.GetNameDef] joins Dai Tōa Kyōeiken" #For Japan
+ JAP_Pan_Asianism.12.t: "[From.GetNameDef] Joins Dai Tōa Kyōeiken" #For Japan
  JAP_Pan_Asianism.12.d: ""
  JAP_Pan_Asianism.12.A: ""
- JAP_Pan_Asianism.13.t: "The invitation to Dai Tōa Kyōeiken" #For member
+ JAP_Pan_Asianism.13.t: "The Invitation to Dai Tōa Kyōeiken" #For member
  JAP_Pan_Asianism.13.d: ""
  JAP_Pan_Asianism.13.A: ""
  JAP_Pan_Asianism.14.t: "Withdraw from Dai Tōa Kyōeiken" #For member
  JAP_Pan_Asianism.14.d: ""
  JAP_Pan_Asianism.14.A: ""
- JAP_Pan_Asianism.15.t: "[From.GetNameDef] leaves Dai Tōa Kyōeiken" #For Japan
+ JAP_Pan_Asianism.15.t: "[From.GetNameDef] Leaves Dai Tōa Kyōeiken" #For Japan
  JAP_Pan_Asianism.15.d: ""
  JAP_Pan_Asianism.15.A: ""
- JAP_Pan_Asianism.16.t: "The collapes of Dai Tōa Kyōeiken" #For Japan
+ JAP_Pan_Asianism.16.t: "The Collapse of Dai Tōa Kyōeiken" #For Japan
  JAP_Pan_Asianism.16.d: ""
  JAP_Pan_Asianism.16.A: ""
- JAP_Pan_Asianism.17.t: "Yen Bloc Agreement" #For subject
- JAP_Pan_Asianism.17.d: ""
- JAP_Pan_Asianism.17.A: ""
- JAP_Pan_Asianism.18.t: "Japan force the harsher term on Yen Bloc" #For subject
- JAP_Pan_Asianism.18.d: ""
- JAP_Pan_Asianism.18.A: ""
- JAP_Pan_Asianism.19.t: "Removal of Yen Bloc Agreement" #For subject
- JAP_Pan_Asianism.19.d: ""
- JAP_Pan_Asianism.19.A: ""
+ JAP_Pan_Asianism.17.t: "The Yen Bloc Agreement" #For subject
+ JAP_Pan_Asianism.17.d: "As Japan attempts to fully integrate its subjects' economies, our Japanese masters implemented the Yen Bloc agreement between us and other subjects. However, because our country had little influence in the matter, we must simply listen.\n\nIf everything goes as planned, this will help our rather stagnant economy while also benefiting the Japanese. The Yen Bloc, on the other hand, will severely limit our economic autonomy, which is great for the Japanese but disastrous for us. The Japanese can now easily exploit us, but let us hope they are not malicious.\n\nThe Yen Bloc will be formed, and we can only hope that everything goes as planned."
+ JAP_Pan_Asianism.17.A: "What’s a Yen?"
+ JAP_Pan_Asianism.18.t: "Japan Forces Harsher Terms on the Yen Bloc" #For subject
+ JAP_Pan_Asianism.18.d: "Our Japanese masters have already imposed harsher terms on us and everyone else in the Yen Bloc, revealing its negative side.\n\nTo put it mildly, Japan's Yen Bloc has failed miserably. We and other Yen Bloc nations have been suffering economically as a result of the Yen Bloc's own high inflation and disintegration. Since the formation of the Yen Bloc, the income disparity between Japan and its subjects has grown significantly, which has understandably irritated many Yen Bloc nations.\n\nInstead of attempting to resolve the issue, Japan has decided to double down and impose stricter and harsher terms on all Yen Bloc members."
+ JAP_Pan_Asianism.18.A: "Wasn’t it supposed to HELP us?"
+ JAP_Pan_Asianism.19.t: "Removal of the Yen Bloc Agreement" #For subject
+ JAP_Pan_Asianism.19.d: "We've finally seen the Yen Bloc's consequences, and it makes for bad reading.\n\nThe Yen Bloc has led to stagnation and inflation in our country, and if this trend continues, our country and economy will collapse sooner or later. We are still suffering as our Japanese overlords continue to exploit us and our economy.\n\nThis cannot continue, and we must intervene. Many leaders are already thinking about leaving the Yen Bloc and terminating the agreement, and the idea is becoming more appealing by the day. Whatever the Japanese masters say, we have decided to leave the Yen Bloc and terminate the agreement."
+ JAP_Pan_Asianism.19.A: "We bow to no masters!"
  JAP_Pan_Asianism.20.t: "[From.GetNameDef] leaves the Yen Bloc" #For Japan
- JAP_Pan_Asianism.20.d: ""
- JAP_Pan_Asianism.20.A: ""
- JAP_Pan_Asianism.21.t: "The collapes of the Yen Bloc" #For Japan
+ JAP_Pan_Asianism.20.d: "Our officials were taken aback by the news that [FROM.GetNameDef] has left the Yen Bloc. They have decided to leave the Yen Bloc due to the fact that the country has suffered significantly since they joined.\n\nWe tried to talk to [FROM.GetNameDef] about leaving the yen bloc, but they refused. Many officials now believe it is only a matter of time before other yen bloc members follow suit. Although many high-ranking officials are outraged, it is simply too late to take action.\n\nWe can only now pray that this won't lead to other members deciding to leave."
+ JAP_Pan_Asianism.20.A: "The dominos are beginning to fall..."
+ JAP_Pan_Asianism.21.t: "The Collapse of the Yen Bloc" #For Japan
  JAP_Pan_Asianism.21.d: ""
  JAP_Pan_Asianism.21.A: ""
 
@@ -585,14 +585,18 @@
  JAP_Three_Principles_of_Hirota.1.A: "It's a start, at least."
  JAP_Three_Principles_of_Hirota.1.B: "Is it a new beginning of Sino-Japanese relations?"
  
- JAP_Three_Principles_of_Hirota.2.t: "China's Response"
- JAP_Three_Principles_of_Hirota.2.d: ""
- JAP_Three_Principles_of_Hirota.2.A: "Good Idea"
- JAP_Three_Principles_of_Hirota.2.B: "It's not good"
+ JAP_Three_Principles_of_Hirota.2.t: "Our Response"
+ JAP_Three_Principles_of_Hirota.2.d: "The Japanese Foreign Minister, Koki Hirota, sent us a telegram outlining the Japanese Empire's policy toward China. Hirota proposed the Japan-China-Manchukuo bloc to organise a united front against the rise of Communism and anti-Japanese activities within our country. According to Hirota, warlordism and Chinese Communism threatened \"all Asian races with certain and inexorable death\" as a \"festering sore deep within the chest of Eastern Asia.\" A second military operation in China, he claimed, would be more like "heroic surgery" than an invasion.\n\nSuch a concept is intriguing because it would aid in the conflict with the Reds in the mountains and the stabilisation of Chinese territory, but it could also imply further enslavement of the Chinese people."
+ JAP_Three_Principles_of_Hirota.2.A: "Let’s give it a shot..."
+ JAP_Three_Principles_of_Hirota.2.B: "What an outrageous proposal!"
  
  JAP_Three_Principles_of_Hirota.3.t: "China's Response"
- JAP_Three_Principles_of_Hirota.3.d: ""
- JAP_Three_Principles_of_Hirota.3.A: "Nice"
+ JAP_Three_Principles_of_Hirota.3.d: "The Chinese government has issued an official response to the adoption of Hirota's Three Principles, which called for a Japan-China-Manchukuo coalition to oppose Communism and the Soviet Union. Their attitude was one of acceptance, and they claimed that they wanted to put our two countries' bad relations behind them and work together to strengthen our countries.\n\nAs a result, we can start planning diplomatic meetings to further discuss how to best address the numerous challenges that our countries and Asia face."
+ JAP_Three_Principles_of_Hirota.3.A: "Let us grow the fruits of friendship!"
+
+ JAP_Three_Principles_of_Hirota.3.t: "China's Response"
+ JAP_Three_Principles_of_Hirota.3.d: "The Chinese government has issued an official response to the adoption of Hirota's Three Principles, which called for a Japan-China-Manchukuo coalition to oppose Communism and the Soviet Union. They refused, claiming that due to the history between the Chinese and Japanese populations, such a deal would be impossible.\n\nAs a result, our only option in the near future is to intervene militarily in China and the Asian region."
+ JAP_Three_Principles_of_Hirota.3.A: "At least we tried..."
 
  # Trautmann
  JAP_Trautmann.1.t: "Germany Offers Mediation"
@@ -635,20 +639,20 @@
  JAP_Rivalries_of_War.5.A: "Our disunity increases."
 
  JAP_Rivalries_of_War.6.t: "Lackluster Offensives"
- JAP_Rivalries_of_War.6.d: ""
- JAP_Rivalries_of_War.6.A: ""
+ JAP_Rivalries_of_War.6.d: "Officers from both the Imperial Army and the Imperial Army have reported a lack of energy in military operations across the continent in recent weeks.\n\nThis could have been a meaningless note if it hadn't directly impacted the region's most recent offensive, which began just a few days ago. In his last note to the general quarters of the army, the officer in charge of the operation clearly denounced his troops:\n\n"We were up against slightly outmanned and under equipped troops. Despite this, the Imperial Troops barely conquered this small hill, giving the enemy's troops time to flee to better positions. At the end of the day, I attempted to ask soldiers why they had been so preoccupied with fighting, but their responses were not unanimous. Some want a higher pay, others want holiday time, still others want to see their families, and still others simply want better equipment.”\n\nWorried by this disturbing news, the  Shōwa Tennō requested that the army services ensure the soldiers' safety before launching any new offensive."
+ JAP_Rivalries_of_War.6.A: "Maybe next time they will win this battle more efficiently."
 
  JAP_Rivalries_of_War.7.t: "Breakdown in Army Discipline"
  JAP_Rivalries_of_War.7.d: ""
  JAP_Rivalries_of_War.7.A: ""
 
  JAP_Rivalries_of_War.8.t: "Increased Shore Leave"
- JAP_Rivalries_of_War.8.d: ""
- JAP_Rivalries_of_War.8.A: ""
+ JAP_Rivalries_of_War.8.d: "For a few days, senior officials from the Imperial Navy and the Imperial Army have noticed an increase in the number of departing soldiers, all of whom request vacations.\n\nThe problem was so severe that up to a quarter of the workforce in some encampments was absent due to this \"vacation.\" However, as stated by the Minister of War, the war is far from over, and the lack of troops may cost victory on many fronts in Asia.\n\nResponding to the ministry, a few officers sent letters with suggestions to improve the situation: "We could reduce their working hours for a few weeks, giving the soldiers more free time in the evening." A few young lieutenants have also proposed organising some sporting events and games in order to keep the troops' morale high enough to fight. Despite its unconventional nature, this solution could help to calm the situation and prevent soldiers from going on holiday when we need them the most."\n\nIn response to these letters, the Emperor and high officers of the Army have directed that these "entertainments" be handled by a few specialists until the situation returns to normal."
+ JAP_Rivalries_of_War.8.A: "Only time will tell us if it works."
 
  JAP_Rivalries_of_War.9.t: "Admirals Reporting Seasickness"
- JAP_Rivalries_of_War.9.d: ""
- JAP_Rivalries_of_War.9.A: ""
+ JAP_Rivalries_of_War.9.d: "A strange report arrived at the Minister of War's office yesterday. In this report, he discovered that the admirals in charge of operations in the Imperial Navy had reported dozens of cases of seasickness in the previous months.\n\nDoctors have discovered harsh symptoms such as refusal to go out on deck due to fear of the vastness of the ocean, irrepressible tremors and fear, and even, for some, inability to swim or perform chores due to overwhelming anxiety.\n\nDoctors have asked the admirals for assistance in determining who is lying and who is telling the truth in this story, and they have finally sent us this report.\n\nIt is possible that some army volunteers were sent to the Imperial Navy by mistake, but there are far too many to be in this situation. In response, the ministry has called for increased testing and possibly pressure on those suspected of lying. When the truly sick have recovered their strength, they will be incorporated into the Imperial Navy."
+ JAP_Rivalries_of_War.9.A: "Sailors without sea legs? Strange story..."
 
  JAP_Rivalries_of_War.10.t: "Subpar Naval Exercises"
  JAP_Rivalries_of_War.10.d: "Naval exercises are essential to ensure combat readiness for the battlefield. If a crew can complete their tasks well, we can deploy them against the enemy in the field without any risk. As of late, though, more and more ships and crews are failing in these training exercises.\n\nMany of these crews are slow and lazy to carry out orders given, being wholly unenthusiastic about the whole affair, so we cannot field them against a serious opponent. It seems that we have managed to counteract this with increased disciplinary action from above in case of failure, encouraging said crews to work harder at improving their skills. However, it also seems to be building a sort of resentment towards the current administration. Compounded with support from the admirals, many of whom are upset over the IJN’s seemingly reduced political power in government, the sailors have committed to ever more treasonous talk.\n\nAs long as this imbalance of power and funding exists between the Army and Navy, we will see resentment and drawbacks build. We should work to alleviate these feelings on the part of our sailors before the situation gets worse. "
@@ -834,8 +838,8 @@
  JAP_Pearl_Harbor.14.A: "The Giant Wakes."
 
  JAP_Pearl_Harbor.15.t: "Roosevelt Speaks to Congress"
- JAP_Pearl_Harbor.15.d: ""
- JAP_Pearl_Harbor.15.A: "Remember Pearl Harbor!"
+ JAP_Pearl_Harbor.15.d: "Senator Maybank noticed the tense atmosphere as President Roosevelt moved closer to the podium. As the President started speaking, the room — and indeed the entire country — fell silent.\n\nThe President began by stating how the Japanese had ruined established diplomatic relations. and how they had misled the peace-loving American nation. Senator Maybank observed Senators and Representatives shifting in their seats. He couldn't determine if that was a result of enthusiasm or anxiety.\n\nHe observed as the President continued to outline the full scope of the Japanese onslaught, emphasizing that this was a planned invasion rather than a military mishap. "No matter how long it may take us to overcome this premeditated invasion, the American people in their righteous might will win through to absolute victory!" the President declared, earning rousing applause from every member present. "I believe that I interpret the will of the Congress and of the people when I assert that we will not only defend ourselves to the utmost but will make it very certain that this form of treachery shall never again endanger us!" he concluded, asking for a full declaration of war against Japan.\n\nSenator Maybank felt as though he had just broken free from a trance when the President ended his speech. As the room burst into immense applause, he felt as if the world was different somehow. It could have been the fact that the world's strongest democracy had just declared war on Asia's strongest military power. It could have been that American liberty and democracy was under attack. It could have been that the President was an excellent orator.\n\nHe left the room with just one goal in mind. Like every single American, he knew what he had to do now."
+ JAP_Pearl_Harbor.15.A: "Destroy the fascists."
 
  JAP_Wartime_Tree_Events.1.t: "Umi Yukaba"
  JAP_Wartime_Tree_Events.1.d: ""

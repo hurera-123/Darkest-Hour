@@ -3266,13 +3266,15 @@ country_event = {
 				modifier = refused_help
 			}
 		}
-		custom_effect_tooltip = DH_FOR_0.2
+		JAP = {
+			country_event = { id = JAP_Three_Principles_of_Hirota.4 days = 2 }
+		}
 		ai_chance = {
             base = 0
         }
 	}
 }
-## China's Response (Japan)
+## China's Response (Acceptance)
 country_event = {
 	id = JAP_Three_Principles_of_Hirota.3
 	title = JAP_Three_Principles_of_Hirota.3.t
@@ -3286,6 +3288,22 @@ country_event = {
 			target = CHI
 			modifier = sino_japanese_alliance_opinion
 		}
+		ai_chance = {
+            base = 1
+        }
+	}
+}
+
+## China's Response (Refusal)
+country_event = {
+	id = JAP_Three_Principles_of_Hirota.4
+	title = JAP_Three_Principles_of_Hirota.4.t
+	desc = JAP_Three_Principles_of_Hirota.4.d
+	picture = GFX_report_JAP
+	is_triggered_only = yes
+	fire_only_once = no
+	option = {
+		name = JAP_Three_Principles_of_Hirota.4.A
 		ai_chance = {
             base = 1
         }

@@ -1412,6 +1412,9 @@ country_event = { # IG Farben asks to Increase Price (ITA)
 		}
 		hidden_effect = {
 			country_event = { id = ITA_IG_Farben_Negotation.6 days = 2 }
+			GER = {
+				country_event = { id = ITA_IG_Farben_Negotation.6 days = 2 }
+			}
 		}
 	}
 	option = { # Ask for 50% Reduction
@@ -1421,9 +1424,6 @@ country_event = { # IG Farben asks to Increase Price (ITA)
 		}
 		hidden_effect = {
 			GER = {
-				country_event = { id = ITA_IG_Farben_Negotation.8 days = 2 }
-			}
-			ITA = {
 				country_event = { id = ITA_IG_Farben_Negotation.8 days = 2 }
 			}
 		}
@@ -1439,9 +1439,6 @@ country_event = { # Agreement on Synthetic Oil Patents with IG Farben Signed (IT
 		name = ITA_IG_Farben_Negotation.6.A
 		trigger = {
 			original_tag = ITA
-		}
-		GER = {
-			country_event = { id = ITA_IG_Farben_Negotation.7 days = 2 }
 		}
 		set_temp_variable = { money_to_gain = -2000 }
 		add_money_with_inflation_included_with_tooltip_effect = yes

@@ -241,9 +241,9 @@
  GER_Agree_Starting_Proposal_tt: "We will §GAgree§! on the Initial Proposal of §B100§! £money_icon \n" 
  
  ITA_IG_Farben_Negotation.3.t: "Agreement on Synthetic Oil Patents with IG Farben Signed"
- ITA_IG_Farben_Negotation.3.d: ""
- ITA_IG_Farben_Negotation.3.A: ""
- ITA_IG_Farben_Negotation.3.B: ""
+ ITA_IG_Farben_Negotation.3.d: "Today is a great day in Europe for fascist forces, as Italy and the Germans have finally agreed on partnership terms after lengthy negotiations. This collaboration involved a Synthetic Oil Patents agreement that will benefit both countries.\n\nSynthetic oil, which has been developed for a few years, must be the future of the fuel economy, as those who own it no longer require the massive oil wells that the French and British value so highly in the Middle East.\n\nFollowing the agreement's signing, both Il Duce and the Fuhrer addressed their ministers and populations, claiming that this is only the beginning of a "closer relationship between the heirs of the Roman Empire and the Holy Roman Empire!"\n\nThe British and French diplomats remained silent, claiming that the "synthetic oil" is a waste of time. However, this is a significant scientific advance for both the synthetic industry and a significant step toward autarky for both nations."
+ ITA_IG_Farben_Negotation.3.A: "The German and the Italians, together on the road to glory!"
+ ITA_IG_Farben_Negotation.3.B: "The German and the Italians, together on the road to glory!"
  
  ITA_IG_Farben_Negotation.5.t: "IG Farben asks to Increase Price"
  ITA_IG_Farben_Negotation.5.d: "Today, we received a letter from our German friends. This letter concerned the deal we have with IG Farben.\n\nArguing that the agreement's prices are too low for the company's benefit, they have officially announced their intention to raise the prices by 100%, a decision that has concerned Italian business owners, who have warned that paying too much could have dire consequences for our economy.\n\nMussolini, on the other hand, has emphasised the significance of this Italo-German agreement, arguing that Italy cannot remain alone in a massively hostile Europe dominated by ageing democracies and archaic monarchies. He stated that Germany is currently the only potential partner, or at least the only one who does not hesitate to contact us.\n\nIn the end, the decision is ours. Should we accept the high prices in exchange for a better partnership with the Germans, or should we accept only half of their offer, upsetting our only significant investor?"
@@ -261,13 +261,13 @@
  ITA_IG_Farben_Negotation.8.B: "Insist on our proposal."
  
  ITA_IG_Farben_Negotation.9.t: "IG Farben Agreed to Reduce Price"
- ITA_IG_Farben_Negotation.9.d: ""
- ITA_IG_Farben_Negotation.9.A: ""
+ ITA_IG_Farben_Negotation.9.d: "Our German partner appears to have agreed to our proposal of only a 50% price increase for synthetic oil. Given the importance of synthetic oil to our economy, this is a rather advantageous compromise for us.\n\nWe now have the power of synthetic oil on our hands, thanks to the price negotiation coming to an acceptable price that both Germany and us can agree on. This would be a critical step toward reducing our reliance on natural oil from our French and British competitors, as well as reducing the potential damage of an economic blockade."
+ ITA_IG_Farben_Negotation.9.A: "Another step on the road to autarky."
  
  ITA_IG_Farben_Negotation.10.t: "Agreement on Synthetic Oil Patents with IG Farben Signed"
- ITA_IG_Farben_Negotation.10.d: ""
- ITA_IG_Farben_Negotation.10.A: ""
- ITA_IG_Farben_Negotation.10.B: ""
+ ITA_IG_Farben_Negotation.10.d: "Italy and Germany have formally begun their cooperation in the field of synthetic oil after a long series of price negotiations. The two countries will now collaborate on the development and production of synthetic fuels in the hopes of reducing their own reliance on foreign oil, much to the chagrin of the United Kingdom and France, which appear to be less interested in such fields, believing it to be a scientific dead end.\n\nRegardless, the German-Italian synthetic oil cooperation has now solidified, and both parties would benefit greatly from this cooperation on many fields, more than just the industrial fronts. With a reduced price agreed, both sides stated that \"a new era of Italo-German cooperation has begun\"."
+ ITA_IG_Farben_Negotation.10.A: "A great success for all!"
+ ITA_IG_Farben_Negotation.10.B: "A great success for all!"
 
  
  ITA_Economic_Tree.1.t: "General Confederation of Italian Industry"
