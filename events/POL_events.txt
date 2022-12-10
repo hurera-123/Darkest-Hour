@@ -917,7 +917,7 @@ country_event = { #Poland's Second Great Leader
 	fire_only_once = yes
 	option = {
 		name = POL_Sanation.4.A
-		add_political_power = 350
+		add_political_power = 150
 	}
 }
 country_event = { #United Factories of Nitrogen Compounds
