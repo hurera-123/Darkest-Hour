@@ -836,49 +836,49 @@ country_event = { #The Path of the Second Republic
 	picture = GFX_report_POL_Moscicki_Smigly
 	is_triggered_only = yes
 	fire_only_once = yes
-	option = { #Sanation Collapses, the Republic Restored
-		name = POL_Sanation.3.A
-		ai_chance = {
-			factor = 0
-		}
-		add_stability = -0.2
-		load_focus_tree = generic_focus
-	}
-	option = { #Reformists Steady the Ship
-		name = POL_Sanation.3.B
-		ai_chance = {
-			factor = 0
-		}
-		add_stability = -0.1
-		set_party_name = {
-			ideology = authoritarian
-			long_name = POL_authoritarian_SANA_Colonels_party_long
-			name = POL_authoritarian_SANA_party
-		}
-		add_popularity = {
-			ideology = authoritarian
-			popularity = 0.05
-		}
-		unlock_national_focus = POL_Keynesian_Economics
-		unlock_national_focus = POL_Sanation_Left
-	}
-	option = { #A Stable Status Quo
-		name = POL_Sanation.3.C
-		ai_chance = {
-			factor = 0
-		}
-		set_party_name = {
-			ideology = authoritarian
-			long_name = POL_authoritarian_SANA_Castle_party_long
-			name = POL_authoritarian_SANA_party
-		}
-		add_popularity = {
-			ideology = authoritarian
-			popularity = 0.05
-		}
-		unlock_national_focus = POL_Continue_Four_Years_Plan
-		unlock_national_focus = POL_Castle_over_Varsaw
-	}
+	# option = { #Sanation Collapses, the Republic Restored
+	# 	name = POL_Sanation.3.A
+	# 	ai_chance = {
+	# 		factor = 0
+	# 	}
+	# 	add_stability = -0.2
+	# 	load_focus_tree = generic_focus
+	# }
+	# option = { #Reformists Steady the Ship
+	# 	name = POL_Sanation.3.B
+	# 	ai_chance = {
+	# 		factor = 0
+	# 	}
+	# 	add_stability = -0.1
+	# 	set_party_name = {
+	# 		ideology = authoritarian
+	# 		long_name = POL_authoritarian_SANA_Colonels_party_long
+	# 		name = POL_authoritarian_SANA_party
+	# 	}
+	# 	add_popularity = {
+	# 		ideology = authoritarian
+	# 		popularity = 0.05
+	# 	}
+	# 	unlock_national_focus = POL_Keynesian_Economics
+	# 	unlock_national_focus = POL_Sanation_Left
+	# }
+	# option = { #A Stable Status Quo
+	# 	name = POL_Sanation.3.C
+	# 	ai_chance = {
+	# 		factor = 0
+	# 	}
+	# 	set_party_name = {
+	# 		ideology = authoritarian
+	# 		long_name = POL_authoritarian_SANA_Castle_party_long
+	# 		name = POL_authoritarian_SANA_party
+	# 	}
+	# 	add_popularity = {
+	# 		ideology = authoritarian
+	# 		popularity = 0.05
+	# 	}
+	# 	unlock_national_focus = POL_Continue_Four_Years_Plan
+	# 	unlock_national_focus = POL_Castle_over_Varsaw
+	# }
 	option = { #An Unexpected Alliance
 		name = POL_Sanation.3.D
 		ai_chance = {
