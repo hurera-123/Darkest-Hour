@@ -165,6 +165,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_ENG_Abdication_of_Edward_VIII"
+        texturefile = "gfx/event_pictures/news_ENG_Abdication_of_Edward_VIII.png"
+    }
+
+    spriteType = {
         name = "GFX_news_ENG_Anglo_Irish_Agreement"
         texturefile = "gfx/event_pictures/news_ENG_Anglo_Irish_Agreement.png"
     }
@@ -200,13 +205,38 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_ENG_Coal_Cattle_Pact"
+        texturefile = "gfx/event_pictures/news_ENG_Coal_Cattle_Pact.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_ENG_Coronation_of_Edward_VIII"
+        texturefile = "gfx/event_pictures/news_ENG_Coronation_of_Edward_VIII.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_ENG_Coronation_of_George_VI"
+        texturefile = "gfx/event_pictures/news_ENG_Coronation_of_George_VI.png"
+    }
+
+    spriteType = {
         name = "GFX_news_ENG_Crystal_Palace_Fire"
         texturefile = "gfx/event_pictures/news_ENG_Crystal_Palace_Fire.png"
     }
 
     spriteType = {
+        name = "GFX_news_ENG_Death_of_King_Georve_V"
+        texturefile = "gfx/event_pictures/news_ENG_Death_of_King_Georve_V.png"
+    }
+
+    spriteType = {
         name = "GFX_news_ENG_Frank_Whittle_Jet"
         texturefile = "gfx/event_pictures/news_ENG_Frank_Whittle_Jet.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_ENG_French_at_Mers_El_Kebir"
+        texturefile = "gfx/event_pictures/news_ENG_French_at_Mers_El_Kebir.png"
     }
 
     spriteType = {
@@ -222,6 +252,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_news_ENG_Jarrow_March"
         texturefile = "gfx/event_pictures/news_ENG_Jarrow_March.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_ENG_London_Economic_Conference_6"
+        texturefile = "gfx/event_pictures/news_ENG_London_Economic_Conference_6.png"
     }
 
     spriteType = {
@@ -260,6 +295,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_ENG_Successful_London_Economic_Conference_"
+        texturefile = "gfx/event_pictures/news_ENG_Successful_London_Economic_Conference_.png"
+    }
+
+    spriteType = {
         name = "GFX_news_ENG_The_Altmark"
         texturefile = "gfx/event_pictures/news_ENG_The_Altmark.png"
     }
@@ -272,6 +312,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_news_ENG_The_Hobbit"
         texturefile = "gfx/event_pictures/news_ENG_The_Hobbit.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_ENG_Unsuccessful_London_Economic_Conference"
+        texturefile = "gfx/event_pictures/news_ENG_Unsuccessful_London_Economic_Conference.png"
     }
 
     spriteType = {
@@ -1845,6 +1890,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_Baldwin_Mandate"
+        texturefile = "gfx/event_pictures/report_Baldwin_Mandate.png"
+    }
+
+    spriteType = {
         name = "GFX_report_BUL_Sofia"
         texturefile = "gfx/event_pictures/report_BUL_Sofia.png"
     }
@@ -1915,6 +1965,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_ENG_Anglo_German_Naval_Negotiations"
+        texturefile = "gfx/event_pictures/report_ENG_Anglo_German_Naval_Negotiations.png"
+    }
+
+    spriteType = {
         name = "GFX_report_ENG_Anglo_Irish_Trade_Agreement"
         texturefile = "gfx/event_pictures/report_ENG_Anglo_Irish_Trade_Agreement.png"
     }
@@ -1925,8 +1980,38 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_ENG_Baldwin"
+        texturefile = "gfx/event_pictures/report_ENG_Baldwin.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_British_Raj"
+        texturefile = "gfx/event_pictures/report_ENG_British_Raj.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Chamberlain_Baldwin"
+        texturefile = "gfx/event_pictures/report_ENG_Chamberlain_Baldwin.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Churchill_Return_from_Wilderness"
+        texturefile = "gfx/event_pictures/report_ENG_Churchill_Return_from_Wilderness.png"
+    }
+
+    spriteType = {
         name = "GFX_report_ENG_Churchill_Speech"
         texturefile = "gfx/event_pictures/report_ENG_Churchill_Speech.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Churchill_V_Sign"
+        texturefile = "gfx/event_pictures/report_ENG_Churchill_V_Sign.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Commonwealth_Leaders"
+        texturefile = "gfx/event_pictures/report_ENG_Commonwealth_Leaders.png"
     }
 
     spriteType = {
@@ -1935,13 +2020,108 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_ENG_Czech_Government_in_Exile"
+        texturefile = "gfx/event_pictures/report_ENG_Czech_Government_in_Exile.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Declaration_of_St_James_Palace"
+        texturefile = "gfx/event_pictures/report_ENG_Declaration_of_St_James_Palace.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Defenders_of_Albion"
+        texturefile = "gfx/event_pictures/report_ENG_Defenders_of_Albion.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Departure"
+        texturefile = "gfx/event_pictures/report_ENG_Departure.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Destroyers_for_Bases"
+        texturefile = "gfx/event_pictures/report_ENG_Destroyers_for_Bases.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Edward_and_Wallis"
+        texturefile = "gfx/event_pictures/report_ENG_Edward_and_Wallis.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Edward_VIII"
+        texturefile = "gfx/event_pictures/report_ENG_Edward_VIII.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Embracing_Modern_Warfare"
+        texturefile = "gfx/event_pictures/report_ENG_Embracing_Modern_Warfare.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Et_Tu_Hun"
+        texturefile = "gfx/event_pictures/report_ENG_Et_Tu_Hun.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Factories"
+        texturefile = "gfx/event_pictures/report_ENG_Factories.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Financial_and_Trade_Terms"
+        texturefile = "gfx/event_pictures/report_ENG_Financial_and_Trade_Terms.png"
+    }
+
+    spriteType = {
         name = "GFX_report_ENG_Future_of_Warfare"
         texturefile = "gfx/event_pictures/report_ENG_Future_of_Warfare.png"
     }
 
     spriteType = {
+        name = "GFX_report_ENG_Geological_Museum"
+        texturefile = "gfx/event_pictures/report_ENG_Geological_Museum.png"
+    }
+
+    spriteType = {
         name = "GFX_report_ENG_Home_Guard"
         texturefile = "gfx/event_pictures/report_ENG_Home_Guard.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Housing_Construction"
+        texturefile = "gfx/event_pictures/report_ENG_Housing_Construction.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Hugenbergs_Fate"
+        texturefile = "gfx/event_pictures/report_ENG_Hugenbergs_Fate.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Hugenberg_Proposal"
+        texturefile = "gfx/event_pictures/report_ENG_Hugenberg_Proposal.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Iceland"
+        texturefile = "gfx/event_pictures/report_ENG_Iceland.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Infrastructure_Construction"
+        texturefile = "gfx/event_pictures/report_ENG_Infrastructure_Construction.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Ireland"
+        texturefile = "gfx/event_pictures/report_ENG_Ireland.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Irish_Trade_War"
+        texturefile = "gfx/event_pictures/report_ENG_Irish_Trade_War.png"
     }
 
     spriteType = {
@@ -1955,13 +2135,118 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_ENG_London_Economic_Conference"
+        texturefile = "gfx/event_pictures/report_ENG_London_Economic_Conference.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_London_Economic_Conference_2"
+        texturefile = "gfx/event_pictures/report_ENG_London_Economic_Conference_2.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_London_Economic_Conference_3"
+        texturefile = "gfx/event_pictures/report_ENG_London_Economic_Conference_3.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_London_Economic_Conference_4"
+        texturefile = "gfx/event_pictures/report_ENG_London_Economic_Conference_4.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_London_Economic_Conference_5"
+        texturefile = "gfx/event_pictures/report_ENG_London_Economic_Conference_5.png"
+    }
+
+    spriteType = {
         name = "GFX_report_ENG_Lord_Halifax"
         texturefile = "gfx/event_pictures/report_ENG_Lord_Halifax.png"
     }
 
     spriteType = {
+        name = "GFX_report_ENG_Lord_Halifax_2"
+        texturefile = "gfx/event_pictures/report_ENG_Lord_Halifax_2.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Loyal_Enemy_Aliens"
+        texturefile = "gfx/event_pictures/report_ENG_Loyal_Enemy_Aliens.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Mediterranean_Vacation"
+        texturefile = "gfx/event_pictures/report_ENG_Mediterranean_Vacation.png"
+    }
+
+    spriteType = {
         name = "GFX_report_ENG_Militia_Training"
         texturefile = "gfx/event_pictures/report_ENG_Militia_Training.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Mosley"
+        texturefile = "gfx/event_pictures/report_ENG_Mosley.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Need_of_a_Conference"
+        texturefile = "gfx/event_pictures/report_ENG_Need_of_a_Conference.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_New_Expeditionary_Force"
+        texturefile = "gfx/event_pictures/report_ENG_New_Expeditionary_Force.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Our_Weakening_Rule"
+        texturefile = "gfx/event_pictures/report_ENG_Our_Weakening_Rule.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Rationing"
+        texturefile = "gfx/event_pictures/report_ENG_Rationing.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Simons_Way_Out"
+        texturefile = "gfx/event_pictures/report_ENG_Simons_Way_Out.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Sunset"
+        texturefile = "gfx/event_pictures/report_ENG_Sunset.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_The_Fallen_Bridge"
+        texturefile = "gfx/event_pictures/report_ENG_The_Fallen_Bridge.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_The_Legacy_of_the_Great_War"
+        texturefile = "gfx/event_pictures/report_ENG_The_Legacy_of_the_Great_War.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Tizard"
+        texturefile = "gfx/event_pictures/report_ENG_Tizard.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Wallis_Simpson"
+        texturefile = "gfx/event_pictures/report_ENG_Wallis_Simpson.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Walter_Runciman"
+        texturefile = "gfx/event_pictures/report_ENG_Walter_Runciman.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Women_Children_and_Conservatives_First"
+        texturefile = "gfx/event_pictures/report_ENG_Women_Children_and_Conservatives_First.png"
     }
 
     spriteType = {
@@ -3617,6 +3902,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_report_SPR_The_Young_Republic"
         texturefile = "gfx/event_pictures/report_SPR_The_Young_Republic.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_The_Coats_Mission"
+        texturefile = "gfx/event_pictures/report_The_Coats_Mission.png"
     }
 
     spriteType = {
