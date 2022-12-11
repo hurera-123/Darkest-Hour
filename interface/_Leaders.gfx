@@ -2988,91 +2988,61 @@ spriteTypes = {
         name = "GFX_M_Generic_0"
         texturefile = "gfx/leaders/Generic/M_Generic_0.png"
     }
-    spriteType = {
-		name = "GFX_M_Generic_0_small"
-		texturefile = "gfx/leaders/Generic/M_Generic_0.png"
-	}
+    
 
     spriteType = {
         name = "GFX_M_Generic_1"
         texturefile = "gfx/leaders/Generic/M_Generic_1.png"
     }
-    spriteType = {
-		name = "GFX_M_Generic_1_small"
-		texturefile = "gfx/leaders/Generic/M_Generic_1.png"
-	}
+    
 
     spriteType = {
         name = "GFX_M_Generic_2"
         texturefile = "gfx/leaders/Generic/M_Generic_2.png"
     }
-    spriteType = {
-		name = "GFX_M_Generic_2_small"
-		texturefile = "gfx/leaders/Generic/M_Generic_2.png"
-	}
+    
 
     spriteType = {
         name = "GFX_M_Generic_3"
         texturefile = "gfx/leaders/Generic/M_Generic_3.png"
     }
-    spriteType = {
-		name = "GFX_M_Generic_3_small"
-		texturefile = "gfx/leaders/Generic/M_Generic_3.png"
-	}
+    
 
     spriteType = {
         name = "GFX_M_Generic_4"
         texturefile = "gfx/leaders/Generic/M_Generic_4.png"
     }
-    spriteType = {
-		name = "GFX_M_Generic_4_small"
-		texturefile = "gfx/leaders/Generic/M_Generic_4.png"
-	}
+    
 
     spriteType = {
         name = "GFX_M_Generic_5"
         texturefile = "gfx/leaders/Generic/M_Generic_5.png"
     }
-    spriteType = {
-		name = "GFX_M_Generic_5_small"
-		texturefile = "gfx/leaders/Generic/M_Generic_5.png"
-	}
+    
 
     spriteType = {
         name = "GFX_M_Generic_6"
         texturefile = "gfx/leaders/Generic/M_Generic_6.png"
     }
-    spriteType = {
-		name = "GFX_M_Generic_6_small"
-		texturefile = "gfx/leaders/Generic/M_Generic_6.png"
-	}
+    
 
     spriteType = {
         name = "GFX_M_Generic_7"
         texturefile = "gfx/leaders/Generic/M_Generic_7.png"
     }
-    spriteType = {
-		name = "GFX_M_Generic_7_small"
-		texturefile = "gfx/leaders/Generic/M_Generic_7.png"
-	}
+    
 
     spriteType = {
         name = "GFX_M_Generic_8"
         texturefile = "gfx/leaders/Generic/M_Generic_8.png"
     }
-    spriteType = {
-		name = "GFX_M_Generic_8_small"
-		texturefile = "gfx/leaders/Generic/M_Generic_7.png"
-	}
+    
 
     spriteType = {
         name = "GFX_M_Generic_9"
         texturefile = "gfx/leaders/Generic/M_Generic_9.png"
     }
-    spriteType = {
-		name = "GFX_M_Generic_9_small"
-		texturefile = "gfx/leaders/Generic/M_Generic_7.png"
-	}
+   
 
     spriteType = {
         name = "GFX_M_GER_1"

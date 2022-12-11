@@ -960,7 +960,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
-				amount = 1
+				uses = 1
 				category = DD_tech
 			}
 		}

@@ -1964,21 +1964,21 @@ guiTypes = {
 		#	}
 		#}
 
-		buttonType = {
-			name = "portraittime"
-			position = { x = 574 y = 68 }
-			quadTextureSprite ="GFX_leader_unknown"
-			scale = 0.26
-			alwaystransparent= yes
-		}
-
-		iconType = {
-			name = "portraitframe"
-			position = { x = 573 y = 66 }
-			quadTextureSprite ="GFX_unit_leader_portrait_frame"
-			scale = 0.6
-			#alwaystransparent= yes
-		}
+#		buttonType = {
+#			name = "portraittime"
+#			position = { x = 574 y = 68 }
+#			quadTextureSprite ="GFX_leader_unknown"
+#			scale = 0.26
+#			alwaystransparent= yes
+#		}
+#
+#		iconType = {
+#			name = "portraitframe"
+#			position = { x = 573 y = 66 }
+#			quadTextureSprite ="GFX_unit_leader_portrait_frame"
+#			scale = 0.6
+#			#alwaystransparent= yes
+#		}
 
 		buttonType = {
 			name = "promote_officer"

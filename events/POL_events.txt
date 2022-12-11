@@ -897,7 +897,7 @@ country_event = { #The Path of the Second Republic
 		create_country_leader = {
 			name = "Ignacy Mościcki"
 			picture = GFX_P_A_Ignacy_Moscicki
-			expire = "1941.12.2"
+			expire = "1947.1.1"
 			ideology = authoritarian_democracy
 			traits = {
 				POSITION_President

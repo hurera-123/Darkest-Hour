@@ -739,23 +739,6 @@ focus_tree = {
 		y = 1
 	}
 	focus = {
-		id = POL_Subsidise_Arms_Exporter
-		icon = GFX_goal_generic_small_arms
-		cost = 70
-		prerequisite = {
-			#focus = POL_Finish_Warsaw_Station
-			focus = POL_Continue_Urban_Buildip
-		}
-		relative_position_id = POL_Continue_Urban_Buildip
-		x = -3
-		y = 1
-		completion_reward = {
-			country_event = {
-				id = POL_Economic_Mid.1
-			}
-		}
-	}
-	focus = {
 		id = POL_Subsidise_Stalowa_Wola
 		icon = GFX_GENERIC_Mobile_Artillery
 		cost = 70
@@ -800,6 +783,8 @@ focus_tree = {
 		relative_position_id = POL_Subsidise_Arms_Exporter
 		x = 1
 		y = 1
+		completion_reward = {
+		}
 	}
 	focus = {
 		id = POL_Continue_Urban_Buildip
@@ -830,6 +815,23 @@ focus_tree = {
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
+	}
+	focus = {
+		id = POL_Subsidise_Arms_Exporter
+		icon = GFX_goal_generic_small_arms
+		cost = 70
+		prerequisite = {
+			#focus = POL_Finish_Warsaw_Station
+			focus = POL_Continue_Urban_Buildip
+		}
+		relative_position_id = POL_Continue_Urban_Buildip
+		x = -3
+		y = 1
+		completion_reward = {
+			country_event = {
+				id = POL_Economic_Mid.1
+			}
+		}
 	}
 	focus = {
 		id = POL_Promote_Chemical_Industry

@@ -982,7 +982,6 @@ country_event = {
 	is_triggered_only = yes
 	immediate = {
 		hidden_effect = {
-			rem
 			if = {
 				limit = {
 					check_variable = {
@@ -2774,7 +2773,12 @@ country_event = {
 			change_party_support = yes
 		}
 		else_if = {
-			limit = { has_country_leader = FRA_Gaston_Doumergue }
+			limit = { 
+				has_country_leader = {
+					character = FRA_Gaston_Doumergue 
+					ruling_only = yes
+				}
+			}
 			add_political_power = -50
 		}
 		else = {
