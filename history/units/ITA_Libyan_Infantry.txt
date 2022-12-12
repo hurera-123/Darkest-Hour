@@ -32,8 +32,8 @@ units = {
 	    start_experience_factor = 0.1
         start_equipment_factor = 0.80
 		acclimatization={
-			hot_climate=8540.000
-			max_acclimatization=8540.000
+			hot_climate=8950.000
+			max_acclimatization=8950.000
 		}
 	}
 	division= {	
@@ -46,8 +46,8 @@ units = {
 	    start_experience_factor = 0.1
         start_equipment_factor = 0.80
 		acclimatization={
-			hot_climate=8540.000
-			max_acclimatization=8540.000
+			hot_climate=8950.000
+			max_acclimatization=8950.000
 		}
 	}
 }

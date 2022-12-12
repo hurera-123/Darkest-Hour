@@ -49,12 +49,12 @@ units = {
 		}
         location = 6082 # Lappeenranta 
         division_template = "Ratsuväkiprikaati"
-        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_experience_factor = 0.22 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
         start_equipment_factor = 0.65 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
 		force_equipment_variants = { Light_Tank_equipment_1917 = { owner = "FIN" creator = "FRA" amount = 34 } } #34 Renault FT-17
 		acclimatization={
-			cold_climate=6420.000
-			max_acclimatization=6420.000
+			cold_climate=6020.000
+			max_acclimatization=6020.000
 		}
     }
 
@@ -65,11 +65,11 @@ units = {
 		}
         location = 11105 # Helsinki
         division_template = "Jalkaväkidivisioona"
-        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_experience_factor = 0.22 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
         start_equipment_factor = 0.65 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
 		acclimatization={
-			cold_climate=11920.000
-			max_acclimatization=11920.000
+			cold_climate=12020.000
+			max_acclimatization=12020.000
 		}
     }
 
@@ -80,11 +80,11 @@ units = {
 		}
         location = 3083 # Turku
         division_template = "Jalkaväkidivisioona"
-        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_experience_factor = 0.22 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
         start_equipment_factor = 0.65 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
 		acclimatization={
-			cold_climate=11920.000
-			max_acclimatization=11920.000
+			cold_climate=12020.000
+			max_acclimatization=12020.000
 		}
     }
 
@@ -95,11 +95,11 @@ units = {
 		}
         location = 3137 # Tampere
         division_template = "Jalkaväkidivisioona"
-        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_experience_factor = 0.22 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
         start_equipment_factor = 0.65 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
 		acclimatization={
-			cold_climate=11920.000
-			max_acclimatization=11920.000
+			cold_climate=12020.000
+			max_acclimatization=12020.000
 		}
     }
 
@@ -110,11 +110,11 @@ units = {
 		}
         location = 9038 # Seinäjoki
         division_template = "Jalkaväkidivisioona"
-        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_experience_factor = 0.22 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
         start_equipment_factor = 0.65 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
 		acclimatization={
-			cold_climate=11920.000
-			max_acclimatization=11920.000
+			cold_climate=12020.000
+			max_acclimatization=12020.000
 		}
     }
 
@@ -125,11 +125,11 @@ units = {
 		}
         location = 3122 # Vaasa
         division_template = "Jalkaväkidivisioona"
-        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_experience_factor = 0.22 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
         start_equipment_factor = 0.65 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
 		acclimatization={
-			cold_climate=11920.000
-			max_acclimatization=11920.000
+			cold_climate=12020.000
+			max_acclimatization=12020.000
 		}
     }
 
@@ -140,11 +140,11 @@ units = {
 		}
         location = 9056 # Jyväskylä
         division_template = "Jalkaväkidivisioona"
-        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_experience_factor = 0.22 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
         start_equipment_factor = 0.65 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
 		acclimatization={
-			cold_climate=11920.000
-			max_acclimatization=11920.000
+			cold_climate=12020.000
+			max_acclimatization=12020.000
 		}
     }
 
@@ -155,11 +155,11 @@ units = {
 		}
         location = 3061 # Kotka
         division_template = "Jalkaväkidivisioona"
-        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_experience_factor = 0.22 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
         start_equipment_factor = 0.65 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
 		acclimatization={
-			cold_climate=11920.000
-			max_acclimatization=11920.000
+			cold_climate=12020.000
+			max_acclimatization=12020.000
 		}
     }
 
@@ -170,11 +170,11 @@ units = {
 		}
         location = 9061 # Joensuu
         division_template = "Jalkaväkidivisioona"
-        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_experience_factor = 0.22 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
         start_equipment_factor = 0.65 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
 		acclimatization={
-			cold_climate=11920.000
-			max_acclimatization=11920.000
+			cold_climate=12020.000
+			max_acclimatization=12020.000
 		}
     }
 
@@ -185,11 +185,11 @@ units = {
 		}
         location = 165 # Mikkeli
         division_template = "Jalkaväkidivisioona"
-        start_experience_factor = 0.18 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
+        start_experience_factor = 0.22 # Finland still had a strong cadre of experienced troops from the German and Russian military and veterans of the Finnish Civil War.
         start_equipment_factor = 0.65 # Finland constantly struggled to keep up with outfitting its expanding military throughout the 2 decades before the Winter War
 		acclimatization={
-			cold_climate=11920.000
-			max_acclimatization=11920.000
+			cold_climate=12020.000
+			max_acclimatization=12020.000
 		}
     }
 

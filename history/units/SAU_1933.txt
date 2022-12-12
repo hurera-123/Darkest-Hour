@@ -47,8 +47,8 @@ units = {
         start_experience_factor = 0.08
         start_equipment_factor = 0.6 # Institutional Army had 1200 troops.
 		acclimatization={
-			hot_climate=3000.000
-			max_acclimatization=3000.000
+			hot_climate=2000.000
+			max_acclimatization=2000.000
 		}
     }
 
@@ -61,8 +61,8 @@ units = {
         start_experience_factor = 0.08 # This was militia cavalry.
         start_equipment_factor = 0.5 # Each one was a single battalion of 1000 troops.
 		acclimatization={
-			hot_climate=2000.000
-			max_acclimatization=2000.000
+			hot_climate=1600.000
+			max_acclimatization=1600.000
 		}
     }
 
@@ -74,8 +74,8 @@ units = {
         start_experience_factor = 0.08 # This was militia cavalry.
         start_equipment_factor = 0.5
 		acclimatization={
-			hot_climate=2000.000
-			max_acclimatization=2000.000
+			hot_climate=1600.000
+			max_acclimatization=1600.000
 		}
     }
 
@@ -87,8 +87,8 @@ units = {
         start_experience_factor = 0.08 # This was militia cavalry.
         start_equipment_factor = 0.5
 		acclimatization={
-			hot_climate=2000.000
-			max_acclimatization=2000.000
+			hot_climate=1600.000
+			max_acclimatization=1600.000
 		}
     }
 
@@ -100,8 +100,8 @@ units = {
         start_experience_factor = 0.08 # This was militia cavalry.
         start_equipment_factor = 0.5
 		acclimatization={
-			hot_climate=2000.000
-			max_acclimatization=2000.000
+			hot_climate=1600.000
+			max_acclimatization=1600.000
 		}
     }
 
@@ -113,8 +113,8 @@ units = {
         start_experience_factor = 0.02
         start_equipment_factor = 0.9
 		acclimatization={
-			hot_climate=4000.000
-			max_acclimatization=4000.000
+			hot_climate=10000.000
+			max_acclimatization=10000.000
 		}
     }
 
@@ -125,8 +125,8 @@ units = {
         start_experience_factor = 0.02
         start_equipment_factor = 0.9
  		acclimatization={
-			hot_climate=4000.000
-			max_acclimatization=4000.000
+			hot_climate=10000.000
+			max_acclimatization=10000.000
 		}
    }
  
@@ -137,8 +137,8 @@ units = {
         start_experience_factor = 0.02
         start_equipment_factor = 0.9
 		acclimatization={
-			hot_climate=4000.000
-			max_acclimatization=4000.000
+			hot_climate=10000.000
+			max_acclimatization=10000.000
 		}
     }
 	
@@ -149,8 +149,8 @@ units = {
         start_experience_factor = 0.02
         start_equipment_factor = 0.9
 		acclimatization={
-			hot_climate=4000.000
-			max_acclimatization=4000.000
+			hot_climate=10000.000
+			max_acclimatization=10000.000
 		}
     }
 }
