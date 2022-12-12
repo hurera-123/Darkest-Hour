@@ -1,4 +1,22 @@
 defined_text = {
+	name = GetWarRoomOperationNamePrefixOtherContext
+
+	text = {
+		trigger = {
+			check_variable = { operation_id = 1 }
+		}
+		localization_key = WAR_ROOM_OPERATION_1_PREFIX
+	}
+
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = "???"
+	}
+}
+
+defined_text = {
 	name = GetWarRoomOperationNameOtherContext
 
 	text = {
@@ -73,6 +91,41 @@ defined_text = {
 			always = yes
 		}
 		localization_key = "[This.GetWarRoomOperationDescOtherContext]"
+	}
+}
+
+defined_text = {
+	name = GetWarRoomOperationNamePrefix
+
+	text = {
+		trigger = {
+			set_temp_variable = { operation_id = v }
+			always = yes
+		}
+		localization_key = "[This.GetWarRoomOperationNamePrefixOtherContext]"
+	}
+}
+
+defined_text = {
+	name = GetWarRoomOperationNameLong
+
+	text = {
+		trigger = {
+			set_temp_variable = { operation_id = v }
+			always = yes
+		}
+		localization_key = "[This.GetWarRoomOperationNameLongOtherContext]"
+	}
+}
+
+defined_text = {
+	name = GetWarRoomOperationNameLongOtherContext
+
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = "[This.GetWarRoomOperationNamePrefixOtherContext] [This.GetWarRoomOperationNameOtherContext]"
 	}
 }
 
