@@ -409,7 +409,7 @@ units = {
 		} # 1st CO when the division was actually organized in 1939
 		portraits = {
 			army = {
-				small - GFX_M_Campbell_Hodges
+				small = GFX_M_Campbell_Hodges
 				large = GFX_M_Campbell_Hodges
 			}
 		}

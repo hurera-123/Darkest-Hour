@@ -30,7 +30,7 @@ ideas = {
 		}
 		### Divided Command System
 		JAP_Divided_Command_System = {
-			picture = GFX_idea_JAP_Disjointed_Intervention_Policy
+			picture = GFX_idea_JAP_Divided_Command_System
 			available = {
 				original_tag = JAP
 			}

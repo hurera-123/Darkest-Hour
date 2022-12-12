@@ -401,8 +401,8 @@ units = {
 		}
 		portraits = {
 			army = {
-				small = M_Charles_Marie_Conde
-				large = M_Charles_Marie_Conde
+				small = GFX_M_Charles_Marie_Conde
+				large = GFX_M_Charles_Marie_Conde
 			}
 		}
 		location = 11483 # Lille

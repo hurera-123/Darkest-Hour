@@ -3575,8 +3575,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_idea_Aleksander_Pryskor"
-        texturefile = "gfx/interface/ideas/Cabinet/POL/Aleksander_Pryskor.png"
+        name = "GFX_idea_Aleksander_Prystor"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Aleksander_Prystor.png"
     }
 
     spriteType = {
@@ -3615,8 +3615,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_idea_Janusz_Radziwil"
-        texturefile = "gfx/interface/ideas/Cabinet/POL/Janusz_Radziwil.png"
+        name = "GFX_idea_Janusz_Radziwill"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Janusz_Radziwill.png"
     }
 
     spriteType = {
@@ -6455,8 +6455,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_idea_FRA_La_Der_Des_Ders"
-        texturefile = "gfx/interface/ideas/Spirits/FRA_La_Der_Des_Ders.png"
+        name = "GFX_idea_FRA_La_Der_des_Ders"
+        texturefile = "gfx/interface/ideas/Spirits/FRA_La_Der_des_Ders.png"
     }
 
     spriteType = {
@@ -7185,8 +7185,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_idea_JAP_Disjointed_Intervention_Policy"
-        texturefile = "gfx/interface/ideas/Spirits/JAP_Disjointed_Intervention_Policy.png"
+        name = "GFX_idea_JAP_Divided_Command_System"
+        texturefile = "gfx/interface/ideas/Spirits/JAP_Divided_Command_System.png"
     }
 
     spriteType = {
