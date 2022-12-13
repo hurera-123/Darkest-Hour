@@ -14,7 +14,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			quadTextureSprite = "GFX_tiled_bg_container"
+			quadTextureSprite = "GFX_tiled_bg"
 		}
 
 		containerWindowType = {
@@ -291,7 +291,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_tiled_stats_bg"
+			quadTextureSprite ="GFX_tiled_stats_bg_dark"
 		}
 
 		containerWindowType = {

@@ -57,14 +57,25 @@ Socialism_has_been_Achieved = {
 	}
 }
 
-Literally_1984 = {
+#Literally_1984 = {
+#	
+#	possible = {
+#		difficulty > 1
+#	}
+#	
+#	happened = {
+#		date > 1984.1.1
+#	}
+#}
+
+Literally_1948 = {
 	
 	possible = {
 		difficulty > 1
 	}
 	
 	happened = {
-		date > 1984.1.1
+		date > 1948.1.1
 	}
 }
 
