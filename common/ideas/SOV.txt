@@ -1131,7 +1131,7 @@ ideas = {
 				stability_factor = -0.10
 			}
 		}
-	#### Production Quotas
+		#### Production Quotas
 		SOV_Production_Quotas = {
 			allowed = {
 				always = no
@@ -1213,7 +1213,7 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
-	#### Repurposed Guns
+		#### Repurposed Guns
 		SOV_repurpose_guns = {
 			allowed = {
 				always = no
@@ -1233,7 +1233,7 @@ ideas = {
 				}
 			}
 		}
-	#### Repurposed Hulls
+		#### Repurposed Hulls
 		SOV_repurpose_hulls = {
 			allowed = {
 				always = no
@@ -1259,7 +1259,7 @@ ideas = {
 				}
 			}
 		}
-	#### Unstable Democracy
+		#### Unstable Democracy
 		SOV_Unstable_Democracy = {
 			allowed = {
 				always = no
@@ -1277,7 +1277,7 @@ ideas = {
 				political_power_gain = -0.2
 			}
 		}
-	#### Soviet Democracy
+		#### Soviet Democracy
 		SOV_Soviet_Democracy = {
 			allowed = {
 				always = no
@@ -1295,7 +1295,7 @@ ideas = {
 				political_power_gain = -0.1
 			}
 		}
-	#### New Economic Policy
+		#### New Economic Policy
 		SOV_New_Economic_Policy = {
 			picture = SOV_NEP
 			allowed = {
@@ -1315,7 +1315,7 @@ ideas = {
 				research_speed_factor = -0.05
 			}
 		}
-	#### The Deal
+		#### The Deal
 		SOV_The_Deal_idea = {
 			picture = SOV_The_Deal_idea
 			allowed = {
@@ -1967,6 +1967,51 @@ ideas = {
 			}
 		}
 
+		SOV_Tukhachevsky_Povorot = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_SOV_Tukhachevsky_Povorot
+
+			modifier = {
+				political_power_gain = -0.1
+				training_time_army_factor = 0.1
+				army_org = 10
+				experience_gain_army_factor = 0.25
+				command_power_gain_mult = 0.25
+			}
+		}
+
+		SOV_Tukhachevsky_Povorot_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_SOV_Tukhachevsky_Povorot
+
+			modifier = {
+				political_power_gain = -0.1
+				training_time_army_factor = 0.1
+				army_org = 10
+				experience_gain_army_factor = 0.25
+				command_power_gain_mult = 0.25
+				army_attack = 10
+			}
+		}
+
 		SOV_STAVKA = {
 			allowed = {
 				always = no
@@ -1985,6 +2030,87 @@ ideas = {
 				experience_gain_army = 0.1
 				promote_cost_factor = -0.25
 				army_advisor_cost_factor = -0.5
+			}
+		}
+
+		SOV_Deep_Battle = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			#picture =
+
+			modifier = {
+				army_armor_attack_factor = 0.15
+				army_defence_factor = -0.05
+				army_org_factor = 0.1
+			}
+		}
+
+		SOV_Human_Wave = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			#picture = 
+
+			modifier = {
+				army_infantry_attack = 15
+				army_infantry_defence = -5
+				army_org = -10
+				army_morale = 5
+			}
+		}
+
+		SOV_TANKOGRAD = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			#picture = 
+
+			equipment_bonus = {
+				armor_equipment = {
+					build_cost_ic = -0.1
+					reliability = -0.05
+				}
+			}
+		}
+
+		SOV_Krasnaya_Armiya_Vorzrozhdayetsya = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			#picture = 
+
+			modifier = {
+				army_org = 5
+				dig_in_speed = 5
 			}
 		}
 
@@ -2448,6 +2574,12 @@ ideas = {
 
 			modifier = {
 				
+			}
+		}
+		SOV_Massive_Partisan_Effort = {
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_core_defense_factor = 0.05 
 			}
 		}
 	}

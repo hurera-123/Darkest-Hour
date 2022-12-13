@@ -611,6 +611,16 @@
  soviet_special.2.t: "Great Patriotic War"
  soviet_special.2.d: "Germany pushes into the Motherland farther then we thought they could. We must put a end to this!"
  soviet_special.2.A: "For the Motherland!"
+ 
+ ###Red Army Trees
+ SOV_Red_Army.1.t: "RED ARMY 1933"
+ SOV_Red_Army.1.d: "A report to the general staff of the Red Army on its combat ability.\n\nThe Workers and Peasants Red Army is commonly referred to as the Red Army. Is now plagued with corruption ranging from the lowest of officers to even our own commissars. Once the proud army of the people and the sign of the liberation of the working class is now a disorganized mess and severely lacking doctrinal coordination.\n\nTwo factions seem to be forming among our officer class in the thought of “Deep Battle”. The process of thrusting into an enemy's rear after a breakthrough is made. Then the Old guard preferred the ways of old that being of “Human Wave Tactics' ' overpowering our enemy from seat numbers compared to combined arms of air, land, and navy.\n\nIt is highly recommended that serious consideration and evaluation of the Red Army take place as advised in the 7th Congress."
+ SOV_Red_Army.1.A: ""
+ 
+ SOV_Red_Army.2.t: "Reorganization of the General Staff"
+ SOV_Red_Army.2.d: "The Workers and Peasants Army is being put under heavy reformation, under the declaration of the Party and the General Staff, it has been decided in order to reorganize it a new rank structure that is formal will be put into place. The Rank structure will reorganize the Army putting a chain of command, among this the disbandment of the territorial militia.\n\nThe High command will be the first to receive reform when it comes to the rank system. The General staff is being reorganized to be commanded by a “Marshal” of the Soviet Union, whose will is unknown at this time and is being left to the direction of the Party and Premier Stalin.\n\nThe Options for the Picking are between Kliment Voroshilov and his “Oldguard” and between Tukhachevsky’s young reformist, Tukhachevsky wishes to build the Soviet Military into a Modern force comprising of a combined army strategy he has named ‘Deep Battle’. Compared Voroshilov wishes to see the Soviet Union keep its strategy relying on both numbers, land, and defense compared to the offensive."
+ SOV_Red_Army.2.A: "Marshal Tukachevsky."
+ SOV_Red_Army.2.B: "Marshal Voroshilov."
 
 ######################################################################
 #  Soviet Union Focuses
@@ -1139,6 +1149,7 @@
 
  SOV_Reorganize_the_Red_Army: "Reorganize the Red Army"
  SOV_Reorganize_the_Red_Army_desc: "In the immediate postwar era, the chaotic state of the Soviet economy has precluded the expense of a large standing army. The majority of the divisions are understrength and rely upon reservists drawn from particular territorial regions.\n\nA combination of regular cadre formations and territorial militias, poor organization limits the Red Army's capabilities as a combat-capable force. As it has become clear that the military will play an important role in Soviet foreign policy, either as an enforcer or deterrent, it is of the utmost importance that the Red Army immediately be reorganized following set professional standards and a coherent mission policy."
+ SOV_Reorganize_the_Red_Army_tt: "Gets a linear Event Chain about the changes"
 
  SOV_Defense_in_Depth: "Defense in Depth"
  SOV_Defense_in_Depth_desc: "The key to victory is the effective utilization of all available assets at hand. Men, equipment, and terrain are all assets to consider, resources to spend on the battlefield.\n\nOne asset we have in abundance is territory- our lands are vast, giving our forces room to maneuver and the ability to conduct repeated retreats should it be necessary.\n\nTo utilize our geography to its full potential, Red Army theorists envisage a "defense in depth" involving fortifications, field works, and military units arranged in consecutive strategic belts to slow the enemy advance. As the enemy pushes through the frontlines and penetrates further, their flanks become vulnerable; when the advance stalls and they are overextended, mobile reserves can be brought from the rear and used to envelop the enemy penetrations."
@@ -1227,8 +1238,8 @@
  SOV_Morozovs_Armored_Evolution: "Morozov's Armored Evolution"
  SOV_Morozovs_Armored_Evolution_desc: "Intrinsically tied to the Deep Battle Strategy is the Tank, a weapon so strong and formidable. Our very own army can be bolstered with a lineup and a roadmap of medium tanks to surpass the Germans and any other foe. Headed by Major General Morozov, this plan involves the creation of a medium Battle Tank to outfit to Soviet Armoured divisions, and the eventual evolution of this armament until it can reach perfection.\n\nAlthough it is unlikely such a weapon will see warfare in the next few years, its predecessors can face our foes and funnel back valuable information to help research and further evolve our medium tank designs."
 
- SOV_Reinvigorate_Heavy_Tank_Designs: "Reinvigorate Heavy Tank Designs"
- SOV_Reinvigorate_Heavy_Tank_Designs_desc: "Integral to the Deep battle Doctrine is the Heavy Tank, but not much research has been put into this subject for many years. Thus, our Heavy Tank capabilities have been lacking. One solution to this issue has been the IS family of tanks, named after Joseph Stalin. These designs feature enhanced firepower abilities and are sure to outmatch any heavy tanks the enemy throws at us. These come to replace our old designs and will be sure to bolster the power of the Deep battle Doctrine."
+ SOV_Chelyabinsk_Tractor_Plant: "Chelyabinsk Tractor Plant"
+ SOV_Chelyabinsk_Tractor_Plant_desc: "Integral to the Deep battle Doctrine is the Heavy Tank, but not much research has been put into this subject for many years. Thus, our Heavy Tank capabilities have been lacking. One solution to this issue has been the IS family of tanks, named after Joseph Stalin. These designs feature enhanced firepower abilities and are sure to outmatch any heavy tanks the enemy throws at us. These come to replace our old designs and will be sure to bolster the power of the Deep battle Doctrine."
 
  SOV_STAVKA: "STAVKA"
  SOV_STAVKA_desc: "During the First Imperialist War, our predecessors, the despicable Tsars, called their central command, headed by the hated Tsar Nicholas II, the Stavka, named after the tents they resided in. In order to perfect this, our Premier (leader name) has signed a top secret decree to reestablish this institution as a method of creating a rigid command structure after the necessary purges of the military. This will improve our overall coordination between the Supreme Main Command and each individual soldier defending our borders against imperialism."
@@ -2126,12 +2137,6 @@
  SOV_Focalize_on_Sovkhoz_Farms_3: "Sovkhov Agricultural Model"
  SOV_Focalize_on_Sovkhoz_Farms_3_desc: ""
 
- SOV_Voroshilovtchina: "Voroshilovtchina"
- SOV_Voroshilovtchina_desc: ""
-
- SOV_Voroshilovtchina_2: "Voroshilovtchina"
- SOV_Voroshilovtchina_2_desc: ""
-
  SOV_Shock_Troops: "Shock Troops"
  SOV_Shock_Troops_desc: ""
 
@@ -2215,3 +2220,29 @@
  SOV_OPERATION_GROZA_DECISION_GUI_PHASE_2_TT_REACHED: "§YPhase 2 has already been reached, which gives us the following effects:§!"
  SOV_OPERATION_GROZA_DECISION_GUI_PHASE_3_TT_NOT_REACHED: "§YPhase 3§! will be reached at a preparation progress of §Y100.00%§!. \n\nReaching this phase will give us the following effects:"
  SOV_OPERATION_GROZA_DECISION_GUI_PHASE_3_TT_REACHED: "§YPhase 3 has already been reached, which gives us the following effects:§!"
+
+ #Red Army ideas
+ SOV_Tukhachevsky_Povorot: "Tukhachevsky Povorot"
+ SOV_Tukhachevsky_Povorot_desc: ""
+ 
+ SOV_Tukhachevsky_Povorot_2: "Tukhachevsky Povorot"
+ SOV_Tukhachevsky_Povorot_2_desc: ""
+
+ SOV_Voroshilovtchina: "Voroshilovtchina"
+ SOV_Voroshilovtchina_desc: ""
+
+ SOV_Voroshilovtchina_2: "Voroshilovtchina"
+ SOV_Voroshilovtchina_2_desc: ""
+ 
+ SOV_Deep_Battle: "Deep Battle"
+ SOV_Deep_Battle_desc: ""
+ 
+ SOV_Human_Wave: "Human Wave"
+ SOV_Deep_Battle_desc: ""
+ 
+ SOV_TANKOGRAD: "TANKOGRAD"
+ SOV_TANKOGRAD_desc: ""
+ 
+ SOV_Krasnaya_Armiya_Vorzrozhdayetsya: "Krasnaya Armiya Vorzrozhdayetsya"
+ SOV_Krasnaya_Armiya_Vorzrozhdayetsya_desc: ""
+ 
