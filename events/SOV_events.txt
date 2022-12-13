@@ -22,6 +22,7 @@ add_namespace = SOV_Invasion_of_Persia
 add_namespace = SOV_CHI_Intervention
 add_namespace = SOV_SPR_Intervention
 add_namespace = SOV_Liberation_of_Europe
+add_namespace = SOV_Red_Army
 #########################################################################
 # "Now We Know the End..." (Tukhachevsky)
 #########################################################################
@@ -3157,5 +3158,40 @@ country_event = {
 			target = DDR
 			autonomous_state = AUTONOMY_SSR
 		}
+	}
+}
+
+#########################################################################
+# Red Army Focuses
+#########################################################################
+
+###State of the Red Army
+
+country_event = {
+	id = SOV_Red_Army.1
+	title = SOV_Red_Army.1.t
+	desc = SOV_Red_Army.1.d
+	#picture = 
+	is_triggered_only = yes
+
+	option = {
+		name = SOV_Red_Army.1.A
+	}
+}
+
+country_event = {
+	id = SOV_Red_Army.2
+	title = SOV_Red_Army.2.t
+	desc = SOV_Red_Army.2.d
+	#picture = 
+	is_triggered_only = yes
+
+	option = {
+		name = SOV_Red_Army.2.A
+		activate_advisor = SOV_Mikhail_N_Tukhatchevskiy_CoStaff
+	}
+	option = {
+		name = SOV_Red_Army.2.B
+		activate_advisor = SOV_Kliment_Y_Voroshilov_CoStaff
 	}
 }

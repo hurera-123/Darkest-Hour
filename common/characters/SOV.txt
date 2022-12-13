@@ -3987,7 +3987,7 @@ characters = {
 		}
 	}
 	SOV_Mikhail_N_Tukhatchevskiy = {
-		name=SOV_Mikhail_N_Tukhatchevskiy
+		name = SOV_Mikhail_N_Tukhatchevskiy
 		portraits={
 			army={
 				small="GFX_idea_Mikhail_N_Tukhatchevskiy"
