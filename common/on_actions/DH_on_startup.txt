@@ -134,6 +134,10 @@ on_actions = {
 					country_event = { id = USA_Elections_1932.1 days = 62 } # March 4, 1933
 					country_event = { id = USA_Flavor.0 days = 184 } # July 4, 1933
 				}
+				GER = {
+					news_event = { id = GER_Flavor.1 days = 303 } # 2nd November 1933
+					news_event = { id = GER_Olympics.1 days = 1154 }
+				}
 			}
 			else_if = { # For 1936 Start Date
 				limit = {

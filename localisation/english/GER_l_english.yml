@@ -1248,16 +1248,14 @@
 
  # 1936 Olympics Event Chain
  GER_Olympics.1.t: "Opening ceremony for the Berlin Olympics"
- GER_Olympics.1.d: "[FROM.GetNewsIcon]As the greatest athletes from nearly 50 countries come to Berlin for the Olympic Games, the eyes of the world once more turns to the Vaterland. As one would expect we have done everything in our power to make the greatest show of German superiority for it’s opening. As such the games were opened by the [GER.leader_title_one] himself, and the Olympic Fire was lit by a runner carrying a torch from Greece itself. Now, all we can do is hope that our athletes are as good as our opening!"
+ GER_Olympics.1.d: "[FROM.GetNewsIcon]The much-anticipated opening ceremony for the Berlin Olympics took place today, marking the official start of the Games. Thousands of spectators gathered in the Olympic Stadium to witness the spectacle, which included a parade of athletes from over 50 countries, as well as performances from local musicians and dancers.\n\nThe ceremony was presided over by the German Chancellor, Adolf Hitler, who gave a short speech before declaring the games officially open. The Olympic flame was then lit by athlete Fritz Schilgen, to the cheers of the crowd."
  GER_Olympics.1.A: "Let the games begin!"
+ GER_Olympics.1.B: "Let the games begin!"
 
  GER_Olympics.2.t: "End of the 1936 Berlin Olympics"
- GER_Olympics.2.d: "[FROM.GetNewsIcon]After several weeks of intense competitions in over 100 events, the German heroes have proven themselves! Winning in nearly 90 total medals they were far superior to all competition, beating the Americans by more than 30 medals!For the first time ever, the games were broadcast live on televisions all over the world, meaning that everyone could see the German superiority!"
+ GER_Olympics.2.d: "[FROM.GetNewsIcon]The 1936 Berlin Olympics came to a close today, with a closing ceremony that was just as impressive as the opening ceremony. The two weeks of competitions saw athletes from around the world competing in a wide range of events, including track and field, swimming, and gymnastics.\n\nThe final day of the Games featured the marathon, which was won by the Italian athlete, Simeone Mario da Pra. The closing ceremony also included a parade of athletes, as well as a performance by the Berlin Philharmonic Orchestra.\n\nThe 1936 Berlin Olympics were a resounding success, with many athletes setting new world records and winning gold medals for their countries.Despite the political overtones of the Games, the athletes were able to put aside their differences and compete in the spirit of sportsmanship and fair play. The 1936 Berlin Olympics will be remembered as one of the most exciting and competitive Olympic events in history."
  GER_Olympics.2.A: "Long live the Olympic Heroes!"
-
- GER_Olympics.3.t: "End of the 1936 Berlin Olympics"
- GER_Olympics.3.d: "[FROM.GetNewsIcon]After several weeks of intense competitions in over 100 events, the impossible has happened! The valiant Germans fought hard, but were ultimately defeated by the Americans. Worse yet, the events were for the first time ever televised throughout the civilized world meaning that everyone could see the shame of the German athletes."
- GER_Olympics.3.A: "Dishonour to the nation!"
+ GER_Olympics.2.B: "Long live the Olympic Heroes!"
 
  # Elser Plot Event Chain
  GER_BeerHallPutsch.1.t: "The Bierhallenputsch Commemoration"
@@ -1342,8 +1340,7 @@
 
 # Flavor
  GER_Flavor.1.t: "Werner Heisenberg, Awarded with a Nobel Prize in Physics"
- GER_Flavor.1.d: "[FROM.GetNewsIcon]On this day, the year of 1933, the German physicist Werner Heisenberg has won the famous Nobel Prize for his work in physics. Werner started publishing his work in the year of 1925, but none of his work managed to make him successful as his creation of quantum mechanics. The German has truly deserved this award for his outstanding work, people of Germany should be proud of their physicist."
- GER_Flavor.1.d.GER: "[FROM.GetNewsIcon]We mark this day as a massive success and a step forward for our glorious country. Our great physicist, Werner Heisenberg has been awarded the Nobel Prize, it brings us joy that we know we have smart and successful people like Werner in our country. He won the award because of his astonishing work on creating quantum mechanics, Werner was a key pioneer in this project and without him we would never create quantum mechanics as fast as we did now. Our people should be proud of Werner."
+ GER_Flavor.1.d: "[FROM.GetNewsIcon]Werner Heisenberg, a brilliant young physicist from Germany, has been awarded the Nobel Prize in Physics for his groundbreaking work in the field of quantum mechanics. Heisenberg's theory, known as the uncertainty principle, has challenged traditional ideas about the nature of reality and has provided new insights into the behavior of subatomic particles.\n\nHeisenberg's work has been hailed as a major achievement in the field of physics, and has already sparked a flurry of activity among other physicists who are eager to build upon his ideas. The award of the Nobel Prize recognizes the importance of Heisenberg's contributions and is a testament to the young scientist's incredible talent and dedication to his craft.\n\nMany in the scientific community have expressed their admiration for Heisenberg and his work, with some even calling him the \"Father of Quantum Mechanics.\" Heisenberg himself has said that he is humbled by the award and is grateful for the recognition of his work.\n\nThe award of the Nobel Prize is a significant milestone in Heisenberg's already impressive career, and is sure to be followed by many more achievements and accolades in the years to come. Heisenberg is a shining example of the limitless potential of human curiosity and the power of scientific inquiry to unlock the mysteries of the universe."
  GER_Flavor.1.A: "Send him our Congratulations"
 
  GER_Flavor.2.t: "The Hindenburg"

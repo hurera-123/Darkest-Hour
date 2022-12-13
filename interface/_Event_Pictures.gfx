@@ -1095,6 +1095,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_ITA_Armistice_of_Cassibile"
+        texturefile = "gfx/event_pictures/news_ITA_Armistice_of_Cassibile.png"
+    }
+
+    spriteType = {
         name = "GFX_news_ITA_Duce_Addresses_the_Chamber_of_Deputies"
         texturefile = "gfx/event_pictures/news_ITA_Duce_Addresses_the_Chamber_of_Deputies.png"
     }
@@ -1130,6 +1135,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_ITA_Mussolini_Arrested"
+        texturefile = "gfx/event_pictures/news_ITA_Mussolini_Arrested.png"
+    }
+
+    spriteType = {
         name = "GFX_news_ITA_Mussolini_Saluting"
         texturefile = "gfx/event_pictures/news_ITA_Mussolini_Saluting.png"
     }
@@ -1162,6 +1172,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_news_ITA_Stresa_Front"
         texturefile = "gfx/event_pictures/news_ITA_Stresa_Front.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_ITA_Victor_Emmanuel_III_Crowned_King_of_Albania"
+        texturefile = "gfx/event_pictures/news_ITA_Victor_Emmanuel_III_Crowned_King_of_Albania.png"
     }
 
     spriteType = {
@@ -2205,8 +2220,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_ENG_RAF"
+        texturefile = "gfx/event_pictures/report_ENG_RAF.png"
+    }
+
+    spriteType = {
         name = "GFX_report_ENG_Rationing"
         texturefile = "gfx/event_pictures/report_ENG_Rationing.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ENG_Royal_Marines"
+        texturefile = "gfx/event_pictures/report_ENG_Royal_Marines.png"
     }
 
     spriteType = {
@@ -2440,8 +2465,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_GER_Austria_Map"
+        texturefile = "gfx/event_pictures/report_GER_Austria_Map.png"
+    }
+
+    spriteType = {
         name = "GFX_report_GER_Autarky"
         texturefile = "gfx/event_pictures/report_GER_Autarky.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_GER_Axis_Diplomats"
+        texturefile = "gfx/event_pictures/report_GER_Axis_Diplomats.png"
     }
 
     spriteType = {
@@ -2587,6 +2622,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_report_GER_Fall_Weiss"
         texturefile = "gfx/event_pictures/report_GER_Fall_Weiss.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_GER_Finnish_Diplomats"
+        texturefile = "gfx/event_pictures/report_GER_Finnish_Diplomats.png"
     }
 
     spriteType = {
@@ -2925,6 +2965,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_GER_Romania_Map"
+        texturefile = "gfx/event_pictures/report_GER_Romania_Map.png"
+    }
+
+    spriteType = {
         name = "GFX_report_GER_Rome_Berlin_Axis"
         texturefile = "gfx/event_pictures/report_GER_Rome_Berlin_Axis.png"
     }
@@ -3110,8 +3155,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_ITA_Airplanes_Production"
+        texturefile = "gfx/event_pictures/report_ITA_Airplanes_Production.png"
+    }
+
+    spriteType = {
         name = "GFX_report_ITA_Alexandria_BB"
         texturefile = "gfx/event_pictures/report_ITA_Alexandria_BB.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_Army_Exercises"
+        texturefile = "gfx/event_pictures/report_ITA_Army_Exercises.png"
     }
 
     spriteType = {
@@ -3120,8 +3175,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_ITA_Benito_Mussolini"
+        texturefile = "gfx/event_pictures/report_ITA_Benito_Mussolini.png"
+    }
+
+    spriteType = {
         name = "GFX_report_ITA_British_Reaction"
         texturefile = "gfx/event_pictures/report_ITA_British_Reaction.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_Cities_in_Agro_Pontino"
+        texturefile = "gfx/event_pictures/report_ITA_Cities_in_Agro_Pontino.png"
     }
 
     spriteType = {
@@ -3135,8 +3200,48 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_ITA_Dino_Grandi"
+        texturefile = "gfx/event_pictures/report_ITA_Dino_Grandi.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_English_Royal_Navy_Agrees"
+        texturefile = "gfx/event_pictures/report_ITA_English_Royal_Navy_Agrees.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_Formation_of_Corporations"
+        texturefile = "gfx/event_pictures/report_ITA_Formation_of_Corporations.png"
+    }
+
+    spriteType = {
         name = "GFX_report_ITA_French_Reaction"
         texturefile = "gfx/event_pictures/report_ITA_French_Reaction.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_Invasion_of_Albania"
+        texturefile = "gfx/event_pictures/report_ITA_Invasion_of_Albania.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_Italian_Army"
+        texturefile = "gfx/event_pictures/report_ITA_Italian_Army.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_Italian_General"
+        texturefile = "gfx/event_pictures/report_ITA_Italian_General.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_Italian_Industry"
+        texturefile = "gfx/event_pictures/report_ITA_Italian_Industry.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_Italian_Lira"
+        texturefile = "gfx/event_pictures/report_ITA_Italian_Lira.png"
     }
 
     spriteType = {
@@ -3145,8 +3250,23 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_ITA_Italian_Workers_in_Germany"
+        texturefile = "gfx/event_pictures/report_ITA_Italian_Workers_in_Germany.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_Libya_Map"
+        texturefile = "gfx/event_pictures/report_ITA_Libya_Map.png"
+    }
+
+    spriteType = {
         name = "GFX_report_ITA_Litoranea_Libica"
         texturefile = "gfx/event_pictures/report_ITA_Litoranea_Libica.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_London_Treaty_Territories"
+        texturefile = "gfx/event_pictures/report_ITA_London_Treaty_Territories.png"
     }
 
     spriteType = {
@@ -3170,13 +3290,53 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_ITA_Navy"
+        texturefile = "gfx/event_pictures/report_ITA_Navy.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_Navy_Exercises"
+        texturefile = "gfx/event_pictures/report_ITA_Navy_Exercises.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_Partisans"
+        texturefile = "gfx/event_pictures/report_ITA_Partisans.png"
+    }
+
+    spriteType = {
         name = "GFX_report_ITA_Proposal"
         texturefile = "gfx/event_pictures/report_ITA_Proposal.png"
     }
 
     spriteType = {
+        name = "GFX_report_ITA_Soldiers_in_Libya"
+        texturefile = "gfx/event_pictures/report_ITA_Soldiers_in_Libya.png"
+    }
+
+    spriteType = {
         name = "GFX_report_ITA_Somali_Ascari_in_Ethiopia"
         texturefile = "gfx/event_pictures/report_ITA_Somali_Ascari_in_Ethiopia.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_Swamps"
+        texturefile = "gfx/event_pictures/report_ITA_Swamps.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_Ultimatum_Accepted"
+        texturefile = "gfx/event_pictures/report_ITA_Ultimatum_Accepted.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_Ultimatum_Refused"
+        texturefile = "gfx/event_pictures/report_ITA_Ultimatum_Refused.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_ITA_Via_Balbia"
+        texturefile = "gfx/event_pictures/report_ITA_Via_Balbia.png"
     }
 
     spriteType = {

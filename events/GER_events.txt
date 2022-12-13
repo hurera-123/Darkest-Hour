@@ -3316,26 +3316,10 @@ news_event = {
 news_event = {
 	id = GER_Flavor.1
 	title = GER_Flavor.1.t
-	desc = {
-		text = GER_Flavor.1.d
-		trigger = {
-			NOT = {
-				original_tag = GER
-			}
-		}
-	}
-	desc = {
-		text = GER_Flavor.1.d.GER
-		trigger = {
-			original_tag = GER
-		}
-	}
+	desc = GER_Flavor.1.d
 	picture = GFX_news_GER_Werner_Heisenberg
-	fire_only_once = yes
-	trigger = {
-		date > 1933.11.2
-		has_start_date < 1933.11.2
-	}
+	is_triggered_only = yes
+	major = yes
 	# Send him our Congratulations
 	option = {
 		name = GER_Flavor.1.A
@@ -4491,35 +4475,8 @@ news_event = {
 	title = GER_Olympics.1.t
 	desc = GER_Olympics.1.d
 	picture = GFX_news_GER_1936_Olympics
-	fire_only_once = yes
-	trigger = {
-		tag = GER
-		date > 1936.8.1
-		has_start_date < 1936.8.1
-		NOT = {
-			has_global_flag = olympics_1936
-		}
-		NOT = {
-			has_global_flag = civil_war_olympics
-		}
-		country_exists = GER
-		country_exists = USA
-		GER = {
-			has_war = no
-		}
-		GER = {
-			has_civil_war = no
-		}
-		FRA = {
-			has_war = no
-		}
-		ENG = {
-			has_war = no
-		}
-		USA = {
-			has_war = no
-		}
-	}
+	is_triggered_only = yes
+	major = yes
 	# Let the games begin!
 	option = {
 		name = GER_Olympics.1.A
@@ -4527,66 +4484,49 @@ news_event = {
 			original_tag = GER
 		}
 		hidden_effect = {
-			random_list = {
-				90 = {
-					news_event = {
-						days = 15
-						id = GER_Olympics.2
-					}
-				}
-				# Victory at the Olympics
-				10 = {
-					news_event = {
-						days = 15
-						id = GER_Olympics.3
-					}
-				}
-				# Defeat at the Olympics
+			news_event = {
+				days = 15
+				id = GER_Olympics.2
+			}
+		}
+	}
+	option = {
+		name = GER_Olympics.1.A
+		trigger = {
+			NOT = {
+				original_tag = GER
 			}
 		}
 	}
 }
 ###########################
-# End of the 1936 Berlin Olympics (Victorious version)
+# End of the 1936 Berlin Olympics
 ###########################
 news_event = {
 	id = GER_Olympics.2
 	title = GER_Olympics.2.t
 	desc = GER_Olympics.2.d
 	picture = GFX_news_GER_1936_Olympics_Closing
-	fire_only_once = yes
 	is_triggered_only = yes
-	trigger = {
-		original_tag = GER
-	}
+	major = yes
 	# Long live the Olympic Heroes!
 	option = {
 		name = GER_Olympics.2.A
+		trigger = {
+			original_tag = GER
+		}
 		add_timed_idea = {
 			idea = GER_Olympic_Winners
 			days = 30
 		}
 	}
-}
-###########################
-# End of the 1936 Berlin Olympics (Defeated version)
-###########################
-news_event = {
-	id = GER_Olympics.3
-	title = GER_Olympics.3.t
-	desc = GER_Olympics.3.d
-	picture = GFX_news_GER_1936_Olympics_Closing
-	fire_only_once = yes
-	is_triggered_only = yes
-	trigger = {
-		original_tag = GER
-	}
-	# Dishonor to the nation!
+	# Long live the Olympic Heroes!
 	option = {
-		name = GER_Olympics.3.A
-		add_timed_idea = {
-			idea = GER_Olympic_Losers
-			days = 30
+		name = GER_Olympics.2.B
+		trigger = {
+			NOT = {
+				original_tag = GER
+			}
 		}
 	}
 }
@@ -6412,7 +6352,7 @@ country_event = {
 	id = GER_Barbarossa.4
 	title = GER_Barbarossa.4.t
 	desc = GER_Barbarossa.4.d
-	picture = GFX_
+	picture = GFX_report_GER_Finnish_Diplomats
 	is_triggered_only = yes
 	# Exellent
 	option = {
@@ -9573,7 +9513,7 @@ country_event = {
 	id = GER_Danube.1
 	title = GER_Danube.1.t
 	desc = GER_Danube.1.d
-	picture = GFX_news_GER_Reichstag_on_Fire
+	picture = GFX_report_GER_Axis_Diplomats
 	fire_only_once = yes
 	is_triggered_only = yes
 	# We shall join in arms with Germany
@@ -9653,7 +9593,7 @@ country_event = {
 	id = GER_Danube.2
 	title = GER_Danube.2.t
 	desc = GER_Danube.2.d
-	picture = GFX_news_GER_Reichstag_on_Fire
+	picture = GFX_report_GER_Axis_Diplomats
 	fire_only_once = yes
 	is_triggered_only = yes
 	# We shall join in arms with Germany
@@ -9739,7 +9679,7 @@ country_event = {
 	id = GER_Danube.3
 	title = GER_Danube.3.t
 	desc = GER_Danube.3.d
-	picture = GFX_news_GER_Reichstag_on_Fire
+	picture = GFX_report_GER_Axis_Diplomats
 	fire_only_once = yes
 	is_triggered_only = yes
 	# We shall join in arms with Germany
@@ -9819,7 +9759,7 @@ country_event = {
 	id = GER_Danube.4
 	title = GER_Danube.4.t
 	desc = GER_Danube.4.d
-	picture = GFX_news_GER_Reichstag_on_Fire
+	picture = GFX_report_GER_Axis_Diplomats
 	fire_only_once = yes
 	is_triggered_only = yes
 	# We shall join in arms with Germany
@@ -9935,7 +9875,7 @@ country_event = {
 	id = GER_Danube.7
 	title = GER_Danube.7.t
 	desc = GER_Danube.7.d
-	picture = GFX_news_GER_Reichstag_on_Fire
+	picture = GFX_report_GER_1934_Hitler_with_Generals
 	is_triggered_only = yes
 	# We cannot risk conflict
 	option = {
@@ -10020,7 +9960,7 @@ country_event = {
 	id = GER_Danube.12
 	title = GER_Danube.12.t
 	desc = GER_Danube.12.d
-	picture = GFX_news_GER_Reichstag_on_Fire
+	picture = GFX_report_GER_Romania_Map
 	is_triggered_only = yes
 	# Transylvania is Rightfully Romanian.
 	option = {
@@ -10148,7 +10088,7 @@ country_event = {
 	id = GER_Danube.13
 	title = GER_Danube.13.t
 	desc = GER_Danube.13.d
-	picture = GFX_news_GER_Reichstag_on_Fire
+	picture = GFX_report_GER_Romania_Map
 	is_triggered_only = yes
 	# THIS IS AN OUTRAGE
 	option = {
@@ -10202,7 +10142,7 @@ country_event = {
 	id = GER_Danube.14
 	title = GER_Danube.14.t
 	desc = GER_Danube.14.d
-	picture = GFX_news_GER_Reichstag_on_Fire
+	picture = GFX_report_GER_Bundesrat_2
 	is_triggered_only = yes
 	# What we say goes.
 	option = {
@@ -10250,7 +10190,7 @@ country_event = {
 	id = GER_Danube.15
 	title = GER_Danube.15.t
 	desc = GER_Danube.15.d
-	picture = GFX_news_GER_Reichstag_on_Fire
+	picture = GFX_report_GER_Bundesrat_2
 	is_triggered_only = yes
 	# They must listen to us !
 	option = {
@@ -10271,7 +10211,7 @@ country_event = {
 	id = GER_Danube.16
 	title = GER_Danube.16.t
 	desc = GER_Danube.16.d
-	picture = GFX_news_GER_Reichstag_on_Fire
+	picture = GFX_report_GER_Bundesrat_2
 	is_triggered_only = yes
 	# They must listen to us !
 	option = {
@@ -10292,7 +10232,7 @@ country_event = {
 	id = GER_Danube.17
 	title = GER_Danube.17.t
 	desc = GER_Danube.17.d
-	picture = GFX_news_GER_Reichstag_on_Fire
+	picture = GFX_report_GER_Bundesrat
 	is_triggered_only = yes
 	# THIS IS AN OUTRAGE
 	option = {
