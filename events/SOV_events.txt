@@ -3186,3 +3186,33 @@ country_event = {
 		activate_advisor = SOV_Kliment_Y_Voroshilov_CoStaff
 	}
 }
+
+country_event = {
+	id = SOV_Red_Army.7
+	title = SOV_Red_Army.7.t
+	desc = SOV_Red_Army.7.d
+	#picture = 
+	is_triggered_only = yes
+
+	option = {
+		name = SOV_Red_Army.7.A
+		
+	}
+	option = {
+		name = SOV_Red_Army.2.B
+		
+	}
+}
+
+country_event = {
+	id = SOV_Red_Army.8
+	title = SOV_Red_Army.8.t
+	desc = SOV_Red_Army.8.d
+	#picture = 
+	is_triggered_only = yes
+
+	option = {
+		name = SOV_Red_Army.7.A
+		
+	}
+}
