@@ -4272,7 +4272,26 @@ news_event = {
 	# 
 	option = {
 		name = JAP_Panay_Incident.2.A
-		
+		trigger = {
+			tag = USA
+		}
+	}
+	option = {
+		name = JAP_Panay_Incident.2.B
+		trigger = {
+			tag = JAP
+		}	
+	}
+	option = {
+		name = JAP_Panay_Incident.2.C
+		trigger = {
+			NOT = {
+				OR = {
+					tag = USA
+					tag = JAP
+				}
+			}
+		}	
 	}
 }
 ## Roosevelt Declares War on Japan

@@ -613,7 +613,7 @@
  soviet_special.2.A: "For the Motherland!"
  
  ###Red Army Trees
- SOV_Red_Army.1.t: "RED ARMY 1933"
+ SOV_Red_Army.1.t: "State of the Red Army"
  SOV_Red_Army.1.d: "A report to the general staff of the Red Army on its combat ability.\n\nThe Workers and Peasants Red Army is commonly referred to as the Red Army. Is now plagued with corruption ranging from the lowest of officers to even our own commissars. Once the proud army of the people and the sign of the liberation of the working class is now a disorganized mess and severely lacking doctrinal coordination.\n\nTwo factions seem to be forming among our officer class in the thought of “Deep Battle”. The process of thrusting into an enemy's rear after a breakthrough is made. Then the Old guard preferred the ways of old that being of “Human Wave Tactics' ' overpowering our enemy from seat numbers compared to combined arms of air, land, and navy.\n\nIt is highly recommended that serious consideration and evaluation of the Red Army take place as advised in the 7th Congress."
  SOV_Red_Army.1.A: ""
  
@@ -621,6 +621,15 @@
  SOV_Red_Army.2.d: "The Workers and Peasants Army is being put under heavy reformation, under the declaration of the Party and the General Staff, it has been decided in order to reorganize it a new rank structure that is formal will be put into place. The Rank structure will reorganize the Army putting a chain of command, among this the disbandment of the territorial militia.\n\nThe High command will be the first to receive reform when it comes to the rank system. The General staff is being reorganized to be commanded by a “Marshal” of the Soviet Union, whose will is unknown at this time and is being left to the direction of the Party and Premier Stalin.\n\nThe Options for the Picking are between Kliment Voroshilov and his “Oldguard” and between Tukhachevsky’s young reformist, Tukhachevsky wishes to build the Soviet Military into a Modern force comprising of a combined army strategy he has named ‘Deep Battle’. Compared Voroshilov wishes to see the Soviet Union keep its strategy relying on both numbers, land, and defense compared to the offensive."
  SOV_Red_Army.2.A: "Marshal Tukachevsky."
  SOV_Red_Army.2.B: "Marshal Voroshilov."
+
+ SOV_Red_Army.7.t: "On the Cossacks"
+ SOV_Red_Army.7.d: ""
+ SOV_Red_Army.7.A: "Reintegrate the cossack units"
+ SOV_Red_Army.7.B: "Purge them"
+
+ SOV_Red_Army.8.t: "Katyusha, Stalin's Organs"
+ SOV_Red_Army.8.d: ""
+ SOV_Red_Army.8.A: ""
 
 ######################################################################
 #  Soviet Union Focuses
@@ -1231,6 +1240,9 @@
 
  SOV_Deep_Battle_Plan: "Deep Battle Plan"
  SOV_Deep_Battle_Plan_desc: "Marshal Tukhachevskys greatest achievement in his study of military theory has been his development of Deep Battle Doctrine. The Essentials of the plans laid out are to use a combined arms assault consisting of Large amounts of Artillery and Infantry to destroy large areas of the enemy front, and then Use fast moving motorised and armoured units to rush in and destroy an enemies rear area. Much of our senior staff, Zhukov, Bluchyr, Rokossovsky and Varfolomeev all advocate for this doctrine to become the centerpiece of our warplans against the fascists and capitalists."
+
+ SOV_The_Red_Army_Reborn: "The Red Army Reborn"
+ SOV_The_Red_Army_Reborn_desc: ""
 
  SOV_Samokhodnaya_Ustanovka: "Samokhodnaya Ustanovka"
  SOV_Samokhodnaya_Ustanovka_desc: "Recent advance in army research by our scientists has yielded designs for self-propelled artillery. These armaments will be crucial for the Red Army’s anti-tank and anti-rifle corp defences, and can even be put on the offensive.\n\nThese designs could even be utilized on a variety of tank chassis, so with the SU series of self-propelled artillery, there are many possibilities. In any combat strategy we utilize, a supply of self-propelled artillery will be essential to our army’s endeavours."
@@ -2240,7 +2252,7 @@
  SOV_Human_Wave: "Human Wave"
  SOV_Deep_Battle_desc: ""
  
- SOV_TANKOGRAD: "TANKOGRAD"
+ SOV_TANKOGRAD: "Tankograd"
  SOV_TANKOGRAD_desc: ""
  
  SOV_Krasnaya_Armiya_Vorzrozhdayetsya: "Krasnaya Armiya Vorzrozhdayetsya"

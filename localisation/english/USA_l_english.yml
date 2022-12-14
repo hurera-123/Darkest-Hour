@@ -661,8 +661,8 @@
  USA_Flavor.29.A: "Quite an achievement!"
 
  USA_Flavor.30.t: "Spam Introduced"
- USA_Flavor.30.d: "[FROM.GetNewsIcon]"
- USA_Flavor.30.A: "July 5, 1937"
+ USA_Flavor.30.d: "[FROM.GetNewsIcon]SPAM, a brand-new Hormel Food Corporation product, was introduced today. Spam refers to canned pork. SPAM can be served directly from the can of pre-cooked tinned meat to you and your loved ones! You don't like it cold? You can, however, heat it in your oven!\n\nSpam costs $2.62 per pound and is widely regarded as a product that will improve the lives of all families. Furthermore, spam has a long shelf life. According to rumours, Ken Daigneau, the brother of a corporate executive, received the $100 award for coming up with the name for the new product. Spam will soon be available in the United Kingdom, as well as many other European countries."
+ USA_Flavor.30.A: "The soldiers will surely enjoy this gift from Uncle Sam!"
 
  USA_Flavor.31.t: "Charges Against the Scottsboro Boys Dropped!"
  USA_Flavor.31.d: "[FROM.GetNewsIcon]The Scottsboro Boys are nine African-American teenagers, ages 12 to 19, accused in Alabama of raping two white women in 1931.\n\nOn March 25, 1931, two dozen people were "hoboing" on a freight train traveling between Chattanooga and Memphis, Tennessee, with an equal mix of African-Americans and Caucasians among the hoboes. A group of white teenage boys saw Haywood Patterson, 18, on the train and attempted to push him off, claiming it was "a white man's train." A group of white people gathered rocks and tried to force all of the black men off the train. Patterson and the other black passengers were successful in keeping the group at bay. The humiliated white teenagers jumped or were forced off the train and reported an attack by a group of black teenagers to the city's sheriff. The sheriff stopped the train and searched it and arrested the teenagers. Two young white women exited the train as well, accusing the African-American teenagers of rape. The case was heard for the first time in Scottsboro, Alabama. All but 13-year-old Roy Wright were convicted of rape and sentenced to death, despite medical evidence indicating that no rape occurred.\n\nThe case was appealed and went through several instances with the help of the Communist Party USA and the National Association for the Advancement of Colored People until it was sent to the US Supreme Court on appeal. It ruled that African-Americans had to be included on juries and ordered retrials, which resulted in charges against four of the nine defendants being dropped. The rest received sentences ranging from 75 years to death.\n\nThis incident's landmark set of legal cases deals with racism and the right to a fair trial. There was a lynch mob before the suspects were indicted, all-white juries, rushed trials, and disruptive mobs in the cases."
@@ -779,8 +779,8 @@
 
  ### Navy Events
  USA_Navy.1.t: "Vinson-Trammel Act"
- USA_Navy.1.d: ""
- USA_Navy.1.A: ""
+ USA_Navy.1.d: "Today, the chairman of the House Naval Affairs Committee passed "The Vinson Trammel Act." This legislation will enable our Navy to build 102 battleships over the next eight years. This was passed to assuage public fears that the United States would launch a new naval arms race after President Roosevelt issued an executive order last year authorising the expenditure of $238 million in "emergency public work funds” to build 32 warships over the next three years.\n\nPresident Roosevelt's previously expressed reservations resulted in the adoption of this new order. Mr. Carl Vinson of Georgia State University co-sponsored this legislation to address both national and international concerns. Our navy, according to reports, has been working hard to modernise and catch up with the rest of the world. However, no naval arms race has begun, according to our administration and President Roosevelt."
+ USA_Navy.1.A: "This should halt the allegations!"
 
  USA_Navy.2.t: "Two-Ocean Navy Act"
  USA_Navy.2.d: "With the escalation of conflicts around the world, it is critical for the US Navy to be able to deter potential enemies from directly or indirectly harming US interests. As a result, a navy expansion program must be implemented. We have been authorized for an 11% tonnage increase as well as an increase in naval air capacity, thanks to the support of the Congress. With this amount of support, we should expect a significant increase in our combat fleet sizes, and we should be able to complete the program within 5 years.\n\nOnce the expansion program is completed, we will be able to deter all those who attempt to threaten our strategic interest."
@@ -845,12 +845,12 @@
  USA_Japanese_Leaders_Trial.6.A: "Even the enemy can be good for something..."
 
  USA_Japanese_Leaders_Trial.7.t: "The Trial of Seishiro Itagaki"
- USA_Japanese_Leaders_Trial.7.d: ""
- USA_Japanese_Leaders_Trial.7.A: ""
+ USA_Japanese_Leaders_Trial.7.d: "Seishiro Itagaki's trial at the International Military Tribunal for the Far East began today in Tokyo, Japan. The IMTFE found General Seishiro Itagaki of the Imperial Japanese Army guilty of numerous war crimes allegations. General Itagaki commanded the Japanese Korean Army and the Seventh Army Area in Asia. He was the commander in chief until April 7, 1945, when his troops were forced to surrender. Itagaki took part in both the Allied War escalation and the Imperial Japanese occupation of Manchuria.\n\nDuring his time as the commander of Japanese forces in Southeast Asia, he frequently permitted inhumane treatment of POWs. Seishiro Itagaki will be hanged after being found guilty of War Crimes on counts 1, 27, 29, 31, 32, 35, 36, and 54."
+ USA_Japanese_Leaders_Trial.7.A: "All war criminals must pay..."
 
  USA_Japanese_Leaders_Trial.8.t: "The Trial of Heitaro Kimura"
- USA_Japanese_Leaders_Trial.8.d: ""
- USA_Japanese_Leaders_Trial.8.A: ""
+ USA_Japanese_Leaders_Trial.8.d: "General Heitaro Kimura of the Imperial Japanese Army was found guilty of numerous war crimes, including crimes against humanity and crimes against peace, by the International Military Tribunal for the Far East today.\n\nFollowing the Battle of Imphal, Heitaro became the Commander in Chief of the Burma Army Area. He was then held accountable for these numerous offences. Counts 1, 27, 29, 31, 32, 54, and 54 of the War Crimes Act are filed against Heitaro Kimura. He will be hanged."
+ USA_Japanese_Leaders_Trial.8.A: "Another war criminal meets justice."
 
  USA_Japanese_Leaders_Trial.9.t: "The Imperial Princes"
  USA_Japanese_Leaders_Trial.9.d: "The Japanese Army and its scientists were responsible for some of the worst things that ever happened on the Asian continent during the long years of the Pacific War. Some of these horrors included human experimentation programmes. The results of experiments aimed at testing human resistance to viruses, epidemics, or radiation are horrifying to see or even read.\n\nThe results of these experiments, which were partially funded and supplied by Tojo's government and his associates, were condemned by the Allies immediately after their discovery and are now being dismantled by joint Chinese and American forces in the region.\n\nA macabre discovery, however, has been made: the list of those responsible. Members of the Imperial Japanese Family have also been found on this list. Naruhiko, Prince Higashikuni; Yasuhito, Prince Chichibu; Takahito, Prince Mikasa; and Tsuneyoshi, Prince Takeda are among them. They are all involved in these crimes, in some way. The occupation forces are now faced with a dilemma: should they be tried for their crimes or forgiven because of their dynastic ties?"
