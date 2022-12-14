@@ -2218,7 +2218,7 @@ news_event = {
 	id = JAP_SOV_Khalkin_Gol_Incident.7
 	title = JAP_SOV_Khalkin_Gol_Incident.7.t
 	desc = JAP_SOV_Khalkin_Gol_Incident.7.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_
 	is_triggered_only = yes
 	#
 	option = {

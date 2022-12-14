@@ -3952,13 +3952,28 @@ news_event = {
 	option = {
 		name = JAP_Northern_Expansion.6.C
 		trigger = {
+			OR = {
+				original_tag = GER
+				is_puppet_of = GER
+				is_in_faction_with = GER
+			}
+		}
+	}
+	option = {
+		name = JAP_Northern_Expansion.6.D
+		trigger = {
 			NOT = {
-				original_tag = JAP
-				is_puppet_of = JAP
-				is_in_faction_with = JAP
-				original_tag = SOV
-				is_puppet_of = SOV
-				is_in_faction_with = SOV
+				OR = {
+					original_tag = JAP
+					is_puppet_of = JAP
+					is_in_faction_with = JAP
+					original_tag = SOV
+					is_puppet_of = SOV
+					is_in_faction_with = SOV
+					original_tag = GER
+					is_puppet_of = GER
+					is_in_faction_with = GER
+				}
 			}
 		}
 	}

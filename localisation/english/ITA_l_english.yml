@@ -354,8 +354,8 @@
  ITA_Political_Tree.14.B: "Prepare the troops."
 
  ITA_Political_Tree.141.t: "Naval Landings in Albania Succeed"
- ITA_Political_Tree.141.d: ""
- ITA_Political_Tree.141.A: ""
+ ITA_Political_Tree.141.d: "On April 7, 1939, Italian forces successfully landed in Albania, marking the first successful foreign invasion of the country. The operation, led by Italian dictator Benito Mussolini, is a decisive victory for the Italian military and a major step forward in Italy's efforts to expand its empire.\n\nThe naval landings were carefully planned and executed, with Italian ships transporting troops to the shores of Albania under cover of darkness. Once on shore, the Italian soldiers quickly secured key positions, overwhelming the Albanian defenders with their superior weaponry and training.\n\nAs the sun rose over the Albanian coastline, it became clear that the Italian invasion had been a complete success. Mussolini, who had been closely monitoring the operation from Rome, was jubilant at the news. He declared that the Italian people had once again shown their strength and determination, and that the conquest of Albania was just the beginning of a new era of Italian greatness.\n\nFor the Albanian people, however, the Italian invasion is the beginning of a nightmare. Many were killed or injured in the fighting, and the country has been left in chaos and confusion.\n\nDespite the initial success of the naval landings, the Italian occupation of Albania could prove to be a costly and difficult endeavour. The Albanian people are sure to continue to resist the Italian occupiers, and a war of resistance could drag on for years, costing countless lives and devastating the country. Nevertheless, the successful naval landings in Albania remain a key moment in Italy's history, and a testament to the power of Mussolini's fascist regime."
+ ITA_Political_Tree.141.A: "A great success for our forces!"
 
  ITA_Political_Tree.142.t: "Albanian Resistance Crumbles"
  ITA_Political_Tree.142.d: ""
@@ -364,7 +364,6 @@
  ITA_Political_Tree.143.t: "Victor Emmanuel III Crowned as King of the Albanians"
  ITA_Political_Tree.143.d: "[FROM.GetNewsIcon]"
  ITA_Political_Tree.143.A: ""
- ITA_Political_Tree.143.B: ""
 
  ITA_Political_Tree.15.t: "Italy, Centre of European Stability"
  ITA_Political_Tree.15.d: "[FROM.GetNewsIcon]Today the Final Declaration of the Stresa Conference took place, an agreement made in Stresa, a town on the banks of Lake Maggiore in Italy, between France, Britain and Italy. It aims to reaffirm the Locarno Treaties and to declare that the independence of Austria "would continue to inspire their common policy". The signatories also agreed to resist any future attempt by Germany to change the Treaty of Versailles.\n\nThe Stresa Front, as the agreement is also referred to, was triggered by Germany's declaration of its intention of building up an air force, increasing the size of its army and introducing conscription. All of these actions are direct violations of the Treaty of Versailles, which limits the size of the German army to 100,000 men and prohibits Germany from using conscription and having an air force.\n\nSince British politicians stated they do not want to attack or occupy Germany, but prefer to have agreements with it to maintain peace in Central Europe and with antiwar sentiment being very strong among the British public, they thought this to be the best way to contain Germany.\n\nHowever, already some people are doubtful and think that these countries will not follow up on this agreement if push comes to shove."

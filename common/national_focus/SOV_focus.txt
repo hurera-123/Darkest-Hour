@@ -1244,13 +1244,10 @@ focus_tree = {
 		y = 1
 		relative_position_id = SOV_Peoples_Commissariat_of_Defense
 		completion_reward = {
-			custom_effect_tooltip = SOV_Reorganize_the_Red_Army_tt
 			add_political_power = 100
-			hidden_effect = {
-				country_event = {
-					id = SOV_Red_Army.2
-					days = 1
-				}
+			country_event = {
+				id = SOV_Red_Army.2
+				days = 1
 			}
 			#event to reform the red army
 		}
@@ -1292,7 +1289,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_The_Question_of_The_Cossacks
-		icon = GFX_SOV_The_Question_of_The_Cossacks
+		icon = GFX_focus_SOV_restore_cossack_units
 		cost = 40
 		prerequisite = {
 			focus = SOV_Reorganize_the_Red_Army
@@ -1304,7 +1301,11 @@ focus_tree = {
 			remove_ideas = {
 				SOV_Final_Phase_of_the_Decossackization
 			}
-			#On The Cossacks event
+			country_event = {
+				id = SOV_Red_Army.7
+				days = 1
+			}
+			
 		}
 		search_filters = {}
 	}
@@ -1449,7 +1450,10 @@ focus_tree = {
 		y = 1
 		relative_position_id = SOV_Tukhachevskys_Reformists
 		completion_reward = {
-			#event of Katyusha
+			country_event = {
+				id = SOV_Red_Army.8
+				days = 1
+			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -1526,18 +1530,6 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
-			add_doctrine_cost_reduction = {
-				name = SOV_Deep_Battle_Plan
-				cost_reduction = 1
-				uses = 1
-				category = air_doctrine
-			}
-			add_doctrine_cost_reduction = {
-				name = SOV_Deep_Battle_Plan
-				cost_reduction = 1
-				uses = 1
-				category = naval_doctrine
-			}
 			add_timed_idea = { idea = SOV_Deep_Battle days = 400}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_HISTORICAL }
@@ -1561,23 +1553,13 @@ focus_tree = {
 				cost_reduction = 1
 				category = cat_mass_assault
 			}
-			add_doctrine_cost_reduction = {
-				uses = 1
-				cost_reduction = 1
-				category = air_doctrine
-			}
-			add_doctrine_cost_reduction = {
-				uses = 1
-				cost_reduction = 1
-				category = naval_doctrine
-			}
 			add_timed_idea = { idea = SOV_Human_Wave days = 400 }
 		}
 	}
 
 	focus = {
 		id = SOV_The_Red_Army_Reborn
-		icon = GFX_
+		icon = GFX_focus_SOV_builder_of_the_red_army
 		cost = 40
 		prerequisite = {
 			focus = SOV_Deep_Battle_Plan
@@ -1599,7 +1581,7 @@ focus_tree = {
 			focus = SOV_The_Red_Army_Reborn
 		}
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = SOV_The_Red_Army_Reborn
 		completion_reward = {
 			add_tech_bonus = {
@@ -1611,23 +1593,6 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = SOV_Chelyabinsk_Tractor_Plant
-		icon = GFX_GENERIC_Military_Academy
-		cost = 40
-		prerequisite = {
-			focus = SOV_Deep_Battle_Plan
-		}
-		x = -3
-		y = 1
-		relative_position_id = SOV_Deep_Battle_Plan
-		completion_reward = {
-			add_timed_idea = { 
-				idea = SOV_TANKOGRAD
-				days = 720 
-			}
-		}
-	}
 	focus = {
 		id = SOV_Guard_Units
 		icon = GFX_SOV_Red_Guard
@@ -1680,35 +1645,13 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_Massive_Partisan_Effort
-		icon = GFX_focus_prc_infiltration
-		cost = 40
-		prerequisite = {
-			focus = SOV_Human_Wave_Tactics
-		}
-		x = 3
-		y = 1
-		relative_position_id = SOV_Human_Wave_Tactics
-		completion_reward = {
-			custom_effect_tooltip = SOV_Massive_Partisan_Effort_tt
-			add_timed_idea = {
-				idea = SOV_Massive_Partisan_Effort
-				days = 365
-			}
-		}
-	}
-
-	focus = {
 		id = SOV_Morozovs_Armored_Evolution
 		icon = GFX_SOV_T55
 		cost = 50
 		prerequisite = {
 			focus = SOV_Guard_Units
 		}
-		prerequisite = {
-			focus = SOV_Chelyabinsk_Tractor_Plant
-		}
-		x = 0
+		x = 1
 		y = 1
 		relative_position_id = SOV_Guard_Units
 		completion_reward = {
@@ -1729,10 +1672,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_Shock_Army
 		}
-		prerequisite = {
-			focus = SOV_Massive_Partisan_Effort
-		}
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = SOV_Shock_Army
 		completion_reward = {
@@ -2870,6 +2810,10 @@ focus_tree = {
 		y = 3
 		relative_position_id = SOV_The_Third_Five_Year_Plan
 		completion_reward = {
+			add_timed_idea = { 
+				idea = SOV_TANKOGRAD
+				days = 720 
+			}
 			572 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
