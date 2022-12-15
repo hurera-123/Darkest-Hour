@@ -68,9 +68,27 @@ defined_text = {
 
 	text = {
 		trigger = {
-			has_country_flag = SOV_Yagoda_Chief_of_NKVD
+			has_idea = SOV_Genrikh_G_Yagoda_MoS
 		}
 		localization_key = Yagoda_chief_of_NKVD
+	}
+	text = {
+		trigger = {
+			has_idea = SOV_Yakov_Agranov_MoS
+		}
+		localization_key = Agranov_chief_of_NKVD
+	}
+	text = {
+		trigger = {
+			has_idea = SOV_Nikolai_I_Yezhov_MoS
+		}
+		localization_key = Yezhov_chief_of_NKVD
+	}
+	text = {
+		trigger = {
+			has_country_flag = SOV_Beria_Chief_of_NKVD
+		}
+		localization_key = Beria_chief_of_NKVD
 	}
 }
 defined_text = {
@@ -93,6 +111,12 @@ defined_text = {
 			has_country_flag = SOV_Beria_Deputy_of_NKVD
 		}
 		localization_key = Beria_deputy_of_NKVD
+	}
+	text = {
+		trigger = {
+			has_country_flag = SOV_Merkulov_Deputy_of_NKVD
+		}
+		localization_key = Merkulov_deputy_of_NKVD
 	}
 }
 defined_text = {

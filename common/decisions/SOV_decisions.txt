@@ -1116,7 +1116,7 @@ SOV_The_Great_Purge = {
 	##############################
 	##Great Purge Phase 3
 	##############################
-	SOV_Purge_NKVD_Itself = {
+	SOV_Criticise_the_NKVD = {
 		icon = generic_nationalism
 		fire_only_once = yes
 		allowed = {
@@ -1128,12 +1128,29 @@ SOV_The_Great_Purge = {
 		available = {
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
-		days_remove = 0
+		days_remove = 7
 		complete_effect = {
 		}
 		remove_effect = {
+			set_temp_variable = {
+				SOV_Stalin_Paranoia_gain = -5
+			}
+			add_to_variable = {
+				SOV_Stalin_Paranoia = SOV_Stalin_Paranoia_gain
+			}
+			clamp_variable = {
+				var = SOV_Stalin_Paranoia
+				min = 0
+				max = 100
+			}
+			custom_effect_tooltip = SOV_Stalin_Paranoia_Change_tt
+			country_event = {
+				id = SOV_Great_Purge.23 days = 1
+			}
+			add_political_power = 25
+			set_country_flag = SOV_NKVD_Criticised
 		}
 	}
 	SOV_Stop_the_Activities_of_Extrajudicial_Organs = {
@@ -1146,14 +1163,68 @@ SOV_The_Great_Purge = {
 			has_country_flag = SOV_Great_Purge_Phase_3
 		}
 		available = {
+			has_country_flag = SOV_NKVD_Criticised
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
-		days_remove = 0
+		days_remove = 7
 		complete_effect = {
 		}
 		remove_effect = {
+			set_temp_variable = {
+				SOV_Stalin_Paranoia_gain = -5
+			}
+			add_to_variable = {
+				SOV_Stalin_Paranoia = SOV_Stalin_Paranoia_gain
+			}
+			clamp_variable = {
+				var = SOV_Stalin_Paranoia
+				min = 0
+				max = 100
+			}
+			custom_effect_tooltip = SOV_Stalin_Paranoia_Change_tt
+			add_stability = 0.1
+			set_country_flag = SOV_Extrajudicial_Organs_Stopped
+		}
+	}
+	SOV_Purge_the_NKVD = {
+		icon = generic_nationalism
+		fire_only_once = yes
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			has_country_flag = SOV_Great_Purge_Phase_3
+		}
+		available = {
+			has_country_flag = SOV_Extrajudicial_Organs_Stopped
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		days_remove = 7
+		complete_effect = {
+		}
+		remove_effect = {
+			set_temp_variable = {
+				SOV_Stalin_Paranoia_gain = -10
+			}
+			add_to_variable = {
+				SOV_Stalin_Paranoia = SOV_Stalin_Paranoia_gain
+			}
+			clamp_variable = {
+				var = SOV_Stalin_Paranoia
+				min = 0
+				max = 100
+			}
+			custom_effect_tooltip = SOV_Stalin_Paranoia_Change_tt
+			country_event = {
+				id = SOV_Great_Purge.24 days = 1
+			}
+			add_stability = 0.05
+			add_war_support = 0.05
+			set_country_flag = SOV_NKVD_Purged
 		}
 	}
 	SOV_Restore_Socialist_Legality = {
@@ -1166,14 +1237,30 @@ SOV_The_Great_Purge = {
 			has_country_flag = SOV_Great_Purge_Phase_3
 		}
 		available = {
+			has_country_flag = SOV_NKVD_Purged
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
-		days_remove = 0
+		days_remove = 30
 		complete_effect = {
 		}
 		remove_effect = {
+			set_temp_variable = {
+				SOV_Stalin_Paranoia_gain = -5
+			}
+			add_to_variable = {
+				SOV_Stalin_Paranoia = SOV_Stalin_Paranoia_gain
+			}
+			clamp_variable = {
+				var = SOV_Stalin_Paranoia
+				min = 0
+				max = 100
+			}
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = 50
+			set_country_flag = SOV_Socialist_Legality_Restored
 		}
 	}
 	SOV_Invalidate_Extrajudicial_Sentences = {
@@ -1186,14 +1273,29 @@ SOV_The_Great_Purge = {
 			has_country_flag = SOV_Great_Purge_Phase_3
 		}
 		available = {
+			has_country_flag = SOV_Socialist_Legality_Restored
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
-		days_remove = 0
+		days_remove = 30
 		complete_effect = {
 		}
 		remove_effect = {
+			set_temp_variable = {
+				SOV_Stalin_Paranoia_gain = -5
+			}
+			add_to_variable = {
+				SOV_Stalin_Paranoia = SOV_Stalin_Paranoia_gain
+			}
+			clamp_variable = {
+				var = SOV_Stalin_Paranoia
+				min = 0
+				max = 100
+			}
+			country_event = {
+				id = SOV_Great_Purge.25 days = 1
+			}
 		}
 	}
 	##############################

@@ -913,8 +913,8 @@ focus_tree = {
 		y = 1
 		available = {
 			OR = {
-				has_idea = SOV_MoS_Yakov_Agranov
-				has_idea = SOV_MoS_Genrikh_G_Yagoda
+				has_idea = SOV_Yakov_Agranov_MoS
+				has_idea = SOV_Genrikh_G_Yagoda_MoS
 			}
 		}
 		completion_reward = {

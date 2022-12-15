@@ -540,6 +540,91 @@ country_event = {
 }
 
 #########################################################################
+# A Scathing Report
+#########################################################################
+country_event = {
+	id = SOV_Great_Purge.23
+	title = SOV_Great_Purge.23.t
+	desc = SOV_Great_Purge.23.d
+	picture = GFX_report_SOV_teutonic_menace
+	is_triggered_only = yes
+	option = {
+		name = SOV_Great_Purge.23.A
+	}
+}
+
+#########################################################################
+# Icarus
+#########################################################################
+country_event = {
+	id = SOV_Great_Purge.24
+	title = SOV_Great_Purge.24.t
+	desc = SOV_Great_Purge.24.d
+	picture = GFX_report_SOV_teutonic_menace
+	is_triggered_only = yes
+	option = {
+		name = SOV_Great_Purge.24.A
+		add_ideas = SOV_Lavrentiy_Beria_MoS
+		set_country_flag = Merkulov_deputy_of_NKVD
+	}
+}
+
+#########################################################################
+# A Secure Union
+#########################################################################
+country_event = {
+	id = SOV_Great_Purge.25
+	title = SOV_Great_Purge.25.t
+	desc = SOV_Great_Purge.25.d
+	picture = GFX_report_SOV_teutonic_menace
+	is_triggered_only = yes
+	option = {
+		name = SOV_Great_Purge.25.A
+		if = {
+			limit = {
+				has_idea = SOV_Mass_Political_Repression
+			}
+			remove_idea = SOV_Mass_Political_Repression
+		}
+		else_if = {
+			limit = {
+				has_idea = SOV_Mass_Political_Repression_2
+			}
+			remove_idea = SOV_Mass_Political_Repression_2
+		}
+		else_if = {
+			limit = {
+				has_idea = SOV_Mass_Political_Repression_3
+			}
+			remove_idea = SOV_Mass_Political_Repression_3
+		}
+		if = {
+			limit = {
+				has_idea = SOV_Purging_the_Army
+			}
+			remove_idea = SOV_Purging_the_Army
+		}
+		else_if = {
+			limit = {
+				has_idea = SOV_Purging_the_Army_2
+			}
+			remove_idea = SOV_Purging_the_Army_2
+		}
+		if = {
+			limit = {
+				has_idea = SOV_Repressed_Church
+			}
+			remove_idea = SOV_Repressed_Church
+		}
+		remove_ideas = SOV_The_Great_Terror_3
+		add_timed_idea = {
+			idea = SOV_The_Great_Reorganisation
+			days = 420
+		}
+	}
+}
+
+#########################################################################
 # History in One Stroke
 #########################################################################
 news_event = {
@@ -3179,6 +3264,11 @@ country_event = {
 
 	option = {
 		name = SOV_Red_Army.2.A
+		trigger = {
+			NOT = {
+				has_country_flag = Mikhail_N_Tukhatchevskiy_unavailable
+			}
+		}
 		activate_advisor = SOV_Mikhail_N_Tukhatchevskiy_CoStaff
 	}
 	option = {

@@ -59,14 +59,6 @@
  ENG.3.t: "The Hobbit Published"
  ENG.3.d: "[FROM.GetNewsIcon]The children of England have been taken by surprise, with the publishing of \"The Hobbit, or There and Back Again\", by renowned author and war veteran J. R. R. Tolkien. The book carry readers by a magical quest, leaving them, child and adult alike, in absolute awe as the adventure goes on episode after episode, until it reaches the climax with massive battles that shape the fantastical world of the Middle-Earth. The critical and financial success of this work will surely embolden Tolkien's wish for a sequel, and the new fans will impatiently await to return this world they have learned to love."
  ENG.3.A: "Definitely worth a read!"
- 
- ENG.4.t: "Royal Family Evacuation"
- ENG.4.d: "As the enemy forces roll ever forward onto the capital, the decision has been made in both Houses of Parliament as well as the Royal Household to flee to safety and command the war effort from there. As such, [ENG.address_leader_two] [ENG.leader_title_two] [ENG.leader_name_two] has ordered his family and the government to be escorted to Canada safely, himself being the last royal to leave London. Before leaving, he grants one final speech to the citizens and armed forces remaining in the city, telling them to fight strong, and no matter the cost to himself and his country, he shall return to rule this city once more."
- ENG.4.A: "God Save the King!"
- 
- ENG.5.t: "Women, Children and Conservatives first"
- ENG.5.d: "It has been revealed that Conservative politicians have been secretly evacuating themselves before those of the Opposition parties. Samuel Herbert, Aneurin Bevin and especially Clement Attlee have denounced such ‘Selfishness in a time of the utmost Crisis’. The resistance to the ever marching armies continues, however the thought of their leaders being so petty has damaged the mental image of King and Country."
- ENG.5.A: "Tories..."
 
  ENG.6.t: "Preparations for a March"
  ENG.6.d: "Oswald Mosley is getting ready for a march through the streets of London. Fascism is on the rise; a civil war has broken out in Spain, and Hitler and Mussolini seem eager to fight us. He calls for a struggle in the \"Jew-ridden and communistic\" streets of Whitechapel, and many Blackshirts have rallied to his cause. He seems to want to provoke the communists into a full-out fight. We should probably intervene; the world seems geared towards another Great War, and we can't afford interior discontent. The only thing to do is to help one of the sides of this conflict. But which one?"
@@ -88,11 +80,6 @@
  ENG.9.d: "[ROOT.GetNewsIcon]After more than six years of construction, the grand ocean liner Queen Mary departed from  Southampton, England, and set sail on her maiden voyage to New York. Named after the wife of King George the Fifth, the ship was built in response to an influx of new passenger ships from Germany. Now she is seen as an accompaniment for the world to see. With 12 decks, 24 boilers, four steam turbines, a speed of 28.5 knots, a length of 1,019.4 feet,  and a capacity of more than 2100 passengers, many see the Mary as a staple of traditional and modern ship design. \n\nThe reported amenities on the ship are even more astounding, with kitchens, luxury rooms, tennis courts, swimming pools, salons, studios, and a grand ballroom in the middle of it all. Although the excitement wasn't as great when compared to the launch of the ship in 1934, the words of King George V still stay true: “May her life among great waters spread friendship among the nations!”"
  ENG.9.A: "Would a race with the SS Normandie be out of the question?"
 
- ENG.10.t: "Anglo-Irish Trade Agreement"
- ENG.10.d: "Due to the ongoing Anglo-Irish trade war we wish to ease economic tensions between us and the Irish to achieve prosperity among the British peoples, with this we wish to facilitate the 'Anglo-Irish trade agreement' in which the 20% tariffs both Ireland and Britain placed on their imported goods are to be abolished. Ireland is also to pay £10 million to Britain for the \"land annuities\" derived from financial loans granted to Irish farmers by the British government to enable them to purchase lands under the Irish Land Acts"
- ENG.10.A: "Sign it"
- ENG.10.B: "The Irish are insane"
-
  ENG.11.t: "Germany Calling"
  ENG.11.d: "[ROOT.GetNewsIcon]A stray fox has left the woodlands. Born within our midst, William Joyce has turned his faith away from us. The known zealous Hitler-fanatic has left the United States and, with the European powderkeg's fuse about to catch fire, once more set foot on German soil to avoid confrontation with the authorities. His Nazi propaganda to Britain from Germany is a thorn in our side, which asks to be removed."
  ENG.11.A: "So you Germans believe that you can defeat the superior British forces! Haw, Haw."
@@ -108,10 +95,6 @@
  ENG.14.t: "Altmark Incident"
  ENG.14.d: "[ROOT.GetNewsIcon]The Altmark Incident may have angered the neutral and peaceful Norwegians, but they know nothing about the oppression and the tyranny that the Jerry's would enforce upon them if given the chance. Although in their territory, the German tanker was carrying almost 300 British Prisoners of War, that, had we not rescued, could have well been tortured and killed by the evil Krauts. The captured men knew about this and they started a revolt, so they can be heard by our inspectors on the ship. Even though the Norwegians might be upset about this, they should know that we would not violate their neutrality."
  ENG.14.A: "Surely nothing will come of this incident"
-
- ENG.15.t: "Their Finest Hour"
- ENG.15.d: "This is their finest hour. They conquered Western Europe in a few weeks. They now swim in the great spoils of victory... How could we allow such tragedy? This new tactic, \"The Blitzkrieg\", or Lighting Warfare, as they call it, was very effective and although they had a small number of tanks, they were sufficient for a speedy breakthrough, through the Benelux and down into the heart of France. The \"famed\" Maginot Line was a complete waste of time, as they just went around it. We wasted the lives of many men, just to be utterly destroyed on every front. They will bomb our ports, airfields, bases and even the cities, which are full of terrified civilians. We must not be afraid, even though dark times are upon us and even though they are already planning the naval invasion of the British Isles."
- ENG.15.A: "We will survive, as we did before!"
 
  ENG.16.t: "Occupation of the Channel Islands"
  ENG.16.d: "[ROOT.GetNewsIcon]They've done it. They have stepped foot on British territory. The Channel Isles have fallen. They have destroyed France in so little time. Just the Germans. Our hopes for a quick Allied victory are destroyed, now it seems that this war will be an Axis victory. We must prepare for a desperate defense, the great defense of democracy in Europe. We will not fall, Britannia will not fall, Britannia will rule the waves and the winds. We will not let these \"Sauerkrauts\" think they are the leaders of the world, we will not let these National-Socialists destroy humanity just for their racial beliefs. We will never surrender!"
@@ -134,10 +117,6 @@
  ENG.36.d: "With political tensions running high and extremism rampant, it is up to the government to curb such dangerous philosophies in the wake of an outward threat. The United Kingdom has been a bastion of democracy for over half a century, and we will not concede even an inch to those who wish to upset the balance. Henceforth, political marches must be cleared by local law enforcement before beginning, allowing us to cast a net over those we wish to censor for the greater good. In addition, donning political attire in a public meeting place is also banned, thus preventing virulent imagery to spread through our streets. The final tenants of the Act ban informal political militias, thus decreasing the chances of violent uprisings and ensuring the police can respond to crimes of all kinds, including those perpetrated for the behoof of a politician’s agenda."
  ENG.36.A: "Mosley must be neutralized at any cost."
  ENG.36.B: "We must look to our own people before intervening abroad."
- 
- ENG.40.t: "Blood, Toil, Tears and Sweat"
- ENG.40.d: "\"I have nothing to offer, but blood, toil, tears and sweat!\" These were the words of the former First Lord of the Admiralty, Winston Leonard Spencer Churchill, upon assuming the Prime Ministership after Neville Chamberlain's resignation.\n\nLong an opponent of appeasement, Churchill warned against negotiating with Hitler long before the war commenced. Now in charge of the war effort, his determination to see us through this conflict, no matter the cost, shall no doubt aid him, and us, in this time of great danger and desperation."
- ENG.40.A: "God Save the King, and God Save Churchill!"
 
 ######################################################################
 #  British Political Events
@@ -157,7 +136,7 @@
  ENG_Politics.3.B: "The British Bulldog is the only capable leader."
  
  ENG_Politics.4.t: "Sir Kingsley Wood Dies"
- ENG_Politics.4.d: "[FROM.GetNewsIcon]"
+ ENG_Politics.4.d: "[FROM.GetNewsIcon]Sad news has emerged from the heart of the government today, as Sir Kingsley Wood, Chancellor of the Exchequer and Conservative MP, has died suddenly at the age of 62.\n\nHe held a number of important positions under a number of Prime Ministers, including Secretary of State for Air and, until his death, the post of Chancellor under Prime Minister [ENG.GetLeader]. One of the most recent changes he was pioneering was the new Pay As You Earn system, which was to be announced this morning, but sadly, he would not be present to see it.\n\nA minute's silence has been scheduled for today's session of Parliament, and flags around Westminster will be flown at half mast for a few days in a show of respect from both parties."
  ENG_Politics.4.A: "Tragedy has struck our nation."
 
 ######################################################################
@@ -231,11 +210,11 @@
 ######################################################################
  ENG_Abdication_Crisis.1.t: "The Death of King George V"
  ENG_Abdication_Crisis.1.d: "[FROM.GetNewsIcon]His Majesty King George V of Windsor has passed, succumbing to his illness just before midnight yesterday. The King will lie in state at Westminster Hall until the funeral, where thousands of the crown's loyal subjects will pay their respects.\n\nGeorge V ruled the United Kingdom through a time of unprecedented strife, leading the people of Britain and the Commonwealth through the Great War and the worst of the depression. The King had suffered from various respiratory issues and had spent the last year confined to Sandringham House.\n\nDevoted to and well-loved by the citizens of the Empire, the King's moderating influence will be missed by many, especially considering his heir's authoritarian inclinations and history of womanizing.\n\nThe Prince of Wales will ascend to the throne as King Edward VIII in Westminster Abbey tomorrow."
- ENG_Abdication_Crisis.1.A: ""
- ENG_Abdication_Crisis.1.B: ""
- ENG_Abdication_Crisis.1.C: ""
- ENG_Abdication_Crisis.1.D: ""
- ENG_Abdication_Crisis.1.E: ""
+ ENG_Abdication_Crisis.1.A: "The King is dead, long live the King!"
+ ENG_Abdication_Crisis.1.B: "The King is dead, long live the King!"
+ ENG_Abdication_Crisis.1.C: "The King is dead, long live the King!"
+ ENG_Abdication_Crisis.1.D: "Another phoney monarch bites the dust."
+ ENG_Abdication_Crisis.1.E: "We send our condolences."
  
  ENG_Abdication_Crisis.2.t: "The King and.. His Friend?"
  ENG_Abdication_Crisis.2.d: "The warm, bright water of the Mediterranean caressed the yacht, tracing its sleek contours like a lover. It reminded Edward of one particularly... debauched night in Paris. The King leaned back in his deck chair, smiling at the memory but unable to remember the woman's face. Oh well. Those days were behind him anyway.\n\nThe love of his life sat down beside him, and he pictured her in a crown. In his mind, pillars rose, branching out and intertwining to form the vaulted ceiling of Westminster Abbey. Bright light streamed through stained glass windows, painting the pair in a saintly aura- a mighty King, with his Queen beside him. Majestic.\n\nHe saw in Wallis what the throne lacked- strength. Forcefulness. Vitality. The things that drew him to her and seized him like no woman ever had. The politicians back home hated his future wife- she was too ambitious, too American, too divorced. But why did that matter? He loved her, and that was the only important thing. Wallis noticed his distress and frowned in concern. If the crown was contingent on giving up love, he knew which one he'd choose."
@@ -716,16 +695,16 @@
 #  Wartime Decision Events
 ######################################################################
  ENG_Wartime_Decisions.1.t: "The Nuuklear Option"
- ENG_Wartime_Decisions.1.d: ""
+ ENG_Wartime_Decisions.1.d: "The British government approached us today about the possibility of acquiring ownership of both Iceland and Greenland, which were formerly Danish territories.\n\nWhen Denmark fell to the German invasion, British forces moved quickly to secure Iceland and Greenland, preventing the fascists from using them as a base to further disrupt the war effort in the UK, as well as a potential invasion point into the British Isles. While this was a wise decision at the time, the occupation of these two territories required a large number of soldiers and equipment, which the British claim could have been used elsewhere in the war to combat the Axis powers.\n\nWe would gain complete control of Iceland and Denmark under this agreement, but we would have to send troops to protect them. Another issue is that they are technically still part of Denmark, and proceeding with the plan could be interpreted as a violation of Danish sovereignty."
  ENG_Wartime_Decisions.1.A: "Perhaps we'll own this land someday?"
  ENG_Wartime_Decisions.1.B: "This is a clear violation of Danish sovereignty"
 
  ENG_Wartime_Decisions.2.t: "America Takes Control of Danish Possessions"
- ENG_Wartime_Decisions.2.d: ""
- ENG_Wartime_Decisions.2.A: "Thanks Chaps"
+ ENG_Wartime_Decisions.2.d: "The US government has given us good news about our potential deal with Greenland and Iceland. They have informed us that they are willing to proceed with the transfer of those territories from British to American control!\n\nThis is good news for us because it means we can now start withdrawing the garrisons stationed there and relocating them to the frontlines, where they will be much more useful in our fight against the Axis. It also helps to relieve administrative strain, which is already at breaking point as a result of the war.\n\nWe are confident that the United States will do an excellent job of protecting Greenland and Iceland, and we hope that when the war is over, we will be able to ensure that the rightful Danish government receives their land back."
+ ENG_Wartime_Decisions.2.A: "We give thanks to the Yanks!"
 
  ENG_Wartime_Decisions.3.t: "No Deal in Nuuk"
- ENG_Wartime_Decisions.3.d: ""
+ ENG_Wartime_Decisions.3.d: "The US government has given us some unfortunate news about our potential deal with Greenland and Iceland. They have informed us that they are not willing to proceed with the transfer of those territories from British to American control!\n\nThis is bad news for us because it means we must leave the garrisons stationed there to ensure their protection, and we won’t be able to move them to the frontlines where they would’ve been much more useful in our fight against the Axis. It also puts extra administrative strain on a system which is already at breaking point as a result of the war.\n\nThe US stated that it was not in their national interest to take control of Greenland and Iceland, also adding that it would be a violation of Danish sovereignty. While we will protect them for now, we hope to be able to return them to the rightful Danish government soon."
  ENG_Wartime_Decisions.3.A: "Ah, Piss"
 
  ENG_Wartime_Decisions.4.t: "Destroyers for Bases"

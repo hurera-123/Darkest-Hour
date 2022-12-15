@@ -326,42 +326,6 @@ news_event = {
 }
 
 #########################################################################
-#  Royal Family Evacuation
-#########################################################################
-news_event = {
-	id = ENG.4
-	title = ENG.4.t
-	desc = ENG.4.d
-	picture = GFX_news_ENG_Royal_Family
-	fire_only_once = yes
-	is_triggered_only = yes
-	# God Save the King!
-	option = {
-		name = ENG.4.A
-		add_stability = -0.05
-		add_war_support = 0.05
-	}
-}
-
-#########################################################################
-#  Women, Children and Conservatives first
-#########################################################################
-country_event = {
-	id = ENG.5
-	title = ENG.5.t
-	desc = ENG.5.d
-	picture = GFX_Royal_Family
-	fire_only_once = yes
-	is_triggered_only = yes
-	# Tories...
-	option = {
-		name = ENG.5.A
-		add_stability = -0.05
-		add_war_support = -0.05
-	}
-}
-
-#########################################################################
 #  Preparations for a March
 #########################################################################
 country_event = {
@@ -512,50 +476,6 @@ news_event = {
 }
 
 #########################################################################
-#  Anglo-Irish Trade Agreement
-#########################################################################
-country_event = {
-	id = ENG.10
-	title = ENG.10.t
-	desc = ENG.10.d
-	picture = GFX_report_ENG_Anglo_Irish_Trade_Agreement
-	fire_only_once = yes
-	trigger = {
-		original_tag = ENG
-		has_government = democratic
-		date > 1938.4.24
-		has_start_date < 1938.4.24
-	}
-	mean_time_to_happen = {
-		days = 1
-	}
-	# Sign It
-	option = {
-		name = ENG.10.A
-		ai_chance = {
-			factor = 90
-		}
-		add_stability = 0.02
-		set_country_flag = trade_agreement_signed
-	}
-	# The Irish are insane
-	option = {
-		name = ENG.10.B
-		ai_chance = {
-			factor = 10
-		}
-		add_stability = -0.02
-		IRE = {
-			add_opinion_modifier = {
-				target = ROOT
-				modifier = embargo
-			}
-		}
-		set_country_flag = trade_agreement_not_signed
-	}
-}
-
-#########################################################################
 #  Lord Haw-Haw
 #########################################################################
 news_event = {
@@ -660,23 +580,6 @@ news_event = {
 				modifier = protest_action_light
 			}
 		}
-	}
-}
-
-#########################################################################
-#  Their Finest Hour
-#########################################################################
-country_event = {
-	id = ENG.15
-	title = ENG.15.t
-	desc = ENG.15.d
-	picture = GFX_Winston_Speech
-	fire_only_once = yes
-	is_triggered_only = yes
-	option = {
-		#We will survive, as we did before!
-		name = ENG.15.A
-		add_stability = 0.05
 	}
 }
 
@@ -890,21 +793,6 @@ country_event = {
 	option = {
 		name = ENG.38.B
 		add_political_power = 10
-	}
-}
-
-#########################################################################
-# Blood, Toil, Tears and Sweat
-#########################################################################
-country_event = {
-	id = ENG.40
-	title = ENG.40.t
-	desc = ENG.40.d
-	picture = GFX_report_ENG_Future_of_Warfare
-	is_triggered_only = yes
-	option = {
-		name = ENG.40.A
-		add_political_power = 20
 	}
 }
 
@@ -3104,11 +2992,7 @@ news_event = {
 	option = {
 		name = ENG_Abdication_Crisis.1.D
 		trigger = {
-			is_in_faction_with = ENG
-			NOT = {
-				original_tag = ENG
-				is_subject_of = ENG
-			}
+			has_government = communist
 		}
 	}
 	# Option for others
@@ -3116,8 +3000,11 @@ news_event = {
 		name = ENG_Abdication_Crisis.1.E
 		trigger = {
 			NOT = {
-				is_in_faction_with = ENG
-				is_subject_of = ENG
+				OR = {
+					is_in_faction_with = ENG
+					is_subject_of = ENG
+					has_government = communist
+				}
 			}
 		}
 	}

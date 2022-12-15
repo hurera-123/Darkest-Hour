@@ -22,16 +22,6 @@
  SOV_Death_of_Stalin.2.C: "Lavrenti P. Beria."
  SOV_Death_of_Stalin.2.D: "Georgy Zhukov."
 
- soviet.5.t: "Proposition from Berlin"
- soviet.5.d: "It seems that Berlin has finally come around, and acknowledges our shared duty in spreading the world revolution to all four corners. Combined, Germany and the Soviet Union shall embark on a crusade against the west. It merely requries our pledge of allegiance."
- soviet.5.A: "Let's bury the West"
- soviet.5.B: "We need more time"
-
- soviet.6.t: "Move Industry to the Urals"
- soviet.6.d: "It would be smart of us to move our industry to the Urals as a war with Germany seems inevitable."
- soviet.6.A: "Agreed"
- soviet.6.B: "Don't be ridiculous"
-
  SOV_Stalin_Constitution.1.t: "History in One Stroke"
  SOV_Stalin_Constitution.1.d: "[FROM.GetNewsIcon]Again our glorious government has moved further in achieving class equality and in furthering the interests of the hardworking workers of the Union in a single stroke, by having adopted a new Constitution.\n\nThe new “Stalin’s” Constitution will be replacing the heavily revised 1924 constitution. The new Constitution has been termed as an unprecedented step for the Soviet people, the Constitution enumerates economic rights not included in constitutions of the so-called Western “Democracies”. It has repealed restrictions on voting, abolishing the “lishentsy” category of people, and has added universal direct suffrage and the right to work. In addition, the new Constitution has recognized collective social and economic rights including the rights to work, rest and leisure, health protection, care in old age and sickness, housing, education, and cultural benefits. The new Constitution also provides for the direct election of all government bodies and their reorganization into a single, uniform system.\n\nOur General Secretary Joseph Stalin, genius of the new world, the wisest man of the epoch, the great leader of communism, has personally chaired over a special commission of 31 members in the creation of this new constitution which has already been enacted by the Congress of Soviets, which itself has been reformed into the Supreme Soviet."
  SOV_Stalin_Constitution.1.A: "Rejoice, Comrades."
@@ -174,6 +164,18 @@
  SOV_Great_Purge.22.t: "Order No .00447"
  SOV_Great_Purge.22.d: "\"Comrade, today, I want to submit to you this new order, 00447.\"\n\"And what is the goal of this new one?\"\nSlowly, Iejov started walking into the office.\n\n\"Its goal? I can assure you that with this new order, we will finally decapitate the opposition!\"\n\"What kind of opposition? Do you mean the terrorist Trotskyists? Or the Bukharin merchants?\"\n\"No, comrade, I want to deal with the real devils of the Soviet Union: the old kulaks, criminal parasites, and all anti-soviet elements we can find!\"\nIn Stalin's absence, Molotov, who represents the Politburo, shook his head.\n\n\"I'm not sure, Nikola, and besides, I believe Stalin would like to see this before we implement it...\"\n\"Do you wish to wait, Molotov? Don't you realize that every hour we wait makes them stronger? The only way to deal with the kulaks, traitors and parasites of the Union, is to purge them!\"\n\n\"Arlight, alright! Just hand me a pen.\"\n\nAfter little hesitation, Molotov finally approved and signed the sheet. He then left the office to report to the first secretary.\n\nNow, the streets of Moscow are witnessing the beginning of a new purge, as ex-kulaks, criminals, and regime opponents are being arrested and sent to where they belong: the gulags."
  SOV_Great_Purge.22.A: "The Union is saved from itself."
+
+ SOV_Great_Purge.23.t: "A Scathing Report"
+ SOV_Great_Purge.23.d: ""
+ SOV_Great_Purge.23.A: ""
+
+ SOV_Great_Purge.24.t: "Icarus"
+ SOV_Great_Purge.24.d: ""
+ SOV_Great_Purge.24.A: ""
+
+ SOV_Great_Purge.25.t: "A Secure Union"
+ SOV_Great_Purge.25.d: ""
+ SOV_Great_Purge.25.A: ""
 
  SOV_Rokossovsky_Purge: "§RRokossovsky won't be available later on!§!"
 
@@ -1503,11 +1505,15 @@
  SOV_Great_Purge_Phase_2: "§gPhase 2 of the Great Purge has Started§!"
 
  Yagoda_chief_of_NKVD: "Genrikh Yagoda"
+ Agranov_chief_of_NKVD: "Yakov Agranov"
+ Yezhov_chief_of_NKVD: "Nikolai Yezhov"
+ Beria_chief_of_NKVD: "Lavrenty Beria"
  Agranov_deputy_of_NKVD: "Yakov Agranov"
  Frinovsky_deputy_of_NKVD: "Mikhail Frinovsky"
  SOV_Frinovsky_is_Deputy_of_NKVD: "Mikhail Frinovsky is deputy of NKVD"
  Beria_deputy_of_NKVD: "Lavrentiy Beria"
  SOV_Beria_is_Deputy_of_NKVD: "Lavrentiy Beria is deputy of NKVD"
+ Merkulov_deputy_of_NKVD: "Vsevolod Merkulov"
  SOV_Stalin_Weekly_Paranoia_Change_tt: "£stalin_paranoia §OWeekly Paranoia§! Changed by: [?SOV_Stalin_Paranoia_Change_gain|=%1-]"
  SOV_Stalin_Paranoia_Change_tt: "£stalin_paranoia §OParanoia§! Changed by: [?SOV_Stalin_Paranoia_gain|=%%1-]"
  SOV_Agranov_is_Replaced: "§LYakov Agranov§! will be §RReplaced§! by §LMikhail Frinovsky§!"
@@ -1526,7 +1532,7 @@
  SOV_Expelled_Officers_Excluded_from_the_Party: "Expelled Officers Excluded from the Party"
  SOV_Liquidated_the_Menshevik_Underground: "Liquidated the Menshevik Underground"
  SOV_Deportations_of_Kulaks_and_Mullahs: "Deportations of Kulaks and Mullahs"
- SOV_Expel_Officers_Excluded_from_the_Party: "Expel Officers Excluded from the Party""
+ SOV_Expel_Officers_Excluded_from_the_Party: "Expel Officers Excluded from the Party"
  SOV_Liquidate_the_Menshevik_Underground: "Liquidate the \"Menshevik Underground\""
  SOV_Replace_Agranov: "Replace Agranov"
  SOV_Anti_Soviet_Military_Organisation: "Anti-Soviet Military Organisation"
@@ -1557,11 +1563,15 @@
  SOV_Commit_to_Ethnic_Operations: "Commit to Ethnic Operations"
  SOV_Imminent_Counter_Revolution_2: "Imminent Counter-revolution"
  #Phase 3
- SOV_Purge_NKVD_Itself: "Purge NKVD Itself"
+ SOV_Criticise_the_NKVD: "Criticise the NKVD"
+ SOV_NKVD_Criticised: "Criticised the NKVD"
  SOV_Stop_the_Activities_of_Extrajudicial_Organs: "Stop the Activities of Extrajudicial Organs"
+ SOV_Extrajudicial_Organs_Stopped: "Stopped the activities of the extrajudicial organs"
+ SOV_Purge_the_NKVD: "Purge the NKVD"
+ SOV_NKVD_Purged: "Purged the NKVD"
  SOV_Restore_Socialist_Legality: "Restore Socialist Legality"
+ SOV_Socialist_Legality_Restored: "Restored Socialist Legality"
  SOV_Invalidate_Extrajudicial_Sentences: "Invalidate Extrajudicial Sentences"
- SOV_Remove_Yezhov: "Remove Yezhov"
  #Yezhovshchina
  SOV_Recall_Frinovsky: "Recall Frinovsky"
  SOV_Restore_NKVD_Troikas: "Restore NKVD Troikas"
