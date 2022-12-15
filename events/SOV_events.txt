@@ -3199,7 +3199,7 @@ country_event = {
 		
 	}
 	option = {
-		name = SOV_Red_Army.2.B
+		name = SOV_Red_Army.7.B
 		
 	}
 }
@@ -3212,7 +3212,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = SOV_Red_Army.7.A
+		name = SOV_Red_Army.8.A
 		
 	}
 }
