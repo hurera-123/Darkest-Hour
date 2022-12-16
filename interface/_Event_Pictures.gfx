@@ -1505,6 +1505,16 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_USA_America_First_Rally"
+        texturefile = "gfx/event_pictures/news_USA_America_First_Rally.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_USA_Armistice_Day_Blizzard"
+        texturefile = "gfx/event_pictures/news_USA_Armistice_Day_Blizzard.png"
+    }
+
+    spriteType = {
         name = "GFX_news_USA_Assassination_Attempt_FDR"
         texturefile = "gfx/event_pictures/news_USA_Assassination_Attempt_FDR.png"
     }
@@ -1585,6 +1595,16 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_USA_Dewey_Inauguration"
+        texturefile = "gfx/event_pictures/news_USA_Dewey_Inauguration.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_USA_El_Centro_Earthquake"
+        texturefile = "gfx/event_pictures/news_USA_El_Centro_Earthquake.png"
+    }
+
+    spriteType = {
         name = "GFX_news_USA_Fascist_Legion"
         texturefile = "gfx/event_pictures/news_USA_Fascist_Legion.png"
     }
@@ -1655,6 +1675,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_USA_Gone_With_the_Wind"
+        texturefile = "gfx/event_pictures/news_USA_Gone_With_the_Wind.png"
+    }
+
+    spriteType = {
         name = "GFX_news_USA_Huey_Long"
         texturefile = "gfx/event_pictures/news_USA_Huey_Long.png"
     }
@@ -1695,6 +1720,16 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_USA_Madison_Square_Garden_Rally"
+        texturefile = "gfx/event_pictures/news_USA_Madison_Square_Garden_Rally.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_USA_McDonalds_Opens_in_San_Bernardino"
+        texturefile = "gfx/event_pictures/news_USA_McDonalds_Opens_in_San_Bernardino.png"
+    }
+
+    spriteType = {
         name = "GFX_news_USA_Memorial_Day_Massacre"
         texturefile = "gfx/event_pictures/news_USA_Memorial_Day_Massacre.png"
     }
@@ -1702,6 +1737,16 @@ spriteTypes = {
     spriteType = {
         name = "GFX_news_USA_Montevideo_Convention"
         texturefile = "gfx/event_pictures/news_USA_Montevideo_Convention.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_USA_Mount_Rushmore"
+        texturefile = "gfx/event_pictures/news_USA_Mount_Rushmore.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_USA_National_Labour_Relations_Act"
+        texturefile = "gfx/event_pictures/news_USA_National_Labour_Relations_Act.png"
     }
 
     spriteType = {
@@ -1740,6 +1785,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_USA_Opening_of_the_National_Gallery"
+        texturefile = "gfx/event_pictures/news_USA_Opening_of_the_National_Gallery.png"
+    }
+
+    spriteType = {
         name = "GFX_news_USA_Panic_on_the_West_Coast"
         texturefile = "gfx/event_pictures/news_USA_Panic_on_the_West_Coast.png"
     }
@@ -1755,8 +1805,28 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_USA_Philippines_Independence"
+        texturefile = "gfx/event_pictures/news_USA_Philippines_Independence.png"
+    }
+
+    spriteType = {
         name = "GFX_news_USA_Pittsburgh_Flood"
         texturefile = "gfx/event_pictures/news_USA_Pittsburgh_Flood.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_USA_Puss_Gets_the_Boot"
+        texturefile = "gfx/event_pictures/news_USA_Puss_Gets_the_Boot.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_USA_Release_of_Pinocchio"
+        texturefile = "gfx/event_pictures/news_USA_Release_of_Pinocchio.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_USA_Rhythm_Night_Club_Fire"
+        texturefile = "gfx/event_pictures/news_USA_Rhythm_Night_Club_Fire.png"
     }
 
     spriteType = {
@@ -1785,6 +1855,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_USA_Second_Philippine_American_War"
+        texturefile = "gfx/event_pictures/news_USA_Second_Philippine_American_War.png"
+    }
+
+    spriteType = {
         name = "GFX_news_USA_Shortest_Boxing_Match_In_History"
         texturefile = "gfx/event_pictures/news_USA_Shortest_Boxing_Match_In_History.png"
     }
@@ -1807,6 +1882,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_news_USA_Spam_Introduced"
         texturefile = "gfx/event_pictures/news_USA_Spam_Introduced.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_USA_Sturgis_Motorcycle_Rally"
+        texturefile = "gfx/event_pictures/news_USA_Sturgis_Motorcycle_Rally.png"
     }
 
     spriteType = {
@@ -1835,8 +1915,23 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_USA_Unfinished_Jefferson_Memorial"
+        texturefile = "gfx/event_pictures/news_USA_Unfinished_Jefferson_Memorial.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_USA_United_Service_Organization"
+        texturefile = "gfx/event_pictures/news_USA_United_Service_Organization.png"
+    }
+
+    spriteType = {
         name = "GFX_news_USA_War_of_the_Worlds"
         texturefile = "gfx/event_pictures/news_USA_War_of_the_Worlds.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_USA_Waynesburg_vs_Fordham"
+        texturefile = "gfx/event_pictures/news_USA_Waynesburg_vs_Fordham.png"
     }
 
     spriteType = {
@@ -3620,6 +3715,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_report_USA_Eisenhower"
+        texturefile = "gfx/event_pictures/report_report_USA_Eisenhower.png"
+    }
+
+    spriteType = {
         name = "GFX_report_RNG_New_National_Government_Established"
         texturefile = "gfx/event_pictures/report_RNG_New_National_Government_Established.png"
     }
@@ -4125,6 +4225,26 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_USA_Alf_Landon"
+        texturefile = "gfx/event_pictures/report_USA_Alf_Landon.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Alf_Landon_Visit"
+        texturefile = "gfx/event_pictures/report_USA_Alf_Landon_Visit.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Anglo_US_Diplomats"
+        texturefile = "gfx/event_pictures/report_USA_Anglo_US_Diplomats.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Arsenal_of_Democracy"
+        texturefile = "gfx/event_pictures/report_USA_Arsenal_of_Democracy.png"
+    }
+
+    spriteType = {
         name = "GFX_report_USA_Ashurst"
         texturefile = "gfx/event_pictures/report_USA_Ashurst.png"
     }
@@ -4145,6 +4265,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_USA_Bomber_Mafia"
+        texturefile = "gfx/event_pictures/report_USA_Bomber_Mafia.png"
+    }
+
+    spriteType = {
         name = "GFX_report_USA_Bonus_Army"
         texturefile = "gfx/event_pictures/report_USA_Bonus_Army.png"
     }
@@ -4160,8 +4285,33 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_USA_Cargo_Port"
+        texturefile = "gfx/event_pictures/report_USA_Cargo_Port.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Cargo_Ship"
+        texturefile = "gfx/event_pictures/report_USA_Cargo_Ship.png"
+    }
+
+    spriteType = {
         name = "GFX_report_USA_Cash_and_Carry"
         texturefile = "gfx/event_pictures/report_USA_Cash_and_Carry.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_CIA"
+        texturefile = "gfx/event_pictures/report_USA_CIA.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Claire_Lee_Chennault"
+        texturefile = "gfx/event_pictures/report_USA_Claire_Lee_Chennault.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Close_Air_Support"
+        texturefile = "gfx/event_pictures/report_USA_Close_Air_Support.png"
     }
 
     spriteType = {
@@ -4170,8 +4320,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_USA_Congress_Building"
+        texturefile = "gfx/event_pictures/report_USA_Congress_Building.png"
+    }
+
+    spriteType = {
         name = "GFX_report_USA_Debate_Child_Labor"
         texturefile = "gfx/event_pictures/report_USA_Debate_Child_Labor.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Department_of_War"
+        texturefile = "gfx/event_pictures/report_USA_Department_of_War.png"
     }
 
     spriteType = {
@@ -4190,8 +4350,28 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_USA_Election_1940"
+        texturefile = "gfx/event_pictures/report_USA_Election_1940.png"
+    }
+
+    spriteType = {
         name = "GFX_report_USA_Election_1944"
         texturefile = "gfx/event_pictures/report_USA_Election_1944.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Factory"
+        texturefile = "gfx/event_pictures/report_USA_Factory.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Farmer_Labor_Party"
+        texturefile = "gfx/event_pictures/report_USA_Farmer_Labor_Party.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_FDR_Banking_Act"
+        texturefile = "gfx/event_pictures/report_USA_FDR_Banking_Act.png"
     }
 
     spriteType = {
@@ -4205,8 +4385,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_USA_Fighters"
+        texturefile = "gfx/event_pictures/report_USA_Fighters.png"
+    }
+
+    spriteType = {
         name = "GFX_report_USA_Garner_and_Roosevelt"
         texturefile = "gfx/event_pictures/report_USA_Garner_and_Roosevelt.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Hap_Arnold"
+        texturefile = "gfx/event_pictures/report_USA_Hap_Arnold.png"
     }
 
     spriteType = {
@@ -4215,8 +4405,23 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_USA_International_Military_Tribunal_for_the_Far_East"
+        texturefile = "gfx/event_pictures/report_USA_International_Military_Tribunal_for_the_Far_East.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Internment_Camps"
+        texturefile = "gfx/event_pictures/report_USA_Internment_Camps.png"
+    }
+
+    spriteType = {
         name = "GFX_report_USA_Japanese_Internment_Camps"
         texturefile = "gfx/event_pictures/report_USA_Japanese_Internment_Camps.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Japanese_Leader_Shot"
+        texturefile = "gfx/event_pictures/report_USA_Japanese_Leader_Shot.png"
     }
 
     spriteType = {
@@ -4227,6 +4432,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_report_USA_John_Pershing"
         texturefile = "gfx/event_pictures/report_USA_John_Pershing.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Joint_Chief_of_Staff"
+        texturefile = "gfx/event_pictures/report_USA_Joint_Chief_of_Staff.png"
     }
 
     spriteType = {
@@ -4242,6 +4452,71 @@ spriteTypes = {
     spriteType = {
         name = "GFX_report_USA_Louisiana_Maneuvers"
         texturefile = "gfx/event_pictures/report_USA_Louisiana_Maneuvers.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_MacArthur_is_Back"
+        texturefile = "gfx/event_pictures/report_USA_MacArthur_is_Back.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_MacArthur_Philippines"
+        texturefile = "gfx/event_pictures/report_USA_MacArthur_Philippines.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_MacArthur_Retires"
+        texturefile = "gfx/event_pictures/report_USA_MacArthur_Retires.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Manhattan_Project"
+        texturefile = "gfx/event_pictures/report_USA_Manhattan_Project.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Manila"
+        texturefile = "gfx/event_pictures/report_USA_Manila.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Manila_Port"
+        texturefile = "gfx/event_pictures/report_USA_Manila_Port.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Manuel_Quezon"
+        texturefile = "gfx/event_pictures/report_USA_Manuel_Quezon.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Marshall"
+        texturefile = "gfx/event_pictures/report_USA_Marshall.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_National_Guard"
+        texturefile = "gfx/event_pictures/report_USA_National_Guard.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Nuclear_Bomb"
+        texturefile = "gfx/event_pictures/report_USA_Nuclear_Bomb.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_OSS"
+        texturefile = "gfx/event_pictures/report_USA_OSS.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Patton"
+        texturefile = "gfx/event_pictures/report_USA_Patton.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Philippines"
+        texturefile = "gfx/event_pictures/report_USA_Philippines.png"
     }
 
     spriteType = {
@@ -4265,8 +4540,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_USA_Question_of_Unit_731"
+        texturefile = "gfx/event_pictures/report_USA_Question_of_Unit_731.png"
+    }
+
+    spriteType = {
         name = "GFX_report_USA_Recognizing_the_USSR"
         texturefile = "gfx/event_pictures/report_USA_Recognizing_the_USSR.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Republicans_Democrats_Unite"
+        texturefile = "gfx/event_pictures/report_USA_Republicans_Democrats_Unite.png"
     }
 
     spriteType = {
@@ -4275,8 +4560,23 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_USA_Roosevelt_Cabinet"
+        texturefile = "gfx/event_pictures/report_USA_Roosevelt_Cabinet.png"
+    }
+
+    spriteType = {
         name = "GFX_report_USA_Roosevelt_Dies"
         texturefile = "gfx/event_pictures/report_USA_Roosevelt_Dies.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Sakdalistas"
+        texturefile = "gfx/event_pictures/report_USA_Sakdalistas.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Sakdalista_Proclamation"
+        texturefile = "gfx/event_pictures/report_USA_Sakdalista_Proclamation.png"
     }
 
     spriteType = {
@@ -4285,8 +4585,23 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_USA_Soldiers_with_Rifle"
+        texturefile = "gfx/event_pictures/report_USA_Soldiers_with_Rifle.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Submarines"
+        texturefile = "gfx/event_pictures/report_USA_Submarines.png"
+    }
+
+    spriteType = {
         name = "GFX_report_USA_Surpeme_Court_Justices"
         texturefile = "gfx/event_pictures/report_USA_Surpeme_Court_Justices.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Tank_Developement"
+        texturefile = "gfx/event_pictures/report_USA_Tank_Developement.png"
     }
 
     spriteType = {
@@ -4295,8 +4610,73 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_USA_The_Trial_of_Akira_Muto"
+        texturefile = "gfx/event_pictures/report_USA_The_Trial_of_Akira_Muto.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_The_Trial_of_Heitaro_Kimura"
+        texturefile = "gfx/event_pictures/report_USA_The_Trial_of_Heitaro_Kimura.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_The_Trial_of_Hideki_Tojo"
+        texturefile = "gfx/event_pictures/report_USA_The_Trial_of_Hideki_Tojo.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_The_Trial_of_Seishiro_Itagaki"
+        texturefile = "gfx/event_pictures/report_USA_The_Trial_of_Seishiro_Itagaki.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_The_Trial_of_Shiro_Ishiipng"
+        texturefile = "gfx/event_pictures/report_USA_The_Trial_of_Shiro_Ishiipng.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_The_Trial_of_the_Princes"
+        texturefile = "gfx/event_pictures/report_USA_The_Trial_of_the_Princes.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Trial_of_Kenji_Doihara"
+        texturefile = "gfx/event_pictures/report_USA_Trial_of_Kenji_Doihara.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Trial_of_Koki_Hirota"
+        texturefile = "gfx/event_pictures/report_USA_Trial_of_Koki_Hirota.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Troops_Marching"
+        texturefile = "gfx/event_pictures/report_USA_Troops_Marching.png"
+    }
+
+    spriteType = {
         name = "GFX_report_USA_Truman_Doctrine"
         texturefile = "gfx/event_pictures/report_USA_Truman_Doctrine.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Two_Oceans_Navy_Act"
+        texturefile = "gfx/event_pictures/report_USA_Two_Oceans_Navy_Act.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Tydings_McDuffie_Act"
+        texturefile = "gfx/event_pictures/report_USA_Tydings_McDuffie_Act.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Vinson_Trammel_Act"
+        texturefile = "gfx/event_pictures/report_USA_Vinson_Trammel_Act.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Weapons_Sale"
+        texturefile = "gfx/event_pictures/report_USA_Weapons_Sale.png"
     }
 
     spriteType = {
