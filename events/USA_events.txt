@@ -5243,7 +5243,6 @@ news_event = {
 	option = {
 		name = USA_McNary_Dead.1.A
 		kill_country_leader = yes
-		
 	}
 }
 
