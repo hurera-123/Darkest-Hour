@@ -3384,8 +3384,6 @@ country_event = {
 	picture = GFX_report_USA_Tank_Developement
 	fire_only_once = yes
 	is_triggered_only = yes
-	trigger = {
-	}
 	#Work with UK
 	option = {
 		name = USA_Army.9.A
