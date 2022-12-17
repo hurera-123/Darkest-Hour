@@ -5789,6 +5789,14 @@ characters = {
 			}
 		}
 	}
+	SOV_Marina_Raskova = {
+		name=SOV_Marina_Raskova
+		portraits={
+			army={
+				small="GFX_idea_Marina_Raskova"
+			}
+		}
+	}
 	SOV_Sergei_Khudyakov = {
 		name=SOV_Sergei_Khudyakov
 		portraits={

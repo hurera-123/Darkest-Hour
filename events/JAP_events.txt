@@ -1406,7 +1406,7 @@ country_event = {
 		}
 	}
 }
-## The Teikigaisou Proclamation
+## The Tekigai-so Proclamation
 country_event = {
 	id = JAP_Second_Konoe_Cabinet.4
 	title = JAP_Second_Konoe_Cabinet.4.t

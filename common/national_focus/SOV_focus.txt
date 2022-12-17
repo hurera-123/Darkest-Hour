@@ -101,10 +101,10 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	focus = {
-		id = SOV_Red_Army_Airforce
+		id = SOV_Positive_Heroism_in_Aviation
 		icon = GFX_SOV_Red_Airforce
 		cost = 60
-		x = 54
+		x = 56
 		y = 0
 		offset = {
 			x = 0
@@ -119,14 +119,369 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_doctrine_cost_reduction = {
-				name = SOV_Red_Army_Airforce
-				cost_reduction = 0.5
-				uses = 2
-				category = air_doctrine
+			country_event = SOV_Airforce.1
+			add_ideas = SOV_Heroes_of_the_Air
+		}
+	}
+	focus = {
+		id = SOV_Expand_the_Aviation_Industry
+		icon = GFX_focus_generic_aircraft_production
+		cost = 60
+		prerequisite = {
+			focus = SOV_Positive_Heroism_in_Aviation
+		}
+		relative_position_id = SOV_Positive_Heroism_in_Aviation
+		x = -1
+		y = 1
+		completion_reward = {
+			219 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			195 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			217 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOV_Expand_Air_Testing
+		icon = GFX_focus_SOV_flying_clubs
+		cost = 60
+		prerequisite = {
+			focus = SOV_Positive_Heroism_in_Aviation
+		}
+		relative_position_id = SOV_Positive_Heroism_in_Aviation
+		x = 1
+		y = 1
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				bonus = 0.15
+				amount = 1
+				category = light_air
+				category = medium_air
+				category = heavy_air
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+	focus = {
+		id = SOV_Foster_Interest_in_Flight
+		icon = GFX_SOV_Foster_Interest_in_Flight
+		cost = 60
+		prerequisite = {
+			focus = SOV_Expand_the_Aviation_Industry
+		}
+		prerequisite = {
+			focus = SOV_Expand_Air_Testing
+		}
+		relative_position_id = SOV_Expand_the_Aviation_Industry
+		x = 1
+		y = 1
+		completion_reward = {
+			add_timed_idea = {
+				idea = SOV_Growing_Flight_Industry
+				days = 360
+			}
+		}
+	}
+	focus = {
+		id = SOV_Transpolar_Flight
+		icon = GFX_SOV_Transpolar_Flight
+		cost = 60
+		prerequisite = {
+			focus = SOV_Foster_Interest_in_Flight
+		}
+		x = 0
+		y = 1
+		relative_position_id = SOV_Foster_Interest_in_Flight
+		completion_reward = {
+			custom_effect_tooltip = SOV_Transpolar_Flight_tt
+			random_list = {
+				80 = {
+					news_event = {
+						id = SOV_Transpolar_Flight.1
+						days = 1
+					}
+				}
+				20 = {
+					country_event = {
+						id = SOV_Transpolar_Flight.2
+						days = 1
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOV_The_Aerial_Army
+		icon = GFX_SOV_Red_Airforce
+		cost = 60
+		prerequisite = {
+			focus = SOV_Transpolar_Flight
+		}
+		relative_position_id = SOV_Transpolar_Flight
+		x = -4
+		y = 1
+		completion_reward = {
+			add_ideas = SOV_Wings_of_the_Red_Army	
+		}
+	}
+	focus = {
+		id = SOV_Develop_Aeroflot
+		icon = GFX_SOV_Aeroflot
+		cost = 60
+		prerequisite = {
+			focus = SOV_The_Aerial_Army
+		}
+		x = -1
+		y = 1
+		relative_position_id = SOV_The_Aerial_Army
+		available = {
+			219 = {
+				is_owned_and_Controlled_by = SOV
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = SOV_Develop_Aeroflot_tt
+			hidden_effect = {
+				load_oob = "SOV_Aeroflot"
+			}
+		}
+		search_filters = { FOCUS_FILTER_MANPOWER }
+	}
+	focus = {
+		id = SOV_VDV
+		icon = GFX_SOV_VDV
+		cost = 60
+		prerequisite = {
+			focus = SOV_The_Aerial_Army
+		}
+		relative_position_id = SOV_The_Aerial_Army
+		x = 1
+		y = 1
+		completion_reward = {
+			add_tech_bonus = {
+				uses = 1
+				bonus = 0.4
+				technology = paratroopers
+				technology = paratroopers2
+				technology = paratroopers3
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+	focus = {
+		id = SOV_Red_Army_Airforce
+		icon = GFX_SOV_The_Red_Army_Airforce
+		cost = 60
+		prerequisite = {
+			focus = SOV_VDV
+		}
+		prerequisite = {
+			focus = SOV_Develop_Aeroflot
+		}
+		relative_position_id = SOV_Develop_Aeroflot
+		x = 1
+		y = 1
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SOV_Wings_of_the_Red_Army
+				add_idea = SOV_Wings_of_the_Red_Army_2
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+	focus = {
+		id = SOV_OKB
+		icon = GFX_SOV_OKBs
+		cost = 60
+		prerequisite = {
+			focus = SOV_Transpolar_Flight
+		}
+		x = 0
+		y = 1
+		relative_position_id = SOV_Transpolar_Flight
+		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = SOV_AM_Sergey_Korolev
+			custom_effect_tooltip = SOV_OKB_tt
+		}
+	}
+	focus = {
+		id = SOV_Modernization_of_the_Air_Program
+		icon = GFX_GENERIC_Air_Force
+		cost = 60
+		prerequisite = {
+			focus = SOV_OKB
+		}
+		x = -1
+		y = 1
+		relative_position_id = SOV_OKB
+		completion_reward = {
+			add_tech_bonus = {
+				uses = 1
+				bonus = 0.7
+				category = light_air
+				category = medium_air
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+	focus = {
+		id = SOV_The_Jet_Program
+		icon = GFX_SOV_Jet_Program
+		cost = 60
+		prerequisite = {
+			focus = SOV_Modernization_of_the_Air_Program
+		}
+		available = {
+			date>1943.08.01
+		}
+		x = 0
+		y = 2
+		relative_position_id = SOV_Modernization_of_the_Air_Program
+		completion_reward = {
+			add_tech_bonus = {
+				uses = 2
+				bonus = 0.7
+				category = jet_technology
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+	focus = {
+		id = SOV_Frontline_Aviation
+		icon = GFX_SOV_Sturmovik
+		cost = 60
+		prerequisite = {
+			focus = SOV_Modernization_of_the_Air_Program
+		}
+		x = 1
+		y = 1
+		relative_position_id = SOV_Modernization_of_the_Air_Program
+		completion_reward = {
+			add_tech_bonus = {
+				uses = 3
+				ahead_reduction = 0.4
+				technology = Attacker_1940
+				technology = Attacker_1943
+				technology = Attacker_1945
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+	focus = {
+		id = SOV_Long_Range_Aviation
+		icon = GFX_SOV_Tu4
+		cost = 60
+		prerequisite = {
+			focus = SOV_Modernization_of_the_Air_Program
+		}
+		x = -1
+		y = 1
+		relative_position_id = SOV_Modernization_of_the_Air_Program
+		completion_reward = {
+			add_tech_bonus = {
+				uses = 3
+				ahead_reduction = 0.4
+				category = cat_strategic_bomber
+			}
+		}
+	}
+	focus = {
+		id = SOV_Closed_Cities
+		icon = GFX_goal_continuous_research
+		cost = 60
+		prerequisite = {
+			focus = SOV_OKB
+		}
+		x = 1
+		y = 1
+		relative_position_id = SOV_OKB
+		completion_reward = {
+			add_research_slot = 1
+			add_tech_bonus = {
+				uses = 1
+				bonus = 0.5
+				category = nuclear
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+	focus = {
+		id = SOV_A_Bomb
+		icon = GFX_SOV_Kurchatovs_Bomb
+		cost = 60
+		prerequisite = {
+			focus = SOV_Closed_Cities
+		}
+		x = 0
+		y = 2
+		relative_position_id = SOV_Closed_Cities
+		completion_reward = {
+			add_tech_bonus = {
+				uses = 1
+				bonus = 0.5
+				category = nuclear
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+	focus = {
+		id = SOV_Red_Rockets
+		icon = GFX_SOV_Red_Rockets
+		cost = 60
+		prerequisite = {
+			focus = SOV_Closed_Cities
+		}
+		x = 1
+		y = 1
+		relative_position_id = SOV_Closed_Cities
+		completion_reward = {
+			add_tech_bonus = {
+				uses = 1
+				bonus = 0.5
+				category = rocketry
+			}
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+	focus = {
+		id = SOV_Women_in_Aviation
+		icon = GFX_SOV_Women_In_Aviation
+		cost = 60
+		prerequisite = {
+			focus = SOV_Transpolar_Flight
+		}
+		x = 3
+		y = 1
+		relative_position_id = SOV_Transpolar_Flight
+		completion_reward = {
+			country_event = { id = SOV_Airforce.2 days = 1 }
+			custom_effect_tooltip = SOV_Women_in_Aviation_tt
+			hidden_effect = {
+				load_oob = SOV_Order_99
+			}
+			add_manpower = 1000
+			set_rule = {
+				can_generate_female_aces = yes
+			}
+		}
 	}
 	focus = {
 		id = SOV_Red_Army
@@ -156,7 +511,7 @@ focus_tree = {
 		id = SOV_Red_Fleet
 		icon = GFX_SOV_Red_Fleet
 		cost = 60
-		x = 63
+		x = 65
 		y = 0
 		offset = {
 			x = 0
@@ -520,33 +875,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_HISTORICAL }
 	}
 	focus = {
-		id = SOV_Aviation_Cult
-		icon = GFX_focus_YUG_ikarus
-		cost = 60
-		prerequisite = {
-			focus = SOV_Red_Army_Airforce
-		}
-		x = 0
-		y = 1
-		relative_position_id = SOV_Red_Army_Airforce
-	}
-	focus = {
-		id = SOV_Women_in_Aviation
-		icon = GFX_focus_SOV_women_in_aviation
-		cost = 60
-		prerequisite = {
-			focus = SOV_Aviation_Cult
-		}
-		x = 0
-		y = 2
-		relative_position_id = SOV_Red_Army_Airforce
-		completion_reward = {
-			set_rule = {
-				can_generate_female_aces = yes
-			}
-		}
-	}
-	focus = {
 		id = SOV_Multi_Turreted_Tanks
 		icon = GFX_SOV_Multi_Turreted_Tanks
 		cost = 60
@@ -568,45 +896,6 @@ focus_tree = {
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
-	}
-	focus = {
-		id = SOV_Tupovlev_SB
-		icon = GFX_goal_generic_air_bomber
-		cost = 60
-		prerequisite = {
-			focus = SOV_Red_Army_Airforce
-		}
-		x = 2
-		y = 1
-		relative_position_id = SOV_Red_Army_Airforce
-	}
-	focus = {
-		id = SOV_Transpolar_Flight
-		icon = GFX_SOV_Transpolar_Flight
-		cost = 60
-		prerequisite = {
-			focus = SOV_Tupovlev_SB
-		}
-		x = 2
-		y = 2
-		relative_position_id = SOV_Red_Army_Airforce
-		completion_reward = {
-			custom_effect_tooltip = SOV_Transpolar_Flight_tt
-			random_list = {
-				80 = {
-					news_event = {
-						id = SOV_Transpolar_Flight.1
-						days = 1
-					}
-				}
-				20 = {
-					country_event = {
-						id = SOV_Transpolar_Flight.2
-						days = 1
-					}
-				}
-			}
-		}
 	}
 	focus = {
 		id = SOV_Propagate_an_Industrial_Ethos
@@ -2143,159 +2432,6 @@ focus_tree = {
 				retire_character = SOV_Mikhail_Frinovsky
 			}
 		}
-	}
-	focus = {
-		id = SOV_Closed_Cities
-		icon = GFX_goal_continuous_research
-		cost = 60
-		prerequisite = {
-			focus = SOV_OKB
-		}
-		x = 0
-		y = 4
-		relative_position_id = SOV_Red_Army_Airforce
-		completion_reward = {
-			add_research_slot = 1
-			add_tech_bonus = {
-				uses = 1
-				bonus = 0.5
-				category = nuclear
-			}
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH }
-	}
-	focus = {
-		id = SOV_A_Bomb
-		icon = GFX_GENERIC_ABomb
-		cost = 60
-		prerequisite = {
-			focus = SOV_Closed_Cities
-		}
-		x = -1
-		y = 5
-		relative_position_id = SOV_Red_Army_Airforce
-		completion_reward = {
-			add_tech_bonus = {
-				uses = 1
-				bonus = 0.5
-				category = nuclear
-			}
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH }
-	}
-	focus = {
-		id = SOV_Red_Rockets
-		icon = GFX_SOV_Red_Rockets
-		cost = 60
-		prerequisite = {
-			focus = SOV_Closed_Cities
-		}
-		x = 1
-		y = 5
-		relative_position_id = SOV_Red_Army_Airforce
-		completion_reward = {
-			add_tech_bonus = {
-				uses = 1
-				bonus = 0.5
-				category = rocketry
-			}
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH }
-	}
-	focus = {
-		id = SOV_Develop_Aeroflot
-		icon = GFX_SOV_Aeroflot
-		cost = 60
-		prerequisite = {
-			focus = SOV_Red_Army_Airforce
-		}
-		x = -2
-		y = 1
-		relative_position_id = SOV_Red_Army_Airforce
-		available = {
-			219 = {
-				is_owned_and_Controlled_by = SOV
-			}
-		}
-		completion_reward = {
-			custom_effect_tooltip = SOV_Develop_Aeroflot_tt
-			hidden_effect = {
-				load_oob = "SOV_Aeroflot"
-			}
-		}
-		search_filters = { FOCUS_FILTER_MANPOWER }
-	}
-	focus = {
-		id = SOV_VDV
-		icon = GFX_SOV_VDV
-		cost = 60
-		prerequisite = {
-			focus = SOV_Develop_Aeroflot
-		}
-		x = -2
-		y = 2
-		relative_position_id = SOV_Red_Army_Airforce
-		completion_reward = {
-			add_tech_bonus = {
-				uses = 1
-				bonus = 0.4
-				technology = paratroopers
-				technology = paratroopers2
-				technology = paratroopers3
-			}
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH }
-	}
-	focus = {
-		id = SOV_OKB
-		icon = GFX_SOV_OKBs
-		cost = 60
-		prerequisite = {
-			focus = SOV_Transpolar_Flight
-		}
-		prerequisite = {
-			focus = SOV_VDV
-		}
-		x = 0
-		y = 3
-		relative_position_id = SOV_Red_Army_Airforce
-		completion_reward = {
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = SOV_AM_Sergey_Korolev
-			custom_effect_tooltip = SOV_OKB_tt
-		}
-	}
-	focus = {
-		id = SOV_Frontline_Aviation
-		icon = GFX_SOV_Sturmovik
-		cost = 60
-		prerequisite = {
-			focus = SOV_OKB
-		}
-		x = 2
-		y = 4
-		relative_position_id = SOV_Red_Army_Airforce
-		completion_reward = {
-			add_tech_bonus = {
-				uses = 3
-				ahead_reduction = 0.4
-				technology = Attacker_1940
-				technology = Attacker_1943
-				technology = Attacker_1945
-			}
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH }
-	}
-	focus = {
-		id = SOV_Long_Range_Aviation
-		icon = GFX_SOV_Tu4
-		cost = 60
-		prerequisite = {
-			focus = SOV_OKB
-		}
-		x = -2
-		y = 4
-		relative_position_id = SOV_Red_Army_Airforce
 	}
 	focus = {
 		id = SOV_Emphasis_on_Heavy_Industry

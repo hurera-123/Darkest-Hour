@@ -23,6 +23,7 @@ add_namespace = SOV_CHI_Intervention
 add_namespace = SOV_SPR_Intervention
 add_namespace = SOV_Liberation_of_Europe
 add_namespace = SOV_Red_Army
+add_namespace = SOV_Airforce
 #########################################################################
 # "Now We Know the End..." (Tukhachevsky)
 #########################################################################
@@ -584,37 +585,37 @@ country_event = {
 			limit = {
 				has_idea = SOV_Mass_Political_Repression
 			}
-			remove_idea = SOV_Mass_Political_Repression
+			remove_ideas = SOV_Mass_Political_Repression
 		}
 		else_if = {
 			limit = {
 				has_idea = SOV_Mass_Political_Repression_2
 			}
-			remove_idea = SOV_Mass_Political_Repression_2
+			remove_ideas = SOV_Mass_Political_Repression_2
 		}
 		else_if = {
 			limit = {
 				has_idea = SOV_Mass_Political_Repression_3
 			}
-			remove_idea = SOV_Mass_Political_Repression_3
+			remove_ideas = SOV_Mass_Political_Repression_3
 		}
 		if = {
 			limit = {
 				has_idea = SOV_Purging_the_Army
 			}
-			remove_idea = SOV_Purging_the_Army
+			remove_ideas = SOV_Purging_the_Army
 		}
 		else_if = {
 			limit = {
 				has_idea = SOV_Purging_the_Army_2
 			}
-			remove_idea = SOV_Purging_the_Army_2
+			remove_ideas = SOV_Purging_the_Army_2
 		}
 		if = {
 			limit = {
 				has_idea = SOV_Repressed_Church
 			}
-			remove_idea = SOV_Repressed_Church
+			remove_ideas = SOV_Repressed_Church
 		}
 		remove_ideas = SOV_The_Great_Terror_3
 		add_timed_idea = {
@@ -1192,35 +1193,16 @@ news_event = {
 	desc = SOV_Transpolar_Flight.1.d
 	picture = GFX_news_SOV_Transpolar_Flight
 	is_triggered_only = yes
-	trigger = {
-		OR = {
-			original_tag = SOV
-			is_puppet_of = SOV
-			is_in_faction_with = SOV
-		}
-	}
+	
 	option = { #Transpolar Success
 		name = SOV_Transpolar_Flight.1.A
 		trigger = {
 			original_tag = SOV
 		}
-		add_political_power = 50
+		air_experience = 50
 		USA = {
 			add_popularity = { ideology = communist popularity = 0.01 }
 		}
-	}
-	option = { #Transpolar Success
-		name = SOV_Transpolar_Flight.1.B
-		trigger = {
-			OR = {
-				is_puppet_of = SOV
-				is_in_faction_with = SOV
-			}
-			NOT = {
-				original_tag = SOV
-			}
-		}
-		add_political_power = 10
 	}
 }
 #########################################################################
@@ -1232,9 +1214,6 @@ country_event = {
 	desc = SOV_Transpolar_Flight.2.d
 	picture = GFX_report_SOV_Transpolar_Flight_Crash
 	is_triggered_only = yes
-	trigger = {
-		original_tag = SOV
-	}
 	option = {
 		name = SOV_Transpolar_Flight.2.A
 		add_political_power = -50
@@ -3303,6 +3282,55 @@ country_event = {
 
 	option = {
 		name = SOV_Red_Army.8.A
+		
+	}
+}
+
+#########################################################################
+# Airforce Focuses
+#########################################################################
+country_event = {
+	id = SOV_Airforce.1
+	title = SOV_Airforce.1.t
+	desc = SOV_Airforce.1.d
+	#picture = 
+	is_triggered_only = yes
+
+	option = {
+		name = SOV_Airforce.1.A
+		
+	}
+}
+
+country_event = {
+	id = SOV_Airforce.2
+	title = SOV_Airforce.2.t
+	desc = SOV_Airforce.2.d
+	#picture = 
+	is_triggered_only = yes
+
+	option = {
+		name = SOV_Airforce.2.A
+		add_advisor_role = {
+			character = SOV_Marina_Raskova
+			activate = yes
+			advisor={
+				slot=Chief_of_Airforce
+				idea_token=SOV_Marina_Raskova_CoAir
+				allowed={
+					tag=SOV
+				}
+				visible={
+					C_Minister_Allowed = yes
+				}
+				traits={			
+					CoAir_Night_Witch
+				}
+			}
+		}
+	}
+	option = {
+		name = SOV_Airforce.2.B
 		
 	}
 }

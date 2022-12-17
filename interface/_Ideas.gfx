@@ -4515,6 +4515,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Marina_Raskova"
+        texturefile = "gfx/interface/ideas/Cabinet/SOV/Marina_Raskova.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Mikhail_Frinovsky"
         texturefile = "gfx/interface/ideas/Cabinet/SOV/Mikhail_Frinovsky.png"
     }
@@ -7610,6 +7615,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_SOV_The_Wings_of_the_Red_Army"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_The_Wings_of_the_Red_Army.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_SOV_Unity_Achieved"
         texturefile = "gfx/interface/ideas/Spirits/SOV_Unity_Achieved.png"
     }
@@ -7617,6 +7627,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_SOV_Vocational_Training_System"
         texturefile = "gfx/interface/ideas/Spirits/SOV_Vocational_Training_System.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_SOV_Women_in_Aviation"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_Women_in_Aviation.png"
     }
 
     spriteType = {

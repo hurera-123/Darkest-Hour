@@ -189,6 +189,7 @@ recruit_character = SOV_Pavel_Rychagov
 recruit_character = SOV_Pavel_Zhigarev
 recruit_character = SOV_Alexander_Novikov
 recruit_character = SOV_Konstantin_Vershinin
+recruit_character = SOV_Marina_Raskova
 recruit_character = SOV_Sergei_Khudyakov
 recruit_character = SOV_Stepan_Krasovsky
 recruit_character = SOV_Vladimir_Kasatonov

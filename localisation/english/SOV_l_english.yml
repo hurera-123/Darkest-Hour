@@ -35,7 +35,6 @@
  SOV_Transpolar_Flight.1.t.SOV: "Glory to Stalin's Falcons"
  SOV_Transpolar_Flight.1.d: "[FROM.GetNewsIcon]Yesterday, June 20, 1937, a specially outfitted Soviet ANT-25 landed in Vancouver in the United States of America, completing the first-ever transpolar airplane flight. It flew from the Soviet Union to the United States across the North Pole, the aircraft being piloted by our very own falcons - pilot Valery Chkalov, co-pilot Georgy Baidukov, and navigator Alexander Belyakov.\n\nLong and careful preparations were made for the flight, as a forced landing in the Polar Regions would mean certain death for the entire crew, after taking off the first 24 hours of the trans-polar flight proved to be routine and uneventful, but the remainder of the long flight would test the mettle of the Soviet Union’s elite flyers. As the flight neared the Polar Regions, the aircraft’s magnetic compass became inoperable; navigation had to rely solely on dead reckoning and a solar heading indicator, with corrections made by regular sun and star observations. But Despite all the odds, the flight landed at Vancouver's Pearson Airfield successfully after a flight of 63 hours and 16 minutes and were welcomed as heroes.\n\nWhile they do a nation-wide tour of the United States, which includes a meeting with President Roosevelt and a parade in New York City, the people at home desperately await to welcome the heroes."
  SOV_Transpolar_Flight.1.A: "Congrats, to the air pioneers."
- SOV_Transpolar_Flight.1.B: "Congrats, to the air pioneers."
 
  SOV_Transpolar_Flight.2.t: "The Lost Falcons"
  SOV_Transpolar_Flight.2.d: "Yesterday, we lost contact with Valery Chkalov and his crew of three. They were flying a specially outfitted ANT 25 and were tasked with attempting the world's first-ever transpolar flight. Prior to their unfortunate disappearance, Chkalov reported that all instruments were functioning properly and that his crew was in good condition, which has raised questions about their disappearance. The last sighting of the aircraft was near the 75th parallel.\n\nDue to the highly secretive nature of the mission, Canadian and American authorities were not informed, but there will be no need to tell them now. We have already sent planes into the air to search the area for Chkalov and his crew, however, the chances of finding them are quite low.\n\nTo avoid any trouble, Comrade Stalin has ordered the covering up of all records related to the flight and its fate."
@@ -614,7 +613,7 @@
  soviet_special.2.d: "Germany pushes into the Motherland farther then we thought they could. We must put a end to this!"
  soviet_special.2.A: "For the Motherland!"
  
- ###Red Army Trees
+ ###Red Army Tree
  SOV_Red_Army.1.t: "State of the Red Army"
  SOV_Red_Army.1.d: "A report to the general staff of the Red Army on its combat ability.\n\nThe Workers and Peasants Red Army is commonly referred to as the Red Army. Is now plagued with corruption ranging from the lowest of officers to even our own commissars. Once the proud army of the people and the sign of the liberation of the working class is now a disorganized mess and severely lacking doctrinal coordination.\n\nTwo factions seem to be forming among our officer class in the thought of “Deep Battle”. The process of thrusting into an enemy's rear after a breakthrough is made. Then the Old guard preferred the ways of old that being of “Human Wave Tactics' ' overpowering our enemy from seat numbers compared to combined arms of air, land, and navy.\n\nIt is highly recommended that serious consideration and evaluation of the Red Army take place as advised in the 7th Congress."
  SOV_Red_Army.1.A: ""
@@ -632,6 +631,16 @@
  SOV_Red_Army.8.t: "Katyusha, Stalin's Organs"
  SOV_Red_Army.8.d: ""
  SOV_Red_Army.8.A: ""
+
+ ###Airforce Tree
+ SOV_Airforce.1.t: "The Heroes of Aviation"
+ SOV_Airforce.1.d: ""
+ SOV_Airforce.1.A: ""
+
+ SOV_Airforce.2.t: "The Ladies of the Air"
+ SOV_Airforce.2.d: ""
+ SOV_Airforce.2.A: ""
+ SOV_Airforce.2.B: ""
 
 ######################################################################
 #  Soviet Union Focuses
@@ -1171,6 +1180,27 @@
  SOV_Transpolar_Flight_desc: "The Arctic circle, skirting the Northern coast of Russia is an impenetrable wilderness of wind and ice, a true symbol of the omnipotent force of mother nature. Perhaps, this needs no longer be the case… Soviet ingenuity has led to daring new missions in which brave pioneers are venturing into the unknown once more, as previous generations did in the 17th century with the conquest of Siberia. One of these pioneers, the pilot Valery Chkalov, will embark on a non-stop transpolar flight, from Moscow to Washington state. If successful, this flight marks the beginning of a new age in Soviet aviation and paves the way for future aeronautical accomplishments. It would also present a fine opportunity for propaganda."
  SOV_Transpolar_Flight_tt: "§YWe will send an ANT-25 in a mission to Washington State, US§!"
 
+ SOV_Positive_Heroism_in_Aviation: "Positive Heroism in Aviation"
+ SOV_Positive_Heroism_in_Aviation_desc: ""
+
+ SOV_Expand_the_Aviation_Industry: "Expand the Aviation Industry"
+ SOV_Expand_the_Aviation_Industry_desc: ""
+
+ SOV_Expand_Air_Testing: "Expand Air Testing"
+ SOV_Expand_Air_Testing_desc: ""
+
+ SOV_Foster_Interest_in_Flight: "Foster Interest in Flight"
+ SOV_Foster_Interest_in_Flight_desc: ""
+
+ SOV_The_Aerial_Army: "The Aerial Army"
+ SOV_The_Aerial_Army_desc: ""
+
+ SOV_Modernization_of_the_Air_Program: "Modernization of the Air Program"
+ SOV_Modernization_of_the_Air_Program_desc: ""
+
+ SOV_The_Jet_Program: "The Jet Program"
+ SOV_The_Jet_Program_desc: ""
+
  SOV_Pacific_Military_School: "Pacific Military School"
  SOV_Pacific_Military_School_desc: "Our Pacific navy and army employs people from across the Soviet Union. Most of them aren't accommodated to the conditions and the tactics employed in this region. As so, it's damaging our armed force's efficiency and organization. As tension gets higher between us and the Japanese imperialists and as the capitalist United States expands their influence in Asia, this position of unpreparedness is intolerable. Therefore, the high command has ordered the founding of a dedicated Pacific military school in Vladivostok."
 
@@ -1272,6 +1302,7 @@
 
  SOV_Women_in_Aviation: "Women in Aviation"
  SOV_Women_in_Aviation_desc: "One of the basic tenets of the socialist cause is equality, to make all spheres of life accessible to all individuals. Soviet women, while officially not disbarred as flyers, are generally subjected to long application delays to convince them otherwise.\n\nTo promote aviation among Soviet women, the party leadership has heeded the advice of the famed woman aviator Marina Raskova, deciding to open up more flying roles for women and encourage them to volunteer. Undoubtedly, the Soviet woman will serve with distinction as pilots and bring much glory to the motherland. With enough practice and support, they may even surpass their male counterparts."
+ SOV_Women_in_Aviation_tt: "§YThe all-female aviation regiments 586, 587, and 588 will be deployed.§!"
 
  SOV_Tukhachevskys_Reformists: "Tukhachevsky's Reformists"
  SOV_Tukhachevskys_Reformists_desc: "A Hero of the Russian Civil War Marshal Tukhachevsky has ever since the end of that conflict been working diligently to push for and come up with reforms for the Reds Army. Especially since the 1926 maneuvers his main focus is on retraining much of our officer corps to be more flexible in combat situations so that split second tactical choices can be made without party authorization. HIs Reforms have been popular amongst much of the new Professional Military staff of the Red Army, however the Party Leadership has some doubts seeing this as a potential avenue for Bonapartism."
@@ -1901,6 +1932,18 @@
  SOV_Liberation_of_Finland: "Liberation of Finland"
  SOV_Liberation_of_Germany: "Liberation of Germany"
 
+ # Formation of the Guards Army
+ SOV_Formation_of_the_Guards_Army: "Formation of the Guards Army"
+ SOV_Formation_of_the_Guards_Army_desc: "\n\n\n£decision_header£\n\n\n\nArise brave men and women for your scared duty, arise factory worker's from your labor, arise peasant's from your slumber to your scared responsibility.\n\nArise to the defense of the motherland.\n\nThese are the duties of the Guard."
+ SOV_Introduce_Guards_Title: "Introduce the Guards Title"
+ SOV_Introduce_Guards_Title_tt: "§YThe first Guards divisions will be deployed§!"
+ SOV_Guards_Army_Formed: "§YThe Guards army has been formed§!"
+ SOV_Guards_Motorized_Rifle_Corps: "Deploy the Guards Motorized Rifle Corps"
+ SOV_Guards_Motorized_Rifle_Corps_tt: "§YThe Guards motorized rifle corps will be deployed§!"
+ SOV_Raise_Guards_Cavalry_Divisions: "Raise Guards Cavalry Divisions"
+ SOV_Raise_Guards_Cavalry_Divisions_tt: "§YGuards cavalry divisions will be raised!"
+ SOV_Guards_Cavalry_Raised: "§YGuards cavalry divisions have been raised§!"
+
 ######################################################################
 #  Soviet Union Ideas
 ######################################################################
@@ -2051,6 +2094,21 @@
 
  SOV_The_Deal_idea: "The Deal"
  SOV_The_Deal_idea_desc: "Soviets have deployed Freddy Fazbear, RUN"
+
+ SOV_Heroes_of_the_Air: "Heroes of the Air"
+ SOV_Heroes_of_the_Air_desc: ""
+
+ SOV_Growing_Flight_Industry: "Growing Flight Industry"
+ SOV_Growing_Flight_Industry_desc: ""
+
+ SOV_Wings_of_the_Red_Army: "Wings of the Red Army"
+ SOV_Wings_of_the_Red_Army_desc: ""
+
+ SOV_Wings_of_the_Red_Army_2: "Wings of the Red Army"
+ SOV_Wings_of_the_Red_Army_2_desc: ""
+
+ SOV_Women_in_Aviation: "Women in Aviation"
+ SOV_Women_in_Aviation_desc: ""
 
 ### OLD
  SOV_Centerally_Planned_Economy: "Centrally Planned Economy"

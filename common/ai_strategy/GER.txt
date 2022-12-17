@@ -761,27 +761,27 @@ GER_Operation_Weserubung = {
 	ai_strategy = {
 		type = declare_war
 		id = "HOL"
-		value = -2000
+		value = -500
 	}
 	ai_strategy = {
 		type = declare_war
 		id = "BEL"
-		value = -2000
+		value = -500
 	}
 	ai_strategy = {
 		type = declare_war
 		id = "LUX"
-		value = -2000
+		value = -500
 	}
 	ai_strategy = {
 		type = prepare_for_war
 		id = "HOL"
-		value = 500
+		value = 200
 	}
 	ai_strategy = {
 		type = prepare_for_war
 		id = "BEL"
-		value = 500
+		value = 200
 	}
 	ai_strategy = {
 		type = prepare_for_war
@@ -797,6 +797,11 @@ GER_Operation_Weserubung = {
 		type = front_armor_score
 		id = "BEL"
 		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "NOR"
+		value = 1000
 	}
 	ai_strategy = {
 		type = invade
@@ -1420,18 +1425,24 @@ GER_Dont_Push_on_Maginot = {
 		original_tag = GER
 	}
 	enable = {
-		NOT = {
-			has_war_with = BEL
-			has_war_with = HOL
-			has_war_with = LUX
-		}
 		has_war_with = FRA
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
-		type = conquer
-		id = "FRA"
-		value = -500
+		type = front_control
+		state = 28
+		ordertype = front
+		execution_type = careful
+		execute_order = no
+		manual_attack = no
+	}
+	ai_strategy = {
+		type = front_control
+		state = 1169
+		ordertype = front
+		execution_type = careful
+		execute_order = no
+		manual_attack = no
 	}
 	ai_strategy = {
 		type = invade

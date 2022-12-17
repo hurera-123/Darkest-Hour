@@ -4635,6 +4635,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_SOV_Foster_Interest_in_Flight"
+        texturefile = "gfx/interface/goals/SOV_Foster_Interest_in_Flight.png"
+    }
+
+    spriteType = {
         name = "GFX_SOV_From_Cities_to_Fortresses"
         texturefile = "gfx/interface/goals/SOV_From_Cities_to_Fortresses.png"
     }
@@ -4690,6 +4695,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_SOV_Jet_Program"
+        texturefile = "gfx/interface/goals/SOV_Jet_Program.png"
+    }
+
+    spriteType = {
         name = "GFX_SOV_KGB"
         texturefile = "gfx/interface/goals/SOV_KGB.png"
     }
@@ -4712,6 +4722,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_SOV_Kulak_Rights"
         texturefile = "gfx/interface/goals/SOV_Kulak_Rights.png"
+    }
+
+    spriteType = {
+        name = "GFX_SOV_Kurchatovs_Bomb"
+        texturefile = "gfx/interface/goals/SOV_Kurchatovs_Bomb.png"
     }
 
     spriteType = {
@@ -5135,6 +5150,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_SOV_The_Red_Army_Airforce"
+        texturefile = "gfx/interface/goals/SOV_The_Red_Army_Airforce.png"
+    }
+
+    spriteType = {
         name = "GFX_SOV_The_Revolution_Marches_West"
         texturefile = "gfx/interface/goals/SOV_The_Revolution_Marches_West.png"
     }
@@ -5207,6 +5227,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_SOV_Voroshilovs_Old_Guard"
         texturefile = "gfx/interface/goals/SOV_Voroshilovs_Old_Guard.png"
+    }
+
+    spriteType = {
+        name = "GFX_SOV_Women_In_Aviation"
+        texturefile = "gfx/interface/goals/SOV_Women_In_Aviation.png"
     }
 
     spriteType = {
