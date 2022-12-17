@@ -1314,8 +1314,8 @@
  SOV_cv_Fighter_equipment_2025_short: "Su-59"
 
 # Close Air Support
- SOV_Attacker_equipment_1933: "TsKB TSh-1"
- SOV_Attacker_equipment_1933_short: "TSh-1"
+ SOV_Attacker_equipment_1933: "Polikarpov R-5"
+ SOV_Attacker_equipment_1933_short: "R-5"
  SOV_Attacker_equipment_1936: "Sukhoi Su-2"
  SOV_Attacker_equipment_1936_short: "Su-2"
  SOV_Attacker_equipment_1940: "Ilyushin IL-2 Sturmovik"
@@ -1390,6 +1390,14 @@
  SOV_Strategic_Bomber_equipment_2025_short: "Tu-200"
 
 # Tactical Bombers
+ SOV_Tactical_Bomber_equipment_1914: "Sikorsky S-23 Ilya Muromets"
+ SOV_Tactical_Bomber_equipment_1914_short: "S-23"
+ SOV_Tactical_Bomber_equipment_1916: "Sikorsky S-25 Ilya Muromets"
+ SOV_Tactical_Bomber_equipment_1916_short: "S-25"
+ SOV_Tactical_Bomber_equipment_1918: "Anatra D"
+ SOV_Tactical_Bomber_equipment_1918_short: "Anatra D"
+ SOV_Tactical_Bomber_equipment_1925: "Polikarpov U-2"
+ SOV_Tactical_Bomber_equipment_1925_short: "U-2"
  SOV_Tactical_Bomber_equipment_1933: "Tupolev SB Katyusha"
  SOV_Tactical_Bomber_equipment_1933_short: "SB"
  SOV_Tactical_Bomber_equipment_1936: "Petlyakov Pe-2 Peshka"
