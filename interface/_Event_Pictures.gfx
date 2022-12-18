@@ -1185,6 +1185,21 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_JAP_Invasion_of_the_Soviet_Union"
+        texturefile = "gfx/event_pictures/news_JAP_Invasion_of_the_Soviet_Union.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_JAP_Japanese_Surrender"
+        texturefile = "gfx/event_pictures/news_JAP_Japanese_Surrender.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_JAP_Japanese_Surrender_Global"
+        texturefile = "gfx/event_pictures/news_JAP_Japanese_Surrender_Global.png"
+    }
+
+    spriteType = {
         name = "GFX_news_JAP_Japan_withdraw_from_LON"
         texturefile = "gfx/event_pictures/news_JAP_Japan_withdraw_from_LON.png"
     }
@@ -1205,6 +1220,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_JAP_Panay_Incident"
+        texturefile = "gfx/event_pictures/news_JAP_Panay_Incident.png"
+    }
+
+    spriteType = {
         name = "GFX_news_JAP_Soviet_Japanese_Neutrality_Pact"
         texturefile = "gfx/event_pictures/news_JAP_Soviet_Japanese_Neutrality_Pact.png"
     }
@@ -1212,6 +1232,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_news_JAP_Tanggu_Truce"
         texturefile = "gfx/event_pictures/news_JAP_Tanggu_Truce.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_JAP_US_Declared_War_on_Japan"
+        texturefile = "gfx/event_pictures/news_JAP_US_Declared_War_on_Japan.png"
     }
 
     spriteType = {
@@ -3455,8 +3480,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_JAP_Abe_Nobuyuki"
+        texturefile = "gfx/event_pictures/report_JAP_Abe_Nobuyuki.png"
+    }
+
+    spriteType = {
         name = "GFX_report_JAP_Araki_Cabinet"
         texturefile = "gfx/event_pictures/report_JAP_Araki_Cabinet.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Army_Graduates"
+        texturefile = "gfx/event_pictures/report_JAP_Army_Graduates.png"
     }
 
     spriteType = {
@@ -3465,8 +3500,53 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_JAP_Banzai"
+        texturefile = "gfx/event_pictures/report_JAP_Banzai.png"
+    }
+
+    spriteType = {
         name = "GFX_report_JAP_Battle_of_Rehe"
         texturefile = "gfx/event_pictures/report_JAP_Battle_of_Rehe.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Bells_of_Gion_Shouja"
+        texturefile = "gfx/event_pictures/report_JAP_Bells_of_Gion_Shouja.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Burma_Map"
+        texturefile = "gfx/event_pictures/report_JAP_Burma_Map.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Bushido"
+        texturefile = "gfx/event_pictures/report_JAP_Bushido.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Businessmen"
+        texturefile = "gfx/event_pictures/report_JAP_Businessmen.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Busy_Office"
+        texturefile = "gfx/event_pictures/report_JAP_Busy_Office.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Conference"
+        texturefile = "gfx/event_pictures/report_JAP_Conference.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Co_Prosperity_Sphere"
+        texturefile = "gfx/event_pictures/report_JAP_Co_Prosperity_Sphere.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Death_Before_Dishonour"
+        texturefile = "gfx/event_pictures/report_JAP_Death_Before_Dishonour.png"
     }
 
     spriteType = {
@@ -3475,13 +3555,53 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_JAP_Diet_Meeting"
+        texturefile = "gfx/event_pictures/report_JAP_Diet_Meeting.png"
+    }
+
+    spriteType = {
         name = "GFX_report_JAP_Expansion_Decision"
         texturefile = "gfx/event_pictures/report_JAP_Expansion_Decision.png"
     }
 
     spriteType = {
+        name = "GFX_report_JAP_February_26"
+        texturefile = "gfx/event_pictures/report_JAP_February_26.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_February_26_2"
+        texturefile = "gfx/event_pictures/report_JAP_February_26_2.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Formosa_Island"
+        texturefile = "gfx/event_pictures/report_JAP_Formosa_Island.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Fumimaro_Konoe"
+        texturefile = "gfx/event_pictures/report_JAP_Fumimaro_Konoe.png"
+    }
+
+    spriteType = {
         name = "GFX_report_JAP_General_Tang"
         texturefile = "gfx/event_pictures/report_JAP_General_Tang.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Government_Complex"
+        texturefile = "gfx/event_pictures/report_JAP_Government_Complex.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Hiranuma_Kiichiro"
+        texturefile = "gfx/event_pictures/report_JAP_Hiranuma_Kiichiro.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Hirohito"
+        texturefile = "gfx/event_pictures/report_JAP_Hirohito.png"
     }
 
     spriteType = {
@@ -3500,6 +3620,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_JAP_Hirota_Koki"
+        texturefile = "gfx/event_pictures/report_JAP_Hirota_Koki.png"
+    }
+
+    spriteType = {
         name = "GFX_report_JAP_IJN_Admirals"
         texturefile = "gfx/event_pictures/report_JAP_IJN_Admirals.png"
     }
@@ -3507,6 +3632,21 @@ spriteTypes = {
     spriteType = {
         name = "GFX_report_JAP_Imperial_Aid_Association"
         texturefile = "gfx/event_pictures/report_JAP_Imperial_Aid_Association.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Imperial_Japanese_Navy"
+        texturefile = "gfx/event_pictures/report_JAP_Imperial_Japanese_Navy.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Indochina_Map"
+        texturefile = "gfx/event_pictures/report_JAP_Indochina_Map.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Japanese_Cinema"
+        texturefile = "gfx/event_pictures/report_JAP_Japanese_Cinema.png"
     }
 
     spriteType = {
@@ -3520,8 +3660,43 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_JAP_Japanese_Navy"
+        texturefile = "gfx/event_pictures/report_JAP_Japanese_Navy.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Japanese_Port"
+        texturefile = "gfx/event_pictures/report_JAP_Japanese_Port.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Japanese_US_Diplomats"
+        texturefile = "gfx/event_pictures/report_JAP_Japanese_US_Diplomats.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Japansese_Soldiers_in_Combat"
+        texturefile = "gfx/event_pictures/report_JAP_Japansese_Soldiers_in_Combat.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Japansese_Soldiers_in_Combat_2"
+        texturefile = "gfx/event_pictures/report_JAP_Japansese_Soldiers_in_Combat_2.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Jinzaburo_Masaki"
+        texturefile = "gfx/event_pictures/report_JAP_Jinzaburo_Masaki.png"
+    }
+
+    spriteType = {
         name = "GFX_report_JAP_Jiro_Minami"
         texturefile = "gfx/event_pictures/report_JAP_Jiro_Minami.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Koiso_Kuniaki"
+        texturefile = "gfx/event_pictures/report_JAP_Koiso_Kuniaki.png"
     }
 
     spriteType = {
@@ -3532,6 +3707,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_report_JAP_Kwantung_Army"
         texturefile = "gfx/event_pictures/report_JAP_Kwantung_Army.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Land_Projects"
+        texturefile = "gfx/event_pictures/report_JAP_Land_Projects.png"
     }
 
     spriteType = {
@@ -3550,8 +3730,38 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_JAP_Manchuria_Map"
+        texturefile = "gfx/event_pictures/report_JAP_Manchuria_Map.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Manila_Ruins"
+        texturefile = "gfx/event_pictures/report_JAP_Manila_Ruins.png"
+    }
+
+    spriteType = {
         name = "GFX_report_JAP_Marco_Polo_Incident"
         texturefile = "gfx/event_pictures/report_JAP_Marco_Polo_Incident.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Matome_Ugaki"
+        texturefile = "gfx/event_pictures/report_JAP_Matome_Ugaki.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Matsuoka_Yosuke"
+        texturefile = "gfx/event_pictures/report_JAP_Matsuoka_Yosuke.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Meeting"
+        texturefile = "gfx/event_pictures/report_JAP_Meeting.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Mori_Office"
+        texturefile = "gfx/event_pictures/report_JAP_Mori_Office.png"
     }
 
     spriteType = {
@@ -3562,6 +3772,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_report_JAP_Nakano_Assumes_Authority"
         texturefile = "gfx/event_pictures/report_JAP_Nakano_Assumes_Authority.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_National_Defense_Poster"
+        texturefile = "gfx/event_pictures/report_JAP_National_Defense_Poster.png"
     }
 
     spriteType = {
@@ -3580,6 +3795,16 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_JAP_Officers"
+        texturefile = "gfx/event_pictures/report_JAP_Officers.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Okada_Keisuke"
+        texturefile = "gfx/event_pictures/report_JAP_Okada_Keisuke.png"
+    }
+
+    spriteType = {
         name = "GFX_report_JAP_Operation_Nekka"
         texturefile = "gfx/event_pictures/report_JAP_Operation_Nekka.png"
     }
@@ -3587,6 +3812,16 @@ spriteTypes = {
     spriteType = {
         name = "GFX_report_JAP_Operation_Nekka_2"
         texturefile = "gfx/event_pictures/report_JAP_Operation_Nekka_2.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Panay_Incident"
+        texturefile = "gfx/event_pictures/report_JAP_Panay_Incident.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Pearl_Harbor"
+        texturefile = "gfx/event_pictures/report_JAP_Pearl_Harbor.png"
     }
 
     spriteType = {
@@ -3600,6 +3835,31 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_JAP_Saito_Makoto"
+        texturefile = "gfx/event_pictures/report_JAP_Saito_Makoto.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Senjuro_Hayashi"
+        texturefile = "gfx/event_pictures/report_JAP_Senjuro_Hayashi.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Senjuro_Hayashi_2"
+        texturefile = "gfx/event_pictures/report_JAP_Senjuro_Hayashi_2.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Shidehara_Kijuro"
+        texturefile = "gfx/event_pictures/report_JAP_Shidehara_Kijuro.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Soldiers_Celebrating"
+        texturefile = "gfx/event_pictures/report_JAP_Soldiers_Celebrating.png"
+    }
+
+    spriteType = {
         name = "GFX_report_JAP_Soldiers_in_Manchuria"
         texturefile = "gfx/event_pictures/report_JAP_Soldiers_in_Manchuria.png"
     }
@@ -3610,8 +3870,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_JAP_Submarine"
+        texturefile = "gfx/event_pictures/report_JAP_Submarine.png"
+    }
+
+    spriteType = {
         name = "GFX_report_JAP_Surrender_Signing"
         texturefile = "gfx/event_pictures/report_JAP_Surrender_Signing.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Suzuki_Kantaro"
+        texturefile = "gfx/event_pictures/report_JAP_Suzuki_Kantaro.png"
     }
 
     spriteType = {
@@ -3640,8 +3910,48 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_JAP_Tokyo_Street"
+        texturefile = "gfx/event_pictures/report_JAP_Tokyo_Street.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Tora_Tora_Tora"
+        texturefile = "gfx/event_pictures/report_JAP_Tora_Tora_Tora.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Trautmann_Mediation"
+        texturefile = "gfx/event_pictures/report_JAP_Trautmann_Mediation.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Trial"
+        texturefile = "gfx/event_pictures/report_JAP_Trial.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Voting"
+        texturefile = "gfx/event_pictures/report_JAP_Voting.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Weapon_Crates"
+        texturefile = "gfx/event_pictures/report_JAP_Weapon_Crates.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Yonai_Mitsumasa"
+        texturefile = "gfx/event_pictures/report_JAP_Yonai_Mitsumasa.png"
+    }
+
+    spriteType = {
         name = "GFX_report_JAP_Yoshijiro_Umezu"
         texturefile = "gfx/event_pictures/report_JAP_Yoshijiro_Umezu.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_JAP_Zero"
+        texturefile = "gfx/event_pictures/report_JAP_Zero.png"
     }
 
     spriteType = {
@@ -4570,6 +4880,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_USA_Roosevelt_Pearl_Harbor"
+        texturefile = "gfx/event_pictures/report_USA_Roosevelt_Pearl_Harbor.png"
+    }
+
+    spriteType = {
         name = "GFX_report_USA_Sakdalistas"
         texturefile = "gfx/event_pictures/report_USA_Sakdalistas.png"
     }
@@ -4587,6 +4902,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_report_USA_Soldiers_with_Rifle"
         texturefile = "gfx/event_pictures/report_USA_Soldiers_with_Rifle.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_USA_Soldier_Smoking"
+        texturefile = "gfx/event_pictures/report_USA_Soldier_Smoking.png"
     }
 
     spriteType = {
