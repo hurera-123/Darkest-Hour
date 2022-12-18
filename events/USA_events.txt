@@ -1306,12 +1306,10 @@ country_event = { # The Wisconsin Progressive Party
 		name = USA_Elections_1932.2.A
 		set_temp_variable = { party_id = 7 } # P/FL
 		add_party_to_parliament = yes
-		set_temp_variable = { party_id = 7 } # P/FL
 		set_temp_variable = { popularity_to_add = 0.03 }
-		set_temp_variable = { party_id = 7 } # P/FL
+		add_relative_popularity_to_parliament_party = yes
 		set_temp_variable = { support_to_add = 0.1 }
 		change_party_support = yes
-		add_relative_popularity_to_parliament_party = yes
 		calculate_total_parliament_support = yes
 		update_parliament_piechart = yes
 		set_temp_variable = { party_id = 6 } #Democrats

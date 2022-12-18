@@ -321,6 +321,11 @@ units = {
 			"Henry W. Butner"
 			"Otho B. Rosenbaum"
 		}
+		portraits = {
+			army = {
+				large = "GFX_M_Halstead_Dorey"
+			}
+		}
 		location = 7386  # Ft. Lewis, WA
 		division_template = "Infantry Division"
 		start_experience_factor = 0.26
@@ -427,6 +432,11 @@ units = {
 		unique={
 			"Clement A. Trott"
 		} # 1st CO when the division was actually organized in 1939
+		portraits = {
+			army = {
+				large = "GFX_M_Clement_Trott"
+			}
+		}
 		location = 9450  # Chicago, IL
 		division_template = "Infantry Division (Regular Army Inactive)"
 		start_experience_factor = 0.26
@@ -460,6 +470,11 @@ units = {
 		unique={
 			"Philip B. Peyton"
 		} # 1st CO when the division was actually organized in 1940
+		portraits = {
+			army = {
+				large = "GFX_M_Philip_Peyton"
+			}
+		}
 		location = 6845  # Philadelphia, PA
 		division_template = "Infantry Division (Regular Army Inactive)"
 		start_experience_factor = 0.26
@@ -489,6 +504,11 @@ units = {
 			"Robert L. Spragins"
 			"John P. McAdams"
 			"Bruce Magruder"
+		}
+		portraits = {
+			army = {
+				large = "GFX_M_Robert_Spragins"
+			}
 		}
 		location = 6984 # Fort George G. Meade, MD
 		division_template = "Armored Regiment (Light)"
@@ -553,6 +573,11 @@ units = {
 		unique={
 			"Simon Bolivar Buckner Jr."
 		} # 1st CO when organized into a unified command in 1941
+		portraits = {
+			army = {
+				large = "GFX_M_Simon_Bolivar_Buckner_Jr"
+			}
+		}
 		location = 13091
 		division_template = "Garrison Force"
 		start_experience_factor = 0.14
@@ -576,6 +601,11 @@ units = {
 		unique={
 			"Louis M. Little"
 			"Holland Smith" # 1st CO of the 1st Marine Division in 1941
+		}
+		portraits = {
+			army = {
+				large = GFX_M_Louis_Little
+			}
 		}
 		location = 4641  # 4641 Port Au Prince, Haiti until August 1934 then September 1935 at Quantico, VA
 		division_template = "Marine Brigade"

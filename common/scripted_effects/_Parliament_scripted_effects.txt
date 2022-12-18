@@ -960,7 +960,7 @@ add_relative_popularity_to_parliament_party = {
 						}
 						subtract_from_temp_variable = { total_popularity_of_ideology = party_relative_popularity_[ID] }
 					}
-					ID = [?v]
+					ID = "[?v]"
 				}
 			}
 			clear_temp_array = demo_parties_array_temp
@@ -1005,7 +1005,7 @@ add_relative_popularity_to_parliament_party = {
 						}
 						subtract_from_temp_variable = { total_popularity_of_ideology = party_relative_popularity_[ID] }
 					}
-					ID = [?v]
+					ID = "[?v]"
 				}
 			}
 			clear_temp_array = demo_parties_array_temp
@@ -1050,7 +1050,7 @@ add_relative_popularity_to_parliament_party = {
 						}
 						subtract_from_temp_variable = { total_popularity_of_ideology = party_relative_popularity_[ID] }
 					}
-					ID = [?v]
+					ID = "[?v]"
 				}
 			}
 			clear_temp_array = demo_parties_array_temp
@@ -1095,7 +1095,7 @@ add_relative_popularity_to_parliament_party = {
 						}
 						subtract_from_temp_variable = { total_popularity_of_ideology = party_relative_popularity_[ID] }
 					}
-					ID = [?v]
+					ID = "[?v]"
 				}
 			}
 			clear_temp_array = demo_parties_array_temp
@@ -1140,7 +1140,7 @@ add_relative_popularity_to_parliament_party = {
 						}
 						subtract_from_temp_variable = { total_popularity_of_ideology = party_relative_popularity_[ID] }
 					}
-					ID = [?v]
+					ID = "[?v]"
 				}
 			}
 			clear_temp_array = demo_parties_array_temp

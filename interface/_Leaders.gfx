@@ -8760,6 +8760,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_M_Clement_Trott"
+        texturefile = "gfx/leaders/USA/M_Clement_Trott.png"
+    }
+
+    spriteType = {
         name = "GFX_M_Courtney_Hodges"
         texturefile = "gfx/leaders/USA/M_Courtney_Hodges.png"
     }
@@ -8802,6 +8807,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_M_George_S_Patton"
         texturefile = "gfx/leaders/USA/M_George_S_Patton.png"
+    }
+
+    spriteType = {
+        name = "GFX_M_Halstead_Dorey"
+        texturefile = "gfx/leaders/USA/M_Halstead_Dorey.png"
     }
 
     spriteType = {
@@ -8850,6 +8860,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_M_Louis_Little"
+        texturefile = "gfx/leaders/USA/M_Louis_Little.png"
+    }
+
+    spriteType = {
         name = "GFX_M_Lucian_Truscott"
         texturefile = "gfx/leaders/USA/M_Lucian_Truscott.png"
     }
@@ -8880,6 +8895,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_M_Philip_Peyton"
+        texturefile = "gfx/leaders/USA/M_Philip_Peyton.png"
+    }
+
+    spriteType = {
         name = "GFX_M_Preston_Brown"
         texturefile = "gfx/leaders/USA/M_Preston_Brown.png"
     }
@@ -8890,8 +8910,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_M_Robert_Spragins"
+        texturefile = "gfx/leaders/USA/M_Robert_Spragins.png"
+    }
+
+    spriteType = {
         name = "GFX_M_Russell_Hartle"
         texturefile = "gfx/leaders/USA/M_Russell_Hartle.png"
+    }
+
+    spriteType = {
+        name = "GFX_M_Simon_Bolivar_Buckner_Jr"
+        texturefile = "gfx/leaders/USA/M_Simon_Bolivar_Buckner_Jr.png"
     }
 
     spriteType = {

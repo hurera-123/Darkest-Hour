@@ -21,7 +21,7 @@
  DH_FEATURES_WINDOW_TEXT_HELP_WINDOW: "You can access the window by pressing the §RESC§! key.\n\nOur most important mechanics are listed here for you to access anytime you need help. "
 
  DH_FEATURES_WINDOW_TITLE_CONSTRUCTION: "Construction"
- DH_FEATURES_WINDOW_TEXT_CONSTRUCTION: "Display the speed of constrictions. Can be turned §Gon§! and §Roff§!.\n\nCredits to "Yes, Paimon" on Steam Workshop."
+ DH_FEATURES_WINDOW_TEXT_CONSTRUCTION: "Display the speed of constructions. Can be turned §Gon§! and §Roff§!.\n\nCredits to "Yes, Paimon" on Steam Workshop."
 
  DH_FEATURES_WINDOW_TITLE_ECONOMY: "Economy"
  DH_FEATURES_WINDOW_TEXT_ECONOMY: "Money is primarily gained from consumer goods.\n\nIt's primarily spent for military factories - by assigning a factory to producing X, it will cost money.\n\nYou can also spend the money for other things such as in events, decisions, or focuses.\n\n§RKeep an eye out for inflation!§!"
