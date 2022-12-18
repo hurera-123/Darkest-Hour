@@ -1,0 +1,14 @@
+guiTypes = {
+	containerWindowType = {
+		name = "custom_musicplayer_background_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100%% height = 100%% }
+
+		iconType = {
+			name = "picture"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_tiled_window_transparent_transparent"
+			alwaystransparent = yes
+		}
+	}
+}
