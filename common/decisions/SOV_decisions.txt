@@ -2479,7 +2479,7 @@ SOV_Second_Five_Year_Plan_category = {
 		icon = generic_construction
 		available = {
 			set_temp_variable = {
-				amount_of_money_to_check = 250
+				amount_of_money_to_check = 120
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
@@ -2491,7 +2491,7 @@ SOV_Second_Five_Year_Plan_category = {
 		}
 		complete_effect = {
 			set_temp_variable = {
-				money_to_gain = -250
+				money_to_gain = -120
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
 		}
@@ -2520,7 +2520,7 @@ SOV_Second_Five_Year_Plan_category = {
 		icon = generic_industry
 		available = {
 			set_temp_variable = {
-				amount_of_money_to_check = 250
+				amount_of_money_to_check = 375
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
@@ -2532,7 +2532,7 @@ SOV_Second_Five_Year_Plan_category = {
 		}
 		complete_effect = {
 			set_temp_variable = {
-				money_to_gain = -250
+				money_to_gain = -375
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
 		}
@@ -2607,7 +2607,7 @@ SOV_Second_Five_Year_Plan_category = {
 		icon = generic_industry
 		available = {
 			set_temp_variable = {
-				amount_of_money_to_check = 250
+				amount_of_money_to_check = 300
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
@@ -2619,7 +2619,7 @@ SOV_Second_Five_Year_Plan_category = {
 		}
 		complete_effect = {
 			set_temp_variable = {
-				money_to_gain = -250
+				money_to_gain = -300
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
 		}
@@ -2653,7 +2653,7 @@ SOV_Second_Five_Year_Plan_category = {
 		icon = generic_industry
 		available = {
 			set_temp_variable = {
-				amount_of_money_to_check = 250
+				amount_of_money_to_check = 450
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
@@ -2665,7 +2665,7 @@ SOV_Second_Five_Year_Plan_category = {
 		}
 		complete_effect = {
 			set_temp_variable = {
-				money_to_gain = -250
+				money_to_gain = -450
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
 		}
@@ -2699,7 +2699,7 @@ SOV_Second_Five_Year_Plan_category = {
 		icon = steel
 		available = {
 			set_temp_variable = {
-				amount_of_money_to_check = 250
+				amount_of_money_to_check = 300
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
@@ -2711,7 +2711,7 @@ SOV_Second_Five_Year_Plan_category = {
 		}
 		complete_effect = {
 			set_temp_variable = {
-				money_to_gain = -250
+				money_to_gain = -300
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
 		}
@@ -2949,7 +2949,7 @@ SOV_Second_Five_Year_Plan_category = {
 		icon = generic_factory
 		available = {
 			set_temp_variable = {
-				amount_of_money_to_check = 250
+				amount_of_money_to_check = 100
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
@@ -2961,7 +2961,7 @@ SOV_Second_Five_Year_Plan_category = {
 		}
 		complete_effect = {
 			set_temp_variable = {
-				money_to_gain = -250
+				money_to_gain = -100
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
 		}
@@ -2989,7 +2989,7 @@ SOV_Second_Five_Year_Plan_category = {
 		icon = generic_factory
 		available = {
 			set_temp_variable = {
-				amount_of_money_to_check = 250
+				amount_of_money_to_check = 100
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
@@ -3001,7 +3001,7 @@ SOV_Second_Five_Year_Plan_category = {
 		}
 		complete_effect = {
 			set_temp_variable = {
-				money_to_gain = -250
+				money_to_gain = -100
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
 		}
@@ -3074,7 +3074,7 @@ SOV_Second_Five_Year_Plan_category = {
 		icon = generic_factory
 		available = {
 			set_temp_variable = {
-				amount_of_money_to_check = 250
+				amount_of_money_to_check = 400
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
@@ -3086,7 +3086,7 @@ SOV_Second_Five_Year_Plan_category = {
 		}
 		complete_effect = {
 			set_temp_variable = {
-				money_to_gain = -250
+				money_to_gain = -400
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
 		}
@@ -9274,7 +9274,6 @@ SOV_Formation_of_the_Guards_Army = {
 			has_country_flag = SOV_Guards_Army_Formed
 		}
 		cost = 50
-		days_remove
 		ai_will_do = {
 			factor = 200
 		}

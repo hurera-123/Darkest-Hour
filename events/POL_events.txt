@@ -38,7 +38,7 @@ news_event = {
 		trigger = {
 			original_tag = POL
 		}
-		remove_ideas = POL_CoArmy_Jozef_Pilsudski
+		remove_ideas = POL_Jozef_Pilsudski_CoArmy
 		remove_ideas = POL_May_Coup
 		add_ideas = POL_Marian_ZyndramKoscialkowski_HoG
 		set_country_flag = Jozef_Pilsudski_unavailable
@@ -894,14 +894,16 @@ country_event = { #The Path of the Second Republic
 			ideology = authoritarian
 			popularity = 0.05
 		}
-		create_country_leader = {
-			name = "Ignacy Mościcki"
-			picture = GFX_P_A_Ignacy_Moscicki
-			expire = "1947.1.1"
-			ideology = authoritarian_democracy
-			traits = {
-				POSITION_President
-				SUBIDEOLOGY_Authoritarian_Democracy
+		add_country_leader_role = {
+			character = POL_Ignacy_Moscicki
+			promote_leader = yes
+			country_leader = {
+				expire = "1947.1.1"
+				ideology = authoritarian_democracy
+				traits = {
+					POSITION_President
+					SUBIDEOLOGY_Authoritarian_Democracy
+				}
 			}
 		}
 		unlock_national_focus = POL_Continue_Four_Years_Plan

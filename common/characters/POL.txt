@@ -1,0 +1,5520 @@
+characters={
+	# Tadeusz Bielecki
+	POL_Tadeusz_Bielecki = {
+		name = POL_Tadeusz_Bielecki
+		portraits={
+			civilian={
+				small="GFX_idea_Tadeusz_Bielecki"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Tadeusz_Bielecki_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Tadeusz_Bielecki_unavailable
+				}
+			}
+			traits = {		
+				L_Happy_Amateur
+			}
+		}
+	}
+	# Roman Dmowski
+	POL_Roman_Dmowski = {
+		name = POL_Roman_Dmowski
+		portraits={
+			civilian={
+				small="GFX_idea_Roman_Dmowski"
+			}
+		}
+		country_leader = {
+			expire = "1965.1.1"
+			ideology = social_conservatism
+			traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism L_Weary_Stiff_Neck }
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Roman_Dmowski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Roman_Dmowski_unavailable
+				}
+			}
+			traits = {		
+				L_Backroom_Backstabber
+			}
+		}
+	}
+	# Waclaw Kozielski
+	POL_Waclaw_Kozielski = {
+		name = POL_Waclaw_Kozielski
+		portraits={
+			civilian={
+				small="GFX_idea_Waclaw_Kozielski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Waclaw_Kozielski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1936.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Waclaw_Kozielski_unavailable
+				}
+			}
+			traits = {		
+				L_Naive_Optimist
+			}
+		}
+	}
+	# Janusz Jedrzejewicz
+	POL_Janusz_Jedrzejewicz = {
+		name = POL_Janusz_Jedrzejewicz
+		portraits={
+			civilian={
+				small="GFX_idea_Janusz_Jedrzejewicz"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Janusz_Jedrzejewicz_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1935.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Janusz_Jedrzejewicz_unavailable
+				}
+			}
+			traits = {		
+				L_Political_Protege
+			}
+		}
+	}
+	# Aleksander Prystor
+	POL_Aleksander_Prystor = {
+		name = POL_Aleksander_Prystor
+		portraits={
+			civilian={
+				small="GFX_idea_Aleksander_Prystor"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Aleksander_Prystor_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1934.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Aleksander_Prystor_unavailable
+				}
+			}
+			traits = {		
+				L_Silent_Workhorse
+			}
+		}
+	}
+	# Leon Kozlowski
+	POL_Leon_Kozlowski = {
+		name = POL_Leon_Kozlowski
+		portraits={
+			civilian={
+				small="GFX_idea_Leon_Kozlowski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Leon_Kozlowski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Leon_Kozlowski_unavailable
+				}
+			}
+			traits = {		
+				L_Naive_Optimist
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Leon_Kozlowski_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1937.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Leon_Kozlowski_unavailable
+				}
+			}
+			traits = {		
+				AM_Infantry_Proponent
+			}
+		}
+	}
+	# Walery Slawek
+	POL_Walery_Slawek = {
+		name = POL_Walery_Slawek
+		portraits={
+			civilian={
+				large = "GFX_P_A_Walery_Slawek"
+				small="GFX_idea_Walery_Slawek"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Walery_Slawek_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Walery_Slawek_unavailable
+				}
+			}
+			traits = {		
+				L_Happy_Amateur
+			}
+		}
+	}
+	# Henryk Jozewski
+	POL_Henryk_Jozewski = {
+		name = POL_Henryk_Jozewski
+		portraits={
+			civilian={
+				small="GFX_idea_Henryk_Jozewski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Henryk_Jozewski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Henryk_Jozewski_unavailable
+				}
+			}
+			traits = {		
+				L_Happy_Amateur
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Henryk_Jozewski_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Henryk_Jozewski_unavailable
+				}
+			}
+			traits = {		
+				FM_Ideological_Crusader
+			}
+		}
+	}
+	# Adam Szczypiorski
+	POL_Adam_Szczypiorski = {
+		name = POL_Adam_Szczypiorski
+		portraits={
+			civilian={
+				small="GFX_idea_Adam_Szczypiorski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Adam_Szczypiorski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Adam_Szczypiorski_unavailable
+				}
+			}
+			traits = {		
+				L_Ambitious_Union_Boss
+			}
+		}
+	}
+	# Marian Zyndram-Koscialkowski
+	POL_Marian_ZyndramKoscialkowski = {
+		name = POL_Marian_ZyndramKoscialkowski
+		portraits={
+			civilian={
+				large = "GFX_P_A_Marian_Zyndram_Koscialkowski"
+				small="GFX_idea_Marian_ZyndramKoscialkowski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Marian_ZyndramKoscialkowski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Marian_ZyndramKoscialkowski_unavailable
+				}
+			}
+			traits = {		
+				L_Flamboyant_Tough_Guy
+			}
+		}
+	}
+	# Felicjan Slawoj-Skladkowski
+	POL_Felicjan_SlawojSkladkowski = {
+		name = POL_Felicjan_SlawojSkladkowski
+		portraits={
+			civilian={
+				small="GFX_idea_Felicjan_Slawoj_Skladkowski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Felicjan_SlawojSkladkowski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Felicjan_SlawojSkladkowski_unavailable
+				}
+			}
+			traits = {		
+				L_Flamboyant_Tough_Guy
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Felicjan_SlawojSkladkowski_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Felicjan_SlawojSkladkowski_unavailable
+				}
+			}
+			traits = {		
+				MoS_Health_And_Safety
+			}
+		}
+	}
+	# August Zaleski
+	POL_August_Zaleski = {
+		name = POL_August_Zaleski
+		portraits={
+			civilian={
+				small="GFX_idea_August_Zaleski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_August_Zaleski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = August_Zaleski_unavailable
+				}
+			}
+			traits = {		
+				L_Happy_Amateur
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_August_Zaleski_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1939.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = August_Zaleski_unavailable
+				}
+			}
+			traits = {		
+				FM_Ideological_Crusader
+			}
+		}
+	}
+	# Edward Rydz-Smigly
+	POL_Edward_RydzSmigly = {
+		name = POL_Edward_RydzSmigly
+		portraits={
+			army = {
+				large = "GFX_M_Edward_Rydz_Smigly"
+			}
+			civilian={
+				small="GFX_idea_Edward_Smigly_Rydz"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Edward_RydzSmigly_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Edward_RydzSmigly_unavailable
+				}
+			}
+			traits = {		
+				POSITION_Marshal
+				L_Political_Protege
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Edward_RydzSmigly_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Edward_RydzSmigly_unavailable
+				}
+			}
+			traits = {		
+				AM_Infantry_Proponent
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Edward_RydzSmigly_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Edward_RydzSmigly_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Defence
+			}
+		}
+		advisor={
+			slot=Chief_of_Army
+			idea_token=POL_Edward_RydzSmigly_CoArmy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Edward_RydzSmigly_unavailable
+				}
+			}
+			traits = {		
+				CoArmy_Decisive_Battle_Doctrine
+			}
+		}
+		corps_commander={
+			traits = {  politically_connected war_hero media_personality skilled_staffer  }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 213002
+		}
+	}
+	# Kardynal A.S. Sapieha
+	POL_Kardynal_AS_Sapieha = {
+		name = POL_Kardynal_AS_Sapieha
+		portraits={
+			civilian={
+				small="GFX_idea_Kardynal_AS_Sapieha"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Kardynal_AS_Sapieha_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1936.1.1
+				date < 1952.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Kardynal_AS_Sapieha_unavailable
+				}
+			}
+			traits = {		
+				L_Backroom_Backstabber
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Kardynal_AS_Sapieha_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1936.1.1
+				date < 1952.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Kardynal_AS_Sapieha_unavailable
+				}
+			}
+			traits = {		
+				FM_Biased_Intellectual
+			}
+		}
+	}
+	# Józef Pilsudski
+	POL_Jozef_Pilsudski = {
+		name = POL_Jozef_Pilsudski
+		portraits={
+			civilian={
+				small="GFX_idea_Jozef_Pilsudski"
+				large = "GFX_P_A_Josef_Pilsudski"
+			}
+			army = {
+				large = "GFX_M_Josef_Pilsudski_MILITARY"
+			}
+		}
+		country_leader = {
+			desc = ""
+			expire = "1935.5.12"
+			ideology = authoritarian_democracy
+			traits = { POSITION_Marshal SUBIDEOLOGY_Authoritarian_Democracy L_Resigned_Generalissimo }
+		}
+		advisor={
+			slot=Chief_of_Army
+			idea_token=POL_Jozef_Pilsudski_CoArmy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1935.5.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Jozef_Pilsudski_unavailable
+				}
+			}
+			traits = {
+				POSITION_Marshal
+				CoArmy_Guns_And_Butter_Doctrine
+			}
+		}
+		advisor = {
+			slot=Chief_of_Staff
+			idea_token=POL_Jozef_Pilsudski_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1935.5.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Jozef_Pilsudski_unavailable
+				}
+			}
+			traits = {
+				
+				CoStaff_School_Of_Manoeuvre
+			}
+		}
+		field_marshal = {
+			traits = { media_personality offensive_doctrine inspirational_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	# Ignacy Moscicki
+	POL_Ignacy_Moscicki = {
+		name = POL_Ignacy_Moscicki
+		portraits={
+			civilian={
+				large = "GFX_P_A_Ignacy_Moscicki"
+				small="GFX_idea_Ignacy_Moscicki"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Ignacy_Moscicki_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1947.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Ignacy_Moscicki_unavailable
+				}
+			}
+			traits = {		
+				POSITION_President
+				L_Backroom_Backstabber
+			}
+		}
+	}
+	# Mikolaj Dolanowski
+	POL_Mikolaj_Dolanowski = {
+		name = POL_Mikolaj_Dolanowski
+		portraits={
+			civilian={
+				small="GFX_idea_Mikolaj_Dolanowski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Mikolaj_Dolanowski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Mikolaj_Dolanowski_unavailable
+				}
+			}
+			traits = {		
+				L_Corporate_Suit
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Mikolaj_Dolanowski_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1940.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Mikolaj_Dolanowski_unavailable
+				}
+			}
+			traits = {		
+				MoS_Back_Stabber
+			}
+		}
+	}
+	# Wladyslaw Sikorski
+	POL_Wladyslaw_Sikorski = {
+		name = POL_Wladyslaw_Sikorski
+		portraits={
+			civilian={
+				small="GFX_idea_Wladyslaw_Sikorski"
+			}
+			army = {
+				large = "GFX_M_Wladyslaw_Sikorski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Wladyslaw_Sikorski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Wladyslaw_Sikorski_unavailable
+				}
+			}
+			traits = {		
+				L_Old_General
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Wladyslaw_Sikorski_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1939.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Wladyslaw_Sikorski_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Manoeuvre
+			}
+		}
+		advisor={
+			slot=Chief_of_Army
+			idea_token=POL_Wladyslaw_Sikorski_CoArmy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1939.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Wladyslaw_Sikorski_unavailable
+				}
+			}
+			traits = {		
+				CoArmy_Guns_And_Butter_Doctrine
+			}
+		}
+	}
+	# Boguslaw Miedzinski
+	POL_Boguslaw_Miedzinski = {
+		name = POL_Boguslaw_Miedzinski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Boguslaw_Miedzinski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Boguslaw_Miedzinski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1939.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Boguslaw_Miedzinski_unavailable
+				}
+			}
+			traits = {		
+				L_Local_Tyrant
+			}
+		}
+	}
+	# Jan Kwapinski
+	POL_Jan_Kwapinski = {
+		name = POL_Jan_Kwapinski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jan_Kwapinski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Jan_Kwapinski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1944.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Jan_Kwapinski_unavailable
+				}
+			}
+			traits = {		
+				L_Corporate_Suit
+			}
+		}
+	}
+	# Kardynal Stefan Wyszynski
+	POL_Kardynal_Stefan_Wyszynski = {
+		name = POL_Kardynal_Stefan_Wyszynski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Kardynal_Stefan_Wyszynski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Kardynal_Stefan_Wyszynski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1948.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Kardynal_Stefan_Wyszynski_unavailable
+				}
+			}
+			traits = {		
+				L_Happy_Amateur
+			}
+		}
+	}
+	# Antoni Paczek
+	POL_Antoni_Paczek = {
+		name = POL_Antoni_Paczek
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Antoni_Paczek"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Antoni_Paczek_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1953.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Antoni_Paczek_unavailable
+				}
+			}
+			traits = {		
+				L_Ambitious_Union_Boss
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Antoni_Paczek_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1953.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Antoni_Paczek_unavailable
+				}
+			}
+			traits = {		
+				AM_Resource_Industrialist
+			}
+		}
+	}
+	# Stanislaw Mikolajczyk
+	POL_Stanislaw_Mikolajczyk = {
+		name = POL_Stanislaw_Mikolajczyk
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Stanislaw_Mikolajczyk"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Stanislaw_Mikolajczyk_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Stanislaw_Mikolajczyk_unavailable
+				}
+			}
+			traits = {		
+				L_Corporate_Suit
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Stanislaw_Mikolajczyk_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1939.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Stanislaw_Mikolajczyk_unavailable
+				}
+			}
+			traits = {		
+				MoS_Man_Of_The_People
+			}
+		}
+	}
+	# Wojciech Korfanty
+	POL_Wojciech_Korfanty = {
+		name = POL_Wojciech_Korfanty
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Wojciech_Korfanty"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Wojciech_Korfanty_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Wojciech_Korfanty_unavailable
+				}
+			}
+			traits = {		
+				L_Happy_Amateur
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Wojciech_Korfanty_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Wojciech_Korfanty_unavailable
+				}
+			}
+			traits = {		
+				AM_Military_Entrepreneur
+			}
+		}
+	}
+	# Eugeniusz Kwiatkowski
+	POL_Eugeniusz_Kwiatkowski = {
+		name = POL_Eugeniusz_Kwiatkowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Eugeniusz_Kwiatkowski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Eugeniusz_Kwiatkowski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1937.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Eugeniusz_Kwiatkowski_unavailable
+				}
+			}
+			traits = {		
+				L_Naive_Optimist
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Eugeniusz_Kwiatkowski_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1940.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Eugeniusz_Kwiatkowski_unavailable
+				}
+			}
+			traits = {		
+				MoS_Prince_Of_Terror
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Eugeniusz_Kwiatkowski_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Eugeniusz_Kwiatkowski_unavailable
+				}
+			}
+			traits = {		
+				AM_Planned_Economy_Proponent
+			}
+		}
+	}
+	# Tomasz Arciszewski
+	POL_Tomasz_Arciszewski = {
+		name = POL_Tomasz_Arciszewski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Tomasz_Arciszewski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Tomasz_Arciszewski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1944.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Tomasz_Arciszewski_unavailable
+				}
+			}
+			traits = {		
+				L_Political_Protege
+			}
+		}
+	}
+	# Stanislaw Osiecki
+	POL_Stanislaw_Osiecki = {
+		name = POL_Stanislaw_Osiecki
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Stanislaw_Osiecki"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Stanislaw_Osiecki_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Stanislaw_Osiecki_unavailable
+				}
+			}
+			traits = {		
+				L_Happy_Amateur
+			}
+		}
+	}
+	# Stanislas A. Neyman
+	POL_Stanislas_A_Neyman = {
+		name = POL_Stanislas_A_Neyman
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Stanislas_A_Neyman"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Stanislas_A_Neyman_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1939.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Stanislas_A_Neyman_unavailable
+				}
+			}
+			traits = {		
+				L_Smiling_Oilman
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Stanislas_A_Neyman_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1944.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Stanislas_A_Neyman_unavailable
+				}
+			}
+			traits = {		
+				AM_Administrative_Genius
+			}
+		}
+	}
+	# Mieczyslaw Michalowicz
+	POL_Mieczyslaw_Michalowicz = {
+		name = POL_Mieczyslaw_Michalowicz
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Mieczyslaw_Michalowicz"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Mieczyslaw_Michalowicz_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1942.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Mieczyslaw_Michalowicz_unavailable
+				}
+			}
+			traits = {		
+				L_Ambitious_Union_Boss
+			}
+		}
+	}
+	# Hugon Hanke
+	POL_Hugon_Hanke = {
+		name = POL_Hugon_Hanke
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Hugon_Hanke"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Hugon_Hanke_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Hugon_Hanke_unavailable
+				}
+			}
+			traits = {		
+				L_Ambitious_Union_Boss
+			}
+		}
+	}
+	# Jozef Dziegielewski
+	POL_Jozef_Dziegielewski = {
+		name = POL_Jozef_Dziegielewski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jozef_Dziegielewski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Jozef_Dziegielewski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1936.1.1
+				date < 1964.1.1
+				S_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Jozef_Dziegielewski_unavailable
+				}
+			}
+			traits = {		
+				L_Old_General
+			}
+		}
+	}
+	# Boleslaw Drobner
+	POL_Boleslaw_Drobner = {
+		name = POL_Boleslaw_Drobner
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Boleslaw_Drobner"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Boleslaw_Drobner_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				S_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Boleslaw_Drobner_unavailable
+				}
+			}
+			traits = {		
+				L_Naive_Optimist
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Boleslaw_Drobner_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				S_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Boleslaw_Drobner_unavailable
+				}
+			}
+			traits = {		
+				FM_Ideological_Crusader
+			}
+		}
+	}
+	# Edward Osobka-Morawski
+	POL_Edward_OsobkaMorawski = {
+		name = POL_Edward_OsobkaMorawski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Edward_OsobkaMorawski"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Edward_OsobkaMorawski_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Edward_OsobkaMorawski_unavailable
+				}
+			}
+			traits = {		
+				L_Political_Protege
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Edward_OsobkaMorawski_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Edward_OsobkaMorawski_unavailable
+				}
+			}
+			traits = {		
+				FM_The_Cloak_N_Dagger_Schemer
+			}
+		}
+	}
+	# Marceli Nowotko
+	POL_Marceli_Nowotko = {
+		name = POL_Marceli_Nowotko
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Marceli_Nowotko"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Marceli_Nowotko_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1941.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Marceli_Nowotko_unavailable
+				}
+			}
+			traits = {		
+				L_Political_Protege
+			}
+		}
+	}
+	# Jozef Cyrenkiewicz
+	POL_Jozef_Cyrenkiewicz = {
+		name = POL_Jozef_Cyrenkiewicz
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jozef_Cyrenkiewicz"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Jozef_Cyrenkiewicz_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1947.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Jozef_Cyrenkiewicz_unavailable
+				}
+			}
+			traits = {		
+				L_Silent_Workhorse
+			}
+		}
+	}
+	# Boleslaw Bierut
+	POL_Boleslaw_Bierut = {
+		name = POL_Boleslaw_Bierut
+		portraits = {
+			civilian = {
+				large = "GFX_P_C_Boleslaw_Bierut"
+				small = "GFX_idea_Boleslaw_Bierut"
+			}
+		}
+		country_leader = {
+			desc = ""
+			expire = "1965.1.1"
+			ideology = stalinism
+			traits = { POSITION_General_Secretary SUBIDEOLOGY_Stalinism L_Barking_Buffoon }
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=POL_Boleslaw_Bierut_HoG
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1944.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Boleslaw_Bierut_unavailable
+				}
+			}
+			traits = {		
+				POSITION_General_Secretary
+				L_Flamboyant_Tough_Guy
+			}
+		}
+	}
+	#################################################
+	### Foreign Minister
+	#################################################
+	# Jedrzej Giertych
+	POL_Jedrzej_Giertych = {
+		name = POL_Jedrzej_Giertych
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jedrzej_Giertych"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Jedrzej_Giertych_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Jedrzej_Giertych_unavailable
+				}
+			}
+			traits = {		
+				FM_Ideological_Crusader
+			}
+		}
+	}
+	# Wojciech Wasiutynski
+	POL_Wojciech_Wasiutynski = {
+		name = POL_Wojciech_Wasiutynski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Wojciech_Wasiutynski"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Wojciech_Wasiutynski_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1936.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Wojciech_Wasiutynski_unavailable
+				}
+			}
+			traits = {		
+				FM_Ideological_Crusader
+			}
+		}
+	}
+	# Witold Staniszkis
+	POL_Witold_Staniszkis = {
+		name = POL_Witold_Staniszkis
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Witold_Staniszkis"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Wojciech_Wasiutynski_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1936.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Witold_Staniszkis_unavailable
+				}
+			}
+			traits = {		
+				FM_Iron_Fisted_Brute
+			}
+		}
+	}
+	# Janusz Radziwill
+	POL_Janusz_Radziwill = {
+		name = POL_Janusz_Radziwill
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Janusz_Radziwill"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Janusz_Radziwill_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Janusz_Radziwill_unavailable
+				}
+			}
+			traits = {		
+				FM_Great_Compromiser
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Janusz_Radziwill_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Janusz_Radziwill_unavailable
+				}
+			}
+			traits = {		
+				MoS_Man_Of_The_People
+			}
+		}
+	}
+	# Józef Beck
+	POL_Jozef_Beck = {
+		name = POL_Jozef_Beck
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jozef_Beck"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Jozef_Beck_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Jozef_Beck_unavailable
+				}
+			}
+			traits = {		
+				FM_General_Staffer
+			}
+		}
+	}
+	# Jan hr. Szembek
+	POL_Jan_hr_Szembek = {
+		name = POL_Jan_hr_Szembek
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jan_hr_Szembek"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Jan_hr_Szembek_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Jan_hr_Szembek_unavailable
+				}
+			}
+			traits = {		
+				FM_Apologetic_Clerk
+			}
+		}
+	}
+	# Leon Janta Polczynski
+	POL_Leon_Janta_Polczynski = {
+		name = POL_Leon_Janta_Polczynski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Leon_Janta_Polczynski"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Leon_Janta_Polczynski_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Leon_Janta_Polczynski_unavailable
+				}
+			}
+			traits = {		
+				FM_General_Staffer
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Leon_Janta_Polczynski_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1938.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Leon_Janta_Polczynski_unavailable
+				}
+			}
+			traits = {		
+				AM_Administrative_Genius
+			}
+		}
+	}
+	# Edward Raczynski
+	POL_Edward_Raczynski = {
+		name = POL_Edward_Raczynski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Edward_Raczynski"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Edward_Raczynski_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1941.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Edward_Raczynski_unavailable
+				}
+			}
+			traits = {		
+				FM_Biased_Intellectual
+			}
+		}
+	}
+	# Tadeusz Romer
+	POL_Tadeusz_Romer = {
+		name = POL_Tadeusz_Romer
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Tadeusz_Romer"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Tadeusz_Romer_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Tadeusz_Romer_unavailable
+				}
+			}
+			traits = {		
+				FM_Apologetic_Clerk
+			}
+		}
+	}
+	# Kazimierz Baginski
+	POL_Kazimierz_Baginski = {
+		name = POL_Kazimierz_Baginski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Kazimierz_Baginski"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Kazimierz_Baginski_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1936.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Kazimierz_Baginski_unavailable
+				}
+			}
+			traits = {		
+				FM_Great_Compromiser
+			}
+		}
+	}
+	# Henryk Leon Strasburger
+	POL_Henryk_Leon_Strasburger = {
+		name = POL_Henryk_Leon_Strasburger
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Henryk_Leon_Strasburger"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Henryk_Leon_Strasburger_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1938.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Henryk_Leon_Strasburger_unavailable
+				}
+			}
+			traits = {		
+				FM_Biased_Intellectual
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Henryk_Leon_Strasburger_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1937.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Henryk_Leon_Strasburger_unavailable
+				}
+			}
+			traits = {		
+				AM_Laissez-faire_Capitalist
+			}
+		}
+	}
+	# Adam Tarnowski
+	POL_Adam_Tarnowski = {
+		name = POL_Adam_Tarnowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Adam_Tarnowski"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Adam_Tarnowski_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1944.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Adam_Tarnowski_unavailable
+				}
+			}
+			traits = {		
+				FM_Iron_Fisted_Brute
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Adam_Tarnowski_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1939.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Adam_Tarnowski_unavailable
+				}
+			}
+			traits = {		
+				HoI_Dismal_Enigma
+			}
+		}
+	}
+	# Wladyslaw Kiernik
+	POL_Wladyslaw_Kiernik = {
+		name = POL_Wladyslaw_Kiernik
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Wladyslaw_Kiernik"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Wladyslaw_Kiernik_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1936.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Wladyslaw_Kiernik_unavailable
+				}
+			}
+			traits = {		
+				FM_Biased_Intellectual
+			}
+		}
+	}
+	# Jan Piekalkiewicz
+	POL_Jan_Piekalkiewicz = {
+		name = POL_Jan_Piekalkiewicz
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jan_Piekalkiewicz"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Jan_Piekalkiewicz_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1939.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Jan_Piekalkiewicz_unavailable
+				}
+			}
+			traits = {		
+				FM_Biased_Intellectual
+			}
+		}
+	}
+	# Aleksander Zawisza
+	POL_Aleksander_Zawisza = {
+		name = POL_Aleksander_Zawisza
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Aleksander_Zawisza"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Aleksander_Zawisza_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Aleksander_Zawisza_unavailable
+				}
+			}
+			traits = {		
+				FM_Iron_Fisted_Brute
+			}
+		}
+	}
+	# Wincenty Rzymowski
+	POL_Wincenty_Rzymowski = {
+		name = POL_Wincenty_Rzymowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Wincenty_Rzymowski"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Wincenty_Rzymowski_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Wincenty_Rzymowski_unavailable
+				}
+			}
+			traits = {		
+				FM_Great_Compromiser
+			}
+		}
+	}
+	# Adam Próchnik
+	POL_Adam_Prochnik = {
+		name = POL_Adam_Prochnik
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Adam_Prochnik"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Adam_Prochnik_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Adam_Prochnik_unavailable
+				}
+			}
+			traits = {		
+				FM_Biased_Intellectual
+			}
+		}
+	}
+	# Jozef Niski
+	POL_Jozef_Niski = {
+		name = POL_Jozef_Niski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jozef_Niski"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Jozef_Niski_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1950.1.1
+				S_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Jozef_Niski_unavailable
+				}
+			}
+			traits = {		
+				FM_Iron_Fisted_Brute
+			}
+		}
+	}
+	# Norbert Barlicki
+	POL_Norbert_Barlicki = {
+		name = POL_Norbert_Barlicki
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Norbert_Barlicki"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Norbert_Barlicki_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				S_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Norbert_Barlicki_unavailable
+				}
+			}
+			traits = {		
+				FM_Ideological_Crusader
+			}
+		}
+	}
+	# Pawel Finder
+	POL_Pawel_Finder = {
+		name = POL_Pawel_Finder
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Pawel_Finder"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Pawel_Finder_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Pawel_Finder_unavailable
+				}
+			}
+			traits = {		
+				FM_The_Cloak_N_Dagger_Schemer
+			}
+		}
+	}
+	# Zygmunt Modzelewski
+	POL_Zygmunt_Modzelewski = {
+		name = POL_Zygmunt_Modzelewski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Zygmunt_Modzelewski"
+			}
+		}
+		advisor={
+			slot=Foreign_Minister
+			idea_token=POL_Zygmunt_Modzelewski_FM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1947.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Zygmunt_Modzelewski_unavailable
+				}
+			}
+			traits = {		
+				FM_Biased_Intellectual
+			}
+		}
+	}
+	#################################################
+	### Minister of Security
+	#################################################
+	# Mieczyslaw Trajdos
+	POL_Mieczyslaw_Trajdos = {
+		name = POL_Mieczyslaw_Trajdos
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Mieczyslaw_Trajdos"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Mieczyslaw_Trajdos_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1938.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Mieczyslaw_Trajdos_unavailable
+				}
+			}
+			traits = {		
+				MoS_Silent_Lawyer
+			}
+		}
+	}
+	# Czeslaw Michalowski
+	POL_Czeslaw_Michalowski = {
+		name = POL_Czeslaw_Michalowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Czeslaw_Michalowski"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Czeslaw_Michalowski_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Czeslaw_Michalowski_unavailable
+				}
+			}
+			traits = {		
+				MoS_Crime_Fighter
+			}
+		}
+	}
+	# Bronislaw Pieracki
+	POL_Bronislaw_Pieracki = {
+		name = POL_Bronislaw_Pieracki
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Bronislaw_Pieracki"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Bronislaw_Pieracki_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Bronislaw_Pieracki_unavailable
+				}
+			}
+			traits = {		
+				MoS_Crime_Fighter
+			}
+		}
+	}
+	# Wladyslaw Raczkiewicz
+	POL_Wladyslaw_Raczkiewicz = {
+		name = POL_Wladyslaw_Raczkiewicz
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Wladyslaw_Raczkiewicz"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Wladyslaw_Raczkiewicz_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Wladyslaw_Raczkiewicz_unavailable
+				}
+			}
+			traits = {		
+				MoS_Crime_Fighter
+			}
+		}
+	}
+	# Kazimierz Switalski
+	POL_Kazimierz_Switalski = {
+		name = POL_Kazimierz_Switalski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Kazimierz_Switalski"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Kazimierz_Switalski_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Kazimierz_Switalski_unavailable
+				}
+			}
+			traits = {		
+				MoS_Efficient_Sociopath
+			}
+		}
+	}
+	# Witold Grabowski
+	POL_Witold_Grabowski = {
+		name = POL_Witold_Grabowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Witold_Grabowski"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Witold_Grabowski_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Witold_Grabowski_unavailable
+				}
+			}
+			traits = {		
+				MoS_Crime_Fighter
+			}
+		}
+	}
+	# Kazimierz Bartel
+	POL_Kazimierz_Bartel = {
+		name = POL_Kazimierz_Bartel
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Kazimierz_Bartel"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Kazimierz_Bartel_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Kazimierz_Bartel_unavailable
+				}
+			}
+			traits = {		
+				MoS_Back_Stabber
+			}
+		}
+	}
+	# Leon Joseph Baranski
+	POL_Leon_Joseph_Baranski = {
+		name = POL_Leon_Joseph_Baranski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Leon_Joseph_Baranski"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Leon_Joseph_Baranski_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Leon_Joseph_Baranski_unavailable
+				}
+			}
+			traits = {		
+				MoS_Back_Stabber
+			}
+		}
+	}
+	# Waclaw Mohl
+	POL_Waclaw_Mohl = {
+		name = POL_Waclaw_Mohl
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Waclaw_Mohl"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Waclaw_Mohl_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1940.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Waclaw_Mohl_unavailable
+				}
+			}
+			traits = {		
+				MoS_Compassionate_Gentleman
+			}
+		}
+	}
+	# Zygmunt Berezowski
+	POL_Zygmunt_Berezowski = {
+		name = POL_Zygmunt_Berezowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Zygmunt_Berezowski"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Zygmunt_Berezowski_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Zygmunt_Berezowski_unavailable
+				}
+			}
+			traits = {		
+				MoS_Crime_Fighter
+			}
+		}
+	}
+	# Adam Rose
+	POL_Adam_Rose = {
+		name = POL_Adam_Rose
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Adam_Rose"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Adam_Rose_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1939.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Adam_Rose_unavailable
+				}
+			}
+			traits = {		
+				MoS_Crime_Fighter
+			}
+		}
+	}
+	# Bronislaw Kusnierz
+	POL_Bronislaw_Kusnierz = {
+		name = POL_Bronislaw_Kusnierz
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Bronislaw_Kusnierz"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Bronislaw_Kusnierz_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Bronislaw_Kusnierz_unavailable
+				}
+			}
+			traits = {		
+				MoS_Silent_Lawyer
+			}
+		}
+	}
+	# Roman Odzierzynski
+	POL_Roman_Odzierzynski = {
+		name = POL_Roman_Odzierzynski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Roman_Odzierzynski"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Roman_Odzierzynski_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Roman_Odzierzynski_unavailable
+				}
+			}
+			traits = {		
+				MoS_Compassionate_Gentleman
+			}
+		}
+	}
+	# Marjan Rudzinski
+	POL_Marjan_Rudzinski = {
+		name = POL_Marjan_Rudzinski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Marjan_Rudzinski"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Marjan_Rudzinski_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Marjan_Rudzinski_unavailable
+				}
+			}
+			traits = {		
+				MoS_Back_Stabber
+			}
+		}
+	}
+	# Antoni Roman
+	POL_Antoni_Roman = {
+		name = POL_Antoni_Roman
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Antoni_Roman"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Antoni_Roman_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Antoni_Roman_unavailable
+				}
+			}
+			traits = {		
+				MoS_Silent_Lawyer
+			}
+		}
+	}
+	# Karol Popiel
+	POL_Karol_Popiel = {
+		name = POL_Karol_Popiel
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Karol_Popiel"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Karol_Popiel_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Karol_Popiel_unavailable
+				}
+			}
+			traits = {		
+				MoS_Silent_Lawyer
+			}
+		}
+	}
+	# Wincenty Witos
+	POL_Wincenty_Witos = {
+		name = POL_Wincenty_Witos
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Wincenty_Witos"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Wincenty_Witos_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1944.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Wincenty_Witos_unavailable
+				}
+			}
+			traits = {		
+				MoS_Man_Of_The_People
+			}
+		}
+	}
+	# Mieczyslaw Niedzialkowski
+	POL_Mieczyslaw_Niedzialkowski = {
+		name = POL_Mieczyslaw_Niedzialkowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Mieczyslaw_Niedzialkowski"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Mieczyslaw_Niedzialkowski_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Mieczyslaw_Niedzialkowski_unavailable
+				}
+			}
+			traits = {		
+				MoS_Crime_Fighter
+			}
+		}
+	}
+	# Pantaleon Karpinski
+	POL_Pantaleon_Karpinski = {
+		name = POL_Pantaleon_Karpinski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Pantaleon_Karpinski"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Pantaleon_Karpinski_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				S_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Pantaleon_Karpinski_unavailable
+				}
+			}
+			traits = {		
+				MoS_Prince_Of_Terror
+			}
+		}
+	}
+	# Jozef Lokietek Rebe
+	POL_Jozef_Lokietek_Rebe = {
+		name = POL_Jozef_Lokietek_Rebe
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jozef_Lokietek_Rebe"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Jozef_Lokietek_Rebe_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				S_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jozef_Lokietek_Rebe_unavailable
+				}
+			}
+			traits = {		
+				MoS_Prince_Of_Terror
+			}
+		}
+	}
+	# Feliks Wirski
+	POL_Feliks_Wirski = {
+		name = POL_Feliks_Wirski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Feliks_Wirski"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Feliks_Wirski_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1936.1.1
+				date < 1964.1.1
+				S_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Feliks_Wirski_unavailable
+				}
+			}
+			traits = {		
+				MoS_Efficient_Sociopath
+			}
+		}
+	}
+	# Stanislaw Radkiewicz
+	POL_Stanislaw_Radkiewicz = {
+		name = POL_Stanislaw_Radkiewicz
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Stanislaw_Radkiewicz"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Stanislaw_Radkiewicz_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Stanislaw_Radkiewicz_unavailable
+				}
+			}
+			traits = {		
+				MoS_Efficient_Sociopath
+			}
+		}
+	}
+	# Aleksander Zawadzki
+	POL_Aleksander_Zawadzki = {
+		name = POL_Aleksander_Zawadzki
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Aleksander_Zawadzki"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Aleksander_Zawadzki_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Aleksander_Zawadzki_unavailable
+				}
+			}
+			traits = {		
+				MoS_Compassionate_Gentleman
+			}
+		}
+	}
+	# Franciszek Jozwiak
+	POL_Franciszek_Jozwiak = {
+		name = POL_Franciszek_Jozwiak
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Franciszek_Jozwiak"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Franciszek_Jozwiak_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Franciszek_Jozwiak_unavailable
+				}
+			}
+			traits = {		
+				MoS_Prince_Of_Terror
+			}
+		}
+	}
+	# Jakub Berman
+	POL_Jakub_Berman = {
+		name = POL_Jakub_Berman
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jakub_Berman"
+			}
+		}
+		advisor={
+			slot=Minister_of_Security
+			idea_token=POL_Jakub_Berman_MoS
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1947.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jakub_Berman_unavailable
+				}
+			}
+			traits = {		
+				MoS_Prince_Of_Terror
+			}
+		}
+	}
+	#################################################
+	### Armaments Minister
+	#################################################
+	# Jerzy Zdziechowski
+	POL_Jerzy_Zdziechowski = {
+		name = POL_Jerzy_Zdziechowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jerzy_Zdziechowski"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Jerzy_Zdziechowski_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jerzy_Zdziechowski_unavailable
+				}
+			}
+			traits = {		
+				AM_Corrupt_Kleptocrat
+			}
+		}
+	}
+	# Stanislaw Glabinski
+	POL_Stanislaw_Glabinski = {
+		name = POL_Stanislaw_Glabinski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Stanislaw_Glabinski"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Stanislaw_Glabinski_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Stanislaw_Glabinski_unavailable
+				}
+			}
+			traits = {		
+				AM_Laissez-faire_Capitalist
+			}
+		}
+	}
+	# Jan Wroczynski
+	POL_Jan_Wroczynski = {
+		name = POL_Jan_Wroczynski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jan_Wroczynski"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Jan_Wroczynski_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jan_Wroczynski_unavailable
+				}
+			}
+			traits = {		
+				AM_Military_Entrepreneur
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Jan_Wroczynski_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1946.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jan_Wroczynski_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Fire_Support
+			}
+		}
+	}
+	# Wladyslaw M. Zawadzki
+	POL_Wladyslaw_M_Zawadzki = {
+		name = POL_Wladyslaw_M_Zawadzki
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Wladyslaw_M_Zawadzki"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Wladyslaw_M_Zawadzki_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Wladyslaw_M_Zawadzki_unavailable
+				}
+			}
+			traits = {		
+				AM_Laissez-faire_Capitalist
+			}
+		}
+	}
+	# Jan Pilsudski
+	POL_Jan_Pilsudski = {
+		name = POL_Jan_Pilsudski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jan_Pilsudski"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Jan_Pilsudski_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jan_Pilsudski_unavailable
+				}
+			}
+			traits = {		
+				AM_Administrative_Genius
+			}
+		}
+	}
+	# Tadeusz Kasprzycki
+	POL_Tadeusz_Kasprzycki = {
+		name = POL_Tadeusz_Kasprzycki
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Tadeusz_Kasprzycki"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Tadeusz_Kasprzycki_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Tadeusz_Kasprzycki_unavailable
+				}
+			}
+			traits = {		
+				AM_Military_Entrepreneur
+			}
+		}
+	}
+	# Bp Stanislaw Adamski
+	POL_Bp_Stanislaw_Adamski = {
+		name = POL_Bp_Stanislaw_Adamski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Bp_Stanislaw_Adamski"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Bp_Stanislaw_Adamski_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1938.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Bp_Stanislaw_Adamski_unavailable
+				}
+			}
+			traits = {		
+				AM_Military_Entrepreneur
+			}
+		}
+	}
+	# Karol Niezabytowski
+	POL_Karol_Niezabytowski = {
+		name = POL_Karol_Niezabytowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Karol_Niezabytowski"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Karol_Niezabytowski_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1938.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Karol_Niezabytowski_unavailable
+				}
+			}
+			traits = {		
+				AM_Military_Entrepreneur
+			}
+		}
+	}
+	# Witold Staniewicz
+	POL_Witold_Staniewicz = {
+		name = POL_Witold_Staniewicz
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Witold_Staniewicz"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Witold_Staniewicz_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1938.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Witold_Staniewicz_unavailable
+				}
+			}
+			traits = {		
+				AM_Theoretical_Scientist
+			}
+		}
+	}
+	# Witold Lesniewski
+	POL_Witold_Lesniewski = {
+		name = POL_Witold_Lesniewski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Witold_Lesniewski"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Witold_Lesniewski_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1938.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Witold_Lesniewski_unavailable
+				}
+			}
+			traits = {		
+				AM_Infantry_Proponent
+			}
+		}
+	}
+	# Czeslaw Klarner
+	POL_Czeslaw_Klarner = {
+		name = POL_Czeslaw_Klarner
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Czeslaw_Klarner"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Czeslaw_Klarner_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1938.1.1
+				date < 1957.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Czeslaw_Klarner_unavailable
+				}
+			}
+			traits = {		
+				AM_Industrial_Chemist
+			}
+		}
+	}
+	# Casimir Ehrenberg
+	POL_Casimir_Ehrenberg = {
+		name = POL_Casimir_Ehrenberg
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Casimir_Ehrenberg"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Casimir_Ehrenberg_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1939.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Casimir_Ehrenberg_unavailable
+				}
+			}
+			traits = {		
+				AM_Laissez-faire_Capitalist
+			}
+		}
+	}
+	# Bronislaw Regulski
+	POL_Bronislaw_Regulski = {
+		name = POL_Bronislaw_Regulski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Bronislaw_Regulski"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Bronislaw_Regulski_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1941.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Bronislaw_Regulski_unavailable
+				}
+			}
+			traits = {		
+				AM_Infantry_Proponent
+			}
+		}
+	}
+	# Ludwik W. Rajchmann
+	POL_Ludwik_W_Rajchmann = {
+		name = POL_Ludwik_W_Rajchmann
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Ludwik_W_Rajchmann"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Ludwik_W_Rajchmann_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Ludwik_W_Rajchmann_unavailable
+				}
+			}
+			traits = {		
+				AM_Resource_Industrialist
+			}
+		}
+	}
+	# Adam Koc
+	POL_Adam_Koc = {
+		name = POL_Adam_Koc
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Adam_Koc"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Adam_Koc_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Adam_Koc_unavailable
+				}
+			}
+			traits = {		
+				AM_Resource_Industrialist
+			}
+		}
+	}
+	# Józef Haller
+	POL_Jozef_Haller = {
+		name = POL_Jozef_Haller
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jozef_Haller"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Jozef_Haller_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jozef_Haller_unavailable
+				}
+			}
+			traits = {		
+				AM_Military_Entrepreneur
+			}
+		}
+	}
+	# Wladyslaw Fokierski
+	POL_Wladyslaw_Fokierski = {
+		name = POL_Wladyslaw_Fokierski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Wladyslaw_Fokierski"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Wladyslaw_Fokierski_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Wladyslaw_Fokierski_unavailable
+				}
+			}
+			traits = {		
+				AM_Laissez-faire_Capitalist
+			}
+		}
+	}
+	# Stanislaw Sopicki
+	POL_Stanislaw_Sopicki = {
+		name = POL_Stanislaw_Sopicki
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Stanislaw_Sopicki"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Stanislaw_Sopicki_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Stanislaw_Sopicki_unavailable
+				}
+			}
+			traits = {		
+				AM_Resource_Industrialist
+			}
+		}
+	}
+	# Józef Niecko
+	POL_Jozef_Niecko = {
+		name = POL_Jozef_Niecko
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jozef_Niecko"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Jozef_Niecko_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jozef_Niecko_unavailable
+				}
+			}
+			traits = {		
+				AM_Resource_Industrialist
+			}
+		}
+	}
+	# Tadeusz Lychowski
+	POL_Tadeusz_Lychowski = {
+		name = POL_Tadeusz_Lychowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Tadeusz_Lychowski"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Tadeusz_Lychowski_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1939.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Tadeusz_Lychowski_unavailable
+				}
+			}
+			traits = {		
+				AM_Administrative_Genius
+			}
+		}
+	}
+	# Herman Liebermann
+	POL_Herman_Liebermann = {
+		name = POL_Herman_Liebermann
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Herman_Liebermann"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Herman_Liebermann_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Herman_Liebermann_unavailable
+				}
+			}
+			traits = {		
+				AM_Theoretical_Scientist
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Herman_Liebermann_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				S_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Herman_Liebermann_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Psychology
+			}
+		}
+	}
+	# Zygmunt Berling
+	POL_Zygmunt_Berling = {
+		name = POL_Zygmunt_Berling
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Zygmunt_Berling"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Zygmunt_Berling_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Zygmunt_Berling_unavailable
+				}
+			}
+			traits = {		
+				AM_Infantry_Proponent
+			}
+		}
+	}
+	# Jan Stefan Haneman
+	POL_Jan_Stefan_Haneman = {
+		name = POL_Jan_Stefan_Haneman
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jan_Stefan_Haneman"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Jan_Stefan_Haneman_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1944.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jan_Stefan_Haneman_unavailable
+				}
+			}
+			traits = {		
+				AM_Air_To_Ground_Proponent
+			}
+		}
+	}
+	# Michal Rola-Zymierski
+	POL_Michal_RolaZymierski = {
+		name = POL_Michal_RolaZymierski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Michal_RolaZymierski"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Michal_RolaZymierski_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1944.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Michal_RolaZymierski_unavailable
+				}
+			}
+			traits = {		
+				AM_Tank_Proponent
+			}
+		}
+		advisor={
+			slot=Chief_of_Army
+			idea_token=POL_Michal_RolaZymierski_CoArmy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Michal_RolaZymierski_unavailable
+				}
+			}
+			traits = {		
+				CoArmy_Armoured_Spearhead_Doctrine
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Michal_RolaZymierski_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1944.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Michal_RolaZymierski_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Mass_Combat
+			}
+		}
+	}
+	# Konstanty Dabrowski
+	POL_Konstanty_Dabrowski = {
+		name = POL_Konstanty_Dabrowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Konstanty_Dabrowski"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Konstanty_Dabrowski_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Konstanty_Dabrowski_unavailable
+				}
+			}
+			traits = {		
+				AM_Resource_Industrialist
+			}
+		}
+	}
+	# Hilary Minc
+	POL_Hilary_Minc = {
+		name = POL_Hilary_Minc
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Hilary_Minc"
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=POL_Hilary_Minc_AM
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1947.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Hilary_Minc_unavailable
+				}
+			}
+			traits = {		
+				AM_Air_To_Sea_Proponent
+			}
+		}
+	}
+	#################################################
+	### Head of Intelligence
+	#################################################
+	# Janusz Zoltowski
+	POL_Janusz_Zoltowski = {
+		name = POL_Janusz_Zoltowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Janusz_Zoltowski"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Janusz_Zoltowski_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Janusz_Zoltowski_unavailable
+				}
+			}
+			traits = {		
+				HoI_Dismal_Enigma
+			}
+		}
+	}
+	# Wojciech Zaleski
+	POL_Wojciech_Zaleski = {
+		name = POL_Wojciech_Zaleski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Wojciech_Zaleski"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Wojciech_Zaleski_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1936.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Wojciech_Zaleski_unavailable
+				}
+			}
+			traits = {		
+				HoI_Political_Specialist
+			}
+		}
+	}
+	# Kordian Zamorski
+	POL_Kordian_Zamorski = {
+		name = POL_Kordian_Zamorski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Kordian_Zamorski"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Kordian_Zamorski_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Kordian_Zamorski_unavailable
+				}
+			}
+			traits = {		
+				HoI_Political_Specialist
+			}
+		}
+	}
+	# Mieczyslaw Mackiewicz
+	POL_Mieczyslaw_Mackiewicz = {
+		name = POL_Mieczyslaw_Mackiewicz
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Mieczyslaw_Mackiewicz"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Mieczyslaw_Mackiewicz_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1955.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Mieczyslaw_Mackiewicz_unavailable
+				}
+			}
+			traits = {		
+				HoI_Logistics_Specialist
+			}
+		}
+	}
+	# Tadeusz Puszczynski
+	POL_HoI_Tadeusz_Puszczynski = {
+		name = POL_Tadeusz_Puszczynski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Tadeusz_Puszczynski"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Tadeusz_Puszczynski_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1940.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Tadeusz_Puszczynski_unavailable
+				}
+			}
+			traits = {		
+				HoI_Industrial_Specialist
+			}
+		}
+	}
+	# Karol Boldeskul
+	POL_Karol_Boldeskul = {
+		name = POL_Karol_Boldeskul
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Karol_Boldeskul"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Karol_Boldeskul_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1945.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Karol_Boldeskul_unavailable
+				}
+			}
+			traits = {		
+				HoI_Political_Specialist
+			}
+		}
+	}
+	# T. Pelczynski-Grzegorz
+	POL_T_PelczynskiGrzegorz = {
+		name = POL_T_PelczynskiGrzegorz
+		portraits = {
+			civilian = {
+				small = "GFX_idea_T_PelczynskiGrzegorz"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_T_PelczynskiGrzegorz_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1945.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =T_PelczynskiGrzegorz_unavailable
+				}
+			}
+			traits = {		
+				HoI_Logistics_Specialist
+			}
+		}
+	}
+	# Jan Kowalewski
+	POL_Jan_Kowalewski = {
+		name = POL_Jan_Kowalewski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jan_Kowalewski"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Jan_Kowalewski_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jan_Kowalewski_unavailable
+				}
+			}
+			traits = {		
+				HoI_Dismal_Enigma
+			}
+		}
+		advisor={
+			slot=Chief_of_Army
+			idea_token=POL_Jan_Kowalewski_CoArmy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1937.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jan_Kowalewski_unavailable
+				}
+			}
+			traits = {		
+				CoArmy_Elastic_Defence_Doctrine
+			}
+		}
+	}
+	# Jan Zychon
+	POL_Jan_Zychon = {
+		name = POL_Jan_Zychon
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jan_Zychon"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Jan_Zychon_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1940.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jan_Zychon_unavailable
+				}
+			}
+			traits = {		
+				HoI_Naval_Intelligence_Specialist
+			}
+		}
+	}
+	# Ignacy Matuszewski
+	POL_Ignacy_Matuszewski = {
+		name = POL_Ignacy_Matuszewski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Ignacy_Matuszewski"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Ignacy_Matuszewski_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1937.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Ignacy_Matuszewski_unavailable
+				}
+			}
+			traits = {		
+				HoI_Logistics_Specialist
+			}
+		}
+	}
+	# Stanislaw Gano
+	POL_Stanislaw_Gano = {
+		name = POL_Stanislaw_Gano
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Stanislaw_Gano"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Stanislaw_Gano_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1940.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Stanislaw_Gano_unavailable
+				}
+			}
+			traits = {		
+				HoI_Technical_Specialist
+			}
+		}
+	}
+	# Zygmunt Zaremba
+	POL_Zygmunt_Zaremba = {
+		name = POL_Zygmunt_Zaremba
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Zygmunt_Zaremba"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Zygmunt_Zaremba_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1936.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Zygmunt_Zaremba_unavailable
+				}
+			}
+			traits = {		
+				HoI_Logistics_Specialist
+			}
+		}
+	}
+	# Feliks Koneczny
+	POL_Feliks_Koneczny = {
+		name = POL_Feliks_Koneczny
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Feliks_Koneczny"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Feliks_Koneczny_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Feliks_Koneczny_unavailable
+				}
+			}
+			traits = {		
+				HoI_Technical_Specialist
+			}
+		}
+	}
+	# Wieslaw Domaniewski
+	POL_Wieslaw_Domaniewski = {
+		name = POL_Wieslaw_Domaniewski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Wieslaw_Domaniewski"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Wieslaw_Domaniewski_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1938.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Wieslaw_Domaniewski_unavailable
+				}
+			}
+			traits = {		
+				HoI_Technical_Specialist
+			}
+		}
+	}
+	# Alfred Leon Konopka
+	POL_Alfred_Leon_Konopka = {
+		name = POL_Alfred_Leon_Konopka
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Alfred_Leon_Konopka"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Alfred_Leon_Konopka_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1944.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Alfred_Leon_Konopka_unavailable
+				}
+			}
+			traits = {		
+				HoI_Political_Specialist
+			}
+		}
+	}
+	# Mieczyslaw Sokolowski
+	POL_Mieczyslaw_Sokolowski = {
+		name = POL_Mieczyslaw_Sokolowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Mieczyslaw_Sokolowski"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Mieczyslaw_Sokolowski_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Mieczyslaw_Sokolowski_unavailable
+				}
+			}
+			traits = {		
+				HoI_Industrial_Specialist
+			}
+		}
+	}
+	# Lukasz Siemiatkowski
+	POL_Lukasz_Siemiatkowski = {
+		name = POL_Lukasz_Siemiatkowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Lukasz_Siemiatkowski"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Lukasz_Siemiatkowski_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				S_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Lukasz_Siemiatkowski_unavailable
+				}
+			}
+			traits = {		
+				HoI_Political_Specialist
+			}
+		}
+	}
+	# Tadeusz Szturm de Sztrem
+	POL_Tadeusz_Szturm_de_Sztrem = {
+		name = POL_Tadeusz_Szturm_de_Sztrem
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Tadeusz_Szturm_de_Sztrem"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Tadeusz_Szturm_de_Sztrem_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1936.1.1
+				date < 1964.1.1
+				S_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Tadeusz_Szturm_de_Sztrem_unavailable
+				}
+			}
+			traits = {		
+				HoI_Technical_Specialist
+			}
+		}
+	}
+	# Ozjasz Szechter
+	POL_Ozjasz_Szechter = {
+		name = POL_Ozjasz_Szechter
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Ozjasz_Szechter"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Ozjasz_Szechter_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1936.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Ozjasz_Szechter_unavailable
+				}
+			}
+			traits = {		
+				HoI_Technical_Specialist
+			}
+		}
+	}
+	# Stanislaw Dubois
+	POL_Stanislaw_Dubois = {
+		name = POL_Stanislaw_Dubois
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Stanislaw_Dubois"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Stanislaw_Dubois_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Stanislaw_Dubois_unavailable
+				}
+			}
+			traits = {		
+				HoI_Political_Specialist
+			}
+		}
+	}
+	# Stefan Antosiewicz
+	POL_Stefan_Antosiewicz = {
+		name = POL_Stefan_Antosiewicz
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Stefan_Antosiewicz"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Stefan_Antosiewicz_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Stefan_Antosiewicz_unavailable
+				}
+			}
+			traits = {		
+				HoI_Dismal_Enigma
+			}
+		}
+		advisor={
+			slot=Chief_of_Air
+			idea_token=POL_Stefan_Antosiewicz_CoAir
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Stefan_Antosiewicz_unavailable
+				}
+			}
+			traits = {		
+				CoAir_Carpet_Bombing_Doctrine
+			}
+		}
+	}
+	# Henryk Swiatkowski
+	POL_Henryk_Swiatkowski = {
+		name = POL_Henryk_Swiatkowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Henryk_Swiatkowski"
+			}
+		}
+		advisor={
+			slot=Head_of_Intelligence
+			idea_token=POL_Henryk_Swiatkowski_HoI
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1947.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Henryk_Swiatkowski_unavailable
+				}
+			}
+			traits = {		
+				HoI_Dismal_Enigma
+			}
+		}
+	}
+	#################################################
+	### Chief of Staff
+	#################################################
+	# Wladyslaw Moczar
+	POL_Wladyslaw_Moczar = {
+		name = POL_Wladyslaw_Moczar
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Wladyslaw_Moczar"
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Wladyslaw_Moczar_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Wladyslaw_Moczar_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Psychology
+			}
+		}
+	}
+	# Marian Januszajtis-Zegota
+	POL_Marian_JanuszajtisZegota = {
+		name = POL_Marian_JanuszajtisZegota
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Marian_JanuszajtisZegota"
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Marian_JanuszajtisZegota_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1940.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Marian_JanuszajtisZegota_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Defence
+			}
+		}
+	}
+	# Marian Kukiel
+	POL_Marian_Kukiel = {
+		name = POL_Marian_Kukiel
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Marian_Kukiel"
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Marian_Kukiel_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1946.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Marian_Kukiel_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Fire_Support
+			}
+		}
+	}
+	# Waclaw Stachiewicz
+	POL_Waclaw_Stachiewicz = {
+		name = POL_Waclaw_Stachiewicz
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Waclaw_Stachiewicz"
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Waclaw_Stachiewicz_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Waclaw_Stachiewicz_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Fire_Support
+			}
+		}
+	}
+	# Janusz Gasiorowski
+	POL_Janusz_Gasiorowski = {
+		name = POL_Janusz_Gasiorowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Janusz_Gasiorowski"
+			}
+			army = {
+				large = "GFX_M_Janusz_Gasiorowski"
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Janusz_Gasiorowski_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1946.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Janusz_Gasiorowski_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Psychology
+			}
+		}
+		corps_commander = {
+			traits = {  trickster }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}	
+	}
+	# Michal Karaszewicz-Tokarzewski
+	POL_Michal_KaraszewiczTokarzewski = {
+		name = POL_Michal_KaraszewiczTokarzewski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Michal_KaraszewiczTokarzewski"
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Michal_KaraszewiczTokarzewski_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Michal_KaraszewiczTokarzewski_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Defence
+			}
+		}
+	}
+	# Stefan Rowecki
+	POL_Stefan_Rowecki = {
+		name = POL_Stefan_Rowecki
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Stefan_Rowecki"
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Stefan_Rowecki_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Stefan_Rowecki_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Psychology
+			}
+		}
+	}
+	# Tadeusz Bor-Komorowski
+	POL_Tadeusz_BorKomorowski = {
+		name = POL_Tadeusz_BorKomorowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Tadeusz_BorKomorowski"
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Tadeusz_BorKomorowski_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Tadeusz_BorKomorowski_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Mass_Combat
+			}
+		}
+		advisor={
+			slot=Chief_of_Army
+			idea_token=POL_Tadeusz_BorKomorowski_CoArmy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1944.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Tadeusz_BorKomorowski_unavailable
+				}
+			}
+			traits = {		
+				CoArmy_Guns_And_Butter_Doctrine
+			}
+		}
+	}
+	# Stanislaw Kopanski
+	POL_Stanislaw_Kopanski = {
+		name = POL_Stanislaw_Kopanski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Stanislaw_Kopanski"
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Stanislaw_Kopanski_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1944.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Stanislaw_Kopanski_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Manoeuvre
+			}
+		}
+	}
+	# Leopold Okulicki
+	POL_Leopold_Okulicki = {
+		name = POL_Leopold_Okulicki
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Leopold_Okulicki"
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Leopold_Okulicki_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Leopold_Okulicki_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Fire_Support
+			}
+		}
+	}
+	# Rajmund Jaworski
+	POL_Rajmund_Jaworski = {
+		name = POL_Rajmund_Jaworski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Rajmund_Jaworski"
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=POL_Rajmund_Jaworski_CoStaff
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				S_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Rajmund_Jaworski_unavailable
+				}
+			}
+			traits = {		
+				CoStaff_School_Of_Defence
+			}
+		}
+	}
+	#################################################
+	### Chief of Army
+	#################################################
+	# Kazimierz Sosnkowski
+	POL_Kazimierz_Sosnkowski = {
+		name = POL_Kazimierz_Sosnkowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Kazimierz_Sosnkowski"
+			}
+			army = {
+				large = "GFX_M_Kazimierz_Sosnowski"
+			}
+		}
+		advisor={
+			slot=Chief_of_Army
+			idea_token=POL_Kazimierz_Sosnkowski_CoArmy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1948.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Kazimierz_Sosnkowski_unavailable
+				}
+			}
+			traits = {		
+				CoArmy_Decisive_Battle_Doctrine
+			}
+		}
+		corps_commander = {
+			traits = { old_guard organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	# Tomislaw Lupaszko
+	POL_Tomislaw_Lupaszko = {
+		name = POL_Tomislaw_Lupaszko
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Tomislaw_Lupaszko"
+			}
+		}
+		advisor={
+			slot=Chief_of_Army
+			idea_token=POL_Tomislaw_Lupaszko_CoArmy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Tomislaw_Lupaszko_unavailable
+				}
+			}
+			traits = {		
+				CoArmy_Decisive_Battle_Doctrine
+			}
+		}
+	}
+	# Wladyslaw Anders
+	POL_Wladyslaw_Anders = {
+		name = POL_Wladyslaw_Anders
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Wladyslaw_Anders"
+			}
+			army = {
+				large = "GFX_M_Wladyslaw_Anders"
+			}
+		}
+		advisor={
+			slot=Chief_of_Army
+			idea_token=POL_Wladyslaw_Anders_CoArmy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Wladyslaw_Anders_unavailable
+				}
+			}
+			traits = {		
+				CoArmy_Elastic_Defence_Doctrine
+			}
+		}
+		corps_commander = {
+			traits = {  media_personality cavalry_leader war_hero }
+			skill = 2
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	# Wladyslaw Grabsky
+	POL_Wladyslaw_Grabsky = {
+		name = POL_Wladyslaw_Grabsky
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Wladyslaw_Grabsky"
+			}
+		}
+		advisor={
+			slot=Chief_of_Army
+			idea_token=POL_Wladyslaw_Grabsky_CoArmy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Wladyslaw_Grabsky_unavailable
+				}
+			}
+			traits = {		
+				CoArmy_Guns_And_Butter_Doctrine
+			}
+		}
+	}
+	# Karol Swierczewski
+	POL_Karol_Swierczewski = {
+		name = POL_Karol_Swierczewski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Karol_Swierczewski"
+			}
+		}
+		advisor={
+			slot=Chief_of_Army
+			idea_token=POL_Karol_Swierczewski_CoArmy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Karol_Swierczewski_unavailable
+				}
+			}
+			traits = {		
+				CoArmy_Decisive_Battle_Doctrine
+			}
+		}
+	}
+	#################################################
+	### Chief of Navy
+	#################################################
+	# Jan Kiwerski
+	POL_Jan_Kiwerski = {
+		name = POL_Jan_Kiwerski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jan_Kiwerski"
+			}
+		}
+		advisor={
+			slot=Chief_of_Navy
+			idea_token=POL_Jan_Kiwerski_CoNavy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jan_Kiwerski_unavailable
+				}
+			}
+			traits = {		
+				CoNavy_Indirect_Approach_Doctrine
+			}
+		}
+	}
+	# Jerzy Swirski
+	POL_Jerzy_Swirski = {
+		name = POL_Jerzy_Swirski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jerzy_Swirski"
+			}
+		}
+		advisor={
+			slot=Chief_of_Navy
+			idea_token=POL_Jerzy_Swirski_CoNavy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jerzy_Swirski_unavailable
+				}
+			}
+			traits = {		
+				CoNavy_Open_Seas_Doctrine
+			}
+		}
+	}
+	# Jozef Unrug
+	POL_CoNavy_Jozef_Unrug = {
+		name = POL_Jozef_Unrug
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jozef_Unrug"
+			}
+		}
+		advisor={
+			slot=Chief_of_Navy
+			idea_token=POL_Jozef_Unrug_CoNavy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jozef_Unrug_unavailable
+				}
+			}
+			traits = {		
+				CoNavy_Indirect_Approach_Doctrine
+			}
+		}
+	}
+	# Francois Sokal
+	POL_Francois_Sokal = {
+		name = POL_Francois_Sokal
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Francois_Sokal"
+			}
+		}
+		advisor={
+			slot=Chief_of_Navy
+			idea_token=POL_Francois_Sokal_CoNavy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1939.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Francois_Sokal_unavailable
+				}
+			}
+			traits = {		
+				CoNavy_Open_Seas_Doctrine
+			}
+		}
+	}
+	# Leon Chajn
+	POL_Leon_Chajn = {
+		name = POL_Leon_Chajn
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Leon_Chajn"
+			}
+		}
+		advisor={
+			slot=Chief_of_Navy
+			idea_token=POL_Leon_Chajn_CoNavy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Leon_Chajn_unavailable
+				}
+			}
+			traits = {		
+				CoNavy_Base_Control_Doctrine
+			}
+		}
+	}
+	# Adam Mohuczy
+	POL_Adam_Mohuczy = {
+		name = POL_Adam_Mohuczy
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Adam_Mohuczy"
+			}
+		}
+		advisor={
+			slot=Chief_of_Navy
+			idea_token=POL_Adam_Mohuczy_CoNavy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1954.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Adam_Mohuczy_unavailable
+				}
+			}
+			traits = {		
+				CoNavy_Open_Seas_Doctrine
+			}
+		}
+	}
+	# Wlodzimierz Steyer
+	POL_Wlodzimierz_Steyer = {
+		name = POL_Wlodzimierz_Steyer
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Wlodzimierz_Steyer"
+			}
+		}
+		advisor={
+			slot=Chief_of_Navy
+			idea_token=POL_Wlodzimierz_Steyer_CoNavy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1944.1.1
+				date < 1958.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Wlodzimierz_Steyer_unavailable
+				}
+			}
+			traits = {		
+				CoNavy_Base_Control_Doctrine
+			}
+		}
+	}
+	# Adam Rapacki
+	POL_Adam_Rapacki = {
+		name = POL_Adam_Rapacki
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Adam_Rapacki"
+			}
+		}
+		advisor={
+			slot=Chief_of_Navy
+			idea_token=POL_Adam_Rapacki_CoNavy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Adam_Rapacki_unavailable
+				}
+			}
+			traits = {		
+				CoNavy_Power_Projection_Doctrine
+			}
+		}
+	}
+	# Iwan Szylingowski
+	POL_Iwan_Szylingowski = {
+		name = POL_Iwan_Szylingowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Iwan_Szylingowski"
+			}
+		}
+		advisor={
+			slot=Chief_of_Navy
+			idea_token=POL_Iwan_Szylingowski_CoNavy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1944.1.1
+				date < 1953.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Iwan_Szylingowski_unavailable
+				}
+			}
+			traits = {		
+				CoNavy_Base_Control_Doctrine
+			}
+		}
+	}
+	# Nikolaj Abramow
+	POL_Nikolaj_Abramow = {
+		name = POL_Nikolaj_Abramow
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Nikolaj_Abramow"
+			}
+		}
+		advisor={
+			slot=Chief_of_Navy
+			idea_token=POL_Nikolaj_Abramow_CoNavy
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Nikolaj_Abramow_unavailable
+				}
+			}
+			traits = {		
+				CoNavy_Indirect_Approach_Doctrine
+			}
+		}
+	}
+	#################################################
+	### Chief of Airforce
+	#################################################
+	# Alfred Chlapowski
+	POL_Alfred_Chlapowski = {
+		name = POL_Alfred_Chlapowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Alfred_Chlapowski"
+			}
+		}
+		advisor={
+			slot=Chief_of_Air
+			idea_token=POL_Alfred_Chlapowski_CoAir
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Alfred_Chlapowski_unavailable
+				}
+			}
+			traits = {		
+				CoAir_Army_Aviation_Doctrine
+			}
+		}
+	}
+	# Sergiusz Abzóltowski
+	POL_Sergiusz_Abzoltowski = {
+		name = POL_Sergiusz_Abzoltowski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Sergiusz_Abzoltowski"
+			}
+		}
+		advisor={
+			slot=Chief_of_Air
+			idea_token=POL_Sergiusz_Abzoltowski_CoAir
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1940.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Sergiusz_Abzoltowski_unavailable
+				}
+			}
+			traits = {		
+				CoAir_Air_Superiority_Doctrine
+			}
+		}
+	}
+	# Józef Zajac
+	POL_Jozef_Zajac = {
+		name = POL_Jozef_Zajac
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Jozef_Zajac"
+			}
+		}
+		advisor={
+			slot=Chief_of_Air
+			idea_token=POL_Jozef_Zajac_CoAir
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Jozef_Zajac_unavailable
+				}
+			}
+			traits = {		
+				CoAir_Air_Superiority_Doctrine
+			}
+		}
+	}
+	# Ludomil Rayski
+	POL_Ludomil_Rayski = {
+		name = POL_Ludomil_Rayski
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Ludomil_Rayski"
+			}
+		}
+		advisor={
+			slot=Chief_of_Air
+			idea_token=POL_Ludomil_Rayski_CoAir
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				A_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Ludomil_Rayski_unavailable
+				}
+			}
+			traits = {		
+				CoAir_Army_Aviation_Doctrine
+			}
+		}
+	}
+	# Stanislaw Pawluc
+	POL_Stanislaw_Pawluc = {
+		name = POL_Stanislaw_Pawluc
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Stanislaw_Pawluc"
+			}
+		}
+		advisor={
+			slot=Chief_of_Air
+			idea_token=POL_Stanislaw_Pawluc_CoAir
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1939.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Stanislaw_Pawluc_unavailable
+				}
+			}
+			traits = {		
+				CoAir_Air_Superiority_Doctrine
+			}
+		}
+	}
+	# Wladyslaw Kalkus
+	POL_Wladyslaw_Kalkus = {
+		name = POL_Wladyslaw_Kalkus
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Wladyslaw_Kalkus"
+			}
+		}
+		advisor={
+			slot=Chief_of_Air
+			idea_token=POL_Wladyslaw_Kalkus_CoAir
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1943.1.1
+				date < 1964.1.1
+				D_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Wladyslaw_Kalkus_unavailable
+				}
+			}
+			traits = {		
+				CoAir_Carpet_Bombing_Doctrine
+			}
+		}
+	}
+	# Ludwik Grosfeld
+	POL_Ludwik_Grosfeld = {
+		name = POL_Ludwik_Grosfeld
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Ludwik_Grosfeld"
+			}
+		}
+		advisor={
+			slot=Chief_of_Air
+			idea_token=POL_Ludwik_Grosfeld_CoAir
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				S_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Ludwik_Grosfeld_unavailable
+				}
+			}
+			traits = {		
+				CoAir_Carpet_Bombing_Doctrine
+			}
+		}
+	}
+	# Czeslaw Bieszczad
+	POL_Czeslaw_Bieszczad = {
+		name = POL_Czeslaw_Bieszczad
+		portraits = {
+			civilian = {
+				small = "GFX_idea_Czeslaw_Bieszczad"
+			}
+		}
+		advisor={
+			slot=Chief_of_Air
+			idea_token=POL_Czeslaw_Bieszczad_CoAir
+			removal_cost = -1
+			allowed = {
+				tag = POL
+			}
+			visible = {
+				date > 1945.1.1
+				date < 1964.1.1
+				C_Minister_Allowed = yes
+				NOT = {
+					has_country_flag =Czeslaw_Bieszczad_unavailable
+				}
+			}
+			traits = {		
+				CoAir_Army_Aviation_Doctrine
+			}
+		}
+	}
+	#######################
+	# Generals
+	#######################
+	POL_Leon_Berbecki = {
+		name = POL_Leon_Berbecki
+		portraits = {
+			army = {
+				large = "GFX_M_Leon_Berbecki"
+			}
+		}
+		corps_commander = {
+			traits = {  old_guard infantry_officer politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}	
+	}
+	POL_Jan_Kruszewski = {
+		name = POL_Jan_Kruszewski
+		portraits = {
+			army = {
+				large = "GFX_M_Jan_Kruszewski"
+			}
+		}
+		corps_commander = {
+			traits = {  politically_connected infantry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}	
+	}
+	POL_Juliusz_Rommel = {
+		name = POL_Juliusz_Rommel
+		portraits = {
+			army = {
+				large = "GFX_M_Juliusz_Rommel"
+			}
+		}
+		corps_commander = {
+			traits = {  old_guard war_hero trait_cautious cavalry_officer cavalry_leader }
+			skill = 2
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}	
+	}
+	POL_Tadeusz_Piskor = {
+		name = POL_Tadeusz_Piskor
+		portraits = {
+			army = {
+				large = "GFX_M_Tadeusz_Piskor"
+			}
+		}
+		corps_commander = {
+			traits = {  infantry_officer trait_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}	
+	}
+	POL_Stefan_Dab_Biernacki = {
+		name = POL_Stefan_Dab_Biernacki
+		portraits = {
+			army = {
+				large = "GFX_M_Stefan_Dab_Biernacki"
+			}
+		}
+		corps_commander = {
+			traits = {  old_guard politically_connected harsh_leader substance_abuser }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}	
+	}
+	POL_Gustaw_Orlicz_Dreszer = {
+		name = POL_Gustaw_Orlicz_Dreszer
+		portraits = {
+			army = {
+				large = "GFX_M_Gustaw_Orlicz-Dreszer"
+			}
+		}
+		corps_commander = {
+			traits = {  politically_connected }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}	
+	}
+	POL_Antoni_Szyling = {
+		name = POL_Antoni_Szyling
+		portraits = {
+			army = {
+				large = "GFX_M_Antoni_Szyling"
+			}
+		}
+		corps_commander = {
+			traits = { inflexible_strategist old_guard trickster }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 2
+		}	
+	}
+	POL_Wiktor_Thomee = {
+		name = POL_Wiktor_Thomee
+		portraits = {
+			army = {
+				large = "GFX_M_Wiktor_Thomee"
+			}
+		}
+		corps_commander = {
+			traits = {  harsh_leader organizer commando }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
+		}	
+	}
+	POL_Franciszek_Kleeberg = {
+		name = POL_Franciszek_Kleeberg
+		portraits = {
+			army = {
+				large = "GFX_M_Franciszek_Kleeberg"
+			}
+		}
+		corps_commander = {
+			traits = {  infantry_officer infantry_leader swamp_fox }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}	
+	}
+	POL_Tadeusz_Kutrzeba = {
+		name = POL_Tadeusz_Kutrzeba
+		portraits = {
+			army = {
+				large = "GFX_M_Tadeusz_Kutrzeba"
+			}
+		}
+		corps_commander = {
+			traits = {  brilliant_strategist career_officer skilled_staffer trait_engineer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}	
+	}
+	POL_Wladyslaw_Bortnowski = {
+		name = POL_Wladyslaw_Bortnowski
+		portraits = {
+			army = {
+				large = "GFX_M_Wladyslaw_Bortnowski"
+			}
+		}
+		corps_commander = {
+			traits = {  media_personality politically_connected organizer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}	
+	}
+	POL_Wilhelm_Orlik_Ruckemann= {
+		name = POL_Wilhelm_Orlik_Ruckemann
+		portraits = {
+			army = {
+				large = "GFX_M_Wilhelm_Orlik-Ruckemann"
+			}
+		}
+		corps_commander = {
+			traits = {  panzer_leader commando }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}	
+	}
+	POL_Emil_Krukowicz_Przedrzymirski = {
+		name = POL_Emil_Krukowicz_Przedrzymirski
+		portraits = {
+			army = {
+				large = "GFX_M_Emil_Krukowicz-Przedrzymirski"
+			}
+		}
+		corps_commander = {
+			traits = {  organizer inflexible_strategist }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}	
+	}
+	POL_Mieczysaw_Boruta_Spiechowicz = {
+		name = POL_Mieczysaw_Boruta_Spiechowicz
+		portraits = {
+			army = {
+				large = "GFX_M_Mieczysaw_Boruta-Spiechowicz"
+			}
+		}
+		corps_commander = {
+			traits = {  trait_mountaineer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}	
+	}
+}

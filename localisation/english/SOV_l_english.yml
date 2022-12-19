@@ -1692,7 +1692,7 @@
  SOV_Invested_Significant_Resources: "Invested §GSignificant§! §YResources§!"
  SOV_Invested_Medium_Resources: "Invested §LMedium§! §YResources§!"
  SOV_Invested_Minor_Resources: "Invested §RMinor§! §YResources§!"
- SOV_Sowing_Warning: "§RIf we don't Invest, the People'll Starve§!"
+ SOV_Sowing_Warning: "§RIf we don't invest, the people will starve§!"
 
  # Harvest of "Year"
  SOV_Harvest_category: "Harvest of [GetYear]"

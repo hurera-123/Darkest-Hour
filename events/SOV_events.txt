@@ -873,11 +873,11 @@ country_event = {
 		# remove_unit_leader = 406 #gordey_levchenko, naval commander
 		custom_effect_tooltip = soviet.27_tt
 		hidden_effect = {
-			remove_ideas = SOV_Nikolai_I_Yezhov
-			remove_ideas = SOV_CoAir_Yakov_Smushkevich
-			remove_ideas = SOV_CoAir_Pavel_V_Rychagov
-			remove_ideas = SOV_CoAir_Alexander_A_Novikov
-			remove_ideas = SOV_HC_Gordey_Levchenko
+			set_country_flag = Nikolai_I_Yezhov_unavailable
+			set_country_flag = Yakov_Smushkevich_unavailable
+			set_country_flag = Pavel_V_Rychagov_unavailable
+			set_country_flag = Alexander_A_Novikov_unavailable
+			set_country_flag = Gordey_Levchenko_unavailable
 		}
 	}
 	# As we suspected, enemies are everywhere!
@@ -2872,7 +2872,7 @@ country_event = {
 					SUBIDEOLOGY_Stalinism
 				}
 			}
-			add_ideas = POL_D_Boleslaw_Bierut
+			add_ideas = POL_Boleslaw_Bierut_HoG
 		}
 		set_autonomy = {
 			target = POL
@@ -2911,7 +2911,7 @@ country_event = {
 					SUBIDEOLOGY_Stalinism
 				}
 			}
-			add_ideas = POL_D_Boleslaw_Bierut
+			add_ideas = POL_Boleslaw_Bierut_HoG
 		}
 		set_autonomy = {
 			target = POL

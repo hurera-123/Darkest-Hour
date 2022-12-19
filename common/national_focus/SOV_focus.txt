@@ -171,7 +171,7 @@ focus_tree = {
 			air_experience = 25
 			add_tech_bonus = {
 				bonus = 0.15
-				amount = 1
+				uses = 1
 				category = light_air
 				category = medium_air
 				category = heavy_air
@@ -909,7 +909,6 @@ focus_tree = {
 		relative_position_id = SOV_The_Second_Five_Year_Plan
 		completion_reward = {
 			add_ideas = SOV_Industrial_Ethos
-			add_political_power = 50
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -928,7 +927,6 @@ focus_tree = {
 				money_to_gain = -200
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
-			add_political_power = -50
 			swap_ideas = {
 				remove_idea = SOV_Industrial_Ethos
 				add_idea = SOV_Industrial_Ethos1
@@ -2447,7 +2445,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = SOV_The_Second_Five_Year_Plan
 		completion_reward = {
-			add_political_power = 50
 			219 = {
 				add_building_construction = {
 					type = industrial_complex
@@ -2539,7 +2536,6 @@ focus_tree = {
 		y = 2
 		relative_position_id = SOV_The_Second_Five_Year_Plan
 		completion_reward = {
-			add_political_power = 50
 			swap_ideas = {
 				remove_idea = industrializing_economy
 				add_idea = planned_economy
@@ -3899,7 +3895,12 @@ focus_tree = {
 		x = -1
 		y = 1
 		completion_reward = {
-			
+			USA = { 
+				country_event = { id = Yalta_Conference.1 days = 1 } 
+			}
+			ENG = { 
+				country_event = { id = Yalta_Conference.2 days = 1 } 
+			}
 		}
 	}
 	focus = {
