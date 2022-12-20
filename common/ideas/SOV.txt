@@ -204,7 +204,7 @@ ideas = {
 
 			modifier = {
 				conscription_factor = -0.05
-				political_power_gain = 0.25
+				political_power_gain = 0.15
 				war_support_factor = -0.05
 			}
 		}
@@ -1967,7 +1967,7 @@ ideas = {
 			}
 		}
 
-		SOV_Tukhachevsky_Povorot = {
+		SOV_Tukhachevsky_Reforms = {
 			allowed = {
 				always = no
 			}
@@ -1978,7 +1978,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_Tukhachevsky_Povorot
+			picture = GFX_idea_SOV_Tukhachevsky_Reforms
 
 			modifier = {
 				political_power_gain = -0.1
@@ -1989,7 +1989,7 @@ ideas = {
 			}
 		}
 
-		SOV_Tukhachevsky_Povorot_2 = {
+		SOV_Tukhachevsky_Reforms_2 = {
 			allowed = {
 				always = no
 			}
@@ -2000,7 +2000,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_Tukhachevsky_Povorot
+			picture = GFX_idea_SOV_Tukhachevsky_Reforms
 
 			modifier = {
 				political_power_gain = -0.1
@@ -2023,7 +2023,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture =
+			picture = "GFX_idea_saf_soviet_advisers"
 
 			modifier = {
 				max_command_power = 50
@@ -2044,7 +2044,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture =
+			picture = "GFX_idea_generic_acquire_tanks"
 
 			modifier = {
 				army_armor_attack_factor = 0.15
@@ -2064,7 +2064,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = 
+			picture = GFX_
 
 			modifier = {
 				army_infantry_attack_factor = 0.15
@@ -2085,7 +2085,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = 
+			picture = "GFX_idea_man_five_year_plan_tank"
 
 			equipment_bonus = {
 				armor_equipment = {
@@ -2106,7 +2106,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = 
+			picture = "GFX_idea_SOV_war_heroes"
 
 			modifier = {
 				army_org_factor = 0.05
@@ -2125,7 +2125,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_war_heroes
+			picture = "GFX_idea_SOV_war_heroes"
 
 			modifier = {
 				army_infantry_attack_factor = 0.1
