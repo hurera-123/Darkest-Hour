@@ -2895,6 +2895,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_P_D_Paul_Reynaud"
+        texturefile = "gfx/leaders/FRA/P_D_Paul_Reynaud.png"
+    }
+
+    spriteType = {
         name = "GFX_P_D_Pierre_Laval"
         texturefile = "gfx/leaders/FRA/P_D_Pierre_Laval.png"
     }
