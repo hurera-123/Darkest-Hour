@@ -131,7 +131,7 @@ guiTypes = {
 			maxWidth = 161
 			maxHeight = 45
 			format = center
-			vertical_alignment = center
+			vertical_alignment = bottom
 			text_color_code = W
 			alwaystransparent = yes
 		}
