@@ -1646,7 +1646,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_timed_idea = {
-				idea = SOV_Tukhachevsky_Povorot
+				idea = SOV_Tukhachevsky_Reforms
 				days = 600
 			}
 		}
@@ -1697,8 +1697,8 @@ focus_tree = {
 		relative_position_id = SOV_Tukhachevskys_Reformists
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = SOV_Tukhachevsky_Povorot
-				add_idea = SOV_Tukhachevsky_Povorot_2
+				remove_idea = SOV_Tukhachevsky_Reforms
+				add_idea = SOV_Tukhachevsky_Reforms_2
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }

@@ -2419,9 +2419,9 @@ country_event = {
 				has_country_leader = {
 					name = "Winston Churchill"
 				}
-				has_idea = ENG_D_Winston_Churchill
-				# has_idea = ENG_FM_Winston_Churchill
-				has_idea = ENG_AM_Winston_Churchill
+				has_idea = ENG_Winston_Churchill_HoG
+				# has_idea = ENG_Winston_Churchill_FM
+				has_idea = ENG_Winston_Churchill_AM
 			}
 		}
 		hidden_effect = {
@@ -2548,9 +2548,9 @@ country_event = {
 				has_country_leader = {
 					name = "Winston Churchill"
 				}
-				has_idea = ENG_D_Winston_Churchill
-				# has_idea = ENG_FM_Winston_Churchill
-				has_idea = ENG_AM_Winston_Churchill
+				has_idea = ENG_Winston_Churchill_HoG
+				# has_idea = ENG_Winston_Churchill_FM
+				has_idea = ENG_Winston_Churchill_AM
 			}
 		}
 		ai_chance = {
@@ -2690,9 +2690,9 @@ country_event = {
 				has_country_leader = {
 					name = "Winston Churchill"
 				}
-				has_idea = ENG_D_Winston_Churchill
-				# has_idea = ENG_FM_Winston_Churchill
-				has_idea = ENG_AM_Winston_Churchill
+				has_idea = ENG_Winston_Churchill_HoG
+				# has_idea = ENG_Winston_Churchill_FM
+				has_idea = ENG_Winston_Churchill_AM
 			}
 		}
 		set_country_flag = Irish_Trade_War_Denied

@@ -3331,6 +3331,11 @@ country_event = {
 	}
 	option = {
 		name = SOV_Airforce.2.B
-		
+		add_ace = {
+			name = "Marina"
+			surname = "Raskova"
+			type = bomber_unique
+			is_female = yes
+		}
 	}
 }

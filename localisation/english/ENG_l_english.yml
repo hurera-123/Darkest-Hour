@@ -261,8 +261,8 @@
  ENG_Abdication_Crisis.11.E: ""
 
  ENG_Abdication_Crisis.12.t: "The King Relents"
- ENG_Abdication_Crisis.12.d: ""
- ENG_Abdication_Crisis.12.A: ""
+ ENG_Abdication_Crisis.12.d: "King Edward has announced today, in front of the British cabinet and representatives from the other Dominion governments, that he will abandon his plans to marry Wallis Simpson. Seeing how his plans had received almost no support from either the government or the general public, Edward realised that he could not prioritise his own needs and desires over the needs and desires of the country. He understands that if he marries against the advice of his ministers, the government will resign, resulting in a constitutional crisis.\n\nThe announcement stunned the entire room, eliciting roaring applause and relief from nearly every cabinet member, and has greatly improved King Edward's standing and reputation among both the British cabinet and the general public."
+ ENG_Abdication_Crisis.12.A: "A woman is not as important as the Kingdom."
 
  ENG_Abdication_Crisis.13.t: "The Coronation of Edward VIII" # No wedding, Wallis abandoned
  ENG_Abdication_Crisis.13.d: "[FROM.GetNewsIcon]After months of tension that threatened a possible constitutional crisis, Edward VIII was crowned today as King of the United Kingdom and the Dominions of the British Commonwealth.\n\nFor several months prior to the coronation, the King and the British government were at odds. Soon after taking over for his father, Edward proposed to American socialite Wallis Simpson, who was going through a divorce at the time. The Church of England, which forbade divorced people from marrying, rejected the idea, but the King persisted and proposed a morganatic union instead. However, the British government and the dominions either flatly rejected or were skeptical of his marriage proposal. After the government threatened to resign if he went ahead with the marriage, Edward caved in and ended his relationship with Simpson.\n\nTens of thousands of people attended the planned coronation when Edward VIII took the oath and assumed the crown. Memorabilia were sold out rapidly as the British people wanted something to remember for the historic and controversial coronation. Several observers noted that the new monarch appeared unhappy during the proceedings, glancing repeatedly to his side as though someone ought to be standing with him."
@@ -298,11 +298,12 @@
  ENG_Abdication_Crisis.20.A: ""
 
  ENG_Abdication_Crisis.22.t: "The Coronation of Edward VIII" # Morganatic Marriage
- ENG_Abdication_Crisis.22.d: "[FROM.GetNewsIcon]"
- ENG_Abdication_Crisis.22.B: ""
- ENG_Abdication_Crisis.22.C: ""
- ENG_Abdication_Crisis.22.D: ""
- ENG_Abdication_Crisis.22.E: ""
+ ENG_Abdication_Crisis.22.d: "[FROM.GetNewsIcon]Despite initial strong opposition from his ministers and advisors, King Edward VIII has decided to marry American socialite Wallis Simpson in a morganatic marriage. He will remain king in this marriage, but Simpson will not become queen consort. Instead, she will be given a lesser title, and any children they have will not inherit the throne.\n\nThe views of the other governments were sought in accordance with the Statute of Westminster 1931, which stated that \"any change in the law touching the Succession to the Throne or the Royal Style and Titles shall hereafter require the assent of the Parliaments of all the Dominions as well as the Parliament of the United Kingdom.\" The Prime Minister of Australia, among some others, stated his opposition to the king marrying a divorcee.\n\nWhen confronted with this opposition, Edward responded that there are \"not many people in Australia\" and their opinion does not matter. Some ministers are already resigning, raising the question: Is the United Kingdom on the verge of a constitutional crisis, or will the government hold?"
+ ENG_Abdication_Crisis.22.A: "Was it the right decision?"
+ ENG_Abdication_Crisis.22.B: "Was it the right decision?"
+ ENG_Abdication_Crisis.22.C: "Was it the right decision?"
+ ENG_Abdication_Crisis.22.D: "Was it the right decision?"
+ ENG_Abdication_Crisis.22.E: "If faith can move mountains, love can move the world."
 
  ######################################################################
  #  Crumbling Empire Events
@@ -370,51 +371,51 @@
  ENG_Oxford_Election.1.B: "A dignified end is the best he can hope for."
  
  ENG_Oxford_Election.2.t: "The Necessary Prerequisite"
- ENG_Oxford_Election.2.d: ""
- ENG_Oxford_Election.2.A: ""
+ ENG_Oxford_Election.2.d: "Foreign Secretary John Simon has decided to resign in order to run for Chancellor of Oxford University and avoid criticism for his previous failures. His replacement, and the new Foreign Secretary, is National Liberal MP Walter Runciman, the former President of the Board of Trade, with many predicting him as the most obvious choice.\n\nSimon has now fully committed to becoming the new Chancellor of Oxford University, and despite his deep unpopularity, he must do everything in his power to beat the current favourite Lord Irwin for the position.\n\nNow that Walter Runciman has taken over as Foreign Secretary, a new President of the Board of Trade must be found. And we already have the perfect candidate in mind."
+ ENG_Oxford_Election.2.A: "Make sure to bring your best cigars."
  
  ENG_Oxford_Election.3.t: "Churchill's Return from the Wilderness"
  ENG_Oxford_Election.3.d: "Politicians have been defeated before. It is hardly unusual that every day some aspiring future leader of our nation is crushed in the wake of his foes and disappears from the political realm. It is just rare that one can recover from such depths - as Winston Churchill is about to do.\n\nAn influential and charismatic Liberal Member of Parliament when the Great War began, Churchill was made the First Lord of the Admiralty, tasked with overseeing Britain's naval effort. However, his downfall came swift - and in the form of the Gallipoli Campaign. A quick attack designed to knock the Ottomans out of the war spiralled into a stalemate, and as Allied forces were ordered to retreat, criticism rained down on Churchill. Holding numerous other cabinet offices since then, culminating in a short, but ultimately disastrous stint as the Conservative Chancellor of the Exchequer, his downward spiral reached its rock bottom conclusion in 1929 when Labour won the general election. The Conservatives were out - along with Churchill, who barely managed to hold his Epping seat. In the years since then, he has been roaming the political wilderness, with his calls for greater efforts to rearm the nation furthering his condemnation into political isolation.\n\nOnly now has he been presented with a chance to serve the country once again and rehabilitate his image. As the replacement for Walter Runciman, the Presidency of the Board of Trade will afford Churchill the chance to show off his political skill and experience, but most importantly, allow him to form a loyal base of support throughout the Conservative Party, one that will vigorously back his calls for national rearmament and a strong, unyielding presence on the global stage.\n\nIt can only be onwards and upwards from here for Churchill. This could be his last chance."
  ENG_Oxford_Election.3.A: "Had a nice trip, Winston?"
  
  ENG_Oxford_Election.4.t: "Simon's Folly"
- ENG_Oxford_Election.4.d: ""
- ENG_Oxford_Election.4.A: ""
+ ENG_Oxford_Election.4.d: "Failure. Lord Irwin will replace Viscount Grey as Chancellor of Oxford University. Simon should have seen this coming, as Lord Irwin had been the favourite candidate from the start, and he still has his disastrous past and deep unpopularity hanging over his head.\n\nLord Irwin, senior Conservative politician, former Viceroy of India, firm protégé of Stanley Baldwin, former President of the Board of Education and Master of the Middleton Hunt, and now Chancellor of Oxford University, has emerged on top.\n\nSimon is now left with nothing. He had given up his position as Foreign Secretary to become Chancellor of Oxford University, only to fail miserably and lose everything. He hoped to escape his past, but it appears that it will follow him until the end. Simon's future is uncertain, so it's time for him to look for a new occupation. Perhaps he could once again run for the position and succeed Lord Irwin sometime in the future."
+ ENG_Oxford_Election.4.A: "The past haunts us all."
  
  ENG_Oxford_Election.5.t: "A Worthwhile Endeavour"
- ENG_Oxford_Election.5.d: ""
- ENG_Oxford_Election.5.A: ""
+ ENG_Oxford_Election.5.d: "Success! Viscount Grey will be succeeded as Chancellor of Oxford University by John Simon. He thought he was doomed to lose the position to Lord Irwin because of his past and because Lord Irwin has been the favourite from the start with an excellent reputation, the polar opposite of his own, but he has successfully managed to beat Lord Irwin.\n\nNow, as Chancellor of Oxford University, Simon has the opportunity to break free from his past and start over. He will redeem himself, creating a new image and reputation that he will not allow himself to destroy this time.\n\nHis dedication paid off, and he may now be remembered as a Chancellor of Oxford University rather than a failed Foreign Secretary."
+ ENG_Oxford_Election.5.A: "A chance at redemption."
 
 ######################################################################
 #  British Military Tree Events
 ######################################################################
  ENG_Military_Tree.1.t: "A Waning Power"
- ENG_Military_Tree.1.d: ""
- ENG_Military_Tree.1.A: ""
+ ENG_Military_Tree.1.d: "For too long now, the British Imperial Army has been underfunded and undertrained. Years of almost unbroken peace has led to the poor state of the British Army, and it is now a shadow of what it once was.\n\nBut, after many governments unwilling to increase funds that are necessary for its survival and maintenance, it is time to give it the resources it needs to lift it out of its dire situation. A few experts have succeeded in learning how to improve the situation in the Army, and we must learn from them if we are to stop its decay.\n\nNow, the decision to refund, retrain, and modernise our army is under the hands of our Prime Minister and our War cabinet, both ready to lead us to the future."
+ ENG_Military_Tree.1.A: "If the sun never sets on the empire, it makes sense that it never sets on the army either."
  
  ENG_Military_Tree.2.t: "The Legacy of the Great War"
  ENG_Military_Tree.2.d: "The public's yearning for peace is growing, but our military's quality is deteriorating as a result of the sacrifices made by our best troops and generals in the past decades. The public now can advocate that either the military be reformed, or that we never rearm.\nThe Great War, which forced us to lose control of our colonies, had a significant impact on our economy. Even Irish independence dealt us a heavy blow at the same time.\nThe government is also in jeopardy. Fascists, communists, and even the bloody Labour Party want to enter into politics. These politicians are skillful at inciting public support before grabbing power.\nAs a result, we can only take advantage of opportunities for peaceful development when we try to avoid conflict.\nWe will not join  another war under any circumstances; we need peace and stability!"
  ENG_Military_Tree.2.A: "Ideally, we will never have a Great War again."
  
  ENG_Military_Tree.3.t: "The New Defenders of Albion"
- ENG_Military_Tree.3.d: ""
- ENG_Military_Tree.3.A: ""
+ ENG_Military_Tree.3.d: "During the Great War, a new sort of warfare emerged. The fights in the skies, formerly reserved to the old Celtic and Nordic Gods, have now also been conquered by their human successors.\n\nTo fight the Germans during the last war, we formed the Royal Air Force, or RAF, which is the flagship of British aviation, as well as a proud example of British engineering and military prowess.\n\nNow, as war approaches the British lands again, it is time for the government to fund our branch, thus to give us the abilities to protect not only our soldiers on the battlefront, but also our homes in the isles. It is time to warm up the engines again."
+ ENG_Military_Tree.3.A: "Let our flying shields accomplish their destiny! The Red Baron won’t rise again!"
  
  ENG_Military_Tree.4.t: "Embracing Modern Warfare"
- ENG_Military_Tree.4.d: ""
- ENG_Military_Tree.4.A: ""
+ ENG_Military_Tree.4.d: "In the lost fields of the Great War, Britain led the way in more than one domain. In fact, some of the first tank engines were created and driven by British soldiers and engineers!\n\nHowever, since then, tank development hasn't seen as much funding as it should've, and some of our tanks corps drive outdated models. On the other hand, the Germans have been developing and refining a new doctrine based around tank warfare calling it “Blitzkrieg”, or the Lightning War in our language.\n\nNow, it is time for the British Crown to give some love again to its steel child, before sending it to fight for Britain in battlefields all around the world. The wars of tomorrow will be won by the choices we make today, especially in the field of tank warfare."
+ ENG_Military_Tree.4.A: "What’s better than a man in armour? Thousands of men in indestructible armour, with immense firepower!"
  
  ENG_Military_Tree.5.t: "Our Weakening Rule"
- ENG_Military_Tree.5.d: ""
- ENG_Military_Tree.5.A: ""
+ ENG_Military_Tree.5.d: "With the question of the modernisation of our armies comes the question of what we should do when that goal is achieved. Yes, the real opponents in the European front are major powers and their allied nations, but in the future, who can say that this situation will not evolve? If a power like Germany can rearm and modernise herself in less than twenty years, then it is pretty clear that Britain needs a powerful upgrade of its own capacities, a project that should start as soon as possible!\n\nIt is inevitable that if the major powers are modernising, so too will our colonies. But this also means that if the colonies modernise themselves, so too will the rebels. We can’t allow this to happen. We need to protect every jewel of the Crown, now and forever!\n\nThe British Empire will protect its subjects across the world, from the icy lands of Canada, to the arid lands of Australia, the multicultural lands of South Africa, and the multi-religious lands of the Raj!"
+ ENG_Military_Tree.5.A: "The sun will never set on the British Empire. We won't allow it."
  
  ENG_Military_Tree.6.t: "Hart's Doctrinal Purity"
  ENG_Military_Tree.6.d: ""
  ENG_Military_Tree.6.A: ""
  
  ENG_Military_Tree.7.t: "A New Expeditionary Force"
- ENG_Military_Tree.7.d: ""
- ENG_Military_Tree.7.A: ""
+ ENG_Military_Tree.7.d: "Years ago, the British Expeditionary Force, or BEF, were the first British soldiers sent into Europe after the beginning of the Great War. Despite their greatness and the feats they have accomplished across history, time was not been kind to them, and they were dissolved a few years after the war, as another one was deemed unfathomable.\n\nBut now, with conflict looming over the continent, some think that it is time to form a new British Expeditionary Force. We should fund this project, and show to our allies that we will never let them fight alone!\n\nThe advantage of reforming a group dissolved years ago is that you can bring two things: young, fresh troops, and a complete modernisation of the force. If in the last war they were considered as the elites of our army, today, they will be at best considered soldiers. Therefore, it is crucial that we equip them, train them, and, of course, familiarise them with the new tactics of war."
+ ENG_Military_Tree.7.A: "Call Field Marshall Vereker, we have an important mission for him."
  
  ENG_Military_Tree.8.t: "A Storm of Lightning and Thunder"
  ENG_Military_Tree.8.d: ""
@@ -460,30 +461,30 @@
 #  Irish Trade War
 ######################################################################
  ENG_Irish_Trade_War.1.t: "A Willingness to Back Down"
- ENG_Irish_Trade_War.1.d: ""
- ENG_Irish_Trade_War.1.A: "De-Escalating the Situation Would be Mutually Beneficial"
- ENG_Irish_Trade_War.1.B: "We Must Mantain the Economic Pressure"
+ ENG_Irish_Trade_War.1.d: "A delegation from the Irish Free State arrived in London today to express the Irish government's willingness to soften its aggressive stance in our trade dispute in exchange for relief, as their fledgling economy cannot withstand our 20% import tax on their goods, specifically their livestock. The Irish Free State, according to the delegation, is willing to negotiate a mutually beneficial agreement to reduce tensions between our two countries. While the Irish economic conflict has far less of an impact than it does on them, having an upset Ireland to our west may cause complications in the future."
+ ENG_Irish_Trade_War.1.A: "De-escalating the situation would be mutually beneficial"
+ ENG_Irish_Trade_War.1.B: "We must maintain the economic pressure"
 
  ENG_Irish_Trade_War.2.t: "The Coal-Cattle Pact is Signed"
- ENG_Irish_Trade_War.2.d: "[FROM.GetNewsIcon]"
- ENG_Irish_Trade_War.2.A: ""
- ENG_Irish_Trade_War.2.B: ""
- ENG_Irish_Trade_War.2.C: ""
+ ENG_Irish_Trade_War.2.d: "[FROM.GetNewsIcon]With the decision to sign the Coal-Cattle Pact, tensions between the United Kingdom as well as the Irish Free State have begun to alleviate. Due to an enormous surplus of livestock that had accumulated, Irish farmers were becoming compelled to slaughter their cattle, and the dilemma was beginning to spiral out of control. With the declaration of this pact, all tax duties levied on British coal and Irish cattle have been eliminated, enormously benefiting the Free State's economy.\n\nThe Free Irish State appears to be more willing to soften their aggressive stance on the trade war, and there are rumours of ongoing discussions between both countries' leaders concerning further cooperation to end the conflict. With the German Reich's announcement of the Luftwaffe and Italy's growing forces in the Horn of Africa, Europe's political situation is becoming strained, and Neville Chamberlain is eager to shift the focus of the United Kingdom to more pressing issues."
+ ENG_Irish_Trade_War.2.A: "Let us hope this signals the end of the trade war."
+ ENG_Irish_Trade_War.2.B: "Let us hope this signals the end of the trade war."
+ ENG_Irish_Trade_War.2.C: "Let us hope this signals the end of the trade war."
 
  ENG_Irish_Trade_War.3.t: "A Return to the Table"
- ENG_Irish_Trade_War.3.d: ""
- ENG_Irish_Trade_War.3.A: "Further De-Escalation is Necessary"
- ENG_Irish_Trade_War.3.B: "Deny Them Any Concessions"
+ ENG_Irish_Trade_War.3.d: "The Irish Free State has expressed its intention to continue introducing negotiations to end the trade war conclusively since the decision to sign the Coal-Cattle pact. With the recent concerning political developments in both the German Reich and Italy becoming more tense by the month, a resolution to this dispute would allow our ministers to concentrate on more pressing matters. While the Irish negotiators are likely to be abrasive in their demands, our diplomats are confident that if we choose to commence talks, we will be able to establish a firm foothold. Should [IRE.GetLeader] be welcomed to London?"
+ ENG_Irish_Trade_War.3.A: "Further de-escalation is necessary"
+ ENG_Irish_Trade_War.3.B: "Deny them any concessions"
 
  ENG_Irish_Trade_War.4.t: "The Irish Crawl Back"
  ENG_Irish_Trade_War.4.d: ""
- ENG_Irish_Trade_War.4.A: "Some Relief May Be What's Needed"
- ENG_Irish_Trade_War.4.B: "Deny Them Any Concessions Whatsoever"
+ ENG_Irish_Trade_War.4.A: "Some relief may be what's needed"
+ ENG_Irish_Trade_War.4.B: "Deny them any concessions whatsoever"
 
  ENG_Irish_Trade_War.5.t: "The Financial, Trade and Defence Terms"
- ENG_Irish_Trade_War.5.d: ""
- ENG_Irish_Trade_War.5.A: "These Terms Are Acceptable"
- ENG_Irish_Trade_War.5.B: "We Cannot Accept These Alterations to Defence Policy"
+ ENG_Irish_Trade_War.5.d: "Several terms and agreements have been discussed today during a series of negotiations with [IRE.GetLeader], who brought Seán Lemass and James Ryan to assist and support with the discussions. The focus has centred on the financial, trade, and defence sectors. A draft agreement has been written, which states that all tax duties imposed during the previous five years will be lifted, with [IRE.GetLeader] consenting to a one-time compensation of £10 million while retaining the authority to impose tariffs on our imports to safeguard their newly established industries. A free-trade agreement will also be included to strengthen our relationship with the Free State. The surrender of the treaty ports of Berehaven, Spike Island, and Lough Swilly, which we retained in 1921, is perhaps one of, if not the, most notable feature of the terms. Should we agree to this deal?"
+ ENG_Irish_Trade_War.5.A: "These terms are acceptable"
+ ENG_Irish_Trade_War.5.B: "We cannot accept these alterations to defence policy"
 
  ENG_Irish_Trade_War.6.t: "The Irish Financial and Trade Terms"
  ENG_Irish_Trade_War.6.d: ""
@@ -775,38 +776,38 @@
  ENG_Baldwin_Events.1.A: "Let us hope for a good deal!"
 
  ENG_Baldwin_Events.2.t: "A New Governmental Mandate"
- ENG_Baldwin_Events.2.d: ""
- ENG_Baldwin_Events.2.A: ""
+ ENG_Baldwin_Events.2.d: "Recently, Prime Minister Stanley Baldwin has called a General Election to be held soon. This decision was followed by weeks of campaigning by both major political parties, each trying to win key constituencies that could tilt the balance of Parliament in their favour.\n\nThe principal subject of the aforementioned elections was about important matters: should we pursue a more aggressive rearmament or should we continue for peaceful politics? It is an important question that needs to be answered during the General Election.\n\nWhat policy decision we choose is best to get behind could determine the fate of the National Government, so we must be careful, and with the British voters poised to head to the polls, they will be watching what we say ever more closely."
+ ENG_Baldwin_Events.2.A: "We should opt for an appeasement policy: there is no need to anger Germany..."
 
  ENG_Baldwin_Events.3.t: "Chamberlain's Counsel"
- ENG_Baldwin_Events.3.d: ""
- ENG_Baldwin_Events.3.A: "We Must Promise No Great Armaments"
+ ENG_Baldwin_Events.3.d: "Neville Chamberlain arrived today to meet with Prime Minister Stanley Baldwin. Contrary to appearances, his visit was not coincidental, and the chancellor of the exchequer has clearly advised him to support the rearmament against Germany on the campaign trail. Chamberlain believes that this would be a good way to show Europe that the UK would be ready for any escalation in tensions across the continent.\n\nDespite this, Baldwin maintained his positions, claiming that despite his good intentions against any European threat, this policy will never gain enough support in the population, let alone within the government."
+ ENG_Baldwin_Events.3.A: "We must promise no great armaments"
 
  ENG_Baldwin_Events.4.t: "A Pacifistic Focus"
- ENG_Baldwin_Events.4.d: ""
- ENG_Baldwin_Events.4.A: ""
+ ENG_Baldwin_Events.4.d: "Despite recent advice from friends and colleagues, Stanley Baldwin has chosen the focal point of his current campaign. He wants to focus on the League of Nations, modernising British defences, and, of course, housing the homeless, putting the unemployed to work, and thus ending the effects of the Great Depression in the United Kingdom.\n\nDespite the protestations of a minority, the campaign should be won without much resistance."
+ ENG_Baldwin_Events.4.A: "The march toward peace has begun."
 
  ENG_Baldwin_Events.5.t: "A Large But Weakening Majority"
- ENG_Baldwin_Events.5.d: ""
- ENG_Baldwin_Events.5.A: ""
+ ENG_Baldwin_Events.5.d: "Despite the election's significant results, it appears that British public opinion is as volatile as the wind. In fact, despite having a large majority, Stanley Baldwin appears to have lost some support two weeks after his last announcement.\n\nThe election has revealed that while still possessing a healthy majority in Parliament, the National Government has certainly been weakened, whether that be due to its reaction to the Great Depression, or for being weak on foreign policy. With that however, comes for a chance for Baldwin to reflect on the campaign and to forge ahead with the plans that he seeks to put forward."
+ ENG_Baldwin_Events.5.A: "A win is still a win, right?"
 
  ENG_Baldwin_Events.6.t: "Taking Advantage"
- ENG_Baldwin_Events.6.d: ""
- ENG_Baldwin_Events.6.A: "More and More Homes"
- ENG_Baldwin_Events.6.B: "Focus Efforts on Road and Highway Development"
- ENG_Baldwin_Events.6.C: "Direct Focus to Industrial Strengthening"
+ ENG_Baldwin_Events.6.d: "The Great Depression has clearly taken its toll on the British family. Many families lack a proper place to live where they will not be forced to leave on short notice. If the husband is lucky enough to have a job to go to in the morning, he is frequently forced to travel on the dilapidated British road network, which is completely unfit to handle the volumes and strains placed on it by modern society. Should he survive the perilous journey across town, he may be greeted with a pink slip and an apology as his struggling factory closes its doors for the final time.\n\nWith the funds from the National Government's drive to resuscitate the floundering economy, we have the opportunity to begin hammering away at this cornucopia of economic woes. But because our coin purse is not infinite, we must be prudent in where we invest the limited resources we have at our disposal. What should we start with, Mr. Prime Minister?"
+ ENG_Baldwin_Events.6.A: "The working man needs a home to come back to!"
+ ENG_Baldwin_Events.6.B: "The working man needs safe and efficient roads!"
+ ENG_Baldwin_Events.6.C: "The working man needs to be able to put bread on the table!"
 
  ENG_Baldwin_Events.7.t: "Continuing the Southern Housing Boom"
- ENG_Baldwin_Events.7.d: ""
- ENG_Baldwin_Events.7.A: ""
+ ENG_Baldwin_Events.7.d: "We have managed to propel the nascent housing boom in Southern England as a result of our wise investment in the vital housing sector. New housing developments are springing up left, right, and centre in towns ranging from Dover to Bristol. With the increase in affordable housing, fewer and fewer people are forced to live in squalid "homes" or, worse, with their dreaded in-laws.\n\nWith this, our housing construction campaign has been declared a great success, and the government has begun to turn its attention to other more pressing matters. While only a small dent in the overall effects of the Great Depression, we can sleep well tonight knowing that our relief funds were wisely invested."
+ ENG_Baldwin_Events.7.A: "I hope they rest easy in their beds, too."
 
  ENG_Baldwin_Events.8.t: "For Miles and Miles"
- ENG_Baldwin_Events.8.d: ""
- ENG_Baldwin_Events.8.A: ""
+ ENG_Baldwin_Events.8.d: "Even in the best of times, much of the existing network was underdeveloped, and it was never really ready to handle the advent of the automobile, and it then suffered increasing neglect as economic hardship meant fewer funds available for road maintenance. However, as a result of recent investment in our road network and government attention to British roads, many critical roads have been built and expanded across the country, spanning for miles and miles.\n\nWith this, our road expansion campaign has been declared a huge success, and the government has begun to shift its focus to more pressing issues. While only a small dent in the overall effects of the Great Depression, we can sleep well tonight knowing that our relief funds were wisely invested."
+ ENG_Baldwin_Events.8.A: "Would anyone fancy a drive out in the country?"
 
  ENG_Baldwin_Events.9.t: "Honouring Our Industrial Legacy"
- ENG_Baldwin_Events.9.d: ""
- ENG_Baldwin_Events.9.A: ""
+ ENG_Baldwin_Events.9.d: "If one were to study a history textbook in one of Britain's many underfunded schools, they would be surprised to learn that the Industrial Revolution was actually born in England, given the depressing state of our domestic industry in previous years. Since the Great Depression rocked the economy, many once productive factories have been forced to close their doors and cease operations, creating a tidal wave of unemployed industrial workers. However, with our recent investment into the industrial sector the number of closures has cratered, and in some regions has even reversed course, providing jobs to thousands of workers looking to put bread on the table.\n\nWith this, our industrial preservation campaign has been declared a great success, and the government has begun to turn its attention to other more pressing matters. While only a small dent into the overall effects of the Great Depression, we may rest easy tonight knowing that we invested our relief funds wisely."
+ ENG_Baldwin_Events.9.A: "I've never been happier to see industrial smog!"
 
 ######################################################################
 #  Chamberlain Events
