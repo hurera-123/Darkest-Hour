@@ -634,13 +634,13 @@
 
  ###Airforce Tree
  SOV_Airforce.1.t: "The Heroes of Aviation"
- SOV_Airforce.1.d: ""
- SOV_Airforce.1.A: ""
+ SOV_Airforce.1.d: "For a long time, we have maintained that the Union's progress is forged through the collective sweat and blood of all citizens in our country, with no room for individuals to claim something for themselves. Recent advancements in the air force, however, have caused us to reconsider, and we believe it is time to honour outstanding pilots who truly devote themselves to the revolution.\n\nValery Chkalov has spent the majority of his life in aviation, joining the early foundations of the Red Air Force and becoming a mechanic at the age of 16 in 1920, and by the early 1930s was already training the next generation of Soviet pilots. His notable accomplishments include performing 250 loop-the-loops in just 45 minutes, which was a sight to behold.\n\nGeorgy Baydukov has served in the military since 1926 and is well known among pilots and aviation students for developing instrument flight rules for the entire Air Force, which has been critical to its development.\n\nAlexander Belyakov is a skilled navigator, having travelled to Udd Island over a distance of over 9374 kilometres, spanning the entire width of our vast country. He's also flown from Moscow to the United States over the North Pole, a feat only a great Soviet man like him could accomplish.\n\nFinally, Mikhail Gromov is the Central Aerohydrodynamic Institute's chief pilot. He has served in the Air Force since graduation and has even won the Soviet weightlifting championship!\n\nThese men are excellent role models for all people in the Soviet Union, whether they are workers, soldiers, or pilots!"
+ SOV_Airforce.1.A: "Incredible accomplishments by incredible men!"
 
  SOV_Airforce.2.t: "The Ladies of the Air"
- SOV_Airforce.2.d: ""
- SOV_Airforce.2.A: ""
- SOV_Airforce.2.B: ""
+ SOV_Airforce.2.d: "\"Women and men! Together as one!\". Marina's room was filled with the same lines she heard every day over the radio's speaker. She had devoted every fibre of her being to the revolution. Despite this, she had never been able to pursue her dream of becoming a pilot. In theory, all people in the USSR were equal, yet she had never seen female pilots flying the latest developments in plane technology. All she wanted was to get out of the thick haze that hung over Moscow.\n\nA knock on her door jolted her back to reality, with one of her neighbours most likely trying to sell her cheap and suspect-looking vodka. She was pleasantly surprised, however, to see Mikhail, the local postman, standing at the door. She'd never been happier to see a postman before, because it meant she'd finally be interacting with someone who wasn't one of her neighbours.\n\n“Letter for Marina Raskova” he smiled, handing her the small, and slightly damp envelope. “It looks important too”, he said, pointing towards the seal on it.\n\nMarina recognised the seal; the Soviet Air Force.\n\n“Thank you very much!”. She almost wanted to hug Mikhail, but he was gone before she could. Going back inside, she tore open the letter, and quickly began reading it.\n\n“Miss M Raskova,\n\nWe are excited to announce the formation of a new squadron, the 588th Night Bomber Regiment. We know you've been in close contact with [SOV.GetLeader] about this proposal, and we'd be delighted to welcome you as an air advisor in government. You can, of course, lead this squadron yourself, but we believe your expertise is best served here in government.\n\nYours sincerely\nSoviet Air Force Command”\n\nMarina knew what her heart wanted, but she thought that perhaps the government could do with a woman who knew her way around planes…"
+ SOV_Airforce.2.A: "...my place is here, in the heart of the government."
+ SOV_Airforce.2.B: "...the wind will whisper when the Night Witches come."
 
 ######################################################################
 #  Soviet Union Focuses
@@ -1078,7 +1078,7 @@
 
  #### Red Army stuff
  SOV_Red_Army_Airforce: "Voyenno-Vozdushnyye Sily Krasnoy Armii"
- SOV_Red_Army_Airforce_desc: "Our enemies rain steel upon our helpless soldiers on the ground. Nothing stops them from achieving domination of the skies, since our air force is weak and helpless. It's time for this to change. Our enemies will learn to fear the sound of Soviet aircraft as they clean the skies of inferior airplanes. But it is not enough to have superiority in numbers or design. We must outsmart our opponents in the sky as we outmaneuver them on the ground."
+ SOV_Red_Army_Airforce_desc: "Our reforms of the Soviet Air Force are paying off for our country, with the USSR gradually becoming feared around the world for our aerial prowess. What was once a ragtag collection of biplanes has evolved into a true force of power and projection. With thousands of young pilots eager to earn their wings, interest in the air force is at an all-time high. The biplane relics of the Great War, which served a much more useful purpose as a museum piece, have been replaced by more modern, stronger aircraft that can ensure our dominance of the skies is maintained. The Red Air Force is also collaborating with ground forces to bring workers liberation from above. The skies are turning red all over the world, and the workers' liberation is undoubtedly coming from above!"
 
  SOV_Red_Army: "Krasnaya Armiya"
  SOV_Red_Army_desc: "Created after Lenin's October Revolution and made up of brave workers and peasants, the proud Red Army is the shield and sword of the mighty Soviet Union, although a capable and proven force, the multiple wars, limited conflicts, and clashes have proven that this apparatus needs to be updated once more if the people's union wants to survive the troubled times ahead and triumphs against the Capitalist and fascist menace."
@@ -1181,22 +1181,22 @@
  SOV_Transpolar_Flight_tt: "§YWe will send an ANT-25 in a mission to Washington State, US§!"
 
  SOV_Positive_Heroism_in_Aviation: "Positive Heroism in Aviation"
- SOV_Positive_Heroism_in_Aviation_desc: ""
+ SOV_Positive_Heroism_in_Aviation_desc: "All aspects of the Soviet Union were built by the people, including our illustrious air force. While we strive to work as one, there are always a few among many who exhibit outstanding qualities that distinguish them as proud Union heroes. Valery Chkalov, Georgy Baydukov, Alexander Belyakov, and Mikhail Gromov have mastered their aviation skills and are among the world's best pilots, and are sure to give us an edge in any aviation combat! We will award them the rank of Soviet Union hero to enshrine them in Soviet folk legend, not only to draw attention to our growing air power, but also to ensure that they will be remembered by all aspiring pilots in our nation!"
 
  SOV_Expand_the_Aviation_Industry: "Expand the Aviation Industry"
- SOV_Expand_the_Aviation_Industry_desc: ""
+ SOV_Expand_the_Aviation_Industry_desc: "While our air force is expanding, our capacity to accommodate new aircraft is not. As a result, it is important that we begin building a wave of new airfields to house our air force. It is also critical that these be constructed in areas where invaders are most likely to enter, such as the Ukraine SSR and the Byelorussian SSR. This means that we will not only be able to station more fighters and CAS planes closer to the frontlines to assist our forces in combat, but we will also be able to use them to launch bombing campaigns deep into enemy territory to disrupt their supply lines and hinder their war efforts."
 
  SOV_Expand_Air_Testing: "Expand Air Testing"
- SOV_Expand_Air_Testing_desc: ""
+ SOV_Expand_Air_Testing_desc: "New advancements in air technology are both exciting and critical to maintaining any advantages we may have over other nations' air forces. However, researching them is one thing; testing them is another, and we do not currently have the capacity to do so. By expanding the areas available for air testing and allocating more funding to it, we will be able to see what works and what doesn't with our air force much faster than our adversaries, which will undoubtedly be an investment worth making. A modern air force, after all, is a model air force!"
 
  SOV_Foster_Interest_in_Flight: "Foster Interest in Flight"
- SOV_Foster_Interest_in_Flight_desc: ""
+ SOV_Foster_Interest_in_Flight_desc: "While we can build as many planes as we want, we still need pilots to fly them, and the pilots of tomorrow must be created today. Flight clubs help to foster interest in flight and aviation, but there aren't many of them, and they're too underfunded to have an impact on the next generation of pilots in our country. As a result, it should be our responsibility to expand the already existing network of flight clubs and build new flight schools to help nurture pilots and teach them about the might of the Soviet air force, which they will help to strengthen!"
 
  SOV_The_Aerial_Army: "The Aerial Army"
- SOV_The_Aerial_Army_desc: ""
+ SOV_The_Aerial_Army_desc: "It's all well and good to have a powerful air force, but in order to fully appreciate its capabilities, we must ensure that it works in tandem with our ground forces. Close cooperation can help to sow the seeds of victory in a war and can also quickly turn the tide in our favour. As a result, new plans must be put in place to ensure that the commanders of the Red Army and Red Air Force collaborate. This can be accomplished by scheduling weekly meetings between the top brass of each branch of the armed forces to ensure that they can coordinate what they need each other to do in times of conflict, as well as informing our CAS squadrons to support friendly units when they approach an enemy-controlled town or city."
 
  SOV_Modernization_of_the_Air_Program: "Modernization of the Air Program"
- SOV_Modernization_of_the_Air_Program_desc: ""
+ SOV_Modernization_of_the_Air_Program_desc: "Throughout the Soviet Union, posters and images depict magnificent flying machines capable of flying long distances at high speeds, blazing across the sky and easily destroying the enemy air force! Unfortunately, the reality of the Red Air Force differs greatly from our fantasies, with the air force resembling paper planes rather than futuristic fighter jets. Not only that, but our air doctrine is still out of date, employing tactics not seen since World War I.\n\nAs a result, we will embark on a modernization programme that will see our air force rise to become the best in the world. Old biplanes will be retired and replaced by the most recent fighter plane designs, and tactical bombers will be transformed from men dropping small bombs out the side of the plane to flying behemoths capable of levelling large areas at once. The aviation world does not wait for anyone, and we will not be left behind!"
 
  SOV_The_Jet_Program: "The Jet Program"
  SOV_The_Jet_Program_desc: ""
@@ -2304,11 +2304,11 @@
  SOV_OPERATION_GROZA_DECISION_GUI_PHASE_3_TT_REACHED: "§YPhase 3 has already been reached, which gives us the following effects:§!"
 
  #Red Army ideas
- SOV_Tukhachevsky_Povorot: "Tukhachevsky Povorot"
- SOV_Tukhachevsky_Povorot_desc: ""
+ SOV_Tukhachevsky_Reforms: "Tukhachevsky Reforms"
+ SOV_Tukhachevsky_Reforms_desc: ""
  
- SOV_Tukhachevsky_Povorot_2: "Tukhachevsky Povorot"
- SOV_Tukhachevsky_Povorot_2_desc: ""
+ SOV_Tukhachevsky_Reforms_2: "Tukhachevsky Reforms"
+ SOV_Tukhachevsky_Reforms_2_desc: ""
 
  SOV_Voroshilovtchina: "Voroshilovtchina"
  SOV_Voroshilovtchina_desc: ""
@@ -2325,6 +2325,6 @@
  SOV_TANKOGRAD: "Tankograd"
  SOV_TANKOGRAD_desc: ""
  
- SOV_Krasnaya_Armiya_Vorzrozhdayetsya: "Krasnaya Armiya Vorzrozhdayetsya"
+ SOV_Krasnaya_Armiya_Vorzrozhdayetsya: "The Red Army Reborn"
  SOV_Krasnaya_Armiya_Vorzrozhdayetsya_desc: ""
  
