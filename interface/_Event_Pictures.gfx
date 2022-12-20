@@ -1370,8 +1370,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_SOV_Chinese_Refuse_Soviet_Demands"
+        texturefile = "gfx/event_pictures/news_SOV_Chinese_Refuse_Soviet_Demands.png"
+    }
+
+    spriteType = {
         name = "GFX_news_SOV_COMECON"
         texturefile = "gfx/event_pictures/news_SOV_COMECON.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_SOV_Communists_in_KMT_Government"
+        texturefile = "gfx/event_pictures/news_SOV_Communists_in_KMT_Government.png"
     }
 
     spriteType = {
@@ -1392,6 +1402,21 @@ spriteTypes = {
     spriteType = {
         name = "GFX_news_SOV_Finnish_Democratic_Republic"
         texturefile = "gfx/event_pictures/news_SOV_Finnish_Democratic_Republic.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_SOV_Invasion_of_Manchuria"
+        texturefile = "gfx/event_pictures/news_SOV_Invasion_of_Manchuria.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_SOV_JAP_Bloody_Fighting"
+        texturefile = "gfx/event_pictures/news_SOV_JAP_Bloody_Fighting.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_SOV_JAP_Japanese_Victorious"
+        texturefile = "gfx/event_pictures/news_SOV_JAP_Japanese_Victorious.png"
     }
 
     spriteType = {
@@ -1457,6 +1482,21 @@ spriteTypes = {
     spriteType = {
         name = "GFX_news_SOV_Occupation_Lithuania"
         texturefile = "gfx/event_pictures/news_SOV_Occupation_Lithuania.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_SOV_Occupation_of_Bessarabia"
+        texturefile = "gfx/event_pictures/news_SOV_Occupation_of_Bessarabia.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_SOV_Pasha_Angelina"
+        texturefile = "gfx/event_pictures/news_SOV_Pasha_Angelina.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_SOV_Sino_Soviet_Alliance"
+        texturefile = "gfx/event_pictures/news_SOV_Sino_Soviet_Alliance.png"
     }
 
     spriteType = {
@@ -4080,6 +4120,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_SOV_7th_World_Congress"
+        texturefile = "gfx/event_pictures/report_SOV_7th_World_Congress.png"
+    }
+
+    spriteType = {
         name = "GFX_report_SOV_Agranov"
         texturefile = "gfx/event_pictures/report_SOV_Agranov.png"
     }
@@ -4087,6 +4132,16 @@ spriteTypes = {
     spriteType = {
         name = "GFX_report_SOV_Antonov_Flying_Tank"
         texturefile = "gfx/event_pictures/report_SOV_Antonov_Flying_Tank.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Aviator"
+        texturefile = "gfx/event_pictures/report_SOV_Aviator.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Beria"
+        texturefile = "gfx/event_pictures/report_SOV_Beria.png"
     }
 
     spriteType = {
@@ -4105,6 +4160,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_SOV_Childare"
+        texturefile = "gfx/event_pictures/report_SOV_Childare.png"
+    }
+
+    spriteType = {
         name = "GFX_report_SOV_Church_Demolition"
         texturefile = "gfx/event_pictures/report_SOV_Church_Demolition.png"
     }
@@ -4120,8 +4180,28 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_SOV_Collectivisation"
+        texturefile = "gfx/event_pictures/report_SOV_Collectivisation.png"
+    }
+
+    spriteType = {
         name = "GFX_report_SOV_COMECON"
         texturefile = "gfx/event_pictures/report_SOV_COMECON.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Congress"
+        texturefile = "gfx/event_pictures/report_SOV_Congress.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Cossacks"
+        texturefile = "gfx/event_pictures/report_SOV_Cossacks.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Cult_of_Stalin"
+        texturefile = "gfx/event_pictures/report_SOV_Cult_of_Stalin.png"
     }
 
     spriteType = {
@@ -4132,6 +4212,16 @@ spriteTypes = {
     spriteType = {
         name = "GFX_report_SOV_Death_of_Stalin_2"
         texturefile = "gfx/event_pictures/report_SOV_Death_of_Stalin_2.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Diplomats"
+        texturefile = "gfx/event_pictures/report_SOV_Diplomats.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Elections"
+        texturefile = "gfx/event_pictures/report_SOV_Elections.png"
     }
 
     spriteType = {
@@ -4155,13 +4245,133 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_SOV_Famine"
+        texturefile = "gfx/event_pictures/report_SOV_Famine.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Female_Aviators"
+        texturefile = "gfx/event_pictures/report_SOV_Female_Aviators.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Generals_Promotion"
+        texturefile = "gfx/event_pictures/report_SOV_Generals_Promotion.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_General_Staff"
+        texturefile = "gfx/event_pictures/report_SOV_General_Staff.png"
+    }
+
+    spriteType = {
         name = "GFX_report_SOV_German_Embassy"
         texturefile = "gfx/event_pictures/report_SOV_German_Embassy.png"
     }
 
     spriteType = {
+        name = "GFX_report_SOV_Invasion_of_Persia"
+        texturefile = "gfx/event_pictures/report_SOV_Invasion_of_Persia.png"
+    }
+
+    spriteType = {
         name = "GFX_report_SOV_Ivan_Ivanov"
         texturefile = "gfx/event_pictures/report_SOV_Ivan_Ivanov.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Air_Raid"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Air_Raid.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Army_Battalion"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Army_Battalion.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Artillery"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Artillery.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Bandits"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Bandits.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Barbed_Wire"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Barbed_Wire.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Destroyed_Artillery"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Destroyed_Artillery.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Fog_Offensive"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Fog_Offensive.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Frozen_Tanks"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Frozen_Tanks.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Gunboats"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Gunboats.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Japanese_Troops"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Japanese_Troops.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Japanese_Victorious"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Japanese_Victorious.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Soldiers_Surrendering"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Soldiers_Surrendering.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Soviets_Victorious"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Soviets_Victorious.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Soviet_Division"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Soviet_Division.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Spies"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Spies.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Tank_Offensive"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Tank_Offensive.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Troops"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Troops.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Troops_Fighting"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Troops_Fighting.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_JAP_Zhukov"
+        texturefile = "gfx/event_pictures/report_SOV_JAP_Zhukov.png"
     }
 
     spriteType = {
@@ -4210,6 +4420,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_SOV_Lenin"
+        texturefile = "gfx/event_pictures/report_SOV_Lenin.png"
+    }
+
+    spriteType = {
         name = "GFX_report_SOV_Leningrad"
         texturefile = "gfx/event_pictures/report_SOV_Leningrad.png"
     }
@@ -4217,6 +4432,16 @@ spriteTypes = {
     spriteType = {
         name = "GFX_report_SOV_Leningrad_class_Destroyer"
         texturefile = "gfx/event_pictures/report_SOV_Leningrad_class_Destroyer.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Liberation_of_Czechoslovakia"
+        texturefile = "gfx/event_pictures/report_SOV_Liberation_of_Czechoslovakia.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Liberation_of_Yugoslavia"
+        texturefile = "gfx/event_pictures/report_SOV_Liberation_of_Yugoslavia.png"
     }
 
     spriteType = {
@@ -4280,6 +4505,16 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_SOV_Order_00447"
+        texturefile = "gfx/event_pictures/report_SOV_Order_00447.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Red_Army"
+        texturefile = "gfx/event_pictures/report_SOV_Red_Army.png"
+    }
+
+    spriteType = {
         name = "GFX_report_SOV_Red_Fleet_Soldiers"
         texturefile = "gfx/event_pictures/report_SOV_Red_Fleet_Soldiers.png"
     }
@@ -4292,6 +4527,16 @@ spriteTypes = {
     spriteType = {
         name = "GFX_report_SOV_Second_Five_Year_Plan"
         texturefile = "gfx/event_pictures/report_SOV_Second_Five_Year_Plan.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Secured_the_Union"
+        texturefile = "gfx/event_pictures/report_SOV_Secured_the_Union.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Socialism_Achieved"
+        texturefile = "gfx/event_pictures/report_SOV_Socialism_Achieved.png"
     }
 
     spriteType = {
@@ -4365,6 +4610,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_report_SOV_Tukhachevsky"
+        texturefile = "gfx/event_pictures/report_SOV_Tukhachevsky.png"
+    }
+
+    spriteType = {
         name = "GFX_report_SOV_Tukhachevsky_Speech"
         texturefile = "gfx/event_pictures/report_SOV_Tukhachevsky_Speech.png"
     }
@@ -4372,6 +4622,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_report_SOV_Voroshilov_Purged"
         texturefile = "gfx/event_pictures/report_SOV_Voroshilov_Purged.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Women_Empowerment"
+        texturefile = "gfx/event_pictures/report_SOV_Women_Empowerment.png"
     }
 
     spriteType = {
@@ -4387,6 +4642,21 @@ spriteTypes = {
     spriteType = {
         name = "GFX_report_SOV_Yagoda_and_Agranov"
         texturefile = "gfx/event_pictures/report_SOV_Yagoda_and_Agranov.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Yezhov"
+        texturefile = "gfx/event_pictures/report_SOV_Yezhov.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Yezhov_Death"
+        texturefile = "gfx/event_pictures/report_SOV_Yezhov_Death.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_SOV_Young_Pioneers"
+        texturefile = "gfx/event_pictures/report_SOV_Young_Pioneers.png"
     }
 
     spriteType = {
