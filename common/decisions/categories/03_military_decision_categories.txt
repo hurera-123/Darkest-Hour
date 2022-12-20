@@ -181,6 +181,10 @@ FRA_Finish_the_Maginot_Line_category = {
 	visible = {
 		has_completed_focus = FRA_The_Maginot_Line
 		NOT = { has_country_flag = FRA_Maginot_Finished }
+		AND = {
+			owns_state = 1169
+			owns_state = 28
+		}	
 	}
 }
 FRA_La_Armee_delAir_category = {
@@ -199,6 +203,7 @@ FRA_Programme_des_12_Milliards_category = {
 	}
 	visible = {
 		has_completed_focus = FRA_Decret_National_Defence
+		has_war = no
 	}
 }
 FRA_Grand_Quartier_General_category = {

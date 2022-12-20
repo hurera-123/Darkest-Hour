@@ -121,6 +121,7 @@ FRA_Le_Front_Populaire_category = {
 		NOT = {
 			has_completed_focus = FRA_The_end_of_the_Ruling_party
 		}
+		has_war = no
 	}
 }
 FRA_Les_Grandes_Reformes_Sociales_category = {
@@ -133,6 +134,7 @@ FRA_Les_Grandes_Reformes_Sociales_category = {
 		NOT = {
 			has_completed_focus = FRA_The_end_of_the_Ruling_party
 		}
+		has_war = no
 	}
 }
 FRA_Colonial_Empire_category = {

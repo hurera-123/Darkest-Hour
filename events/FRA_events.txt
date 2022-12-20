@@ -227,7 +227,6 @@ country_event = {
 	option = {
 		name = FRA_Milices_Fascistes.2.B
 		remove_ideas = FRA_Milices_Fascistes
-		add_stability = 0.05
 	}
 }
 
@@ -691,6 +690,11 @@ country_event = {
 					L_Bad_Health
 				}
 			}
+		}
+		set_party_name = {
+			ideology = democratic
+			long_name = "Gouvernement d'Union Nationale"
+			name = "UN"
 		}
 		hidden_effect = {
 			remove_ideas_with_trait = Position_Foreign_Minister
@@ -2938,26 +2942,6 @@ country_event = {
 		
 	}
 }
-#########################################################################
-# Creation of the CNRS
-#########################################################################
-country_event = {
-	id = FRA_Front_Populaire_1936.7
-	title = FRA_Front_Populaire_1936.7.t
-	desc = FRA_Front_Populaire_1936.7.d
-	picture = To_Be_Inserted
-	fire_only_once = yes
-	trigger = {
-		original_tag = FRA
-		date > 1939.10.19
-		has_start_date < 1939.10.19
-	}
-	#
-	option = {
-		name = FRA_Front_Populaire_1936.7.A
-		add_research_slot = 1
-	}
-}
 
 #########################################################################
 #  ###  ###  #     # #   #
@@ -3676,7 +3660,7 @@ country_event = {
 #   #   #     #   #    ##### #####
 #########################################################################
 # Saar Offensive
-# Gamelin Enters the Saar
+# French Troops Enters the Saar
 country_event = {
 	id = FRA_Saar_Offensive.1
 	title = FRA_Saar_Offensive.1.t
@@ -3689,32 +3673,14 @@ country_event = {
 		name = FRA_Saar_Offensive.1.A
 		custom_effect_tooltip = FRA_Saar_Offensive.1.A_tt
 		activate_mission = FRA_The_Saar_Offensive
-		42 = {
-			add_dynamic_modifier = {
-				modifier = FRA_The_Saar_Offensive
-			}
+		add_timed_idea = {
+			idea = FRA_The_Saar_Offensive_spirit
+			days = 40
 		}
-		51 = {
-			add_dynamic_modifier = {
-				modifier = FRA_The_Saar_Offensive
-			}
-		}
-		806 = {
-			add_dynamic_modifier = {
-				modifier = FRA_The_Saar_Offensive	
-			}
-		}
-		1498 = {
-			add_dynamic_modifier = {
-				modifier = FRA_The_Saar_Offensive	
-			}
-		}
-		add_to_variable = { FRA_Saar_Offensive_ACDF_Var = -0.15 }
-		force_update_dynamic_modifier = yes
 	}
 }
 
-# Gamelin Retreats
+# French Troops Retreats
 country_event = {
 	id = FRA_Saar_Offensive.2
 	title = FRA_Saar_Offensive.2.t
@@ -3730,7 +3696,7 @@ country_event = {
 	
 	option = {
 		name = FRA_Saar_Offensive.2.A
-		set_variable = { FRA_Saar_Offensive_ACDF_Var = -0.05 }
+		remove_ideas = FRA_The_Saar_Offensive_spirit
 	}
 }
 
@@ -3746,22 +3712,8 @@ country_event = {
 	option = {
 		name = FRA_Saar_Offensive.3.A
 		remove_ideas = FRA_On_ne_Passe_Pas
+		remove_ideas = FRA_The_Saar_Offensive_spirit
 		add_war_support = 0.1
-		FRA_Maurice_Gamelin = {
-			add_attack = 1
-		}
-		42 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
-		51 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
-		806 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
-		1498 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
 	}
 }
 
@@ -3780,18 +3732,7 @@ country_event = {
 			remove_idea = FRA_On_ne_Passe_Pas
 			add_idea = FRA_The_Phoney_War
 		}
-		42 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
-		51 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
-		806 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
-		1498 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
+		remove_ideas = FRA_The_Saar_Offensive_spirit
 	}
 }
 
@@ -3879,7 +3820,7 @@ country_event = {
 	option = {
 		name = FRA_Wartime_Tree.3.A
 		add_country_leader_role = {
-			character = FRA_Paul_Reynaud
+			Character = FRA_Paul_Reynaud
 			promote_leader = yes
 			country_leader = {
 				ideology = social_conservatism
@@ -3889,8 +3830,30 @@ country_event = {
 				}
 			}
 		}
-		add_ideas = FRA_Paul_Reynaud_FM
-		add_ideas = FRA_Henri_Roy_MoS
+		set_party_name = {
+			ideology = democratic
+			long_name = "Gouvernement d'Union Nationale"
+			name = "UN"
+		}
+		hidden_effect = {
+			set_country_flag = FRA_defeatist_in_place
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
+			set_temp_variable = { party_id = 4 } # FR
+			set_temp_variable = { support_to_add = 1 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 5 } # AD
+			set_temp_variable = { support_to_add = 1 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 6 } # RAD
+			set_temp_variable = { support_to_add = 1 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 8 } # SFIO
+			set_temp_variable = { support_to_add = 1 }
+			change_party_support = yes
+		}
+		add_ideas =  { FRA_Paul_Reynaud_FM FRA_Henri_Roy_MoS FRA_Anatole_de_Monzie_AM } 
 		unlock_national_focus = FRA_A_National_Union_to_Save_France
 		country_event = { id = FRA_Wartime_Tree.4 days = 1 }
 	}
@@ -3908,6 +3871,7 @@ country_event = {
 	option = {
 		name = FRA_Wartime_Tree.4.A
 		custom_effect_tooltip = FRA_Wartime_Tree.4.A_tt
+		add_ideas = FRA_Philippe_Petain_M
 	}
 }
 
@@ -3982,17 +3946,30 @@ country_event = {
 		tag = FRA
 		has_defensive_war_with = GER
 		surrender_progress > 0.6
-		NOT = {
-			has_completed_focus = FRA_Remove_the_Defeatist
-		}
+		has_country_flag = FRA_defeatist_in_place
 	}
 	
 	option = {
 		name = FRA_Wartime_Tree.7.A
 		add_stability = 0.1
 		add_political_power = 25
-		add_ideas = FRA_Philippe_Petain_HoG
+		add_country_leader_role = {
+			Character = FRA_Philippe_Petain
+			Promote_leader = yes
+			Country_leader = {
+				ideology = national_conservatism
+				traits = {
+					L_The_Old_Marshal
+					FM_Fascist_Sympathiser
+				}
+			}
+		}
 		hidden_effect = {
+			remove_ideas = FRA_Philippe_Petain_M
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
+			add_ideas = { FRA_Paul_Baudoin_FM FRA_Charles_Pomaret_MoS FRA_Ludovic_Oscar_Frossard_AM }
 			country_event = { id = FRA_Wartime_Tree.8 days = 1 }
 		}
 	}
@@ -4214,8 +4191,8 @@ country_event = {
 	option = { # Become Vichy
 		name = FRA_Capitulation_of_France.1.A
 		trigger = { is_ai = no }
-		set_country_flag = become_vichy
 		set_global_flag = fall_of_france
+		set_country_flag = become_vichy
 		GER = {
 			country_event = { id = FRA_Capitulation_of_France.2 }
 		}
@@ -4269,6 +4246,7 @@ country_event = {
 				set_rule = {
 					can_join_factions = no
 					can_create_factions = no
+					can_guarantee_other_ideologies = no
 				}
 				add_opinion_modifier = {
 					target = GER
@@ -4297,25 +4275,26 @@ country_event = {
 					long_name = "Petainiste"
 					name = "Petainiste"
 				}
-				add_country_leader_role = {
-					Character = FRA_Philippe_Petain
-					Promote_leader = yes
-					Country_leader = {
-						ideology = integralism_auth
-						traits = {
-							POSITION_FRA_Chef_dEtat
-							L_Old_General
-						}
-					}
-				}
 				add_popularity = {
 					ideology = authoritarian
 					popularity = 0.5
 				}	
+				add_country_leader_role = {
+					Character = FRA_Philippe_Petain
+					Promote_leader = yes
+					Country_leader = {
+						ideology = despotism
+						traits = {
+							POSITION_FRA_Chef_dEtat
+							L_The_Old_Marshal
+							FM_Fascist_Sympathiser
+						}
+					}
+				}
 				remove_ideas_with_trait = POSITION_President
 				add_ideas ={ FRA_Pierre_Laval_HoG }
+				dissolve_parliament = yes
 				mark_focus_tree_layout_dirty = yes
-
 				# Disband Army
 				every_controlled_state = {
                     PREV = {
@@ -4386,6 +4365,14 @@ country_event = {
 					}
 					transfer_state_to = FFL
 				}
+				if = {
+					limit = { 
+						NOT = {
+							has_country_flag = become_vichy
+						}  
+					}
+					FFL = { change_tag_from = FRA }
+				}
 			}
 			VIN = {
 				create_country_leader = {
@@ -4428,15 +4415,6 @@ country_event = {
 				add_to_faction = FFL
 			}
 			FFL = {
-				if = {
-					limit = {
-						NOT = {
-							has_country_flag = become_vichy
-							has_completed_focus = FRA_Keep_Fighting_in_Africa
-						}
-					}
-					change_tag_from = FRA
-				}
 				inherit_technology = FRA
 				set_capital = {
 					state = 790

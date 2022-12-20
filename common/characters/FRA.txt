@@ -85,11 +85,6 @@ characters={
 				NOT = { has_country_flag = Joseph_Paul_Boncour_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
 				Position_Foreign_Minister
 				MoS_Compassionate_Gentleman
@@ -430,6 +425,7 @@ characters={
 			}
 			visible = {
 				D_Minister_Allowed = yes
+				A_Minister_Allowed = yes
 			}
 			traits={
 				Position_Foreign_Minister
@@ -561,6 +557,7 @@ characters={
 			visible={
 				NOT = { has_country_flag = Ludovic_Oscar_Frossard_unavailable }
 				D_Minister_Allowed = yes
+				A_Minister_Allowed = yes
 			}
 			traits={
 				Position_Armaments_Minister
@@ -796,6 +793,7 @@ characters={
 			visible={
 				NOT = { has_country_flag = Charles_Pomaret_unavailable }
 				D_Minister_Allowed = yes
+				A_Minister_Allowed = yes
 			}
 			traits={
 				Position_Minister_of_Security
@@ -1887,7 +1885,7 @@ characters={
 			visible={
 				date > 1930.01.01
 				date < 1952.01.01
-				F_Minister_Allowed = yes
+				A_Minister_Allowed = yes
 				NOT = { has_country_flag = Charles_Maurras_unavailable }
 			}
 			traits={
@@ -1915,20 +1913,23 @@ characters={
 			}
 		}
 		advisor={
-			slot=Head_of_Government
-			idea_token=FRA_Philippe_Petain_HoG
+			slot=Minister
+			idea_token = FRA_Philippe_Petain_M
 			removal_cost = -1
 			allowed={
 				tag=FRA
 			}
-			visible={
-				date > 1916.01.01
-				A_Minister_Allowed = yes
-				NOT = { has_country_flag = Philippe_Petain_unavailable }
+			visible = {
+				has_country_flag = FRA_defeatist_in_place
+				NOT = { has_completed_focus = FRA_Remove_the_Defeatist }
+				NOT = {	has_country_flag = Philippe_Petain_unavailable}
+				D_Minister_Allowed = yes
 			}
-			traits={
-				
-				L_Old_General
+			available = {
+			}
+			traits = {
+				L_The_Old_Marshal
+				FM_Fascist_Sympathiser
 			}
 		}
 	}
@@ -1951,7 +1952,7 @@ characters={
 			}
 			expire = "1965.1.1"
 			id=-1
-		}
+		
 	}
 
 	### Communist ###

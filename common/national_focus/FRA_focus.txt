@@ -101,7 +101,7 @@ focus_tree = {
 		completion_reward = { 
 			add_stability = 0.1
 			set_temp_variable = {
-				modifier_value = 0.025
+				modifier_value = -0.025
 			}
 			change_unemployment_value_modifier = yes
 		}
@@ -126,7 +126,7 @@ focus_tree = {
 		}
 		completion_reward = { 
 			set_temp_variable = {
-				modifier_value = -0.10
+				modifier_value = -0.15
 			}
 			change_unemployment_value_modifier = yes
 			add_ideas = social_spending_level_4
@@ -683,7 +683,7 @@ focus_tree = {
 			every_core_state = {
 				add_extra_state_shared_building_slots = 2
 			}
-			add_political_power = 200
+			add_political_power = 100
 		}
 	}
 	focus = {
@@ -906,7 +906,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Great_Social_Reform
-		icon = GFX_FRA_Grande_Reforme_de_letat
+		icon = GFX_FRA_Matignot_Agreement
 		cost = 35
 		prerequisite = {
 			focus = FRA_Victory_of_the_Popular_Front
@@ -924,7 +924,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Jean_Zays_Reforms
-		icon = GFX_FRA_Grande_Reforme_de_letat
+		icon = GFX_GENERIC_Expand_the_University
 		cost = 28
 		prerequisite = {
 			focus = FRA_Great_Social_Reform
@@ -1080,7 +1080,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		completion_reward = {
-			set_temp_variable = { unemployment_value = -0.05 }
+			set_temp_variable = { unemployment_value = -0.01 }
 			add_unemployment_effect = yes
 			add_tech_bonus = {
 				name = "Autarky Focus"
@@ -1155,7 +1155,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Ban_the_Far_Right_Ligue
-		icon = GFX_FRA_Spill_no_Blood
+		icon = GFX_GENERIC_Dissolve_Fascist_Organizations
 		cost = 28
 		prerequisite = {
 			focus = FRA_Victory_of_the_Popular_Front
@@ -1178,7 +1178,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Application_of_the_Blum_Violette_Act
-		icon = GFX_FRA_Safeguard_the_Republic
+		icon = GFX_FRA_Algerie_Francaise
 		cost = 28
 		prerequisite = {
 			focus = FRA_Ban_the_Far_Right_Ligue
@@ -1288,7 +1288,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Le_Triomphe_de_la_Sociale
-		icon = GFX_GENERIC_Dissolve_the_Parliament
+		icon = GFX_FRA_Survival_of_FP
 		cost = 0
 		prerequisite = {
 			focus = FRA_Rely_on_London_and_Washington
@@ -1861,6 +1861,11 @@ focus_tree = {
 		cancelable = no
 		x = 23
 		y = 0
+		allow_branch = {
+			NOT = {
+				has_global_flag =  VIC_Vichy_Established
+			}
+		}
 		offset = {
 			x = -7
 			trigger = {
@@ -1876,6 +1881,13 @@ focus_tree = {
 				has_country_flag = FRA_General_Mobilization
 			}
 		}
+		available = {
+			hidden_trigger = {
+				NOT = {
+					has_country_flag = FRA_Crisis
+				}
+			}
+		}
 		completion_reward = {
 			army_experience = 20
 		}
@@ -1889,6 +1901,10 @@ focus_tree = {
 				has_idea = FRA_Maurice_Gamelin_CoArmy
 				has_idea = FRA_Charles_Huntziger_CoArmy
 			}
+			AND = {
+				owns_state = 1169
+				owns_state = 28
+			}	
 		}
 		mutually_exclusive = {
 			focus = FRA_Abandon_the_Delusion
@@ -2620,6 +2636,11 @@ focus_tree = {
 		id = FRA_The_Black_Cruse
 		icon = GFX_VIC_Armee_de_LAir
 		cost = 28
+		allow_branch = {
+			NOT = {
+				has_global_flag =  VIC_Vichy_Established
+			}
+		}
 		available = {
 			hidden_trigger = {
 				NOT = {
@@ -2962,6 +2983,11 @@ focus_tree = {
 		id = FRA_Marine_National
 		icon = GFX_FRA_Marine_Nationale
 		cost = 28
+		allow_branch = {
+			NOT = {
+				has_global_flag =  VIC_Vichy_Established
+			}
+		}
 		available = {
 			hidden_trigger = {
 				NOT = {
@@ -3755,9 +3781,9 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = FRA_Ban_the_Neo_Destour
+		id = FRA_Fix_Tunisian_Economy
 		icon = GFX_FRA_The_Destour_Question
-		cost = 28
+		cost = 56
 		available = {
 			hidden_trigger = {
 				NOT = {
@@ -3771,6 +3797,29 @@ focus_tree = {
 		relative_position_id = FRA_End_the_Pacification_of_Morocco
 		x = 2
 		y = 1
+		completion_reward = { 
+			TUN = {
+				remove_ideas = TUN_Economic_Crisis
+			}
+		}
+	}
+	focus = {
+		id = FRA_Ban_the_Neo_Destour
+		icon = GFX_FRA_The_Destour_Question
+		cost = 28
+		available = {
+			hidden_trigger = {
+				NOT = {
+					has_country_flag = FRA_Crisis
+				}
+			}
+		}
+		prerequisite = {
+			focus = FRA_Fix_Tunisian_Economy
+		}
+		relative_position_id = FRA_Fix_Tunisian_Economy
+		x = 0
+		y = 2
 		completion_reward = { 
 			add_political_power = 100
 			TUN = {
@@ -3794,7 +3843,7 @@ focus_tree = {
 			}
 		}
 		prerequisite = {
-			focus = FRA_Ban_the_Neo_Destour
+			focus = FRA_Fix_Tunisian_Economy
 		}
 		prerequisite = {
 			focus = FRA_Algiers_Industrial_Build_Up
@@ -3879,7 +3928,7 @@ focus_tree = {
 	focus = {
 		id = FRA_General_Mobilization
 		icon = GFX_focus_generic_little_entente
-		cost = 28
+		cost = 0
 		x = 8
 		y = 8
 		allow_branch = {
@@ -3898,7 +3947,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Form_War_Gouvernment
 		icon = GFX_GENERIC_Military_State
-		cost = 35
+		cost = 28
 		relative_position_id = FRA_General_Mobilization
 		x = -1
 		y = 1
@@ -3906,6 +3955,9 @@ focus_tree = {
 			focus = FRA_General_Mobilization
 		}
 		completion_reward = {
+			hidden_effect = {
+				remove_ideas_with_trait = Position_Armaments_Minister
+			}
 			add_ideas = FRA_Raoul_Dautry_AM
 			swap_ideas = {
 				remove_idea = FRA_La_Der_des_Ders
@@ -3916,7 +3968,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Ban_the_PCF
 		icon = GFX_GENERIC_Anti_Communism
-		cost = 21
+		cost = 56
 		relative_position_id = FRA_Form_War_Gouvernment
 		x = -3
 		y = 1
@@ -3942,7 +3994,7 @@ focus_tree = {
 	focus = {
 		id = FRA_The_Anti_Fascist_Front
 		icon = GFX_GENERIC_Dissolve_Fascist_Organizations
-		cost = 21
+		cost = 56
 		relative_position_id = FRA_Form_War_Gouvernment
 		x = -1
 		y = 1
@@ -3964,7 +4016,7 @@ focus_tree = {
 	focus = {
 		id = FRA_A_National_Union_to_Save_France
 		icon = GFX_FRA_Form_a_National_Union
-		cost = 40
+		cost = 56
 		relative_position_id = FRA_Ban_the_PCF
 		x = 1
 		y = 1
@@ -3987,15 +4039,37 @@ focus_tree = {
 					}
 				}
 			}
-			add_ideas = FRA_Paul_Reynaud_FM
-			add_ideas = FRA_Henri_Roy_MoS
+			set_party_name = {
+				ideology = democratic
+				long_name = "Gouvernement d'Union Nationale"
+				name = "UN"
+			}
+			hidden_effect = {
+				set_country_flag = FRA_defeatist_in_place
+				remove_ideas_with_trait = Position_Foreign_Minister
+				remove_ideas_with_trait = Position_Minister_of_Security
+				remove_ideas_with_trait = Position_Armaments_Minister
+				set_temp_variable = { party_id = 4 } # FR
+				set_temp_variable = { support_to_add = 1 }
+				change_party_support = yes
+				set_temp_variable = { party_id = 5 } # AD
+				set_temp_variable = { support_to_add = 1 }
+				change_party_support = yes
+				set_temp_variable = { party_id = 6 } # RAD
+				set_temp_variable = { support_to_add = 1 }
+				change_party_support = yes
+				set_temp_variable = { party_id = 8 } # SFIO
+				set_temp_variable = { support_to_add = 1 }
+				change_party_support = yes
+			}
+			add_ideas =  { FRA_Paul_Reynaud_FM FRA_Henri_Roy_MoS FRA_Anatole_de_Monzie_AM } 
 			country_event = { id = FRA_Wartime_Tree.4 }
 		}
 	}
 	focus = {
 		id = FRA_La_Patrie_en_Danger
 		icon = GFX_FRA_Fearless_Nation
-		cost = 40
+		cost = 28
 		relative_position_id = FRA_Form_War_Gouvernment
 		x = 0
 		y = 2
@@ -4016,7 +4090,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Remove_the_Defeatist
 		icon = GFX_GENERIC_Purge_the_Old_Guard
-		cost = 50
+		cost = 84
 		relative_position_id = FRA_A_National_Union_to_Save_France
 		x = 1
 		y = 1
@@ -4031,12 +4105,16 @@ focus_tree = {
 		}
 		completion_reward = {
 			remove_ideas = FRA_La_Der_des_Ders_3
+			remove_ideas = FRA_Philippe_Petain_M
+			hidden_effect = {
+				clr_country_flag = FRA_defeatist_in_place
+			}
 		}
 	}
 	focus = {
 		id = FRA_The_GQG
-		icon = placeholder
-		cost = 35
+		icon = GFX_GENERIC_Military_State
+		cost = 14
 		relative_position_id = FRA_General_Mobilization
 		x = 2
 		y = 1
@@ -4052,7 +4130,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Mobilize_the_Colonies
 		icon = GFX_FRA_Revise_our_Foreign_Policy
-		cost = 40
+		cost = 84
 		relative_position_id = FRA_The_GQG
 		x = -2
 		y = 1
@@ -4066,7 +4144,7 @@ focus_tree = {
 	focus = {
 		id = FRA_The_Supreme_War_Council
 		icon = GFX_FRA_The_Supreme_War_Council
-		cost = 40
+		cost = 28
 		relative_position_id = FRA_The_GQG
 		x = 0
 		y = 1
@@ -4083,7 +4161,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Project_Gerboise
 		icon = GFX_GENERIC_ABomb
-		cost = 40
+		cost = 56
 		relative_position_id = FRA_The_GQG
 		x = 2
 		y = 1
@@ -4101,7 +4179,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Plan_Mandel
 		icon = GFX_GENERIC_Army
-		cost = 40
+		cost = 56
 		relative_position_id = FRA_Mobilize_the_Colonies
 		x = 1
 		y = 1
@@ -4120,7 +4198,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Inter_Allied_Air_Command
 		icon = GFX_GENERIC_Import_Fighters
-		cost = 40
+		cost = 56
 		relative_position_id = FRA_The_Supreme_War_Council
 		x = 1
 		y = 1
@@ -4136,8 +4214,8 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Hundred_Million_Bayonets
-		icon = placeholder
-		cost = 50
+		icon = GFX_FRA_Revolution
+		cost = 84
 		relative_position_id = FRA_La_Patrie_en_Danger
 		x = 1
 		y = 1
@@ -4157,7 +4235,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Mass_Produce_H_Thirty_Nine
 		icon = GFX_GENERIC_Military_Production
-		cost = 50
+		cost = 56
 		relative_position_id = FRA_Plan_Mandel
 		x = 1
 		y = 1
@@ -4207,7 +4285,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Desperate_Defence
 		icon = GFX_goal_generic_defence
-		cost = 50
+		cost = 28
 		relative_position_id = FRA_Frances_Darkest_Hour
 		x = 0
 		y = 1
@@ -4227,7 +4305,7 @@ focus_tree = {
 	focus = {
 		id = FRA_In_Every_City_and_Village
 		icon = GFX_GENERIC_Urban_Warfare
-		cost = 50
+		cost = 28
 		relative_position_id = FRA_Desperate_Defence
 		x = -1
 		y = 1
@@ -4249,7 +4327,7 @@ focus_tree = {
 	focus = {
 		id = FRA_The_Mediterranean_Retreat
 		icon = GFX_
-		cost = 50
+		cost = 7
 		relative_position_id = FRA_Desperate_Defence
 		x = 1
 		y = 1
@@ -4266,7 +4344,7 @@ focus_tree = {
 	focus = {
 		id = FRA_With_Every_Man
 		icon = GFX_GENERIC_Populist_Politics
-		cost = 50
+		cost = 56
 		relative_position_id = FRA_In_Every_City_and_Village
 		x = -1
 		y = 1
@@ -4288,7 +4366,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Behind_Every_River
 		icon = GFX_focus_SWI_fortify_border_with_france
-		cost = 50
+		cost = 56
 		relative_position_id = FRA_In_Every_City_and_Village
 		x = 1
 		y = 1
@@ -4310,7 +4388,7 @@ focus_tree = {
 	focus = {
 		id = FRA_The_Reduit_Breton
 		icon = GFX_FRA_The_Reduit_Breton
-		cost = 50
+		cost = 28
 		relative_position_id = FRA_Behind_Every_River
 		x = -1
 		y = 1
@@ -4329,7 +4407,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Keep_Fighting_in_Africa
 		icon = GFX_focus_generic_africa_liberation
-		cost = 50
+		cost = 28
 		relative_position_id = FRA_Behind_Every_River
 		x = 1
 		y = 1

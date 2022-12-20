@@ -186,7 +186,7 @@
  FRA_Reform_of_the_State.10.A: "He broke the truce set by the National Union, he must resign."
  FRA_Reform_of_the_State.10.B: "Make it clear to the Radicaux that they cannot leave the coalition..."
 
- FRA_Reform_of_the_State.11.t: "Les Beauté de Bordeau"
+ FRA_Reform_of_the_State.11.t: "Les Beauté de Bordeaux"
  FRA_Reform_of_the_State.11.d: ""
  FRA_Reform_of_the_State.11.A: ""
 
@@ -449,7 +449,7 @@
  FRA_Events.41.d: ""
  FRA_Events.41.A: "France is in the Air!"
 
- FRA_Events.43.t: "Les Beauté de Bordeau"
+ FRA_Events.43.t: "Les Beautés de Bordeaux"
  FRA_Events.43.d: "Franck Bouhier is a simple man living a simple life. He usually wakes up early, gets a drink of coffee and a tartine from the cafe below his apartment, reads the morning paper, and heads off to work. It takes him a good 20-25 minutes to get to work when walking at a fast pace. However, it's hard for his back as he is in his mid-50s and works as a janitor to stand most of the day. Though he enjoys his walks to work seeing the city streets.\n\nThough this morning is different as the construction in the road that he has seen progress through his window has finally been completed. It is a brand new tram line with a stop right outside his apartment with cars imported from Paris. This new tram line has been touted by the mayor of Bordeaux Adrian Marquet for a few weeks now and thanks to the recently enacted national plan that paid for new infrastructure all around France. Franck does not think much about politics or the government. Still, he does enjoy the mayor's initiation for this new tram line as his back will no longer hurt on the way to work."
  FRA_Events.43.A: "An Easier Way to Work Indeed"
 
@@ -611,14 +611,14 @@
 #   #   #     #   #    ##### #####
 #########################################################################
 # Saar Offensive
- FRA_Saar_Offensive.1.t: "Gamelin Enters the Saar"
+ FRA_Saar_Offensive.1.t: "French Troops Enters the Saar"
  FRA_Saar_Offensive.1.d: ""
  FRA_Saar_Offensive.1.A: ""
  FRA_Saar_Offensive.1.A_tt: "§RYou will have 40 days to reach the Rhine§!"
 
- FRA_Saar_Offensive.2.t: "Gamelin Retreats"
+ FRA_Saar_Offensive.2.t: "French Troops Retreats"
  FRA_Saar_Offensive.2.d: ""
- FRA_Saar_Offensive.2.A: "The coward"
+ FRA_Saar_Offensive.2.A: "Damn it"
 
  FRA_Saar_Offensive.3.t: "Success of the Saar Offensive"
  FRA_Saar_Offensive.3.d: ""
@@ -634,12 +634,12 @@
  FRA_Wartime_Tree.0.A: ""
  FRA_Wartime_Tree.0.B: ""
 
- FRA_Wartime_Tree.1.t: "The Banishment of the PCF"
+ FRA_Wartime_Tree.1.t: "Banishment of the PCF"
  FRA_Wartime_Tree.1.d: ""
  FRA_Wartime_Tree.1.A: ""
 
  FRA_Wartime_Tree.2.t: "Maurice Thorez Flies to the Soviet Union"
- FRA_Wartime_Tree.2.d: ""
+ FRA_Wartime_Tree.2.d: "With communism banned in France, and the PCF recognised as illegal, it seems that the party's Secretary General Maurice Thorez, rather than accepting the draft decided to flee into the Soviet Union. While this might be considered a hard blow against the far-left in France, partisanship is unlikely to wean, and even though many have considered armed resistance despite the outcome of the upcoming conflict, there are many that continue to claim that a a non-revolutionary power-struggle should remain the focus of the PCF remnants. Thorez himself claimed he'll continue to write for the the party's newspaper, the \"Humanité Clandestine,\" and his sway over the French left is likely to remain strong."
  FRA_Wartime_Tree.2.A: ""
 
  FRA_Wartime_Tree.3.t: "[This.GetLeader] Government is Overthrown"
@@ -718,8 +718,8 @@
  FRA_Capitulation_of_France.1.d: "The battle is lost. Paris has fallen into German hands, and it is only a matter of time before the rest of the country is occupied. We must now think to the future. Elements within the government want an armistice with Germany, but many officers wish to continue the struggle from Britain.\n\nCertain members of the British War Cabinet have suggested another option - a merger of France and Great Britain into a single nation, which will fight on until all of France has been liberated."
  FRA_Capitulation_of_France.1.A: "We must collaborate with the Germans."
  FRA_Capitulation_of_France.1.B: "The fight goes on!"
- FRA_Capitulation_of_France.10.A_tt: "§YPlay as Vichy France if Germany grants armistice§!\n"
- FRA_Capitulation_of_France.10.B_tt: "§YPlay as France if Germany grants armistice§!\n"
+ FRA_Capitulation_of_France.10.A_tt: "§RPlay as Vichy France if Germany grants armistice§!\n"
+ FRA_Capitulation_of_France.10.B_tt: "§RPlay as France if Germany grants armistice§!\n"
 
  FRA_Capitulation_of_France.2.t: "Triumph in France"
  FRA_Capitulation_of_France.2.d: "Our victory in France is nearly complete. The French government has asked for an armistice, and our diplomats have prepared terms which they have agreed to. They will retain control of southern France, while we are free to occupy the rest."
@@ -1108,7 +1108,7 @@
 
 ### Daladier ###
 
- FRA_The_end_of_the_Ruling_party: "The End of [FRA.GetRulingPartyLong]"
+ FRA_The_end_of_the_Ruling_party: "The End of the Front Populaire"
  FRA_The_end_of_the_Ruling_party_desc: ""
 
  FRA_Create_Family_Code: "Create the Family Code"
@@ -1135,7 +1135,7 @@
  FRA_Act_Against_the_Enemy_of_the_State: "Act Against the Enemies of the State"
  FRA_Act_Against_the_Enemy_of_the_State_desc: ""
 
- FRA_War_On_Pacifism: "War on Pacifism"
+ FRA_War_On_Pacifism: "Deal with the Pacifists"
  FRA_War_On_Pacifism_desc: ""
 
  FRA_National_Defense_Bonds: "National Defense Bonds"
@@ -1267,6 +1267,9 @@
  FRA_Create_the_Bureau: "Create the Bureau de Recherche de Pétrole"
  FRA_Create_the_Bureau_desc: ""
 
+ FRA_Fix_Tunisian_Economy: "Fix the Tunisian Economy"
+ FRA_Fix_Tunisian_Economy_desc: ""
+
  FRA_Ban_the_Neo_Destour: "Ban the Neo-Destour"
  FRA_Ban_the_Neo_Destour_desc: ""
 
@@ -1371,10 +1374,10 @@
  FRA_War_of_Annilation: "War of Annihilation"
  FRA_War_of_Annilation_desc: ""
 
- FRA_Restart_Yperit: "Restart Production of Yperit"
+ FRA_Restart_Yperit: "Restart Production of Ypérit"
  FRA_Restart_Yperit_desc: ""
 
- FRA_Guerre_Total: "The "Guerre Total" Tenet"
+ FRA_Guerre_Total: "The "Guerre Totale" Tenet"
  FRA_Guerre_Total_desc: ""
 
  #Air Army
@@ -1695,6 +1698,9 @@
  FRA_Milices_Fascistes: "Fascist Militias"
  FRA_Milices_Fascistes_desc: ""
 
+ FRA_Defender_of_the_Republic: "Defender of the Republic"
+ FRA_Defender_of_the_Republic_desc: ""
+
  FRA_The_Era_of_Aces: "The Era of Aces"
  FRA_The_Armee_de_lAir: "L'Armee de l'Air"
 
@@ -1822,6 +1828,9 @@
  FRA_La_Der_des_Ders_2_desc: ""
  FRA_La_Der_des_Ders_3: "La Der des Ders"
  FRA_La_Der_des_Ders_3_desc: ""
+
+ FRA_The_Saar_Offensive_spirit: "The Saar Offensive"
+ FRA_The_Saar_Offensive_spirit_desc: ""
 
  FRA_The_Phoney_War: "The Phoney War"
  FRA_The_Phoney_War_desc: ""

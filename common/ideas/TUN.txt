@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		TUN_Economic_Crisis = {
-			picture = GFX_idea_usa_great_depression_2
+			picture = GENERIC_The_Great_Depression
 			modifier = {
 				production_speed_buildings_factor = -0.5
 				industrial_capacity_factory = -0.25

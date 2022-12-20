@@ -17,9 +17,3 @@ FRA_Integrated_Algeria = {
 	local_resources_factor = 1
 	local_non_core_manpower = 0.4
 }
-
-FRA_The_Saar_Offensive = {
-	icon = GFX_
-	
-	army_core_defence_factor = FRA_Saar_Offensive_ACDF_Var
-}
