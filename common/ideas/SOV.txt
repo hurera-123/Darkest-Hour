@@ -204,7 +204,6 @@ ideas = {
 
 			modifier = {
 				conscription_factor = -0.05
-				political_power_gain = 0.15
 				war_support_factor = -0.05
 			}
 		}
@@ -281,7 +280,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_opiate_of_the_masses
+			picture = idea_SOV_opiate_of_the_masses
 
 			modifier = {
 				stability_factor = -0.05
@@ -1020,7 +1019,7 @@ ideas = {
 		}
 
 		SOV_Five_Year_Plan_Fulfilled = {
-			picture = GFX_idea_SOV_third_five_year_plan
+			picture = idea_SOV_third_five_year_plan
 			allowed = {
 				always = no
 			}

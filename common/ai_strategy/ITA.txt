@@ -66,12 +66,12 @@ ITA_Prepare_for_war_with_Ethiopia = {
 	ai_strategy = {
 		type = prepare_for_war
 		id = "ETH"
-		value = 100
+		value = 500
 	}
 	ai_strategy = {
 		type = front_unit_request
 		tag = ETH
-		value = 50
+		value = 200
 	}
 }
 ITA_prepare_to_join_the_war = {
@@ -652,7 +652,7 @@ ITA_Protect_Home = {
 	ai_strategy = {
 		type = front_unit_request
 		tag = "FRA"
-		value = 200
+		value = 100
 	}
 
 	ai_strategy = {
@@ -668,7 +668,7 @@ ITA_Protect_Home = {
 			114
 		}
 
-		ratio = 0.4
+		ratio = 0.3
 
 		subtract_invasions_from_need = no
 	}
@@ -703,7 +703,7 @@ ITA_Protect_Home = {
 			450
 		}
 
-		ratio = 0.4
+		ratio = 0.2
 
 		subtract_invasions_from_need = no
 	}

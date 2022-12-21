@@ -128,16 +128,12 @@
  SOV_Great_Purge.13.A: ""
 
  SOV_Great_Purge.14.t: "Resolution of Politburo"
- SOV_Great_Purge.14.d: "❝Comrade, I come to you today to present my final choice.❞\n❝About Kirov's affair?❞\n❝Not just that, but concerning the Soviet Union's future,❞ Stalin responded, his voice visibly exhausted.\n❝His death was not simply an assassination. This was nothing more than a massive conspiracy against the Union's leaders, including me.❞\n❝...But how many can there be?❞\n\n❝Thousands, on every street corner in every city...❞\nMolotov, perplexed, raised his head.\n❝How will we identify them? They will realise we intend to eliminate them long before the last of them are executed.❞\n❝Through their Trotskyist connections, as well as others.❞ Stalin seemed increasingly tense.\n❝Who must be dealt with?❞\n❝We must eliminate the Bukharinist opposition. Their soft approach to capitalism is treason.❞\n❝Correct. As a result, we will crush the Trotsky Revolution and adherents of Bukharin's economic programme. I'll forward this to the NKVD, and...❞\n❝I haven't finished yet!❞\n❝What? You think destroying both sides isn't enough?❞\n❝Don't forget who you're talking to, Molotov... The last one we need to eliminate is the most difficult: Tukhachevsky.❞\n\n❝You... want to eliminate the Red Marshall?❞ Molotov now became pale.\n❝The Red Napoleon, the head of the Red Army? ❞\n❝Yes, that is exactly what I want. That's all I have for now.❞\nBefore leaving, Molotov gave Stalin one last look: a few minutes ago, he was weakened, and now, in a few words, he ordered the extermination of the opposition. Stalin stared him down in the doorway and responded to his glare:"
- SOV_Great_Purge.14.A: "❝You know what, Vyacheslav? I’m not a new Robespierre. I'm stopping a tank-driver from causing my downfall.❞"
+ SOV_Great_Purge.14.d: "\"Comrade, I come to you today to present my final choice.\"\n\"About Kirov's affair?\"\n\"Not just that, but concerning the Soviet Union's future,\" Stalin responded, his voice visibly exhausted.\n\"His death was not simply an assassination. This was nothing more than a massive conspiracy against the Union's leaders, including me.\"\n\"...But how many can there be?\"\n\n\"Thousands, on every street corner in every city...\"\nMolotov, perplexed, raised his head.\n\"How will we identify them? They will realise we intend to eliminate them long before the last of them are executed.\"\n\"Through their Trotskyist connections, as well as others.\" Stalin seemed increasingly tense.\n\"Who must be dealt with?\"\n\"We must eliminate the Bukharinist opposition. Their soft approach to capitalism is treason.\"\n\"Correct. As a result, we will crush the Trotsky Revolution and adherents of Bukharin's economic programme. I'll forward this to the NKVD, and...\"\n\"I haven't finished yet!\"\n\"What? You think destroying both sides isn't enough?\"\n\"Don't forget who you're talking to, Molotov... The last one we need to eliminate is the most difficult: Tukhachevsky.\"\n\n\"You... want to eliminate the Red Marshall?\" Molotov now became pale.\n\"The Red Napoleon, the head of the Red Army?\"\n\"Yes, that is exactly what I want. That's all I have for now.\"\nBefore leaving, Molotov gave Stalin one last look: a few minutes ago, he was weakened, and now, in a few words, he ordered the extermination of the opposition. Stalin stared him down in the doorway and responded to his glare:"
+ SOV_Great_Purge.14.A: "\"You know what, Vyacheslav? I’m not a new Robespierre. I'm stopping a tank-driver from causing my downfall.\""
 
  SOV_Great_Purge.15.t: "The End of Yezhov"
  SOV_Great_Purge.15.d: "Yezhov wandered aimlessly through Moscow's streets and back alleys, drink in hand, slowly stumbling in the general direction of his home. How could he, once the NKVD's king, have been reduced to this? Yezhov's face twisted into a scowl. Of course, he knew the answer: it was all because of that pudgy psychopath, Beria. He should have expedited that monster’s execution immediately when he ordered it in ‘38. If he had, Beria would never have had the opportunity to appeal to Stalin for mercy.\n\nYezhov tripped over a crack in the pavement and briefly fell to the ground. As he stood up to continue walking, the Kremlin in the distance caught his eye. It's not like he hadn't noticed his power was being usurped. The reassignment of his first deputy, Mikhail Frinovsky, signaled the impending "dismissal." He should known, because he used to organize such dismissals. Hell, he did the same thing to his chief predecessor.\n\nOf course, Frinovsky, like many of Yezhov's proteges, had been formally arrested a few months before. He had time to warn his old friend and mentee Aleksandr Uspensky, who went into hiding, but who knew how long he would be able to avoid capture. If he had learned anything about running the NKVD, it was how effective the organization was at locating and eliminating its targets.\n\nThere was no one left for Yezhov to rely on, neither student nor ally. Politically he had become radioactive. No member of the Politburo would dare talk to him outside of their assigned work for fear of being associated with him. Yezhov didn't even have his wife. While there had never been a great love between them, to have seen her commit suicide using those sleeping pills weighed heavily upon him.\n\nAs he finally stumbled back to the block that held his apartment, his eyes sluggishly focused on the two men in uniform standing at the entrance to the building. A feeling of ice pierced Yezhov’s heart as one of the men opened his mouth to speak the words Yezhov knew were coming."
- SOV_Great_Purge.15.A: ""Comrade Nikolai Yezhov, you are being arrested on suspicion of anti-Soviet behavior”"
-
- SOV_Great_Purge.16.t: "The Triumph of Yezhov"
- SOV_Great_Purge.16.d: ""
- SOV_Great_Purge.16.A: ""
+ SOV_Great_Purge.15.A: "\"Comrade Nikolai Yezhov, you are being arrested on suspicion of anti-Soviet behavior\""
 
  SOV_Great_Purge.17.t: "18th Congress of the All-Union Communist Party"
  SOV_Great_Purge.17.d: ""
@@ -156,7 +152,7 @@
  SOV_Great_Purge.20.A: "Take the Mantle of Lenin, for a more Stalinist way!"
  SOV_Great_Purge.20.B: "Be the Servant of Lenin, for the honouring of Marxism-Leninism!"
 
- SOV_Great_Purge.21.t: "Stalin Addresses"
+ SOV_Great_Purge.21.t: "Stalin's Address"
  SOV_Great_Purge.21.d: "\"Comrades, men of the Red Army and Red Navy, commanders and political instructors, working men and women, collective farmers-men and women, intellectual workers, brothers and sisters!\" On behalf of the Soviet Government and our Bolshevik Party, I greet you. This country has largely realized socialism, the first stage of communism. Now, the Soviet Union must serve as a rallying point for the revolution so that the cause of socialism can be spread throughout the world. Rather than limiting themselves to forming a united front with working-class parties, Communist parties should seek to form a popular front with all anti-fascist parties.\n\nThe capitalist system is nearing its end, and unless a socialist revolution sweeps Europe and the world, we will be crushed by world capitalism's military might, just as the Paris Commune was crushed by force of arms in 1871. And remember: an internationalist is someone who is willing to defend the USSR without reservation, without wavering, unconditionally; the USSR is the foundation of the global revolutionary movement, and this revolutionary movement cannot be defended and promoted unless the USSR is defended.\n\nLong live our magnificent Motherland, her liberty, and independence! Forward to victory under the banner of Lenin!\""
  SOV_Great_Purge.21.A: "Glory to the creator of all our victories, Comrade Stalin!"
 
@@ -214,8 +210,7 @@
 
  SOV_Moscow_Trials.4.t: "Trial of the Twenty-One"
  SOV_Moscow_Trials.4.d: "The third show trial, which commenced earlier this month, tied together all the loose threads from earlier trials. It includes 21 defendants alleged to belong to the so-called " Bloc of Rightists and Trotskyites". As part of the great purge, an overwhelmingly saddening task necessary to ensure loyalty to our motherland, the Trial of the Twenty-One will finish our struggle with the defiant upper class. Ambassadors, heads of mighty organizations and plain doctors alike will fall by our hand, doth they betrayed our motherland!"
- SOV_Moscow_Trials.4.A: "The navy and air force have been getting off easy so far."
- SOV_Moscow_Trials.4.B: "As we suspected, enemies are everywhere!"
+ SOV_Moscow_Trials.4.A: "As we suspected, enemies are everywhere!"
 
  SOV_Leningrad_Circle.1.t: "The Meeting"
  SOV_Leningrad_Circle.1.d: "“But that's not in the spirit of the revolution that Comrade Lenin wanted” said one of the Red Army Generals present in the meeting, “Well Comrade Lenin sure as hell didn't want Stalin in power”, said Marshal Tukhachevsky.\n\nThe group of Generals all held some of the most important ranks in the Red Army, each of the Military districts had at least one officer or more representing them in this meeting, on their orders the entire Red Army could be mobilized immediately for war or for any other “purpose”.\n\nMarshal Tukhachevsky ranted on how political interference had prevented him from capturing Warsaw in 1920, with many other officers also concurring and lamenting how almost daily interference by Political Commissars and their authority to countermand unit officer’s orders prevents them from doing something as trivial as regular shooting practices. A relatively junior officer from the Volga Military District pointed out how the Red Army’s leadership is being culled of the so-called “Trotskyites” and has made many of the commanders fearful of their lives, as executions and dismissals have become almost regular. After several hours of discussion, the officers dispersed, promising to meet again soon."
@@ -366,7 +361,7 @@
  SOV_XVII_Congress.13.d2: "[FROM.GetNewsIcon]The recently organized 17th Congress of the All-Union Communist Party in Moscow has finally concluded after nearly 2 weeks of proceedings. It was one of the largest party gatherings to have yet taken place, with almost if not all of the top hierarchy of the party in attendance.\n\nSupposed to be the “Congress of Victors” to mark the achievements of the successes of the first five-year plan and the collectivization instituted in the agricultural sector. But instead, the highlight has been the formation of a “Provisional Government”, headed by long time party member Nikolai Bukharin.\n\nThe current General Secretary Joseph Stalin received more than 100 votes against him for the Central Committee elections, making it evident that it was impossible for him to be elected in the face of such great opposition from Party ranks. A staunch proponent of the New economic policy during the early 1920s, many are scratching their heads, trying to predict the direction in which Comrade Bukharin will steer the nation to, but rest assured the people of the glorious Soviet Union will continue to thrive under his guiding hand."
  SOV_XVII_Congress.13.A: "Order the NKVD Chief to Persecue Kirov"
  SOV_XVII_Congress.13.A.tt: "§RKirov§! is a menace to our power, he has to go\n§OComrade Stalin§! to lead us until further notice"
- SOV_XVII_Congress.13.B: "Keep a eye on Kirov"
+ SOV_XVII_Congress.13.B: "Keep an eye on Kirov"
  SOV_XVII_Congress.13.B.tt: "The §ONKVD§! should monitor §RKirov§!'s movements\n§OComrade Stalin§! to lead us until further notice"
  SOV_XVII_Congress.13.C: "Kirov is loyal to the party"
  SOV_XVII_Congress.13.C.tt: "We dont need to do anything about him\n§OComrade Stalin§! to lead us until further notice"
@@ -399,7 +394,7 @@
 
  SOV_Second_Year_Plan.4.t: "Childcare System in the USSR"
  SOV_Second_Year_Plan.4.d: "Children are the future of every nation. Every single one of them holds the potential to become anything from a hard-working peasant, growing tonnes upon tonnes of crops to feed their fellow comrades, to a scientist, ready to make the next breakthrough in medicine, electricity or technology! Truly, they are the hope of the Motherland.\n\nHowever important children are, though, one cannot deny they are a hindrance for the first few years of their lives. Utterly dependent on their mothers for everything from moving to eating, they act as a distraction and hinder productivity. A natural question arises, then: How can we take care of the present and the future at the same time?\n\nThe answer lies in our childcare system. While not the first ones to implement it, we are the ones who perfected it. Crèches, government-supported daycare institutions, are places where infants and toddlers are taken care of by women specifically tasked with nurturing our precious little ones, making sure their needs are taken care of.\n\nAs there is no longer any need for them to look after their offspring, millions of young mothers can dedicate themselves fully to working to further the Motherland’s cause. As an added bonus, since they can occupy vital places in the workforce, more men can be conscripted than could be otherwise. The ingenuity of the Soviet people knows no bounds."
- SOV_Second_Year_Plan.4.A: "No One Can Say We Don’t Think Of the Children."
+ SOV_Second_Year_Plan.4.A: "No one can say we don't think of the children."
 
  SOV_Second_Year_Plan.5.t: "Empowerment of Women in Soviet Union"
  SOV_Second_Year_Plan.5.d: "By 1917 only three nations in Europe had female suffrage: Finland, Denmark and Norway. On 20 July 1917 Provisional Government enfranchised women with the right to vote, making Russian Republic one of the most democratic nations in the world. Bolshevik revolution strengthened equality of men and women even more by adopting Constitution of 1918"
@@ -407,19 +402,19 @@
 
  SOV_Second_Year_Plan.6.t: "The Great Soviet Famine"
  SOV_Second_Year_Plan.6.d: "Sacrifice. This is the word that represents our cause the best. Without sacrifices, progress cannot be achieved. Men and women alike must give up their ambitions, their comfort, their very lives to further the communist dream. A reality understood by all, yet we find ourselves facing something we couldn’t have predicted in our darkest dreams.\n\nSwollen faces, legs and arms. Graves that seem without end. Hate, fear and hopelessness. These are all part of the everyday lives of millions of our citizens in the vast grain plains of the Soviet Union. If luck exists, then we certainly lack it, for a myriad of causes have gathered to give us what can only be called the worst famine in the history of the USSR.\n\nOur policy of urbanisation and industrialisation led to countless peasants moving in the cities to work in the factories and meet the quotas required by the Five-Year Plan. This decrease in the number of farmers should have been mitigated by increased agricultural efficiency and yield due to the collectivisation undertaken at the same time, but natural disasters, food exports and the resistance of kulaks, holders of arable land from the time of the tsar, have lead to a catastrophically low harvest.\n\nSiberia, Kazakhstan, Northern Caucasus and Ukraine are only some of the many regions affected by the lack of food. As their people starve and struggle to survive, we find ourselves unable to feed them without compromising the industrialisation program.\n\nAnd we will do no such thing. Whatever the cost may be, the Five-Year Plan must continue."
- SOV_Second_Year_Plan.6.A: "Whatever the Cost…"
+ SOV_Second_Year_Plan.6.A: "Whatever the cost..."
 
  SOV_Second_Year_Plan.7.t: "Famine Caused by too Many Exports"
  SOV_Second_Year_Plan.7.d: "As it stands, we lack the industrial equipment and expertise necessary to accomplish the Five-Year Plan on our own. To solve this problem, we have had to, regrettably, export our own sweat and blood, that being food, to foreign powers in exchange for advanced industrial technology and personnel to train our people. The sheer humiliation aside, we cannot deny that we have still not caught up to the West. Thankfully, the Plan has as its aim to bring the Soviet Union to the same level as them and make us technologically independent.\n\nWhile the benefits of the food export can be clearly seen, so can the negative effects. We have already been stretching the limits of our capacity to feed the citizens with the industrialisation and urbanisation programs, but having to sell abroad our people’s source of sustenance has finally hit the nail in the figurative coffin. A famine is beginning to set in the food-producing areas of the Soviet Union, as the farmers’ yields are taken from them to feed the workers in the cities and the citizens of nations they did not even hear of.\n\nIf we wish to at least alleviate the symptoms of the disease, then action must be taken sooner than later, lest the whole body begins to suffer."
- SOV_Second_Year_Plan.7.A: "Solutions Must Be Found"
+ SOV_Second_Year_Plan.7.A: "Solutions must be found."
 
  SOV_Second_Year_Plan.8.t: "Pasha Angelina"
  SOV_Second_Year_Plan.8.d: "[FROM.GetNewsIcon]Women are an integral part of every society. They are the ones who nurture our future generations of citizens and take care of the houses while the men toil on the fields and factories of the Motherland. No one can deny the value of their roles, but perhaps there is more potential in them than one could gauge at first glance.\n\nThe best example of such potential can be found in the young udarnik and participant of the Stakhanovite movement, Praskovya Nikitichna Angelina. ‘Pasha Angelina’, as she has been colloquially called, has started attending tractor-driving courses in her native oblast in 1929 while also working at a dairy farm. In no time she proved herself to be an example to be followed by men and women alike, her leadership and dedication apparent as she organised an all-female tractor team that has been reported to have achieved 129% of the quota and thus have ranked first among the tractor teams of the region. Since then, the young worker has become a celebrity, widely covered in media and depicted on our propaganda posters. \n\nThe most recent of her statements has been ‘One hundred thousand female friends - onto the tractor!’, encouraging her fellow women to take up the roles of tractor operators that hitherto have been occupied only by men. We can only encourage this kind of appeal, for we direly need manpower. Dark clouds are gathering to our East and West, and our armies need more and more personnel to prepare for the upcoming storm. \n\nEvery female tractor worker means one more soldier that can be conscripted in the Red Army. Pasha Angelina’s work and exhortations will continue to receive our full support."
- SOV_Second_Year_Plan.8.A: "To the Tractors!"
+ SOV_Second_Year_Plan.8.A: "To the tractors!"
 
  SOV_Second_Year_Plan.9.t: "Rise of the Tolkachi"
  SOV_Second_Year_Plan.9.d: "Our planned economy could be said to be a ‘work in progress’, for it has many deficiencies and what some would call ‘flaws’. One of the more concerning ones is our inability to set realistic targets and commit resources to enterprises that are in most need of them. This has been leading to widespread inability to meet the quotas set by the Five-Year Plans, not helped by the fact that the various enterprises can’t simply buy the lacking resources because of the non-existent market economy.\n\nTo overcome this conundrum, a peculiar trend has emerged in the form of Tolkachi. Literally meaning ‘pushers’, these employees have as objective the use of ‘informal connections’ to enable production managers to meet or manipulate targeted outputs imposed by the State Planning Committee, better known as ‘Gosplan’.\n\nAn obvious form of corruption, the trend has nevertheless gained momentum, so much so that the Tolkachi have come to occupy an unofficial but powerful position as mediators between the enterprises and commissariats. This tendency, however immoral and damaging, is predicted to only rise in prevalence if the very cause of its existence is not dealt with."
- SOV_Second_Year_Plan.9.A: "At Least Have the Decency to Admit Failure."
+ SOV_Second_Year_Plan.9.A: "At least have the decency to admit failure"
 
  SOV_Bessarabia_Annexation.1.t: "Soviet Union Demands Bessarabia"
  SOV_Bessarabia_Annexation.1.d: ""
@@ -615,7 +610,7 @@
  
  ###Red Army Tree
  SOV_Red_Army.1.t: "State of the Red Army"
- SOV_Red_Army.1.d: "A report to the general staff of the Red Army on its combat ability.\n\nThe Workers and Peasants Red Army is commonly referred to as the Red Army. Is now plagued with corruption ranging from the lowest of officers to even our own commissars. Once the proud army of the people and the sign of the liberation of the working class is now a disorganized mess and severely lacking doctrinal coordination.\n\nTwo factions seem to be forming among our officer class in the thought of “Deep Battle”. The process of thrusting into an enemy's rear after a breakthrough is made. Then the Old guard preferred the ways of old that being of “Human Wave Tactics' ' overpowering our enemy from seat numbers compared to combined arms of air, land, and navy.\n\nIt is highly recommended that serious consideration and evaluation of the Red Army take place as advised in the 7th Congress."
+ SOV_Red_Army.1.d: "A report to the general staff of the Red Army on its combat ability.\n\nThe Workers and Peasants Red Army is commonly referred to as the Red Army. It is now plagued with corruption ranging from the lowest of officers to even our own commissars. Once the proud army of the people and the sign of the liberation of the working class is now a disorganized mess and severely lacking doctrinal coordination.\n\nTwo factions seem to be forming among our officer class. The first one is the doctrine of “deep battle”:  The process of thrusting into an enemy's rear after a breakthrough is made. Then there is the old guard's preferred way of doing things: "human wave tactics". This doctrine is comprised of overpowering our enemy by sheer numbers.\n\nIt is highly recommended that serious consideration and evaluation of the Red Army take place as advised in the 17th Congress."
  SOV_Red_Army.1.A: ""
  
  SOV_Red_Army.2.t: "Reorganization of the General Staff"
@@ -1534,6 +1529,7 @@
  SOV_less_than_50_paranoia: "§AYou must have 50 or less Paranoia§!"
  SOV_less_than_20_paranoia: "§AYou must have 20 or less Paranoia§!"
  SOV_Great_Purge_Phase_2: "§gPhase 2 of the Great Purge has Started§!"
+ SOV_Great_Purge_Phase_3: "§gPhase 3 of the Great Purge has Started§!"
 
  Yagoda_chief_of_NKVD: "Genrikh Yagoda"
  Agranov_chief_of_NKVD: "Yakov Agranov"
@@ -2031,13 +2027,13 @@
  SOV_Five_Year_Plan_Failed: "Five-Year Plan Failed"
  SOV_Five_Year_Plan_Failed_desc: ""
 
- SOV_Soviet_Famine_idea: "Great Famine"
+ SOV_Soviet_Famine_idea: "Failure of the Harvest"
  SOV_Soviet_Famine_idea_desc: ""
 
- SOV_Soviet_Small_Famine_idea: "Minor Famine"
+ SOV_Soviet_Small_Famine_idea: "Harvest Shortages"
  SOV_Soviet_Small_Famine_idea_desc: ""
 
- SOV_Soviet_Big_Famine_idea: "Large Famine"
+ SOV_Soviet_Big_Famine_idea: "Major Failure of the Harvest"
  SOV_Soviet_Big_Famine_idea_desc: ""
 
  SOV_Soviet_Work_Discipline: "Soviet Work Discipline"
@@ -2091,6 +2087,21 @@
  SOV_Operation_Groza_1: "Operation Groza"
  SOV_Operation_Groza_2: "Operation Groza"
  SOV_Operation_Groza_3: "Operation Groza"
+
+ SOV_The_Great_Terror_1: "The Great Terror"
+ SOV_The_Great_Terror_1_desc: ""
+
+ SOV_The_Great_Terror_2: "The Great Terror"
+ SOV_The_Great_Terror_2_desc: ""
+
+ SOV_The_Great_Terror_3: "The Great Terror"
+ SOV_The_Great_Terror_3_desc: ""
+
+ SOV_The_Great_Reorganisation: "The Great Reorganisation"
+ SOV_The_Great_Terror_Reorganisation_desc: ""
+
+ SOV_The_Great_Disgrace: "The Great Disgrace"
+ SOV_The_Great_Disgrace_desc: ""
 
  SOV_The_Deal_idea: "The Deal"
  SOV_The_Deal_idea_desc: "Soviets have deployed Freddy Fazbear, RUN"

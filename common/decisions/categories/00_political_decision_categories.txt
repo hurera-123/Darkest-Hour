@@ -213,7 +213,6 @@ SOV_The_Great_Purge = {
 			has_country_flag = SOV_Great_Purge_Phase_2
 			has_country_flag = SOV_Great_Purge_Phase_3
 		}
-		check_variable = { var = SOV_Stalin_Paranoia value = 0 compare = greater_than }
 	}
 }
 ITA_Stresa_Front_category = {

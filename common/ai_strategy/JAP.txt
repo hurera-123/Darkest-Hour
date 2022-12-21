@@ -1550,17 +1550,17 @@ JAP_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = motorized
-		value = 30		#because doctrine this = 2
+		value = 20		#because doctrine this = 2
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = mechanized
-		value = 10		#because doctrine this = 0
+		value = 0		#because doctrine this = 0
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = 50		#because doctrine this = 10
+		value = 20		#because doctrine this = 10
 	}
 	ai_strategy = {
 		type = role_ratio

@@ -2095,10 +2095,6 @@ news_event = {
 				tag = ITA
 			}
 		}
-		annex_country = {
-			target = ALB
-			transfer_troops = no
-		}
 	}
 }
 ###########################

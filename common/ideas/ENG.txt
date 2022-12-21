@@ -1664,7 +1664,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_GENERIC_Economic_Compromise
+			picture = GENERIC_Economic_Compromise
 			
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -1680,7 +1680,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_GENERIC_Economic_Compromise
+			picture = GENERIC_Economic_Compromise
 			
 			modifier = {
 				consumer_goods_factor = 0.05

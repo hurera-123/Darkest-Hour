@@ -789,16 +789,6 @@ GER_Operation_Weserubung = {
 		value = 100
 	}
 	ai_strategy = {
-		type = front_armor_score
-		id = "HOL"
-		value = 100
-	}
-	ai_strategy = {
-		type = front_armor_score
-		id = "BEL"
-		value = 100
-	}
-	ai_strategy = {
 		type = conquer
 		id = "NOR"
 		value = 1000
@@ -807,10 +797,6 @@ GER_Operation_Weserubung = {
 		type = invade
 		id = "NOR"
 		value = 1000
-	}
-	ai_strategy = {
-		type = naval_invasion_focus
-		value = 200
 	}
 	ai_strategy = {
 		type = invasion_unit_request
@@ -884,8 +870,11 @@ GER_Fall_Gelb = {
 		DEN = {
 			has_capitulated = yes
 		}
-		NOR = {
-			surrender_progress > 0.5
+		OR = {
+			NOR = {
+				surrender_progress > 0.5
+			}
+			date > 1940.06.01
 		}
 	}
 	abort = {
@@ -901,12 +890,12 @@ GER_Fall_Gelb = {
 	}
 	#Belgium		
 	ai_strategy = {
-		type = prepare_for_war
+		type = declare_war
 		id = "BEL"
 		value = 2000
 	}
 	ai_strategy = {
-		type = declare_war
+		type = conquer
 		id = "BEL"
 		value = 2000
 	}
@@ -923,12 +912,12 @@ GER_Fall_Gelb = {
 	}
 	#Holland	
 	ai_strategy = {
-		type = prepare_for_war
+		type = declare_war
 		id = "HOL"
 		value = 2000
 	}
 	ai_strategy = {
-		type = declare_war
+		type = conquer
 		id = "HOL"
 		value = 2000
 	}
@@ -945,12 +934,12 @@ GER_Fall_Gelb = {
 	}
 	#Lux		
 	ai_strategy = {
-		type = prepare_for_war
+		type = declare_war
 		id = "LUX"
 		value = 2000
 	}
 	ai_strategy = {
-		type = declare_war
+		type = conquer
 		id = "LUX"
 		value = 2000
 	}
@@ -2019,13 +2008,13 @@ GER_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = 0
+		value = 15
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 75
+		value = 70
 	}
 
 	#Air unit factors
@@ -2038,7 +2027,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = cas
-		value = -35 #because doctrine this = 15
+		value = 15
 	}
 
 	ai_strategy = {
@@ -2064,13 +2053,13 @@ GER_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = capital_ship
-		value = 15
+		value = 10
 	}
 
 	ai_strategy = {
 		type = unit_ratio
 		id = submarine
-		value = -50 #because doctrine this = 50
+		value = 30
 	}
 
 	ai_strategy = {
@@ -2088,13 +2077,13 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = fighter
-		value = 150
+		value = 100
 	}
 
 	ai_strategy = {
 		type = equipment_production_factor
 		id = cas
-		value = -65
+		value = 50
 	}
 
 	ai_strategy = {
@@ -2118,7 +2107,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 11
+		value = 10
 	}
 
 	ai_strategy = {
@@ -2177,7 +2166,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_variant_production_factor
 		id = support_equipment
-		value = 30
+		value = 15
 	}
 
 	ai_strategy = { #added to railway gun define (set to 0 by default, increased in default strategies)

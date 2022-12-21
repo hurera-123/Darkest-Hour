@@ -2342,7 +2342,7 @@ ENG_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = armor
-		value = 10
+		value = 15
 	}
 }
 
@@ -2360,6 +2360,16 @@ royal_air_force = {
 	ai_strategy = {
 		type = air_factory_balance
 		value = 125
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = fighter
+		value = 5
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = strategic_bomber
+		value = 5
 	}
 }
 

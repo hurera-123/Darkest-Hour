@@ -4560,6 +4560,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Nikolai_Podvoisky"
+        texturefile = "gfx/interface/ideas/Cabinet/SOV/Nikolai_Podvoisky.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Nikolai_Voznesensky"
         texturefile = "gfx/interface/ideas/Cabinet/SOV/Nikolai_Voznesensky.png"
     }

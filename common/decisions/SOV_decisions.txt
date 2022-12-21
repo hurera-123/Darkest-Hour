@@ -97,7 +97,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 500
 		}
-		cost = 25
+		cost = 75
 		days_remove = 0
 		complete_effect = {
 			set_country_flag = SOV_Case_of_the_Anti_Soviet_Trotskyist_Center
@@ -142,7 +142,7 @@ SOV_The_Great_Purge = {
 			factor = 100
 		}
 		days_remove = 30
-		cost = 25
+		cost = 75
 		complete_effect = {
 		}
 		remove_effect = {
@@ -167,7 +167,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
-		cost = 25
+		cost = 50
 		days_remove = 70
 		complete_effect = {
 			set_temp_variable = {
@@ -250,7 +250,7 @@ SOV_The_Great_Purge = {
 			factor = 100
 		}
 		days_remove = 35
-		cost = 25
+		cost = 50
 		complete_effect = {
 			set_temp_variable = {
 				SOV_Stalin_Paranoia_Change_gain = -0.015
@@ -302,7 +302,7 @@ SOV_The_Great_Purge = {
 			factor = 100
 		}
 		days_remove = 5
-		cost = 25
+		cost = 50
 		complete_effect = {
 			# every_army_leader = {
 			#	add_skill_level = -1
@@ -330,7 +330,7 @@ SOV_The_Great_Purge = {
 			factor = 100
 		}
 		days_remove = 30
-		cost = 25
+		cost = 50
 		complete_effect = {
 		}
 		remove_effect = {
@@ -369,9 +369,12 @@ SOV_The_Great_Purge = {
 			factor = 999
 		}
 		days_remove = 10
-		cost = 25
+		cost = 50
 		complete_effect = {
 			custom_effect_tooltip = SOV_Agranov_is_Replaced
+			hidden_effect = {
+				retire_character = SOV_Yakov_Agranov
+			}
 			clr_country_flag = SOV_Agranov_Deputy_of_NKVD
 			set_country_flag = SOV_Frinovsky_Deputy_of_NKVD
 			set_country_flag = SOV_Frinovsky_is_Deputy_of_NKVD
@@ -408,7 +411,7 @@ SOV_The_Great_Purge = {
 			factor = 0
 		}
 		days_remove = 70
-		cost = 25
+		cost = 50
 		complete_effect = {
 			set_temp_variable = {
 				SOV_Stalin_Paranoia_Change_gain = -0.01
@@ -459,7 +462,7 @@ SOV_The_Great_Purge = {
 			factor = 0
 		}
 		days_remove = 35
-		cost = 25
+		cost = 35
 		complete_effect = {
 			swap_ideas = {
 				add_idea = SOV_Mass_Political_Repression_3
@@ -521,7 +524,7 @@ SOV_The_Great_Purge = {
 			factor = 1
 		}
 		days_remove = 70
-		cost = 25
+		cost = 35
 		complete_effect = {
 			set_temp_variable = {
 				money_to_gain = 300
@@ -539,7 +542,14 @@ SOV_The_Great_Purge = {
 				max = 0.05
 			}
 			custom_effect_tooltip = SOV_Stalin_Weekly_Paranoia_Change_tt
-			add_ideas = SOV_Repressed_Church
+			if = {
+				limit = {
+					NOT = {
+						has_idea = SOV_Repressed_Church
+					}		
+				}		
+				add_ideas = SOV_Repressed_Church
+			}
 		}
 		remove_effect = {
 
@@ -563,6 +573,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 1
 		}
+		cost = 50
 		days_remove = 35
 		complete_effect = {
 			set_temp_variable = {
@@ -622,6 +633,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
+		cost = 50
 		modifier = {
 			intel_network_gain_factor = -0.3
 			decryption_factor = -0.05
@@ -660,6 +672,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
+		cost = 50
 		modifier = {
 			weekly_manpower = -7500
 		}
@@ -697,6 +710,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
+		cost = 50
 		days_remove = 35
 		complete_effect = {
 			set_temp_variable = {
@@ -760,6 +774,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
+		cost = 50
 		days_remove = 35
 		complete_effect = {
 			set_temp_variable = {
@@ -811,6 +826,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
+		cost = 50
 		days_remove = 35
 		complete_effect = {
 			set_temp_variable = {
@@ -862,6 +878,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
+		cost = 50
 		days_remove = 35
 		complete_effect = {
 			set_temp_variable = {
@@ -922,6 +939,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
+		cost = 50
 		days_remove = 0
 		complete_effect = {
 			retire_character = SOV_Vasily_Blyukher
@@ -943,11 +961,12 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 999
 		}
+		cost = 75
 		days_remove = 0
 		complete_effect = {
 			custom_effect_tooltip = SOV_Frinovsky_is_Replaced
 			clr_country_flag = SOV_Frinovsky_Deputy_of_NKVD
-			set_country_flag = Beria_deputy_of_NKVD
+			set_country_flag = SOV_Beria_Deputy_of_NKVD
 			set_country_flag = SOV_Beria_is_Deputy_of_NKVD
 		}
 		remove_effect = {
@@ -968,6 +987,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
+		cost = 50
 		modifier = {
 			weekly_manpower = -500
 		}
@@ -1017,6 +1037,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
+		cost = 50
 		modifier = {
 			stability_factor = -0.05
 			political_power_gain = -0.1
@@ -1054,6 +1075,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
+		cost = 50
 		modifier = {
 			stability_factor = -0.03
 			political_power_gain = -0.2
@@ -1091,6 +1113,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
+		cost = 50
 		modifier = {
 			monthly_population = -0.05
 			stability_factor = -0.05
@@ -1296,309 +1319,6 @@ SOV_The_Great_Purge = {
 			country_event = {
 				id = SOV_Great_Purge.25 days = 1
 			}
-		}
-	}
-	##############################
-	##Yezhovshchina
-	##############################
-	SOV_Recall_Frinovsky = {
-		icon = generic_nationalism
-		fire_only_once = yes
-		allowed = {
-			original_tag = SOV
-		}
-		visible = {
-			has_country_flag = SOV_Great_Purge_Yezhovshchina
-		}
-		available = {
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		days_remove = 0
-		complete_effect = {
-		}
-		remove_effect = {
-		}
-	}
-	SOV_Restore_NKVD_Troikas = {
-		icon = generic_nationalism
-		fire_only_once = yes
-		allowed = {
-			original_tag = SOV
-		}
-		visible = {
-			has_country_flag = SOV_Great_Purge_Yezhovshchina
-		}
-		available = {
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		days_remove = 0
-		complete_effect = {
-		}
-		remove_effect = {
-		}
-	}
-	SOV_Second_Kulak_Operation = {
-		icon = generic_nationalism
-		fire_only_once = yes
-		allowed = {
-			original_tag = SOV
-		}
-		visible = {
-			has_country_flag = SOV_Great_Purge_Yezhovshchina
-		}
-		available = {
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		days_remove = 0
-		complete_effect = {
-		}
-		remove_effect = {
-		}
-	}
-	SOV_Rokossovsky_Case = {
-		icon = generic_nationalism
-		fire_only_once = yes
-		allowed = {
-			original_tag = SOV
-		}
-		visible = {
-			has_country_flag = SOV_Great_Purge_Yezhovshchina
-		}
-		available = {
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		days_remove = 0
-		complete_effect = {
-		}
-		remove_effect = {
-		}
-	}
-	SOV_Purge_Local_NKVD_and_Party_Committees = {
-		icon = generic_nationalism
-		fire_only_once = yes
-		allowed = {
-			original_tag = SOV
-		}
-		visible = {
-			has_country_flag = SOV_Great_Purge_Yezhovshchina
-		}
-		available = {
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		days_remove = 0
-		complete_effect = {
-		}
-		remove_effect = {
-		}
-	}
-	SOV_Start_the_Georgian_Operation = {
-		icon = generic_nationalism
-		fire_only_once = yes
-		allowed = {
-			original_tag = SOV
-		}
-		visible = {
-			has_country_flag = SOV_Great_Purge_Yezhovshchina
-		}
-		available = {
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		days_remove = 0
-		complete_effect = {
-		}
-		remove_effect = {
-		}
-	}
-	SOV_Repress_the_Beria_Anti_Soviet_Group = {
-		icon = generic_nationalism
-		fire_only_once = yes
-		allowed = {
-			original_tag = SOV
-		}
-		visible = {
-			has_country_flag = SOV_Great_Purge_Yezhovshchina
-		}
-		available = {
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		days_remove = 0
-		complete_effect = {
-		}
-		remove_effect = {
-		}
-	}
-	SOV_Purge_Anti_Soviet_Elements_in_the_Navy_and_Air_Force = {
-		icon = generic_nationalism
-		fire_only_once = yes
-		allowed = {
-			original_tag = SOV
-		}
-		visible = {
-			has_country_flag = SOV_Great_Purge_Yezhovshchina
-		}
-		available = {
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		days_remove = 0
-		complete_effect = {
-		}
-		remove_effect = {
-		}
-	}
-	SOV_Trial_of_the_Fifteen = {
-		icon = generic_nationalism
-		fire_only_once = yes
-		allowed = {
-			original_tag = SOV
-		}
-		visible = {
-			has_country_flag = SOV_Great_Purge_Yezhovshchina
-		}
-		available = {
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		days_remove = 0
-		complete_effect = {
-		}
-		remove_effect = {
-		}
-	}
-	SOV_Proclaim_the_Party_Cleansed = {
-		allowed = {
-			original_tag = SOV
-		}
-		available = {
-			always = no
-		}
-		activation = {
-			always = no
-		}
-		cancel_trigger = {
-		}
-		days_mission_timeout = 0
-		fire_only_once = yes
-		is_good = yes
-		complete_effect = {
-		}
-		timeout_effect = {
-		}
-	}
-	SOV_Purge_Former_Kulaks = {
-		icon = generic_nationalism
-		fire_only_once = yes
-		allowed = {
-			original_tag = SOV
-		}
-		visible = {
-			has_country_flag = SOV_Great_Purge_Yezhovshchina
-		}
-		available = {
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		days_remove = 0
-		complete_effect = {
-		}
-		remove_effect = {
-		}
-	}
-	SOV_Find_Industrial_Saboteurs = {
-		icon = generic_nationalism
-		fire_only_once = yes
-		allowed = {
-			original_tag = SOV
-		}
-		visible = {
-			has_country_flag = SOV_Great_Purge_Yezhovshchina
-		}
-		available = {
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		days_remove = 0
-		complete_effect = {
-		}
-		remove_effect = {
-		}
-	}
-	SOV_Purge_Spies_in_the_Party = {
-		icon = generic_nationalism
-		fire_only_once = yes
-		allowed = {
-			original_tag = SOV
-		}
-		visible = {
-			has_country_flag = SOV_Great_Purge_Yezhovshchina
-		}
-		available = {
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		days_remove = 0
-		complete_effect = {
-		}
-		remove_effect = {
-		}
-	}
-	SOV_Purge_Anti_Soviet_Army_Officers = {
-		icon = generic_nationalism
-		fire_only_once = yes
-		allowed = {
-			original_tag = SOV
-		}
-		visible = {
-			has_country_flag = SOV_Great_Purge_Yezhovshchina
-		}
-		available = {
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		days_remove = 0
-		complete_effect = {
-		}
-		remove_effect = {
-		}
-	}
-	SOV_Commit_to_Stability_of_the_Regime = {
-		allowed = {
-			original_tag = SOV
-		}
-		available = {
-			always = no
-		}
-		activation = {
-			always = no
-		}
-		cancel_trigger = {
-		}
-		days_mission_timeout = 30
-		fire_only_once = yes
-		is_good = no
-		complete_effect = {
-		}
-		timeout_effect = {
 		}
 	}
 }

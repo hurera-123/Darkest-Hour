@@ -10915,7 +10915,7 @@ country_event = {
 	}
 	# What a stupid idea ...
 	option = {
-		name = GER_Molotov_Ribbentrop.1.A
+		name = GER_Molotov_Ribbentrop.1.B
 		ai_chance = {
 			factor = 0
 		}

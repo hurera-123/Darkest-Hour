@@ -100,7 +100,7 @@ country_event = {
 					L_Father_of_the_Red_Cavalry
 				}
 			}
-			set_country_flag = Mikhail_N_Tukhatchevskiy_unavailable
+			retire_character = SOV_Mikhail_N_Tukhatchevskiy
 			country_event = {
 				id = SOV_Great_Purge_Failure.3
 				days = 1
@@ -218,7 +218,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = SOV_Great_Purge_Failure_Second_Phase.1.A
-		set_country_flag = Kliment_Y_Voroshilov_unavailable
+		retire_character = SOV_Kliment_Y_Voroshilov
 		hidden_effect = {
 			country_event = { id = SOV_Great_Purge_Failure_Second_Phase.2 days = 2 }
 		}
@@ -431,19 +431,6 @@ country_event = {
 	}
 }
 #########################################################################
-# The Triumph of Yezhov
-#########################################################################
-country_event = {
-	id = SOV_Great_Purge.16
-	title = SOV_Great_Purge.16.t
-	desc = SOV_Great_Purge.16.d
-	picture = GFX_report_SOV_Yezhov
-	is_triggered_only = yes
-	option = {
-		name = SOV_Great_Purge.16.A
-	}
-}
-#########################################################################
 # 18th Congress of the all-union communist party
 #########################################################################
 country_event = {
@@ -622,6 +609,7 @@ country_event = {
 			idea = SOV_The_Great_Reorganisation
 			days = 420
 		}
+		clr_country_flag = SOV_Great_Purge_Phase_3
 	}
 }
 
@@ -724,8 +712,14 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}
-		set_country_flag = Mikhail_N_Tukhatchevskiy_unavailable
-		remove_unit_leader = 266003
+		retire_character = SOV_Yakov_I_Alksnis
+		retire_character = SOV_Mikhail_N_Tukhatchevskiy
+		retire_character = SOV_Roberts_Eidemanis
+		retire_character = SOV_Iona_Yakir
+		retire_character = SOV_Ieronim_Uborevich
+		retire_character = SOV_Yan_Gamarnik
+		retire_character = SOV_August_Kork
+		retire_character = SOV_Vitaly_Primakov
 		set_temp_variable = { SOV_Stalin_Paranoia_gain = -5 }
 		add_to_variable = { SOV_Stalin_Paranoia = SOV_Stalin_Paranoia_gain }
 		clamp_variable = {
@@ -738,12 +732,11 @@ country_event = {
 	# Purge Rokossovsky
 	option = {
 		name = SOV_Great_Purge.4.B
-		set_country_flag = Konstantin_Rokossovsky_unavailable
-		set_country_flag = Kliment_Y_Voroshilov_unavailable
-		set_country_flag = Semyon_Timoshenko_unavailable
+		retire_character = SOV_Semyon_Timoshenko
+		retire_character = SOV_Kliment_Y_Voroshilov
+		retire_character = SOV_Ivan_Yumashev
+		retire_character = SOV_Konstantin_K_Rokossovsky
 		custom_effect_tooltip = SOV_Rokossovsky_Purge
-		remove_unit_leader = 266002
-		remove_unit_leader = 266001
 		set_temp_variable = { SOV_Stalin_Paranoia_gain = -10 }
 		add_to_variable = { SOV_Stalin_Paranoia = SOV_Stalin_Paranoia_gain }
 		clamp_variable = {
@@ -768,11 +761,11 @@ country_event = {
 		name = SOV_Moscow_Trials.1.A
 		add_political_power = -50
 		add_stability = -0.05
-		set_country_flag = Grigory_Y_Zinoviev_unavailable
-		set_country_flag = Sergey_Kamenev_unavailable
-		country_event = { id = SOV_Moscow_Trials.2 days = 157 }
-		country_event = { id = SOV_Moscow_Trials.3 days = 295 }
-		country_event = { id = SOV_Moscow_Trials.4 days = 563 }
+		hidden_effect = {
+			#country_event = { id = SOV_Moscow_Trials.2 days = 157 }
+			#country_event = { id = SOV_Moscow_Trials.3 days = 295 }
+			#country_event = { id = SOV_Moscow_Trials.4 days = 563 }
+		}
 	}
 }
 #########################################################################
@@ -788,8 +781,6 @@ country_event = {
 	option = {
 		name = SOV_Moscow_Trials.2.A
 		add_political_power = -75
-		set_country_flag = Nikolai_Bukharin_unavailable
-		set_country_flag = Aleksey_Rykov_unavailable
 	}
 }
 #########################################################################
@@ -813,38 +804,29 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		# Remove Alksnis
-		set_country_flag = Yakov_I_Alksnis_unavailable
-		# Remove Tukhachevsky
-		remove_unit_leader = 266003
-		set_country_flag = Mikhail_N_Tukhatchevskiy_unavailable
+		retire_character = SOV_Yakov_I_Alksnis
+		retire_character = SOV_Mikhail_N_Tukhatchevskiy
+		retire_character = SOV_Roberts_Eidemanis
+		retire_character = SOV_Iona_Yakir
+		retire_character = SOV_Ieronim_Uborevich
+		retire_character = SOV_Yan_Gamarnik
+		retire_character = SOV_August_Kork
+		retire_character = SOV_Vitaly_Primakov
 	}
 	# Rokossovsky refuses to confess, but cannot be allowed to live.
 	option = {
 		ai_chance = {
 			factor = 10
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0
+			}
 		}
 		name = SOV_Moscow_Trials.3.B
-		# Remove Timoshenko
-		custom_effect_tooltip = remove_chief_of_army
-		show_ideas_tooltip = SOV_CoArmy_Semen_K_Timoshenko
-		set_country_flag = Semen_K_Timoshenko_unavailable
-		# Remove Kiliment Voroshilov
-		custom_effect_tooltip = remove_chief_of_army
-		show_ideas_tooltip = SOV_CoArmy_Kliment_Y_Voroshilov
-		set_country_flag = Kliment_Y_Voroshilov_unavailable
-		# Remove Yumashev
-		custom_effect_tooltip = remove_chief_of_navy
-		show_ideas_tooltip = SOV_CoNavy_Ivan_Yumashev
-		set_country_flag = Ivan_Yumashev_unavailable
-		# Remove Rokossovsky
-		custom_effect_tooltip = remove_military_high_command
-		show_ideas_tooltip = SOV_CoStaff_Konstantin_K_Rokossovsky
-		set_country_flag = Konstantin_K_Rokossovsky_unavailable
-		remove_unit_leader = 266002 #kliment_voroshilov, field marshal
-		# remove_unit_leader = 402 #konstantin_rokossovsky, general
-		remove_unit_leader = 266001 #semyon_timoshenko, general
-		# remove_unit_leader = 403 #vladimir_kasatonov, naval commander
+		retire_character = SOV_Semyon_Timoshenko
+		retire_character = SOV_Kliment_Y_Voroshilov
+		retire_character = SOV_Ivan_Yumashev
+		retire_character = SOV_Konstantin_K_Rokossovsky
 	}
 }
 #########################################################################
@@ -859,43 +841,10 @@ country_event = {
 	#The navy and air force have been getting off easy so far.
 	option = {
 		name = SOV_Moscow_Trials.4.A
-		ai_chance = {
-			factor = 50
-		}
-		custom_effect_tooltip = remove_political_advisor
-		show_ideas_tooltip = SOV_Nikolai_I_Yezhov
-		custom_effect_tooltip = remove_chief_of_airforce
-		show_ideas_tooltip = SOV_CoAir_Yakov_Smushkevich
-		show_ideas_tooltip = SOV_CoAir_Pavel_V_Rychagov
-		show_ideas_tooltip = SOV_CoAir_Alexander_A_Novikov
-		custom_effect_tooltip = remove_military_high_command
-		show_ideas_tooltip = SOV_HC_Gordey_Levchenko
-		# remove_unit_leader = 406 #gordey_levchenko, naval commander
-		custom_effect_tooltip = soviet.27_tt
-		hidden_effect = {
-			set_country_flag = Nikolai_I_Yezhov_unavailable
-			set_country_flag = Yakov_Smushkevich_unavailable
-			set_country_flag = Pavel_V_Rychagov_unavailable
-			set_country_flag = Alexander_A_Novikov_unavailable
-			set_country_flag = Gordey_Levchenko_unavailable
-		}
-	}
-	# As we suspected, enemies are everywhere!
-	option = {
-		name = SOV_Moscow_Trials.4.B
-		ai_chance = {
-			factor = 45
-		}
-		custom_effect_tooltip = remove_chief_of_navy
-		show_ideas_tooltip = SOV_CoNavy_Nikolay_G_Kuznetsov
-		custom_effect_tooltip = remove_chief_of_airforce
-		custom_effect_tooltip = remove_military_high_command
-		show_ideas_tooltip = SOV_HC_Aleksandr_Vasilevsky
-		# remove_unit_leader = 407 #aleksandr_vasilevsky, general
-		custom_effect_tooltip = soviet.27_tt
-		hidden_effect = {
-			remove_ideas = SOV_HC_Aleksandr_Vasilevsky
-		}
+		retire_character = SOV_Nikolai_Bukharin
+		retire_character = SOV_Aleksey_Rykov
+		retire_character = SOV_Genrikh_G_Yagoda
+		retire_character = SOV_Hryhoriy_Hrynko
 	}
 }
 #########################################################################
@@ -1382,10 +1331,8 @@ country_event = {
 			planning_skill = 1
 			logistics_skill = 2
 		}
-		create_corps_commander = {
-			name = "Ivan Konev"
-			id = 408
-			GFX = GFX_M_Ivan_Konev
+		add_corps_commander_role = {
+			character = SOV_Ivan_Konev
 			traits = {
 				panzer_leader
 				harsh_leader
@@ -1466,9 +1413,8 @@ country_event = {
 	}
 	option = {
 		name = SOV_Generals_Promotions.1.A
-		create_corps_commander = {
-			name = "Georgy Zhukov"
-			GFX = GFX_M_Georgy_Zhukov
+		add_corps_commander_role = {
+			character = SOV_Georgy_Zhukov
 			traits = {
 				brilliant_strategist
 				panzer_leader
@@ -1521,11 +1467,8 @@ country_event = {
 			planning_skill = 3
 			logistics_skill = 1
 		}
-		create_corps_commander = {
-			name = "Vasily Sokolovsky"
-			GFX = GFX_M_Vasily_Sokolovsky
-			traits = {
-			}
+		add_corps_commander_role = {
+			character = SOV_Vasily_Sokolovsky
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -1616,10 +1559,8 @@ country_event = {
 			limit = {
 				NOT = { has_country_flag = Konstantin_Rokossovsky_unavailable }
 			}
-			create_corps_commander = {
-				name = "Konstantin Rokossovsky"
-				id = 402
-				GFX = GFX_M_Konstantin_Rokossovsky
+			add_corps_commander_role = {
+				character = SOV_Konstantin_K_Rokossovsky
 				traits = {
 					panzer_leader
 					organizer
@@ -1633,10 +1574,8 @@ country_event = {
 				logistics_skill = 2
 			}
 		}
-		create_corps_commander = {
-			name = "Aleksandr Vasilevsky"
-			id = 407
-			GFX = GFX_M_Aleksandr_Vasilevsky
+		add_corps_commander_role = {
+			character = SOV_Aleksandr_Vasilevsky
 			traits = {
 				armor_officer
 				trickster
@@ -1663,9 +1602,8 @@ country_event = {
 			planning_skill = 2
 			logistics_skill = 2
 		}
-		create_corps_commander = {
-			name = "Rodion Malinovsky"
-			GFX = GFX_M_Rodion_Malinovsky
+		add_corps_commander_role = {
+			character = SOV_Rodion_Y_Malinovsky
 			traits = {
 				career_officer
 			}

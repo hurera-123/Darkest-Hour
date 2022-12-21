@@ -4,7 +4,17 @@
 Spain_Push_1936 = { #During Civil War
 	enable = {
 		tag = SPA
-		is_historical_focus_on = yes
+		has_global_flag = SCW_started
+	}
+	ai_strategy = {
+		type = invade
+		id = SPR
+		value = -2000
+	}
+}
+Spain_Push_1936 = { #During Civil War
+	enable = {
+		tag = SPA
 		has_global_flag = SCW_started
 	}
 	ai_strategy = {
@@ -35,7 +45,6 @@ Spain_Push_1936 = { #During Civil War
 Spain_Push_1937 = {
 	enable = {
 		tag = SPA
-		is_historical_focus_on = yes
 		has_global_flag = SCW_started
 		controls_state = 775
 		controls_state = 169
@@ -69,7 +78,6 @@ Spain_Push_1937 = {
 Spain_Push_1938 = {
 	enable = {
 		tag = SPA
-		is_historical_focus_on = yes
 		has_global_flag = SCW_started
 		controls_state = 169
 		controls_state = 173
@@ -96,7 +104,6 @@ Spain_Push_1938 = {
 Spain_Push_1939 = {
 	enable = {
 		tag = SPA
-		is_historical_focus_on = yes
 		has_global_flag = SCW_started
 		controls_state = 169
 		controls_state = 173

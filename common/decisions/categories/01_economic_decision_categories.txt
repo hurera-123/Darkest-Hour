@@ -370,14 +370,26 @@ SPR_liberal_welfare_decisions_category = {
 	icon = placeholder
 	picture = placeholder
 	allowed = {
-		original_tag = SPR
+		tag = SPR
+	}
+	visible = {
+		has_global_flag = SCW_started 
+		SPA = {
+			exists = no
+		}
 	}
 }
 SPR_attracting_investors_decisions_category = {
 	icon = placeholder
 	picture = placeholder
 	allowed = {
-		original_tag = SPR
+		tag = SPR
+	}
+	visible = {
+		has_global_flag = SCW_started 
+		SPA = {
+			exists = no
+		}
 	}
 }
 SOV_Second_Five_Year_Plan_category = {

@@ -67,7 +67,7 @@ focus_tree = {
 			threat < 0.25
 		}
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 50
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_HISTORICAL }
 	}
@@ -88,7 +88,8 @@ focus_tree = {
 			OR = {
 				NOT = {
 					has_country_leader = {
-						name = "Joseph Stalin"
+						character = SOV_Joseph_Stalin
+						ruling_only = yes
 					}
 				}
 				threat > 0.3
@@ -96,7 +97,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_political_power = 150
+			add_political_power = 100
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -1065,7 +1066,6 @@ focus_tree = {
 				icon = "GFX_intelligence_agency_logo_sov"
 			}
 			add_ideas = SOV_NKVD_1
-			add_political_power = 50
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -1143,7 +1143,6 @@ focus_tree = {
 		x = 0
 		y = 1
 		completion_reward = {
-			add_political_power = 125
 			add_stability = 0.05
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = SOV_Maksim_M_Litvinov_FM
@@ -1276,7 +1275,7 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			add_political_power = 50
-			country_event = { id = SOV_Moscow_Trials.1 days = 1}
+			#country_event = { id = SOV_Moscow_Trials.1 days = 1}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -1365,7 +1364,6 @@ focus_tree = {
 		y = 1
 		relative_position_id = SOV_Maintain_the_Litvinov_Protocol
 		completion_reward = {
-			add_political_power = 50
 			add_opinion_modifier = { target = FRA modifier = small_increase }
 			add_opinion_modifier = { target = ENG modifier = small_increase }
 			add_opinion_modifier = { target = CZE modifier = small_increase }
@@ -1387,7 +1385,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SOV_Maintain_the_Litvinov_Protocol
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 50
 			set_country_flag = comintern_people_front
 			add_ideas = SOV_Peoples_Front_Theory
 		}
@@ -1410,10 +1408,12 @@ focus_tree = {
 			NOT = {
 				OR = {
 					has_country_leader = {
-						name = "Joseph Stalin"
+						character = SOV_Joseph_Stalin
+						ruling_only = yes
 					}
 					has_country_leader = {
-						name = "Sergey Kirov"
+						character = SOV_Sergey_Kirov
+						ruling_only = yes
 					}
 				}
 			}
@@ -1462,7 +1462,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = SOV_Maintain_the_Litvinov_Protocol
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 50
 			country_event = { id = SOV_Great_Purge.21 days = 1 }
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -1479,7 +1479,6 @@ focus_tree = {
 		y = 3
 		relative_position_id = SOV_Maintain_the_Litvinov_Protocol
 		completion_reward = {
-			add_political_power = 75
 			add_popularity = {
 	           ideology = communist
 	           popularity = 0.1
@@ -1515,7 +1514,7 @@ focus_tree = {
 		relative_position_id = SOV_BT_Cavalry_Tanks
 		completion_reward = {
 			army_experience = 10
-			add_political_power = 100
+			add_political_power = 50
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH }
 	}
@@ -1531,7 +1530,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SOV_Peoples_Commissariat_of_Defense
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 50
 			country_event = {
 				id = SOV_Red_Army.2
 				days = 1
@@ -2080,7 +2079,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = { id = SOV_Great_Purge.2 hours = 6 }
-			country_event = { id = SOV_Great_Purge.14 days = 3}
+			hidden_effect = {
+				country_event = { id = SOV_Great_Purge.14 days = 3 }
+			}
 			unlock_decision_category_tooltip = SOV_The_Great_Purge
 		}
 	}
@@ -2215,7 +2216,7 @@ focus_tree = {
 			focus = SOV_Start_the_Great_Purge
 		}
 		relative_position_id = SOV_Start_the_Great_Purge
-		x = -4
+		x = -3
 		y = 1
 		completion_reward = {
 			add_ideas = SOV_Nikolai_I_Yezhov_MoS
@@ -2319,7 +2320,7 @@ focus_tree = {
 			has_country_flag = SOV_Great_Purge_Phase_3
 		}
 		relative_position_id = SOV_The_Bloody_Dwarf
-		x = 0
+		x = -1
 		y = 1
 		completion_reward = {
 			unlock_decision_tooltip = SOV_Execute_the_Kulak_Operation
@@ -2344,7 +2345,7 @@ focus_tree = {
 			has_country_flag = SOV_Great_Purge_Phase_3
 		}
 		relative_position_id = SOV_The_Bloody_Dwarf
-		x = 2
+		x = 1
 		y = 1
 		completion_reward = {
 			unlock_decision_tooltip = SOV_Step_up_Mass_Operations
@@ -2361,7 +2362,7 @@ focus_tree = {
 			focus = SOV_The_Moscow_Trials
 		}
 		relative_position_id = SOV_The_Moscow_Trials
-		x = -1
+		x = 0
 		y = 1
 		completion_reward = {
 			unlock_decision_tooltip = SOV_Purge_Anti_Soviet_Army_Officers_2
@@ -2379,6 +2380,13 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			unlock_decision_tooltip = SOV_Expel_Officers_Excluded_from_the_Party
+			retire_character = SOV_Alexander_Yegorov
+			retire_character = SOV_Yakov_Smushkevich
+			retire_character = SOV_Pavel_V_Rychagov
+			retire_character = SOV_Pyotr_Smirnov
+			retire_character = SOV_Aleksandr_Loktionov
+			retire_character = SOV_Mikhail_V_Viktorov
+			retire_character = SOV_Vladimir_M_Orlov
 		}
 	}
 	focus = {
@@ -2391,7 +2399,10 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_NKVD_Primacy
 		}
-		x = 0
+		prerequisite = {
+			focus = SOV_Further_Expand_Kulak_and_Ethnic_Operations
+		}
+		x = -1
 		y = 1
 		relative_position_id = SOV_NKVD_Primacy
 		completion_reward = {
@@ -2411,7 +2422,6 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_Stalins_Protege
 			focus = SOV_The_Beria_Flight
-			focus = SOV_Yezhovchina
 		}
 		prerequisite = {
 			focus = SOV_NKVD_Internal_Troops
@@ -2419,9 +2429,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_Tying_Loose_Ends
 		}
-		relative_position_id = SOV_1937_Constitutional_Elections
-		x = 7
-		y = 2
+		relative_position_id = SOV_NKVD_Internal_Troops
+		x = 2
+		y = 1
 
 		completion_reward = {
 			custom_effect_tooltip = SOV_The_Vanishment_of_the_The_Vanishing_Commissar_tt
@@ -3382,11 +3392,10 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = SOV_The_Beria_Flight
-			focus = SOV_Yezhovchina
 		}
-		relative_position_id = SOV_The_Bloody_Dwarf
-		x = -4
-		y = 2
+		relative_position_id = SOV_NKVD_Order_N_00447
+		x = -2
+		y = 1
 		completion_reward = {
 			remove_ideas = SOV_Vyacheslav_Menzhinsky_MoS
 			add_ideas = SOV_Georgy_Malenkov_MoS
@@ -3405,11 +3414,10 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = SOV_Stalins_Protege
-			focus = SOV_Yezhovchina
 		}
-		relative_position_id = SOV_The_Bloody_Dwarf
-		x = -2
-		y = 2
+		relative_position_id = SOV_NKVD_Order_N_00447
+		x = 0
+		y = 1
 		completion_reward = {
 			remove_ideas = SOV_Vyacheslav_Menzhinsky_MoS
 			add_ideas = SOV_Lavrentiy_Beria_MoS
@@ -3418,29 +3426,6 @@ focus_tree = {
 			}
 		}
 		search_filters = { FOCUS_FILTER_HISTORICAL }
-	}
-	focus = {
-		id = SOV_Yezhovchina
-		icon = GFX_SOV_Yezhovchina
-		cost = 50
-		available = {
-			date > 1937.11.01
-		}
-		prerequisite = {
-			focus = SOV_Further_Expand_Kulak_and_Ethnic_Operations
-		}
-		mutually_exclusive = {
-			focus = SOV_Stalins_Protege
-			focus = SOV_The_Beria_Flight
-		}
-		relative_position_id = SOV_The_Bloody_Dwarf
-		x = 0
-		y = 2
-		completion_reward = {
-			remove_ideas = SOV_Vyacheslav_Menzhinsky_MoS
-			add_ideas = SOV_Nikolai_I_Yezhov_MoS
-			country_event = { id = SOV_Great_Purge.16 days = 1 }
-		}
 	}
 	focus = {
 		id = SOV_Arrest_Political_Enemies
@@ -3497,13 +3482,12 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_Stalins_Protege
 			focus = SOV_The_Beria_Flight
-			focus = SOV_Yezhovchina
 		}
 		prerequisite = {
 			focus = SOV_NKVD_Internal_Troops
 		}
 		relative_position_id = SOV_1937_Constitutional_Elections
-		x = 3
+		x = 5
 		y = 2
 		completion_reward = {
 			custom_effect_tooltip = SOV_XVIII_Congress.tt
@@ -3517,13 +3501,13 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_XVIII_Congress
 		}
-		relative_position_id = SOV_1937_Constitutional_Elections
-		x = 3
-		y = 3
+		relative_position_id = SOV_XVIII_Congress
+		x = 0
+		y = 1
 		completion_reward = {
 			country_event = { id = SOV_Great_Purge.18 days = 1 }
 			add_stability = 0.05
-			add_political_power = 100
+			add_political_power = 50
 		}
 	}
 	focus = {
@@ -3539,9 +3523,9 @@ focus_tree = {
 		bypass = {
 			date > 1939.9.1
 		}
-		relative_position_id = SOV_1937_Constitutional_Elections
-		x = 2
-		y = 4
+		relative_position_id = SOV_Expand_Cult_of_Personality
+		x = -1
+		y = 1
 		completion_reward = {
 			unlock_decision_tooltip = SOV_Baltic_Basing_Rights
 			unlock_decision_tooltip = SOV_Occupy_Estonia_And_Latvia
@@ -3557,9 +3541,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_Expand_Cult_of_Personality
 		}
-		relative_position_id = SOV_1937_Constitutional_Elections
-		x = 4
-		y = 4
+		relative_position_id = SOV_Expand_Cult_of_Personality
+		x = 1
+		y = 1
 		completion_reward = {
 			country_event = { id = SOV_Great_Purge.19 days = 1 }
 		}
@@ -3571,9 +3555,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_Promote_Young_Pioneers
 		}
-		relative_position_id = SOV_1937_Constitutional_Elections
-		x = 4
-		y = 5
+		relative_position_id = SOV_Promote_Young_Pioneers
+		x = 0
+		y = 1
 		completion_reward = {
 			country_event = { id = SOV_Great_Purge.20 days = 1 }
 		}
@@ -3638,7 +3622,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SOV_The_Great_Patriotic_War
 		}
-		x = 7
+		x = 9
 		y = 16
 		completion_reward = {
 			add_ideas = SOV_The_Great_Patriotic_War
@@ -3658,7 +3642,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SOV_The_Revolution_Marches_West
 		}
-		x = 9
+		x = 11
 		y = 16
 		completion_reward = {
 			add_ideas = SOV_The_Great_Patriotic_War

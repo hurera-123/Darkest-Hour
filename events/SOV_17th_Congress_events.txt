@@ -93,7 +93,6 @@ news_event = {
 	#The Congress begins
 	option = {
 		name = SOV_XVII_Congress.1.A
-		add_political_power = 25
 		country_event = {
 			id = SOV_XVII_Congress.2
 			hours = 6
@@ -134,7 +133,6 @@ country_event = {
 	#Efficiency to improve
 	option = {
 		name = SOV_XVII_Congress.5.A
-		add_political_power = 5
 		country_event = {
 			id = SOV_XVII_Congress.6
 			hours = 12

@@ -292,6 +292,13 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = FIN_Winter_War.11.A
+		ai_chance = {
+			base = 100
+			modifier = {
+				is_historical_focus_on = yes 
+				factor = 0
+			}
+		}
 		white_peace = FIN
 		set_autonomy = {
 			target = FIN
@@ -326,6 +333,27 @@ country_event = {
 				transfer_state = 1231
 				clr_country_flag = FIN_Soviet_Keraila_Demands
 			}
+		}
+	}
+	option = {
+		name = FIN_Winter_War.11.B
+		trigger = {
+			is_ai = yes
+			is_historical_focus_on = yes
+		}
+		ai_chance = {
+			base = 100
+		}
+		white_peace = FIN
+		transfer_state = 146
+		transfer_state = 147
+		transfer_state = 1129
+		transfer_state = 1132
+		transfer_state = 1130
+		transfer_state = 1138
+		FIN = {
+			set_country_flag = FIN_Lost_Winter_War
+			clr_country_flag = FIN_Soviet_Keraila_Demands
 		}
 	}
 }

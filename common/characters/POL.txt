@@ -229,25 +229,6 @@ characters={
 			}
 		}
 		advisor={
-			slot=Head_of_Government
-			idea_token=POL_Henryk_Jozewski_HoG
-			removal_cost = -1
-			allowed = {
-				tag = POL
-			}
-			visible = {
-				date > 1933.1.1
-				date < 1964.1.1
-				A_Minister_Allowed = yes
-				NOT = {
-					has_country_flag = Henryk_Jozewski_unavailable
-				}
-			}
-			traits = {		
-				L_Happy_Amateur
-			}
-		}
-		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Henryk_Jozewski_FM
 			removal_cost = -1
@@ -267,34 +248,6 @@ characters={
 			}
 		}
 	}
-	# Adam Szczypiorski
-	POL_Adam_Szczypiorski = {
-		name = POL_Adam_Szczypiorski
-		portraits={
-			civilian={
-				small="GFX_idea_Adam_Szczypiorski"
-			}
-		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=POL_Adam_Szczypiorski_HoG
-			removal_cost = -1
-			allowed = {
-				tag = POL
-			}
-			visible = {
-				date > 1933.1.1
-				date < 1964.1.1
-				A_Minister_Allowed = yes
-				NOT = {
-					has_country_flag = Adam_Szczypiorski_unavailable
-				}
-			}
-			traits = {		
-				L_Ambitious_Union_Boss
-			}
-		}
-	}
 	# Marian Zyndram-Koscialkowski
 	POL_Marian_ZyndramKoscialkowski = {
 		name = POL_Marian_ZyndramKoscialkowski
@@ -305,8 +258,8 @@ characters={
 			}
 		}
 		advisor={
-			slot=Head_of_Government
-			idea_token=POL_Marian_ZyndramKoscialkowski_HoG
+			slot=Minister_of_Security
+			idea_token=POL_Marian_ZyndramKoscialkowski_MoS
 			removal_cost = -1
 			allowed = {
 				tag = POL
@@ -320,7 +273,7 @@ characters={
 				}
 			}
 			traits = {		
-				L_Flamboyant_Tough_Guy
+				MoS_Man_Of_The_People
 			}
 		}
 	}
@@ -377,25 +330,6 @@ characters={
 		portraits={
 			civilian={
 				small="GFX_idea_August_Zaleski"
-			}
-		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=POL_August_Zaleski_HoG
-			removal_cost = -1
-			allowed = {
-				tag = POL
-			}
-			visible = {
-				date > 1933.1.1
-				date < 1964.1.1
-				A_Minister_Allowed = yes
-				NOT = {
-					has_country_flag = August_Zaleski_unavailable
-				}
-			}
-			traits = {		
-				L_Happy_Amateur
 			}
 		}
 		advisor={
