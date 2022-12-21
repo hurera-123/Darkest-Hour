@@ -1779,9 +1779,6 @@
  FRA_Rearmament_Program_3: "Rearmament Program - High Effort"
  FRA_Rearmament_Program_3_desc: ""
 
- FRA_Rearmament_Program_4: "Rearmament Program - Very High Effort"
- FRA_Rearmament_Program_4_desc: ""
-
  FRA_La_Republique_Autoritaire: "The Authoritarian Republic"
 
  FRA_La_France_au_Travail: "La France au Travail"
@@ -2099,11 +2096,9 @@
  ### Programme des 12 milliards
  FRA_Programme_des_12_Milliards_category: "12 Billion's Program"
  FRA_Programme_des_12_Milliards_category_desc: "\n\n\n£decision_header_FRA_Programme_des_12_milliards£\n\n\n\n"
- FRA_Protect_our_Sky: "Protect our Sky"
- FRA_Produce_more_Somua: "Produce more Somua"
  FRA_Relaunching_the_Arms_Race: "Relaunching the Arms Race"
- FRA_Catching_up_on_our_Backlog_in_Aeronautics: "Catching up on our Backlog in Aeronautics"
- FRA_Begin_the_Rearmement_Done: "Completed the Decision §Y"Begin the Rearmament"§! from §LGuerre et Paix§!"
+ FRA_Prepare_the_Marine_Nationale: "Prepare the Marine Nationale"
+ FRA_Challenge_the_Panzerwaffe: "Challenge the Panzerwaffe"
  FRA_Increase_Rearmament_Level: "§YRearmament§! Level will be §GIncreased§!"
 
  ### Le Front Populaire
@@ -2200,7 +2195,12 @@
  FRA_Nouvelle_Grande_Armee_tt: "§R The New Grande Armee will rise!§!"
  FRA_5_Glorieuse_tt: "§RYou must have less than 5 Great Depression Impact§!"
  FRA_Crisis_tt: "§RThe republic is in Crisis, you will not be able to choose any focuses until it ends.§! "
+
  FRA_Marine_Nationale_tt: "A new and modernised series of fast battleships will begin production. We will christen the first of these after the §YCardinal de Richelieu§!."
+ FRA_Navy_Darlan: "You kept Darlan's ideas"
+ FRA_Navy_Esteva: "You choose to follow Esteva's ideas"
+ FRA_Navy_Auphan: "You choose to follow Auphan's ideas"
+
  FRA_Abandon_The_Maginot_Line_tt: "§RConstruction of the Maginot Line will no longer continue.§!"
  FRA_gaz_attack_tt: "§RYou will be allowed to use gas attack in combat.§!"
 

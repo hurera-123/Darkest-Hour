@@ -2538,7 +2538,7 @@ FRA_Containment_of_Fascism = {
 			factor = 0
 		}
 		complete_effect = {
-			add_stability = 0.05
+			add_stability = 0.025
 			add_popularity = {
 				ideology = fascist
 				popularity = -0.1
@@ -2562,7 +2562,9 @@ FRA_Containment_of_Fascism = {
 		ai_will_do = {
 			factor = 0
 		}
+		cost = 50
 		complete_effect = {
+			add_stability = -0.01
 			set_rule = {
 				can_send_volunteers = yes
 			}
@@ -2699,100 +2701,99 @@ FRA_Containment_of_Fascism = {
 # Progamme des 12 milliards
 #######################################################################
 FRA_Programme_des_12_Milliards_category = {
-#	FRA_Protect_our_Sky = {
-#		icon = putIcon
-#		fire_only_once = yes
-#		allowed = {
-#			original_tag = FRA
-#		}
-#		visible = {
-#		}
-#		modifier = {
-#		}
-#		cost = 75
-#		days_remove = 100
-#		ai_will_do = {
-#			factor = 1
-#		}
-#		complete_effect = {
-#			custom_effect_tooltip = FRA_Increase_Rearmament_Level
-#			move_rearmament_level_up_one = yes
-#		}
-#		remove_effect = {
-#		}
-#	}
-#	FRA_Produce_more_Somua = {
-#		icon = putIcon
-#		fire_only_once = yes
-#		allowed = {
-#			original_tag = FRA
-#		}
-#		visible = {
-#		}
-#		modifier = {
-#		}
-#		cost = 75
-#		days_remove = 100
-#		ai_will_do = {
-#			factor = 1
-#		}
-#		complete_effect = {
-#			custom_effect_tooltip = FRA_Increase_Rearmament_Level
-#			move_rearmament_level_up_one = yes
-#		}
-#		remove_effect = {
-#		}
-#	}
-#	FRA_Relaunching_the_Arms_Race = {
-#		icon = putIcon
-#		fire_only_once = yes
-#		allowed = {
-#			original_tag = FRA
-#		}
-#		visible = {
-#		}
-#		modifier = {
-#		}
-#		cost = 100
-#		days_remove = 100
-#		ai_will_do = {
-#			factor = 1
-#		}
-#		modifier = {
-#			industrial_capacity_factory = 0.1
-#		}
-#		complete_effect = {
-#			add_stability = -0.05
-#			custom_effect_tooltip = FRA_Increase_Rearmament_Level
-#			move_rearmament_level_up_one = yes
-#		}
-#		remove_effect = {
-#		}
-#	}
-#	FRA_Catching_up_on_our_Backlog_in_Aeronautics = {
-#		icon = putIcon
-#		fire_only_once = yes
-#		allowed = {
-#			original_tag = FRA
-#		}
-#		visible = {
-#		}
-#		modifier = {
-#		}
-#		cost = 75
-#		days_remove = 100
-#		ai_will_do = {
-#			factor = 1
-#		}
-#		modifier = {
-#		}
-#		complete_effect = {
-#			custom_effect_tooltip = FRA_Increase_Rearmament_Level
-#			move_rearmament_level_up_one = yes
-#		}
-#		remove_effect = {
-#		}
-#	}
+	FRA_Relaunching_the_Arms_Race = {
+		icon = putIcon
+		fire_only_once = yes
+		allowed = {
+			original_tag = FRA
+		}
+		visible = {
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_stability = -0.05
+			16 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_ideas = FRA_Rearmament_Program_1
+		}
+	}
+	FRA_Prepare_the_Marine_Nationale = {
+		icon = putIcon
+		fire_only_once = yes
+		allowed = {
+			original_tag = FRA
+		}
+		visible = {
+		}
+		available = {
+			has_idea = FRA_Rearmament_Program_1
+		}
+		cost = 75
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			14 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			21 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = FRA_Increase_Rearmament_Level
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = FRA_Rearmament_Program_1
+					add_idea = FRA_Rearmament_Program_2
+				}
+			}
+		}
+	}
+	FRA_Challenge_the_Panzerwaffe = {
+		icon = putIcon
+		fire_only_once = yes
+		allowed = {
+			original_tag = FRA
+		}
+		visible = {
+		}
+		available = {
+			has_idea = FRA_Rearmament_Program_2
+		}
+		cost = 100
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			custom_effect_tooltip = FRA_Increase_Rearmament_Level
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = FRA_Rearmament_Program_2
+					add_idea = FRA_Rearmament_Program_3
+				}
+			}
+		}
+		remove_effect = {
+		}
+	}
 }
 #######################################################################
 # Le Front Populaire

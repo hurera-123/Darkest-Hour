@@ -134,35 +134,6 @@ FRA_decrease_herriot_support = {
 #		}
 #	}
 #}
-move_rearmament_level_up_one = {
-	if = {
-		limit = {
-			has_idea = FRA_Rearmament_Program_1
-		}
-		remove_ideas = FRA_Rearmament_Program_1
-		add_ideas = FRA_Rearmament_Program_2
-	}
-	if = {
-		limit = {
-			has_idea = FRA_Rearmament_Program_2
-		}
-		remove_ideas = FRA_Rearmament_Program_2
-		add_ideas = FRA_Rearmament_Program_3
-	}
-	if = {
-		limit = {
-			has_idea = FRA_Rearmament_Program_3
-		}
-		remove_ideas = FRA_Rearmament_Program_3
-		add_ideas = FRA_Rearmament_Program_4
-	}
-	if = {
-		limit = {
-			has_idea = FRA_Rearmament_Program_4
-		}
-		# Nothing, max level has been reached
-	}
-}
 #move_economical_reform_level_up_one = {
 #	if =  {
 #		limit = {

@@ -1354,9 +1354,10 @@ focus_tree = {
 		completion_reward = { 
 			increase_slider_social_spending = yes
 			remove_ideas = FRA_Scars_of_the_Great_War
-			set_temp_variable = { party_id = 7 } # PRS
-			set_temp_variable = { support_to_add = 0.05 }
-			change_party_support = yes
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -1372,9 +1373,10 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			add_political_power = -100
-			set_temp_variable = { party_id = 7 } # PRS
-			set_temp_variable = { support_to_add = 0.15 }
-			change_party_support = yes
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 	}
@@ -1461,9 +1463,6 @@ focus_tree = {
 		y = 2
 		completion_reward = {
 			add_ideas = FRA_Defender_of_the_Republic
-			set_temp_variable = { party_id = 7 } # PRS
-			set_temp_variable = { support_to_add = 0.1 }
-			change_party_support = yes
 		}
 	}
 	### Daladier ###
@@ -1876,7 +1875,7 @@ focus_tree = {
 			}
 		}
 		offset = {
-			x = -19
+			x = -10
 			trigger = {
 				has_country_flag = FRA_General_Mobilization
 			}
@@ -2660,7 +2659,7 @@ focus_tree = {
 			}
 		}
 		offset = {
-			x = -19
+			x = -10
 			trigger = {
 				has_country_flag = FRA_General_Mobilization
 			}
@@ -3007,7 +3006,7 @@ focus_tree = {
 			}
 		}
 		offset = {
-			x = -19
+			x = -10
 			trigger = {
 				has_country_flag = FRA_General_Mobilization
 			}
@@ -3065,7 +3064,10 @@ focus_tree = {
 				target = USA
 				modifier = FRA_Broke_London_Treaty
 			}
-			add_ideas = FRA_Beast_of_the_Ocean
+			add_timed_idea = {
+				idea = FRA_Beast_of_the_Ocean
+				days = 800
+			}
 		}
 	}
 	focus = {
@@ -3545,6 +3547,12 @@ focus_tree = {
 		}
 		x = -7
 		y = 0
+		offset = {
+			x = -2
+			trigger = {
+				has_country_flag = FRA_General_Mobilization
+			}
+		}
 		completion_reward = {
 			unlock_decision_category_tooltip = FRA_Colonial_Empire_category
 			unlock_decision_tooltip =  FRA_Anti_Atlas_Campaign
@@ -3929,8 +3937,8 @@ focus_tree = {
 		id = FRA_General_Mobilization
 		icon = GFX_focus_generic_little_entente
 		cost = 0
-		x = 8
-		y = 8
+		x = 0
+		y = 0
 		allow_branch = {
 			has_country_flag = FRA_General_Mobilization
 			NOT = {
@@ -4168,10 +4176,13 @@ focus_tree = {
 		prerequisite = {
 			focus = FRA_The_GQG
 		}
+		available = {
+			has_idea = FRA_Raoul_Dautry_AM
+		}
 		completion_reward = {
 			add_tech_bonus = {
-				uses = 1
-				bonus = 0.25
+				uses = 2
+				bonus = 2
 				category = nuclear
 			}
 		}
