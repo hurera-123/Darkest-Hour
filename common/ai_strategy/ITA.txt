@@ -587,6 +587,38 @@ ITA_Invade_Greece = {
 		value = 800
 	}
 }
+ITA_war_against_ENG = {
+	enable = {
+		tag = ITA
+		OR = {
+			448 = { is_controlled_by = ITA }
+			449 = { is_controlled_by = ITA }
+			450 = { is_controlled_by = ITA }
+			451 = { is_controlled_by = ITA }			
+		}
+		NOT = { has_war_with = ETH }
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = area_priority
+		id = north_africa
+		value = 1000
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		area = north_africa
+		value = 15
+	}
+
+	ai_strategy = {
+		type = garrison
+		id = "ITA"
+		value = -10
+	}
+}
 
 ## ------------------ Region Priorities -------------------------------------------------------------
 ## Italian Region Priorities
@@ -703,7 +735,7 @@ ITA_Protect_Home = {
 			450
 		}
 
-		ratio = 0.2
+		ratio = 0.3
 
 		subtract_invasions_from_need = no
 	}
@@ -1102,25 +1134,10 @@ ITA_hold_africa = {
 		date > 1941.1.1
 	}
 
-	# Tripoli
 	ai_strategy = {
-		type = theatre_distribution_demand_increase
-		id = 448
-		value = 2
-	}
-
-	# Benghasi
-	ai_strategy = {
-		type = theatre_distribution_demand_increase
-		id = 450
-		value = 2
-	}
-
-	# Alexandria
-	ai_strategy = {
-		type = theatre_distribution_demand_increase
-		id = 447
-		value = 2
+		type = area_priority
+		id = north_africa
+		value = 100
 	}
 }
 # lets not invade until we have europe

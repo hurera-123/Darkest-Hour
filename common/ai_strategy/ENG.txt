@@ -1340,10 +1340,9 @@ ENG_avoiding_early_deathtraps = {
 		OR = {
 			BEL = { has_capitulated = yes }
 			NOT = {	BEL = { has_full_control_of_state = 6 }}
-			NOT = {	FRA = { has_full_control_of_state = 18 }}
-			NOT = {	FRA = { has_full_control_of_state = 785 }}
+			NOT = {	FRA = { has_full_control_of_state = 763 }}
 			NOT = {	FRA = { has_full_control_of_state = 28 }}
-			FRA = { surrender_progress > 0.1 }
+			FRA = { surrender_progress > 0.2 }
 		}
 	}
 	abort_when_not_enabled = yes
@@ -1378,13 +1377,22 @@ ENG_bef_in_europe = {
 		is_in_faction_with = BEL
 		BEL = { has_capitulated = no }
 		BEL = { has_full_control_of_state = 6 }
-		FRA = { has_full_control_of_state = 18 }
-		FRA = { has_full_control_of_state = 785 }
+		FRA = { has_full_control_of_state = 763 }
 		FRA = { has_full_control_of_state = 28 }
 		FRA = { surrender_progress < 0.2 }
 	}
 	abort_when_not_enabled = yes
 	
+	ai_strategy = {
+		type = front_unit_request
+		area = benelux
+		value = 100
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = north_france
+		value = 100
+	}
 	ai_strategy = {
 		type = force_defend_ally_borders
 		id = "BEL"

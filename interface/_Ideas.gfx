@@ -6490,8 +6490,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_idea_FRA_Matignon_Accord "
-        texturefile = "gfx/interface/ideas/Spirits/FRA_Matignon_Accord .png"
+        name = "GFX_idea_FRA_Matignon_Accord"
+        texturefile = "gfx/interface/ideas/Spirits/FRA_Matignon_Accord.png"
     }
 
     spriteType = {

@@ -1776,6 +1776,9 @@ JAP_Sino_Japanese_War_category = {
 						traits = { POSITION_President SUBIDEOLOGY_Despotism }
 					}
 				}
+				CHI = { # To prevent double Wang. Rework with China rework
+					remove_ideas = CHI_D_Wang_Jingwei
+				}
 			}
 		}
 	}

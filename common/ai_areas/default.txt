@@ -186,4 +186,10 @@ areas = {
 			227
 		}
 	}
+	north_africa = {
+		strategic_regions = {
+			126
+			242
+		}
+	}
 }

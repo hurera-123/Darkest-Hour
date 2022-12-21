@@ -799,31 +799,6 @@ GER_Operation_Weserubung = {
 		value = 1000
 	}
 	ai_strategy = {
-		type = invasion_unit_request
-		state = 142
-		value = 500
-	}
-	ai_strategy = {
-		type = invasion_unit_request
-		state = 1126
-		value = 500
-	}
-	ai_strategy = {
-		type = invasion_unit_request
-		state = 110
-		value = 500
-	}
-	ai_strategy = {
-		type = invasion_unit_request
-		state = 144
-		value = 200
-	}
-	ai_strategy = {
-		type = invasion_unit_request
-		state = 143
-		value = 200
-	}
-	ai_strategy = {
 		type = conquer
 		id = "DEN"
 		value = 1000
@@ -1418,22 +1393,6 @@ GER_Dont_Push_on_Maginot = {
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
-		type = front_control
-		state = 28
-		ordertype = front
-		execution_type = careful
-		execute_order = no
-		manual_attack = no
-	}
-	ai_strategy = {
-		type = front_control
-		state = 1169
-		ordertype = front
-		execution_type = careful
-		execute_order = no
-		manual_attack = no
-	}
-	ai_strategy = {
 		type = invade
 		id = "FRA"
 		value = -500
@@ -1491,6 +1450,37 @@ GER_Invade_Crete = {
 		type = invasion_unit_request
 		state = 182
 		value = 100
+	}
+}
+GER_Help_ITA_in_Africa = {
+	enable = {
+		tag = GER	
+		has_global_flag = fall_of_france
+		has_war_with = ENG
+		is_in_faction_with = ITA
+		OR = {
+			446 = { is_controlled_by = ENG }
+			446 = { is_controlled_by = EGY }
+		}
+		surrender_progress < 0.05
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = front_unit_request
+		area = north_africa
+		value = 10
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = north_africa
+		value = 50
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = "ITA"
+		value = 10
 	}
 }
 #Operation Barbarossa
@@ -1758,6 +1748,25 @@ GER_Operation_Amerika = {
 		type = area_priority
 		id = north_america
 		value = 150
+	}
+}
+
+GER_Less_Garrison = {
+	enable = {
+		date > 1939.1.1
+		original_tag = GER
+		OR = {
+			has_war_with = FRA
+			has_war_with = SOV
+		}
+	}
+	abort = {
+		abort_when_not_enabled = yes
+	}
+	ai_strategy = {
+		type = garrison
+		id = "GER"
+		value = -5
 	}
 }
 

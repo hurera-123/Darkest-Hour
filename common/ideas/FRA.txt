@@ -211,7 +211,7 @@ ideas = {
 		}
 		### Urgent Equipment growth plan
 		FRA_idea_Urgent_Equipment_growth_plan = {
-			picture = GFX_idea_man_five_year_plan_air
+			picture = man_five_year_plan_air
 			equipment_bonus = {
 				fighter_equipment = {
 					build_cost_ic = -0.1
@@ -519,7 +519,7 @@ ideas = {
 		
 		### Aviation de Coopération
 		FRA_Aviation_de_Cooperation = {
-			picture = GFX_idea_generic_aircraft_support
+			picture = generic_aircraft_support
 			modifier = {
 				army_bonus_air_superiority_factor = -0.5
 				army_attack_factor = 0.05
@@ -555,7 +555,7 @@ ideas = {
 		
 		### Aviation de Coopération
 		FRA_Aviation_de_Cooperation_2 = {
-			picture = GFX_idea_generic_aircraft_support
+			picture = generic_aircraft_support
 			modifier = {
 				army_bonus_air_superiority_factor = -0.5
 				army_attack_factor = 0.05
@@ -977,7 +977,7 @@ ideas = {
 		
 		### Le CIP
 		FRA_Le_CIP = {
-			picture = GFX_idea_FRA_Le_CIP
+			picture = FRA_Le_CIP
 			modifier = {
 				extra_paratrooper_supply_grace = 24
 				special_forces_out_of_supply_factor = -0.1
@@ -1187,7 +1187,7 @@ ideas = {
 			}
 		}
 		FRA_La_Der_des_Ders = {
-			picture = GFX_idea_FRA_La_Der_des_Ders
+			picture = FRA_La_Der_des_Ders
 			modifier = {
 				war_support_factor = -0.5
 				#mobilization_laws_cost_factor = 0.5
@@ -1196,7 +1196,7 @@ ideas = {
 			}
 		}
 		FRA_La_Der_des_Ders_2 = {
-			picture = GFX_idea_FRA_La_Der_des_Ders
+			picture = FRA_La_Der_des_Ders
 			modifier = {
 				war_support_factor = -0.3
 				#mobilization_laws_cost_factor = 0.25
@@ -1204,7 +1204,7 @@ ideas = {
 			}
 		}
 		FRA_La_Der_des_Ders_3 = {
-			picture = GFX_idea_FRA_La_Der_des_Ders
+			picture = FRA_La_Der_des_Ders
 			modifier = {
 				war_support_factor = -0.15
 			}
@@ -1240,7 +1240,7 @@ ideas = {
 					has_global_flag = VIC_Vichy_Established
 				}
 			}
-			picture = GFX_idea_generic_license_production
+			picture = generic_license_production
 			equipment_bonus = {
 				cat_light_armor = {
 					build_cost_ic = -0.15
@@ -1264,7 +1264,7 @@ ideas = {
 					has_global_flag = VIC_Vichy_Established
 				}
 			}
-			picture = GFX_idea_FRA_The_Phoney_War
+			picture = FRA_The_Phoney_War
 			modifier = {
 				army_core_defence_factor = 0.05
 				army_attack_factor = -0.2
@@ -1277,7 +1277,7 @@ ideas = {
 					has_global_flag = VIC_Vichy_Established
 				}
 			}
-			picture = GFX_idea_generic_army_problems
+			picture = generic_army_problems
 			modifier = {
 				army_attack_factor = -0.25
 				army_org_factor = -0.05
@@ -1292,7 +1292,7 @@ ideas = {
 					has_global_flag = VIC_Vichy_Established
 				}
 			}
-			picture = GFX_idea_FRA_La_Patrie_en_Danger
+			picture = FRA_La_Patrie_en_Danger
 			modifier = {
 				army_core_defence_factor  = 0.05
 			}
@@ -1303,7 +1303,7 @@ ideas = {
 					has_global_flag = VIC_Vichy_Established
 				}
 			}
-			picture = GFX_idea_FRA_La_Patrie_en_Danger
+			picture = FRA_La_Patrie_en_Danger
 			modifier = {
 				army_core_defence_factor  = 0.1
 				stability_factor = -0.025
@@ -1316,7 +1316,7 @@ ideas = {
 					has_global_flag = VIC_Vichy_Established
 				}
 			}
-			picture = GFX_idea_FRA_La_Patrie_en_Danger
+			picture = FRA_La_Patrie_en_Danger
 			modifier = {
 				army_core_defence_factor  = 0.15
 				stability_factor = -0.05
@@ -1329,7 +1329,7 @@ ideas = {
 					has_global_flag = VIC_Vichy_Established
 				}
 			}
-			picture = GFX_idea_FRA_La_Patrie_en_Danger
+			picture = FRA_La_Patrie_en_Danger
 			modifier = {
 				army_core_defence_factor  = 0.15
 				stability_factor = -0.075
@@ -1344,7 +1344,7 @@ ideas = {
 					has_global_flag = VIC_Vichy_Established
 				}
 			}
-			picture = GFX_idea_man_five_year_plan_industry
+			picture = man_five_year_plan_industry
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05
 				production_factory_start_efficiency_factor = 0.1
@@ -1356,7 +1356,7 @@ ideas = {
 					has_global_flag = VIC_Vichy_Established
 				}
 			}
-			picture = GFX_idea_man_five_year_plan_industry
+			picture = man_five_year_plan_industry
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05
 				production_factory_start_efficiency_factor = 0.1
@@ -1382,7 +1382,7 @@ ideas = {
 					has_war = yes
 				}
 			}
-			picture = GFX_idea_tur_balkan_central_bank_wealthy_greece
+			picture = tur_balkan_central_bank_wealthy_greece
 			modifier = {
 				money_income_factor = 0.03
 				political_power_factor = -0.1
