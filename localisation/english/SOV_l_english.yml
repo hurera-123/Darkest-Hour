@@ -1458,6 +1458,7 @@
 
  SOV_The_Slaughterers_of_Men: "The Slaugterers of Men"
  SOV_The_Slaughterers_of_Men_desc: ""
+ SOV_The_Slaughterers_of_Men_tt: "§Y2§! §LArmoured Units§! £tank_icon_1_20x20 will be deployed\n"
 
  SOV_Fighting_on_Their_Ground: "Fighting on Their Ground"
  SOV_Fighting_on_Their_Ground_desc: ""
@@ -1484,6 +1485,7 @@
 
  SOV_The_Defense_of_the_Union: "The Defense of the Union"
  SOV_The_Defense_of_the_Union_desc: ""
+ SOV_The_Defense_of_the_Union_tt: "§LA Wave of Militia§! £manpower_texticon will be deployed\n"
 
  SOV_Fighting_on_Familiar_Ground: "Fighting on Familiar Ground"
  SOV_Fighting_on_Familiar_Ground_desc: ""

@@ -3667,7 +3667,7 @@ characters={
 		}
 	}
 	# Tadeusz Puszczynski
-	POL_HoI_Tadeusz_Puszczynski = {
+	POL_Tadeusz_Puszczynski = {
 		name = POL_Tadeusz_Puszczynski
 		portraits = {
 			civilian = {
@@ -4774,7 +4774,7 @@ characters={
 		}
 	}
 	# Jozef Unrug
-	POL_CoNavy_Jozef_Unrug = {
+	POL_Jozef_Unrug = {
 		name = POL_Jozef_Unrug
 		portraits = {
 			civilian = {

@@ -512,7 +512,7 @@ focus_tree = {
 		id = SOV_Red_Fleet
 		icon = GFX_SOV_Red_Fleet
 		cost = 60
-		x = 65
+		x = 67
 		y = 0
 		offset = {
 			x = 0
@@ -531,263 +531,280 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SOV_Kirov_Cruisers
-		icon = GFX_GENERIC_Cruiser
+		id = SOV_Evaluate_the_Baltic_Fleet
+		icon = GFX_SOV_Red_Fleet
 		cost = 60
-		x = -3
+		relative_position_id = SOV_Red_Fleet
+		x = -4
 		y = 1
 		prerequisite = {
 			focus = SOV_Red_Fleet
 		}
 		completion_reward = {
+			
 		}
-		relative_position_id = SOV_Red_Fleet
 	}
 	focus = {
-		id = SOV_Malyutka_Small_Submarines
-		icon = GFX_GENERIC_Submarine
+		id = SOV_1
+		icon = GFX_SOV_Red_Fleet
 		cost = 60
+		relative_position_id = SOV_Evaluate_the_Baltic_Fleet
 		x = -1
-		y = 1
-		mutually_exclusive = {
-			focus = SOV_Shchuka_Medium_Submarines
-		}
+		y = 2
 		prerequisite = {
-			focus = SOV_Red_Fleet
+			focus = SOV_Evaluate_the_Baltic_Fleet
 		}
 		completion_reward = {
-			custom_effect_tooltip = SOV_Malyutka_Small_Submarines_tt
-			hidden_effect = {
-				set_technology = {
-					SS_1933 = 1
-				}
-			}
+			
 		}
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		relative_position_id = SOV_Red_Fleet
 	}
 	focus = {
-		id = SOV_Shchuka_Medium_Submarines
+		id = SOV_2
 		icon = GFX_GENERIC_Attack_Sub
 		cost = 60
+		relative_position_id = SOV_Evaluate_the_Baltic_Fleet
 		x = 1
-		y = 1
-		mutually_exclusive = {
-			focus = SOV_Malyutka_Small_Submarines
-		}
-		prerequisite = {
-			focus = SOV_Red_Fleet
-		}
-		available = {
-			set_temp_variable = {
-				amount_of_money_to_check = 200
-			}
-			has_specific_amount_of_money_with_inflation_included = yes
-		}
-		completion_reward = {
-			custom_effect_tooltip = SOV_Shchuka_Medium_Submarines_tt
-			set_temp_variable = {
-				money_to_gain = -200
-			}
-			add_money_with_inflation_included_with_tooltip_effect = yes
-			hidden_effect = {
-				set_technology = {
-					SS_1933 = 1
-				}
-			}
-			add_tech_bonus = {
-				name = SOV_Shchuka_Medium_Submarines
-				uses = 1
-				bonus = 1
-				technology = SS_1936
-			}
-		}
-		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_HISTORICAL }
-		relative_position_id = SOV_Red_Fleet
-	}
-	focus = {
-		id = SOV_Leningrad_Destroyers
-		icon = GFX_GENERIC_Destroyer
-		cost = 60
-		x = 3
-		y = 1
-		prerequisite = {
-			focus = SOV_Red_Fleet
-		}
-		completion_reward = {
-		}
-		relative_position_id = SOV_Red_Fleet
-	}
-	focus = {
-		id = SOV_Modernist_Fleet
-		icon = GFX_GENERIC_Navy
-		cost = 60
-		x = -2
 		y = 2
-		mutually_exclusive = {
-			focus = SOV_Large_Oceangoing_Fleet
-		}
 		prerequisite = {
-			focus = SOV_Malyutka_Small_Submarines
-			focus = SOV_Shchuka_Medium_Submarines
-		}
-		prerequisite = {
-			focus = SOV_Kirov_Cruisers
-		}
-		prerequisite = {
-			focus = SOV_Leningrad_Destroyers
+			focus = SOV_Evaluate_the_Baltic_Fleet
 		}
 		completion_reward = {
+			
 		}
-		relative_position_id = SOV_Red_Fleet
 	}
 	focus = {
-		id = SOV_Morskoy_Bombardirovshchik
-		icon = GFX_GENERIC_ASW_Tactics
+		id = SOV_3
+		icon = GFX_GENERIC_Anti_Air_Units
 		cost = 60
-		x = -4
-		y = 3
-		prerequisite = {
-			focus = SOV_Modernist_Fleet
-		}
-		completion_reward = {
-		}
-		relative_position_id = SOV_Red_Fleet
-	}
-	focus = {
-		id = SOV_Chapaev_Light_Cruisers
-		icon = GFX_GENERIC_Missile_Cruiser
-		cost = 60
+		relative_position_id = SOV_Evaluate_the_Baltic_Fleet
 		x = -2
-		y = 3
+		y = 1
 		prerequisite = {
-			focus = SOV_Modernist_Fleet
+			focus = SOV_Evaluate_the_Baltic_Fleet
 		}
 		completion_reward = {
+			
 		}
-		relative_position_id = SOV_Red_Fleet
 	}
 	focus = {
-		id = SOV_Black_Sea_Young_School
-		icon = GFX_GENERIC_Expand_the_University
+		id = SOV_4
+		icon = GFX_SOV_Red_Fleet
 		cost = 60
-		x = -3
-		y = 4
+		relative_position_id = SOV_Evaluate_the_Baltic_Fleet
+		x = 0
+		y = 1
 		prerequisite = {
-			focus = SOV_Morskoy_Bombardirovshchik
-		}
-		prerequisite = {
-			focus = SOV_Chapaev_Light_Cruisers
+			focus = SOV_Evaluate_the_Baltic_Fleet
 		}
 		completion_reward = {
+			
 		}
-		relative_position_id = SOV_Red_Fleet
 	}
 	focus = {
-		id = SOV_Submarine_Revolution
-		icon = GFX_GENERIC_Heavy_Submarine
+		id = SOV_5
+		icon = GFX_SOV_Red_Marines
 		cost = 60
+		relative_position_id = SOV_Evaluate_the_Baltic_Fleet
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = SOV_Evaluate_the_Baltic_Fleet
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_The_Baltic_Fleet_is_Ready
+		icon = GFX_SOV_Red_Fleet
+		cost = 60
+		relative_position_id = SOV_Evaluate_the_Baltic_Fleet
 		x = 0
 		y = 3
 		prerequisite = {
-			focus = SOV_Modernist_Fleet
-			focus = SOV_Large_Oceangoing_Fleet
+			focus = SOV_1
+			focus = SOV_2
+			focus = SOV_3
+			focus = SOV_4
+			focus = SOV_5
 		}
 		completion_reward = {
+			
 		}
-		relative_position_id = SOV_Red_Fleet
 	}
 	focus = {
-		id = SOV_Sevastopol_Krepost
+		id = SOV_Evaluate_the_Black_Fleet
+		icon = GFX_SOV_Red_Fleet
+		cost = 60
+		relative_position_id = SOV_Red_Fleet
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = SOV_Red_Fleet
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Reinforce_Sevastopol_Naval_Bases
+		icon = GFX_SOV_Red_Fleet
+		cost = 60
+		relative_position_id = SOV_Evaluate_the_Black_Fleet
+		x = -1
+		y = 2
+		prerequisite = {
+			focus = SOV_Evaluate_the_Black_Fleet
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Radar
+		icon = GFX_SOV_Red_Fleet
+		cost = 60
+		relative_position_id = SOV_Evaluate_the_Black_Fleet
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = SOV_Evaluate_the_Black_Fleet
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Reevaluate_Submarine_Doctrine
+		icon = GFX_SOV_Red_Fleet
+		cost = 60
+		relative_position_id = SOV_Evaluate_the_Black_Fleet
+		x = 1
+		y = 2
+		prerequisite = {
+			focus = SOV_Evaluate_the_Black_Fleet
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_The_Black_Sea_Fleet_is_Ready
+		icon = GFX_SOV_Red_Fleet
+		cost = 60
+		relative_position_id = SOV_Radar
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = SOV_Reevaluate_Submarine_Doctrine
+			focus = SOV_Radar
+			focus = SOV_Reinforce_Sevastopol_Naval_Bases
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Evaluate_the_Pacific_Fleet
+		icon = GFX_SOV_Red_Fleet
+		cost = 60
+		relative_position_id = SOV_Red_Fleet
+		x = 4
+		y = 1
+		prerequisite = {
+			focus = SOV_Red_Fleet
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Oryol_Class_Carriers
+		icon = GFX_SOV_Red_Fleet
+		cost = 60
+		relative_position_id = SOV_Evaluate_the_Pacific_Fleet
+		x = -1
+		y = 2
+		prerequisite = {
+			focus = SOV_Evaluate_the_Pacific_Fleet
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Long_Range_Raiders
+		icon = GFX_GENERIC_Attack_Sub
+		cost = 60
+		relative_position_id = SOV_Evaluate_the_Pacific_Fleet
+		x = 1
+		y = 2
+		prerequisite = {
+			focus = SOV_Evaluate_the_Pacific_Fleet
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Upgrade_Vladivostok_Facilities
 		icon = GFX_GENERIC_Anti_Air_Units
 		cost = 60
-		x = -1
-		y = 4
+		relative_position_id = SOV_Evaluate_the_Pacific_Fleet
+		x = -2
+		y = 1
 		prerequisite = {
-			focus = SOV_Submarine_Revolution
+			focus = SOV_Evaluate_the_Pacific_Fleet
 		}
 		completion_reward = {
+			
 		}
-		relative_position_id = SOV_Red_Fleet
 	}
 	focus = {
-		id = SOV_Morskaya_Pekhota
+		id = SOV_Evaluate_Landing_Craft
+		icon = GFX_SOV_Red_Fleet
+		cost = 60
+		relative_position_id = SOV_Evaluate_the_Pacific_Fleet
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = SOV_Evaluate_the_Pacific_Fleet
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Gvardiya_Morskoy_Pekhoty
 		icon = GFX_SOV_Red_Marines
 		cost = 60
-		x = 1
-		y = 4
+		relative_position_id = SOV_Evaluate_the_Pacific_Fleet
+		x = 2
+		y = 1
 		prerequisite = {
-			focus = SOV_Submarine_Revolution
+			focus = SOV_Evaluate_the_Pacific_Fleet
 		}
 		completion_reward = {
+			
 		}
-		relative_position_id = SOV_Red_Fleet
 	}
 	focus = {
-		id = SOV_Sovetsky_Soyuz_Super_Dreadnoughts
-		icon = GFX_GENERIC_Battleship
+		id = SOV_The_Far_Eastern_Fleet_is_Ready
+		icon = GFX_SOV_Red_Fleet
 		cost = 60
-		x = 2
+		relative_position_id = SOV_Evaluate_the_Pacific_Fleet
+		x = 0
 		y = 3
 		prerequisite = {
-			focus = SOV_Large_Oceangoing_Fleet
+			focus = SOV_Gvardiya_Morskoy_Pekhoty
+			focus = SOV_Long_Range_Raiders
+			focus = SOV_Oryol_Class_Carriers
+			focus = SOV_Upgrade_Vladivostok_Facilities
+			focus = SOV_Evaluate_Landing_Craft
 		}
 		completion_reward = {
+			
 		}
-		relative_position_id = SOV_Red_Fleet
-	}
-	focus = {
-		id = SOV_Kronshtadt_Battle_Cruisers
-		icon = GFX_GENERIC_Missile_Battlecruiser
-		cost = 60
-		x = 4
-		y = 3
-		prerequisite = {
-			focus = SOV_Large_Oceangoing_Fleet
-		}
-		completion_reward = {
-		}
-		relative_position_id = SOV_Red_Fleet
-	}
-	focus = {
-		id = SOV_Pacific_Military_School
-		icon = GFX_GENERIC_Naval_School
-		cost = 60
-		x = 3
-		y = 4
-		prerequisite = {
-			focus = SOV_Sovetsky_Soyuz_Super_Dreadnoughts
-		}
-		prerequisite = {
-			focus = SOV_Kronshtadt_Battle_Cruisers
-		}
-		completion_reward = {
-		}
-		relative_position_id = SOV_Red_Fleet
-	}
-	focus = {
-		id = SOV_Large_Oceangoing_Fleet
-		icon = GFX_GENERIC_Fleet_in_Being
-		cost = 60
-		x = 2
-		y = 2
-		mutually_exclusive = {
-			focus = SOV_Modernist_Fleet
-		}
-		prerequisite = {
-			focus = SOV_Malyutka_Small_Submarines
-			focus = SOV_Shchuka_Medium_Submarines
-		}
-		prerequisite = {
-			focus = SOV_Kirov_Cruisers
-		}
-		prerequisite = {
-			focus = SOV_Leningrad_Destroyers
-		}
-		completion_reward = {
-		}
-		search_filters = { FOCUS_FILTER_HISTORICAL }
-		relative_position_id = SOV_Red_Fleet
 	}
 	focus = {
 		id = SOV_The_Second_Five_Year_Plan
@@ -3715,7 +3732,10 @@ focus_tree = {
 		x = -1
 		y = 1
 		completion_reward = {
-			
+			custom_effect_tooltip = SOV_The_Slaughterers_of_Men_tt
+			hidden_effect = {
+				load_oob = SOV_Tank_Divisions
+			}
 		}
 	}
 	focus = {
@@ -3956,7 +3976,10 @@ focus_tree = {
 		x = -1
 		y = 1
 		completion_reward = {
-			
+			custom_effect_tooltip = SOV_The_Defense_of_the_Union_tt
+			hidden_effect = {
+				load_oob = SOV_Militia
+			}
 		}
 	}
 	focus = {

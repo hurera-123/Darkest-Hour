@@ -1479,7 +1479,7 @@ country_event = { # Election Night 1936 (RNC Nominates Hoover)
 		clr_country_flag = USA_RNC_1936_Hoover
 	}
 }
-country_event = { # Election Night 1936 (RNC Nominates Hoover)
+country_event = { # Election Night 1936 (RNC Nominates Landon)
 	id = USA_Elections_1936.4
 	title = USA_Elections_1936.4.t
 	desc = USA_Elections_1936.4.d
