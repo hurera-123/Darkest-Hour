@@ -662,8 +662,6 @@ focus = {
 	cost = 56
 	prerequisite = {
 		focus = GEN_Promote_Trade
-	}
-	prerequisite = {
 		focus = GEN_Development_on_our_own
 	}
 	relative_position_id = GEN_Promote_Trade

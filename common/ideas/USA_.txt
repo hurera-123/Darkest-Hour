@@ -2794,5 +2794,33 @@ ideas = {
 				#WIP
 			}
 		}
+		#Willkie Term Ideas
+		USA_The_Military_Industrial_Complex = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				conversion_cost_civ_to_mil_factor = -0.1			
+				conversion_cost_mil_to_civ_factor = -0.1
+			}
+		}
+		USA_War_Research_Budget = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				research_speed_factor  = 0.05
+				money_income_factor = -0.1
+			}
+		}
+		USA_Preliminary_War_Preparations = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_capacity_factory  = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
 	}
 }

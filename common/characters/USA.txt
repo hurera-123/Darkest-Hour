@@ -5971,4 +5971,40 @@ characters={
 			}
 		}
 	}
+	USA_Henry_Luce= {
+		name=USA_Henry_Luce
+		portraits={
+			civilian={
+				small = "GFX_idea_Henry_Luce"
+				large="GFX_P_D_Henry_Luce"
+			}
+		}
+	}
+	USA_Harold_Stassen= {
+		name=USA_Harold_Stassen
+		portraits={
+			civilian={
+				small = "GFX_idea_Harold_Stassen"
+				large="GFX_P_D_Harold_Stassen"
+			}
+		}
+	}
+	USA_Raymond_E_Baldwin= {
+		name=USA_Raymond_Baldwin
+		portraits={
+			civilian={
+				small = "GFX_idea_Raymond_E_Baldwin"
+				large="GFX_P_D_Raymond_E_Baldwin"
+			}
+		}
+	}
+	USA_Robert_A_Taft= {
+		name=USA_Robert_A_Taft
+		portraits={
+			civilian={
+				small = "GFX_idea_Robert_A_Taft"
+				large="GFX_P_D_Robert_A_Taft"
+			}
+		}
+	}
 }

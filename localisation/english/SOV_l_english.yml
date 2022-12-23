@@ -123,10 +123,6 @@
  SOV_Great_Purge.12.d: "“So poor old Kirov is dead? This… this is a loss for the Soviet Union”.\n\nThe adviser had never seen Stalin look genuinely sad and disappointed in hearing the death of an old comrade, as most of the time, he had organized their deaths. But not this time. This one came as a complete shock to Stalin, and one that upset him greatly.\n\nSergei Kirov, a friend, a comrade, and a true revolutionary. He had always been with Stalin since the days of the October Revolution of 1917, rising through the various ranks of the Communist Party and eventually settling as the head of the party in Leningrad. And even though Stalin would be seen as his superior, he was never treated that way by the General Secretary, and even found himself on the Politburo when Stalin came to power. However, all of that came to a sudden halt, when Kirov was shot by who NKVD sources are calling a “known Zinovievist”, Leonid Nikolaev. While those who have been deemed responsible have been put on trial and dealt with, this is far from the end.\n\n“We do not know how many more of these counter-revolutionaries and revisionists remain within the cracks of the party. They could be in the army, the navy the airforce, perhaps even the politburo! This is the beginning of something that will ensure the revolution lives on, and one by one, those who disagree with the principles of the revolution will be cut from society…”\n\nAs Stalin trailed off into a paranoid rant, the adviser only hoped that what was to come would spare him from any fateful end."
  SOV_Great_Purge.12.A: "The axe is sharpened..."
 
- SOV_Great_Purge.13.t: "The Trial of the Fourteen"
- SOV_Great_Purge.13.d: ""
- SOV_Great_Purge.13.A: ""
-
  SOV_Great_Purge.14.t: "Resolution of Politburo"
  SOV_Great_Purge.14.d: "\"Comrade, I come to you today to present my final choice.\"\n\"About Kirov's affair?\"\n\"Not just that, but concerning the Soviet Union's future,\" Stalin responded, his voice visibly exhausted.\n\"His death was not simply an assassination. This was nothing more than a massive conspiracy against the Union's leaders, including me.\"\n\"...But how many can there be?\"\n\n\"Thousands, on every street corner in every city...\"\nMolotov, perplexed, raised his head.\n\"How will we identify them? They will realise we intend to eliminate them long before the last of them are executed.\"\n\"Through their Trotskyist connections, as well as others.\" Stalin seemed increasingly tense.\n\"Who must be dealt with?\"\n\"We must eliminate the Bukharinist opposition. Their soft approach to capitalism is treason.\"\n\"Correct. As a result, we will crush the Trotsky Revolution and adherents of Bukharin's economic programme. I'll forward this to the NKVD, and...\"\n\"I haven't finished yet!\"\n\"What? You think destroying both sides isn't enough?\"\n\"Don't forget who you're talking to, Molotov... The last one we need to eliminate is the most difficult: Tukhachevsky.\"\n\n\"You... want to eliminate the Red Marshall?\" Molotov now became pale.\n\"The Red Napoleon, the head of the Red Army?\"\n\"Yes, that is exactly what I want. That's all I have for now.\"\nBefore leaving, Molotov gave Stalin one last look: a few minutes ago, he was weakened, and now, in a few words, he ordered the extermination of the opposition. Stalin stared him down in the doorway and responded to his glare:"
  SOV_Great_Purge.14.A: "\"You know what, Vyacheslav? I’m not a new Robespierre. I'm stopping a tank-driver from causing my downfall.\""
@@ -612,11 +608,19 @@
  SOV_Red_Army.1.t: "State of the Red Army"
  SOV_Red_Army.1.d: "A report to the general staff of the Red Army on its combat ability.\n\nThe Workers and Peasants Red Army is commonly referred to as the Red Army. It is now plagued with corruption ranging from the lowest of officers to even our own commissars. Once the proud army of the people and the sign of the liberation of the working class is now a disorganized mess and severely lacking doctrinal coordination.\n\nTwo factions seem to be forming among our officer class. The first one is the doctrine of “deep battle”:  The process of thrusting into an enemy's rear after a breakthrough is made. Then there is the old guard's preferred way of doing things: "human wave tactics". This doctrine is comprised of overpowering our enemy by sheer numbers.\n\nIt is highly recommended that serious consideration and evaluation of the Red Army take place as advised in the 17th Congress."
  SOV_Red_Army.1.A: ""
+
+ SOV_Red_Army.2.t: "Reports About Low Readiness of the Army"
+ SOV_Red_Army.2.d: ""
+ SOV_Red_Army.2.A: ""
  
- SOV_Red_Army.2.t: "Reorganization of the General Staff"
- SOV_Red_Army.2.d: "The Workers and Peasants Army is being put under heavy reformation, under the declaration of the Party and the General Staff, it has been decided in order to reorganize it a new rank structure that is formal will be put into place. The Rank structure will reorganize the Army putting a chain of command, among this the disbandment of the territorial militia.\n\nThe High command will be the first to receive reform when it comes to the rank system. The General staff is being reorganized to be commanded by a “Marshal” of the Soviet Union, whose will is unknown at this time and is being left to the direction of the Party and Premier Stalin.\n\nThe Options for the Picking are between Kliment Voroshilov and his “Oldguard” and between Tukhachevsky’s young reformist, Tukhachevsky wishes to build the Soviet Military into a Modern force comprising of a combined army strategy he has named ‘Deep Battle’. Compared Voroshilov wishes to see the Soviet Union keep its strategy relying on both numbers, land, and defense compared to the offensive."
- SOV_Red_Army.2.A: "Marshal Tukachevsky."
- SOV_Red_Army.2.B: "Marshal Voroshilov."
+ SOV_Red_Army.3.t: "Reorganization of the General Staff"
+ SOV_Red_Army.3.d: ""
+ SOV_Red_Army.3.A: "Marshal Tukachevsky"
+ SOV_Red_Army.3.B: "Marshal Voroshilov"
+
+ SOV_Red_Army.4.t: "Introduction of Military Ranks to the Army"
+ SOV_Red_Army.4.d: ""
+ SOV_Red_Army.4.A: ""
 
  SOV_Red_Army.7.t: "On the Cossacks"
  SOV_Red_Army.7.d: ""

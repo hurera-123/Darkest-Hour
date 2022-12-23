@@ -254,7 +254,7 @@ characters={
 		portraits={
 			civilian={
 				large = "GFX_P_A_Marian_Zyndram_Koscialkowski"
-				small="GFX_idea_Marian_ZyndramKoscialkowski"
+				small="GFX_idea_Marian_Koscialkowski"
 			}
 		}
 		advisor={
@@ -2212,62 +2212,6 @@ characters={
 			}
 		}
 	}
-	# Kazimierz Bartel
-	POL_Kazimierz_Bartel = {
-		name = POL_Kazimierz_Bartel
-		portraits = {
-			civilian = {
-				small = "GFX_idea_Kazimierz_Bartel"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=POL_Kazimierz_Bartel_MoS
-			removal_cost = -1
-			allowed = {
-				tag = POL
-			}
-			visible = {
-				date > 1933.1.1
-				date < 1964.1.1
-				A_Minister_Allowed = yes
-				NOT = {
-					has_country_flag = Kazimierz_Bartel_unavailable
-				}
-			}
-			traits = {		
-				MoS_Back_Stabber
-			}
-		}
-	}
-	# Leon Joseph Baranski
-	POL_Leon_Joseph_Baranski = {
-		name = POL_Leon_Joseph_Baranski
-		portraits = {
-			civilian = {
-				small = "GFX_idea_Leon_Joseph_Baranski"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=POL_Leon_Joseph_Baranski_MoS
-			removal_cost = -1
-			allowed = {
-				tag = POL
-			}
-			visible = {
-				date > 1933.1.1
-				date < 1964.1.1
-				A_Minister_Allowed = yes
-				NOT = {
-					has_country_flag = Leon_Joseph_Baranski_unavailable
-				}
-			}
-			traits = {		
-				MoS_Back_Stabber
-			}
-		}
-	}
 	# Waclaw Mohl
 	POL_Waclaw_Mohl = {
 		name = POL_Waclaw_Mohl
@@ -2809,25 +2753,6 @@ characters={
 		portraits = {
 			civilian = {
 				small = "GFX_idea_Jan_Wroczynski"
-			}
-		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=POL_Jan_Wroczynski_AM
-			removal_cost = -1
-			allowed = {
-				tag = POL
-			}
-			visible = {
-				date > 1933.1.1
-				date < 1964.1.1
-				A_Minister_Allowed = yes
-				NOT = {
-					has_country_flag =Jan_Wroczynski_unavailable
-				}
-			}
-			traits = {		
-				AM_Military_Entrepreneur
 			}
 		}
 		advisor={
@@ -4211,34 +4136,6 @@ characters={
 	#################################################
 	### Chief of Staff
 	#################################################
-	# Wladyslaw Moczar
-	POL_Wladyslaw_Moczar = {
-		name = POL_Wladyslaw_Moczar
-		portraits = {
-			civilian = {
-				small = "GFX_idea_Wladyslaw_Moczar"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=POL_Wladyslaw_Moczar_CoStaff
-			removal_cost = -1
-			allowed = {
-				tag = POL
-			}
-			visible = {
-				date > 1933.1.1
-				date < 1964.1.1
-				F_Minister_Allowed = yes
-				NOT = {
-					has_country_flag =Wladyslaw_Moczar_unavailable
-				}
-			}
-			traits = {		
-				CoStaff_School_Of_Psychology
-			}
-		}
-	}
 	# Marian Januszajtis-Zegota
 	POL_Marian_JanuszajtisZegota = {
 		name = POL_Marian_JanuszajtisZegota
@@ -4264,34 +4161,6 @@ characters={
 			}
 			traits = {		
 				CoStaff_School_Of_Defence
-			}
-		}
-	}
-	# Marian Kukiel
-	POL_Marian_Kukiel = {
-		name = POL_Marian_Kukiel
-		portraits = {
-			civilian = {
-				small = "GFX_idea_Marian_Kukiel"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=POL_Marian_Kukiel_CoStaff
-			removal_cost = -1
-			allowed = {
-				tag = POL
-			}
-			visible = {
-				date > 1933.1.1
-				date < 1946.1.1
-				A_Minister_Allowed = yes
-				NOT = {
-					has_country_flag =Marian_Kukiel_unavailable
-				}
-			}
-			traits = {		
-				CoStaff_School_Of_Fire_Support
 			}
 		}
 	}
@@ -4591,34 +4460,6 @@ characters={
 			logistics_skill = 4
 		}
 	}
-	# Tomislaw Lupaszko
-	POL_Tomislaw_Lupaszko = {
-		name = POL_Tomislaw_Lupaszko
-		portraits = {
-			civilian = {
-				small = "GFX_idea_Tomislaw_Lupaszko"
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=POL_Tomislaw_Lupaszko_CoArmy
-			removal_cost = -1
-			allowed = {
-				tag = POL
-			}
-			visible = {
-				date > 1933.1.1
-				date < 1964.1.1
-				A_Minister_Allowed = yes
-				NOT = {
-					has_country_flag =Tomislaw_Lupaszko_unavailable
-				}
-			}
-			traits = {		
-				CoArmy_Decisive_Battle_Doctrine
-			}
-		}
-	}
 	# Wladyslaw Anders
 	POL_Wladyslaw_Anders = {
 		name = POL_Wladyslaw_Anders
@@ -4717,34 +4558,6 @@ characters={
 	#################################################
 	### Chief of Navy
 	#################################################
-	# Jan Kiwerski
-	POL_Jan_Kiwerski = {
-		name = POL_Jan_Kiwerski
-		portraits = {
-			civilian = {
-				small = "GFX_idea_Jan_Kiwerski"
-			}
-		}
-		advisor={
-			slot=Chief_of_Navy
-			idea_token=POL_Jan_Kiwerski_CoNavy
-			removal_cost = -1
-			allowed = {
-				tag = POL
-			}
-			visible = {
-				date > 1933.1.1
-				date < 1964.1.1
-				F_Minister_Allowed = yes
-				NOT = {
-					has_country_flag =Jan_Kiwerski_unavailable
-				}
-			}
-			traits = {		
-				CoNavy_Indirect_Approach_Doctrine
-			}
-		}
-	}
 	# Jerzy Swirski
 	POL_Jerzy_Swirski = {
 		name = POL_Jerzy_Swirski

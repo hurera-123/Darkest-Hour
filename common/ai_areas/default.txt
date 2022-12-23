@@ -192,4 +192,10 @@ areas = {
 			242
 		}
 	}
+	norwegian_coast = {
+		strategic_regions = {
+			11
+			191
+		}
+	}
 }

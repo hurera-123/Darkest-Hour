@@ -70,7 +70,11 @@ USA_USACE_Projects_Category = {
 		original_tag = USA
 	}
 	visible = {
-		has_completed_focus = USA_USACE_Projects
+		OR = {
+			has_completed_focus = USA_USACE_Projects
+			has_completed_focus = USA_Enlarge_Military_Industry
+			has_completed_focus = USA_Make_Use_of_the_USACE
+		}
 	}
 }
 USA_OSS_Category = {

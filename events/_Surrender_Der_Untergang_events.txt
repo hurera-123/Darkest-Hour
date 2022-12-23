@@ -21,7 +21,7 @@ country_event = {
 	trigger = {
 		has_global_flag = {
 			flag = Barbarossa_Initiated
-			days = 365
+			days > 365
 		}
 		original_tag = ROM
 		SOV = { has_war_with = ROM }
@@ -161,7 +161,7 @@ country_event = {
 	trigger = {
 		has_global_flag = {
 			flag = Barbarossa_Initiated
-			days = 365
+			days > 365
 		}
 		original_tag = HUN
 		SOV = { has_war_with = HUN }
@@ -319,7 +319,7 @@ country_event = {
 	trigger = {
 		has_global_flag = {
 			flag = Barbarossa_Initiated
-			days = 365
+			days > 365
 		}
 		original_tag = BUL
 		SOV = { has_war_with = BUL }
@@ -447,7 +447,7 @@ country_event = {
 	trigger = {
 		has_global_flag = {
 			flag = Barbarossa_Initiated
-			days = 365
+			days > 365
 		}
 		original_tag = FIN
 		SOV = { has_war_with = FIN }

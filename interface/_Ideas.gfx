@@ -3675,8 +3675,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_idea_Waclaw_Stachewicz"
-        texturefile = "gfx/interface/ideas/Cabinet/POL/Waclaw_Stachewicz.png"
+        name = "GFX_idea_Waclaw_Stachiewicz"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Waclaw_Stachiewicz.png"
     }
 
     spriteType = {

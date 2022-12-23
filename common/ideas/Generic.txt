@@ -131,7 +131,6 @@ ideas = {
 			modifier = {
 				production_speed_infrastructure_factor = 0.3
 				money_expenses_factor = 0.2
-				hidden_modifier = { money_expenses_factor_from_ideas = 0.2 }
 			}
 		}
 		generic_idea_new_railways_private = {
@@ -150,7 +149,6 @@ ideas = {
 			modifier = {
 				production_speed_infrastructure_factor = 0.35
 				money_expenses_factor = 0.1
-				hidden_modifier = { money_expenses_factor_from_ideas = 0.1 }
 			}
 		}
 		generic_idea_new_railways_state = {
@@ -170,7 +168,6 @@ ideas = {
 				production_speed_infrastructure_factor = 0.45
 				consumer_goods_factor = 0.02
 				money_expenses_factor = 0.25
-				hidden_modifier = { money_expenses_factor_from_ideas = 0.25 }
 			}
 		}
 		generic_idea_promote_urbanization = {

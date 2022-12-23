@@ -26,9 +26,6 @@ add_namespace = USA_Landon
 add_namespace = USA_Landon_1940_1944
 add_namespace = USA_Smoot_Hawley
 add_namespace = USA_Department_of_War
-add_namespace = USA_Left_War
-add_namespace = USA_Rally_Seattle
-add_namespace = USA_Taft_Addresses_Nation
 add_namespace = USA_Wilkie_Dead
 add_namespace = USA_McNary_Dead
 add_namespace = USA_Philippines
@@ -1723,6 +1720,9 @@ country_event = { # Election Night 1940
 			factor = 0
 		}
 		set_country_flag = USA_Wilkie_Wins_1940_Election_T
+		hidden_effect = {
+			country_event = { id = USA_1940_1944_Wilkie.0 days = 25 }
+		}
 	}
 	# The Country still needs FDR!
 	option = {
@@ -1748,14 +1748,90 @@ news_event = { # Inauguration of Wendell Wilkie
 		name = USA_Elections_1940.4.A
 		retire_country_leader = yes
 		create_country_leader = {
-			name = "Wendell Wilkie"
-			desc = "Wendell_Wilkie_desc"
+			name = "Wendell Willkie"
+			desc = "Wendell_Willkie_desc"
 			picture = GFX_P_D_Wendell_Wilkie
 			ideology = social_conservatism
 			traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
 		}
 		remove_ideas = USA_Charles_Curtis_HoG
 		add_ideas = USA_Charles_McNary_HoG
+		if = {
+			limit = {
+				has_country_flag = USA_Henry_Luce_SoS
+			}
+			add_advisor_role = {
+				character = USA_Henry_Luce
+				activate = yes
+				advisor = {
+					slot = Foreign_Minister
+					idea_token = USA_Henry_Luce_FM
+					traits = {
+						
+					}
+					allowed = {
+						tag = USA
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = USA_Harold_Stassen_SoS
+			}
+			add_advisor_role = {
+				character = USA_Harold_Stassen
+				activate = yes
+				advisor = {
+					slot = Foreign_Minister
+					idea_token = USA_Harold_Stassen_FM
+					traits = {
+						
+					}
+					allowed = {
+						tag = USA
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = USA_Raymond_E_Baldwin_SoS
+			}
+			add_advisor_role = {
+				character = USA_Raymond_E_Baldwin
+				activate = yes
+				advisor = {
+					slot = Foreign_Minister
+					idea_token = USA_Raymond_E_Baldwin_FM
+					traits = {
+						
+					}
+					allowed = {
+						tag = USA
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = USA_Robert_A_Taft_SoS
+			}
+			add_advisor_role = {
+				character = USA_Robert_A_Taft
+				activate = yes
+				advisor = {
+					slot = Foreign_Minister
+					idea_token = USA_Robert_A_Taft_FM
+					traits = {
+						
+					}
+					allowed = {
+						tag = USA
+					}
+				}
+			}
+		}
 		set_country_flag = USA_Wilkie_Wins_1940_Election
 		mark_focus_tree_layout_dirty = yes
 		set_party_name = { 
@@ -4817,7 +4893,7 @@ country_event = {
 		add_stability = -0.03
 	}
 }
-# Landon Calls for Volounteers
+# Landon Calls for Volunteers
 country_event = {
 	id = USA_Landon_1940_1944.5
 	title = USA_Landon_1940_1944.5.t
@@ -4864,6 +4940,34 @@ country_event = {
 # Wilkie 1940-1944
 ################################################
 
+# Big Shoes to Fill
+country_event = {
+	id = USA_1940_1944_Wilkie.0
+	title = USA_1940_1944_Wilkie.0.t
+	desc = USA_1940_1944_Wilkie.0.D
+	picture = GFX_report_USA_1940_RNC_Wilkie
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = USA_1940_1944_Wilkie.0.A
+		set_country_flag = USA_Harold_Stassen_SoS
+	}
+	option = {
+		name = USA_1940_1944_Wilkie.0.B
+		set_country_flag = USA_Henry_Luce_SoS
+	}
+	option = {
+		name = USA_1940_1944_Wilkie.0.C
+		set_country_flag = USA_Raymond_E_Baldwin_SoS
+	}
+	option = {
+		name = USA_1940_1944_Wilkie.0.D
+		set_country_flag = USA_Robert_A_Taft_SoS
+	}
+}
+
 # The Preperation Measures Act
 country_event = {
 	id = USA_1940_1944_Wilkie.1
@@ -4877,7 +4981,7 @@ country_event = {
 	option = {
 		name = USA_1940_1944_Wilkie.1.A
 		add_war_support = 0.05
-		add_ideas = USA_preliminary_war_preperations
+		add_ideas = USA_Preliminary_War_Preparations
 	}
 }
 
@@ -4893,6 +4997,10 @@ country_event = {
 
 	option = {
 		name = USA_1940_1944_Wilkie.2.a
+		set_temp_variable = {
+			money_to_gain = -1000
+		}
+		add_money_with_inflation_included_with_tooltip_effect = yes
 		add_war_support = 0.05
 		383 = {
 			add_building_construction = {
@@ -5165,27 +5273,27 @@ country_event = {
 
 # The United States Has Left the War!
 news_event = {
-	id = USA_Left_War.1
-	title = USA_Left_War.1.t
-	desc = USA_Left_War.1.d
+	id = USA_1940_1944_Wilkie.13
+	title = USA_1940_1944_Wilkie.13.t
+	desc = USA_1940_1944_Wilkie.13.d
 	picture = GFX_news_USA_America_First_Rally
 	is_triggered_only = yes
 	major = yes
 	option = {
-		name = USA_Left_War.1.A
+		name = USA_1940_1944_Wilkie.13.A
 	}
 }
 
 # Rally In Seattle
 news_event = {
-	id = USA_Rally_Seattle.1
-	title = USA_Rally_Seattle.1.t
-	desc = USA_Rally_Seattle.1.d
+	id = USA_1940_1944_Wilkie.14
+	title = USA_1940_1944_Wilkie.14.t
+	desc = USA_1940_1944_Wilkie.14.d
 	picture = GFX_news_USA_Bank_Holiday
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = USA_Rally_Seattle.1.A
+		name = USA_1940_1944_Wilkie.14.A
 		add_stability = 0.05
 		add_political_power = 100
 	}
@@ -5193,14 +5301,14 @@ news_event = {
 
 # President Taft Addresses the Nation!
 news_event = {
-	id = USA_Taft_Addresses_Nation.1
-	title = USA_Taft_Addresses_Nation.1.t
-	desc = USA_Taft_Addresses_Nation.1.d
+	id = USA_1940_1944_Wilkie.15
+	title = USA_1940_1944_Wilkie.15.t
+	desc = USA_1940_1944_Wilkie.15.d
 	picture = GFX_news_USA_Capitol_Hill
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
-		name = USA_Taft_Addresses_Nation.1.A
+		name = USA_1940_1944_Wilkie.15.A
 		add_stability = 0.05
 		add_war_support = -0.1
 		add_political_power = 50
@@ -5214,7 +5322,14 @@ news_event = {
 	desc = USA_Wilkie_Dead1.d
 	picture = GFX_news_USA_Bank_Holiday
 	fire_only_once = yes
-	is_triggered_only = yes
+	trigger = {
+		tag = USA
+		date > 1943.5.13
+		has_country_leader = {
+			name = "Wendell Willkie"
+			ruling_only = yes
+		}
+	}
 	option = {
 		name = USA_Wilkie_Dead.1.A
 		kill_country_leader = yes
@@ -5235,10 +5350,74 @@ news_event = {
 	desc = USA_McNary_Dead.1.d
 	picture = GFX_news_USA_Bank_Holiday
 	fire_only_once = yes
-	is_triggered_only = yes
+	trigger = {
+		tag = USA
+		date > 1944.2.21
+		has_country_leader = {
+			name = "Charles L. McNary"
+			ruling_only = yes
+		}
+	}
 	option = {
 		name = USA_McNary_Dead.1.A
 		kill_country_leader = yes
+		complete_national_focus = USA_Disaster_Strikes_Twice
+		if = {
+			limit = {
+				has_country_flag = USA_Henry_Luce_SoS
+			}
+			add_country_leader_role = {
+				character = USA_Henry_Luce
+				promote_leader = yes
+				country_leader = {
+					ideology = social_conservatism
+					expire = "1964.1.1"
+					traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = USA_Harold_Stassen_SoS
+			}
+			add_country_leader_role = {
+				character = USA_Harold_Stassen
+				promote_leader = yes
+				country_leader = {
+					ideology = social_conservatism
+					expire = "1964.1.1"
+					traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = USA_Raymond_E_Baldwin_SoS
+			}
+			add_country_leader_role = {
+				character = USA_Raymond_E_Baldwin
+				promote_leader = yes
+				country_leader = {
+					ideology = social_conservatism
+					expire = "1964.1.1"
+					traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = USA_Robert_A_Taft_SoS
+			}
+			add_country_leader_role = {
+				character = USA_Robert_A_Taft
+				promote_leader = yes
+				country_leader = {
+					ideology = social_conservatism
+					expire = "1964.1.1"
+					traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+				}
+			}
+		}
 	}
 }
 

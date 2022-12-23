@@ -208,6 +208,10 @@ recruit_character = USA_Charles_M_Cooke
 recruit_character = USA_Frank_Jack_Fletcher
 recruit_character = USA_Thomas_C_Kinkaid
 recruit_character = USA_Sam_Darcy
+recruit_character = USA_Robert_A_Taft
+recruit_character = USA_Raymond_E_Baldwin
+recruit_character = USA_Henry_Luce
+recruit_character = USA_Harold_Stassen
 
 #########################################################################
 # United States of America - 1933

@@ -1795,8 +1795,7 @@ country_event = {
 			ruling_only = yes
 		}
 		has_war_with = USA
-		OR = {
-			#date > 1945.04.07
+		AND = {
 			naval_strength_ratio = {
 				tag = USA
 				ratio < 0.2
