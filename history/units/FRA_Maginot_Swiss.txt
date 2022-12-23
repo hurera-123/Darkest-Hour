@@ -1,0 +1,23 @@
+﻿units = {
+	division = {
+		name = "Secteur défensif de Montbéliard"
+		location = 698
+		division_template = "Secteur Fortifié"
+		start_experience_factor = 0.14 # the early 30s was a very low point for the French Army
+		start_equipment_factor = 0.15
+	}
+	division = {
+		name = "Secteur fortifié du Jura"
+		location = 3666
+		division_template = "Secteur Fortifié"
+		start_experience_factor = 0.14 # the early 30s was a very low point for the French Army
+		start_equipment_factor = 0.15
+	}
+	division = {
+		name = "Secteur défensif du Rhône"
+		location = 9603
+		division_template = "Secteur Fortifié"
+		start_experience_factor = 0.14 # the early 30s was a very low point for the French Army
+		start_equipment_factor = 0.15
+	}
+}

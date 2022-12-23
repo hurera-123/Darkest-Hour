@@ -1972,6 +1972,46 @@ SOV_GMTN_46 =
 		129 = { "%d-ya Gvardeyskaya Gornostrelkovaya Zhitomirskaya Krasnoznamonnaya ordena Suvorova Diviziya" }
 	}
 }
+SOV_PAR_01 = 
+{
+	name = "Airborne Divisions"
+
+	for_countries = { SOV }
+
+	can_use = { 
+		has_completed_focus = SOV_Deep_Battle_Plan
+		NOT = { has_completed_focus = SOV_Guard_Units }
+	}
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { SOV_GPAR_01 SOV_GPAR_44 SOV_GPAR_45 SOV_GPAR_46 }
+
+	fallback_name = "%d-ya Vozdushno-Desantnaya Diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		2 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		3 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		4 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		5 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		6 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		7 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		8 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		9 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		10 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		11 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		12 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		13 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		14 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		15 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		16 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+	}
+}
 SOV_GPAR_01 = 
 {
 	name = "Guards Airborne Divisions"
