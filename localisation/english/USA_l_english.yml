@@ -8,8 +8,8 @@
  USA_Landon.1.A: "Dear Ms. Harris..."
 
  USA_Landon.2.t: "Tax Break Payoff"
- USA_Landon.2.d: ""
- USA_Landon.2.A: ""
+ USA_Landon.2.d: "With the recent passing of new tax break legislation, thousands of businesses across the nation are set to benefit from being able to keep a larger portion of their earnings instead of needing to give it to the government. We hope that this will allow for better growth across the country, as well as encouraging new investors and startups to help dig our way out of the Great Depression.\n\nWhile it is important that legislation works, some within our nation are skeptical. The Democrats, for example, are concerned that this could hamper our chances at a quick and smooth recovery, arguing that the New Deal was a better plan for long term growth. Others are also questioning whether this will help out millions of working-class citizens across the USA, but only time will answer that."
+ USA_Landon.2.A: "Read my lips: no new taxes!"
 
  USA_Landon.3.t: "Rebalancing New Deal Budget"
  USA_Landon.3.d: "”Alright, Frank, where are we at?”\n\n”I asked my staff to create some folders regarding the cost of the New Deal, its general budget, and future projections concerning national debt. I have to warn you, Mr.President, this entire report is 80 pages long, so I fear we don't have to go over every detail in this meeting. I suggest that we schedule another meeting for Thursday or Friday if you please,”\n\n”No, I need to grab this problem by the horns. The other Republicans are already breathing down my neck to throw out the New Deal in this instant. What is the summary of your report?”\n\n”Ok, I will keep it brief: The biggest factor in the entire New Deal budget and thus the largest part of our expenses is the welfare and pensions spending. Some of the conservative Republicans even accuse us of aggressively throwing money at the people to get them to go bother someone else,”\n\n”On the other hand, education spending is also tearing a big hole into the budget. The report also suggests that a lot of money is wasted on the New Deal's bureaucracy. You throw it in at the top, and it disappears towards the bottom,”\n\n”How popular are these points with the public?”\n\n”They are very popular. I think you know why,”\n\n”Dammit, we'll have to cut at least something, otherwise, we might as well declare bankruptcy now. Lemme see...”"
@@ -187,8 +187,8 @@
 
  USA_Elections_1936.4.t: "Election Night 1936"
  USA_Elections_1936.4.d: "Four years after FDR's historic landslide victory over then-President Herbert Hoover, the 1936 election has finally arrived. Much has changed since 1932, with the New Deal helping to alleviate some of our nation's problems caused by the Great Depression. Millions of people have found work as a result of this, primarily through government plans for public works on roads, dams, and highways. Despite the President's efforts, many in the country are still dissatisfied with the slow pace of recovery, which Alf Landon, the Republican nominee for President, has emphasized in his campaign.\n\nThe nation is on edge as the votes are counted and the outcome is awaited. While many predict that FDR will easily win a second term, a few polls have indicated a much closer race, with a couple even giving Alf Landon the election. The announcer says as the radio crackles..."
- USA_Elections_1936.4.A: "\"...the President has secured another term in a landslide victory!\""
- USA_Elections_1936.4.B: "\"...A stunning upset, Alf Landon is victorious!\""
+ USA_Elections_1936.4.A: "“...the President has secured another term in a landslide victory!”"
+ USA_Elections_1936.4.B: "“…A stunning upset, Alf Landon is victorious!”"
  USA_Landon_1936: "§OAlf Landon§! inaugurated as §L32nd President§!"
  USA_Roosevelt_1936: "§ORoosevelt§! inaugurated for a §LSecond Term§!"
 
@@ -232,7 +232,7 @@
  USA_SL_1944_Candidate: "§YCandidate§! : Franklin D. Roosevelt"
 
  USA_Politics.1.t: "President Roosevelt dies at Warm Springs"
- USA_Politics.1.d: "[FROM.GetNewsIcon]."
+ USA_Politics.1.d: "[FROM.GetNewsIcon]Tragic news has struck our nation today, as President Franklin Delano Roosevelt has died today in Warm Springs, Georgia, at the age of 62.\n\nThe 32nd President had been in declining health since 1940, due to chain smoking for much of his adult life. While he has done well in recent years to try and hide his poor health, the recent 1944 election campaign has highlighted his need for extended periods of rest, mainly because of his high blood pressure and coronary artery disease. The main cause of his death has been stated as an “intracerebral hemorrhage” by the attending cardiologist Dr. Howard Bruenn.\n\nRoosevelt has achieved much during his time as President, with the New Deal being the most notable of his achievements. With his public works programs and the hefty government expenditure put into the economy, millions have been lifted out of unemployment and poverty, helping to create a better and more prosperous society.\n\nWhile it is not yet known who will take his place, it is highly likely that the Vice President, Harry Truman, will become the 33rd President at a time when the world is engulfed in uncertainty."
  USA_Politics.1.A: "VP Harry S. Truman"
  USA_Politics.1.B: "Former VP Henry A. Wallace"
  USA_Politics.1.C: "General Douglas MacArthur"

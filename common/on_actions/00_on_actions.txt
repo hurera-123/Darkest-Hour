@@ -158,6 +158,16 @@ on_actions = {
 					set_country_flag = Nuked_Hawaii
 				}
 			}
+			if = {
+				limit = {
+					FROM.FROM = {
+						state = 809
+					}
+				}
+				ROOT = {
+					set_country_flag = Nuked_Essen
+				}
+			}
 		}
 	}
 	# country random events

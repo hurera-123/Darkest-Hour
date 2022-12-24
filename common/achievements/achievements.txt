@@ -256,3 +256,31 @@ No_I_Dont_Want_To_Go = {
 		}
 	}
 }
+
+Thousand_Week_Reich = {
+	
+	possible = {
+		difficulty > 1
+		original_tag = GER
+	}
+	
+	happened = {
+		has_country_leader = {
+			character = GER_Adolf_Hitler
+			ruling_only = yes
+		}
+		date > 1952.3.30
+	}
+}
+
+Blast_To_The_Past = {
+	
+	possible = {
+		difficulty > 1
+		original_tag = USA
+	}
+	
+	happened = {
+		has_country_flag = Nuked_Essen
+	}
+}
