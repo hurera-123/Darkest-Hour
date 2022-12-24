@@ -20,6 +20,9 @@
  DH_FEATURES_WINDOW_TITLE_HELP_WINDOW: "Help Window"
  DH_FEATURES_WINDOW_TEXT_HELP_WINDOW: "You can access the window by pressing the §RESC§! key.\n\nOur most important mechanics are listed here for you to access anytime you need help. "
 
+ DH_FEATURES_WINDOW_TITLE_GROZA_DECISIONS: "Operation Groza"
+ DH_FEATURES_WINDOW_TEXT_GROZA_DECISIONS: "Placeholder"
+
  DH_FEATURES_WINDOW_TITLE_CONSTRUCTION: "Construction"
  DH_FEATURES_WINDOW_TEXT_CONSTRUCTION: "Display the speed of constrictions. Can be turned §Gon§! and §Roff§!.\n\nCredits to "Yes, Paimon" on Steam Workshop."
 
