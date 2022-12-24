@@ -15,8 +15,8 @@ France_historical = {
 		FRA_End_the_Pacification_of_Morocco
 		FRA_Grand_Travaux_Policy
 		FRA_Companie_National_du_Rhone
-		FRA_Reorganize_Wheat_Market
 		FRA_National_Lottery
+		FRA_Reorganize_Wheat_Market
 		FRA_Central_Committee_Stock_Exchange
 		FRA_Air_France
 		FRA_The_Black_Cruse
@@ -35,7 +35,7 @@ France_historical = {
 		# 1935
 		FRA_The_Maginot_Line
 		FRA_Limit_Foreign_Workers_Job
-		FRA_Algiers_Industrial_Build_Up
+		FRA_Fix_Tunisian_Economy
 		FRA_Formalize_the_Post_of_President_du_Conseil
 		FRA_Reoganise_Economic_Sector
 		FRA_Protect_Local_Market
@@ -47,17 +47,17 @@ France_historical = {
 		FRA_Tactic_over_strategy
 		FRA_Develop_the_Genie
 		FRA_Victory_of_the_Popular_Front
-		FRA_Great_Social_Reform
 		FRA_Ban_the_Far_Right_Ligue
+		FRA_Great_Social_Reform
 		FRA_Begin_Nationalisation
 		FRA_Control_Bank_de_France
+		FRA_Franc_Devaluation
 		FRA_National_Office_Agriulture
 		# 1937
 		FRA_Keep_Vuillemin_in_Charge
 		FRA_begin_rearmament
 		FRA_Politique_des_Prototypes
 		FRA_Feu_et_Acier
-		FRA_Franc_Devaluation
 		FRA_Rely_on_London_and_Washington
 		FRA_Renewal_of_the_Jeune_Ecole
 		FRA_Darlans_Doctrine
@@ -65,13 +65,17 @@ France_historical = {
 		FRA_Cooperated_with_the_Armee_de_Terre
 		FRA_Grande_Batterie
 		FRA_Ban_the_Neo_Destour
-		FRA_Decret_National_Defence
+		FRA_Rule_by_Decret_Law
 		FRA_Il_Faut_Remettre_la_France_au_Travail
+		FRA_The_Firmness_Policy
+		FRA_Reynaud_Deregulation_Policy
+		FRA_Decret_National_Defence
 		FRA_Create_Family_Code
 		FRA_Act_Against_the_Enemy_of_the_State
-		FRA_War_On_Pacifism
 		# 1939
+		FRA_National_Defense_Bonds
 		FRA_Buy_Amerian_Planes
+		FRA_Algiers_Industrial_Build_Up
 		FRA_Protect_Tunisia
 		FRA_Toulon_of_the_South
 		FRA_La_Voie_Sacree
@@ -81,14 +85,17 @@ France_historical = {
 		# 1940
 		FRA_General_Mobilization
 		FRA_Form_War_Gouvernment
-		FRA_Ban_the_PCF
-		FRA_A_National_Union_to_Save_France
 		FRA_The_GQG
 		FRA_The_Supreme_War_Council
+		FRA_Ban_the_PCF
 		FRA_Mobilize_the_Colonies
 		FRA_Plan_Mandel
-		FRA_Desperate_Defence
-		FRA_The_Mediterranean_Retreat
-		FRA_Keep_Fighting_in_Africa
+		FRA_A_National_Union_to_Save_France
+		FRA_Project_Gerboise
+		FRA_Inter_Allied_Air_Command
+		FRA_Mass_Produce_H_Thirty_Nine
+		FRA_La_Patrie_en_Danger
+		FRA_Hundred_Million_Bayonets
+		FRA_Remove_the_Defeatist
 	}
 }

@@ -11,7 +11,7 @@
 #########################################################################
 
  FRA_National_Lottery.2.t: "First Draw of the National Lottery"
- FRA_National_Lottery.2.d: "The first draw of the new National Lottery has taken place at the Trocadéro Palace in Paris, bringing a crowd of five thousand people. The lucky winner was a married fifty-year old hairdresser from Tarascon called Paul Bonhoure. Thanks to his clerk that bought the winner ticket with the number 18414, the hairdresser won the considerable sum of five million francs. However, Bonhoure is already receiving death threats from several people mad at him from winning the prize, so we'll recommend the following winners to be more discreet about it from now on."
+ FRA_National_Lottery.2.d: "[FROM.GetNewsIcon]The first draw of the new National Lottery has taken place at the Trocadéro Palace in Paris, bringing a crowd of five thousand people. The lucky winner was a married fifty-year old hairdresser from Tarascon called Paul Bonhoure. Thanks to his clerk that bought the winner ticket with the number 18414, the hairdresser won the considerable sum of five million francs. However, Bonhoure is already receiving death threats from several people mad at him from winning the prize, so we'll recommend the following winners to be more discreet about it from now on."
  FRA_National_Lottery.2.A: "Good for him."
 
  FRA_SFIO_Election.1.t: "XXXth Congress of SFIO at Paris"
@@ -116,7 +116,7 @@
  FRA_6_February_Aftermath.1.A: "The Republic has survived, may the government learn some lessons."
 
  FRA_6_February_Aftermath.2.t: "[This.GetLeader] Government Collapses"
- FRA_6_February_Aftermath.2.d: "The second government of [This.GetLeader] has fallen today. Following two weeks of political unrest, the Council President, accompanied by his ministers and many collaborators, had left the Bourbon Palace following the recent events in Paris.\n\nThe rightist leagues have manifested in the streets of Paris, accusing the government of being a eulogy of corruption, resulting in violent clashes between the many attendees. Shockingly, the damages are enormous, even by city standards. Several stores have been robbed, and dozens of police officers and citizens have been injured when the guns began to talk.\n\nRecognizing that he could be accused of sending too strict orders to the police, [This.GetLeader] presented his resignation today to President Albert Lebrun, who accepted it immediately, saying that "one more or less Council President in a month should not really make a difference."\n\nFollowing his departure, [This.GetLeader] invited Gaston Doumergue to form a new government, which the former President accepted. Doumergue has immediately delivered a speech to the Assemblée, calling for a return to normalcy and urging his news ministers to work hard to restore confidence in the Republic."
+ FRA_6_February_Aftermath.2.d: "[FROM.GetNewsIcon]The second government of [This.GetLeader] has fallen today. Following two weeks of political unrest, the Council President, accompanied by his ministers and many collaborators, had left the Bourbon Palace following the recent events in Paris.\n\nThe rightist leagues have manifested in the streets of Paris, accusing the government of being a eulogy of corruption, resulting in violent clashes between the many attendees. Shockingly, the damages are enormous, even by city standards. Several stores have been robbed, and dozens of police officers and citizens have been injured when the guns began to talk.\n\nRecognizing that he could be accused of sending too strict orders to the police, [This.GetLeader] presented his resignation today to President Albert Lebrun, who accepted it immediately, saying that "one more or less Council President in a month should not really make a difference."\n\nFollowing his departure, [This.GetLeader] invited Gaston Doumergue to form a new government, which the former President accepted. Doumergue has immediately delivered a speech to the Assemblée, calling for a return to normalcy and urging his news ministers to work hard to restore confidence in the Republic."
  FRA_6_February_Aftermath.2.A: "We have a lot of work to do."
 
  FRA_6_February_Aftermath.3.t: "Le Gouvernement d'Union Nationale"
@@ -179,7 +179,7 @@
 
  FRA_Reform_of_the_State.9.t: "Fall of Gaston Doumergue"
  FRA_Reform_of_the_State.9.d: "[FROM.GetNewsIcon]"
- FRA_Reform_of_the_State.9.A: "A New France arises from the old one's ashes!"
+ FRA_Reform_of_the_State.9.A: "The Wise man can now enjoy his pension "
 
  FRA_Reform_of_the_State.10.t: "Tardieu confront Chautemps!"
  FRA_Reform_of_the_State.10.d: ""
@@ -221,13 +221,13 @@
  FRA_Assassination_of_Alexander_I.8.A: "At least our King is safe..."
  FRA_Assassination_of_Alexander_I.8.B: "A horrible tragedy!"
 
- FRA_Assassination_of_Alexander_I.9.t: "Reformist Government Takes a Great Hit with Barthou's death"
- FRA_Assassination_of_Alexander_I.9.d: ""
- FRA_Assassination_of_Alexander_I.9.A: ""
+ FRA_Assassination_of_Alexander_I.9.t: "Funeral of Louis Barthou"
+ FRA_Assassination_of_Alexander_I.9.d: "[FROM.GetNewsIcon]Today in Paris, the funeral for the former Foreign Minister Louis Barthou was held , four days after he was killed in the Ustaše terror attack in Marseille. Many people, both civilians and politicians alike have come to honour Barthou, paying their respects to a major player in French politics. A member of the Alliance Démocratique, he held the prestigious post of Prime Minister in 1913, and oversaw major changes to our nation's social policy, including the introduction of allowances to families with children.\n\nAs well as serving as Prime Minister, he has also served as the Foreign Minister before his unfortunate death, with many agreeing that Barthou's greatest diplomatic achievement was the improvement of Franco-Soviet relations. He is largely responsible for the Soviet Union's admission to the League of Nations, and prior to his death, he was involved in efforts to establish an "Eastern Pact," which would have included Germany, the Soviet Union, Poland, the Baltic States, and Czechoslovakia. The goal of this was to maintain peace and settle border disputes between the Soviets and Germans, but this is unlikely to come to fruition now.\n\nThe current Minister of Security, Albert Sarraut, has resigned in shame, stating that better security measures should’ve been put in place, and that it was his fault for overlooking such a great detail"
+ FRA_Assassination_of_Alexander_I.9.A: "A sad ending for a great man."
 
- FRA_Assassination_of_Alexander_I.10.t: "Funeral of Louis Barthou."
- FRA_Assassination_of_Alexander_I.10.d: "Today in Paris, the funeral for the former Foreign Minister Louis Barthou was held , four days after he was killed in the Ustaše terror attack in Marseille. Many people, both civilians and politicians alike have come to honour Barthou, paying their respects to a major player in French politics. A member of the Alliance Démocratique, he held the prestigious post of Prime Minister in 1913, and oversaw major changes to our nation's social policy, including the introduction of allowances to families with children.\n\nAs well as serving as Prime Minister, he has also served as the Foreign Minister before his unfortunate death, with many agreeing that Barthou's greatest diplomatic achievement was the improvement of Franco-Soviet relations. He is largely responsible for the Soviet Union's admission to the League of Nations, and prior to his death, he was involved in efforts to establish an "Eastern Pact," which would have included Germany, the Soviet Union, Poland, the Baltic States, and Czechoslovakia. The goal of this was to maintain peace and settle border disputes between the Soviets and Germans, but this is unlikely to come to fruition now.\n\nThousands are in attendance at Barthou's funeral, and many have expressed great sadness at the atrocity. Members of the Paris art community have also come to pay their respects to Barthou, who was a patron and an ardent supporter of the arts, with one bystander expressing her shock at the horrible manner in which Barthou died.\n\nThe current Minister of Security, Albert Sarraut, has resigned in shame, stating that better security measures should’ve been put in place, and that it was his fault for overlooking such a great detail."
- FRA_Assassination_of_Alexander_I.10.A: "A sad ending for a great man."
+ FRA_Assassination_of_Alexander_I.10.t: "Barthou Support the Reform."
+ FRA_Assassination_of_Alexander_I.10.d: ""
+ FRA_Assassination_of_Alexander_I.10.A: "Good"
 
  #########################################################################
 # #### #  	#### #### ### ### #### #   #  #### ####
@@ -238,11 +238,11 @@
 #########################################################################
 
  FRA_1936_Election.1.t: "SFIO and PCF Protest against the Fascists!"
- FRA_1936_Election.1.d: "Paris is in uproar again, less than a week after Daladier's resignation, with thousands of people taking to the streets, and police officers are desperately trying to keep the peace. However, the crowds are not the same as they were a few days ago, as red banners and three-arrow flags flail in the wind outside the Chamber of Deputies. Anarchists, communists, and socialists have joined forces in a massive protest in Paris, united in their opposition to the fascist leagues that had rallied there just days before, and general strikes are being called by labour unions. Communists and socialists are more united than ever in their opposition to fascism.\n\nMany protesters were seen holding signs calling for leftist unity and chanting anti-fascist slogans, with some even throwing rocks at alleged pro-fascist officials and bystanders, referring to them as brownshirts and thugs. A large group of protestors began singing L'Internationale on one occasion.\n\nMany on the left see these counter protests as noble, but they are not without violence: nine people have been killed in clashes with police so far. Since the Stavisky affair, the mood in the country has become increasingly polarised, but tensions have boiled over in the last week. Some people even believe that civil war or another revolution is a real possibility."
+ FRA_1936_Election.1.d: "[FROM.GetNewsIcon]Paris is in uproar again, less than a week after Daladier's resignation, with thousands of people taking to the streets, and police officers are desperately trying to keep the peace. However, the crowds are not the same as they were a few days ago, as red banners and three-arrow flags flail in the wind outside the Chamber of Deputies. Anarchists, communists, and socialists have joined forces in a massive protest in Paris, united in their opposition to the fascist leagues that had rallied there just days before, and general strikes are being called by labour unions. Communists and socialists are more united than ever in their opposition to fascism.\n\nMany protesters were seen holding signs calling for leftist unity and chanting anti-fascist slogans, with some even throwing rocks at alleged pro-fascist officials and bystanders, referring to them as brownshirts and thugs. A large group of protestors began singing L'Internationale on one occasion.\n\nMany on the left see these counter protests as noble, but they are not without violence: nine people have been killed in clashes with police so far. Since the Stavisky affair, the mood in the country has become increasingly polarised, but tensions have boiled over in the last week. Some people even believe that civil war or another revolution is a real possibility."
  FRA_1936_Election.1.A: "Ils ne passeront pas!"
 
  FRA_1936_Election.2.t: "Thorez Calls for Left-Wing Unity!"
- FRA_1936_Election.2.d: "In the aftermath of the February 6th crisis, Maurice Thorez, the leader of the Parti Communiste Français, issued a call for unity to all left-wing parties and organisations. The French left is notoriously divided between various factions, but Thorez hopes to change that.\n\nThere have long been efforts and desires in France to unite the left, particularly since the country was hit by the Great Depression several years ago. With the rise of right-wing authoritarian governments in Austria, Italy, and, most recently, Germany, many Frenchmen on the left are becoming increasingly concerned that their own country will descend into fascism. The February 6th riots appear to have been the final straw, as support for a coalition of leftist parties has since risen. If Léon Blum agrees, the SFIO and PCF will likely merge in the coming weeks."
+ FRA_1936_Election.2.d: "[FROM.GetNewsIcon]In the aftermath of the February 6th crisis, Maurice Thorez, the leader of the Parti Communiste Français, issued a call for unity to all left-wing parties and organisations. The French left is notoriously divided between various factions, but Thorez hopes to change that.\n\nThere have long been efforts and desires in France to unite the left, particularly since the country was hit by the Great Depression several years ago. With the rise of right-wing authoritarian governments in Austria, Italy, and, most recently, Germany, many Frenchmen on the left are becoming increasingly concerned that their own country will descend into fascism. The February 6th riots appear to have been the final straw, as support for a coalition of leftist parties has since risen. If Léon Blum agrees, the SFIO and PCF will likely merge in the coming weeks."
  FRA_1936_Election.2.A: "À bas le fascisme!"
 
  FRA_1936_Election_Doumergue_no_Reelection.1.t: "Doumergue Will Not Be Seeking Reelection!"
@@ -268,7 +268,7 @@
  FRA_1936_Election_Doumergue_no_Reelection.5.B: "No, it's pure madness"
 
  FRA_1936_Election_Doumergue_Reelection.1.t: "Blum Forms an Alliance with Thorez"
- FRA_1936_Election_Doumergue_Reelection.1.d: "Léon Blum, the leader of the SFIO, has formally announced a merger between the SFIO and the PCF, uniting socialists and communists in France in opposition to fascism. The merger comes after a tumultuous few weeks in French politics, which saw multiple riots on both the left and right wings, over a dozen deaths, and fears of a pro-fascist coup d'etat.\n\nThe Front Populaire, a literal popular front against the conservative heavyweights, will be the identity of the new party. The Front Populaire currently controls slightly more than a third of the national assembly, but various other left-wing and liberal parties are considering joining. Opinions from Action Française and other right-wing parties are split, ranging from the proclamation that the other parties are conspiring against the French people, to pointing out this merger as so-called proof that parliamentarianism is deeply flawed.\n\nRegardless, the coalition now stands as the largest political party in France, and will likely grow in the coming weeks."
+ FRA_1936_Election_Doumergue_Reelection.1.d: "[FROM.GetNewsIcon]Léon Blum, the leader of the SFIO, has formally announced a merger between the SFIO and the PCF, uniting socialists and communists in France in opposition to fascism. The merger comes after a tumultuous few weeks in French politics, which saw multiple riots on both the left and right wings, over a dozen deaths, and fears of a pro-fascist coup d'etat.\n\nThe Front Populaire, a literal popular front against the conservative heavyweights, will be the identity of the new party. The Front Populaire currently controls slightly more than a third of the national assembly, but various other left-wing and liberal parties are considering joining. Opinions from Action Française and other right-wing parties are split, ranging from the proclamation that the other parties are conspiring against the French people, to pointing out this merger as so-called proof that parliamentarianism is deeply flawed.\n\nRegardless, the coalition now stands as the largest political party in France, and will likely grow in the coming weeks."
  FRA_1936_Election_Doumergue_Reelection.1.A: "Tout est possible!"
  FRA_1936_Election_Doumergue_Reelection.1.B: "We must unite against those reds!"
 
@@ -278,7 +278,7 @@
  FRA_1936_Election_Doumergue_Reelection.2.B: "We must prevent him from joining them."
 
  FRA_1936_Election_Doumergue_Reelection.3.t: "Peaceful Demonstration of the Front Populaire."
- FRA_1936_Election_Doumergue_Reelection.3.d: ""
+ FRA_1936_Election_Doumergue_Reelection.3.d: "[FROM.GetNewsIcon]"
  FRA_1936_Election_Doumergue_Reelection.3.A: ""
 
  FRA_1936_Election_Doumergue_Reelection.4.t: "The RAD Refuses any Alliance with the Left!"
@@ -294,7 +294,7 @@
  FRA_1936_Election_Doumergue_Reelection.6.A: ""
 
  FRA_1936_Election_Results.1.t: "Election Day!"
- FRA_1936_Election_Results.1.d: ""
+ FRA_1936_Election_Results.1.d: "[FROM.GetNewsIcon]"
  FRA_1936_Election_Results.1.A: "Unsurprisingly, Popular Front wins a landslide victory!"
 
  FRA_1936_Election_Results.2.t: "Election Day!"
@@ -329,7 +329,7 @@
  FRA_Front_Populaire_1936.11.A: ""
 
  FRA_Front_Populaire_1936.12.t: "Fall of Camille Chautemps's Government"
- FRA_Front_Populaire_1936.12.d: ""
+ FRA_Front_Populaire_1936.12.d: "[FROM.GetNewsIcon]"
  FRA_Front_Populaire_1936.12.A: ""
 
  FRA_La_Tempete_Fasciste.1.t: "Anti-Semitic Reaction against Blum"
@@ -367,7 +367,7 @@
  FRA_Front_Populaire_1936.5.A: "Will this really stabilise Europe?"
 
  FRA_Front_Populaire_1936.6.t: "The Nantes Congress"
- FRA_Front_Populaire_1936.6.d: ""
+ FRA_Front_Populaire_1936.6.d: "[FROM.GetNewsIcon]"
  FRA_Front_Populaire_1936.6.A: "We must protect European democracy!"
  FRA_Front_Populaire_1936.6.B: "The protection of our workers is of absolute importance!"
  FRA_Front_Populaire_1936.6.C: "Peace at all costs!"
@@ -395,7 +395,7 @@
  FRA_Pre_Matignon_Accord.2.A: "May God save the Red, White, and Blue"
 
  FRA_Pre_Matignon_Accord.3.t: "[This.GetLeader] Addresses the French People"
- FRA_Pre_Matignon_Accord.3.d: "With the impending crisis, the depression still raging, and agitation from political opponents on all sides, [This.Getleader] has been drafting a speech in order to relieve the populace and quell the anger that still exists in the nation. His tenure as president since 1932 has been stressful for him, with long sessions of sitting in his room and having restless nights trying to get everything in order, with just the mere thought of giving the speech eating away at him.\n\nHowever, it would be drafted, his different documents checked and revised as needed, and it was time to deal with and confront the difficulties that faced the nation daily, as well as satiate the requirements of opposition when reasonable. The reputation of this country and its stability must be protected to the greatest extent possible, and what was just finalised will be delivered to the public by the president himself and will hopefully alleviate the situation."
+ FRA_Pre_Matignon_Accord.3.d: "[FROM.GetNewsIcon]With the impending crisis, the depression still raging, and agitation from political opponents on all sides, [This.Getleader] has been drafting a speech in order to relieve the populace and quell the anger that still exists in the nation. His tenure as president since 1932 has been stressful for him, with long sessions of sitting in his room and having restless nights trying to get everything in order, with just the mere thought of giving the speech eating away at him.\n\nHowever, it would be drafted, his different documents checked and revised as needed, and it was time to deal with and confront the difficulties that faced the nation daily, as well as satiate the requirements of opposition when reasonable. The reputation of this country and its stability must be protected to the greatest extent possible, and what was just finalised will be delivered to the public by the president himself and will hopefully alleviate the situation."
  FRA_Pre_Matignon_Accord.3.A: "To those living under our flag..."
 
  FRA_Matignon_Accord.1.t: "The Matignon Accords"
@@ -430,7 +430,7 @@
  FRA_Government_Collapse.2.C: "...Camille Chautemps"
 
  FRA_PRS_Collapse.1.t: "PRS Collapse"
- FRA_PRS_Collapse.1.d: ""
+ FRA_PRS_Collapse.1.d: "[FROM.GetNewsIcon]"
  FRA_PRS_Collapse.1.A: ""
 
  FRA_Events.15.t: "Charles Maurras' Sentence"
@@ -446,7 +446,7 @@
  FRA_Events.39.A: ""
 
  FRA_Events.41.t: "Foundation of Air France"
- FRA_Events.41.d: ""
+ FRA_Events.41.d: "[FROM.GetNewsIcon]"
  FRA_Events.41.A: "France is in the Air!"
 
  FRA_Events.43.t: "Les Beautés de Bordeaux"
@@ -472,7 +472,7 @@
  FRA_Army.1.B: "... the block fall in front of him"
 
  FRA_Army.2.t: "Funeral of Maurice Gamelin"
- FRA_Army.2.d: ""
+ FRA_Army.2.d: "[FROM.GetNewsIcon]"
  FRA_Army.2.A: "Rest in Peace"
 
  FRA_Army.3.t: "An Empty Seat"

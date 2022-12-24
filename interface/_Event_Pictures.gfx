@@ -2590,6 +2590,191 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_news_FRA_Anti_Fascist_Manifestations"
+        texturefile = "gfx/event_pictures/news_FRA_Anti_Fascist_Manifestations.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_FRA_Assassination_King_Alexander_and_Louis_Barthou"
+        texturefile = "gfx/event_pictures/news_FRA_Assassination_King_Alexander_and_Louis_Barthou.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_FRA_Blum_Addresses_Workers"
+        texturefile = "gfx/event_pictures/news_FRA_Blum_Addresses_Workers.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_FRA_Camille_Chautemps_Resignation"
+        texturefile = "gfx/event_pictures/news_FRA_Camille_Chautemps_Resignation.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_FRA_Creation_of_Air_France"
+        texturefile = "gfx/event_pictures/news_FRA_Creation_of_Air_France.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_FRA_Crisis_Aftermath"
+        texturefile = "gfx/event_pictures/news_FRA_Crisis_Aftermath.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_FRA_Demonstrations_Front_Populaire"
+        texturefile = "gfx/event_pictures/news_FRA_Demonstrations_Front_Populaire.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_FRA_Doumergue_Reform"
+        texturefile = "gfx/event_pictures/news_FRA_Doumergue_Reform.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_FRA_Fall_of_Doumergue"
+        texturefile = "gfx/event_pictures/news_FRA_Fall_of_Doumergue.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_FRA_Funeral_Invalides"
+        texturefile = "gfx/event_pictures/news_FRA_Funeral_Invalides.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_FRA_Funeral_of_Louis_Barthou"
+        texturefile = "gfx/event_pictures/news_FRA_Funeral_of_Louis_Barthou.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_FRA_Ligue_Demonstration"
+        texturefile = "gfx/event_pictures/news_FRA_Ligue_Demonstration.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_FRA_National_Lottery"
+        texturefile = "gfx/event_pictures/news_FRA_National_Lottery.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_FRA_Thorez_Speech"
+        texturefile = "gfx/event_pictures/news_FRA_Thorez_Speech.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Barthou_and_Alexander"
+        texturefile = "gfx/event_pictures/report_FRA_Barthou_and_Alexander.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Blum_Elysee"
+        texturefile = "gfx/event_pictures/report_FRA_Blum_Elysee.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Bordeaux"
+        texturefile = "gfx/event_pictures/report_FRA_Bordeaux.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Camille_Chautemps_2"
+        texturefile = "gfx/event_pictures/report_FRA_Camille_Chautemps_2.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Congress_RAD"
+        texturefile = "gfx/event_pictures/report_FRA_Congress_RAD.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Doumergue"
+        texturefile = "gfx/event_pictures/report_FRA_Doumergue.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Doumergue_Cabinet"
+        texturefile = "gfx/event_pictures/report_FRA_Doumergue_Cabinet.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Doumergue_Governement"
+        texturefile = "gfx/event_pictures/report_FRA_Doumergue_Governement.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Doumergue_Marquet"
+        texturefile = "gfx/event_pictures/report_FRA_Doumergue_Marquet.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Flandin"
+        texturefile = "gfx/event_pictures/report_FRA_Flandin.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_FP_Government"
+        texturefile = "gfx/event_pictures/report_FRA_FP_Government.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Franco_Soviet_Pact"
+        texturefile = "gfx/event_pictures/report_FRA_Franco_Soviet_Pact.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Gustave_Tissier"
+        texturefile = "gfx/event_pictures/report_FRA_Gustave_Tissier.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Herriot_Newspaper"
+        texturefile = "gfx/event_pictures/report_FRA_Herriot_Newspaper.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Jean_Chiappe"
+        texturefile = "gfx/event_pictures/report_FRA_Jean_Chiappe.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Lebrun_at_Desk"
+        texturefile = "gfx/event_pictures/report_FRA_Lebrun_at_Desk.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Leon_Blum_Resignation"
+        texturefile = "gfx/event_pictures/report_FRA_Leon_Blum_Resignation.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Ligue_Elysee"
+        texturefile = "gfx/event_pictures/report_FRA_Ligue_Elysee.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Matigon_Accords"
+        texturefile = "gfx/event_pictures/report_FRA_Matigon_Accords.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_National_Assembly"
+        texturefile = "gfx/event_pictures/report_FRA_National_Assembly.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Senate"
+        texturefile = "gfx/event_pictures/report_FRA_Senate.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Strikes_1936"
+        texturefile = "gfx/event_pictures/report_FRA_Strikes_1936.png"
+    }
+
+    spriteType = {
+        name = "GFX_report_FRA_Tardieu"
+        texturefile = "gfx/event_pictures/report_FRA_Tardieu.png"
+    }
+
+    spriteType = {
         name = "GFX_report_GER_1933_Elections"
         texturefile = "gfx/event_pictures/report_GER_1933_Elections.png"
     }

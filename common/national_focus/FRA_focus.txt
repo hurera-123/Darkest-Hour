@@ -216,7 +216,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = { 
-			country_event = {
+			news_event = {
 				id = FRA_Events.41
 				days = 1
 			}
@@ -298,8 +298,8 @@ focus_tree = {
 		completion_reward = { 
 			add_stability = 0.05
 			hidden_effect = {
-				country_event = {
-					id = FRA_National_Lottery.1
+				news_event = {
+					id = FRA_National_Lottery.2
 					days = 90
 				}
 			}
@@ -3995,7 +3995,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			news_event = { id = FRA_Wartime_Tree.1 }
+			country_event = { id = FRA_Wartime_Tree.1 }
 		}
 		search_filters = { FOCUS_FILTER_HISTORICAL }
 	}
