@@ -44,32 +44,32 @@ NEP_INF_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { NEP_MOT_01 NEP_MEC_01 NEP_MTN_01 }
 
-	fallback_name = "%d Paidala Sēnā Brigēḍa"
+	fallback_name = "%d Paidala Sēnā Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Paidala Sēnā Brigēḍa" }
-		2 = { "%d Paidala Sēnā Brigēḍa" }
-		3 = { "%d Paidala Sēnā Brigēḍa" }
-		4 = { "%d Paidala Sēnā Brigēḍa" }
-		5 = { "%d Paidala Sēnā Brigēḍa" }
-		6 = { "%d Paidala Sēnā Brigēḍa" }
-		7 = { "%d Paidala Sēnā Brigēḍa" }
-		8 = { "%d Paidala Sēnā Brigēḍa" }
-		9 = { "%d Paidala Sēnā Brigēḍa" }
-		10 = { "%d Paidala Sēnā Brigēḍa" }
-		11 = { "%d Paidala Sēnā Brigēḍa" }
-		12 = { "%d Paidala Sēnā Brigēḍa" }
-		13 = { "%d Paidala Sēnā Brigēḍa" }
-		14 = { "%d Paidala Sēnā Brigēḍa" }
-		15 = { "%d Paidala Sēnā Brigēḍa" }
-		16 = { "%d Paidala Sēnā Brigēḍa" }
-		17 = { "%d Paidala Sēnā Brigēḍa" }
-		18 = { "%d Paidala Sēnā Brigēḍa" }
-		19 = { "%d Paidala Sēnā Brigēḍa" }
-		20 = { "%d Paidala Sēnā Brigēḍa" }
+		1 = { "%d Paidala Sēnā Brigēda" }
+		2 = { "%d Paidala Sēnā Brigēda" }
+		3 = { "%d Paidala Sēnā Brigēda" }
+		4 = { "%d Paidala Sēnā Brigēda" }
+		5 = { "%d Paidala Sēnā Brigēda" }
+		6 = { "%d Paidala Sēnā Brigēda" }
+		7 = { "%d Paidala Sēnā Brigēda" }
+		8 = { "%d Paidala Sēnā Brigēda" }
+		9 = { "%d Paidala Sēnā Brigēda" }
+		10 = { "%d Paidala Sēnā Brigēda" }
+		11 = { "%d Paidala Sēnā Brigēda" }
+		12 = { "%d Paidala Sēnā Brigēda" }
+		13 = { "%d Paidala Sēnā Brigēda" }
+		14 = { "%d Paidala Sēnā Brigēda" }
+		15 = { "%d Paidala Sēnā Brigēda" }
+		16 = { "%d Paidala Sēnā Brigēda" }
+		17 = { "%d Paidala Sēnā Brigēda" }
+		18 = { "%d Paidala Sēnā Brigēda" }
+		19 = { "%d Paidala Sēnā Brigēda" }
+		20 = { "%d Paidala Sēnā Brigēda" }
 	}
 }
 
@@ -86,32 +86,32 @@ NEP_CAV_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { NEP_INF_01 }
 
-	fallback_name = "%d Ghōḍacaḍhī Brigēḍa"
+	fallback_name = "%d Ghōdacadhī Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		2 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		3 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		4 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		5 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		6 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		7 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		8 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		9 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		10 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		11 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		12 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		13 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		14 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		15 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		16 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		17 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		18 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		19 = { "%d Ghōḍacaḍhī Brigēḍa" }
-		20 = { "%d Ghōḍacaḍhī Brigēḍa" }
+		1 = { "%d Ghōdacadhī Brigēda" }
+		2 = { "%d Ghōdacadhī Brigēda" }
+		3 = { "%d Ghōdacadhī Brigēda" }
+		4 = { "%d Ghōdacadhī Brigēda" }
+		5 = { "%d Ghōdacadhī Brigēda" }
+		6 = { "%d Ghōdacadhī Brigēda" }
+		7 = { "%d Ghōdacadhī Brigēda" }
+		8 = { "%d Ghōdacadhī Brigēda" }
+		9 = { "%d Ghōdacadhī Brigēda" }
+		10 = { "%d Ghōdacadhī Brigēda" }
+		11 = { "%d Ghōdacadhī Brigēda" }
+		12 = { "%d Ghōdacadhī Brigēda" }
+		13 = { "%d Ghōdacadhī Brigēda" }
+		14 = { "%d Ghōdacadhī Brigēda" }
+		15 = { "%d Ghōdacadhī Brigēda" }
+		16 = { "%d Ghōdacadhī Brigēda" }
+		17 = { "%d Ghōdacadhī Brigēda" }
+		18 = { "%d Ghōdacadhī Brigēda" }
+		19 = { "%d Ghōdacadhī Brigēda" }
+		20 = { "%d Ghōdacadhī Brigēda" }
 	}
 }
 
@@ -128,32 +128,32 @@ NEP_MOT_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { NEP_INF_01 NEP_MEC_01 NEP_MTN_01 }
 
-	fallback_name = "%d Mōṭara Cālita Brigēḍa"
+	fallback_name = "%d Mōṭara Cālita Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Mōṭara Cālita Brigēḍa" }
-		2 = { "%d Mōṭara Cālita Brigēḍa" }
-		3 = { "%d Mōṭara Cālita Brigēḍa" }
-		4 = { "%d Mōṭara Cālita Brigēḍa" }
-		5 = { "%d Mōṭara Cālita Brigēḍa" }
-		6 = { "%d Mōṭara Cālita Brigēḍa" }
-		7 = { "%d Mōṭara Cālita Brigēḍa" }
-		8 = { "%d Mōṭara Cālita Brigēḍa" }
-		9 = { "%d Mōṭara Cālita Brigēḍa" }
-		10 = { "%d Mōṭara Cālita Brigēḍa" }
-		11 = { "%d Mōṭara Cālita Brigēḍa" }
-		12 = { "%d Mōṭara Cālita Brigēḍa" }
-		13 = { "%d Mōṭara Cālita Brigēḍa" }
-		14 = { "%d Mōṭara Cālita Brigēḍa" }
-		15 = { "%d Mōṭara Cālita Brigēḍa" }
-		16 = { "%d Mōṭara Cālita Brigēḍa" }
-		17 = { "%d Mōṭara Cālita Brigēḍa" }
-		18 = { "%d Mōṭara Cālita Brigēḍa" }
-		19 = { "%d Mōṭara Cālita Brigēḍa" }
-		20 = { "%d Mōṭara Cālita Brigēḍa" }
+		1 = { "%d Mōṭara Cālita Brigēda" }
+		2 = { "%d Mōṭara Cālita Brigēda" }
+		3 = { "%d Mōṭara Cālita Brigēda" }
+		4 = { "%d Mōṭara Cālita Brigēda" }
+		5 = { "%d Mōṭara Cālita Brigēda" }
+		6 = { "%d Mōṭara Cālita Brigēda" }
+		7 = { "%d Mōṭara Cālita Brigēda" }
+		8 = { "%d Mōṭara Cālita Brigēda" }
+		9 = { "%d Mōṭara Cālita Brigēda" }
+		10 = { "%d Mōṭara Cālita Brigēda" }
+		11 = { "%d Mōṭara Cālita Brigēda" }
+		12 = { "%d Mōṭara Cālita Brigēda" }
+		13 = { "%d Mōṭara Cālita Brigēda" }
+		14 = { "%d Mōṭara Cālita Brigēda" }
+		15 = { "%d Mōṭara Cālita Brigēda" }
+		16 = { "%d Mōṭara Cālita Brigēda" }
+		17 = { "%d Mōṭara Cālita Brigēda" }
+		18 = { "%d Mōṭara Cālita Brigēda" }
+		19 = { "%d Mōṭara Cālita Brigēda" }
+		20 = { "%d Mōṭara Cālita Brigēda" }
 	}
 }
 
@@ -170,32 +170,32 @@ NEP_ARM_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { NEP_INF_01 }
 
-	fallback_name = "%d Bakhtarabanda Brigēḍa"
+	fallback_name = "%d Bakhtarabanda Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Bakhtarabanda brigēḍa" }
-		2 = { "%d Bakhtarabanda brigēḍa" }
-		3 = { "%d Bakhtarabanda brigēḍa" }
-		4 = { "%d Bakhtarabanda Brigēḍa" }
-		5 = { "%d Bakhtarabanda Brigēḍa" }
-		6 = { "%d Bakhtarabanda Brigēḍa" }
-		7 = { "%d Bakhtarabanda Brigēḍa" }
-		8 = { "%d Bakhtarabanda Brigēḍa" }
-		9 = { "%d Bakhtarabanda Brigēḍa" }
-		10 = { "%d Bakhtarabanda Brigēḍa" }
-		11 = { "%d Bakhtarabanda Brigēḍa" }
-		12 = { "%d Bakhtarabanda Brigēḍa" }
-		13 = { "%d Bakhtarabanda Brigēḍa" }
-		14 = { "%d Bakhtarabanda Brigēḍa" }
-		15 = { "%d Bakhtarabanda Brigēḍa" }
-		16 = { "%d Bakhtarabanda Brigēḍa" }
-		17 = { "%d Bakhtarabanda Brigēḍa" }
-		18 = { "%d Bakhtarabanda Brigēḍa" }
-		19 = { "%d Bakhtarabanda Brigēḍa" }
-		20 = { "%d Bakhtarabanda Brigēḍa" }
+		1 = { "%d Bakhtarabanda brigēda" }
+		2 = { "%d Bakhtarabanda brigēda" }
+		3 = { "%d Bakhtarabanda brigēda" }
+		4 = { "%d Bakhtarabanda Brigēda" }
+		5 = { "%d Bakhtarabanda Brigēda" }
+		6 = { "%d Bakhtarabanda Brigēda" }
+		7 = { "%d Bakhtarabanda Brigēda" }
+		8 = { "%d Bakhtarabanda Brigēda" }
+		9 = { "%d Bakhtarabanda Brigēda" }
+		10 = { "%d Bakhtarabanda Brigēda" }
+		11 = { "%d Bakhtarabanda Brigēda" }
+		12 = { "%d Bakhtarabanda Brigēda" }
+		13 = { "%d Bakhtarabanda Brigēda" }
+		14 = { "%d Bakhtarabanda Brigēda" }
+		15 = { "%d Bakhtarabanda Brigēda" }
+		16 = { "%d Bakhtarabanda Brigēda" }
+		17 = { "%d Bakhtarabanda Brigēda" }
+		18 = { "%d Bakhtarabanda Brigēda" }
+		19 = { "%d Bakhtarabanda Brigēda" }
+		20 = { "%d Bakhtarabanda Brigēda" }
 	}
 }
 
@@ -212,32 +212,32 @@ NEP_MEC_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { NEP_INF_01 NEP_MOT_01 NEP_MTN_01 }
 
-	fallback_name = "%d Mēkānāijḍa Inphanṭrī Brigēḍa"
+	fallback_name = "%d Mēkānāijda Inphanṭrī Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		2 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		3 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		4 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		5 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		6 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		7 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		8 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		9 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		10 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		11 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		12 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		13 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		14 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		15 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		16 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		17 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		18 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		19 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
-		20 = { "%d Mēkānāijḍa Inphanṭrī Brigēḍa" }
+		1 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		2 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		3 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		4 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		5 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		6 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		7 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		8 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		9 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		10 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		11 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		12 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		13 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		14 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		15 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		16 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		17 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		18 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		19 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		20 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
 	}
 }
 
@@ -254,22 +254,22 @@ NEP_MAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { NEP_INF_01 }
 
-	fallback_name = "%d Nausēnā Inphanṭrī Brigēḍa"
+	fallback_name = "%d Nausēnā Inphanṭrī Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Nausēnā Inphanṭrī Brigēḍa" }
-		2 = { "%d Nausēnā Inphanṭrī Brigēḍa" }
-		3 = { "%d Nausēnā Inphanṭrī Brigēḍa" }
-		4 = { "%d Nausēnā Inphanṭrī Brigēḍa" }
-		5 = { "%d Nausēnā Inphanṭrī Brigēḍa" }
-		6 = { "%d Nausēnā Inphanṭrī Brigēḍa" }
-		7 = { "%d Nausēnā Inphanṭrī Brigēḍa" }
-		8 = { "%d Nausēnā Inphanṭrī Brigēḍa" }
-		9 = { "%d Nausēnā Inphanṭrī Brigēḍa" }
-		10 = { "%d Nausēnā Inphanṭrī Brigēḍa" }
+		1 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		2 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		3 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		4 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		5 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		6 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		7 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		8 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		9 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		10 = { "%d Nausēnā Inphanṭrī Brigēda" }
 
 	}
 }
@@ -287,22 +287,22 @@ NEP_MTN_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { NEP_INF_01 NEP_MOT_01 NEP_MEC_01 }
 
-	fallback_name = "%d Gōrkhā Brigēḍa"
+	fallback_name = "%d Gōrkhā Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Gōrkhā Brigēḍa" }
-		2 = { "%d Gōrkhā Brigēḍa" }
-		3 = { "%d Gōrkhā Brigēḍa" }
-		4 = { "%d Gōrkhā Brigēḍa" }
-		5 = { "%d Gōrkhā Brigēḍa" }
-		6 = { "%d Gōrkhā Brigēḍa" }
-		7 = { "%d Gōrkhā Brigēḍa" }
-		8 = { "%d Gōrkhā Brigēḍa" }
-		9 = { "%d Gōrkhā Brigēḍa" }
-		10 = { "%d Gōrkhā Brigēḍa" }
+		1 = { "%d Gōrkhā Brigēda" }
+		2 = { "%d Gōrkhā Brigēda" }
+		3 = { "%d Gōrkhā Brigēda" }
+		4 = { "%d Gōrkhā Brigēda" }
+		5 = { "%d Gōrkhā Brigēda" }
+		6 = { "%d Gōrkhā Brigēda" }
+		7 = { "%d Gōrkhā Brigēda" }
+		8 = { "%d Gōrkhā Brigēda" }
+		9 = { "%d Gōrkhā Brigēda" }
+		10 = { "%d Gōrkhā Brigēda" }
 	}
 }
 
@@ -319,21 +319,21 @@ NEP_PAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { NEP_INF_01 }
 
-	fallback_name = "%d Pyārāṭrūpara Brigēḍa"
+	fallback_name = "%d Pyārāṭrūpara Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Pyārāṭrūpara Brigēḍa" }
-		2 = { "%d Pyārāṭrūpara Brigēḍa" }
-		3 = { "%d Pyārāṭrūpara Brigēḍa" }
-		4 = { "%d Pyārāṭrūpara Brigēḍa" }
-		5 = { "%d Pyārāṭrūpara Brigēḍa" }
-		6 = { "%d Pyārāṭrūpara Brigēḍa" }
-		7 = { "%d Pyārāṭrūpara Brigēḍa" }
-		8 = { "%d Pyārāṭrūpara Brigēḍa" }
-		9 = { "%d Pyārāṭrūpara Brigēḍa" }
-		10 = { "%d Pyārāṭrūpara Brigēḍa" }
+		1 = { "%d Pyārāṭrūpara Brigēda" }
+		2 = { "%d Pyārāṭrūpara Brigēda" }
+		3 = { "%d Pyārāṭrūpara Brigēda" }
+		4 = { "%d Pyārāṭrūpara Brigēda" }
+		5 = { "%d Pyārāṭrūpara Brigēda" }
+		6 = { "%d Pyārāṭrūpara Brigēda" }
+		7 = { "%d Pyārāṭrūpara Brigēda" }
+		8 = { "%d Pyārāṭrūpara Brigēda" }
+		9 = { "%d Pyārāṭrūpara Brigēda" }
+		10 = { "%d Pyārāṭrūpara Brigēda" }
 	}
 }

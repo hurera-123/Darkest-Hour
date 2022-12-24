@@ -169,32 +169,32 @@ SIA_MAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SIA_GAR_01 }
 
-	fallback_name = "Kxngphl Nāwikyoṭhin Thī %d"
+	fallback_name = "Kxngphl Nāwikyothin Thī %d"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		2 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		3 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		4 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		5 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		6 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		7 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		8 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		9 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		10 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		11 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		12 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		13 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		14 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		15 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		16 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		17 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		18 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		19 = { "Kxngphl Nāwikyoṭhin Thī %d" }
-		20 = { "Kxngphl Nāwikyoṭhin Thī %d" }
+		1 = { "Kxngphl Nāwikyothin Thī %d" }
+		2 = { "Kxngphl Nāwikyothin Thī %d" }
+		3 = { "Kxngphl Nāwikyothin Thī %d" }
+		4 = { "Kxngphl Nāwikyothin Thī %d" }
+		5 = { "Kxngphl Nāwikyothin Thī %d" }
+		6 = { "Kxngphl Nāwikyothin Thī %d" }
+		7 = { "Kxngphl Nāwikyothin Thī %d" }
+		8 = { "Kxngphl Nāwikyothin Thī %d" }
+		9 = { "Kxngphl Nāwikyothin Thī %d" }
+		10 = { "Kxngphl Nāwikyothin Thī %d" }
+		11 = { "Kxngphl Nāwikyothin Thī %d" }
+		12 = { "Kxngphl Nāwikyothin Thī %d" }
+		13 = { "Kxngphl Nāwikyothin Thī %d" }
+		14 = { "Kxngphl Nāwikyothin Thī %d" }
+		15 = { "Kxngphl Nāwikyothin Thī %d" }
+		16 = { "Kxngphl Nāwikyothin Thī %d" }
+		17 = { "Kxngphl Nāwikyothin Thī %d" }
+		18 = { "Kxngphl Nāwikyothin Thī %d" }
+		19 = { "Kxngphl Nāwikyothin Thī %d" }
+		20 = { "Kxngphl Nāwikyothin Thī %d" }
 	}
 }
 
@@ -210,31 +210,31 @@ SIA_PAR_01 =
 
 	# Number reservation system will tie to another group.
 
-	fallback_name = "Kxngphl Rb Phiṣes Thī %d"
+	fallback_name = "Kxngphl Rb Phises Thī %d"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "Kxngphl Rb Phiṣes Thī %d" }
-		2 = { "Kxngphl Rb Phiṣes Thī %d" }
-		3 = { "Kxngphl Rb Phiṣes Thī %d" }
-		4 = { "Kxngphl Rb Phiṣes Thī %d" }
-		5 = { "Kxngphl Rb Phiṣes Thī %d" }
-		6 = { "Kxngphl Rb Phiṣes Thī %d" }
-		7 = { "Kxngphl Rb Phiṣes Thī %d" }
-		8 = { "Kxngphl Rb Phiṣes Thī %d" }
-		9 = { "Kxngphl Rb Phiṣes Thī %d" }
-		10 = { "Kxngphl Rb Phiṣes Thī %d" }
-		11 = { "Kxngphl Rb Phiṣes Thī %d" }
-		12 = { "Kxngphl Rb Phiṣes Thī %d" }
-		13 = { "Kxngphl Rb Phiṣes Thī %d" }
-		14 = { "Kxngphl Rb Phiṣes Thī %d" }
-		15 = { "Kxngphl Rb Phiṣes Thī %d" }
-		16 = { "Kxngphl Rb Phiṣes Thī %d" }
-		17 = { "Kxngphl Rb Phiṣes Thī %d" }
-		18 = { "Kxngphl Rb Phiṣes Thī %d" }
-		19 = { "Kxngphl Rb Phiṣes Thī %d" }
-		20 = { "Kxngphl Rb Phiṣes Thī %d" }
+		1 = { "Kxngphl Rb Phises Thī %d" }
+		2 = { "Kxngphl Rb Phises Thī %d" }
+		3 = { "Kxngphl Rb Phises Thī %d" }
+		4 = { "Kxngphl Rb Phises Thī %d" }
+		5 = { "Kxngphl Rb Phises Thī %d" }
+		6 = { "Kxngphl Rb Phises Thī %d" }
+		7 = { "Kxngphl Rb Phises Thī %d" }
+		8 = { "Kxngphl Rb Phises Thī %d" }
+		9 = { "Kxngphl Rb Phises Thī %d" }
+		10 = { "Kxngphl Rb Phises Thī %d" }
+		11 = { "Kxngphl Rb Phises Thī %d" }
+		12 = { "Kxngphl Rb Phises Thī %d" }
+		13 = { "Kxngphl Rb Phises Thī %d" }
+		14 = { "Kxngphl Rb Phises Thī %d" }
+		15 = { "Kxngphl Rb Phises Thī %d" }
+		16 = { "Kxngphl Rb Phises Thī %d" }
+		17 = { "Kxngphl Rb Phises Thī %d" }
+		18 = { "Kxngphl Rb Phises Thī %d" }
+		19 = { "Kxngphl Rb Phises Thī %d" }
+		20 = { "Kxngphl Rb Phises Thī %d" }
 	}
 }

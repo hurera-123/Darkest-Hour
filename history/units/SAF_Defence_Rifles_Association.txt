@@ -19,7 +19,7 @@ units = {
 	##### South African Army #####
 	division = {
 		name = "Cape Militia Commando"
-		location = 1289 # Capetown
+		location = 12589 # Capetown
 		division_template = "Defence Rifles Commando"
 		start_experience_factor = 0.14
 		start_equipment_factor = 0.8
