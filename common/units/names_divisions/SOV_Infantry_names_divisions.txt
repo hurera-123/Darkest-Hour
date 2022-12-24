@@ -58679,7 +58679,7 @@ SOV_MARB_01 =
 
 	can_use = { 
 		has_start_date < 1940.12.31
-		NOT = { has_completed_focus = SOV_Morskaya_Pekhota }
+		NOT = { has_completed_focus = SOV_Gvardiya_Morskoy_Pekhoty }
 	} 
 
 	division_types = { "marine" }
@@ -58722,7 +58722,7 @@ SOV_MARB_41 =
 		has_start_date < 1941.12.31
 		OR = {
 			has_start_date > 1940.12.31
-			has_completed_focus = SOV_Morskaya_Pekhota
+			has_completed_focus = SOV_Gvardiya_Morskoy_Pekhoty
 		}	
 	} 
 
@@ -59098,7 +59098,7 @@ SOV_MAR_01 =
 
 	can_use = {
 		has_start_date < 1944.12.31
-		has_completed_focus = SOV_Morskaya_Pekhota
+		has_completed_focus = SOV_Gvardiya_Morskoy_Pekhoty
 		has_tech = marines3
 	}
 # The tech requirement will make sure this list becomes available only later in the war if at all and makes sure there is only one available namelist to change to when you take the focus.
