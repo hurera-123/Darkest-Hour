@@ -1512,7 +1512,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 68
 		}
-		location = 5755 # Dunkirk
+		location = 575 # Dunkirk
 		division_template = "Division d'Infanterie"
 		start_experience_factor = 0.12
 		start_equipment_factor = 0.55
