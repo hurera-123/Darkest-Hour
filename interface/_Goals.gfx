@@ -4590,6 +4590,16 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_SOV_Expand_Air_Testing"
+        texturefile = "gfx/interface/goals/SOV_Expand_Air_Testing.png"
+    }
+
+    spriteType = {
+        name = "GFX_SOV_Expand_The_Aviation_Industry"
+        texturefile = "gfx/interface/goals/SOV_Expand_The_Aviation_Industry.png"
+    }
+
+    spriteType = {
         name = "GFX_SOV_Expand_the_Cult_of_Personality"
         texturefile = "gfx/interface/goals/SOV_Expand_the_Cult_of_Personality.png"
     }
@@ -4865,6 +4875,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_SOV_Positive_Heroism_In_Aviation"
+        texturefile = "gfx/interface/goals/SOV_Positive_Heroism_In_Aviation.png"
+    }
+
+    spriteType = {
         name = "GFX_SOV_Premier_Bukharin"
         texturefile = "gfx/interface/goals/SOV_Premier_Bukharin.png"
     }
@@ -5122,6 +5137,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_SOV_Tankograd"
         texturefile = "gfx/interface/goals/SOV_Tankograd.png"
+    }
+
+    spriteType = {
+        name = "GFX_SOV_The_Aerial_Army"
+        texturefile = "gfx/interface/goals/SOV_The_Aerial_Army.png"
     }
 
     spriteType = {

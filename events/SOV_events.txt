@@ -311,6 +311,7 @@ country_event = {
 	# We must fend off all threats of the revolution!
 	option = {
 		name = SOV_Great_Purge.1.A
+		remove_ideas = SOV_Aftermath_of_the_Ryutin_Affair
 	}
 }
 
@@ -387,6 +388,9 @@ country_event = {
 	option = {
 		name = SOV_Great_Purge.12.A
 		set_country_flag = SOV_Navigating_the_Storm_flag
+		hidden_effect = {
+			complete_national_focus = SOV_Navigating_the_Storm
+		}
 	}
 }
 
@@ -434,6 +438,9 @@ country_event = {
 	option = {
 		name = SOV_Great_Purge.17.A
 		set_country_flag = SOV_XVIII_Congress_done
+		hidden_effect = {
+			complete_national_focus = SOV_XVIII_Congress
+		}
 	}
 }
 
@@ -539,6 +546,11 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = SOV_Great_Purge.24.A
+		custom_effect_tooltip = SOV_The_Vanishment_of_the_The_Vanishing_Commissar_tt
+		hidden_effect = {
+			retire_character = SOV_Nikolai_I_Yezhov
+			retire_character = SOV_Mikhail_Frinovsky
+		}
 		add_ideas = SOV_Lavrentiy_Beria_MoS
 		set_country_flag = Merkulov_deputy_of_NKVD
 	}
@@ -1103,24 +1115,6 @@ country_event = {
 	}
 }
 
-#########################################################################
-# Repurpose Old Naval Guns
-#########################################################################
-country_event = {
-	id = SOV_Repurpose_Naval_Guns.1
-	title = SOV_Repurpose_Naval_Guns.1.t
-	desc = SOV_Repurpose_Naval_Guns.1.d
-	picture = GFX_report_SOV_Naval_Battery
-	is_triggered_only = yes
-	option = {
-		name = SOV_Repurpose_Naval_Guns.1.A
-		add_timed_idea = { idea = SOV_repurpose_guns days = 150 }
-	}
-	option = {
-		name = SOV_Repurpose_Naval_Guns.1.B
-		add_timed_idea = { idea = SOV_repurpose_hulls days = 150 }
-	}
-}
 #########################################################################
 # Transpolar Flight Success
 #########################################################################
@@ -1870,7 +1864,7 @@ country_event = {
 		name = SOV_Second_Year_Plan.4.A
 		add_political_power = -100
 		add_ideas = SOV_Women_in_the_Workforce
-		country_event = { id = SOV_Second_Year_Plan.5 days = 15 }
+		#country_event = { id = SOV_Second_Year_Plan.5 days = 15 }
 	}
 }
 # Empowerment of Women in Soviet Union
@@ -1895,9 +1889,20 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = SOV_Second_Year_Plan.6.A
-		add_timed_idea = {
-			idea = SOV_Soviet_Famine_idea
-			days = 365
+		if = {
+			limit = {
+				has_idea = SOV_The_Great_Soviet_Famine
+			}
+		}
+		modify_timed_idea = {
+			idea = SOV_The_Great_Soviet_Famine
+			days = 120
+		}
+		else = {
+			add_timed_idea = {
+				idea = SOV_The_Great_Soviet_Famine
+				days = 120
+			}
 		}
 	}
 }
@@ -1915,18 +1920,40 @@ country_event = {
 			limit = {
 				has_country_flag = SOV_Mild_Export_of_Grain
 			}
-			add_timed_idea = {
-				idea = SOV_Soviet_Small_Famine_idea
-				days = 365
+			if = {
+				limit = {
+					has_idea = SOV_The_Great_Soviet_Famine
+				}
+			}
+			modify_timed_idea = {
+				idea = SOV_The_Great_Soviet_Famine
+				days = 60
+			}
+			else = {
+				add_timed_idea = {
+					idea = SOV_The_Great_Soviet_Famine
+					days = 60
+				}
 			}
 		}
 		else_if = {
 			limit = {
 				has_country_flag = SOV_Full_Export_of_Grain
 			}
-			add_timed_idea = {
-				idea = SOV_Soviet_Big_Famine_idea
-				days = 365
+			if = {
+				limit = {
+					has_idea = SOV_The_Great_Soviet_Famine
+				}
+			}
+			modify_timed_idea = {
+				idea = SOV_The_Great_Soviet_Famine
+				days = 120
+			}
+			else = {
+				add_timed_idea = {
+					idea = SOV_The_Great_Soviet_Famine
+					days = 120
+				}
 			}
 		}
 	}
@@ -2808,7 +2835,7 @@ country_event = {
 			else = {
 				create_country_leader = {
 					name = "Ivan Chernyakovsky"
-					picture = GFX_M_Ivan_Chernyakhovsky
+					picture = GFX_M_SOV_Ivan_Chernyakovsky
 					expire = "1947.1.1"
 					ideology = stalinism
 					traits = {
@@ -2866,7 +2893,7 @@ country_event = {
 			else = {
 				create_country_leader = {
 					name = "Ivan Chernyakovsky"
-					picture = GFX_M_Ivan_Chernyakhovsky
+					picture = GFX_M_SOV_Ivan_Chernyakovsky
 					expire = "1947.1.1"
 					ideology = stalinism
 					traits = {

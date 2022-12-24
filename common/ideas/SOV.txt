@@ -542,63 +542,6 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.05
 			}
 		}
-		SOV_Soviet_Famine_idea = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = SOV_Soviet_Famine
-
-			modifier = {
-				stability_factor = -0.2
-				MONTHLY_POPULATION = -0.2
-				communist_drift = -0.05
-			}
-		}
-		SOV_Soviet_Big_Famine_idea = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = SOV_Soviet_Famine
-
-			modifier = {
-				stability_factor = -0.2
-				MONTHLY_POPULATION = -0.2
-				communist_drift = -0.05
-			}
-		}
-		SOV_Soviet_Small_Famine_idea = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = SOV_Soviet_Famine
-
-			modifier = {
-				stability_factor = -0.1
-				MONTHLY_POPULATION = -0.1
-				communist_drift = -0.03
-			}
-		}
 		SOV_Transformation_of_Nature_idea = {
 			allowed = {
 				always = no
@@ -2063,7 +2006,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_
+			picture = SOV_Human_Wave
 
 			modifier = {
 				army_infantry_attack_factor = 0.15
@@ -2574,7 +2517,7 @@ ideas = {
 			}
 		}
 		SOV_Heroes_of_the_Air = {
-			picture = SOV_The_Great_Disgrace
+			picture = SOV_Heroes_of_the_Air
 			allowed = {
 				always = no
 			}

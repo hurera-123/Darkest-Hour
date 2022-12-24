@@ -1006,7 +1006,7 @@
  SOV_Get_Rid_of_Opposition: "Get Rid of Opposition"
  SOV_Get_Rid_of_Opposition_desc: "This, Opposition, is causing more problems than the economy, at long last we shall rid the earth from their scourge and bring forth true Communism and finally make our country one not of sadness and famine but a country revered the world over. At long last, We can finally rid the earth of their stain and finally go to the future."
 
- SOV_Supress_Socially_Alien_Elements: "Supress Socially Alien Elements"
+ SOV_Supress_Socially_Alien_Elements: "Suppress Socially Alien Elements"
  SOV_Supress_Socially_Alien_Elements_desc: "Those who had the biggest role and impact in subverting the socialist cause will face justice for their crimes, no doubt. But those who stand tall in history are supported by thousands of nameless faces. Insignificant as they might be individually, every single one of them has the potential to endanger everything we have built. Aristocrats, imperial militarists, bureaucrats, clergymen, all these Tzarist ‘former people’, already at the fringes of our society due to their role in the former regime, still move in the shadows of our cities and the forests of our nation, bidding their time until they can have their revenge on those they once took advantage of. Obvious is their inclination to collaborate with the traitors from our own ranks, and so is their potential to damage the achievements of the USSR.\n\nAnts have to be crushed, lest they slowly fester the Union. Many of them can be found in Leningrad, once the centre of the Russian monarchy. They shall make a fine example of what happens when you play with fire."
 
  SOV_Rule_By_Force: "Rule by Force"
@@ -1084,6 +1084,64 @@
 
  SOV_Red_Fleet: "Krasnyy Flot"
  SOV_Red_Fleet_desc: "The Red Menace, as our enemies call us, can attack from the land or the air. The only place our enemies have yet to fear us is the Sea. High Command has approved a considerable budget towards the expansion of our weak fleet. We have decided to spend this budget on developing each part of our navy at a time. However, we should also allocate funds to researching newer, better ships. We should also attempt to imitate the submarines that the Germans have developed. Soon, no imperialist sailor will be safe from our ships. We will liberate the oppressed workers, starting from the sea."
+
+ SOV_Evaluate_the_Baltic_Fleet: "Evaluate the Baltic Fleet"
+ SOV_Evaluate_the_Baltic_Fleet_desc: ""
+ SOV_Evaluating_Fleet: "§LAlready evaluating another fleet§!"
+
+ SOV_A_Second_Home: "A Second Home"
+ SOV_A_Second_Home_desc: ""
+
+ SOV_Our_Northern_Brothers: "Our Northern Brothers"
+ SOV_Our_Northern_Brothers_desc: ""
+
+ SOV_Morskaya_Aviatsiya: "Morskaya Aviatsiya"
+ SOV_Morskaya_Aviatsiya_desc: ""
+
+ SOV_Gnevnyi_Class_Destroyers: "Gnevnyi Class Destroyers"
+ SOV_Gnevnyi_Class_Destroyers_desc: ""
+
+ SOV_Upgrade_Leningrads_Defenses: "Upgrade Leningrads Defenses"
+ SOV_Upgrade_Leningrads_Defenses_desc: ""
+
+ SOV_The_Baltic_Fleet_is_Ready: "The Baltic Fleet is Ready"
+ SOV_The_Baltic_Fleet_is_Ready_desc: ""
+
+ SOV_Evaluate_the_Black_Fleet: "Evaluate the Black Fleet"
+ SOV_Evaluate_the_Black_Fleet_desc: ""
+
+ SOV_Reinforce_Sevastopol_Naval_Bases: "Reinforce Sevastopol Naval Bases"
+ SOV_Reinforce_Sevastopol_Naval_Bases_desc: ""
+
+ SOV_Radar: "Radar Detection"
+ SOV_Radar_desc: ""
+
+ SOV_Reevaluate_Submarine_Doctrine: "Reevaluate Submarine Doctrine"
+ SOV_Reevaluate_Submarine_Doctrine_desc: ""
+
+ SOV_The_Black_Sea_Fleet_is_Ready: "The Black Sea Fleet is Ready"
+ SOV_The_Black_Sea_Fleet_is_Ready_desc: ""
+
+ SOV_Evaluate_the_Pacific_Fleet: "Evaluate the Pacific Fleet"
+ SOV_Evaluate_the_Pacific_Fleet_desc: ""
+
+ SOV_Upgrade_Vladivostok_Facilities: "Upgrade Vladivostok Naval Facilities"
+ SOV_Upgrade_Vladivostok_Facilities_desc: ""
+
+ SOV_Evaluate_Landing_Craft: "Evaluate Landing Craft"
+ SOV_Evaluate_Landing_Craft_desc: ""
+
+ SOV_Gvardiya_Morskoy_Pekhoty: "Gvardiya Morskoy Pekhoty"
+ SOV_Gvardiya_Morskoy_Pekhoty_desc: ""
+
+ SOV_Oryol_Class_Carriers: "Oryol Class Carriers"
+ SOV_Oryol_Class_Carriers_desc: ""
+
+ SOV_Long_Range_Raiders: "Long Range Raiders"
+ SOV_Long_Range_Raiders_desc: ""
+
+ SOV_The_Far_Eastern_Fleet_is_Ready: "The Far Eastern Fleet is Ready"
+ SOV_The_Far_Eastern_Fleet_is_Ready_desc: ""
 
  SOV_Kirov_Cruisers: "“Kirov” Cruisers"
  SOV_Kirov_Cruisers_desc: ""
@@ -1623,6 +1681,8 @@
  SOV_Commit_to_Stability_of_the_Regime: "Commit to Stability of the Regime"
 
 
+ SOV_Invade_Poland: "Invade Poland"
+ SOV_Invade_Poland_desc: ""
  SOV_Demand_Bessarabia: "Demand Bessarabia"
  SOV_Demand_Bessarabia_desc: "Now that we have acquired our claims in the North, it is time to face attention to the Balkans once more. Romania holds a once key part of the Russian Empire - the province of Bessarbia, with a significant Russian population. It is time to continue our expansion into Europe."
  SOV_Demand_Karjala: "Demand Finnish Karelia"
@@ -1684,6 +1744,9 @@
  # Battle for Harvest "Year"
  SOV_Battle_for_Harvest_category: "Battle for Harvest [GetYear]"
  SOV_Battle_for_Harvest_category_desc: "\n\n\n£decision_header_SOV_Battle_for_Harvest£\n\n\n\nThe lands of our glorious Union are vast, expansive, and varied, and these lands bear the responsibility of feeding an equally large and diverse populace. While the 'Chernozem' abundant land in Ukraine, & southern Russia allow for highly productive agricultural activities, there are frontier regions, some near the fringes of Siberia, others in Transcaucasia, the Steppes, Central Asia and some even near the Urals, which all significantly contribute to our yearly harvest as well. These climates and circumstances do not favour the peasant, but the State does. To increase our yield and agricultural output, the State will pump in the necessary capital and resources, along with allocating machinery and tools so that in the end, no worker will sleep on a hungry stomach."
+ SOV_Invest_Significant_Resources_1933: "Invest Significant Resources\n\nDue to the issues with the harvest in the previous years, we have done everything possible to prepare for this year's sowing season. While monetary investment will be necessary, we have set aside the necessary surplus equipment to meet our goals. However, for the next year's sowing season we will need to produce more."
+ SOV_Invest_Medium_Resources_1933: "Invest Medium Resources\n\nDue to the issues with the harvest in the previous years, we have done everything possible to prepare for this year's sowing season. While monetary investment will be necessary, we have set aside the necessary surplus equipment to meet our goals. However, for the next year's sowing season we will need to produce more."
+ SOV_Invest_Minor_Resources_1933: "Invest Minor Resources\n\nDue to the issues with the harvest in the previous years, we have done everything possible to prepare for this year's sowing season. While monetary investment will be necessary, we have set aside the necessary surplus equipment to meet our goals. However, for the next year's sowing season we will need to produce more."
  SOV_Invest_Significant_Resources: "Invest Significant Resources"
  SOV_Invest_Medium_Resources: "Invest Medium Resources"
  SOV_Invest_Minor_Resources: "Invest Minor Resources"

@@ -261,6 +261,7 @@ news_event = {
 		add_political_power = -25
 		set_country_flag = SOV_XVII_Congress_complete
 		hidden_effect = {
+			complete_national_focus = SOV_XVII_Congress
 			create_country_leader = {
 				name = "Iosif V. Stalin"
 				desc = "Joseph_Stalin_desc"

@@ -725,6 +725,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_P_A_Archibald_Douglas_Cochrane"
+        texturefile = "gfx/leaders/BRM/P_A_Archibald_Douglas_Cochrane.png"
+    }
+
+    spriteType = {
         name = "GFX_P_C_Thakin_Than_Tun"
         texturefile = "gfx/leaders/BRM/P_C_Thakin_Than_Tun.png"
     }
@@ -2890,13 +2895,13 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_P_D_Pierre_Etienne_Flandin"
-        texturefile = "gfx/leaders/FRA/P_D_Pierre_Etienne_Flandin.png"
+        name = "GFX_P_D_Paul_Reynaud"
+        texturefile = "gfx/leaders/FRA/P_D_Paul_Reynaud.png"
     }
 
     spriteType = {
-        name = "GFX_P_D_Paul_Reynaud"
-        texturefile = "gfx/leaders/FRA/P_D_Paul_Reynaud.png"
+        name = "GFX_P_D_Pierre_Etienne_Flandin"
+        texturefile = "gfx/leaders/FRA/P_D_Pierre_Etienne_Flandin.png"
     }
 
     spriteType = {
@@ -2993,61 +2998,51 @@ spriteTypes = {
         name = "GFX_M_Generic_0"
         texturefile = "gfx/leaders/Generic/M_Generic_0.png"
     }
-    
 
     spriteType = {
         name = "GFX_M_Generic_1"
         texturefile = "gfx/leaders/Generic/M_Generic_1.png"
     }
-    
 
     spriteType = {
         name = "GFX_M_Generic_2"
         texturefile = "gfx/leaders/Generic/M_Generic_2.png"
     }
-    
 
     spriteType = {
         name = "GFX_M_Generic_3"
         texturefile = "gfx/leaders/Generic/M_Generic_3.png"
     }
-    
 
     spriteType = {
         name = "GFX_M_Generic_4"
         texturefile = "gfx/leaders/Generic/M_Generic_4.png"
     }
-    
 
     spriteType = {
         name = "GFX_M_Generic_5"
         texturefile = "gfx/leaders/Generic/M_Generic_5.png"
     }
-    
 
     spriteType = {
         name = "GFX_M_Generic_6"
         texturefile = "gfx/leaders/Generic/M_Generic_6.png"
     }
-    
 
     spriteType = {
         name = "GFX_M_Generic_7"
         texturefile = "gfx/leaders/Generic/M_Generic_7.png"
     }
-    
 
     spriteType = {
         name = "GFX_M_Generic_8"
         texturefile = "gfx/leaders/Generic/M_Generic_8.png"
     }
-    
 
     spriteType = {
         name = "GFX_M_Generic_9"
         texturefile = "gfx/leaders/Generic/M_Generic_9.png"
     }
-   
 
     spriteType = {
         name = "GFX_M_GER_1"
@@ -6400,6 +6395,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_M_SOV_Ivan_Chernyakovsky"
+        texturefile = "gfx/leaders/POL/M_SOV_Ivan_Chernyakovsky.png"
+    }
+
+    spriteType = {
         name = "GFX_M_SOV_Konstantin_Rokossovsky"
         texturefile = "gfx/leaders/POL/M_SOV_Konstantin_Rokossovsky.png"
     }
@@ -8825,6 +8825,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_M_James_Gowen"
+        texturefile = "gfx/leaders/USA/M_James_Gowen.png"
+    }
+
+    spriteType = {
         name = "GFX_M_John_J_Pershing"
         texturefile = "gfx/leaders/USA/M_John_J_Pershing.png"
     }
@@ -8842,11 +8847,6 @@ spriteTypes = {
     spriteType = {
         name = "GFX_M_J_Lawton_Collins"
         texturefile = "gfx/leaders/USA/M_J_Lawton_Collins.png"
-    }
-
-    spriteType = {
-        name = "GFX_M_James_Gowen"
-        texturefile = "gfx/leaders/USA/M_James_Gowen.png"
     }
 
     spriteType = {

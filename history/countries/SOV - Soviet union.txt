@@ -339,7 +339,6 @@ recruit_character = SOV_Andrey_Vlasov
 	set_country_flag = Maksim_M_Litvinov_unavailable
 	add_ideas = {
 		# National Spirits
-		SOV_The_Great_Soviet_Famine
 		SOV_Aftermath_of_the_Ryutin_Affair
 		SOV_Final_Phase_of_the_Decossackization
 		SOV_Deficient_Economy
@@ -364,6 +363,10 @@ recruit_character = SOV_Andrey_Vlasov
 		SOV_Kliment_Y_Voroshilov_CoArmy
 		SOV_Vladimir_M_Orlov_CoNavy
 		SOV_Yakov_I_Alksnis_CoAir
+	}
+	add_timed_idea = {
+		idea = SOV_The_Great_Soviet_Famine
+		days = 400
 	}
 	#######################
 	# Diplomacy

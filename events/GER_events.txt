@@ -11021,31 +11021,6 @@ country_event = {
 			}
 		}
 		add_ai_strategy = {
-			type = invade
-			id = POL
-			value = 100
-		}
-		add_ai_strategy = {
-			type = invade
-			id = EST
-			value = 100
-		}
-		add_ai_strategy = {
-			type = invade
-			id = LAT
-			value = 100
-		}
-		add_ai_strategy = {
-			type = invade
-			id = FIN
-			value = 80
-		}
-		add_ai_strategy = {
-			type = invade
-			id = ROM
-			value = 50
-		}
-		add_ai_strategy = {
 			type = befriend
 			id = GER
 			value = 50
@@ -11072,20 +11047,10 @@ country_event = {
 				value = 50
 			}
 			add_ai_strategy = {
-				type = invade
-				id = POL
-				value = 100
-			}
-			add_ai_strategy = {
 				type = prepare_for_war
 				id = SOV
 				value = 15
 			}
-		}
-		add_ai_strategy = {
-			type = invade
-			id = LIT
-			value = 100
 		}
 	}
 }
