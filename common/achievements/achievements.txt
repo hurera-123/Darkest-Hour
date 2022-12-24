@@ -243,6 +243,7 @@ No_I_Dont_Want_To_Go = {
 	
 	possible = {
 		difficulty > 1
+		NOT = { original_tag = BRA }
 	}
 	
 	happened = {
