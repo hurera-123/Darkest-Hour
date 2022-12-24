@@ -720,7 +720,7 @@ country_event = {
 	option = {
 		name = SOV_Great_Purge.4.B
 		retire_character = SOV_Semyon_Timoshenko
-		retire_character = SOV_Kliment_Y_Voroshilov
+		#retire_character = SOV_Kliment_Y_Voroshilov
 		retire_character = SOV_Ivan_Yumashev
 		retire_character = SOV_Konstantin_K_Rokossovsky
 		custom_effect_tooltip = SOV_Rokossovsky_Purge
@@ -732,6 +732,7 @@ country_event = {
 			max = 100
 		}
 		custom_effect_tooltip = SOV_Stalin_Paranoia_Change_tt
+		set_country_flag = SOV_Rokossovsky_Purged
 	}
 }
 #########################################################################
@@ -2787,17 +2788,36 @@ country_event = {
 			transfer_state = 63
 			transfer_state = 1174
 			set_cosmetic_tag = POL_SOV_1946
-			create_country_leader = {
-				name = "Edward Osóbka-Morawski"
-				picture = GFX_P_C_Edward_Bolesaw_Osobka-Morawski
-				expire = "1947.1.1"
-				ideology = stalinism
-				traits = {
-					POSITION_Prime_Minister
-					SUBIDEOLOGY_Stalinism
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = SOV_Rokossovsky_Purged
+					}
+				}
+				create_country_leader = {
+					name = "Konstantin Rokossovsky"
+					picture = GFX_M_SOV_Konstantin_Rokossovsky
+					expire = "1947.1.1"
+					ideology = stalinism
+					traits = {
+						POSITION_Commander
+						SUBIDEOLOGY_Stalinism
+					}
 				}
 			}
-			add_ideas = POL_Boleslaw_Bierut_HoG
+			else = {
+				create_country_leader = {
+					name = "Ivan Chernyakovsky"
+					picture = GFX_M_Ivan_Chernyakhovsky
+					expire = "1947.1.1"
+					ideology = stalinism
+					traits = {
+						POSITION_Commander
+						SUBIDEOLOGY_Stalinism
+					}
+				}
+			}
+			add_ideas = POL_Edward_OsobkaMorawski_HoG
 		}
 		set_autonomy = {
 			target = POL
@@ -2826,17 +2846,36 @@ country_event = {
 			transfer_state = 798
 			transfer_state = 85
 			set_cosmetic_tag = POL_SOV_1946
-			create_country_leader = {
-				name = "Edward Osóbka-Morawski"
-				picture = GFX_P_C_Edward_Bolesaw_Osobka-Morawski
-				expire = "1947.1.1"
-				ideology = stalinism
-				traits = {
-					POSITION_Prime_Minister
-					SUBIDEOLOGY_Stalinism
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = SOV_Rokossovsky_Purged
+					}
+				}
+				create_country_leader = {
+					name = "Konstantin Rokossovsky"
+					picture = GFX_M_SOV_Konstantin_Rokossovsky
+					expire = "1947.1.1"
+					ideology = stalinism
+					traits = {
+						POSITION_Commander
+						SUBIDEOLOGY_Stalinism
+					}
 				}
 			}
-			add_ideas = POL_Boleslaw_Bierut_HoG
+			else = {
+				create_country_leader = {
+					name = "Ivan Chernyakovsky"
+					picture = GFX_M_Ivan_Chernyakhovsky
+					expire = "1947.1.1"
+					ideology = stalinism
+					traits = {
+						POSITION_Commander
+						SUBIDEOLOGY_Stalinism
+					}
+				}
+			}
+			add_ideas = POL_Edward_OsobkaMorawski_HoG
 		}
 		set_autonomy = {
 			target = POL

@@ -416,6 +416,12 @@ defined_text = {
 		}
 		localization_key = POL_Boleslaw_Bierut
 	}
+	text = {
+		trigger = {
+			has_idea = POL_Edward_OsobkaMorawski_HoG
+		}
+		localization_key = POL_Edward_OsobkaMorawski
+	}
 	#### FRA - France
 	text = {
 		trigger = {
@@ -1585,6 +1591,12 @@ defined_text = {
 			has_idea = POL_Boleslaw_Bierut_HoG
 		}
 		localization_key = GFX_P_C_Boleslaw_Bierut
+	}
+	text = {
+		trigger = {
+			has_idea = POL_Edward_OsobkaMorawski_HoG
+		}
+		localization_key = GFX_P_C_Edward_Bolesaw_Osobka_Morawski
 	}
 	#### BEL - Belgium
 	text = {

@@ -6535,8 +6535,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_P_C_Edward_Bolesaw_Osobka-Morawski"
-        texturefile = "gfx/leaders/POL/P_C_Edward_Bolesaw_Osobka-Morawski.png"
+        name = "GFX_P_C_Edward_Bolesaw_Osobka_Morawski"
+        texturefile = "gfx/leaders/POL/P_C_Edward_Bolesaw_Osobka_Morawski.png"
     }
 
     spriteType = {

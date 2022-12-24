@@ -1240,6 +1240,7 @@ characters={
 		name = POL_Edward_OsobkaMorawski
 		portraits = {
 			civilian = {
+				large = "GFX_P_C_Edward_Bolesaw_Osobka_Morawski"
 				small = "GFX_idea_Edward_OsobkaMorawski"
 			}
 		}
@@ -1251,7 +1252,7 @@ characters={
 				tag = POL
 			}
 			visible = {
-				date > 1945.1.1
+				date > 1944.1.1
 				date < 1964.1.1
 				C_Minister_Allowed = yes
 				NOT = {
