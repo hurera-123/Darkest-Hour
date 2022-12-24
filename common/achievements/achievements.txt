@@ -213,3 +213,45 @@ Graveyard_of_the_Superpowers = {
 		}
 	}
 }
+
+The_New_Order = {
+	
+	possible = {
+		difficulty > 1
+		original_tag = JAP
+	}
+	
+	happened = {
+		has_country_flag = Nuked_Hawaii
+	}
+}
+
+No_Country_For_Anyone = {
+	
+	possible = {
+		difficulty > 1
+		is_major = yes
+	}
+	
+	happened = {
+		has_idea = scraping_the_barrel
+		has_manpower = 0
+	}
+}
+
+No_I_Dont_Want_To_Go = {
+	
+	possible = {
+		difficulty > 1
+	}
+	
+	happened = {
+		has_war_with = BRA
+		surrender_progress > 0.5
+		ROOT = {
+			any_core_state = {
+				is_controlled_by = BRA
+			}
+		}
+	}
+}
