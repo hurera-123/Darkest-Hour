@@ -4,9 +4,9 @@
  ######################################################################
  ## Domestic Event
  # Miscellaneous/Flavor
- JAP_4th_Fleet_Exercise.1.t: "Fourth Fleet caught in extremely foul weather"
- JAP_4th_Fleet_Exercise.1.d: ""
- JAP_4th_Fleet_Exercise.1.A: "Open an investigation immediately!"
+ JAP_4th_Fleet_Exercise.1.t: "Fourth Fleet Caught in Foul Weather"
+ JAP_4th_Fleet_Exercise.1.d: "The Fourth Fleet had not touched water in many years when it was brought back to participate in a war game exercise. The Fleet was expected to perform well and to hold its own on the high seas under the capable leadership of Hajime Matsushita.\n\nHowever, tragedy struck the old Fleet when it was caught in extremely bad weather while performing field manoeuvres. Officers and engineers were immediately dispatched to assess the Fleet's damage, which was found to be far greater than expected.\n\nReports indicate that the submarines and the cruisers have suffered serious cracks in their hulls, and that the carriers have suffered extensive damage to their flight decks and superstructures. However, it appears that the fleet's destroyers have fared the worst, with nearly all of them suffering damage to their superstructures and losing crew.\n\nSoon after, a hearing on the incident was held, and several recommendations were made to ensure that such a tragedy never happens again. These recommendations have been sent to the admiralty and ship manufacturers in [JAP.GetName], and it is expected that ship quality will improve significantly in the coming years. It remains to be seen how long it will take to repair the Fourth Fleet's damage as a result of this unfortunate turn of events."
+ JAP_4th_Fleet_Exercise.1.A: "Every tragedy is an opportunity to better ourselves."
 
  JAP_Flavor.1.t: "The Lytton Report"
  JAP_Flavor.1.d: "The League of Nations has published a report today concerning us and our actions in Manchuria. This Lytton Report is a paper on the findings of the Lytton Commission, a five-member commission headed by British politician The Earl of Lytton meant to evaluate the Mukden Incident, the event which led to our nation’s seizure of Manchuria. \n\nThe group spent six weeks in Manchuria in spring 1932 (despite having been sent in December 1931) on a fact-finding mission after they had met government leaders in the Republic of China and in Japan. Regarding Manchukuo, the Report concluded that the new State could not have been formed without the presence of Japanese troops; that it had no general Chinese support; and that it was not part of a genuine and spontaneous independent movement. \n\nClearly, this report is a blatant attack on Japan and our allies in Asia. They claim that our grievances were legitimate, but then turn and claim our actions to rectify the situation were not? China was never going to give us our rightful reparations for the disrespect they earned when they bombed our railway at Mukden. It was not only our right, but our prerogative to move into Manchuria and rectify the situation. In light of how the League of Nations has seemingly turned against us on this issue, perhaps we should move to review our participation in the organization as a whole."
@@ -106,8 +106,8 @@
  JAP_Teijin_Incident.3.A: "Democracy must be protected, at any cost."
 
  JAP_Teijin_Incident.4.t: "The Admiral In Charge"
- JAP_Teijin_Incident.4.d: ""
- JAP_Teijin_Incident.4.A: ""
+ JAP_Teijin_Incident.4.d: "Nobody expected the dissolution of the government to result from a small group of young investors being accused of stock market manipulation. But that is exactly what occurred.\n\nIt all started when the Banchokai, a group of young investors, bought stock in Teijin, a leading rayon and textile company. By the end of the year, the stock had grown to 175% of its buying value. This fuelled speculation that the Banchokai was manipulating markets.\n\nThe rumour of the Banchokai manipulating markets reached ultra rightist officials in the Ministry of Justice, who began accusing officials in the Ministry of Finance and members of Prime Minister Sait Makoto's cabinet as well. Soon after, the Vice-Minister of Finance, the director of the Bank of Taiwan, and the President of Teijin were arrested. Prime Minister Makoto dissolved his government after learning that many of his cabinet members would be arrested as well.\n\nThe man to take over was none other than Admiral Keisuke Okada. Admiral Okada had a long and fruitful career in the Navy, retiring after nearly 49 years of service. He was one of the few supporters of the London Naval Treaty of 1930, which aimed to reduce naval arms. He also served as Navy Minister under Prime Minister Makoto.\n\nHe is one of the strongest democratic and moderate voices against the increasing strength of the militarists, and so it is assumed that he will be a major target for extremist forces. It is unclear, for now, how he will govern without the support of these factions."
+ JAP_Teijin_Incident.4.A: "The government could not be in more capable hands."
 
  # Hirota Cabinet
  JAP_Hirota_Cabinet.1.t: "2.26 Incident"
@@ -199,33 +199,33 @@
 
  # First Konoe Cabinet
  JAP_First_Konoe_Cabinet.1.t: "The Ongoing Armistice"
- JAP_First_Konoe_Cabinet.1.d: ""
- JAP_First_Konoe_Cabinet.1.A: ""
+ JAP_First_Konoe_Cabinet.1.d: "A few days ago, dark news was received by our Prime Minister, Fumimaro Konoe. The letter he received talks about a problem on the Chinese border, more precisely near the city of Wanping. As our troops were training for military exercises, one of our soldiers was absent during the review of the troops.\n\nImmediately, our officers on the spot asked the Chinese for permission to frisk the region, in order to find the lost soldier. They answered with a polite “No”, and the officers started to accuse the Chinese government of having kidnapped him. Quickly, the situation started to degenerate, and on both sides of the border, shots were exchanged.\n\nWith a touch of dramatic irony, the lost soldier has returned to the military base a few hours later, coming back from a brothel. But with the situation already in full swing, his return has not calmed anyone on the front.\n\nNow, Konoe has to face two harsh choices: he could call for a cessation of all hostilities in the region, including troops on their side of the border; or he can seize the opportunity, and send even more troops to China."
+ JAP_First_Konoe_Cabinet.1.A: "Our interests in China must be protected. Send in the troops!"
 
  JAP_First_Konoe_Cabinet.2.t: "The Budget"
- JAP_First_Konoe_Cabinet.2.d: ""
- JAP_First_Konoe_Cabinet.2.A: ""
+ JAP_First_Konoe_Cabinet.2.d: "Genjirō Ikeda was on his best today. The life of an assistant to a budget officer is rarely very interesting, but, for a few weeks, it seems that this job has become much more interesting. His superiors, with the outbreak of conflict in Asia, are excited by their new opportunities.\n\n“We need even more money for our troops!”\n“Yes, all the budget should be dedicated to the army! Any ideas on what we could buy first?”\n“Clearly, the navy is our strongest force, we should fund them more!”\n“No, the land forces, we need to fund the motorization of the army! Tanks and trucks are the future of warfare!”\n“What if we do both?”\n\nAnd this continues, for hours and hours, and the proposals keep getting bigger and bigger, as the authorizations of the government continue to grow too.\nI'm probably the luckiest assistant of the decade, think Genjirō, who can say that he sees history being written from his work?\n\nAs this new reunion comes to an end, the amount of funds has rushed to an incredible number of 400 million yen, and everyone agrees that it will only increase in the coming weeks."
+ JAP_First_Konoe_Cabinet.2.A: "Who knows? Maybe in a few years, history will remember me?"
 
- JAP_First_Konoe_Cabinet.3.t: "The National Mobilization Act"
- JAP_First_Konoe_Cabinet.3.d: ""
- JAP_First_Konoe_Cabinet.3.A: ""
+ JAP_First_Konoe_Cabinet.3.t: "The National Mobilisation Act"
+ JAP_First_Konoe_Cabinet.3.d: "A few days ago, the government of Prime Minister Konoe passed a new law, known as the “National Mobilisation Act”.\n\nThis law allows the Diet to assert greater control on many key domains, such as the economy, education, media, and all the necessary areas that are needed by the government for its objectives to unite the people under the Japanese banner. The list of the domains concerned by the law continue to expand, as trade unions, strategic industries, corporates and prices, and even rationing are all under the control of the political sphere.\n\nAfter the passing of the law, many workers were reassigned from some jobs, so as ensure they are where the government needs them to be. Another consequence is the augmentation of the budgets of subsidies in enterprises, given by the government to compensate the manufacturers for their losses.\n\nIf some qualify this law as “unconstitutional”, some others argue that the times of war allow the country to sacrifice some liberties to be sure the country can survive long enough to recover them."
+ JAP_First_Konoe_Cabinet.3.A: "It was for the greater good! We need to win this damned war, whatever the cost!"
 
  JAP_First_Konoe_Cabinet.4.t: "The Cabinet Reshuffle"
- JAP_First_Konoe_Cabinet.4.d: ""
- JAP_First_Konoe_Cabinet.4.A: ""
+ JAP_First_Konoe_Cabinet.4.d: "After a few changes in the cabinet, Prime Minister Konoe has decided to oust Hajime Sugiyama, the marshal who has occupied the post of War Minister for a while.\n\nHe has notably decided to remove him because of his pro-war opinions, and, after a few deliberations, Konoe has appointed Seishiro Itagaki as his successor, mostly because of his adhesion to his allegiance to the non aggression faction of the cabinet.\n\nAfter a few other changes, it seems that most of the cabinet members are now from this non aggression faction, and some even think that Konoe wants to remove the militarists from the political equation.\n\nUnfortunately for him, the situation is not that glorious. Some discredited the choice of Itagaki because of his lack of initiative. On the other hand, some criticise his intentions to appoint Kazushige Ugaki to the post of Foreign Minister, because of his excessive desire to make peace.\n\nIf nobody knows where the new cabinet will lead, the opposition to Konoe are as many as his supporters in the cabinet, and the situation will have to evolve if he wants to see something emerge from the government."
+ JAP_First_Konoe_Cabinet.4.A: "Instability within the great council? What is this, the French Republic?"
 
  # Hiranuma Cabinet
  JAP_Hiranuma_Cabinet.1.t: "The Prince's Departure"
- JAP_Hiranuma_Cabinet.1.d: ""
- JAP_Hiranuma_Cabinet.1.A: ""
+ JAP_Hiranuma_Cabinet.1.d: "Saionji couldn't decide whether he should be happy or sad. After learning of Konoe's resignation due to peace negotiations failing and the war dragging on longer than expected, he could not help but feel a mix of both. When they discussed foreign affairs and politics, Saionji's liberalism and Konoe's contradictory attraction to fascism frequently clashed. Still, even if they disagreed on a lot of things, Konoe was still his pupil and he was his mentor. After all, he was the one who nominated Konoe to be the Emperor's Prime Minister, so he couldn't help but feel pride when he accepted the position and now disappointment as he resigned.\n\nHowever, he could not be happier about Konoe's replacement, Hiranuma Kiichirō. Having established a reputation during his time at the Ministry of Justice as a strong opponent of government corruption and serving as the director of the Tokyo High Court, public prosecutor of the Supreme Court, Director of the Civil and Criminal Affairs Bureau, former Minister of Justice and now President of the Privy Council, he is an honourable and well-respected man and Saionji could not think of a better man for the job."
+ JAP_Hiranuma_Cabinet.1.A: "I have a good feeling about this."
 
  JAP_Hiranuma_Cabinet.2.t: "A Shift in Europe"
- JAP_Hiranuma_Cabinet.2.d: ""
- JAP_Hiranuma_Cabinet.2.A: ""
+ JAP_Hiranuma_Cabinet.2.d: "Different meeting, same topic. Hiranuma was getting tired of it all. From the moment he became Prime Minister, his administration was dominated by the same debate over and over about whether Japan should form an alliance with Germany to counter the Soviet Union's threat to Japan. He knows an anti-communist pact against the Soviet Union is a necessary precaution, but they can't afford to let this military alliance drag Japan into a war against the United States and the United Kingdom. As most of the Japanese armed forces are still committed to the war against China, it would ensure Japan's annihilation.\n\nThis conundrum, with no apparent solution, has occupied his entire administration, preventing him from addressing many other critical issues. As he was about to prepare himself to have the same debate and give the same speech for the 50th time, the door to the conference room swung open. Someone brought word from the ambassadors in Germany:\n\nA German-Soviet Non-Aggression Pact."
+ JAP_Hiranuma_Cabinet.2.A: "The room erupted into chaos."
 
  JAP_Hiranuma_Cabinet.3.t: "The Judge Powerless"
- JAP_Hiranuma_Cabinet.3.d: ""
- JAP_Hiranuma_Cabinet.3.A: ""
+ JAP_Hiranuma_Cabinet.3.d: "Following the German-Soviet Non-Aggression Pact and the chaos that ensued throughout the Hiranuma administration, Hiranuma officially resigned as Prime Minister of Japan today. In his final speech, he explained his reasons for resigning, the most important of which was his inability to deal successfully with current foreign policy issues.\n\nThe Japanese people are both optimistic and concerned. Hiranuma was known to be a man of honour, respect, and most importantly, competence. If even he is incapable of dealing with Japan's current crisis, who can?"
+ JAP_Hiranuma_Cabinet.3.A: "Is Japan doomed?"
 
  # Abe Cabinet
  JAP_Abe_Cabinet.1.t: "The Army Offers Abe"
@@ -254,24 +254,24 @@
 
  # Yonai Cabinet
  JAP_Yonai_Cabinet.1.t: "Yet Another Conundrum"
- JAP_Yonai_Cabinet.1.d: ""
- JAP_Yonai_Cabinet.1.A: ""
+ JAP_Yonai_Cabinet.1.d: "After the collapse of Abe's cabinet after just a few months due to increasingly lacking support from either the military or the political parties, the Japanese people are desperate for a stable government. Seeing how each of the last few cabinets collapsed after just a very short time, people are starting to lose hope.\n\nMitsumasa Yonai will become the new Prime Minister after some desperate scrambling and discussion to find a suitable replacement who will hopefully last more than a few months.\n\nServing in the Navy for many years, and most recently serving as Navy Minister and member of the Supreme War council, Admiral Yonai has shown strong leadership before, particularly in crisis. One of these times was his critical contribution to putting down an attempted coup d'état led by young officers of the Imperial Japanese Army. Furthermore, he has the Emperor's full support, making him an ideal replacement."
+ JAP_Yonai_Cabinet.1.A: "Surely he will do better than his predecessors."
 
  JAP_Yonai_Cabinet.2.t: "Illusion of a New Structure"
- JAP_Yonai_Cabinet.2.d: ""
- JAP_Yonai_Cabinet.2.A: ""
+ JAP_Yonai_Cabinet.2.d: "Any hope the Japanese people might have had at change or reform were quickly shattered. Yonai's cabinet has proven to be the exact same as the last few cabinets that all collapsed after a short while. Even though he continues his strong pro-British, pro-American stance he held as Navy Minister and his strong opposition to the Tripartite Pact with Germany and Italy, being overwhelmed by crisis and problems, the government is once again unable to resolve any of the pressing issues that plague the Japanese people and the country at large.\n\nFew people still have hope in this cabinet, with the majority having their faith and beliefs in this cabinet shattered. While the majority are apathetic to the new government, some are already calling for Yonai's resignation, especially from the side of the army."
+ JAP_Yonai_Cabinet.2.A: "New face, same story."
 
  JAP_Yonai_Cabinet.3.t: "Hata Denounces Yonai"
- JAP_Yonai_Cabinet.3.d: ""
- JAP_Yonai_Cabinet.3.A: ""
+ JAP_Yonai_Cabinet.3.d: "And just like that we have another crisis, and more importantly, another resignation on our hands. Yonai had been repeatedly criticised for his strong pro-British and pro-American stance, especially from the Army. With Germany's success in Europe, the Army's dissatisfaction with Yonai's anti-German and anti-Italian policy grew. The disagreement reached a boiling point when Army Minister Shunroku Hata openly criticised the Prime Minister and eventually resigned.\n\nThe Japanese Constitution requires the Army Minister to be an active-duty general and seeing how no other general will accept the position, due to the pro-Axis stance of the Imperial Japanese Army, Yonai is now forced to resign. It's time to start looking for another replacement."
+ JAP_Yonai_Cabinet.3.A: "Is anyone surprised at this point?"
 
  JAP_Yonai_Cabinet.4.t: "Yonai Resigns"
  JAP_Yonai_Cabinet.4.d: ""
  JAP_Yonai_Cabinet.4.A: ""
 
  JAP_Yonai_Cabinet.5.t: "Mending the Nation"
- JAP_Yonai_Cabinet.5.d: ""
- JAP_Yonai_Cabinet.5.A: ""
+ JAP_Yonai_Cabinet.5.d: "With Kichi Kido and the Privy Council in disarray and scrambling for a replacement, the Japanese Army had one man in mind and would not be swayed. They demanded that Fumimaro Konoe, who had previously served as Prime Minister, reclaim the title of Prime Minister of Japan. Because no better replacement could be found, Kido and Saionji both endorsed Konoe for Prime Minister to the Emperor again.\n\nKonoe has already resigned as Chairman of the Privy Council and will be officially appointed Prime Minister soon. He promises to properly represent the interests of the Imperial Japanese Army and to finally put an end to the war with China. In addition, one of his major reforms is to replace existing political parties with the Taisei Yokusankai (Imperial Rule Assistance Association) to form a single party state."
+ JAP_Yonai_Cabinet.5.A: "Can a proper army man save this country?"
 
  # Second Konoe Cabinet
  JAP_Second_Konoe_Cabinet.0.t: "A New Organization?"
@@ -300,8 +300,8 @@
  JAP_Second_Konoe_Cabinet.5.A: ""
 
  JAP_Second_Konoe_Cabinet.6.t: "The Ogikubo Conference"
- JAP_Second_Konoe_Cabinet.6.d: ""
- JAP_Second_Konoe_Cabinet.6.A: ""
+ JAP_Second_Konoe_Cabinet.6.d: "Konoe, Prime Minister Hideki Tojo, Minister of War and Chief of the Army General Staff, and Matsuoka, Minister of Foreign Affairs, met at Konoe's residence in Ogikubo to discuss closer ties between Japan, Germany, and Italy, as well as the potential of a new East Asian order.\n\nNot long into the conference, everyone in attendance understood that a miracle had occurred when Konoe, Tojo, and Matsuoka could all agree on improving ties between Japan, Germany, and Italy, as well as the potential of a new East Asian order. Although Konoe was sceptical, he agreed with Matsuoka on most aspects.\n\nAfter some explaining and questioning, the three decide to strengthen ties between Japan, Germany, and Italy, and seek to establish a new order in East Asia dominated by the Japanese Empire."
+ JAP_Second_Konoe_Cabinet.6.A: "At last, they finally agree on something!"
 
  JAP_Second_Konoe_Cabinet.7.t: "Regarding the Draft/The Liaison Conference"
  JAP_Second_Konoe_Cabinet.7.d: ""
@@ -643,8 +643,8 @@
  JAP_Rivalries_of_War.6.A: "Maybe next time they will win this battle more efficiently."
 
  JAP_Rivalries_of_War.7.t: "Breakdown in Army Discipline"
- JAP_Rivalries_of_War.7.d: ""
- JAP_Rivalries_of_War.7.A: ""
+ JAP_Rivalries_of_War.7.d: "For many years, the Imperial Army and the Imperial Navy have been locked in an interdisciplinary tug of war. This competition has frequently resulted in deteriorating relations between admirals and generals, as well as enormous tension within civilian governments. This has also led to disobedience in these branches when they believe their side has lost favour with the government. This appears to have happened yet again.\n\nThere have been reports of severe breakdowns in Army discipline. Several Imperial soldiers are seen assaulting their superiors, refusing orders, and even deserting their battalions. This heinous behaviour has also demoralised their military colleagues, resulting in a worsening of overall military performance. This appears to be the result of a weighed government favour for the navy in recent weeks.\n\nIt is critical that the Imperial Army officers are reminded of their loyalty to the Emperor and that discipline is instilled in their hearts."
+ JAP_Rivalries_of_War.7.A: "We will whip the Army back into shape."
 
  JAP_Rivalries_of_War.8.t: "Increased Shore Leave"
  JAP_Rivalries_of_War.8.d: "For a few days, senior officials from the Imperial Navy and the Imperial Army have noticed an increase in the number of departing soldiers, all of whom request vacations.\n\nThe problem was so severe that up to a quarter of the workforce in some encampments was absent due to this \"vacation.\" However, as stated by the Minister of War, the war is far from over, and the lack of troops may cost victory on many fronts in Asia.\n\nResponding to the ministry, a few officers sent letters with suggestions to improve the situation: "We could reduce their working hours for a few weeks, giving the soldiers more free time in the evening." A few young lieutenants have also proposed organising some sporting events and games in order to keep the troops' morale high enough to fight. Despite its unconventional nature, this solution could help to calm the situation and prevent soldiers from going on holiday when we need them the most."\n\nIn response to these letters, the Emperor and high officers of the Army have directed that these "entertainments" be handled by a few specialists until the situation returns to normal."
@@ -872,8 +872,8 @@
  JAP_Wartime_Tree_Events.7.C: "Maintain the status quo"
 
  JAP_Surrender.1.t: "The Terms of Surrender"
- JAP_Surrender.1.d: ""
- JAP_Surrender.1.A: ""
+ JAP_Surrender.1.d: "A few weeks ago, the Empire of Japan officially surrendered. Following this important news, General Douglas MacArthur has been sent to the Pacific to organise an important ceremony between the Allied powers, which include British, French, Dutch, Chinese, Soviets and, of course, Americans officials. The ceremony takes place on the USS Missouri, one of the last ships built before the end of the war.\n\n“Dear friends, dear allies, I thank you all for coming aboard today, to what we can surely call the end of hostilities in Asia and Pacific for the coming decades!”\nApplause erupts from the side of the diplomats, while all the soldiers stand at attention\n\n“We have, all together, passed the last months to discuss how we could decide on the issue of the Japanese defeat. If we need to pursue  discussions about Manchuria and Korea, it seems we’re all depending on the territories of Japan proper!”\n\n“First, it has been decided that the Japanese archipelago will become an occupied zone, under the command of the Supreme Commander of Allied Powers. Second, Taiwan and some islands will be given to the Chinese government. Finally, the South Sakhalin and the Kirill islands will be placed under Soviet authority.”\n\n“Thanks for this quick summary, General de Hauteclocque. And now, to officially end this war, please, bring in the Japanese delegation.”"
+ JAP_Surrender.1.A: "The corpse of the empire lays before us, a beast now vanquished."
 
  JAP_Surrender.2.t: "A Return to the Old?"
  JAP_Surrender.2.d: ""
