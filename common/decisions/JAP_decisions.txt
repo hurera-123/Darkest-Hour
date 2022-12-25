@@ -1776,6 +1776,9 @@ JAP_Sino_Japanese_War_category = {
 						traits = { POSITION_President SUBIDEOLOGY_Despotism }
 					}
 				}
+				CHI = { # To prevent double Wang. Rework with China rework
+					remove_ideas = CHI_D_Wang_Jingwei
+				}
 			}
 		}
 	}
@@ -2099,19 +2102,19 @@ JAP_Soviet_Japanese_Border_Clashes_category = {
 		remove_effect = {
 			clr_country_flag = JAP_Already_Doing_Border_Decision
 			random_list = {
-				33 = {
+				50 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.4
 						days = 1
 					}
 				}
-				34 = {
+				30 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.5
 						days = 1
 					}
 				}
-				33 = {
+				20 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.6
 						days = 1
@@ -2203,19 +2206,19 @@ JAP_Soviet_Japanese_Border_Clashes_category = {
 		remove_effect = {
 			clr_country_flag = JAP_Already_Doing_Border_Decision
 			random_list = {
-				70 = {
+				60 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.10
 						days = 1
 					}
 				}
-				20 = {
+				25 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.11
 						days = 1
 					}
 				}
-				10 = {
+				15 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.12
 						days = 1
@@ -2307,19 +2310,19 @@ JAP_Soviet_Japanese_Border_Clashes_category = {
 		remove_effect = {
 			clr_country_flag = SOV_Already_Doing_Border_Decision
 			random_list = {
-				33 = {
+				50 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.16
 						days = 1
 					}
 				}
-				34 = {
+				30 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.17
 						days = 1
 					}
 				}
-				33 = {
+				20 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.18
 						days = 1
@@ -2411,19 +2414,19 @@ JAP_Soviet_Japanese_Border_Clashes_category = {
 		remove_effect = {
 			clr_country_flag = SOV_Already_Doing_Border_Decision
 			random_list = {
-				70 = {
+				60 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.22
 						days = 1
 					}
 				}
-				20 = {
+				25 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.23
 						days = 1
 					}
 				}
-				10 = {
+				15 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.24
 						days = 1
@@ -4974,6 +4977,17 @@ JAP_Imperial_General_Headquarters = {
 			set_country_flag = JAP_Rivalry_Decision_in_Progress
 			set_country_flag = JAP_Prioritized_Steel_for_Guns_and_Artillery
 			JAP_Increase_Balance_Towards_Army = yes
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
 		}
 		remove_effect = {
 			clr_country_flag = JAP_Rivalry_Decision_in_Progress
@@ -5015,6 +5029,17 @@ JAP_Imperial_General_Headquarters = {
 			set_country_flag = JAP_Rivalry_Decision_in_Progress
 			set_country_flag = JAP_Prioritized_Steel_for_Light_Ships
 			JAP_Increase_Balance_Towards_Navy = yes
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
 		}
 		remove_effect = {
 			clr_country_flag = JAP_Rivalry_Decision_in_Progress
@@ -5146,6 +5171,19 @@ JAP_Imperial_General_Headquarters = {
 		}
 		days_remove = 90
 		cost = 50
+		modifier = {
+			experience_gain_army_factor = 0.15
+			equipment_bonus = {
+				artillery_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
 		complete_effect = {
 			set_country_flag = JAP_Rivalry_Decision_in_Progress
 			set_country_flag = JAP_Allocated_Spare_Resources_to_the_Kwangtung_Army
@@ -5191,6 +5229,19 @@ JAP_Imperial_General_Headquarters = {
 		}
 		days_remove = 90
 		cost = 50
+		modifier = {
+			experience_gain_navy_factor = 0.15
+			equipment_bonus = {
+				DD_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				SS_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
 		complete_effect = {
 			set_country_flag = JAP_Rivalry_Decision_in_Progress
 			set_country_flag = JAP_Allocated_Spare_Resources_to_the_SNLF

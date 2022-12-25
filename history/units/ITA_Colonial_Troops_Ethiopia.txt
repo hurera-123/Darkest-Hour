@@ -1,4 +1,4 @@
-﻿﻿division_template = {
+﻿division_template = {
 	name = "Divisione Fanteria Coloniale" 			# a compromise between the Libyan and Eritrean divisions
 	regiments = {
 		light_infantry = { x = 0 y = 0 }
@@ -13,7 +13,7 @@
 		light_infantry = { x = 1 y = 4 }
 		artillery_battalion_light = { x = 2 y = 0 }
 		artillery_battalion_light = { x = 2 y = 1 }
-    }
+	}
 	support = {
 		engineer = { x = 0 y = 0 }
 		field_hospital = { x = 0 y = 1 }
@@ -30,8 +30,8 @@ units = {
 		division_template = "Divisione Fanteria Coloniale"
 		start_experience_factor = 0.1
 		acclimatization = {
-			hot_climate = 12800
-			max_acclimatization = 12800
+			hot_climate = 12700
+			max_acclimatization = 12700
 		}
 	}
 	division = {
@@ -40,8 +40,8 @@ units = {
 		division_template = "Divisione Fanteria Coloniale"
 		start_experience_factor = 0.1
 		acclimatization = {
-			hot_climate = 12800
-			max_acclimatization = 12800
+			hot_climate = 12700
+			max_acclimatization = 12700
 		}
 	}
 	division = {
@@ -50,8 +50,8 @@ units = {
 		division_template = "Divisione Fanteria Coloniale"
 		start_experience_factor = 0.1
 		acclimatization = {
-			hot_climate = 12800
-			max_acclimatization = 12800
+			hot_climate = 12700
+			max_acclimatization = 12700
 		}
 	}
 }

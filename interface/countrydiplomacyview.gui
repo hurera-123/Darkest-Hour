@@ -2674,7 +2674,8 @@ guiTypes = {
 			iconType = {
 				name = "general_bg"
 				quadTextureSprite ="GFX_category_header"
-				position = { x = 7 y = 162 }
+				position = { x = 24 y = 162 }
+				scale = 0.9
 			}
 
 			iconType = {
@@ -2694,7 +2695,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "faction_name_status"
-				position = { x = 117 y = 139 }
+				position = { x = 117 y = 198 }
 				textureFile = ""
 				font = "hoi_18mbs"
 				borderSize = {x = 0 y = 0}

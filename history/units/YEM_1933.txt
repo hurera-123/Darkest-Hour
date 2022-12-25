@@ -101,8 +101,8 @@ units = {
         start_experience_factor = 0.04
         start_equipment_factor = 0.5
 		acclimatization={
-			hot_climate=2000.000
-			max_acclimatization=2000.000
+			hot_climate=1600.000
+			max_acclimatization=1600.000
 		}
     }
 
@@ -114,8 +114,8 @@ units = {
         start_experience_factor = 0.02
         start_equipment_factor = 0.9
 		acclimatization={
-			hot_climate=4000.000
-			max_acclimatization=4000.000
+			hot_climate=10000.000
+			max_acclimatization=10000.000
 		}
     }
 
@@ -126,8 +126,8 @@ units = {
         start_experience_factor = 0.02
         start_equipment_factor = 0.9
  		acclimatization={
-			hot_climate=4000.000
-			max_acclimatization=4000.000
+			hot_climate=10000.000
+			max_acclimatization=10000.000
 		}
    }
  
@@ -138,8 +138,8 @@ units = {
         start_experience_factor = 0.02
         start_equipment_factor = 0.9
 		acclimatization={
-			hot_climate=4000.000
-			max_acclimatization=4000.000
+			hot_climate=10000.000
+			max_acclimatization=10000.000
 		}
     }
 
@@ -150,8 +150,8 @@ units = {
         start_experience_factor = 0.02
         start_equipment_factor = 0.9
 		acclimatization={
-			hot_climate=4000.000
-			max_acclimatization=4000.000
+			hot_climate=10000.000
+			max_acclimatization=10000.000
 		}
     }
 }

@@ -45,12 +45,12 @@
  GER_SOV_War.9.A: ""
 
  GER_SOV_War.10.t: "Your Mother's Prayer"
- GER_SOV_War.10.d: ""
- GER_SOV_War.10.A: ""
+ GER_SOV_War.10.d: "\"The Germans are not humans.\", Nikolai mutters to himself, thinking about the latest letter he had received from his mother, containing a poem he had read so many times, that it had burned into his memories.\n\n\"We shall not get excited. We shall kill.\", he whispers, as he stands amidst the ruins of a bombed school, taking cover behind a collapsed pillar. Not long ago, in a different life, he was in a similar school like this. Back then he hated it, but now he wishes nothing more than to be back.\n\n\"If you have not killed at least one German a day, you have wasted that day.\", he says, bullets whizzing over his head, contemplating his next actions. The Germans had him pinned down from across the street. Looking around, he realizes he is alone. The rest of his unit is either nowhere to be seen or laying dead on the street. If he hadn't sought cover in the school, he would have shared their fate.\n\n\"Kill the German - this is the cry of your Russian earth.\", he finishes reciting the poem, as the gunfire stopped. As he gets up from behind the pillar, prepared to kill whoever was pinning him down, he sees a boy. A young German boy, no older than 16, maybe the same age as him, struggling to reload his gun. For a second Nikolai froze. The boy was probably forced to be here, just like himself. Then the end of the poem shot into his mind: "Do not waver. Do not let up.""
+ GER_SOV_War.10.A: "\"Kill.\""
 
  GER_SOV_War.11.t: "Every Hand Helps"
- GER_SOV_War.11.d: ""
- GER_SOV_War.11.A: ""
+ GER_SOV_War.11.d: "Yuiry, a young boy, was awakened earlier than usual today by his mother because it was time to dig trenches. He quickly put on his oversized boots, which his older brother Nikolai had left for him after being sent to the frontlines at the start of the war. Like his brother, Yuiry will go to any length to protect his town and the motherland.\n\nYuiry and his mother were exhausted after working long hours digging and moving planks with the locals. They decided to take a break and rest for a while. During their break, a Kazakh unit arrived in town and was greeted with gifts of food and medical supplies. Yuiry, eager to show his appreciation, quickly ran to his house to grab a fresh loaf of bread. He then approached one of the soldiers, offering him the bread as a gesture of thanks. The soldier, who reminded him a lot of Nikolai, gratefully accepted the bread. And, like Nikolai, the soldier was known for his sense of humour and calm demeanour, even in difficult situations.\n\nSuddenly, the air raid sirens began to wail loudly, and parents and their children hid from the German planes, while Yuiry and his mother ran to their house for safety. Yuiry watched as the soldier took up arms with his comrades and took up positions in the trenches."
+ GER_SOV_War.11.A: "Defend the Town!"
 
  GER_SOV_War.12.t: "A Meeting with the Rising Sun?"
  GER_SOV_War.12.d: ""
@@ -61,10 +61,12 @@
  GER_SOV_War.13.A: ""
 
  GER_SOV_War.14.t: "Soviet–Japanese Neutrality Pact Signed"
- GER_SOV_War.14.d: "[FROM.GetNewsIcon]"
- GER_SOV_War.14.A: ""
+ GER_SOV_War.14.d: "[FROM.GetNewsIcon]Today, Japanese Foreign Minister Yosuke Matsuoka and Ambassador Yoshitsugu Tatekawa met in Moscow with Vyacheslav Molotov. A potential neutrality agreement between the Soviet Union and Japan was the reason for the meeting.\n\nThe Soviet Union sought this deal to secure their border with the Japanese puppet state of Manchukuo in the Far East and to narrow their attention to the German Reich's frontier in Europe in case a conflict broke out in the future. The Japanese were keen to sign this deal because they wanted to concentrate on their military campaign against the Chinese United Front and their expansion into South-East Asia.\n\nInternational observers have called this a “surprising turn of events”, considering that these countries recently engaged in border wars in Mongolia with each other. "
+ GER_SOV_War.14.A: "Our eastern flank, secured at last."
+ GER_SOV_War.14.B: "We can now focus on our main target..."
+ GER_SOV_War.14.C: "An uneasy deal between uneasy nations."
 
  GER_SOV_War.15.t: "Japan Refuses the Pact"
- GER_SOV_War.15.d: ""
- GER_SOV_War.15.A: ""
+ GER_SOV_War.15.d: "\"Sir, the Japanese have refused to sign a treaty of non-aggression.\"\n\n[SOV.GetLeader]'s hand tightened. Under the strain, the pencil he was holding cracked. As he gazed at the map of [SOV.GetNameDef] before him, one thought dominated his mind: "What now?"\n\nBut he knew the answer was straightforward. In the event of war, he'd have to maintain a defensive posture in both the Asian and European theatres. To repel invasion from both directions, he'd have to divide his resources east and west. He'd have to keep looking over his shoulder as he prepared to fight on one side to make sure the other didn't pounce on him.\n\n"I should've known this was going to happen," [SOV.GetLeader] thought to himself. The Japanese government had made no secret of their dislike for [SOV.GetNameDef]. The Japanese had many issues with the Soviets, ranging from recent border clashes in Manchuria to ownership of the Sakhalin Islands. Not to mention that the Russians' disastrous defeat at the hands of the Japanese some 30 years before had not been forgotten by the Russian people.\n\nHe'd assumed there were bigger fish to fry. He assumed Japan was more concerned with China. More interested in Southeast Asia's resource-rich regions. After all, the value of the Siberian tundra pales in comparison to the East Indies' rich oil deposits.\n\nHowever, it was now clear that he was completely incorrect. The Japanese tiger in Manchuria was tightening its claws, preparing to pounce on Siberia and Mongolia. He could see his country's armed forces and resources being depleted by the enormous demand of war on two fronts. He could now see his country being shattered by the Germans and the Japanese...."
+ GER_SOV_War.15.A: "We must ensure that they will have nothing but dust and blood."
 

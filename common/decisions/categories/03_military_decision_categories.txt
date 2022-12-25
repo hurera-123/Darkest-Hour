@@ -70,7 +70,11 @@ USA_USACE_Projects_Category = {
 		original_tag = USA
 	}
 	visible = {
-		has_completed_focus = USA_USACE_Projects
+		OR = {
+			has_completed_focus = USA_USACE_Projects
+			has_completed_focus = USA_Enlarge_Military_Industry
+			has_completed_focus = USA_Make_Use_of_the_USACE
+		}
 	}
 }
 USA_OSS_Category = {
@@ -181,6 +185,10 @@ FRA_Finish_the_Maginot_Line_category = {
 	visible = {
 		has_completed_focus = FRA_The_Maginot_Line
 		NOT = { has_country_flag = FRA_Maginot_Finished }
+		AND = {
+			owns_state = 1169
+			owns_state = 28
+		}	
 	}
 }
 FRA_La_Armee_delAir_category = {
@@ -199,6 +207,7 @@ FRA_Programme_des_12_Milliards_category = {
 	}
 	visible = {
 		has_completed_focus = FRA_Decret_National_Defence
+		has_war = no
 	}
 }
 FRA_Grand_Quartier_General_category = {
@@ -462,6 +471,16 @@ SOV_Operation_Groza_category = {
 		}
 	}
 	scripted_gui = sov_operation_groza_decision_gui
+	visible_when_empty = yes
+}
+SOV_Formation_of_the_Guards_Army = {
+	icon = GFX_decision_category_sov_great_patriotic_war
+	allowed = {
+		original_tag = SOV
+	}
+	visible = {
+		has_completed_focus = SOV_Guard_Units
+	}
 	visible_when_empty = yes
 }
 SPA_foreign_support_category_1 = {

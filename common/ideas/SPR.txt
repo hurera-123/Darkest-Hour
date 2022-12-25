@@ -31,7 +31,7 @@ ideas = {
 		}
 		## Disgruntled Military
 		SPR_disgruntled_military_1 = {
-			picture = GENERIC_Demonstrations
+			picture = SPR_Disgruntled_Army
 			modifier = {
 				supply_consumption_factor = -0.1
 				army_infantry_attack_factor = -0.15
@@ -41,7 +41,7 @@ ideas = {
 			}
 		}
 		SPR_disgruntled_military_2 = {
-			picture = GENERIC_Demonstrations
+			picture = SPR_Disgruntled_Army
 			modifier = {
 				supply_consumption_factor = -0.1
 				army_infantry_attack_factor = -0.2
@@ -51,7 +51,7 @@ ideas = {
 			}
 		}
 		SPR_disgruntled_military_3 = {
-			picture = GENERIC_Demonstrations
+			picture = SPR_Disgruntled_Army
 			modifier = {
 				supply_consumption_factor = -0.1
 				army_infantry_attack_factor = -0.1
@@ -183,6 +183,7 @@ ideas = {
 		### Civil War
 		##########################################
 		SPR_Armed_Masses_1 = {
+			picture = GFX_spr_international_brigades
 			modifier = {
 				conscription = 0.01
 				army_org_Factor = -0.1
@@ -190,6 +191,7 @@ ideas = {
 			}
 		}
 		SPR_Armed_Masses_2 = {
+			picture = GFX_spr_international_brigades
 			modifier = {
 				conscription = 0.015
 				army_org_Factor = -0.1
@@ -198,6 +200,7 @@ ideas = {
 			}
 		}
 		SPR_Armed_Masses_3 = {
+			picture = GFX_spr_international_brigades
 			modifier = {
 				conscription = 0.015
 				army_org_Factor = -0.05
@@ -206,6 +209,7 @@ ideas = {
 			}
 		}
 		SPR_Armed_Masses_4 = {
+			picture = GFX_spr_international_brigades
 			modifier = {
 				conscription = 0.025
 				army_org_Factor = -0.1
@@ -214,6 +218,7 @@ ideas = {
 			}
 		}
 		SPR_Armed_Masses_5 = {
+			picture = GFX_spr_international_brigades
 			modifier = {
 				conscription = 0.025
 				army_org_Factor = -0.1
@@ -223,11 +228,12 @@ ideas = {
 			}
 			equipment_bonus = {
 				infantry_equipment = {
-						build_cost_ic = -0.1 instant = yes
-					}
+					build_cost_ic = -0.1 instant = yes
 				}
+			}
 		}
 		SPR_Popular_Front = {
+			picture = SPR_Popular_Front
 			modifier = {
 				stability_factor = -0.1
 				war_support_factor = 0.1
@@ -235,6 +241,7 @@ ideas = {
 			}
 		}
 		SPR_No_Pasaran = {
+			picture = SPR_No_Pasaran
 			modifier = {
 				defence = 0.05
 				army_morale_factor = 0.1

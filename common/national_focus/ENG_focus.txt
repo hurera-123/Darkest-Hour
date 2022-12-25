@@ -4153,6 +4153,11 @@ focus_tree = {
 			}
 			has_government = democratic
 		}
+		bypass = {
+			USA = {
+				has_completed_focus = USA_Draft_Atlantic_Charter
+			}
+		}
 		relative_position_id = ENG_Continue_with_Tube_Alloys
 		x = 1
 		y = 1

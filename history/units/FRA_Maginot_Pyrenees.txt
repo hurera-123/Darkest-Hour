@@ -1,0 +1,30 @@
+﻿units = {
+	division = {
+		name = "Secteur fortifié de Perpignant"
+		location = 9853
+		division_template = "Secteur Fortifié"
+		start_experience_factor = 0.14 # the early 30s was a very low point for the French Army
+		start_equipment_factor = 0.15
+	}
+	division = {
+		name = "Secteur fortifié du Roussillon"
+		location = 6915
+		division_template = "Secteur Fortifié"
+		start_experience_factor = 0.14 # the early 30s was a very low point for the French Army
+		start_equipment_factor = 0.15
+	}
+	division = {
+		name = "Secteur fortifié de l'Ariège"
+		location = 6931
+		division_template = "Secteur Fortifié"
+		start_experience_factor = 0.14 # the early 30s was a very low point for the French Army
+		start_equipment_factor = 0.15
+	}
+	division = {
+		name = "Secteur fortifié du Béarn"
+		location = 11697
+		division_template = "Secteur Fortifié"
+		start_experience_factor = 0.14 # the early 30s was a very low point for the French Army
+		start_equipment_factor = 0.15
+	}
+}

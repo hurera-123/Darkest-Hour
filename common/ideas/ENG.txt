@@ -348,7 +348,7 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			picture = GFX_idea_ENG_Britannia_Disarmed
+			picture = ENG_Britannia_Disarmed
 			
 			modifier = {
 				production_speed_arms_factory_factor = -0.5
@@ -368,7 +368,7 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			picture = GFX_idea_ENG_Britannia_Endentured
+			picture = ENG_Britannia_Endentured
 			
 			targeted_modifier = {
 				tag = GER
@@ -629,7 +629,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_ENG_Food_Rations
+			picture = ENG_Food_Rations
 			
 			modifier = {
 				monthly_population = -0.05
@@ -755,22 +755,6 @@ ideas = {
 						
 			modifier = {
 				conscription_factor = -0.15
-			}
-		}
-		ENG_War_to_End_All_Wars_2 = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-						
-			modifier = {
-				conscription_factor = -0.10
 			}
 		}
 		ENG_A_New_Wave_of_Conservatism = {
@@ -1336,7 +1320,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_eng_chiefs_of_staff_committee
+			picture = eng_chiefs_of_staff_committee
 			
 			modifier = {
 				planning_speed = 0.15
@@ -1552,7 +1536,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_generic_license_production
+			picture = generic_license_production
 			
 			modifier = {
 				production_speed_arms_factory_factor = 0.1
@@ -1570,7 +1554,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_ENG_Fledgeling_MI5_Programme
+			picture = ENG_Fledgeling_MI5_Programme
 			
 			modifier = {
 				local_intel_to_enemies = -0.15
@@ -1583,7 +1567,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_ENG_MI5
+			picture = ENG_MI5
 			
 			modifier = {
 				local_intel_to_enemies = -0.20
@@ -1596,7 +1580,7 @@ ideas = {
 			}
 			removal_cost = -1
 
-			picture = GFX_idea_chi_war_of_resistance3
+			picture = chi_war_of_resistance3
 
 			targeted_modifier = {
 				tag = GER
@@ -1632,7 +1616,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_ENG_The_Sterling_Area
+			picture = ENG_The_Sterling_Area
 			
 			modifier = {
 				consumer_goods_factor = -0.03
@@ -1663,7 +1647,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_ENG_Plan_R4
+			picture = ENG_Plan_R4
 			
 			targeted_modifier = {
 				tag = NOR
@@ -1680,7 +1664,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_GENERIC_Economic_Compromise
+			picture = GENERIC_Economic_Compromise
 			
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -1696,7 +1680,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_GENERIC_Economic_Compromise
+			picture = GENERIC_Economic_Compromise
 			
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -1713,7 +1697,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_generic_exploit_mines
+			picture = generic_exploit_mines
 			
 			modifier = {
 				political_power_gain = -0.15
@@ -1729,7 +1713,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_generic_wall_line
+			picture = generic_wall_line
 			
 			modifier = {
 				army_defence_factor = 0.1
@@ -1744,7 +1728,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_generic_exploit_mines
+			picture = generic_exploit_mines
 			
 			modifier = {
 				local_resources_factor = 0.1
@@ -1759,7 +1743,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_ENG_Commonwealth_Air_Training_Plan
+			picture = ENG_Commonwealth_Air_Training_Plan
 			
 			modifier = {
 				experience_gain_air = 0.05		
@@ -1778,7 +1762,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_ENG_Joint_Air_Training_Scheme
+			picture = ENG_Joint_Air_Training_Scheme
 			
 			modifier = {
 				experience_gain_air = 0.05
@@ -1797,7 +1781,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_tur_etatism
+			picture = tur_etatism
 			
 			modifier = {
 				cic_to_overlord_factor = 0.1
@@ -1813,7 +1797,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_spr_seize_the_gold_reserves
+			picture = spr_seize_the_gold_reserves
 			
 			modifier = {
 				consumer_goods_factor = -0.05

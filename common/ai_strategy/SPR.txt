@@ -1,0 +1,51 @@
+####################################################
+## Republican Spain
+#####################################################
+Spain_Defend_Cities = { #During Civil War
+	enable = {
+		tag = SPR
+		is_historical_focus_on = yes
+		has_global_flag = SCW_started
+	}
+	ai_strategy = {
+		type = front_control
+		strategic_region = 41
+		ordertype = front
+		execution_type = careful
+		execute_order = no
+		manual_attack = yes
+	}
+	ai_strategy = {
+		type = front_control
+		strategic_region = 268
+		ordertype = front
+		execution_type = careful
+		execute_order = no
+		manual_attack = yes
+	}
+	ai_strategy = {
+		type = front_control
+		strategic_region = 269
+		ordertype = front
+		execution_type = careful
+		execute_order = no
+		manual_attack = yes
+	}
+	ai_strategy = {
+		type = put_unit_buffers
+		ratio = 0.4
+		states = {
+			41
+			165
+			167
+			168
+			169
+			173
+			175
+			775
+			776
+			1222
+		}
+		subtract_fronts_from_need = yes
+	}
+}

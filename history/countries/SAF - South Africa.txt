@@ -28,6 +28,7 @@
 		Artillery_Range_Finding_and_Surveying_Tools = 1
 		Artillery_1916 = 1
 		### Armour Tech
+		Motorized_1916 = 1
 		Armored_Car_1911 = 1
 		Armored_Car_1916 = 1
 		Armored_Car_1926 = 1

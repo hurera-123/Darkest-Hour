@@ -8,8 +8,8 @@
  USA_Landon.1.A: "Dear Ms. Harris..."
 
  USA_Landon.2.t: "Tax Break Payoff"
- USA_Landon.2.d: ""
- USA_Landon.2.A: ""
+ USA_Landon.2.d: "With the recent passing of new tax break legislation, thousands of businesses across the nation are set to benefit from being able to keep a larger portion of their earnings instead of needing to give it to the government. We hope that this will allow for better growth across the country, as well as encouraging new investors and startups to help dig our way out of the Great Depression.\n\nWhile it is important that legislation works, some within our nation are skeptical. The Democrats, for example, are concerned that this could hamper our chances at a quick and smooth recovery, arguing that the New Deal was a better plan for long term growth. Others are also questioning whether this will help out millions of working-class citizens across the USA, but only time will answer that."
+ USA_Landon.2.A: "Read my lips: no new taxes!"
 
  USA_Landon.3.t: "Rebalancing New Deal Budget"
  USA_Landon.3.d: "”Alright, Frank, where are we at?”\n\n”I asked my staff to create some folders regarding the cost of the New Deal, its general budget, and future projections concerning national debt. I have to warn you, Mr.President, this entire report is 80 pages long, so I fear we don't have to go over every detail in this meeting. I suggest that we schedule another meeting for Thursday or Friday if you please,”\n\n”No, I need to grab this problem by the horns. The other Republicans are already breathing down my neck to throw out the New Deal in this instant. What is the summary of your report?”\n\n”Ok, I will keep it brief: The biggest factor in the entire New Deal budget and thus the largest part of our expenses is the welfare and pensions spending. Some of the conservative Republicans even accuse us of aggressively throwing money at the people to get them to go bother someone else,”\n\n”On the other hand, education spending is also tearing a big hole into the budget. The report also suggests that a lot of money is wasted on the New Deal's bureaucracy. You throw it in at the top, and it disappears towards the bottom,”\n\n”How popular are these points with the public?”\n\n”They are very popular. I think you know why,”\n\n”Dammit, we'll have to cut at least something, otherwise, we might as well declare bankruptcy now. Lemme see...”"
@@ -187,8 +187,8 @@
 
  USA_Elections_1936.4.t: "Election Night 1936"
  USA_Elections_1936.4.d: "Four years after FDR's historic landslide victory over then-President Herbert Hoover, the 1936 election has finally arrived. Much has changed since 1932, with the New Deal helping to alleviate some of our nation's problems caused by the Great Depression. Millions of people have found work as a result of this, primarily through government plans for public works on roads, dams, and highways. Despite the President's efforts, many in the country are still dissatisfied with the slow pace of recovery, which Alf Landon, the Republican nominee for President, has emphasized in his campaign.\n\nThe nation is on edge as the votes are counted and the outcome is awaited. While many predict that FDR will easily win a second term, a few polls have indicated a much closer race, with a couple even giving Alf Landon the election. The announcer says as the radio crackles..."
- USA_Elections_1936.4.A: "\"...the President has secured another term in a landslide victory!\""
- USA_Elections_1936.4.B: "\"...A stunning upset, Alf Landon is victorious!\""
+ USA_Elections_1936.4.A: "“...the President has secured another term in a landslide victory!”"
+ USA_Elections_1936.4.B: "“...A stunning upset, Alf Landon is victorious!”"
  USA_Landon_1936: "§OAlf Landon§! inaugurated as §L32nd President§!"
  USA_Roosevelt_1936: "§ORoosevelt§! inaugurated for a §LSecond Term§!"
 
@@ -232,14 +232,14 @@
  USA_SL_1944_Candidate: "§YCandidate§! : Franklin D. Roosevelt"
 
  USA_Politics.1.t: "President Roosevelt dies at Warm Springs"
- USA_Politics.1.d: "[FROM.GetNewsIcon]."
+ USA_Politics.1.d: "[FROM.GetNewsIcon]Tragic news has struck our nation today, as President Franklin Delano Roosevelt has died today in Warm Springs, Georgia, at the age of 62.\n\nThe 32nd President had been in declining health since 1940, due to chain smoking for much of his adult life. While he has done well in recent years to try and hide his poor health, the recent 1944 election campaign has highlighted his need for extended periods of rest, mainly because of his high blood pressure and coronary artery disease. The main cause of his death has been stated as an “intracerebral hemorrhage” by the attending cardiologist Dr. Howard Bruenn.\n\nRoosevelt has achieved much during his time as President, with the New Deal being the most notable of his achievements. With his public works programs and the hefty government expenditure put into the economy, millions have been lifted out of unemployment and poverty, helping to create a better and more prosperous society.\n\nWhile it is not yet known who will take his place, it is highly likely that the Vice President, Harry Truman, will become the 33rd President at a time when the world is engulfed in uncertainty."
  USA_Politics.1.A: "VP Harry S. Truman"
  USA_Politics.1.B: "Former VP Henry A. Wallace"
  USA_Politics.1.C: "General Douglas MacArthur"
 
  ### US 1940 Election Events
  USA_FDR_Wins_1940_Election: "§ORoosevelt§! inaugurated for a §LThird Term§!"
- USA_Wilkie_Wins_1940_Election: "§OWilkie§! inaugurated as §33rd LPresident§!"
+ USA_Wilkie_Wins_1940_Election: "§OWilkie§! inaugurated as §L33rd President§!"
  USA_John_Nance_Garner_Wins_1940_Election: "§OGarner§! inaugurated as §L33rd President§!"
  USA_Landon_Wins_1940_Election: "§OLandon§! inaugurated for a §LSecond Term§!!"
  
@@ -499,11 +499,11 @@
  USA_Army.8.t: "Armored Research Development Program"
  USA_Army.8.d: ""
  USA_Army.8.A: "Work with UK"
- USA_Army.8.B: "#Work with France"
+ USA_Army.8.B: "Work with France"
 
- USA_Army.9.t: "Caution: Patton!"
+ USA_Army.9.t: "Armored Research Development Program"
  USA_Army.9.d: ""
- USA_Army.9.A: ""
+ USA_Army.9.A: "We thank the USA for their cooperation!"
 
  USA_Army.10.t: "Pershing Offers his Services"
  USA_Army.10.d: "Plunged into the chaos of war once more, America has seen its fair share of hardships, which only goes to steel our resolve. However, resolve alone cannot win a battle. We require adept and experienced leadership, and though we are certainly not short-handed, a veteran officer can just as certainly be useful. John J. Pershing, a four-star General of the Great War, has recently approached the president, offering to put his retirement on hold for the good of the nation. He requests reinstatement to his original rank--certainly not an unreasonable request. The issue arises in his methodology: though Pershing offers deft action and positive results, he brings with him unparalleled losses. A rigid and traditional tactician, we cannot afford to throw our men at the enemy with such carelessness. Is America truly so deprived of officers that we might resort to these methods?"
@@ -524,7 +524,7 @@
 
  ### US Air Force Events
  USA_Air_Force.1.t: "Bringing In The Old Leatherface"
- USA_Air_Force.1.d: "Claire Lee Chennault, also known as "Old Leatherface", is a military aviator and a fierce advocate of "pursuit" or fighter-interceptor aircraft. He learned to fly in the Army Air Service during World War I and following the war he graduated from pursuit pilot training at Ellington Field, Texas, and remained in the service after it became the Air Corps in 1926. Chennault became the Chief of Pursuit Section at Air Corps Tactical School.\n\nHe has been attempting to modernize fighter tactics by emphasizing the use of airpower as a weapon. As a result, he frequently disagreed with and criticized General Joseph Stilwell for being overly reliant on infantry and underestimating the capabilities of airpower.\n\nWe have decided that Chennault is correct and that we must modernize our fighters as soon as possible in order to provide the airpower we require."
+ USA_Air_Force.1.d: "Claire Lee Chennault, also known as "Old Leatherface", is a military aviator and a fierce advocate of "pursuit" or fighter-interceptor aircraft. He learned to fly in the Army Air Service during the Great War and following the war he graduated from pursuit pilot training at Ellington Field, Texas, and remained in the service after it became the Air Corps in 1926. Chennault became the Chief of Pursuit Section at Air Corps Tactical School.\n\nHe has been attempting to modernize fighter tactics by emphasizing the use of airpower as a weapon. As a result, he frequently disagreed with and criticized General Joseph Stilwell for being overly reliant on infantry and underestimating the capabilities of airpower.\n\nWe have decided that Chennault is correct and that we must modernize our fighters as soon as possible in order to provide the airpower we require."
  USA_Air_Force.1.A: "We will dominate the skies."
 
  USA_Air_Force.2.t: "The Proper Composition Of the Air Force"
@@ -589,20 +589,20 @@
  USA_Flavor.11.A: "”You talkin' to me?”"
 
  USA_Flavor.12.t: "On Our Way"
- USA_Flavor.12.d: "[FROM.GetNewsIcon]"
- USA_Flavor.12.A: "April 12, 1934"
+ USA_Flavor.12.d: "[FROM.GetNewsIcon]Harvey Fletcher is filled with confidence as he prepares to demonstrate stereo sound to a crowd of 300 investors and reporters who have all been invited to Philadelphia to witness the high fidelity demonstration.\n\nHarvey is overjoyed as the audience is taken aback by the high-quality sound coming from the stereo. Harvey oversaw electrical sound recording research, including the first successful stereophonic recordings, the first live stereo sound transmission, and the creation of the first vinyl record, all of which contributed to a significant breakthrough in electrical sound.\n\nHarvey has accomplished so much in such a short period of time thanks to the assistance of Leopold Stokowski, conductor of the Philadelphia Orchestra."
+ USA_Flavor.12.A: "A vinyl? I should buy one"
 
  USA_Flavor.13.t: "The End of Bonnie & Clyde"
- USA_Flavor.13.d: "[FROM.GetNewsIcon]"
- USA_Flavor.13.A: "May 23, 1934"
+ USA_Flavor.13.d: "[FROM.GetNewsIcon]Newspapers are full of nothing but what happened last night, May 23. Six police officers had successfully shot dead the renowned criminals Bonnie Parker and Clyde Barrow.\n\nOn May 21, four members of the posse learned that Barrow and Parker planned to visit Ivy Methvin in Bienville Parish that evening. The posse planned an ambush on Louisiana State Highway 154, south of Gibsland, heading toward Sailes. The posse was about to give up after waiting until the next morning with no sign of the criminals when they heard a car approaching at high speed at around 9:15 a.m. on May 23. The posse had previously positioned a car in the bushes near the posse's location.\n\nThe car started to slow down, and the six cops opened fire while it was still moving. Parker was heard screaming in terror inside the car after Barrow was fatally shot in the head. The cops fired approximately 130 bullets into the car, emptying their weapons. Despite the fact that the two had survived several bullet wounds in previous encounters with the law, the shots on this day proved fatal."
+ USA_Flavor.13.A: "And so the story ends."
 
  USA_Flavor.14.t: "Al Capone In Alcatraz"
- USA_Flavor.14.d: "[FROM.GetNewsIcon]"
- USA_Flavor.14.A: "August 22, 1934"
+ USA_Flavor.14.d: "[FROM.GetNewsIcon]Mr Al Capone has been acting reasonably well thus far; he has been very competent at his jail job of stitching bottoms on shoes for eight hours a day, which is remarkable given his withdrawal symptoms.\n\nWhen Al Capone arrived at the penitentiary, I expected a fierce, violent, but wholesome mob boss, but that was not the case. While he is dangerous, he is also a complete shambles, and many of his fellow inmates regard him as having a weak personality. When he arrived, he was diagnosed with syphilis and gonorrhoea, which were bad enough, but when you add in the cocaine addiction and withdrawal symptoms, I'm surprised he hasn't gone insane.\n\nBut Al Capone is not completely defenceless; Red Rudensky, a seasoned convict and former Capone gang small-time criminal associate, has been defending him from other inmates. For unknown reasons, I and others have been ordered to defend Capone and Rudensky, though I'm pretty sure Capone bribed our boss or something.\n\nCapone may be transferred to the newly opened Alcatraz Federal Penitentiary off the coast of San Francisco, according to reports. That location appears to be a nightmare, making it ideal for that crook."
+ USA_Flavor.14.A: "I wouldn’t want to be moved there myself."
 
  USA_Flavor.15.t: "Textile Workers Strike"
- USA_Flavor.15.d: "[FROM.GetNewsIcon]"
- USA_Flavor.15.A: "September 1, 1934"
+ USA_Flavor.15.d: "[FROM.GetNewsIcon]Panic and unrest have erupted in the southern cotton mills.\n\nFollowing poor wages, hard working hours, and significant retaliation from mill owners, a force of nearly 20,000 workers went on strike in just a few days. The mill owners were caught off guard, and in just a week,  the number of textile employees on strike rose to 400,000.\n\nFor quite some time before the strike, the United Textile Workers, or UTW for short, had been promoting and demanding a minimum salary of $20 per week, union recognition in the south, and the reinstatement of workers fired for union activities.\n\nThe strike has caused the southern textile industry to close, and authorities have retaliated with violence. Numerous people have died as a result of heavy violence between union-led strikes and local authorities, and on September 6, a day of fighting in Chiquola gained the nickname "Chiquola Mill Massacre." The national guard has somewhat managed in putting an end to the strikes by inflicting heavy casualties.\n\nSo far, the strikers' fate remains unknown."
+ USA_Flavor.15.A: "Which side are you on... Which side are you on..."
 
  USA_Flavor.16.t: "Smedley Butler's Testimony"
  USA_Flavor.16.d: "[FROM.GetNewsIcon]"
@@ -661,8 +661,8 @@
  USA_Flavor.29.A: "Quite an achievement!"
 
  USA_Flavor.30.t: "Spam Introduced"
- USA_Flavor.30.d: "[FROM.GetNewsIcon]"
- USA_Flavor.30.A: "July 5, 1937"
+ USA_Flavor.30.d: "[FROM.GetNewsIcon]SPAM, a brand-new Hormel Food Corporation product, was introduced today. Spam refers to canned pork. SPAM can be served directly from the can of pre-cooked tinned meat to you and your loved ones! You don't like it cold? You can, however, heat it in your oven!\n\nSpam costs $2.62 per pound and is widely regarded as a product that will improve the lives of all families. Furthermore, spam has a long shelf life. According to rumours, Ken Daigneau, the brother of a corporate executive, received the $100 award for coming up with the name for the new product. Spam will soon be available in the United Kingdom, as well as many other European countries."
+ USA_Flavor.30.A: "The soldiers will surely enjoy this gift from Uncle Sam!"
 
  USA_Flavor.31.t: "Charges Against the Scottsboro Boys Dropped!"
  USA_Flavor.31.d: "[FROM.GetNewsIcon]The Scottsboro Boys are nine African-American teenagers, ages 12 to 19, accused in Alabama of raping two white women in 1931.\n\nOn March 25, 1931, two dozen people were "hoboing" on a freight train traveling between Chattanooga and Memphis, Tennessee, with an equal mix of African-Americans and Caucasians among the hoboes. A group of white teenage boys saw Haywood Patterson, 18, on the train and attempted to push him off, claiming it was "a white man's train." A group of white people gathered rocks and tried to force all of the black men off the train. Patterson and the other black passengers were successful in keeping the group at bay. The humiliated white teenagers jumped or were forced off the train and reported an attack by a group of black teenagers to the city's sheriff. The sheriff stopped the train and searched it and arrested the teenagers. Two young white women exited the train as well, accusing the African-American teenagers of rape. The case was heard for the first time in Scottsboro, Alabama. All but 13-year-old Roy Wright were convicted of rape and sentenced to death, despite medical evidence indicating that no rape occurred.\n\nThe case was appealed and went through several instances with the help of the Communist Party USA and the National Association for the Advancement of Colored People until it was sent to the US Supreme Court on appeal. It ruled that African-Americans had to be included on juries and ordered retrials, which resulted in charges against four of the nine defendants being dropped. The rest received sentences ranging from 75 years to death.\n\nThis incident's landmark set of legal cases deals with racism and the right to a fair trial. There was a lynch mob before the suspects were indicted, all-white juries, rushed trials, and disruptive mobs in the cases."
@@ -731,27 +731,27 @@
  USA_Flavor.46.A: "\"What they can't do these days.\""
 
  USA_Flavor.47.t: "Puss Gets the Boot"
- USA_Flavor.47.d: "[FROM.GetNewsIcon]"
- USA_Flavor.47.A: "February 20, 1940"
+ USA_Flavor.47.d: "[FROM.GetNewsIcon]Contributing further to the new field of cinema, Metro-Goldwyn-Mayer productions has released a new animated short film, Puss Gets the Boot. The film features two characters, Puss the cat and a brown mouse, who bicker and fight with each other as the cat tries to catch the mouse in more complicated ways than the last. However, the cat ends up getting “the boot” from Mammy Two Shoes, the house owner, and the mouse wins in the end. Clocking in at about nine minutes and produced by Rudolf Ising, the film has quickly become a hit among families and kids for it’s fast paced nature and silly humour. It’s unknown if the studio will green light another film following the two pets, but it’s clear that Puss Gets the Boot is a fan favourite."
+ USA_Flavor.47.A: "The cat looks like a Tom to me"
 
  USA_Flavor.48.t: "Rhythm Night Club Fire"
- USA_Flavor.48.d: "[FROM.GetNewsIcon]"
- USA_Flavor.48.A: "April 23, 1940"
+ USA_Flavor.48.d: "[FROM.GetNewsIcon]Tragedy has struck the small town of Natchez, Mississippi, as a raging fire took an estimated 200 lives at the Rhythm Night Club. The cause of the fire is still unknown, but the flame is said to have started right near the entrance of the club around 11:00 pm. The fire quickly lit the Spanish Moss hanging over the rafters as decoration and engulfed the building in a matter of minutes. Most windows of the building were locked shut, due to the improvement of sound quality from the live band, and the back doorway was padlocked shut. This left the front door as the only exit, but the fire had already blocked it, leaving hundreds trapped in the burning structure.\n\nEyewitnesses report attendees tried to break open windows, the back door, and the steel wall itself to escape, but to no avail. The band present at the time was also credited with trying to calm the crowd with music, but only two members are suspected to have made it out alive. By the time firehoses started spraying the building, the hot metal created steam so hot it burned the skin of the people inside. When the fire was extinguished fifteen minutes later, rescue workers found a pile of bodies in the back of the dancehall almost at shoulder height, most victims likely dying from smoke inhalation and trampling. The disaster only seemed to get worse, as the smell of burning flesh has spread across the entire town. Funeral and Memorial arrangements are still being planned, but many bodies have already been buried in mass graves."
+ USA_Flavor.48.A: "Jesus Christ, that’s horrific..."
 
  USA_Flavor.49.t: "McDonald's Opens in San Bernardino"
- USA_Flavor.49.d: "[FROM.GetNewsIcon]"
- USA_Flavor.49.A: "May 15, 1940"
+ USA_Flavor.49.d: "[FROM.GetNewsIcon]Richard McDonald and Maurice McDonald have announced exciting news today, as they opened up their first restaurant on 1398 North E Street in San Bernardino California, upgrading from a small airport stand the brothers ran before. Originally called The Airdrome, the restaurant sells a wide selection of delicious barbecue meals with the ease of driving in and out. The most popular item on the menu has been by far their burgers and fries, reportedly taking 80% of sales so far. A small barbecue place now, but the amount of customers lining at the grill is a golden sign of great things to come."
+ USA_Flavor.49.A: "Great, now I'm hungry."
 
  USA_Flavor.50.t: "El Centro Earthquake"
  USA_Flavor.50.d: "[FROM.GetNewsIcon]At exactly 21:35 Pacific Standard Time, a powerful earthquake spawned in the Imperial Valley, near the border of California and Mexico. Measuring at a magnitude of 6.9, the earthquake rocked the towns of Brawley, Imperial, El Centro, and Calexico, California and Mexicali, Mexico. Imperial, California is said to have taken the most damage, with nearly 80% of the buildings damaged. Numerous railroads and irrigation systems have been damaged, including the Alamo and Solfatara irrigation canals, which are now threatening cantaloupe crops growing near the canals. Smaller aftershocks are still felt as emergency personnel search for survivors.\n\nOn the bright side, seismologists at El Centro have gathered a wealth of data thanks to a seismograph placed near the epicenter, which will hopefully provide future insight into these deadly disasters."
  USA_Flavor.50.A: "Our thoughts and prayers for those affected."
 
  USA_Flavor.51.t: "First Annual Sturgis Motorcycle Rally"
- USA_Flavor.51.d: "[FROM.GetNewsIcon]Nine motorbikes lined the dirt starting line, revving their engines to excite the small crowd. The starter walked up, and after staring intently, started counting in a booming voice, one that could drown out the sound of the engines: \"3...2…\" He raised his pistol to the sky, and-\"1!\" Bam! And what seemed like the blink of an eye, the motorcyclists flew down the dirt road, officially starting the Sturgis Motorcycle Rally, also known as the \"Black Hills Classic.\"\n\nIt only felt like a day passed since Clarence \"Pappy\" Hoel and his wife Peal bought the Indian Motorcycle Franchise in Sturgis, and formed the Jackpine Gypsies Motorcycle Club. Now two years later, he's hosting a town-wide motorcycle rally.  By the end of the race, the crowds were thrilled, and everyone was having the time of their lives. Although they already had an unofficial rally last year, it was apparent that this was going to be a tradition that would last generations."
+ USA_Flavor.51.d: "[FROM.GetNewsIcon]Nine motorbikes lined the dirt starting line, revving their engines to excite the small crowd. The starter walked up, and after staring intently, started counting in a booming voice, one that could drown out the sound of the engines: \"3...2...\" He raised his pistol to the sky, and-\"1!\" Bam! And what seemed like the blink of an eye, the motorcyclists flew down the dirt road, officially starting the Sturgis Motorcycle Rally, also known as the \"Black Hills Classic.\"\n\nIt only felt like a day passed since Clarence \"Pappy\" Hoel and his wife Peal bought the Indian Motorcycle Franchise in Sturgis, and formed the Jackpine Gypsies Motorcycle Club. Now two years later, he's hosting a town-wide motorcycle rally.  By the end of the race, the crowds were thrilled, and everyone was having the time of their lives. Although they already had an unofficial rally last year, it was apparent that this was going to be a tradition that would last generations."
  USA_Flavor.51.A: "Racers, start your engines!"
 
  USA_Flavor.52.t: "Armistice Day Blizzard"
- USA_Flavor.52.d: "[FROM.GetNewsIcon]Winter decided to come early this year for the Midwest, but instead of some light snow like usual, it came in a blanket of deadly cold.\n\nA low-pressure system formed near the Pacific Northwest a few days ago. It then crossed the country and landed on the eleventh, twenty-two years after the end of World War I. The storm had no effect in the morning, as high temperatures in the upper 60s dominated the day. The weather began to deteriorate as the afternoon progressed. The cold front slammed into the warm plains, bringing heavy rain, snow, gale-force winds, and a tornado. Temperatures continued to fall into the night, resulting in a raging blizzard. Snow fell all night and into the next day in Nebraska, South Dakota, Iowa, Minnesota, Wisconsin, and Michigan. Collegeville, Minnesota received 27 inches of snow, while the Twin Cities received 16 inches.\n\nBy the morning, there were stories of life and death everywhere. Duck hunters on the Mississippi River became stranded on islands after taking time off work for spotting. Many died as a result of freezing to death or attempting to swim back into the blizzard, but survivors reported that thousands of ducks were flying away from the storm's path before it hit. No one could comprehend the ominous sign. Max Conrad and John Bean used their plane to deliver supplies to those who remained stranded.\n\nDue to blinding snow, a freight train and a passenger train collided in Watkins, Minnesota. Residents of Watkins bravely formed a human chain to guide passengers to safety. Even with these brave acts, the death toll is expected to be well over a hundred."
+ USA_Flavor.52.d: "[FROM.GetNewsIcon]Winter decided to come early this year for the Midwest, but instead of some light snow like usual, it came in a blanket of deadly cold.\n\nA low-pressure system formed near the Pacific Northwest a few days ago. It then crossed the country and landed on the eleventh, twenty-two years after the end of the Great War. The storm had no effect in the morning, as high temperatures in the upper 60s dominated the day. The weather began to deteriorate as the afternoon progressed. The cold front slammed into the warm plains, bringing heavy rain, snow, gale-force winds, and a tornado. Temperatures continued to fall into the night, resulting in a raging blizzard. Snow fell all night and into the next day in Nebraska, South Dakota, Iowa, Minnesota, Wisconsin, and Michigan. Collegeville, Minnesota received 27 inches of snow, while the Twin Cities received 16 inches.\n\nBy the morning, there were stories of life and death everywhere. Duck hunters on the Mississippi River became stranded on islands after taking time off work for spotting. Many died as a result of freezing to death or attempting to swim back into the blizzard, but survivors reported that thousands of ducks were flying away from the storm's path before it hit. No one could comprehend the ominous sign. Max Conrad and John Bean used their plane to deliver supplies to those who remained stranded.\n\nDue to blinding snow, a freight train and a passenger train collided in Watkins, Minnesota. Residents of Watkins bravely formed a human chain to guide passengers to safety. Even with these brave acts, the death toll is expected to be well over a hundred."
  USA_Flavor.52.A: "\"I'll be home for Christmas, if only in my dreams...\""
 
  USA_Flavor.53.t: "The United Service Organization"
@@ -768,7 +768,7 @@
 
  USA_Flavor.56.t: "Work Ceases on Mount Rushmore"
  USA_Flavor.56.d: "[FROM.GetNewsIcon]For centuries, monuments of grand heroes and legends have been built to honor their sacrifice, and contribution, to our society and nations. Our nation may have statues of our heroes, made of metals, scattered across the country, and with no soul point to admire. However, today will go down in history, as the greatest monument to our legends has been completed: Mount Rushmore. Carved into the granite face of the Black Hills in South Dakota, four heads now sit: George Washington,  Thomas Jefferson,  Theodore Roosevelt, and Abraham Lincoln. Sculpture Gutzon Borglum and 400 workers worked tirelessly for fourteen years to complete the project, and Borglum died of embolism before he could see all four heads sculpted to perfection. His son , Lincoln Borglum, continued the works as planned. However, the original blueprints for the sculptures to be carved head to waist were cancelled due to budget cuts. Nevertheless, we were left with a true, magnificent monument of the presidents who shaped our country's history forever."
- USA_Flavor.56.A: "Perhaps, one day, I’ll be up there."
+ USA_Flavor.56.A: "Perhaps, one day, I'll be up there."
 
  USA_Flavor.58.t: "Amelia Earhart Disappears"
  USA_Flavor.58.d: "[FROM.GetNewsIcon]The famous aviator Amelia Earhart, the first woman to complete a solo flight across the Atlantic, has disappeared along with her navigator, Fred Noonan, near Howland Island in the middle of the Pacific Ocean.\n\nThe two were attempting a flight around the entire world in their twin-engined Lockheed Electra plane when they vanished. \n\nA search for the missing aviators is now being conducted by the U.S. Navy and Coast Guard, but there is little hope of finding them."
@@ -779,8 +779,8 @@
 
  ### Navy Events
  USA_Navy.1.t: "Vinson-Trammel Act"
- USA_Navy.1.d: ""
- USA_Navy.1.A: ""
+ USA_Navy.1.d: "Today, the chairman of the House Naval Affairs Committee passed "The Vinson Trammel Act." This legislation will enable our Navy to build 102 battleships over the next eight years. This was passed to assuage public fears that the United States would launch a new naval arms race after President Roosevelt issued an executive order last year authorising the expenditure of $238 million in "emergency public work funds” to build 32 warships over the next three years.\n\nPresident Roosevelt's previously expressed reservations resulted in the adoption of this new order. Mr. Carl Vinson of Georgia State University co-sponsored this legislation to address both national and international concerns. Our navy, according to reports, has been working hard to modernise and catch up with the rest of the world. However, no naval arms race has begun, according to our administration and President Roosevelt."
+ USA_Navy.1.A: "This should halt the allegations!"
 
  USA_Navy.2.t: "Two-Ocean Navy Act"
  USA_Navy.2.d: "With the escalation of conflicts around the world, it is critical for the US Navy to be able to deter potential enemies from directly or indirectly harming US interests. As a result, a navy expansion program must be implemented. We have been authorized for an 11% tonnage increase as well as an increase in naval air capacity, thanks to the support of the Congress. With this amount of support, we should expect a significant increase in our combat fleet sizes, and we should be able to complete the program within 5 years.\n\nOnce the expansion program is completed, we will be able to deter all those who attempt to threaten our strategic interest."
@@ -845,21 +845,21 @@
  USA_Japanese_Leaders_Trial.6.A: "Even the enemy can be good for something..."
 
  USA_Japanese_Leaders_Trial.7.t: "The Trial of Seishiro Itagaki"
- USA_Japanese_Leaders_Trial.7.d: ""
- USA_Japanese_Leaders_Trial.7.A: ""
+ USA_Japanese_Leaders_Trial.7.d: "Seishiro Itagaki's trial at the International Military Tribunal for the Far East began today in Tokyo, Japan. The IMTFE found General Seishiro Itagaki of the Imperial Japanese Army guilty of numerous war crimes allegations. General Itagaki commanded the Japanese Korean Army and the Seventh Army Area in Asia. He was the commander in chief until April 7, 1945, when his troops were forced to surrender. Itagaki took part in both the Allied War escalation and the Imperial Japanese occupation of Manchuria.\n\nDuring his time as the commander of Japanese forces in Southeast Asia, he frequently permitted inhumane treatment of POWs. Seishiro Itagaki will be hanged after being found guilty of War Crimes on counts 1, 27, 29, 31, 32, 35, 36, and 54."
+ USA_Japanese_Leaders_Trial.7.A: "All war criminals must pay..."
 
  USA_Japanese_Leaders_Trial.8.t: "The Trial of Heitaro Kimura"
- USA_Japanese_Leaders_Trial.8.d: ""
- USA_Japanese_Leaders_Trial.8.A: ""
+ USA_Japanese_Leaders_Trial.8.d: "General Heitaro Kimura of the Imperial Japanese Army was found guilty of numerous war crimes, including crimes against humanity and crimes against peace, by the International Military Tribunal for the Far East today.\n\nFollowing the Battle of Imphal, Heitaro became the Commander in Chief of the Burma Army Area. He was then held accountable for these numerous offences. Counts 1, 27, 29, 31, 32, 54, and 54 of the War Crimes Act are filed against Heitaro Kimura. He will be hanged."
+ USA_Japanese_Leaders_Trial.8.A: "Another war criminal meets justice."
 
  USA_Japanese_Leaders_Trial.9.t: "The Imperial Princes"
- USA_Japanese_Leaders_Trial.9.d: ""
- USA_Japanese_Leaders_Trial.9.A: "No man is too important to answer for his crimes"
- USA_Japanese_Leaders_Trial.9.B: "We can't afford to destabilize Japan"
+ USA_Japanese_Leaders_Trial.9.d: "The Japanese Army and its scientists were responsible for some of the worst things that ever happened on the Asian continent during the long years of the Pacific War. Some of these horrors included human experimentation programmes. The results of experiments aimed at testing human resistance to viruses, epidemics, or radiation are horrifying to see or even read.\n\nThe results of these experiments, which were partially funded and supplied by Tojo's government and his associates, were condemned by the Allies immediately after their discovery and are now being dismantled by joint Chinese and American forces in the region.\n\nA macabre discovery, however, has been made: the list of those responsible. Members of the Imperial Japanese Family have also been found on this list. Naruhiko, Prince Higashikuni; Yasuhito, Prince Chichibu; Takahito, Prince Mikasa; and Tsuneyoshi, Prince Takeda are among them. They are all involved in these crimes, in some way. The occupation forces are now faced with a dilemma: should they be tried for their crimes or forgiven because of their dynastic ties?"
+ USA_Japanese_Leaders_Trial.9.A: "No exceptions: they will be judged like all the others!"
+ USA_Japanese_Leaders_Trial.9.B: "We shouldn't alienate the imperial family, let them go free..."
 
  USA_Japanese_Leaders_Trial.10.t: "The Trial of the Princes"
- USA_Japanese_Leaders_Trial.10.d: ""
- USA_Japanese_Leaders_Trial.10.A: ""
+ USA_Japanese_Leaders_Trial.10.d: "Today, the court issued a special ruling: the Imperial Princes were sentenced for their ties to the Japanese atrocities in China. Naruhiko, Prince Higashikuni; Yasuhito, Prince Chichibu; Takahito, Prince Mikasa; and Tsuneyoshi, Prince Takeda were the accused.\n\nFirst, due to their lack of knowledge about the situation, Princes Naruhiko and Tsuneyoshi were sentenced to prison, which was later commuted to house arrest, in this case inside the royal palace in Tokyo.\n\nSecond, Prince Takahito, who was accused of knowing about the events but not being directly involved, was sentenced to ten years in prison with no possibility of commutation.\n\nFinally, Prince Yasuhito, who is accused of directly participating in some of the experiences. Despite his arguments that he has tuberculosis and thus should suffer no further harm from this war, the Emperor's Showa oldest brother was sentenced to death, and he now awaits his execution by hanging, which is expected after the trial concludes."
+ USA_Japanese_Leaders_Trial.10.A: "They got what they deserved, and justice has been done."
 
  USA_Japanese_Leaders_Trial.11.t: "The Trial of Akira Muto"
  USA_Japanese_Leaders_Trial.11.d: "Akira Muto is a well-known Japanese general as well as a war criminal. He was largely responsible for the rape of Nanking and the persecution of Philipine and Chinese prisoners of war and civilians.\n\nThe judges found Muto guilty of execution of a common plan or conspiracy to wage wars of aggression, and war or wars in violation of international law, waging unprovoked war on China, waging aggressive war against the United States of America, waging aggressive war against the British Commonwealth (Crown colonies and protectorates of the United Kingdom in the Far East and South Asia, Australia and New Zealand), and waging aggressive war against the Netherlands (Dutch East Indies). He will be sentenced to death by hanging at Sugamo Prison."
@@ -870,12 +870,12 @@
  USA_Japanese_Leaders_Trial.12.A: "Finally the \"Razor\" has faced justice..."
 
  USA_Japanese_Leaders_Trial.13.t: "The Sentences Are Given"
- USA_Japanese_Leaders_Trial.13.d: ""
- USA_Japanese_Leaders_Trial.13.A: ""
+ USA_Japanese_Leaders_Trial.13.d: "After months of deliberation and thousands of pages of notes, opinions, and other evidence, the judges are ready to deliver their verdict to the hundreds of accused. Even the imperial family had been accused of involvement, but despite their presence, one figure was conspicuously absent throughout the trial: Emperor Showa Hirohito.\n\nFor some, such as Shumei Okawa, the charges were dropped after our doctors determined that he was mentally unfit to stand trial. Yosuke Matsuoka and Osami Nagano died of natural causes during the trial, and their charges were also dropped.\n\nSentences have been handed down on either side. Six people have been sentenced to death for war crimes, crimes against humanity, and crimes against peace. They will be hanged once the trials are completed. Iwane Matsui, one of the defendants, was also sentenced to death for war crimes and crimes against humanity. He will also be hanged once the trials are completed.\n\nFinally, six defendants will spend the rest of their lives in prison due to their lack of involvement or knowledge of the situation during the operations.\n\nThose sentenced to death will be executed soon at Sugamo Prison. To oversee the process, an Allied Council will be formed."
+ USA_Japanese_Leaders_Trial.13.A: "Justice has finally been done. The war against human horror ends."
 
  USA_Japanese_Leaders_Trial.14.t: "The End of The Tokyo Trials"
- USA_Japanese_Leaders_Trial.14.d: ""
- USA_Japanese_Leaders_Trial.14.A: ""
+ USA_Japanese_Leaders_Trial.14.d: "Today, after months of deliberations and talks between the two parties, the Tokyo Trials have come to an end.\n\nAlthough they were hesitant at first, the Japanese government accepted the verdict of the Military Tribunal of the Far East, which was in charge of the trials. A few articles have been written, and among them, Japan accepts all of those verdicts, as well as full support and provision of buildings for prison sentences and executions.\n\nSome argue that the government accepts suppressing the rights to grant clemency, reduce sentences, or even grant parole to those prisoners because of their crimes against humanity, thereby "taking away their right to humanity," as stated by an American representative.\n\nAs the trials come to an end, so does this bloody and painful chapter in Asia's history, and the region's future is irreversibly altered as a result."
+ USA_Japanese_Leaders_Trial.14.A: "Let’s pray that we never have to take part in such trials again."
 
  #Cash and Carry Events
  USA_Cash_and_Carry.1.t: "The USA Offers Fighters"
@@ -892,17 +892,17 @@
  USA_Cash_and_Carry.3.A: "Now all the Brits have to do is tow them to Canada."
 
  USA_Cash_and_Carry.4.t: "The USA Offers Weapons"
- USA_Cash_and_Carry.4.d: ""
- USA_Cash_and_Carry.4.A: "We'll take whatever we can get!"
- USA_Cash_and_Carry.4.B: "We will have to pass, sorry."
+ USA_Cash_and_Carry.4.d: "The US has just sent a coded telegram inquiring about the possibility of them supplying weapons for our war. They are doing this to aid in the defence of democracy around the world against the massive threat posed by authoritarian powers.\n\nArmed assistance from the United States would undoubtedly be of great help to us, as weapon production could be hampered at any time during the war by enemy attacks. It would also enable us to get closer to them and strengthen ties between our two countries.\n\nAlternatively, we could decline their assistance in order to prevent American influence from spreading too far after the war. When we win, they may claim that they were the ones who kept us afloat, implying that they played a larger role than they actually did.\n\nSo, what should we do? A single decision can tip the balance of a war, and a single error can lead to total defeat."
+ USA_Cash_and_Carry.4.A: "We need those weapons, and we need them now."
+ USA_Cash_and_Carry.4.B: "We will not be subverted by American influence!"
 
  USA_Cash_and_Carry.5.t: "[From.GetName] Declines"
- USA_Cash_and_Carry.5.d: ""
- USA_Cash_and_Carry.5.A: "Shame."
+ USA_Cash_and_Carry.5.d: "[From.GetName] has refused to accept our assistance, and as such, we will not be providing any sort of weaponry to help their war efforts.\n\nThis is an unfortunate response, as we feel this decision will not benefit either side. Their refusal means that they could struggle to ensure that their forces have enough weapons, which could severely affect their combat efficiency. It also means that we will not be able to properly show ourselves as a force for the protection of democracy around the world.\n\nHowever, if that is their choice, we must abide by it, and perhaps send these weapons to other nations that are more likely to accept them."
+ USA_Cash_and_Carry.5.A: "Don’t come crying to us when your nation has fallen!"
 
  USA_Cash_and_Carry.6.t: "[From.GetName] Accepts"
- USA_Cash_and_Carry.6.d: ""
- USA_Cash_and_Carry.6.A: "They need Guns, from America they will have Guns."
+ USA_Cash_and_Carry.6.d: "[From.GetName] has graciously accepted our assistance, hoping that our weapons will soon reach the front lines and assist them in winning the war.\n\nThis delighted us, and as soon as the telegraph arrived, we began preparing shipments of weapons to be sent, demonstrating our genuine willingness to assist them. Their acceptance has enabled us to export our weapons, allowing us to profit from them and possibly reap some post-war benefits when they begin rebuilding, as we will be regarded as a reliable partner.\n\nWith our help, they will surely be able to put up a better fight against their adversaries."
+ USA_Cash_and_Carry.6.A: "With Uncle Sam by your side, you have nothing to fear!"
 
  USA_Department_of_War.1.t: "The Manhattan Project"
  USA_Department_of_War.1.d: "Philip Turner's job is straightforward. He spends the entire day standing in front of a gauge, and when it reaches a hundred, he opens a valve to release the pressure in the pipe. When all of the pressure has been released, he tightens the valve again and repeats the process. He does have to wear special shielding to do the work, but the pay is good and the work is simple. Philip is unsure of the purpose of his work. He is not required to understand.\n\nIn reality, Philip is enriching uranium for a project at Los Alamos National Laboratory in the American West. The project, officially codenamed Development of Substitute Materials, was authorised earlier this year by President Roosevelt to pursue two lines of development exploring the potential explosive capabilities of uranium and the recently discovered plutonium. It is also in charge of gathering information on the German nuclear energy project.\n\nCertain voices in the scientific community have been debating the feasibility of such a uranium bomb for several years. It has been suggested that a bomb of this type could harness the explosive power of thousands of tonnes of TNT. As of now, the project's ability to produce any significant results is unknown. Much of the money is currently being spent on just building the facilities needed to enrich uranium to the level required for research. However, if information about the German nuclear project is correct, there may be a real need to develop this weapon."
@@ -1067,7 +1067,7 @@
 
  #### Defence Against Agression
  USA_Defence_Against_Agression_Category: "A Defense Against Aggression"
- USA_Defence_Against_Agression_Category_desc: ""
+ USA_Defence_Against_Agression_Category_desc: "The world's impending total war is becoming clearer by the day. While we must do everything possible to keep our people safe from the dangers of another war, we must also ensure that we are ready to fight if our great nation's security and strength are ever threatened.\n\nNothing gets done in this country without the people's support, so rallying their support and gradually stripping away their isolationist mentality should be the first step in preparing our country for war. We will launch propaganda campaigns to draw attention to the fact that, whether we like it or not, war is already being waged outside the United States, and that it may one day reach American shores as well."
 
  USA_Defence_Against_Agression_Mission: "A Defense Against Aggression"
  USA_Defence_Against_Agression_Mission_desc: ""
@@ -1117,7 +1117,7 @@
 
  ### Reciprocal Deals
  USA_Reciprocal_Deals_Category: "Reciprocal Deals"
- USA_Reciprocal_Deals_Category_desc: "\n\n\n£decision_header_USA_Reciprocal_Deals£\n\n\n\n"
+ USA_Reciprocal_Deals_Category_desc: "\n\n\n£decision_header_USA_Reciprocal_Deals£\n\n\n\nOur trade with the international community had previously suffered greatly due to the imposition of various tariffs and duties on imported and exported goods. However, we have recently been able to reduce these taxes and resume international trade.\n\nNow is the time to approach the various nations of the world and strike deals in which we lower our tariffs on imported goods in exchange for lower taxes on our exported goods. This will undoubtedly revitalize global trade and reinvigorate the American economy."
  USA_Doing_Reciprocal_Deal: "Doing a Trade Agreement"
  USA_Trade_Agreement_Reciprocal: "Reciprocal Trade Agreement"
  USA_Trade_Agreement_Reciprocal_opinion: "Reciprocal Trade Agreement"
@@ -1159,7 +1159,7 @@
 
  ### Landon's Private Investment Decisions
  USA_Landon_Private_Investments_Category: "Landon's Private Investments"
- USA_Landon_Private_Investments_Category_desc: "\n\n\n£decision_header_USA_Landons_Private_Investments£\n\n\n\n"
+ USA_Landon_Private_Investments_Category_desc: "\n\n\n£decision_header_USA_Landons_Private_Investments£\n\n\n\nPrivate companies and businesses are the lifeblood of the American economy as a capitalist nation. Many world-famous companies have their roots in American soil, and they undoubtedly contribute to America's image as a land of opportunity and wealth. Our great nation would not have been as prosperous and influential as it is today without entrepreneurship and investment.\n\nWhile previous administrations recognized the significance of these initiatives and supported them in theory, it has become painfully clear that this support has not been translated into practical action. This cannot continue. As a responsible government, we will now invest in these businesses to ensure their success, and thus the success of the American nation as a whole."
  USA_Encourage_Investment_In_Ford_Motors: "Encourage Investment In Ford Motors"
  USA_Encourage_Investment_In_Southwestern_Bell: "Encourage Investment In Southwestern Bell"
  USA_Encourage_Investment_In_US_Steel: "Encourage Investment In U.S. Steel"
@@ -1168,7 +1168,7 @@
 
  ### USACE Projects
  USA_USACE_Projects_Category: "USACE Projects"
- USA_USACE_Projects_Category_desc: "\n\n\n£decision_header_USA_USACE£\n\n\n\n"
+ USA_USACE_Projects_Category_desc: "\n\n\n£decision_header_USA_USACE£\n\n\n\nThe USACE has long been known for its adaptability and resourcefulness. Their official mission is to "deliver vital public and military engineering services; partnering in peace and war to strengthen our nation's security, energize the economy, and reduce disaster risks," and they have made significant progress in this regard for many years.\n\nWe will use their services to literally and metaphorically build up the United States. With their assistance, we will launch large-scale construction projects across the country, ranging from national infrastructure to military installations and resource extraction facilities. These will strengthen our economy and improve our standing on the global stage."
  USA_USACE_Projects_In_the_Northeast: "USACE Projects in the Northeast"
  USA_USACE_Projects_In_the_South: "USACE Projects in the South"
  USA_USACE_Projects_In_the_Midwest: "USACE Projects in the Midwest"
@@ -1184,7 +1184,7 @@
 
  ### Military Rearmament
  USA_Military_Rearmament_1940_Category: "Military Rearmament"
- USA_Military_Rearmament_1940_Category_desc: "\n\n\n£decision_header_USA_Military_Rearmament£\n\n\n\n§RAttention every decision will be selectable only two times!§!"
+ USA_Military_Rearmament_1940_Category_desc: "\n\n\n£decision_header_USA_Military_Rearmament£\n\n\n\nThe United States' strong industrial base was on display during the Great War, with our country arming the Entente in their fight against the Central Powers. However, with the end of the Great War and the Great Depression choking the American economy, our military industry has gradually fallen behind that of other world powers, leading many to believe that the US will be unable to arm itself or its allies if a large conflict erupts.\n\nObviously, this is not the case. Our industrial base is still as strong as ever, and if pushed hard enough, it could very well arm every single democratic nation in the world in their fight against tyranny. Now is the time to make that push and shift our manufacturing focus from consumer goods to weapons and ammunition.\n\n§RAttention every decision will be selectable only two times!§!"
  USA_Focus_on_Assembling_Infantry_And_Support_Weapons: "Focus on Assembling Infantry and Support Weapons"
  USA_Focus_on_Making_Big_Guns: "Focus on Making Big Guns"
  USA_Focus_on_Manufacturing_Armoured_Vehicles: "Focus on Manufacturing Armored Vehicles"
@@ -1196,7 +1196,7 @@
 
  ### Office of Coordination of Inter-American Affairs
  USA_The_Office_of_the_Coordinator_of_Inter_American_Affairs_Category: "The Office of the Coordinator of Inter-American Affairs"
- USA_The_Office_of_the_Coordinator_of_Inter_American_Affairs_Category_desc: "\n\n\n£decision_header_USA_The_Office_of_the_Coordinator_of_Inter_American_Affairs£\n\n\n\n"
+ USA_The_Office_of_the_Coordinator_of_Inter_American_Affairs_Category_desc: "\n\n\n£decision_header_USA_The_Office_of_the_Coordinator_of_Inter_American_Affairs£\n\n\n\nPresident James Monroe articulated a doctrine of separation between the Old and New Worlds over a century ago. Recognizing that a threat to any American nation was a threat to the United States, he urged Europe to stay away from the Americas. However, it has now been revealed that the Axis powers have been trying to influence various Latin American nations in order to gain their loyalty and possibly use them as a base to launch attacks on American soil.\n\nThis threat cannot be ignored any longer. We will try to counter Axis propaganda in the Americas and ensure the solidarity of all American nations in our struggle against war and violent ideologies."
  USA_Counter_Foreign_Influences_In_Latin_America: "Counter Foreign Influences in Latin America"
  USA_Improve_US_Latin_American_Relations: "Improve US-Latin American Relations"
  USA_Improve_US_Latin_American_Relations_opinion: "Improve US-Latin American Relations"
@@ -1236,7 +1236,7 @@
 
  ### De-Militarization
  USA_Gradual_Occupied_De_Militarization_Category: "Gradual Occupied De-Militarization"
- USA_Gradual_Occupied_De_Militarization_Category_desc: ""
+ USA_Gradual_Occupied_De_Militarization_Category_desc: "It is well known that the Nazis prioritized war and global dominance. As a result, the Nazis had been preparing the German military and the German economy for war for nearly two decades. As a byproduct, despite defeat, the German nation remains heavily militarized.\n\nWe can't start any reconstruction programs or rally the German people's support as long as the country is heavily militarized. Therefore, we will now begin the demilitarization of the German nation, beginning with the people and progressing to the economy and industrial base."
  USA_Ask_To_Fill_In_Questionnaires: "Ask to Fill in Questionnaires"
  USA_Verify_Claims_of_Participation: "Verify Claims of Participation"
  USA_Take_Control_of_the_German_Media: "Take Control of the German Media"
@@ -1248,7 +1248,7 @@
 
 ### Cash and Carry
 USA_Cash_and_Carry_Category: "Cash and Carry"
-USA_Cash_and_Carry_Category_desc: "\n\n\n£decision_header_USA_Cash_and_Carry£\n\n\n\n"
+USA_Cash_and_Carry_Category_desc: "\n\n\n£decision_header_USA_Cash_and_Carry£\n\n\n\nWhile our country values neutrality, it is becoming increasingly clear that absolute neutrality is an impossibility. With war raging in Europe and Asia, many nations are now facing the threat of tyranny in their homelands and are lacking the necessary materials and supplies to fight for their freedom and liberty.\n\nIt is our responsibility, as the self-proclaimed "Arsenal of Democracy," to assist our fellow democracies in their struggle. Although the Neutrality Acts have severely limited our options, we can still use the Cash and Carry clause to provide some assistance to these countries. American weapons will protect liberty around the world!"
 USA_Sell_Fighters_to_UK: "Sell Fighters to UK"
 USA_Send_Aid_to_China: "Send Aid to China"
 USA_Send_Aid_to_FRA: "Send Aid to France"
@@ -1271,7 +1271,7 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
 
 ### OSS
  USA_OSS_Category: "The Office of Strategic Services"
- USA_OSS_Category_desc: "\n\n\n£decision_header_USA_The_Office_of_Strategic_Services£\n\n\n\n"
+ USA_OSS_Category_desc: "\n\n\n£decision_header_USA_The_Office_of_Strategic_Services£\n\n\n\nIn the past, the United States was severely lacking in intelligence. While many nations developed extensive intelligence agencies to monitor every aspect of their nation and collect information from hostile nations, US intelligence remained decentralized and inefficient, posing a significant threat to national security. The Office of Strategic Services was established with these interests in mind.\n\nWe can now keep a better eye on both the domestic and international situation thanks to a centralized intelligence agency. The OSS continues to work tirelessly to protect American citizens and safeguard the United States."
  USA_Sow_Distrust: "Sow Distrust Among our Enemies' Population"
  USA_Sow_Distrust_cost: "£command_power §Y10§!"
  USA_Sow_Distrust_cost_blocked: "£command_power §R10§!"
@@ -1289,7 +1289,7 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
  USA_War_Plans_2_cost_blocked: "£command_power §R20§!"
 ### War Plans
  USA_War_Plans_Category: "The War Plans Division"
- USA_War_Plans_Category_desc: "\n\n\n£decision_header_USA_War_Plans£\n\n\n\n"
+ USA_War_Plans_Category_desc: "\n\n\n£decision_header_USA_War_Plans£\n\n\n\nhe American people's hard work and ingenuity have made the country one of the strongest in the world. There are, however, other major powers in the world. While we have been able to develop positive relationships with many of them, this does not always have to be the case. As a major power, the United States is constantly threatened by foreign attack.\n\nAs a result, the United States Armed Forces have created a number of color-coded war plans that outline potential strategies for a variety of hypothetical war scenarios. Now that these scenarios have transpired, we can use the invaluable knowledge provided by these war plans to strike our enemies and ensure an American victory!"
  USA_War_Plan_Black: "Enact War Plan Black"
  USA_War_Plan_Red: "Enact War Plan Red"
  USA_War_Plan_Gold: "Enact War Plan Gold"
@@ -1310,7 +1310,7 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
 
 ### Rainbow Plans
  USA_The_Rainbow_Plans_Category: "The Rainbow Plans"
- USA_The_Rainbow_Plans_Category_desc: "\n\n\n£decision_header_USA_War_Plans£\n\n\n\n"
+ USA_The_Rainbow_Plans_Category_desc: "\n\n\n£decision_header_USA_War_Plans£\n\n\n\nWhen events in Europe and Asia came to a head, our war planners realized that the United States might have to fight on multiple fronts across continents. The color-coded War Plans were ineffective in this regard because they were primarily focused on a single nation. As a result, they devised the so-called "Rainbow Plans," which foresaw and prepared for hemispheric warfare.\n\nNow that these scenarios have played out, we can use the invaluable information provided by these plans to strike our adversaries and ensure an American victory!"
  USA_Rainbow_1: "Enact Rainbow 1"
  USA_Rainbow_2: "Enact Rainbow 2"
  USA_Rainbow_3: "Enact Rainbow 3"
@@ -1320,7 +1320,7 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
 
 ### Air War Plans
  USA_Air_War_Plans_Division_Category: "Air War Plans Division"
- USA_Air_War_Plans_Division_Category_desc: "\n\n\n£decision_header_USA_Air_War_Plans_Division£\n\n\n\n"
+ USA_Air_War_Plans_Division_Category_desc: "\n\n\n£decision_header_USA_Air_War_Plans_Division£\n\n\n\n"Air superiority is the ultimate expression of military power," Prime Minister Churchill once said. It was crystal clear that control of the skies was required to achieve military victory, and as such, strengthening our aerial forces was required to ensure the USA's survival and victory.\n\nWith this in mind, an Air War Plans Division was established, and they have now developed various plans to ensure US air superiority in the various theatres of the war. These plans, which cover everything from production figures to details about offensive operations across continents, call for a complete overhaul of the US Air Force. If we stick to these plans, there is no doubt that we will win and that liberty will triumph in this fight against tyranny!"
  USA_Prepare_AWPD_1: "Prepare AWPD-1"
  USA_Enact_AWPD_1: "Enact AWPD-1"
  USA_Improve_AWPD_1: "Improve AWPD-1"
@@ -1335,7 +1335,7 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
 
  ### Filipino Situation
  USA_PHI_Situation_Category: "The Filipino Situation"
- USA_PHI_Situation_Category_desc: "\n\n\n£decision_header_USA_Filipino_Situation£\n\n\n\n"
+ USA_PHI_Situation_Category_desc: "\n\n\n£decision_header_USA_Filipino_Situation£\n\n\n\nEven though the majority of Filipinos recognize that the Philippine Islands rightfully belong to the United States, some continue to oppose their incorporation into our great nation. While these nationalistic elements appear to be scattered across the country, there is still the possibility that they will form a large network and one day overthrow the legitimate Filipino government.\n\nTo prevent the Philippines from devolving into anarchy and tyranny, we will root out these nationalists, destroy their networks, and crack down on so-called "independence" movements."
  USA_Reexamine_Dorr_V_USA: "Re-examine Dorr v. United States"
  USA_Reexamine_Dorr_V_USA.tt: "§YThis is but the first step in reversing the Insular Status of the Philippine Islands.§!"
  USA_Repeal_Tariffs_on_Filipino_Trade: "Repeal Tariffs on Filipino Trade"
@@ -1564,6 +1564,12 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
 
  ### AWPD-42
  USA_AWPD_42: "AWPD-42"
+
+ USA_War_Research_Budget: "War Research Budget"
+ USA_American_Drill: "American Drill"
+ USA_Enlarged_Military_Budget: "Enlarged Military Budget"
+ USA_Live_Free_or_Die: "Live Free or Die"
+ USA_Expanded_Office_of_War_Information: "Expanded Office of War Information"
 #########################################################################
 #  United States Focuses
 ######################################################################
@@ -1990,31 +1996,47 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
 
  ### 1936 - Landon
  USA_Landon_Boom: "The Landon Boom"
-
+ USA_Landon_Boom_desc: ""
  USA_Fair_Compromise: "A Fair Compromise"
  USA_Fair_Compromise_desc: "The New Deal proved itself to be rather effective during the former President's tenure, especially at relieving some of the economic pain for those who were out of work. However, despite its relative success, the time has come to replace it with something that will work for not just the underprivileged, but also for the enterprising businessmen of the future.\n\nOf course, we don't intend to completely tear apart all the government programs and legislation that was drafted over the past four years, since the Depression continues to leave its mark on the nation, but the initial emergency has passed.\n\nWe must now look to strike a fair compromise across a wider area of the political spectrum, and cut down on the considerable waste and inefficiency of certain facets of the New Deal, crafting a more business-friendly approach in order to allow for the endeavours of the American people to bring us out of this crisis stronger than ever."
-
  USA_End_Economic_Hostility: "End Economic Hostility"
+ USA_End_Economic_Hostility_desc: ""
  USA_Encourage_Private_Investment: "Encourage Private Investment"
+ USA_Encourage_Private_Investment_desc: ""
  USA_Cut_Welfare_and_Pension_Spending: "Cut Welfare and Pension Spending"
- USA_Begin_to_Balance_Budget: "Begin to Balance Budget"
- USA_Implement_Tax_Break: "Implement Tax Break"
+ USA_Cut_Welfare_and_Pension_Spending_desc: ""
+ USA_Begin_to_Balance_Budget: "Begin to Balance the Budget"
+ USA_Begin_to_Balance_Budget_desc: ""
+ USA_Implement_Tax_Break: "Implement Tax Breaks"
+ USA_Implement_Tax_Break_desc: ""
  USA_Support_Small_Business: "Support Small Business"
- USA_Lower_Tax_Burden: "Lower Tax Burden"
- USA_Soften_Regulations: "Soften Regulation"
+ USA_Support_Small_Business_desc: ""
+ USA_Lower_Tax_Burden: "Lower the Tax Burden"
+ USA_Lower_Tax_Burden_desc: ""
+ USA_Soften_Regulations: "Soften Regulations"
+ USA_Soften_Regulations_desc: ""
  USA_Shift_to_Fiscal_Conservatism: "Shift to Fiscal Conservatism"
+ USA_Shift_to_Fiscal_Conservatism_desc: ""
  USA_Continue_the_Compromise: "Continue the Compromise"
+ USA_Continue_the_Compromise_desc: ""
  USA_Make_Publc_Works_Private: "Make Public Works Private"
- USA_Empower_National_Civic_Federation: "Empower National Civic Federation"
- USA_Implement_Protectionist_Tarrifs: "Implement Protectionist Tarifs"
- USA_Support_Gas_Companies: "Support Gas Companies"
- USA_Reform_Tax_Code: "Reform Tax Code"
- USA_Fair_Labor_Management_Relations: "Fair Labor Management Relations"
-
- USA_Get_The_Party_Fall_In_Line: "Get the Party Fall in Line"
- 
+ USA_Make_Publc_Works_Private_desc: ""
+ USA_Empower_National_Civic_Federation: "Empower the National Civic Federation"
+ USA_Empower_National_Civic_Federation_desc: ""
+ USA_Implement_Protectionist_Tarrifs: "Implement Protectionist Tariffs"
+ USA_Implement_Protectionist_Tarrifs_desc: ""
+ USA_Support_Gas_Companies: "Support the Gas Companies"
+ USA_Support_Gas_Companies_desc: ""
+ USA_Reform_Tax_Code: "Reform the Tax Code"
+ USA_Reform_Tax_Code_desc: ""
+ USA_Fair_Labor_Management_Relations: "Fair Labor-Management Relations"
+ USA_Fair_Labor_Management_Relations_desc: ""
+ USA_Get_The_Party_Fall_In_Line: "Get the Party to Fall in Line"
+ USA_Get_The_Party_Fall_In_Line_desc: ""
  USA_Work_Acroos_the_Aisle: "Work Across the Aisle"
+ USA_Work_Acroos_the_Aisle_desc: ""
  USA_New_Threats_to_the_World: "New Threats to the World"
+ USA_New_Threats_to_the_World_desc: ""
  ### 1940 Roosevelt
  USA_Better_A_Third_Termer_Than_A_Third_Rater: "Better a Third Termer than a Third Rater"
  USA_Better_A_Third_Termer_Than_A_Third_Rater_desc: ""
@@ -2032,7 +2054,7 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
  USA_the_Inevitable_War_Must_Be_Paid_desc: ""
  USA_Rearm_The_Military: "Rearm the Military"
  USA_Rearm_The_Military_desc: ""
- USA_Land_Lease_Act: "Land Lease Act"
+ USA_Land_Lease_Act: "The Lend-Lease Act"
  USA_Land_Lease_Act_desc: ""
  USA_Office_of_Coordinator_of_Inter_American_Affairs: "Office of Coordinator of Inter-American Affairs"
  USA_Office_of_Coordinator_of_Inter_American_Affairs_desc: ""
@@ -2062,35 +2084,67 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
  USA_Haven_For_Scientists_desc: ""
  ### 1940 Wilkie
  USA_Theres_No_Indispensible_Man: "There's No Indispensible Man"
+ USA_Theres_No_Indispensible_Man_desc: ""
  USA_Strengthen_Social_Security: "Strengthen Social Security"
+ USA_Strengthen_Social_Security_desc: ""
  USA_Prepare_Aid_Packages: "Prepare Aid Packages"
+ USA_Prepare_Aid_Packages_desc: ""
  USA_Slash_Taxes: "Slash Taxes"
+ USA_Slash_Taxes_desc: ""
  USA_Streamline_the_New_Deal: "Streamline the New Deal"
+ USA_Streamline_the_New_Deal_desc: ""
  USA_Begin_to_Rearm: "Begin to Rearm"
+ USA_Begin_to_Rearm_desc: ""
  USA_Get_the_People_On_Our_Side: "Get the People On Our Side"
+ USA_Get_the_People_On_Our_Side_desc: ""
  USA_Loosen_the_Noose_of_Neutrality: "Loosen the Noose of Neutrality"
+ USA_Loosen_the_Noose_of_Neutrality_desc: ""
  USA_Enlarge_Military_Industry: "Enlarge Military Industry"
+ USA_Enlarge_Military_Industry_desc: ""
  USA_An_Abrupt_Awakening: "An Abrupt Awakening"
+ USA_An_Abrupt_Awakening_desc: ""
  USA_Coordinate_Our_Resources: "Coordinate Our Resources"
+ USA_Coordinate_Our_Resources_desc: ""
  USA_Play_Catch_Up: "Play Catch Up"
+ USA_Play_Catch_Up_desc: ""
  USA_Get_the_People_to_Work: "Get the People to Work"
+ USA_Get_the_People_to_Work_desc: ""
  USA_Turn_the_People_Against_the_Enemy: "Turn the People Against the Enemy"
- USA_Invoke_the_Line_of_Succession: "Invoke the Line of Succession"
+ USA_Turn_the_People_Against_the_Enemy_desc: ""
+ USA_McNarys_Farm_Plan: "McNary's Farm Plan"
+ USA_McNarys_Farm_Plan_desc: ""
+ USA_In_Memoriam: "In Memoriam"
+ USA_McNarys_Farm_Plan_desc: ""
  USA_Disaster_Strikes_Twice: "Disaster Strikes Twice"
+ USA_Disaster_Strikes_Twice_desc: ""
  USA_We_Shall_Keep_Fighting: "We Shall Keep Fighting"
+ USA_We_Shall_Keep_Fighting_desc: ""
  USA_Propagate_Pro_War_Sentiments: "Propagate Pro War Sentiments"
+ USA_Propagate_Pro_War_Sentiments_desc: ""
  USA_Strengthen_the_War_Machine: "Strengthen the War Machine"
+ USA_Strengthen_the_War_Machine_desc: ""
  USA_The_Military_Industrial_Complex: "The Military Industrial Complex"
+ USA_The_Military_Industrial_Complex_desc: ""
  USA_Enlarge_the_Research_Budget: "Enlarge the Research Budget"
- USA_Increase_Counter_Espionage_Funding: "Increase Counter Espionage Funding"
+ USA_Enlarge_the_Research_Budget-desc: ""
+ USA_A_Necessary_Evil: "A Necessary Evil"
+ USA_A_Necessary_Evil_desc: ""
  USA_Complete_Mobilization: "Complete Mobilization"
+ USA_Complete_Mobilization_desc: ""
  USA_A_Return_to_Isolation: "A Return to Isolation"
+ USA_A_Return_to_Isolation_desc: ""
  USA_Assure_the_People: "Assure the People"
+ USA_Assure_the_People_desc: ""
  USA_Tear_Up_the_New_Deal: "Tear Up the New Deal"
+ USA_Tear_Up_the_New_Deal_desc: ""
  USA_Consolidate_the_Conservative_Coalition: "Consolidate the Conservative Coalition"
+ USA_Consolidate_the_Conservative_Coalition_desc: ""
  USA_Tax_Cuts_For_Businesses: "Tax Cuts for Businesses"
+ USA_Tax_Cuts_For_Businesses_desc: ""
  USA_Weaken_the_National_Labor_Relations_Board: "Weaken the National Labor Relations Board"
+ USA_Weaken_the_National_Labor_Relations_Board_desc: ""
  USA_For_the_Good_of_the_Nation: "For the Good of the Nation"
+ USA_For_the_Good_of_the_Nation_desc: ""
  ### 1940 John Nance Garner
  USA_Return_to_Democratic_Establishment: "Return to Democratic Establishment"
  USA_Expand_the_Influence_of_the_Vice_President: "Expand the Influence of the Vice President"
@@ -2194,64 +2248,114 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
  USA_Unlocked_1944_1948_Tree_tt: "§BAfter the Focus is Completed It Will Unlock the Next Tree.§!"
 
 ### 1940 Willkie Tree
-USA_1940_1944_Wilkie.1.t: ""
-USA_1940_1944_Wilkie.1.d: ""
-USA_1940_1944_Wilkie.1.A: ""
-USA_1940_1944_Wilkie.2.t: ""
-USA_1940_1944_Wilkie.2.d: ""
-USA_1940_1944_Wilkie.2.A: ""
-USA_1940_1944_Wilkie.3.t: ""
-USA_1940_1944_Wilkie.3.d: ""
-USA_1940_1944_Wilkie.3.A: ""
-USA_1940_1944_Wilkie.4.t: ""
-USA_1940_1944_Wilkie.4.d: ""
-USA_1940_1944_Wilkie.4.A: ""
-USA_1940_1944_Wilkie.5.t: ""
-USA_1940_1944_Wilkie.5.d: ""
-USA_1940_1944_Wilkie.5.A: ""
-USA_1940_1944_Wilkie.6.t: ""
-USA_1940_1944_Wilkie.6.d: ""
-USA_1940_1944_Wilkie.6.A: ""
-USA_1940_1944_Wilkie.7.t: ""
-USA_1940_1944_Wilkie.7.d: ""
-USA_1940_1944_Wilkie.7.A: ""
-USA_1940_1944_Wilkie.8.t: ""
-USA_1940_1944_Wilkie.8.d: ""
-USA_1940_1944_Wilkie.8.A: ""
-USA_1940_1944_Wilkie.8.B: ""
-USA_1940_1944_Wilkie.8.C: ""
-USA_1940_1944_Wilkie.9.t: ""
-USA_1940_1944_Wilkie.9.d: ""
-USA_1940_1944_Wilkie.9.A: ""
-USA_1940_1944_Wilkie.10.t: ""
-USA_1940_1944_Wilkie.10.d: ""
-USA_1940_1944_Wilkie.10.A: ""
-USA_1940_1944_Wilkie.11.t: ""
-USA_1940_1944_Wilkie.11.d: ""
-USA_1940_1944_Wilkie.11.A: ""
-USA_1940_1944_Wilkie.12.t: ""
-USA_1940_1944_Wilkie.12.d: ""
-USA_1940_1944_Wilkie.12.A: ""
+ USA_1940_1944_Wilkie.0.t: "Big Shoes to Fill"
+ USA_1940_1944_Wilkie.0.d: ""
+ USA_1940_1944_Wilkie.0.A: "Harold Stassen"
+ USA_1940_1944_Wilkie.0.B: "Henry Luce"
+ USA_1940_1944_Wilkie.0.C: "Raymond E. Baldwin"
+ USA_1940_1944_Wilkie.0.D: "Robert A. Taft"
 
-USA_Left_War.1.t: ""
-USA_Left_War.1.d: ""
-USA_Left_War.1.A: ""
-USA_Rally_Seattle.1.t: ""
-USA_Rally_Seattle.1.d: ""
-USA_Rally_Seattle.1.A: ""
-USA_Taft_Addresses_Nation.1.t: ""
-USA_Taft_Addresses_Nation.1.d: ""
-USA_Taft_Addresses_Nation.1.A: ""
+ USA_1940_1944_Wilkie.1.t: "The Preparation Measures Act"
+ USA_1940_1944_Wilkie.1.d: ""
+ USA_1940_1944_Wilkie.1.A: ""
 
-USA_Wilkie_Dead.1.t: ""
-USA_Wilkie_Dead.1.d: ""
-USA_Wilkie_Dead.1.A: ""
-USA_McNary_Dead.1.t: ""
-USA_McNary_Dead.1.d: ""
-USA_McNary_Dead.1.A: ""
+ USA_1940_1944_Wilkie.2.t: "The Wartime Agriculture Bill"
+ USA_1940_1944_Wilkie.2.d: ""
+ USA_1940_1944_Wilkie.2.A: ""
+
+ USA_1940_1944_Wilkie.3.t: "Wilkie Internment Camps"
+ USA_1940_1944_Wilkie.3.d: ""
+ USA_1940_1944_Wilkie.3.A: ""
+
+ USA_1940_1944_Wilkie.4.t: "The Capitol's Heart"
+ USA_1940_1944_Wilkie.4.d: ""
+ USA_1940_1944_Wilkie.4.A: ""
+
+ USA_1940_1944_Wilkie.5.t: "Total Mobilization Achieved"
+ USA_1940_1944_Wilkie.5.d: ""
+ USA_1940_1944_Wilkie.5.A: ""
+
+ USA_1940_1944_Wilkie.6.t: "Sidelining Dewey"
+ USA_1940_1944_Wilkie.6.d: ""
+ USA_1940_1944_Wilkie.6.A: ""
+
+ USA_1940_1944_Wilkie.7.t: "An Anti-Union Bill"
+ USA_1940_1944_Wilkie.7.d: ""
+ USA_1940_1944_Wilkie.7.A: ""
+
+ USA_1940_1944_Wilkie.8.t: "Allied Research Initiative"
+ USA_1940_1944_Wilkie.8.d: ""
+ USA_1940_1944_Wilkie.8.A: ""
+ USA_1940_1944_Wilkie.8.B: ""
+
+ USA_1940_1944_Wilkie.8.C: "A Shiny Pack of Wolves"
+ USA_1940_1944_Wilkie.9.t: ""
+ USA_1940_1944_Wilkie.9.d: ""
+ USA_1940_1944_Wilkie.9.A: ""
+
+ USA_1940_1944_Wilkie.10.t: "A Soldier's New Best Friend"
+ USA_1940_1944_Wilkie.10.d: ""
+ USA_1940_1944_Wilkie.10.A: ""
+
+ USA_1940_1944_Wilkie.11.t: "The Edge in the Air"
+ USA_1940_1944_Wilkie.11.d: ""
+ USA_1940_1944_Wilkie.11.A: ""
+
+ USA_1940_1944_Wilkie.12.t: "Another President, Another Direction"
+ USA_1940_1944_Wilkie.12.d: ""
+ USA_1940_1944_Wilkie.12.A: ""
+
+ USA_1940_1944_Wilkie.13.t: "The United States Has Left the War!"
+ USA_1940_1944_Wilkie.13.d: "[FROM.GetNewsIcon]"
+ USA_1940_1944_Wilkie.13.A: ""
+
+ USA_1940_1944_Wilkie.14.t: "Rally in Seattle"
+ USA_1940_1944_Wilkie.14.d: ""
+ USA_1940_1944_Wilkie.14.A: ""
+
+ USA_1940_1944_Wilkie.15.t: "President Taft Addresses the Nation!"
+ USA_1940_1944_Wilkie.15.d: ""
+ USA_1940_1944_Wilkie.15.A: ""
+
+ USA_Wilkie_Dead.1.t: "President Wilkie Dead!"
+ USA_Wilkie_Dead.1.d: ""
+ USA_Wilkie_Dead.1.A: ""
+
+ USA_McNary_Dead.1.t: "President McNary Dead!"
+ USA_McNary_Dead.1.d: ""
+ USA_McNary_Dead.1.A: ""
 
 
  USA_Next_Tree: "§OThe next Tree will be Unlocked!§O"
+
+ # Landon 1940 Tree
+ USA_Landon_1940_1944.1.t: "Landon Returns to the Gold Standard"
+ USA_Landon_1940_1944.1.d: ""
+ USA_Landon_1940_1944.1.A: ""
+
+ USA_Landon_1940_1944.2.t: "Increasing the Minimum Wage"
+ USA_Landon_1940_1944.2.d: ""
+ USA_Landon_1940_1944.2.A: ""
+
+ USA_Landon_1940_1944.3.t: "Get Your Liberty Loans!"
+ USA_Landon_1940_1944.3.d: ""
+ USA_Landon_1940_1944.3.A: ""
+
+ USA_Landon_1940_1944.4.t: "Reversal of Tax Policy"
+ USA_Landon_1940_1944.4.d: ""
+ USA_Landon_1940_1944.4.A: ""
+
+ USA_Landon_1940_1944.5.t: "Landon Calls for Volunteers"
+ USA_Landon_1940_1944.5.d: ""
+ USA_Landon_1940_1944.5.A: ""
+
+ USA_Landon_1940_1944.6.t: "Jobs in the Factories"
+ USA_Landon_1940_1944.6.d: ""
+ USA_Landon_1940_1944.6.A: ""
+
+ USA_Landon_1940_1944.7.t: "The End of the Landon Era"
+ USA_Landon_1940_1944.7.d: ""
+ USA_Landon_1940_1944.7.A: ""
 
 #######################################################
 #Opinions

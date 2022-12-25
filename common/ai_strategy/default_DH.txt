@@ -245,3 +245,32 @@ Antagonize_if_not_Tripartite = {
 		value = 100
 	}
 }
+Do_Not_Guarantee = {
+	enable = {
+		always = yes
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = SWI
+		value = -1000
+		target = guarantee
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = SPR
+		value = -1000
+		target = guarantee
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = SPA
+		value = -1000
+		target = guarantee
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = SWE
+		value = -1000
+		target = guarantee
+	}
+}

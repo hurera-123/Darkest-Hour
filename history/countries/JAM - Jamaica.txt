@@ -7,7 +7,8 @@
 	# Research
 	#######################
 	set_technology = {
-	basic_train = 1
+	basic_train = 1
+
 		Small_Arms_1916 = 1
 	}
 	#######################
@@ -30,6 +31,17 @@
 	# Leaders
 	#######################
 	# Democracy
+	create_country_leader = {
+		name = "Alexander Bustamante"
+		desc = ""
+		picture = GFX_P_D_Alexander_Bustamante
+		expire = "1964.1.1"
+		ideology = social_democracy
+		traits = {
+			POSITION_Prime_Minister
+			SUBIDEOLOGY_Social_Democracy
+		}
+	}
 	
 	#######################
 	# Generals

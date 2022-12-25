@@ -5,4 +5,1134 @@ focus_tree = {
 	}
 	default = yes
 	reset_on_civilwar = no
+
+	continuous_focus_position = {
+		x = 300
+		y = 1800
+	}
+
+#########################################################################
+# Generic Economic Branch
+#########################################################################
+focus = {
+	id = GEN_Improving_the_Rural_Industry
+	icon = GFX_goal_generic_construction2
+	cost = 35
+	#x = 90
+	x = 8
+	y = 0
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	#offset = {
+	#	trigger = {
+	#		OR = {
+	#			has_government = communist
+	#			has_government = socialist
+	#		}
+	#	}
+	#	x = -66
+	#	y = 0
+	#}
+	#offset = {
+	#	trigger = {
+	#		has_government = democratic
+	#	}
+	#	x = -53
+	#	y = 0
+	#}
+	#offset = {
+	#	trigger = {
+	#		has_government = authoritarian
+	#	}
+	#	x = -73
+	#	y = 0
+	#}
+	#offset = {
+	#	trigger = {
+	#		has_government = fascist
+	#	}
+	#	x = -70
+	#	y = 0
+	#}
+}
+focus = {
+	id = GEN_Improve_Agricutlural_Methods
+	icon = GFX_GENERIC_Support_for_Agriculture
+	cost = 45
+	prerequisite = {
+		focus = GEN_Improving_the_Rural_Industry
+	}
+	mutually_exclusive = {
+		focus = GEN_Land_Reform_economic
+	}
+	relative_position_id = GEN_Improving_the_Rural_Industry
+	x = -3
+	y = 1
+	available = {
+		set_temp_variable = { amount_of_money_to_check = 50 }
+		has_specific_amount_of_money_with_inflation_included = yes
+	}
+	completion_reward = {
+		set_temp_variable = { money_to_gain = -50 }
+		add_money_with_inflation_included_with_tooltip_effect = yes
+		every_owned_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+	}
+}
+focus = {
+	id = GEN_Land_Reform_economic
+	icon = GFX_GENERIC_Agrarian_Reform
+	cost = 70
+	prerequisite = {
+		focus = GEN_Improving_the_Rural_Industry
+	}
+	mutually_exclusive = {
+		focus = GEN_Improve_Agricutlural_Methods
+	}
+	relative_position_id = GEN_Improving_the_Rural_Industry
+	x = -1
+	y = 1
+	available = {
+		set_temp_variable = { amount_of_money_to_check = 30 }
+		has_specific_amount_of_money_with_inflation_included = yes
+	}
+	completion_reward = {
+		set_temp_variable = { money_to_gain = -30 }
+		add_money_with_inflation_included_with_tooltip_effect = yes
+		add_stability = -0.05
+		every_owned_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 1
+		}
+	}
+}
+focus = {
+	id = GEN_Improve_Provincial_Infrastructure
+	icon = GFX_GENERIC_Road_Construction
+	cost = 35
+	prerequisite = {
+		focus = GEN_Improve_Agricutlural_Methods
+		focus = GEN_Land_Reform_economic
+	}
+	relative_position_id = GEN_Improve_Agricutlural_Methods
+	x = 1
+	y = 1
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Build_up_the_Capital_City
+	icon = GFX_GENERIC_Housing_Campaign
+	cost = 70
+	prerequisite = {
+		focus = GEN_Improve_Provincial_Infrastructure
+	}
+	relative_position_id = GEN_Improve_Provincial_Infrastructure
+	x = 0
+	y = 1
+	available = {
+		set_temp_variable = { amount_of_money_to_check = 70 }
+		has_specific_amount_of_money_with_inflation_included = yes
+	}
+	completion_reward = {
+		set_temp_variable = { money_to_gain = -70 }
+		add_money_with_inflation_included_with_tooltip_effect = yes
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				is_capital = yes
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Start_Building_a_New_Railway
+	icon = GFX_goal_generic_construct_infrastructure
+	cost = 70
+	prerequisite = {
+		focus = GEN_Improving_the_Rural_Industry
+	}
+	relative_position_id = GEN_Improving_the_Rural_Industry
+	x = 1
+	y = 1
+	available = {
+		set_temp_variable = { amount_of_money_to_check = 25 }
+		has_specific_amount_of_money_with_inflation_included = yes
+	}
+	completion_reward = {
+		set_temp_variable = { money_to_gain = -25 }
+		add_money_with_inflation_included_with_tooltip_effect = yes
+		add_timed_idea = {
+			idea = generic_idea_new_railways
+			days = 365
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_State_Controlled_Monopoly
+	icon = GFX_GENERIC_Centralization
+	cost = 35
+	prerequisite = {
+		focus = GEN_Start_Building_a_New_Railway
+	}
+	mutually_exclusive = {
+		focus = GEN_Allow_Private_Railways
+	}
+	relative_position_id = GEN_Start_Building_a_New_Railway
+	x = -1
+	y = 1
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = generic_idea_new_railways
+			add_idea = generic_idea_new_railways_state
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Allow_Private_Railways
+	icon = GFX_GENERIC_Modern_Elitism
+	cost = 56
+	prerequisite = {
+		focus = GEN_Start_Building_a_New_Railway
+	}
+	mutually_exclusive = {
+		focus = GEN_State_Controlled_Monopoly
+	}
+	relative_position_id = GEN_Start_Building_a_New_Railway
+	x = 1
+	y = 1
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = generic_idea_new_railways
+			add_idea = generic_idea_new_railways_private
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Start_Rural_Electrification
+	icon = GFX_GENERIC_Electric_Grid
+	cost = 84
+	prerequisite = {
+		focus = GEN_State_Controlled_Monopoly
+		focus = GEN_Allow_Private_Railways
+	}
+	relative_position_id = GEN_State_Controlled_Monopoly
+	x = 1
+	y = 1
+	available = {
+		set_temp_variable = { amount_of_money_to_check = 30 }
+		has_specific_amount_of_money_with_inflation_included = yes
+	}
+	completion_reward = {
+		set_temp_variable = { money_to_gain = -30 }
+		add_money_with_inflation_included_with_tooltip_effect = yes
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+}
+focus = {
+	id = GEN_Promote_Urbanization
+	icon = GFX_goal_generic_consumer_goods
+	cost = 56
+	prerequisite = {
+		focus = GEN_Improving_the_Rural_Industry
+	}
+	relative_position_id = GEN_Improving_the_Rural_Industry
+	x = 3
+	y = 1
+	completion_reward = {
+		add_timed_idea = {
+			idea = generic_idea_promote_urbanization
+			days = 200
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Open_University_in_the_Capital
+	icon = GFX_focus_research
+	cost = 70
+	prerequisite = {
+		focus = GEN_Promote_Urbanization
+	}
+	relative_position_id = GEN_Promote_Urbanization
+	x = 0
+	y = 2
+	completion_reward = {
+		add_research_slot = 1
+		if = {
+			limit = {
+				has_idea = research_spending_level_1
+			}
+			swap_ideas = {
+				remove_idea = research_spending_level_1
+				add_idea = research_spending_level_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = research_spending_level_2
+			}
+			swap_ideas = {
+				remove_idea = research_spending_level_2
+				add_idea = research_spending_level_3
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = research_spending_level_3
+			}
+			swap_ideas = {
+				remove_idea = research_spending_level_3
+				add_idea = research_spending_level_4
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = research_spending_level_4
+			}
+			swap_ideas = {
+				remove_idea = research_spending_level_4
+				add_idea = research_spending_level_5
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Invest_in_Airports
+	icon = GFX_GENERIC_International_Airport
+	cost = 35
+	prerequisite = {
+		focus = GEN_Build_up_the_Capital_City
+	}
+	prerequisite = {
+		focus = GEN_Start_Rural_Electrification
+	}
+	prerequisite = {
+		focus = GEN_Open_University_in_the_Capital
+	}
+	relative_position_id = GEN_Build_up_the_Capital_City
+	x = -1
+	y = 1
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_building_construction = {
+				type = air_base 
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Import_Industrial_Machinery
+	icon = GFX_GENERIC_Economic_Cooperation
+	cost = 56
+	prerequisite = {
+		focus = GEN_Build_up_the_Capital_City
+	}
+	prerequisite = {
+		focus = GEN_Start_Rural_Electrification
+	}
+	prerequisite = {
+		focus = GEN_Open_University_in_the_Capital
+	}
+	relative_position_id = GEN_Start_Rural_Electrification
+	x = -1
+	y = 1
+	available = {
+		set_temp_variable = { amount_of_money_to_check = 50 }
+		has_specific_amount_of_money_with_inflation_included = yes
+	}
+	completion_reward = {
+		set_temp_variable = { money_to_gain = -50 }
+		add_money_with_inflation_included_with_tooltip_effect = yes
+		add_tech_bonus = {
+			bonus = 0.5
+				uses = 2
+			category = construction_tech
+		}
+	}
+}
+focus = {
+	id = GEN_Expand_Local_Armory
+	icon = GFX_GENERIC_Military_Production
+	cost = 35
+	prerequisite = {
+		focus = GEN_Build_up_the_Capital_City
+	}
+	prerequisite = {
+		focus = GEN_Start_Rural_Electrification
+	}
+	prerequisite = {
+		focus = GEN_Open_University_in_the_Capital
+	}
+	relative_position_id = GEN_Open_University_in_the_Capital
+	x = -1
+	y = 1
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory 
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Begin_the_Industrialization_Process
+	icon = GFX_goal_generic_construct_civ_factory
+	cost = 100
+	prerequisite = {
+		focus = GEN_Invest_in_Airports
+	}
+	prerequisite = {
+		focus = GEN_Import_Industrial_Machinery
+	}
+	prerequisite = {
+		focus = GEN_Expand_Local_Armory
+	}
+	relative_position_id = GEN_Import_Industrial_Machinery
+	x = 0
+	y = 1
+	available = {
+		set_temp_variable = { amount_of_money_to_check = 300 }
+		has_specific_amount_of_money_with_inflation_included = yes
+	}
+	completion_reward = {
+		set_temp_variable = { money_to_gain = -300 }
+		add_money_with_inflation_included_with_tooltip_effect = yes
+		remove_ideas = generic_idea_new_railways
+		if = {
+			limit = {
+				has_idea = industrializing_economy
+			}
+			add_ideas = mixed_economy
+		}
+		else = {
+			add_ideas = industrializing_economy
+		}
+		
+		add_political_power = -100
+	}
+}
+focus = {
+	id = GEN_Contract_Skilled_Workers
+	icon = GFX_focus_generic_self_management
+	cost = 21
+	prerequisite = {
+		focus = GEN_Begin_the_Industrialization_Process
+	}
+	relative_position_id = GEN_Begin_the_Industrialization_Process
+	x = 0
+	y = 1
+	available = {
+		set_temp_variable = { amount_of_money_to_check = 30 }
+		has_specific_amount_of_money_with_inflation_included = yes
+	}
+	completion_reward = {
+		set_temp_variable = { money_to_gain = -30 }
+		add_money_with_inflation_included_with_tooltip_effect = yes
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = industry
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Exploit_Natural_Riches_Economic
+	icon = GFX_GENERIC_Anti_Poverty_Campaign
+	cost = 100
+	prerequisite = {
+		focus = GEN_Contract_Skilled_Workers
+	}
+	relative_position_id = GEN_Contract_Skilled_Workers
+	x = -4
+	y = 2
+	completion_reward = {
+		add_ideas = generic_idea_exploit_natrual_riches
+	}
+}
+focus = {
+	id = GEN_Promote_Trade
+	icon = GFX_goal_generic_positive_trade_relations
+	cost = 35
+	prerequisite = {
+		focus = GEN_Contract_Skilled_Workers
+	}
+	mutually_exclusive = {
+		focus = GEN_Development_on_our_own
+	}
+	relative_position_id = GEN_Contract_Skilled_Workers
+	x = -3
+	y = 1
+	completion_reward = {
+		if = {
+			limit = {
+				has_idea = closed_economy
+			}
+			swap_ideas = {
+				remove_idea = closed_economy
+				add_idea = limited_exports
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = limited_exports
+			}
+			swap_ideas = {
+				remove_idea = limited_exports
+				add_idea = export_focus
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = export_focus
+			}
+			swap_ideas = {
+				remove_idea = export_focus
+				add_idea = free_trade
+			}
+		}
+
+	}
+}
+focus = {
+	id = GEN_Development_on_our_own
+	icon = GFX_goal_generic_construct_military
+	cost = 56
+	prerequisite = {
+		focus = GEN_Contract_Skilled_Workers
+	}
+	mutually_exclusive = {
+		focus = GEN_Promote_Trade
+	}
+	relative_position_id = GEN_Contract_Skilled_Workers
+	x = -1
+	y = 1
+	completion_reward = {
+	   if = {
+			limit = {
+				has_idea = free_trade
+			}
+			swap_ideas = {
+				remove_idea = free_trade
+				add_idea = export_focus
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = export_focus
+			}
+			swap_ideas = {
+				remove_idea = export_focus
+				add_idea = limited_exports
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = limited_exports
+			}
+			swap_ideas = {
+				remove_idea = limited_exports
+				add_idea = closed_economy
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Build_Roads_to_Increase_Commerce
+	icon = GFX_GENERIC_Silk_Industry
+	cost = 56
+	prerequisite = {
+		focus = GEN_Promote_Trade
+		focus = GEN_Development_on_our_own
+	}
+	relative_position_id = GEN_Promote_Trade
+	x = 1
+	y = 1
+	completion_reward = {
+		capital_scope = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Upgrade_Industrial_Machines
+	icon = GFX_GENERIC_Design_Contemporary_Equipment_Standards
+	cost = 56
+	prerequisite = {
+		focus = GEN_Contract_Skilled_Workers
+	}
+	relative_position_id = GEN_Contract_Skilled_Workers
+	x = 0
+	y = 2
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.5
+				uses = 1
+			category = excavation_tech
+		}
+		add_tech_bonus = {
+			bonus = 0.5
+				uses = 1
+			category = industry
+		}
+	}
+}
+focus = {
+	id = GEN_Reactive_Old_Armories
+	icon = GFX_BUL_Remilitarization_of_Bulgaria
+	cost = 21
+	prerequisite = {
+		focus = GEN_Contract_Skilled_Workers
+	}
+	relative_position_id = GEN_Contract_Skilled_Workers
+	x = 1
+	y = 1
+	available = {
+		set_temp_variable = { amount_of_money_to_check = 15 }
+		has_specific_amount_of_money_with_inflation_included = yes
+	}
+	completion_reward = {
+		set_temp_variable = { money_to_gain = -15 }
+		add_money_with_inflation_included_with_tooltip_effect = yes
+		add_political_power = -50
+		add_equipment_to_stockpile = { 
+			type = infantry_equipment 
+			amount = 2500 
+			#producer = ROOT
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Expand_the_Domestic_Arms_Industry
+	icon = GFX_goal_generic_construct_mil_factory
+	cost = 70
+	prerequisite = {
+		focus = GEN_Reactive_Old_Armories
+	}
+	relative_position_id = GEN_Reactive_Old_Armories
+	x = 1
+	y = 1
+	available = {
+		set_temp_variable = { amount_of_money_to_check = 120 }
+		has_specific_amount_of_money_with_inflation_included = yes
+	}
+	completion_reward = {
+		set_temp_variable = { money_to_gain = -120 }
+		add_money_with_inflation_included_with_tooltip_effect = yes
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Increase_Fuel_Reserves
+	icon = GFX_goal_generic_oil_refinery
+	cost = 35
+	prerequisite = {
+		focus = GEN_Contract_Skilled_Workers
+	}
+	relative_position_id = GEN_Contract_Skilled_Workers
+	x = 3
+	y = 1
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = fuel_silo
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Increase_the_Wealth_of_the_People
+	icon = GFX_GENERIC_Gold
+	cost = 14
+	prerequisite = {
+		focus = GEN_Contract_Skilled_Workers
+	}
+	relative_position_id = GEN_Contract_Skilled_Workers
+	x = 4
+	y = 2
+	completion_reward = {
+		if = {
+			limit = {
+				has_idea = social_spending_level_1
+			}
+			swap_ideas = {
+				remove_idea = social_spending_level_1
+				add_idea = social_spending_level_2
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = social_spending_level_2
+			}
+			swap_ideas = {
+				remove_idea = social_spending_level_2
+				add_idea = social_spending_level_3
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = social_spending_level_3
+			}
+			swap_ideas = {
+				remove_idea = social_spending_level_3
+				add_idea = social_spending_level_4
+			}
+		}
+		else_if = {
+			limit = {
+				has_idea = social_spending_level_4
+			}
+			swap_ideas = {
+				remove_idea = social_spending_level_4
+				add_idea = social_spending_level_5
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Improve_the_Shipping_Industry
+	icon = GFX_goal_generic_dangerous_deal
+	cost = 56
+	prerequisite = {
+		focus = GEN_Contract_Skilled_Workers
+	}
+	relative_position_id = GEN_Contract_Skilled_Workers
+	x = 5
+	y = 1
+	available = {
+		set_temp_variable = { amount_of_money_to_check = 50 }
+		has_specific_amount_of_money_with_inflation_included = yes
+		custom_trigger_tooltip = {
+			tooltip = GENERIC_Check_if_Coastal		
+			any_state = {
+				is_owned_by = ROOT
+				is_coastal = yes
+			}
+		}
+	}
+	completion_reward = {
+		set_temp_variable = { money_to_gain = -50 }
+		add_money_with_inflation_included_with_tooltip_effect = yes
+		random_owned_controlled_state = {
+			limit = {
+				is_coastal = yes
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = dockyard
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Clear_the_Slums
+	icon = GFX_GENERIC_Youth_Employment
+	cost = 70
+	prerequisite = {
+		focus = GEN_Exploit_Natural_Riches_Economic
+	}
+	prerequisite = {
+		focus = GEN_Build_Roads_to_Increase_Commerce
+	}
+	prerequisite = {
+		focus = GEN_Upgrade_Industrial_Machines
+	}
+	prerequisite = {
+		focus = GEN_Expand_the_Domestic_Arms_Industry
+	}
+	prerequisite = {
+		focus = GEN_Increase_the_Wealth_of_the_People
+	}
+	relative_position_id = GEN_Exploit_Natural_Riches_Economic
+	x = 1
+	y = 1
+	available = {
+		set_temp_variable = { amount_of_money_to_check = 50 }
+		has_specific_amount_of_money_with_inflation_included = yes
+	}
+	completion_reward = {
+		set_temp_variable = { money_to_gain = -50 }
+		add_money_with_inflation_included_with_tooltip_effect = yes
+		every_owned_state = {
+			add_extra_state_shared_building_slots = 1
+		}
+	}
+}
+focus = {
+	id = GEN_Increase_the_Iron_Production
+	icon = GFX_focus_generic_steel
+	cost = 35
+	prerequisite = {
+		focus = GEN_Exploit_Natural_Riches_Economic
+	}
+	prerequisite = {
+		focus = GEN_Build_Roads_to_Increase_Commerce
+	}
+	prerequisite = {
+		focus = GEN_Upgrade_Industrial_Machines
+	}
+	prerequisite = {
+		focus = GEN_Expand_the_Domestic_Arms_Industry
+	}
+	prerequisite = {
+		focus = GEN_Increase_the_Wealth_of_the_People
+	}
+	relative_position_id = GEN_Build_Roads_to_Increase_Commerce
+	x = 1
+	y = 1
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_resource = {
+				type = steel
+				amount = 6
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Organize_Public_works_Economic
+	icon = GFX_GENERIC_Nationalize_Industry
+	cost = 70
+	prerequisite = {
+		focus = GEN_Exploit_Natural_Riches_Economic
+	}
+	prerequisite = {
+		focus = GEN_Build_Roads_to_Increase_Commerce
+	}
+	prerequisite = {
+		focus = GEN_Upgrade_Industrial_Machines
+	}
+	prerequisite = {
+		focus = GEN_Expand_the_Domestic_Arms_Industry
+	}
+	prerequisite = {
+		focus = GEN_Increase_the_Wealth_of_the_People
+	}
+	relative_position_id = GEN_Upgrade_Industrial_Machines
+	x = 1
+	y = 1
+	available = {
+		set_temp_variable = { amount_of_money_to_check = 100 }
+		has_specific_amount_of_money_with_inflation_included = yes
+	}
+	completion_reward = {
+		country_event = GENERIC_Focus_Tree.13
+	}
+}
+focus = {
+	id = GEN_Capital_Renovation_Plan
+	icon = GFX_GENERIC_Public_Works
+	cost = 25
+	prerequisite = {
+		focus = GEN_Exploit_Natural_Riches_Economic
+	}
+	prerequisite = {
+		focus = GEN_Build_Roads_to_Increase_Commerce
+	}
+	prerequisite = {
+		focus = GEN_Upgrade_Industrial_Machines
+	}
+	prerequisite = {
+		focus = GEN_Expand_the_Domestic_Arms_Industry
+	}
+	prerequisite = {
+		focus = GEN_Increase_the_Wealth_of_the_People
+	}
+	relative_position_id = GEN_Expand_the_Domestic_Arms_Industry
+	x = 1
+	y = 1
+	completion_reward = {
+		capital_scope = {
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+}
+focus = {
+	id = GEN_Invest_in_Synthetic_Industry
+	icon = GFX_GENERIC_Autarky
+	cost = 42
+	prerequisite = {
+		focus = GEN_Exploit_Natural_Riches_Economic
+	}
+	prerequisite = {
+		focus = GEN_Build_Roads_to_Increase_Commerce
+	}
+	prerequisite = {
+		focus = GEN_Upgrade_Industrial_Machines
+	}
+	prerequisite = {
+		focus = GEN_Expand_the_Domestic_Arms_Industry
+	}
+	prerequisite = {
+		focus = GEN_Increase_the_Wealth_of_the_People
+	}
+	mutually_exclusive = {
+		focus = GEN_Invest_in_Consumer_Industry
+	}
+	relative_position_id = GEN_Build_Roads_to_Increase_Commerce
+	x = 0
+	y = 2
+	available = {
+		set_temp_variable = { amount_of_money_to_check = 70 }
+		has_specific_amount_of_money_with_inflation_included = yes
+	}
+	completion_reward = {
+		set_temp_variable = { money_to_gain = -70 }
+		add_money_with_inflation_included_with_tooltip_effect = yes
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = synthetic_refinery
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Invest_in_Consumer_Industry
+	icon = GFX_GENERIC_Stimulus_Plan
+	cost = 42
+	prerequisite = {
+		focus = GEN_Exploit_Natural_Riches_Economic
+	}
+	prerequisite = {
+		focus = GEN_Build_Roads_to_Increase_Commerce
+	}
+	prerequisite = {
+		focus = GEN_Upgrade_Industrial_Machines
+	}
+	prerequisite = {
+		focus = GEN_Expand_the_Domestic_Arms_Industry
+	}
+	prerequisite = {
+		focus = GEN_Increase_the_Wealth_of_the_People
+	}
+	prerequisite = {
+		focus = GEN_Organize_Public_works_Economic
+	}
+	mutually_exclusive = {
+		focus = GEN_Invest_in_Synthetic_Industry
+	}
+	relative_position_id = GEN_Upgrade_Industrial_Machines
+	x = 0
+	y = 2
+	available = {
+		set_temp_variable = { amount_of_money_to_check = 100 }
+		has_specific_amount_of_money_with_inflation_included = yes
+	}
+	completion_reward = {
+		set_temp_variable = { money_to_gain = -100 }
+		add_money_with_inflation_included_with_tooltip_effect = yes
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = GEN_Into_the_Modern_Age
+	icon = GFX_GENERIC_Military_Industrial_Complexes
+	cost = 140
+	prerequisite = {
+		focus = GEN_Invest_in_Synthetic_Industry
+		focus = GEN_Invest_in_Consumer_Industry
+	}
+	prerequisite = {
+		focus = GEN_Increase_the_Iron_Production
+	}
+	relative_position_id = GEN_Increase_the_Iron_Production
+	x = 0
+	y = 2
+	completion_reward = {
+		remove_ideas = generic_idea_exploit_natrual_riches
+		if = {
+			limit = {
+				has_idea = industrializing_economy
+			}
+			add_ideas = mixed_economy
+		}
+		else = {
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+}
 }

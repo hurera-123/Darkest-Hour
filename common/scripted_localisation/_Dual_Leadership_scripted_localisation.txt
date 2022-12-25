@@ -400,21 +400,27 @@ defined_text = {
 	#### POL - Poland
 	text = {
 		trigger = {
-			has_idea = POL_CoArmy_Edward_RydzSmigly
+			has_idea = POL_Edward_RydzSmigly_CoArmy
 		}
-		localization_key = POL_CoArmy_Edward_RydzSmigly
+		localization_key = POL_Edward_RydzSmigly
 	}
 	text = {
 		trigger = {
-			has_idea = POL_D_Ignacy_Moscicki
+			has_idea = POL_Ignacy_Moscicki_HoG
 		}
-		localization_key = POL_D_Ignacy_Moscicki
+		localization_key = POL_Ignacy_Moscicki
 	}
 	text = {
 		trigger = {
-			has_idea = POL_D_Boleslaw_Bierut
+			has_idea = POL_Boleslaw_Bierut_HoG
 		}
-		localization_key = POL_D_Boleslaw_Bierut
+		localization_key = POL_Boleslaw_Bierut
+	}
+	text = {
+		trigger = {
+			has_idea = POL_Edward_OsobkaMorawski_HoG
+		}
+		localization_key = POL_Edward_OsobkaMorawski
 	}
 	#### FRA - France
 	text = {
@@ -1570,21 +1576,27 @@ defined_text = {
 	#### POL - Poland
 	text = {
 		trigger = {
-			has_idea = POL_CoArmy_Edward_RydzSmigly
+			has_idea = POL_Edward_RydzSmigly_CoArmy
 		}
 		localization_key = GFX_M_Edward_Rydz_Smigly
 	}
 	text = {
 		trigger = {
-			has_idea = POL_D_Ignacy_Moscicki
+			has_idea = POL_Ignacy_Moscicki_HoG
 		}
 		localization_key = GFX_P_A_Ignacy_Moscicki
 	}
 	text = {
 		trigger = {
-			has_idea = POL_D_Boleslaw_Bierut
+			has_idea = POL_Boleslaw_Bierut_HoG
 		}
 		localization_key = GFX_P_C_Boleslaw_Bierut
+	}
+	text = {
+		trigger = {
+			has_idea = POL_Edward_OsobkaMorawski_HoG
+		}
+		localization_key = GFX_P_C_Edward_Bolesaw_Osobka_Morawski
 	}
 	#### BEL - Belgium
 	text = {

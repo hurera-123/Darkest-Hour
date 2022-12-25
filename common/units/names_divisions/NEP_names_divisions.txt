@@ -33,54 +33,49 @@
 
 NEP_INF_01 = 
 {
-	name = "Infantry Divisions"
+	name = "Infantry Brigades"
 
 	for_countries = { NEP }
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" "garrison" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { NEP_GAR_01 }
+	link_numbering_with = { NEP_MOT_01 NEP_MEC_01 NEP_MTN_01 }
 
-	fallback_name = "%dth Infantry Division"
+	fallback_name = "%d Paidala Sēnā Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		24 = { "Royal Nepalese Lifeguard Div." }
-		1 = { "%dst Infantry Division" }
-		2 = { "%dnd Infantry Division" }
-		3 = { "%drd Infantry Division" }
-		4 = { "%dth Infantry Division" }
-		5 = { "%dth Infantry Division" }
-		6 = { "%dth Infantry Division" }
-		7 = { "%dth Infantry Division" }
-		8 = { "%dth Infantry Division" }
-		9 = { "%dth Infantry Division" }
-		10 = { "%dth Infantry Division" }
-		11 = { "%dth Infantry Division" }
-		12 = { "%dth Infantry Division" }
-		13 = { "%dth Infantry Division" }
-		14 = { "%dth Infantry Division" }
-		15 = { "%dth Infantry Division" }
-		16 = { "%dth Infantry Division" }
-		17 = { "%dth Infantry Division" }
-		18 = { "%dth Infantry Division" }
-		19 = { "%dth Infantry Division" }
-		20 = { "%dth Infantry Division" }
-		21 = { "%dst Infantry Division" }
-		22 = { "%dnd Infantry Division" }
-		23 = { "%drd Infantry Division" }
-
+		1 = { "%d Paidala Sēnā Brigēda" }
+		2 = { "%d Paidala Sēnā Brigēda" }
+		3 = { "%d Paidala Sēnā Brigēda" }
+		4 = { "%d Paidala Sēnā Brigēda" }
+		5 = { "%d Paidala Sēnā Brigēda" }
+		6 = { "%d Paidala Sēnā Brigēda" }
+		7 = { "%d Paidala Sēnā Brigēda" }
+		8 = { "%d Paidala Sēnā Brigēda" }
+		9 = { "%d Paidala Sēnā Brigēda" }
+		10 = { "%d Paidala Sēnā Brigēda" }
+		11 = { "%d Paidala Sēnā Brigēda" }
+		12 = { "%d Paidala Sēnā Brigēda" }
+		13 = { "%d Paidala Sēnā Brigēda" }
+		14 = { "%d Paidala Sēnā Brigēda" }
+		15 = { "%d Paidala Sēnā Brigēda" }
+		16 = { "%d Paidala Sēnā Brigēda" }
+		17 = { "%d Paidala Sēnā Brigēda" }
+		18 = { "%d Paidala Sēnā Brigēda" }
+		19 = { "%d Paidala Sēnā Brigēda" }
+		20 = { "%d Paidala Sēnā Brigēda" }
 	}
 }
 
 NEP_CAV_01 = 
 {
-	name = "Cavalry Divisions"
+	name = "Cavalry Brigades"
 
 	for_countries = { NEP }
 
@@ -91,42 +86,38 @@ NEP_CAV_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { NEP_INF_01 }
 
-	fallback_name = "%dth Royal Nepalese Cavalry Div."
+	fallback_name = "%d Ghōdacadhī Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Royal Nepalese Cavalry Div." }
-		2 = { "%dnd Royal Nepalese Cavalry Div." }
-		3 = { "%drd Royal Nepalese Cavalry Div." }
-		4 = { "%dth Royal Nepalese Cavalry Div." }
-		5 = { "%dth Royal Nepalese Cavalry Div." }
-		6 = { "%dth Royal Nepalese Cavalry Div." }
-		7 = { "%dth Royal Nepalese Cavalry Div." }
-		8 = { "%dth Royal Nepalese Cavalry Div." }
-		9 = { "%dth Royal Nepalese Cavalry Div." }
-		10 = { "%dth Royal Nepalese Cavalry Div." }
-		11 = { "%dth Royal Nepalese Cavalry Div." }
-		12 = { "%dth Royal Nepalese Cavalry Div." }
-		13 = { "%dth Royal Nepalese Cavalry Div." }
-		14 = { "%dth Royal Nepalese Cavalry Div." }
-		15 = { "%dth Royal Nepalese Cavalry Div." }
-		16 = { "%dth Royal Nepalese Cavalry Div." }
-		17 = { "%dth Royal Nepalese Cavalry Div." }
-		18 = { "%dth Royal Nepalese Cavalry Div." }
-		19 = { "%dth Royal Nepalese Cavalry Div." }
-		20 = { "%dth Royal Nepalese Cavalry Div." }
-		21 = { "%dst Royal Nepalese Cavalry Div." }
-		22 = { "%dnd Royal Nepalese Cavalry Div." }
-		23 = { "%drd Royal Nepalese Cavalry Div." }
-
+		1 = { "%d Ghōdacadhī Brigēda" }
+		2 = { "%d Ghōdacadhī Brigēda" }
+		3 = { "%d Ghōdacadhī Brigēda" }
+		4 = { "%d Ghōdacadhī Brigēda" }
+		5 = { "%d Ghōdacadhī Brigēda" }
+		6 = { "%d Ghōdacadhī Brigēda" }
+		7 = { "%d Ghōdacadhī Brigēda" }
+		8 = { "%d Ghōdacadhī Brigēda" }
+		9 = { "%d Ghōdacadhī Brigēda" }
+		10 = { "%d Ghōdacadhī Brigēda" }
+		11 = { "%d Ghōdacadhī Brigēda" }
+		12 = { "%d Ghōdacadhī Brigēda" }
+		13 = { "%d Ghōdacadhī Brigēda" }
+		14 = { "%d Ghōdacadhī Brigēda" }
+		15 = { "%d Ghōdacadhī Brigēda" }
+		16 = { "%d Ghōdacadhī Brigēda" }
+		17 = { "%d Ghōdacadhī Brigēda" }
+		18 = { "%d Ghōdacadhī Brigēda" }
+		19 = { "%d Ghōdacadhī Brigēda" }
+		20 = { "%d Ghōdacadhī Brigēda" }
 	}
 }
 
 NEP_MOT_01 = 
 {
-	name = "Motorised Divisions"
+	name = "Motorised Brigades"
 
 	for_countries = { NEP }
 
@@ -135,45 +126,40 @@ NEP_MOT_01 =
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { NEP_INF_01 }
+	link_numbering_with = { NEP_INF_01 NEP_MEC_01 NEP_MTN_01 }
 
-	fallback_name = "%dth Motor Division"
+	fallback_name = "%d Mōṭara Cālita Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		24 = { "Royal Nepalese Lifeguard Div." }
-		1 = { "%dst Motor Division" }
-		2 = { "%dnd Motor Division" }
-		3 = { "%drd Motor Division" }
-		4 = { "%dth Motor Division" }
-		5 = { "%dth Motor Division" }
-		6 = { "%dth Motor Division" }
-		7 = { "%dth Motor Division" }
-		8 = { "%dth Motor Division" }
-		9 = { "%dth Motor Division" }
-		10 = { "%dth Motor Division" }
-		11 = { "%dth Motor Division" }
-		12 = { "%dth Motor Division" }
-		13 = { "%dth Motor Division" }
-		14 = { "%dth Motor Division" }
-		15 = { "%dth Motor Division" }
-		16 = { "%dth Motor Division" }
-		17 = { "%dth Motor Division" }
-		18 = { "%dth Motor Division" }
-		19 = { "%dth Motor Division" }
-		20 = { "%dth Motor Division" }
-		21 = { "%dst Motor Division" }
-		22 = { "%dnd Motor Division" }
-		23 = { "%drd Motor Division" }
-
+		1 = { "%d Mōṭara Cālita Brigēda" }
+		2 = { "%d Mōṭara Cālita Brigēda" }
+		3 = { "%d Mōṭara Cālita Brigēda" }
+		4 = { "%d Mōṭara Cālita Brigēda" }
+		5 = { "%d Mōṭara Cālita Brigēda" }
+		6 = { "%d Mōṭara Cālita Brigēda" }
+		7 = { "%d Mōṭara Cālita Brigēda" }
+		8 = { "%d Mōṭara Cālita Brigēda" }
+		9 = { "%d Mōṭara Cālita Brigēda" }
+		10 = { "%d Mōṭara Cālita Brigēda" }
+		11 = { "%d Mōṭara Cālita Brigēda" }
+		12 = { "%d Mōṭara Cālita Brigēda" }
+		13 = { "%d Mōṭara Cālita Brigēda" }
+		14 = { "%d Mōṭara Cālita Brigēda" }
+		15 = { "%d Mōṭara Cālita Brigēda" }
+		16 = { "%d Mōṭara Cālita Brigēda" }
+		17 = { "%d Mōṭara Cālita Brigēda" }
+		18 = { "%d Mōṭara Cālita Brigēda" }
+		19 = { "%d Mōṭara Cālita Brigēda" }
+		20 = { "%d Mōṭara Cālita Brigēda" }
 	}
 }
 
 NEP_ARM_01 = 
 {
-	name = "Armored Divisions"
+	name = "Armored Brigades"
 
 	for_countries = { NEP }
 
@@ -184,42 +170,38 @@ NEP_ARM_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { NEP_INF_01 }
 
-	fallback_name = "%dth Armored Division"
+	fallback_name = "%d Bakhtarabanda Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Armored Division" }
-		2 = { "%dnd Armored Division" }
-		3 = { "%drd Armored Division" }
-		4 = { "%dth Armored Division" }
-		5 = { "%dth Armored Division" }
-		6 = { "%dth Armored Division" }
-		7 = { "%dth Armored Division" }
-		8 = { "%dth Armored Division" }
-		9 = { "%dth Armored Division" }
-		10 = { "%dth Armored Division" }
-		11 = { "%dth Armored Division" }
-		12 = { "%dth Armored Division" }
-		13 = { "%dth Armored Division" }
-		14 = { "%dth Armored Division" }
-		15 = { "%dth Armored Division" }
-		16 = { "%dth Armored Division" }
-		17 = { "%dth Armored Division" }
-		18 = { "%dth Armored Division" }
-		19 = { "%dth Armored Division" }
-		20 = { "%dth Armored Division" }
-		21 = { "%dst Armored Division" }
-		22 = { "%dnd Armored Division" }
-		23 = { "%drd Armored Division" }
-
+		1 = { "%d Bakhtarabanda brigēda" }
+		2 = { "%d Bakhtarabanda brigēda" }
+		3 = { "%d Bakhtarabanda brigēda" }
+		4 = { "%d Bakhtarabanda Brigēda" }
+		5 = { "%d Bakhtarabanda Brigēda" }
+		6 = { "%d Bakhtarabanda Brigēda" }
+		7 = { "%d Bakhtarabanda Brigēda" }
+		8 = { "%d Bakhtarabanda Brigēda" }
+		9 = { "%d Bakhtarabanda Brigēda" }
+		10 = { "%d Bakhtarabanda Brigēda" }
+		11 = { "%d Bakhtarabanda Brigēda" }
+		12 = { "%d Bakhtarabanda Brigēda" }
+		13 = { "%d Bakhtarabanda Brigēda" }
+		14 = { "%d Bakhtarabanda Brigēda" }
+		15 = { "%d Bakhtarabanda Brigēda" }
+		16 = { "%d Bakhtarabanda Brigēda" }
+		17 = { "%d Bakhtarabanda Brigēda" }
+		18 = { "%d Bakhtarabanda Brigēda" }
+		19 = { "%d Bakhtarabanda Brigēda" }
+		20 = { "%d Bakhtarabanda Brigēda" }
 	}
 }
 
 NEP_MEC_01 = 
 {
-	name = "Mechanized Divisions"
+	name = "Mechanized Brigades"
 
 	for_countries = { NEP }
 
@@ -228,91 +210,40 @@ NEP_MEC_01 =
 	division_types = { "mechanized" "heavy_mechanized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { NEP_INF_01 }
+	link_numbering_with = { NEP_INF_01 NEP_MOT_01 NEP_MTN_01 }
 
-	fallback_name = "%dth Mechanized Division"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		24 = { "Royal Nepalese Lifeguard Div." }
-		1 = { "%dst Mechanized Division" }
-		2 = { "%dnd Mechanized Division" }
-		3 = { "%drd Mechanized Division" }
-		4 = { "%dth Mechanized Division" }
-		5 = { "%dth Mechanized Division" }
-		6 = { "%dth Mechanized Division" }
-		7 = { "%dth Mechanized Division" }
-		8 = { "%dth Mechanized Division" }
-		9 = { "%dth Mechanized Division" }
-		10 = { "%dth Mechanized Division" }
-		11 = { "%dth Mechanized Division" }
-		12 = { "%dth Mechanized Division" }
-		13 = { "%dth Mechanized Division" }
-		14 = { "%dth Mechanized Division" }
-		15 = { "%dth Mechanized Division" }
-		16 = { "%dth Mechanized Division" }
-		17 = { "%dth Mechanized Division" }
-		18 = { "%dth Mechanized Division" }
-		19 = { "%dth Mechanized Division" }
-		20 = { "%dth Mechanized Division" }
-		21 = { "%dst Mechanized Division" }
-		22 = { "%dnd Mechanized Division" }
-		23 = { "%drd Mechanized Division" }
-
-	}
-}
-
-NEP_GAR_01 = 
-{
-	name = "Garrison Divisions"
-
-	for_countries = { NEP }
-
-	can_use = { always = yes }
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { NEP_INF_01 }
-
-	fallback_name = "%dth Garrison Division"
+	fallback_name = "%d Mēkānāijda Inphanṭrī Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Garrison Division" }
-		2 = { "%dnd Garrison Division" }
-		3 = { "%drd Garrison Division" }
-		4 = { "%dth Garrison Division" }
-		5 = { "%dth Garrison Division" }
-		6 = { "%dth Garrison Division" }
-		7 = { "%dth Garrison Division" }
-		8 = { "%dth Garrison Division" }
-		9 = { "%dth Garrison Division" }
-		10 = { "%dth Garrison Division" }
-		11 = { "%dth Garrison Division" }
-		12 = { "%dth Garrison Division" }
-		13 = { "%dth Garrison Division" }
-		14 = { "%dth Garrison Division" }
-		15 = { "%dth Garrison Division" }
-		16 = { "%dth Garrison Division" }
-		17 = { "%dth Garrison Division" }
-		18 = { "%dth Garrison Division" }
-		19 = { "%dth Garrison Division" }
-		20 = { "%dth Garrison Division" }
-		21 = { "%dst Garrison Division" }
-		22 = { "%dnd Garrison Division" }
-		23 = { "%drd Garrison Division" }
-
+		1 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		2 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		3 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		4 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		5 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		6 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		7 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		8 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		9 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		10 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		11 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		12 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		13 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		14 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		15 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		16 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		17 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		18 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		19 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
+		20 = { "%d Mēkānāijda Inphanṭrī Brigēda" }
 	}
 }
 
 NEP_MAR_01 = 
 {
-	name = "Marine Divisions"
+	name = "Marine Brigades"
 
 	for_countries = { NEP }
 
@@ -323,62 +254,61 @@ NEP_MAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { NEP_INF_01 }
 
-	fallback_name = "%dth Royal Nepalese Marine Div."
+	fallback_name = "%d Nausēnā Inphanṭrī Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Royal Nepalese Marine Div." }
-		2 = { "%dnd Royal Nepalese Marine Div." }
-		3 = { "%drd Royal Nepalese Marine Div." }
-		4 = { "%dth Royal Nepalese Marine Div." }
-		5 = { "%dth Royal Nepalese Marine Div." }
-		6 = { "%dth Royal Nepalese Marine Div." }
-		7 = { "%dth Royal Nepalese Marine Div." }
-		8 = { "%dth Royal Nepalese Marine Div." }
-		9 = { "%dth Royal Nepalese Marine Div." }
-		10 = { "%dth Royal Nepalese Marine Div." }
+		1 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		2 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		3 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		4 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		5 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		6 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		7 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		8 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		9 = { "%d Nausēnā Inphanṭrī Brigēda" }
+		10 = { "%d Nausēnā Inphanṭrī Brigēda" }
 
 	}
 }
 
 NEP_MTN_01 = 
 {
-	name = "Mountain Divisions"
+	name = "Mountain Brigades"
 
 	for_countries = { NEP }
 
 	can_use = { always = yes }
 
-	division_types = { "mountaineers" }
+	division_types = { "mountaineers" "militia" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { NEP_INF_01 }
+	link_numbering_with = { NEP_INF_01 NEP_MOT_01 NEP_MEC_01 }
 
-	fallback_name = "%d Nepali Dibhijana"
+	fallback_name = "%d Gōrkhā Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d Nepali Dibhijana" }
-		2 = { "%d Nepali Dibhijana" }
-		3 = { "%d Nepali Dibhijana" }
-		4 = { "%d Nepali Dibhijana" }
-		5 = { "%d Nepali Dibhijana" }
-		6 = { "%d Nepali Dibhijana" }
-		7 = { "%d Nepali Dibhijana" }
-		8 = { "%d Nepali Dibhijana" }
-		9 = { "%d Nepali Dibhijana" }
-		10 = { "%d Nepali Dibhijana" }
-
+		1 = { "%d Gōrkhā Brigēda" }
+		2 = { "%d Gōrkhā Brigēda" }
+		3 = { "%d Gōrkhā Brigēda" }
+		4 = { "%d Gōrkhā Brigēda" }
+		5 = { "%d Gōrkhā Brigēda" }
+		6 = { "%d Gōrkhā Brigēda" }
+		7 = { "%d Gōrkhā Brigēda" }
+		8 = { "%d Gōrkhā Brigēda" }
+		9 = { "%d Gōrkhā Brigēda" }
+		10 = { "%d Gōrkhā Brigēda" }
 	}
 }
 
 NEP_PAR_01 = 
 {
-	name = "Paratrooper Divisions"
+	name = "Paratrooper Brigades"
 
 	for_countries = { NEP }
 
@@ -389,22 +319,21 @@ NEP_PAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { NEP_INF_01 }
 
-	fallback_name = "%dth Para Division"
+	fallback_name = "%d Pyārāṭrūpara Brigēda"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Para Division" }
-		2 = { "%dnd Para Division" }
-		3 = { "%drd Para Division" }
-		4 = { "%dth Para Division" }
-		5 = { "%dth Para Division" }
-		6 = { "%dth Para Division" }
-		7 = { "%dth Para Division" }
-		8 = { "%dth Para Division" }
-		9 = { "%dth Para Division" }
-		10 = { "%dth Para Division" }
-
+		1 = { "%d Pyārāṭrūpara Brigēda" }
+		2 = { "%d Pyārāṭrūpara Brigēda" }
+		3 = { "%d Pyārāṭrūpara Brigēda" }
+		4 = { "%d Pyārāṭrūpara Brigēda" }
+		5 = { "%d Pyārāṭrūpara Brigēda" }
+		6 = { "%d Pyārāṭrūpara Brigēda" }
+		7 = { "%d Pyārāṭrūpara Brigēda" }
+		8 = { "%d Pyārāṭrūpara Brigēda" }
+		9 = { "%d Pyārāṭrūpara Brigēda" }
+		10 = { "%d Pyārāṭrūpara Brigēda" }
 	}
 }

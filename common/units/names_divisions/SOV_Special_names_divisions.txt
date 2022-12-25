@@ -36,7 +36,7 @@ SOV_MIL_01 =
 
 	for_countries = { SOV }
 
-	can_use = { always = no } # has_country_flag = SOV_Militia_deployed
+	can_use = { has_completed_focus = SOV_The_Defense_of_the_Union } # has_country_flag = SOV_Militia_deployed
 
 	division_types = { "militia" }
 

@@ -2,6 +2,7 @@
 # Darkest Hour Events : Norway
 ###########################
 add_namespace = NOR_Eastern_Greenland_Case
+add_namespace = NOR_politics
 #########################################################################
 #  Randomization Event
 #########################################################################
@@ -100,3 +101,35 @@ news_event = {
 		add_political_power = -20
 	}
 }
+
+#########################################################################
+#  Prime Minister Changed
+#########################################################################
+country_event = {
+	id = NOR_Politics.1
+	title = NOR_Politics.1.t
+	desc = NOR_Politics.1.d
+	picture = GFX_Generic_Elections
+	fire_only_once = yes
+	trigger = {
+		tag = NOR
+		date > 1935.3.20
+		has_start_date < 1935.3.20
+	}
+	option = {
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Johan Nygaardsvold"
+			desc = ""
+			picture = GFX_P_D_Johan_Nygaardsvold
+			expire = "1952.3.13"
+			ideology = social_democracy
+			traits = {
+				POSITION_Prime_Minister
+				SUBIDEOLOGY_Social_Democracy
+				L_Ambitious_Union_Boss
+			}
+		}
+	}
+}
+

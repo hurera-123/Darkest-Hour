@@ -11,11 +11,11 @@
 #########################################################################
 
  FRA_National_Lottery.2.t: "First Draw of the National Lottery"
- FRA_National_Lottery.2.d: "The first draw of the new National Lottery has taken place at the Trocadéro Palace in Paris, bringing a crowd of five thousand people. The lucky winner was a married fifty-year old hairdresser from Tarascon called Paul Bonhoure. Thanks to his clerk that bought the winner ticket with the number 18414, the hairdresser won the considerable sum of five million francs. However, Bonhoure is already receiving death threats from several people mad at him from winning the prize, so we'll recommend the following winners to be more discreet about it from now on."
+ FRA_National_Lottery.2.d: "[FROM.GetNewsIcon]The first draw of the new National Lottery has taken place at the Trocadéro Palace in Paris, bringing a crowd of five thousand people. The lucky winner was a married fifty-year old hairdresser from Tarascon called Paul Bonhoure. Thanks to his clerk that bought the winner ticket with the number 18414, the hairdresser won the considerable sum of five million francs. However, Bonhoure is already receiving death threats from several people mad at him from winning the prize, so we'll recommend the following winners to be more discreet about it from now on."
  FRA_National_Lottery.2.A: "Good for him."
 
  FRA_SFIO_Election.1.t: "XXXth Congress of SFIO at Paris"
- FRA_SFIO_Election.1.d: "The building was packed. Party members moved across the crowd, currying political favour with every person, enacting schemes, some of them merely coming across friends and avidly discussing what was about to occur. The Neo-Socialists had led the SFIO for quite some time, and two of their members were set on becoming the leader of the party.\nLéon Blum watched the members across the massive room in which they had congregated in. There was not a moment that would go by where he wouldn’t notice someone eyeing him, as though keeping an eye on him for any show of weakness. If he wasn’t so used to it by now, it’d be nerve-wracking. He’d look back upon some of the less experienced members, matching their glare and making them jump out of their skin as though they’d just seen a ghost, making them look away. It gave him quite a laugh - something he needed right now.\nPierre Renaudel sat across from Blum, giving generic responses to some correspondents and lobbyists. Such was the life of a man who had to bear the burden of being labeled a traitor to the revolution; perhaps more so than Blum - for it was Renaudel that brought the SFIO into the Sacred Front unified governmental party in 1914 for the Great War, giving the French Government the political backing it needed to fight the war in full capacity. Many blame him; say it is his fault the revolution has not come to France yet. And what hypocrites they are, Pierre thinks. Such successes we have written in the name of the working class… and after today, more shall be written with his hand on the pen. Right? His own doubts plagued him as the assembly finally drew to a silence.\n\"My fellow gentlemen, we are gathered here at the Thirtieth Congress of the SFIO - and the time has come once again for the people’s representative to be chosen. He will carry the burning flame of French revolutionary spirit with him as he goes onward - and may it give him strength in his duties.\" He looked down at the envelope passed to him by a final adjudicator.\n\"The elected torchbearer of the French people is…\""
+ FRA_SFIO_Election.1.d: "The building was packed. Party members moved across the crowd, currying political favour with every person, enacting schemes, some of them merely coming across friends and avidly discussing what was about to occur. The Neo-Socialists had led the SFIO for quite some time, and two of their members were set on becoming the leader of the party.\nLéon Blum watched the members across the massive room in which they had congregated in. There was not a moment that would go by where he wouldn’t notice someone eyeing him, as though keeping an eye on him for any show of weakness. If he wasn’t so used to it by now, it’d be nerve-wracking. He’d look back upon some of the less experienced members, matching their glare and making them jump out of their skin as though they’d just seen a ghost, making them look away. It gave him quite a laugh - something he needed right now.\nPierre Renaudel sat across from Blum, giving generic responses to some correspondents and lobbyists. Such was the life of a man who had to bear the burden of being labeled a traitor to the revolution; perhaps more so than Blum - for it was Renaudel that brought the SFIO into the Sacred Front unified governmental party in 1914 for the Great War, giving the French Government the political backing it needed to fight the war in full capacity. Many blame him; say it is his fault the revolution has not come to France yet. And what hypocrites they are, Pierre thinks. Such successes we have written in the name of the working class... and after today, more shall be written with his hand on the pen. Right? His own doubts plagued him as the assembly finally drew to a silence.\n\"My fellow gentlemen, we are gathered here at the Thirtieth Congress of the SFIO - and the time has come once again for the people’s representative to be chosen. He will carry the burning flame of French revolutionary spirit with him as he goes onward - and may it give him strength in his duties.\" He looked down at the envelope passed to him by a final adjudicator.\n\"The elected torchbearer of the French people is...\""
  FRA_SFIO_Election.1.A: "Jean Jaures' protégé, Léon Blum!"
  FRA_SFIO_Election.1.B: "The Unifier of the People, Pierre Renaudel!"
 
@@ -116,7 +116,7 @@
  FRA_6_February_Aftermath.1.A: "The Republic has survived, may the government learn some lessons."
 
  FRA_6_February_Aftermath.2.t: "[This.GetLeader] Government Collapses"
- FRA_6_February_Aftermath.2.d: "The second government of [This.GetLeader] has fallen today. Following two weeks of political unrest, the Council President, accompanied by his ministers and many collaborators, had left the Bourbon Palace following the recent events in Paris.\n\nThe rightist leagues have manifested in the streets of Paris, accusing the government of being a eulogy of corruption, resulting in violent clashes between the many attendees. Shockingly, the damages are enormous, even by city standards. Several stores have been robbed, and dozens of police officers and citizens have been injured when the guns began to talk.\n\nRecognizing that he could be accused of sending too strict orders to the police, [This.GetLeader] presented his resignation today to President Albert Lebrun, who accepted it immediately, saying that "one more or less Council President in a month should not really make a difference."\n\nFollowing his departure, [This.GetLeader] invited Gaston Doumergue to form a new government, which the former President accepted. Doumergue has immediately delivered a speech to the Assemblée, calling for a return to normalcy and urging his news ministers to work hard to restore confidence in the Republic."
+ FRA_6_February_Aftermath.2.d: "[FROM.GetNewsIcon]The second government of [This.GetLeader] has fallen today. Following two weeks of political unrest, the Council President, accompanied by his ministers and many collaborators, had left the Bourbon Palace following the recent events in Paris.\n\nThe rightist leagues have manifested in the streets of Paris, accusing the government of being a eulogy of corruption, resulting in violent clashes between the many attendees. Shockingly, the damages are enormous, even by city standards. Several stores have been robbed, and dozens of police officers and citizens have been injured when the guns began to talk.\n\nRecognizing that he could be accused of sending too strict orders to the police, [This.GetLeader] presented his resignation today to President Albert Lebrun, who accepted it immediately, saying that "one more or less Council President in a month should not really make a difference."\n\nFollowing his departure, [This.GetLeader] invited Gaston Doumergue to form a new government, which the former President accepted. Doumergue has immediately delivered a speech to the Assemblée, calling for a return to normalcy and urging his news ministers to work hard to restore confidence in the Republic."
  FRA_6_February_Aftermath.2.A: "We have a lot of work to do."
 
  FRA_6_February_Aftermath.3.t: "Le Gouvernement d'Union Nationale"
@@ -179,14 +179,14 @@
 
  FRA_Reform_of_the_State.9.t: "Fall of Gaston Doumergue"
  FRA_Reform_of_the_State.9.d: "[FROM.GetNewsIcon]"
- FRA_Reform_of_the_State.9.A: "A New France arises from the old one's ashes!"
+ FRA_Reform_of_the_State.9.A: "The Wise man can now enjoy his pension "
 
  FRA_Reform_of_the_State.10.t: "Tardieu confront Chautemps!"
  FRA_Reform_of_the_State.10.d: ""
  FRA_Reform_of_the_State.10.A: "He broke the truce set by the National Union, he must resign."
  FRA_Reform_of_the_State.10.B: "Make it clear to the Radicaux that they cannot leave the coalition..."
 
- FRA_Reform_of_the_State.11.t: "Les Beauté de Bordeau"
+ FRA_Reform_of_the_State.11.t: "Les Beauté de Bordeaux"
  FRA_Reform_of_the_State.11.d: ""
  FRA_Reform_of_the_State.11.A: ""
 
@@ -213,20 +213,21 @@
  FRA_Assassination_of_Alexander_I.6.A: ""
 
  FRA_Assassination_of_Alexander_I.7.t: "Foiled Assassination Attempt on Lives of King Alexander and Louis Barthou"
- FRA_Assassination_of_Alexander_I.7.d: "[FROM.GetNewsIcon]"
- FRA_Assassination_of_Alexander_I.7.A: ""
+ FRA_Assassination_of_Alexander_I.7.d: "[FROM.GetNewsIcon]A potentially disastrous incident for the country has occurred! French Minister Barthou and Yugoslav King Alexander narrowly escaped an assassination attempt.\n\nWhile the King and the Minister were slowly driving through the streets in their car, a Bulgarian terrorist emerged from the crowd and attempted to shoot both the King and the FM with a Mauser. Fortunately, patrolling police noticed the gun and pushed it away from the car, causing the assassin to miss the shot. The assassin attempted to flee but was apprehended by the angry crowd and reported beaten to death, while the police appear to make no attempt to stop them. The terrorist was thought to be a Macedonian separatist seeking vengeance on King Alexander.\n\nThis assassination attempt had the potential to be a huge disaster, not only for the political environment in France, but also for our diplomatic relations with Yugoslavia. Fortunately, neither of them was hurt."
+ FRA_Assassination_of_Alexander_I.7.A: "A close call, that’s for sure."
 
  FRA_Assassination_of_Alexander_I.8.t: "French Minister Barthou Killed in Marseille, King Alexander Alive and Well"
- FRA_Assassination_of_Alexander_I.8.d: "[FROM.GetNewsIcon]"
- FRA_Assassination_of_Alexander_I.8.A: ""
+ FRA_Assassination_of_Alexander_I.8.d: "[FROM.GetNewsIcon]A disastrous incident for the country has occurred! French Minister Barthou was assassinated while visiting France with King Alexander of Yugoslavia.\n\nWhile the King and the Minister were being driven slowly through the streets in the car, a Bulgarian terrorist emerged from the crowd and attempted to shoot both the King and the FM with a Mauser.\n\nAfter two shots were fired at the FM, patrolling police noticed the assassin and pushed the gun away from the car, causing the assassin to miss the shots aimed at King Alexander. The assassin attempted to flee but was apprehended by the angry crowd and reported beaten to death, while the police appear to make no attempt to stop them. He died of his injury later in prison. The Terrorist was thought to be a Macedonian Separatist seeking vengeance against King Alexander.\n\nThis assassination attempt could have serious consequences for France's political environment, as the death of Barthou would mean a significant weakening of the Reformist government."
+ FRA_Assassination_of_Alexander_I.8.A: "At least our King is safe..."
+ FRA_Assassination_of_Alexander_I.8.B: "A horrible tragedy!"
 
- FRA_Assassination_of_Alexander_I.9.t: "Reformist Government Takes a Great Hit with Barthou's death"
- FRA_Assassination_of_Alexander_I.9.d: ""
- FRA_Assassination_of_Alexander_I.9.A: ""
+ FRA_Assassination_of_Alexander_I.9.t: "Funeral of Louis Barthou"
+ FRA_Assassination_of_Alexander_I.9.d: "[FROM.GetNewsIcon]Today in Paris, the funeral for the former Foreign Minister Louis Barthou was held , four days after he was killed in the Ustaše terror attack in Marseille. Many people, both civilians and politicians alike have come to honour Barthou, paying their respects to a major player in French politics. A member of the Alliance Démocratique, he held the prestigious post of Prime Minister in 1913, and oversaw major changes to our nation's social policy, including the introduction of allowances to families with children.\n\nAs well as serving as Prime Minister, he has also served as the Foreign Minister before his unfortunate death, with many agreeing that Barthou's greatest diplomatic achievement was the improvement of Franco-Soviet relations. He is largely responsible for the Soviet Union's admission to the League of Nations, and prior to his death, he was involved in efforts to establish an "Eastern Pact," which would have included Germany, the Soviet Union, Poland, the Baltic States, and Czechoslovakia. The goal of this was to maintain peace and settle border disputes between the Soviets and Germans, but this is unlikely to come to fruition now.\n\nThe current Minister of Security, Albert Sarraut, has resigned in shame, stating that better security measures should’ve been put in place, and that it was his fault for overlooking such a great detail"
+ FRA_Assassination_of_Alexander_I.9.A: "A sad ending for a great man."
 
- FRA_Assassination_of_Alexander_I.10.t: "Funeral of Louis Barthou."
- FRA_Assassination_of_Alexander_I.10.d: "Today in Paris, the funeral for the former Foreign Minister Louis Barthou was held , four days after he was killed in the Ustaše terror attack in Marseille. Many people, both civilians and politicians alike have come to honour Barthou, paying their respects to a major player in French politics. A member of the Alliance Démocratique, he held the prestigious post of Prime Minister in 1913, and oversaw major changes to our nation's social policy, including the introduction of allowances to families with children.\n\nAs well as serving as Prime Minister, he has also served as the Foreign Minister before his unfortunate death, with many agreeing that Barthou's greatest diplomatic achievement was the improvement of Franco-Soviet relations. He is largely responsible for the Soviet Union's admission to the League of Nations, and prior to his death, he was involved in efforts to establish an "Eastern Pact," which would have included Germany, the Soviet Union, Poland, the Baltic States, and Czechoslovakia. The goal of this was to maintain peace and settle border disputes between the Soviets and Germans, but this is unlikely to come to fruition now.\n\nThousands are in attendance at Barthou's funeral, and many have expressed great sadness at the atrocity. Members of the Paris art community have also come to pay their respects to Barthou, who was a patron and an ardent supporter of the arts, with one bystander expressing her shock at the horrible manner in which Barthou died.\n\nThe current Minister of Security, Albert Sarraut, has resigned in shame, stating that better security measures should’ve been put in place, and that it was his fault for overlooking such a great detail."
- FRA_Assassination_of_Alexander_I.10.A: "A sad ending for a great man."
+ FRA_Assassination_of_Alexander_I.10.t: "Barthou Support the Reform."
+ FRA_Assassination_of_Alexander_I.10.d: ""
+ FRA_Assassination_of_Alexander_I.10.A: "Good"
 
  #########################################################################
 # #### #  	#### #### ### ### #### #   #  #### ####
@@ -237,11 +238,11 @@
 #########################################################################
 
  FRA_1936_Election.1.t: "SFIO and PCF Protest against the Fascists!"
- FRA_1936_Election.1.d: "Paris is in uproar again, less than a week after Daladier's resignation, with thousands of people taking to the streets, and police officers are desperately trying to keep the peace. However, the crowds are not the same as they were a few days ago, as red banners and three-arrow flags flail in the wind outside the Chamber of Deputies. Anarchists, communists, and socialists have joined forces in a massive protest in Paris, united in their opposition to the fascist leagues that had rallied there just days before, and general strikes are being called by labour unions. Communists and socialists are more united than ever in their opposition to fascism.\n\nMany protesters were seen holding signs calling for leftist unity and chanting anti-fascist slogans, with some even throwing rocks at alleged pro-fascist officials and bystanders, referring to them as brownshirts and thugs. A large group of protestors began singing L'Internationale on one occasion.\n\nMany on the left see these counter protests as noble, but they are not without violence: nine people have been killed in clashes with police so far. Since the Stavisky affair, the mood in the country has become increasingly polarised, but tensions have boiled over in the last week. Some people even believe that civil war or another revolution is a real possibility."
+ FRA_1936_Election.1.d: "[FROM.GetNewsIcon]Paris is in uproar again, less than a week after Daladier's resignation, with thousands of people taking to the streets, and police officers are desperately trying to keep the peace. However, the crowds are not the same as they were a few days ago, as red banners and three-arrow flags flail in the wind outside the Chamber of Deputies. Anarchists, communists, and socialists have joined forces in a massive protest in Paris, united in their opposition to the fascist leagues that had rallied there just days before, and general strikes are being called by labour unions. Communists and socialists are more united than ever in their opposition to fascism.\n\nMany protesters were seen holding signs calling for leftist unity and chanting anti-fascist slogans, with some even throwing rocks at alleged pro-fascist officials and bystanders, referring to them as brownshirts and thugs. A large group of protestors began singing L'Internationale on one occasion.\n\nMany on the left see these counter protests as noble, but they are not without violence: nine people have been killed in clashes with police so far. Since the Stavisky affair, the mood in the country has become increasingly polarised, but tensions have boiled over in the last week. Some people even believe that civil war or another revolution is a real possibility."
  FRA_1936_Election.1.A: "Ils ne passeront pas!"
 
  FRA_1936_Election.2.t: "Thorez Calls for Left-Wing Unity!"
- FRA_1936_Election.2.d: "In the aftermath of the February 6th crisis, Maurice Thorez, the leader of the Parti Communiste Français, issued a call for unity to all left-wing parties and organisations. The French left is notoriously divided between various factions, but Thorez hopes to change that.\n\nThere have long been efforts and desires in France to unite the left, particularly since the country was hit by the Great Depression several years ago. With the rise of right-wing authoritarian governments in Austria, Italy, and, most recently, Germany, many Frenchmen on the left are becoming increasingly concerned that their own country will descend into fascism. The February 6th riots appear to have been the final straw, as support for a coalition of leftist parties has since risen. If Léon Blum agrees, the SFIO and PCF will likely merge in the coming weeks."
+ FRA_1936_Election.2.d: "[FROM.GetNewsIcon]In the aftermath of the February 6th crisis, Maurice Thorez, the leader of the Parti Communiste Français, issued a call for unity to all left-wing parties and organisations. The French left is notoriously divided between various factions, but Thorez hopes to change that.\n\nThere have long been efforts and desires in France to unite the left, particularly since the country was hit by the Great Depression several years ago. With the rise of right-wing authoritarian governments in Austria, Italy, and, most recently, Germany, many Frenchmen on the left are becoming increasingly concerned that their own country will descend into fascism. The February 6th riots appear to have been the final straw, as support for a coalition of leftist parties has since risen. If Léon Blum agrees, the SFIO and PCF will likely merge in the coming weeks."
  FRA_1936_Election.2.A: "À bas le fascisme!"
 
  FRA_1936_Election_Doumergue_no_Reelection.1.t: "Doumergue Will Not Be Seeking Reelection!"
@@ -267,7 +268,7 @@
  FRA_1936_Election_Doumergue_no_Reelection.5.B: "No, it's pure madness"
 
  FRA_1936_Election_Doumergue_Reelection.1.t: "Blum Forms an Alliance with Thorez"
- FRA_1936_Election_Doumergue_Reelection.1.d: "Léon Blum, the leader of the SFIO, has formally announced a merger between the SFIO and the PCF, uniting socialists and communists in France in opposition to fascism. The merger comes after a tumultuous few weeks in French politics, which saw multiple riots on both the left and right wings, over a dozen deaths, and fears of a pro-fascist coup d'etat.\n\nThe Front Populaire, a literal popular front against the conservative heavyweights, will be the identity of the new party. The Front Populaire currently controls slightly more than a third of the national assembly, but various other left-wing and liberal parties are considering joining. Opinions from Action Française and other right-wing parties are split, ranging from the proclamation that the other parties are conspiring against the French people, to pointing out this merger as so-called proof that parliamentarianism is deeply flawed.\n\nRegardless, the coalition now stands as the largest political party in France, and will likely grow in the coming weeks."
+ FRA_1936_Election_Doumergue_Reelection.1.d: "[FROM.GetNewsIcon]Léon Blum, the leader of the SFIO, has formally announced a merger between the SFIO and the PCF, uniting socialists and communists in France in opposition to fascism. The merger comes after a tumultuous few weeks in French politics, which saw multiple riots on both the left and right wings, over a dozen deaths, and fears of a pro-fascist coup d'etat.\n\nThe Front Populaire, a literal popular front against the conservative heavyweights, will be the identity of the new party. The Front Populaire currently controls slightly more than a third of the national assembly, but various other left-wing and liberal parties are considering joining. Opinions from Action Française and other right-wing parties are split, ranging from the proclamation that the other parties are conspiring against the French people, to pointing out this merger as so-called proof that parliamentarianism is deeply flawed.\n\nRegardless, the coalition now stands as the largest political party in France, and will likely grow in the coming weeks."
  FRA_1936_Election_Doumergue_Reelection.1.A: "Tout est possible!"
  FRA_1936_Election_Doumergue_Reelection.1.B: "We must unite against those reds!"
 
@@ -277,7 +278,7 @@
  FRA_1936_Election_Doumergue_Reelection.2.B: "We must prevent him from joining them."
 
  FRA_1936_Election_Doumergue_Reelection.3.t: "Peaceful Demonstration of the Front Populaire."
- FRA_1936_Election_Doumergue_Reelection.3.d: ""
+ FRA_1936_Election_Doumergue_Reelection.3.d: "[FROM.GetNewsIcon]"
  FRA_1936_Election_Doumergue_Reelection.3.A: ""
 
  FRA_1936_Election_Doumergue_Reelection.4.t: "The RAD Refuses any Alliance with the Left!"
@@ -293,7 +294,7 @@
  FRA_1936_Election_Doumergue_Reelection.6.A: ""
 
  FRA_1936_Election_Results.1.t: "Election Day!"
- FRA_1936_Election_Results.1.d: ""
+ FRA_1936_Election_Results.1.d: "[FROM.GetNewsIcon]"
  FRA_1936_Election_Results.1.A: "Unsurprisingly, Popular Front wins a landslide victory!"
 
  FRA_1936_Election_Results.2.t: "Election Day!"
@@ -328,7 +329,7 @@
  FRA_Front_Populaire_1936.11.A: ""
 
  FRA_Front_Populaire_1936.12.t: "Fall of Camille Chautemps's Government"
- FRA_Front_Populaire_1936.12.d: ""
+ FRA_Front_Populaire_1936.12.d: "[FROM.GetNewsIcon]"
  FRA_Front_Populaire_1936.12.A: ""
 
  FRA_La_Tempete_Fasciste.1.t: "Anti-Semitic Reaction against Blum"
@@ -365,6 +366,13 @@
  FRA_Front_Populaire_1936.5.d: "[FROM.GetNewsIcon]After much deliberation, France and the Soviet Union announced a defensive alliance today in Moscow. After both countries signed the accord, thunderous applause could be heard even outside the building.\n\nSince the SFIO assumed control of the French Republic, there has been talk of the countries forming a defence alliance as tensions in Europe escalate. Despite their opposing philosophies, the two countries have resolved to put aside their disagreements. While many communists and socialists in France and the Soviet Union welcomed the news, many were dissatisfied because they had hoped for a far more immediate relationship.\n\nThe international community's reaction has been varied; while some countries feel that this new defence alliance will stabilise Europe and slow the rise of fascism, many others are concerned that it will simply cause long-term diplomatic damage in Europe."
  FRA_Front_Populaire_1936.5.A: "Will this really stabilise Europe?"
 
+ FRA_Front_Populaire_1936.6.t: "The Nantes Congress"
+ FRA_Front_Populaire_1936.6.d: "[FROM.GetNewsIcon]"
+ FRA_Front_Populaire_1936.6.A: "We must protect European democracy!"
+ FRA_Front_Populaire_1936.6.B: "The protection of our workers is of absolute importance!"
+ FRA_Front_Populaire_1936.6.C: "Peace at all costs!"
+ FRA_Support_Blum_Faction: "§YYou have chosen the faction of Blum and Thorez§!"
+
  FRA_Front_Populaire_1936.8.t: "Integration of Algeria"
  FRA_Front_Populaire_1936.8.d: "After years of French colonial rule in Algeria, we have finally begun to discuss the African colony's integration and incorporation.\n\nSince Algeria's colonisation, the African colony has become a vital and important part of the republic, not only because it provides us with more naval and trade advantages in the Mediterranean, but also because it contains many valuable resources that benefit our economy, such as gold, iron, and coal.\n\nAnother reason why integration of the African colony would be beneficial is that Algeria has had many revolts over the years, most of which have been unsuccessful, but the revolts have destabilised the colony and caused unrest among the Algerian people due to how brutal some of the methods of clearing unrest have been. Algerian integration could potentially weaken the colony's opposition.\n\nFurthermore, the colony has been a part of the republic for so long that many people now consider Algeria to be a part of the French mainland, so integrating the colony makes perfect sense."
  FRA_Front_Populaire_1936.8.A: "How dare you say that Algeria isn’t a part of the mainland?"
@@ -387,7 +395,7 @@
  FRA_Pre_Matignon_Accord.2.A: "May God save the Red, White, and Blue"
 
  FRA_Pre_Matignon_Accord.3.t: "[This.GetLeader] Addresses the French People"
- FRA_Pre_Matignon_Accord.3.d: "With the impending crisis, the depression still raging, and agitation from political opponents on all sides, [This.Getleader] has been drafting a speech in order to relieve the populace and quell the anger that still exists in the nation. His tenure as president since 1932 has been stressful for him, with long sessions of sitting in his room and having restless nights trying to get everything in order, with just the mere thought of giving the speech eating away at him.\n\nHowever, it would be drafted, his different documents checked and revised as needed, and it was time to deal with and confront the difficulties that faced the nation daily, as well as satiate the requirements of opposition when reasonable. The reputation of this country and its stability must be protected to the greatest extent possible, and what was just finalised will be delivered to the public by the president himself and will hopefully alleviate the situation."
+ FRA_Pre_Matignon_Accord.3.d: "[FROM.GetNewsIcon]With the impending crisis, the depression still raging, and agitation from political opponents on all sides, [This.Getleader] has been drafting a speech in order to relieve the populace and quell the anger that still exists in the nation. His tenure as president since 1932 has been stressful for him, with long sessions of sitting in his room and having restless nights trying to get everything in order, with just the mere thought of giving the speech eating away at him.\n\nHowever, it would be drafted, his different documents checked and revised as needed, and it was time to deal with and confront the difficulties that faced the nation daily, as well as satiate the requirements of opposition when reasonable. The reputation of this country and its stability must be protected to the greatest extent possible, and what was just finalised will be delivered to the public by the president himself and will hopefully alleviate the situation."
  FRA_Pre_Matignon_Accord.3.A: "To those living under our flag..."
 
  FRA_Matignon_Accord.1.t: "The Matignon Accords"
@@ -422,7 +430,7 @@
  FRA_Government_Collapse.2.C: "...Camille Chautemps"
 
  FRA_PRS_Collapse.1.t: "PRS Collapse"
- FRA_PRS_Collapse.1.d: ""
+ FRA_PRS_Collapse.1.d: "[FROM.GetNewsIcon]"
  FRA_PRS_Collapse.1.A: ""
 
  FRA_Events.15.t: "Charles Maurras' Sentence"
@@ -438,10 +446,10 @@
  FRA_Events.39.A: ""
 
  FRA_Events.41.t: "Foundation of Air France"
- FRA_Events.41.d: ""
+ FRA_Events.41.d: "[FROM.GetNewsIcon]"
  FRA_Events.41.A: "France is in the Air!"
 
- FRA_Events.43.t: "Les Beauté de Bordeau"
+ FRA_Events.43.t: "Les Beautés de Bordeaux"
  FRA_Events.43.d: "Franck Bouhier is a simple man living a simple life. He usually wakes up early, gets a drink of coffee and a tartine from the cafe below his apartment, reads the morning paper, and heads off to work. It takes him a good 20-25 minutes to get to work when walking at a fast pace. However, it's hard for his back as he is in his mid-50s and works as a janitor to stand most of the day. Though he enjoys his walks to work seeing the city streets.\n\nThough this morning is different as the construction in the road that he has seen progress through his window has finally been completed. It is a brand new tram line with a stop right outside his apartment with cars imported from Paris. This new tram line has been touted by the mayor of Bordeaux Adrian Marquet for a few weeks now and thanks to the recently enacted national plan that paid for new infrastructure all around France. Franck does not think much about politics or the government. Still, he does enjoy the mayor's initiation for this new tram line as his back will no longer hurt on the way to work."
  FRA_Events.43.A: "An Easier Way to Work Indeed"
 
@@ -464,7 +472,7 @@
  FRA_Army.1.B: "... the block fall in front of him"
 
  FRA_Army.2.t: "Funeral of Maurice Gamelin"
- FRA_Army.2.d: ""
+ FRA_Army.2.d: "[FROM.GetNewsIcon]"
  FRA_Army.2.A: "Rest in Peace"
 
  FRA_Army.3.t: "An Empty Seat"
@@ -603,14 +611,14 @@
 #   #   #     #   #    ##### #####
 #########################################################################
 # Saar Offensive
- FRA_Saar_Offensive.1.t: "Gamelin Enters the Saar"
+ FRA_Saar_Offensive.1.t: "French Troops Enters the Saar"
  FRA_Saar_Offensive.1.d: ""
  FRA_Saar_Offensive.1.A: ""
  FRA_Saar_Offensive.1.A_tt: "§RYou will have 40 days to reach the Rhine§!"
 
- FRA_Saar_Offensive.2.t: "Gamelin Retreats"
+ FRA_Saar_Offensive.2.t: "French Troops Retreats"
  FRA_Saar_Offensive.2.d: ""
- FRA_Saar_Offensive.2.A: "The coward"
+ FRA_Saar_Offensive.2.A: "Damn it"
 
  FRA_Saar_Offensive.3.t: "Success of the Saar Offensive"
  FRA_Saar_Offensive.3.d: ""
@@ -626,12 +634,12 @@
  FRA_Wartime_Tree.0.A: ""
  FRA_Wartime_Tree.0.B: ""
 
- FRA_Wartime_Tree.1.t: "The Banishment of the PCF"
+ FRA_Wartime_Tree.1.t: "Banishment of the PCF"
  FRA_Wartime_Tree.1.d: ""
  FRA_Wartime_Tree.1.A: ""
 
  FRA_Wartime_Tree.2.t: "Maurice Thorez Flies to the Soviet Union"
- FRA_Wartime_Tree.2.d: ""
+ FRA_Wartime_Tree.2.d: "With communism banned in France, and the PCF recognised as illegal, it seems that the party's Secretary General Maurice Thorez, rather than accepting the draft decided to flee into the Soviet Union. While this might be considered a hard blow against the far-left in France, partisanship is unlikely to wean, and even though many have considered armed resistance despite the outcome of the upcoming conflict, there are many that continue to claim that a a non-revolutionary power-struggle should remain the focus of the PCF remnants. Thorez himself claimed he'll continue to write for the the party's newspaper, the \"Humanité Clandestine,\" and his sway over the French left is likely to remain strong."
  FRA_Wartime_Tree.2.A: ""
 
  FRA_Wartime_Tree.3.t: "[This.GetLeader] Government is Overthrown"
@@ -710,8 +718,8 @@
  FRA_Capitulation_of_France.1.d: "The battle is lost. Paris has fallen into German hands, and it is only a matter of time before the rest of the country is occupied. We must now think to the future. Elements within the government want an armistice with Germany, but many officers wish to continue the struggle from Britain.\n\nCertain members of the British War Cabinet have suggested another option - a merger of France and Great Britain into a single nation, which will fight on until all of France has been liberated."
  FRA_Capitulation_of_France.1.A: "We must collaborate with the Germans."
  FRA_Capitulation_of_France.1.B: "The fight goes on!"
- FRA_Capitulation_of_France.10.A_tt: "§YPlay as Vichy France if Germany grants armistice§!\n"
- FRA_Capitulation_of_France.10.B_tt: "§YPlay as France if Germany grants armistice§!\n"
+ FRA_Capitulation_of_France.10.A_tt: "§RPlay as Vichy France if Germany grants armistice§!\n"
+ FRA_Capitulation_of_France.10.B_tt: "§RPlay as France if Germany grants armistice§!\n"
 
  FRA_Capitulation_of_France.2.t: "Triumph in France"
  FRA_Capitulation_of_France.2.d: "Our victory in France is nearly complete. The French government has asked for an armistice, and our diplomats have prepared terms which they have agreed to. They will retain control of southern France, while we are free to occupy the rest."
@@ -853,7 +861,7 @@
  FRA_populary_party: "FPP"
 
  FRA_Events.11.t: "Jacques Bainville passes away"
- FRA_Events.11.d: "[FROM.GetNewsIcon]Jacques Bainville, a prominent monarchist and avid hater of the German Reich, has passed away. His writings as a historian and journalist reveal a man disgusted with the direction of France in the past centuries, and he recruited many angry young souls to join him in the militant, fascist Action Française. However, he is most known for his writings on the Treaty of Versailles. He attacked the document that brought us peace, labeling it as \"too harsh in its mild features, too mild in its harsh features,\" believing that the treaty would provoke the German people to seek revenge while not stopping them from taking it. His burial shall take place in two days, but we have learned that he was denied the last rites by Cardinal Jean Verdier since the Pope condemned the Action Française. Many in our government are glad to see the man gone, but his death may stir up trouble with the far right…"
+ FRA_Events.11.d: "[FROM.GetNewsIcon]Jacques Bainville, a prominent monarchist and avid hater of the German Reich, has passed away. His writings as a historian and journalist reveal a man disgusted with the direction of France in the past centuries, and he recruited many angry young souls to join him in the militant, fascist Action Française. However, he is most known for his writings on the Treaty of Versailles. He attacked the document that brought us peace, labeling it as \"too harsh in its mild features, too mild in its harsh features,\" believing that the treaty would provoke the German people to seek revenge while not stopping them from taking it. His burial shall take place in two days, but we have learned that he was denied the last rites by Cardinal Jean Verdier since the Pope condemned the Action Française. Many in our government are glad to see the man gone, but his death may stir up trouble with the far right..."
  FRA_Events.11.A: "La vie des mots n’est pas indépendant de la vie des idées."
 
  FRA_Events.12.t: "Léon Blum Attacked and Wounded!"
@@ -1014,8 +1022,8 @@
  FRA_Formalize_the_Post_of_President_du_Conseil: "Formalise the Post of Président du Conseil"
  FRA_Formalize_the_Post_of_President_du_Conseil_desc: ""
 
- FRA_Ban_armed_Militaia: "Ban Armed Militias"
- FRA_Ban_armed_Militaia_desc: "While the Fascist Organizations and parties are still small and in the grand scheme of things simply irrelevant, their vehement opposition to everything this state stands for and their tendency for violence, accompanied by fanatical paramilitaries and thuggish followers, it is no surprise that the existence of these Organizations and Parties has become a major undermining factor to the stability of our Republic.\nTo exploit the Fascist's current weakness and limit the damages they have already done to France, it has become a necessity to quickly and decisively crack-down on any Fascist organization, in a series of countrywide raids, mass arrests, and forced dissolutions."
+ FRA_Ban_armed_Militias: "Ban Armed Militias"
+ FRA_Ban_armed_Militias_desc: "While the Fascist Organizations and parties are still small and in the grand scheme of things simply irrelevant, their vehement opposition to everything this state stands for and their tendency for violence, accompanied by fanatical paramilitaries and thuggish followers, it is no surprise that the existence of these Organizations and Parties has become a major undermining factor to the stability of our Republic.\nTo exploit the Fascist's current weakness and limit the damages they have already done to France, it has become a necessity to quickly and decisively crack-down on any Fascist organization, in a series of countrywide raids, mass arrests, and forced dissolutions."
 
 ### National Union ###
 
@@ -1056,6 +1064,9 @@
  FRA_Great_Social_Reform: "The Great Social Reforms"
  FRA_Great_Social_Reform_desc: ""
 
+ FRA_Create_the_CNRS: "Create the CNRS"
+ FRA_Create_the_CNRS_desc: ""
+
  FRA_Securite_Social: "The Securite Social"
  FRA_Securite_Social_desc: ""
 
@@ -1077,9 +1088,27 @@
  FRA_Unity_for_the_Left: "Unity for the Left"
  FRA_Unity_for_the_Left_desc: ""
 
+ FRA_Le_Triomphe_de_la_Sociale: "Le Triomphe de la Sociale"
+ FRA_Le_Triomphe_de_la_Sociale_desc: ""
+
+ FRA_National_Office_of_Industry: "National Office of Industry"
+ FRA_National_Office_of_Industry_desc: ""
+
+ FRA_The_Under_Secretariat_for_Mining_Affairs: "The Under-Secretariat for Mining Affairs"
+ FRA_The_Under_Secretariat_for_Mining_Affairs_desc: ""
+
+ FRA_Promote_Anti_Fascist_Policy: "Promote Anti-Fascist Policy"
+ FRA_Promote_Anti_Fascist_Policy_desc: ""
+
+ FRA_The_Bastion_of_Democracy: "The Bastion of Democracy"
+ FRA_The_Bastion_of_Democracy_desc: ""
+
+ FRA_The_Peace_Front: "The Peace Front"
+ FRA_The_Peace_Front_desc: ""
+
 ### Daladier ###
 
- FRA_The_end_of_the_Ruling_party: "The End of [FRA.GetRulingPartyLong]"
+ FRA_The_end_of_the_Ruling_party: "The End of the Front Populaire"
  FRA_The_end_of_the_Ruling_party_desc: ""
 
  FRA_Create_Family_Code: "Create the Family Code"
@@ -1094,14 +1123,23 @@
  FRA_Buy_Amerian_Planes: "Buy American Planes"
  FRA_Buy_Amerian_Planes_des: ""
  
- FRA_Hundred_Milions_Mens: "110 Milion Men"
- FRA_Hundred_Milions_Mens_desc: ""
+ FRA_The_Firmness_Policy: "The Firmness Policy"
+ FRA_The_Firmness_Policy_desc: ""
+
+ FRA_Reynaud_Deregulation_Policy: "Reynaud's Deregulation Policy"
+ FRA_Reynaud_Deregulation_Policy_desc: ""
+
+ FRA_Rule_by_Decret_Law: "Rule by Decret Law"
+ FRA_Rule_by_Decret_Law_desc: ""
 
  FRA_Act_Against_the_Enemy_of_the_State: "Act Against the Enemies of the State"
  FRA_Act_Against_the_Enemy_of_the_State_desc: ""
 
- FRA_War_On_Pacifism: "War on Pacifism"
+ FRA_War_On_Pacifism: "Deal with the Pacifists"
  FRA_War_On_Pacifism_desc: ""
+
+ FRA_National_Defense_Bonds: "National Defense Bonds"
+ FRA_National_Defense_Bonds_desc: ""
 
  FRA_Put_An_End_To_Parliament_Instability: "Put an End to Parliament Instability"
  FRA_Put_An_End_To_Parliament_Instability_desc: ""
@@ -1229,6 +1267,9 @@
  FRA_Create_the_Bureau: "Create the Bureau de Recherche de Pétrole"
  FRA_Create_the_Bureau_desc: ""
 
+ FRA_Fix_Tunisian_Economy: "Fix the Tunisian Economy"
+ FRA_Fix_Tunisian_Economy_desc: ""
+
  FRA_Ban_the_Neo_Destour: "Ban the Neo-Destour"
  FRA_Ban_the_Neo_Destour_desc: ""
 
@@ -1333,10 +1374,10 @@
  FRA_War_of_Annilation: "War of Annihilation"
  FRA_War_of_Annilation_desc: ""
 
- FRA_Restart_Yperit: "Restart Production of Yperit"
+ FRA_Restart_Yperit: "Restart Production of Ypérit"
  FRA_Restart_Yperit_desc: ""
 
- FRA_Guerre_Total: "The "Guerre Total" Tenet"
+ FRA_Guerre_Total: "The "Guerre Totale" Tenet"
  FRA_Guerre_Total_desc: ""
 
  #Air Army
@@ -1508,7 +1549,7 @@
  FRA_Hold_New_Caledonia_desc: ""
 
  FRA_Blums_Labour_Reforms: "Léon Blum's Labour Reforms"
- FRA_Blums_Labour_Reforms_desc: "The election of Blum’s government has brought a wave of strikes. Nearly 2 million workers have abandoned their posts, leaving our economy crippled. The strikes were unorganised and spontaneous, but many prominent members of the business community have met with Blum to help negotiate with the strikers. Blum has decided to institute a series of labor reforms, among which give workers the right to strike and created the 40-hour work week, then credit the labor unions for the new, so-called Matignon Accords. We have a majority in the Senate, so we should not wait to call a vote. Doubters of this new policy say that, however honourable its intentions, it may damage our economy even worse…"
+ FRA_Blums_Labour_Reforms_desc: "The election of Blum’s government has brought a wave of strikes. Nearly 2 million workers have abandoned their posts, leaving our economy crippled. The strikes were unorganised and spontaneous, but many prominent members of the business community have met with Blum to help negotiate with the strikers. Blum has decided to institute a series of labor reforms, among which give workers the right to strike and created the 40-hour work week, then credit the labor unions for the new, so-called Matignon Accords. We have a majority in the Senate, so we should not wait to call a vote. Doubters of this new policy say that, however honourable its intentions, it may damage our economy even worse..."
 
  FRA_Price_Control_and_Public_Works: "Price Control and Public Works"
  FRA_Price_Control_and_Public_Works_desc: "Our reforms have caused a huge increase in inflation. We are up 46%, and our opponents are using this as an excuse to attack our policies. We should institute large programs of price control to remedy this before our popular support evaporates. First off, we should create an Office du Blé to market agricultural products at fair prices for farmers, then we should shift the higher tax burden off the consumers and onto the producers. An unnecessary, but the popular program has been started: a massive public works project to improve the quality of life in our industrial centers and cities. This should ensure continuing support for our administration."
@@ -1553,7 +1594,7 @@
  FRA_Indochine_Francaise_desc: "Ever since the 14th century, we have been involved in the Indochinese peninsula. French Indochina, the jewel of our Asian possessions, was formed in 1887. However, this proud testament to French military strength has fallen into disrepair. Frequent native revolts are barely suppressed, the ports of Vietnam are feeble, and it serves little use to our struggling economy. This cannot be allowed to reflect upon France. We need to allocate some of our resources to overhauling the current colonial structure and industrializing and modernizing the territories themselves. Hopefully, the territories may soon be consistent with our more developed colonies such as French Algeria."
 
  FRA_La_Defense_de_L_Indochine: "La Defense de L'Indochine"
- FRA_La_Defense_de_L_Indochine_desc: "Our possessions in Asia are threatened. The Japanese have gone to war against China, and they greedily eye French Indochina. Our foothold in the East must be protected. We might be able to begin a large fortification and defense project, importing workers and soldiers from France and some natives as well, to build fortifications on the coast and on the border with China, which may soon become a border with Japan. We can, alternatively, focus on taking the fight to whatever may threaten our colonies there, building bigger ports and air bases. But we face another threat; the Thai may be sympathetic to the Japanese idea of an East-Asian Co-Prosperity Sphere…"
+ FRA_La_Defense_de_L_Indochine_desc: "Our possessions in Asia are threatened. The Japanese have gone to war against China, and they greedily eye French Indochina. Our foothold in the East must be protected. We might be able to begin a large fortification and defense project, importing workers and soldiers from France and some natives as well, to build fortifications on the coast and on the border with China, which may soon become a border with Japan. We can, alternatively, focus on taking the fight to whatever may threaten our colonies there, building bigger ports and air bases. But we face another threat; the Thai may be sympathetic to the Japanese idea of an East-Asian Co-Prosperity Sphere..."
 
  FRA_Trampoline_Into_the_Pacific: "Trampoline Into the Pacific"
  FRA_Trampoline_Into_the_Pacific_desc: "It is no secret our control over Indochina has been both recent and, already, wavering. Nevertheless, the worst has come to pass, and we still hold sway over southeast Asia; its fertile, resource-rich lands still coveted by the flourishing powers in the region. Rather than sit on our feet and wait for their attack, many have proposed using Indochina as our base of operations across all of the Pacific sea. Through land, sea, and air, we will show them, yet again, that France has yet to cower."
@@ -1646,13 +1687,19 @@
  FRA_Renaissance_Republicaine_3_desc: ""
 
  FRA_Scars_of_the_Great_War: "Scars of the Great War "
- FRA_Scars_of_the_Great_War_2: "Scars of the Great War "
+ FRA_Scars_of_the_Great_War_desc: ""
+
+ FRA_Full_Economic_Power: "Full Economic Power"
+ FRA_Full_Economic_Power_desc: ""
 
  FRA_Les_5_Glorieuses: "Les Cinq Glorieuses"
  FRA_Les_5_Glorieuses_desc: ""
 
  FRA_Milices_Fascistes: "Fascist Militias"
  FRA_Milices_Fascistes_desc: ""
+
+ FRA_Defender_of_the_Republic: "Defender of the Republic"
+ FRA_Defender_of_the_Republic_desc: ""
 
  FRA_The_Era_of_Aces: "The Era of Aces"
  FRA_The_Armee_de_lAir: "L'Armee de l'Air"
@@ -1732,9 +1779,6 @@
  FRA_Rearmament_Program_3: "Rearmament Program - High Effort"
  FRA_Rearmament_Program_3_desc: ""
 
- FRA_Rearmament_Program_4: "Rearmament Program - Very High Effort"
- FRA_Rearmament_Program_4_desc: ""
-
  FRA_La_Republique_Autoritaire: "The Authoritarian Republic"
 
  FRA_La_France_au_Travail: "La France au Travail"
@@ -1782,6 +1826,9 @@
  FRA_La_Der_des_Ders_3: "La Der des Ders"
  FRA_La_Der_des_Ders_3_desc: ""
 
+ FRA_The_Saar_Offensive_spirit: "The Saar Offensive"
+ FRA_The_Saar_Offensive_spirit_desc: ""
+
  FRA_The_Phoney_War: "The Phoney War"
  FRA_The_Phoney_War_desc: ""
 
@@ -1828,6 +1875,9 @@
  FRA_Keep_Fighting_in_Africa: "Keep Fighting in Africa"
  FRA_Keep_Fighting_in_Africa_desc: ""
 
+ FRA_National_Office_of_Industry: "The National Office of Industry"
+ FRA_National_Office_of_Industry_2: "The National Office of Industry"
+
 ##########################################
 ## Archive Ideas
 ###########################################
@@ -1872,6 +1922,7 @@
 
  ### Economy
  FRA_Budget_Austerity: "Budget Austerity"
+ FRA_Invest_in_Great_Works: "Invest in Great Works"
  FRA_Franc_Devaluation: "Devalue the Franc"
  FRA_Creation_of_the_Compagnie_Nationale_du_Rhone: "Creation of the Compagnie Nationale du Rhône"
  FRA_Continue_construction_of_Autoroutes: "The Plan Frost"
@@ -2045,11 +2096,9 @@
  ### Programme des 12 milliards
  FRA_Programme_des_12_Milliards_category: "12 Billion's Program"
  FRA_Programme_des_12_Milliards_category_desc: "\n\n\n£decision_header_FRA_Programme_des_12_milliards£\n\n\n\n"
- FRA_Protect_our_Sky: "Protect our Sky"
- FRA_Produce_more_Somua: "Produce more Somua"
  FRA_Relaunching_the_Arms_Race: "Relaunching the Arms Race"
- FRA_Catching_up_on_our_Backlog_in_Aeronautics: "Catching up on our Backlog in Aeronautics"
- FRA_Begin_the_Rearmement_Done: "Completed the Decision §Y"Begin the Rearmament"§! from §LGuerre et Paix§!"
+ FRA_Prepare_the_Marine_Nationale: "Prepare the Marine Nationale"
+ FRA_Challenge_the_Panzerwaffe: "Challenge the Panzerwaffe"
  FRA_Increase_Rearmament_Level: "§YRearmament§! Level will be §GIncreased§!"
 
  ### Le Front Populaire
@@ -2069,6 +2118,7 @@
  FRA_Les_Grandes_Reformes_Sociales_category_desc: "\n\n\n£decision_header_FRA_Les_Grandes_Reformes_Sociales£\n\n\n\n"
  FRA_Applied_the_Programe_of_the_Front: "Apply the Program of the Front"
  FRA_Jean_Zays_Reforms: "Jean Zay's Reforms"
+ FRA_Nationalize_the_Air_Industry: "Nationalize the Air Industry"
  
  ### Le Pacte Oriental
  FRA_Eastern_Pact_category: "The Eastern Pact"
@@ -2137,11 +2187,20 @@
 
  ### Tooltips
 
+ Separation_tt: "-------------------------------------------------------------"
+ FRA_Parliament_Info_tt: "§RThe success of the law will depend of your total support in the parliament.§!"
+ FRA_Launched_the_Reform_of_the_State: "§RCurrently Working on the Reform of the State§!"
+
  FRA_Third_Republic_tt: "§RIf your total parliament support falls below 40%, the current government will fall.§!."
  FRA_Nouvelle_Grande_Armee_tt: "§R The New Grande Armee will rise!§!"
  FRA_5_Glorieuse_tt: "§RYou must have less than 5 Great Depression Impact§!"
  FRA_Crisis_tt: "§RThe republic is in Crisis, you will not be able to choose any focuses until it ends.§! "
+
  FRA_Marine_Nationale_tt: "A new and modernised series of fast battleships will begin production. We will christen the first of these after the §YCardinal de Richelieu§!."
+ FRA_Navy_Darlan: "You kept Darlan's ideas"
+ FRA_Navy_Esteva: "You choose to follow Esteva's ideas"
+ FRA_Navy_Auphan: "You choose to follow Auphan's ideas"
+
  FRA_Abandon_The_Maginot_Line_tt: "§RConstruction of the Maginot Line will no longer continue.§!"
  FRA_gaz_attack_tt: "§RYou will be allowed to use gas attack in combat.§!"
 
@@ -2166,8 +2225,6 @@
  remove_popularity_to_Undecided_tt: "Changes §gUndecided§! Popularity by [?support_to_remove|+=2%%].\n"
 
  ### Dynamic Modifiers
- FRA_Economique_Crisis: "Economic Crisis"
- FRA_Insurrectionary_Centers: "Insurrection Centers"
  FRA_Colonial_Unrest: "Colonial Unrest"
  FRA_Neo_Destour: "Néo-Destour"
  FRA_Uncooperative_Italians: "Uncooperative Italians"

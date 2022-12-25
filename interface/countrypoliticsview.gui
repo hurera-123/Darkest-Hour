@@ -144,8 +144,9 @@ guiTypes = {
 				position = { x = 15 y = 99 }#x = 103 y = -45
 				font = "hoi_18mbs"
 				text = "faction"
-				maxWidth = 193
+				maxWidth = 143
 				maxHeight = 20
+				fixedsize = yes
 				format = left
 			}
 

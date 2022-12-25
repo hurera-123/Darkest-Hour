@@ -1410,15 +1410,6 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {
-					has_idea = USA_Second_New_Deal_5
-				}
-				swap_ideas = {
-					remove_idea = USA_Second_New_Deal_5
-					add_idea = USA_Second_New_Deal_6
-				}
-			}
-			else_if = {
-				limit = {
 					has_idea = USA_Second_New_Deal_6
 				}
 				swap_ideas = {
@@ -2468,6 +2459,11 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = USA_Reafirm_Monroe_Doctrine
+		}
+		available = {
+			has_country_leader = {
+				character = USA_Robert_A_Taft
+			}
 		}
 		completion_reward = {
 			every_country = {
@@ -5227,7 +5223,7 @@ focus_tree = {
 	focus = {
 		id = USA_Implement_Protectionist_Tarrifs
 		icon = GFX_USA_Implement_Tariffs
-		cost = 10
+		cost = 70
 		prerequisite = {
 			focus = USA_Make_Publc_Works_Private
 			focus = USA_Fair_Labor_Management_Relations
@@ -5249,7 +5245,7 @@ focus_tree = {
 	focus = {
 		id = USA_Support_Gas_Companies
 		icon = GFX_USA_Support_Gas_Companies
-		cost = 10
+		cost = 70
 		prerequisite = {
 			focus = USA_Empower_National_Civic_Federation
 			focus = USA_Fair_Labor_Management_Relations
@@ -5288,7 +5284,7 @@ focus_tree = {
 	focus = {
 		id = USA_Reform_Tax_Code
 		icon = GFX_USA_Reform_Tax_Code
-		cost = 10
+		cost = 60
 		prerequisite = {
 			focus = USA_Implement_Protectionist_Tarrifs
 			focus = USA_Support_Gas_Companies
@@ -5335,7 +5331,7 @@ focus_tree = {
 	focus = {
 		id = USA_Get_The_Party_Fall_In_Line
 		icon = GFX_focus_generic_military_mission
-		cost = 10
+		cost = 65
 		prerequisite = {
 			focus = USA_Reform_Tax_Code
 		}
@@ -5355,7 +5351,7 @@ focus_tree = {
 	focus = {
 		id = USA_Work_Acroos_the_Aisle
 		icon = GFX_goal_generic_dangerous_deal
-		cost = 10
+		cost = 65
 		prerequisite = {
 			focus = USA_Reform_Tax_Code
 		}
@@ -5571,7 +5567,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_Pro_War_Propaganda
-		icon = GFX_GENERIC_Cabinet
+		icon = GFX_goal_generic_propaganda
 		cost = 40
 		prerequisite = {
 			focus = USA_Arsenal_Of_Democracy
@@ -5714,7 +5710,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_A_Special_Relationship
-		icon = GFX_GENERIC_Seek_International_Recognition
+		icon = GFX_ENG_A_Special_Relationship
 		cost = 45
 		available = {
 			ENG = {
@@ -5742,7 +5738,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_Sell_War_Bonds
-		icon = GFX_GENERIC_Anti_Poverty_Campaign
+		icon = GFX_focus_SWI_issue_war_bonds
 		cost = 45
 		prerequisite = {
 			focus = USA_the_Giant_Wakes
@@ -5758,7 +5754,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_War_Production_Board
-		icon = GFX_GENERIC_Burn_the_Parliament
+		icon = GFX_goal_generic_production
 		cost = 50
 		prerequisite = {
 			focus = USA_Expand_Office_Civilian_Defense
@@ -5792,7 +5788,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_Draft_Atlantic_Charter
-		icon = GFX_GENERIC_Draw_Borders
+		icon = GFX_GENERIC_New_Constitution
 		cost = 50
 		available = {
 			is_in_faction_with = ENG
@@ -5802,6 +5798,11 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = USA_Reserve_Companies
+		}
+		bypass = {
+			ENG = {
+				has_completed_focus = ENG_A_Special_Relationship
+			}
 		}
 		x = 1
 		y = 1
@@ -5872,7 +5873,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_Expand_Budget_Signal_Security_Agency
-		icon = GFX_GENERIC_Mass_Arrest_Political_Enemies
+		icon = GFX_focus_generic_secret_service_agency
 		cost = 50
 		prerequisite = {
 			focus = USA_Office_Scientific_Research_Develpoment
@@ -5936,10 +5937,13 @@ focus_tree = {
 		x = -5
 		y = 2
 		relative_position_id = USA_New_Threats_to_the_World
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Strengthen_Social_Security
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_GENERIC_Health_Care_Investement
 		cost = 60
 		prerequisite = {
 			focus = USA_Theres_No_Indispensible_Man
@@ -5947,6 +5951,88 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = USA_Theres_No_Indispensible_Man
+		available = {
+			set_temp_variable = {
+				total_support_to_check = 0.5
+			}
+			has_at_least_parliament_total_support = yes
+		}
+		completion_reward = {
+			set_temp_variable = {
+				unemployment_value = -0.02
+			}
+			add_unemployment_effect = yes
+			set_temp_variable = {
+				party_id = 4
+			}			#Republicans
+			set_temp_variable = {
+				support_to_add = -0.05
+			}
+			change_party_support = yes
+			if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_5
+				}
+				swap_ideas = {
+					remove_idea = USA_Third_New_Deal_5
+					add_idea = USA_Third_New_Deal_8
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_6
+				}
+				swap_ideas = {
+					remove_idea = USA_Third_New_Deal_6
+					add_idea = USA_Third_New_Deal_9
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_7
+				}
+				swap_ideas = {
+					remove_idea = USA_Third_New_Deal_7
+					add_idea = USA_Third_New_Deal_10
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_8
+				}
+				swap_ideas = {
+					remove_idea = USA_Third_New_Deal_8
+					add_idea = USA_Third_New_Deal_11
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_9
+				}
+				swap_ideas = {
+					remove_idea = USA_Third_New_Deal_9
+					add_idea = USA_Third_New_Deal_12
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_10
+				}
+				swap_ideas = {
+					remove_idea = USA_Third_New_Deal_10
+					add_idea = USA_Third_New_Deal_12
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_11
+				}
+				swap_ideas = {
+					remove_idea = USA_Third_New_Deal_11
+					add_idea = USA_Third_New_Deal_12
+				}
+			}
+		}
 	}
 	focus = {
 		id = USA_Prepare_Aid_Packages
@@ -5958,6 +6044,9 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = USA_Theres_No_Indispensible_Man
+		completion_reward = {
+			add_war_support = 0.02
+		}
 	}
 	focus = {
 		id = USA_Slash_Taxes
@@ -5969,6 +6058,16 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = USA_Theres_No_Indispensible_Man
+		completion_reward = {
+			set_temp_variable = {
+				party_id = 4
+			}			# Republicans
+			set_temp_variable = {
+				popularity_to_add = 0.03
+			}
+			add_relative_popularity_to_parliament_party = yes
+			decrease_slider_taxes = yes
+		}
 	}
 	focus = {
 		id = USA_Streamline_the_New_Deal
@@ -5989,6 +6088,72 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = USA_Strengthen_Social_Security
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_12
+				}
+				swap_ideas = {
+					remove_idea = USA_Third_New_Deal_12
+					add_idea = USA_Third_New_Deal_7
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_11
+				}
+				swap_ideas = {
+					remove_idea = USA_Third_New_Deal_11
+					add_idea = USA_Third_New_Deal_6
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_10
+				}
+				swap_ideas = {
+					remove_idea = USA_Third_New_Deal_10
+					add_idea = USA_Third_New_Deal_5
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_9
+				}
+				swap_ideas = {
+					remove_idea = USA_Third_New_Deal_9
+					add_idea = USA_Third_New_Deal_4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_8
+				}
+				swap_ideas = {
+					remove_idea = USA_Third_New_Deal_8
+					add_idea = USA_Third_New_Deal_3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_7
+				}
+				swap_ideas = {
+					remove_idea = USA_Third_New_Deal_7
+					add_idea = USA_Third_New_Deal_2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_6
+				}
+				swap_ideas = {
+					remove_idea = USA_Third_New_Deal_6
+					add_idea = USA_Third_New_Deal_1
+				}
+			}
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = USA_Get_the_People_On_Our_Side
@@ -6000,6 +6165,9 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = USA_Streamline_the_New_Deal
+		completion_reward = {
+			country_event = { id = USA_1940_1944_Wilkie.14 days = 1 }
+		}
 	}
 	focus = {
 		id = USA_Loosen_the_Noose_of_Neutrality
@@ -6012,6 +6180,25 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = USA_Streamline_the_New_Deal
+		completion_reward = {
+			if = {
+				limit = {
+					has_country_flag = USA_Defense_Against_Aggression_Selected
+				}
+				swap_ideas = {
+					remove_idea = USA_Neutrality_Act
+					add_idea = USA_Neutrality_Act_2
+				}
+				set_country_flag = USA_Selected_Neutrality_Act_2
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = USA_Neutrality_Act
+					add_idea = USA_Neutrality_Act_3
+				}
+				set_country_flag = USA_Selected_Neutrality_Act_3
+			}
+		}
 	}
 	focus = {
 		id = USA_Begin_to_Rearm
@@ -6032,6 +6219,15 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = USA_Strengthen_Social_Security
+		available = {
+			set_temp_variable = {
+				total_support_to_check = 0.5
+			}
+			has_at_least_parliament_total_support = yes
+		}
+		completion_reward = {
+			country_event = { id = USA_1940_1944_Wilkie.1 days = 1}
+		}
 	}
 	focus = {
 		id = USA_Enlarge_Military_Industry
@@ -6043,10 +6239,13 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = USA_Begin_to_Rearm
+		completion_reward = {
+			unlock_decision_category_tooltip = USA_USACE_Projects_Category
+		}
 	}
 	focus = {
 		id = USA_An_Abrupt_Awakening
-		icon = GFX_GENERIC_Nationalize_Industry
+		icon = GFX_USA_the_Giant_Wakes
 		cost = 70
 		prerequisite = {
 			focus = USA_Get_the_People_On_Our_Side
@@ -6058,10 +6257,16 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = USA_Get_the_People_On_Our_Side
+		available = {
+			has_war = yes
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = USA_Wartime_Economic_Recovery_Category
+		}
 	}
 	focus = {
 		id = USA_Coordinate_Our_Resources
-		icon = GFX_goal_generic_construction2
+		icon = GFX_focus_research
 		cost = 40
 		prerequisite = {
 			focus = USA_An_Abrupt_Awakening
@@ -6069,10 +6274,13 @@ focus_tree = {
 		x = -3
 		y = 1
 		relative_position_id = USA_An_Abrupt_Awakening
+		completion_reward = {
+			country_event = { id = USA_1940_1944_Wilkie.8 days = 1 }
+		}
 	}
 	focus = {
 		id = USA_Play_Catch_Up
-		icon = GFX_GENERIC_Stimulus_Plan
+		icon = GFX_GENERIC_Military_Industrial_Complexes
 		cost = 40
 		prerequisite = {
 			focus = USA_An_Abrupt_Awakening
@@ -6080,10 +6288,45 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = USA_An_Abrupt_Awakening
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = USA
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = USA
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = USA
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = USA_Get_the_People_to_Work
-		icon = GFX_GENERIC_Support_for_Agriculture
+		icon = GFX_goal_generic_construct_civ_factory
 		cost = 40
 		prerequisite = {
 			focus = USA_An_Abrupt_Awakening
@@ -6091,10 +6334,45 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = USA_An_Abrupt_Awakening
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = USA
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = USA
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = USA
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = USA_Turn_the_People_Against_the_Enemy
-		icon = GFX_GENERIC_Political_Army
+		icon = GFX_goal_generic_propaganda
 		cost = 40
 		prerequisite = {
 			focus = USA_An_Abrupt_Awakening
@@ -6102,9 +6380,43 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = USA_An_Abrupt_Awakening
+		completion_reward = {
+			unlock_decision_tooltip = USA_Mass_Produce_Pro_War_Posters
+			unlock_decision_tooltip = USA_Pro_War_Radio_Speeches
+			unlock_decision_tooltip = USA_Hold_Pro_War_Rallies
+		}
 	}
 	focus = {
-		id = USA_Invoke_the_Line_of_Succession
+		id = USA_McNarys_Farm_Plan
+		icon = GFX_GENERIC_Support_for_Agriculture
+		cost = 20
+		prerequisite = {
+			focus = USA_Coordinate_Our_Resources
+		}
+		prerequisite = {
+			focus = USA_Play_Catch_Up
+		}
+		prerequisite = {
+			focus = USA_Get_the_People_to_Work
+		}
+		prerequisite = {
+			focus = USA_Turn_the_People_Against_the_Enemy
+		}
+		x = 2
+		y = 1
+		relative_position_id = USA_Coordinate_Our_Resources
+		available = {
+			has_country_leader = {
+				name = "Charles L. McNary"
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			country_event = { id = USA_1940_1944_Wilkie.2 days = 1 }
+		}
+	}
+	focus = {
+		id = USA_In_Memoriam
 		icon = GFX_GENERIC_Parliament
 		cost = 20
 		prerequisite = {
@@ -6119,24 +6431,42 @@ focus_tree = {
 		prerequisite = {
 			focus = USA_Turn_the_People_Against_the_Enemy
 		}
-		x = 3
+		x = 4
 		y = 1
 		relative_position_id = USA_Coordinate_Our_Resources
+		available = {
+			has_country_leader = {
+				name = "Charles L. McNary"
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			country_event = { id = USA_1940_1944_Wilkie.4 days = 1 }
+		}
 	}
 	focus = {
 		id = USA_Disaster_Strikes_Twice
 		icon = GFX_GENERIC_Restore_Confidence_in_the_Bank
 		cost = 20
 		prerequisite = {
-			focus = USA_Invoke_the_Line_of_Succession
+			focus = USA_McNarys_Farm_Plan
 		}
-		x = 0
+		prerequisite = {
+			focus = USA_In_Memoriam
+		}
+		x = 1
 		y = 1
-		relative_position_id = USA_Invoke_the_Line_of_Succession
+		relative_position_id = USA_McNarys_Farm_Plan
+		available = {
+			always = no
+		}
+		completion_reward = {
+			country_event = { id = USA_1940_1944_Wilkie.12 days = 1 }
+		}
 	}
 	focus = {
 		id = USA_We_Shall_Keep_Fighting
-		icon = GFX_GENERIC_Burn_the_Parliament
+		icon = GFX_goal_generic_major_war
 		cost = 30
 		mutually_exclusive = {
 			focus = USA_A_Return_to_Isolation
@@ -6158,10 +6488,13 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = USA_We_Shall_Keep_Fighting
+		completion_reward = {
+			add_war_support = 0.1
+		}
 	}
 	focus = {
 		id = USA_Strengthen_the_War_Machine
-		icon = GFX_GENERIC_Tax_the_Rich
+		icon = GFX_GENERIC_Military_Production
 		cost = 20
 		prerequisite = {
 			focus = USA_We_Shall_Keep_Fighting
@@ -6169,10 +6502,34 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = USA_We_Shall_Keep_Fighting
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = USA
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = USA
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = USA_The_Military_Industrial_Complex
-		icon = GFX_GENERIC_Modern_Elitism
+		icon = GFX_GENERIC_Military_Industrial_Complexes
 		cost = 20
 		prerequisite = {
 			focus = USA_We_Shall_Keep_Fighting
@@ -6180,6 +6537,9 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = USA_We_Shall_Keep_Fighting
+		completion_reward = {
+			add_ideas = USA_The_Military_Industrial_Complex
+		}
 	}
 	focus = {
 		id = USA_Enlarge_the_Research_Budget
@@ -6197,10 +6557,13 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = USA_Propagate_Pro_War_Sentiments
+		completion_reward = {
+			add_ideas = USA_War_Research_Budget
+		}
 	}
 	focus = {
-		id = USA_Increase_Counter_Espionage_Funding
-		icon = GFX_goal_generic_political_pressure
+		id = USA_A_Necessary_Evil
+		icon = GFX_GENERIC_Forced_Labour
 		cost = 20
 		prerequisite = {
 			focus = USA_Propagate_Pro_War_Sentiments
@@ -6214,20 +6577,26 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = USA_Propagate_Pro_War_Sentiments
+		completion_reward = {
+			country_event = { id = USA_1940_1944_FDR.4 days = 1 }
+		}
 	}
 	focus = {
 		id = USA_Complete_Mobilization
 		icon = GFX_GENERIC_Tank_Destroyers
-		cost = 3
+		cost = 30
 		prerequisite = {
 			focus = USA_Enlarge_the_Research_Budget
 		}
 		prerequisite = {
-			focus = USA_Increase_Counter_Espionage_Funding
+			focus = USA_A_Necessary_Evil
 		}
 		x = 1
 		y = 1
 		relative_position_id = USA_Enlarge_the_Research_Budget
+		completion_reward = {
+			country_event = { id = USA_1940_1944_Wilkie.5 days = 1 }
+		}
 	}
 	focus = {
 		id = USA_A_Return_to_Isolation
@@ -6242,6 +6611,30 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = USA_Disaster_Strikes_Twice
+		available = {
+			has_country_leader = {
+				character = USA_Robert_A_Taft
+			}
+		}
+		completion_reward = {
+			every_country = {
+				limit = {
+					has_war_with = USA
+				}
+				USA = {
+					white_peace = PREV
+				}
+			}
+			if = {
+				limit = {
+					is_in_faction = yes
+				}
+				leave_faction = yes
+			}
+			add_political_power = 100
+			add_war_support = -0.1
+			news_event = { id = USA_1940_1944_Wilkie.13 days = 1 }
+		}
 	}
 	focus = {
 		id = USA_Assure_the_People
@@ -6253,6 +6646,9 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = USA_A_Return_to_Isolation
+		completion_reward = {
+			country_event = { id = USA_1940_1944_Wilkie.15 days = 1 }
+		}
 	}
 	focus = {
 		id = USA_Tear_Up_the_New_Deal
@@ -6264,6 +6660,96 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = USA_A_Return_to_Isolation
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_1
+				}
+				remove_ideas = USA_Third_New_Deal_1
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_2
+				}
+				remove_ideas = USA_Third_New_Deal_2
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_3
+				}
+				remove_ideas = USA_Third_New_Deal_3
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_4
+				}
+				remove_ideas = USA_Third_New_Deal_4
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_5
+				}
+				remove_ideas = USA_Third_New_Deal_5
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_6
+				}
+				remove_ideas = USA_Third_New_Deal_6
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_7
+				}
+				remove_ideas = USA_Third_New_Deal_7
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_8
+				}
+				remove_ideas = USA_Third_New_Deal_8
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_9
+				}
+				remove_ideas = USA_Third_New_Deal_9
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_10
+				}
+				remove_ideas = USA_Third_New_Deal_10
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_11
+				}
+				remove_ideas = USA_Third_New_Deal_11
+			}
+			else_if = {
+				limit = {
+					has_idea = USA_Third_New_Deal_12
+				}
+				remove_ideas = USA_Third_New_Deal_12
+			}
+			add_stability = -0.1
+			add_political_power = 100
+			set_temp_variable = {
+				party_id = 4
+			}			#Republicans
+			set_temp_variable = {
+				support_to_add = 0.25
+			}
+			change_party_support = yes
+			set_temp_variable = {
+				party_id = 6
+			}			#Democrats
+			set_temp_variable = {
+				support_to_add = -0.15
+			}
+			change_party_support = yes
+		}
 	}
 	focus = {
 		id = USA_Consolidate_the_Conservative_Coalition
@@ -6275,6 +6761,9 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = USA_A_Return_to_Isolation
+		completion_reward = {
+			country_event = { id = USA_1940_1944_Wilkie.6 days = 1 }
+		}
 	}
 	focus = {
 		id = USA_Tax_Cuts_For_Businesses
@@ -6292,6 +6781,9 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = USA_Assure_the_People
+		completion_reward = {
+			decrease_slider_taxes = yes
+		}
 	}
 	focus = {
 		id = USA_Weaken_the_National_Labor_Relations_Board
@@ -6309,6 +6801,9 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = USA_Assure_the_People
+		completion_reward = {
+			country_event = { id = USA_1940_1944_Wilkie.7 days = 1 }
+		}
 	}
 	focus = {
 		id = USA_For_the_Good_of_the_Nation
@@ -6323,10 +6818,13 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = USA_Tax_Cuts_For_Businesses
+		completion_reward = {
+			add_stability = 0.1
+		}
 	}
 	focus = {
 		id = USA_Return_to_Democratic_Establishment
-		icon = GFX_goal_unknown
+		icon = GFX_USA_Return_To_Democratic_Establishment
 		cost = 35
 		available = {
 			has_country_flag = USA_John_Nance_Garner_Wins_1940_Election
@@ -6362,6 +6860,9 @@ focus_tree = {
 		x = 5
 		y = 2
 		relative_position_id = USA_New_Threats_to_the_World
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Expand_the_Influence_of_the_Vice_President
@@ -6373,6 +6874,9 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = USA_Return_to_Democratic_Establishment
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Elimiate_Tariffs
@@ -6384,6 +6888,9 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = USA_Return_to_Democratic_Establishment
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Protect_the_Judiciary
@@ -6398,6 +6905,9 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = USA_Expand_the_Influence_of_the_Vice_President
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Decentralize_the_Government
@@ -6409,6 +6919,9 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = USA_Protect_the_Judiciary
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Introduce_a_National_Sales_Tax
@@ -6420,6 +6933,9 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = USA_Protect_the_Judiciary
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Introduce_a_National_Poll_Tax
@@ -6431,6 +6947,9 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = USA_Protect_the_Judiciary
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Expand_the_Rights_of_Businesses
@@ -6448,6 +6967,9 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = USA_Decentralize_the_Government
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Expand_the_Office_of_Education
@@ -6459,6 +6981,9 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = USA_Expand_the_Rights_of_Businesses
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Defensive_Military_Expansion
@@ -6470,6 +6995,9 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = USA_Expand_the_Rights_of_Businesses
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Deregulation_of_the_Oil_Industry
@@ -6481,6 +7009,9 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = USA_Expand_the_Rights_of_Businesses
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Rally_Against_Tyranny
@@ -6498,6 +7029,9 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = USA_Expand_the_Office_of_Education
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Limit_the_Executives_Power
@@ -6515,6 +7049,9 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = USA_Expand_the_Office_of_Education
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Bring_the_New_Deal_to_a_Close
@@ -6529,6 +7066,9 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = USA_Rally_Against_Tyranny
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_The_Military_Research_and_Development_Office
@@ -6540,6 +7080,9 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = USA_Bring_the_New_Deal_to_a_Close
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Coordinated_Military_Planning_Efforts
@@ -6551,6 +7094,9 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = USA_Bring_the_New_Deal_to_a_Close
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Contain_the_HUAC
@@ -6562,6 +7108,9 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = USA_Bring_the_New_Deal_to_a_Close
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Re_issue_Liberty_Bonds
@@ -6579,6 +7128,9 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = USA_The_Military_Research_and_Development_Office
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Aid_the_Flagging_Democracies
@@ -6596,6 +7148,9 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = USA_The_Military_Research_and_Development_Office
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_Resurrect_the_Committee_On_Public_Information
@@ -6610,6 +7165,9 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = USA_Re_issue_Liberty_Bonds
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_The_Eyes_of_Texas_Program
@@ -6621,10 +7179,13 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = USA_Resurrect_the_Committee_On_Public_Information
+		completion_reward = {
+			add_political_power = 50
+		}
 	}
 	focus = {
 		id = USA_The_Republican_Grip_Strenghtens
-		icon = GFX_goal_unknown
+		icon = GFX_USA_The_Republican_Grip_Strengthens
 		cost = 35
 		available = {
 			has_country_flag = USA_Landon_Wins_1940_Election
@@ -6872,7 +7433,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		completion_reward = {
-			#WIP
+			
 		}
 	}
 	focus = {
@@ -6935,7 +7496,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		completion_reward = {
-			# activate_mission = USA_Wartime_Economic_Recovery
+			unlock_decision_category_tooltip = USA_Wartime_Economic_Recovery_Category
 		}
 	}
 	focus = {
@@ -7121,7 +7682,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_It_is_Time
-		icon = GFX_GENERIC_Purge_the_Old_Guard
+		icon = GFX_goal_generic_major_war
 		cost = 30
 		prerequisite = {
 			focus = USA_Enlarge_the_Military_Budget
@@ -7243,7 +7804,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_An_Unexpected_Awakening
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_USA_the_Giant_Wakes
 		cost = 15
 		mutually_exclusive = {
 			focus = USA_Prepare_For_the_Unavoidable
@@ -7451,7 +8012,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_The_New_Freedom_Bonds
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_GENERIC_Stimulus_Plan
 		cost = 50
 		prerequisite = {
 			focus = USA_Emergency_Weapons_Research

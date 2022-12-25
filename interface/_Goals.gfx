@@ -1190,6 +1190,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_FRA_Frances_Darkest_Hour"
+        texturefile = "gfx/interface/goals/FRA_Frances_Darkest_Hour.png"
+    }
+
+    spriteType = {
         name = "GFX_FRA_From_Above"
         texturefile = "gfx/interface/goals/FRA_From_Above.png"
     }
@@ -4585,6 +4590,16 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_SOV_Expand_Air_Testing"
+        texturefile = "gfx/interface/goals/SOV_Expand_Air_Testing.png"
+    }
+
+    spriteType = {
+        name = "GFX_SOV_Expand_The_Aviation_Industry"
+        texturefile = "gfx/interface/goals/SOV_Expand_The_Aviation_Industry.png"
+    }
+
+    spriteType = {
         name = "GFX_SOV_Expand_the_Cult_of_Personality"
         texturefile = "gfx/interface/goals/SOV_Expand_the_Cult_of_Personality.png"
     }
@@ -4627,6 +4642,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_SOV_For_the_Soviet_Union"
         texturefile = "gfx/interface/goals/SOV_For_the_Soviet_Union.png"
+    }
+
+    spriteType = {
+        name = "GFX_SOV_Foster_Interest_in_Flight"
+        texturefile = "gfx/interface/goals/SOV_Foster_Interest_in_Flight.png"
     }
 
     spriteType = {
@@ -4685,6 +4705,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_SOV_Jet_Program"
+        texturefile = "gfx/interface/goals/SOV_Jet_Program.png"
+    }
+
+    spriteType = {
         name = "GFX_SOV_KGB"
         texturefile = "gfx/interface/goals/SOV_KGB.png"
     }
@@ -4707,6 +4732,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_SOV_Kulak_Rights"
         texturefile = "gfx/interface/goals/SOV_Kulak_Rights.png"
+    }
+
+    spriteType = {
+        name = "GFX_SOV_Kurchatovs_Bomb"
+        texturefile = "gfx/interface/goals/SOV_Kurchatovs_Bomb.png"
     }
 
     spriteType = {
@@ -4842,6 +4872,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_SOV_Portray_A_Global_Soviet_Image"
         texturefile = "gfx/interface/goals/SOV_Portray_A_Global_Soviet_Image.png"
+    }
+
+    spriteType = {
+        name = "GFX_SOV_Positive_Heroism_In_Aviation"
+        texturefile = "gfx/interface/goals/SOV_Positive_Heroism_In_Aviation.png"
     }
 
     spriteType = {
@@ -5105,6 +5140,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_SOV_The_Aerial_Army"
+        texturefile = "gfx/interface/goals/SOV_The_Aerial_Army.png"
+    }
+
+    spriteType = {
         name = "GFX_SOV_The_Bloody_Dwarf"
         texturefile = "gfx/interface/goals/SOV_The_Bloody_Dwarf.png"
     }
@@ -5127,6 +5167,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_SOV_The_Peoples_War"
         texturefile = "gfx/interface/goals/SOV_The_Peoples_War.png"
+    }
+
+    spriteType = {
+        name = "GFX_SOV_The_Red_Army_Airforce"
+        texturefile = "gfx/interface/goals/SOV_The_Red_Army_Airforce.png"
     }
 
     spriteType = {
@@ -5202,6 +5247,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_SOV_Voroshilovs_Old_Guard"
         texturefile = "gfx/interface/goals/SOV_Voroshilovs_Old_Guard.png"
+    }
+
+    spriteType = {
+        name = "GFX_SOV_Women_In_Aviation"
+        texturefile = "gfx/interface/goals/SOV_Women_In_Aviation.png"
     }
 
     spriteType = {
@@ -6030,6 +6080,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_USA_Return_To_Democratic_Establishment"
+        texturefile = "gfx/interface/goals/USA_Return_To_Democratic_Establishment.png"
+    }
+
+    spriteType = {
         name = "GFX_USA_Second_New_Deal"
         texturefile = "gfx/interface/goals/USA_Second_New_Deal.png"
     }
@@ -6082,6 +6137,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_USA_The_Rainbow_Plans"
         texturefile = "gfx/interface/goals/USA_The_Rainbow_Plans.png"
+    }
+
+    spriteType = {
+        name = "GFX_USA_The_Republican_Grip_Strengthens"
+        texturefile = "gfx/interface/goals/USA_The_Republican_Grip_Strengthens.png"
     }
 
     spriteType = {

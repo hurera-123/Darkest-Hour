@@ -85,12 +85,8 @@ characters={
 				NOT = { has_country_flag = Joseph_Paul_Boncour_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Foreign_Minister
 				MoS_Compassionate_Gentleman
 			}
 		}
@@ -115,12 +111,8 @@ characters={
 				NOT = { has_country_flag = Camille_Chautemps_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Silent_Lawyer
 			}
 		}
@@ -144,12 +136,8 @@ characters={
 			visible = {
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Foreign_Minister
 				FM_Appeaser
 			}
 		}
@@ -185,12 +173,8 @@ characters={
 				NOT = { has_country_flag = Pierre_Etienne_Flandin_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 4} #FR
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Foreign_Minister
 				FM_Defaitiste
 			}
 		}
@@ -219,12 +203,8 @@ characters={
 				NOT = { has_country_flag = Pierre_Etienne_Flandin_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 4} #FR
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Resource_Industrialist
 			}
 		}
@@ -268,6 +248,7 @@ characters={
 				}
 			}
 			traits = {
+				Position_Foreign_Minister
 				FM_Pacifist
 			}
 		}
@@ -284,6 +265,7 @@ characters={
 				NOT = { has_country_flag = Pierre_Laval_unavailable }
 			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Prince_Of_Terror
 			}
 		}
@@ -325,13 +307,24 @@ characters={
 				NOT = { has_country_flag = Paul_Reynaud_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 5} #AD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
+			traits={
+				Position_Foreign_Minister
+				FM_Bellicistes
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=FRA_Paul_Reynaud_AM
+			allowed={
+				tag=FRA
+			}
+			visible={
+				NOT = { has_country_flag = Paul_Reynaud_unavailable }
+				D_Minister_Allowed = yes
 			}
 			traits={
-				FM_Bellicistes
+				Position_Armaments_Minister
+				AM_Laissez-faire_Capitalist
 			}
 		}
 	}
@@ -354,12 +347,8 @@ characters={
 			visible = {
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Security_Paranoia
 			}
 		}
@@ -389,7 +378,6 @@ characters={
 				}
 			}
 			traits = {
-				
 				POSITION_President
 				L_Le_Mirabolant
 				L_Anti_Nazi
@@ -416,15 +404,8 @@ characters={
 				NOT = { has_country_flag = Louis_Barthou_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				OR = {
-					set_temp_variable = {party_id = 5} #AD
-					set_temp_variable = {support_to_check = 0.70}
-					has_at_least_parliament_party_support = yes
-				}
-				
-			}
 			traits={
+				Position_Foreign_Minister
 				FM_Respectable_Compromiser
 			}
 		}
@@ -444,8 +425,10 @@ characters={
 			}
 			visible = {
 				D_Minister_Allowed = yes
+				A_Minister_Allowed = yes
 			}
 			traits={
+				Position_Foreign_Minister
 				FM_Defaitiste
 			}
 		}
@@ -467,12 +450,8 @@ characters={
 				NOT = { has_country_flag = Albert_Bedouce_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 8} #SFIO
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Administrative_Genius
 				AM_Reformer
 			}
@@ -495,12 +474,8 @@ characters={
 				NOT = { has_country_flag = Georges_Bonnet_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Balanced_Budget_Economy
 			}
 		}
@@ -514,12 +489,8 @@ characters={
 				NOT = { has_country_flag = Georges_Bonnet_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Foreign_Minister
 				FM_Fascist_Sympathiser
 			}
 		}
@@ -541,12 +512,8 @@ characters={
 				NOT = { has_country_flag = Marx_Darnoy_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 8} #SFIO
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Compassionate_Gentleman
 			}
 		}
@@ -568,12 +535,8 @@ characters={
 				NOT = { has_country_flag = Yvon_Delbos_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Foreign_Minister
 				MoS_Compassionate_Gentleman
 			}
 		}
@@ -594,13 +557,10 @@ characters={
 			visible={
 				NOT = { has_country_flag = Ludovic_Oscar_Frossard_unavailable }
 				D_Minister_Allowed = yes
-			}
-			available = {
-				set_temp_variable = {party_id = 8} #SFIO
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
+				A_Minister_Allowed = yes
 			}
 			traits={
+				Position_Armaments_Minister
 				AM_Balanced_Budget_Economy
 			}
 		}
@@ -621,12 +581,8 @@ characters={
 			visible = {
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Bad_Reputation
 				MoS_Crime_Fighter
 			}
@@ -649,6 +605,7 @@ characters={
 				D_Minister_Allowed = yes
 			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Opposer_Of_The_Far_Right
 			}
 		}
@@ -669,12 +626,8 @@ characters={
 			visible = {
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Crime_Fighter
 			}
 		}
@@ -697,6 +650,7 @@ characters={
 				D_Minister_Allowed = yes
 			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Back_Stabber
 			}
 		}
@@ -718,12 +672,8 @@ characters={
 				NOT = { has_country_flag = Jules_Moch_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 8} #SFIO
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Construction_Magnate
 			}
 		}
@@ -745,12 +695,8 @@ characters={
 				NOT = { has_country_flag = Anatole_de_Monzie_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 8} #SFIO
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Balanced_Budget_Economy
 			}
 		}
@@ -774,6 +720,7 @@ characters={
 				D_Minister_Allowed = yes
 			}
 			traits={
+				Position_Armaments_Minister
 				AM_Military_Entrepreneur
 			}
 		}
@@ -795,12 +742,8 @@ characters={
 				NOT = { has_country_flag = Joseph_Paganon_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Health_And_Safety
 			}
 		}
@@ -814,12 +757,8 @@ characters={
 				NOT = { has_country_flag = Joseph_Paganon_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Industrial_Chemist
 			}
 		}
@@ -833,13 +772,7 @@ characters={
 				NOT = { has_country_flag = Joseph_Paganon_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
-				
 				HoI_Political_Specialist
 			}
 		}
@@ -860,13 +793,10 @@ characters={
 			visible={
 				NOT = { has_country_flag = Charles_Pomaret_unavailable }
 				D_Minister_Allowed = yes
-			}
-			available = {
-				set_temp_variable = {party_id = 8} #SFIO
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
+				A_Minister_Allowed = yes
 			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Silent_Lawyer
 			}
 		}
@@ -887,12 +817,8 @@ characters={
 			visible = {
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Silent_Lawyer
 			}
 		}
@@ -913,12 +839,8 @@ characters={
 			visible = {
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Silent_Lawyer
 			}
 		}
@@ -932,12 +854,8 @@ characters={
 				NOT = { has_country_flag = Henri_Roy_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Reformer
 			}
 		}
@@ -959,12 +877,8 @@ characters={
 				NOT = { has_country_flag = Roger_Salengro_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 8} #SFIO
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Opposer_Of_The_Far_Right
 			}
 		}
@@ -986,12 +900,8 @@ characters={
 				NOT = { has_country_flag = Antoine_Henri_Queuille_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Mixed_Economy
 			}
 		}
@@ -1549,6 +1459,7 @@ characters={
 				D_Minister_Allowed = yes
 			}
 			traits={
+				Position_Armaments_Minister
 				AM_Tank_Proponent
 			}
 		}
@@ -1807,6 +1718,7 @@ characters={
 				D_Minister_Allowed = yes
 			}
 			traits={
+				Position_Armaments_Minister
 				AM_Air_Superiority_Proponent
 			}
 		}
@@ -1911,6 +1823,7 @@ characters={
 				NOT = { has_country_flag = Robert_Brasillach_unavailable }
 			}
 			traits={
+				Position_Foreign_Minister
 				FM_Biased_Intellectual
 			}
 		}
@@ -1934,6 +1847,7 @@ characters={
 				NOT = { has_country_flag = Xavier_Vallat_unavailable }
 			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Back_Stabber
 			}
 		}
@@ -1971,7 +1885,7 @@ characters={
 			visible={
 				date > 1930.01.01
 				date < 1952.01.01
-				F_Minister_Allowed = yes
+				A_Minister_Allowed = yes
 				NOT = { has_country_flag = Charles_Maurras_unavailable }
 			}
 			traits={
@@ -1999,20 +1913,23 @@ characters={
 			}
 		}
 		advisor={
-			slot=Head_of_Government
-			idea_token=FRA_Philippe_Petain_HoG
+			slot=Minister
+			idea_token = FRA_Philippe_Petain_M
 			removal_cost = -1
 			allowed={
 				tag=FRA
 			}
-			visible={
-				date > 1916.01.01
-				A_Minister_Allowed = yes
-				NOT = { has_country_flag = Philippe_Petain_unavailable }
+			visible = {
+				has_country_flag = FRA_defeatist_in_place
+				NOT = { has_completed_focus = FRA_Remove_the_Defeatist }
+				NOT = {	has_country_flag = Philippe_Petain_unavailable}
+				D_Minister_Allowed = yes
 			}
-			traits={
-				
-				L_Old_General
+			available = {
+			}
+			traits = {
+				L_The_Old_Marshal
+				FM_Fascist_Sympathiser
 			}
 		}
 	}
@@ -2035,7 +1952,7 @@ characters={
 			}
 			expire = "1965.1.1"
 			id=-1
-		}
+		}		
 	}
 
 	### Communist ###
@@ -2104,6 +2021,7 @@ characters={
 				NOT = { has_country_flag = Marcel_Cachin_unavailable }
 			}
 			traits={
+				Position_Foreign_Minister
 				FM_Biased_Intellectual
 			}
 		}

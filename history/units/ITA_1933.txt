@@ -80,30 +80,6 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Divisione Coloniale" 			# a compromise between the Libyan and Eritrean divisions
-	division_names_group = ITA_COL_01
-	regiments = {
-		light_infantry = { x = 0 y = 0 }
-		light_infantry = { x = 0 y = 1 }
-		light_infantry = { x = 0 y = 2 }
-		light_infantry = { x = 0 y = 3 }
-		light_infantry = { x = 0 y = 4 }
-		light_infantry = { x = 1 y = 0 }
-		light_infantry = { x = 1 y = 1 }
-		light_infantry = { x = 1 y = 2 }
-		light_infantry = { x = 1 y = 3 }
-		light_infantry = { x = 1 y = 4 }
-		artillery_battalion_light = { x = 2 y = 0 }
-		artillery_battalion_light = { x = 2 y = 1 }
-    }
-	support = {
-		engineer = { x = 0 y = 0 }
-		field_hospital = { x = 0 y = 1 }
-		logistics_company = { x = 0 y = 2 }
-	}
-    priority = 0
-}
-division_template = {
 	name = "Corpo di Truppe Coloniali"
 	division_names_group = ITA_COL_01
 	regiments = {
@@ -502,8 +478,8 @@ units = {
 		start_experience_factor = 0.08
 		start_equipment_factor = 0.8
 		acclimatization = {
-			hot_climate = 18300
-			max_acclimatization = 18300
+			hot_climate = 16660
+			max_acclimatization = 16660
 		}
 	}
 	division = {
@@ -513,8 +489,8 @@ units = {
 		start_experience_factor = 0.08
 		start_equipment_factor = 0.8
 		acclimatization = {
-			hot_climate = 18300
-			max_acclimatization = 18300
+			hot_climate = 16660
+			max_acclimatization = 16660
 		}
 	}
 	division = {
@@ -524,8 +500,8 @@ units = {
 		start_experience_factor = 0.08
 		start_equipment_factor = 0.8
 		acclimatization = {
-			hot_climate = 18300
-			max_acclimatization = 18300
+			hot_climate = 16660
+			max_acclimatization = 16660
 		}
 	}
 	##### navy oob #####

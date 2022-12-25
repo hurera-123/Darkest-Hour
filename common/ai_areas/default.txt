@@ -186,4 +186,16 @@ areas = {
 			227
 		}
 	}
+	north_africa = {
+		strategic_regions = {
+			126
+			242
+		}
+	}
+	norwegian_coast = {
+		strategic_regions = {
+			11
+			191
+		}
+	}
 }

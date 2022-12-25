@@ -1,0 +1,23 @@
+﻿units = {
+	division = {
+		name = "Secteur fortifié de Savoie"
+		location = 9745
+		division_template = "Secteur Fortifié"
+		start_experience_factor = 0.14 # the early 30s was a very low point for the French Army
+		start_equipment_factor = 0.15
+	}
+	division = {
+		name = "Secteur fortifié du Dauphiné"
+		location = 3764
+		division_template = "Secteur Fortifié"
+		start_experience_factor = 0.14 # the early 30s was a very low point for the French Army
+		start_equipment_factor = 0.15
+	}
+	division = {
+		name = "Secteur fortifié des Alpes-Maritimes"
+		location = 3959
+		division_template = "Secteur Fortifié"
+		start_experience_factor = 0.14 # the early 30s was a very low point for the French Army
+		start_equipment_factor = 0.15
+	}
+}

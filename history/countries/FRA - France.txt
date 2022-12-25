@@ -93,33 +93,6 @@ recruit_character = FRA_Henri_Mordacq
 	#######################
 	# Modifiers
 	#######################
-	665 = {
-		add_dynamic_modifier = { modifier = FRA_Economique_Crisis }
-	}
-	1047 = {
-		add_dynamic_modifier = { modifier = FRA_Economique_Crisis }
-	}
-	1048 = {
-		add_dynamic_modifier = { modifier = FRA_Economique_Crisis }
-	}
-	458 = {
-		add_dynamic_modifier = { modifier = FRA_Economique_Crisis }
-	}
-	461 = {
-		add_dynamic_modifier = { modifier = FRA_Insurrectionary_Centers }
-	}
-	462 = {
-		add_dynamic_modifier = { modifier = FRA_Insurrectionary_Centers }
-	}
-	1139 = {
-		add_dynamic_modifier = { modifier = FRA_Insurrectionary_Centers }
-	}
-	1141 = {
-		add_dynamic_modifier = { modifier = FRA_Insurrectionary_Centers }
-	}
-	1142 = {
-		add_dynamic_modifier = { modifier = FRA_Insurrectionary_Centers }
-	}
 	849 = {
 		add_dynamic_modifier = { modifier = FRA_Colonial_Unrest }
 	}
@@ -405,7 +378,7 @@ recruit_character = FRA_Henri_Mordacq
 		FRA_Albert_Lebrun_HoG
 		FRA_Joseph_Paul_Boncour_FM
 		FRA_Georges_Bonnet_AM
-		FRA_Marx_Darnoy_MoS
+		FRA_Camille_Chautemps_MoS
 		FRA_Joseph_Paganon_HoI
 		# Military Staff
 		FRA_Maurice_Gamelin_CoArmy
