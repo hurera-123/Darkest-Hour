@@ -89,6 +89,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/topbar/musicplayer/DH_album_art.dds"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_DH_allies_album_art"
+		texturefile = "gfx/interface/topbar/musicplayer/DH_allies_album_art.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_DH_comintern_album_art"
+		texturefile = "gfx/interface/topbar/musicplayer/DH_comintern_album_art.dds"
+		noOfFrames = 2
+	}
 
 	# Backgrounds:
 	spriteType = {
