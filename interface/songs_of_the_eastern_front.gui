@@ -1,6 +1,6 @@
 guiTypes = {
 	containerWindowType = {
-		name = "allied_speeches_faceplate"
+		name = "eastern_front_faceplate"
 		position = { x = 0 y = 0 }
 		size = { width = 786 height = 46 }
 
@@ -112,13 +112,13 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "allied_speeches_stations_entry"
+		name = "eastern_front_stations_entry"
 		size = { width = 193 height = 172 }
 
 		checkBoxType = {
 			name = "select_station_button"
 			position = { x = 0 y = 0 }
-			quadTextureSprite = "GFX_speeches_album_art"
+			quadTextureSprite = "GFX_eastern_front_album_art"
 			clicksound = decisions_ui_button
 		}
 
@@ -127,7 +127,7 @@ guiTypes = {
 			position = { x = 16 y = -60 }
 			orientation = lower_left
 			font = "hoi4_typewriter22"
-			text = "allied_speeches_TITLE"
+			text = "eastern_front_TITLE"
 			maxWidth = 161
 			maxHeight = 45
 			format = center
