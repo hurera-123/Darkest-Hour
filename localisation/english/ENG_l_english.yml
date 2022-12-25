@@ -2166,7 +2166,7 @@
  decision_cost_CP_75_tooltip: "It costs £command_power  §Y75§! to take the decision"
 
  ENG_African_Sun_Category: "The African Sun"
- ENG_African_Sun_Category_desc: "\n\n\n£decision_header_ENG_The_African_Sun£\n\n\n\nIf the African lands are plenty of riches and natural wonders, his infrastructure level is catastrophic. We need to invest in the local infrastructures to ameliorate the situation before their total disintegration. To carry out this project, we will entirely restructure the old roads and rails of colonial Africa, permitting the locals a further economic growth, and, in term, a better exploitation of our territories in the dark continent"
+ ENG_African_Sun_Category_desc: "\n\n\n£decision_header_ENG_The_African_Sun£\n\n\n\nWhile the African lands hold plenty of riches and natural wonders, its infrastructure level is catastrophic. We need to invest in the local infrastructures to ease the situation before their total disintegration. To carry out this project, we will entirely restructure the old roads and rails of colonial Africa, allowing for further economic growth, and, in the long term, a better exploitation of our territories in the dark continent."
  ENG_Entice_Protectorate_Leaders: "Entice Protectorate Leaders"
  ENG_Clear_Usable_Land: "Clear Usable Land"
  ENG_Build_Heavy_Industry_Centres: "Build Heavy Industry Centres"
@@ -2190,13 +2190,13 @@
  decision_cost_pp_50_money_250_blocked: "£pol_power  §R50§!  §R[?amount_of_money_to_check|0]§! £money_icon£"
 
  ENG_British_Indian_Army_Category: "The British Indian Army"
- ENG_British_Indian_Army_Category_desc: "\n\n\n£decision_header_ENG_The_British_Indian_Army£\n\n\n\nFor years now, the British Army in India was commanded by a mix of British and Indian officers, all trained at the Royal Military College. But now, as the war is looming on the horizon, the War Secretary and the [RAJ.leader_title_one] of India have both suggested that we can better exploit the gigantic manpower of the Raj by building a new Indian Military Academy."
+ ENG_British_Indian_Army_Category_desc: "\n\n\n£decision_header_ENG_The_British_Indian_Army£\n\n\n\nFor years now, the British army in India has been made up of a mix of British and Indian officers, all trained at the Royal Military College. But now, as war is looming on the horizon, the minister of war and the governor of India have both suggested that we exploit the gigantic manpower of the Raj into the army for the greater good. We should build it from the ground up, and start to expand the new Indian Military Academy."
  ENG_Introduce_Armour_to_the_Indian_Army: "Introduce Armour to the Indian Army"
  ENG_Send_Auchinleck_to_India: "Send Auchinleck to India"
  ENG_Aid_the_Indian_Modernisation_Programmes: "Aid the Indian Modernisation Programmes"
 
  ENG_Imperial_Defence_Shakeup_Category: "Imperial Defence Shakeup"
- ENG_Imperial_Defence_Shakeup_Category_desc: "\n\n\n£decision_header_ENG_Imperial_Defence_Shakeup£\n\n\n\nThe Empire is vast, and its defences are at best acceptable. We need to develop the defences of such regions, like in Malta, in the undefended African territories, in Gibraltar, everywhere we can. We should invest in anti-aircraft defences, in coastal forts, and even, if we have the funds, in forts. Every piece of land should be protected from any foreign threats."
+ ENG_Imperial_Defence_Shakeup_Category_desc: "\n\n\n£decision_header_ENG_Imperial_Defence_Shakeup£\n\n\n\nThe Empire is vast, and its defences are at adequate at best. We need to develop the defences of various regions, such as Malta, the undefended African territories, Gibraltar, and everywhere we can afford to. We should invest in anti-aircraft defences, coastal forts, and even, if we have the funds, land forts. Every piece of land should be protected from any foreign threats."
  ENG_Establish_Maltese_Defences: "Establish Maltese Defences"
  ENG_Established_Maltese_Defences: "§YHas established Maltese defences§!"
  ENG_An_Unsinkable_Aircraft_Carrier: "An Unsinkable Aircraft Carrier"
