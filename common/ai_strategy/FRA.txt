@@ -444,7 +444,7 @@ FRA_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineers
-		value = 30
+		value = 20
 	}
 
 	ai_strategy = {
@@ -462,7 +462,7 @@ FRA_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = 5
+		value = 10
 	}
 
 	ai_strategy = {
@@ -481,7 +481,7 @@ FRA_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = cas
-		value = 10 # 15 to 10
+		value = 15 # 15 to 10
 	}
 
 	ai_strategy = {
@@ -553,21 +553,6 @@ FRA_unit_production = {
 	}
 }
 
-FRA_armored_production = {
-	enable = {
-		original_tag = FRA
-		ai_wants_divisions > 12		#Decreasing the amount of tanks the AI wants
-	}
-	abort = {
-		ai_wants_divisions < 13		#Decreasing the amount of tanks the AI wants
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = armor
-		value = 2
-	}
-}
-
 FRA_highered_armored_production = {
 	allowed = {
 		original_tag = FRA
@@ -579,7 +564,7 @@ FRA_highered_armored_production = {
 		num_of_military_factories < 110
 	}
 	ai_strategy = {
-		type = role_ratio
+		type = equipment_production_factor
 		id = armor
 		value = 20		#Removed from original production so increased from a bit to a f*** ton (in this case 10 to 20)
 	}

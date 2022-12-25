@@ -188,6 +188,10 @@ news_event = {
 			YEM = {
 				surrender_progress > 0.3
 			}
+			has_country_flag = {
+				flag = SAU_Reclaim_the_Highlands_of_Tehama
+				days > 150
+			}
 		}
 		NOT = {
 			has_country_flag = SAU_Victory_in_Yemen

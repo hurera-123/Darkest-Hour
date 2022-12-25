@@ -24,7 +24,7 @@ Poland_historical = {
 		POL_Finish_Off_Opposition
 		POL_Strenghten_Watterplate_Garnison
 		POL_State_Sponsored_Assimilation
-		POL_Charasmatic_Authoritarianism
+		POL_Charismatic_Authoritarianism
 		POL_Economy
 		POL_Warsaw_Cross_City_Line
 		POL_Factory_Nitrogen_Coumpond

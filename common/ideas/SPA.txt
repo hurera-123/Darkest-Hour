@@ -2,6 +2,7 @@ ideas = {
 
 	country = {
 		SPA_la_guerra_civil = {
+			picture = SPR_Spanish_Civil_War
 			modifier = {
 				war_support_factor = 0.20
 				production_speed_buildings_factor = -0.15
@@ -12,6 +13,7 @@ ideas = {
 			}
 		}
 		SPA_civilwar_army_1 = {
+			picture = spa_la_division_azul
 			modifier = {
 				army_org_factor = 0.15
 				conscription_factor = -0.3
@@ -20,6 +22,7 @@ ideas = {
 			}
 		}
 		SPA_civilwar_army_2 = {
+			picture = spa_la_division_azul
 			modifier = {
 				army_org_factor = 0.15
 				conscription_factor = -0.3
@@ -28,6 +31,7 @@ ideas = {
 			}
 		}
 		SPA_civilwar_army_3 = {
+			picture = spa_la_division_azul
 			modifier = {
 				army_org_factor = 0.2
 				conscription_factor = -0.3
@@ -91,6 +95,7 @@ ideas = {
 			}
 		}
 		SPA_military_power_struggles_1 = {
+			picture = SPR_Disgruntled_Army
 			modifier = {
 				stability_factor = -0.05
 				war_support_factor = -0.05
@@ -98,6 +103,7 @@ ideas = {
 			}
 		}
 		SPA_military_power_struggles_2 = {
+			picture = SPR_Disgruntled_Army
 			modifier = {
 				war_support_factor = -0.05
 			}

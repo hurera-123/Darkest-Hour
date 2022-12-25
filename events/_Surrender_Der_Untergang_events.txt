@@ -19,6 +19,10 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+		has_global_flag = {
+			flag = Barbarossa_Initiated
+			days > 365
+		}
 		original_tag = ROM
 		SOV = { has_war_with = ROM }
 		SOV = { has_war_with = GER }
@@ -122,6 +126,7 @@ country_event = {
 				transfer_state = 1143
 			}
 			ROM = {
+				set_cosmetic_tag = ROM_SOV_1946
 				add_to_war = {
 					targeted_alliance = SOV
 					enemy = GER
@@ -130,6 +135,7 @@ country_event = {
 					country_event = { id = Surrender_SOV_Response.1 }
 				}
 			}
+			set_global_flag = SOV_ROM_surrendered
 		}
 	}
 
@@ -153,6 +159,10 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+		has_global_flag = {
+			flag = Barbarossa_Initiated
+			days > 365
+		}
 		original_tag = HUN
 		SOV = { has_war_with = HUN }
 		SOV = { has_war_with = GER }
@@ -237,8 +247,44 @@ country_event = {
 			}
 			SOV = {
 				transfer_state = 73 # Transfer of Ruthenian Carpathia
+				transfer_state = 1106
+			}
+			if = {
+				limit = {
+					is_in_faction_with = ROM
+				}
+				ROM = {
+					if = {
+						limit = {
+							has_global_flag = Upper_Transylvania_Awarded
+						}
+						transfer_state = 839
+						transfer_state = 838
+						transfer_state = 76
+					}
+					if = {
+						limit = {
+							has_global_flag = Transylvania_Awarded
+						}
+						transfer_state = 82
+						transfer_state = 83
+						transfer_state = 84
+					}
+				}
 			}
 			HUN = {
+				set_cosmetic_tag = HUN_SOV_1946
+				create_country_leader = {
+						name = "Zoltan Tildy"
+						picture = GFX_P_D_Zoltan_Tildy
+						expire = "1947.1.1"
+						ideology = stalinism
+						traits = {
+							POSITION_President
+							SUBIDEOLOGY_Stalinism
+						}
+					}
+				add_ideas = HUN_C_Ferenc_Nagy
 				add_to_war = {
 					targeted_alliance = SOV
 					enemy = GER
@@ -247,6 +293,7 @@ country_event = {
 					country_event = { id = Surrender_SOV_Response.1 }
 				}
 			}
+			set_global_flag = SOV_HUN_surrendered
 		}
 	}	
 
@@ -270,6 +317,10 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+		has_global_flag = {
+			flag = Barbarossa_Initiated
+			days > 365
+		}
 		original_tag = BUL
 		SOV = { has_war_with = BUL }
 		SOV = { has_war_with = GER }
@@ -370,6 +421,7 @@ country_event = {
 					country_event = { id = Surrender_SOV_Response.1 }
 				}
 			}
+			set_global_flag = SOV_BUL_surrendered
 		}
 	}	
 
@@ -393,6 +445,10 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+		has_global_flag = {
+			flag = Barbarossa_Initiated
+			days > 365
+		}
 		original_tag = FIN
 		SOV = { has_war_with = FIN }
 		SOV = { has_war_with = GER }
@@ -418,7 +474,7 @@ country_event = {
 		}
 		leave_faction = yes
 		SOV = {
-			country_event = { id = Surrender_BUL.2 }
+			country_event = { id = Surrender_FIN.2 }
 		}
 	}
 
@@ -483,6 +539,7 @@ country_event = {
 					country_event = { id = Surrender_SOV_Response.1 }
 				}
 			}
+			set_global_flag = SOV_FIN_surrendered
 		}
 	}	
 

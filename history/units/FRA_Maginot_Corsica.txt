@@ -1,0 +1,9 @@
+﻿units = {
+	division = {
+		name = "Secteur défensif de Corse"
+		location = 3838
+		division_template = "Secteur Fortifié"
+		start_experience_factor = 0.14 # the early 30s was a very low point for the French Army
+		start_equipment_factor = 0.15
+	}
+}

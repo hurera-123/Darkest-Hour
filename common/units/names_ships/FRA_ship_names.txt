@@ -197,7 +197,7 @@ FRA_REGIONS = {
 	type = ship
 
 	unique = {
-		"Ilé de France" "Orleans" "Bordeaux" "Alsace" "Lorraine" "Gascogne" "Normandie" "Flandre" "Bourgogne" "Languedoc" "Champagne" "Poitou" 
+		"Ile de France" "Orleans" "Bordeaux" "Alsace" "Lorraine" "Gascogne" "Normandie" "Flandre" "Bourgogne" "Languedoc" "Champagne" "Poitou" 
 		"Artois" "Foix" "Picardie" "Orléans" "Marseille" "Lyon" "Toulouse" "Nice" 
 	}
 }
@@ -224,7 +224,6 @@ FRA_COLONIES = {
 	type = ship
 
 	unique = {
-		"Algerié" "Levant" "Indochine" "Maroc" "Tunisie" "Beirut" "Sénégalais" "Madagascar" "Admiral Makarov" "Admiral Isachenkov"
-		"Annam" "Cochinchine" "Laos" "Cambodge" "Tonkin" "Afrique Equatoriale" 
+		"Algerie" "Levant" "Indochine" "Maroc" "Tunisie" "Beirut" "Senegale" "Madagascar" "Annam" "Cochinchine" "Laos" "Cambodge" "Tonkin" "Afrique Equatoriale" 
 	}
 }

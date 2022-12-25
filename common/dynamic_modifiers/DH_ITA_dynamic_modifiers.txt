@@ -1,5 +1,5 @@
 ITA_Ethiopian_Unrest = {
-	icon = "GFX_idea_ITA_Ethiopian_Unrest"
+	icon = "GFX_idea_FRA_Agitations_Indigenes"
 	
 	remove_trigger = {
 		check_variable = { ITA_Ethiopian_Unrest_partisan = 0 }

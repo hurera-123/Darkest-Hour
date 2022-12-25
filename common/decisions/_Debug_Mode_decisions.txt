@@ -13,6 +13,16 @@ Debug_Decisions = {
 			set_country_flag = Daladier_Government_Post_FP
 			set_country_flag = FRA_Popular_Front_Victory
 			set_country_flag = National_Union_Doumergue
+			
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	FRA_General_Mobilization_debug = {
+		visible = {
+			original_tag = FRA
+		}
+		complete_effect = {
+			set_country_flag = FRA_General_Mobilization
 			mark_focus_tree_layout_dirty = yes
 		}
 	}

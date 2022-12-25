@@ -190,6 +190,11 @@ leader_traits = {
 	}
 	# The Old Marshal (Petain)
 	L_The_Old_Marshal = {
+		stability_factor = 0.10
+		political_power_factor = 0.05
+	}
+	# The Lion of Verdun (Petain)
+	L_The_Lion_of_Verdun = {
 		army_core_defence_factor = 0.1
 		max_planning = 0.1
 		experience_gain_army = 0.025
@@ -693,10 +698,9 @@ leader_traits = {
 	}
 	# Napoleon of Arabia
 	L_Napoleon_of_Arabia = {
-		supply_consumption_factor = -0.2
-		army_attack_factor = 0.25
-		army_org_factor = 0.2
-		heat_attrition_factor = -0.2
+		supply_consumption_factor = -0.1
+		army_attack_factor = 0.05
+		heat_attrition_factor = -0.1
 	}
 	### France ###
 	# Edouard Daladier #
@@ -727,7 +731,7 @@ leader_traits = {
 	# Gastounet
 	L_Gastounet = {
 		stability_factor = 0.15
-		Minister_cost_factor = 0.30
+		Minister_cost_factor = -0.30
 	}
 	#Bad Health
 	L_Bad_Health = {
@@ -945,7 +949,7 @@ leader_traits = {
 	}
 	# fascist_sympathiser
 	FM_Fascist_Sympathiser = {
-		war_support_factor = -0.1
+		war_support_factor = -0.15
 		fascist_acceptance = 30
 		improve_relations_maintain_cost_factor = -0.05
 	}
@@ -1837,10 +1841,10 @@ leader_traits = {
 	# Military Genius
 	CoArmy_Military_Genius = {
 		experience_gain_army = 0.15
-		army_org_factor = 0.10
-		army_morale_factor = 0.15
+		army_org_factor = 0.05
+		army_morale_factor = 0.05
 		breakthrough_factor = 0.1
-		planning_speed = 0.3
+		planning_speed = 0.15
 	}
 	################################################################################
 	## Chief of Navy traits
@@ -1997,6 +2001,10 @@ leader_traits = {
 		experience_gain_air_factor = -0.2
 		political_power_factor = 0.05
 		experience_gain_air = 0.05
+	}
+	CoAir_Night_Witch = {
+		air_strategic_bomber_bombing_factor = 0.1
+		air_strategic_bomber_night_penalty = -0.1
 	}
 	########################################
 	## Ministers Position

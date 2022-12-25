@@ -26,8 +26,8 @@ units = {
 		start_equipment_factor = 0.45 # little was supplied to the BIA by the Japanese, and what they did have was mostly weapons captured from retreating British forces.
 		force_equipment_variants = { Small_Arms_equipment_1900 = { owner = "JAP" creator = "ENG" } } # The British rifles of the time were largely the Lee-Enfields
 		acclimatization = {
-			hot_climate = 12300
-			max_acclimatization = 12300
+			hot_climate = 9300
+			max_acclimatization = 9300
 		}
 	}
 }

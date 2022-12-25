@@ -305,6 +305,7 @@ ideas = {
 			}
 		}
 		CHI_Overseas_Chinese_Drivers_and_Mechanics = {
+			picture = FRA_motorized_focus
 			available = {
 				always = yes
 			}

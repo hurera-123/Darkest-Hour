@@ -1256,8 +1256,10 @@ protect_poland_against_germany = {
 }
 
 defend_poland_against_germany = {
-	enable = {
+	allowed = {
 		tag = ENG
+	}
+	enable = {
 		GER = {
 			has_war_with = POL
 		}
@@ -1340,10 +1342,9 @@ ENG_avoiding_early_deathtraps = {
 		OR = {
 			BEL = { has_capitulated = yes }
 			NOT = {	BEL = { has_full_control_of_state = 6 }}
-			NOT = {	FRA = { has_full_control_of_state = 18 }}
-			NOT = {	FRA = { has_full_control_of_state = 785 }}
+			NOT = {	FRA = { has_full_control_of_state = 763 }}
 			NOT = {	FRA = { has_full_control_of_state = 28 }}
-			FRA = { surrender_progress > 0.1 }
+			FRA = { surrender_progress > 0.2 }
 		}
 	}
 	abort_when_not_enabled = yes
@@ -1378,13 +1379,22 @@ ENG_bef_in_europe = {
 		is_in_faction_with = BEL
 		BEL = { has_capitulated = no }
 		BEL = { has_full_control_of_state = 6 }
-		FRA = { has_full_control_of_state = 18 }
-		FRA = { has_full_control_of_state = 785 }
+		FRA = { has_full_control_of_state = 763 }
 		FRA = { has_full_control_of_state = 28 }
 		FRA = { surrender_progress < 0.2 }
 	}
 	abort_when_not_enabled = yes
 	
+	ai_strategy = {
+		type = front_unit_request
+		area = benelux
+		value = 100
+	}
+	ai_strategy = {
+		type = front_unit_request
+		area = north_france
+		value = 100
+	}
 	ai_strategy = {
 		type = force_defend_ally_borders
 		id = "BEL"
@@ -1918,8 +1928,10 @@ ENG_onto_the_beaches_4 = {
 #### OTHER ####
 # Finland doesn't join the allies if at war with the Soviets
 Do_not_invite_Finland = {
-	enable = {
+	allowed = {
 		original_tag = ENG
+	}
+	enable = {
 		ENG = {
 			has_government = democratic
 			NOT = {
@@ -2342,13 +2354,15 @@ ENG_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = armor
-		value = 10
+		value = 15
 	}
 }
 
 royal_air_force = {
-	enable = {
+	allowed = {
 		tag = ENG
+	}
+	enable = {
 		date > 1937.12.31
 	}
 	abort = {
@@ -2360,6 +2374,16 @@ royal_air_force = {
 	ai_strategy = {
 		type = air_factory_balance
 		value = 125
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = fighter
+		value = 5
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = strategic_bomber
+		value = 5
 	}
 }
 

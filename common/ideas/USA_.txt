@@ -456,7 +456,7 @@ ideas = {
 			}
 		}
 		USA_Focus_on_Making_Big_Guns_Idea = {
-			picture = GFX_idea_generic_artillery_regiments
+			picture = generic_artillery_regiments
 			allowed = {
 				always = no
 			}
@@ -478,7 +478,7 @@ ideas = {
 			}
 		}
 		USA_Focus_on_Manufacturing_Armoured_Vehicles_Idea = {
-			picture = GFX_idea_man_five_year_plan_tank
+			picture = man_five_year_plan_tank
 			allowed = {
 				always = no
 			}
@@ -516,7 +516,7 @@ ideas = {
 			}
 		}
 		USA_Focus_on_Assembling_Fighter_Planes_Idea = {
-			picture = GFX_idea_man_five_year_plan_air
+			picture = man_five_year_plan_air
 			allowed = {
 				always = no
 			}
@@ -532,7 +532,7 @@ ideas = {
 			}
 		}
 		USA_Focus_on_Assembling_CAS_Planes_Idea = {
-			picture = GFX_idea_man_five_year_plan_air
+			picture = man_five_year_plan_air
 			allowed = {
 				always = no
 			}
@@ -548,7 +548,7 @@ ideas = {
 			}
 		}
 		USA_Focus_on_Constructing_Bombers_Idea = {
-			picture = GFX_idea_man_five_year_plan_air
+			picture = man_five_year_plan_air
 			allowed = {
 				always = no
 			}
@@ -567,7 +567,7 @@ ideas = {
 			}
 		}
 		USA_Focus_on_Building_Naval_Aircraft_Idea = {
-			picture = GFX_idea_man_five_year_plan_air
+			picture = man_five_year_plan_air
 			allowed = {
 				always = no
 			}
@@ -608,7 +608,7 @@ ideas = {
 			}
 		}
 		USA_Focus_On_Producing_Armoured_Vehicles_Idea = {
-			picture = GFX_idea_man_five_year_plan_tank
+			picture = man_five_year_plan_tank
 			allowed = {
 				always = no
 			}
@@ -630,7 +630,7 @@ ideas = {
 			}
 		}
 		USA_Focus_On_Producing_Aircraft_Idea = {
-			picture = GFX_idea_man_five_year_plan_air
+			picture = man_five_year_plan_air
 			allowed = {
 				always = no
 			}
@@ -765,7 +765,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = GFX_idea_generic_artillery_regiments
+			picture = generic_artillery_regiments
 
 			equipment_bonus = {
 				artillery_equipment = {
@@ -791,7 +791,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = GFX_idea_man_five_year_plan_tank
+			picture = man_five_year_plan_tank
 
 			equipment_bonus = {
 				light_armor_equipment = {
@@ -840,7 +840,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = GFX_idea_man_five_year_plan_air
+			picture = man_five_year_plan_air
 
 			equipment_bonus = {
 				fighter = {
@@ -860,7 +860,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = GFX_idea_man_five_year_plan_air
+			picture = man_five_year_plan_air
 
 			equipment_bonus = {
 				cas = {
@@ -880,7 +880,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = GFX_idea_man_five_year_plan_air
+			picture = man_five_year_plan_air
 
 			equipment_bonus = {
 				strat_bomber_equipment = {
@@ -903,7 +903,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = GFX_idea_man_five_year_plan_air
+			picture = man_five_year_plan_air
 
 			equipment_bonus = {
 				nav_bomber_equipment = {
@@ -2565,7 +2565,7 @@ ideas = {
 		}
 		#### General Headquarters Airforce
 		USA_General_Headquarters_Airforce = {		
-			picture = GFX_idea_usa_us_air_force
+			picture = usa_us_air_force
 			allowed = {
 				always = no
 			}
@@ -2580,7 +2580,7 @@ ideas = {
 		}
 		#### Increased Plane Production
 		USA_Increased_Plane_Production = {		
-			picture = GFX_idea_man_five_year_plan_air
+			picture = man_five_year_plan_air
 			allowed = {
 				always = no
 			}
@@ -2792,6 +2792,34 @@ ideas = {
 			}
 			modifier = {
 				#WIP
+			}
+		}
+		#Willkie Term Ideas
+		USA_The_Military_Industrial_Complex = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				conversion_cost_civ_to_mil_factor = -0.1			
+				conversion_cost_mil_to_civ_factor = -0.1
+			}
+		}
+		USA_War_Research_Budget = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				research_speed_factor  = 0.05
+				money_income_factor = -0.1
+			}
+		}
+		USA_Preliminary_War_Preparations = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_capacity_factory  = 0.05
+				industrial_capacity_dockyard = 0.05
 			}
 		}
 	}

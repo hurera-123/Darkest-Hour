@@ -266,7 +266,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = generic_trade
+			picture = GFX_idea_ITA_British_Embargo 
 			equipment_bonus = {
 				infantry_equipment = {
 					build_cost_ic = -0.2

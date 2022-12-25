@@ -32,9 +32,9 @@ on_actions = {
 			random_country = {
 				clear_array = global.dh_features_tab_list_array
 				add_to_array = { global.dh_features_tab_list_array = 1.1 }
-				add_to_array = { global.dh_features_tab_list_array = 0 }
 				add_to_array = { global.dh_features_tab_list_array = 2.1 }
 				add_to_array = { global.dh_features_tab_list_array = 2.2 }
+				add_to_array = { global.dh_features_tab_list_array = 2.3 }
 				add_to_array = { global.dh_features_tab_list_array = 3.1 }
 				add_to_array = { global.dh_features_tab_list_array = 3.2 }
 				add_to_array = { global.dh_features_tab_list_array = 3.3 }
@@ -146,6 +146,10 @@ on_actions = {
 					country_event = { id = USA_FDR_Assassination.1 days = 45 } # February 15, 1933
 					country_event = { id = USA_Elections_1932.1 days = 62 } # March 4, 1933
 					country_event = { id = USA_Flavor.0 days = 184 } # July 4, 1933
+				}
+				GER = {
+					news_event = { id = GER_Flavor.1 days = 303 } # 2nd November 1933
+					news_event = { id = GER_Olympics.1 days = 1154 }
 				}
 			}
 			else_if = { # For 1936 Start Date

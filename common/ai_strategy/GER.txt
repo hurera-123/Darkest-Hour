@@ -761,92 +761,64 @@ GER_Operation_Weserubung = {
 	ai_strategy = {
 		type = declare_war
 		id = "HOL"
-		value = -2000
+		value = -500
 	}
 	ai_strategy = {
 		type = declare_war
 		id = "BEL"
-		value = -2000
+		value = -500
 	}
 	ai_strategy = {
 		type = declare_war
 		id = "LUX"
-		value = -2000
+		value = -500
 	}
 	ai_strategy = {
 		type = prepare_for_war
 		id = "HOL"
-		value = 500
+		value = 100
 	}
 	ai_strategy = {
 		type = prepare_for_war
 		id = "BEL"
-		value = 500
+		value = 100
 	}
 	ai_strategy = {
 		type = prepare_for_war
 		id = "LUX"
-		value = 100
+		value = 50
 	}
 	ai_strategy = {
-		type = front_armor_score
-		id = "HOL"
-		value = 100
+		type = area_priority
+		id = scandinavia
+		value = 50
 	}
 	ai_strategy = {
-		type = front_armor_score
-		id = "BEL"
-		value = 100
+		type = conquer
+		id = "NOR"
+		value = 50
 	}
 	ai_strategy = {
 		type = invade
 		id = "NOR"
-		value = 1000
+		value = 50
 	}
 	ai_strategy = {
-		type = naval_invasion_focus
-		value = 200
-	}
-	ai_strategy = {
-		type = invasion_unit_request
-		state = 142
-		value = 500
-	}
-	ai_strategy = {
-		type = invasion_unit_request
-		state = 1126
-		value = 500
-	}
-	ai_strategy = {
-		type = invasion_unit_request
-		state = 110
-		value = 500
-	}
-	ai_strategy = {
-		type = invasion_unit_request
-		state = 144
-		value = 200
-	}
-	ai_strategy = {
-		type = invasion_unit_request
-		state = 143
-		value = 200
+		type = front_control
+		area = norwegian_coast
+		ordertype = invasion
+		execute_order = yes
 	}
 	ai_strategy = {
 		type = conquer
 		id = "DEN"
-		value = 1000
+		value = 100
 	}
 	ai_strategy = {
 		type = front_control
 		tag = DEN
 		ordertype = front
 		execution_type = rush
-	}
-	ai_strategy = {
-		type = area_priority
-		id = scandinavia
-		value = 50
 	}
 	ai_strategy = {
 		type = garrison_reinforcement_priority
@@ -879,8 +851,11 @@ GER_Fall_Gelb = {
 		DEN = {
 			has_capitulated = yes
 		}
-		NOR = {
-			surrender_progress > 0.5
+		OR = {
+			NOR = {
+				surrender_progress > 0.5
+			}
+			date > 1940.06.01
 		}
 	}
 	abort = {
@@ -896,12 +871,12 @@ GER_Fall_Gelb = {
 	}
 	#Belgium		
 	ai_strategy = {
-		type = prepare_for_war
+		type = declare_war
 		id = "BEL"
 		value = 2000
 	}
 	ai_strategy = {
-		type = declare_war
+		type = conquer
 		id = "BEL"
 		value = 2000
 	}
@@ -918,12 +893,12 @@ GER_Fall_Gelb = {
 	}
 	#Holland	
 	ai_strategy = {
-		type = prepare_for_war
+		type = declare_war
 		id = "HOL"
 		value = 2000
 	}
 	ai_strategy = {
-		type = declare_war
+		type = conquer
 		id = "HOL"
 		value = 2000
 	}
@@ -940,12 +915,12 @@ GER_Fall_Gelb = {
 	}
 	#Lux		
 	ai_strategy = {
-		type = prepare_for_war
+		type = declare_war
 		id = "LUX"
 		value = 2000
 	}
 	ai_strategy = {
-		type = declare_war
+		type = conquer
 		id = "LUX"
 		value = 2000
 	}
@@ -1420,19 +1395,9 @@ GER_Dont_Push_on_Maginot = {
 		original_tag = GER
 	}
 	enable = {
-		NOT = {
-			has_war_with = BEL
-			has_war_with = HOL
-			has_war_with = LUX
-		}
 		has_war_with = FRA
 	}
 	abort_when_not_enabled = yes
-	ai_strategy = {
-		type = conquer
-		id = "FRA"
-		value = -500
-	}
 	ai_strategy = {
 		type = invade
 		id = "FRA"
@@ -1491,6 +1456,37 @@ GER_Invade_Crete = {
 		type = invasion_unit_request
 		state = 182
 		value = 100
+	}
+}
+GER_Help_ITA_in_Africa = {
+	enable = {
+		tag = GER	
+		has_global_flag = fall_of_france
+		has_war_with = ENG
+		is_in_faction_with = ITA
+		OR = {
+			446 = { is_controlled_by = ENG }
+			446 = { is_controlled_by = EGY }
+		}
+		surrender_progress < 0.05
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = front_unit_request
+		area = north_africa
+		value = 10
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = north_africa
+		value = 50
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = "ITA"
+		value = 10
 	}
 }
 #Operation Barbarossa
@@ -1761,6 +1757,23 @@ GER_Operation_Amerika = {
 	}
 }
 
+GER_Less_Garrison = {
+	enable = {
+		date > 1939.1.1
+		original_tag = GER
+		OR = {
+			has_war_with = FRA
+			has_war_with = SOV
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = garrison
+		id = "GER"
+		value = -5
+	}
+}
+
 #########################
 # Region Priority
 #########################
@@ -2008,13 +2021,13 @@ GER_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = 0
+		value = 15
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 75
+		value = 70
 	}
 
 	#Air unit factors
@@ -2027,7 +2040,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = cas
-		value = -35 #because doctrine this = 15
+		value = 15
 	}
 
 	ai_strategy = {
@@ -2053,13 +2066,13 @@ GER_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = capital_ship
-		value = 15
+		value = 10
 	}
 
 	ai_strategy = {
 		type = unit_ratio
 		id = submarine
-		value = -50 #because doctrine this = 50
+		value = 30
 	}
 
 	ai_strategy = {
@@ -2071,25 +2084,25 @@ GER_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = convoy
-		value = 20
+		value = 10
 	}
 
 	ai_strategy = {
 		type = equipment_production_factor
 		id = fighter
-		value = 150
+		value = 100
 	}
 
 	ai_strategy = {
 		type = equipment_production_factor
 		id = cas
-		value = -65
+		value = 50
 	}
 
 	ai_strategy = {
 		type = equipment_production_factor
 		id = tactical_bomber
-		value = -80
+		value = 40
 	}
 
 	ai_strategy = {
@@ -2107,25 +2120,25 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 11
+		value = 35
 	}
 
 	ai_strategy = {
 		type = equipment_production_factor
 		id = anti_tank
-		value = 20
+		value = 15
 	}
 
 	ai_strategy = {
 		type = equipment_production_factor
 		id = anti_air
-		value = 25
+		value = 15
 	}
 
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
-		value = 100
+		value = 80
 	}
 
 	ai_strategy = {
@@ -2141,7 +2154,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = mechanized
-		value = 60
+		value = 25
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories #Build these up over time, don't stall
@@ -2166,12 +2179,101 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_variant_production_factor
 		id = support_equipment
-		value = 30
+		value = 15
 	}
 
 	ai_strategy = { #added to railway gun define (set to 0 by default, increased in default strategies)
 		type = railway_gun_divisions_ratio
 		value = 1
+	}
+}
+
+GER_equipment_production_1 = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		date < 1936.1.1
+	}
+	abort = {
+		date > 1936.1.1
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories #Build these up over time, don't stall
+		id = motorized
+		value = 3
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = infantry_equipment
+		value = 5
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = Heavy_Weapons_equipment
+		value = 4
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = support_equipment
+		value = 4
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = fighter
+		value = 2
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = tactical_bomber
+		value = 2
+	}
+}
+
+GER_equipment_production_2 = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		date < 1939.1.1
+	}
+	abort = {
+		date > 1939.1.1
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories #Build these up over time, don't stall
+		id = motorized
+		value = 4
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = infantry_equipment
+		value = 7
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = Heavy_Weapons_equipment
+		value = 5
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = support_equipment
+		value = 5
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = armor
+		value = 10
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = fighter
+		value = 8
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = tactical_bomber
+		value = 8
 	}
 }
 
@@ -2205,7 +2307,7 @@ GER_stockpile_more = {
 
 	ai_strategy = {
 		type = equipment_stockpile_surplus_ratio
-		value = 25
+		value = 30
 	}
 }
 

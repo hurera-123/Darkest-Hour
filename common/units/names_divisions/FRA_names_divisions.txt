@@ -1368,9 +1368,9 @@ FRA_GAR_01 =
 
 	for_countries = { FRA }
 
-	can_use = { always = no } # Triggered by loading Series B reserves
+	can_use = { always = yes }
 
-	division_types = { "garrison" }
+	division_types = { "garrison" "infantry" }
 
 	# Number reservation system will tie to another group.
 	link_numbering_with = { FRA_INF_01 FRA_LGH_01 FRA_MOT_01 FRA_MTN_01 FRA_PAR_01 FRA_CINF_01 FRA_CLGH_01 FRA_CINF_02 FRA_CMAR_02 FRA_CINF_03 FRA_CLGH_03 FRA_CINF_04 FRA_CAF_04 }

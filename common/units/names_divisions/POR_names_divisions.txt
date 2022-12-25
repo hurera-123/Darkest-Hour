@@ -32,49 +32,49 @@
 #                                      the current game version.
 POR_INF_01 = 
 {
-	name = "Infantry Division"
+	name = "Infantry Divisions"
 
 	for_countries = { POR }
 
-	can_use = { always = yes }
+	can_use = { has_war = yes }
 
-	division_types = { "infantry" }
+	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" "garrison" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { POR_INF_01 }
+	link_numbering_with = { POR_MOT_01 POR_MEC_01 POR_GAR_01 POR_MTN_01 }
 
-	fallback_name = "%da Divisão de Infanteria"
+	fallback_name = "%dª Divisão de Infanteria"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da Divisão de Infanteria" }
-		2 = { "%da Divisão de Infanteria" }
-		3 = { "%da Divisão de Infanteria" }
-		4 = { "%da Divisão de Infanteria" }
-		5 = { "%da Divisão de Infanteria" }
-		6 = { "%da Divisão de Infanteria" }
-		7 = { "%da Divisão de Infanteria" }
-		8 = { "%da Divisão de Infanteria" }
-		9 = { "%da Divisão de Infanteria" }
-		10 = { "%da Divisão de Infanteria" }
-		11 = { "%da Divisão de Infanteria" }
-		12 = { "%da Divisão de Infanteria" }
-		13 = { "%da Divisão de Infanteria" }
-		14 = { "%da Divisão de Infanteria" }
-		15 = { "%da Divisão de Infanteria" }
-		16 = { "%da Divisão de Infanteria" }
-		17 = { "%da Divisão de Infanteria" }
-		18 = { "%da Divisão de Infanteria" }
-		19 = { "%da Divisão de Infanteria" }
-		20 = { "%da Divisão de Infanteria" }		
+		1 = { "%dª Divisão de Infanteria" }
+		2 = { "%dª Divisão de Infanteria" }
+		3 = { "%dª Divisão de Infanteria" }
+		4 = { "%dª Divisão de Infanteria" }
+		5 = { "%dª Divisão de Infanteria" }
+		6 = { "%dª Divisão de Infanteria" }
+		7 = { "%dª Divisão de Infanteria" }
+		8 = { "%dª Divisão de Infanteria" }
+		9 = { "%dª Divisão de Infanteria" }
+		10 = { "%dª Divisão de Infanteria" }
+		11 = { "%dª Divisão de Infanteria" }
+		12 = { "%dª Divisão de Infanteria" }
+		13 = { "%dª Divisão de Infanteria" }
+		14 = { "%dª Divisão de Infanteria" }
+		15 = { "%dª Divisão de Infanteria" }
+		16 = { "%dª Divisão de Infanteria" }
+		17 = { "%dª Divisão de Infanteria" }
+		18 = { "%dª Divisão de Infanteria" }
+		19 = { "%dª Divisão de Infanteria" }
+		20 = { "%dª Divisão de Infanteria" }		
 	}
 }
 
 POR_CAV_01 = 
 {
-	name = "Cavalry Unit"
+	name = "Cavalry Brigades"
 
 	for_countries = { POR }
 
@@ -85,97 +85,92 @@ POR_CAV_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { POR_INF_01 }
 
-	fallback_name = "%da Brigada de Cavalaria"
+	fallback_name = "%dª Brigada de Cavalaria"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da Brigada de Cavalaria" }
-		2 = { "%da Brigada de Cavalaria" }
-		21 = { "Cavalaria do Porto" }
-		3 = { "%da Brigada de Cavalaria" }
-		4 = { "%da Brigada de Cavalaria" }
-		5 = { "%da Brigada de Cavalaria" }
-		6 = { "%da Brigada de Cavalaria" }
-		22 = { "Cavalaria do Lisboa" }
-		23 = { "1a Brigada de Lanceiros" }
-		24 = { "2a Brigada de Lanceiros" }
-		25 = { "3a Brigada de Lanceiros" }
-		7 = { "%da Brigada de Cavalaria" }
-		8 = { "%da Brigada de Cavalaria" }
-		9 = { "%da Brigada de Cavalaria" }
-		10 = { "%da Brigada de Cavalaria" }
+		1 = { "%dª Brigada de Cavalaria" }
+		2 = { "%dª Brigada de Cavalaria" }
+		3 = { "%dª Brigada de Cavalaria" }
+		4 = { "%dª Brigada de Cavalaria" }
+		5 = { "%dª Brigada de Cavalaria" }
+		6 = { "%dª Brigada de Cavalaria" }
+		7 = { "%dª Brigada de Cavalaria" }
+		8 = { "%dª Brigada de Cavalaria" }
+		9 = { "%dª Brigada de Cavalaria" }
+		10 = { "%dª Brigada de Cavalaria" }
 	}
 }
 
 POR_MOT_01 = 
 {
-	name = "Motorized Division"
+	name = "Motorized Divisions"
 
 	for_countries = { POR }
 
-	can_use = { always = yes }
+	can_use = { has_war = yes }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { POR_INF_01 }
+	link_numbering_with = { POR_INF_01 POR_MEC_01 POR_GAR_01 POR_MTN_01 }
 
-	fallback_name = "%da Div. de Infantaria Motorizada"
+	fallback_name = "%dª Divisão de Infantaria Motorizada"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da Div. de Infantaria Motorizada" }
-		2 = { "%da Div. de Infantaria Motorizada" }
-		3 = { "%da Div. de Infantaria Motorizada" }
-		4 = { "%da Div. de Infantaria Motorizada" }
-		5 = { "%da Div. de Infantaria Motorizada" }
-		6 = { "%da Div. de Infantaria Motorizada" }
-		7 = { "%da Div. de Infantaria Motorizada" }
-		8 = { "%da Div. de Infantaria Motorizada" }
-		9 = { "%da Div. de Infantaria Motorizada" }
-		10 = { "%da Div. de Infantaria Motorizada" }
+		1 = { "%dª Divisão de Infantaria Motorizada" }
+		2 = { "%dª Divisão de Infantaria Motorizada" }
+		3 = { "%dª Divisão de Infantaria Motorizada" }
+		4 = { "%dª Divisão de Infantaria Motorizada" }
+		5 = { "%dª Divisão de Infantaria Motorizada" }
+		6 = { "%dª Divisão de Infantaria Motorizada" }
+		7 = { "%dª Divisão de Infantaria Motorizada" }
+		8 = { "%dª Divisão de Infantaria Motorizada" }
+		9 = { "%dª Divisão de Infantaria Motorizada" }
+		10 = { "%dª Divisão de Infantaria Motorizada" }
 	}
 }
 
 POR_MEC_01 = 
 {
-	name = "Mechanized Division"
+	name = "Mechanized Divisions"
 
 	for_countries = { POR }
 
-	can_use = { always = yes }
+	can_use = { has_war = yes }
 
 	division_types = { "mechanized" "heavy_mechanized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { POR_INF_01 }
+	link_numbering_with = { POR_INF_01 POR_MOT_01 POR_GAR_01 POR_MTN_01 }
 
-	fallback_name = "%da Div. de Infantaria Mecânica"
+	fallback_name = "%dª Divisão Mecanizada"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da Div. de Infantaria Mecânica" }
-		2 = { "%da Div. de Infantaria Mecânica" }
-		3 = { "%da Div. de Infantaria Mecânica" }
-		4 = { "%da Div. de Infantaria Mecânica" }
-		5 = { "%da Div. de Infantaria Mecânica" }
-		6 = { "%da Div. de Infantaria Mecânica" }
-		7 = { "%da Div. de Infantaria Mecânica" }
-		8 = { "%da Div. de Infantaria Mecânica" }
-		9 = { "%da Div. de Infantaria Mecânica" }
-		10 = { "%da Div. de Infantaria Mecânica" }
+		1 = { "%dª Divisão Mecanizada" }
+		2 = { "%dª Divisão Mecanizada" }
+		3 = { "%dª Divisão Mecanizada" }
+		4 = { "%dª Divisão Mecanizada" }
+		5 = { "%dª Divisão Mecanizada" }
+		6 = { "%dª Divisão Mecanizada" }
+		7 = { "%dª Divisão Mecanizada" }
+		8 = { "%dª Divisão Mecanizada" }
+		9 = { "%dª Divisão Mecanizada" }
+		10 = { "%dª Divisão Mecanizada" }
 	}
 }
 
 POR_ARM_01 = 
 {
-	name = "Armored Division"
+	name = "Armored Divisions"
 
 	for_countries = { POR }
 
@@ -186,28 +181,28 @@ POR_ARM_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { POR_INF_01 }
 
-	fallback_name = "%da Divisão de Blindar"
+	fallback_name = "%dª Divisão de Blindada"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da Divisão de Blindar" }
-		2 = { "%da Divisão de Blindar" }
-		3 = { "%da Divisão de Blindar" }
-		4 = { "%da Divisão de Blindar" }
-		5 = { "%da Divisão de Blindar" }
-		6 = { "%da Divisão de Blindar" }
-		7 = { "%da Divisão de Blindar" }
-		8 = { "%da Divisão de Blindar" }
-		9 = { "%da Divisão de Blindar" }
-		10 = { "%da Divisão de Blindar" }
+		1 = { "%dª Divisão de Blindada" }
+		2 = { "%dª Divisão de Blindada" }
+		3 = { "%dª Divisão de Blindada" }
+		4 = { "%dª Divisão de Blindada" }
+		5 = { "%dª Divisão de Blindada" }
+		6 = { "%dª Divisão de Blindada" }
+		7 = { "%dª Divisão de Blindada" }
+		8 = { "%dª Divisão de Blindada" }
+		9 = { "%dª Divisão de Blindada" }
+		10 = { "%dª Divisão de Blindada" }
 	}
 }
 
 POR_PAR_01 = 
 {
-	name = "Parachute Division"
+	name = "Parachute Divisions"
 
 	for_countries = { POR }
 
@@ -218,28 +213,28 @@ POR_PAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { POR_INF_01 }
 
-	fallback_name = "%da Divisão de Pára-Quedistas"
+	fallback_name = "%dª Divisão de Caçadores Paraquedistas"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da Divisão de Pára-Quedistas" }
-		2 = { "%da Divisão de Pára-Quedistas" }
-		3 = { "%da Divisão de Pára-Quedistas" }
-		4 = { "%da Divisão de Pára-Quedistas" }
-		5 = { "%da Divisão de Pára-Quedistas" }
-		6 = { "%da Divisão de Pára-Quedistas" }
-		7 = { "%da Divisão de Pára-Quedistas" }
-		8 = { "%da Divisão de Pára-Quedistas" }
-		9 = { "%da Divisão de Pára-Quedistas" }
-		10 = { "%da Divisão de Pára-Quedistas" }
+		1 = { "%dª Divisão de Caçadores Paraquedistas" }
+		2 = { "%dª Divisão de Caçadores Paraquedistas" }
+		3 = { "%dª Divisão de Caçadores Paraquedistas" }
+		4 = { "%dª Divisão de Caçadores Paraquedistas" }
+		5 = { "%dª Divisão de Caçadores Paraquedistas" }
+		6 = { "%dª Divisão de Caçadores Paraquedistas" }
+		7 = { "%dª Divisão de Caçadores Paraquedistas" }
+		8 = { "%dª Divisão de Caçadores Paraquedistas" }
+		9 = { "%dª Divisão de Caçadores Paraquedistas" }
+		10 = { "%dª Divisão de Caçadores Paraquedistas" }
 	}
 }
 
 POR_MAR_01 = 
 {
-	name = "Marine Division"
+	name = "Marine Divisions"
 
 	for_countries = { POR }
 
@@ -250,128 +245,117 @@ POR_MAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { POR_INF_01 }
 
-	fallback_name = "%da Divisão Marinha"
+	fallback_name = "%dª Divisão de Fuzileiros"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da Divisão Marinha" }
-		2 = { "%da Divisão Marinha" }
-		3 = { "%da Divisão Marinha" }
-		4 = { "%da Divisão Marinha" }
-		5 = { "%da Divisão Marinha" }
-		6 = { "%da Divisão Marinha" }
-		7 = { "%da Divisão Marinha" }
-		8 = { "%da Divisão Marinha" }
-		9 = { "%da Divisão Marinha" }
-		10 = { "%da Divisão Marinha" }
+		1 = { "%dª Divisão de Fuzileiros" }
+		2 = { "%dª Divisão de Fuzileiros" }
+		3 = { "%dª Divisão de Fuzileiros" }
+		4 = { "%dª Divisão de Fuzileiros" }
+		5 = { "%dª Divisão de Fuzileiros" }
+		6 = { "%dª Divisão de Fuzileiros" }
+		7 = { "%dª Divisão de Fuzileiros" }
+		8 = { "%dª Divisão de Fuzileiros" }
+		9 = { "%dª Divisão de Fuzileiros" }
+		10 = { "%dª Divisão de Fuzileiros" }
 	}
 }
 
 POR_MTN_01 = 
 {
-	name = "Mountain Division"
+	name = "Mountain Divisions"
 
 	for_countries = { POR }
 
-	can_use = { always = yes }
+	can_use = { has_war = yes }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { POR_INF_01 }
+	link_numbering_with = { POR_INF_01 POR_MOT_01 POR_MEC_01 POR_GAR_01 }
 
-	fallback_name = "%da Divisão de Inf. de Montanha"
+	fallback_name = "%dª Divisão de Montanha"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da Divisão de Inf. de Montanha" }
-		2 = { "%da Divisão de Inf. de Montanha" }
-		3 = { "%da Divisão de Inf. de Montanha" }
-		4 = { "%da Divisão de Inf. de Montanha" }
-		5 = { "%da Divisão de Inf. de Montanha" }
-		6 = { "%da Divisão de Inf. de Montanha" }
-		7 = { "%da Divisão de Inf. de Montanha" }
-		8 = { "%da Divisão de Inf. de Montanha" }
-		9 = { "%da Divisão de Inf. de Montanha" }
-		10 = { "%da Divisão de Inf. de Montanha" }
+		1 = { "%dª Divisão de Montanha" }
+		2 = { "%dª Divisão de Montanha" }
+		3 = { "%dª Divisão de Montanha" }
+		4 = { "%dª Divisão de Montanha" }
+		5 = { "%dª Divisão de Montanha" }
+		6 = { "%dª Divisão de Montanha" }
+		7 = { "%dª Divisão de Montanha" }
+		8 = { "%dª Divisão de Montanha" }
+		9 = { "%dª Divisão de Montanha" }
+		10 = { "%dª Divisão de Montanha" }
 	}
 }
 
 POR_GAR_01 = 
 {
-	name = "Garrison Division"
+	name = "Military Regions"
 
 	for_countries = { POR }
 
-	can_use = { always = yes }
+	can_use = { has_war = no }
 
-	division_types = { "infantry" }
+	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" "garrison" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { POR_INF_01 }
+	link_numbering_with = { POR_INF_01 POR_MOT_01 POR_MEC_01 POR_MTN_01 }
 
-	fallback_name = "%da Divisão de Guarnição"
+	fallback_name = "%dª Região Militar"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da Divisão de Guarnição" }
-		2 = { "%da Divisão de Guarnição" }
-		3 = { "%da Divisão de Guarnição" }
-		4 = { "%da Divisão de Guarnição" }
-		5 = { "%da Divisão de Guarnição" }
-		6 = { "%da Divisão de Guarnição" }
-		7 = { "%da Divisão de Guarnição" }
-		8 = { "%da Divisão de Guarnição" }
-		9 = { "%da Divisão de Guarnição" }
-		10 = { "%da Divisão de Guarnição" }
+		1 = { "%dª Região Militar" }
+		2 = { "%dª Região Militar" }
+		3 = { "%dª Região Militar" }
+		4 = { "%dª Região Militar" }
+		5 = { "%dª Região Militar" }
+		6 = { "%dª Região Militar" }
+		7 = { "%dª Região Militar" }
+		8 = { "%dª Região Militar" }
+		9 = { "%dª Região Militar" }
+		10 = { "%dª Região Militar" }
 	}
 }
 
-POR_CAC_01 = 
+POR_MIL_01 = 
 {
-	name = "Caçadores Force"
+	name = "Militia Divisions"
 
 	for_countries = { POR }
 
-	can_use = { always = yes }
+	can_use = { always = no }
 
-	division_types = { "infantry" }
+	division_types = { "militia" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { POR_INF_01 }
+	# link_numbering_with = { POR_INF_01 POR_MOT_01 POR_MEC_01 POR_MTN_01 }
 
-	fallback_name = "%da Força de Caçadores"
+	fallback_name = "%dº Comando Distrital Legião Portuguesa"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da Força de Caçadores" }
-		2 = { "%da Força de Caçadores" }
-		3 = { "%da Força de Caçadores" }
-		4 = { "%da Força de Caçadores" }
-		5 = { "%da Força de Caçadores" }
-		6 = { "%da Força de Caçadores" }
-		21 = { "Caçadores de Azores" }
-		22 = { "1a Caçadores de Angola" }
-		23 = { "2a Caçadores de Angola" }
-		24 = { "1a Caçadores de Moçambique" }
-		25 = { "2a Caçadores de Moçambique" }
-		26 = { "1a Caçadores de Guiné" }
-		27 = { "2a Caçadores de Guiné" }
-		28 = { "Caçadores de Goa" }
-		29 = { "3a Caçadores de Angola" }
-		30 = { "Caçadores de Macau" }
-		31 = { "2a Caçadores de Guiné" }
-		7 = { "%da Força de Caçadores" }
-		8 = { "%da Força de Caçadores" }
-		9 = { "%da Força de Caçadores" }
-		10 = { "%da Força de Caçadores" }
+		1 = { "%dº Comando Distrital Legião Portuguesa" }
+		2 = { "%dº Comando Distrital Legião Portuguesa" }
+		3 = { "%dº Comando Distrital Legião Portuguesa" }
+		4 = { "%dº Comando Distrital Legião Portuguesa" }
+		5 = { "%dº Comando Distrital Legião Portuguesa" }
+		6 = { "%dº Comando Distrital Legião Portuguesa" }
+		7 = { "%dº Comando Distrital Legião Portuguesa" }
+		8 = { "%dº Comando Distrital Legião Portuguesa" }
+		9 = { "%dº Comando Distrital Legião Portuguesa" }
+		10 = { "%dº Comando Distrital Legião Portuguesa" }
 	}
 }

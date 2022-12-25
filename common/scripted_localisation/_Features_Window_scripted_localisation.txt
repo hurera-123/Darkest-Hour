@@ -17,6 +17,12 @@ defined_text = {
 		}
 		localization_key = DH_FEATURES_WINDOW_TITLE_HELP_WINDOW
 	}
+	text = {
+		trigger = {
+			check_variable = { feature_id = 2.3 }
+		}
+		localization_key = DH_FEATURES_WINDOW_TITLE_GROZA_DECISIONS
+	}
 
 	# Category 3:
 	text = {
@@ -88,6 +94,12 @@ defined_text = {
 			check_variable = { feature_id = 2.2 }
 		}
 		localization_key = DH_FEATURES_WINDOW_TEXT_HELP_WINDOW
+	}
+	text = {
+		trigger = {
+			check_variable = { feature_id = 2.3 }
+		}
+		localization_key = DH_FEATURES_WINDOW_TEXT_GROZA_DECISIONS
 	}
 
 	# Category 3:

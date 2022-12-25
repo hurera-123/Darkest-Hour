@@ -789,7 +789,7 @@ characters={
 		name=YUG_Josep_Broz_Tito
 		portraits={
 			civilian={
-				large="GFX_P_C_Josep_Broz_Tito"
+				large="GFX_P_C_Josep_Broz_Tito_1944"
 			}
 		}
 		country_leader={

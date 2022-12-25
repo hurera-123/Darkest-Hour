@@ -10,20 +10,25 @@ economy_decisions = {
 		}
 		visible = {
 		}
-		days_re_enable = 28
+		days_remove = 28
+		remove_effect = {
+		}
 		available = {
 			has_completed_focus = FRA_Continue_Herriot_Deflation
 			set_temp_variable = {
-				amount_of_money_to_check = 100
+				amount_of_money_to_check = 50
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
+			NOT = {
+				has_country_flag = FRA_Launched_the_Reform_of_the_State
+			}
 		}
 		ai_will_do = {
 			factor = 1
 		}
 		complete_effect = {
 			set_temp_variable = {
-				money_to_gain = -100
+				money_to_gain = -50
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
 			set_temp_variable = {
@@ -32,17 +37,19 @@ economy_decisions = {
 			change_unemployment_value_modifier = yes
 			set_temp_variable = { inflation_to_gain = -0.01 }
 			add_inflation_with_tooltip_effect = yes
+			custom_effect_tooltip = Separation_tt
+			custom_effect_tooltip = FRA_Parliament_Info_tt
 			if = {
 				limit = { 
-					set_temp_variable = { total_support_to_check = 0.5 }
+					set_temp_variable = { total_support_to_check = 0.2 }
 					has_less_parliament_total_support = yes
 				}
 				random_list = {
 					#Nothing
-					25 = {
+					10 = {
 					}
 					#Opposition
-					75 = {
+					90 = {
 						country_event = {
 							id = FRA_Parliament.1
 						}
@@ -50,15 +57,15 @@ economy_decisions = {
 				}
 				else_if = {
 					limit = { 
-						set_temp_variable = { total_support_to_check = 0.7 }
+						set_temp_variable = { total_support_to_check = 0.4 }
 						has_less_parliament_total_support = yes
 					}
 					random_list = {
 						#Nothing
-						50 = {
+						30 = {
 						}
 						#Opposition
-						50 = {
+						70 = {
 							country_event = {
 								id = FRA_Parliament.1
 							}
@@ -66,23 +73,82 @@ economy_decisions = {
 					}
 					else_if = {
 						limit = { 
-							set_temp_variable = { total_support_to_check = 0.9 }
+							set_temp_variable = { total_support_to_check = 0.6 }
 							has_less_parliament_total_support = yes
 						}
 						random_list = {
 							#Nothing
-							75 = {
+							50 = {
 							}
 							#Opposition
-							25 = {
+							50 = {
 								country_event = {
 									id = FRA_Parliament.1
+								}
+							}
+						}
+						else_if = {
+							limit = { 
+								set_temp_variable = { total_support_to_check = 0.8 }
+								has_less_parliament_total_support = yes
+							}
+							random_list = {
+								#Nothing
+								70 = {
+								}
+								#Opposition
+								30 = {
+									country_event = {
+										id = FRA_Parliament.1
+									}
+								}
+							}
+							else_if = {
+								limit = { 
+									set_temp_variable = { total_support_to_check = 1 }
+									has_less_parliament_total_support = yes
+								}
+								random_list = {
+									#Nothing
+									90 = {
+									}
+									#Opposition
+									10 = {
+										country_event = {
+											id = FRA_Parliament.1
+										}
+									}
 								}
 							}
 						}
 					}
 				}
 			}
+		}
+	}
+	FRA_Invest_in_Great_Works = {
+		icon = GFX_decision_GENERIC_Create_Public_Works
+		fire_only_once = no
+		allowed = {
+			original_tag = FRA
+		}
+		visible = {
+		}
+		available = {
+			has_completed_focus = FRA_Grand_Travaux_Policy
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		days_remove = 70
+		modifier = {
+			money_income = -15
+		}
+		remove_effect = {
+			set_temp_variable = {
+				unemployment_value = -0.005
+			}
+			add_unemployment_effect = yes
 		}
 	}
 	FRA_Franc_Devaluation = {
@@ -110,17 +176,19 @@ economy_decisions = {
 			set_temp_variable = { inflation_to_gain = 0.005 }
 			add_inflation_with_tooltip_effect = yes
 			add_stability = -0.025
+			custom_effect_tooltip = Separation_tt
+			custom_effect_tooltip = FRA_Parliament_Info_tt
 			if = {
 				limit = { 
-					set_temp_variable = { total_support_to_check = 0.5 }
+					set_temp_variable = { total_support_to_check = 0.2 }
 					has_less_parliament_total_support = yes
 				}
 				random_list = {
 					#Nothing
-					25 = {
+					10 = {
 					}
 					#Opposition
-					75 = {
+					90 = {
 						country_event = {
 							id = FRA_Parliament.1
 						}
@@ -128,15 +196,15 @@ economy_decisions = {
 				}
 				else_if = {
 					limit = { 
-						set_temp_variable = { total_support_to_check = 0.7 }
+						set_temp_variable = { total_support_to_check = 0.4 }
 						has_less_parliament_total_support = yes
 					}
 					random_list = {
 						#Nothing
-						50 = {
+						20 = {
 						}
 						#Opposition
-						50 = {
+						80 = {
 							country_event = {
 								id = FRA_Parliament.1
 							}
@@ -144,17 +212,51 @@ economy_decisions = {
 					}
 					else_if = {
 						limit = { 
-							set_temp_variable = { total_support_to_check = 0.9 }
+							set_temp_variable = { total_support_to_check = 0.6 }
 							has_less_parliament_total_support = yes
 						}
 						random_list = {
 							#Nothing
-							75 = {
+							40 = {
 							}
 							#Opposition
-							25 = {
+							60 = {
 								country_event = {
 									id = FRA_Parliament.1
+								}
+							}
+						}
+						else_if = {
+							limit = { 
+								set_temp_variable = { total_support_to_check = 0.8 }
+								has_less_parliament_total_support = yes
+							}
+							random_list = {
+								#Nothing
+								60 = {
+								}
+								#Opposition
+								40 = {
+									country_event = {
+										id = FRA_Parliament.1
+									}
+								}
+							}
+							else_if = {
+								limit = { 
+									set_temp_variable = { total_support_to_check = 1 }
+									has_less_parliament_total_support = yes
+								}
+								random_list = {
+									#Nothing
+									80 = {
+									}
+									#Opposition
+									20 = {
+										country_event = {
+											id = FRA_Parliament.1
+										}
+									}
 								}
 							}
 						}
@@ -181,8 +283,8 @@ economy_decisions = {
 		fire_only_once = yes
 		is_good = no
 		complete_effect = {
-			add_stability = 0.1
-			add_political_power = 200
+			add_stability = 0.05
+			add_political_power = 100
 			clr_country_flag = FRA_Fixing_the_Current_Situation
 		}
 		timeout_effect = {
@@ -254,6 +356,33 @@ economy_decisions = {
 			add_unemployment_effect = yes
 		}
 	}
+	FRA_Nationalize_the_Air_Industry = {
+		icon = putIcon
+		fire_only_once = yes
+		allowed = {
+			original_tag = FRA
+		}
+		visible = {
+			has_completed_focus = FRA_Begin_Nationalisation
+		}
+		available = {
+			set_temp_variable = {
+				amount_of_money_to_check = 300
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		cost = 75
+		complete_effect = {
+			set_temp_variable = {
+				money_to_gain = -300
+			}
+			add_money_with_inflation_included_with_tooltip_effect = yes
+			remove_ideas = FRA_Multitude_of_aircraft_manufacturers
+			hidden_effect = {
+				country_event = { id = FRA_Air.1 days = 7 }
+			}
+		}
+	}
 }
 
 
@@ -291,33 +420,10 @@ FRA_Colonial_Empire_category = {
 			factor = 1
 		}
 		remove_effect = {
-			army_experience = 10
-			add_political_power = 50
-			add_stability = 0.05
-			461 = {
-				remove_dynamic_modifier = {
-					modifier = FRA_Insurrectionary_Centers
-				}
-			}
-			462 = {
-				remove_dynamic_modifier = {
-					modifier = FRA_Insurrectionary_Centers
-				}
-			}
-			1139 = {
-				remove_dynamic_modifier = {
-					modifier = FRA_Insurrectionary_Centers
-				}
-			}
-			1141 = {
-				remove_dynamic_modifier = {
-					modifier = FRA_Insurrectionary_Centers
-				}
-			}
-			1142 = {
-				remove_dynamic_modifier = {
-					modifier = FRA_Insurrectionary_Centers
-				}
+			army_experience = 30
+			add_political_power = 25
+			MOR = {
+				remove_ideas = MOR_Atlas_Rebellion
 			}
 		}
 	}
@@ -425,11 +531,11 @@ parliament_decision_category = {
 		}
 		available = {
 		}
-		cost = 50
+		cost = 30
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 56
+		days_remove = 28
 		complete_effect = {
 			set_temp_variable = {party_id = parliament_ruling_party}
 			set_temp_variable = {support_to_add = 0.1}
@@ -448,11 +554,11 @@ parliament_decision_category = {
 		}
 		available = {
 		}
-		cost = 50
+		cost = 30
 		ai_will_do = {
 			factor = 0.5
 		}
-		days_remove = 56
+		days_remove = 28
 		complete_effect = {
 			set_temp_variable = {party_id = 4}
 			set_temp_variable = {support_to_add = 0.05}		#FR
@@ -489,11 +595,11 @@ parliament_decision_category = {
 				has_completed_focus = FRA_Victory_of_the_Popular_Front
 			}
 		}
-		cost = 25
+		cost = 20
 		ai_will_do = {
 			factor = 0
 		}
-		days_remove = 28
+		days_remove = 14
 		complete_effect = {
 			set_temp_variable = {party_id = 9}
 			set_temp_variable = {support_to_add = 0.1}		#PCF
@@ -523,11 +629,11 @@ parliament_decision_category = {
 		}
 		available = {
 		}
-		cost = 25
+		cost = 20
 		ai_will_do = {
 			factor = 0
 		}
-		days_remove = 28
+		days_remove = 14
 		complete_effect = {
 			set_temp_variable = {party_id = 8}
 			set_temp_variable = {support_to_add = 0.1}			#SFIO
@@ -555,11 +661,11 @@ parliament_decision_category = {
 		}
 		available = {
 		}
-		cost = 25
+		cost = 20
 		ai_will_do = {
 			factor = 0
 		}
-		days_remove = 28
+		days_remove = 14
 		complete_effect = {
 			set_temp_variable = {party_id = 6}			#RAD
 			set_temp_variable = {support_to_add = 0.1}
@@ -586,11 +692,11 @@ parliament_decision_category = {
 		}
 		available = {
 		}
-		cost = 25
+		cost = 20
 		ai_will_do = {
 			factor = 0
 		}
-		days_remove = 28
+		days_remove = 14
 		complete_effect = {
 			set_temp_variable = {party_id = 5}			#AD
 			set_temp_variable = {support_to_add = 0.1}
@@ -617,11 +723,11 @@ parliament_decision_category = {
 		}
 		available = {
 		}
-		cost = 25
+		cost = 20
 		ai_will_do = {
 			factor = 0
 		}
-		days_remove = 28
+		days_remove = 14
 		complete_effect = {
 			set_temp_variable = {party_id = 4}
 			set_temp_variable = {support_to_add = 0.1}			#FR
@@ -948,7 +1054,7 @@ FRA_Plan_Marquet_category = {
 		ai_will_do = {
 			factor = 500
 		}
-		days_remove = 365
+		days_remove = 150
 		complete_effect = {
 			hidden_effect = {
 				set_temp_variable = {
@@ -981,7 +1087,7 @@ FRA_Electrify_France_category = {
 	FRA_Electrify_the_North = {
 		icon = GFX_decision_ITA_Import_Energy
 		fire_only_once = yes
-		on_map_mode = map_only
+		on_map_mode = map_and_decisions_view
 		highlight_states = {
 			highlight_state_targets = {
 				state = 762
@@ -1035,7 +1141,7 @@ FRA_Electrify_France_category = {
 	FRA_Electrify_Alsace_Lorraine = {
 		icon = GFX_decision_ITA_Import_Energy
 		fire_only_once = yes
-		on_map_mode = map_only
+		on_map_mode = map_and_decisions_view
 		highlight_states = {
 			highlight_state_targets = {
 				state = 763
@@ -1089,7 +1195,7 @@ FRA_Electrify_France_category = {
 	FRA_Electrify_Normandie = {
 		icon = GFX_decision_ITA_Import_Energy
 		fire_only_once = yes
-		on_map_mode = map_only
+		on_map_mode = map_and_decisions_view
 		highlight_states = {
 			highlight_state_targets = {
 				state = 15
@@ -1137,7 +1243,7 @@ FRA_Electrify_France_category = {
 	FRA_Electrify_Bretagne_and_Loire = {
 		icon = GFX_decision_ITA_Import_Energy
 		fire_only_once = yes
-		on_map_mode = map_only
+		on_map_mode = map_and_decisions_view
 		highlight_states = {
 			highlight_state_targets = {
 				state = 14
@@ -1188,7 +1294,7 @@ FRA_Electrify_France_category = {
 	FRA_Electrify_the_Centre = {
 		icon = GFX_decision_ITA_Import_Energy
 		fire_only_once = yes
-		on_map_mode = map_only
+		on_map_mode = map_and_decisions_view
 		highlight_states = {
 			highlight_state_targets = {
 				state = 24
@@ -1236,7 +1342,7 @@ FRA_Electrify_France_category = {
 	FRA_Electrify_Bourgogne_Franche_Comte = {
 		icon = GFX_decision_ITA_Import_Energy
 		fire_only_once = yes
-		on_map_mode = map_only
+		on_map_mode = map_and_decisions_view
 		highlight_states = {
 			highlight_state_targets = {
 				state = 27
@@ -1287,7 +1393,7 @@ FRA_Electrify_France_category = {
 	FRA_Electrify_Aquitaine_and_Occitania = {
 		icon = GFX_decision_ITA_Import_Energy
 		fire_only_once = yes
-		on_map_mode = map_only
+		on_map_mode = map_and_decisions_view
 		highlight_states = {
 			highlight_state_targets = {
 				state = 22
@@ -1341,7 +1447,7 @@ FRA_Electrify_France_category = {
 	FRA_Electrify_Rhone_Alpes = {
 		icon = GFX_decision_ITA_Import_Energy
 		fire_only_once = yes
-		on_map_mode = map_only
+		on_map_mode = map_and_decisions_view
 		highlight_states = {
 			highlight_state_targets = {
 				state = 32
@@ -1401,7 +1507,7 @@ FRA_Electrify_France_category = {
 	FRA_Electrify_Provence = {
 		icon = GFX_decision_ITA_Import_Energy
 		fire_only_once = yes
-		on_map_mode = map_only
+		on_map_mode = map_and_decisions_view
 		highlight_states = {
 			highlight_state_targets = {
 				state = 21
@@ -1662,11 +1768,10 @@ FRA_Finish_the_Maginot_Line_category = {
 		}
 		available = {
 			set_temp_variable = {
-				amount_of_money_to_check = 700
+				amount_of_money_to_check = 400
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
-		cost = 10
 		days_remove = 60
 		ai_will_do = {
 			base = 500
@@ -1688,7 +1793,7 @@ FRA_Finish_the_Maginot_Line_category = {
 		}
 		remove_effect = {
 			set_temp_variable = {
-				money_to_gain = -700
+				money_to_gain = -400
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
 			set_country_flag = FRA_BEL_maginot
@@ -1821,7 +1926,7 @@ FRA_Finish_the_Maginot_Line_category = {
 		}
 		available = {
 			set_temp_variable = {
-				amount_of_money_to_check = 700
+				amount_of_money_to_check = 400
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
@@ -1830,7 +1935,6 @@ FRA_Finish_the_Maginot_Line_category = {
 				state = 17
 			}
 		}
-		cost = 10
 		days_remove = 60
 		ai_will_do = {
 			base = 500
@@ -1852,7 +1956,7 @@ FRA_Finish_the_Maginot_Line_category = {
 		}
 		remove_effect = {
 			set_temp_variable = {
-				money_to_gain = -700
+				money_to_gain = -400
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
 			set_country_flag = FRA_SWI_maginot
@@ -1933,7 +2037,6 @@ FRA_Finish_the_Maginot_Line_category = {
 				state = 1169
 			}
 		}
-		cost = 10
 		days_remove = 120
 		ai_will_do = {
 			base = 500
@@ -1994,7 +2097,6 @@ FRA_Finish_the_Maginot_Line_category = {
 				state = 28
 			}
 		}
-		cost = 10
 		days_remove = 100
 		ai_will_do = {
 			base = 500
@@ -2032,7 +2134,7 @@ FRA_Finish_the_Maginot_Line_category = {
 		}
 		available = {
 			set_temp_variable = {
-				amount_of_money_to_check = 700
+				amount_of_money_to_check = 400
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
@@ -2041,7 +2143,6 @@ FRA_Finish_the_Maginot_Line_category = {
 				state = 735
 			}
 		}
-		cost = 10
 		days_remove = 120
 		ai_will_do = {
 			base = 500
@@ -2050,7 +2151,7 @@ FRA_Finish_the_Maginot_Line_category = {
 		}
 		remove_effect = {
 			set_temp_variable = {
-				money_to_gain = -700
+				money_to_gain = -400
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
 			set_country_flag = FRA_Alpine_maginot
@@ -2128,7 +2229,7 @@ FRA_Finish_the_Maginot_Line_category = {
 		}
 		available = {
 			set_temp_variable = {
-				amount_of_money_to_check = 300
+				amount_of_money_to_check = 150
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
@@ -2137,7 +2238,6 @@ FRA_Finish_the_Maginot_Line_category = {
 				state = 1
 			}
 		}
-		cost = 10
 		days_remove = 60
 		ai_will_do = {
 			base = 500
@@ -2146,7 +2246,7 @@ FRA_Finish_the_Maginot_Line_category = {
 		}
 		remove_effect = {
 			set_temp_variable = {
-				money_to_gain = -300
+				money_to_gain = -150
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
 			set_country_flag = FRA_Corsica_maginot
@@ -2192,7 +2292,7 @@ FRA_Finish_the_Maginot_Line_category = {
 		}
 		available = {
 			set_temp_variable = {
-				amount_of_money_to_check = 700
+				amount_of_money_to_check = 400
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 			OR = {
@@ -2213,7 +2313,6 @@ FRA_Finish_the_Maginot_Line_category = {
 				state = 31
 			}
 		}
-		cost = 10
 		days_remove = 210
 		ai_will_do = {
 			base = 0
@@ -2227,7 +2326,7 @@ FRA_Finish_the_Maginot_Line_category = {
 		}
 		remove_effect = {
 			set_temp_variable = {
-				money_to_gain = -700
+				money_to_gain = -400
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
 			set_country_flag = FRA_Pyrenees_maginot
@@ -2323,7 +2422,7 @@ FRA_Finish_the_Maginot_Line_category = {
 			AND = {
 				has_country_flag = FRA_Metz_maginot
 				has_country_flag = FRA_Lauter_maginot
-				has_country_flag = FRA_Pyrenees_maginot
+				has_country_flag = FRA_Alpine_maginot
 			}
 		}
 		ai_will_do = {
@@ -2439,7 +2538,7 @@ FRA_Containment_of_Fascism = {
 			factor = 0
 		}
 		complete_effect = {
-			add_stability = 0.05
+			add_stability = 0.025
 			add_popularity = {
 				ideology = fascist
 				popularity = -0.1
@@ -2463,7 +2562,9 @@ FRA_Containment_of_Fascism = {
 		ai_will_do = {
 			factor = 0
 		}
+		cost = 50
 		complete_effect = {
+			add_stability = -0.01
 			set_rule = {
 				can_send_volunteers = yes
 			}
@@ -2600,100 +2701,99 @@ FRA_Containment_of_Fascism = {
 # Progamme des 12 milliards
 #######################################################################
 FRA_Programme_des_12_Milliards_category = {
-#	FRA_Protect_our_Sky = {
-#		icon = putIcon
-#		fire_only_once = yes
-#		allowed = {
-#			original_tag = FRA
-#		}
-#		visible = {
-#		}
-#		modifier = {
-#		}
-#		cost = 75
-#		days_remove = 100
-#		ai_will_do = {
-#			factor = 1
-#		}
-#		complete_effect = {
-#			custom_effect_tooltip = FRA_Increase_Rearmament_Level
-#			move_rearmament_level_up_one = yes
-#		}
-#		remove_effect = {
-#		}
-#	}
-#	FRA_Produce_more_Somua = {
-#		icon = putIcon
-#		fire_only_once = yes
-#		allowed = {
-#			original_tag = FRA
-#		}
-#		visible = {
-#		}
-#		modifier = {
-#		}
-#		cost = 75
-#		days_remove = 100
-#		ai_will_do = {
-#			factor = 1
-#		}
-#		complete_effect = {
-#			custom_effect_tooltip = FRA_Increase_Rearmament_Level
-#			move_rearmament_level_up_one = yes
-#		}
-#		remove_effect = {
-#		}
-#	}
-#	FRA_Relaunching_the_Arms_Race = {
-#		icon = putIcon
-#		fire_only_once = yes
-#		allowed = {
-#			original_tag = FRA
-#		}
-#		visible = {
-#		}
-#		modifier = {
-#		}
-#		cost = 100
-#		days_remove = 100
-#		ai_will_do = {
-#			factor = 1
-#		}
-#		modifier = {
-#			industrial_capacity_factory = 0.1
-#		}
-#		complete_effect = {
-#			add_stability = -0.05
-#			custom_effect_tooltip = FRA_Increase_Rearmament_Level
-#			move_rearmament_level_up_one = yes
-#		}
-#		remove_effect = {
-#		}
-#	}
-#	FRA_Catching_up_on_our_Backlog_in_Aeronautics = {
-#		icon = putIcon
-#		fire_only_once = yes
-#		allowed = {
-#			original_tag = FRA
-#		}
-#		visible = {
-#		}
-#		modifier = {
-#		}
-#		cost = 75
-#		days_remove = 100
-#		ai_will_do = {
-#			factor = 1
-#		}
-#		modifier = {
-#		}
-#		complete_effect = {
-#			custom_effect_tooltip = FRA_Increase_Rearmament_Level
-#			move_rearmament_level_up_one = yes
-#		}
-#		remove_effect = {
-#		}
-#	}
+	FRA_Relaunching_the_Arms_Race = {
+		icon = putIcon
+		fire_only_once = yes
+		allowed = {
+			original_tag = FRA
+		}
+		visible = {
+		}
+		cost = 50
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			add_stability = -0.05
+			16 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_ideas = FRA_Rearmament_Program_1
+		}
+	}
+	FRA_Prepare_the_Marine_Nationale = {
+		icon = putIcon
+		fire_only_once = yes
+		allowed = {
+			original_tag = FRA
+		}
+		visible = {
+		}
+		available = {
+			has_idea = FRA_Rearmament_Program_1
+		}
+		cost = 75
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			14 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			21 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = FRA_Increase_Rearmament_Level
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = FRA_Rearmament_Program_1
+					add_idea = FRA_Rearmament_Program_2
+				}
+			}
+		}
+	}
+	FRA_Challenge_the_Panzerwaffe = {
+		icon = putIcon
+		fire_only_once = yes
+		allowed = {
+			original_tag = FRA
+		}
+		visible = {
+		}
+		available = {
+			has_idea = FRA_Rearmament_Program_2
+		}
+		cost = 100
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			custom_effect_tooltip = FRA_Increase_Rearmament_Level
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = FRA_Rearmament_Program_2
+					add_idea = FRA_Rearmament_Program_3
+				}
+			}
+		}
+		remove_effect = {
+		}
+	}
 }
 #######################################################################
 # Le Front Populaire
@@ -2714,9 +2814,10 @@ FRA_Le_Front_Populaire_category = {
 		activation = {
 			has_completed_focus = FRA_Victory_of_the_Popular_Front
 		}
-		days_mission_timeout = 730
+		days_mission_timeout = 500
 		is_good = no
 		complete_effect = {
+			complete_national_focus = FRA_Le_Triomphe_de_la_Sociale
 			add_political_power = 150
 			add_stability = 0.10
 		}
@@ -2729,11 +2830,14 @@ FRA_Le_Front_Populaire_category = {
 	}
 	FRA_Ask_Full_Financial_Power = {
 		icon = GFX_decision_generic_fundraising
-		fire_only_once = yes
+		fire_only_once = no
 		allowed = {
 			original_tag = FRA
 		}
 		available = {
+			NOT = {
+				has_idea = FRA_Full_Economic_Power
+			}
 		}
 		days_re_enable = 120
 		complete_effect = {
@@ -2744,10 +2848,10 @@ FRA_Le_Front_Populaire_category = {
 						set_temp_variable = { total_support_to_check = 0.7 }
 						has_at_least_parliament_total_support = yes
 					}
-					set_temp_variable = {
-						modifier_value = -0.1
+					add_timed_idea = {
+						idea = FRA_Full_Economic_Power
+						days = 365
 					}
-					change_unemployment_value_modifier = yes
 				}
 				else = {
 					if = {
@@ -2790,31 +2894,13 @@ FRA_Le_Front_Populaire_category = {
 		complete_effect = {
 			add_stability = 0.15
 			set_temp_variable = {
-				unemployment_value = 0.02
+				modifier_value = 0.05
 			}
-			add_unemployment_effect = yes
+			change_unemployment_value_modifier = yes
 			add_days_mission_timeout = {
 				mission = FRA_Le_Front_Populaire
 				days = 62
 			}
-		}
-	}
-	FRA_Jean_Zays_Reforms = {
-		icon = putIcon
-		fire_only_once = yes
-		allowed = {
-			original_tag = FRA
-		}
-		available = {
-		}
-		cost = 150
-		complete_effect = {
-			increase_slider_research_spending = yes
-			add_days_mission_timeout = {
-				mission = FRA_Le_Front_Populaire
-				days = 31
-			}
-			add_stability = 0.1
 		}
 	}
 }
@@ -2865,6 +2951,8 @@ war_measures = {
 			}
 			add_ideas = three_year_service
 
+			set_country_flag = FRA_General_Mobilization
+			mark_focus_tree_layout_dirty = yes
 			complete_national_focus = FRA_General_Mobilization
 
 			news_event = { id = FRA_Wartime_Tree.0 }
@@ -2901,7 +2989,7 @@ FRA_Grand_Quartier_General_category = {
 			command_power > 24
 		}
 		custom_cost_text = decision_cost_CP_25
-		days_remove = 30
+		days_remove = 15
 		complete_effect = {
 			hidden_effect = {
 				add_command_power = -25
@@ -3267,6 +3355,8 @@ FRA_Battle_of_France_category = {
 				}
 				country_event = { id = FRA_Wartime_Tree.17 }
 			}
+			set_country_flag = FRA_Frances_Darkest_Hour
+			mark_focus_tree_layout_dirty = yes
 			complete_national_focus = FRA_Frances_Darkest_Hour
 		}
 		timeout_effect = {

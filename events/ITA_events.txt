@@ -1182,7 +1182,7 @@ country_event = { # Appointing a Governor
 	id = ITA_Colonial.1
 	title = ITA_Colonial.1.t
 	desc = ITA_Colonial.1.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Libya_Map
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = { # Italo Balbo
@@ -1271,7 +1271,7 @@ country_event = { #Restore Libyan Rights
 	id = ITA_Colonial.4
 	title = ITA_Colonial.4.t
 	desc = ITA_Colonial.4.d
-	picture = GFX_report_event_generic_sign_treaty2
+	picture = GFX_report_ITA_Libya_Map
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = { #
@@ -1402,7 +1402,7 @@ country_event = { # IG Farben asks to Increase Price (ITA)
 	id = ITA_IG_Farben_Negotation.5
 	title = ITA_IG_Farben_Negotation.5.t
 	desc = ITA_IG_Farben_Negotation.5.d
-	picture = GFX_report_GER_IG_Farben
+	picture = GFX_report_ITA_Italian_Lira
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = { # Agree with German Price
@@ -1412,6 +1412,9 @@ country_event = { # IG Farben asks to Increase Price (ITA)
 		}
 		hidden_effect = {
 			country_event = { id = ITA_IG_Farben_Negotation.6 days = 2 }
+			GER = {
+				country_event = { id = ITA_IG_Farben_Negotation.6 days = 2 }
+			}
 		}
 	}
 	option = { # Ask for 50% Reduction
@@ -1421,9 +1424,6 @@ country_event = { # IG Farben asks to Increase Price (ITA)
 		}
 		hidden_effect = {
 			GER = {
-				country_event = { id = ITA_IG_Farben_Negotation.8 days = 2 }
-			}
-			ITA = {
 				country_event = { id = ITA_IG_Farben_Negotation.8 days = 2 }
 			}
 		}
@@ -1439,9 +1439,6 @@ country_event = { # Agreement on Synthetic Oil Patents with IG Farben Signed (IT
 		name = ITA_IG_Farben_Negotation.6.A
 		trigger = {
 			original_tag = ITA
-		}
-		GER = {
-			country_event = { id = ITA_IG_Farben_Negotation.7 days = 2 }
 		}
 		set_temp_variable = { money_to_gain = -2000 }
 		add_money_with_inflation_included_with_tooltip_effect = yes
@@ -1474,7 +1471,7 @@ country_event = { # Spaghetti-Eaters Ask for Price Reduction (GER)
 	id = ITA_IG_Farben_Negotation.8
 	title = ITA_IG_Farben_Negotation.8.t
 	desc = ITA_IG_Farben_Negotation.8.d
-	picture = GFX_report_GER_IG_Farben
+	picture = GFX_report_ITA_Italian_Lira
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = { # Agree to 50% Reduction
@@ -1493,7 +1490,7 @@ country_event = { # IG Farben Agreed to Reduce Price (ITA)
 	id = ITA_IG_Farben_Negotation.9
 	title = ITA_IG_Farben_Negotation.9.t
 	desc = ITA_IG_Farben_Negotation.9.d
-	picture = GFX_report_GER_IG_Farben
+	picture = GFX_report_ITA_Italian_Lira
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = { # 
@@ -1575,7 +1572,7 @@ country_event = { # Italian Workers in Germany
 	id = ITA_Economic_Tree.3
 	title = ITA_Economic_Tree.3.t
 	desc = ITA_Economic_Tree.3.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_ITA_Italian_Workers_in_Germany
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = { # 
@@ -1600,7 +1597,7 @@ country_event = { # New Cities in Agro Pontino
 	id = ITA_Economic_Tree.4
 	title = ITA_Economic_Tree.4.t
 	desc = ITA_Economic_Tree.4.d
-	picture = GFX_report_event_mussolini_hotel
+	picture = GFX_report_ITA_Cities_in_Agro_Pontino
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = { # 
@@ -1611,7 +1608,7 @@ country_event = { # The ONC put at the Head of Draining Projects
 	id = ITA_Economic_Tree.5
 	title = ITA_Economic_Tree.5.t
 	desc = ITA_Economic_Tree.5.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Swamps
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = { # 
@@ -1622,7 +1619,7 @@ country_event = { # Formation of the Corporations
 	id = ITA_Political_Tree.1
 	title = ITA_Political_Tree.1.t
 	desc = ITA_Political_Tree.1.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Formation_of_Corporations
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = { # 
@@ -1634,7 +1631,7 @@ country_event = { # No more Pacts with the Plutocrats
 	id = ITA_Political_Tree.2
 	title = ITA_Political_Tree.2.t
 	desc = ITA_Political_Tree.2.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Formation_of_Corporations
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = { # 
@@ -1764,7 +1761,7 @@ country_event = {
 	id = ITA_Political_Tree.6
 	title = ITA_Political_Tree.6.t
 	desc = ITA_Political_Tree.6.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Ultimatum_Accepted
 	is_triggered_only = yes
 	# Excellent
 	option = {
@@ -1778,7 +1775,7 @@ country_event = {
 	id = ITA_Political_Tree.7
 	title = ITA_Political_Tree.7.t
 	desc = ITA_Political_Tree.7.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Ultimatum_Refused
 	is_triggered_only = yes
 	# 
 	option = {
@@ -1796,7 +1793,7 @@ country_event = {
 	id = ITA_Political_Tree.8
 	title = ITA_Political_Tree.8.t
 	desc = ITA_Political_Tree.8.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Benito_Mussolini
 	is_triggered_only = yes
 	# Excellent
 	option = {
@@ -1811,7 +1808,7 @@ country_event = {
 	id = ITA_Political_Tree.9
 	title = ITA_Political_Tree.9.t
 	desc = ITA_Political_Tree.9.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_LoN_Caricature
 	is_triggered_only = yes
 	# 
 	option = {
@@ -1907,7 +1904,7 @@ country_event = {
 	id = ITA_Political_Tree.11
 	title = ITA_Political_Tree.11.t
 	desc = ITA_Political_Tree.11.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Italian_Lira
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
@@ -1968,10 +1965,10 @@ country_event = {
 		name = ITA_Political_Tree.12.A
 		ai_chance = {
 			base = 50
-		}
-		modifier = {
-			factor = 0
-			is_historical_focus_on = yes
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 		ITA = {
 			country_event = { id = ITA_Political_Tree.13 }
@@ -2000,7 +1997,7 @@ country_event = {
 	id = ITA_Political_Tree.13
 	title = ITA_Political_Tree.13.t
 	desc = ITA_Political_Tree.13.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Invasion_of_Albania
 	is_triggered_only = yes
 	# 
 	option = {
@@ -2014,7 +2011,7 @@ country_event = {
 	id = ITA_Political_Tree.14
 	title = ITA_Political_Tree.14.t
 	desc = ITA_Political_Tree.14.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Italian_Army
 	is_triggered_only = yes
 	# Accept the Refusal
 	option = {
@@ -2046,7 +2043,7 @@ country_event = {
 	id = ITA_Political_Tree.141
 	title = ITA_Political_Tree.141.t
 	desc = ITA_Political_Tree.141.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Navy
 	is_triggered_only = yes
 	option = {
 		name = ITA_Political_Tree.141.A
@@ -2062,7 +2059,7 @@ country_event = {
 	id = ITA_Political_Tree.142
 	title = ITA_Political_Tree.142.t
 	desc = ITA_Political_Tree.142.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Invasion_of_Albania
 	is_triggered_only = yes
 	option = {
 		name = ITA_Political_Tree.142.A
@@ -2078,13 +2075,25 @@ news_event = {
 	id = ITA_Political_Tree.143
 	title = ITA_Political_Tree.143.t
 	desc = ITA_Political_Tree.143.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_news_ITA_Victor_Emmanuel_III_Crowned_King_of_Albania
 	is_triggered_only = yes
+	major = yes
 	option = {
 		name = ITA_Political_Tree.143.A
+		trigger = {
+			tag = ITA
+		}
 		annex_country = {
 			target = ALB
 			transfer_troops = no
+		}
+	}
+	option = {
+		name = ITA_Political_Tree.143.B
+		trigger = {
+			NOT = {
+				tag = ITA
+			}
 		}
 	}
 }
@@ -2129,7 +2138,7 @@ country_event = {
 	id = ITA_Political_Tree.17
 	title = ITA_Political_Tree.17.t
 	desc = ITA_Political_Tree.17.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Mussolini_with_Generals
 	is_triggered_only = yes
 	# It is a necessary move to halt the enemy's advances
 	option = {
@@ -3031,7 +3040,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.1
 	title = ITA_Pact_with_Albion.1.t
 	desc = ITA_Pact_with_Albion.1.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Navy_Exercises
 	is_triggered_only = yes
 	# The Atlantic
 	option = {
@@ -3074,7 +3083,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.2
 	title = ITA_Pact_with_Albion.2.t
 	desc = ITA_Pact_with_Albion.2.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Navy_Exercises
 	is_triggered_only = yes
 	# Always good to set sails with a friend!
 	option = {
@@ -3159,7 +3168,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.3
 	title = ITA_Pact_with_Albion.3.t
 	desc = ITA_Pact_with_Albion.3.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_English_Royal_Navy_Agrees
 	is_triggered_only = yes
 	# Great!
 	option = {
@@ -3246,7 +3255,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.5
 	title = ITA_Pact_with_Albion.5.t
 	desc = ITA_Pact_with_Albion.5.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_English_Royal_Navy_Agrees
 	is_triggered_only = yes
 	# Our old boys shall show a thing or two to those Sun dwellers
 	option = {
@@ -3278,7 +3287,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.6
 	title = ITA_Pact_with_Albion.6.t
 	desc = ITA_Pact_with_Albion.6.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ENG_Royal_Marines
 	is_triggered_only = yes
 	# Excellent
 	option = {
@@ -3331,7 +3340,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.8
 	title = ITA_Pact_with_Albion.8.t
 	desc = ITA_Pact_with_Albion.8.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Airplanes_Production
 	is_triggered_only = yes
 	# It would be like a air Alvis-Alpha Romeo! 
 	option = {
@@ -3379,7 +3388,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.9
 	title = ITA_Pact_with_Albion.9.t
 	desc = ITA_Pact_with_Albion.9.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Airplanes_Production
 	is_triggered_only = yes
 	# It will be worth it
 	option = {
@@ -3424,7 +3433,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.10
 	title = ITA_Pact_with_Albion.10.t
 	desc = ITA_Pact_with_Albion.10.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ENG_RAF
 	is_triggered_only = yes
 	# 
 	option = {
@@ -3459,7 +3468,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.11
 	title = ITA_Pact_with_Albion.11.t
 	desc = ITA_Pact_with_Albion.11.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_London_Treaty_Territories
 	is_triggered_only = yes
 	# We should ask for the Treaty of London territories
 	option = {
@@ -3505,7 +3514,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.12
 	title = ITA_Pact_with_Albion.12.t
 	desc = ITA_Pact_with_Albion.12.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_London_Treaty_Territories
 	is_triggered_only = yes
 	# Seems fair
 	option = {
@@ -3575,7 +3584,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.13
 	title = ITA_Pact_with_Albion.13.t
 	desc = ITA_Pact_with_Albion.13.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_London_Treaty_Territories
 	is_triggered_only = yes
 	# A compensation is due
 	option = {
@@ -3633,7 +3642,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.14
 	title = ITA_Pact_with_Albion.14.t
 	desc = ITA_Pact_with_Albion.14.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_London_Treaty_Territories
 	fire_only_once = yes
 	is_triggered_only = yes
 	immediate = {
@@ -3721,7 +3730,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.15
 	title = ITA_Pact_with_Albion.15.t
 	desc = ITA_Pact_with_Albion.15.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_London_Treaty_Territories
 	is_triggered_only = yes
 	# They fought and bled with us 20 years ago, it's the least that we could do
 	option = {
@@ -3918,7 +3927,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.19
 	title = ITA_Pact_with_Albion.19.t
 	desc = ITA_Pact_with_Albion.19.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_London_Treaty_Territories
 	fire_only_once = yes
 	is_triggered_only = yes
 	# A small price to pay for peace
@@ -4028,7 +4037,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.20
 	title = ITA_Pact_with_Albion.20.t
 	desc = ITA_Pact_with_Albion.20.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Italian_Army
 	fire_only_once = yes
 	is_triggered_only = yes
 	# It is not wise to attack them now
@@ -4060,7 +4069,7 @@ country_event = {
 	id = ITA_Pact_with_Albion.21
 	title = ITA_Pact_with_Albion.21.t
 	desc = ITA_Pact_with_Albion.21.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_declares_war_on_ethiopia
 	fire_only_once = yes
 	is_triggered_only = yes
 	# 
@@ -4095,7 +4104,7 @@ country_event = {
 	id = ITA_Cooperation_with_Gaul.1
 	title = ITA_Cooperation_with_Gaul.1.t
 	desc = ITA_Cooperation_with_Gaul.1.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Italian_General
 	fire_only_once = yes
 	is_triggered_only = yes
 	# No, thank you.
@@ -4169,7 +4178,7 @@ country_event = {
 	id = ITA_Cooperation_with_Gaul.3
 	title = ITA_Cooperation_with_Gaul.3.t
 	desc = ITA_Cooperation_with_Gaul.3.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Italian_General
 	fire_only_once = yes
 	is_triggered_only = yes
 	# 
@@ -4190,7 +4199,7 @@ country_event = {
 	id = ITA_Cooperation_with_Gaul.4
 	title = ITA_Cooperation_with_Gaul.4.t
 	desc = ITA_Cooperation_with_Gaul.4.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Army_Exercises
 	fire_only_once = yes
 	is_triggered_only = yes
 	# We don't think that would be wise.
@@ -4243,7 +4252,7 @@ country_event = {
 	id = ITA_Cooperation_with_Gaul.5
 	title = ITA_Cooperation_with_Gaul.5.t
 	desc = ITA_Cooperation_with_Gaul.5.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Army_Exercises
 	fire_only_once = yes
 	is_triggered_only = yes
 	# Excellent.
@@ -4264,7 +4273,7 @@ country_event = {
 	id = ITA_Cooperation_with_Gaul.6
 	title = ITA_Cooperation_with_Gaul.6.t
 	desc = ITA_Cooperation_with_Gaul.6.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Italian_Industry
 	fire_only_once = yes
 	is_triggered_only = yes
 	# Such a thing would only be a detriment to France.
@@ -4329,7 +4338,7 @@ country_event = {
 	id = ITA_Cooperation_with_Gaul.7
 	title = ITA_Cooperation_with_Gaul.7.t
 	desc = ITA_Cooperation_with_Gaul.7.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Italian_Industry
 	fire_only_once = yes
 	is_triggered_only = yes
 	# A win for Italia.
@@ -4374,7 +4383,7 @@ country_event = {
 	id = ITA_Cooperation_with_Gaul.8
 	title = ITA_Cooperation_with_Gaul.8.t
 	desc = ITA_Cooperation_with_Gaul.8.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Italian_Industry
 	fire_only_once = yes
 	is_triggered_only = yes
 	# Are they kidding?! No!
@@ -4443,7 +4452,7 @@ country_event = {
 	id = ITA_Cooperation_with_Gaul.9
 	title = ITA_Cooperation_with_Gaul.9.t
 	desc = ITA_Cooperation_with_Gaul.9.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Italian_Industry
 	fire_only_once = yes
 	is_triggered_only = yes
 	# Lucky us!
@@ -4474,7 +4483,7 @@ country_event = {
 	id = ITA_Align_with_Germany.1
 	title = ITA_Align_with_Germany.1.t
 	desc = ITA_Align_with_Germany.1.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Benito_Mussolini
 	fire_only_once = yes
 	is_triggered_only = yes
 	# Yes
@@ -4616,7 +4625,7 @@ country_event = {
 	id = ITA_Align_with_Germany.4
 	title = ITA_Align_with_Germany.4.t
 	desc = ITA_Align_with_Germany.4.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_GER_Austria_Map
 	is_triggered_only = yes
 	# Austrians are German after all...
 	option = {
@@ -4739,7 +4748,7 @@ country_event = {
 	id = ITA_Flavour_Events.1
 	title = ITA_Flavour_Events.1.t
 	desc = ITA_Flavour_Events.1.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_ITA_Via_Balbia
 	fire_only_once = yes
 	trigger = {
 		original_tag = ITA
@@ -4761,23 +4770,31 @@ country_event = {
 ###########################
 # Fall of Fascism
 ###########################
-country_event = { #Fall of Libya
+country_event = { # Fall of Libya
 	id = ITA_Conquest_Events.1 
 	title = ITA_Conquest_Events.1.t
 	desc = ITA_Conquest_Events.1.d
-	picture = GFX_report_ITA_Italian_Soldiers_in_Ethiopia
+	picture = GFX_report_ITA_Soldiers_in_Libya
 	fire_only_once = yes
 	trigger = {
-		original_tag = ITA
+		tag = ITA
 		has_war = yes
 		is_fascist = yes
-		NOT = {
-			OR = {
-				owns_state = 451
-				owns_state = 450
-				owns_state = 449
-				owns_state = 448
-				owns_state = 1226
+		OR = {
+			450 = {
+				CONTROLLER = {
+					has_war_with = ITA
+				}
+			}
+			448 = {
+				CONTROLLER = {
+					has_war_with = ITA
+				}
+			}
+			1226 = {
+				CONTROLLER = {
+					has_war_with = ITA
+				}
 			}
 		}
 	}
@@ -4786,23 +4803,32 @@ country_event = { #Fall of Libya
 		add_war_support = -0.1
 	}
 }
-#Fall of Africa Orientale
+# Fall of Africa Orientale
 country_event = { 
 	id = ITA_Conquest_Events.2
 	title = ITA_Conquest_Events.2.t
 	desc = ITA_Conquest_Events.2.d
-	picture = GFX_report_ITA_Italian_Soldiers_in_Ethiopia
+	picture = GFX_report_ITA_Soldiers_in_Libya
 	fire_only_once = yes
 	trigger = {
-		original_tag = ITA
+		tag = ITA
 		has_war = yes
 		is_fascist = yes
-		NOT = {
-			OR = {
-				owns_state = 550
-				owns_state = 1050
-				owns_state = 559
-				owns_state = 271
+		OR = {
+			550 = {
+				CONTROLLER = {
+					has_war_with = ITA
+				}
+			}
+			559 = {
+				CONTROLLER = {
+					has_war_with = ITA
+				}
+			}
+			1050 = {
+				CONTROLLER = {
+					has_war_with = ITA
+				}
 			}
 		}
 	}
@@ -4812,11 +4838,11 @@ country_event = {
 	}
 }
 #Fall of Fascism
-country_event = { #Mozione Grandi
+country_event = { # Mozione Grandi
 	id = ITA_Fall_of_Fascism.1
 	title = ITA_Fall_of_Fascism.1.t
 	desc = ITA_Fall_of_Fascism.1.d
-	picture = TBI
+	picture = GFX_report_ITA_Dino_Grandi
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -4826,27 +4852,25 @@ country_event = { #Mozione Grandi
 			popularity = -0.05
 		}
 		hidden_effect = {
-			country_event = {id = ITA_Fall_of_Fascism.2 days = 1}
+			country_event = { id = ITA_Fall_of_Fascism.2 days = 1 }
 		}
 	}
 }
 
-news_event = { #Mussolini Arrested
+news_event = { # Mussolini Arrested
 	id = ITA_Fall_of_Fascism.2
 	title = ITA_Fall_of_Fascism.2.t
 	desc = ITA_Fall_of_Fascism.2.d
-	picture = TBI
+	picture = GFX_news_ITA_Mussolini_Arrested
 	fire_only_once = yes
 	is_triggered_only = yes
 	major = yes
 
 	option = {
-		name = ITA_Fall_of_Fascism.2.A #Mama Mia
-
+		name = ITA_Fall_of_Fascism.2.A # Mamma Mia
 		trigger = {
 			original_tag = ITA
 		}
-
 		add_popularity = {
 			ideology = authoritarian
 			popularity = 0.25
@@ -4872,10 +4896,8 @@ news_event = { #Mussolini Arrested
 		}
 		if = {
 			limit = {
-				AND = {
-					is_in_faction_with = GER
-					has_war_with = ENG
-				}	
+				is_in_faction_with = GER
+				has_war_with = ENG	
 			}
 			news_event = {id = ITA_Fall_of_Fascism.3 days = 20}
 			leave_faction = yes
@@ -4896,11 +4918,11 @@ news_event = { #Mussolini Arrested
 	}
 }
 
-news_event = { #Cassibile Armistice
+news_event = { # Cassibile Armistice
 	id = ITA_Fall_of_Fascism.3
 	title = ITA_Fall_of_Fascism.3.t
 	desc = ITA_Fall_of_Fascism.3.d
-	picture = TBI
+	picture = GFX_news_ITA_Armistice_of_Cassibile
 	fire_only_once = yes
 	is_triggered_only = yes
 	major = yes
@@ -4913,7 +4935,7 @@ news_event = { #Cassibile Armistice
 					can_not_declare_war = no
 				}
 			}
-			#Peace with the Allies
+			# Peace with the Allies
 			ENG = {
 				white_peace = ITA
 				add_to_faction = ITA
@@ -4950,15 +4972,15 @@ news_event = { #Cassibile Armistice
 	}
 }
 
-country_event = { #Civil War
+country_event = { # Civil War
 	id = ITA_Fall_of_Fascism.4
 	title = ITA_Fall_of_Fascism.4.t
 	desc = ITA_Fall_of_Fascism.4.d
-	picture = TBI
+	picture = GFX_report_ITA_Partisans
 	fire_only_once = yes
 	is_triggered_only = yes
 	immediate = {
-		#RSI set up
+		# RSI set up
 		every_state = {
 			limit = {
 				is_core_of = ITA
@@ -5027,7 +5049,7 @@ country_event = { #Civil War
 				always = no
 			}
 		}
-		#Germany rule over Italy
+		# Germany rule over Italy
 		every_state = {
 			limit = {
 				OR = {
@@ -5045,19 +5067,15 @@ country_event = { #Civil War
 		}
 		every_state = {
 			limit = {
-				AND = {
-					is_core_of = YUG
-					is_controlled_by = ITA
-				}
+				is_core_of = YUG
+				is_controlled_by = ITA
 			}
 			transfer_state_to = GER
 		}
 		every_state = {
 			limit = {
-				AND = {
-					is_core_of = FRA
-					is_controlled_by = ITA
-				}
+				is_core_of = FRA
+				is_controlled_by = ITA
 			}
 			transfer_state_to = GER
 		}

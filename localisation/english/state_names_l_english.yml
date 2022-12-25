@@ -42,8 +42,8 @@
  STATE_14_breton: "Breizh" #Breton
  STATE_14_exonym: "Brittany" #Exonym
 
- STATE_15: "Normandie"
- STATE_15_exonym: "Normandy" #Exonym
+ STATE_15: "Basse-Normandie"
+ STATE_15_exonym: "Lower-Normandy" #Exonym
 
  STATE_16: "Ile-de-France"
 
@@ -402,6 +402,7 @@
  STATE_162_exonym: "Tuscany" #Exonym
 
  STATE_163: "Zara"
+ STATE_163_croatian: "Zadar"
 
  STATE_164: "Dodecaneso"
  STATE_164_greek: "Dodekánisa" #Greek
@@ -1771,12 +1772,15 @@
  STATE_812: "Sachsen-Anhalt"
 
  STATE_813: "Istria"
+ STATE_813_croatian: "Istra"
 
  STATE_814: "Litorale"
  STATE_814_german: "Küstenland" #German
  STATE_814_exonym: "Slovene Littoral" #Exonym
+ STATE_814_croatian: "Primorska"
 
  STATE_815: "Fiume"
+ STATE_815_croatian: "Rijeka"
 
  STATE_816: "Sokcho"
 
@@ -2225,7 +2229,7 @@
 
  STATE_1025: "Ain"
 
- STATE_1026: "Seine-Maritime"
+ STATE_1026: "Seine-Inférieure"
 
  STATE_1027: "Seine-et-Marne"
 

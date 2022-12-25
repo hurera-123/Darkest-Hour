@@ -75,11 +75,11 @@ country_event = {
 #########################################################################
 # First Draw of the National Lottery
 #########################################################################
-country_event = {
+news_event = {
 	id = FRA_National_Lottery.2
 	title = FRA_National_Lottery.2.t
 	desc = FRA_National_Lottery.2.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_National_Lottery
 	is_triggered_only = yes
 	option = {
 		name = FRA_National_Lottery.2.A
@@ -185,7 +185,7 @@ country_event = {
 	id = FRA_Franc_Speculation.2
 	title = FRA_Franc_Speculation.2.t
 	desc = FRA_Franc_Speculation.2.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Flandin
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -205,6 +205,9 @@ country_event = {
 			}
 		}
 		hidden_effect = {
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
 			add_ideas = { FRA_Pierre_Laval_FM FRA_Joseph_Paganon_MoS FRA_Laurent_Eynac_AM }
 		}
 		add_stability = 0.05
@@ -224,7 +227,6 @@ country_event = {
 	option = {
 		name = FRA_Milices_Fascistes.2.B
 		remove_ideas = FRA_Milices_Fascistes
-		add_stability = 0.05
 	}
 }
 
@@ -243,7 +245,7 @@ country_event = {
 	id = FRA_Stavisky_Case_Part_1.1
 	title = FRA_Stavisky_Case_Part_1.1.t
 	desc = FRA_Stavisky_Case_Part_1.1.d
-	picture = GFX_report_FRA_Stavisky
+	picture = GFX_report_FRA_Gustave_Tissier
 	fire_only_once = yes
 	trigger = {
 		original_tag = FRA
@@ -265,7 +267,7 @@ country_event = {
 	id = FRA_Stavisky_Case_Part_1.2
 	title = FRA_Stavisky_Case_Part_1.2.t
 	desc = FRA_Stavisky_Case_Part_1.2.d
-	picture = GFX_report_FRA_Stavisky
+	picture = GFX_report_FRA_stavisky
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
@@ -285,7 +287,7 @@ country_event = {
 	id = FRA_Stavisky_Case_Part_1.3
 	title = FRA_Stavisky_Case_Part_1.3.t
 	desc = FRA_Stavisky_Case_Part_1.3.d
-	picture = GFX_report_FRA_Stavisky
+	picture = GFX_report_FRA_stavisky
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
@@ -312,7 +314,7 @@ country_event = {
 	id = FRA_Stavisky_Case_Part_2.1
 	title = FRA_Stavisky_Case_Part_2.1.t
 	desc = FRA_Stavisky_Case_Part_2.1.d
-	picture = GFX_report_FRA_Stavisky
+	picture = GFX_report_FRA_stavisky
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -340,7 +342,7 @@ country_event = {
 	id = FRA_Stavisky_Case_Part_2.2
 	title = FRA_Stavisky_Case_Part_2.2.t
 	desc = FRA_Stavisky_Case_Part_2.2.d
-	picture = GFX_report_FRA_Stavisky
+	picture = GFX_report_FRA_Ligue_Elysee
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -367,7 +369,7 @@ country_event = {
 	id = FRA_Stavisky_Case_Part_3.1
 	title = FRA_Stavisky_Case_Part_3.1.t
 	desc = FRA_Stavisky_Case_Part_3.1.d
-	picture = GFX_report_FRA_Stavisky
+	picture = GFX_report_FRA_Camille_Chautemps_2
 	fire_only_once = yes
 	trigger = {
 		original_tag = FRA
@@ -402,6 +404,9 @@ country_event = {
 			}
 		}
 		hidden_effect = {
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
 			add_ideas = {FRA_Edouard_Daladier_FM FRA_Eugene_Frot_MoS FRA_Joseph_Paganon_AM}
 		}
 		add_political_power = 20
@@ -415,7 +420,7 @@ country_event = {
 	id = FRA_Stavisky_Case_Part_3.3
 	title = FRA_Stavisky_Case_Part_3.3.t
 	desc = FRA_Stavisky_Case_Part_3.3.d
-	picture = GFX_report_FRA_Stavisky
+	picture = GFX_report_FRA_Jean_Chiappe
 	fire_only_once = yes
 	trigger = {
 		original_tag = FRA
@@ -450,7 +455,7 @@ country_event = {
 	id = FRA_Stavisky_Case_Part_3.4
 	title = FRA_Stavisky_Case_Part_3.4.t
 	desc = FRA_Stavisky_Case_Part_3.4.d
-	picture = GFX_report_FRA_Stavisky
+	picture = GFX_report_FRA_Francisme
 	is_triggered_only = yes
 	option = {
 		name = FRA_Stavisky_Case_Part_3.4.A
@@ -474,7 +479,7 @@ country_event = {
 	id = FRA_Stavisky_Case_Part_3.5
 	title = FRA_Stavisky_Case_Part_3.5.t
 	desc = FRA_Stavisky_Case_Part_3.5.d
-	picture = GFX_report_FRA_Stavisky
+	picture = GFX_report_FRA_Leon_Blum_Resignation
 	is_triggered_only = yes
 	option = {
 		name = FRA_Stavisky_Case_Part_3.5.A
@@ -494,7 +499,7 @@ country_event = {
 	id = FRA_Crisis_of_the_6_February.1
 	title = FRA_Crisis_of_the_6_February.1.t
 	desc = FRA_Crisis_of_the_6_February.1.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Ligue_Elysee
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -526,7 +531,7 @@ country_event = {
 	id = FRA_Crisis_of_the_6_February.2
 	title = FRA_Crisis_of_the_6_February.2.t
 	desc = FRA_Crisis_of_the_6_February.2.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_1934_Crisis
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -578,7 +583,7 @@ country_event = {
 	id = FRA_Aborted_Crisis.2
 	title = FRA_Aborted_Crisis.2.t
 	desc = FRA_Aborted_Crisis.2.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Ligue_Elysee
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -598,7 +603,7 @@ country_event = {
 	id = FRA_Aborted_Crisis.3
 	title = FRA_Aborted_Crisis.3.t
 	desc = FRA_Aborted_Crisis.3.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Edouard_Daladier
 	is_triggered_only = yes
 	option = {
 		name = FRA_Aborted_Crisis.3.A
@@ -624,14 +629,14 @@ country_event = {
 	id = FRA_6_February_Aftermath.1
 	title = FRA_6_February_Aftermath.1.t
 	desc = FRA_6_February_Aftermath.1.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_1934_Crisis
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
 		name = FRA_6_February_Aftermath.1.A
 		hidden_effect = {
-			country_event = { id = FRA_6_February_Aftermath.2 days = 2 }
-			country_event = { id = FRA_1936_Election.1 days = 1 }
+			news_event = { id = FRA_6_February_Aftermath.2 days = 2 }
+			news_event = { id = FRA_1936_Election.1 days = 1 }
 		}
 		set_country_flag = FRA_Crisis_Happened
 	}
@@ -639,11 +644,11 @@ country_event = {
 #########################################################################
 # Daladier government collapses (Crisis Happened)
 #########################################################################
-country_event = {
+news_event = {
 	id = FRA_6_February_Aftermath.2
 	title = FRA_6_February_Aftermath.2.t
 	desc = FRA_6_February_Aftermath.2.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Crisis_Aftermath
 	is_triggered_only = yes
 	option = {
 		name = FRA_6_February_Aftermath.2.A
@@ -669,7 +674,7 @@ country_event = {
 	id = FRA_6_February_Aftermath.3
 	title = FRA_6_February_Aftermath.3.t
 	desc = FRA_6_February_Aftermath.3.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Doumergue_Governement
 	is_triggered_only = yes
 	option = {
 		name = FRA_6_February_Aftermath.3.A
@@ -686,7 +691,15 @@ country_event = {
 				}
 			}
 		}
+		set_party_name = {
+			ideology = democratic
+			long_name = "Gouvernement d'Union Nationale"
+			name = "UN"
+		}
 		hidden_effect = {
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
 			add_ideas = {FRA_Louis_Barthou_FM FRA_Albert_Sarraut_MoS FRA_Pierre_Etienne_Flandin_AM}
 		}
 		hidden_effect = {
@@ -777,7 +790,7 @@ country_event = {
 	id = FRA_Reform_of_the_State.1
 	title = FRA_Reform_of_the_State.1.t
 	desc = FRA_Reform_of_the_State.1.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Doumergue
 	is_triggered_only = yes
 
 	immediate = {
@@ -837,7 +850,7 @@ country_event = {
 	id = FRA_Reform_of_the_State.2
 	title = FRA_Reform_of_the_State.2.t
 	desc = FRA_Reform_of_the_State.2.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Tardieu
 	is_triggered_only = yes
 	# Yes
 	option = {
@@ -861,7 +874,7 @@ country_event = {
 	id = FRA_Reform_of_the_State.3
 	title = FRA_Reform_of_the_State.3.t
 	desc = FRA_Reform_of_the_State.3.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_National_Assembly
 	fire_only_once = yes
 	trigger = {
 		original_tag = FRA
@@ -888,7 +901,7 @@ country_event = {
 	id = FRA_Reform_of_the_State.4
 	title = FRA_Reform_of_the_State.4.t
 	desc = FRA_Reform_of_the_State.4.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Senate
 	is_triggered_only = yes
 	# 
 	option = {
@@ -905,7 +918,7 @@ country_event = {
 	id = FRA_Reform_of_the_State.5
 	title = FRA_Reform_of_the_State.5.t
 	desc = FRA_Reform_of_the_State.5.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Senate
 	is_triggered_only = yes
 	# 
 	option = {
@@ -922,7 +935,7 @@ country_event = {
 	id = FRA_Reform_of_the_State.6
 	title = FRA_Reform_of_the_State.6.t
 	desc = FRA_Reform_of_the_State.6.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Herriot_Newspaper
 	fire_only_once = yes
 	trigger = {
 		original_tag = FRA
@@ -969,7 +982,7 @@ country_event = {
 	id = FRA_Reform_of_the_State.7
 	title = FRA_Reform_of_the_State.7.t
 	desc = FRA_Reform_of_the_State.7.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_National_Assembly
 	is_triggered_only = yes
 	immediate = {
 		hidden_effect = {
@@ -1033,7 +1046,7 @@ news_event = {
 	id = FRA_Reform_of_the_State.8
 	title = FRA_Reform_of_the_State.8.t
 	desc = FRA_Reform_of_the_State.8.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Doumergue_Reform
 	is_triggered_only = yes
 	# A New France arises from the old one's ashes!
 	option = {
@@ -1054,7 +1067,7 @@ news_event = {
 	id = FRA_Reform_of_the_State.9
 	title = FRA_Reform_of_the_State.9.t
 	desc = FRA_Reform_of_the_State.9.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Fall_of_Doumergue
 	is_triggered_only = yes
 	# A New France arises from the old one's ashes!
 	option = {
@@ -1076,18 +1089,35 @@ news_event = {
 			}
 		}
 		hidden_effect = {
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
 			add_ideas = {FRA_Pierre_Laval_FM FRA_Marcel_Regnier_MoS FRA_Henri_Roy_AM}
 		}
-		set_temp_variable = { party_id = 5 } # AD
-		set_temp_variable = { support_to_add = 1 }
-		change_party_support = yes
-		set_parliament_ruling_party = yes
-		set_temp_variable = { party_id = 6 } # RAD
-		set_temp_variable = { support_to_add = -0.7 }
-		change_party_support = yes
-		set_temp_variable = { party_id = 8 } # SFIO
-		set_temp_variable = { support_to_add = -0.7 }
-		change_party_support = yes
+		hidden_effect = {
+			set_temp_variable = { party_id = 4 } # FR
+			set_temp_variable = { support_to_add = 1 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 5 } # AD
+			set_temp_variable = { support_to_add = 1 }
+			change_party_support = yes
+			set_parliament_ruling_party = yes
+			set_temp_variable = { party_id = 6 } # RAD
+			set_temp_variable = { support_to_add = 1 }
+			change_party_support = yes
+			set_temp_variable = { support_to_add = -0.6 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 7 } # SFIO
+			set_temp_variable = { support_to_add = 1 }
+			change_party_support = yes
+			set_temp_variable = { support_to_add = -0.8 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 8 } # SFIO
+			set_temp_variable = { support_to_add = 1 }
+			change_party_support = yes
+			set_temp_variable = { support_to_add = -0.8 }
+			change_party_support = yes
+		}
 	}
 }
 
@@ -1098,7 +1128,7 @@ country_event = {
 	id = FRA_Reform_of_the_State.10
 	title = FRA_Reform_of_the_State.10.t
 	desc = FRA_Reform_of_the_State.10.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Tardieu
 	fire_only_once = yes
 	trigger = {
 		original_tag = FRA
@@ -1147,7 +1177,7 @@ country_event = {
 	id = FRA_Assassination_of_Alexander_I.1
 	title = FRA_Assassination_of_Alexander_I.1.t
 	desc = FRA_Assassination_of_Alexander_I.1.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Barthou_and_Alexander
 	fire_only_once = yes
 	trigger = {
 		original_tag = FRA
@@ -1162,14 +1192,14 @@ country_event = {
 				}
 				# Both Die as historical
 				news_event = { id = FRA_Assassination_of_Alexander_I.5 hours = 12 }
-				set_country_flag = Louis_Barthou_unavailable
+				retire_character = FRA_Louis_Barthou
 				add_ideas = FRA_Pierre_Laval_FM
 				YUG = {
 					deactivate_advisor = YUG_Aleksandar_I_HoG
 					set_country_flag = Aleksandar_I_unavailable
 					add_ideas = YUG_Petar_II_HoG
 				}
-				country_event = { id = FRA_Assassination_of_Alexander_I.9 days = 2 }
+				news_event = { id = FRA_Assassination_of_Alexander_I.9 days = 2 }
 			}
 			else = {
 				random_list = {
@@ -1177,13 +1207,14 @@ country_event = {
 					25 = {
 						news_event = { id = FRA_Assassination_of_Alexander_I.5 hours = 12 }
 						set_country_flag = Louis_Barthou_unavailable
+						retire_character = FRA_Louis_Barthou
 						add_ideas = FRA_Pierre_Laval_FM
 						YUG = {
 							deactivate_advisor = YUG_Aleksandar_I_HoG
 							set_country_flag = Aleksandar_I_unavailable
 							add_ideas = YUG_Petar_II_HoG
 						}
-						country_event = { id = FRA_Assassination_of_Alexander_I.9 days = 2 }
+						news_event = { id = FRA_Assassination_of_Alexander_I.9 days = 2 }
 					}
 					# Barthou Lives, King Dead
 					25 = {
@@ -1204,8 +1235,9 @@ country_event = {
 					25 = {
 						news_event = { id = FRA_Assassination_of_Alexander_I.8 hours = 12 }
 						set_country_flag = Louis_Barthou_unavailable
+						retire_character = FRA_Louis_Barthou
 						add_ideas = FRA_Pierre_Laval_FM
-						country_event = { id = FRA_Assassination_of_Alexander_I.9 days = 2 }
+						news_event = { id = FRA_Assassination_of_Alexander_I.9 days = 2 }
 					}
 				}
 			}
@@ -1223,7 +1255,7 @@ news_event = {
 	id = FRA_Assassination_of_Alexander_I.5
 	title = FRA_Assassination_of_Alexander_I.5.t
 	desc = FRA_Assassination_of_Alexander_I.5.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Assassination_King_Alexander_and_Louis_Barthou
 	major = yes
 	is_triggered_only = yes
 	option = {
@@ -1255,7 +1287,7 @@ news_event = {
 	id = FRA_Assassination_of_Alexander_I.6
 	title = FRA_Assassination_of_Alexander_I.6.t
 	desc = FRA_Assassination_of_Alexander_I.6.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Assassination_King_Alexander_and_Louis_Barthou
 	major = yes
 	is_triggered_only = yes
 	option = {
@@ -1269,7 +1301,7 @@ news_event = {
 	id = FRA_Assassination_of_Alexander_I.7
 	title = FRA_Assassination_of_Alexander_I.7.t
 	desc = FRA_Assassination_of_Alexander_I.7.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Assassination_King_Alexander_and_Louis_Barthou
 	major = yes
 	is_triggered_only = yes
 	option = {
@@ -1283,21 +1315,32 @@ news_event = {
 	id = FRA_Assassination_of_Alexander_I.8
 	title = FRA_Assassination_of_Alexander_I.8.t
 	desc = FRA_Assassination_of_Alexander_I.8.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Assassination_King_Alexander_and_Louis_Barthou
 	major = yes
 	is_triggered_only = yes
 	option = {
 		name = FRA_Assassination_of_Alexander_I.8.A
+		trigger = {
+			tag = YUG
+		}
+	}
+	option = {
+		name = FRA_Assassination_of_Alexander_I.8.B
+		trigger = {
+			NOT = {
+				tag = YUG
+			}
+		}
 	}
 }
 #########################################################################
-# Reformist government takes a great hit with Barthou's death
+# Funerals of Louis Barthou.
 #########################################################################
-country_event = {
+news_event = {
 	id = FRA_Assassination_of_Alexander_I.9
 	title = FRA_Assassination_of_Alexander_I.9.t
 	desc = FRA_Assassination_of_Alexander_I.9.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Funeral_of_Louis_Barthou
 	is_triggered_only = yes
 	option = {
 		name = FRA_Assassination_of_Alexander_I.9.A
@@ -1308,17 +1351,18 @@ country_event = {
 			set_temp_variable = { reform_progress_to_add = -10 }
 			FRA_add_reform_of_the_state_progress = yes
 		}
+		remove_ideas_with_trait = Position_Minister_of_Security
 		add_ideas = FRA_Paul_Marchandeau_MoS
 	}
 }
 #########################################################################
-# Funerals of Louis Barthou.
+# Barthou Support Reform.
 #########################################################################
 country_event = {
 	id = FRA_Assassination_of_Alexander_I.10
 	title = FRA_Assassination_of_Alexander_I.10.t
 	desc = FRA_Assassination_of_Alexander_I.10.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_National_Assembly
 	is_triggered_only = yes
 	option = {
 		name = FRA_Assassination_of_Alexander_I.10.A
@@ -1343,11 +1387,11 @@ country_event = {
 #########################################################################
 # SFIO, together with PCF, protests against the fascists!
 #########################################################################
-country_event = {
+news_event = {
 	id = FRA_1936_Election.1
 	title = FRA_1936_Election.1.t
 	desc = FRA_1936_Election.1.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Anti_Fascist_Manifestations
 	fire_only_once = yes
 	is_triggered_only = yes
 	# We share their concerns, but we can't support communism
@@ -1358,11 +1402,11 @@ country_event = {
 #########################################################################
 # Thorez calls for left-wing unity!
 #########################################################################
-country_event = {
+news_event = {
 	id = FRA_1936_Election.2
 	title = FRA_1936_Election.2.t
 	desc = FRA_1936_Election.2.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Thorez_Speech2
 	fire_only_once = yes
 	trigger = {
 		original_tag = FRA
@@ -1379,7 +1423,7 @@ country_event = {
 			country_event = { id = FRA_1936_Election_Doumergue_no_Reelection.1 days = 185 }
 		}
 		else = {
-			country_event = { id = FRA_1936_Election_Doumergue_Reelection.1 days = 309 }
+			news_event = { id = FRA_1936_Election_Doumergue_Reelection.1 days = 309 }
 		}
 	}
 }
@@ -1587,11 +1631,11 @@ country_event = {
 #########################################################################
 # Blum forms an alliance with Thorez
 #########################################################################
-country_event = {
+news_event = {
 	id = FRA_1936_Election_Doumergue_Reelection.1
 	title = FRA_1936_Election_Doumergue_Reelection.1.t
 	desc = FRA_1936_Election_Doumergue_Reelection.1.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Popular_Front
 	is_triggered_only = yes
 	immediate = {
 		set_variable = {
@@ -1644,7 +1688,7 @@ country_event = {
 	id = FRA_1936_Election_Doumergue_Reelection.2
 	title = FRA_1936_Election_Doumergue_Reelection.2.t
 	desc = FRA_1936_Election_Doumergue_Reelection.2.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Congress_RAD
 	is_triggered_only = yes
 	# We have to bring him into the Front.
 	option = {
@@ -1672,11 +1716,11 @@ country_event = {
 #########################################################################
 # Peaceful demonstration of the Front Populaire.
 #########################################################################
-country_event = {
+news_event = {
 	id = FRA_1936_Election_Doumergue_Reelection.3
 	title = FRA_1936_Election_Doumergue_Reelection.3.t
 	desc = FRA_1936_Election_Doumergue_Reelection.3.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Demonstrations_Front_Populaire
 	is_triggered_only = yes
 	# 
 	option = {
@@ -1762,11 +1806,11 @@ country_event = {
 #########################################################################
 # Election Day! (FP Won)
 #########################################################################
-country_event = {
+news_event = {
 	id = FRA_1936_Election_Results.1
 	title = FRA_1936_Election_Results.1.t
 	desc = FRA_1936_Election_Results.1.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Popular_Front
 	fire_only_once = yes
 	trigger = {
 		original_tag = FRA
@@ -1779,13 +1823,18 @@ country_event = {
 		add_political_power = 100
 		if = {
 			limit = {
-				has_idea = FRA_Decret_Lois
+				has_idea = FRA_Full_Economic_Power
 			}
-			remove_ideas = FRA_Decret_Lois
+			remove_ideas = FRA_Full_Economic_Power
 		}
 		set_country_flag = FRA_Popular_Front_Victory
 		clr_country_flag = FRA_1936_Election_Unlocked
 		mark_focus_tree_layout_dirty = yes
+		set_party_name = {
+			ideology = democratic
+			long_name = "Front Populaire"
+			name = "FP"
+		}
 		hidden_effect = {
 			# Party Seats
 			set_variable = { party_influence_4 = 0.22 }	# FR
@@ -1844,9 +1893,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_idea = FRA_Decret_Lois
+				has_idea = FRA_Full_Economic_Power
 			}
-			remove_ideas = FRA_Decret_Lois
+			remove_ideas = FRA_Full_Economic_Power
 		}
 		complete_national_focus = FRA_Victory_of_the_Nouveau_Bloc_National
 		country_event = { id = FRA_1936_Election_Results.4 days = 31 }
@@ -1872,7 +1921,7 @@ country_event = {
 	id = FRA_1936_Election_Results.3
 	title = FRA_1936_Election_Results.3.t
 	desc = FRA_1936_Election_Results.3.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_FP_Government
 	fire_only_once = yes
 	is_triggered_only = yes
 	immediate = {
@@ -1892,6 +1941,9 @@ country_event = {
 			}
 		}
 		hidden_effect = {
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
 			add_ideas = {FRA_Yvon_Delbos_FM FRA_Roger_Salengro_MoS FRA_Albert_Bedouce_AM}
 		}
 	}
@@ -1988,7 +2040,7 @@ country_event = {
 			ideology = authoritarian
 			popularity = 0.01
 		}
-		complete_national_focus = FRA_PRRRS_AD_FR_Government
+		#complete_national_focus = FRA_PRRRS_AD_FR_Government
 	}
 	option = {
 		name = FRA_1936_Election_Results.4.B
@@ -2000,7 +2052,7 @@ country_event = {
 			ideology = fascist
 			popularity = 0.03
 		}
-		complete_national_focus = FRA_PRRRS_AD_governement
+		#complete_national_focus = FRA_PRRRS_AD_governement
 	}
 }
 #########################################################################
@@ -2049,7 +2101,15 @@ country_event = {
 				}
 			}
 		}
+		set_party_name = {
+			ideology = democratic
+			long_name = "Parti Radical"
+			name = "RAD"
+		}
 		hidden_effect = {
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
 			add_ideas = {FRA_Georges_Bonnet_FM FRA_Albert_Sarraut_MoS FRA_Ludovic_Oscar_Frossard_AM}
 		}
 		hidden_effect = {
@@ -2085,7 +2145,7 @@ country_event = {
 	id = FRA_Front_Populaire_1936.11
 	title = FRA_Front_Populaire_1936.11.t
 	desc = FRA_Front_Populaire_1936.11.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Leon_Blum_Resignation
 	is_triggered_only = yes
 	#
 	option = {
@@ -2101,11 +2161,11 @@ country_event = {
 #########################################################################
 # Fall of Camille Chautemps Governement
 #########################################################################
-country_event = {
+news_event = {
 	id = FRA_Front_Populaire_1936.12
 	title = FRA_Front_Populaire_1936.12.t
 	desc = FRA_Front_Populaire_1936.12.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Camille_Chautemps_Resignation
 	is_triggered_only = yes
 	#
 	option = {
@@ -2201,7 +2261,7 @@ country_event = {
 	id = FRA_Front_Populaire_1936.2
 	title = FRA_Front_Populaire_1936.2.t
 	desc = FRA_Front_Populaire_1936.2.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Franco_Soviet_Pact
 	fire_only_once = yes
 	is_triggered_only = yes
 	#
@@ -2222,7 +2282,7 @@ news_event = {
 	id = FRA_Front_Populaire_1936.3
 	title = FRA_Front_Populaire_1936.3.t
 	desc = FRA_Front_Populaire_1936.3.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Thorez_Speech2
 	fire_only_once = yes
 	is_triggered_only = yes
 	#
@@ -2246,7 +2306,7 @@ news_event = {
 	id = FRA_Front_Populaire_1936.4
 	title = FRA_Front_Populaire_1936.4.t
 	desc = FRA_Front_Populaire_1936.4.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Popular_Front
 	major = yes
 	is_triggered_only = yes
 	# Vive la France Social
@@ -2289,7 +2349,7 @@ news_event = {
 	id = FRA_Front_Populaire_1936.5
 	title = FRA_Front_Populaire_1936.5.t
 	desc = FRA_Front_Populaire_1936.5.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Franco_Soviet_Pact
 	is_triggered_only = yes
 	#
 	option = {
@@ -2322,13 +2382,49 @@ news_event = {
 	}
 }
 #########################################################################
+# The Nantes Congress
+#########################################################################
+country_event = {
+	id = FRA_Front_Populaire_1936.6
+	title = FRA_Front_Populaire_1936.6.t
+	desc = FRA_Front_Populaire_1936.6.d
+	picture = GFX_report_FRA_SFIO
+	is_triggered_only = yes
+	#
+	option = {
+		name = FRA_Front_Populaire_1936.6.A
+		add_war_support = 0.05
+		set_temp_variable = { party_id = 8 } # SFIO
+		set_temp_variable = { support_to_add = -0.25 }
+		change_party_support = yes
+		set_country_flag = FRA_Support_Blum_Faction
+	}
+	option = {
+		name = FRA_Front_Populaire_1936.6.B
+		add_stability = 0.05
+		add_political_power = 75	
+	}
+	option = {
+		name = FRA_Front_Populaire_1936.6.C
+		add_war_support = -0.05
+		add_stability = 0.1
+		set_temp_variable = { party_id = 8 } # SFIO
+		set_temp_variable = { support_to_add = -0.25 }
+		change_party_support = yes
+		hidden_effect = {
+			decrease_slider_army = yes
+		}
+		decrease_slider_army = yes
+	}
+}
+#########################################################################
 # Integration of Algeria
 #########################################################################
 country_event = {
 	id = FRA_Front_Populaire_1936.8
 	title = FRA_Front_Populaire_1936.8.t
 	desc = FRA_Front_Populaire_1936.8.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_National_Assembly
 	fire_only_once = yes
 	is_triggered_only = yes
 	#
@@ -2359,7 +2455,7 @@ country_event = {
 	id = FRA_Pre_Matignon_Accord.1
 	title = FRA_Pre_Matignon_Accord.1.t
 	desc = FRA_Pre_Matignon_Accord.1.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_General_Strikes
 	fire_only_once = yes
 	trigger = {
 		original_tag = FRA
@@ -2379,7 +2475,7 @@ country_event = {
 	id = FRA_Pre_Matignon_Accord.2
 	title = FRA_Pre_Matignon_Accord.2.t
 	desc = FRA_Pre_Matignon_Accord.2.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Strikes_1936
 	is_triggered_only = yes
 	#We must find a solution quickly
 	option = {
@@ -2389,16 +2485,16 @@ country_event = {
 			add_idea = FRA_Strikes_2
 		}
 		hidden_effect = {
-			country_event = { id = FRA_Pre_Matignon_Accord.3 days = 1 }
+			news_event = { id = FRA_Pre_Matignon_Accord.3 days = 1 }
 		}
 	}
 }
 #Leon Blum Leader
-country_event = {
+news_event = {
 	id = FRA_Pre_Matignon_Accord.3
 	title = FRA_Pre_Matignon_Accord.3.t
 	desc = FRA_Pre_Matignon_Accord.3.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Blum_Addresses_Workers
 	is_triggered_only = yes
 	#We must find a solution quickly
 	option = {
@@ -2410,7 +2506,7 @@ country_event = {
 	id = FRA_Matignon_Accord.1
 	title = FRA_Matignon_Accord.1.t
 	desc = FRA_Matignon_Accord.1.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Matigon_Accords
 	is_triggered_only = yes
 	#Let's find an agreement to end it all
 	option = {
@@ -2436,7 +2532,7 @@ country_event = {
 	id = FRA_Daladier_Path.1
 	title = FRA_Daladier_Path.1.t
 	desc = FRA_Daladier_Path.1.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Matigon_Accords
 	fire_only_once = yes
 	is_triggered_only = yes
 	#
@@ -2479,7 +2575,7 @@ country_event = {
 	id = FRA_Government_Collapse.1
 	title = FRA_Government_Collapse.1.t
 	desc = FRA_Government_Collapse.1.d
-	picture = GFX_report_FRA_Maurice_Thorez
+	picture = GFX_report_FRA_Doumergue_Cabinet
 	fire_only_once = no #don't tooch this!
 	trigger ={
 		original_tag = FRA
@@ -2502,21 +2598,10 @@ country_event = {
 	id = FRA_Government_Collapse.2
 	title = FRA_Government_Collapse.2.t
 	desc = FRA_Government_Collapse.2.d
-	picture = GFX_report_FRA_Maurice_Thorez
+	picture = GFX_report_FRA_Lebrun_at_Desk
 	fire_only_once = no
 	is_triggered_only = yes
 	immediate = {
-		if = {
-			limit = { 
-				has_country_leader = {
-					name = "Joseph Paul-Boncour"
-				}
-			}
-			hidden_effect = {
-				remove_ideas_with_trait = Position_Armaments_Minister
-				add_ideas = {FRA_Joseph_Paganon_AM}
-			}
-		}
 		hidden_effect = {
 			set_temp_variable = { party_id = 4 } # FR
 			set_temp_variable = { support_to_add = 1 }
@@ -2558,6 +2643,22 @@ country_event = {
 			change_party_support = yes
 			set_temp_variable = { support_to_add = -0.8 }
 			change_party_support = yes
+		}
+		if = {
+			limit = { 
+				has_country_leader = {
+					name = "Joseph Paul-Boncour"
+				}
+			}
+			hidden_effect = {
+				remove_ideas_with_trait = Position_Armaments_Minister
+				add_ideas =  FRA_Joseph_Paganon_AM
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = "Parti Radical"
+				name = "RAD"
+			}
 		}
 	}
 	option = {
@@ -2663,40 +2764,72 @@ country_event = {
 	id = FRA_Parliament.1
 	title = FRA_Parliament.1.t
 	desc = FRA_Parliament.1.d
-	picture = GFX_report_FRA_Maurice_Thorez
+	picture = GFX_report_FRA_National_Assembly
 	fire_only_once = no
 	is_triggered_only = yes
 	option = {
 		name = FRA_Parliament.1.A
-		set_temp_variable = { party_id = 4 }
-		set_temp_variable = { support_to_add = -0.40 }
-		change_party_support = yes
-		set_temp_variable = { party_id = 5 }
-		set_temp_variable = { support_to_add = -0.40 }
-		change_party_support = yes
-		set_temp_variable = { party_id = 6 }
-		set_temp_variable = { support_to_add = -0.40 }
-		change_party_support = yes
-		set_temp_variable = { party_id = 7 }
-		set_temp_variable = { support_to_add = -0.40 }
-		change_party_support = yes
-		set_temp_variable = { party_id = 8 }
-		set_temp_variable = { support_to_add = -0.40 }
-		change_party_support = yes
-		set_temp_variable = { party_id = 9 }
-		set_temp_variable = { support_to_add = -0.40 }
-		change_party_support = yes
+		if = {
+			limit = { has_idea = FRA_The_Third_Republic }
+			set_temp_variable = { party_id = 4 }
+			set_temp_variable = { support_to_add = -0.40 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 5 }
+			set_temp_variable = { support_to_add = -0.40 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 6 }
+			set_temp_variable = { support_to_add = -0.40 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 7 }
+			set_temp_variable = { support_to_add = -0.40 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 8 }
+			set_temp_variable = { support_to_add = -0.40 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 9 }
+			set_temp_variable = { support_to_add = -0.40 }
+			change_party_support = yes
+		}
+		else_if = {
+			limit = { 
+				has_country_leader = {
+					character = FRA_Gaston_Doumergue 
+					ruling_only = yes
+				}
+			}
+			add_political_power = -50
+		}
+		else = {
+			set_temp_variable = { party_id = 4 }
+			set_temp_variable = { support_to_add = -0.20 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 5 }
+			set_temp_variable = { support_to_add = -0.20 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 6 }
+			set_temp_variable = { support_to_add = -0.20 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 7 }
+			set_temp_variable = { support_to_add = -0.20 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 8 }
+			set_temp_variable = { support_to_add = -0.20 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 9 }
+			set_temp_variable = { support_to_add = -0.20 }
+			change_party_support = yes
+		}
 	}
 }
 
 #########################################################################
 # PRS collapse
 #########################################################################
-country_event = {
+news_event = {
 	id = FRA_PRS_Collapse.1
 	title = FRA_PRS_Collapse.1.t
 	desc = FRA_PRS_Collapse.1.d
-	picture = GFX_report_FRA_Stavisky
+	picture = GFX_report_FRA_Herriot_Newspaper
 	fire_only_once = yes
 	trigger = {
 		original_tag = FRA
@@ -2739,7 +2872,7 @@ country_event = {
 	id = FRA_Events.37
 	title = FRA_Events.37.t
 	desc = FRA_Events.37.d
-	picture = GFX_report_FRA_Maurice_Thorez
+	picture = GFX_report_FRA_Herriot_Newspaper
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -2758,7 +2891,7 @@ country_event = {
 	id = FRA_Events.38
 	title = FRA_Events.38.t
 	desc = FRA_Events.38.d
-	picture = GFX_report_FRA_Maurice_Thorez
+	picture = GFX_report_FRA_Strikes_1936
 	fire_only_once = yes
 	trigger= {
 		original_tag = FRA
@@ -2767,7 +2900,7 @@ country_event = {
 	}
 	option = {
 		name = FRA_Events.38.A
-		set_temp_variable = { unemployment_value = 0.05 }
+		set_temp_variable = { unemployment_value = 0.03 }
 		add_unemployment_effect = yes
 	}
 }
@@ -2778,7 +2911,7 @@ country_event = {
 	id = FRA_Events.39
 	title = FRA_Events.39.t
 	desc = FRA_Events.39.d
-	picture = GFX_report_FRA_Maurice_Thorez
+	picture = GFX_report_FRA_Strikes_1936
 	fire_only_once = yes
 	trigger= {
 		original_tag = FRA
@@ -2787,18 +2920,18 @@ country_event = {
 	}
 	option = {
 		name = FRA_Events.39.A
-		set_temp_variable = { unemployment_value = 0.05 }
+		set_temp_variable = { unemployment_value = 0.02 }
 		add_unemployment_effect = yes
 	}
 }
 #########################################################################
 # Foundation of Air France
 #########################################################################
-country_event = {
+news_event = {
 	id = FRA_Events.41
 	title = FRA_Events.41.t
 	desc = FRA_Events.41.d
-	picture = GFX_report_FRA_Maurice_Thorez
+	picture = GFX_news_FRA_Creation_of_Air_France
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -2815,32 +2948,12 @@ country_event = {
 	id = FRA_Reform_of_the_State.11
 	title = FRA_Reform_of_the_State.11.t
 	desc = FRA_Reform_of_the_State.11.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Bordeaux
 	is_triggered_only = yes
 	# 
 	option = {
 		name = FRA_Reform_of_the_State.11.A
 		
-	}
-}
-#########################################################################
-# Creation of the CNRS
-#########################################################################
-country_event = {
-	id = FRA_Front_Populaire_1936.7
-	title = FRA_Front_Populaire_1936.7.t
-	desc = FRA_Front_Populaire_1936.7.d
-	picture = To_Be_Inserted
-	fire_only_once = yes
-	trigger = {
-		original_tag = FRA
-		date > 1939.10.19
-		has_start_date < 1939.10.19
-	}
-	#
-	option = {
-		name = FRA_Front_Populaire_1936.7.A
-		add_research_slot = 1
 	}
 }
 
@@ -2860,7 +2973,7 @@ country_event = {
 	id = FRA_Army.1
 	title = FRA_Army.1.t
 	desc = FRA_Army.1.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Maginot_Line
 	fire_only_once = yes
 	trigger = {
 		focus_progress = {
@@ -2872,7 +2985,7 @@ country_event = {
 		name = FRA_Army.1.A
 		retire_character = FRA_Maurice_Gamelin
 		hidden_effect = {
-			country_event = { id = FRA_Army.2 days = 4 }
+			news_event = { id = FRA_Army.2 days = 4 }
 		}
 	}
 	option = {
@@ -2882,11 +2995,11 @@ country_event = {
 #########################################################################
 # Funeral of Maurice Gamelin
 #########################################################################
-country_event = {
+news_event = {
 	id = FRA_Army.2
 	title = FRA_Army.2.t
 	desc = FRA_Army.2.d
-	picture = To_Be_Inserted
+	picture = GFX_news_FRA_Funeral_Invalides
 	fire_only_once = yes
 	is_triggered_only = yes
 	major = yes
@@ -2904,7 +3017,7 @@ country_event = {
 	id = FRA_Army.3
 	title = FRA_Army.3.t
 	desc = FRA_Army.3.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_French_Troops_Rhineland
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -2945,7 +3058,7 @@ country_event = {
 	id = FRA_Army.4
 	title = FRA_Army.4.t
 	desc = FRA_Army.4.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_French_Troops_Rhineland
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -2979,7 +3092,7 @@ country_event = {
 	id = FRA_Air.1
 	title = FRA_Air.1.t
 	desc = FRA_Air.1.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_General_Strikes
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -3464,7 +3577,7 @@ country_event = {
 	id = FRA_Colonies.13
 	title = FRA_Colonies.13.t
 	desc = FRA_Colonies.13.d
-	picture = To_Be_Inserted
+	picture = GFX_report_FRA_Lebrun_at_Desk
 	is_triggered_only = yes
 	# René Robin, for Law and Order
 	option = {
@@ -3561,12 +3674,12 @@ country_event = {
 #   #   #     #   #    ##### #####
 #########################################################################
 # Saar Offensive
-# Gamelin Enters the Saar
+# French Troops Enters the Saar
 country_event = {
 	id = FRA_Saar_Offensive.1
 	title = FRA_Saar_Offensive.1.t
 	desc = FRA_Saar_Offensive.1.d
-	picture = GFX_
+	picture = GFX_report_FRA_French_Troops_Rhineland
 	fire_only_once = yes
 	is_triggered_only = yes
 	
@@ -3574,37 +3687,19 @@ country_event = {
 		name = FRA_Saar_Offensive.1.A
 		custom_effect_tooltip = FRA_Saar_Offensive.1.A_tt
 		activate_mission = FRA_The_Saar_Offensive
-		42 = {
-			add_dynamic_modifier = {
-				modifier = FRA_The_Saar_Offensive
-			}
+		add_timed_idea = {
+			idea = FRA_The_Saar_Offensive_spirit
+			days = 40
 		}
-		51 = {
-			add_dynamic_modifier = {
-				modifier = FRA_The_Saar_Offensive
-			}
-		}
-		806 = {
-			add_dynamic_modifier = {
-				modifier = FRA_The_Saar_Offensive	
-			}
-		}
-		1498 = {
-			add_dynamic_modifier = {
-				modifier = FRA_The_Saar_Offensive	
-			}
-		}
-		add_to_variable = { FRA_Saar_Offensive_ACDF_Var = -0.15 }
-		force_update_dynamic_modifier = yes
 	}
 }
 
-# Gamelin Retreats
+# French Troops Retreats
 country_event = {
 	id = FRA_Saar_Offensive.2
 	title = FRA_Saar_Offensive.2.t
 	desc = FRA_Saar_Offensive.2.d
-	picture = GFX_
+	picture = GFX_report_FRA_French_Troops_Rhineland
 	fire_only_once = yes
 	trigger = {
 		tag = FRA
@@ -3615,7 +3710,7 @@ country_event = {
 	
 	option = {
 		name = FRA_Saar_Offensive.2.A
-		set_variable = { FRA_Saar_Offensive_ACDF_Var = -0.05 }
+		remove_ideas = FRA_The_Saar_Offensive_spirit
 	}
 }
 
@@ -3624,29 +3719,15 @@ country_event = {
 	id = FRA_Saar_Offensive.3
 	title = FRA_Saar_Offensive.3.t
 	desc = FRA_Saar_Offensive.3.d
-	picture = GFX_
+	picture = GFX_report_FRA_French_Troops_Rhineland
 	fire_only_once = yes
 	is_triggered_only = yes
 	
 	option = {
 		name = FRA_Saar_Offensive.3.A
 		remove_ideas = FRA_On_ne_Passe_Pas
+		remove_ideas = FRA_The_Saar_Offensive_spirit
 		add_war_support = 0.1
-		FRA_Maurice_Gamelin = {
-			add_attack = 1
-		}
-		42 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
-		51 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
-		806 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
-		1498 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
 	}
 }
 
@@ -3655,7 +3736,7 @@ country_event = {
 	id = FRA_Saar_Offensive.4
 	title = FRA_Saar_Offensive.4.t
 	desc = FRA_Saar_Offensive.4.d
-	picture = GFX_
+	picture = GFX_report_FRA_French_Troops_Rhineland
 	fire_only_once = yes
 	is_triggered_only = yes
 	
@@ -3665,18 +3746,7 @@ country_event = {
 			remove_idea = FRA_On_ne_Passe_Pas
 			add_idea = FRA_The_Phoney_War
 		}
-		42 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
-		51 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
-		806 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
-		1498 = {
-			remove_dynamic_modifier = { modifier = FRA_The_Saar_Offensive }
-		}
+		remove_ideas = FRA_The_Saar_Offensive_spirit
 	}
 }
 
@@ -3712,7 +3782,7 @@ country_event = {
 	id = FRA_Wartime_Tree.1
 	title = FRA_Wartime_Tree.1.t
 	desc = FRA_Wartime_Tree.1.d
-	picture = GFX_
+	picture = report_FRA_Maurice_Thorez
 	fire_only_once = yes
 	is_triggered_only = yes
 	
@@ -3730,7 +3800,7 @@ country_event = {
 	id = FRA_Wartime_Tree.2
 	title = FRA_Wartime_Tree.2.t
 	desc = FRA_Wartime_Tree.2.d
-	picture = GFX_
+	picture = report_FRA_Maurice_Thorez
 	fire_only_once = yes
 	is_triggered_only = yes
 	
@@ -3764,7 +3834,7 @@ country_event = {
 	option = {
 		name = FRA_Wartime_Tree.3.A
 		add_country_leader_role = {
-			character = FRA_Paul_Reynaud
+			Character = FRA_Paul_Reynaud
 			promote_leader = yes
 			country_leader = {
 				ideology = social_conservatism
@@ -3774,8 +3844,30 @@ country_event = {
 				}
 			}
 		}
-		add_ideas = FRA_Paul_Reynaud_FM
-		add_ideas = FRA_Henri_Roy_MoS
+		set_party_name = {
+			ideology = democratic
+			long_name = "Gouvernement d'Union Nationale"
+			name = "UN"
+		}
+		hidden_effect = {
+			set_country_flag = FRA_defeatist_in_place
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
+			set_temp_variable = { party_id = 4 } # FR
+			set_temp_variable = { support_to_add = 1 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 5 } # AD
+			set_temp_variable = { support_to_add = 1 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 6 } # RAD
+			set_temp_variable = { support_to_add = 1 }
+			change_party_support = yes
+			set_temp_variable = { party_id = 8 } # SFIO
+			set_temp_variable = { support_to_add = 1 }
+			change_party_support = yes
+		}
+		add_ideas =  { FRA_Paul_Reynaud_FM FRA_Henri_Roy_MoS FRA_Anatole_de_Monzie_AM } 
 		unlock_national_focus = FRA_A_National_Union_to_Save_France
 		country_event = { id = FRA_Wartime_Tree.4 days = 1 }
 	}
@@ -3793,6 +3885,7 @@ country_event = {
 	option = {
 		name = FRA_Wartime_Tree.4.A
 		custom_effect_tooltip = FRA_Wartime_Tree.4.A_tt
+		add_ideas = FRA_Philippe_Petain_M
 	}
 }
 
@@ -3867,17 +3960,30 @@ country_event = {
 		tag = FRA
 		has_defensive_war_with = GER
 		surrender_progress > 0.6
-		NOT = {
-			has_completed_focus = FRA_Remove_the_Defeatist
-		}
+		has_country_flag = FRA_defeatist_in_place
 	}
 	
 	option = {
 		name = FRA_Wartime_Tree.7.A
 		add_stability = 0.1
 		add_political_power = 25
-		add_ideas = FRA_Philippe_Petain_HoG
+		add_country_leader_role = {
+			Character = FRA_Philippe_Petain
+			Promote_leader = yes
+			Country_leader = {
+				ideology = national_conservatism
+				traits = {
+					L_The_Old_Marshal
+					FM_Fascist_Sympathiser
+				}
+			}
+		}
 		hidden_effect = {
+			remove_ideas = FRA_Philippe_Petain_M
+			remove_ideas_with_trait = Position_Foreign_Minister
+			remove_ideas_with_trait = Position_Minister_of_Security
+			remove_ideas_with_trait = Position_Armaments_Minister
+			add_ideas = { FRA_Paul_Baudoin_FM FRA_Charles_Pomaret_MoS FRA_Ludovic_Oscar_Frossard_AM }
 			country_event = { id = FRA_Wartime_Tree.8 days = 1 }
 		}
 	}
@@ -4099,8 +4205,8 @@ country_event = {
 	option = { # Become Vichy
 		name = FRA_Capitulation_of_France.1.A
 		trigger = { is_ai = no }
-		set_country_flag = become_vichy
 		set_global_flag = fall_of_france
+		set_country_flag = become_vichy
 		GER = {
 			country_event = { id = FRA_Capitulation_of_France.2 }
 		}
@@ -4154,6 +4260,7 @@ country_event = {
 				set_rule = {
 					can_join_factions = no
 					can_create_factions = no
+					can_guarantee_other_ideologies = no
 				}
 				add_opinion_modifier = {
 					target = GER
@@ -4182,25 +4289,26 @@ country_event = {
 					long_name = "Petainiste"
 					name = "Petainiste"
 				}
-				add_country_leader_role = {
-					Character = FRA_Philippe_Petain
-					Promote_leader = yes
-					Country_leader = {
-						ideology = integralism_auth
-						traits = {
-							POSITION_FRA_Chef_dEtat
-							L_Old_General
-						}
-					}
-				}
 				add_popularity = {
 					ideology = authoritarian
 					popularity = 0.5
 				}	
+				add_country_leader_role = {
+					Character = FRA_Philippe_Petain
+					Promote_leader = yes
+					Country_leader = {
+						ideology = despotism
+						traits = {
+							POSITION_FRA_Chef_dEtat
+							L_The_Old_Marshal
+							FM_Fascist_Sympathiser
+						}
+					}
+				}
 				remove_ideas_with_trait = POSITION_President
 				add_ideas ={ FRA_Pierre_Laval_HoG }
+				dissolve_parliament = yes
 				mark_focus_tree_layout_dirty = yes
-
 				# Disband Army
 				every_controlled_state = {
                     PREV = {
@@ -4214,7 +4322,6 @@ country_event = {
 					limit = {
 						OR = {
 							state = 763
-							state = 1028
 							state = 1637
 							state = 19
 							state = 23
@@ -4236,7 +4343,6 @@ country_event = {
 							state = 1022
 							state = 29
 							state = 1027
-							state = 1028
 							state = 1028
 						}
 					}
@@ -4272,6 +4378,14 @@ country_event = {
 						}
 					}
 					transfer_state_to = FFL
+				}
+				if = {
+					limit = { 
+						NOT = {
+							has_country_flag = become_vichy
+						}  
+					}
+					FFL = { change_tag_from = FRA }
 				}
 			}
 			VIN = {

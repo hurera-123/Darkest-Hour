@@ -210,6 +210,7 @@ SOV_ARM_01 =
 		OR = {
 			has_completed_focus = SOV_Tactical_Deep_Battle
 			has_completed_focus = SOV_Defense_in_Depth
+			has_completed_focus = SOV_The_Slaughterers_of_Men
 		}	
 	}
 

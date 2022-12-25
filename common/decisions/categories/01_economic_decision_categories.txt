@@ -29,7 +29,11 @@ USA_Wartime_Economic_Recovery_Category = {
 		original_tag = USA
 	}
 	visible = {
-		has_completed_focus = USA_the_Giant_Wakes
+		OR = {
+			has_completed_focus = USA_the_Giant_Wakes
+			has_completed_focus = USA_An_Abrupt_Awakening
+			has_completed_focus = USA_Prepare_to_Mobilize_the_Economy
+		}
 	}
 }
 USA_Landon_Private_Investments_Category = {
@@ -262,7 +266,7 @@ FRA_Electrify_France_category = {
 		original_tag = FRA
 	}
 	visible = {
-		has_completed_focus = FRA_Continue_Electrification_France
+		has_completed_focus = FRA_Put_France_in_Autarky
 	}
 }
 FRA_Plan_Marquet_category = {
@@ -370,14 +374,26 @@ SPR_liberal_welfare_decisions_category = {
 	icon = placeholder
 	picture = placeholder
 	allowed = {
-		original_tag = SPR
+		tag = SPR
+	}
+	visible = {
+		has_global_flag = SCW_started 
+		SPA = {
+			exists = no
+		}
 	}
 }
 SPR_attracting_investors_decisions_category = {
 	icon = placeholder
 	picture = placeholder
 	allowed = {
-		original_tag = SPR
+		tag = SPR
+	}
+	visible = {
+		has_global_flag = SCW_started 
+		SPA = {
+			exists = no
+		}
 	}
 }
 SOV_Second_Five_Year_Plan_category = {
@@ -438,9 +454,6 @@ SOV_Harvest_category = {
 	}
 	visible = {
 		original_tag = SOV
-		NOT = {
-			has_idea = SOV_Soviet_Famine_idea
-		}
 		NOT = {
 			has_country_flag = SOV_Selected_Export
 		}
