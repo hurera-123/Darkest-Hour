@@ -1070,7 +1070,7 @@ SOV_equipment_production_1 = {
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories
-		id = anti_tank_equipment
+		id = anti_tank
 		value = 2
 	}
 	ai_strategy = {
@@ -1080,18 +1080,8 @@ SOV_equipment_production_1 = {
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories
-		id = infantry_equipment
-		value = 6
-	}
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = Heavy_Weapons_equipment
-		value = 5
-	}
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = support_equipment
-		value = 5
+		id = infantry
+		value = 16
 	}
 }
 
@@ -1126,23 +1116,13 @@ SOV_equipment_production_2 = {
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories
-		id = anti_tank_equipment
+		id = anti_tank
 		value = 4
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories
-		id = infantry_equipment
-		value = 8
-	}
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = Heavy_Weapons_equipment
-		value = 5
-	}
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = support_equipment
-		value = 5
+		id = infantry
+		value = 20
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories

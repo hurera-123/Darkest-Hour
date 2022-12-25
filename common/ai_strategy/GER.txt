@@ -2205,18 +2205,8 @@ GER_equipment_production_1 = {
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories
-		id = infantry_equipment
-		value = 5
-	}
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = Heavy_Weapons_equipment
-		value = 4
-	}
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = support_equipment
-		value = 4
+		id = infantry
+		value = 13
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2247,18 +2237,8 @@ GER_equipment_production_2 = {
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories
-		id = infantry_equipment
-		value = 7
-	}
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = Heavy_Weapons_equipment
-		value = 5
-	}
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = support_equipment
-		value = 5
+		id = infantry
+		value = 20
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories
