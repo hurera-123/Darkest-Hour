@@ -6824,7 +6824,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_Return_to_Democratic_Establishment
-		icon = GFX_goal_unknown
+		icon = GFX_USA_Return_To_Democratic_Establishment
 		cost = 35
 		available = {
 			has_country_flag = USA_John_Nance_Garner_Wins_1940_Election
@@ -7185,7 +7185,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_The_Republican_Grip_Strenghtens
-		icon = GFX_goal_unknown
+		icon = GFX_USA_The_Republican_Grip_Strengthens
 		cost = 35
 		available = {
 			has_country_flag = USA_Landon_Wins_1940_Election

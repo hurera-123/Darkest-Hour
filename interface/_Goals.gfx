@@ -6080,6 +6080,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_USA_Return_To_Democratic_Establishment"
+        texturefile = "gfx/interface/goals/USA_Return_To_Democratic_Establishment.png"
+    }
+
+    spriteType = {
         name = "GFX_USA_Second_New_Deal"
         texturefile = "gfx/interface/goals/USA_Second_New_Deal.png"
     }
@@ -6132,6 +6137,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_USA_The_Rainbow_Plans"
         texturefile = "gfx/interface/goals/USA_The_Rainbow_Plans.png"
+    }
+
+    spriteType = {
+        name = "GFX_USA_The_Republican_Grip_Strengthens"
+        texturefile = "gfx/interface/goals/USA_The_Republican_Grip_Strengthens.png"
     }
 
     spriteType = {

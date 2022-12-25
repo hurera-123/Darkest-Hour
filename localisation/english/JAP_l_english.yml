@@ -44,23 +44,23 @@
 
  # Foreign Policy
  JAP_Foreign_Policy.1.t: "A Common Goal..."
- JAP_Foreign_Policy.1.d: ""
- JAP_Foreign_Policy.1.A: "Let's explore our options."
+ JAP_Foreign_Policy.1.d: "With the recent results of the Lytton Report and our subsequent exodus from the League of Nations, our position has become a tenuous one. Our actions in Manchuria, though it led to a great gain for our empire, has now also opened ourselves to inevitable border contacts with both China and the Soviet Union. Considering the reaction the United States to our actions, we must also be wary of western interventions should chose to push our gains further into either China or the USSR. The Foreign Ministry must navigate cautiously with our diplomatic agendas to decide how we should proceed in this situation. Currently, there are three potential candidates for our foreign efforts each with their own diplomatic agendas: Hirota, Shidehara, Matsuoka."
+ JAP_Foreign_Policy.1.A: "Let us see what each will provide."
  
  JAP_Foreign_Policy.2.t: "The Great Compromiser"
- JAP_Foreign_Policy.2.d: ""
- JAP_Foreign_Policy.2.A: "An ambitious goal, to be sure."
+ JAP_Foreign_Policy.2.d: "Hirota's agenda is one that prioritizes against communism spreading throughout East Asia. His proposal is to cease the continued antagonization against China in an effort to cooperate with the Chinese government and to form a bloc against the continual communist influence in East Asia. He believes that China is a crucial part of East Asian stability and that, if necessary, Japan should intervene in preserving said stability as a effort against the expansion of the Soviet Union. He argues that Japan should reach an agreement with the Chinese government on this front and seek further cooperation, even if it means the utilization Japanese Arms."
+ JAP_Foreign_Policy.2.A: "It would be a bold move."
  
  JAP_Foreign_Policy.3.t: "A Gentle Touch"
- JAP_Foreign_Policy.3.d: ""
- JAP_Foreign_Policy.3.A: "A new direction for the Empire."
+ JAP_Foreign_Policy.3.d: "Shidehara's agenda is one of peaceful and reconciliation. His belief is that Japan should take a non-intervening policy towards China, one of reconciliation with the Chinese Government. This, however, would be quite an effort considering our actions in Manchuria has practically broke this doctrine, making amends might be necessary. However this does not mean that Japan would cease to expand its influence, it simply switched to a touch of soft power instead of the hard military expansion. Shidehara's agenda is to expand with the power of the economy, influencing countries to strike accords in favour of Japan."
+ JAP_Foreign_Policy.3.A: "Peace must surely be considered."
  
  JAP_Foreign_Policy.4.t: "Matter over Mind"
- JAP_Foreign_Policy.4.d: ""
+ JAP_Foreign_Policy.4.d: "Matsuoka’s agenda is one of expansion and deterrence. He believes that Japan would benefit the most by cooperating with Italy and Germany. He believes that with Germany and Italy, Japan would stand a foot on the international front against the forces of both the Soviet Union and the Western Powers. He believes that Japan’s rise to a great power must come at the defeat of these Powers and war with them is inevitable. He also believes in strong interventionism in China and the use of strong arm diplomacy."
  JAP_Foreign_Policy.4.A: "Asia for the Asians? Is it really true?"
  
  JAP_Foreign_Policy.5.t: "...With Different Methods"
- JAP_Foreign_Policy.5.d: ""
+ JAP_Foreign_Policy.5.d: "Our course of diplomatic action depends on which candidate we decide to choose, as each has a different vision for Japan’s position in the world, and each has its reasons and theories. Beware, however, that should our diplomacy have become too extreme, our already precarious international standing would be even worse, which has the potential backlash of harming our economy and worsening our relations with some of the major powers of the world. Now the question arises: who would be our candidate for our foreign policy?"
  JAP_Foreign_Policy.5.A: "Hirota Koki, and his Three Principles."
  JAP_Foreign_Policy.5.B: "Shidehara Kijuro, the man of Peace and War."
  JAP_Foreign_Policy.5.C: "Matsuoka Yosuke, the Defiant Diplomat."
@@ -308,8 +308,8 @@
  JAP_Second_Konoe_Cabinet.7.A: ""
 
  JAP_Second_Konoe_Cabinet.8.t: "Little Strokes Fell Great Oaks"
- JAP_Second_Konoe_Cabinet.8.d: ""
- JAP_Second_Konoe_Cabinet.8.A: ""
+ JAP_Second_Konoe_Cabinet.8.d: "Konoe is nervous and ill as he looks out the window of his residence. Foreign Minister Matsuoka has aggressively advocated for the Soviet Union's invasion and engaged in reckless diplomatic dealings with the United States. Matsuoka has attracted the attention of Konoe and many others, and some have accused him of attempting to replace Konoe with himself.\n\nKonoe is lost in thoughts when his phone rings; he answers and hears the news. Matsuoka had drafted a response to the United States on the draft of understanding the day before, and he had sent it to the Germans for approval the next day without the cabinet's permission.\n\nKonoe swiftly contacts his cabinet ministers, who all reach the same conclusion: resignation. Konoe and his cabinet resigned en-masse and agreed to reform the government without Matsuoka."
+ JAP_Second_Konoe_Cabinet.8.A: "That was the last straw."
 
  # Third Konoe Cabinet
  JAP_Third_Konoe_Cabinet.1.t: "Third Time's a Charm"
@@ -876,16 +876,16 @@
  JAP_Surrender.1.A: "The corpse of the empire lays before us, a beast now vanquished."
 
  JAP_Surrender.2.t: "A Return to the Old?"
- JAP_Surrender.2.d: ""
- JAP_Surrender.2.A: ""
+ JAP_Surrender.2.d: "After the final capitulation of the Japanese Empire, our diplomats have finally managed to take back our colonies in the Far-East. Malaya, Borneo and Burma are under British control again. Finally.\n\nBut the downside to this is the increase in resistance to our occupation. In the old days, there were not that many in this region, but the invasion and the liberation of these territories by the Japanese have excited the desires for independence.\n\nDay after day, the reports that come to us from the region requested more and more soldiers and even more firepower to restore control over the cities. The situation is so catastrophic that some even fear the emergence of nationalist or communist uprisings, and the governor-generals of the region all have trouble, asking the King and the Prime Minister to intervene, as unifying figures, thus restoring order over the Empire once and for all.\n\nOn the other hand, some have asked about the possibilities of giving some new liberties to the local population, arguing that this will probably calm the agitators.\n\nWhile no one can say what will be our future in the region, it is clear the return to the old order will not be an easy task."
+ JAP_Surrender.2.A: "The Empire will face the situation, whatever the price."
 
  JAP_Surrender.3.t: "A Different Indochina"
- JAP_Surrender.3.d: ""
- JAP_Surrender.3.A: ""
+ JAP_Surrender.3.d: "A few days ago, the Liberation Committee of France finally regained control over the territories of Indochina, after months of fighting in Southern Asia and the capitulation of Japan.\n\nThe situation of Laos and Cambodia are running smoothly, with the local populations having warmly cheered the return of the French forces; on the other hand, the situation in Vietnam is more complex. In fact, the communist agitator in the region, Ho Chi Minh, has seized power in a few locations, leading to even more conflict in the region.\n\nThe colonial forces have called on the French government to send them more men and guns in order to maintain order over Indochina. Some volunteers have even left the French mainland to help their Asian brothers.\n\nLike in the British colonial territories in the region, the French Far-East territories face a crossroad of uncertainty."
+ JAP_Surrender.3.A: "The government needs to reorganise the situation in the region, and quickly."
 
  JAP_Surrender.4.t: "Reclaiming China"
- JAP_Surrender.4.d: ""
- JAP_Surrender.4.A: ""
+ JAP_Surrender.4.d: "“There are ten more divisions surrendering here, sir. They all lowered their arms and surrendered immediately.”\n\nThis quote is now a daily one for the Chinese's commanders, as many and many more Japanese divisions are surrendering to them, gradually accepting the reality of their final defeat.\n\nFrom the orders of the Generalissimo, Chiang Kai-Shek, the troops advanced quickly around the Chinese sub-continent, and, after a few weeks, they finally entered Manchuria. If the liberation campaign is so quick, it is for a good reason: Chiang fears the communists, and he knows that the truce they have with the Chinese warlords will be short-lived after the final armistice.\n\nToday, the generals at the front have received new orders from the Generalissimo himself: “Continue to advance as much as possible. We need to capture the cities of Harbin, Hsinking and Tunghwa. Capture them quickly, and do it before the reds. All hail the Legitimate Republic!”"
+ JAP_Surrender.4.A: "The end of this war will only plant the seeds of the next war in China."
 
  JAP_Surrender.5.t: "Victory in the East"
  JAP_Surrender.5.d: ""

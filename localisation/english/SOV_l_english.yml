@@ -157,8 +157,8 @@
  SOV_Great_Purge.22.A: "The Union is saved from itself."
 
  SOV_Great_Purge.23.t: "A Scathing Report"
- SOV_Great_Purge.23.d: ""
- SOV_Great_Purge.23.A: ""
+ SOV_Great_Purge.23.d: "“Comrade, are you sure about this?”\n“I am, Vyacheslav, of course I am!”\n“But, these reports… it will cause some trouble.”\n“Which will lead to more purges, I know.”\n“I see you have already made your decision about this.”\n\nThis discussion takes place in the office of Stalin’s, in company of his friend and collaborator, Molotov. Today, they took the harsh decision to send a report criticising the NKVD’s performance. And, when they criticise the NKVD, they are directly attacking Nikolai Yezhov.\n\nFor a while now, they have been worried by his actions in the purges, and his growing influence. In reaction to the situation, they have both decided to cut his ascension, and they will remove him from the head of the agency.\n\nAnd, to do this, what better solution than using the legal way? Yezhov has not reached his quotas, and Yezhov will pay it. The “Bloody Dwarf” will not be a threat any longer."
+ SOV_Great_Purge.23.A: "How many men does it take to exercise a purge? Two. One to deal with the purge itself. The second to eliminate the first."
 
  SOV_Great_Purge.24.t: "Icarus"
  SOV_Great_Purge.24.d: ""

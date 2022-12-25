@@ -2000,8 +2000,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_idea_Paul_von_Hindenburg"
-        texturefile = "gfx/interface/ideas/Cabinet/GER/Paul_von_Hindenburg.png"
+        name = "GFX_idea_Paul_Von_Hindenburg"
+        texturefile = "gfx/interface/ideas/Cabinet/GER/Paul_Von_Hindenburg.png"
     }
 
     spriteType = {
@@ -6565,8 +6565,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_idea_FRA_La_Der_des_Ders"
-        texturefile = "gfx/interface/ideas/Spirits/FRA_La_Der_des_Ders.png"
+        name = "GFX_idea_FRA_La_Der_Des_Ders"
+        texturefile = "gfx/interface/ideas/Spirits/FRA_La_Der_Des_Ders.png"
     }
 
     spriteType = {
@@ -7617,6 +7617,21 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_SOV_NKVD_idea"
         texturefile = "gfx/interface/ideas/Spirits/SOV_NKVD_idea.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_SOV_Operation_Groza_Level_1"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_Operation_Groza_Level_1.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_SOV_Operation_Groza_Level_2"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_Operation_Groza_Level_2.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_SOV_Operation_Groza_Level_3"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_Operation_Groza_Level_3.png"
     }
 
     spriteType = {

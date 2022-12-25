@@ -2349,7 +2349,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_
+			picture = SOV_Operation_Groza_Level_1
 
 			modifier = {
 				army_attack_factor = 0.05
@@ -2369,7 +2369,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_
+			picture = SOV_Operation_Groza_Level_2
 
 			modifier = {
 				army_attack_factor = 0.075
@@ -2390,7 +2390,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_
+			picture = SOV_Operation_Groza_Level_3
 
 			modifier = {
 				army_attack_factor = 0.01

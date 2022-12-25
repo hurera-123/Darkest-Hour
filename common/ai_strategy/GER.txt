@@ -2084,7 +2084,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = convoy
-		value = 20
+		value = 10
 	}
 
 	ai_strategy = {
@@ -2102,7 +2102,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = tactical_bomber
-		value = -80
+		value = 40
 	}
 
 	ai_strategy = {
@@ -2120,25 +2120,25 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 10
+		value = 35
 	}
 
 	ai_strategy = {
 		type = equipment_production_factor
 		id = anti_tank
-		value = 20
+		value = 15
 	}
 
 	ai_strategy = {
 		type = equipment_production_factor
 		id = anti_air
-		value = 25
+		value = 15
 	}
 
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
-		value = 100
+		value = 80
 	}
 
 	ai_strategy = {
@@ -2154,7 +2154,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = mechanized
-		value = 60
+		value = 25
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories #Build these up over time, don't stall
@@ -2188,6 +2188,95 @@ GER_unit_production = {
 	}
 }
 
+GER_equipment_production_1 = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		date < 1936.1.1
+	}
+	abort = {
+		date > 1936.1.1
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories #Build these up over time, don't stall
+		id = motorized
+		value = 3
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = infantry_equipment
+		value = 5
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = Heavy_Weapons_equipment
+		value = 4
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = support_equipment
+		value = 4
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = fighter
+		value = 2
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = tactical_bomber
+		value = 2
+	}
+}
+
+GER_equipment_production_2 = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		date < 1939.1.1
+	}
+	abort = {
+		date > 1939.1.1
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories #Build these up over time, don't stall
+		id = motorized
+		value = 4
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = infantry_equipment
+		value = 7
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = Heavy_Weapons_equipment
+		value = 5
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = support_equipment
+		value = 5
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = armor
+		value = 10
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = fighter
+		value = 8
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = tactical_bomber
+		value = 8
+	}
+}
+
 GER_stockpile_less_early_game = {
 	allowed = {
 		tag = GER
@@ -2218,7 +2307,7 @@ GER_stockpile_more = {
 
 	ai_strategy = {
 		type = equipment_stockpile_surplus_ratio
-		value = 25
+		value = 30
 	}
 }
 
