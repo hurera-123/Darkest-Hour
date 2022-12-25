@@ -1,0 +1,14 @@
+scripted_gui = {
+	custom_musicplayer_background_window = {
+		context_type = player_context
+
+		window_name = "custom_musicplayer_background_window"
+		parent_window_name = "musicplayer_top_bg_window"
+
+		properties = {
+			picture = {
+				image = "[This.GetCustomMusicplayerBackgroundImage]"
+			}
+		}
+	}
+}
