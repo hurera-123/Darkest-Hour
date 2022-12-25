@@ -1922,7 +1922,7 @@ news_event = {
 		}
 		text = GER_LoN.2.d3
 	}
-	# Worrying times ahead…
+	# Worrying times ahead...
 	option = {
 		name = GER_LoN.2.A
 		trigger = {

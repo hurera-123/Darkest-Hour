@@ -188,7 +188,7 @@
  USA_Elections_1936.4.t: "Election Night 1936"
  USA_Elections_1936.4.d: "Four years after FDR's historic landslide victory over then-President Herbert Hoover, the 1936 election has finally arrived. Much has changed since 1932, with the New Deal helping to alleviate some of our nation's problems caused by the Great Depression. Millions of people have found work as a result of this, primarily through government plans for public works on roads, dams, and highways. Despite the President's efforts, many in the country are still dissatisfied with the slow pace of recovery, which Alf Landon, the Republican nominee for President, has emphasized in his campaign.\n\nThe nation is on edge as the votes are counted and the outcome is awaited. While many predict that FDR will easily win a second term, a few polls have indicated a much closer race, with a couple even giving Alf Landon the election. The announcer says as the radio crackles..."
  USA_Elections_1936.4.A: "“...the President has secured another term in a landslide victory!”"
- USA_Elections_1936.4.B: "“…A stunning upset, Alf Landon is victorious!”"
+ USA_Elections_1936.4.B: "“...A stunning upset, Alf Landon is victorious!”"
  USA_Landon_1936: "§OAlf Landon§! inaugurated as §L32nd President§!"
  USA_Roosevelt_1936: "§ORoosevelt§! inaugurated for a §LSecond Term§!"
 
@@ -747,7 +747,7 @@
  USA_Flavor.50.A: "Our thoughts and prayers for those affected."
 
  USA_Flavor.51.t: "First Annual Sturgis Motorcycle Rally"
- USA_Flavor.51.d: "[FROM.GetNewsIcon]Nine motorbikes lined the dirt starting line, revving their engines to excite the small crowd. The starter walked up, and after staring intently, started counting in a booming voice, one that could drown out the sound of the engines: \"3...2…\" He raised his pistol to the sky, and-\"1!\" Bam! And what seemed like the blink of an eye, the motorcyclists flew down the dirt road, officially starting the Sturgis Motorcycle Rally, also known as the \"Black Hills Classic.\"\n\nIt only felt like a day passed since Clarence \"Pappy\" Hoel and his wife Peal bought the Indian Motorcycle Franchise in Sturgis, and formed the Jackpine Gypsies Motorcycle Club. Now two years later, he's hosting a town-wide motorcycle rally.  By the end of the race, the crowds were thrilled, and everyone was having the time of their lives. Although they already had an unofficial rally last year, it was apparent that this was going to be a tradition that would last generations."
+ USA_Flavor.51.d: "[FROM.GetNewsIcon]Nine motorbikes lined the dirt starting line, revving their engines to excite the small crowd. The starter walked up, and after staring intently, started counting in a booming voice, one that could drown out the sound of the engines: \"3...2...\" He raised his pistol to the sky, and-\"1!\" Bam! And what seemed like the blink of an eye, the motorcyclists flew down the dirt road, officially starting the Sturgis Motorcycle Rally, also known as the \"Black Hills Classic.\"\n\nIt only felt like a day passed since Clarence \"Pappy\" Hoel and his wife Peal bought the Indian Motorcycle Franchise in Sturgis, and formed the Jackpine Gypsies Motorcycle Club. Now two years later, he's hosting a town-wide motorcycle rally.  By the end of the race, the crowds were thrilled, and everyone was having the time of their lives. Although they already had an unofficial rally last year, it was apparent that this was going to be a tradition that would last generations."
  USA_Flavor.51.A: "Racers, start your engines!"
 
  USA_Flavor.52.t: "Armistice Day Blizzard"

@@ -24,6 +24,7 @@ add_namespace = SOV_SPR_Intervention
 add_namespace = SOV_Liberation_of_Europe
 add_namespace = SOV_Red_Army
 add_namespace = SOV_Airforce
+add_namespace = SOV_Soften_Legislation
 #########################################################################
 # "Now We Know the End..." (Tukhachevsky)
 #########################################################################
@@ -354,6 +355,20 @@ country_event = {
 	option = {
 		name = SOV_Great_Purge.7.A
 		add_ideas = interventionism
+	}
+}
+
+#########################################################################
+# Helmsman's Wrath
+#########################################################################
+country_event = {
+	id = SOV_Great_Purge.8
+	title = SOV_Great_Purge.8.t
+	desc = SOV_Great_Purge.8.d
+	picture = GFX_report_SOV_Stalin_Report
+	is_triggered_only = yes
+	option = {
+		name = SOV_Great_Purge.8.A
 	}
 }
 
@@ -3383,5 +3398,35 @@ country_event = {
 			type = bomber_unique
 			is_female = yes
 		}
+	}
+}
+
+### Amendments to the Law of Three Spikelets
+country_event = {
+	id = SOV_Soften_Legislation.1
+	title = SOV_Soften_Legislation.1.t
+	desc = SOV_Soften_Legislation.1.d
+	picture = GFX_report_SOV_Female_Aviators
+	is_triggered_only = yes
+
+	option = {
+		name = SOV_Soften_Legislation.1.A
+		add_political_power = -50
+		add_stability = 0.05
+	}
+}
+
+### Discussion on Return of Citizen's Rights for Lishensi
+country_event = {
+	id = SOV_Soften_Legislation.2
+	title = SOV_Soften_Legislation.2.t
+	desc = SOV_Soften_Legislation.2.d
+	picture = GFX_report_SOV_Female_Aviators
+	is_triggered_only = yes
+
+	option = {
+		name = SOV_Soften_Legislation.2.A
+		add_political_power = -50
+		add_stability = 0.05
 	}
 }

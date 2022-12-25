@@ -1159,9 +1159,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		completion_reward = {
-			add_political_power = -50
-			add_stability = 0.05
-			#country_event = SOV_amendments_to_the_law_on_three_spiketeta_chain
+			country_event = { id = SOV_Soften_Legislation.1 days = 1 }
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 	}
@@ -1176,9 +1174,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = {
-			add_political_power = -50
-			add_stability = 0.05
-			#country_event = SOV_discussion_on_return_of_zitizens_rights_for_llehental_chain
+			country_event = { id = SOV_Soften_Legislation.2 days = 1 }
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 	}
@@ -1508,6 +1504,7 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			add_manpower = -12000
+			country_event = { id = SOV_Great_Purge.8 days = 1 }
 		}
 	}
 	focus = {
