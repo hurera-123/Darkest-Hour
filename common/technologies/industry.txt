@@ -1288,6 +1288,13 @@ technologies = {
 	###Fuel Gain (Refineries)
 	Early_Synthetic_Oil_Production = {
 		#3
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 1
+			}
+		}
 		fuel_gain_factor_from_states = 0.35
 		path = {
 			leads_to_tech = Widespread_Use_of_Lignite_Coal
@@ -1316,6 +1323,13 @@ technologies = {
 	}
 	Widespread_Use_of_Lignite_Coal = {
 		#4
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 2
+			}
+		}
 		fuel_gain_factor_from_states = 0.4
 		path = {
 			leads_to_tech = Refined_Pyrolysis_Process
@@ -1344,13 +1358,6 @@ technologies = {
 	}
 	Refined_Pyrolysis_Process = {
 		#5
-		on_research_complete = {
-			modify_building_resources = {
-				building = synthetic_refinery
-				resource = rubber
-				amount = 1
-			}
-		}
 		fuel_gain_factor_from_states = 0.4
 		path = {
 			leads_to_tech = Major_Hydrogeneration_Productivity_Gain
