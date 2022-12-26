@@ -1156,7 +1156,7 @@ spriteTypes = {
 	### Uniform
 	SpriteType = {
 		name = "GFX_SOV_Infantry_Kit_1952_medium"
-		texturefile = "gfx/interface/technologies/Uniform/SOV_Infantry_Kit_1952.dds"
+		texturefile = "gfx/interface/technologies/Uniform/SOV_Uniform_1952.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_Infantry_Kit_1962_medium"
