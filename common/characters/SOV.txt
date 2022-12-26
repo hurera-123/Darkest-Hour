@@ -1943,31 +1943,6 @@ characters = {
 			}
 		}
 	}
-	SOV_Ivan_IProskurov = {
-		name=SOV_Ivan_IProskurov
-		portraits={
-			army={
-				small="GFX_idea_Ivan_IProskurov"
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_Ivan_IProskurov_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1937.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Ivan_IProskurov_unavailable }
-			}
-			traits={
-				
-				HoI_Dismal_Enigma
-			}
-		}
-	}
 	SOV_Semyon_G_Gendin = {
 		name=SOV_Semyon_G_Gendin
 		portraits={
@@ -2927,31 +2902,6 @@ characters = {
 			legacy_id = 266002
 		}
 	}
-	SOV_Boris_M_Shaposhnikov = {
-		name=SOV_Boris_M_Shaposhnikov
-		portraits={
-			army={
-				small="GFX_idea_Boris_M_Shaposhnikov"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=SOV_Boris_M_Shaposhnikov_CoStaff
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1937.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Boris_M_Shaposhnikov_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Mass_Combat
-			}
-		}
-	}
 	SOV_Kirill_A_Meretskov = {
 		name=SOV_Kirill_A_Meretskov
 		portraits={
@@ -3746,31 +3696,6 @@ characters = {
 			traits={
 				
 				CoNavy_Base_Control_Doctrine
-			}
-		}
-	}
-	SOV_Mikhail_V_Viktorov = {
-		name=SOV_Mikhail_V_Viktorov
-		portraits={
-			army={
-				small="GFX_idea_Mikhail_V_Viktorov"
-			}
-		}
-		advisor={
-			slot=Chief_of_Navy
-			idea_token=SOV_Mikhail_V_Viktorov_CoNavy
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1938.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Mikhail_V_Viktorov_unavailable }
-			}
-			traits={
-				
-				CoNavy_Power_Projection_Doctrine
 			}
 		}
 	}
