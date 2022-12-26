@@ -4564,6 +4564,7 @@ country_event = {
 	option = { #Sack the idiot
 		name = ENG_London_Economic_Conference_Events.18.A
 		GER = {
+			set_country_flag = Alfred_Hugenberg_unavailable
 			add_ideas = {
 				GER_Kurt_Schmitt_AM
 			}

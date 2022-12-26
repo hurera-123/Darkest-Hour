@@ -70,3 +70,10 @@
  GER_SOV_War.15.d: "\"Sir, the Japanese have refused to sign a treaty of non-aggression.\"\n\n[SOV.GetLeader]'s hand tightened. Under the strain, the pencil he was holding cracked. As he gazed at the map of [SOV.GetNameDef] before him, one thought dominated his mind: "What now?"\n\nBut he knew the answer was straightforward. In the event of war, he'd have to maintain a defensive posture in both the Asian and European theatres. To repel invasion from both directions, he'd have to divide his resources east and west. He'd have to keep looking over his shoulder as he prepared to fight on one side to make sure the other didn't pounce on him.\n\n"I should've known this was going to happen," [SOV.GetLeader] thought to himself. The Japanese government had made no secret of their dislike for [SOV.GetNameDef]. The Japanese had many issues with the Soviets, ranging from recent border clashes in Manchuria to ownership of the Sakhalin Islands. Not to mention that the Russians' disastrous defeat at the hands of the Japanese some 30 years before had not been forgotten by the Russian people.\n\nHe'd assumed there were bigger fish to fry. He assumed Japan was more concerned with China. More interested in Southeast Asia's resource-rich regions. After all, the value of the Siberian tundra pales in comparison to the East Indies' rich oil deposits.\n\nHowever, it was now clear that he was completely incorrect. The Japanese tiger in Manchuria was tightening its claws, preparing to pounce on Siberia and Mongolia. He could see his country's armed forces and resources being depleted by the enormous demand of war on two fronts. He could now see his country being shattered by the Germans and the Japanese...."
  GER_SOV_War.15.A: "We must ensure that they will have nothing but dust and blood."
 
+ GER_SOV_War.100.t: "Our Focus Shifts to the Defensive"
+ GER_SOV_War.100.d: ""
+ GER_SOV_War.100.A: ""
+
+ GER_SOV_War.101.t: "Our Focus Shifts to the Offensive"
+ GER_SOV_War.101.d: ""
+ GER_SOV_War.101.A: ""

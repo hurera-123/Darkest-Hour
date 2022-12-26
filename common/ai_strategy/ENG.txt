@@ -1256,8 +1256,10 @@ protect_poland_against_germany = {
 }
 
 defend_poland_against_germany = {
-	enable = {
+	allowed = {
 		tag = ENG
+	}
+	enable = {
 		GER = {
 			has_war_with = POL
 		}
@@ -1926,8 +1928,10 @@ ENG_onto_the_beaches_4 = {
 #### OTHER ####
 # Finland doesn't join the allies if at war with the Soviets
 Do_not_invite_Finland = {
-	enable = {
+	allowed = {
 		original_tag = ENG
+	}
+	enable = {
 		ENG = {
 			has_government = democratic
 			NOT = {
@@ -2355,8 +2359,10 @@ ENG_unit_production = {
 }
 
 royal_air_force = {
-	enable = {
+	allowed = {
 		tag = ENG
+	}
+	enable = {
 		date > 1937.12.31
 	}
 	abort = {

@@ -213,3 +213,74 @@ Graveyard_of_the_Superpowers = {
 		}
 	}
 }
+
+The_New_Order = {
+	
+	possible = {
+		difficulty > 1
+		original_tag = JAP
+	}
+	
+	happened = {
+		has_country_flag = Nuked_Hawaii
+	}
+}
+
+No_Country_For_Anyone = {
+	
+	possible = {
+		difficulty > 1
+		is_major = yes
+	}
+	
+	happened = {
+		has_idea = scraping_the_barrel
+		has_manpower = 0
+	}
+}
+
+No_I_Dont_Want_To_Go = {
+	
+	possible = {
+		difficulty > 1
+		NOT = { original_tag = BRA }
+	}
+	
+	happened = {
+		has_war_with = BRA
+		surrender_progress > 0.5
+		ROOT = {
+			any_core_state = {
+				is_controlled_by = BRA
+			}
+		}
+	}
+}
+
+Thousand_Week_Reich = {
+	
+	possible = {
+		difficulty > 1
+		original_tag = GER
+	}
+	
+	happened = {
+		has_country_leader = {
+			character = GER_Adolf_Hitler
+			ruling_only = yes
+		}
+		date > 1952.3.30
+	}
+}
+
+Blast_To_The_Past = {
+	
+	possible = {
+		difficulty > 1
+		original_tag = USA
+	}
+	
+	happened = {
+		has_country_flag = Nuked_Essen
+	}
+}

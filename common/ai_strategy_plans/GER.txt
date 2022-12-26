@@ -35,12 +35,12 @@ GER_historical = {
 		GER_Allgemeine_SS
 		GER_SS_VT
 		GER_Kirchenkampf
-		GER_Adopt_Positive_Christianity
+		GER_Reichskonkordat
 		GER_Reconstruct_the_Reich
 		GER_Issue_MEFO_Bills
 		GER_Privatizations_and_Austerity
 		GER_Volkswohlfahrt
-		GER_Build_up_the_Economic_Base
+		GER_Commence_Rearmament
 		# 1935
 		GER_Politicize_Autarky
 		GER_Renounce_the_Disarmament_Clauses
@@ -57,7 +57,7 @@ GER_historical = {
 		GER_Frontlinienflieger
 		GER_Coal_Liquefaction
 		GER_Anti_Komintern_Pact_focus
-		GER_Donitz_UBoot_Fleet
+		GER_Raeders_Surface_Raiders
 		# 1937
 		GER_Reichswerke_Hermann_Goering
 		GER_Westwall

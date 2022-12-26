@@ -459,6 +459,33 @@ Italian_Yugoslav_Greek_Relations = {
 		value = 500
 	}
 }
+ITA_Dont_Ally_Austria = {
+	allowed = {
+		original_tag = ITA
+	}
+	enable = {
+		has_government = fascist
+		AUS = {
+			exists = yes
+		}
+	}
+	abort = {
+		OR = {
+			has_global_flag = GER_Brother_War
+			has_completed_focus = ITA_The_Rome_Pact
+		}
+	}
+	ai_strategy = {
+		type = ignore
+		id = "AUS"
+		value = 500
+	}
+	ai_strategy = {
+		type = alliance
+		id = "AUS"
+		value = -1000
+	}
+}
 AUS_Brothers_War = {
 	allowed = {
 		original_tag = AUS

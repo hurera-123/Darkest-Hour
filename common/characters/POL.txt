@@ -10,7 +10,6 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Tadeusz_Bielecki_HoG
-			removal_cost = -1
 			allowed = {
 				tag = POL
 			}
@@ -43,7 +42,6 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Roman_Dmowski_HoG
-			removal_cost = -1
 			allowed = {
 				tag = POL
 			}
@@ -71,7 +69,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Waclaw_Kozielski_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -99,7 +97,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Janusz_Jedrzejewicz_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -127,7 +125,6 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Aleksander_Prystor_HoG
-			removal_cost = -1
 			allowed = {
 				tag = POL
 			}
@@ -155,7 +152,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Leon_Kozlowski_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -174,7 +171,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Leon_Kozlowski_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -203,7 +200,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Walery_Slawek_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -231,7 +228,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Henryk_Jozewski_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -260,7 +257,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Marian_ZyndramKoscialkowski_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -288,7 +285,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Felicjan_SlawojSkladkowski_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -307,7 +304,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Felicjan_SlawojSkladkowski_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -335,7 +332,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_August_Zaleski_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -366,7 +363,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Edward_RydzSmigly_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -386,7 +383,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Edward_RydzSmigly_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -405,7 +402,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=POL_Edward_RydzSmigly_CoStaff
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -424,7 +421,7 @@ characters={
 		advisor={
 			slot=Chief_of_Army
 			idea_token=POL_Edward_RydzSmigly_CoArmy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -461,7 +458,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Kardynal_AS_Sapieha_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -480,7 +477,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Kardynal_AS_Sapieha_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -605,7 +602,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Mikolaj_Dolanowski_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -624,7 +621,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Mikolaj_Dolanowski_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -655,7 +652,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Wladyslaw_Sikorski_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -674,7 +671,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=POL_Wladyslaw_Sikorski_CoStaff
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -693,7 +690,7 @@ characters={
 		advisor={
 			slot=Chief_of_Army
 			idea_token=POL_Wladyslaw_Sikorski_CoArmy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -721,7 +718,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Boguslaw_Miedzinski_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -749,7 +746,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Jan_Kwapinski_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -777,7 +774,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Kardynal_Stefan_Wyszynski_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -805,7 +802,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Antoni_Paczek_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -824,7 +821,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Antoni_Paczek_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -852,7 +849,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Stanislaw_Mikolajczyk_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -871,7 +868,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Stanislaw_Mikolajczyk_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -899,7 +896,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Wojciech_Korfanty_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -918,7 +915,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Wojciech_Korfanty_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -946,7 +943,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Eugeniusz_Kwiatkowski_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -965,7 +962,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Eugeniusz_Kwiatkowski_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -984,7 +981,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Eugeniusz_Kwiatkowski_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1012,7 +1009,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Tomasz_Arciszewski_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1040,7 +1037,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Stanislaw_Osiecki_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1068,7 +1065,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Stanislas_A_Neyman_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1087,7 +1084,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Stanislas_A_Neyman_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1115,7 +1112,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Mieczyslaw_Michalowicz_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1143,7 +1140,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Hugon_Hanke_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1171,7 +1168,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Jozef_Dziegielewski_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1199,7 +1196,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Boleslaw_Drobner_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1218,7 +1215,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Boleslaw_Drobner_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1247,7 +1244,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Edward_OsobkaMorawski_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1266,7 +1263,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Edward_OsobkaMorawski_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1294,7 +1291,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Marceli_Nowotko_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1322,7 +1319,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Jozef_Cyrenkiewicz_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1357,7 +1354,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Boleslaw_Bierut_HoG
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1389,7 +1386,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Jedrzej_Giertych_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1417,7 +1414,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Wojciech_Wasiutynski_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1445,7 +1442,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Wojciech_Wasiutynski_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1473,7 +1470,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Janusz_Radziwill_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1492,7 +1489,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Janusz_Radziwill_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1520,7 +1517,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Jozef_Beck_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1548,7 +1545,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Jan_hr_Szembek_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1576,7 +1573,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Leon_Janta_Polczynski_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1595,7 +1592,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Leon_Janta_Polczynski_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1623,7 +1620,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Edward_Raczynski_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1651,7 +1648,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Tadeusz_Romer_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1679,7 +1676,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Kazimierz_Baginski_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1707,7 +1704,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Henryk_Leon_Strasburger_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1726,7 +1723,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Henryk_Leon_Strasburger_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1754,7 +1751,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Adam_Tarnowski_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1773,7 +1770,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Adam_Tarnowski_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1801,7 +1798,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Wladyslaw_Kiernik_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1829,7 +1826,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Jan_Piekalkiewicz_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1857,7 +1854,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Aleksander_Zawisza_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1885,7 +1882,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Wincenty_Rzymowski_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1913,7 +1910,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Adam_Prochnik_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1941,7 +1938,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Jozef_Niski_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1969,7 +1966,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Norbert_Barlicki_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -1997,7 +1994,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Pawel_Finder_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2025,7 +2022,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=POL_Zygmunt_Modzelewski_FM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2056,7 +2053,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Mieczyslaw_Trajdos_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2084,7 +2081,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Czeslaw_Michalowski_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2112,7 +2109,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Bronislaw_Pieracki_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2140,7 +2137,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Wladyslaw_Raczkiewicz_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2168,7 +2165,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Kazimierz_Switalski_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2196,7 +2193,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Witold_Grabowski_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2224,7 +2221,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Waclaw_Mohl_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2252,7 +2249,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Zygmunt_Berezowski_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2280,7 +2277,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Adam_Rose_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2308,7 +2305,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Bronislaw_Kusnierz_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2336,7 +2333,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Roman_Odzierzynski_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2364,7 +2361,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Marjan_Rudzinski_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2392,7 +2389,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Antoni_Roman_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2420,7 +2417,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Karol_Popiel_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2448,7 +2445,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Wincenty_Witos_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2476,7 +2473,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Mieczyslaw_Niedzialkowski_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2504,7 +2501,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Pantaleon_Karpinski_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2532,7 +2529,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Jozef_Lokietek_Rebe_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2560,7 +2557,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Feliks_Wirski_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2588,7 +2585,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Stanislaw_Radkiewicz_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2616,7 +2613,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Aleksander_Zawadzki_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2644,7 +2641,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Franciszek_Jozwiak_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2672,7 +2669,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=POL_Jakub_Berman_MoS
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2703,7 +2700,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Jerzy_Zdziechowski_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2731,7 +2728,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Stanislaw_Glabinski_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2759,7 +2756,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=POL_Jan_Wroczynski_CoStaff
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2787,7 +2784,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Wladyslaw_M_Zawadzki_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2815,7 +2812,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Jan_Pilsudski_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2843,7 +2840,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Tadeusz_Kasprzycki_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2871,7 +2868,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Bp_Stanislaw_Adamski_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2899,7 +2896,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Karol_Niezabytowski_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2927,7 +2924,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Witold_Staniewicz_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2955,7 +2952,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Witold_Lesniewski_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -2983,7 +2980,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Czeslaw_Klarner_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3011,7 +3008,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Casimir_Ehrenberg_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3039,7 +3036,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Bronislaw_Regulski_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3067,7 +3064,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Ludwik_W_Rajchmann_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3095,7 +3092,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Adam_Koc_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3123,7 +3120,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Jozef_Haller_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3151,7 +3148,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Wladyslaw_Fokierski_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3179,7 +3176,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Stanislaw_Sopicki_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3207,7 +3204,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Jozef_Niecko_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3235,7 +3232,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Tadeusz_Lychowski_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3263,7 +3260,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Herman_Liebermann_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3282,7 +3279,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=POL_Herman_Liebermann_CoStaff
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3310,7 +3307,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Zygmunt_Berling_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3338,7 +3335,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Jan_Stefan_Haneman_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3366,7 +3363,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Michal_RolaZymierski_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3385,7 +3382,7 @@ characters={
 		advisor={
 			slot=Chief_of_Army
 			idea_token=POL_Michal_RolaZymierski_CoArmy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3404,7 +3401,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=POL_Michal_RolaZymierski_CoStaff
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3432,7 +3429,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Konstanty_Dabrowski_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3460,7 +3457,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=POL_Hilary_Minc_AM
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3491,7 +3488,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Janusz_Zoltowski_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3519,7 +3516,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Wojciech_Zaleski_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3547,7 +3544,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Kordian_Zamorski_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3575,7 +3572,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Mieczyslaw_Mackiewicz_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3603,7 +3600,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Tadeusz_Puszczynski_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3631,7 +3628,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Karol_Boldeskul_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3659,7 +3656,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_T_PelczynskiGrzegorz_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3687,7 +3684,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Jan_Kowalewski_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3706,7 +3703,7 @@ characters={
 		advisor={
 			slot=Chief_of_Army
 			idea_token=POL_Jan_Kowalewski_CoArmy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3734,7 +3731,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Jan_Zychon_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3762,7 +3759,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Ignacy_Matuszewski_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3790,7 +3787,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Stanislaw_Gano_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3818,7 +3815,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Zygmunt_Zaremba_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3846,7 +3843,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Feliks_Koneczny_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3874,7 +3871,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Wieslaw_Domaniewski_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3902,7 +3899,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Alfred_Leon_Konopka_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3930,7 +3927,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Mieczyslaw_Sokolowski_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3958,7 +3955,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Lukasz_Siemiatkowski_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -3986,7 +3983,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Tadeusz_Szturm_de_Sztrem_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4014,7 +4011,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Ozjasz_Szechter_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4042,7 +4039,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Stanislaw_Dubois_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4070,7 +4067,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Stefan_Antosiewicz_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4089,7 +4086,7 @@ characters={
 		advisor={
 			slot=Chief_of_Air
 			idea_token=POL_Stefan_Antosiewicz_CoAir
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4117,7 +4114,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=POL_Henryk_Swiatkowski_HoI
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4148,7 +4145,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=POL_Marian_JanuszajtisZegota_CoStaff
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4176,7 +4173,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=POL_Waclaw_Stachiewicz_CoStaff
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4207,7 +4204,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=POL_Janusz_Gasiorowski_CoStaff
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4243,7 +4240,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=POL_Michal_KaraszewiczTokarzewski_CoStaff
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4271,7 +4268,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=POL_Stefan_Rowecki_CoStaff
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4299,7 +4296,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=POL_Tadeusz_BorKomorowski_CoStaff
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4318,7 +4315,7 @@ characters={
 		advisor={
 			slot=Chief_of_Army
 			idea_token=POL_Tadeusz_BorKomorowski_CoArmy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4346,7 +4343,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=POL_Stanislaw_Kopanski_CoStaff
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4374,7 +4371,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=POL_Leopold_Okulicki_CoStaff
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4402,7 +4399,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=POL_Rajmund_Jaworski_CoStaff
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4436,7 +4433,7 @@ characters={
 		advisor={
 			slot=Chief_of_Army
 			idea_token=POL_Kazimierz_Sosnkowski_CoArmy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4475,7 +4472,7 @@ characters={
 		advisor={
 			slot=Chief_of_Army
 			idea_token=POL_Wladyslaw_Anders_CoArmy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4511,7 +4508,7 @@ characters={
 		advisor={
 			slot=Chief_of_Army
 			idea_token=POL_Wladyslaw_Grabsky_CoArmy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4539,7 +4536,7 @@ characters={
 		advisor={
 			slot=Chief_of_Army
 			idea_token=POL_Karol_Swierczewski_CoArmy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4570,7 +4567,7 @@ characters={
 		advisor={
 			slot=Chief_of_Navy
 			idea_token=POL_Jerzy_Swirski_CoNavy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4598,7 +4595,7 @@ characters={
 		advisor={
 			slot=Chief_of_Navy
 			idea_token=POL_Jozef_Unrug_CoNavy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4626,7 +4623,7 @@ characters={
 		advisor={
 			slot=Chief_of_Navy
 			idea_token=POL_Francois_Sokal_CoNavy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4654,7 +4651,7 @@ characters={
 		advisor={
 			slot=Chief_of_Navy
 			idea_token=POL_Leon_Chajn_CoNavy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4682,7 +4679,7 @@ characters={
 		advisor={
 			slot=Chief_of_Navy
 			idea_token=POL_Adam_Mohuczy_CoNavy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4710,7 +4707,7 @@ characters={
 		advisor={
 			slot=Chief_of_Navy
 			idea_token=POL_Wlodzimierz_Steyer_CoNavy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4738,7 +4735,7 @@ characters={
 		advisor={
 			slot=Chief_of_Navy
 			idea_token=POL_Adam_Rapacki_CoNavy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4766,7 +4763,7 @@ characters={
 		advisor={
 			slot=Chief_of_Navy
 			idea_token=POL_Iwan_Szylingowski_CoNavy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4794,7 +4791,7 @@ characters={
 		advisor={
 			slot=Chief_of_Navy
 			idea_token=POL_Nikolaj_Abramow_CoNavy
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4825,7 +4822,7 @@ characters={
 		advisor={
 			slot=Chief_of_Air
 			idea_token=POL_Alfred_Chlapowski_CoAir
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4853,7 +4850,7 @@ characters={
 		advisor={
 			slot=Chief_of_Air
 			idea_token=POL_Sergiusz_Abzoltowski_CoAir
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4881,7 +4878,7 @@ characters={
 		advisor={
 			slot=Chief_of_Air
 			idea_token=POL_Jozef_Zajac_CoAir
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4909,7 +4906,7 @@ characters={
 		advisor={
 			slot=Chief_of_Air
 			idea_token=POL_Ludomil_Rayski_CoAir
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4937,7 +4934,7 @@ characters={
 		advisor={
 			slot=Chief_of_Air
 			idea_token=POL_Stanislaw_Pawluc_CoAir
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4965,7 +4962,7 @@ characters={
 		advisor={
 			slot=Chief_of_Air
 			idea_token=POL_Wladyslaw_Kalkus_CoAir
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -4993,7 +4990,7 @@ characters={
 		advisor={
 			slot=Chief_of_Air
 			idea_token=POL_Ludwik_Grosfeld_CoAir
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}
@@ -5021,7 +5018,7 @@ characters={
 		advisor={
 			slot=Chief_of_Air
 			idea_token=POL_Czeslaw_Bieszczad_CoAir
-			removal_cost = -1
+			
 			allowed = {
 				tag = POL
 			}

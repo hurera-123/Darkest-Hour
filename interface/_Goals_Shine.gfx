@@ -29349,6 +29349,70 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_SOV_Expand_Air_Testing_shine"
+        texturefile = "gfx/interface/goals/SOV_Expand_Air_Testing.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/SOV_Expand_Air_Testing.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/SOV_Expand_Air_Testing.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
+        name = "GFX_SOV_Expand_The_Aviation_Industry_shine"
+        texturefile = "gfx/interface/goals/SOV_Expand_The_Aviation_Industry.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/SOV_Expand_The_Aviation_Industry.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/SOV_Expand_The_Aviation_Industry.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
         name = "GFX_SOV_Expand_the_Cult_of_Personality_shine"
         texturefile = "gfx/interface/goals/SOV_Expand_the_Cult_of_Personality.png"
         effectFile = "gfx/FX/buttonstate.lua"
@@ -31109,6 +31173,38 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_SOV_Positive_Heroism_In_Aviation_shine"
+        texturefile = "gfx/interface/goals/SOV_Positive_Heroism_In_Aviation.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/SOV_Positive_Heroism_In_Aviation.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/SOV_Positive_Heroism_In_Aviation.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
         name = "GFX_SOV_Premier_Bukharin_shine"
         texturefile = "gfx/interface/goals/SOV_Premier_Bukharin.png"
         effectFile = "gfx/FX/buttonstate.lua"
@@ -32759,6 +32855,38 @@ spriteTypes = {
 
         animation = {
             animationmaskfile = "gfx/interface/goals/SOV_Tankograd.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
+        name = "GFX_SOV_The_Aerial_Army_shine"
+        texturefile = "gfx/interface/goals/SOV_The_Aerial_Army.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/SOV_The_Aerial_Army.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/SOV_The_Aerial_Army.png"            
             animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
             animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
             animationlooping = no            # yes or no ;)
@@ -38757,6 +38885,38 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_USA_Return_To_Democratic_Establishment_shine"
+        texturefile = "gfx/interface/goals/USA_Return_To_Democratic_Establishment.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/USA_Return_To_Democratic_Establishment.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/USA_Return_To_Democratic_Establishment.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
         name = "GFX_USA_Second_New_Deal_shine"
         texturefile = "gfx/interface/goals/USA_Second_New_Deal.png"
         effectFile = "gfx/FX/buttonstate.lua"
@@ -39095,6 +39255,38 @@ spriteTypes = {
 
         animation = {
             animationmaskfile = "gfx/interface/goals/USA_The_Rainbow_Plans.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+        legacy_lazy_load = no
+    }
+
+    spriteType = {
+        name = "GFX_USA_The_Republican_Grip_Strengthens_shine"
+        texturefile = "gfx/interface/goals/USA_The_Republican_Grip_Strengthens.png"
+        effectFile = "gfx/FX/buttonstate.lua"
+        animation = {
+            animationmaskfile = "gfx/interface/goals/USA_The_Republican_Grip_Strengthens.png"            
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
+            animationrotation = -90.0        # -90 clockwise 90 counterclockwise(by default)
+            animationlooping = no            # yes or no ;)
+            animationtime = 0.75                # in seconds
+            animationdelay = 0            # in seconds
+            animationblendmode = "add"       #add, multiply, overlay
+            animationtype = "scrolling"      #scrolling, rotating, pulsing
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 } 
+        }
+
+        animation = {
+            animationmaskfile = "gfx/interface/goals/USA_The_Republican_Grip_Strengthens.png"            
             animationtexturefile = "gfx/interface/goals/shine_overlay.dds"     # <- the animated file
             animationrotation = 90.0        # -90 clockwise 90 counterclockwise(by default)
             animationlooping = no            # yes or no ;)

@@ -212,6 +212,9 @@ recruit_character = USA_Robert_A_Taft
 recruit_character = USA_Raymond_E_Baldwin
 recruit_character = USA_Henry_Luce
 recruit_character = USA_Harold_Stassen
+recruit_character = USA_Franklin_D_Roosevelt
+recruit_character = USA_Alf_Landon
+recruit_character = USA_Wendell_Willkie
 
 #########################################################################
 # United States of America - 1933

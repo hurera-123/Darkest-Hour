@@ -455,9 +455,6 @@ SOV_Harvest_category = {
 	visible = {
 		original_tag = SOV
 		NOT = {
-			has_idea = SOV_Soviet_Famine_idea
-		}
-		NOT = {
 			has_country_flag = SOV_Selected_Export
 		}
 		OR = {

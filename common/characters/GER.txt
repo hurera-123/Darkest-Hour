@@ -362,6 +362,7 @@ characters={
 		name=GER_Martin_Bormann
 		portraits={
 			army={
+				large = "GFX_P_F_Martin_Bormann"
 				small="GFX_idea_Martin_Bormann"
 			}
 		}

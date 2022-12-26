@@ -552,12 +552,12 @@ leader_traits = {
 		justify_war_goal_time = -0.05
 	}
 	# Inheritor_of_lenin
-	SOV_Inheritor_of_lenin = {
+	L_Inheritor_of_Lenin = {
 		political_power_factor = 0.1
 		justify_war_goal_time = -0.25
 	}
 	# servant_of_lenin
-	SOV_servant_of_lenin = {
+	L_Servant_of_Lenin = {
 		guarantee_cost = -0.5
 		drift_defence_factor = 0.15
 	}

@@ -221,7 +221,7 @@ GENERIC_Check_if_Coastal: "Is not a Landlocked Nation"
  GEN_Improving_the_Rural_Industry: "Improving the Rural Industry"
  GEN_Improving_the_Rural_Industry_desc: ""
 
- GEN_Improve_Agricutlural_Methods: "Improve Agricutlural Methods"
+ GEN_Improve_Agricutlural_Methods: "Improve Agricultural Methods"
  GEN_Improve_Agricutlural_Methods_desc: ""
 
  GEN_Land_Reform_economic: "Land Reform economic"
@@ -248,7 +248,7 @@ GENERIC_Check_if_Coastal: "Is not a Landlocked Nation"
  GEN_Start_Rural_Electrification: "Start Rural Electrification"
  GEN_Start_Rural_Electrification_desc: ""
 
- GEN_Open_University_in_the_Capital: "Open University in the Capital"
+ GEN_Open_University_in_the_Capital: "Open a University in the Capital"
  GEN_Open_University_in_the_Capital_desc: ""
 
  GEN_Invest_in_Airports: "Invest in Airports"
@@ -269,7 +269,7 @@ GENERIC_Check_if_Coastal: "Is not a Landlocked Nation"
  GEN_Promote_Trade: "Promote Trade"
  GEN_Promote_Trade_desc: ""
 
- GEN_Development_on_our_own: "Development on our own"
+ GEN_Development_on_our_own: "Development on our Own"
  GEN_Development_on_our_own_desc: ""
 
  GEN_Reactive_Old_Armories: "Reactive Old Armories"

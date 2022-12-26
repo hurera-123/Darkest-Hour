@@ -32,9 +32,9 @@ on_actions = {
 			random_country = {
 				clear_array = global.dh_features_tab_list_array
 				add_to_array = { global.dh_features_tab_list_array = 1.1 }
-				add_to_array = { global.dh_features_tab_list_array = 0 }
 				add_to_array = { global.dh_features_tab_list_array = 2.1 }
 				add_to_array = { global.dh_features_tab_list_array = 2.2 }
+				add_to_array = { global.dh_features_tab_list_array = 2.3 }
 				add_to_array = { global.dh_features_tab_list_array = 3.1 }
 				add_to_array = { global.dh_features_tab_list_array = 3.2 }
 				add_to_array = { global.dh_features_tab_list_array = 3.3 }

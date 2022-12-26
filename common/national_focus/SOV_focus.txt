@@ -16,7 +16,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Overcome_Dizziness_from_Success
 		icon = GFX_SOV_Reduce_Power_of_the_Politburo
-		cost = 30
+		cost = 40
 		mutually_exclusive = {
 			focus = SOV_Continue_Hard_Line
 		}
@@ -33,7 +33,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Continue_Hard_Line
 		icon = GFX_SOV_Reaffirm_Role_of_the_Politburo
-		cost = 60
+		cost = 40
 		mutually_exclusive = {
 			focus = SOV_Overcome_Dizziness_from_Success
 		}
@@ -53,7 +53,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Maintain_the_Litvinov_Protocol
 		icon = GFX_SOV_Maintain_Litvinov
-		cost = 30
+		cost = 35
 		mutually_exclusive = {
 			focus = SOV_Replace_Litvinov
 		}
@@ -74,7 +74,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Replace_Litvinov
 		icon = GFX_SOV_Replace_Litvinov
-		cost = 30
+		cost = 35
 		mutually_exclusive = {
 			focus = SOV_Maintain_the_Litvinov_Protocol
 		}
@@ -103,8 +103,8 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_Positive_Heroism_in_Aviation
-		icon = GFX_SOV_Red_Airforce
-		cost = 60
+		icon = GFX_SOV_Positive_Heroism_In_Aviation
+		cost = 35
 		x = 56
 		y = 0
 		offset = {
@@ -126,8 +126,8 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_Expand_the_Aviation_Industry
-		icon = GFX_focus_generic_aircraft_production
-		cost = 60
+		icon = GFX_SOV_Expand_The_Aviation_Industry
+		cost = 35
 		prerequisite = {
 			focus = SOV_Positive_Heroism_in_Aviation
 		}
@@ -160,8 +160,8 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_Expand_Air_Testing
-		icon = GFX_focus_SOV_flying_clubs
-		cost = 60
+		icon = GFX_SOV_Expand_Air_Testing
+		cost = 35
 		prerequisite = {
 			focus = SOV_Positive_Heroism_in_Aviation
 		}
@@ -183,7 +183,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Foster_Interest_in_Flight
 		icon = GFX_SOV_Foster_Interest_in_Flight
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Expand_the_Aviation_Industry
 		}
@@ -203,7 +203,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Transpolar_Flight
 		icon = GFX_SOV_Transpolar_Flight
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Foster_Interest_in_Flight
 		}
@@ -230,8 +230,8 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_The_Aerial_Army
-		icon = GFX_SOV_Red_Airforce
-		cost = 60
+		icon = GFX_SOV_The_Aerial_Army
+		cost = 35
 		prerequisite = {
 			focus = SOV_Transpolar_Flight
 		}
@@ -245,7 +245,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Develop_Aeroflot
 		icon = GFX_SOV_Aeroflot
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_The_Aerial_Army
 		}
@@ -268,7 +268,7 @@ focus_tree = {
 	focus = {
 		id = SOV_VDV
 		icon = GFX_SOV_VDV
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_The_Aerial_Army
 		}
@@ -289,7 +289,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Red_Army_Airforce
 		icon = GFX_SOV_The_Red_Army_Airforce
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_VDV
 		}
@@ -310,7 +310,7 @@ focus_tree = {
 	focus = {
 		id = SOV_OKB
 		icon = GFX_SOV_OKBs
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Transpolar_Flight
 		}
@@ -326,7 +326,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Modernization_of_the_Air_Program
 		icon = GFX_GENERIC_Air_Force
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_OKB
 		}
@@ -346,7 +346,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Jet_Program
 		icon = GFX_SOV_Jet_Program
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Modernization_of_the_Air_Program
 		}
@@ -368,7 +368,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Frontline_Aviation
 		icon = GFX_SOV_Sturmovik
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Modernization_of_the_Air_Program
 		}
@@ -389,7 +389,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Long_Range_Aviation
 		icon = GFX_SOV_Tu4
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Modernization_of_the_Air_Program
 		}
@@ -407,7 +407,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Closed_Cities
 		icon = GFX_goal_continuous_research
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_OKB
 		}
@@ -427,7 +427,7 @@ focus_tree = {
 	focus = {
 		id = SOV_A_Bomb
 		icon = GFX_SOV_Kurchatovs_Bomb
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Closed_Cities
 		}
@@ -446,7 +446,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Red_Rockets
 		icon = GFX_SOV_Red_Rockets
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Closed_Cities
 		}
@@ -465,7 +465,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Women_in_Aviation
 		icon = GFX_SOV_Women_In_Aviation
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Transpolar_Flight
 		}
@@ -511,7 +511,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Red_Fleet
 		icon = GFX_SOV_Red_Fleet
-		cost = 60
+		cost = 35
 		x = 67
 		y = 0
 		offset = {
@@ -527,27 +527,40 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			country_event = SOV_Repurpose_Naval_Guns.1
+			navy_experience = 25
 		}
 	}
 	focus = {
 		id = SOV_Evaluate_the_Baltic_Fleet
-		icon = GFX_SOV_Red_Fleet
-		cost = 60
+		icon = GFX_focus_SOV_reinforce_western_naval_bases
+		cost = 35
 		relative_position_id = SOV_Red_Fleet
 		x = -4
 		y = 1
 		prerequisite = {
 			focus = SOV_Red_Fleet
 		}
+		available = {
+			NOT = {
+				has_country_flag = SOV_Evaluating_Fleet
+			}
+		}
 		completion_reward = {
-			
+			set_country_flag = SOV_Evaluating_Fleet
+			195 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
-		id = SOV_1
-		icon = GFX_SOV_Red_Fleet
-		cost = 60
+		id = SOV_Gnevnyi_Class_Destroyers
+		icon = GFX_GENERIC_Destroyer
+		cost = 35
 		relative_position_id = SOV_Evaluate_the_Baltic_Fleet
 		x = -1
 		y = 2
@@ -555,41 +568,76 @@ focus_tree = {
 			focus = SOV_Evaluate_the_Baltic_Fleet
 		}
 		completion_reward = {
-			
+			navy_experience = 15
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = dd_tech
+			}
 		}
 	}
 	focus = {
-		id = SOV_2
-		icon = GFX_GENERIC_Attack_Sub
-		cost = 60
+		id = SOV_Upgrade_Leningrads_Defenses
+		icon = GFX_GENERIC_Anti_Air_Units
+		cost = 35
 		relative_position_id = SOV_Evaluate_the_Baltic_Fleet
 		x = 1
 		y = 2
 		prerequisite = {
 			focus = SOV_Evaluate_the_Baltic_Fleet
 		}
+		available = {
+			has_tech = radar_2
+		}
 		completion_reward = {
-			
+			195 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
-		id = SOV_3
-		icon = GFX_GENERIC_Anti_Air_Units
-		cost = 60
+		id = SOV_A_Second_Home
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 35
 		relative_position_id = SOV_Evaluate_the_Baltic_Fleet
 		x = -2
 		y = 1
 		prerequisite = {
 			focus = SOV_Evaluate_the_Baltic_Fleet
 		}
+		available = {
+			owns_state = 12
+		}
 		completion_reward = {
-			
+			12 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					instant_build = yes
+					province = 9340
+				}
+			}
 		}
 	}
 	focus = {
-		id = SOV_4
-		icon = GFX_SOV_Red_Fleet
-		cost = 60
+		id = SOV_Our_Northern_Brothers
+		icon = GFX_focus_SOV_reinforce_northern_naval_bases
+		cost = 35
 		relative_position_id = SOV_Evaluate_the_Baltic_Fleet
 		x = 0
 		y = 1
@@ -597,13 +645,26 @@ focus_tree = {
 			focus = SOV_Evaluate_the_Baltic_Fleet
 		}
 		completion_reward = {
-			
+			navy_experience = 15
+			213 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					instant_build = yes
+					province = 3134
+				}
+			}
 		}
 	}
 	focus = {
-		id = SOV_5
-		icon = GFX_SOV_Red_Marines
-		cost = 60
+		id = SOV_Morskaya_Aviatsiya
+		icon = GFX_goal_generic_air_naval_bomber
+		cost = 35
 		relative_position_id = SOV_Evaluate_the_Baltic_Fleet
 		x = 2
 		y = 1
@@ -611,45 +672,73 @@ focus_tree = {
 			focus = SOV_Evaluate_the_Baltic_Fleet
 		}
 		completion_reward = {
-			
+			navy_experience = 15
+			air_experience = 15
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = naval_air
+			}
 		}
 	}
 	focus = {
 		id = SOV_The_Baltic_Fleet_is_Ready
-		icon = GFX_SOV_Red_Fleet
-		cost = 60
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 35
 		relative_position_id = SOV_Evaluate_the_Baltic_Fleet
 		x = 0
 		y = 3
 		prerequisite = {
-			focus = SOV_1
-			focus = SOV_2
-			focus = SOV_3
-			focus = SOV_4
-			focus = SOV_5
+			focus = SOV_Gnevnyi_Class_Destroyers
+			focus = SOV_Upgrade_Leningrads_Defenses
+			focus = SOV_A_Second_Home
+			focus = SOV_Our_Northern_Brothers
+			focus = SOV_Morskaya_Aviatsiya
 		}
 		completion_reward = {
-			
+			clr_country_flag = SOV_Evaluating_Fleet
+			navy_experience = 30
+			195 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
 		id = SOV_Evaluate_the_Black_Fleet
-		icon = GFX_SOV_Red_Fleet
-		cost = 60
+		icon = GFX_focus_SOV_reinforce_southern_naval_bases
+		cost = 35
 		relative_position_id = SOV_Red_Fleet
 		x = 0
 		y = 1
 		prerequisite = {
 			focus = SOV_Red_Fleet
 		}
+		available = {
+			NOT = {
+				has_country_flag = SOV_Evaluating_Fleet
+			}
+		}
 		completion_reward = {
-			
+			set_country_flag = SOV_Evaluating_Fleet
+			137 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
 		id = SOV_Reinforce_Sevastopol_Naval_Bases
-		icon = GFX_SOV_Red_Fleet
-		cost = 60
+		icon = GFX_focus_generic_coastal_fort
+		cost = 35
 		relative_position_id = SOV_Evaluate_the_Black_Fleet
 		x = -1
 		y = 2
@@ -657,27 +746,55 @@ focus_tree = {
 			focus = SOV_Evaluate_the_Black_Fleet
 		}
 		completion_reward = {
-			
+			137 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 3686
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					instant_build = yes
+					province = 3686
+				}
+			}
 		}
 	}
 	focus = {
 		id = SOV_Radar
-		icon = GFX_SOV_Red_Fleet
-		cost = 60
+		icon = GFX_goal_generic_radar
+		cost = 35
 		relative_position_id = SOV_Evaluate_the_Black_Fleet
 		x = 0
 		y = 1
 		prerequisite = {
 			focus = SOV_Evaluate_the_Black_Fleet
 		}
+		available = {
+			has_tech = radar_2
+		}
 		completion_reward = {
-			
+			137 = {
+				add_building_construction = {
+					type = radar_station
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
 		id = SOV_Reevaluate_Submarine_Doctrine
-		icon = GFX_SOV_Red_Fleet
-		cost = 60
+		icon = GFX_GENERIC_Submarine
+		cost = 35
 		relative_position_id = SOV_Evaluate_the_Black_Fleet
 		x = 1
 		y = 2
@@ -685,13 +802,23 @@ focus_tree = {
 			focus = SOV_Evaluate_the_Black_Fleet
 		}
 		completion_reward = {
-			
+			navy_experience = 15
+			add_doctrine_cost_reduction = {
+				uses = 1
+				cost_reduction = 0.5
+				category = naval_doctrine
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = ss_tech
+			}
 		}
 	}
 	focus = {
 		id = SOV_The_Black_Sea_Fleet_is_Ready
-		icon = GFX_SOV_Red_Fleet
-		cost = 60
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 35
 		relative_position_id = SOV_Radar
 		x = 0
 		y = 2
@@ -701,27 +828,49 @@ focus_tree = {
 			focus = SOV_Reinforce_Sevastopol_Naval_Bases
 		}
 		completion_reward = {
-			
+			clr_country_flag = SOV_Evaluating_Fleet
+			navy_experience = 30
+			137 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
 		id = SOV_Evaluate_the_Pacific_Fleet
-		icon = GFX_SOV_Red_Fleet
-		cost = 60
+		icon = GFX_focus_SOV_reinforce_eastern_naval_bases
+		cost = 35
 		relative_position_id = SOV_Red_Fleet
 		x = 4
 		y = 1
 		prerequisite = {
 			focus = SOV_Red_Fleet
 		}
+		available = {
+			NOT = {
+				has_country_flag = SOV_Evaluating_Fleet
+			}
+		}
 		completion_reward = {
-			
+			set_country_flag = SOV_Evaluating_Fleet
+			408 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
 		id = SOV_Oryol_Class_Carriers
-		icon = GFX_SOV_Red_Fleet
-		cost = 60
+		icon = GFX_GENERIC_Carrier
+		cost = 35
 		relative_position_id = SOV_Evaluate_the_Pacific_Fleet
 		x = -1
 		y = 2
@@ -729,13 +878,22 @@ focus_tree = {
 			focus = SOV_Evaluate_the_Pacific_Fleet
 		}
 		completion_reward = {
-			
+			add_doctrine_cost_reduction = {
+				uses = 1
+				cost_reduction = 0.5
+				category = naval_doctrine
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = cv_tech
+			}
 		}
 	}
 	focus = {
 		id = SOV_Long_Range_Raiders
 		icon = GFX_GENERIC_Attack_Sub
-		cost = 60
+		cost = 35
 		relative_position_id = SOV_Evaluate_the_Pacific_Fleet
 		x = 1
 		y = 2
@@ -743,13 +901,18 @@ focus_tree = {
 			focus = SOV_Evaluate_the_Pacific_Fleet
 		}
 		completion_reward = {
-			
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				ahead_reduction = 0.5
+				category = ss_tech
+			}
 		}
 	}
 	focus = {
 		id = SOV_Upgrade_Vladivostok_Facilities
-		icon = GFX_GENERIC_Anti_Air_Units
-		cost = 60
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 35
 		relative_position_id = SOV_Evaluate_the_Pacific_Fleet
 		x = -2
 		y = 1
@@ -757,13 +920,26 @@ focus_tree = {
 			focus = SOV_Evaluate_the_Pacific_Fleet
 		}
 		completion_reward = {
-			
+			408 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 957
+				}
+			}
 		}
 	}
 	focus = {
 		id = SOV_Evaluate_Landing_Craft
-		icon = GFX_SOV_Red_Fleet
-		cost = 60
+		icon = GFX_ENG_Assault_Landing_Crafts
+		cost = 35
 		relative_position_id = SOV_Evaluate_the_Pacific_Fleet
 		x = 0
 		y = 1
@@ -771,13 +947,18 @@ focus_tree = {
 			focus = SOV_Evaluate_the_Pacific_Fleet
 		}
 		completion_reward = {
-			
+			navy_experience = 20
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = tp_tech
+			}
 		}
 	}
 	focus = {
 		id = SOV_Gvardiya_Morskoy_Pekhoty
 		icon = GFX_SOV_Red_Marines
-		cost = 60
+		cost = 35
 		relative_position_id = SOV_Evaluate_the_Pacific_Fleet
 		x = 2
 		y = 1
@@ -785,13 +966,19 @@ focus_tree = {
 			focus = SOV_Evaluate_the_Pacific_Fleet
 		}
 		completion_reward = {
-			
+			army_experience = 15
+			navy_experience = 15
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = marine_tech
+			}
 		}
 	}
 	focus = {
 		id = SOV_The_Far_Eastern_Fleet_is_Ready
-		icon = GFX_SOV_Red_Fleet
-		cost = 60
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 35
 		relative_position_id = SOV_Evaluate_the_Pacific_Fleet
 		x = 0
 		y = 3
@@ -803,13 +990,22 @@ focus_tree = {
 			focus = SOV_Evaluate_Landing_Craft
 		}
 		completion_reward = {
-			
+			clr_country_flag = SOV_Evaluating_Fleet
+			navy_experience = 30
+			408 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
 		id = SOV_The_Second_Five_Year_Plan
 		icon = GFX_SOV_Five_Year_Plan
-		cost = 40
+		cost = 35
 		x = 32
 		y = 0
 		allow_branch = {
@@ -829,7 +1025,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Third_Five_Year_Plan
 		icon = GFX_SOV_Portray_A_Global_Soviet_Image
-		cost = 40
+		cost = 35
 		x = 32
 		y = 4
 		offset = {
@@ -873,7 +1069,7 @@ focus_tree = {
 	focus = {
 		id = SOV_BT_Cavalry_Tanks
 		icon = GFX_SOV_BT_Cavalry_Tanks
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Red_Army
 		}
@@ -895,7 +1091,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Multi_Turreted_Tanks
 		icon = GFX_SOV_Multi_Turreted_Tanks
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Red_Army
 		}
@@ -918,7 +1114,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Propagate_an_Industrial_Ethos
 		icon = GFX_focus_eng_crush_the_dream
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_The_Second_Five_Year_Plan
 		}
@@ -933,7 +1129,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Experiment_with_Material_Incentives_for_Labor
 		icon = GFX_SOV_Soldidifying_our_Gains
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Propagate_an_Industrial_Ethos
 		}
@@ -955,7 +1151,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Soften_AntiPeasent_Legislation
 		icon = GFX_SOV_Soften_AP_Leagues
-		cost = 35
+		cost = 40
 		prerequisite = {
 			focus = SOV_Overcome_Dizziness_from_Success
 		}
@@ -963,16 +1159,14 @@ focus_tree = {
 		x = -1
 		y = 1
 		completion_reward = {
-			add_political_power = -50
-			add_stability = 0.05
-			#country_event = SOV_amendments_to_the_law_on_three_spiketeta_chain
+			country_event = { id = SOV_Soften_Legislation.1 days = 1 }
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 	}
 	focus = {
 		id = SOV_Prepare_Return_of_Citizens_Rights_for_Kulaks
 		icon = GFX_SOV_Kulak_Rights
-		cost = 35
+		cost = 40
 		prerequisite = {
 			focus = SOV_Overcome_Dizziness_from_Success
 		}
@@ -980,16 +1174,14 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = {
-			add_political_power = -50
-			add_stability = 0.05
-			#country_event = SOV_discussion_on_return_of_zitizens_rights_for_llehental_chain
+			country_event = { id = SOV_Soften_Legislation.2 days = 1 }
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 	}
 	focus = {
 		id = SOV_Gigantonmanic_Agrotowns
 		icon = GFX_SOV_Giga_Agrotowns
-		cost = 60
+		cost = 40
 		prerequisite = {
 			focus = SOV_Continue_Hard_Line
 		}
@@ -1030,7 +1222,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Toughen_AntiPeasent_Legislation
 		icon = GFX_SOV_Thoughten_AP_Leagues
-		cost = 60
+		cost = 40
 		prerequisite = {
 			focus = SOV_Continue_Hard_Line
 		}
@@ -1070,7 +1262,7 @@ focus_tree = {
 	focus = {
 		id = SOV_NKVD_Agency
 		icon = GFX_SOV_NKVD
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_XVII_Congress
 		}
@@ -1133,7 +1325,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Gulag_Based_Economic_Programs
 		icon = GFX_SOV_Gulag
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_Agranovs_Pragmatic_Approach
 			focus = SOV_Yagodas_Iron_Fist
@@ -1148,7 +1340,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Socialist_Justice
 		icon = GFX_SOV_Socialist_Justice
-		cost = 40
+		cost = 35
 		available = {
 			date > 1935.03.01
 		}
@@ -1170,7 +1362,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Stability_in_the_State_Change_in_the_Party
 		icon = GFX_SOV_Stability_in_the_State_Change_in_the_Party
-		cost = 40
+		cost = 35
 		bypass = {
 			has_country_leader = {
 	            character = SOV_Sergey_Kirov
@@ -1197,7 +1389,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Return_to_Lenins_Traditions
 		icon = GFX_SOV_Return_to_Lenins_Traditions
-		cost = 40
+		cost = 35
 		bypass = {
 			has_country_leader = {
 	            character = SOV_Nikolai_Bukharin
@@ -1215,10 +1407,11 @@ focus_tree = {
 		x = 5
 		y = 1
 		available = {
-			OR = {
-				has_idea = SOV_Yakov_Agranov_MoS
-				has_idea = SOV_Genrikh_G_Yagoda_MoS
-			}
+			always = no
+			#OR = {
+			#	has_idea = SOV_Yakov_Agranov_MoS
+			#	has_idea = SOV_Genrikh_G_Yagoda_MoS
+			#}
 		}
 		completion_reward = {
 			custom_effect_tooltip = DH_FOR_0.2
@@ -1227,7 +1420,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Crises_in_the_Kremlin
 		icon = GFX_SOV_Rule_by_Force
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_Return_to_Lenins_Traditions
 			focus = SOV_Stability_in_the_State_Change_in_the_Party
@@ -1244,7 +1437,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Stalin_Outmaneuvered
 		icon = GFX_SOV_Stalin_Outmaneuvered
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Crises_in_the_Kremlin
 		}
@@ -1258,7 +1451,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Navigating_the_Storm
 		icon = GFX_SOV_Navigating_the_Storm
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_XVII_Congress
 		}
@@ -1280,7 +1473,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Denounce_the_Zinovievites
 		icon = GFX_focus_CZE_german_puppet
-		cost = 25
+		cost = 35
 		prerequisite = {
 			focus = SOV_Navigating_the_Storm
 		}
@@ -1299,46 +1492,25 @@ focus_tree = {
 	focus = {
 		id = SOV_Supress_Socially_Alien_Elements
 		icon = GFX_SOV_Proletariat_Dictatorship
-		cost = 25
+		cost = 35
 		prerequisite = {
 			focus = SOV_Navigating_the_Storm
+		}
+		available = {
+			has_completed_focus = SOV_NKVD_Agency
 		}
 		relative_position_id = SOV_Navigating_the_Storm
 		x = 1
 		y = 1
 		completion_reward = {
-			#Repression of 12k people in response to murder
+			add_manpower = -12000
+			country_event = { id = SOV_Great_Purge.8 days = 1 }
 		}
 	}
-	# focus = {
-	# 	id = SOV_Order_The_Execution_of_The_Opposition_Leaders
-	# 	icon = GFX_SOV_Moscow_Trials
-	# 	cost = 60
-	# 	prerequisite = {
-	# 		focus = SOV_Denounce_the_Zinovievites
-	# 	}
-	# 	prerequisite = {
-	# 		focus = SOV_Supress_Socially_Alien_Elements
-	# 	}
-	# 	relative_position_id = SOV_Denounce_the_Zinovievites
-	# 	x = 1
-	# 	y = 1
-	# 	available = {
-	# 		has_political_power > 149
-	# 	}
-	# 	completion_reward = {
-	# 		add_political_power = -150
-	# 		remove_ideas = {
-	# 			SOV_MoS_Nikolai_Bukharin
-	# 			SOV_AM_Lev_Kamenev
-	# 			SOV_D_Sergey_Kirov
-	# 		}
-	# 	}
-	# }
 	focus = {
 		id = SOV_Consolidate_Power
 		icon = GFX_SOV_Stalin_Solidifed
-		cost = 45
+		cost = 35
 		prerequisite = {
 			focus = SOV_Denounce_the_Zinovievites
 		}
@@ -1355,7 +1527,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Contain_the_German_Threat
 		icon = GFX_ITA_Stressa_Front
-		cost = 30
+		cost = 35
 		prerequisite = {
 			focus = SOV_Maintain_the_Litvinov_Protocol
 		}
@@ -1373,7 +1545,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Collective_Security
 		icon = GFX_GER_Collective_Values
-		cost = 30
+		cost = 35
 		prerequisite = {
 			focus = SOV_Maintain_the_Litvinov_Protocol
 		}
@@ -1391,7 +1563,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Peoples_Front_Theory
 		icon = GFX_SOV_Peoples_Front_Theory
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_Contain_the_German_Threat
 		}
@@ -1408,49 +1580,46 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
-	focus = {
-		id = SOV_Reinforce_Third_Periodism
-		icon = GFX_SOV_Reinforce_the_Third_Periodist_Theory
-		cost = 30
-		prerequisite = {
-			focus = SOV_Replace_Litvinov
-		}
-		mutually_exclusive = {
-			focus = SOV_Ignore_the_Kellogg_Briand_Pact
-		}
-		x = 3
-		y = 1
-		relative_position_id = SOV_Maintain_the_Litvinov_Protocol
-		available = {
-			NOT = {
-				OR = {
-					has_country_leader = {
-						character = SOV_Joseph_Stalin
-						ruling_only = yes
-					}
-					has_country_leader = {
-						character = SOV_Sergey_Kirov
-						ruling_only = yes
-					}
-				}
-			}
-		}
-		completion_reward = {
-			set_country_flag = comintern_third_periodism
-		}
-		search_filters = { FOCUS_FILTER_RESISTANCE }
-	}
+	#focus = {
+	#	id = SOV_Reinforce_Third_Periodism
+	#	icon = GFX_SOV_Reinforce_the_Third_Periodist_Theory
+	#	cost = 35
+	#	prerequisite = {
+	#		focus = SOV_Replace_Litvinov
+	#	}
+	#	mutually_exclusive = {
+	#		focus = SOV_Ignore_the_Kellogg_Briand_Pact
+	#	}
+	#	x = 3
+	#	y = 1
+	#	relative_position_id = SOV_Maintain_the_Litvinov_Protocol
+	#	available = {
+	#		NOT = {
+	#			OR = {
+	#				has_country_leader = {
+	#					character = SOV_Joseph_Stalin
+	#					ruling_only = yes
+	#				}
+	#				has_country_leader = {
+	#					character = SOV_Sergey_Kirov
+	#					ruling_only = yes
+	#				}
+	#			}
+	#		}
+	#	}
+	#	completion_reward = {
+	#		set_country_flag = comintern_third_periodism
+	#	}
+	#	search_filters = { FOCUS_FILTER_RESISTANCE }
+	#}
 	focus = {
 		id = SOV_Ignore_the_Kellogg_Briand_Pact
 		icon = GFX_SOV_Ignore_the_Kellog_Briand_Pact
-		cost = 30
+		cost = 35
 		prerequisite = {
 			focus = SOV_Replace_Litvinov
 		}
-		mutually_exclusive = {
-			focus = SOV_Reinforce_Third_Periodism
-		}
-		x = 5
+		x = 4
 		y = 1
 		relative_position_id = SOV_Maintain_the_Litvinov_Protocol
 		available = {
@@ -1470,9 +1639,9 @@ focus_tree = {
 	focus = {
 		id = SOV_Direct_Rule_from_Moscow
 		icon = GFX_SOV_Direct_Rule_from_Moscow
-		cost = 40
+		cost = 35
 		prerequisite = {
-			focus = SOV_Reinforce_Third_Periodism
+			#focus = SOV_Reinforce_Third_Periodism
 			focus = SOV_Ignore_the_Kellogg_Briand_Pact
 		}
 		x = 4
@@ -1487,7 +1656,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Seventh_World_Congress_of_the_Comintern
 		icon = GFX_SOV_Portray_A_Global_Soviet_Image
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Peoples_Front_Theory
 			focus = SOV_Direct_Rule_from_Moscow
@@ -1507,7 +1676,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Molotov_Doctrine
 		icon = GFX_SOV_Molotov_Doctrine
-		cost = 30
+		cost = 35
 		prerequisite = {
 			focus = SOV_Seventh_World_Congress_of_the_Comintern
 		}
@@ -1521,7 +1690,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Peoples_Commissariat_of_Defense
 		icon = GFX_SOV_Peoples_Army
-		cost = 40
+		cost = 30
 		prerequisite = {
 			focus = SOV_BT_Cavalry_Tanks
 			focus = SOV_Multi_Turreted_Tanks
@@ -1552,14 +1721,13 @@ focus_tree = {
 				id = SOV_Red_Army.2
 				days = 1
 			}
-			#event to reform the red army
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
 	focus = {
 		id = SOV_Kiev_Maneuvers
 		icon = GFX_SOV_Kiev_Maneuvers
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_Reorganize_the_Red_Army
 		}
@@ -1593,7 +1761,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Question_of_The_Cossacks
 		icon = GFX_focus_SOV_restore_cossack_units
-		cost = 40
+		cost = 30
 		prerequisite = {
 			focus = SOV_Reorganize_the_Red_Army
 		}
@@ -1615,7 +1783,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Mass_Mechanization
 		icon = GFX_GENERIC_Mechanization
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_Reorganize_the_Red_Army
 		}
@@ -1704,7 +1872,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Tactical_Deep_Battle
 		icon = GFX_GENERIC_Grand_Battleplan
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Tukhachevskys_Reformists
 		}
@@ -1722,7 +1890,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Koshkins_Tank_Design
 		icon = GFX_GENERIC_Tank_Destroyers
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Tukhachevskys_Reformists
 		}
@@ -1744,7 +1912,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Reaktivnyy_Snaryad
 		icon = GFX_GENERIC_Rocket_Artillery
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Tukhachevskys_Reformists
 			focus = SOV_Voroshilovs_Old_Guard
@@ -1763,7 +1931,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Mass_Mobilization
 		icon = GFX_GENERIC_Mass_Assault
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Voroshilovs_Old_Guard
 		}
@@ -1780,7 +1948,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Defense_in_Depth
 		icon = GFX_goal_generic_fortify_city
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Voroshilovs_Old_Guard
 		}
@@ -1797,7 +1965,7 @@ focus_tree = {
 	focus = {
 		id = SOV_STAVKA
 		icon = GFX_focus_generic_military_mission
-		cost = 30
+		cost = 35
 		prerequisite = {
 			focus = SOV_Tactical_Deep_Battle
 			focus = SOV_Mass_Mobilization
@@ -1816,7 +1984,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Deep_Battle_Plan
 		icon = GFX_SOV_Mechanized_Wave
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_STAVKA
 		}
@@ -1840,7 +2008,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Human_Wave_Tactics
 		icon = GFX_SOV_Human_Wave
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_STAVKA
 		}
@@ -1863,7 +2031,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Red_Army_Reborn
 		icon = GFX_focus_SOV_builder_of_the_red_army
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_Deep_Battle_Plan
 			focus = SOV_Human_Wave_Tactics
@@ -1879,7 +2047,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Samokhodnaya_Ustanovka
 		icon = GFX_GENERIC_MBT
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_The_Red_Army_Reborn
 		}
@@ -1950,7 +2118,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Morozovs_Armored_Evolution
 		icon = GFX_SOV_T55
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Guard_Units
 		}
@@ -1971,7 +2139,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Concentrated_Artillery_Barrages
 		icon = GFX_USA_Make_Thunder_Louder
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Shock_Army
 		}
@@ -1991,7 +2159,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Abolish_System_of_Rationing
 		icon = GFX_GENERIC_Populist_Politics
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Introduce_Childcare
 		}
@@ -2013,7 +2181,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Stalin_Constitution
 		icon = GFX_SOV_Stalin_Constitution
-		cost = 40
+		cost = 30
 		prerequisite = {
 			focus = SOV_Consolidate_Power
 		}
@@ -2037,7 +2205,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Start_the_Great_Purge
 		icon = GFX_SOV_Great_Purge
-		cost = 56
+		cost = 60
 		prerequisite = {
 			focus = SOV_Consolidate_Power
 		}
@@ -2105,7 +2273,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Leningrad_Circle
 		icon = GFX_SOV_Leningrad_Circle
-		cost = 60
+		cost = 35
 		available = {
 			always = no
 		}
@@ -2127,7 +2295,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Moscow_Trials
 		icon = GFX_SOV_Moscow_Trials
-		cost = 60
+		cost = 35
 		available = {
 			date > 1936.05.01
 		}
@@ -2169,7 +2337,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Manchurian_Candidate
 		icon = GFX_SOV_Manchurian_Candidate
-		cost = 60
+		cost = 35
 		available = {
 			always = no
 		}
@@ -2190,7 +2358,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Total_Party_Censorship
 		icon = GFX_SOV_Total_Party_Censorship
-		cost = 40
+		cost = 30
 		prerequisite = {
 			focus = SOV_The_Stalin_Constitution
 		}
@@ -2205,7 +2373,7 @@ focus_tree = {
 	focus = {
 		id = SOV_1937_Constitutional_Elections
 		icon = GFX_SOV_Constitution
-		cost = 50
+		cost = 30
 		available = {
 			date > 1937.12.12
 		}
@@ -2225,7 +2393,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Bloody_Dwarf
 		icon = GFX_SOV_The_Bloody_Dwarf
-		cost = 60
+		cost = 35
 		available = {
 			date > 1936.09.01
 		}
@@ -2257,7 +2425,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Begin_Ethnic_Operations
 		icon = GFX_SOV_Begin_Ethnic_Operations
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Start_the_Great_Purge
 		}
@@ -2279,7 +2447,7 @@ focus_tree = {
 	focus = {
 		id = SOV_NKVD_Order_N_00447
 		icon = GFX_SOV_NKVD_Order_No_00447
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_Begin_Ethnic_Operations
 		}
@@ -2300,7 +2468,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Form_Mass_NKVD_Troikas
 		icon = GFX_SOV_Form_Mass_NKVD_Troikas
-		cost = 40
+		cost = 35
 		available = {
 			date > 1937.07.01
 		}
@@ -2323,7 +2491,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Further_Expand_Kulak_and_Ethnic_Operations
 		icon = GFX_SOV_Stalins_Shooting_List
-		cost = 50
+		cost = 35
 		available = {
 			date > 1937.08.01
 		}
@@ -2348,7 +2516,7 @@ focus_tree = {
 	focus = {
 		id = SOV_NKVD_Primacy
 		icon = GFX_SOV_NKVD
-		cost = 50
+		cost = 35
 		available = {
 			date > 1937.06.01
 		}
@@ -2371,7 +2539,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Purges_in_the_Red_Army
 		icon = GFX_SOV_Purges_in_the_Red_Army
-		cost = 60
+		cost = 35
 		available = {
 			date > 1937.02.01
 		}
@@ -2388,7 +2556,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Tying_Loose_Ends
 		icon = GFX_SOV_Red_Army
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_Purges_in_the_Red_Army
 		}
@@ -2397,19 +2565,12 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			unlock_decision_tooltip = SOV_Expel_Officers_Excluded_from_the_Party
-			retire_character = SOV_Alexander_Yegorov
-			retire_character = SOV_Yakov_Smushkevich
-			retire_character = SOV_Pavel_V_Rychagov
-			retire_character = SOV_Pyotr_Smirnov
-			retire_character = SOV_Aleksandr_Loktionov
-			retire_character = SOV_Mikhail_V_Viktorov
-			retire_character = SOV_Vladimir_M_Orlov
 		}
 	}
 	focus = {
 		id = SOV_NKVD_Internal_Troops
 		icon = GFX_GENERIC_Political_Army
-		cost = 40
+		cost = 35
 		available = {
 			date > 1938.10.01
 		}
@@ -2432,9 +2593,10 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Vanishment_of_the_The_Vanishing_Commissar
 		icon = GFX_SOV_Vanishment_of_the_Vanishing_Commisar
-		cost = 50
+		cost = 35
 		available = {
 			date > 1940.02.01
+			has_country_flag = SOV_Great_Purge_Phase_3
 		}
 		prerequisite = {
 			focus = SOV_Stalins_Protege
@@ -2451,17 +2613,13 @@ focus_tree = {
 		y = 1
 
 		completion_reward = {
-			custom_effect_tooltip = SOV_The_Vanishment_of_the_The_Vanishing_Commissar_tt
-			hidden_effect = {
-				retire_character = SOV_Nikolai_I_Yezhov
-				retire_character = SOV_Mikhail_Frinovsky
-			}
+			unlock_decision_tooltip = SOV_Purge_the_NKVD
 		}
 	}
 	focus = {
 		id = SOV_Emphasis_on_Heavy_Industry
 		icon = GFX_SOV_Sovkhoz_Farms
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_The_Second_Five_Year_Plan
 		}
@@ -2502,7 +2660,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Emphasis_on_Light_Industry
 		icon = GFX_SOV_Kolkhoz_Farms
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_The_Second_Five_Year_Plan
 		}
@@ -2532,7 +2690,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Stakhanovite_Movement
 		icon = GFX_SOV_Stakhanovite_Movement
-		cost = 50
+		cost = 35
 		available = {
 			has_completed_focus = SOV_Propagate_an_Industrial_Ethos
 		}
@@ -2554,7 +2712,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Pragmatic_Approach_to_Target_Figures
 		icon = GFX_SOV_Reverse_Korenizatsiya
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Emphasis_on_Heavy_Industry
 			focus = SOV_Emphasis_on_Light_Industry
@@ -2573,7 +2731,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Issue_Compulsory_Government_Loan
 		icon = GFX_SOV_Compulsory_Government_Loans
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Emphasis_on_Light_Industry
 		}
@@ -2605,7 +2763,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Second_Baku
 		icon = GFX_SOV_Second_Baku
-		cost = 50
+		cost = 35
 		mutually_exclusive = {
 			focus = SOV_Synthetic_Oil_Production
 		}
@@ -2627,7 +2785,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Liquidate_Khutors
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 30
+		cost = 35
 		prerequisite = {
 			focus = SOV_The_Second_Five_Year_Plan
 		}
@@ -2645,7 +2803,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Promote_Machine_Tractor_Stations
 		icon = GFX_focus_generic_the_giant_wakes
-		cost = 40
+		cost = 35
 		available = {
 			has_equipment = {
 				motorized_equipment > 2999
@@ -2676,7 +2834,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Establish_Central_Asian_Estates
 		icon = GFX_SOV_Russification_Policies
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_Liquidate_Khutors
 		}
@@ -2711,7 +2869,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Differentiate_the_Trudodni_System
 		icon = GFX_GENERIC_Army
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Promote_Machine_Tractor_Stations
 		}
@@ -2733,7 +2891,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Support_Zveno_and_Brigadir_Structrures
 		icon = GFX_SOV_Support_Zveno_and_Brigadir_Structrures
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Stakhanovite_Movement
 		}
@@ -2753,7 +2911,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Synthetic_Oil_Production
 		icon = GFX_goal_generic_oil_refinery
-		cost = 50
+		cost = 35
 		mutually_exclusive = {
 			focus = SOV_The_Second_Baku
 		}
@@ -2794,7 +2952,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Female_Tractor_Operators_Movement
 		icon = GFX_SOV_Female_Tractor_Operators
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_The_Third_Five_Year_Plan
 		}
@@ -2810,7 +2968,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Improved_Agricultural_Tractors
 		icon = GFX_SOV_Gigatomaniac_Agrotowns
-		cost = 30
+		cost = 35
 		prerequisite = {
 			focus = SOV_Female_Tractor_Operators_Movement
 		}
@@ -2831,7 +2989,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Invest_into_Sovkhozes
 		icon = GFX_SOV_Sovkhoz_Farms
-		cost = 30
+		cost = 35
 		available = {
 			has_equipment = {
 				motorized_equipment > 2999
@@ -2885,7 +3043,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Invest_in_VASKhNIL
 		icon = GFX_GENERIC_Expand_the_University
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Invest_into_Sovkhozes
 		}
@@ -2945,7 +3103,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Shadow_Factories
 		icon = GFX_GENERIC_Military_Production
-		cost = 45
+		cost = 35
 		prerequisite = {
 			focus = SOV_The_Third_Five_Year_Plan
 		}
@@ -2961,7 +3119,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Tankograd
 		icon = GFX_SOV_Tankograd
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Shadow_Factories
 		}
@@ -2991,7 +3149,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Fragmentation_of_Industrial_Peoples_Commissariats
 		icon = GFX_GENERIC_Abolish_the_Agrarian_Decrees
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_The_Third_Five_Year_Plan
 		}
@@ -3009,7 +3167,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Increase_Synthetic_Rubber_Production
 		icon = GFX_SOV_Increase_Synthetic_Rubber_Production
-		cost = 50
+		cost = 35
 		mutually_exclusive = {
 			focus = SOV_The_Third_Baku
 		}
@@ -3054,7 +3212,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Third_Baku
 		icon = GFX_SOV_Third_Baku
-		cost = 50
+		cost = 35
 		mutually_exclusive = {
 			focus = SOV_Increase_Synthetic_Rubber_Production
 		}
@@ -3088,7 +3246,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Ural_Aluminium_Factory
 		icon = GFX_GENERIC_Nationalize_Industry
-		cost = 45
+		cost = 35
 		prerequisite = {
 			focus = SOV_Increase_Synthetic_Rubber_Production
 			focus = SOV_The_Third_Baku
@@ -3116,7 +3274,7 @@ focus_tree = {
 	focus = {
 		id = SOV_First_Stage_of_Baikal_Amur_Mainline
 		icon = GFX_GENERIC_Road_Construction
-		cost = 45
+		cost = 35
 		prerequisite = {
 			focus = SOV_The_Third_Five_Year_Plan
 		}
@@ -3151,7 +3309,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Komsomolsk_on_Amur
 		icon = GFX_GENERIC_Marines
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_First_Stage_of_Baikal_Amur_Mainline
 		}
@@ -3178,7 +3336,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Tighten_Work_Discipline
 		icon = GFX_goal_demand_sudetenland
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_The_Third_Five_Year_Plan
 		}
@@ -3192,7 +3350,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Vocational_Training_Reform
 		icon = GFX_SOV_Vocational_Training_Refrom
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_Tighten_Work_Discipline
 		}
@@ -3213,7 +3371,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Introduce_8_hour_Working_Day
 		icon = GFX_GENERIC_New_Constitution
-		cost = 40
+		cost = 35
 		prerequisite = {
 			focus = SOV_Tighten_Work_Discipline
 		}
@@ -3232,7 +3390,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Criminal_Liability_for_Quality_of_Industrial_Production
 		icon = GFX_GENERIC_Forced_Labour
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Vocational_Training_Reform
 		}
@@ -3254,7 +3412,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Mechanized_Steel_Rolling
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Invest_in_VASKhNIL
 		}
@@ -3283,7 +3441,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Transformation_of_Nature
 		icon = GFX_PRC_Fortify_Jiangxi_Soviet
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Tankograd
 		}
@@ -3307,7 +3465,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Construct_Palace_of_the_Soviets
 		icon = GFX_SOV_Palace_of_the_Soviets
-		cost = 50
+		cost = 35
 		prerequisite = {
 			focus = SOV_Ural_Aluminium_Factory
 		}
@@ -3320,7 +3478,17 @@ focus_tree = {
 		x = 2
 		y = 4
 		relative_position_id = SOV_The_Third_Five_Year_Plan
+		available = {
+			has_war = no
+		}
 		completion_reward = {
+			set_temp_variable = {
+				money_to_gain = -200
+			}
+			add_money_with_inflation_included_with_tooltip_effect = yes
+			219 = {
+				add_extra_state_shared_building_slots = 2
+			}
 		}
 	}
 	focus = {
@@ -3341,7 +3509,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Intervene_in_Spain
 		icon = GFX_SOV_Intervene_in_Spain
-		cost = 40
+		cost = 35
 		available = {
 			SPR = {
 				has_war_with = SPA
@@ -3361,7 +3529,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Intervene_in_China
 		icon = GFX_SOV_Intervene_in_China
-		cost = 40
+		cost = 35
 		available = {
 			CHI = {
 				has_war_with = JAP
@@ -3380,7 +3548,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Introduce_Childcare
 		icon = GFX_GENERIC_Anti_Poverty_Campaign
-		cost = 60
+		cost = 35
 		prerequisite = {
 			focus = SOV_Propagate_an_Industrial_Ethos
 		}
@@ -3400,7 +3568,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Stalins_Protege
 		icon = GFX_SOV_Stalin_Protegee
-		cost = 50
+		cost = 35
 		available = {
 			date > 1937.11.01
 		}
@@ -3422,7 +3590,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Beria_Flight
 		icon = GFX_SOV_Beria_Flight
-		cost = 50
+		cost = 35
 		available = {
 			date > 1937.11.01
 		}
@@ -3447,7 +3615,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Arrest_Political_Enemies
 		icon = GFX_SOV_Mass_Arrest_Political_Enemies
-		cost = 40
+		cost = 30
 		prerequisite = {
 			focus = SOV_The_Stalin_Constitution
 		}
@@ -3475,7 +3643,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Socialism_Achieved
 		icon = GFX_SOV_Socialism_Achieved
-		cost = 60
+		cost = 30
 		prerequisite = {
 			focus = SOV_1937_Constitutional_Elections
 		}
@@ -3514,7 +3682,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Expand_Cult_of_Personality
 		icon = GFX_SOV_Expand_the_Cult_of_Personality
-		cost = 30
+		cost = 40
 		prerequisite = {
 			focus = SOV_XVIII_Congress
 		}
@@ -3530,7 +3698,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Expansion_of_the_Soviet_Sphere
 		icon = GFX_SOV_Expansion_of_the_Soviet_Sphere
-		cost = 30
+		cost = 40
 		prerequisite = {
 			focus = SOV_Expand_Cult_of_Personality
 		}
@@ -3554,7 +3722,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Promote_Young_Pioneers
 		icon = GFX_SOV_Promote_the_Young_Pioneers
-		cost = 30
+		cost = 40
 		prerequisite = {
 			focus = SOV_Expand_Cult_of_Personality
 		}
@@ -3583,7 +3751,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Preparing_for_War
 		icon = GFX_SOV_Preparing_for_War
-		cost = 50
+		cost = 40
 		available = {
 			NOT = {
 				country_exists = LIT
@@ -3611,7 +3779,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Revolution_Marches_West
 		icon = GFX_SOV_The_Revolution_Marches_West
-		cost = 35
+		cost = 60
 		ai_will_do = {
 			base = 1
 			modifier = {
@@ -3670,7 +3838,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Arise_Our_Mighty_Land
 		icon = GFX_SOV_Arise_Our_Mighty_Land
-		cost = 40
+		cost = 20
 		available = {
 			has_war_with = GER
 			NOT = {
@@ -3721,7 +3889,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Slaughterers_of_Men
 		icon = GFX_SOV_The_Slaughteres_of_Men
-		cost = 40
+		cost = 30
 		available = {
 			has_country_flag = SOV_focus_on_offensive
 		}
@@ -3741,7 +3909,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Fighting_on_Their_Ground
 		icon = GFX_SOV_Fighting_on_Their_Ground
-		cost = 40
+		cost = 30
 		available = {
 			has_country_flag = SOV_focus_on_offensive
 		}
@@ -3761,7 +3929,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Drive_Them_to_Their_Tombs
 		icon = GFX_SOV_Drive_them_to_their_Tombs
-		cost = 40
+		cost = 35
 		available = {
 			has_country_flag = SOV_focus_on_offensive
 		}
@@ -3781,7 +3949,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Shoot_Down_the_Black_Wings
 		icon = GFX_SOV_Shoot_Down_the_Black_Wings
-		cost = 40
+		cost = 35
 		available = {
 			has_country_flag = SOV_focus_on_offensive
 		}
@@ -3801,7 +3969,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Our_Noble_Anger
 		icon = GFX_SOV_Our_Noble_Anger
-		cost = 40
+		cost = 30
 		available = {
 			has_country_flag = SOV_focus_on_offensive
 		}
@@ -3820,7 +3988,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Arise_for_Sacred_War
 		icon = GFX_SOV_Arise_for_Sacred_War
-		cost = 50
+		cost = 30
 		available = {
 			has_country_flag = SOV_focus_on_offensive
 		}
@@ -3876,7 +4044,7 @@ focus_tree = {
 	focus = {
 		id = SOV_A_Meeting_In_Yalta
 		icon = GFX_SOV_A_Meeting_in_Yalta
-		cost = 50
+		cost = 20
 		available = {
 			USA = {
 				has_capitulated = no
@@ -3910,7 +4078,7 @@ focus_tree = {
 	focus = {
 		id = SOV_For_The_Motherland
 		icon = GFX_SOV_For_the_Motherland
-		cost = 40
+		cost = 20
 		available = {
 			OR = {
 				NOT = {
@@ -3965,7 +4133,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Defense_of_the_Union
 		icon = GFX_SOV_Defense_of_the_Union
-		cost = 40
+		cost = 30
 		available = {
 			has_country_flag = SOV_focus_on_defensive
 		}
@@ -3985,7 +4153,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Fighting_on_Familiar_Ground
 		icon = GFX_SOV_Fighting_on_Familiar_Ground
-		cost = 40
+		cost = 30
 		available = {
 			has_country_flag = SOV_focus_on_defensive
 		}
@@ -4005,7 +4173,7 @@ focus_tree = {
 	focus = {
 		id = SOV_From_Cities_to_Fortresses
 		icon = GFX_SOV_From_Cities_to_Fortresses
-		cost = 40
+		cost = 35
 		available = {
 			has_country_flag = SOV_focus_on_defensive
 		}
@@ -4114,7 +4282,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Secure_the_Far_East
 		icon = GFX_SOV_Secure_the_Far_East
-		cost = 40
+		cost = 35
 		available = {
 			has_country_flag = SOV_focus_on_defensive
 		}
@@ -4134,7 +4302,7 @@ focus_tree = {
 	focus = {
 		id = SOV_General_Winter
 		icon = GFX_SOV_General_Winter
-		cost = 40
+		cost = 35
 		available = {
 			has_country_flag = SOV_focus_on_defensive
 		}
@@ -4154,7 +4322,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Peoples_War
 		icon = GFX_SOV_The_Peoples_War
-		cost = 40
+		cost = 30
 		available = {
 			has_country_flag = SOV_focus_on_defensive
 		}
@@ -4176,7 +4344,7 @@ focus_tree = {
 	focus = {
 		id = SOV_For_the_Soviet_Union
 		icon = GFX_SOV_For_the_Soviet_Union
-		cost = 50
+		cost = 30
 		available = {
 			has_country_flag = SOV_focus_on_defensive
 		}

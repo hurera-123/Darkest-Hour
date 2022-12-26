@@ -2,6 +2,7 @@ add_namespace = GER_Oster_Coup
 add_namespace = Treaty_of_Danzig
 add_namespace = Treaty_of_Munich
 add_namespace = Operation_Torch
+add_namespace = Yalta_Conference
 
 #####
 
@@ -974,5 +975,1030 @@ country_event = {
 	option = {
 		name = Operation_Torch.7.A
 		
+	}
+}
+
+#### Yalta Conference ####
+# Soviets invite us to Yalta (USA)
+country_event = {
+	id = Yalta_Conference.1
+	title = Yalta_Conference.1.t
+	desc = Yalta_Conference.1.d
+	picture = GFX_
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = Yalta_Conference.1.A
+		hidden_effect = {
+			news_event = { id = Yalta_Conference.3 days = 5 }
+		}
+	}
+}
+
+# Soviets invite us to Yalta (UK)
+country_event = {
+	id = Yalta_Conference.2
+	title = Yalta_Conference.2.t
+	desc = Yalta_Conference.2.d
+	picture = GFX_
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = Yalta_Conference.2.A
+		
+	}
+}
+
+# The Yalta Conference Begins
+news_event = {
+	id = Yalta_Conference.3
+	title = Yalta_Conference.3.t
+	desc = Yalta_Conference.3.d
+	picture = GFX_news_event_002
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = Yalta_Conference.4.A
+		trigger = {
+			OR = {
+				tag = ENG
+				tag = SOV
+				tag = USA
+				is_in_faction_with = ENG
+				has_war_with = GER
+			}
+		}
+		if = {
+			limit = {
+				tag = USA
+			}
+			hidden_effect = {
+				country_event = { id = Yalta_Conference.4 days = 2 }
+			}
+		}
+	}
+	option = {
+		name = Yalta_Conference.4.B
+		trigger = {
+			OR = {
+				tag = GER
+				is_in_faction_with = GER
+				has_war_with = ENG
+			}
+		}
+	}
+	option = {
+		name = Yalta_Conference.4.C
+		trigger = {
+			has_war = no
+		}
+	}
+}
+
+# Proposing the Division
+country_event = {
+	id = Yalta_Conference.4
+	title = Yalta_Conference.4.t
+	desc = Yalta_Conference.4.d
+	picture = GFX_
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = Yalta_Conference.5.A
+		hidden_effect = {
+			ENG = {
+				country_event = { id = Yalta_Conference.5 days = 1 }
+			}
+		}
+	}
+}
+
+# America Proposes to Divide Germany
+country_event = {
+	id = Yalta_Conference.5
+	title = Yalta_Conference.5.t
+	desc = Yalta_Conference.5.d
+	picture = GFX_
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = Yalta_Conference.5.A
+		hidden_effect = {
+			SOV = {
+				country_event = { id = Yalta_Conference.6 days = 1 }
+			}
+		}
+	}
+}
+
+# The Western Proposal
+country_event = {
+	id = Yalta_Conference.6
+	title = Yalta_Conference.6.t
+	desc = Yalta_Conference.6.d
+	picture = GFX_
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { # Accept
+		name = Yalta_Conference.6.A
+		hidden_effect = {
+			USA = {
+				country_event = { id = Yalta_Conference.7 days = 1 }
+			}
+			ENG = {
+				country_event = { id = Yalta_Conference.7 days = 1 }
+			}
+		}
+	}
+	option = { # Decline
+		name = Yalta_Conference.6.B
+		hidden_effect = {
+			USA = {
+				country_event = { id = Yalta_Conference.9 days = 1 }
+			}
+			ENG = {
+				country_event = { id = Yalta_Conference.9 days = 1 }
+			}
+		}
+	}
+}
+
+# The Soviets Accept
+country_event = {
+	id = Yalta_Conference.7
+	title = Yalta_Conference.7.t
+	desc = Yalta_Conference.7.d
+	picture = GFX_
+	is_triggered_only = yes
+
+	option = {
+		name = Yalta_Conference.7.A
+		if = {
+			limit = {
+				tag = USA
+			}
+			hidden_effect = {
+				news_event = { id = Yalta_Conference.8 days = 1 }
+			}
+		}
+	}
+}
+
+# The Yalta Conference Is a Success
+news_event = {
+	id = Yalta_Conference.8
+	title = Yalta_Conference.8.t
+	desc = Yalta_Conference.8.d
+	picture = GFX_news_event_002
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = Yalta_Conference.8.A
+		trigger = {
+			NOT = {
+				has_government = fascist
+			}
+		}
+		if = {
+			limit = {
+				tag = USA
+			}
+			set_global_flag = Yalta_Success
+		}
+	}
+	option = {
+		name = Yalta_Conference.8.B
+		trigger = {
+			has_government = fascist
+		}
+	}
+}
+
+# The Soviets Decline
+country_event = {
+	id = Yalta_Conference.9
+	title = Yalta_Conference.9.t
+	desc = Yalta_Conference.9.d
+	picture = GFX_
+	is_triggered_only = yes
+
+	option = {
+		name = Yalta_Conference.9.A
+		if = {
+			limit = {
+				tag = USA
+			}
+			hidden_effect = {
+				news_event = { id = Yalta_Conference.10 days = 1 }
+			}
+		}
+	}
+}
+
+# The Yalta Conference Is Inconclusive
+news_event = {
+	id = Yalta_Conference.10
+	title = Yalta_Conference.10.t
+	desc = Yalta_Conference.10.d
+	picture = GFX_news_event_002
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		trigger = {
+			NOT = {
+				has_government = fascist
+			}
+		}
+		name = Yalta_Conference.10.A
+		
+	}
+	option = {
+		trigger = {
+			has_government = fascist
+		}
+		name = Yalta_Conference.10.A
+		
+	}
+}
+
+# The Question of the French
+country_event = {
+	id = Yalta_Conference.11
+	title = Yalta_Conference.11.t
+	desc = Yalta_Conference.11.d
+	picture = GFX_
+	is_triggered_only = yes
+
+	option = { # Do not invite them
+		name = Yalta_Conference.11.A
+		hidden_effect = {
+			FFL = {
+				country_event = { id = Yalta_Conference.12 days = 1 }
+			}
+		}
+	}
+}
+
+# The Soviets Deny Us a Seat at Yalta
+country_event = {
+	id = Yalta_Conference.12
+	title = Yalta_Conference.12.t
+	desc = Yalta_Conference.12.d
+	picture = GFX_
+	is_triggered_only = yes
+
+	option = {
+		name = Yalta_Conference.12.A
+		
+	}
+}
+
+# Germany Defeated
+country_event = {
+	id = Yalta_Conference.100
+	title = Yalta_Conference.100.t
+	desc = Yalta_Conference.100.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		has_global_flag = Yalta_Success
+		GER = {
+			surrender_progress > 0.9
+		}
+	}
+
+	option = { # Chonky Peace Deal
+		name = Yalta_Conference.100.A
+		hidden_effect = {
+			# Division of Germany
+			SOV = {
+				transfer_state = 60
+				transfer_state = 61
+				transfer_state = 62
+				transfer_state = 64
+				transfer_state = 65
+				transfer_state = 812
+				transfer_state = 1666
+			}
+			USA = { # USA occupation zone
+				transfer_state = 50
+				transfer_state = 52
+				transfer_state = 53
+				transfer_state = 54
+				transfer_state = 55
+				transfer_state = 808
+				transfer_state = 961
+				transfer_state = 1057 # BERLIN
+				transfer_state = 1471
+				transfer_state = 1523
+				transfer_state = 1524
+			}
+			ENG = { # British occupation zone
+				transfer_state = 51
+				transfer_state = 56
+				transfer_state = 57
+				transfer_state = 58
+				transfer_state = 59
+				transfer_state = 809
+				transfer_state = 1182
+				transfer_state = 1183
+				transfer_state = 1579
+			}
+			FRA = { # French occupation zone
+				transfer_state = 42
+				transfer_state = 807
+				transfer_state = 962
+				transfer_state = 1160
+				transfer_state = 1498
+			}
+			SAR = {
+				transfer_state = 806
+			}
+			POL = {
+				transfer_state = 63
+				transfer_state = 66
+				transfer_state = 67
+				transfer_state = 68
+				transfer_state = 85
+				transfer_state = 768
+				transfer_state = 1120
+				transfer_state = 1436
+				transfer_state = 1571
+			}
+			SOV = {
+				transfer_state = 5
+			}
+
+			# Division of Austria
+			if = {
+				limit = {
+					OR = {
+						AUS = {
+							is_in_faction_with = GER
+						}
+						GER = {
+							owns_state = 4
+						}
+					}
+				}
+				USA = { # USA occupation zone
+					transfer_state = 152
+					transfer_state = 52
+				}
+				ENG = { # British occupation zone
+					transfer_state = 774
+					transfer_state = 974
+					transfer_state = 1416
+				}
+				FRA = { # French occupation zone
+					transfer_state = 153
+					transfer_state = 977
+				}
+				SOV = { # Soviet occupation zone
+					transfer_state = 4
+					transfer_state = 973
+				}
+			}
+
+			# Benelux
+			if = {
+				limit = {
+					BEL = {
+						has_war_with = GER
+					}
+				}
+				BEL = {
+					transfer_state = 6
+					transfer_state = 34
+					transfer_state = 802
+					transfer_state = 964
+					transfer_state = 1204
+					transfer_state = 1553
+				}
+			}
+			if = {
+				limit = {
+					HOL = {
+						has_war_with = GER
+					}
+				}
+				HOL = {
+					transfer_state = 7
+					transfer_state = 35
+					transfer_state = 36
+					transfer_state = 960
+					transfer_state = 1128
+				}
+			}
+			if = {
+				limit = {
+					LUX = {
+						has_war_with = GER
+					}
+				}
+				LUX = {
+					transfer_state = 8
+				}
+			}
+
+			# France
+			if = {
+				limit = {
+					FFL = {
+						has_war_with = GER
+					}
+				}
+				FRA = {
+					change_tag_from = FFL
+					transfer_state = 1505
+					transfer_state = 762
+					transfer_state = 1022
+					transfer_state = 1023
+					transfer_state = 29
+					transfer_state = 1026
+					transfer_state = 1027
+					transfer_state = 18
+					transfer_state = 763
+					transfer_state = 847
+					transfer_state = 1169
+					transfer_state = 28
+					transfer_state = 17
+					transfer_state = 1024
+					transfer_state = 1025
+					transfer_state = 15
+					transfer_state = 14
+					transfer_state = 1028
+					transfer_state = 30
+					transfer_state = 16
+					transfer_state = 24
+					transfer_state = 27
+					transfer_state = 1029
+					transfer_state = 23
+					transfer_state = 33
+					transfer_state = 26
+					transfer_state = 25
+					transfer_state = 19
+					transfer_state = 1637
+					transfer_state = 31
+					transfer_state = 1636
+					transfer_state = 22
+					transfer_state = 20
+					transfer_state = 1021
+					transfer_state = 21
+					transfer_state = 1030
+					transfer_state = 764
+					transfer_state = 735
+					transfer_state = 32
+					transfer_state = 846
+					transfer_state = 1
+				}
+				every_state = {
+					limit = {
+						OR = {
+							state = 763
+							state = 1637
+							state = 19
+							state = 23
+							state = 30
+							state = 14
+							state = 15
+							state = 24
+							state = 16
+							state = 1026
+							state = 27
+							state = 18
+							state = 17
+							state = 847
+							state = 28
+							state = 1169
+							state = 1023
+							state = 1505
+							state = 762
+							state = 1022
+							state = 29
+							state = 1027
+							state = 1028
+						}
+					}
+					add_core_of = FRA
+				}
+			}
+
+			# Norway
+			if = {
+				limit = {
+					NOR = { 
+						has_war_with = GER
+					}
+				}
+				NOR = {
+					transfer_state = 110
+					transfer_state = 142
+					transfer_state = 143
+					transfer_state = 1615
+					transfer_state = 1125
+					transfer_state = 1613
+					transfer_state = 1618
+					transfer_state = 1127
+					transfer_state = 1126
+					transfer_state = 1614
+					transfer_state = 1617
+					transfer_state = 1616
+					transfer_state = 144
+					transfer_state = 1124
+					transfer_state = 1561
+				}
+			}
+
+			# Denmark
+			if = {
+				limit = {
+					DEN = {
+						has_war_with = GER
+					}
+				}
+				DEN = {
+					transfer_state = 37
+					transfer_state = 99
+					transfer_state = 804
+					transfer_state = 1082
+				}
+			}
+
+			# Italy and colonies
+			if = {
+				limit = {
+					OR = {
+						ITA = {
+							is_in_faction_with = GER
+						}
+						RSI = {
+							is_in_faction_with = GER
+						}
+					}
+				}
+				# Italy regime change
+				ITA = {
+					set_politics = {
+						ruling_party = democratic
+						elections_allowed = no
+					}
+				}
+
+				ALB = {
+					set_cosmetic_tag = ALB_1944_communist
+					add_popularity = {
+						ideology = communist
+						popularity = 0.6
+					}
+					set_politics = {
+						ruling_party = communist
+						elections_allowed = no
+					}
+					transfer_state = 44
+					transfer_state = 1033
+				}
+				# Division of Libya
+				FRA = {
+					transfer_state = 273
+					transfer_state = 854
+					transfer_state = 1227
+					transfer_state = 1228
+					transfer_state = 1229
+					transfer_state = 1230
+				}
+				ENG = {
+					transfer_state = 448
+					transfer_state = 449
+					transfer_state = 450
+					transfer_state = 451
+					transfer_state = 661
+					transfer_state = 662
+					transfer_state = 663
+					transfer_state = 853
+					transfer_state = 855
+					transfer_state = 1225
+					transfer_state = 1226
+				}
+				# Eritrea and Somaliland
+				ENG = {
+					transfer_state = 550
+					transfer_state = 559
+					transfer_state = 1042
+					transfer_state = 1043
+					transfer_state = 1044
+					transfer_state = 1045
+					transfer_state = 1046
+					transfer_state = 1049
+					transfer_state = 1050
+					transfer_state = 1435
+				}
+
+				# Yugoslavian border
+				YUG = {
+					transfer_state = 163
+					transfer_state = 813
+					transfer_state = 814
+					transfer_state = 815
+				}
+
+				# Greece
+				GRE = {
+					transfer_state = 164
+				}
+			}
+
+			# Yugoslavia
+			YUG = {
+				add_popularity = {
+					ideology = communist
+					popularity = 0.8
+				}
+				set_politics = {
+					ruling_party = communist
+					elections_allowed = no
+				}
+				set_cosmetic_tag = YUG_AVNOJ_communist
+				add_ideas = YUG_Ivan_Ribar_HoG
+				retire_character = YUG_Aleksandar_I
+				retire_character = YUG_Petar_II
+				transfer_state = 102
+				transfer_state = 765
+				transfer_state = 109
+				transfer_state = 770
+				transfer_state = 1384
+				transfer_state = 1635
+				transfer_state = 103
+				transfer_state = 1085
+				transfer_state = 1086
+				transfer_state = 1084
+				transfer_state = 1087
+				transfer_state = 104
+				transfer_state = 1570
+				transfer_state = 978
+				transfer_state = 1452
+				transfer_state = 45
+				transfer_state = 819
+				transfer_state = 1092
+				transfer_state = 772
+				transfer_state = 107
+				transfer_state = 1089
+				transfer_state = 1090
+				transfer_state = 1091
+				transfer_state = 105
+				transfer_state = 108
+				transfer_state = 818
+				transfer_state = 1088
+				transfer_state = 890
+				transfer_state = 106
+				transfer_state = 1094
+				transfer_state = 958
+				transfer_state = 1446
+				transfer_state = 1093
+			}
+
+			# Greece
+			if = {
+				limit = {
+					GRE = {
+						has_war_with = GER
+					}
+				}
+				GRE = {
+					transfer_state = 1109
+					transfer_state = 184
+					transfer_state = 1110
+					transfer_state = 900
+					transfer_state = 731
+					transfer_state = 1112
+					transfer_state = 185
+					transfer_state = 1113
+					transfer_state = 1115
+					transfer_state = 1111
+					transfer_state = 1114
+					transfer_state = 186
+					transfer_state = 47
+					transfer_state = 182
+					transfer_state = 1116
+					transfer_state = 1117
+					transfer_state = 187
+					transfer_state = 1118
+					transfer_state = 1119
+				}
+			}
+
+			# Romania
+			if = {
+				limit = {
+					ROM = {
+						is_in_faction_with = GER
+					}
+					NOT = {
+						has_global_flag = SOV_ROM_surrendered
+					}
+				}
+				ROM = {
+					set_cosmetic_tag = ROM_SOV_1946
+					retire_country_leader = yes
+					create_country_leader = {
+						name = "Constantin Sanatescu"
+						picture = GFX_M_Constantin_Sanatescu
+						expire = "1947.1.1"
+						ideology = stalinism
+						traits = {
+							POSITION_Prime_Minister
+							SUBIDEOLOGY_Stalinism
+						}
+					}
+					remove_ideas = ROM_D_Carol_II
+					add_ideas = ROM_D_Mihai_I
+
+					if = {
+						limit = {
+							has_global_flag = Upper_Transylvania_Awarded
+						}
+						transfer_state = 839
+						transfer_state = 838
+						transfer_state = 76
+					}
+					if = {
+						limit = {
+							has_global_flag = Transylvania_Awarded
+						}
+						transfer_state = 82
+						transfer_state = 83
+						transfer_state = 84
+					}
+				}
+				SOV = {
+					if = {
+						limit = {
+							OR = {
+								has_dlc = "Together for Victory"
+								has_dlc = "Death or Dishonor"
+							}
+						}
+						set_autonomy = {
+							target = ROM
+							autonomous_state = AUTONOMY_Satellite
+						}
+					}
+					else = {
+						puppet = ROM
+					}
+					transfer_state = 78
+					transfer_state = 80
+					transfer_state = 835
+					transfer_state = 836
+					transfer_state = 1145
+					transfer_state = 1143
+				}
+			}
+
+			# Czechoslovakia
+			CZE = {
+				set_cosmetic_tag = CZE_SOV_1946
+				create_country_leader = {
+					name = "Edvard Benes"
+					desc = ""
+					picture = GFX_P_D_Edvard_Benes
+					expire = "1965.1.1"
+					ideology = stalinism
+					traits = { POSITION_President SUBIDEOLOGY_Stalinism L_Pig_Headed_Isolationist }
+				}
+				add_ideas = CZE_D_Zdenek_Fierlinger
+				transfer_state = 69
+				transfer_state = 1105
+				transfer_state = 74
+				transfer_state = 72
+				transfer_state = 9
+				transfer_state = 75
+				transfer_state = 1383
+				transfer_state = 1107
+				transfer_state = 70
+				transfer_state = 664
+				transfer_state = 71
+				transfer_state = 1108
+			}
+
+			SOV = {
+				set_autonomy = {
+					target = CZE
+					autonomous_state = AUTONOMY_Satellite
+				}
+			}
+
+			# Hungary
+			if = {
+				limit = {
+					HUN = {
+						is_in_faction_with = GER
+					}
+					NOT = {
+						has_global_flag = SOV_HUN_surrendered
+					}
+				}
+				HUN = {
+					set_cosmetic_tag = HUN_SOV_1946
+					create_country_leader = {
+						name = "Zoltan Tildy"
+						picture = GFX_P_D_Zoltan_Tildy
+						expire = "1947.1.1"
+						ideology = stalinism
+						traits = {
+							POSITION_President
+							SUBIDEOLOGY_Stalinism
+						}
+					}
+					add_ideas = HUN_C_Ferenc_Nagy
+				}
+				SOV = {
+					if = {
+						limit = {
+							OR = {
+								has_dlc = "Together for Victory"
+								has_dlc = "Death or Dishonor"
+							}
+						}
+						set_autonomy = {
+							target = HUN
+							autonomous_state = AUTONOMY_Satellite
+						}
+					}
+					else = {
+						puppet = HUN
+					}
+					transfer_state = 73 # Transfer of Ruthenian Carpathia
+					transfer_state = 1106
+				}
+			}
+
+			# Bulgaria
+			if = {
+				limit = {
+					BUL = {
+						is_in_faction_with = GER
+					}
+					NOT = {
+						has_global_flag = SOV_BUL_surrendered
+					}
+				}
+				SOV = {
+					if = {
+						limit = {
+							OR = {
+								has_dlc = "Together for Victory"
+								has_dlc = "Death or Dishonor"
+							}
+						}
+						set_autonomy = {
+							target = BUL
+							autonomous_state = AUTONOMY_Satellite
+						}
+					}
+					else = {
+						puppet = BUL
+					}
+				}
+				BUL = {
+					create_country_leader = {
+						name = "Kimon Georgiev"
+						desc = ""
+						picture = GFX_P_C_Kimon_Georgiev
+						expire = "1965.1.1"
+						ideology = stalinism
+						traits = { POSITION_General_Secretary SUBIDEOLOGY_Stalinism L_Ruthless_Powermonger }
+					}
+				}
+			}
+
+			# Poland
+			POL = {
+				transfer_state = 88
+				transfer_state = 886
+				transfer_state = 92
+				transfer_state = 97
+				transfer_state = 810
+				transfer_state = 1426
+				transfer_state = 1489
+				transfer_state = 10
+				transfer_state = 90
+				transfer_state = 1175
+				transfer_state = 766
+				transfer_state = 87
+				transfer_state = 98
+				transfer_state = 1173
+				transfer_state = 86
+				transfer_state = 798
+				transfer_state = 85
+				set_cosmetic_tag = POL_SOV_1946
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = SOV_Rokossovsky_Purged
+						}
+					}
+					create_country_leader = {
+						name = "Konstantin Rokossovsky"
+						picture = GFX_M_SOV_Konstantin_Rokossovsky
+						expire = "1947.1.1"
+						ideology = stalinism
+						traits = {
+							POSITION_Commander
+							SUBIDEOLOGY_Stalinism
+						}
+					}
+				}
+				else = {
+					create_country_leader = {
+						name = "Ivan Chernyakovsky"
+						picture = GFX_M_SOV_Ivan_Chernyakovsky
+						expire = "1947.1.1"
+						ideology = stalinism
+						traits = {
+							POSITION_Commander
+							SUBIDEOLOGY_Stalinism
+						}
+					}
+				}
+				add_ideas = POL_Edward_OsobkaMorawski_HoG
+			}
+			SOV = {
+				set_autonomy = {
+					target = POL
+					autonomous_state = AUTONOMY_Satellite
+				}
+			}
+
+			# Finland
+			if = {
+				limit = {
+					FIN = {
+						is_in_faction_with = GER
+					}
+					NOT = {
+						has_global_flag = SOV_FIN_surrendered
+					}
+				}
+				SOV = { #In case the Soviets hadn't received Karelia beforehand
+					transfer_state = 1130
+					transfer_state = 146
+					transfer_state = 147
+					transfer_state = 722
+				}
+				FIN = {
+					create_country_leader = {
+						name = "Juho Paasikivi"
+						desc = ""
+						picture = GFX_P_D_Juho_Kusti_Paasikivi
+						expire = "1965.1.1"
+						ideology = social_conservatism
+						traits = { POSITION_Prime_Minister SUBIDEOLOGY_Social_Conservatism L_Pacifist }
+					}
+				}
+			}
+
+			every_country = {
+				limit = {
+					OR = {
+						tag = GER
+						is_subject_of = GER
+						is_in_faction_with = GER
+					}
+				}
+				every_country = {
+					limit = {
+						has_war_with = PREV
+					}
+					white_peace = PREV
+				}
+			}
+			GER = {
+				dismantle_faction = yes
+			}
+		}
+	}
+}
+
+# End of the War in Europe
+news_event = {
+	id = Yalta_Conference.101
+	title = Yalta_Conference.101.t
+	desc = Yalta_Conference.101.d
+	picture = GFX_news_event_002
+	is_triggered_only = yes
+	major = yes
+	
+	option = { 
+		name = Yalta_Conference.101.A
 	}
 }

@@ -311,6 +311,13 @@ SOV_The_Great_Purge = {
 		remove_effect = {
 			add_ideas = SOV_Purging_the_Army
 			set_country_flag = SOV_Expelled_Officers_Excluded_from_the_Party
+			retire_character = SOV_Alexander_Yegorov
+			retire_character = SOV_Yakov_Smushkevich
+			retire_character = SOV_Pavel_V_Rychagov
+			retire_character = SOV_Pyotr_Smirnov
+			retire_character = SOV_Aleksandr_Loktionov
+			retire_character = SOV_Mikhail_V_Viktorov
+			retire_character = SOV_Vladimir_M_Orlov
 		}
 	}
 	SOV_Liquidate_the_Menshevik_Underground = {
@@ -1222,6 +1229,7 @@ SOV_The_Great_Purge = {
 		}
 		available = {
 			has_country_flag = SOV_Extrajudicial_Organs_Stopped
+			has_completed_focus = SOV_The_Vanishment_of_the_The_Vanishing_Commissar
 		}
 		ai_will_do = {
 			factor = 100
@@ -1326,6 +1334,105 @@ SOV_The_Great_Purge = {
 #  Diplomatic Actions
 #########################################################################
 foreign_politics = {
+	###########################
+	# Invade Poland
+	###########################
+	SOV_Invade_Poland = {
+		icon = ger_reichskommissariats
+		fire_only_once = yes
+		visible = {
+			original_tag = SOV
+			has_global_flag = Molotov_Ribbentrop_Signed
+			POL = {
+				NOT = {
+					OR = {
+						is_in_faction_with = SOV
+						is_subject_of = SOV
+					}
+				}
+			}
+			has_government = communist
+			OR = {
+				has_completed_focus = SOV_Expansion_of_the_Soviet_Sphere
+				date > 1939.9.1
+			}			
+		}
+		available = {
+			NOT = {
+				has_war_with = POL
+			}
+			GER = {
+				has_war_with = POL
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 500
+				date > 1939.9.1
+			}
+		}
+		complete_effect = {
+			#declare_war_on = {
+			#	type = take_state_focus
+			#	target = POL
+			#	generator = { 96 95 97 94 93 91 89 1170 1499 1427 1428 885 886 1426 }
+			#}
+			hidden_effect = {
+				add_state_claim = 89
+				add_state_claim = 91
+				add_state_claim = 93
+				add_state_claim = 94
+				add_state_claim = 95
+				add_state_claim = 96
+				add_state_claim = 97
+				add_state_claim = 885
+				add_state_claim = 886
+				add_state_claim = 1170
+				add_state_claim = 1426
+				add_state_claim = 1427
+				add_state_claim = 1428
+				add_state_claim = 1499
+			}
+			transfer_state = 89
+			transfer_state = 91
+			transfer_state = 93
+			transfer_state = 94
+			transfer_state = 95
+			transfer_state = 96
+			transfer_state = 97
+			transfer_state = 885
+			transfer_state = 886
+			transfer_state = 1170
+			transfer_state = 1426
+			transfer_state = 1427
+			transfer_state = 1428
+			transfer_state = 1499
+			if = {
+				limit = {
+					LIT = {
+						exists = yes
+						NOT = {
+							has_war_with = SOV
+						}
+					}
+				}
+				LIT = {
+					transfer_state = 805
+					transfer_state = 1171
+				}
+			}
+			else_if = {
+				hidden_effect = {
+					add_state_claim = 805
+					add_state_claim = 1171
+				}
+				transfer_state = 805
+				transfer_state = 1171
+			}
+			add_threat = 2
+		}
+	}
 	###########################
 	# Demand Bessarabia
 	###########################
@@ -1633,11 +1740,28 @@ foreign_politics = {
 					id = EST_Soviet_Annexation.3
 				}
 			}
+			hidden_effect = {
+				add_state_claim = 966
+				add_state_claim = 967
+				add_state_claim = 972
+				add_state_claim = 191
+				add_state_claim = 13
+				add_state_claim = 971
+			}
 			LAT = {
 				country_event = {
 					days = 1
 					id = LAT_Soviet_Annexation.3
 				}
+			}
+			hidden_effect = {
+				add_state_claim = 968
+				add_state_claim = 970
+				add_state_claim = 1632
+				add_state_claim = 190
+				add_state_claim = 969
+				add_state_claim = 1631
+				add_state_claim = 12
 			}
 			add_threat = 3
 		}
@@ -2845,11 +2969,129 @@ SOV_Second_Five_Year_Plan_category = {
 	}
 }
 SOV_Battle_for_Harvest_category = {
+	SOV_Invest_Significant_Resources_1933 = {
+		fire_only_once = yes
+		icon = GFX_decision_SOV_Invest_Significant_Resources
+		available = {
+			set_temp_variable = {
+				amount_of_money_to_check = 500
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		visible = {
+			date > 1933.2.1
+			date < 1933.5.6
+		}
+		cost = 60
+		complete_effect = {
+			custom_effect_tooltip = SOV_30_Percent_Grain_Harvest
+			set_temp_variable = {
+				money_to_gain = -500
+			}
+			add_money_with_inflation_included_with_tooltip_effect = yes
+			set_country_flag = SOV_Invested_Significant_Resources
+			set_country_flag = SOV_Already_Selected_Harvest
+			clr_country_flag = SOV_Selected_Export
+			set_variable = {
+				var = SOV_Total_Harvest
+				value = 84.88
+			}
+			set_variable = {
+				var = SOV_Grain_Collected
+				value = 30.28
+			}
+			set_variable = {
+				var = SOV_Grain_for_Export
+				value = 2.18
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	###########################
+	# Invest Medium Resources  
+	###########################
+	SOV_Invest_Medium_Resources_1933 = {
+		fire_only_once = yes
+		icon = GFX_decision_SOV_Invest_Medium_Resources
+		available = {
+			set_temp_variable = {
+				amount_of_money_to_check = 300
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		cost = 50
+		complete_effect = {
+			custom_effect_tooltip = SOV_Normal_Grain_Harvest
+			set_temp_variable = {
+				money_to_gain = -300
+			}
+			add_money_with_inflation_included_with_tooltip_effect = yes
+			set_country_flag = SOV_Invested_Medium_Resources
+			set_country_flag = SOV_Already_Selected_Harvest
+			clr_country_flag = SOV_Selected_Export
+			set_variable = {
+				var = SOV_Total_Harvest
+				value = 65.29
+			}
+			set_variable = {
+				var = SOV_Grain_Collected
+				value = 23.29
+			}
+			set_variable = {
+				var = SOV_Grain_for_Export
+				value = 1.68
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	###########################
+	# Invest Minor Resources
+	###########################
+	SOV_Invest_Minor_Resources_1933 = {
+		fire_only_once = yes
+		icon = GFX_decision_SOV_Invest_Minor_Resources
+		available = {
+			set_temp_variable = {
+				amount_of_money_to_check = 150
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		cost = 40
+		complete_effect = {
+			custom_effect_tooltip = SOV_30_Percent_Minus_Grain_Harvest
+			set_temp_variable = {
+				money_to_gain = -150
+			}
+			add_money_with_inflation_included_with_tooltip_effect = yes
+			set_country_flag = SOV_Invested_Minor_Resources
+			set_country_flag = SOV_Already_Selected_Harvest
+			clr_country_flag = SOV_Selected_Export
+			set_variable = {
+				var = SOV_Total_Harvest
+				value = 45.7
+			}
+			set_variable = {
+				var = SOV_Grain_Collected
+				value = 16.3
+			}
+			set_variable = {
+				var = SOV_Grain_for_Export
+				value = 1.18
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 	###########################
 	# Invest Significant Resources 
 	###########################
 	SOV_Invest_Significant_Resources = {
-		fire_only_once = yes
+		fire_only_once = no
 		icon = GFX_decision_SOV_Invest_Significant_Resources
 		available = {
 			set_temp_variable = {
@@ -2860,6 +3102,13 @@ SOV_Battle_for_Harvest_category = {
 				motorized_equipment > 2499
 			}
 		}
+		visible = {
+			NOT = {
+				date > 1933.2.1
+				date < 1933.5.6
+			}
+		}
+		days_re_enable = 275
 		cost = 60
 		complete_effect = {
 			custom_effect_tooltip = SOV_30_Percent_Grain_Harvest
@@ -2974,7 +3223,7 @@ SOV_Battle_for_Harvest_category = {
 	# Invest Medium Resources  
 	###########################
 	SOV_Invest_Medium_Resources = {
-		fire_only_once = yes
+		fire_only_once = no
 		icon = GFX_decision_SOV_Invest_Medium_Resources
 		available = {
 			set_temp_variable = {
@@ -2982,9 +3231,16 @@ SOV_Battle_for_Harvest_category = {
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 			has_equipment = {
-				motorized_equipment > 1499
+				motorized_equipment > 1299
 			}
 		}
+		visible = {
+			NOT = {
+				date > 1933.2.1
+				date < 1933.5.6
+			}
+		}
+		days_re_enable = 275
 		cost = 50
 		complete_effect = {
 			custom_effect_tooltip = SOV_Normal_Grain_Harvest
@@ -2994,7 +3250,7 @@ SOV_Battle_for_Harvest_category = {
 			add_money_with_inflation_included_with_tooltip_effect = yes
 			add_equipment_to_stockpile = {
 				type = motorized_equipment
-				amount = -1500
+				amount = -1300
 				producer = SOV
 			}
 			set_country_flag = SOV_Invested_Medium_Resources
@@ -3099,7 +3355,7 @@ SOV_Battle_for_Harvest_category = {
 	# Invest Minor Resources
 	###########################
 	SOV_Invest_Minor_Resources = {
-		fire_only_once = yes
+		fire_only_once = no
 		icon = GFX_decision_SOV_Invest_Minor_Resources
 		available = {
 			set_temp_variable = {
@@ -3107,9 +3363,16 @@ SOV_Battle_for_Harvest_category = {
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 			has_equipment = {
-				motorized_equipment > 999
+				motorized_equipment > 799
 			}
 		}
+		visible = {
+			NOT = {
+				date > 1933.2.1
+				date < 1933.5.6
+			}
+		}
+		days_re_enable = 275
 		cost = 40
 		complete_effect = {
 			custom_effect_tooltip = SOV_30_Percent_Minus_Grain_Harvest
@@ -3119,7 +3382,7 @@ SOV_Battle_for_Harvest_category = {
 			add_money_with_inflation_included_with_tooltip_effect = yes
 			add_equipment_to_stockpile = {
 				type = motorized_equipment
-				amount = -1000
+				amount = -800
 				producer = SOV
 			}
 			set_country_flag = SOV_Invested_Minor_Resources
@@ -3870,7 +4133,7 @@ SOV_Harvest_category = {
 		available = {
 			has_country_flag = SOV_Selected_Export
 			NOT = {
-				has_idea = SOV_Soviet_Famine_idea
+				has_idea = SOV_The_Great_Soviet_Famine
 			}
 		}
 		activation = {

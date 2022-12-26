@@ -865,7 +865,7 @@ Soviet_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = africa
-		value = 50
+		value = 30
 	}
 }
 #########################
@@ -924,13 +924,13 @@ SOV_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = 10
+		value = 15
 	}
 
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 40 #because doctrine 70
+		value = 50
 	}
 
 	#Air unit factors
@@ -943,7 +943,7 @@ SOV_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = cas
-		value = 2 #because doctrine this = 15
+		value = 10
 	}
 
 	ai_strategy = {
@@ -955,7 +955,7 @@ SOV_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = strategic_bomber
-		value = -50 # we can add a strategy later to increase this once Germany is beaten
+		value = -50
 	}
 
 	ai_strategy = {
@@ -1025,12 +1025,6 @@ SOV_unit_production = {
 	}
 
 	ai_strategy = {
-		type = equipment_production_min_factories
-		id = artillery
-		value = 4
-	}
-
-	ai_strategy = {
 		type = equipment_production_factor
 		id = anti_tank
 		value = 10
@@ -1039,9 +1033,149 @@ SOV_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = armor
-		value = 15
+		value = 70
 	}
 }
+
+SOV_equipment_production_1 = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		date < 1936.1.1
+	}
+	abort = {
+		date > 1936.1.1
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 15
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 50
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = armor
+		value = 2
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = artillery
+		value = 4
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = anti_tank
+		value = 2
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = motorized
+		value = 5
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = infantry
+		value = 16
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = train
+		value = 1
+	}
+}
+
+SOV_equipment_production_2 = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		date < 1939.1.1
+	}
+	abort = {
+		date > 1939.1.1
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 80
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories #Build these up over time, don't stall
+		id = armor
+		value = 10
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories #Build these up over time, don't stall
+		id = motorized
+		value = 5
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = artillery
+		value = 6
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = anti_tank
+		value = 4
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = infantry
+		value = 20
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = fighter
+		value = 10
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = tactical_bomber
+		value = 5
+	}
+}
+
+SOV_stockpile_less_early_game = {
+	allowed = {
+		tag = SOV
+	}
+
+	enable = {
+		date < 1939.1.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_stockpile_surplus_ratio
+		value = -25
+	}
+}
+
+SOV_stockpile_more = {
+	allowed = {
+		tag = SOV
+	}
+
+	enable = {
+		date > 1939.1.1
+	}
+	abort = {
+		has_war = yes
+	}
+
+	ai_strategy = {
+		type = equipment_stockpile_surplus_ratio
+		value = 5
+	}
+}
+
+
 SOV_anti_armor = {
 	enable = {
 		original_tag = SOV
@@ -1110,7 +1244,7 @@ SOV_Higher_Armor_Production = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = infantry
-		value = 30
+		value = 10
 	}
 }
 
@@ -1290,22 +1424,5 @@ SOV_pp_spending = {
 		type = pp_spend_priority
 		id = admiral
 		value = -100
-	}
-}
-SOV_have_some_train_production = {
-	allowed = {
-		original_tag = SOV
-	}
-
-	enable = {
-		date > 1936.7.1
-		num_of_military_factories > 50
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = train
-		value = 3
 	}
 }
