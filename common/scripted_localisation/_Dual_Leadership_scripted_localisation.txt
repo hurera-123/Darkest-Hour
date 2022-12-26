@@ -370,6 +370,12 @@ defined_text = {
 		}
 		localization_key = USA_John_Nance_Garner
 	}
+	text = {
+		trigger = {
+			has_idea = USA_James_Farley_HoG
+		}
+		localization_key = USA_James_Farley
+	}
 	#### LIB - Liberia
 	text = {
 		trigger = {
@@ -1539,6 +1545,12 @@ defined_text = {
 			has_idea = USA_John_Nance_Garner_HoG
 		}
 		localization_key = GFX_P_D_John_Nance_Garner
+	}
+	text = {
+		trigger = {
+			has_idea = USA_James_Farley_HoG
+		}
+		localization_key = GFX_P_D_James_Farley
 	}
 	#### SAF - South Africa
 	text = {
