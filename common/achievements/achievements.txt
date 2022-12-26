@@ -143,7 +143,7 @@ Pimp_My_Reich = {
 	happened = {
 		custom_trigger_tooltip = {
 			tooltip = Pimp_My_Reich_tt
-			has_cosmetic_tag = GER_BIG
+			has_cosmetic_tag = GER_GREATER_REICH
 		}
 	}
 }
