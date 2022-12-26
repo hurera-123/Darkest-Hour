@@ -10,6 +10,7 @@ equipments = {
 		is_buildable = no
 		type = naval_bomber
 		allow_mission_type = {
+			training
 			naval_bomber
 			port_strike
 			naval_mines_planting
@@ -356,6 +357,7 @@ equipments = {
 		is_buildable = no
 		type = naval_bomber
 		allow_mission_type = {
+			training
 			naval_bomber
 			port_strike
 			naval_mines_planting

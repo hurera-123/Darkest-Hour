@@ -158,7 +158,7 @@
 	# set_variable = { rural_reconstruction_cost = 25 }
 	add_ideas = {
 		CHI_Faction_Infighting_Whampoa
-		#CHI_Incompetent_NRA
+		CHI_Incompetent_NRA
 		#CHI_Depression_1
 		free_trade
 		industrializing_economy

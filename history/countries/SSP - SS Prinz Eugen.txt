@@ -43,8 +43,11 @@ add_ideas = {
 create_country_leader = {
 	name = "Heinrich Himmler"
 	desc = ""
-	picture = GFX_gfx/leaders/GER/P_F_Heinrich_Himmler
+	picture = GFX_M_Heinrich_Himmler
 	expire = "1965.1.1"
 	ideology = esoteric_national_socialism
-	traits = {}
+	traits = {
+		L_Ruthless_Powermonger
+		SUBIDEOLOGY_Esoteric_National_Socialism
+	}
 }

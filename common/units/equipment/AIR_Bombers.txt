@@ -10,6 +10,7 @@ equipments = {
 		is_buildable = no
 		type = strategic_bomber
 		allow_mission_type = {
+			training
 			strategic_bomber
 			naval_mines_planting
 		}
@@ -505,6 +506,7 @@ equipments = {
 			tactical_bomber
 		}
 		allow_mission_type = {
+			training
 			cas
 			strategic_bomber
 			naval_bomber
@@ -1004,6 +1006,9 @@ equipments = {
 		sprite = heavy_plane
 		air_map_icon_frame = 12
 		interface_category = interface_category_air
+		allow_mission_type = {
+			training
+		}
 		# Transport
 		interface_overview_category_index = 6
 		air_superiority = 0

@@ -13,6 +13,7 @@ equipments = {
 			interceptor
 		}
 		allow_mission_type = {
+			training
 			air_superiority
 			interception
 		}
