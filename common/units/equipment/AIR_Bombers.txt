@@ -1024,7 +1024,7 @@ equipments = {
 			rubber = 2
 		}
 		manpower = 80
-		fuel_consumption = 0
+		fuel_consumption = 1.0
 	}
 	################################
 	# Basic Transport plane (Soon my boy, we'll have more of you)
