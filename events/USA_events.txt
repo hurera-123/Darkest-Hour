@@ -1220,12 +1220,14 @@ news_event = { # Roosevelt Inaugurated President
 	option = {
 		name = USA_Elections_1932.1.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Franklin D. Roosevelt"
+		add_country_leader_role = {
+			character = USA_Franklin_D_Roosevelt
 			desc = USA_Franklin_Roosevelt_desc
-			picture = GFX_P_D_Franklin_Roosevelt_1933
-			ideology = social_liberalism
-			traits = { POSITION_President SUBIDEOLOGY_Social_Liberalism }
+			promote_leader = yes
+			country_leader = {
+				ideology = social_liberalism
+				traits = { POSITION_President SUBIDEOLOGY_Social_Liberalism }
+			}
 		}
 		remove_ideas = {
 			USA_Charles_Curtis_HoG
@@ -1524,16 +1526,6 @@ news_event = { # FDR's Second Inauguration
 		clr_country_flag = USA_DNC_1936_FDR
 		set_country_flag = USA_Roosevelt_1936
 		mark_focus_tree_layout_dirty = yes
-		hidden_effect = {
-			retire_country_leader = yes
-			create_country_leader = {
-				name = "Franklin D. Roosevelt"
-				desc = USA_Franklin_Roosevelt_desc
-				picture = GFX_P_D_Franklin_Roosevelt
-				ideology = social_liberalism
-				traits = { POSITION_President SUBIDEOLOGY_Social_Liberalism }
-			}
-		}
 	}
 }
 news_event = { # Inauguration of Alf Landon
@@ -1550,12 +1542,13 @@ news_event = { # Inauguration of Alf Landon
 	option = {
 		name = USA_Elections_1936.6.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Alf Landon"
-			desc = "Alf_Landon_desc"
-			picture = GFX_P_D_Alf_Landon
-			ideology = social_conservatism
-			traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+		add_country_leader_role = {
+			character = USA_Alf_Landon
+			promote_leader = yes
+			country_leader = {
+				ideology = social_conservatism
+				traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+			}
 		}
 		remove_ideas = {
 			USA_John_Nance_Garner_HoG
@@ -1747,12 +1740,12 @@ news_event = { # Inauguration of Wendell Wilkie
 	option = {
 		name = USA_Elections_1940.4.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Wendell Willkie"
-			desc = "Wendell_Willkie_desc"
-			picture = GFX_P_D_Wendell_Wilkie
-			ideology = social_conservatism
-			traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+		add_country_leader_role = {
+			character = USA_Wendell_Willkie
+			country_leader = {
+				ideology = social_conservatism
+				traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+			}
 		}
 		remove_ideas = USA_Charles_Curtis_HoG
 		add_ideas = USA_Charles_McNary_HoG
@@ -1856,6 +1849,10 @@ news_event = { # FDR's Third Inauguration
 		name = USA_Elections_1940.5.A
 		set_country_flag = USA_FDR_Wins_1940_Election
 		mark_focus_tree_layout_dirty = yes
+		set_portraits = {
+			character = USA_Franklin_D_Roosevelt
+			civilian = { large ="GFX_P_D_Franklin_Roosevelt_1940" }
+		}
 	}
 }
 ## USA Election 1940 Unhistorical
@@ -1948,15 +1945,30 @@ news_event = { # Inauguration of John Nance Garner
 	option = {
 		name = USA_Elections_1940.10.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "John Nance Garner"
-			desc = "John_Nance_Garner_desc"
-			picture = GFX_P_D_John_Nance_Garner
-			ideology = social_conservatism
-			traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+		add_country_leader_role = {
+			character = USA_John_Nance_Garner
+			desc = USA_John_Nance_Garner_desc
+			promote_leader = yes
+			country_leader = {
+				ideology = social_conservatism
+				traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism L_Cactus_Jack }
+			}
 		}
 		remove_ideas = USA_Frank_Knox_HoG
-		add_ideas = USA_Henry_Wallace_HoG
+		add_advisor_role = {
+			character = USA_James_Farley
+			activate = yes
+			advisor = {
+				slot = Head_of_Government
+				idea_token = USA_Henry_Luce_HoG
+				traits = {
+					POSITION_Vice_President
+				}
+				allowed = {
+					tag = USA
+				}
+			}
+		}
 		set_country_flag = USA_John_Nance_Garner_Wins_1940_Election
 		mark_focus_tree_layout_dirty = yes
 		set_party_name = { 
@@ -2041,12 +2053,14 @@ news_event = { # Inauguration of Tomas E. Dewey
 	option = {
 		name = USA_Elections_1944.4.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Thomas E. Dewey"
-			desc = "Thomas_E_Dewey_desc"
-			picture = GFX_P_D_Thomas_E_Dewey
-			ideology = social_conservatism
-			traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+		add_country_leader_role = {
+			character = USA_Thomas_E_Dewey
+			desc = USA_Thomas_E_Dewey_desc
+			promote_leader = yes
+			country_leader = {
+				ideology = social_conservatism
+				traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+			}
 		}
 		add_ideas = USA_John_Bricker_HoG
 		mark_focus_tree_layout_dirty = yes
@@ -2074,6 +2088,10 @@ news_event = { # FDR's Fourth Inauguration
 		remove_ideas = USA_Charles_Curtis_HoG
 		add_ideas = USA_Harry_S_Truman_HoG
 		mark_focus_tree_layout_dirty = yes
+		set_portraits = {
+			character = USA_Franklin_D_Roosevelt
+			civilian = { large ="GFX_P_D_Franklin_Roosevelt_1944" }
+		}
 	}
 }
 #########################################################################
@@ -5333,12 +5351,13 @@ news_event = {
 	option = {
 		name = USA_Wilkie_Dead.1.A
 		kill_country_leader = yes
-		create_country_leader = {
-			name = "Charles L. McNary"
-			desc = "Charles_McNary_desc"
-			picture = GFX_Charles_McNary
-			ideology = social_conservatism
-			traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+		add_country_leader_role = {
+			character = USA_Charles_McNary
+			promote_leader = yes
+			country_leader = {
+				ideology = social_conservatism
+				traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+			}
 		}
 	}
 }

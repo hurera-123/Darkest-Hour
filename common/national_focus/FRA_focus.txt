@@ -4133,6 +4133,15 @@ focus_tree = {
 			add_command_power = -10
 			add_ideas = FRA_The_GQG
 			unlock_decision_category_tooltip = FRA_Grand_Quartier_General_category
+			FRA_Georges_Blanchard = {
+				promote_leader = yes
+			}
+			FRA_Andre_Gaston_Pretelat = {
+				promote_leader = yes
+			}
+			FRA_Benoit_Bessont = {
+				promote_leader = yes
+			}
 		}
 	}
 	focus = {

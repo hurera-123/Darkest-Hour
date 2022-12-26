@@ -500,12 +500,12 @@ country_event = {
 	option = {
 		name = SOV_Great_Purge.20.A
 		add_war_support = 0.05
-		add_country_leader_trait = SOV_Inheritor_of_lenin
+		add_country_leader_trait = L_Inheritor_of_Lenin
 	}
 	option = {
 		name = SOV_Great_Purge.20.B
 		add_stability = 0.1
-		add_country_leader_trait = SOV_servant_of_lenin
+		add_country_leader_trait = L_Servant_of_Lenin
 	}
 }
 #########################################################################

@@ -908,6 +908,7 @@ characters={
 	}
 
 	### Generals ###
+
 	FRA_Sylvestre_Gerard_Audet = {
 		name= FRA_Sylvestre_Gerard_Audet
 		portraits={
@@ -1065,7 +1066,7 @@ characters={
 				large="GFX_M_Maurice_Gamelin"
 			}
 		}
-		corps_commander={
+		field_marshal={
 			traits = {
 				old_guard
 				career_officer
@@ -1082,6 +1083,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=FRA_Maurice_Gamelin_CoStaff
+			cost = 200
 			allowed={
 				tag=FRA
 			}
@@ -1245,9 +1247,25 @@ characters={
 			}
 			visible={
 				NOT = { has_country_flag = Henri_Mordacq_unavailable }
+				has_country_flag = Mordacq_Promoted
 			}
 			traits={
 				CoArmy_Military_Genius
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token = FRA_Henri_Mordacq_CoStaff
+			cost = 200
+			allowed={
+				tag=FRA
+			}
+			visible={
+				NOT = { has_country_flag = Henri_Mordacq_unavailable }
+				has_country_flag = Mordacq_Promoted
+			}
+			traits={
+				CoStaff_School_Of_Fire_Support
 			}
 		}
 	}
@@ -1396,6 +1414,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=FRA_Maxime_Weygand_CoStaff
+			cost = 200
 			allowed={
 				tag=FRA
 			}
@@ -1433,20 +1452,6 @@ characters={
 		#	logistics_skill = 2
 		#}
 		advisor={
-			slot=Head_of_Government
-			idea_token=FRA_Charles_de_Gaulle_HoG
-			removal_cost = -1
-			allowed={
-				tag=FFL
-			}
-			visible={
-				NOT = { has_country_flag = Charles_de_Gaulle_unavailable }
-			}
-			traits={
-				POSITION_President
-			}
-		}
-		advisor={
 			slot=Armaments_Minister
 			idea_token=FRA_Charles_de_Gaulle_AM
 			allowed={
@@ -1471,9 +1476,24 @@ characters={
 			}
 			visible={
 				NOT = { has_country_flag = Charles_de_Gaulle_unavailable }
+				has_country_flag = DeGaulle_Promoted
 			}
 			traits={
-				
+				CoArmy_Armoured_Spearhead_Doctrine
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=FRA_Charles_de_Gaulle_CoStaff
+			cost = 200
+			allowed={
+				tag=FRA
+			}
+			visible={
+				NOT = { has_country_flag = Charles_de_Gaulle_unavailable }
+				has_country_flag = DeGaulle_Promoted
+			}
+			traits={
 				CoStaff_School_Of_Manoeuvre
 			}
 		}
@@ -1634,25 +1654,140 @@ characters={
 			}
 		}
 	}
-	FRA_Rene_Emile_Godfroy = {
-		name= FRA_Rene_Emile_Godfroy
-		portraits={
+
+	FRA_Jean_Marie_Abrial = {
+		name = FRA_Jean_Marie_Abrial
+		portraits = {
 			army={
-				large="GFX_M_Rene_Emile_Godfroy"
+				large="GFX_M_Jean_Marie_Abrial"
 			}
 		}
-		navy_leader={
+		navy_leader = {
 			traits = {
-				old_guard_navy
-				spotter
+				fleet_protector
 			}
-			skill = 2
-			attack_skill=2
-			defense_skill=1
-			maneuvering_skill=2
-			coordination_skill=2
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			maneuvering_skill = 3
+			coordination_skill = 4
 		}
 	}
+
+	FRA_Raoul_Castex = {
+		name = FRA_Raoul_Castex
+		portraits = {
+			army={
+				large="GFX_M_Raoul_Castex"
+			}
+		}
+		navy_leader = {
+			traits = {
+				superior_tactician
+				ironside
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 4
+		}
+	}
+
+	FRA_Marcel_Gensoul = {
+		name = FRA_Marcel_Gensoul
+		portraits = {
+			army={
+				large="GFX_M_Marcel_Gensoul"
+			}
+		}
+		navy_leader = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+
+	FRA_Jean_de_Laborde = {
+		name = FRA_Jean_de_Laborde
+		portraits = {
+			army={
+				large="GFX_M_Jean_de_Laborde"
+			}
+		}
+		navy_leader = {
+			traits = {
+				air_controller
+				flight_deck_manager
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 5
+			maneuvering_skill = 4
+			coordination_skill = 5
+		}
+	}
+
+	FRA_Georges_Robert = {
+		name = FRA_Georges_Robert
+		portraits = {
+			army={
+				large="GFX_M_Georges_Robert"
+			}
+		}
+		navy_leader = {
+			traits = {
+				ironside
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 5
+			coordination_skill = 4
+		}
+	}
+
+	FRA_Emmanuel_Ollive = {
+		name = FRA_Emmanuel_Ollive
+		portraits = {
+			army={
+				large="GFX_M_Emmanuel_Ollive"
+			}
+		}
+		navy_leader = {
+			traits = {
+				fleet_protector
+				lancer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+
+	#FRA_Rene_Emile_Godfroy = {
+	#	name= FRA_Rene_Emile_Godfroy
+	#	portraits={
+	#		army={
+	#			large="GFX_M_Rene_Emile_Godfroy"
+	#		}
+	#	}
+	#	navy_leader={
+	#		traits = {
+	#			old_guard_navy
+	#			spotter
+	#		}
+	#		skill = 2
+	#		attack_skill=2
+	#		defense_skill=1
+	#		maneuvering_skill=2
+	#		coordination_skill=2
+	#	}
+	#}
 
 	## Airforce ##
 
@@ -1889,7 +2024,6 @@ characters={
 				NOT = { has_country_flag = Charles_Maurras_unavailable }
 			}
 			traits={
-				
 				L_Happy_Amateur
 			}
 		}

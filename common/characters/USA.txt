@@ -1,4 +1,28 @@
 characters={
+	USA_Franklin_D_Roosevelt = {
+		name=USA_Franklin_D_Roosevelt
+		portraits={
+			civilian={
+				large="GFX_P_D_Franklin_Roosevelt_1933"
+			}
+		}
+	}
+	USA_Alf_Landon= {
+		name=USA_Alf_Landon
+		portraits={
+			civilian={
+				large="GFX_P_D_Alf_Landon"
+			}
+		}
+	}
+	USA_Wendell_Willkie= {
+		name=USA_Wendell_Willkie
+		portraits={
+			civilian={
+				large="GFX_P_D_Wendell_Wilkie"
+			}
+		}
+	}
 	USA_Fritz_Kuhn = {
 		name=USA_Fritz_Kuhn
 		portraits={
@@ -435,8 +459,9 @@ characters={
 	USA_Charles_McNary = {
 		name=USA_Charles_McNary
 		portraits={
-			army={
+			civilian={
 				small="GFX_idea_Charles_McNary"
+				large = "GFX_P_D_Charles_L_McNary"
 			}
 		}
 		advisor={
@@ -867,8 +892,9 @@ characters={
 	USA_John_Nance_Garner = {
 		name=USA_John_Nance_Garner
 		portraits={
-			army={
+			civilian={
 				small="GFX_idea_John_Nance_Garner"
+				large = "GFX_P_D_John_Nance_Garner"
 			}
 		}
 		advisor={
@@ -5038,8 +5064,9 @@ characters={
 	USA_Thomas_E_Dewey = {
 		name=USA_Thomas_E_Dewey
 		portraits={
-			army={
+			civilian={
 				small="GFX_idea_Thomas_E_Dewey"
+				large = "GFX_P_D_Thomas_E_Dewey"
 			}
 		}
 		advisor={

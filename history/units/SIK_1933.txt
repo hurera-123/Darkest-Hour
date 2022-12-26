@@ -113,7 +113,7 @@ units = {
     }
     ##### Hami Garrison Command #####
     division = {
-        name = "Hāmì​​jiālǐ sēn"
+        name = "Hāmìjiālǐ sēn"
         location = 10614 # Nortern Bayingol
         division_template = "Zhùjūn shī"
         start_experience_factor = 0.1
