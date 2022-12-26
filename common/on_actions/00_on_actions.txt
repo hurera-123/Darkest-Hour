@@ -565,6 +565,18 @@ on_actions = {
 	on_capitulation = {
 		effect = {
 			news_event = { id = country_capitulated.0 days = 0 }
+			# Sichuan War
+			if = {
+				limit = {
+					original_tag = LWH
+					FROM = { tag = LXI }
+				}
+				LXI = {
+					white_peace = LWH
+					transfer_state = 863
+					transfer_state = 751
+				}
+			}
 			# Fall Otto
 			if = {
 				limit = {

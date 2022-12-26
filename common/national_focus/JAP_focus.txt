@@ -394,6 +394,9 @@ focus_tree = {
 		relative_position_id = JAP_Operation_Nekka
 		x = -6
 		y = 3
+		available = {
+			date > 1935.8.1
+		}
 		prerequisite = {
 			focus = JAP_Manchuria_Triumphant
 		}

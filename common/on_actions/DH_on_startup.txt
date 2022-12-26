@@ -743,6 +743,9 @@ on_actions = {
 			}
 			# FACTIONS #
 			CHI = {
+				868 = {
+					set_demilitarized_zone = yes
+				}
 				# # Populate array with factions
 				# clear_array = active_factions_array
 				# set_temp_variable = { faction_id = 1 }
