@@ -2218,6 +2218,11 @@ GER_equipment_production_1 = {
 		id = tactical_bomber
 		value = 2
 	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = cas
+		value = 2
+	}
 }
 
 GER_equipment_production_2 = {
@@ -2248,12 +2253,17 @@ GER_equipment_production_2 = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = fighter
-		value = 8
+		value = 6
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = tactical_bomber
 		value = 8
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = cas
+		value = 4
 	}
 }
 
