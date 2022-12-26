@@ -9005,13 +9005,13 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_P_D_Franklin_Roosevelt"
-        texturefile = "gfx/leaders/USA/P_D_Franklin_Roosevelt.png"
+        name = "GFX_P_D_Franklin_Roosevelt_1933"
+        texturefile = "gfx/leaders/USA/P_D_Franklin_Roosevelt_1933.png"
     }
 
     spriteType = {
-        name = "GFX_P_D_Franklin_Roosevelt_1933"
-        texturefile = "gfx/leaders/USA/P_D_Franklin_Roosevelt_1933.png"
+        name = "GFX_P_D_Franklin_Roosevelt_1940"
+        texturefile = "gfx/leaders/USA/P_D_Franklin_Roosevelt_1940.png"
     }
 
     spriteType = {
