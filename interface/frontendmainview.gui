@@ -323,7 +323,7 @@ guiTypes = {
 			buttonFont = "Bebas_Neue_45"
 			clicksound = click_default
 			oversound = ui_menu_over
-			web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=2824483457"
+			web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=2906604003"
 			format = left
 			scale = 0.8
 		}
