@@ -1008,6 +1008,8 @@ equipments = {
 		interface_category = interface_category_air
 		allow_mission_type = {
 			training
+			paradrop
+			air_supply
 		}
 		# Transport
 		interface_overview_category_index = 6
