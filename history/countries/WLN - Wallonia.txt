@@ -7,7 +7,8 @@
 	# Research
 	#######################
 	set_technology = {
-	basic_train = 1
+	basic_train = 1
+
 		Small_Arms_1916 = 1
 	}
 	#######################
@@ -33,7 +34,7 @@
 	create_country_leader = {
 		name = "Léon Degrelle"
 		desc = ""
-		picture = GFX_gfx/leaders/BEL/P_F_Leon_Degrelle
+		picture = GFX_P_F_Leon_Degrelle
 		expire = "1994.3.31"
 		ideology = rexism
 		traits = {
