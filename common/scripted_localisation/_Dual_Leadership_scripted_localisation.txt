@@ -460,6 +460,12 @@ defined_text = {
 	 	}
 	 	localization_key = FRA_Henri_Giraud
 	}
+	text = {
+		trigger = {
+		   has_idea = FRA_Charles_Maurras_HoG
+		}
+		localization_key = FRA_Charles_Maurras
+    }
 
 	#### TIB - Tibet
 	text = {

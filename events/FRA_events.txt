@@ -61,7 +61,9 @@ country_event = {
 			remove_ideas_with_trait = Position_Foreign_Minister
 			remove_ideas_with_trait = Position_Minister_of_Security
 			remove_ideas_with_trait = Position_Armaments_Minister
+			remove_ideas_with_trait = POSITION_President
 		}
+		add_ideas = FRA_Marcel_Cachin_HoG
 	}
 }
 #########################################################################
@@ -1053,7 +1055,7 @@ news_event = {
 		name = FRA_Reform_of_the_State.8.A
 		remove_ideas = FRA_The_Third_Republic_2
 		add_ideas = FRA_Renaissance_Republicaine
-		complete_national_focus = FRA_The_Reform_is_a_Success
+		complete_national_focus = FRA_National_republican_League
 		clr_country_flag = FRA_Launched_the_Reform_of_the_State
 		set_country_flag = FRA_Reform_of_the_State_Success
 		mark_focus_tree_layout_dirty = yes
@@ -2986,6 +2988,7 @@ country_event = {
 		retire_character = FRA_Maurice_Gamelin
 		hidden_effect = {
 			news_event = { id = FRA_Army.2 days = 4 }
+			set_country_flag = Maurice_Gamelin_unavailable
 		}
 	}
 	option = {
@@ -3038,9 +3041,10 @@ country_event = {
 		add_ideas = FRA_Charles_de_Gaulle_CoArmy
 		add_political_power = -50
 		custom_effect_tooltip = FRA_Abandon_The_Maginot_Line_tt
-		set_country_flag = FRA_Abandon_The_Maginot_Line
 		hidden_effect = {
+			set_country_flag = FRA_Abandon_The_Maginot_Line
 			set_country_flag = Henri_Mordacq_unavailable
+			set_country_flag = DeGaulle_Promoted
 		}
 	}
 	option = {
@@ -3048,7 +3052,10 @@ country_event = {
 		add_ideas = FRA_Henri_Mordacq_CoArmy
 		add_political_power = -75
 		custom_effect_tooltip = FRA_Abandon_The_Maginot_Line_tt
-		set_country_flag = FRA_Abandon_The_Maginot_Line
+		hidden_effect = {
+			set_country_flag = FRA_Abandon_The_Maginot_Line
+			set_country_flag = Mordacq_Promoted
+		}
 	}
 }
 #########################################################################
@@ -4016,7 +4023,26 @@ country_event = {
 	
 	option = {
 		name = FRA_Wartime_Tree.10.A
-		
+		trigger = {
+			NOT = {
+				has_country_flag = Maurice_Gamelin_unavailable
+			}
+		}
+		add_ideas = FRA_Maurice_Gamelin_CoStaff
+	}
+	option = {
+		name = FRA_Wartime_Tree.10.B
+		trigger = {
+			has_country_flag = Mordacq_Promoted
+		}
+		add_ideas = FRA_Henri_Mordacq_CoStaff
+	}
+	option = {
+		name = FRA_Wartime_Tree.10.C
+		trigger = {
+			has_country_flag = DeGaulle_Promoted
+		}
+		add_ideas = FRA_Charles_de_Gaulle_CoStaff
 	}
 }
 
