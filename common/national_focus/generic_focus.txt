@@ -17,7 +17,7 @@ focus_tree = {
 focus = {
 	id = GEN_Improving_the_Rural_Industry
 	icon = GFX_goal_generic_construction2
-	cost = 35
+	cost = 70
 	#x = 90
 	x = 8
 	y = 0
@@ -69,7 +69,7 @@ focus = {
 focus = {
 	id = GEN_Improve_Agricutlural_Methods
 	icon = GFX_GENERIC_Support_for_Agriculture
-	cost = 45
+	cost = 70
 	prerequisite = {
 		focus = GEN_Improving_the_Rural_Industry
 	}
@@ -97,7 +97,7 @@ focus = {
 focus = {
 	id = GEN_Land_Reform_economic
 	icon = GFX_GENERIC_Agrarian_Reform
-	cost = 70
+	cost = 65
 	prerequisite = {
 		focus = GEN_Improving_the_Rural_Industry
 	}
@@ -126,7 +126,7 @@ focus = {
 focus = {
 	id = GEN_Improve_Provincial_Infrastructure
 	icon = GFX_GENERIC_Road_Construction
-	cost = 35
+	cost = 65
 	prerequisite = {
 		focus = GEN_Improve_Agricutlural_Methods
 		focus = GEN_Land_Reform_economic
@@ -181,7 +181,7 @@ focus = {
 			}
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
-				type = industrial_complex
+				type = infrastructure
 				level = 1
 				instant_build = yes
 			}
@@ -209,23 +209,12 @@ focus = {
 			idea = generic_idea_new_railways
 			days = 365
 		}
-		random_owned_controlled_state = {
-			limit = {
-				is_core_of = ROOT
-			}
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
-			}
-		}
 	}
 }
 focus = {
 	id = GEN_State_Controlled_Monopoly
 	icon = GFX_GENERIC_Centralization
-	cost = 35
+	cost = 65
 	prerequisite = {
 		focus = GEN_Start_Building_a_New_Railway
 	}
@@ -239,17 +228,6 @@ focus = {
 		swap_ideas = {
 			remove_idea = generic_idea_new_railways
 			add_idea = generic_idea_new_railways_state
-		}
-		random_owned_controlled_state = {
-			limit = {
-				is_core_of = ROOT
-			}
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
-			}
 		}
 	}
 }
@@ -270,17 +248,6 @@ focus = {
 		swap_ideas = {
 			remove_idea = generic_idea_new_railways
 			add_idea = generic_idea_new_railways_private
-		}
-		random_owned_controlled_state = {
-			limit = {
-				is_core_of = ROOT
-			}
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
-			}
 		}
 	}
 }
@@ -319,7 +286,7 @@ focus = {
 focus = {
 	id = GEN_Promote_Urbanization
 	icon = GFX_goal_generic_consumer_goods
-	cost = 56
+	cost = 65
 	prerequisite = {
 		focus = GEN_Improving_the_Rural_Industry
 	}
@@ -330,17 +297,6 @@ focus = {
 		add_timed_idea = {
 			idea = generic_idea_promote_urbanization
 			days = 200
-		}
-		random_owned_controlled_state = {
-			limit = {
-				is_core_of = ROOT
-			}
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
-				instant_build = yes
-			}
 		}
 	}
 }
@@ -397,7 +353,7 @@ focus = {
 focus = {
 	id = GEN_Invest_in_Airports
 	icon = GFX_GENERIC_International_Airport
-	cost = 35
+	cost = 65
 	prerequisite = {
 		focus = GEN_Build_up_the_Capital_City
 	}
@@ -477,7 +433,7 @@ focus = {
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = arms_factory 
-				level = 2
+				level = 1
 				instant_build = yes
 			}
 		}
@@ -486,7 +442,7 @@ focus = {
 focus = {
 	id = GEN_Begin_the_Industrialization_Process
 	icon = GFX_goal_generic_construct_civ_factory
-	cost = 100
+	cost = 365
 	prerequisite = {
 		focus = GEN_Invest_in_Airports
 	}
@@ -523,7 +479,7 @@ focus = {
 focus = {
 	id = GEN_Contract_Skilled_Workers
 	icon = GFX_focus_generic_self_management
-	cost = 21
+	cost = 56
 	prerequisite = {
 		focus = GEN_Begin_the_Industrialization_Process
 	}
@@ -548,7 +504,7 @@ focus = {
 			}
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
-				type = industrial_complex
+				type = infrastructure
 				level = 1
 				instant_build = yes
 			}
@@ -558,7 +514,7 @@ focus = {
 focus = {
 	id = GEN_Exploit_Natural_Riches_Economic
 	icon = GFX_GENERIC_Anti_Poverty_Campaign
-	cost = 100
+	cost = 150
 	prerequisite = {
 		focus = GEN_Contract_Skilled_Workers
 	}
@@ -572,7 +528,7 @@ focus = {
 focus = {
 	id = GEN_Promote_Trade
 	icon = GFX_goal_generic_positive_trade_relations
-	cost = 35
+	cost = 56
 	prerequisite = {
 		focus = GEN_Contract_Skilled_Workers
 	}
@@ -659,7 +615,7 @@ focus = {
 focus = {
 	id = GEN_Build_Roads_to_Increase_Commerce
 	icon = GFX_GENERIC_Silk_Industry
-	cost = 56
+	cost = 70
 	prerequisite = {
 		focus = GEN_Promote_Trade
 		focus = GEN_Development_on_our_own
@@ -672,18 +628,7 @@ focus = {
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
 				type = infrastructure
-				level = 1
-				instant_build = yes
-			}
-		}
-		random_owned_controlled_state = {
-			limit = {
-				is_core_of = ROOT
-			}
-			add_extra_state_shared_building_slots = 1
-			add_building_construction = {
-				type = industrial_complex
-				level = 1
+				level = 2
 				instant_build = yes
 			}
 		}
@@ -715,7 +660,7 @@ focus = {
 focus = {
 	id = GEN_Reactive_Old_Armories
 	icon = GFX_BUL_Remilitarization_of_Bulgaria
-	cost = 21
+	cost = 65
 	prerequisite = {
 		focus = GEN_Contract_Skilled_Workers
 	}
@@ -748,7 +693,7 @@ focus = {
 focus = {
 	id = GEN_Expand_the_Domestic_Arms_Industry
 	icon = GFX_goal_generic_construct_mil_factory
-	cost = 70
+	cost = 75
 	prerequisite = {
 		focus = GEN_Reactive_Old_Armories
 	}
@@ -802,7 +747,7 @@ focus = {
 focus = {
 	id = GEN_Increase_the_Wealth_of_the_People
 	icon = GFX_GENERIC_Gold
-	cost = 14
+	cost = 35
 	prerequisite = {
 		focus = GEN_Contract_Skilled_Workers
 	}
@@ -922,7 +867,7 @@ focus = {
 focus = {
 	id = GEN_Increase_the_Iron_Production
 	icon = GFX_focus_generic_steel
-	cost = 35
+	cost = 70
 	prerequisite = {
 		focus = GEN_Exploit_Natural_Riches_Economic
 	}
@@ -983,7 +928,7 @@ focus = {
 focus = {
 	id = GEN_Capital_Renovation_Plan
 	icon = GFX_GENERIC_Public_Works
-	cost = 25
+	cost = 70
 	prerequisite = {
 		focus = GEN_Exploit_Natural_Riches_Economic
 	}
@@ -1011,7 +956,7 @@ focus = {
 focus = {
 	id = GEN_Invest_in_Synthetic_Industry
 	icon = GFX_GENERIC_Autarky
-	cost = 42
+	cost = 80
 	prerequisite = {
 		focus = GEN_Exploit_Natural_Riches_Economic
 	}
@@ -1053,7 +998,7 @@ focus = {
 focus = {
 	id = GEN_Invest_in_Consumer_Industry
 	icon = GFX_GENERIC_Stimulus_Plan
-	cost = 42
+	cost = 80
 	prerequisite = {
 		focus = GEN_Exploit_Natural_Riches_Economic
 	}
@@ -1101,7 +1046,7 @@ focus = {
 focus = {
 	id = GEN_Into_the_Modern_Age
 	icon = GFX_GENERIC_Military_Industrial_Complexes
-	cost = 140
+	cost = 365
 	prerequisite = {
 		focus = GEN_Invest_in_Synthetic_Industry
 		focus = GEN_Invest_in_Consumer_Industry
@@ -1125,10 +1070,10 @@ focus = {
 				limit = {
 					is_core_of = ROOT
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
