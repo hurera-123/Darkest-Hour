@@ -2015,7 +2015,7 @@
 
  # Formation of the Guards Army
  SOV_Formation_of_the_Guards_Army: "Formation of the Guards Army"
- SOV_Formation_of_the_Guards_Army_desc: "\n\n\n£decision_header£\n\n\n\nArise brave men and women for your scared duty, arise factory worker's from your labor, arise peasant's from your slumber to your scared responsibility.\n\nArise to the defense of the motherland.\n\nThese are the duties of the Guard."
+ SOV_Formation_of_the_Guards_Army_desc: "\n\n\n£decision_header_SOV_Guards_Army£\n\n\n\nArise brave men and women for your scared duty, arise factory worker's from your labor, arise peasant's from your slumber to your scared responsibility.\n\nArise to the defense of the motherland.\n\nThese are the duties of the Guard."
  SOV_Introduce_Guards_Title: "Introduce the Guards Title"
  SOV_Introduce_Guards_Title_tt: "§YThe first Guards divisions will be deployed§!"
  SOV_Guards_Army_Formed: "§YThe Guards army has been formed§!"

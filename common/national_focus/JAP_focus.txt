@@ -311,7 +311,9 @@ focus_tree = {
 			focus = JAP_Gift_From_Kami
 		}
 		completion_reward = {
-			remove_ideas = JAP_Araki_Sadao_CoArmy
+			hidden_effect = {
+				remove_ideas = JAP_Araki_Sadao_CoArmy
+			}
 			add_ideas= JAP_Hayashi_Senjuro_CoArmy
 			# Aizawa Incident
 			hidden_effect = {
@@ -2072,10 +2074,16 @@ focus_tree = {
 		cost = 50
 		x = 29
 		y = 9
-		prerequisite = {
-			
-		}
 		available = {
+			OR = {
+				AND = {
+					GER = {
+						has_war_with = ENG
+						has_global_flag = fall_of_france
+					}
+				}
+				date > 1941.1.1
+			}
 			has_country_flag = Toseiha_Win
 			if = {
 				limit = {

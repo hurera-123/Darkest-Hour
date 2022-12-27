@@ -210,7 +210,7 @@ country_event = {
 		name = GER_Third_Versailles.6.c
 		hidden_effect = {
 			country_event = {
-				id = GER_Third_Versailles.6
+				id = GER_Third_Versailles.7
 				hours = 6
 			}
 		}

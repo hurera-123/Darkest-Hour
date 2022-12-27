@@ -363,7 +363,7 @@ FRA_Franco_Polish_Relations = {
 	}
 }
 
-FRA_VIC_Dont_Join_Faction = {
+FRA_VIC_Be_Neutral = {
 	allowed = {
 		original_tag = FRA
 	}
@@ -415,6 +415,26 @@ FRA_VIC_Dont_Join_Faction = {
 	ai_strategy = {
 		type = alliance
 		id = "CHI"
+		value = -250
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = -250
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = -250
+	}
+	ai_strategy = {
+		type = conquer
+		id = "VIC"
+		value = -250
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
 		value = -250
 	}
 }

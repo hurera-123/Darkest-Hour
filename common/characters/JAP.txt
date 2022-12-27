@@ -3391,7 +3391,6 @@ characters={
 				NOT = { has_country_flag = Araki_Sadao_unavailable }
 			}
 			traits={
-				
 				HoI_Naval_Intelligence_Specialist
 			}
 		}
@@ -3403,12 +3402,11 @@ characters={
 			}
 			visible={
 				date > 1933.01.01
-				date < 1964.01.01
+				date < 1934.01.23
 				A_Minister_Allowed = yes
 				NOT = { has_country_flag = Araki_Sadao_unavailable }
 			}
 			traits={
-				
 				L_Stern_Imperialist
 			}
 		}
@@ -6126,7 +6124,7 @@ characters={
 			}
 			visible={
 				date > 1937.01.01
-				date < 1964.01.01
+				date < 1943.02.04
 				A_Minister_Allowed = yes
 				NOT = { has_country_flag = Hayashi_Senjuro_unavailable }
 			}
@@ -6143,7 +6141,7 @@ characters={
 			}
 			visible={
 				date > 1933.01.01
-				date < 1964.01.01
+				date < 1943.02.04
 				A_Minister_Allowed = yes
 				NOT = { has_country_flag = Hayashi_Senjuro_unavailable }
 			}

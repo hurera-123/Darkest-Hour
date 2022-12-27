@@ -2975,6 +2975,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Hayashi_Senjuro"
+        texturefile = "gfx/interface/ideas/Cabinet/JAP/Hayashi_Senjuro.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Hideo_Kodama"
         texturefile = "gfx/interface/ideas/Cabinet/JAP/Hideo_Kodama.png"
     }
