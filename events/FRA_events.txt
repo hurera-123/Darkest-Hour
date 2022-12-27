@@ -2153,10 +2153,29 @@ country_event = {
 	option = {
 		name = FRA_Front_Populaire_1936.11.A
 		retire_country_leader = yes
-		FRA_Camille_Chautemps = { promote_character = yes } #Could not work if chautemps has never been leader before
 		add_days_mission_timeout = {
 			mission = FRA_Le_Front_Populaire
 			days = -93
+		}
+		if = {
+			limit = { has_country_flag = Chautemps_Appointed }
+			retire_country_leader = yes
+			FRA_Camille_Chautemps = {promote_character = yes}
+		}
+		else = {
+			set_country_flag = Chautemps_Appointed
+			retire_country_leader = yes
+			add_country_leader_role = {
+				Character = FRA_Camille_Chautemps
+				Promote_leader = yes
+				Country_leader = {
+					ideology = social_democracy
+					traits = {
+						POSITION_Prime_Minister
+						L_Silent_Workhorse
+					}
+				}
+			}
 		}
 	}
 }

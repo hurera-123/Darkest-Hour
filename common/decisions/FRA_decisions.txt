@@ -2895,7 +2895,7 @@ FRA_Le_Front_Populaire_category = {
 		complete_effect = {
 			add_stability = 0.15
 			set_temp_variable = {
-				modifier_value = 0.05
+				modifier_value = 0.02
 			}
 			change_unemployment_value_modifier = yes
 			add_days_mission_timeout = {
