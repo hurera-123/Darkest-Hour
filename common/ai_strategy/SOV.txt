@@ -829,6 +829,80 @@ SOV_Ignore_Claims_in_Romania = {
 		value = 1
 	}
 }
+SOV_Dont_Come_Back_After_Losing = {
+	enable = {
+		tag = SOV
+		NOT = {
+			has_war_with = GER
+		}
+		GER = {
+			has_country_flag = germany_bitter_peace_military_occupation
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = ignore
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = ignore
+		id = "RUK"
+		value = 200
+	}
+	ai_strategy = {
+		type = ignore
+		id = "ROS"
+		value = 200
+	}
+	ai_strategy = {
+		type = ignore
+		id = "RMO"
+		value = 200
+	}
+	ai_strategy = {
+		type = ignore
+		id = "RKA"
+		value = 200
+	}
+	ai_strategy = {
+		type = ignore
+		id = "RUR"
+		value = 200
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = "GER"
+		value = 1
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = "RUK"
+		value = 1
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = "ROS"
+		value = 1
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = "RMO"
+		value = 1
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = "RKA"
+		value = 1
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = "RUR"
+		value = 1
+	}
+}
 #########################
 # Military
 #########################
