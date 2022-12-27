@@ -1528,12 +1528,12 @@ defined_text = {
 		}
 		localization_key = GFX_P_D_John_Bricker
 	}
-	# text = {
-	# 	trigger = {
-	# 		has_idea = USA_Henry_Wallace_HoG
-	# 	}
-	# 	localization_key = GFX_P_D_Henry_Wallace
-	# }
+	text = {
+		trigger = {
+	 		has_idea = USA_Henry_Wallace_HoG
+	 	}
+	 	localization_key = GFX_P_D_Henry_Wallace
+	}
 	text = {
 		trigger = {
 			has_idea = USA_Cordell_Hull_HoG

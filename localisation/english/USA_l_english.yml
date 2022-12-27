@@ -81,6 +81,14 @@
  US_special.1.A: "Here we go again..."
 
  ### USA Event
+ USA.1.t: "Golden Gate Bridge Opened for Public Use"
+ USA.1.d: "[FROM.GetNewsIcon]"
+ USA.1.A: ""
+
+ USA.2.t: "Panic on Alien Invasion!"
+ USA.2.d: "[FROM.GetNewsIcon]"
+ USA.2.A: ""
+
  USA.3.t: "Tornado outbreaks in the Southeast"
  USA.3.d: "[FROM.GetNewsIcon]\nJust a few days ago an onslaught of tornadoes hit hard in the Deep South, reaching even into some parts of Mississippi. Accounts of the event tell us of about 10 to 12 tornadoes which touched down. Most affected were the towns of Gainesville, Georgia and Tupelo, Mississippi. While the inhabitants have just crawled out of the shelters and some lucky survivors escaped their destroyed homes, the question now lies on how both the local governments and the federal government will respond. While damages are still being quantified, experts estimate the total loss to be between 7 million and 14 million dollars."
  USA.3.D1: "Divert all posible federal resources."
