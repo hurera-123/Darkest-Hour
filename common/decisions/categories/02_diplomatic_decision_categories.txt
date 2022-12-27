@@ -250,6 +250,9 @@ SOV_intervention_in_spain = {
 	}
 	visible = {
 		has_country_flag = SOV_support_SPR
+		SPR = {
+			has_war_with = SPA
+		}
 	}
 }
 JAP_Victory_In_China_category = {

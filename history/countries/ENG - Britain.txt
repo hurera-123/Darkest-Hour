@@ -402,15 +402,6 @@ recruit_character = ENG_Edward_Ellington
 	######################
 	# Diplomacy
 	#######################
-	OMA = { give_resource_rights = { receiver = ENG state = 294 } }
-	PER = {
-		give_resource_rights = { receiver = ENG state = 413 } # Iran
-		give_resource_rights = { receiver = ENG state = 412 } # Iran
-		give_resource_rights = { receiver = ENG state = 411 } # Iran
-	}
-	IRQ = {
-		give_resource_rights = { receiver = ENG state = 291 } # Iraq
-	}
 	# Faction
 	create_faction = FACTION_Entente
 	add_to_faction = ENG

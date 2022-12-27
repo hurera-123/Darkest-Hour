@@ -813,6 +813,22 @@ SOV_Ignore_Claims_in_Turkey = {
 		value = 1
 	}
 }
+SOV_Ignore_Claims_in_Romania = {
+	enable = {
+		tag = SOV
+		NOT = {
+			has_war_with = ROM
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = ignore_claim
+		id = "ROM"
+		value = 1
+	}
+}
 #########################
 # Military
 #########################

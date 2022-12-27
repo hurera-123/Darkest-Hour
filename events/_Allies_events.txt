@@ -1419,6 +1419,8 @@ country_event = {
 				}
 				FRA = {
 					change_tag_from = FFL
+				}
+				FRA = {
 					transfer_state = 1505
 					transfer_state = 762
 					transfer_state = 1022

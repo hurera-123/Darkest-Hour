@@ -1028,6 +1028,18 @@ on_actions = {
                     value = 28
                 }
             }
+			# Resource rights
+			OMA = { give_resource_rights = { receiver = ENG state = 294 } }
+			PER = {
+				give_resource_rights = { receiver = ENG state = 413 } # Iran
+				give_resource_rights = { receiver = ENG state = 412 } # Iran
+				give_resource_rights = { receiver = ENG state = 411 } # Iran
+			}
+			IRQ = {
+				give_resource_rights = { receiver = ENG state = 291 } # Iraq
+				give_resource_rights = { receiver = FRA state = 676 }
+			}
+			SAU = { give_resource_rights = { receiver = USA state = 292 } }
 			# GOALS AND ACHIEVEMENTS #
 			random_country = {
 				set_up_goals_and_achievements = yes

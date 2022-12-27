@@ -82,7 +82,7 @@ equipments = {
 		lg_attack = 0
 		
 		torpedo_attack = 0
-		carrier_size = 6
+		carrier_size = 4
 		
 		anti_air_attack = 8
 		
@@ -141,7 +141,7 @@ equipments = {
 		# fire_range = 15.5
 		torpedo_attack = 0
 		sub_attack = 16
-		carrier_size = 18
+		carrier_size = 4
 		anti_air_attack = 8
 		armor_value = 1
 		# evasion = 10
@@ -215,7 +215,7 @@ equipments = {
 		lg_armor_piercing = 0
 		lg_attack = 0
 		torpedo_attack = 0
-		carrier_size = 6
+		carrier_size = 8
 		
 		anti_air_attack = 8
 		
@@ -261,7 +261,7 @@ equipments = {
 		lg_armor_piercing = 0
 		lg_attack = 0
 		torpedo_attack = 0
-		carrier_size = 6
+		carrier_size = 8
 		
 		anti_air_attack = 8
 		

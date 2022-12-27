@@ -414,6 +414,14 @@ country_event = {
 			}
 			transfer_state = 805
 		}
+		if = {
+			limit = {
+				SOV = {
+					controls_state = 1171
+				}
+			}
+			transfer_state = 1171
+		}
 	}
 	option = { # Refuse
 		name = LIT_Soviet_Annexation.1.B

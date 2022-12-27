@@ -46,28 +46,27 @@ be_friend_with_germany = {
 play_nice_with_ribbentrop_pact = {
 	enable = {
 		tag = GER
-		has_global_flag = sov_yes_pact
+		has_global_flag = Molotov_Ribbentrop_Signed
 	}
 	abort = {
 		OR = {
 			GER = {
 				has_war_with = SOV
 			}
-			date > 1941.5.1
-			AND = {
-				LIT = {
-					is_in_faction_with = SOV
-				}
-				LAT = {
-					is_in_faction_with = SOV
-				}
-				EST = {
-					is_in_faction_with = SOV
-				}
-			}
+			has_completed_focus = GER_Eye_to_The_East
 		}
 	}
 	# leave britney alone!
+	ai_strategy = {
+		type = ignore
+		id = "SOV"
+		value = 200
+	}
+	ai_strategy = {
+		type = ignore
+		id = "FIN"
+		value = 100
+	}
 	ai_strategy = {
 		type = ignore
 		id = "LIT"
@@ -761,17 +760,17 @@ GER_Operation_Weserubung = {
 	ai_strategy = {
 		type = declare_war
 		id = "HOL"
-		value = -500
+		value = -200
 	}
 	ai_strategy = {
 		type = declare_war
 		id = "BEL"
-		value = -500
+		value = -200
 	}
 	ai_strategy = {
 		type = declare_war
 		id = "LUX"
-		value = -500
+		value = -200
 	}
 	ai_strategy = {
 		type = prepare_for_war
@@ -801,7 +800,7 @@ GER_Operation_Weserubung = {
 	ai_strategy = {
 		type = invade
 		id = "NOR"
-		value = 50
+		value = 500
 	}
 	ai_strategy = {
 		type = front_control
