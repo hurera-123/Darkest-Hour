@@ -125,6 +125,7 @@ script_enum_operative_mission_type = {
 }
 
 script_enum_advisor_slot_type = {
+	Head_of_Government
 	# DH Advisors
 	Chief_of_Airforce
 	Chief_of_Navy

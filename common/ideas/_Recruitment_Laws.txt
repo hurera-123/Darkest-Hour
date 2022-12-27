@@ -52,7 +52,7 @@ ideas = {
 				base = 0
 				modifier = {
 					#Prio if low on manpower
-					add = 100
+					add = 1000
 					manpower_per_military_factory < 1000
 				}
 			}
@@ -78,7 +78,7 @@ ideas = {
 				base = 0
 				modifier = {
 					#Prio if low on manpower
-					add = 100
+					add = 1000
 					manpower_per_military_factory < 800
 				}
 				modifier = {
@@ -116,7 +116,7 @@ ideas = {
 				base = 0
 				modifier = {
 					#Prio if low on manpower
-					add = 100
+					add = 1000
 					manpower_per_military_factory < 800
 				}
 				modifier = {
@@ -164,13 +164,8 @@ ideas = {
 				base = 0
 				modifier = {
 					#Prio if low on manpower
-					add = 100
+					add = 1000
 					manpower_per_military_factory < 700
-				}
-				modifier = {
-					#Lower chance if has decent amount
-					factor = 0.5
-					manpower_per_military_factory > 1000
 				}
 				modifier = {
 					#Block has plenty manpower
@@ -241,7 +236,7 @@ ideas = {
 				base = 0
 				modifier = {
 					#Prio if low on manpower
-					add = 100
+					add = 1000
 					manpower_per_military_factory < 600
 				}
 				modifier = {
@@ -319,7 +314,7 @@ ideas = {
 				base = 0
 				modifier = {
 					#Prio if low on manpower
-					add = 100
+					add = 1000
 					manpower_per_military_factory < 500
 				}
 				modifier = {

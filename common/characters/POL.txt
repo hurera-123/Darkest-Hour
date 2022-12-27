@@ -4084,7 +4084,7 @@ characters={
 			}
 		}
 		advisor={
-			slot=Chief_of_Air
+			slot=Chief_of_Airforce
 			idea_token=POL_Stefan_Antosiewicz_CoAir
 			
 			allowed = {
@@ -4820,7 +4820,7 @@ characters={
 			}
 		}
 		advisor={
-			slot=Chief_of_Air
+			slot=Chief_of_Airforce
 			idea_token=POL_Alfred_Chlapowski_CoAir
 			
 			allowed = {
@@ -4848,7 +4848,7 @@ characters={
 			}
 		}
 		advisor={
-			slot=Chief_of_Air
+			slot=Chief_of_Airforce
 			idea_token=POL_Sergiusz_Abzoltowski_CoAir
 			
 			allowed = {
@@ -4876,7 +4876,7 @@ characters={
 			}
 		}
 		advisor={
-			slot=Chief_of_Air
+			slot=Chief_of_Airforce
 			idea_token=POL_Jozef_Zajac_CoAir
 			
 			allowed = {
@@ -4904,7 +4904,7 @@ characters={
 			}
 		}
 		advisor={
-			slot=Chief_of_Air
+			slot=Chief_of_Airforce
 			idea_token=POL_Ludomil_Rayski_CoAir
 			
 			allowed = {
@@ -4932,7 +4932,7 @@ characters={
 			}
 		}
 		advisor={
-			slot=Chief_of_Air
+			slot=Chief_of_Airforce
 			idea_token=POL_Stanislaw_Pawluc_CoAir
 			
 			allowed = {
@@ -4960,7 +4960,7 @@ characters={
 			}
 		}
 		advisor={
-			slot=Chief_of_Air
+			slot=Chief_of_Airforce
 			idea_token=POL_Wladyslaw_Kalkus_CoAir
 			
 			allowed = {
@@ -4988,7 +4988,7 @@ characters={
 			}
 		}
 		advisor={
-			slot=Chief_of_Air
+			slot=Chief_of_Airforce
 			idea_token=POL_Ludwik_Grosfeld_CoAir
 			
 			allowed = {
@@ -5016,7 +5016,7 @@ characters={
 			}
 		}
 		advisor={
-			slot=Chief_of_Air
+			slot=Chief_of_Airforce
 			idea_token=POL_Czeslaw_Bieszczad_CoAir
 			
 			allowed = {
