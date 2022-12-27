@@ -14,7 +14,6 @@ state={
 		add_core_of = SOV
 		add_core_of = UKR
 		add_core_of = MOL
-		add_claim_by = SOV
 		1942.11.22 = {
 			controller = ROM
 
