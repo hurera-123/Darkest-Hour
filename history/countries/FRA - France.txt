@@ -404,7 +404,6 @@ recruit_character = FRA_Emmanuel_Ollive
 	######################
 	# Diplomacy
 	#######################
-	IRQ = { give_resource_rights = { receiver = FRA state = 676 } }
 	give_guarantee = AND
 	give_guarantee = SAR
 	give_guarantee = POL

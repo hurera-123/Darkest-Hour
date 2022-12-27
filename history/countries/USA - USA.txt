@@ -452,7 +452,6 @@ recruit_character = USA_Wendell_Willkie
 	#######################
 	# Diplomacy
 	#######################
-	SAU = { give_resource_rights = { receiver = USA state = 292 } }
 	#Monroe Doctrine
 	give_guarantee = CAN
 	give_guarantee = NFL

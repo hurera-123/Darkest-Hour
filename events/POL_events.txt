@@ -101,7 +101,7 @@ news_event = {
 	}
 	# The start of a dark road, perhaps...
 	option = {
-		name = POL_Death_of_Pilsudski.1.B
+		name = POL_Death_of_Pilsudski.1.A
 		trigger = {
 			NOT = {
 				original_tag = POL

@@ -1222,7 +1222,6 @@ news_event = { # Roosevelt Inaugurated President
 		retire_country_leader = yes
 		add_country_leader_role = {
 			character = USA_Franklin_D_Roosevelt
-			desc = USA_Franklin_Roosevelt_desc
 			promote_leader = yes
 			country_leader = {
 				ideology = social_liberalism
@@ -1669,7 +1668,7 @@ country_event = { # United States presidential election, 1940 Republican Convent
 	trigger = {
 		original_tag = USA
 		date > 1940.5.16
-		NOT = {has_country_flag = USA_RNC_1936_Landon }
+		NOT = {has_country_flag = USA_Landon_1936 }
 	}
 	# The Dark Horse Wilkie is our choice!
 	option = {
@@ -1688,7 +1687,7 @@ country_event = { # United States presidential election, 1940 Democratic Convent
 	trigger = {
 		original_tag = USA
 		date > 1940.7.17
-		NOT = {has_country_flag = USA_RNC_1936_Landon }
+		NOT = {has_country_flag = USA_Landon_1936 }
 	}
 	# FDR is Indispensable.
 	option = {
@@ -1704,7 +1703,7 @@ country_event = { # Election Night 1940
 	trigger = {
 		original_tag = USA
 		date > 1940.11.4
-		NOT = {has_country_flag = USA_RNC_1936_Landon }
+		NOT = {has_country_flag = USA_Landon_1936 }
 	}
 	# Let's all drink to Wilkie!
 	option = {
@@ -1865,7 +1864,7 @@ country_event = { # Republican Convention
 	trigger = {
 		original_tag = USA
 		date > 1940.5.16
-		has_country_flag = USA_RNC_1936_Landon
+		has_country_flag = USA_Landon_1936
 	}
 	# Landon will prevail again!
 	option = {
@@ -1881,7 +1880,7 @@ country_event = { # Democratic Convention
 	trigger = {
 		original_tag = USA
 		date > 1940.7.17
-		has_country_flag = USA_RNC_1936_Landon
+		has_country_flag = USA_Landon_1936
 	}
 	# We'll need our Texan Superstar!
 	option = {
@@ -1901,7 +1900,7 @@ country_event = { # Election Night 1940
 	trigger = {
 		original_tag = USA
 		date > 1940.11.4
-		has_country_flag = USA_RNC_1936_Landon
+		has_country_flag = USA_Landon_1936
 	}
 	# Here's to Four More years of Compromise!
 	option = {
@@ -1947,7 +1946,6 @@ news_event = { # Inauguration of John Nance Garner
 		retire_country_leader = yes
 		add_country_leader_role = {
 			character = USA_John_Nance_Garner
-			desc = USA_John_Nance_Garner_desc
 			promote_leader = yes
 			country_leader = {
 				ideology = social_conservatism
@@ -2055,7 +2053,6 @@ news_event = { # Inauguration of Tomas E. Dewey
 		retire_country_leader = yes
 		add_country_leader_role = {
 			character = USA_Thomas_E_Dewey
-			desc = USA_Thomas_E_Dewey_desc
 			promote_leader = yes
 			country_leader = {
 				ideology = social_conservatism
