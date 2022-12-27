@@ -800,12 +800,12 @@ FRA_Dont_Build_too_Much = {
 	allowed = { original_tag = FRA }
     enable = {
         has_army_size = {
-			size > 100
+			size > 140
 		}
     }
 	abort = {
 		has_army_size = {
-			size < 100
+			size < 140
 		}
 	}
 	ai_strategy = {
