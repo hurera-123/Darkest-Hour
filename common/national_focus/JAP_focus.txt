@@ -501,6 +501,17 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = Nihon_Lifeline
 			set_country_flag = The_Manchurian_Project
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 			base = 3
@@ -519,6 +530,17 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = Manchurian_Project
 			set_country_flag = The_Manchurian_Project
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 			base = 3
@@ -620,6 +642,17 @@ focus_tree = {
 				add_ideas = tot_economic_mobilisation
 				set_country_flag = MAN_Kakushin_Kanryo
 			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 			base = 3
@@ -639,6 +672,17 @@ focus_tree = {
 			MAN = {
 				add_ideas = MAN_Nobosuke_Kishi_M
 				set_country_flag = Shadow_Behind_Throne
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 		ai_will_do = {
