@@ -2,10 +2,10 @@
 	name = "Juntuán"					# Represents local militia groups (generally poorly-equipped)
 									
 	regiments = {
-		infantry = { x = 0 y = 0 }		# Note: Chinese divisions were brigade-sized compared other nations' armies
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
+		light_infantry = { x = 0 y = 0 }		# Note: Chinese divisions were brigade-sized compared other nations' armies
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
 	}
 
 }

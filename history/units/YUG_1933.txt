@@ -1,4 +1,6 @@
-﻿division_template = {
+﻿### One Guards, 2 Cavalry (4 regiments each), 16 Infantry (4 regiments infantry, 1 brigade artillery), 2 mountain brigades (2 batteries mountain artillery each) or 1 alpine division (independent brigades formed 1932, one division by 1935. 100k troops active total
+
+division_template = {
 	name = "pešadijska divizija"	# Infantry Division	
 
 	regiments = {

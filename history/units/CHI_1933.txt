@@ -3,27 +3,27 @@
 	division_names_group = CHI_INF_01
 
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 2 y = 0 }
+		light_infantry = { x = 2 y = 1 }
 	}
 }
 division_template = {
 	name = "Dì bāshíbā shī"
 
 	regiments = {
-			infantry = { x = 0 y = 0 }
-			infantry = { x = 0 y = 1 }
-			infantry = { x = 0 y = 2 }
-			infantry = { x = 1 y = 0 }
-			infantry = { x = 1 y = 1 }
-			infantry = { x = 1 y = 2 }
-			infantry = { x = 2 y = 0 }
-			infantry = { x = 2 y = 1 }
-			infantry = { x = 2 y = 2 }
+			light_infantry = { x = 0 y = 0 }
+			light_infantry = { x = 0 y = 1 }
+			light_infantry = { x = 0 y = 2 }
+			light_infantry = { x = 1 y = 0 }
+			light_infantry = { x = 1 y = 1 }
+			light_infantry = { x = 1 y = 2 }
+			light_infantry = { x = 2 y = 0 }
+			light_infantry = { x = 2 y = 1 }
+			light_infantry = { x = 2 y = 2 }
 	}
 }
 division_template = {
