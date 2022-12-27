@@ -9184,10 +9184,10 @@ SOV_Formation_of_the_Guards_Army = {
 		days_remove = 50
 		remove_effect = {
 			custom_effect_tooltip = SOV_Introduce_Guards_Title_tt
+			set_country_flag = SOV_Guards_Army_Formed
 			hidden_effect = {
 				load_oob = SOV_Guards_Infantry
 			}
-			set_country_flag = SOV_Guards_Army_Formed
 		}
 	}
 	SOV_Raise_Guards_Cavalry_Divisions = {
