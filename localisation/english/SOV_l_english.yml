@@ -137,7 +137,7 @@
 
  SOV_Great_Purge.17.t: "18th Congress of the All-Union Communist Party"
  SOV_Great_Purge.17.d: ""
- SOV_Great_Purge.17.A: ""
+ SOV_Great_Purge.17.A: "What will Comrade Stalin bring to the table this time? "
 
  SOV_Great_Purge.18.t: "The Cult of Stalin"
  SOV_Great_Purge.18.d: "Comrade Stalin, the "architect of socialism," leads the Soviet Union fearlessly into a brighter future! His ideals are the ideals of our country! His vision is the vision that will lead to the prosperity of our great Union!\n\nEven children can see the magnificence that emanates from our great "liberator of nations"! They follow the principles they learned in the Komsomol and Young Pioneers in the schools, holding "classroom trials" to uphold the integrity of their classmates and themselves, playing Reds and Whites games, and even pretending to be our glorious leader, Stalin, himself!\n\nOfficials at all levels of government are hanging on his every word! They look to Comrade Stalin as the guiding light of Soviet influence, shining brightly on all nations of the world! Those who oppose Stalin are opposing not only him, but also the will of the Soviet Union and all of its citizens! Lead the way, oh great Soviet patriarch!"
@@ -382,15 +382,15 @@
 
  SOV_Second_Year_Plan.1.t: "Liquidation of Khutors"
  SOV_Second_Year_Plan.1.d: "Initially khutor farming appeared in Russia in XVIII centry at cossack territories. Khutor was a small settlement, usually having less than 10 households, usually rich owners. Khutors spread all accross Russian Empire during the Stolypin's agrarian reform focused on bringing capitalism to Russian agricultural sector. These khutors now hinder collectivization and thus must be liquidated"
- SOV_Second_Year_Plan.1.A: ""
+ SOV_Second_Year_Plan.1.A: "Use every means necessary to get rid of them."
 
  SOV_Second_Year_Plan.2.t: "Liquidate Khutors in Kuban"
  SOV_Second_Year_Plan.2.d: "Finally freedom-loving cossacks of Kuban can be brought to the heel. With liquidation of their small settlements (khutors) we can strive for better indoctrination of these suspicious rural-dwellers"
- SOV_Second_Year_Plan.2.A: ""
+ SOV_Second_Year_Plan.2.A: "This is just the beginning."
 
  SOV_Second_Year_Plan.3.t: "Liquidate Khutors in Ukraine"
  SOV_Second_Year_Plan.3.d: "For many years Ukraine served as major grain basket of the Russian Empire. During Stolypin's agrarian reform, new khutors appeared here en masse. Now is the time to eliminate them. Ukrainian peasants should live in large villages, where it is easier to control them and make them work in kolkhozes"
- SOV_Second_Year_Plan.3.A: ""
+ SOV_Second_Year_Plan.3.A: "Our work is not over yet!"
 
  SOV_Second_Year_Plan.4.t: "Childcare System in the USSR"
  SOV_Second_Year_Plan.4.d: "Children are the future of every nation. Every single one of them holds the potential to become anything from a hard-working peasant, growing tonnes upon tonnes of crops to feed their fellow comrades, to a scientist, ready to make the next breakthrough in medicine, electricity or technology! Truly, they are the hope of the Motherland.\n\nHowever important children are, though, one cannot deny they are a hindrance for the first few years of their lives. Utterly dependent on their mothers for everything from moving to eating, they act as a distraction and hinder productivity. A natural question arises, then: How can we take care of the present and the future at the same time?\n\nThe answer lies in our childcare system. While not the first ones to implement it, we are the ones who perfected it. Crèches, government-supported daycare institutions, are places where infants and toddlers are taken care of by women specifically tasked with nurturing our precious little ones, making sure their needs are taken care of.\n\nAs there is no longer any need for them to look after their offspring, millions of young mothers can dedicate themselves fully to working to further the Motherland’s cause. As an added bonus, since they can occupy vital places in the workforce, more men can be conscripted than could be otherwise. The ingenuity of the Soviet people knows no bounds."
@@ -611,11 +611,11 @@
  ###Red Army Tree
  SOV_Red_Army.1.t: "State of the Red Army"
  SOV_Red_Army.1.d: "A report to the general staff of the Red Army on its combat ability.\n\nThe Workers and Peasants Red Army is commonly referred to as the Red Army. It is now plagued with corruption ranging from the lowest of officers to even our own commissars. Once the proud army of the people and the sign of the liberation of the working class is now a disorganized mess and severely lacking doctrinal coordination.\n\nTwo factions seem to be forming among our officer class. The first one is the doctrine of “deep battle”:  The process of thrusting into an enemy's rear after a breakthrough is made. Then there is the old guard's preferred way of doing things: "human wave tactics". This doctrine is comprised of overpowering our enemy by sheer numbers.\n\nIt is highly recommended that serious consideration and evaluation of the Red Army take place as advised in the 17th Congress."
- SOV_Red_Army.1.A: ""
+ SOV_Red_Army.1.A: "A crucial issue that needs to be addressed. "
 
  SOV_Red_Army.2.t: "Reports About Low Readiness of the Army"
  SOV_Red_Army.2.d: ""
- SOV_Red_Army.2.A: ""
+ SOV_Red_Army.2.A: "The Motherland needs the army ready at any given time. "
  
  SOV_Red_Army.3.t: "Reorganization of the General Staff"
  SOV_Red_Army.3.d: ""

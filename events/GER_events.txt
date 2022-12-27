@@ -14331,6 +14331,14 @@ country_event = {
 	desc = GER_Hess_Flight.1.d
 	picture = GFX_news_POL_Polish_Forces_Border
 	is_triggered_only = yes
+	trigger = {
+		GER = {
+			has_war_with = ENG
+		}
+		ENG = {
+			surrender_progress < 0.01
+		}
+	}
 	option = {
 		name = GER_Hess_Flight.1.A
 		GER = { 

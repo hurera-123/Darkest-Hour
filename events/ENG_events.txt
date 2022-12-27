@@ -3844,6 +3844,8 @@ country_event = {
 		name = ENG_Crumbling_Empire.7.A
 		CAN = {
 			change_tag_from = ENG
+		}
+		CAN = {
 			set_faction_leader = yes
 			annex_country = {
 				target = ENG
