@@ -2161,7 +2161,7 @@ ENG_protect_home = {
 			129
 		}
 		
-		ratio = 1.8
+		ratio = 2.5
 		
 		subtract_invasions_from_need = no
 		subtract_fronts_from_need = no

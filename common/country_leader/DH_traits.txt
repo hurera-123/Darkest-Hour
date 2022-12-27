@@ -637,7 +637,7 @@ leader_traits = {
 		industrial_capacity_factory = 0.03
 		local_resources_factor = 0.03
 		#research_bonus = { industry = 0.025 }
-		consumer_goods_factor = -0.1
+		consumer_goods_factor = -0.01
 		random = no
 	}
 	# Razor

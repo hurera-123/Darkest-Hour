@@ -57,7 +57,7 @@ equipments = {
 		breakthrough = 28
 		# Armor Stats
 		armor_value = 14
-		ap_attack = 92
+		ap_attack = 8
 		hardness = 0.55
 	}	
 	################################
@@ -82,7 +82,7 @@ equipments = {
 		breakthrough = 35
 		# Armor Stats
 		armor_value = 16
-		ap_attack = 105
+		ap_attack = 10
 		hardness = 0.6
 	}	
 	################################
@@ -107,7 +107,7 @@ equipments = {
 		breakthrough = 40
 		# Armor Stats
 		armor_value = 18
-		ap_attack = 120
+		ap_attack = 15
 		hardness = 0.7
 	}	
 	################################
@@ -132,7 +132,7 @@ equipments = {
 		breakthrough = 46
 		# Armor Stats
 		armor_value = 20
-		ap_attack = 130
+		ap_attack = 25
 		hardness = 0.8
 	}	
 	################################
@@ -157,7 +157,7 @@ equipments = {
 		breakthrough = 50
 		# Armor Stats
 		armor_value = 23
-		ap_attack = 140
+		ap_attack = 35
 		hardness = 0.85
 	}	
 	################################
@@ -182,7 +182,7 @@ equipments = {
 		breakthrough = 55
 		# Armor Stats
 		armor_value = 28
-		ap_attack = 150
+		ap_attack = 50
 		hardness = 0.85
 	}	
 }

@@ -2789,11 +2789,17 @@
 ######################################################################
 #  German Decisions
 ######################################################################
-#Third Treaty of Versailles
+# Third Treaty of Versailles
  GER_Third_Versailles_category: "The Third Treaty of Versailles"
  GER_Dictate_Terms_to_England: "Dictate Terms to England"
  GER_Dictate_Terms_to_France: "Dictate Terms to France"
  GER_Finalise_Versailles_Treaty: "Finalise the New Versailles Treaty"
+
+# Rebuild Destroyed Oilfield
+ GER_Rebuild_Grozny_Oilfields: "Rebuild Grozy Oilfields"
+ GER_Rebuild_Baku_Oilfields_1: "Get Baku Oilfields Operational"
+ GER_Rebuild_Baku_Oilfields_2: "Get Baku Oilfields at Full Capacity"
+ GER_Baku_Oilfields_Operational: "§ABaku Oilfields are currently operational.§!"
 
 #Oster Conspiracy
  GER_Oster_Conspiracy_WW2: "The Oster Conspiracy"

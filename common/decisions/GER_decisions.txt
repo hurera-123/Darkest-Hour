@@ -30,6 +30,124 @@ war_measures = {
 		}
 	}
 }
+#########################################################################
+#  Economy decisions
+#########################################################################
+economy_decisions = {
+	###########################
+	# Rebuild Grozny Oilfields
+	###########################
+	GER_Rebuild_Grozny_Oilfields = {
+		fire_only_once = yes
+		icon = GFX_decision_oil
+		allowed = {
+			OR = {
+				original_tag = GER
+				original_tag = RKA
+			}
+		}
+		available = {
+			controls_state = 232
+		}
+		on_map_mode = map_and_decisions_view
+		days_remove = 180
+		cost = 20
+		highlight_states = {
+			highlight_state_targets = {
+				state = 232
+			}
+		}
+		modifier = {
+			civilian_factory_use = 2
+		}
+		remove_effect = {
+			add_resource = {
+				type = oil
+				amount = 20
+				state = 232
+			}
+		}
+		ai_will_do = {
+			base = 500
+		}
+	}
+	###########################
+	# Get Baku Oilfields Operational
+	###########################
+	GER_Rebuild_Baku_Oilfields_1 = {
+		fire_only_once = yes
+		icon = GFX_decision_oil
+		allowed = {
+			OR = {
+				original_tag = GER
+				original_tag = RKA
+			}
+		}
+		available = {
+			controls_state = 229
+		}
+		on_map_mode = map_and_decisions_view
+		days_remove = 180
+		cost = 20
+		highlight_states = {
+			highlight_state_targets = {
+				state = 229
+			}
+		}
+		modifier = {
+			civilian_factory_use = 2
+		}
+		remove_effect = {
+			add_resource = {
+				type = oil
+				amount = 20
+				state = 229
+			}
+			set_country_flag = GER_Baku_Oilfields_Operational
+		}
+		ai_will_do = {
+			base = 500
+		}
+	}
+	###########################
+	# Get Baku Oilfields at Full Capacity
+	###########################
+	GER_Rebuild_Baku_Oilfields_2 = {
+		fire_only_once = yes
+		icon = GFX_decision_oil
+		allowed = {
+			OR = {
+				original_tag = GER
+				original_tag = RKA
+			}
+		}
+		available = {
+			controls_state = 229
+			has_country_flag = GER_Baku_Oilfields_Operational
+		}
+		on_map_mode = map_and_decisions_view
+		days_remove = 730
+		cost = 40
+		highlight_states = {
+			highlight_state_targets = {
+				state = 229
+			}
+		}
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_resource = {
+				type = oil
+				amount = 60
+				state = 229
+			}
+		}
+		ai_will_do = {
+			base = 500
+		}
+	}
+}
 
 #########################################################################
 #  Positive Christianity
