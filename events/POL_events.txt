@@ -1235,6 +1235,7 @@ country_event = { #Warsaw  Okiecie Opens for Business
 				instant_build = yes
 			}
 		}
+		complete_national_focus = POL_Warsaw_Airport
 	}
 }
 country_event = { #Investing in Civil Aviation
