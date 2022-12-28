@@ -1483,9 +1483,7 @@ focus_tree = {
 			}
 			custom_effect_tooltip = GER_Fallschirmtruppen_tt
 			hidden_effect = {
-				set_technology = {
-					paratroopers
-				}
+				set_technology = paratroopers
 			}
 			create_corps_commander = {
 				name = "Kurt Student"
@@ -4024,8 +4022,6 @@ focus_tree = {
 		cost = 40
 		prerequisite = {
 			focus = GER_Volkswagen
-		}
-		prerequisite = {
 			focus = GER_Reichswerke_Hermann_Goering
 		}
 		x = 6
