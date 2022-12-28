@@ -4790,7 +4790,16 @@ country_event = {
 			become_exiled_in = { target = ENG legitimacy = 50 }
 		}
 		
-		ENG = { add_to_faction = CZE }
+		ENG = { 
+			add_to_faction = CZE
+		}
+		CZE = {
+			add_to_war = {
+				targeted_alliance = ENG
+				enemy = GER
+				hostility_reason = asked_to_join
+			}
+		}
 	}
 }
 
