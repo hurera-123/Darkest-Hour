@@ -91,7 +91,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		original_tag = SOV
-		SOV = { has_war_with = GER }
+		has_war_with = GER
 		OR = {
 			NOT = { controls_state = 195 }
 			NOT = { controls_state = 219 }
@@ -149,7 +149,6 @@ country_event = {
 		add_political_power = 100
 		remove_ideas = SOV_The_German_Betrayal
 		set_country_flag = SOV_The_Great_Patriotic_War
-		complete_national_focus = SOV_The_Great_Patriotic_War
 		unlock_decision_category_tooltip = SOV_The_Great_Patriotic_War_category
 	}
 }
