@@ -549,7 +549,7 @@ ideas = {
 				stability_factor = -0.1
 				political_power_factor = -0.12
 				monthly_population = 0.15
-				research_spending_cost_factor = -0.7
+				research_spending_cost_factor = -0.75
 			}
 			ai_will_do = {
 				factor = 0
@@ -637,11 +637,11 @@ ideas = {
 				}
 			}
 			modifier = {
-				research_speed_factor = 0.15
+				research_speed_factor = 0.05
 				stability_factor = 0.03
 				political_power_factor = 0.03
 				monthly_population = -0.1
-				research_spending_cost_factor = 0.5
+				research_spending_cost_factor = 1
 			}
 			ai_will_do = {
 				base = 1
@@ -681,11 +681,11 @@ ideas = {
 				}
 			}
 			modifier = {
-				research_speed_factor = 0.25
+				research_speed_factor = 0.10
 				stability_factor = 0.05
 				political_power_factor = 0.1
 				monthly_population = -0.15
-				research_spending_cost_factor = 1
+				research_spending_cost_factor = 2
 			}
 			ai_will_do = {
 				base = 1
