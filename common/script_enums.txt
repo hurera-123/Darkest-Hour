@@ -135,5 +135,6 @@ script_enum_advisor_slot_type = {
 	Head_of_Intelligence
 	Foreign_Minister
 	Armaments_Minister
+	Minister
 	high_command
 }
