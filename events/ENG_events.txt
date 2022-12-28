@@ -3883,28 +3883,33 @@ country_event = {
 				days = 3
 			}
 		}
-		every_country = {
-			limit = {
-				is_in_faction_with = CAN
+		hidden_effect = {
+			GER = {
+				white_peace = CAN
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = CAN
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = GER
+					}
+					white_peace = PREV
+				}
 			}
 			every_country = {
 				limit = {
 					is_in_faction_with = GER
 				}
-				white_peace = PREV
-			}
-		}
-		every_country = {
-			limit = {
-				is_in_faction_with = GER
-			}
-			every_controlled_state = {
-				limit = {
-					OWNER = {
-						is_in_faction_with = CAN
+				every_controlled_state = {
+					limit = {
+						OWNER = {
+							is_in_faction_with = CAN
+						}
 					}
+					transfer_state_to = PREV
 				}
-				transfer_state_to = PREV
 			}
 		}
 		GER = {
