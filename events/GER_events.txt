@@ -5323,6 +5323,7 @@ news_event = {
 			original_tag = GER
 		}
 		drop_cosmetic_tag = yes
+		custom_effect_tooltip = GER_Nuremburg.2.A_tt
 	}
 	# Let us see eye-to-eye with the Germans
 	option = {
