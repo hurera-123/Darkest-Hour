@@ -54,8 +54,10 @@ units = {
 			"Albrecht Schubert" # German general
 		}
 		portraits = {
-			small = "GFX_M_Albrecht_Schubert"
-			large = "GFX_M_Albrecht_Schubert"
+            army = {
+				small = "GFX_M_Albrecht_Schubert"
+				large = "GFX_M_Albrecht_Schubert"
+			}
 		}
 		location = 11666 # Wien
 		division_template = "Infanterie-Division"
@@ -72,8 +74,10 @@ units = {
 			"Friedrich Materna" # Austrian general
 		}
 		portraits = {
-			small = "GFX_M_Friedrich_Materna"
-			large = "GFX_M_Friedrich_Materna"
+            army = {
+				small = "GFX_M_Friedrich_Materna"
+				large = "GFX_M_Friedrich_Materna"
+			}
 		}
 		location = 9665 # Linz
 		division_template = "Infanterie-Division"
@@ -110,8 +114,10 @@ units = {
 			"August von Nißl" # German general
 		}
 		portraits = {
-			small = "GFX_M_August_von_Nissl"
-			large = "GFX_M_August_von_Nissl"
+            army = {
+				small = "GFX_M_August_von_Nissl"
+				large = "GFX_M_August_von_Nissl"
+			}
 		}
 		location = 9648 # Graz
 		division_template = "Gebirgs-Division"

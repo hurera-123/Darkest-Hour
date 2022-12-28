@@ -947,7 +947,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = DD_equipment_1900
+			type = DD_equipment_1933
 			creator = "USA"
 		}
 		requested_factories = 11
@@ -967,7 +967,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = CA_equipment_1895
+			type = CA_equipment_1933
 			creator = "USA"
 		}
 		requested_factories = 5
