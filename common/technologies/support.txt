@@ -3003,6 +3003,9 @@ technologies = {
 		maintenance_company = {
 			reliability_factor = 0.05
 			equipment_capture_factor = 0.05
+			need = {
+				armor_equipment = 4
+			}
 		}
 		truck_attrition_factor = -0.07
 		research_cost = 1.5
@@ -3012,71 +3015,6 @@ technologies = {
 			position = {
 				x = @x12
 				y = @y10
-			}
-		}
-		infantry = {
-			need = {
-				armor_equipment = 4
-			}
-		}
-		SS_infantry = {
-			need = {
-				armor_equipment = 4
-			}
-		}
-		garrison = {
-			need = {
-				armor_equipment = 4
-			}
-		}
-		cavalry = {
-			need = {
-				armor_equipment = 4
-			}
-		}
-		SS_cavalry = {
-			need = {
-				armor_equipment = 4
-			}
-		}
-		motorized = {
-			need = {
-				armor_equipment = 4
-			}
-		}
-		SS_motorized = {
-			need = {
-				armor_equipment = 4
-			}
-		}
-		mechanized = {
-			need = {
-				armor_equipment = 4
-			}
-		}
-		SS_mechanized = {
-			need = {
-				armor_equipment = 4
-			}
-		}
-		heavy_mechanized = {
-			need = {
-				armor_equipment = 4
-			}
-		}
-		paratrooper = {
-			need = {
-				armor_equipment = 4
-			}
-		}
-		marine = {
-			need = {
-				armor_equipment = 4
-			}
-		}
-		mountaineers = {
-			need = {
-				armor_equipment = 4
 			}
 		}
 		categories = {
