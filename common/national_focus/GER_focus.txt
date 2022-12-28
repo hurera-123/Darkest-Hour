@@ -4023,8 +4023,10 @@ focus_tree = {
 		icon = GFX_GENERIC_Dissolve_Small_Corporations
 		cost = 40
 		prerequisite = {
-			focus = GER_Reichswerke_Hermann_Goering
 			focus = GER_Volkswagen
+		}
+		prerequisite = {
+			focus = GER_Reichswerke_Hermann_Goering
 		}
 		x = 6
 		y = 7
