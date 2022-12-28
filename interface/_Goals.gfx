@@ -1065,6 +1065,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_FRA_Abandon_the_Delusion"
+        texturefile = "gfx/interface/goals/FRA_Abandon_the_Delusion.png"
+    }
+
+    spriteType = {
         name = "GFX_FRA_Adopt_Fequants_Ideas"
         texturefile = "gfx/interface/goals/FRA_Adopt_Fequants_Ideas.png"
     }
