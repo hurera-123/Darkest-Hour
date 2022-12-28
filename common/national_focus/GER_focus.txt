@@ -1482,6 +1482,11 @@ focus_tree = {
 				load_oob = GER_Fallschirmtruppen
 			}
 			custom_effect_tooltip = GER_Fallschirmtruppen_tt
+			hidden_effect = {
+				set_technology = {
+					paratroopers
+				}
+			}
 			create_corps_commander = {
 				name = "Kurt Student"
 				GFX = GFX_M_Kurt_Student
