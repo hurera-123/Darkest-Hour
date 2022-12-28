@@ -8,8 +8,10 @@
 			"Paul von Hase"
 		}
 		portraits = {
-			small = GFX_M_Paul_von_Hase
-			large = GFX_M_Paul_von_Hase
+            army={
+				small = GFX_M_Paul_von_Hase
+				large = GFX_M_Paul_von_Hase
+			}
 		}
 		location = 3585 # Karlsbad
 		division_template = "Infanterie-Division"
