@@ -2114,7 +2114,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Abandon_the_Delusion
-		icon = GFX_FRA_Armee_de_Terre
+		icon = GFX_FRA_Abandon_the_Delusion
 		cost = 28
 		available = {
 			has_country_flag = FRA_Abandon_The_Maginot_Line		
