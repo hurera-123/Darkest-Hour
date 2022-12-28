@@ -4778,11 +4778,11 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = ENG_Wartime_Tree.3.a
-		GER = {
-			9 = {
-				set_state_owner_to = CZE
-			}
-		}
+		#GER = {
+		#	9 = {
+		#		set_state_owner_to = CZE
+		#	}
+		#}
 		ENG = { add_to_faction = CZE }
 	}
 }
