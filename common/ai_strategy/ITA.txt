@@ -71,7 +71,20 @@ ITA_Prepare_for_war_with_Ethiopia = {
 	ai_strategy = {
 		type = front_unit_request
 		tag = ETH
-		value = 100
+		value = 50
+	}
+	# Eritrea
+	ai_strategy = {
+		type = theatre_distribution_demand_increase
+		id = 550
+		value = 2
+	}
+
+	# Somaliland
+	ai_strategy = {
+		type = theatre_distribution_demand_increase
+		id = 559
+		value = 2
 	}
 }
 ITA_Kill_Ethiopia = {

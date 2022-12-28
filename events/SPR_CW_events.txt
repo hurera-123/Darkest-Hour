@@ -32,6 +32,7 @@ country_event = {
 				add_ideas = {
 					SPR_Armed_Masses_1
 					SPR_Popular_Front
+					SPR_Disorganised_Command_Structure
 				}
 				remove_ideas = {
 					SPR_collapsing_society
@@ -140,6 +141,7 @@ country_event = {
 					add_core_of = SPA
 				}
 				add_ideas = {
+					SPA_Reorganising_Command_Structure
 					SPA_civilwar_army_1
 					SPA_civilwar_church
 					SPA_military_power_struggles_1
@@ -532,6 +534,7 @@ country_event = {
 		hidden_effect = {
 			#remove_ideas = SPR_civil_war
 			remove_ideas = SPA_la_guerra_civil
+			remove_ideas = SPA_Reorganising_Command_Structure
 			remove_ideas = SPA_civilwar_army_1
 			remove_ideas = SPA_civilwar_church
 			remove_ideas = SPA_military_power_struggles_1
@@ -579,6 +582,7 @@ country_event = {
 		name = Spain_CW.8.A
 		hidden_effect = {
 			#remove_ideas = SPR_civil_war
+			remove_ideas = SPR_Disorganised_Command_Structure
 			remove_ideas = SPR_Armed_Masses_1
 			remove_ideas = SPR_Armed_Masses_2
 			remove_ideas = SPR_Armed_Masses_3

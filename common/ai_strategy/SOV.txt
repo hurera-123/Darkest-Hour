@@ -205,6 +205,26 @@ SOV_Prepare_for_War_with_Germany = {
 	}
 }
 
+SOV_Prepare_for_Finland = {
+	enable = {
+		tag = SOV
+		has_completed_focus = SOV_Expansion_of_the_Soviet_Sphere
+		NOT = {
+			has_war_with = FIN
+		}
+		FIN = {
+			exists = yes
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = "FIN"
+		value = 100
+	}
+}
+
 SOV_War_with_Germany = {
 	enable = {
 		tag = SOV

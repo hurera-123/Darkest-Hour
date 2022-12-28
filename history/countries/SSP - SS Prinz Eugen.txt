@@ -4,7 +4,8 @@ set_research_slots = 1
 
 
 set_technology = {
-	basic_train = 1
+	basic_train = 1
+
 	Small_Arms_1916 = 2
 	Small_Arms_1935 = 2
 	tech_mountaineers = 2
@@ -43,7 +44,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Heinrich Himmler"
 	desc = ""
-	picture = GFX_M_Heinrich_Himmler
+	picture = GFX_P_F_Heinrich_Himmler
 	expire = "1965.1.1"
 	ideology = esoteric_national_socialism
 	traits = {

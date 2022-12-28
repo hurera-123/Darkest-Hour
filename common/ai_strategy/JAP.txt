@@ -25,6 +25,20 @@ JAP_SOV_NAP = {
 		value = 100
 	}
 }
+JAP_Dont_Do_Funny_With_POL = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		country_exists = POL
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = ignore
+		id = "POL"
+		value = 500
+	}
+}
 JAP_Faction = {
 	enable = {
 		JAP = {

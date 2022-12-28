@@ -182,8 +182,18 @@ ideas = {
 		##########################################
 		### Civil War
 		##########################################
+		SPR_Disorganised_Command_Structure = {
+			picture = tur_disorganised_armed_forces
+			modifier = {
+				air_cas_present_factor = -0.55
+				army_attack_factor = -0.8
+				army_speed_factor = -0.75
+				ground_attack_factor = -0.55
+				local_org_regain = -0.4
+			}
+		}
 		SPR_Armed_Masses_1 = {
-			picture = GFX_spr_international_brigades
+			picture = spr_international_brigades
 			modifier = {
 				conscription = 0.01
 				army_org_Factor = -0.1
@@ -191,7 +201,7 @@ ideas = {
 			}
 		}
 		SPR_Armed_Masses_2 = {
-			picture = GFX_spr_international_brigades
+			picture = spr_international_brigades
 			modifier = {
 				conscription = 0.015
 				army_org_Factor = -0.1
@@ -200,7 +210,7 @@ ideas = {
 			}
 		}
 		SPR_Armed_Masses_3 = {
-			picture = GFX_spr_international_brigades
+			picture = spr_international_brigades
 			modifier = {
 				conscription = 0.015
 				army_org_Factor = -0.05
@@ -209,7 +219,7 @@ ideas = {
 			}
 		}
 		SPR_Armed_Masses_4 = {
-			picture = GFX_spr_international_brigades
+			picture = spr_international_brigades
 			modifier = {
 				conscription = 0.025
 				army_org_Factor = -0.1
@@ -218,7 +228,7 @@ ideas = {
 			}
 		}
 		SPR_Armed_Masses_5 = {
-			picture = GFX_spr_international_brigades
+			picture = spr_international_brigades
 			modifier = {
 				conscription = 0.025
 				army_org_Factor = -0.1

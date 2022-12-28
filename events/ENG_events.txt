@@ -209,7 +209,7 @@ news_event = {
 	fire_only_once = yes
 	trigger = {
 		original_tag = ENG
-		has_idea = ENG_AM_Kingsley_Wood
+		has_idea = ENG_Kingsley_Wood_AM
 		date > 1943.9.21
 		has_start_date < 1943.9.21
 	}
@@ -217,7 +217,7 @@ news_event = {
 		name = ENG_Politics.4.A
 		custom_effect_tooltip = ENG_Kingsley_Wood_is_Replaced
 		hidden_effect = {
-			add_ideas = ENG_AM_John_Anderson
+			add_ideas = ENG_John_Anderson_AM
 		}
 		set_country_flag = Kingsley_Wood_unavailable
 	}

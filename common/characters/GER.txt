@@ -145,7 +145,7 @@ characters={
 				large="GFX_P_A_Paul_von_Hindenburg"
 			}
 			army={
-				small="GFX_idea_Paul_von_Hindenburg"
+				small="GFX_idea_Paul_Von_Hindenburg"
 				large="GFX_M_Paul_von_Hindenburg"
 			}
 		}
