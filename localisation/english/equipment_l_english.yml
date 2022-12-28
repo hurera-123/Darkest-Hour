@@ -345,7 +345,7 @@
  sh_battleship: "Superheavy Battleship"
  sh_battleship_desc: "The largest capital ship with the biggest guns and strongest armor that money can buy. Such an expensive investment deserves proper support of smaller screening ships."
  light_airframe: "Light Airframe"
- light_airframe_desc: "Light Airframe based planes""
+ light_airframe_desc: "Light Airframe based planes"
  medium_airframe: "Medium Airframe"
  medium_airframe_desc: "Medium Airframe based planes"
  heavy_airframe: "Heavy Airframe"
