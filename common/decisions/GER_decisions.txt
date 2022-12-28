@@ -47,7 +47,24 @@ economy_decisions = {
 			}
 		}
 		available = {
-			controls_state = 232
+			OR = {
+				GER = {
+					controls_state = 232
+				}
+				RKA = {
+					controls_state = 232
+				}
+			}
+		}
+		visible = {
+			OR = {
+				GER = {
+					controls_state = 232
+				}
+				RKA = {
+					controls_state = 232
+				}
+			}
 		}
 		on_map_mode = map_and_decisions_view
 		days_remove = 180
@@ -84,7 +101,24 @@ economy_decisions = {
 			}
 		}
 		available = {
-			controls_state = 229
+			OR = {
+				GER = {
+					controls_state = 229
+				}
+				RKA = {
+					controls_state = 229
+				}
+			}
+		}
+		visible = {
+			OR = {
+				GER = {
+					controls_state = 229
+				}
+				RKA = {
+					controls_state = 229
+				}
+			}
 		}
 		on_map_mode = map_and_decisions_view
 		days_remove = 180
@@ -122,8 +156,25 @@ economy_decisions = {
 			}
 		}
 		available = {
-			controls_state = 229
+			OR = {
+				GER = {
+					controls_state = 229
+				}
+				RKA = {
+					controls_state = 229
+				}
+			}
 			has_country_flag = GER_Baku_Oilfields_Operational
+		}
+		visible = {
+			OR = {
+				GER = {
+					controls_state = 229
+				}
+				RKA = {
+					controls_state = 229
+				}
+			}
 		}
 		on_map_mode = map_and_decisions_view
 		days_remove = 730
