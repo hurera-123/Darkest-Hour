@@ -730,9 +730,8 @@ ideas = {
 			modifier = {
 				army_org_factor = -0.4
 				training_time_army_factor = 0.3
-				special_forces_min = 2
 				conscription_factor = -0.7
-				army_spending_cost_factor = -0.1
+				army_spending_cost_factor = -0.5
 			}
 		}
 		army_spending_level_2 = {
@@ -758,12 +757,10 @@ ideas = {
 				army_org_factor = -0.3
 				training_time_army_factor = 0.2
 				minimum_training_level = -0.1
-				mobilization_speed = 0.5
+				mobilization_speed = -0.5
 				army_morale_factor = -0.15
-				land_reinforce_rate = 0.02
-				conscription_factor = 0.2
-				army_defence_factor = 0.1
-				army_spending_cost_factor = -0.05
+				conscription_factor = 0.05
+				army_spending_cost_factor = -0.25
 			}
 			ai_will_do = {
 				factor = 0
@@ -824,11 +821,11 @@ ideas = {
 				army_morale_factor = 0.05
 				land_reinforce_rate = 0.01
 				special_forces_cap = 0.03
-				mobilization_speed = 1
+				mobilization_speed = 0.5
 				experience_gain_factor = 0.1
 				army_attack_factor = 0.05
 				army_defence_factor = 0.05
-				army_spending_cost_factor = 0.1
+				army_spending_cost_factor = 0.25
 			}
 			ai_will_do = {
 				base = 1
@@ -873,7 +870,7 @@ ideas = {
 				experience_gain_factor = 0.15
 				army_attack_factor = 0.1
 				army_defence_factor = 0.05
-				army_spending_cost_factor = 0.25
+				army_spending_cost_factor = 0.50
 			}
 			ai_will_do = {
 				base = 1
