@@ -3928,6 +3928,8 @@ focus_tree = {
 		cost = 40
 		prerequisite = {
 			focus = GER_Volkswagen
+		}
+		prerequisite = {
 			focus = GER_Reichswerke_Hermann_Goering
 		}
 		x = 8

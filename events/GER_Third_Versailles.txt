@@ -72,7 +72,7 @@ news_event = {
 	id = GER_Third_Versailles.3
 	title = GER_Third_Versailles.3.t
 	desc = GER_Third_Versailles.3.d
-	picture = GFX_
+	picture = GFX_news_ENG_Coronation_of_Edward_VIII
 	major = yes
 	is_triggered_only = yes
 	

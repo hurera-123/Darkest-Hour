@@ -3883,6 +3883,25 @@ country_event = {
 				days = 3
 			}
 		}
+		every_country = {
+			limit = {
+				is_in_faction_with = CAN
+			}
+			white_peace = GER
+		}
+		every_country = {
+			limit = {
+				is_in_faction_with = GER
+			}
+			every_controlled_state = {
+				limit = {
+					OWNER = {
+						is_in_faction_with = CAN
+					}
+				}
+				transfer_state_to = ROOT
+			}
+		}
 		GER = {
 			transfer_state = 801
 			transfer_state = 1630
