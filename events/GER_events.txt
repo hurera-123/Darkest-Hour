@@ -3720,7 +3720,7 @@ country_event = {
 	}
 	#
 	option = {
-		name = GER_Unternehmen_Success.1.A4
+		name = GER_Unternehmen_Success.1.A
 		add_war_support = 0.05
 		add_tech_bonus = {
 			bonus = 0.5
