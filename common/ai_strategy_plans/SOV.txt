@@ -9,6 +9,14 @@ Soviet_historical = {
 	abort = {}
 
 	ai_national_focuses = {
+		## Do these ASAP
+		SOV_The_Great_Patriotic_War
+		SOV_For_The_Motherland
+		SOV_The_Defense_of_the_Union
+		SOV_From_Cities_to_Fortresses
+		SOV_Fighting_on_Familiar_Ground
+		SOV_General_Winter
+		##
 		SOV_The_Second_Five_Year_Plan
 		SOV_Emphasis_on_Heavy_Industry
 		SOV_Pragmatic_Approach_to_Target_Figures
@@ -62,7 +70,5 @@ Soviet_historical = {
 		SOV_Promote_Young_Pioneers
 		SOV_Stalin_and_the_Role_of_Lenin
 		SOV_Expansion_of_the_Soviet_Sphere
-		SOV_The_Great_Patriotic_War
-		SOV_For_The_Motherland
 	}
 }
