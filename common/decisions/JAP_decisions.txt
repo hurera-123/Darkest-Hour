@@ -4999,7 +4999,7 @@ JAP_Imperial_General_Headquarters = {
 			clr_country_flag = JAP_Rivalry_Decision_in_Progress
 		}
 		ai_will_do = {
-			base = 1
+			base = 999
 			modifier = {
 				add = 50
 				has_idea = JAP_Rivalries_Of_War_Navy_Strengthened

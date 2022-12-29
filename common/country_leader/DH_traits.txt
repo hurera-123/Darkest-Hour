@@ -1219,7 +1219,7 @@ leader_traits = {
 	# Keynesian Economy
 	AM_Keynesian_Economy = {
 		local_resources_factor = 0.1
-		consumer_goods_factor = 0.1
+		consumer_goods_factor = 0.03
 		production_factory_max_efficiency_factor = 0.05
 	}
 	# Reformer

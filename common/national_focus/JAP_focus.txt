@@ -122,6 +122,54 @@ focus_tree = {
 			hidden_effect = {
 				set_country_flag = Manchuria_Secured
 			}
+			610 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 7633
+				}
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 11801
+				}
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MAN
+						add = 2
+					}
+				}
+				fallback = yes
+				path = { 11771 6951 9788 14849 6852 11855 7633 }
+				start_state = 1665
+				target_state = 610
+				start_province = 11771
+				target_province = 7633
+			}
+			build_railway = {
+				level = 1
+				build_only_on_allied = yes
+				controller_priority = {
+					base = 1
+					modifier = {
+						tag = MAN
+						add = 2
+					}
+				}
+				fallback = yes
+				path = { 7633 9873 11801 }
+				start_state = 610
+				target_state = 610
+				start_province = 7633
+				target_province = 11801
+			}
 		}
 		ai_will_do = {
 			base = 3
@@ -592,7 +640,7 @@ focus_tree = {
 					}
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
-						type = industrial_complex
+						type = arms_factory
 						level = 2
 						instant_build = yes
 					}

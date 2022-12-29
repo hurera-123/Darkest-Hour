@@ -165,6 +165,7 @@ equipments = {
 	CVE_equipment_1922 = {
 		year = 1922
 		archetype = CVE_equipment
+		parent = CV_equipment_1916
 		priority = 1200
 		ap_attack = 2
 		# attack = 10
