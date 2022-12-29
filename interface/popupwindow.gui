@@ -1773,7 +1773,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "peace_summary_popup_window"
 		position = { x = 0 y = 0 }
-		size = { width = 480 height = 382 }		
+		size = { width = 580 height = 382 }		
 		orientation= center
 		origo = center
 		moveable = yes
@@ -1800,10 +1800,11 @@ guiTypes = {
 			fixedsize = yes
 			format = centre
 		}
+
 		
 		instantTextBoxType = {
 			name = "description"
-			position = { x = 30 y = 105 }
+			position = { x = 80 y = 130 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0} 
@@ -1813,25 +1814,31 @@ guiTypes = {
 			format = centre
 			scrollbartype = "standardtext_slider"
 		}
+		
+		#iconType = {
+		#	name = "Background"
+		#	quadTextureSprite ="GFX_top_art_winning_conference"
+		#	position = { x = 0 y = 22 }
+		#}
 
-		iconType =	{        
-			 name = "pc_decoration_top_left"         
-			 spriteType = "GFX_pc_decoration_top_left"         
-			 position = { x= -4 y = -6 }
-				Orientation = "UPPER_LEFT"
-				alwaystransparent = yes
-			}
-			
-			iconType =	{         
-				name = "pc_decoration_top_right"         
-				spriteType = "GFX_pc_decoration_top_right"         
-				position = { x= 392 y = -6 }
-				alwaystransparent = yes
-		}	
+		#iconType =	{        
+		#	 name = "pc_decoration_top_left"         
+		#	 spriteType = "GFX_pc_decoration_top_left"         
+		#	 position = { x= -4 y = -6 }
+		#		Orientation = "UPPER_LEFT"
+		#		alwaystransparent = yes
+		#	}
+		#	
+		#	iconType =	{         
+		#		name = "pc_decoration_top_right"         
+		#		spriteType = "GFX_pc_decoration_top_right"         
+		#		position = { x= 392 y = -6 }
+		#		alwaystransparent = yes
+		#}	
 		
 		buttonType = {
 			name = "ok_button"
-			position = { x=185 y =320}
+			position = { x=230 y =320}
 			quadTextureSprite ="GFX_button_123x34"
 			buttonText = "BUTTON_OK"
 			buttonFont = "hoi_18mbs"

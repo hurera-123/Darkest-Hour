@@ -2264,6 +2264,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Moscow_Metro = {
 		fire_only_once = yes
 		icon = generic_construction
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 120
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 120
@@ -2305,6 +2312,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Ural_Heavy_Machinery_Plant = {
 		fire_only_once = yes
 		icon = generic_industry
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 375
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 375
@@ -2346,6 +2360,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Kramatorsk_Heavy_Machine_Tool_Engineering_Plant = {
 		fire_only_once = yes
 		icon = generic_industry
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 250
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 250
@@ -2392,6 +2413,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Ural_Railroad_Car_Factory = {
 		fire_only_once = yes
 		icon = generic_industry
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 300
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 300
@@ -2438,6 +2466,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Chelyabinsk_Tractor_Plant = {
 		fire_only_once = yes
 		icon = generic_industry
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 450
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 450
@@ -2484,6 +2519,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Krivoi_Rog_Steel_Mill = {
 		fire_only_once = yes
 		icon = steel
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 300
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 300
@@ -2534,6 +2576,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_New_Lipetsk_Steel_Mill = {
 		fire_only_once = yes
 		icon = steel
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 250
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 250
@@ -2584,6 +2633,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_New_Tula_Steel_Mill = {
 		fire_only_once = yes
 		icon = steel
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 250
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 250
@@ -2634,6 +2690,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Azovstal_Steel_Rolling_Plant = {
 		fire_only_once = yes
 		icon = steel
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 250
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 250
@@ -2684,6 +2747,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Zaporozhstal_Steel_Rolling_Plant = {
 		fire_only_once = yes
 		icon = steel
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 250
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 250
@@ -2734,6 +2804,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Tashkent_Textile_Factory = {
 		fire_only_once = yes
 		icon = generic_factory
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 100
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 100
@@ -2774,6 +2851,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Barnaul_Paper_Cotton_Factory = {
 		fire_only_once = yes
 		icon = generic_factory
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 100
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 100
@@ -2814,6 +2898,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Norilsk_Ore_Mining_Smelting_Plant = {
 		fire_only_once = yes
 		icon = generic_factory
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 250
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 250
@@ -2859,6 +2950,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Ural_Kuznetsk_Ore_Mining_Smelting_Works = {
 		fire_only_once = yes
 		icon = generic_factory
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 400
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 400
@@ -5002,6 +5100,13 @@ SOV_Trasformation_of_Nature_category = {
 	SOV_Windbreak_in_Central_Russia = {
 		fire_only_once = yes
 		icon = placeholder
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 100
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 100
@@ -5092,6 +5197,13 @@ SOV_Trasformation_of_Nature_category = {
 	SOV_Windbreak_in_Southern_Russia = {
 		fire_only_once = yes
 		icon = placeholder
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 100
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 100
@@ -5182,6 +5294,13 @@ SOV_Trasformation_of_Nature_category = {
 	SOV_Windbreak_in_Northern_Caucasus = {
 		fire_only_once = yes
 		icon = placeholder
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 100
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 100
@@ -5271,6 +5390,13 @@ SOV_Trasformation_of_Nature_category = {
 	SOV_Construct_Central_Turkmen_Canal = {
 		fire_only_once = yes
 		icon = placeholder
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 150
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 150
@@ -5415,6 +5541,13 @@ SOV_Trasformation_of_Nature_category = {
 	SOV_Construct_Volga_Don_Canal = {
 		fire_only_once = yes
 		icon = placeholder
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 150
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 150
