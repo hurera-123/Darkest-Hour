@@ -1655,11 +1655,13 @@ focus_tree = {
 		y = 2
 		available = {
 			OR = {
-				has_equipment = {
-					fighter_equipment > 999
+				has_deployed_air_force_size = {
+					size > 999
+					type = fighter
 				}
-				has_equipment = {
-					interceptor_equipment > 999
+				has_deployed_air_force_size = {
+					size > 999
+					type = interceptor
 				}
 			}
 		}

@@ -1940,21 +1940,6 @@ GER_unit_production = {
 		value = 25
 	}
 	ai_strategy = {
-		type = equipment_production_min_factories #Build these up over time, don't stall
-		id = anti_air
-		value = 2
-	}
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = artillery
-		value = 4
-	}
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = fighter
-		value = 4
-	}
-	ai_strategy = {
 		type = equipment_variant_production_factor
 		id = strat_bomber_equipment
 		value = -100
@@ -2014,6 +1999,7 @@ GER_equipment_production_2 = {
 	}
 	enable = {
 		date < 1939.1.1
+		date > 1936.1.1
 	}
 	abort = {
 		date > 1939.1.1
