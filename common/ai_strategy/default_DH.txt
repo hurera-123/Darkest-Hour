@@ -183,7 +183,7 @@ Build_Only_Mils_Custom = {
 		OR = {
 			date > 1940.1.1
 			AND = {
-				date > 1939.1.1
+				date > 1937.1.1
 				original_tag = JAP
 			}
 		}

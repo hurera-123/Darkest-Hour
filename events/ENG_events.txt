@@ -3827,7 +3827,7 @@ country_event = {
 	picture = GFX_report_ENG_Sunset
 	trigger = {
 		original_tag = ENG
-		surrender_progress > 0.95
+		surrender_progress > 0.9
 		has_war_with = GER
 		any_core_state = {
 			controller = {

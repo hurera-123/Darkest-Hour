@@ -247,8 +247,7 @@ recruit_character = JAP_Kazuo_Aoki
 	# Research
 	#######################
 	set_technology = {
-	basic_train = 1
-
+		basic_train = 1
 		### Infantry Tech
 		Small_Arms_1900 = 1
 		Small_Arms_1916 = 1
@@ -486,6 +485,16 @@ recruit_character = JAP_Kazuo_Aoki
 	set_autonomy = {
 		target = MAN
 		autonomous_state = AUTONOMY_Imperial_Protectorate
+	}
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 4500
+		producer = JAP
+	}
+	add_equipment_to_stockpile = {
+		type = Motorized_equipment
+		amount = 2000
+		producer = JAP
 	}
 }
 
