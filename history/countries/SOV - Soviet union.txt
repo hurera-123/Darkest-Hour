@@ -341,6 +341,7 @@ recruit_character = SOV_Andrey_Vlasov
 		SOV_Soviet_Collectivization
 		SOV_High_Agricultural_Employment
 		SOV_General_Recruitment_Blocked
+		SOV_Volunteer_Cap
 		# Laws & Policies
 		isolationism
 		industrializing_economy

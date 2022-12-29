@@ -2609,10 +2609,9 @@ ideas = {
 				
 			}
 		}
-		SOV_Massive_Partisan_Effort = {
+		SOV_Volunteer_Cap = {
 			modifier = {
-				army_core_attack_factor = 0.05
-				army_core_defence_factor = 0.05 
+				send_volunteer_size = 4
 			}
 		}
 	}
