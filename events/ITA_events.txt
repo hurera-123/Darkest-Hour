@@ -1948,7 +1948,7 @@ country_event = {
 	}
 	# Declare War
 	option = {
-		name = ITA_Political_Tree.14.A
+		name = ITA_Political_Tree.14.B
 		ai_chance = {
 			base = 100
 		}

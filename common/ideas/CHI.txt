@@ -26,11 +26,11 @@ ideas = {
 			modifier = {
 				political_power_gain = -0.1
 				command_power_gain_mult = -0.20
-				conscription_factor =  -0.25
+				conscription_factor =  -0.35
 				training_time_army_factor = 0.15
 				army_org_factor = -0.2
-				army_attack_factor = -0.2
-				army_defence_factor = -0.2
+				army_attack_factor = -0.3
+				army_defence_factor = -0.3
 			}
 		}
 
@@ -42,11 +42,11 @@ ideas = {
 			modifier = {
 				political_power_gain = -0.15
 				command_power_gain_mult = -0.15
-				conscription_factor =  -0.1
+				conscription_factor =  -0.25
 				training_time_army_factor = 0.1
 				army_org_factor = -0.1
-				army_attack_factor = -0.1
-				army_defence_factor = -0.1
+				army_attack_factor = -0.2
+				army_defence_factor = -0.2
 			}
 		}
 

@@ -5027,21 +5027,6 @@ country_event = {
 		add_war_support = 0.25
 		if = {
 			limit = {
-				ENG = {
-					is_faction_leader = yes
-					has_government = democratic
-				}
-			}
-			ENG = {
-				add_to_faction = USA
-				add_to_war = { 
-					targeted_alliance = USA
-					enemy = JAP
-				}
-			}
-		}
-		if = {
-			limit = {
 				has_idea = USA_Neutrality_Act
 			}
 			remove_ideas = USA_Neutrality_Act
@@ -5057,6 +5042,37 @@ country_event = {
 				has_idea = USA_Neutrality_Act_3
 			}
 			remove_ideas = USA_Neutrality_Act_3
+		}
+		else_if = {
+			limit = {
+				has_idea = USA_Lend_Lease
+			}
+			remove_ideas = USA_Lend_Lease
+		}
+		else_if = {
+			limit = {
+				has_idea = USA_Lend_Lease_2
+			}
+			remove_ideas = USA_Lend_Lease_2
+		}
+		swap_ideas = {
+			remove_idea = isolationism
+			add_idea = cooperation
+		}
+		if = {
+			limit = {
+				ENG = {
+					is_faction_leader = yes
+					has_government = democratic
+				}
+			}
+			ENG = {
+				add_to_faction = USA
+				add_to_war = { 
+					targeted_alliance = USA
+					enemy = JAP
+				}
+			}
 		}
 	}
 }

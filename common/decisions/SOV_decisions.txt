@@ -7605,6 +7605,11 @@ SOV_intervention_in_china = {
 			add_to_variable = {
 				soviet_influence = 0.01
 			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
+			}
 		}
 	}
 
@@ -7632,6 +7637,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_1_influence
 			add_to_variable = {
 				soviet_influence = 0.01
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7661,6 +7671,11 @@ SOV_intervention_in_china = {
 			add_to_variable = {
 				soviet_influence = 0.02
 			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
+			}
 		}
 	}
 
@@ -7689,6 +7704,11 @@ SOV_intervention_in_china = {
 			add_to_variable = {
 				soviet_influence = 0.01
 			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
+			}
 		}
 	}
 
@@ -7709,6 +7729,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_5_influence
 			add_to_variable = {
 				soviet_influence = 0.05
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7734,6 +7759,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_5_influence
 			add_to_variable = {
 				soviet_influence = 0.05
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7795,6 +7825,11 @@ SOV_intervention_in_china = {
 			add_to_variable = {
 				soviet_influence = 0.01
 			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
+			}
 		}
 	}
 
@@ -7822,6 +7857,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_1_influence
 			add_to_variable = {
 				soviet_influence = 0.01
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7851,6 +7891,11 @@ SOV_intervention_in_china = {
 			add_to_variable = {
 				soviet_influence = 0.02
 			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
+			}
 		}
 	}
 
@@ -7879,6 +7924,11 @@ SOV_intervention_in_china = {
 			add_to_variable = {
 				soviet_influence = 0.01
 			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
+			}
 		}
 	}
 
@@ -7899,6 +7949,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_5_influence
 			add_to_variable = {
 				soviet_influence = 0.05
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7924,6 +7979,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_5_influence
 			add_to_variable = {
 				soviet_influence = 0.05
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7989,6 +8049,11 @@ SOV_intervention_in_china = {
 			add_to_variable = {
 				soviet_influence = 0.01
 			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
+			}
 		}
 	}
 
@@ -8016,6 +8081,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_1_influence
 			add_to_variable = {
 				soviet_influence = 0.01
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -8045,6 +8115,11 @@ SOV_intervention_in_china = {
 			add_to_variable = {
 				soviet_influence = 0.02
 			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
+			}
 		}
 	}
 
@@ -8073,6 +8148,11 @@ SOV_intervention_in_china = {
 			add_to_variable = {
 				soviet_influence = 0.01
 			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
+			}
 		}
 	}
 
@@ -8093,6 +8173,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_5_influence
 			add_to_variable = {
 				soviet_influence = 0.05
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -8118,6 +8203,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_5_influence
 			add_to_variable = {
 				soviet_influence = 0.05
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -8176,6 +8266,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_20_influence
 			add_to_variable = {
 				soviet_influence = 0.2
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 			hidden_effect = {
 				news_event = { id = SOV_CHI_Intervention.1 }
@@ -8321,7 +8416,6 @@ SOV_intervention_in_china = {
 SOV_intervention_in_spain = {
 	SOV_Send_Infantry_SPR = {
 		icon = GFX_decision_generic_prepare_civil_war
-		fire_only_once = yes
 		visible = {
 			original_tag = SOV
 			has_country_flag = SOV_support_SPR
@@ -8344,6 +8438,11 @@ SOV_intervention_in_spain = {
 			custom_effect_tooltip = SOV_add_1_influence
 			add_to_variable = {
 				soviet_influence_SPR = 0.01
+			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -8373,6 +8472,11 @@ SOV_intervention_in_spain = {
 			add_to_variable = {
 				soviet_influence_SPR = 0.01
 			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
+			}
 		}
 	}
 
@@ -8400,6 +8504,11 @@ SOV_intervention_in_spain = {
 			custom_effect_tooltip = SOV_add_2_influence
 			add_to_variable = {
 				soviet_influence_SPR = 0.02
+			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -8429,6 +8538,11 @@ SOV_intervention_in_spain = {
 			add_to_variable = {
 				soviet_influence_SPR = 0.01
 			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
+			}
 		}
 	}
 
@@ -8449,6 +8563,11 @@ SOV_intervention_in_spain = {
 			custom_effect_tooltip = SOV_add_5_influence
 			add_to_variable = {
 				soviet_influence_SPR = 0.05
+			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -8473,6 +8592,11 @@ SOV_intervention_in_spain = {
 			custom_effect_tooltip = SOV_add_3_influence
 			add_to_variable = {
 				soviet_influence_SPR = 0.03
+			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -8506,6 +8630,11 @@ SOV_intervention_in_spain = {
 			custom_effect_tooltip = SOV_add_10_influence
 			add_to_variable = {
 				soviet_influence_SPR = 0.1
+			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
 			}
 			SPR = {
 				add_opinion_modifier = {
@@ -8541,6 +8670,11 @@ SOV_intervention_in_spain = {
 			add_to_variable = {
 				soviet_influence = 0.05
 			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
+			}
 		}
 	}
 
@@ -8559,6 +8693,11 @@ SOV_intervention_in_spain = {
 					value = 0.7
 					compare = greater_than
 				} 
+			}
+			NOT = {
+				SPR = {
+					has_war_with = SPA
+				}
 			}
 		}
 		ai_will_do = {

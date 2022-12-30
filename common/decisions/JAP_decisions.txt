@@ -5890,8 +5890,7 @@ JAP_Strike_South_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 100
-				factor = 500
+				add = 500
 				date > 1941.6.1
 			}
 		}

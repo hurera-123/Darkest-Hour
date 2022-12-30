@@ -250,8 +250,11 @@ SOV_intervention_in_spain = {
 	}
 	visible = {
 		has_country_flag = SOV_support_SPR
-		SPR = {
-			has_war_with = SPA
+		has_global_flag = SCW_started
+		NOT = {
+			SPR = {
+				is_subject_of = SOV
+			}
 		}
 	}
 }

@@ -897,12 +897,6 @@ GER_Focus_on_France = {
 		POL = {
 			has_capitulated = yes
 		}
-		DEN = {
-			has_capitulated = yes
-		}
-		NOR = {
-			has_capitulated = yes
-		}
 		HOL = {
 			has_capitulated = yes
 		}
@@ -923,7 +917,7 @@ GER_Focus_on_France = {
 		type = front_control
 		tag = FRA
 		ordertype = front
-		execution_type = balanced
+		execution_type = rush
 		execute_order = yes
 	}
 	ai_strategy = {
