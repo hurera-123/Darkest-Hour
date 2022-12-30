@@ -229,6 +229,11 @@ ITA = {
 	color_ui = rgb { 87 165 82 }
 }
 
+AOI = {
+	color = rgb { 28 138 80 }
+	color_ui = rgb { 87 165 82 }
+}
+
 ROM = {
 	color = rgb { 217 178 48 }
 	color_ui = rgb { 255 255 120 }

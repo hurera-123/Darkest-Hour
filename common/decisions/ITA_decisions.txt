@@ -828,20 +828,22 @@ ITA_Pacify_Abyssinia_category = {
 		}
 		cost = 25
 		remove_effect = {
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_partisan_gain = -0.05
+			AOI = {
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_partisan_gain = -0.05
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
+				}
+				custom_effect_tooltip = ITA_Partisan_Unrest_tt
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_damage_gain = -0.05
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
+				}
+				custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
 			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
-			}
-			custom_effect_tooltip = ITA_Partisan_Unrest_tt
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_damage_gain = -0.05
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
-			}
-			custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
 			set_country_flag = ITA_State_Sponsored_Immigration_completed
 		}
 		days_remove = 180
@@ -876,47 +878,51 @@ ITA_Pacify_Abyssinia_category = {
 				}
 				add_manpower = -5000
 			}
-			random_owned_controlled_state = {
-				limit = {
-					is_core_of = ETH
+			AOI = {
+				random_owned_controlled_state = {
+					limit = {
+						is_core_of = ETH
+					}
+					add_manpower = 5000
 				}
-				add_manpower = 5000
-			}
-			random_owned_controlled_state = {
-				limit = {
-					is_core_of = ETH
+				random_owned_controlled_state = {
+					limit = {
+						is_core_of = ETH
+					}
+					add_manpower = 5000
 				}
-				add_manpower = 5000
 			}
 		}
 		cost = 10
+		days_remove = 100
 		remove_effect = {
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_partisan_gain = -0.06
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
-			}
-			custom_effect_tooltip = ITA_Partisan_Unrest_tt
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_damage_gain = -0.06
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
-			}
-			custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_partisan
-				min = 0
-				max = 1
-			}
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_damage
-				min = 0
-				max = 1
+			AOI = {
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_partisan_gain = -0.06
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
+				}
+				custom_effect_tooltip = ITA_Partisan_Unrest_tt
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_damage_gain = -0.06
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
+				}
+				custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					min = 0
+					max = 1
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					min = 0
+					max = 1
+				}
 			}
 		}
-		days_remove = 100
 	}
 	ITA_Track_Down_Guerilla_Leaders = {
 		icon = GFX_decision_ITA_Track_Down_Guerrilla_Leaders
@@ -936,33 +942,35 @@ ITA_Pacify_Abyssinia_category = {
 				producer = ITA
 			}
 		}
+		days_remove = 30
 		remove_effect = {
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_partisan_gain = -0.03
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
-			}
-			custom_effect_tooltip = ITA_Partisan_Unrest_tt
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_damage_gain = -0.06
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
-			}
-			custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_partisan
-				min = 0
-				max = 1
-			}
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_damage
-				min = 0
-				max = 1
+			AOI = {
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_partisan_gain = -0.03
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
+				}
+				custom_effect_tooltip = ITA_Partisan_Unrest_tt
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_damage_gain = -0.06
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
+				}
+				custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					min = 0
+					max = 1
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					min = 0
+					max = 1
+				}
 			}
 		}
-		days_remove = 30
 	}
 	ITA_Raid_in_a_Major_City = {
 		icon = GFX_decision_ITA_Raid_in_a_Major_City
@@ -982,32 +990,34 @@ ITA_Pacify_Abyssinia_category = {
 		}
 		custom_cost_text = GER_Reichsverteidigung_cost
 		cost = 25
+		days_remove = 7
 		remove_effect = {
-			random_owned_controlled_state = {
-				limit = {
-					is_core_of = ETH
+			AOI = {
+				random_owned_controlled_state = {
+					limit = {
+						is_core_of = ETH
+					}
+					add_compliance = 15
 				}
-				add_compliance = 15
-			}
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_partisan_gain = -0.1
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
-			}
-			custom_effect_tooltip = ITA_Partisan_Unrest_tt
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_partisan
-				min = 0
-				max = 1
-			}
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_damage
-				min = 0
-				max = 1
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_partisan_gain = -0.1
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
+				}
+				custom_effect_tooltip = ITA_Partisan_Unrest_tt
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					min = 0
+					max = 1
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					min = 0
+					max = 1
+				}
 			}
 		}
-		days_remove = 7
 	}
 	ITA_Finance_Local_Institutions = {
 		icon = GFX_decision_ITA_Finance_Local_Institutions
@@ -1023,43 +1033,45 @@ ITA_Pacify_Abyssinia_category = {
 		}
 		complete_effect = {
 		}
+		days_remove = 60
 		remove_effect = {
 			set_temp_variable = {
 				money_to_gain = -250
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
-			every_owned_state = {
-				limit = {
-					is_core_of = ETH
+			AOI = {
+				every_owned_state = {
+					limit = {
+						is_core_of = ETH
+					}
+					add_compliance = 10
 				}
-				add_compliance = 10
-			}
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_partisan_gain = -0.03
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
-			}
-			custom_effect_tooltip = ITA_Partisan_Unrest_tt
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_damage_gain = -0.07
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
-			}
-			custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_partisan
-				min = 0
-				max = 1
-			}
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_damage
-				min = 0
-				max = 1
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_partisan_gain = -0.03
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
+				}
+				custom_effect_tooltip = ITA_Partisan_Unrest_tt
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_damage_gain = -0.07
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
+				}
+				custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					min = 0
+					max = 1
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					min = 0
+					max = 1
+				}
 			}
 		}
-		days_remove = 60
 	}
 	ITA_Favor_Ethnic_Minorities = {
 		icon = GFX_decision_ITA_Favor_Ethnic_Minorities
@@ -1072,39 +1084,41 @@ ITA_Pacify_Abyssinia_category = {
 		complete_effect = {
 			add_stability = -0.06
 		}
+		days_remove = 45
 		remove_effect = {
-			every_owned_state = {
-				limit = {
-					is_core_of = ETH
+			AOI = {
+				every_owned_state = {
+					limit = {
+						is_core_of = ETH
+					}
+					add_compliance = 3
 				}
-				add_compliance = 3
-			}
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_partisan_gain = -0.06
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
-			}
-			custom_effect_tooltip = ITA_Partisan_Unrest_tt
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_damage_gain = -0.06
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
-			}
-			custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_partisan
-				min = 0
-				max = 1
-			}
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_damage
-				min = 0
-				max = 1
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_partisan_gain = -0.06
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
+				}
+				custom_effect_tooltip = ITA_Partisan_Unrest_tt
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_damage_gain = -0.06
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
+				}
+				custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					min = 0
+					max = 1
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					min = 0
+					max = 1
+				}
 			}
 		}
-		days_remove = 45
 		ai_will_do = {
 			factor = 0
 		}

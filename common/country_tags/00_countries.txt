@@ -61,6 +61,7 @@ WUR = "countries/Western European.txt"
 DEI	= "countries/Western European.txt"
 KRL	= "countries/Western European.txt"
 LIE = "countries/Western European.txt"
+AOI = "countries/Western European.txt"
 
 #### Commonwealth Countries
 AST = "countries/Commonwealth.txt"

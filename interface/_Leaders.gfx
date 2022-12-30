@@ -150,6 +150,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_P_AOI_F_Vacant"
+        texturefile = "gfx/leaders/AOI/P_AOI_F_Vacant.png"
+    }
+
+    spriteType = {
         name = "GFX_M_Alberto_Teisaire"
         texturefile = "gfx/leaders/ARG/M_Alberto_Teisaire.png"
     }
@@ -2443,11 +2448,6 @@ spriteTypes = {
         name = "GFX_P_SOV_Andrei_Zhdanov"
         texturefile = "gfx/leaders/EST/P_SOV_Andrei_Zhdanov.png"
     }
-	
-	spriteType = {
-		name = "GFX_P_C_Andrei_Zhdanov"
-		texturefile = "gfx/leaders/SOV/P_C_Andrei_Zhdanov.png"
-	}
 
     spriteType = {
         name = "GFX_P_SOV_Johannes_Vares"
@@ -3515,8 +3515,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_M_Alexander_von_Falkenhousen"
-        texturefile = "gfx/leaders/GER/M_Alexander_von_Falkenhousen.png"
+        name = "GFX_M_Alexander_Von_Falkenhousen"
+        texturefile = "gfx/leaders/GER/M_Alexander_Von_Falkenhousen.png"
     }
 
     spriteType = {
@@ -3530,8 +3530,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_M_August_von_Mackensen"
-        texturefile = "gfx/leaders/GER/M_August_von_Mackensen.png"
+        name = "GFX_M_August_Von_Mackensen"
+        texturefile = "gfx/leaders/GER/M_August_Von_Mackensen.png"
     }
 
     spriteType = {
@@ -3565,8 +3565,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_M_Erich_von_Manstein"
-        texturefile = "gfx/leaders/GER/M_Erich_von_Manstein.png"
+        name = "GFX_M_Erich_Von_Manstein"
+        texturefile = "gfx/leaders/GER/M_Erich_Von_Manstein.png"
     }
 
     spriteType = {
@@ -3590,8 +3590,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_M_Erwin_von_Witzleben"
-        texturefile = "gfx/leaders/GER/M_Erwin_von_Witzleben.png"
+        name = "GFX_M_Erwin_Von_Witzleben"
+        texturefile = "gfx/leaders/GER/M_Erwin_Von_Witzleben.png"
     }
 
     spriteType = {
@@ -3605,8 +3605,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_M_Fedor_von_Bock"
-        texturefile = "gfx/leaders/GER/M_Fedor_von_Bock.png"
+        name = "GFX_M_Fedor_Von_Bock"
+        texturefile = "gfx/leaders/GER/M_Fedor_Von_Bock.png"
     }
 
     spriteType = {
@@ -3680,8 +3680,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_M_Hasso_von_Manteuffel"
-        texturefile = "gfx/leaders/GER/M_Hasso_von_Manteuffel.png"
+        name = "GFX_M_Hasso_Von_Manteuffel"
+        texturefile = "gfx/leaders/GER/M_Hasso_Von_Manteuffel.png"
     }
 
     spriteType = {
@@ -3775,8 +3775,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_M_Maximilian_von_Weichs"
-        texturefile = "gfx/leaders/GER/M_Maximilian_von_Weichs.png"
+        name = "GFX_M_Maximilian_Von_Weichs"
+        texturefile = "gfx/leaders/GER/M_Maximilian_Von_Weichs.png"
     }
 
     spriteType = {
@@ -3805,8 +3805,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_M_Paul_von_Hindenburg"
-        texturefile = "gfx/leaders/GER/M_Paul_von_Hindenburg.png"
+        name = "GFX_M_Paul_Von_Hindenburg"
+        texturefile = "gfx/leaders/GER/M_Paul_Von_Hindenburg.png"
     }
 
     spriteType = {
@@ -4870,8 +4870,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_M_Alberto_Da_Zara"
-        texturefile = "gfx/leaders/ITA/M_Alberto_Da_Zara.png"
+        name = "GFX_M_Alberto_da_Zara"
+        texturefile = "gfx/leaders/ITA/M_Alberto_da_Zara.png"
     }
 
     spriteType = {
@@ -5022,6 +5022,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_P_F_Alessandro_Pavolini"
         texturefile = "gfx/leaders/ITA/P_F_Alessandro_Pavolini.png"
+    }
+
+    spriteType = {
+        name = "GFX_P_F_Amadeo_di_Savoia"
+        texturefile = "gfx/leaders/ITA/P_F_Amadeo_di_Savoia.png"
     }
 
     spriteType = {

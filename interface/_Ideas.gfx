@@ -2680,6 +2680,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Emilio_De_Bono"
+        texturefile = "gfx/interface/ideas/Cabinet/ITA/Emilio_De_Bono.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Emillio_Galbiati"
         texturefile = "gfx/interface/ideas/Cabinet/ITA/Emillio_Galbiati.png"
     }

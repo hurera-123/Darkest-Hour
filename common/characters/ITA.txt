@@ -6099,8 +6099,12 @@ characters={
 	ITA_Emilio_De_Bono = {
 		name=ITA_Emilio_De_Bono
 		portraits={
+			civilian={
+				large="GFX_M_Emilio_De_Bono"
+			}
 			army={
 				large="GFX_M_Emilio_De_Bono"
+				small="GFX_idea_Emilio_De_Bono"
 			}
 		}
         

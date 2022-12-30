@@ -2577,6 +2577,13 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			tag = AOI
+			has_government = fascist
+		}
+		localization_key = GFX_P_AOI_F_Vacant
+	}
+	text = {
+		trigger = {
 			original_tag = LAT
 		}
 		localization_key = GFX_P_LAT_Vacant

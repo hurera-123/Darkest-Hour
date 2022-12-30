@@ -1041,29 +1041,67 @@ country_event = { #Capitulation of Ethiopia
 		unlock_decision_category_tooltip = ITA_Pacify_Abyssinia_category
 		delete_unit_template_and_units = {
 			division_template = "Divisione Fanteria Coloniale"
-			disband = yes #will refund equipment and manpower
-		}
-		set_variable = {
-			var = ITA_Ethiopian_Unrest_partisan
-			value = 0.5
-		}
-		set_variable = {
-			var = ITA_Ethiopian_Unrest_damage
-			value = 0.5
-		}
-		clamp_variable = {
-			var = ITA_Ethiopian_Unrest_partisan
-			min = 0
-			max = 1
-		}
-		clamp_variable = {
-			var = ITA_Ethiopian_Unrest_damage
-			min = 0
-			max = 1
+			disband = no #will refund equipment and manpower
 		}
 		hidden_effect = {
-			add_dynamic_modifier = {
-				modifier = ITA_Ethiopian_Unrest
+			AOI = {
+				transfer_state = 1049
+				transfer_state = 550
+				transfer_state = 1435
+				transfer_state = 1050
+				transfer_state = 1432
+				transfer_state = 875
+				transfer_state = 1434
+				transfer_state = 879
+				transfer_state = 1433
+				transfer_state = 876
+				transfer_state = 878
+				transfer_state = 271
+				transfer_state = 877
+				transfer_state = 1063
+				transfer_state = 1431
+				transfer_state = 880
+				transfer_state = 1042
+				transfer_state = 1043
+				transfer_state = 559
+				transfer_state = 1044
+				transfer_state = 1045
+				transfer_state = 1046
+				load_oob = ITA_Colonial_Troops_Ethiopia
+				inherit_technology = ITA
+			}
+		}
+		set_autonomy = {
+			target = AOI
+			autonomy_state = AUTONOMY_Colony
+		}
+		hidden_effect = {
+			AOI = {
+				country_event = { id = AOI_Leadership_Changes.1 days = 32 }
+				add_autonomy_score = {
+					value = 100
+				}
+				set_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					value = 0.5
+				}
+				set_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					value = 0.5
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					min = 0
+					max = 1
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					min = 0
+					max = 1
+				}
+				add_dynamic_modifier = {
+					modifier = ITA_Ethiopian_Unrest
+				}
 			}
 		}
 	}

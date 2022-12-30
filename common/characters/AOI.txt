@@ -1,0 +1,69 @@
+characters={
+	AOI_Pietro_Badoglio = {
+		name=AOI_Pietro_Badoglio
+		portraits={
+			civilian={
+				large="GFX_M_Pietro_Badoglio"
+			}
+			army={
+				small="GFX_idea_Pietro_Badoglio"
+				large="GFX_M_Pietro_Badoglio"
+			}
+		}
+		country_leader = {
+			ideology = fascism
+			traits={ 
+				POSITION_Vicere_of_Ethiopia
+				SUBIDEOLOGY_Fascism
+			}
+			expire = "1965.1.1"
+			id = -1
+		}
+		field_marshal={
+			traits = {
+				defensive_doctrine
+				old_guard
+				politically_connected
+				inflexible_strategist
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	AOI_Rodolfo_Graziani = {
+		name=AOI_Rodolfo_Graziani
+		portraits={
+			civilian={
+				large="GFX_M_Rodolfo_Graziani"
+			}
+			army={
+				small="GFX_idea_Rodolfo_Graziani"
+				large="GFX_M_Rodolfo_Graziani"
+			}
+		}
+        field_marshal={
+			traits = {
+				offensive_doctrine
+				desert_fox
+				politically_connected
+				trait_cautious
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	AOI_Amedeo_di_Savoia = {
+		name=AOI_Amedeo_di_Savoia
+		portraits={
+			civilian={
+				large="GFX_P_F_Amadeo_di_Savoia"
+			}
+		}
+	}
+}

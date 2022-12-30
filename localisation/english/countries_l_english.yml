@@ -707,6 +707,23 @@
  ITA_democratic_ADJ: "Italian"
  ITA_socialist_ADJ: "Italian"
  ITA_communist_ADJ: "Italian"
+ 
+ ### Italian East Africa
+ AOI_fascist: "Italian East Africa"
+ AOI_fascist_DEF: "Italian East Africa"
+ AOI_authoritarian: "Italian East Africa"
+ AOI_authoritarian_DEF: "Italian East Africa"
+ AOI_democratic: "Italian East Africa"
+ AOI_democratic_DEF: "Italian East Africa"
+ AOI_communist: "Italian East Africa"
+ AOI_communist_DEF: "Italian East Africa"
+ AOI_socialist: "Italian East Africa"
+ AOI_socialist_DEF: "Italian East Africa"
+ AOI_fascist_ADJ: "Italian"
+ AOI_authoritarian_ADJ: "Italian"
+ AOI_democratic_ADJ: "Italian"
+ AOI_communist_ADJ: "Italian"
+ AOI_socialist_ADJ: "Italian"
 
  ### Romania
  ROM_fascist: "Romanian Legionary State"
