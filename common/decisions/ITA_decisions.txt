@@ -3210,8 +3210,7 @@ ITA_The_Balkan_Strategy = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 1
-				factor = 100
+				add = 200
 				NOT = {
 					is_historical_focus_on = yes
 					YUG = {
@@ -3263,8 +3262,7 @@ ITA_The_Balkan_Strategy = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 1
-				factor = 100
+				add = 200
 				OR = {
 					has_decision = ITA_Demand_Yugoslavian_Territories
 					NOT = {
@@ -3273,9 +3271,11 @@ ITA_The_Balkan_Strategy = {
 				}
 				NOT = {
 					BUL = {
-						is_subject = yes
-						is_in_faction_with = GER
-						is_in_faction_with = ITA
+						OR = {
+							is_subject = yes
+							is_in_faction_with = GER
+							is_in_faction_with = ITA
+						}
 					}
 				}
 			}
@@ -3313,9 +3313,8 @@ ITA_The_Balkan_Strategy = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 100
-				factor = 500
-				date > 1940.10.1
+				add = 500
+				date > 1940.10.28
 				OR = {
 					has_global_flag = ITA_Annexed_Albania
 					ALB = {

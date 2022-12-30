@@ -294,8 +294,8 @@
  ENG_Abdication_Crisis.18.A: "Right away sir, I’m sure he’ll be ecstatic as well!"
 
  ENG_Abdication_Crisis.20.t: "A Less-Than-Smooth Ride"
- ENG_Abdication_Crisis.20.d: ""
- ENG_Abdication_Crisis.20.A: ""
+ ENG_Abdication_Crisis.20.d: "Some may call it a less-than-smooth ride.\n\nOthers are calling it a car crash.\n\nWhat should’ve been a way to shore up support for the King’s marriage has turned into a political crisis that is gripping the very heart of the United Kingdom. When Edward made the speech on radio to the nation a few days ago, he could not have imagined the damage it would do to the stability of a country now in complete shock at what is unfolding in Parliament.\n\nNot only are many MP’s from both major parties unconvinced, but many who are part of the government have begun to resign in droves, including both Stanley Baldwin and Ramsay MacDonald. This has left the leadership of our nation in a state of paralysis, one which will surely not be resolved in the foreseeable future.\n\nWhat will happen next is anyone’s guess, but the pressure of Edward is mounting at a rapid rate, and only time will tell if he can survive it."
+ ENG_Abdication_Crisis.20.A: "A disaster for our nation!"
 
  ENG_Abdication_Crisis.22.t: "The Coronation of Edward VIII" # Morganatic Marriage
  ENG_Abdication_Crisis.22.d: "[FROM.GetNewsIcon]Despite initial strong opposition from his ministers and advisors, King Edward VIII has decided to marry American socialite Wallis Simpson in a morganatic marriage. He will remain king in this marriage, but Simpson will not become queen consort. Instead, she will be given a lesser title, and any children they have will not inherit the throne.\n\nThe views of the other governments were sought in accordance with the Statute of Westminster 1931, which stated that \"any change in the law touching the Succession to the Throne or the Royal Style and Titles shall hereafter require the assent of the Parliaments of all the Dominions as well as the Parliament of the United Kingdom.\" The Prime Minister of Australia, among some others, stated his opposition to the king marrying a divorcee.\n\nWhen confronted with this opposition, Edward responded that there are \"not many people in Australia\" and their opinion does not matter. Some ministers are already resigning, raising the question: Is the United Kingdom on the verge of a constitutional crisis, or will the government hold?"
@@ -477,7 +477,7 @@
  ENG_Irish_Trade_War.3.B: "Deny them any concessions"
 
  ENG_Irish_Trade_War.4.t: "The Irish Crawl Back"
- ENG_Irish_Trade_War.4.d: ""
+ ENG_Irish_Trade_War.4.d: "Following our refusal to negotiate a closure to the Anglo-Irish Trade Conflict with the Irish Free State, the Irish delegation has returned, this time accompanied by James Ryan, the Irish Minister of Agriculture. James Ryan delivered a relatively short speech highlighting the significant negative effects of the trade war on the agricultural industries of the Irish economy, which itself was followed by a delegation declaration announcing the Free State's willingness to negotiate extended concessions in exchange for a decrease of our pressure. They concluded with a reading of a letter addressed to [ENG.GetLeader from [IRE.GetLeader] himself, reiterating the economic disruption done to Ireland."
  ENG_Irish_Trade_War.4.A: "Some relief may be what's needed"
  ENG_Irish_Trade_War.4.B: "Deny them any concessions whatsoever"
 
@@ -487,30 +487,30 @@
  ENG_Irish_Trade_War.5.B: "We cannot accept these alterations to defence policy"
 
  ENG_Irish_Trade_War.6.t: "The Irish Financial and Trade Terms"
- ENG_Irish_Trade_War.6.d: ""
- ENG_Irish_Trade_War.6.A: ""
+ ENG_Irish_Trade_War.6.d: "Following the Irish Free State's sentimental, but somewhat hustled, efforts to bring the Anglo-Irish Trade War to an end, we have convened to negotiate predefined terms with [IRE.GetLeader] to start reducing tensions between our two countries. We have agreed to remove our tariffs on Irish exports to our nation in return for the Irish relinquishing their claims on the Treaty Ports of Berehaven, Spike Island, and Lough Swilly. Furthermore, the Irish Free State will make a one-time compensation of £8 million to accommodate land annuity liabilities. While these aren't the greatest conditions we could have obtained, they do enable us to concentrate our efforts on Europe's growing unease."
+ ENG_Irish_Trade_War.6.A: "We'll certainly agree to this!"
 
  ENG_Irish_Trade_War.7.t: "The Anglo-Irish Agreements"
- ENG_Irish_Trade_War.7.d: "[FROM.GetNewsIcon]"
- ENG_Irish_Trade_War.7.A: ""
- ENG_Irish_Trade_War.7.B: ""
- ENG_Irish_Trade_War.7.C: ""
+ ENG_Irish_Trade_War.7.d: "[FROM.GetNewsIcon]Following a series of negotiations between authorities from the United Kingdom and Ireland, numerous terms and arrangements have been attained. The primary focus has centred on the financial, trade, and defence segments. All tax duties imposed in the previous five years have been raised, with [IRE.GetLeader] consenting to a one-time compensation of £10 million to the UK while retaining the authority to impose tariffs on British imports to safeguard their recently established industries.\n\nA free-trade agreement has also been reached, which vastly strengthens the ties between the United Kingdom and the Free State. The surrender of the treaty ports, which the UK retained in 1921, is perhaps one of the most notable features of the terms. As a result, as officially confirmed by the British Prime Minister, Berehaven, Spike Island, and Lough Swilly will be transferred to Ireland immediately as an expression of trust and goodwill."
+ ENG_Irish_Trade_War.7.A: "A toast to better time ahead!"
+ ENG_Irish_Trade_War.7.B: "A toast to better time ahead!"
+ ENG_Irish_Trade_War.7.C: "The British and the Irish agreeing on something?!"
 
  ENG_Irish_Trade_War.8.t: "The Dual Anglo-Irish Agreements"
- ENG_Irish_Trade_War.8.d: "[FROM.GetNewsIcon]"
- ENG_Irish_Trade_War.8.A: ""
- ENG_Irish_Trade_War.8.B: ""
- ENG_Irish_Trade_War.8.C: ""
+ ENG_Irish_Trade_War.8.d: "[FROM.GetNewsIcon]Following [ENG.GetLeader]'s initial stoicism in bargaining mutually beneficial terms to cease the Anglo-Irish Trade War, an Irish delegation returned to London with a revived willingness to make additional concessions. [ENG.GetLeader] decided to make the executive decision, after careful consideration, to welcome [IRE.GetLeader] to London to begin talks. After several months of perceptibly deliberate stalling by British negotiators, the following terms have been agreed upon and signed into effect:\n\nThe Irish Free State has agreed to relinquish all claims to the Treaty Ports in Ireland that are currently under British administration.  Moreover, the Free State will make a one-time instalment of £8 million to accommodate land annuity liabilities. Moreover, all tariffs on British and Irish exports will be eliminated. The Anglo-Irish Trade Conflict has been declared concluded with these terms. In the words of [ENG.GetLeader], British ministers are now "free to focus their efforts to more critical matters on the continent."
+ ENG_Irish_Trade_War.8.A: "At last, and end to the trade war!"
+ ENG_Irish_Trade_War.8.B: "At last, and end to the trade war!"
+ ENG_Irish_Trade_War.8.C: "They finally came to their senses."
 
  ENG_Irish_Trade_War.9.t: "A Desperate Irish Attempt"
- ENG_Irish_Trade_War.9.d: ""
- ENG_Irish_Trade_War.9.A: ""
+ ENG_Irish_Trade_War.9.d: "With our continued obstinacy and outright refusal to negotiate further on the issue of reducing tensions caused by the Anglo-Irish Trade Conflict, Irish delegations have left London disappointed and frustrated, unable to meet our demands. Given that the trade war has little impact on British daily life and the overall economy, this has little impact on us, while the Irish Free State's economy continues to deteriorate.\n\nHowever, the Irish are determined to get something out of their efforts, and have returned, hoping to use an unstable Europe as a stabilizing factor to put an end to the ongoing destruction of their new industries. While a decision has been reached, the terms are not necessarily advantageous to either party. Tariffs are to be reduced on both ends, significantly relieving the Free State; however, they must pay a one-time payment of £6 million as compensation for land annuity liabilities. The Anglo-Irish Trade War is finally over, and our ministers can refocus their efforts on a more lethal conflict."
+ ENG_Irish_Trade_War.9.A: "The issue of the trade war can be settled at last."
 
  ENG_Irish_Trade_War.8.t: "The Anglo-Irish Agreement"
- ENG_Irish_Trade_War.8.d: "[FROM.GetNewsIcon]"
- ENG_Irish_Trade_War.8.A: ""
- ENG_Irish_Trade_War.8.B: ""
- ENG_Irish_Trade_War.8.C: ""
+ ENG_Irish_Trade_War.8.d: "[FROM.GetNewsIcon]The Anglo-Irish Trade War has been brought to an end! With Europe becoming more unstable, and with the UK wanting to shore up its economy, the Irish delegation returned to London accompanied by [IRE.GetLeader], with high expectations of reaching the conclusion of the Trade Conflict. Irish industries are collapsing, the citizenry is impoverished, and the economy is in complete disarray, unable to re-establish itself against British tariffs on its exports. After tense but brief negotiations, an agreement was finally reached and signed into effect. The following are the terms:\n\nTariffs on Irish and British goods are to be removed immediately, allowing free commerce between the two countries to begin and, hopefully, permitting the Irish Free State's economy to gain some momentum. The Free State will make a one-time payment of £6 million to compensate for land annuity liabilities.\n\nWith the closure of the Anglo-Irish Trade War, the British and their Commonwealth can shift their focus to a far more threatening conflict that has the possibility of bringing Britain to her knees for the first time in many centuries..."
+ ENG_Irish_Trade_War.8.A: "This should help our economic situation."
+ ENG_Irish_Trade_War.8.B: "This should help our economic situation."
+ ENG_Irish_Trade_War.8.C: "At last, the trade war is over."
  
 ######################################################################
 #  Chinese Defeat in the Second Sino-Japanese War - British Events

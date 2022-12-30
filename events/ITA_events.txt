@@ -1580,7 +1580,7 @@ country_event = { # Italy Demands Territory (YUG)
 			transfer_state = 103
 			transfer_state = 1085
 			transfer_state = 1091
-			country_event = { id = ITA_Political_Tree.6 }
+			country_event = { id = ITA_Political_Tree.6 days = 1 }
 		}
 	}
 	option = { # Refuse
@@ -1593,7 +1593,7 @@ country_event = { # Italy Demands Territory (YUG)
 			}
 		}
 		ITA = {
-			country_event = { id = ITA_Political_Tree.7 }
+			country_event = { id = ITA_Political_Tree.7 days = 1 }
 		}
 	}
 }
@@ -1616,7 +1616,7 @@ country_event = { # Issue Ultimatum to Bulgaria
 		}
 		ITA = {
 			puppet = BUL
-			country_event = { id = ITA_Political_Tree.6 }
+			country_event = { id = ITA_Political_Tree.6 days = 1 }
 		}
 	}
 	option = { # We'd like to see them try!
@@ -1629,7 +1629,7 @@ country_event = { # Issue Ultimatum to Bulgaria
 			}
 		}
 		ITA = {
-			country_event = { id = ITA_Political_Tree.7 }
+			country_event = { id = ITA_Political_Tree.7 days = 1 }
 		}
 	}
 }
@@ -1658,7 +1658,7 @@ country_event = { # Italians ask for surrender of our isles!
 			transfer_state = 1117
 			transfer_state = 1118
 			transfer_state = 1119
-			country_event = { id = ITA_Political_Tree.6 }
+			country_event = { id = ITA_Political_Tree.6 days = 1 }
 		}
 	}
 	option = { # Never again shall be oppressed by a foreign power!
@@ -1671,7 +1671,7 @@ country_event = { # Italians ask for surrender of our isles!
 			}
 		}
 		ITA = {
-			country_event = { id = ITA_Political_Tree.7 }
+			country_event = { id = ITA_Political_Tree.7 days = 1 }
 		}
 	}
 }
@@ -1701,9 +1701,9 @@ country_event = {
 	# 
 	option = {
 		name = ITA_Political_Tree.7.A
-		declare_war_on = {
+		create_wargoal = {
+			type = annex_everything
 			target = FROM
-			type = puppet_wargoal_focus
 		}
 	}
 }
