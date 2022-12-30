@@ -186,7 +186,20 @@ news_event = {
 ###########################
 news_event = {
 	id = GER_Reichskanzler_Hitler.6
-	title = GER_Reichskanzler_Hitler.6.t
+	title = {
+		text = GER_Reichskanzler_Hitler.6.t
+		trigger = {
+			NOT = {
+				original_tag = GER
+			}
+		}
+	}
+	title = {
+		text = GER_Reichskanzler_Hitler.6.t.GER
+		trigger = {
+			original_tag = GER
+		}
+	}
 	desc = {
 		text = GER_Reichskanzler_Hitler.6.d
 		trigger = {
