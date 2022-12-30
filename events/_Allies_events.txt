@@ -1349,6 +1349,10 @@ country_event = {
 			}
 			SOV = {
 				transfer_state = 5
+				transfer_state = 188
+				transfer_state = 91
+				transfer_state = 89
+				transfer_state = 1170
 			}
 
 			# Division of Austria
@@ -1430,10 +1434,7 @@ country_event = {
 						has_war_with = GER
 					}
 				}
-				FRA = {
-					change_tag_from = FFL
-				}
-				FRA = {
+				FFL = {
 					transfer_state = 1505
 					transfer_state = 762
 					transfer_state = 1022
@@ -1475,6 +1476,9 @@ country_event = {
 					transfer_state = 32
 					transfer_state = 846
 					transfer_state = 1
+					annex_country = {
+						target = FRA
+					}
 				}
 				every_state = {
 					limit = {
@@ -1566,6 +1570,16 @@ country_event = {
 					set_politics = {
 						ruling_party = democratic
 						elections_allowed = no
+					}
+					if = {
+						limit = {
+							RSI = {
+								exists = yes
+							}
+						}
+						annex_country = {
+							target = RSI
+						}
 					}
 				}
 
@@ -1682,33 +1696,26 @@ country_event = {
 			}
 
 			# Greece
-			if = {
-				limit = {
-					GRE = {
-						has_war_with = GER
-					}
-				}
-				GRE = {
-					transfer_state = 1109
-					transfer_state = 184
-					transfer_state = 1110
-					transfer_state = 900
-					transfer_state = 731
-					transfer_state = 1112
-					transfer_state = 185
-					transfer_state = 1113
-					transfer_state = 1115
-					transfer_state = 1111
-					transfer_state = 1114
-					transfer_state = 186
-					transfer_state = 47
-					transfer_state = 182
-					transfer_state = 1116
-					transfer_state = 1117
-					transfer_state = 187
-					transfer_state = 1118
-					transfer_state = 1119
-				}
+			GRE = {
+				transfer_state = 1109
+				transfer_state = 184
+				transfer_state = 1110
+				transfer_state = 900
+				transfer_state = 731
+				transfer_state = 1112
+				transfer_state = 185
+				transfer_state = 1113
+				transfer_state = 1115
+				transfer_state = 1111
+				transfer_state = 1114
+				transfer_state = 186
+				transfer_state = 47
+				transfer_state = 182
+				transfer_state = 1116
+				transfer_state = 1117
+				transfer_state = 187
+				transfer_state = 1118
+				transfer_state = 1119
 			}
 
 			# Romania

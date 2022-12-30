@@ -1909,10 +1909,10 @@ country_event = {
 			limit = {
 				has_idea = SOV_The_Great_Soviet_Famine
 			}
-		}
-		modify_timed_idea = {
-			idea = SOV_The_Great_Soviet_Famine
-			days = 120
+			modify_timed_idea = {
+				idea = SOV_The_Great_Soviet_Famine
+				days = 120
+			}
 		}
 		else = {
 			add_timed_idea = {
@@ -1940,10 +1940,10 @@ country_event = {
 				limit = {
 					has_idea = SOV_The_Great_Soviet_Famine
 				}
-			}
-			modify_timed_idea = {
-				idea = SOV_The_Great_Soviet_Famine
-				days = 60
+				modify_timed_idea = {
+					idea = SOV_The_Great_Soviet_Famine
+					days = 60
+				}
 			}
 			else = {
 				add_timed_idea = {
@@ -1960,10 +1960,10 @@ country_event = {
 				limit = {
 					has_idea = SOV_The_Great_Soviet_Famine
 				}
-			}
-			modify_timed_idea = {
-				idea = SOV_The_Great_Soviet_Famine
-				days = 120
+				modify_timed_idea = {
+					idea = SOV_The_Great_Soviet_Famine
+					days = 120
+				}
 			}
 			else = {
 				add_timed_idea = {

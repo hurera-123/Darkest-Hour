@@ -616,7 +616,7 @@ ITA_Invade_Greece = {
 	enable = {
 		has_government = fascist
 		has_war_with = ENG
-		date > 1.6.1940
+		date > 1940.6.1
 	}
 	abort = {
 		GRE = {
