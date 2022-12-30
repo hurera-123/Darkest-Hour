@@ -350,6 +350,7 @@ ITA_Drain_the_Swamp_category = {
 		NOT = {
 			has_country_flag = ITA_All_Swamps_Drained
 		}
+		is_ai = no
 	}
 	visible_when_empty = yes
 	scripted_gui = ita_drain_swamps_gui

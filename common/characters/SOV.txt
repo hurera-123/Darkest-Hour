@@ -1051,6 +1051,9 @@ characters = {
 				
 				MoS_Purged_Purger
 			}
+			ai_will_do = {
+				factor = 500
+			}
 		}
 	}
 	SOV_Sergej_Uritskiy = {
@@ -1286,6 +1289,9 @@ characters = {
 				
 				AM_Planned_Economy_Proponent
 			}
+			ai_will_do = {
+				factor = -500
+			}
 		}
 	}
 	SOV_Vlas_Chubar = {
@@ -1435,6 +1441,9 @@ characters = {
 			traits={
 				
 				AM_Resource_Industrialist
+			}
+			ai_will_do = {
+				factor = 500
 			}
 		}
 	}
@@ -2438,6 +2447,9 @@ characters = {
 				
 				army_armored_3
 			}
+			ai_will_do = {
+				factor = 500
+			}
 		}
 	}
 	SOV_Mikhail_BonchBruyevich = {
@@ -3048,6 +3060,9 @@ characters = {
 			traits={
 				
 				AM_Planned_Economy_Proponent
+			}
+			ai_will_do = {
+				factor = -500
 			}
 		}
 		advisor={

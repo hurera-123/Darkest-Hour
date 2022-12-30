@@ -6359,7 +6359,7 @@ SOV_The_Great_Patriotic_War_category = {
 		available = {
 			has_war_with = GER
 			IRQ = {
-				is_puppet_of = ENG
+				is_subject_of = ENG
 			}
 		}
 		ai_will_do = {

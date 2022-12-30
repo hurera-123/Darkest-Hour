@@ -36,7 +36,9 @@ script_enum_equipment_bonus_type = {
 	
 	## DH Air
 	Attacker_equipment
-	cv_Attacker_equipment 
+	cv_Attacker_equipment
+	light_fighter
+	cas_bomber
 
 	## Land
 	infantry_equipment
@@ -82,6 +84,9 @@ script_enum_equipment_bonus_type = {
 	medium_tank_destroyer_equipment
 	heavy_tank_equipment 
 	Super_Heavy_Tank_equipment
+	Main_Battle_Tank_equipment_1952
+	APC_equipment
+	IFV_equipment
 
 	## Sea
 	ship_hull_light

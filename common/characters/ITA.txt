@@ -2487,6 +2487,9 @@ characters={
 				
 				MoS_Silent_Lawyer
 			}
+			ai_will_do = {
+				factor = 500
+			}
 		}
 		advisor={
 			slot=Head_of_Intelligence
@@ -2898,6 +2901,9 @@ characters={
 			traits={
 				army_infantry_1
 			}
+			ai_will_do = {
+				factor = 500
+			}
 		}
 	}
 	ITA_Antonio_Sorice = {
@@ -3022,6 +3028,9 @@ characters={
 			traits={
 				
 				AM_Administrative_Genius
+			}
+			ai_will_do = {
+				factor = 500
 			}
 		}
 	}
@@ -5055,6 +5064,9 @@ characters={
 			traits={
 				
 				CoArmy_Decisive_Battle_Doctrine
+			}
+			ai_will_do = {
+				factor = 500
 			}
 		}
 		advisor={

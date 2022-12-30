@@ -1275,7 +1275,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			custom_effect_tooltip = ITA_Incorporate_Istituto_di_Liquidazioni_tt
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 500
 		}
 	}
 	ITA_Absorb_Shares_of_Banca_Commerciale_Italiana = {
@@ -1330,7 +1330,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			clr_country_flag = ITA_Absorbing_Other_Shares
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Absorb_Shares_of_Banco_di_Roma = {
@@ -1375,7 +1375,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			clr_country_flag = ITA_Absorbing_Other_Shares
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Absorb_Shares_of_Credito_Italiano = {
@@ -1420,7 +1420,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			clr_country_flag = ITA_Absorbing_Other_Shares
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Liquidate_Societa_Finanziaria_Italiana = {
@@ -1435,7 +1435,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		cost = 20
 		modifier = {
 			political_power_cost = 0.05
-			consumer_goods_factor = 0.05
+			consumer_goods_factor = 0.02
 		}
 		complete_effect = {
 		}
@@ -1450,7 +1450,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			add_unemployment_effect = yes
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Liquidate_Sofindit = {
@@ -1465,7 +1465,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		cost = 20
 		modifier = {
 			political_power_cost = 0.05
-			consumer_goods_factor = 0.05
+			consumer_goods_factor = 0.02
 		}
 		complete_effect = {
 		}
@@ -1480,7 +1480,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			add_unemployment_effect = yes
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Liquidate_Societa_Elettrofinanziaria = {
@@ -1495,7 +1495,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		cost = 20
 		modifier = {
 			political_power_cost = 0.05
-			consumer_goods_factor = 0.05
+			consumer_goods_factor = 0.02
 		}
 		complete_effect = {
 		}
@@ -1510,7 +1510,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			add_unemployment_effect = yes
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Subsidize_Management_Training_for_Steel_Industry = {
@@ -1544,7 +1544,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			custom_effect_tooltip = ITA_IRI_Resource_Extraction_tt
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 200
 		}
 	}
 	ITA_Acquire_Societa_Idroelettrica_Piemontese = {
@@ -1596,7 +1596,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			custom_effect_tooltip = ITA_IRI_Maintenance_tt
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 500
 		}
 	}
 	ITA_Reprivatize_EDISON_and_SADE_Companies = {
@@ -1633,7 +1633,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			add_unemployment_effect = yes
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Nationalize_Banca_dItalia = {
@@ -1666,7 +1666,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		remove_effect = {
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Nationalize_Banca_Commerciale_Italiana = {
@@ -1705,7 +1705,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		remove_effect = {
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Nationalize_Banco_di_Roma = {
@@ -1738,7 +1738,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		remove_effect = {
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Nationalize_Credito_Italiano = {
@@ -1771,7 +1771,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		remove_effect = {
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Establish_FINMARE = {
@@ -1814,7 +1814,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			set_country_flag = ITA_FINMARE_Established
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 500
 		}
 	}
 	ITA_Reorganize_Italia_and_Lloyd_Triestino_Shipping_Compaines = {
@@ -1855,7 +1855,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 500
 		}
 	}
 	ITA_Reogranize_Adriatica_and_Tirrentia_Shipping_Companies = {
@@ -1870,7 +1870,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		days_remove = 130
 		modifier = {
 			political_power_cost = 0.1
-			consumer_goods_factor = 0.05
+			consumer_goods_factor = 0.02
 		}
 		complete_effect = {
 		}
@@ -1904,7 +1904,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 500
 		}
 	}
 	ITA_Establish_FINSIDER = {
@@ -2003,7 +2003,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			add_unemployment_effect = yes
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 		}
 	}
 	ITA_Acquire_SIAC_Shares = {
@@ -2218,7 +2218,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			add_unemployment_effect = yes
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 		}
 	}
 	ITA_Merge_Investment_Department_of_IRI_with_the_IMI = {
@@ -2354,7 +2354,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			custom_effect_tooltip = ITA_IRI_Maintenance_tt
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 		}
 	}
 }

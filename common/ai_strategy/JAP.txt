@@ -1613,17 +1613,17 @@ less_trucks_4_u_JAP = {
 	}
 	ai_strategy = {
 		type = equipment_production_factor
-		id = tac_bomber_equipment
+		id = tactical_bomber
 		value = 0
 	}
 	ai_strategy = {
 		type = equipment_production_factor
-		id = interceptor_equipment
+		id = interceptor
 		value = -100
 	}
 	ai_strategy = {
 		type = equipment_production_factor
-		id = strat_bomber_equipment
+		id = strategic_bomber
 		value = -100
 	}
 	ai_strategy = {

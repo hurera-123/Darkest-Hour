@@ -274,6 +274,10 @@ ideas = {
 					factor = 0
 					has_country_flag = Set_Taxation_Level_to_3
 				}
+				modifier = {
+					factor = 0
+					tag = ITA
+				}
 			}
 		}
 		taxation_level_5 = {

@@ -21,31 +21,31 @@ ITA_historical = {
 		ITA_Gladius
 		ITA_Control_Over_the_Party
 		ITA_Protect_Workers_Livelihoods
+		ITA_Additional_Funding_for_Dopolavoro
 		ITA_The_Four_Powers_Act
 		ITA_Reaffirm_The_Locarno_Treaty
 		ITA_Fascization_Of_Confindustria
 		ITA_The_Rome_Protocolos
 		ITA_Improve_Labor_Conditions_For_Women
 		ITA_Tridens
+		ITA_Finish_the_integration_of_the_MVSN
+		ITA_Biastrocchis_Reforms
+		ITA_Badoglios_Old_Ways
+		ITA_Introduce_Upper_Brass
 		ITA_A_New_Governor_General
 		ITA_Aquila
 		ITA_Adopt_Law_on_Child_Labor
-		ITA_Additional_Funding_for_Dopolavoro
 		ITA_Reduce_Work_Hours
 		ITA_Introduce_Currency_Control
 		ITA_Expand_the_Assets_of_Istituto_Luce
 		ITA_LItalia_Per_Prima
 		ITA_Italia_Imperiale
 		ITA_Badoglios_Influence
-		ITA_Finish_the_integration_of_the_MVSN
-		ITA_Introduce_Upper_Brass
 		ITA_Bank_Law_of_Nineteen_Thirty_Six
 		ITA_Parola_dOrdine_Autarchia
 		ITA_Opera_Nazionale_Balilla
 		ITA_Establish_MinCulPop
 		ITA_Establish_ENIC_Movie_Corporation
-		ITA_Biastrocchis_Reforms
-		ITA_Badoglios_Old_Ways
 		ITA_Taranto_Queen_of_the_Sea
 		ITA_Old_Ships_New_Guns
 		ITA_Nationalize_Foreign_Investments

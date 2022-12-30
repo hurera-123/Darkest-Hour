@@ -116,6 +116,9 @@ characters={
 				
 				MoS_Silent_Lawyer
 			}
+			ai_will_do = {
+				factor = 500
+			}
 		}
 	}
 	JAP_Fujie_Keisuke = {
@@ -3627,6 +3630,9 @@ characters={
 				
 				HoI_Political_Specialist
 			}
+			ai_will_do = {
+				factor = 500
+			}
 		}
 		advisor={
 			slot=high_command
@@ -4153,6 +4159,9 @@ characters={
 				
 				CoArmy_Static_Defence_Doctrine
 			}
+			ai_will_do = {
+				factor = 500
+			}
 		}
 	}
 	JAP_Abe_Nobuyuki = {
@@ -4255,6 +4264,9 @@ characters={
 			traits={
 				
 				CoNavy_Base_Control_Doctrine
+			}
+			ai_will_do = {
+				factor = 500
 			}
 		}
 	}

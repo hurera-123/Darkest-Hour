@@ -391,6 +391,16 @@ on_actions = {
 					}
 					country_event = { id = GER_SOV_War.2 }
 					news_event = { id = GER_SOV_War.3 hours = 12 }
+					every_country = {
+						limit = {
+							is_in_faction_with = GER
+						}
+						add_to_war = {
+							targeted_alliance = GER
+							enemy = SOV
+							hostility_reason = asked_to_join
+						}
+					}
 				}
 			}
 			# Change US Spirit to Remove Unemployment Growth

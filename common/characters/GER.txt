@@ -1352,6 +1352,9 @@ characters={
 				
 				MoS_Ruthless_Organizer
 			}
+			ai_will_do = {
+				factor = 500
+			}
 		}
 	}
 	GER_Kurt_Daluege={
@@ -3871,7 +3874,7 @@ characters={
 				army_infantry_2
 			}
 			ai_will_do = {
-				factor = 1
+				factor = 500
 			}
 		}
 	}

@@ -836,9 +836,9 @@ focus_tree = {
 		search_filters = {  }
 	}
 	focus = {
-		id = ITA_Littorio_Class
-		icon = GFX_GENERIC_Battleship
-		cost = 10
+		id = ITA_First_Reggimento_San_Marco
+		icon = GFX_GENERIC_Marines
+		cost = 30
 		prerequisite = {
 			focus = ITA_Tridens
 		}
@@ -847,9 +847,9 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 1
 				uses = 1
-				technology = BB_1933
+				bonus = 1
+				category = marine_tech
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -911,7 +911,7 @@ focus_tree = {
 			focus = ITA_Taranto_Queen_of_the_Sea
 		}
 		prerequisite = {
-			focus = ITA_Littorio_Class
+			focus = ITA_First_Reggimento_San_Marco
 		}
 		prerequisite = {
 			focus = ITA_Old_Ships_New_Guns
@@ -919,7 +919,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = ITA_Cavagnaris_Battleship_Fleet
 		}
-		relative_position_id = ITA_Littorio_Class
+		relative_position_id = ITA_First_Reggimento_San_Marco
 		x = 1
 		y = 1
 		completion_reward = {
@@ -943,7 +943,7 @@ focus_tree = {
 			focus = ITA_Taranto_Queen_of_the_Sea
 		}
 		prerequisite = {
-			focus = ITA_Littorio_Class
+			focus = ITA_First_Reggimento_San_Marco
 		}
 		prerequisite = {
 			focus = ITA_Old_Ships_New_Guns
@@ -1183,9 +1183,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_HISTORICAL }
 	}
 	focus = {
-		id = ITA_First_Reggimento_San_Marco
-		icon = GFX_GENERIC_Marines
-		cost = 30
+		id = ITA_Littorio_Class
+		icon = GFX_GENERIC_Battleship
+		cost = 10
 		prerequisite = {
 			focus = ITA_Meritocratic_Naval_Colleges
 			focus = ITA_Old_Guard_Hierarchy
@@ -1195,9 +1195,9 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			add_tech_bonus = {
-				uses = 1
 				bonus = 1
-				category = marine_tech
+				uses = 1
+				technology = BB_1933
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -1207,14 +1207,14 @@ focus_tree = {
 		icon = GFX_GENERIC_Coastal_Defense
 		cost = 65
 		prerequisite = {
-			focus = ITA_First_Reggimento_San_Marco
+			focus = ITA_Littorio_Class
 		}
 		mutually_exclusive = {
 			focus = ITA_Pista_Aerea_Sicilia
 		}
-		relative_position_id = ITA_First_Reggimento_San_Marco
-		x = -1
-		y = 1
+		relative_position_id = ITA_Meritocratic_Naval_Colleges
+		x = 0
+		y = 2
 		completion_reward = {
 			115 = {
 				add_building_construction = {
@@ -1250,14 +1250,14 @@ focus_tree = {
 		icon = GFX_GENERIC_Militarize_Civilian_Airports
 		cost = 65
 		prerequisite = {
-			focus = ITA_First_Reggimento_San_Marco
+			focus = ITA_Littorio_Class
 		}
 		mutually_exclusive = {
 			focus = ITA_Fortezza_Sicilia
 		}
-		relative_position_id = ITA_First_Reggimento_San_Marco
-		x = 1
-		y = 1
+		relative_position_id = ITA_Meritocratic_Naval_Colleges
+		x = 2
+		y = 2
 		completion_reward = {
 			115 = {
 				add_building_construction = {
@@ -2454,10 +2454,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_Rescue_Italic_Businesses
 		completion_reward = {
-			add_timed_idea = {
-				idea = ITA_Battaglia_del_Grano
-				days = 372
-			}
+			add_ideas = ITA_Battaglia_del_Grano
 		}
 	}
 	focus = {
@@ -2503,6 +2500,28 @@ focus_tree = {
 			swap_ideas = {
 				add_idea = ITA_The_Corporatist_Experiment_2
 				remove_idea = ITA_The_Corporatist_Experiment
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ITA
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ITA
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
 			}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_HISTORICAL }
@@ -2677,6 +2696,9 @@ focus_tree = {
 		cost = 30
 		x = 0
 		y = 1
+		available = {
+			date > 1936.1.1
+		}
 		prerequisite = {
 			focus = ITA_Introduce_Currency_Control
 		}
@@ -2978,46 +3000,66 @@ focus_tree = {
 		relative_position_id = ITA_Rescue_Italic_Businesses
 		completion_reward = {
 			add_political_power = 50
-			unlock_decision_category_tooltip = ITA_Drain_the_Swamp_category
-			set_country_flag = ITA_Pontine_Marshes_Swamp
-			set_variable = {
-				var = Swamps_Progress
-				value = 0
-			}
-			set_variable = {
-				var = ITA_Swamps_Stage
-				value = 0
-			}
-			set_variable = {
-				var = ITA_Swamps_Progress_Monthly
-				value = 3.5
-			}
-			set_variable = {
-				var = ITA_Swamps_kW_Produced
-				value = 3000
-			}
-			set_variable = {
-				var = ITA_Swamps_kW_Upkeep
-				value = 2800
-			}
-			set_variable = {
-				var = ITA_Decision_Selection_Times
-				value = 0
-			}
-			clamp_variable = {
-				var = ITA_Swamps_Stage
-				min = 0
-				max = 5
-			}
-			hidden_effect = {
-				set_temp_variable = {
-					swamp_progress_to_add = 40
+			if = {
+				limit = {
+					is_ai = yes
 				}
-				ITA_add_swamp_progress = yes
+				hidden_effect = {
+					random_owned_controlled_state = {
+						limit = {
+							is_core_of = ITA
+						}
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+						add_extra_state_shared_building_slots = 1
+					}
+				}
 			}
-			country_event = {
-				id = ITA_Economic_Tree.5
-				days = 1
+			else = {
+				unlock_decision_category_tooltip = ITA_Drain_the_Swamp_category
+				set_country_flag = ITA_Pontine_Marshes_Swamp
+				set_variable = {
+					var = Swamps_Progress
+					value = 0
+				}
+				set_variable = {
+					var = ITA_Swamps_Stage
+					value = 0
+				}
+				set_variable = {
+					var = ITA_Swamps_Progress_Monthly
+					value = 3.5
+				}
+				set_variable = {
+					var = ITA_Swamps_kW_Produced
+					value = 3000
+				}
+				set_variable = {
+					var = ITA_Swamps_kW_Upkeep
+					value = 2800
+				}
+				set_variable = {
+					var = ITA_Decision_Selection_Times
+					value = 0
+				}
+				clamp_variable = {
+					var = ITA_Swamps_Stage
+					min = 0
+					max = 5
+				}
+				hidden_effect = {
+					set_temp_variable = {
+						swamp_progress_to_add = 40
+					}
+					ITA_add_swamp_progress = yes
+				}
+				country_event = {
+					id = ITA_Economic_Tree.5
+					days = 1
+				}
 			}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }

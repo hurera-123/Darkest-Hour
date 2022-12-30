@@ -973,6 +973,38 @@ ITA_unit_production = {
 	}
 }
 
+ITA_Equipment_Production_1 = {
+	allowed = {
+		original_tag = ITA
+	}
+	enable = {
+		date < 1936.1.1
+	}
+	abort = {
+		date > 1936.1.1
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = interceptor
+		value = -100
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = strategic_bomber
+		value = -100
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = train
+		value = 1
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = motorized
+		value = 2
+	}
+}
+
 ITA_template_design_1 = {
 	allowed = {
 		original_tag = ITA

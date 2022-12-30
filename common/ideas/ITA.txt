@@ -301,8 +301,8 @@ ideas = {
 			picture = ITA_Battaglia_Del_Grano
 			modifier = {
 				stability_factor = 0.05
-				conscription_factor = 0.05
-				min_export = -0.1
+				conscription_factor = 0.03
+				min_export = -0.05
 			}		
 		}
 		#### Outdated Tactics
