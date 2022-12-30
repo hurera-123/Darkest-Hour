@@ -12605,22 +12605,13 @@ country_event = {
 			}
 			add_war_support = 0.1
 		}
-		if = {
-			limit = {
-				has_dlc = "Together for Victory"
-			}
-			set_autonomy = {
-				target = SLO
-				autonomous_state = AUTONOMY_Satellite
-			}
-			set_autonomy = {
-				target = BOH
-				autonomous_state = AUTONOMY_Reichsprotectorate
-			}
+		set_autonomy = {
+			target = SLO
+			autonomous_state = AUTONOMY_Satellite
 		}
-		else = {
-			puppet = SLO
-			puppet = BOH
+		set_autonomy = {
+			target = BOH
+			autonomous_state = AUTONOMY_Reichsprotectorate
 		}
 		custom_effect_tooltip = end_of_czechoslovakia_mefo_bills_tt
 		add_to_variable = {
