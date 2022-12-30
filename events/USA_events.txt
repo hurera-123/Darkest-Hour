@@ -1852,6 +1852,10 @@ news_event = { # FDR's Third Inauguration
 			character = USA_Franklin_D_Roosevelt
 			civilian = { large ="GFX_P_D_Franklin_Roosevelt_1940" }
 		}
+		remove_ideas = {
+			USA_John_Nance_Garner_HoG
+		}
+		activate_advisor = USA_Henry_A_Wallace_HoG
 	}
 }
 ## USA Election 1940 Unhistorical

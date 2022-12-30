@@ -124,6 +124,7 @@ news_event = {
 				L_Autocratic_Charmer		
 			}
 		}
+		remove_ideas = SOV_Vyacheslav_M_Molotov_HoG
 		add_ideas = SOV_Andrei_Zhdanov_HoG
 		swap_ideas = {
 			add_idea = SOV_Command_Structure_Paralyzed_2

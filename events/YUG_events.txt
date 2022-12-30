@@ -71,7 +71,6 @@ country_event = {
 				#
 			}
 		}
-		#add_opinion_modifier = { target = GER modifier = anti_german_coup }
 		diplomatic_relation = {
 			country = GER
 			relation = non_aggression_pact
@@ -90,6 +89,14 @@ country_event = {
 					active = no
 				}
 			}
+		}
+		if = {
+			limit = { has_war_with = ENG }
+			white_peace = ENG
+		}
+		if = {
+			limit = { has_war_with = SOV }
+			white_peace = SOV
 		}
 		news_event = { hours = 6 id = news.150 }
 	}

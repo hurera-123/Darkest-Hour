@@ -61,3 +61,5 @@
  GENERIC_Focus_Tree.12.t: "Ship Competition completed"
  GENERIC_Focus_Tree.12.desc: "Following negotiations with the manufacturer and state officials, we have successfully secured a production license for a new ship. An example of the ship has already arrived to train mechanics on its maintainance, and a full set of drawings and blueprints is expected shortly. Production can commence at any time."
  GENERIC_Focus_Tree.12.A: "Very Good"
+ 
+ ace_promoted.1.A: "Who dares, wins."

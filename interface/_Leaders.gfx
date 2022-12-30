@@ -1595,11 +1595,6 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_P_D_Henry_Wallace"
-        texturefile = "gfx/leaders/CSA/P_D_Henry_Wallace.png"
-    }
-
-    spriteType = {
         name = "GFX_P_D_Herbert_Hoover"
         texturefile = "gfx/leaders/CSA/P_D_Herbert_Hoover.png"
     }
@@ -2448,6 +2443,11 @@ spriteTypes = {
         name = "GFX_P_SOV_Andrei_Zhdanov"
         texturefile = "gfx/leaders/EST/P_SOV_Andrei_Zhdanov.png"
     }
+	
+	spriteType = {
+		name = "GFX_P_C_Andrei_Zhdanov"
+		texturefile = "gfx/leaders/SOV/P_C_Andrei_Zhdanov.png"
+	}
 
     spriteType = {
         name = "GFX_P_SOV_Johannes_Vares"
