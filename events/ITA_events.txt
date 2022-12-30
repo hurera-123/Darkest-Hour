@@ -16,6 +16,7 @@ add_namespace = ITA_Flavour_Events
 add_namespace = ITA_Libyan_Concessions
 add_namespace = ITA_Conquest_Events
 add_namespace = ITA_Fall_of_Fascism
+add_namespace = ITA_Invasion_of_Greece
 ###########################
 # Allies in Rome
 ###########################
@@ -5521,5 +5522,156 @@ country_event = {
 	option = {
 		name = italy.16.A
 		transfer_state = 735
+	}
+}
+
+# Anglophiles in Athens
+country_event = {
+	id = ITA_Invasion_of_Greece.1
+	title = ITA_Invasion_of_Greece.1.t
+	desc = ITA_Invasion_of_Greece.1.d
+	picture = GFX_report_ITA_British_Reaction
+	
+	trigger = {
+		tag = ITA
+		is_in_faction_with = GER
+		has_war_with = ENG
+		date > 10.20.1940
+		has_government = fascist
+		has_global_flag = ITA_Annexed_Albania
+		NOT = {
+			has_war_with = GRE
+			GRE = {
+				is_in_faction_with = ITA
+			}
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = { # We cannot risk conflict.
+		name = ITA_Invasion_of_Greece.1.A
+		ai_chance = { factor = 0 }
+		
+	}
+	
+	option = { # Send the Ultimatum.
+		name = ITA_Invasion_of_Greece.1.B
+		ai_chance = { factor = 100 }
+		
+		custom_effect_tooltip = ITA_Invasion_of_Greece.1.B.tt
+		hidden_effect = {
+			GRE = {
+				country_event = {
+					id = ITA_Invasion_of_Greece.2
+					days = 4
+				}
+			}
+		}
+	}
+}
+
+# An Ultimatum from Italy
+country_event = {
+	id = ITA_Invasion_of_Greece.2
+	title = ITA_Invasion_of_Greece.2.t
+	desc = ITA_Invasion_of_Greece.2.d
+	picture = GFX_report_ITA_Benito_Mussolini
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA_Invasion_of_Greece.2.A
+		
+		ITA = {
+			country_event = {
+				id = ITA_Invasion_of_Greece.3
+				days = 4
+			}
+		}
+	}
+}
+
+#Metaxas Stands Defiant!
+country_event = {
+	id = ITA_Invasion_of_Greece.3
+	title = ITA_Invasion_of_Greece.3.t
+	desc = ITA_Invasion_of_Greece.3.d
+	picture = GFX_report_ITA_Mussolini_with_Generals
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA_Invasion_of_Greece.3.A
+		
+		declare_war_on = {
+			target = GRE
+			type = annex_everything
+		}
+		ENG = {
+			add_to_faction = GRE
+		}
+		hidden_effect = {
+			set_global_flag = ITA_Historical_Invasion_of_Greece
+		}
+	}
+}
+
+#Carve up Greece
+country_event = {
+	id = ITA_Invasion_of_Greece.4
+	title = ITA_Invasion_of_Greece.4.t
+	desc = ITA_Invasion_of_Greece.4.d
+	picture = GFX_report_ITA_Proposal
+	
+	trigger = {
+		tag = ITA
+		has_global_flag = ITA_Historical_Invasion_of_Greece
+		GRE = {
+			has_capitulated = yes
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = { #No.
+		name = ITA_Invasion_of_Greece.4.A
+		ai_chance = { factor = 0 }
+	}
+	
+	option = { #Divide the Greek Lands with our Allies
+		name = ITA_Invasion_of_Greece.4.B
+		
+		hidden_effect = {
+			ITA = {
+				set_state_controller = 1113
+				set_state_controller = 185
+				set_state_controller = 1112
+				set_state_controller = 1111
+				set_state_controller = 1114
+				set_state_controller = 1115
+				set_state_controller = 47
+				set_state_controller = 186
+				set_state_controller = 1117
+				set_state_controller = 1118
+				set_state_controller = 1119
+			}
+			GER = {
+				set_state_controller = 731
+				set_state_controller = 900
+				set_state_controller = 1109
+				set_state_controller = 187
+				
+			}
+			if = {
+				limit = {
+					BUL = {
+						is_in_faction_with = ITA
+					}
+				}
+				BUL = {
+					set_state_controller = 184
+					set_state_controller = 1110
+				}
+			}
+		}
 	}
 }

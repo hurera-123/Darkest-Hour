@@ -660,8 +660,27 @@
  ITA_Rome_Protocols.1.t: "Allies in Rome!"
  ITA_Rome_Protocols.1.d: "[FROM.GetNewsIcon]Earlier today, the Rome Protocols, a series of three international agreements, were concluded and signed by the governments of Austria, Hungary and Italy.\n\nProtocol one contains only a brief statement in which the signatories undertake “"To confer together on all problems which particularly concern them, and on problems of a general character, in the spirit of the existing treaties of friendship, which are based on a recognition of the existence of numerous common interests, a concordant policy directed towards the promotion of effective co-operation between the States of Europe and particularly between Italy, Austria and Hungary" and "to hold joint consultations whenever at least one of them deems it desirable”.\n\nProtocol two deals with economic relations between the three governments, like not to place any obstacles to trade between them and to conclude commercial treaties to that effect.\n\nProtocol three is concluded between only the governments of Italy and Austria and states that a new trade treaty and trade privileges are to be negotiated as soon as possible.\n\nThe protocols are expected to go into effect in a few months.\nOnly time will tell if this cooperation can last, or if it will be rather short-lived."
  ITA_Rome_Protocols.1.A: "To Good Future Relations"
- ITA_Rome_Protocols.1.B: "Let’s See How Long This Will Last"
+ ITA_Rome_Protocols.1.B: "Let’s see how long this will last."
+ 
+ ITA_Invasion_of_Greece.1.t: "Anglophiles in Athens"
+ ITA_Invasion_of_Greece.1.d: "It's an open secret that Metaxas favours diplomacy and cooperation with Albion that he does our vaunted realm. This comes as no shock to anybody in the know, as Greco-Italian relations have been rather frosty for many years now, with serious grievances dating all the back to our annexation of the Dodecanese Islands in 1912, which Greek Nationalists rather stupidly proclaim to be rightfully part of their country. But now that we are waging a tenacious war against the British all across the Mediterranean, many in the high command have pressured Mussolini to take pre-emptive action against the potential british outpost in southern Europe. We have drafted an ultimatum to be delivered to Metaxas' desk, designed to be rejected and to allow the Regio Esercito to swiftly occupy the largely underdeveloped and impoverished country."
+ ITA_Invasion_of_Greece.1.A: "Let us avert unneeded Wars."
+ ITA_Invasion_of_Greece.1.B: "Send the Ultimatum."
+ ITA_Invasion_of_Greece.1.B.tt: "§RThis Ultimatum was designed to be rejected, and will surely lead to war!§!"
 
+ ITA_Invasion_of_Greece.2.t: "An Ultimatum from Italy"
+ ITA_Invasion_of_Greece.2.d: ""
+ ITA_Invasion_of_Greece.2.A: "Ochi!"
+ 
+ ITA_Invasion_of_Greece.3.t: "Metaxas Stands Defiant!"
+ ITA_Invasion_of_Greece.3.d: "This evening the Greek Ambassador delivered to us the official Greek response to our ultimatum. The Duce did not even need to read the communique in order to know what had been relayed to him. This of course, was to be expected. Accepting such demands would have been impossible for any nation, however Mussolini did not care. His new Roman Empire now has the Casus Belli that it needs in order to set about reclaiming one of antiquity's most valued provinces: Greece. Within mere minutes of recieving the Greek response he was already on the phone with important members of the Regio Esercito to order the commencement of hostilities. As the clock struck 04:00 today, artillery began to sing and our troops began crossing the Grco-Albanian border in what will surely be a short and simple campaign."
+ ITA_Invasion_of_Greece.3.A: "Avanti Italia!"
+ 
+ ITA_Invasion_of_Greece.4.t: "Carving up Greece"
+ ITA_Invasion_of_Greece.4.d: "In coordination with our allies, our armies have occupied the Greek lands. With the vast majority of the country under our control, we must now decide how best to divide the conquered territories between our nations. While we could simply leave the existing occupation lines as-is, we might also stand to gain for a pre-arranged settlement of occupation zones."
+ ITA_Invasion_of_Greece.4.A: "We have little interest in sharing."
+ ITA_Invasion_of_Greece.4.B: "Divide the Greek Lands with our Allies."
+ 
  # Fall of Fasicsm
  ITA_Conquest_Events.1.t: "Fall of Libya"
  ITA_Conquest_Events.1.d: ""
