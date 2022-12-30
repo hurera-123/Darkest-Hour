@@ -5536,7 +5536,7 @@ country_event = {
 		tag = ITA
 		is_in_faction_with = GER
 		has_war_with = ENG
-		date > 10.20.1940
+		date > 1940.10.20
 		has_government = fascist
 		has_global_flag = ITA_Annexed_Albania
 		NOT = {

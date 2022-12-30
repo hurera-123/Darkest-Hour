@@ -40,6 +40,9 @@
  anti_socialist_raids: "Anti-Socialist Raids"
  anti_communist_raids: "Anti-Communist Raids"
 
+# Economic Recovery
+ Wartime_Economic_Recovery: "Wartime Economic Recovery"
+
 # Categories
  fortification_projects: "Fortification Projects"
  Occupation_Policy: "Occupation Policy"

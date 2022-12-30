@@ -1278,6 +1278,27 @@ invading_france_is_pointless_because_we_go_through_benelux_soon = {
 		value = -500
 	}
 }
+GER_Leave_Sweden_Alone = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		NOT = {
+			has_war_with = SWE
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = ignore
+		id = SWE
+		value = 800
+	}
+	ai_strategy = {
+		type = antagonize
+		id = SWE
+		value = -400 #keep the iron coming and no one gets hurt
+	}
+}
 GER_Dont_Push_on_Maginot = {
 	allowed = {
 		original_tag = GER

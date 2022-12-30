@@ -981,3 +981,46 @@ economy_decisions = {
 		}
 	}
 }
+Unemployment_category = {
+	Wartime_Economic_Recovery = {
+		fire_only_once = no
+		allowed = {
+			NOT = {
+				tag = USA
+			}
+		}
+		available = {
+			has_war = yes
+		}
+		visible = {
+			has_war = yes
+			set_temp_variable = {
+				unemployment_value = 0.001
+			}
+			has_at_least_unemployment_value = yes
+		}
+		days_remove = 100
+		complete_effect = {
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					set_temp_variable = {
+						unemployment_value = 0.02
+					}
+					has_less_than_unemployment_value = yes
+				}
+				set_temp_variable = {
+					unemployment_value = -0.019
+				}
+				add_unemployment_effect = yes
+			}
+			else = {
+				set_temp_variable = {
+					unemployment_value = -0.025
+				}
+				add_unemployment_effect = yes
+			}
+		}
+	}
+}
