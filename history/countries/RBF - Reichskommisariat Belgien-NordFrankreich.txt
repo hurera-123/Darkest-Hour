@@ -34,6 +34,18 @@
 	#######################
 	# Leaders
 	#######################
+	# Fascism
+	create_country_leader = {
+		name = "Josef Grohé" 
+		desc = "" 
+		picture = GFX_P_GER_Josef_Grohe
+		expire = "1961.2.19" 
+		ideology = national_socialism
+		traits = {
+			POSITION_GER_Reichskommissar
+			SUBIDEOLOGY_National_Socialism
+		}
+	}
 	# Authoritarian
 	create_country_leader = {
 		name = "Alexander von Falkenhausen"
