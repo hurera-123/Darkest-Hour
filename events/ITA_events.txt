@@ -1285,7 +1285,7 @@ country_event = { # Agreement on Synthetic Oil Patents with IG Farben Signed (IT
 		trigger = {
 			original_tag = GER
 		}
-		set_temp_variable = { money_to_gain = -1000 }
+		set_temp_variable = { money_to_gain = 1000 }
 		add_money_with_inflation_included_with_tooltip_effect = yes
 		add_opinion_modifier = {
 			target = GER
@@ -1304,7 +1304,7 @@ country_event = { # Agreement on Synthetic Oil Patents with IG Farben Signed (IT
 		trigger = {
 			original_tag = ITA
 		}
-		set_temp_variable = { money_to_gain = 1000 }
+		set_temp_variable = { money_to_gain = -1000 }
 		add_money_with_inflation_included_with_tooltip_effect = yes
 		add_opinion_modifier = {
 			target = ITA

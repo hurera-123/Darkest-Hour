@@ -614,7 +614,9 @@ ITA_Invade_Greece = {
 		original_tag = ITA
 	}
 	enable = {
-		has_country_flag = ITA_Invasion_of_Greece
+		has_government = fascist
+		has_war_with = ENG
+		date > 1.6.1940
 	}
 	abort = {
 		GRE = {

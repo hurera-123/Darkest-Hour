@@ -4136,6 +4136,7 @@ focus_tree = {
 		cost = 30
 		available = {
 			has_country_flag = SOV_focus_on_defensive
+			controls_state = 219
 		}
 		prerequisite = {
 			focus = SOV_For_The_Motherland

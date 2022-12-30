@@ -4464,6 +4464,16 @@ country_event = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					TUN = {
+						owns_state = 1228
+					}
+				}
+				ITA = {
+					transfer_state = 1228
+				}
+			}
 			FRA = {
 				set_nationality = {
 					target_country = FFL
