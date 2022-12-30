@@ -929,6 +929,10 @@ country_event = {
 					target = CHI
 					type = puppet_wargoal_focus
 				}
+				declare_war_on = {
+					target = PRC
+					type = puppet_wargoal_focus
+				}
 			}
 			614 = {
 				set_demilitarized_zone = no
