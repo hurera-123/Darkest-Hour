@@ -448,6 +448,15 @@
  SOV_Bessarabia_Annexation.6.A: "This is essential to the [From.GetAdjective] strategy"
  SOV_Bessarabia_Annexation.6.B: "The countries of the world must face the evil of the [FROM.GetNameDef]!"
  SOV_Bessarabia_Annexation.6.C: "[ROM.GetNameDefCap] is in an unfortunate position."
+ 
+ SOV_TAN_Integration.1.t: "Accession to the Union of Soviet Socialist Republics"
+ SOV_TAN_Integration.1.d: ""
+ SOV_TAN_Integration.1.A: "We will join our brothers!"
+ 
+ SOV_TAN_Integration.2.t: "Integration of the Tuvan Autonomous Oblast"
+ SOV_TAN_Integration.2.d: "As expected, the representatives of the now former "Tuvan People's Republic" have just informed us that the region has agreed to join the Soviet Union as an Autonomous Oblast. The integration of such a small and remote land has gone beneath the notice of most of the world's major powers - many of which never recognised the state in the first place, instead falsely labelling it a "puppet regime" under our tutelage. However, domestically the news is cause for at least muted celebration among the public, as the incorporation of yet more fellow proletariat into our great nation is always welcomed."
+ SOV_TAN_Integration.2.A: "Welcome to the Union, Comrades!"
+ SOV_TAN_Integration.2.A.tt: "Tannu Tuva has been integrated as the §CTuvan Autonomous Oblast§!!"  
 
  SOV_Sino_Japanese_War_Chinese_Defeat.1.t: "Kuomintang Pleas for Aid!"
  SOV_Sino_Japanese_War_Chinese_Defeat.1.d: " "

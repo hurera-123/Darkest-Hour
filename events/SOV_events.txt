@@ -11,6 +11,7 @@ add_namespace = SOV_Leningrad_Circle
 add_namespace = SOV_Death_of_Stalin
 add_namespace = SOV_Stalin_Constitution
 add_namespace = SOV_Transpolar_Flight
+add_namespace = SOV_TAN_Integration
 add_namespace = SOV_COMECON
 add_namespace = SOV_Russification
 add_namespace = SOV_Introduce_Childcare
@@ -3440,5 +3441,45 @@ country_event = {
 		name = SOV_Soften_Legislation.2.A
 		add_political_power = -50
 		add_stability = 0.05
+	}
+}
+
+### Accession into the Union of Soviet Socialist Republics
+country_event = {
+	id = SOV_TAN_Integration.1
+	title = SOV_TAN_Integration.1.t
+	desc = SOV_TAN_Integration.1.d
+	picture = GFX_report_SOV_17th_Congress_vote
+	is_triggered_only = yes
+	
+	option = {
+		name = SOV_TAN_Integration.1.A
+		SOV = {
+			annex_country = {
+				target = TAN
+				transfer_troops = yes
+			}
+			add_state_core = 329
+			add_state_core = 1645
+			country_event = {
+				id = SOV_TAN_Integration.2
+				days = 2
+			}				
+		}
+	}
+}
+
+### Integration of the Tuvan Autonomous Oblast
+country_event = {
+	id = SOV_TAN_Integration.2
+	title = SOV_TAN_Integration.2.t
+	desc = SOV_TAN_Integration.2.d
+	picture = GFX_report_SOV_Diplomats
+	is_triggered_only = yes
+	
+	option = {
+		name = SOV_TAN_Integration.2.A
+		
+		custom_effect_tooltip = SOV_TAN_Integration.2.A.tt
 	}
 }

@@ -1779,7 +1779,7 @@ foreign_politics = {
 			TAN = {
 				country_event = {
 					days = 2
-					id = soviet.14
+					id = SOV_TAN_Integration.1
 				}
 			}
 		}
