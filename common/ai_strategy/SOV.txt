@@ -1019,7 +1019,6 @@ SOV_unit_production = {
 		value = 4
 	}
 
-
 	# Naval unit factors
 	ai_strategy = {
 		type = unit_ratio
@@ -1070,13 +1069,13 @@ SOV_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 15
+		value = 50
 	}
 
 	ai_strategy = {
 		type = equipment_production_factor
 		id = artillery
-		value = 36
+		value = 15
 	}
 
 	ai_strategy = {
@@ -1088,7 +1087,7 @@ SOV_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = armor
-		value = 70
+		value = 15
 	}
 }
 
