@@ -10,6 +10,7 @@ characters={
 			}
 		}
 		country_leader={
+			desc = ITA_Victor_Emmanuel_III_desc
 			ideology=monarchism
 			traits={ 
 				POSITION_King
@@ -181,6 +182,7 @@ characters={
 			}
 		}
 		country_leader={
+			desc = ITA_Benito_Mussolini_desc
 			ideology=fascism
 			traits={ 
 				POSITION_ITA_Duce

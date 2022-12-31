@@ -2997,7 +2997,7 @@ defined_text = {
 		trigger = {
 			has_idea = ROM_D_Mihai_I
 		}
-		localization_key = ROM_D_Mihai_I_desc
+		localization_key = ROM_Mihai_I_desc
 	}
 	#### GER - Germany
 	text = {
@@ -3016,7 +3016,7 @@ defined_text = {
 		trigger = {
 			has_idea = GER_Adolf_Hitler_HoG
 		}
-		localization_key = GER_Adolf_Hitler_desc
+		localization_key = GER_Adolf_Hitler_HoG_desc
 	}
 	text = {
 		trigger = {

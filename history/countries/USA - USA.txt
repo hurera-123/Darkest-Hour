@@ -677,7 +677,7 @@ recruit_character = USA_Wendell_Willkie
 	# Democracy
 	create_country_leader = {
 		name = "Franklin D. Roosevelt"
-		desc = "Franklin_Roosevelt_desc"
+		desc = USA_Franklin_Roosevelt_desc
 		picture = GFX_P_D_Franklin_Roosevelt
 		expire = "1945.4.12"
 		ideology = social_liberalism

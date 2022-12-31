@@ -45,15 +45,17 @@ news_event = {
 	option = {
 		name = ENG_Politics.1.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Neville Chamberlain"
-			desc = ""
-			picture = GFX_P_D_Neville_Chamberlain
-			ideology = social_conservatism
-			traits = {
-				POSITION_Prime_Minister
-				SUBIDEOLOGY_Social_Conservatism
-				L_The_Pacifier
+		add_country_leader_role = {
+			character = ENG_Neville_Chamberlain
+			promote_leader = yes
+			country_leader = {
+				ideology = social_conservatism
+				expire = "1964.1.1"
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Social_Conservatism
+					L_The_Pacifier
+				}
 			}
 		}
 		set_country_flag = baldwin_resigned
@@ -90,16 +92,19 @@ news_event = {
 		ai_chance = {
 			factor = 90
 		}
-		kill_country_leader = yes
-		create_country_leader = {
-			name = "Winston Churchill"
-			desc = "Winston_Churchill_desc"
-			picture = GFX_P_D_Winston_Churchill
-			ideology = social_conservatism
-			traits = {
-				POSITION_Prime_Minister
-				SUBIDEOLOGY_Social_Conservatism
-				L_Bulldog
+		retire_country_leader = yes
+		add_country_leader_role = {
+			character = ENG_Winston_Churchill
+			promote_leader = yes
+			country_leader = {
+				desc = ENG_Winston_Churchill_desc
+				ideology = social_conservatism
+				expire = "1964.1.1"
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Social_Conservatism
+					L_Bulldog
+				}
 			}
 		}
 	}
@@ -110,15 +115,17 @@ news_event = {
 	#		factor = 10
 	#	}
 	#	retire_country_leader = yes
-	#	create_country_leader = {
-	#		name = "Lord Edward Halifax"
-	#		desc = ""
-	#		picture = GFX_P_D_Edward_Halifax
-	#		ideology = social_conservatism
-	#		traits = {
-	#			POSITION_Prime_Minister
-	#			SUBIDEOLOGY_Social_Conservatism
-	#			FM_The_Appeaser
+	#	add_country_leader_role = {
+	#		character = ENG_Lord_Halifax
+	#		promote_leader = yes
+	#		country_leader = {
+	#			ideology = social_conservatism
+	#			expire = "1964.1.1"
+	#			traits = {
+	#				POSITION_Prime_Minister
+	#				SUBIDEOLOGY_Social_Conservatism
+	#				FM_The_Appeaser
+	#			}
 	#		}
 	#	}
 	#}
@@ -146,15 +153,18 @@ news_event = {
 		}
 		complete_national_focus = ENG_Uncle_Stanley
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Stanley Baldwin"
-			desc = "Stanley_Baldwin_desc"
-			picture = GFX_P_D_Stanley_Baldwin
-			ideology = social_conservatism
-			traits = {
-				POSITION_Prime_Minister
-				SUBIDEOLOGY_Social_Conservatism
-				L_Naive_Optimist
+		add_country_leader_role = {
+			character = ENG_Stanley_Baldwin
+			promote_leader = yes
+			country_leader = {
+				desc = ENG_Stanley_Baldwin_desc
+				ideology = social_conservatism
+				expire = "1964.1.1"
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Social_Conservatism
+					L_Naive_Optimist
+				}
 			}
 		}
 		activate_mission = ENG_Baldwins_Term

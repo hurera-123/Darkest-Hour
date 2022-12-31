@@ -66,6 +66,7 @@ characters={
 			}
 		}
 		country_leader={
+			desc = FRA_Joseph_Paul_Boncour_desc
 			ideology=social_democracy
 			traits={ 
 				POSITION_Prime_Minister

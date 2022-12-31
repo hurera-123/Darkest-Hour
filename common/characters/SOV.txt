@@ -3002,7 +3002,7 @@ characters = {
 		}
 		country_leader={
 			ideology=stalinism
-			desc = "Joseph_Stalin_desc"
+			desc = SOV_Joseph_Stalin_desc
 			traits={
 				POSITION_General_Secretary
 				SUBIDEOLOGY_Stalinism

@@ -464,7 +464,7 @@ characters={
 		}
 		country_leader={
 			ideology=social_democracy
-			desc = "Ramsay_MacDonald_desc"
+			desc = ENG_Ramsay_MacDonald_desc
 			traits={ 
 				POSITION_Prime_Minister 
 				SUBIDEOLOGY_Social_Democracy 

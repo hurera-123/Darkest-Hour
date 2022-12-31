@@ -13,8 +13,8 @@
  GER_SOV_War.1.A: ""
 
  GER_SOV_War.2.t: "The Great Eastern Crusade"
- GER_SOV_War.2.d: ""
- GER_SOV_War.2.A: ""
+ GER_SOV_War.2.d: "After years of preparation, finally, our time has come. Like the Teutonic Order, like the Prussian Kingdom, finally, we will launch all our forces into a new, modern crusade for the liberation of all the Germanic people!\n\nAlong the entire border we share with the Soviets, our troops have started to advance into the despicable communist nation. Ready to take Moscow, Leningrad, Stalingrad, our brave and powerful soldiers will not stop until the complete surrender of the Bolsheviks!\n\nJust like twenty years earlier, the Brest-Litovsk treaty will be enforced by our army! Our main objectives are to liberate Ostland, Ukraine, the Caucasus and Moscow. We will also establish Reichskommissariats here, to ensure the beginning of German colonisation of Russia. After the end of the war, the resources of the Reich will be infinite."
+ GER_SOV_War.2.A: "How many crusades are there now? Nine? Yeah, this will be the Ninth Crusade!"
 
  GER_SOV_War.3.t: "Germany Commence Hostilities with the Soviet Union"
  GER_SOV_War.3.d: "[FROM.GetNewsIcon]"

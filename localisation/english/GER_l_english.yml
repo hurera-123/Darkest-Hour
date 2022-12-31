@@ -1361,7 +1361,7 @@
  GER_Flavor.5.A: "Peace is but the interval between wars."
 
  GER_DAF.1.t: "National Labor Day"
- GER_DAF.1.d: "[FROM.GetNewsIcon]"
+ GER_DAF.1.d: "[FROM.GetNewsIcon]Today is National Labour Day, a day when all loyal Aryans take a moment to reflect on the hard work we all do every day in pursuit of greatness. The Communist-controlled unions, puppeted by Moscow, will no longer work for the betterment of the Soviet state. Instead, with the demise of traitorous unions and the establishment of the loyal German Labour Front (DAF), all Germans work for the betterment of the state as a whole. The DAF has prioritized enriching the souls of German workers over enriching their bank accounts. People enjoy subsidized cruises, resorts, and vacations that bring them closer to the nation that their blood, sweat, and toil has built.\n\nFor those of us who still crave materialistic vices, the DAF continues to work hard to provide them with what they desire. However, rather than rewarding workers for nothing, as the old Unions did, the DAF has a simpler solution. If a worker wants to earn more money, he must simply work harder and better. Without his coddling corrupt union bosses, this motivation of a higher wage for higher productivity has already motivated many to increase their efficiency tenfold! Employers benefit from the DAF as well, thanks to workbooks and the guaranteed elimination of labour disruption."
  GER_DAF.1.A: "Peace is but the interval between wars."
  GER_DAF.1.A.tt: "We can now start the §GCoordination§! of the §RTrade Unions§!, The Focus §YDeutsche Arbeitsfront§! has been unlocked\n"
 
@@ -2314,8 +2314,8 @@
  GER_Molotov_Ribbentrop.3.A: "Let the Negotiations Begin!"
 
  GER_Molotov_Ribbentrop.4.t: "Ribbentrop in Moscow"
- GER_Molotov_Ribbentrop.4.d: ""
- GER_Molotov_Ribbentrop.4.A: "Nice!"
+ GER_Molotov_Ribbentrop.4.d: "A few days ago, the Foreign Minister of Germany, Joachim Von Ribbentrop, went to Moscow to conclude an accord with the Soviets after a long period of delegations between our two nations.\n\nOfficially, we only signed a pact of non-aggression with them, but, in reality, a multitude of secret clauses were signed by both parties, which allow us to divide Eastern Europe between our powerful nations. Romania, Poland, and the Baltics will all see their destiny changed by this pact.\n\nVyacheslav Molotov, the Soviet colleague of Ribbentrop, has declared himself satisfied with this treaty, as this will allow the expansion of the Soviet in many territories of the former Russian Empire."
+ GER_Molotov_Ribbentrop.4.A: "We'll trust them for now..."
 
  GER_Molotov_Ribbentrop.5.t: "Molotov-Ribbentrop Pact Signed!"
  GER_Molotov_Ribbentrop.5.d: "[FROM.GetNewsIcon]Today, Germany's Foreign Minister Joachim Ribbentrop and the Soviet Union's Foreign Minister Vyacheslav Molotov met in Moscow to sign a non-aggression pact. Its terms required each party to make a formal promise of peace to the other, and neither government to support or form an alliance with the other's enemies. In addition to the publicly established non-aggression requirements. This news stunned the Western world, particularly Japan.\n\nAnalysts predict that this pact will be used to divide Eastern and Western Europe among the Old Continent's major powers, even if it is simply declared to be a non-aggression pact. The only thing the Western allies can hope for is that the Soviet Union does not enter the war as an Axis ally."
