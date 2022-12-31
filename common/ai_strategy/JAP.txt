@@ -1477,11 +1477,36 @@ JAP_unit_production = {
 	abort = {
 		always = no
 	}	
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 90
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 10
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 5
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = infantry
+		value = 3
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = artillery
+		value = 1
+	}
 	#Air unit factors
 	ai_strategy = {
 		type = unit_ratio
 		id = fighter
-		value = 70
+		value = 60
 	}
 	ai_strategy = {
 		type = unit_ratio
@@ -1503,163 +1528,97 @@ JAP_unit_production = {
 		id = naval_bomber
 		value = 5
 	}
-	# Naval unit factors
-	ai_strategy = {
-		type = unit_ratio
-		id = capital_ship
-		value = 60
-	}
-	ai_strategy = {
-		type = unit_ratio
-		id = submarine
-		value = 50		#because doctrine this = 50
-	}
-	ai_strategy = {
-		type = unit_ratio
-		id = screen_ship
-		value = 60
-	}
-	ai_strategy = {
-		type = unit_ratio
-		id = carrier
-		value = 500
-	}
-	ai_strategy = {
-		type = unit_ratio
-		id = convoy
-		value = 20
-	}
 }
-
-less_trucks_4_u_JAP = {
-	allowed = {
-		tag = JAP
-	}
+JAP_armored_production = {
 	enable = {
-		date < 1939.1.1
+		original_tag = JAP
+		num_of_military_factories > 119
+		date > 1941.6.1
 	}
 	abort = {
-		date > 1939.1.1
+		num_of_military_factories < 120
 	}
+
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 80
+		value = -5
 	}
+
 	ai_strategy = {
 		type = role_ratio
-		id = cavalry
-		value = -100
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = marines
-		value = 8
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = garrison
-		value = -100
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = light_armor
-		value = 20
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = motorized
-		value = 20		#because doctrine this = 2
-	}
-	ai_strategy = {
-		type = template_prio
-		id = motorized
-		value = 10
-	}
-	ai_strategy = {
-		type = template_prio
-		id = infantry
-		value = 80
-	}
-	ai_strategy = {
-		type = template_prio
-		id = light_armor
-		value = 20
-	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = fighter
-		value = 15
-	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = infantry
-		value = 60
-	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = artillery
-		value = 25
-	}
-	ai_strategy = {
-		type = equipment_production_factor
 		id = armor
-		value = 10
+		value = 5
 	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = motorized
-		value = 15
-	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = tactical_bomber
-		value = 0
-	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = interceptor
-		value = -100
-	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = strategic_bomber
-		value = -100
-	}
-	ai_strategy = {
+
+    ai_strategy = {
 		type = equipment_production_min_factories
-		id = motorized
+		id = armor
 		value = 3
 	}
 }
-JAP_Make_Infantry = {
-	allowed = {
+less_trucks_4_u_JAP = {
+	enable = {
 		tag = JAP
+		date < 1939.1.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = -80
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = cavalry
+		value = -80
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = mountaineers
+		value = -80
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = infantry
+		value = 100
+	}
+
+}
+JAP_build_up_1937 = {
+	allowed = {
+		original_tag = JAP
 	}
 	enable = {
-		date < 1935.1.1
+		date > 1937.1.1
+	}
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 500
+	}
+}
+JAP_build_some_factories_jeez = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		date > 1939.1.2
 	}
 	abort = {
 		OR = {
-			has_army_size = {
-				size > 100
-			}
-			date > 1935.1.1
-		}	
+			num_of_military_factories > 100
+			CHI = { is_subject_of = JAP }
+		}
 	}
+
 	ai_strategy = {
-		type = build_army
-		id = cavalry
-		value = -500
-	}
-	ai_strategy = {
-		type = build_army
-		id = infantry
-		value = 500
-	}
-	ai_strategy = {
-		type = force_build_armies
-		value = 500
+		type = added_military_to_civilian_factory_ratio
+		value = 15
 	}
 }
 JAP_template_design = {
