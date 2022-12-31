@@ -31,6 +31,10 @@ ideas = {
 				has_government = democratic
 			}
 
+			cancel = {
+				has_war_with_major = yes
+			}
+
 			removal_cost = -1
 			
 			modifier = {
