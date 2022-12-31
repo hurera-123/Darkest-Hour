@@ -988,61 +988,6 @@ SOV_unit_production = {
 	abort = {
 		always = no
 	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = garrison
-		value = 1
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = paratroopers
-		value = 0
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = mountaineers
-		value = 2
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = marines
-		value = 0
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = cavalry
-		value = 0
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = motorized
-		value = 10
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = mechanized
-		value = 0
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = armor
-		value = 15
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = infantry
-		value = 50
-	}
-
 	#Air unit factors
 	ai_strategy = {
 		type = unit_ratio
@@ -1159,6 +1104,48 @@ SOV_equipment_production_1 = {
 	}
 	ai_strategy = {
 		type = role_ratio
+		id = garrison
+		value = 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = motorized
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mechanized
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
 		id = armor
 		value = 15
 	}
@@ -1211,9 +1198,159 @@ SOV_equipment_production_2 = {
 		date > 1939.1.1
 	}
 	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = motorized
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mechanized
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 15
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 50
+	}
+	ai_strategy = {
 		type = equipment_production_min_factories #Build these up over time, don't stall
 		id = armor
+		value = 6
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories #Build these up over time, don't stall
+		id = motorized
+		value = 5
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = artillery
+		value = 6
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = anti_tank
+		value = 4
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = infantry
+		value = 20
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = fighter
 		value = 10
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = tactical_bomber
+		value = 5
+	}
+}
+
+SOV_equipment_production_3 = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		date > 1939.1.1
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = cavalry
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = motorized
+		value = 15
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mechanized
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 20
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 50
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories #Build these up over time, don't stall
+		id = armor
+		value = 8
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories #Build these up over time, don't stall
