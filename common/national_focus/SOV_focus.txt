@@ -239,7 +239,10 @@ focus_tree = {
 		x = -4
 		y = 1
 		completion_reward = {
-			add_ideas = SOV_Wings_of_the_Red_Army	
+			swap_ideas = {
+				remove_idea = SOV_Heroes_of_the_Air
+				add_idea = SOV_Wings_of_the_Red_Army
+			}
 		}
 	}
 	focus = {
@@ -2041,6 +2044,70 @@ focus_tree = {
 		relative_position_id = SOV_Deep_Battle_Plan
 		completion_reward = { 
 			add_ideas = { SOV_Krasnaya_Armiya_Vorzrozhdayetsya }
+			if = {
+				limit = {
+					has_character = SOV_Konstantin_K_Rokossovsky
+				}
+				SOV_Konstantin_K_Rokossovsky = {
+					promote_leader = yes
+				}
+			}
+			else_if = {
+				limit = {
+					has_character = SOV_Ivan_Chernyakhovsky
+				}
+				SOV_Ivan_Chernyakhovsky = {
+					promote_leader = yes
+				}
+			}
+			if = {
+				limit = {
+					has_character = SOV_Georgy_Zhukov
+				}
+				SOV_Georgy_Zhukov = {
+					promote_leader = yes
+				}
+			}
+			if = {
+				limit = {
+					has_character = SOV_Aleksandr_Vasilevsky
+				}
+				SOV_Aleksandr_Vasilevsky = {
+					promote_leader = yes
+				}
+			}
+			if = {
+				limit = {
+					has_character = SOV_Ivan_Konev
+				}
+				SOV_Ivan_Konev = {
+					promote_leader = yes
+				}
+			}
+			if = {
+				limit = {
+					has_character = SOV_Leonid_Govorov
+				}
+				SOV_Leonid_Govorov = {
+					promote_leader = yes
+				}
+			}
+			if = {
+				limit = {
+					has_character = SOV_Rodion_Y_Malinovsky
+				}
+				SOV_Rodion_Y_Malinovsky = {
+					promote_leader = yes
+				}
+			}
+			if = {
+				limit = {
+					has_character = SOV_Kirill_Meretskov
+				}
+				SOV_Kirill_Meretskov = {
+					promote_leader = yes
+				}
+			}
 		}
 	}
 
@@ -2078,7 +2145,7 @@ focus_tree = {
 			has_war = yes
 		}
 		completion_reward = {
-			#adds the decision tab of Guard Formation of the Soviet Union
+			unlock_decision_category_tooltip = SOV_Formation_of_the_Guards_Army
 		}
 		search_filters = { }
 	}
@@ -2295,7 +2362,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Moscow_Trials
 		icon = GFX_SOV_Moscow_Trials
-		cost = 35
+		cost = 60
 		available = {
 			date > 1936.05.01
 		}
@@ -2539,7 +2606,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Purges_in_the_Red_Army
 		icon = GFX_SOV_Purges_in_the_Red_Army
-		cost = 35
+		cost = 60
 		available = {
 			date > 1937.02.01
 		}
@@ -2556,7 +2623,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Tying_Loose_Ends
 		icon = GFX_SOV_Red_Army
-		cost = 35
+		cost = 50
 		prerequisite = {
 			focus = SOV_Purges_in_the_Red_Army
 		}

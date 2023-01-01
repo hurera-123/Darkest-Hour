@@ -1419,6 +1419,22 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	SOV_Ivan_Chernyakhovsky = {
+		name=SOV_Ivan_Chernyakhovsky
+		portraits={
+			army={
+				large="GFX_M_Ivan_Chernyakhovsky"
+			}
+		}
+	}
+	SOV_Leonid_Govorov = {
+		name=SOV_Leonid_Govorov
+		portraits={
+			army={
+				large="GFX_M_Leonid_Govorov"
+			}
+		}
+	}
 	SOV_Mikhail_P_Tomsky = {
 		name=SOV_Mikhail_P_Tomsky
 		portraits={
@@ -2612,7 +2628,7 @@ characters = {
 				large="GFX_M_Vasily_Blyukher"
 			}
 		}
-        corps_commander={
+        field_marshal ={
 			traits = {
 				brilliant_strategist
 				war_hero
@@ -2778,18 +2794,6 @@ characters = {
 				large="GFX_M_Yan_Gamarnik"
 			}
 		}
-        field_marshal={
-			traits = {
-				politically_connected
-				harsh_leader
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = 266008
-		}
 	}
 	SOV_Semyon_Budyonny = {
 		name=SOV_Semyon_Budyonny
@@ -2897,14 +2901,13 @@ characters = {
 				CoArmy_Guns_And_Butter_Doctrine
 			}
 		}
-        corps_commander={
+        field_marshal={
 			traits = {
 				old_guard
 				politically_connected
 				inflexible_strategist
 				war_hero
 				defensive_doctrine
-				winter_specialist
 			}
 			skill = 2
 			attack_skill = 1
@@ -2914,17 +2917,17 @@ characters = {
 			legacy_id = 266002
 		}
 	}
-	SOV_Kirill_A_Meretskov = {
-		name=SOV_Kirill_A_Meretskov
+	SOV_Kirill_Meretskov = {
+		name=SOV_Kirill_Meretskov
 		portraits={
 			army={
-				small="GFX_idea_Kirill_A_Meretskov"
+				small="GFX_idea_Kirill_Meretskov"
 				large = "GFX_M_Kirill_Meretskov"
 			}
 		}
 		advisor={
 			slot=Chief_of_Staff
-			idea_token=SOV_Kirill_A_Meretskov_CoStaff
+			idea_token=SOV_Kirill_Meretskov_CoStaff
 			allowed={
 				tag=SOV
 			}
@@ -2932,11 +2935,11 @@ characters = {
 				date > 1940.01.01
 				date < 1964.01.01
 				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Kirill_A_Meretskov_unavailable }
+				NOT = { has_country_flag = Kirill_Meretskov_unavailable }
 			}
 			traits={
 				
-				CoStaff_School_Of_Psychology
+				CoStaff_School_Of_Fire_Support
 			}
 		}
 	}
@@ -3185,7 +3188,7 @@ characters = {
 				CoStaff_School_Of_Psychology
 			}
 		}
-        corps_commander={
+        field_marshal={
 			traits = {
 				infantry_officer
 				politically_connected
@@ -3237,31 +3240,6 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 4
 			legacy_id = 266000
-		}
-	}
-	SOV_Kirill_Meretskov = {
-		name=SOV_Kirill_Meretskov
-		portraits={
-			army={
-				small="GFX_idea_Kirill_Meretskov"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=SOV_Kirill_Meretskov_CoStaff
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1940.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Kirill_Meretskov_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Fire_Support
-			}
 		}
 	}
 	SOV_Georgy_Zhukov = {

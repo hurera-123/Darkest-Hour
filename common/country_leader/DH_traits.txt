@@ -69,8 +69,8 @@ leader_traits = {
 	# Autocratic Charmer
 	L_Autocratic_Charmer = {
 		random = no
-		political_power_factor = 0.1
-		consumer_goods_factor = -0.05
+		political_power_factor = 0.05
+		consumer_goods_factor = -0.02
 		resistance_growth_on_our_occupied_states = -0.1
 		industrial_capacity_factory = -0.1
 		industrial_capacity_dockyard = -0.1
@@ -1032,7 +1032,7 @@ leader_traits = {
 	# Media Magnate
 	MoS_Media_Magnate = {
 		political_power_gain = 0.05
-		consumer_goods_factor = -0.05
+		consumer_goods_factor = -0.02
 		random = no
 	}
 	# Health and Safety

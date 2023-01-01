@@ -161,7 +161,6 @@ recruit_character = GER_Hermann_Hoth
 recruit_character = GER_Johannes_Blaskowitz
 recruit_character = GER_Friedrich_Schulz
 recruit_character = GER_Georg_von_Kuchler
-recruit_character = GER_Alexander_Von_Falkenhousen
 recruit_character = GER_Hasso_Von_Manteuffel
 recruit_character = GER_Gotthard_Heinrici
 recruit_character = GER_Ernst_Eberhard_Hell

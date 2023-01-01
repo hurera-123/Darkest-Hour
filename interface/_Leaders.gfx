@@ -3515,8 +3515,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_M_Alexander_Von_Falkenhousen"
-        texturefile = "gfx/leaders/GER/M_Alexander_Von_Falkenhousen.png"
+        name = "GFX_M_Alexander_Von_Falkenhausen"
+        texturefile = "gfx/leaders/GER/M_Alexander_Von_Falkenhausen.png"
     }
 
     spriteType = {

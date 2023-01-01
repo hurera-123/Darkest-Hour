@@ -2556,7 +2556,8 @@ ideas = {
 
 			removal_cost = -1
 
-			modifier = {		
+			modifier = {	
+				air_attack_factor = 0.1	
 				air_cas_efficiency  = 0.15
 			}
 		}
@@ -2572,6 +2573,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {	
+				air_attack_factor = 0.1	
 				air_superiority_efficiency = 0.05	
 				air_cas_efficiency  = 0.15
 				air_strategic_bomber_bombing_factor = 0.1

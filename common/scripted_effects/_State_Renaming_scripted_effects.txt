@@ -1478,6 +1478,25 @@ State_Renaming_German = {
 			}
         }
     }
+    if = {
+        limit = {
+            FROM.FROM = { state = 137 }
+        }
+        ROOT = { 
+            is_Nazi_Germany = yes
+        }
+        FROM.FROM = {
+            set_state_name = STATE_137_german
+            set_province_name = {
+				id = 3686
+				name = VICTORY_POINTS_3686_german
+			}
+            set_province_name = {
+				id = 13251
+				name = VICTORY_POINTS_13251_german
+			}
+        }
+    }
 }
 
 State_Renaming_Lithuanian = {

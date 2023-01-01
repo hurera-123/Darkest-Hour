@@ -341,6 +341,7 @@
 
  STATE_137: "Krym"
  STATE_137_exonym: "Crimea" #Exonym
+ STATE_137_german: "Krim"
 
  STATE_138: "Skåneland"
 

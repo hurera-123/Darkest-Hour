@@ -299,7 +299,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_decision_header_SOV_Guards_Army"
-		texturefile = "gfx/interface/decision_headers/decision_header_SOV_Guards_Army.dds"
+		texturefile = "gfx/interface/decision_headers/decision_header_SOV_Guards_Army.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {

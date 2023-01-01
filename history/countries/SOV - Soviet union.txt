@@ -92,7 +92,6 @@ recruit_character = SOV_Yan_Gamarnik
 recruit_character = SOV_Semyon_Budyonny
 recruit_character = SOV_Mikhail_N_Tukhatchevskiy
 recruit_character = SOV_Kliment_Y_Voroshilov
-recruit_character = SOV_Kirill_A_Meretskov
 recruit_character = SOV_Alesandr_M_Vasilevskiy
 recruit_character = SOV_Aleksei_I_Antonov
 recruit_character = SOV_Alexander_Yegorov
@@ -147,6 +146,8 @@ recruit_character = SOV_Kirill_Vladimirovich
 recruit_character = SOV_Pavel_Milyukov
 recruit_character = SOV_Viktor_Chernov
 recruit_character = SOV_Andrey_Vlasov
+recruit_character = SOV_Ivan_Chernyakhovsky
+recruit_character = SOV_Leonid_Govorov
 
 #########################################################################
 # Soviet Union - 1933

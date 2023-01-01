@@ -949,7 +949,7 @@ ENG_Invade_Persia = {
 	ai_strategy = {
 		type = invade
 		id = "PER"
-		value = 500
+		value = 200
 	}
 }
 
