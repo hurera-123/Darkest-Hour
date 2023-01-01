@@ -5290,7 +5290,14 @@ country_event = {
 
 	option = {
 		name = USA_1940_1944_Wilkie.12.A
-		#WIP
+		complete_national_focus = USA_We_Shall_Keep_Fighting
+	}
+	option = {
+		name = USA_1940_1944_Wilkie.12.B
+		trigger = {
+			has_country_flag = USA_Robert_A_Taft_SoS
+		}
+		complete_national_focus = USA_A_Return_to_Isolation
 	}
 }
 
@@ -5304,11 +5311,46 @@ news_event = {
 	major = yes
 	option = {
 		name = USA_1940_1944_Wilkie.13.A
+		trigger = {
+			tag = USA
+		}
+	}
+	option = {
+		name = USA_1940_1944_Wilkie.13.B
+		trigger = {
+			OR = {
+				tag = GER
+				is_in_faction_with = GER
+			}
+		}
+	}
+	option = {
+		name = USA_1940_1944_Wilkie.13.C
+		trigger = {
+			OR = {
+				tag = ENG
+				is_in_faction_with = ENG
+			}
+		}
+	}
+	option = {
+		name = USA_1940_1944_Wilkie.13.D
+		trigger = {
+			NOT = {
+				OR = {
+					tag = USA
+					tag = ENG
+					is_in_faction_with = ENG
+					tag = GER
+					is_in_faction_with = GER
+				}
+			}
+		}
 	}
 }
 
 # Rally In Seattle
-news_event = {
+country_event = {
 	id = USA_1940_1944_Wilkie.14
 	title = USA_1940_1944_Wilkie.14.t
 	desc = USA_1940_1944_Wilkie.14.d
@@ -5323,7 +5365,7 @@ news_event = {
 }
 
 # President Taft Addresses the Nation!
-news_event = {
+country_event = {
 	id = USA_1940_1944_Wilkie.15
 	title = USA_1940_1944_Wilkie.15.t
 	desc = USA_1940_1944_Wilkie.15.d
@@ -5339,7 +5381,7 @@ news_event = {
 }
 
 # President Wilkie Dead!
-news_event = {
+country_event = {
 	id = USA_Wilkie_Dead.1
 	title = USA_Wilkie_Dead.1.t
 	desc = USA_Wilkie_Dead1.d
@@ -5369,7 +5411,7 @@ news_event = {
 }
 
 # President McNary Dead!
-news_event = {
+country_event = {
 	id = USA_McNary_Dead.1
 	title = USA_McNary_Dead.1.t
 	desc = USA_McNary_Dead.1.d

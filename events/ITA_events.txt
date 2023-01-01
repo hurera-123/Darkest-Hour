@@ -550,9 +550,6 @@ news_event = { #march of the iron will - normal
 	is_triggered_only = yes
 	option = {
 		name = ITA_Ethiopian_War.23.A
-		ai_chance = {
-			factor = 25
-		}
 		clr_country_flag = ITA_ETH_first_decisions
 	}
 }
@@ -565,9 +562,6 @@ news_event = { #march of the iron will - 180 days
 	is_triggered_only = yes
 	option = {
 		name = ITA_Ethiopian_War.24.A
-		ai_chance = {
-			factor = 25
-		}
 		add_war_support = 0.05
 		add_stability = 0.05
 		clr_country_flag = ITA_ETH_first_decisions
@@ -582,9 +576,6 @@ news_event = { #LoN lambasts italian actions
  	fire_only_once = yes
 	option = {
 		name = ITA_Ethiopian_War.25.A
-		ai_chance = {
-			factor = 25
-		}
 		FRA = {
 			country_event = {
     			id = ITA_Ethiopian_War.26
@@ -5569,7 +5560,7 @@ country_event = {
 	title = ITA_Invasion_of_Greece.1.t
 	desc = ITA_Invasion_of_Greece.1.d
 	picture = GFX_report_ITA_British_Reaction
-	
+	is_triggered_only = yes
 	trigger = {
 		tag = ITA
 		is_in_faction_with = GER

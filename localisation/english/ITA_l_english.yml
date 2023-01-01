@@ -114,16 +114,16 @@
  ITA_Ethiopian_War.22.C: "Where is Ethiopia, anyway?"
  
  ITA_Ethiopian_War.23.t: "March of the Iron Will"
- ITA_Ethiopian_War.23.d: "[FROM.GetNewsIcon]"
- ITA_Ethiopian_War.23.A: ""
+ ITA_Ethiopian_War.23.d: "[FROM.GetNewsIcon]Today, Marshal of Italy Pietro Bagdolio declared the start of the March of the Iron Will. It will be part military manoeuvre, part force display. The plan appears to be for him to lead a mechanized column from Dessie to Ethiopia's capital, Addis Ababa. The fact that he is confident enough to broadcast his next military manoeuvre to the entire world and use it as a PR showcase demonstrates how severely the Italians have savaged the Ethiopian Army. The Ethiopians, for their part, appear to have established a minor checkpoint along the planned route at Termaber Pass. Aside from that, with the majority of the army in the north scattered at Maychew and the army in the south still being whipped by the Italians, it's clear that the Ethiopians intend to fight their war from exile. Emperor Halie Salisse is said to have asked for permission to seek refuge in French Somaliland."
+ ITA_Ethiopian_War.23.A: "Adwa Avenged!"
  
  ITA_Ethiopian_War.24.t: "March of the Iron Will"
- ITA_Ethiopian_War.24.d: "[FROM.GetNewsIcon]"
- ITA_Ethiopian_War.24.A: ""
+ ITA_Ethiopian_War.24.d: "[FROM.GetNewsIcon]Today, Marshal of Italy Pietro Bagdolio declared the start of the March of the Iron Will. It will be part military manoeuvre, part force display. The plan appears to be for him to lead a mechanized column from Dessie to Ethiopia's capital, Addis Ababa. The fact that he is confident enough to broadcast his next military manoeuvre to the entire world and use it as a PR showcase demonstrates how severely the Italians have savaged the Ethiopian Army. The Ethiopians, for their part, appear to have established a minor checkpoint along the planned route at Termaber Pass. Aside from that, with the majority of the army in the north scattered at Maychew and the army in the south still being whipped by the Italians, it's clear that the Ethiopians intend to fight their war from exile. Emperor Halie Salisse is said to have asked for permission to seek refuge in French Somaliland."
+ ITA_Ethiopian_War.24.A: "Adwa Avenged!"
  
- ITA_Ethiopian_War.25.t: "League of Nations lambasts Italian actions"
- ITA_Ethiopian_War.25.d: ""
- ITA_Ethiopian_War.25.A: ""
+ ITA_Ethiopian_War.25.t: "League of Nations condemns Italian actions"
+ ITA_Ethiopian_War.25.d: "The League of Nations voted today, largely symbolically, to condemn the recently launched Italian invasion of Ethiopia. After beginning under false pretences, the League has united in its opposition at the urging of Ethiopia, France, and the United Kingdom. While this vote is purely symbolic, it is an important first step because it allows the League to move on to more aggressive future actions. Embargoes on Italian imports needed for the war, such as steel and oil, are among the proposed actions. However, as with anything related to the League, these proposals have been met with opposition. Predictably, the majority of this is centred on the Italian delegation, which has taken to shouting down any discussion of punitive actions against the country they represent. As Ethiopia valiantly defends its independence in an increasingly hopeless battle, the League once again demonstrates its inaction at a critical juncture."
+ ITA_Ethiopian_War.25.A: "We will have our glory!"
  
  ITA_Ethiopian_War.26.t: "The Italian invasion of Ethiopia"
  ITA_Ethiopian_War.26.d: ""
@@ -145,8 +145,8 @@
  ITA_Ethiopian_War.29.A: ""
  
  ITA_Ethiopian_War.30.t: "The British denounce us"
- ITA_Ethiopian_War.30.d: ""
- ITA_Ethiopian_War.30.A: ""
+ ITA_Ethiopian_War.30.d: "The British ambassador to Italy, Eric Drummond, Earl of Perth, met with Mussolini today. The discussion was brief but intense. In the recent League of Nations vote, Britain was one of the most vocal delegations opposing us, and Mussolini could guess what Drummond had to say. When Drummond stated that the British government would never accept Ethiopia's annexation into the Italian Empire, Mussolini appeared to have guessed correctly. Mussolini responded that during its expansion, Britain had annexed a large number of nations, and proceeded to list over a dozen nations in India alone that the British Raj had subsumed. Drummond simply reiterated his message: the British government would never accept Ethiopia's annexation. "What matters is not what you accept, but what happens," Mussolini allegedly said. "We will have Ethiopia, no matter what your Prime Minister wants". After a brief moment of waiting for Drummond to respond, Mussolini waved him off, not entirely surprised by what had just occurred."
+ ITA_Ethiopian_War.30.A: "Perfidious Albion!"
  
  ITA_Ethiopian_War.31.t: "The British oppose us"
  ITA_Ethiopian_War.31.d: ""

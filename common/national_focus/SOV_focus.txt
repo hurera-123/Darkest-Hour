@@ -2092,22 +2092,6 @@ focus_tree = {
 					promote_leader = yes
 				}
 			}
-			if = {
-				limit = {
-					has_character = SOV_Rodion_Y_Malinovsky
-				}
-				SOV_Rodion_Y_Malinovsky = {
-					promote_leader = yes
-				}
-			}
-			if = {
-				limit = {
-					has_character = SOV_Kirill_Meretskov
-				}
-				SOV_Kirill_Meretskov = {
-					promote_leader = yes
-				}
-			}
 		}
 	}
 
@@ -3838,6 +3822,30 @@ focus_tree = {
 			add_timed_idea = {
 				idea = SOV_Preparing_for_War
 				days = 100
+			}
+			if = {
+				limit = {
+					has_character = SOV_Semyon_Timoshenko
+				}
+				SOV_Semyon_Timoshenko = {
+					promote_leader = yes
+				}
+			}
+			if = {
+				limit = {
+					has_character = SOV_Boris_Shaposhnikov
+				}
+				SOV_Boris_Shaposhnikov = {
+					promote_leader = yes
+				}
+			}
+			if = {
+				limit = {
+					has_character = SOV_Grigori_Kulik
+				}
+				SOV_Grigori_Kulik = {
+					promote_leader = yes
+				}
 			}
 		}
 	}

@@ -3245,56 +3245,56 @@ ITA_The_Balkan_Strategy = {
 			}
 		}
 	}
-	ITA_Issue_Ultimatum_to_Bulgaria = {
-		#icon = 
-		fire_only_once = yes
-		visible = {
-			has_completed_focus = ITA_Expand_Our_Influence
-		}
-		available = {
-			country_exists = BUL
-			BUL = {
-				is_subject = no
-				has_war = no
-				NOT = {
-					is_in_faction_with = ITA
-				}
-			}
-		}
-		cost = 20
-		days_remove = 10
-		complete_effect = {
-		}
-		remove_effect = {
-			BUL = {
-				country_event = {
-					id = ITA_Political_Tree.4
-					days = 1
-				}
-			}
-		}
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 200
-				OR = {
-					has_decision = ITA_Demand_Yugoslavian_Territories
-					NOT = {
-						country_exists = YUG
-					}
-				}
-				NOT = {
-					BUL = {
-						OR = {
-							is_subject = yes
-							is_in_faction_with = GER
-							is_in_faction_with = ITA
-						}
-					}
-				}
-			}
-		}
-	}
+	#ITA_Issue_Ultimatum_to_Bulgaria = {
+	#	#icon = 
+	#	fire_only_once = yes
+	#	visible = {
+	#		has_completed_focus = ITA_Expand_Our_Influence
+	#	}
+	#	available = {
+	#		country_exists = BUL
+	#		BUL = {
+	#			is_subject = no
+	#			has_war = no
+	#			NOT = {
+	#				is_in_faction_with = ITA
+	#			}
+	#		}
+	#	}
+	#	cost = 20
+	#	days_remove = 10
+	#	complete_effect = {
+	#	}
+	#	remove_effect = {
+	#		BUL = {
+	#			country_event = {
+	#				id = ITA_Political_Tree.4
+	#				days = 1
+	#			}
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		base = 0
+	#		modifier = {
+	#			add = 200
+	#			OR = {
+	#				has_decision = ITA_Demand_Yugoslavian_Territories
+	#				NOT = {
+	#					country_exists = YUG
+	#				}
+	#			}
+	#			NOT = {
+	#				BUL = {
+	#					OR = {
+	#						is_subject = yes
+	#						is_in_faction_with = GER
+	#						is_in_faction_with = ITA
+	#					}
+	#				}
+	#			}
+	#		}
+	#	}
+	#}
 	ITA_Demand_Islands_from_Greece = {
 		#icon = 
 		fire_only_once = yes
@@ -3319,7 +3319,7 @@ ITA_The_Balkan_Strategy = {
 		remove_effect = {
 			GRE = {
 				country_event = {
-					id = ITA_Political_Tree.5
+					id = ITA_Invasion_of_Greece.1
 					days = 1
 				}
 			}

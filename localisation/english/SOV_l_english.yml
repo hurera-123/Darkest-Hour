@@ -573,8 +573,8 @@
  SOV_Liberation_of_Europe.100.A: "Sunrise for the revolution, sunset for the eagle."
 
  SOV_Liberation_of_Europe.1.t: "The Liberation of Czechoslovakia"
- SOV_Liberation_of_Europe.1.d: ""
- SOV_Liberation_of_Europe.1.A: ""
+ SOV_Liberation_of_Europe.1.d: "The end of the fighting has finally been proclaimed over the liberated Czech and Slovak republics, as our troops have entered into Prague.\n\nAfter the fall of the city, the Czechoslovak Socialist Republic was quickly proclaimed, with, at his head, the communist sympathiser Klement Gottwald. Our troops have not encountered much resistance in the region, mainly due to the harsh conditions of occupation the Germans have enacted here. And, after a long separation, both Czechs and Slovaks are united again.\n\nEven though the road to the liberation of the world is still long, today we have taken a big step forward!"
+ SOV_Liberation_of_Europe.1.A: "Czechoslovak workers, breathe the fresh air at last!"
 
  SOV_Liberation_of_Europe.2.t: "The Liberation of Poland"
  SOV_Liberation_of_Europe.2.d: ""
@@ -585,8 +585,8 @@
  SOV_Liberation_of_Europe.3.A: ""
 
  SOV_Liberation_of_Europe.4.t: "The Liberation of Hungary"
- SOV_Liberation_of_Europe.4.d: ""
- SOV_Liberation_of_Europe.4.A: ""
+ SOV_Liberation_of_Europe.4.d: "Today, the Soviet troops have entered Budapest. Finally, more than twenty years after the fall of the Hungarian Council’s Republic of comrade Béla Kun, communism has risen again.\n\nEven though the former leader has not survived long enough to see it again, the communist party of Hungary, despite the purges of Horthy, have not totally disappeared. Mátyás Rákosi, the General Secretary of the Hungarian Workers Party, has even been suggested to lead the new republic.\n\nNow, our troops have entered the city, and the Hungarian troops have started to surrender in their thousands to our soldiers, with the most radical fleeing to the Austrian or Yugoslav territories. But for now, our victory is total, and a new sister republic has finally been reborn!"
+ SOV_Liberation_of_Europe.4.A: "May he be "The best Hungarian pupil of the Soviets"!"
 
  SOV_Liberation_of_Europe.5.t: "The Liberation of Bulgaria"
  SOV_Liberation_of_Europe.5.d: ""
@@ -605,18 +605,9 @@
  SOV_Liberation_of_Europe.8.A: ""
 
  SOV_Liberation_of_Europe.9.t: "The Liberation of Germany"
- SOV_Liberation_of_Europe.9.d: ""
- SOV_Liberation_of_Europe.9.A: ""
+ SOV_Liberation_of_Europe.9.d: "After months of hard fighting, our troops have finally entered Berlin. The fall of the city has signalled the death throes of the German Reich, and, at the same time, both the end of the Teutonic ambitions and the victory of the workers against their oppressors! Finally, the country of Marx is freed from fascism and totalitarianism!\n\nReceiving the news, our great leader has spoken of his eagerness to fly to the liberated city at the first available chance, determined to address both the population and the soldiers in an historical speech.\n\nEven though fighting continues in some areas, it is now clear that our victory is total. A new soviet republic will be proclaimed in the coming weeks, and celebrations will begin across the Union, to celebrate, finally, the end of the Great Patriotic War!"
+ SOV_Liberation_of_Europe.9.A: "The workers revolution shall last for all eternity!"
 
- ### Soviet Special Events
- soviet_special.1.t: "German Betrayal"
- soviet_special.1.d: "Germany signed a treaty with us and dares break it!? This must not go without punishment!"
- soviet_special.1.A: "For the Motherland!"
-
- soviet_special.2.t: "Great Patriotic War"
- soviet_special.2.d: "Germany pushes into the Motherland farther then we thought they could. We must put a end to this!"
- soviet_special.2.A: "For the Motherland!"
- 
  ###Red Army Tree
  SOV_Red_Army.1.t: "State of the Red Army"
  SOV_Red_Army.1.d: "A report to the general staff of the Red Army on its combat ability.\n\nThe Workers and Peasants Red Army is commonly referred to as the Red Army. It is now plagued with corruption ranging from the lowest of officers to even our own commissars. Once the proud army of the people and the sign of the liberation of the working class is now a disorganized mess and severely lacking doctrinal coordination.\n\nTwo factions seem to be forming among our officer class. The first one is the doctrine of “deep battle”:  The process of thrusting into an enemy's rear after a breakthrough is made. Then there is the old guard's preferred way of doing things: "human wave tactics". This doctrine is comprised of overpowering our enemy by sheer numbers.\n\nIt is highly recommended that serious consideration and evaluation of the Red Army take place as advised in the 17th Congress."
@@ -641,8 +632,8 @@
  SOV_Red_Army.7.B: "Purge them"
 
  SOV_Red_Army.8.t: "Katyusha, Stalin's Organs"
- SOV_Red_Army.8.d: ""
- SOV_Red_Army.8.A: ""
+ SOV_Red_Army.8.d: "From the offices of rocket scientists and engineers pulling all-nighters back in the late 1920s in the Gas Dynamics Laboratory, became a new form of artillery in the matter of a decade, albeit experimental in nature. The Reactive Scientific Research Institute has given us the BM-13, after many tests, but our comrades of the artillery corps were disappointed in their reload times, but the results are there, from 5 kilometres, an intense saturation bombing of an area with devastating effect. We have yet to see what the maiden combat use shall result in."
+ SOV_Red_Army.8.A: "O is for obliterating everyone. And R is for rockets to get those that hide."
 
  ###Airforce Tree
  SOV_Airforce.1.t: "The Heroes of Aviation"
