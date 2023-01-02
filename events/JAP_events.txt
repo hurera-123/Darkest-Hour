@@ -1178,7 +1178,7 @@ country_event = {
 	option = { 
 		name = JAP_Abe_Cabinet.5.A
 		hidden_effect = {
-			country_event = { id = JAP_Abe_Cabinet.2 days = 2 }
+			country_event = { id = JAP_Abe_Cabinet.6 days = 2 }
 		}
 	}
 }
@@ -1203,7 +1203,7 @@ country_event = {
 					SUBIDEOLOGY_Authoritarian_Democracy
 				}
 			}
-			country_event = { id = JAP_Yonai_Cabinet days = 1 }
+			country_event = { id = JAP_Yonai_Cabinet.1 days = 1 }
 		}
 	}
 }
@@ -1252,7 +1252,7 @@ country_event = {
 		name = JAP_Yonai_Cabinet.2.A
 		hidden_effect = {
 			country_event = { id = JAP_Second_Konoe_Cabinet.0 days = 45 }
-			country_event = { id = JAP_Yonai_Cabinet.5 days = 90 }
+			country_event = { id = JAP_Yonai_Cabinet.3 days = 90 }
 		}
 	}
 }
@@ -1694,7 +1694,7 @@ country_event = {
 	option = { 
 		name = JAP_Tojo_Cabinet.2.A
 		hidden_effect = {
-			country_event = { id = JAP_Tojo_Cabinet.2 days = 23 }
+			country_event = { id = JAP_Tojo_Cabinet.3 days = 23 }
 		}
 	}
 }
