@@ -14,6 +14,11 @@ add_irreligious_population_effect = {
 		max = 1
 	}
 	add_to_variable = { GER_Irreligious_Population = GER_Irreligious_Population_gain }
+	clamp_variable = {
+		var = GER_Irreligious_Population
+		min = 0
+		max = 1
+	}
 	custom_effect_tooltip = GER_Irreligious_Population_gain_tt
 }
 ###########################
@@ -26,6 +31,11 @@ add_positive_christian_effect = {
 		max = 1
 	}
 	add_to_variable = { GER_Positive_Christian_Population = GER_Positive_Christian_Population_gain }
+	clamp_variable = {
+		var = GER_Positive_Christian_Population
+		min = 0
+		max = 1
+	}
 	custom_effect_tooltip = GER_Positive_Christian_Population_gain_tt
 }
 ###########################
@@ -38,6 +48,11 @@ add_protestant_effect = {
 		max = 1
 	}
 	add_to_variable = { GER_Protestant_Population = GER_Protestant_Population_gain }
+	clamp_variable = {
+		var = GER_Protestant_Population
+		min = 0
+		max = 1
+	}
 	custom_effect_tooltip = GER_Protestant_Population_gain_tt
 }
 ###########################
@@ -50,6 +65,11 @@ add_catholic_effect = {
 		max = 1
 	}
 	add_to_variable = { GER_Catholic_Population = GER_Catholic_Population_gain }
+	clamp_variable = {
+		var = GER_Catholic_Population
+		min = 0
+		max = 1
+	}
 	custom_effect_tooltip = GER_Catholic_Population_gain_tt
 }
 #########################################################################
