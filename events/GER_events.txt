@@ -239,13 +239,11 @@ news_event = {
 			remove_ideas = {
 				GER_Kurt_von_Schleicher_HoG
 				GER_Franz_Bracht_MoS
-				GER_Alfred_Hugenberg_AM
 			}
 		}
 		add_ideas = {
 			GER_Adolf_Hitler_HoG
 			GER_Wilhelm_Frick_MoS
-			GER_Werner_von_Blomberg_AM
 		}
 		# Populate array with factions
 		clear_array = active_factions_array

@@ -2954,10 +2954,10 @@ country_event = {
 				name = "Constantin Sanatescu"
 				picture = GFX_M_Constantin_Sanatescu
 				expire = "1947.1.1"
-				ideology = stalinism
+				ideology = social_democracy
 				traits = {
 					POSITION_Prime_Minister
-					SUBIDEOLOGY_Stalinism
+					SUBIDEOLOGY_Social_Democracy
 				}
 			}
 			remove_ideas = ROM_D_Carol_II
@@ -2966,6 +2966,18 @@ country_event = {
 		set_autonomy = {
 			target = ROM
 			autonomous_state = AUTONOMY_Satellite
+		}
+		hidden_effect = {
+			ROM = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = no
+				}
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.5
+				}
+			}
 		}
 	}
 }
