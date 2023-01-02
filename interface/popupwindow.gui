@@ -1815,11 +1815,11 @@ guiTypes = {
 			scrollbartype = "standardtext_slider"
 		}
 		
-		#iconType = {
-		#	name = "Background"
-		#	quadTextureSprite ="GFX_top_art_winning_conference"
-		#	position = { x = 0 y = 22 }
-		#}
+		iconType = {
+			name = "Background"
+			quadTextureSprite ="GFX_top_art_winning_conference"
+			position = { x = 0 y = 22 }
+		}
 
 		#iconType =	{        
 		#	 name = "pc_decoration_top_left"         
