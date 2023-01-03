@@ -57,6 +57,7 @@ economy_decisions = {
 			}
 		}
 		visible = {
+			has_global_flag = SOV_Destroyed_Grozny
 			OR = {
 				GER = {
 					controls_state = 232
@@ -111,6 +112,7 @@ economy_decisions = {
 			}
 		}
 		visible = {
+			has_global_flag = SOV_Destroyed_Baku
 			OR = {
 				GER = {
 					controls_state = 229
@@ -167,6 +169,7 @@ economy_decisions = {
 			has_country_flag = GER_Baku_Oilfields_Operational
 		}
 		visible = {
+			has_global_flag = SOV_Destroyed_Baku
 			OR = {
 				GER = {
 					controls_state = 229

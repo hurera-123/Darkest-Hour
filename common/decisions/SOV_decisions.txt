@@ -4817,6 +4817,7 @@ SOV_Evacuation_of_Industry_category = {
 				amount = -20
 				state = 232
 			}
+			set_global_flag = SOV_Destroyed_Grozny
 		}
 		ai_will_do = {
 			base = 0
@@ -4857,6 +4858,7 @@ SOV_Evacuation_of_Industry_category = {
 				amount = -80
 				state = 229
 			}
+			set_global_flag = SOV_Destroyed_Baku
 		}
 		ai_will_do = {
 			base = 0

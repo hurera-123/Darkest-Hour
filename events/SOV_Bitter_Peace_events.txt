@@ -271,6 +271,7 @@ country_event = {
 	option = { # A Victory for the entire German people!
 		name = Surrender_GER.2.A
 		GER = { white_peace = SOV }
+		set_global_flag = GER_Victory_Against_the_USSR
 		set_country_flag = germany_bitter_peace_military_occupation
 		custom_effect_tooltip = lag_warning
 		hidden_effect = {
