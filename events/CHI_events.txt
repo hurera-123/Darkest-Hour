@@ -1747,7 +1747,7 @@ country_event = {
 	trigger = {
 		original_tag = CHI
 		has_war_with = JAP
-		surrender_progress > 0.7
+		surrender_progress > 0.65
 	}
 	option = { 
 		name = CHI_War_Buffs_Increase.3.A
