@@ -5,6 +5,7 @@
 add_namespace = CHI_Operation_Nekka
 add_namespace = CHI_Tanggu_Truce
 add_namespace = CHI_Trautmann
+add_namespace = CHI_War_Buffs_Increase
 ### Domestic Events
 add_namespace = CHI_Xian
 add_namespace = CHI_Civil_War
@@ -1519,7 +1520,7 @@ country_event = {
 		AND = {
 			original_tag = CHI
 			has_war_with = JAP
-			surrender_progress > 0.50
+			surrender_progress > 0.75
 		}
 		JAP = {
 			AND = {
@@ -1691,5 +1692,68 @@ country_event = {
 			modifier = sov_friend
 		}
 		give_military_access = SOV
+	}
+}
+### Buffs Increase
+country_event = {
+	id = CHI_War_Buffs_Increase.1
+	title = CHI_War_Buffs_Increase.1.t
+	desc = CHI_War_Buffs_Increase.1.d
+	picture = GFX_news_SOV_17th_Congress
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = CHI
+		has_war_with = JAP
+		surrender_progress > 0.35
+	}
+	option = { 
+		name = CHI_War_Buffs_Increase.1.A
+		swap_ideas = {
+			remove_idea = CHI_Incompetent_NRA
+			add_idea = CHI_Incompetent_NRA_2
+		}
+	}
+}
+### Buffs Increase
+country_event = {
+	id = CHI_War_Buffs_Increase.2
+	title = CHI_War_Buffs_Increase.2.t
+	desc = CHI_War_Buffs_Increase.2.d
+	picture = GFX_news_SOV_17th_Congress
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = CHI
+		has_war_with = JAP
+		surrender_progress > 0.5
+	}
+	option = { 
+		name = CHI_War_Buffs_Increase.2.A
+		swap_ideas = {
+			remove_idea = CHI_Incompetent_NRA_2
+			add_idea = CHI_Incompetent_NRA_3
+		}
+	}
+}
+### Buffs Increase
+country_event = {
+	id = CHI_War_Buffs_Increase.3
+	title = CHI_War_Buffs_Increase.3.t
+	desc = CHI_War_Buffs_Increase.3.d
+	picture = GFX_news_SOV_17th_Congress
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = CHI
+		has_war_with = JAP
+		surrender_progress > 0.7
+	}
+	option = { 
+		name = CHI_War_Buffs_Increase.3.A
+		swap_ideas = {
+			remove_idea = CHI_Incompetent_NRA_3
+			add_idea = CHI_Incompetent_NRA_4
+		}
 	}
 }

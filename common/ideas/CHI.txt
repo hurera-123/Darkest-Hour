@@ -40,13 +40,42 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				political_power_gain = -0.15
+				political_power_gain = -0.1
 				command_power_gain_mult = -0.15
 				conscription_factor =  -0.25
 				training_time_army_factor = 0.1
 				army_org_factor = -0.1
-				army_attack_factor = -0.2
+				army_attack_factor = -0.25
 				army_defence_factor = -0.2
+			}
+		}
+		
+		CHI_Incompetent_NRA_3 = {
+			picture = chi_incompetent_officers
+			available = {
+				always = yes
+			}
+			modifier = {
+				political_power_gain = -0.1
+				command_power_gain_mult = -0.1
+				conscription_factor =  -0.2
+				training_time_army_factor = 0.1
+				army_attack_factor = -0.25
+				army_defence_factor = -0.1
+			}
+		}
+		
+		CHI_Incompetent_NRA_4 = {
+			picture = chi_incompetent_officers
+			available = {
+				always = yes
+			}
+			modifier = {
+				political_power_gain = -0.1
+				command_power_gain_mult = -0.1
+				conscription_factor =  -0.2
+				training_time_army_factor = 0.1
+				army_attack_factor = -0.2
 			}
 		}
 

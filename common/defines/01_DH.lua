@@ -25,6 +25,7 @@ NDefines.NDiplomacy.MIN_OPINION_VALUE = -100
 NDefines.NDiplomacy.VERY_GOOD_OPINION = 50
 NDefines.NDiplomacy.VERY_BAD_OPINION = -50
 NDefines.NDiplomacy.IDEOLOGY_JOIN_FACTION_MIN_LEVEL = 0.4
+NDefines.NDiplomacy.EMBARGO_THREAT_THRESHOLD = 60					-- Target-generated threat threshold to allow embargo (affected by modifiers)
 -- Trade. changes
 NDefines.NTrade.DISTANCE_TRADE_FACTOR = -0.03	-- Trade factor is modified by distance times this
 NDefines.NTrade.RELATION_TRADE_FACTOR = 1.5					-- Trade factor is modified by Opinion value times this
