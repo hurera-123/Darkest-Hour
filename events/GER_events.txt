@@ -1076,19 +1076,19 @@ country_event = {
 		}
 	}
 	# I won't take instructions from 'The Ridiculous Corporal'!
-	option = {
-		name = GER_SA_Purge.2.B
-		ai_chance = {
-			factor = 0
-		}
-		add_political_power = -50
+	#option = {
+	#	name = GER_SA_Purge.2.B
+	#	ai_chance = {
+	#		factor = 0
+	#	}
+	#	add_political_power = -50
 		# Commented until 0.2
 		#custom_effect_tooltip = GER_SA_Purge.2.B.tt 
-		custom_effect_tooltip = DH_FOR_0.2
-		hidden_effect = {
-			set_country_flag = SA_Coup
-		}
-	}
+	#	custom_effect_tooltip = DH_FOR_0.2
+	#	hidden_effect = {
+	#		set_country_flag = SA_Coup
+	#	}
+	#}
 }
 ###########################
 # Schleicher criticizes the Cabinet
