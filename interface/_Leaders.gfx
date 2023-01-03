@@ -2310,6 +2310,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_operative_Eddie_Chapman"
+        texturefile = "gfx/leaders/ENG/operative_Eddie_Chapman.png"
+    }
+
+    spriteType = {
         name = "GFX_operative_Juan_Pujol"
         texturefile = "gfx/leaders/ENG/operative_Juan_Pujol.png"
     }

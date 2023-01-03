@@ -75,25 +75,25 @@ GER_historical = {
 		GER_Reorganize_the_Abwehr
 		GER_Goodwill_Gesture_to_Japan
 		# 1939
-		GER_Soviet_Pact
 		GER_Motorization_Campaign
-		GER_Waffen_SS
-		GER_Reichssicherheitsamt
 		GER_Stahlpakt
 		GER_Plan_Z
+		GER_Soviet_Pact
 		GER_End_of_Versailles
-		GER_SS_Fuhrungshauptamt
-		GER_Trade_Agreements_With_USSR
+		GER_Waffen_SS
+		GER_Reichssicherheitsamt
 		# 1940
+		GER_Trade_Agreements_With_USSR
+		GER_SS_Fuhrungshauptamt
 		GER_Bewegungskrieg
-		GER_SS_Freiwillige_Divisions
 		GER_Secure_the_North
 		GER_Around_the_Maginot
-		GER_Eye_to_The_East
+		GER_SS_Freiwillige_Divisions
 		GER_Formalize_the_Berlin_Pact
+		GER_Rule_over_the_Danube
 		GER_Kriegswirtschaft
 		# 1941
-		GER_Rule_over_the_Danube
+		GER_Eye_to_The_East
 		GER_Expand_the_Jadgwaffe
 		GER_Panzerkorps
 		GER_Plunder_Conquered_Territories

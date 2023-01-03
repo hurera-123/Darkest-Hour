@@ -82,7 +82,7 @@ equipments = {
 		lg_attack = 0
 		
 		torpedo_attack = 0
-		carrier_size = 4
+		carrier_size = 0
 		
 		anti_air_attack = 8
 		
@@ -216,7 +216,7 @@ equipments = {
 		lg_armor_piercing = 0
 		lg_attack = 0
 		torpedo_attack = 0
-		carrier_size = 8
+		carrier_size = 0
 		
 		anti_air_attack = 8
 		
@@ -262,7 +262,7 @@ equipments = {
 		lg_armor_piercing = 0
 		lg_attack = 0
 		torpedo_attack = 0
-		carrier_size = 8
+		carrier_size = 1
 		
 		anti_air_attack = 8
 		

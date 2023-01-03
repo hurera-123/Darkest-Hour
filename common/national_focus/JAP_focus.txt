@@ -560,6 +560,17 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 			base = 3
@@ -629,11 +640,27 @@ focus_tree = {
 			focus = JAP_The_Manchurian_Project
 		}
 		completion_reward = {
+			random_owned_state = {
+				limit = {
+					is_core_of = JAP
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = no
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 			MAN = {
 				random_owned_state = {
 					limit = {
 						free_building_slots = {
-							building = industrial_complex
+							building = arms_factory
 							size > 1
 							include_locked = no
 						}
@@ -1267,16 +1294,49 @@ focus_tree = {
 		completion_reward = {
 			random_owned_state = {
 				limit = {
+					is_core_of = JAP
 					free_building_slots = {
 						building = arms_factory
-						size > 1
+						size > 0
 						include_locked = no
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_core_of = JAP
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = no
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_core_of = JAP
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = no
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -1306,21 +1366,39 @@ focus_tree = {
 		completion_reward = {
 			random_owned_state = {
 				limit = {
+					is_core_of = JAP
 					free_building_slots = {
 						building = industrial_complex
 						size > 1
 						include_locked = no
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
 			random_owned_state = {
 				limit = {
+					is_core_of = JAP
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = no
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_core_of = JAP
 					free_building_slots = {
 						building = industrial_complex
 						size > 0
@@ -1387,6 +1465,17 @@ focus_tree = {
 				add_building_construction = {
 					type = synthetic_refinery
 					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = fuel_silo
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -2448,6 +2537,21 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			random_core_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = no
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		search_filters = { FOCUS_FILTER_STABILITY }
 	}
@@ -2517,6 +2621,11 @@ focus_tree = {
 			random_state = {
 				limit = {
 					is_core_of = JAP
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = no
+					}
 				}
 				add_building_construction = {
 					type = arms_factory
@@ -2527,6 +2636,11 @@ focus_tree = {
 			random_state = {
 				limit = {
 					is_core_of = JAP
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = no
+					}
 				}
 				add_building_construction = {
 					type = arms_factory
@@ -2537,6 +2651,11 @@ focus_tree = {
 			random_state = {
 				limit = {
 					is_core_of = JAP
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = no
+					}
 				}
 				add_building_construction = {
 					type = arms_factory

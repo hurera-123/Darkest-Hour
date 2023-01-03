@@ -1330,6 +1330,7 @@ country_event = {
 		add_ideas = JAP_Sugiyama_Hajime_CoStaff
 		add_ideas = JAP_Tojo_Hideki_CoArmy
 		add_ideas = JAP_Oikawa_Koshiro_CoNavy
+		remove_ideas = JAP_The_Fading_Ballot_Box
 		hidden_effect = {
 			set_politics = {
 				ruling_party = fascist

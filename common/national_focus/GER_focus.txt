@@ -317,7 +317,7 @@ focus_tree = {
 	focus = {
 		id = GER_Waffen_SS
 		icon = GFX_GER_Waffen_SS
-		cost = 70
+		cost = 60
 		prerequisite = {
 			focus = GER_SS_VT
 		}
@@ -489,7 +489,7 @@ focus_tree = {
 	focus = {
 		id = GER_Reichssicherheitsamt
 		icon = GFX_GER_RSHA
-		cost = 70
+		cost = 60
 		prerequisite = {
 			focus = GER_Allgemeine_SS
 		}
@@ -2261,7 +2261,7 @@ focus_tree = {
 	focus = {
 		id = GER_Kriegsmarine
 		icon = GFX_GER_Kriegsmarine
-		cost = 21
+		cost = 40
 		available = {
 			has_completed_focus = GER_Renounce_the_Disarmament_Clauses
 		}
@@ -2289,7 +2289,7 @@ focus_tree = {
 	focus = {
 		id = GER_ENIGMA
 		icon = GFX_GER_ENIGMA
-		cost = 15
+		cost = 35
 		prerequisite = {
 			focus = GER_Kriegsmarine
 		}
@@ -3140,6 +3140,7 @@ focus_tree = {
 			controls_state = 807
 			controls_state = 42
 			controls_state = 806
+			controls_state = 1498
 		}
 		completion_reward = {
 			custom_effect_tooltip = GER_Westwall_tt
@@ -3163,7 +3164,7 @@ focus_tree = {
 					province = 6542
 				}
 			}
-			42 = {
+			1498 = {
 				add_building_construction = {
 					type = bunker
 					level = 4
@@ -3176,19 +3177,39 @@ focus_tree = {
 					instant_build = yes
 					province = 563
 				}
-				add_building_construction = {
-					type = bunker
-					level = 4
-					instant_build = yes
-					province = 9575
-				}
 			}
 			806 = {
 				add_building_construction = {
 					type = bunker
 					level = 4
 					instant_build = yes
+					province = 14694
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					instant_build = yes
 					province = 11531
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					instant_build = yes
+					province = 14695
+				}
+			}
+			42 = {
+				add_building_construction = {
+					type = bunker
+					level = 4
+					instant_build = yes
+					province = 9575
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					instant_build = yes
+					province = 11435
 				}
 			}
 			unlock_decision_category_tooltip = GER_Westwall_category
@@ -3512,6 +3533,14 @@ focus_tree = {
 				}
 				upgrade_intelligence_agency = upgrade_form_department
 				upgrade_intelligence_agency = upgrade_passive_defense
+				create_operative_leader = {
+					name = "Nikolaus Ritter"
+					GFX = GFX_operative_Nikolaus_Ritter
+					traits = { operative_safe_cracker }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { GER }
+				}
 			}
 		}
 		relative_position_id = GER_Chancellor_Hitler
@@ -4353,7 +4382,7 @@ focus_tree = {
 	focus = {
 		id = GER_Stahlpakt
 		icon = GFX_focus_generic_italy_first
-		cost = 70
+		cost = 60
 		prerequisite = {
 			focus = GER_Anti_Komintern_Pact_focus
 		}
@@ -4500,7 +4529,7 @@ focus_tree = {
 	focus = {
 		id = GER_Trade_Agreements_With_USSR
 		icon = GFX_GENERIC_Economic_Cooperation
-		cost = 40
+		cost = 30
 		prerequisite = {
 			focus = GER_Soviet_Pact
 		}

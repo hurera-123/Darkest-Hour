@@ -399,35 +399,6 @@ recruit_character = ENG_Edward_Ellington
 		name = "SIS"
 		icon = "GFX_intelligence_agency_logo_uk"
 	}
-	if = {
-		limit = {
-			has_dlc = "La Resistance"
-		}
-		create_operative_leader = {
-			name = "Juan Pujol"
-			GFX = GFX_operative_Juan_Pujol
-			traits = { operative_double_agent }
-			bypass_recruitment = no
-			available_to_spy_master = yes
-			nationalities = { ENG SPA }
-		}
-		create_operative_leader = {
-			name = "Odette Sansom"
-			GFX = GFX_operative_Odette_Sansom
-			traits = { operative_tough }
-			bypass_recruitment = no
-			available_to_spy_master = yes
-			nationalities = { ENG FRA }
-		}
-		create_operative_leader = {
-			name = "Nancy Wake"
-			GFX = GFX_operative_Nancy_Wake
-			traits = { operative_seducer }
-			bypass_recruitment = no
-			available_to_spy_master = yes
-			nationalities = { ENG NZL }
-		}
-	}
 	######################
 	# Diplomacy
 	#######################

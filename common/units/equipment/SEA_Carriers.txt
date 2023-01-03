@@ -163,7 +163,7 @@ equipments = {
 		lg_attack = 0
 		
 		torpedo_attack = 0
-		carrier_size = 4
+		carrier_size = 2
 		
 		anti_air_attack = 0
 		
@@ -251,7 +251,7 @@ equipments = {
 		lg_armor_piercing = 0
 		lg_attack = 0
 		torpedo_attack = 0
-		carrier_size = 4
+		carrier_size = 2
 		
 		anti_air_attack = 1
 		
@@ -333,7 +333,7 @@ equipments = {
 		lg_armor_piercing = 0
 		lg_attack = 0
 		torpedo_attack = 0
-		carrier_size = 6
+		carrier_size = 3
 		
 		anti_air_attack = 1
 		
@@ -416,7 +416,7 @@ equipments = {
 		lg_armor_piercing = 0
 		lg_attack = 0
 		torpedo_attack = 0
-		carrier_size = 6
+		carrier_size = 3
 		
 		anti_air_attack = 2
 		
@@ -459,7 +459,7 @@ equipments = {
 		lg_armor_piercing = 0
 		lg_attack = 0
 		torpedo_attack = 0
-		carrier_size = 8
+		carrier_size = 6
 		
 		anti_air_attack = 8
 		
@@ -505,7 +505,7 @@ equipments = {
 		lg_armor_piercing = 0
 		lg_attack = 0
 		torpedo_attack = 0
-		carrier_size = 8
+		carrier_size = 6
 		
 		anti_air_attack = 10
 		
@@ -561,7 +561,7 @@ equipments = {
 		## shore_bombardment = 8
 		armor_value = 12
 		ap_attack = 2.5
-		carrier_size = 10
+		carrier_size = 8
 		#Resources
 		resources = { steel = 5 chromium = 1 }
 		#

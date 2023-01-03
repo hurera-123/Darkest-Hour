@@ -33,6 +33,10 @@
 		socialist = 0
 		communist = 25
 	}
+	create_intelligence_agency = {
+		name = "Bureau Central de Renseignements et d'Action"
+		icon = "GFX_intelligence_agency_logo_fra"
+	}
 	if = {
 		limit = {
 			has_dlc = "La Resistance"
