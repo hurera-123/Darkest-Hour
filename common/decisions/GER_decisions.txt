@@ -387,7 +387,7 @@ GER_Positive_Christianity_category = {
 		available = {
 			has_country_flag = GER_Propagate_the_Only_Real_Christianity
 		}
-		cost = 0
+		cost = 50
 		ai_will_do = {
 			factor = 1
 		}
@@ -449,7 +449,7 @@ GER_Positive_Christianity_category = {
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 5
+		days_remove = 20
 		remove_effect = {
 			add_manpower = -1000
 			set_country_flag = GER_Raid_Catholic_Churches
@@ -501,11 +501,11 @@ GER_Positive_Christianity_category = {
 		available = {
 			has_country_flag = GER_Raid_Catholic_Churches
 		}
-		cost = 30
+		cost = 50
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 30
+		days_remove = 60
 		remove_effect = {
 			add_manpower = -50000
 			set_temp_variable = {
@@ -540,7 +540,7 @@ GER_Positive_Christianity_category = {
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 30
+		days_remove = 60
 		complete_effect = {
 			add_stability = -0.25
 		}
@@ -591,7 +591,7 @@ GER_Positive_Christianity_category = {
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 40
+		days_remove = 80
 		remove_effect = {
 			set_temp_variable = {
 				GER_Protestant_Population_gain = -0.05
@@ -633,7 +633,7 @@ GER_Positive_Christianity_category = {
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 60
+		days_remove = 90
 		modifier = {
 			political_power_gain = -0.1
 		}
@@ -677,7 +677,7 @@ GER_Positive_Christianity_category = {
 				state = 52
 			}
 		}
-		days_remove = 60
+		days_remove = 90
 		modifier = {
 			political_power_gain = -0.1
 		}
@@ -721,7 +721,7 @@ GER_Positive_Christianity_category = {
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 30
+		days_remove = 90
 		modifier = {
 			political_power_gain = -0.1
 		}
@@ -761,7 +761,7 @@ GER_Positive_Christianity_category = {
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 60
+		days_remove = 90
 		modifier = {
 			political_power_gain = -0.1
 		}
@@ -804,7 +804,7 @@ GER_Positive_Christianity_category = {
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 60
+		days_remove = 90
 		modifier = {
 			political_power_gain = -0.1
 		}

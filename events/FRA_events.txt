@@ -3925,7 +3925,7 @@ country_event = {
 	trigger = {
 		tag = FRA
 		has_defensive_war_with = GER
-		surrender_progress > 0.4
+		surrender_progress > 0.35
 	}
 	
 	option = {
@@ -3944,7 +3944,7 @@ country_event = {
 	trigger = {
 		tag = FRA
 		has_defensive_war_with = GER
-		surrender_progress > 0.5
+		surrender_progress > 0.45
 	}
 	
 	option = {
@@ -3985,7 +3985,7 @@ country_event = {
 	trigger = {
 		tag = FRA
 		has_defensive_war_with = GER
-		surrender_progress > 0.6
+		surrender_progress > 0.55
 		has_country_flag = FRA_defeatist_in_place
 	}
 	

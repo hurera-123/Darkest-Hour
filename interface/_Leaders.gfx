@@ -2305,6 +2305,31 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_operative_Dusko_Popov"
+        texturefile = "gfx/leaders/ENG/operative_Dusko_Popov.png"
+    }
+
+    spriteType = {
+        name = "GFX_operative_Juan_Pujol"
+        texturefile = "gfx/leaders/ENG/operative_Juan_Pujol.png"
+    }
+
+    spriteType = {
+        name = "GFX_operative_Nancy_Wake"
+        texturefile = "gfx/leaders/ENG/operative_Nancy_Wake.png"
+    }
+
+    spriteType = {
+        name = "GFX_operative_Odette_Sansom"
+        texturefile = "gfx/leaders/ENG/operative_Odette_Sansom.png"
+    }
+
+    spriteType = {
+        name = "GFX_operative_Roman_Czerniawski"
+        texturefile = "gfx/leaders/ENG/operative_Roman_Czerniawski.png"
+    }
+
+    spriteType = {
         name = "GFX_P_A_Edward_Halifax"
         texturefile = "gfx/leaders/ENG/P_A_Edward_Halifax.png"
     }
@@ -2802,6 +2827,16 @@ spriteTypes = {
     spriteType = {
         name = "GFX_M_Victor_Bourret"
         texturefile = "gfx/leaders/FRA/M_Victor_Bourret.png"
+    }
+
+    spriteType = {
+        name = "GFX_operative_Maisie_Renault"
+        texturefile = "gfx/leaders/FRA/operative_Maisie_Renault.png"
+    }
+
+    spriteType = {
+        name = "GFX_operative_Rene_Joyeuse"
+        texturefile = "gfx/leaders/FRA/operative_Rene_Joyeuse.png"
     }
 
     spriteType = {
@@ -3785,6 +3820,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_M_Otto_Remer_Old"
+        texturefile = "gfx/leaders/GER/M_Otto_Remer_Old.png"
+    }
+
+    spriteType = {
         name = "GFX_M_Otto_Skorzeny"
         texturefile = "gfx/leaders/GER/M_Otto_Skorzeny.png"
     }
@@ -3892,6 +3932,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_M_Wolfgang_Fleck"
         texturefile = "gfx/leaders/GER/M_Wolfgang_Fleck.png"
+    }
+
+    spriteType = {
+        name = "GFX_operative_Nikolaus_Ritter"
+        texturefile = "gfx/leaders/GER/operative_Nikolaus_Ritter.png"
     }
 
     spriteType = {
@@ -5250,6 +5295,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_operative_Takeo_Yoshikawa"
+        texturefile = "gfx/leaders/JAP/operative_Takeo_Yoshikawa.png"
+    }
+
+    spriteType = {
         name = "GFX_P_A_Hiranuma_Kiichiro"
         texturefile = "gfx/leaders/JAP/P_A_Hiranuma_Kiichiro.png"
     }
@@ -6507,6 +6557,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_M_Zygmunt_Podhorski"
         texturefile = "gfx/leaders/POL/M_Zygmunt_Podhorski.png"
+    }
+
+    spriteType = {
+        name = "GFX_operative_Witold_Pilecki"
+        texturefile = "gfx/leaders/POL/operative_Witold_Pilecki.png"
     }
 
     spriteType = {
@@ -7847,6 +7902,16 @@ spriteTypes = {
     spriteType = {
         name = "GFX_M_Yevgeny_Ptukhin"
         texturefile = "gfx/leaders/SOV/M_Yevgeny_Ptukhin.png"
+    }
+
+    spriteType = {
+        name = "GFX_operative_Kim_Philby"
+        texturefile = "gfx/leaders/SOV/operative_Kim_Philby.png"
+    }
+
+    spriteType = {
+        name = "GFX_operative_Richard_Sorge"
+        texturefile = "gfx/leaders/SOV/operative_Richard_Sorge.png"
     }
 
     spriteType = {

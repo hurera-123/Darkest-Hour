@@ -500,6 +500,19 @@ focus_tree = {
 				remove_idea = GER_Gestapo_2
 				add_idea = GER_Gestapo_3
 			}
+			if = {
+				limit = {
+					has_dlc = "La Resistance"
+				}
+				create_operative_leader = {
+					name = "Otto Skorzeny"
+					GFX = GFX_M_Otto_Skorzeny
+					traits = { operative_commando }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { GER }
+				}
+			}
 		}
 		relative_position_id = GER_Chancellor_Hitler
 	}

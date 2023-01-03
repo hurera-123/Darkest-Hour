@@ -1278,6 +1278,27 @@ focus_tree = {
 				icon = "GFX_intelligence_agency_logo_sov"
 			}
 			add_ideas = SOV_NKVD_1
+			if = {
+				limit = {
+					has_dlc = "La Resistance"
+				}
+				create_operative_leader = {
+					name = "Richard Sorge"
+					GFX = GFX_operative_Richard_Sorge
+					traits = { operative_well_groomed }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { GER SOV }
+				}
+				create_operative_leader = {
+					name = "Kim Philby"
+					GFX = GFX_operative_Kim_Philby
+					traits = { operative_double_agent operative_infiltrator }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { ENG SOV }
+				}
+			}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}

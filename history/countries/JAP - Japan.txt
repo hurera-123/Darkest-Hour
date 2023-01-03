@@ -478,6 +478,19 @@ recruit_character = JAP_Kazuo_Aoki
 		name = "G-2 Department"
 		icon = "GFX_intelligence_agency_logo_jap"
 	}
+	if = {
+		limit = {
+			has_dlc = "La Resistance"
+		}
+		create_operative_leader = {
+			name = "Takeo Yoshikawa"
+			GFX = GFX_operative_Takeo_Yoshikawa
+			traits = { }
+			bypass_recruitment = no
+			available_to_spy_master = yes
+			nationalities = { JAP }
+		}
+	}
 	country_event = { id = JAP_Aizawa_Incident.6 days = 372 }
 	#######################
 	# Diplomacy

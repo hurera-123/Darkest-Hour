@@ -1450,7 +1450,7 @@ focus_tree = {
 	}
 	focus = {
 		id = POL_Build_the_Resistance
-		icon = GFX_GENERIC_Draw_Borders
+		icon = GFX_focus_POL_resistance
 		cost = 2
 		prerequisite = {
 			focus = POL_All_is_Not_Yet_Lost
@@ -1462,6 +1462,19 @@ focus_tree = {
 			unlock_decision_category_tooltip = POL_Infrastructure_Disruption
 			unlock_decision_category_tooltip = POL_Sabotaging_our_Hardwork
 			custom_effect_tooltip = POL_Can_Select_Only_One_Option_tt
+			if = {
+				limit = {
+					has_dlc = "La Resistance"
+				}
+				create_operative_leader = {
+					name = "Witold Pilecki"
+					GFX = GFX_operative_Witold_Pilecki
+					traits = { operative_escape_artist operative_commando operative_infiltrator }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { POL }
+				}
+			}
 		}
 	}
 	focus = {

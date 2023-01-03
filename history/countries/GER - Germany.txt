@@ -435,6 +435,19 @@ recruit_character = GER_Wilhelm_III
 		name = "Abwehr"
 		icon = "GFX_intelligence_agency_logo_ger"
 	}
+	if = {
+		limit = {
+			has_dlc = "La Resistance"
+		}
+		create_operative_leader = {
+			name = "Nikolaus Ritter"
+			GFX = GFX_operative_Nikolaus_Ritter
+			traits = { operative_safe_cracker }
+			bypass_recruitment = no
+			available_to_spy_master = yes
+			nationalities = { GER }
+		}
+	}
 	#######################
 	# Diplomacy
 	#######################

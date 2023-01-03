@@ -1270,3 +1270,27 @@ ITA_let_germany_handle_polish_front_alone = {
 		value = 100
 	}
 }
+ITA_No_Volunteers_to_Asia = {
+	allowed = {
+		original_tag = ITA
+	}
+	enable = {
+		always = yes
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = MAN
+		value = -1000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = MEN
+		value = -1000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = JAP
+		value = -1000
+	}
+}

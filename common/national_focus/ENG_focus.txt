@@ -4265,6 +4265,27 @@ focus_tree = {
 				remove_idea = ENG_Fledgling_MI5_Programme
 				add_idea = ENG_MI5
 			}
+			if = {
+				limit = {
+					has_dlc = "La Resistance"
+				}
+				create_operative_leader = {
+					name = "Dusko Popov"
+					GFX = GFX_operative_Dusko_Popov
+					traits = { operative_double_agent }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { GER YUG }
+				}
+				create_operative_leader = {
+					name = "Roman Czerniawski"
+					GFX = GFX_operative_Roman_Czerniawski
+					traits = { operative_double_agent }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { POL }
+				}
+			}
 		}
 	}
 	focus = {

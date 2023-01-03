@@ -1481,9 +1481,9 @@ State_Renaming_German = {
     if = {
         limit = {
             FROM.FROM = { state = 137 }
-        }
-        ROOT = { 
-            is_Nazi_Germany = yes
+            ROOT = { 
+                is_Nazi_Germany = yes
+            }
         }
         FROM.FROM = {
             set_state_name = STATE_137_german

@@ -648,7 +648,7 @@ ideas = {
 			}
 		}
 		ITA_Italian_Workers_in_Germany = {
-			picture = GFX_idea_generic_fascist_workers
+			picture = generic_fascist_workers
 			modifier = {
 				consumer_goods_factor = -0.03
 			}
