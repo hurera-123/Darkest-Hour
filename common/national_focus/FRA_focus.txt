@@ -151,6 +151,7 @@ focus_tree = {
 			focus = FRA_Side_with_the_Radicaux
 		}
 		completion_reward = {
+			unlock_decision_tooltip = FRA_Invest_in_Great_Works
 			unlock_decision_tooltip = FRA_Continue_construction_of_Autoroutes
 			add_tech_bonus = {
 				name = "Grands Travaux"

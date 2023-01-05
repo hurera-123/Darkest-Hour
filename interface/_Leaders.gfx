@@ -2845,6 +2845,61 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_M_Raoul_Castex"
+        texturefile = "gfx/leaders/FRA/M_Raoul_Castex.png"
+    }
+
+    spriteType = {
+        name = "GFX_M_Marcel_Gensoul"
+        texturefile = "gfx/leaders/FRA/M_Marcel_Gensoul.png"
+    }
+
+    spriteType = {
+        name = "GFX_M_Jean_Marie_Abrial"
+        texturefile = "gfx/leaders/FRA/M_Jean_Marie_Abrial.png"
+    }
+
+    spriteType = {
+        name = "GFX_M_Georges_Robert"
+        texturefile = "gfx/leaders/FRA/M_Georges_Robert.png"
+    }
+
+    spriteType = {
+        name = "GFX_M_Paul_Beynet"
+        texturefile = "gfx/leaders/FRA/M_Paul_Beynet.png"
+    }
+
+    spriteType = {
+        name = "GFX_M_Jean_Barrau"
+        texturefile = "gfx/leaders/FRA/M_Jean_Barrau.png"
+    }
+
+    spriteType = {
+        name = "GFX_M_Henri_Dentz"
+        texturefile = "gfx/leaders/FRA/M_Henri_Dentz.png"
+    }
+
+    spriteType = {
+        name = "GFX_M_Eugene_Mittelhauser"
+        texturefile = "gfx/leaders/FRA/M_Eugene_Mittelhauser.png"
+    }
+
+    spriteType = {
+        name = "GFX_M_Emile_Laure"
+        texturefile = "gfx/leaders/FRA/M_Emile_Laure.png"
+    }
+
+    spriteType = {
+        name = "GFX_M_Aubert_Frere"
+        texturefile = "gfx/leaders/FRA/M_Aubert_Frere.png"
+    }
+
+    spriteType = {
+        name = "GFX_M_Aime_Doumenc"
+        texturefile = "gfx/leaders/FRA/M_Aime_Doumenc.png"
+    }
+
+    spriteType = {
         name = "GFX_P_A_Charles_Maurras"
         texturefile = "gfx/leaders/FRA/P_A_Charles_Maurras.png"
     }

@@ -80,6 +80,13 @@ recruit_character = FRA_Marcel_Gensoul
 recruit_character = FRA_Jean_de_Laborde
 recruit_character = FRA_Georges_Robert
 recruit_character = FRA_Emmanuel_Ollive
+recruit_character = FRA_Jean_Barrau
+recruit_character = FRA_Paul_Beynet
+recruit_character = FRA_Henri_Dentz
+recruit_character = FRA_Aime_Doumenc
+recruit_character = FRA_Aubert_Frere
+recruit_character = FRA_Emile_Laure
+recruit_character = FRA_Eugene_Mittelhauser
 
 #########################################################################
 # French Republic - 1933

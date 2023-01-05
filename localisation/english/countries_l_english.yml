@@ -72,6 +72,21 @@
  ENG_EDWARD_authoritarian: "Edwardites"
  ENG_EDWARD_authoritarian_DEF: "The Edwardites"
 
+ FRA_UK_fascist: "Franco-British Empire"
+ FRA_UK_fascist_DEF: "The Franco-British Empire"
+ FRA_UK_authoritarian: "Angevin Empire"
+ FRA_UK_authoritarian_DEF: "The Angevin Empire"
+ FRA_UK_democratic: "Franco-British Union"
+ FRA_UK_democratic_DEF: "The Franco-British Union"
+ FRA_UK_socialist: "Franco-British Union"
+ FRA_UK_socialist_DEF: "The Franco-British Union"
+ FRA_UK_communist: "United Socialist Republics of France and Britain"
+ FRA_UK_communist_DEF: "The United Socialist Republics of France and Britain"
+ FRA_UK_authoritarian_ADJ: "Franco-British"
+ FRA_UK_democratic_ADJ: "Franco-British"
+ FRA_UK_socialist_ADJ: "Franco-British"
+ FRA_UK_communist_ADJ: "Franco-British"
+
  ### Soviet Union/Russia
  SOV_fascist: "All-Russian Federative State"
  SOV_fascist_DEF: "The All-Russian Federative State"
@@ -2769,8 +2784,6 @@
  EGY_democratic_ADJ: "Egyptian"
  EGY_communist_ADJ: "Egyptian"
  EGY_socialist_ADJ: "Egyptian"
- EGY_ITA_PUPPET: "Kingdom of Egypt"
- EGY_ITA_PUPPET_DEF: "The Kingdom of Egypt"
 
  EGY_ARABREP_authoritarian: "Arab Republic of Egypt"
  EGY_ARABREP_authoritarian_DEF: "the Arab Republic of Egypt"

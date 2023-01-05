@@ -1369,25 +1369,6 @@ characters={
 			logistics_skill = 2
 		}
 	}
-	FRA_Robert_Touchon = {
-		name= FRA_Robert_Touchon
-		portraits={
-			army={
-				large="GFX_M_Robert_Touchon"
-			}
-		}
-		corps_commander={
-			traits = {
-				trait_mountaineer
-				infantry_officer
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
 	FRA_Maxime_Weygand = {
 		name= FRA_Maxime_Weygand
 		portraits={
@@ -1431,7 +1412,81 @@ characters={
 			}
 		}
 	}
-	### To promote
+	### 1940 Promotion
+
+	FRA_Jean_Barrau = {
+		name = FRA_Jean_Barrau
+		portraits={
+			army={
+				large="GFX_M_Jean_Barrau"
+			}
+		}
+	}
+
+	FRA_Paul_Beynet = {
+		name = FRA_Paul_Beynet
+		portraits={
+			army={
+				large="GFX_M_Paul_Beynet"
+			}
+		}
+	}
+
+	FRA_Henri_Dentz = {
+		name = FRA_Henri_Dentz
+		portraits={
+			army={
+				large="GFX_M_Henri_Dentz"
+			}
+		}
+	}
+
+	FRA_Aime_Doumenc = {
+		name = FRA_Aime_Doumenc
+		portraits={
+			army={
+				large="GFX_M_Aime_Doumenc"
+			}
+		}
+	}
+
+	FRA_Aubert_Frere = {
+		name = FRA_Aubert_Frere
+		portraits={
+			army={
+				large="GFX_M_Aubert_Frere"
+			}
+		}
+	}
+
+	FRA_Emile_Laure = {
+		name = FRA_Emile_Laure
+		portraits={
+			army={
+				large="GFX_M_Emile_Laure"
+			}
+		}
+	}
+
+	FRA_Eugene_Mittelhauser = {
+		name = FRA_Eugene_Mittelhauser
+		portraits={
+			army={
+				large="GFX_M_Eugene_Mittelhauser"
+			}
+		}
+	}
+
+	FRA_Robert_Touchon = {
+		name= FRA_Robert_Touchon
+		portraits={
+			army={
+				large="GFX_M_Robert_Touchon"
+			}
+		}
+	}
+
+	### 1943 Promotion
 	FRA_Charles_de_Gaulle = {
 		name= FRA_Charles_de_Gaulle
 		portraits={
@@ -1629,13 +1684,14 @@ characters={
 		}
 		navy_leader={
 			traits = {
-				seawolf
+				air_controller
+				flight_deck_manager
 			}
-			skill = 2
-			attack_skill=1
-			defense_skill=2
-			maneuvering_skill=2
-			coordination_skill=2
+			skill = 4
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=4
+			coordination_skill=4
 		}
 		advisor={
 			slot=Chief_of_Navy
@@ -1721,7 +1777,6 @@ characters={
 		navy_leader = {
 			traits = {
 				air_controller
-				flight_deck_manager
 			}
 			skill = 4
 			attack_skill = 4

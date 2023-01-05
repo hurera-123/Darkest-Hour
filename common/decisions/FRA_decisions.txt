@@ -2,6 +2,33 @@
 # The French Economy
 #######################################################################
 economy_decisions = {
+	FRA_Stabilize_the_Economy = {
+		icon = putIcon
+		allowed = {
+			original_tag = FRA
+		}
+		available = {
+			custom_trigger_tooltip = {
+                tooltip = FRA_Stabilize_the_Economy_tt
+                check_variable = { unemployment_value_modifier < 0.75 }
+            }
+		}
+		activation = {
+			has_completed_focus = FRA_Fix_the_Current_Situation
+		}
+		days_mission_timeout = 180
+		fire_only_once = yes
+		is_good = no
+		complete_effect = {
+			add_stability = 0.05
+			add_political_power = 100
+			clr_country_flag = FRA_Fixing_the_Current_Situation
+		}
+		timeout_effect = {
+			add_political_power = -25
+			clr_country_flag = FRA_Fixing_the_Current_Situation
+		}
+	}
 	FRA_Budget_Austerity = {
 		icon = putIcon
 		fire_only_once = no
@@ -126,31 +153,6 @@ economy_decisions = {
 			}
 		}
 	}
-	FRA_Invest_in_Great_Works = {
-		icon = GFX_decision_GENERIC_Create_Public_Works
-		fire_only_once = no
-		allowed = {
-			original_tag = FRA
-		}
-		visible = {
-		}
-		available = {
-			has_completed_focus = FRA_Grand_Travaux_Policy
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		days_remove = 70
-		modifier = {
-			money_income = -15
-		}
-		remove_effect = {
-			set_temp_variable = {
-				unemployment_value = -0.005
-			}
-			add_unemployment_effect = yes
-		}
-	}
 	FRA_Franc_Devaluation = {
 		icon = GFX_decision_gre_paying_ifc_debt
 		fire_only_once = no
@@ -265,31 +267,29 @@ economy_decisions = {
 			}
 		}
 	}
-	FRA_Stabilize_the_Economy = {
-		icon = putIcon
+	FRA_Invest_in_Great_Works = {
+		icon = GFX_decision_GENERIC_Create_Public_Works
+		fire_only_once = no
 		allowed = {
 			original_tag = FRA
 		}
+		visible = {
+		}
 		available = {
-			custom_trigger_tooltip = {
-                tooltip = FRA_Stabilize_the_Economy_tt
-                check_variable = { unemployment_value_modifier < 0.75 }
-            }
+			has_completed_focus = FRA_Grand_Travaux_Policy
 		}
-		activation = {
-			has_completed_focus = FRA_Fix_the_Current_Situation
+		ai_will_do = {
+			factor = 1
 		}
-		days_mission_timeout = 180
-		fire_only_once = yes
-		is_good = no
-		complete_effect = {
-			add_stability = 0.05
-			add_political_power = 100
-			clr_country_flag = FRA_Fixing_the_Current_Situation
+		days_remove = 70
+		modifier = {
+			money_income = -15
 		}
-		timeout_effect = {
-			add_political_power = -25
-			clr_country_flag = FRA_Fixing_the_Current_Situation
+		remove_effect = {
+			set_temp_variable = {
+				unemployment_value = -0.005
+			}
+			add_unemployment_effect = yes
 		}
 	}
 	FRA_Continue_construction_of_Autoroutes = { #Plan Frost
@@ -2808,7 +2808,7 @@ FRA_Le_Front_Populaire_category = {
 		}
 		available = {
 			set_temp_variable = {
-				unemployment_value = 0.05
+				unemployment_value = 0.025
 			}
 			has_less_than_unemployment_value = yes
 		}
@@ -2829,60 +2829,60 @@ FRA_Le_Front_Populaire_category = {
 			}
 		}
 	}
-	FRA_Ask_Full_Financial_Power = {
-		icon = GFX_decision_generic_fundraising
-		fire_only_once = no
-		allowed = {
-			original_tag = FRA
-		}
-		available = {
-			NOT = {
-				has_idea = FRA_Full_Economic_Power
-			}
-		}
-		days_re_enable = 120
-		complete_effect = {
-			custom_effect_tooltip = FRA_Ask_Full_Financial_Power_tt
-			hidden_effect = {
-				if = {
-					limit = {
-						set_temp_variable = { total_support_to_check = 0.7 }
-						has_at_least_parliament_total_support = yes
-					}
-					add_timed_idea = {
-						idea = FRA_Full_Economic_Power
-						days = 365
-					}
-				}
-				else = {
-					if = {
-						limit = {
-							has_country_leader = {
-								name = "Camille Chautemps"
-								ruling_only = yes
-							}
-						}
-						country_event = {
-							id = FRA_Front_Populaire_1936.12
-							days = 1
-						}
-					}
-					else_if = {
-						limit = {
-							has_country_leader = {
-								name = "Léon Blum"
-								ruling_only = yes
-							}
-						}
-						country_event = {
-							id = FRA_Front_Populaire_1936.11
-							days = 1
-						}
-					}
-				}
-			}
-		}
-	}
+	#FRA_Ask_Full_Financial_Power = {
+	#	icon = GFX_decision_generic_fundraising
+	#	fire_only_once = no
+	#	allowed = {
+	#		original_tag = FRA
+	#	}
+	#	available = {
+	#		NOT = {
+	#			has_idea = FRA_Full_Economic_Power
+	#		}
+	#	}
+	#	days_re_enable = 120
+	#	complete_effect = {
+	#		custom_effect_tooltip = FRA_Ask_Full_Financial_Power_tt
+	#		hidden_effect = {
+	#			if = {
+	#				limit = {
+	#					set_temp_variable = { total_support_to_check = 0.7 }
+	#					has_at_least_parliament_total_support = yes
+	#				}
+	#				add_timed_idea = {
+	#					idea = FRA_Full_Economic_Power
+	#					days = 365
+	#				}
+	#			}
+	#			else = {
+	#				if = {
+	#					limit = {
+	#						has_country_leader = {
+	#							name = "Camille Chautemps"
+	#							ruling_only = yes
+	#						}
+	#					}
+	#					country_event = {
+	#						id = FRA_Front_Populaire_1936.12
+	#						days = 1
+	#					}
+	#				}
+	#				else_if = {
+	#					limit = {
+	#						has_country_leader = {
+	#							name = "Léon Blum"
+	#							ruling_only = yes
+	#						}
+	#					}
+	#					country_event = {
+	#						id = FRA_Front_Populaire_1936.11
+	#						days = 1
+	#					}
+	#				}
+	#			}
+	#		}
+	#	}
+	#}
 	FRA_Applied_the_Programe_of_the_Front = {
 		icon = putIcon
 		fire_only_once = yes
@@ -2905,61 +2905,6 @@ FRA_Le_Front_Populaire_category = {
 		}
 	}
 }
-war_measures = {
-	FRA_Mobilisation_General = {
-		icon = GFX_decision_generic_military
-		fire_only_once = yes
-		allowed = {
-			original_tag = FRA
-		}
-		available = {
-			OR = {
-				has_war = yes
-				GER = {
-					has_war_with = POL
-				}
-			}
-		}
-		ai_will_do = {
-			base = 500
-		}
-		days_remove = 5
-		cost = 25
-		complete_effect = {
-			if = {
-				limit = {
-					has_idea = FRA_Rearmament_Program_1
-				}
-				remove_ideas = FRA_Rearmament_Program_1
-			}
-			else_if = {
-				limit = {
-					has_idea = FRA_Rearmament_Program_2
-				}
-				remove_ideas = FRA_Rearmament_Program_2
-			}
-			else_if = {
-				limit = {
-					has_idea = FRA_Rearmament_Program_3
-				}
-				remove_ideas = FRA_Rearmament_Program_3
-			}
-			else_if = {
-				limit = {
-					has_idea = FRA_Rearmament_Program_4
-				}
-				remove_ideas = FRA_Rearmament_Program_4
-			}
-			add_ideas = three_year_service
-
-			set_country_flag = FRA_General_Mobilization
-			mark_focus_tree_layout_dirty = yes
-			complete_national_focus = FRA_General_Mobilization
-
-			news_event = { id = FRA_Wartime_Tree.0 }
-		}
-	}
-}
 
 FRA_Grand_Quartier_General_category = {
 	FRA_Centralize_the_GQG = {
@@ -2978,6 +2923,104 @@ FRA_Grand_Quartier_General_category = {
 			swap_ideas = {
 				remove_idea = FRA_The_GQG
 				add_idea = FRA_The_GQG_2
+			}
+		}
+	}
+	FRA_Promote_New_Generals = {
+		icon = GFX_decision_generic_army_support
+		fire_only_once = yes
+		available = {
+		}
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+			}
+			add_corps_commander_role = {
+				character = FRA_Jean_Barrau
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 3
+				traits = {
+					jungle_rat
+				}
+			}
+			add_corps_commander_role = {
+				character = FRA_Paul_Beynet
+				skill = 2
+				attack_skill = 2
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 2
+			}
+			add_corps_commander_role = {
+				character = FRA_Henri_Dentz
+				skill = 2
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 2
+			}
+			add_corps_commander_role = {
+				character = FRA_Aime_Doumenc
+				skill = 4
+				attack_skill = 3
+				defense_skill = 5
+				planning_skill = 4
+				logistics_skill = 4
+				traits = {
+					war_hero
+					infantry_leader
+					trickster
+					unyielding_defender
+				}
+			}
+			add_corps_commander_role = {
+				character = FRA_Aubert_Frere
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 4
+				traits = {
+					trickster
+				}
+			}
+			add_corps_commander_role = {
+				character = FRA_Emile_Laure
+				skill = 2
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 2
+			}
+			add_corps_commander_role = {
+				character = FRA_Eugene_Mittelhauser
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 3
+				traits = {
+					infantry_officer
+				}
+			}
+			add_corps_commander_role = {
+				character = FRA_Robert_Touchon
+				traits = {
+					trait_mountaineer
+					infantry_officer
+				}
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 3
 			}
 		}
 	}
