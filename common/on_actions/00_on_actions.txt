@@ -576,6 +576,31 @@ on_actions = {
 	on_capitulation = {
 		effect = {
 			news_event = { id = country_capitulated.0 days = 0 }
+			# Spanish Civil War
+			if = {
+				limit = {
+					original_tag = SPA
+					FROM = { tag = SPR }
+				}
+				SPR = {
+					annex_country = {
+						target = SPA
+						transfer_troops = no
+					}
+				}
+			}
+			if = {
+				limit = {
+					original_tag = SPR
+					FROM = { tag = SPA }
+				}
+				SPA = {
+					annex_country = {
+						target = SPR
+						transfer_troops = no
+					}
+				}
+			}
 			# Sichuan War
 			if = {
 				limit = {
