@@ -113,6 +113,12 @@ State_Renaming_Base = {
         }
         State_Renaming_Greek = yes
     }
+	if = {
+        limit = {
+            ROOT = { State_Renaming_Yugoslavian = yes }
+        }
+        State_Renaming_Yugoslavian = yes
+    }
 }
 
 State_Renaming_Hebrew = {
@@ -2841,4 +2847,8 @@ State_Renaming_Greek = {
 			}
         }
     }
+}
+
+State_Renaming_Yugoslavian = {
+
 }

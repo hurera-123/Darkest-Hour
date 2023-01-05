@@ -6,6 +6,7 @@ add_namespace = YUG_Election_1935
 add_namespace = YUG_Election_1938
 add_namespace = YUG_Politics
 add_namespace = YUG_Capitulation
+add_namespace = YUG_Renaming
 # Britain to Back Coup in Yugoslavia
 country_event = {
 	id = yugoslavia.1
@@ -711,3 +712,30 @@ news_event = {
 		name = YUG_Capitulation.2.A
 	}
 }
+#########################################################################
+# Rename Veliki Bečkerek
+#########################################################################
+country_event = {
+	id = YUG_Renaming.1
+	title = YUG_Renaming.1.t
+	desc = YUG_Renaming.1.d
+	picture = GFX_news_YUG_Yugoslav_Capitulation
+	fire_only_once = yes
+	hidden = yes
+	trigger = {
+		original_tag = YUG
+		controls_state = 772
+		date > 1935.1.1
+	}
+	# 
+	option = {
+		name = YUG_Renaming.1.A
+		772 = {
+			set_province_name = {
+				id = 11787
+				name = VICTORY_POINTS_11787_yugoslavian
+			}
+		}
+	}
+}
+
