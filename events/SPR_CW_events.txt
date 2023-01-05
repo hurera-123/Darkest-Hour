@@ -341,6 +341,9 @@ country_event = {
 			SPA = {
 				load_oob = SPA_Civil_War
 			}
+			SPA = {
+				load_oob = SPA_Civil_War
+			}
 			declare_war_on = {
 				target = SPR
 				type = annex_everything
@@ -375,6 +378,9 @@ country_event = {
 	fire_only_once = yes
 	immediate = {
 		hidden_effect = {
+			SPR = {
+				load_oob = SPR_Civil_War
+			}
 			SPR = {
 				load_oob = SPR_Civil_War
 			}

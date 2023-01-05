@@ -30,18 +30,6 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = SOV_Lev_Kamenev_HoG
-		}
-		localization_key = SOV_Lev_Kamenev
-	}
-	text = {
-		trigger = {
-			has_idea = SOV_Alexei_Kosygin_HoG
-		}
-		localization_key = SOV_Alexei_Kosygin
-	}
-	text = {
-		trigger = {
 			has_idea = SOV_Sergey_Kirov_HoG
 		}
 		localization_key = SOV_Sergey_Kirov
@@ -370,12 +358,6 @@ defined_text = {
 		}
 		localization_key = USA_John_Nance_Garner
 	}
-	text = {
-		trigger = {
-			has_idea = USA_James_Farley_HoG
-		}
-		localization_key = USA_James_Farley
-	}
 	#### LIB - Liberia
 	text = {
 		trigger = {
@@ -447,25 +429,6 @@ defined_text = {
 	# 	}
 	# 	localization_key = FRA_Felix_Eboue
 	# }
-	text = {
-	 	trigger = {
-			has_idea = FRA_Charles_de_Gaulle_HoG
-	 	}
-	 	localization_key = FRA_Charles_de_Gaulle
-	}
-	text = {
-	 	trigger = {
-			has_idea = FRA_Philippe_Petain_HoG
-	 	}
-	 	localization_key = FRA_Philippe_Petain
-	}
-
-	text = {
-	 	trigger = {
-			has_idea = FRA_Henri_Giraud_HoG
-	 	}
-	 	localization_key = FRA_Henri_Giraud
-	}
 	text = {
 		trigger = {
 		   has_idea = FRA_Charles_Maurras_HoG
@@ -1552,12 +1515,6 @@ defined_text = {
 		}
 		localization_key = GFX_P_D_John_Nance_Garner
 	}
-	text = {
-		trigger = {
-			has_idea = USA_James_Farley_HoG
-		}
-		localization_key = GFX_P_D_James_Farley
-	}
 	#### SAF - South Africa
 	text = {
 		trigger = {
@@ -1656,24 +1613,6 @@ defined_text = {
 	# 	}
 	# 	localization_key = GFX_P_D_Felix_Eboue
 	# }
-	text = {
-	 	trigger = {
-	 		has_idea = FRA_Charles_de_Gaulle_HoG
-	 	}
-	 	localization_key = GFX_M_Charles_De_Gaulle
-	}
-	text = {
-	 	trigger = {
-	 		has_idea = FRA_Philippe_Petain_HoG
-	 	}
-	 	localization_key = GFX_M_Philippe_Petain
-	}
-	text = {
-	 	trigger = {
-	 		has_idea = FRA_Henri_Giraud_HoG
-	 	}
-	 	localization_key = GFX_M_Henri_Giraud
-	}
 	#### GER - Germany
 	text = {
 		trigger = {

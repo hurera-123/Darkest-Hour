@@ -2234,29 +2234,6 @@ GER_super_boost_light_for_med_armor = {
 		value = 200
 	}
 }
-GER_super_boost_light_for_modern_armor = {
-	enable = {
-		original_tag = GER
-		has_tech = Main_Battle_Tank_1952
-		NOT = {
-			has_template_ai_majority_unit = modern_armor
-		}
-	}
-	abort = {
-		has_template_ai_majority_unit = modern_armor
-	}
-	# this is gateway
-	ai_strategy = {
-		type = template_prio
-		id = medium_armor
-		value = 100
-	}
-	ai_strategy = {
-		type = template_prio
-		id = modern_armor
-		value = 150
-	}
-}
 
 GER_naval_role_ratios_historical = {
 	allowed = {

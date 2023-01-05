@@ -129,14 +129,13 @@ country_event = { #France refuse peace
 		set_country_flag = Germany_Must_Die
 	}
 }
-
-news_event = { #Germany capitulate
-	id = GER_Oster_Coup.6
-	title = GER_Oster_Coup.6.t
-	desc = GER_Oster_Coup.6.d
+country_event = { # Hidden event that triggers GER_Oster_Coup.6
+	id = GER_Oster_Coup.66
+	title = GER_Oster_Coup.66.t
+	desc = GER_Oster_Coup.66.d
 	picture = GFX_news_event_002
-	major = yes
-
+	fire_only_once = yes
+	hidden = yes
 	trigger = {
 		original_tag = GER
 		GER_Hans_Oster = {
@@ -146,6 +145,21 @@ news_event = { #Germany capitulate
 		surrender_progress > 0.9
 		has_country_flag = Germany_Must_Die
 	}
+
+	option = {
+		name = GER_Oster_Coup.66.A
+		GER = {
+			news_event = { id = GER_Oster_Coup.6 }
+		}
+	}
+}
+news_event = { # Germany capitulates
+	id = GER_Oster_Coup.6
+	title = GER_Oster_Coup.6.t
+	desc = GER_Oster_Coup.6.d
+	picture = GFX_news_event_002
+	is_triggered_only = yes
+	major = yes
 
 	immediate = {
 		GER = {
@@ -759,17 +773,16 @@ news_event = {
 		}
 	}
 }
-# Operation Torch Succeeds
-news_event = {
-	id = Operation_Torch.5
-	title = Operation_Torch.5.t
-	desc = Operation_Torch.5.d
+# Hidden event that triggers Operation_Torch.5
+country_event = {
+	id = Operation_Torch.55
+	title = Operation_Torch.55.t
+	desc = Operation_Torch.55.d
 	picture = GFX_news_event_002
+	fire_only_once = yes
+	hidden = yes
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = USA
-		}
+		tag = ENG
 		has_decision = ENG_Operation_Torch
 		461 = {
 			is_controlled_by_ROOT_or_ally = yes
@@ -781,6 +794,21 @@ news_event = {
 			is_controlled_by_ROOT_or_ally = yes
 		}
 	}
+
+	option = {
+		name = Operation_Torch.55.A
+		ENG = {
+			news_event = { id = Operation_Torch.5 }
+		}
+	}
+}
+# Operation Torch Succeeds
+news_event = {
+	id = Operation_Torch.5
+	title = Operation_Torch.5.t
+	desc = Operation_Torch.5.d
+	picture = GFX_news_event_002
+	is_triggered_only = yes
 	major = yes
 	immediate = {
 		set_global_flag = Allies_Torch_Success

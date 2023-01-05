@@ -235,7 +235,7 @@ No_Country_For_Anyone = {
 	
 	happened = {
 		has_idea = scraping_the_barrel
-		has_manpower = 0
+		has_manpower < 1
 	}
 }
 

@@ -2343,26 +2343,43 @@ country_event = {
 		set_global_flag = SOV_ENG_Invasion_of_Persia
 	}
 }
+# Hidden event that triggers SOV_Invasion_of_Persia.2
+country_event = {
+	id = SOV_Invasion_of_Persia.22
+	title = SOV_Invasion_of_Persia.22.t
+	desc = SOV_Invasion_of_Persia.22.d
+	picture = GFX_report_SOV_Invasion_of_Persia
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = SOV
+		has_global_flag = SOV_ENG_Invasion_of_Persia
+		PER = {
+			surrender_progress > 0.59
+		}
+	}
+
+	option = { # 
+		name = SOV_Invasion_of_Persia.22.A
+		SOV = {
+			country_event = { id = SOV_Invasion_of_Persia.2 }
+		}
+		ENG = {
+			country_event = { id = SOV_Invasion_of_Persia.2 }
+		}
+	}
+}
 # Capitulation of Persia
 country_event = {
 	id = SOV_Invasion_of_Persia.2
 	title = SOV_Invasion_of_Persia.2.t
 	desc = SOV_Invasion_of_Persia.2.d
 	picture = GFX_SOV_Invasion_of_Persia.1
-	trigger = {
-		OR = {
-			original_tag = SOV
-			original_tag = ENG
-		}
-		has_global_flag = SOV_ENG_Invasion_of_Persia
-		NOT = {
-			has_country_flag = SOV_ENG_Successful_Invasion_of_Persia
-		}
-		PER = {
-			surrender_progress > 0.59
-		}
-	}
+	is_triggered_only = yes
 
+	immediate = {
+		news_event = { id = PER_Flavour.1 days = 200}
+	}
 	option = {
 		name = SOV_Invasion_of_Persia.2.A
 		set_country_flag = SOV_ENG_Successful_Invasion_of_Persia
@@ -2408,7 +2425,6 @@ country_event = {
 					traits = { POSITION_Shah SUBIDEOLOGY_Monarchism }
 				}
 			}
-			news_event = { id = PER_Flavour.1 days = 200}
 		}
 	}
 }

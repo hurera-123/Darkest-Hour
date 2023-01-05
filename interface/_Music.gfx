@@ -38,17 +38,6 @@ spriteTypes = {
 		noOfFrames = 3
 	}
 
-
-	progressbartype = {
-		name = "GFX_volume_track_allies"
-		color = { 1.0 1.0 1.0 }
-		colortwo = { 1.0 1.0 1.0 }
-		textureFile1 = "gfx/music_vol_progress_allies.dds"
-		textureFile2 = "gfx/music_vol_progress_bg_allies.dds"
-		size = { x = 89 y = 15 }
-		effectFile = "gfx/FX/progress.lua"
-	}
-
 	spriteType = {
 		name = "GFX_musicplayer_bg"
 		textureFile = "gfx/interface/musicplayer_bg.dds"
