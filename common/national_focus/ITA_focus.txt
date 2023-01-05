@@ -2818,7 +2818,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ITA_Expand_OCI_Factory
+		id = ITA_Expand_OCI_Production
 		icon = GFX_GENERIC_Military_Production
 		cost = 60
 		x = 0
@@ -2850,9 +2850,9 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = {
-			focus = ITA_Expand_OCI_Factory
+			focus = ITA_Expand_OCI_Production
 		}
-		relative_position_id = ITA_Expand_OCI_Factory
+		relative_position_id = ITA_Expand_OCI_Production
 		completion_reward = {
 			set_temp_variable = {
 				money_to_gain = 100
@@ -2890,9 +2890,9 @@ focus_tree = {
 		x = 1
 		y = 1
 		prerequisite = {
-			focus = ITA_Expand_OCI_Factory
+			focus = ITA_Expand_OCI_Production
 		}
-		relative_position_id = ITA_Expand_OCI_Factory
+		relative_position_id = ITA_Expand_OCI_Production
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
