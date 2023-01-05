@@ -2769,6 +2769,8 @@
  EGY_democratic_ADJ: "Egyptian"
  EGY_communist_ADJ: "Egyptian"
  EGY_socialist_ADJ: "Egyptian"
+ EGY_ITA_PUPPET: "Kingdom of Egypt"
+ EGY_ITA_PUPPET_DEF: "The Kingdom of Egypt"
 
  EGY_ARABREP_authoritarian: "Arab Republic of Egypt"
  EGY_ARABREP_authoritarian_DEF: "the Arab Republic of Egypt"

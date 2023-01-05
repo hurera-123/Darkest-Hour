@@ -681,6 +681,10 @@
  ITA_Invasion_of_Greece.4.A: "We have little interest in sharing."
  ITA_Invasion_of_Greece.4.B: "Divide the Greek Lands with our Allies."
  
+ ITA_Fall_of_Cairo.1.t: "Egypt Switches Sides!"
+ ITA_Fall_of_Cairo.1.d: "As the Regio Esercito brushed aside the remaining British forces in western Egypt the British and their loyal Egyptian puppets evacuated the important city of Cairo. Across the city documents were burned and offices hastily emptied as nearly 40 years of British overlordship came to an abrupt end. However, when our forces crossed the Nile and entered the city they were suprised to find that not only had the Egyptian Royals not evacuated, but that King Farouk is willing to defect to our alliance and join our war against the British! Of course, all parties are aware that the Kingdom of Egypt will naturally be a junior member of such an alliance. With Egypt on our side, it is unlikely that the British will be able to mount a successful defense of the vital Suez Canal."
+ ITA_Fall_of_Cairo.1.A: "Avanti!"
+ 
  # Fall of Fasicsm
  ITA_Conquest_Events.1.t: "Fall of Libya"
  ITA_Conquest_Events.1.d: ""
