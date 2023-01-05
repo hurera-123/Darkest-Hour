@@ -458,8 +458,14 @@ news_event = {
 	id = GER_Book_Burnings.1
 	title = GER_Book_Burnings.1.t
 	desc = GER_Book_Burnings.1.d
-	picture = GFX_news_GER_Nazi_Book_Burning
+	picture = GFX_news_GER_Animated_Book_burning
+	#picture = GFX_news_GER_Nazi_Book_Burning
 	fire_only_once = yes
+	immediate = {
+		hidden_effect = {
+			scoped_sound_effect = "GER_Book_Burning_Soundeffect"
+		}
+	}
 	trigger = {
 		date > 1933.5.10
 		has_start_date < 1933.5.10

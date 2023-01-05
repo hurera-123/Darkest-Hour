@@ -31,6 +31,7 @@ category = {
 		GER_Remilitarization_of_the_Rhineland_Soundeffect
 		ENG_We_Shall_Never_Surrender_Soundeffect
 		GER_Death_of_Hindenburg_Soundeffect
+		GER_Book_Burning_Soundeffect
 	}
 	
 	compressor = {
@@ -111,5 +112,19 @@ soundeffect = {
 	volume = 1
 	sounds = {
 		sound = GER_Death_of_Hindenburg
+	} 
+}
+
+sound = {
+	name = "GER_Book_Burning"
+	file = "sound_effects/GER_Book_Burning.wav"
+	always_load = yes
+}
+
+soundeffect = {
+	name = GER_Book_Burning_Soundeffect
+	volume = 1
+	sounds = {
+		sound = GER_Book_Burning
 	} 
 }
