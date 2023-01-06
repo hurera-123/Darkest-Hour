@@ -171,31 +171,6 @@ characters={
 			}
 		}
 	}
-	JAP_Tanaka_Seiichi = {
-		name=JAP_Tanaka_Seiichi
-		portraits={
-			army={
-				small="GFX_idea_Tanaka_Seiichi"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=JAP_Tanaka_Seiichi_MoS
-			allowed={
-				tag=JAP
-			}
-			visible={
-				date > 1938.01.01
-				date < 1964.01.01
-				F_Minister_Allowed = yes
-				NOT = { has_country_flag = Tanaka_Seiichi_unavailable }
-			}
-			traits={
-				
-				MoS_Back_Stabber
-			}
-		}
-	}
 	JAP_Hirabayashi_Morito = {
 		name=JAP_Hirabayashi_Morito
 		portraits={

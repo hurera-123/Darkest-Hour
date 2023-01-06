@@ -3135,6 +3135,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Nakajima_Kesago"
+        texturefile = "gfx/interface/ideas/Cabinet/JAP/Nakajima_Kesago.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Nishizo_Tsukahara"
         texturefile = "gfx/interface/ideas/Cabinet/JAP/Nishizo_Tsukahara.png"
     }
@@ -3242,6 +3247,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_Sotaro_Ishiwata"
         texturefile = "gfx/interface/ideas/Cabinet/JAP/Sotaro_Ishiwata.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Suetsugu_Nobumasa"
+        texturefile = "gfx/interface/ideas/Cabinet/JAP/Suetsugu_Nobumasa.png"
     }
 
     spriteType = {

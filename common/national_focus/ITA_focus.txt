@@ -85,9 +85,13 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = {
+			custom_effect_tooltip = ITA_Motorized_Division
 			swap_ideas = {
 				remove_idea = ITA_Regio_Esercito_Reorganization_2
 				add_idea = ITA_Regio_Esercito_Reorganization_3
+			}
+			hidden_effect = {
+				load_oob = ITA_Motorized
 			}
 		}
 	}
@@ -105,9 +109,13 @@ focus_tree = {
 		x = -1
 		y = 1
 		completion_reward = {
+			custom_effect_tooltip = ITA_Armoured_Division_Badoglio
 			swap_ideas = {
 				remove_idea = ITA_Regio_Esercito_Reorganization_3
 				add_idea = ITA_Old_Style_Army
+			}
+			hidden_effect = {
+				load_oob = ITA_Badoglio
 			}
 		}
 		search_filters = { FOCUS_FILTER_HISTORICAL }
@@ -261,9 +269,13 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = {
+			custom_effect_tooltip = ITA_Armoured_Division_Pariani
 			swap_ideas = {
 				remove_idea = ITA_Regio_Esercito_Reorganization_3
 				add_idea = ITA_New_Style_Army
+			}
+			hidden_effect = {
+				load_oob = ITA_Pariani
 			}
 		}
 	}
@@ -846,10 +858,14 @@ focus_tree = {
 		x = -2
 		y = 1
 		completion_reward = {
+			custom_effect_tooltip = ITA_Reggimento_San_Marco
 			add_tech_bonus = {
 				uses = 1
 				bonus = 1
 				category = marine_tech
+			}
+			hidden_effect = {
+				load_oob = ITA_San_Marco
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }

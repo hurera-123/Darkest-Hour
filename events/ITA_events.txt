@@ -3213,6 +3213,7 @@ country_event = {
 	title = ITA_Pact_with_Albion.5.t
 	desc = ITA_Pact_with_Albion.5.d
 	picture = GFX_report_ITA_English_Royal_Navy_Agrees
+	fire_only_once = yes
 	is_triggered_only = yes
 	# Our old boys shall show a thing or two to those Sun dwellers
 	option = {
