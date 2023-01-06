@@ -300,6 +300,11 @@ news_event = {
 	picture = GFX_news_SPR_Animated_Spanish_Civil_War
 	is_triggered_only = yes
 	major = yes
+	immediate = {
+		hidden_effect = {
+			sound_effect = "SPR_Spanish_Civil_War_Soundeffect"
+		}
+	}
 	#
 	option = {
 		name = Spain_CW.0.A

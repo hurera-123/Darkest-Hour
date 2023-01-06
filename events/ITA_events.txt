@@ -520,6 +520,11 @@ news_event = { #Invades ETH
 	picture = GFX_news_ITA_Animated_Ethiopian_War
 	is_triggered_only = yes
 	major = yes
+	immediate = {
+		hidden_effect = {
+			sound_effect = "ITA_Invasion_of_Ethiopia_Soundeffect"
+		}
+	}
 	option = {
 		name = ITA_Ethiopian_War.22.A
 		trigger = {

@@ -14290,6 +14290,11 @@ news_event = {
 	major = yes
 	is_triggered_only = yes
 	fire_for_sender = no
+	immediate = {
+		hidden_effect = {
+			sound_effect = "GER_Invasion_of_Poland_Soundeffect"
+		}
+	}
 	#They have ignored every warning!
 	option = {
 		name = GER_Danzig_or_War.5.A
