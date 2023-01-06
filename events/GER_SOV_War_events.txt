@@ -368,6 +368,10 @@ country_event = {
 		}
 	}
 
+	mean_time_to_happen = {
+		days = 2
+	}
+
 	# 
 	option = {
 		name = GER_SOV_War.100.A
@@ -441,6 +445,10 @@ country_event = {
 		controls_state = 202
 		controls_state = 206
 		controls_state = 263
+	}
+
+	mean_time_to_happen = {
+		days = 2
 	}
 
 	# 

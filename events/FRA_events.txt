@@ -2673,6 +2673,11 @@ country_event = {
 			has_country_flag = FRA_Crisis
 		}
 	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
 	option = {
 		name = FRA_Government_Collapse.1.A
 		country_event = { id = FRA_Government_Collapse.2 }
