@@ -331,7 +331,7 @@ sub_units = {
 	SS_armor = {
 		sprite = "medium_armor"
 		map_icon_category = armored
-		priority = 2502
+		priority = 1200
 		ai_priority = 3500
 		active = no
 		
@@ -399,7 +399,7 @@ sub_units = {
 	SS_heavy_armor = {
 		sprite = "heavy_armor"
 		map_icon_category = armored
-		priority = 2502
+		priority = 1205
 		ai_priority = 3500
 		active = no
 		
