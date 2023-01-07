@@ -2639,6 +2639,35 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 			country_event = USA_Department_of_War.3
+			if = {
+				limit = {
+					has_dlc = "La Resistance"
+				}
+				create_operative_leader = {
+					name = "Peter J. Ortiz"
+					GFX = GFX_operative_Peter_Ortiz
+					traits = { operative_linguist operative_tough operative_commando }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { USA FRA }
+				}
+				create_operative_leader = {
+					name = "Joe Savoldi"
+					GFX = GFX_operative_Joe_Savoldi
+					traits = { operative_linguist operative_tough }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { USA ITA }
+				}
+				create_operative_leader = {
+					name = "Fritz Kolbe"
+					GFX = GFX_operative_Fritz_Kolbe
+					traits = { operative_infiltrator }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { GER }
+				}
+			}
 		}
 	}
 	focus = {

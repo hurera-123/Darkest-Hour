@@ -2613,7 +2613,7 @@ ideas = {
 		}
 		SOV_Volunteer_Cap = {
 			modifier = {
-				send_volunteer_size = 4
+				send_volunteer_size = -3
 			}
 		}
 	}

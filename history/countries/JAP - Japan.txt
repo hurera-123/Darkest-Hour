@@ -490,6 +490,14 @@ recruit_character = JAP_Kazuo_Aoki
 			available_to_spy_master = yes
 			nationalities = { JAP }
 		}
+		create_operative_leader = {
+			name = "Yoshio Kodama"
+			GFX = GFX_operative_Yoshio_Kodama
+			traits = { }
+			bypass_recruitment = no
+			available_to_spy_master = yes
+			nationalities = { JAP }
+		}
 	}
 	country_event = { id = JAP_Aizawa_Incident.6 days = 372 }
 	#######################
