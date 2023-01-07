@@ -885,6 +885,37 @@ GER_Fall_Gelb = {
 		value = 500
 	}
 }
+GER_Dont_Attack_France_Until_Focus_Completed = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		GER = {
+			has_war_with = FRA
+		}
+		NOT = {
+			has_completed_focus = GER_Around_the_Maginot
+		}
+	}
+	abort = {
+		OR = {
+			has_completed_focus = GER_Around_the_Maginot
+			AND = {
+				has_war_with = BEL
+				has_war_with = HOL
+				has_war_with = LUX
+			}
+		}
+	}
+	ai_strategy = {
+		type = front_control
+		tag = FRA
+		ordertype = front
+		execution_type = careful
+		execute_order = no
+		manual_attack = no
+	}
+}
 GER_Focus_on_France = {
 	allowed = {
 		original_tag = GER
