@@ -1396,7 +1396,17 @@ SOV_Build_the_Army = {
 	ai_strategy = {
 		type = build_army
 		id = infantry
-		value = 200
+		value = 150
+	}
+	ai_strategy = {
+		type = build_army
+		id = armor
+		value = 30
+	}
+	ai_strategy = {
+		type = build_army
+		id = motorized
+		value = 40
 	}
 }
 

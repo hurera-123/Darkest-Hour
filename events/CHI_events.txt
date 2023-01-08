@@ -1713,6 +1713,31 @@ country_event = {
 			remove_idea = CHI_Incompetent_NRA
 			add_idea = CHI_Incompetent_NRA_2
 		}
+		if = {
+			limit = {
+				JAP = {
+					is_ai = no
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 500
+			}
+		}
+		else = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 100
+			}
+		}
 	}
 }
 ### Buffs Increase
@@ -1734,6 +1759,31 @@ country_event = {
 			remove_idea = CHI_Incompetent_NRA_2
 			add_idea = CHI_Incompetent_NRA_3
 		}
+		if = {
+			limit = {
+				JAP = {
+					is_ai = no
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 500
+			}
+		}
+		else = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 100
+			}
+		}
 	}
 }
 ### Buffs Increase
@@ -1754,6 +1804,31 @@ country_event = {
 		swap_ideas = {
 			remove_idea = CHI_Incompetent_NRA_3
 			add_idea = CHI_Incompetent_NRA_4
+		}
+		if = {
+			limit = {
+				JAP = {
+					is_ai = no
+				}
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 500
+			}
+		}
+		else = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 100
+			}
 		}
 	}
 }

@@ -1264,7 +1264,7 @@ focus_tree = {
 		icon = GFX_GER_Reposition_the_Reichsmark
 		cost = 56
 		available = {
-			date > 1935.1.6
+			date > 1935.1.1
 		}
 		prerequisite = {
 			focus = GER_Follow_the_Reichsbank
@@ -1287,6 +1287,9 @@ focus_tree = {
 		id = GER_The_Foreign_Offices_Deals
 		icon = GFX_GER_The_Foreign_Offices_Deals
 		cost = 56
+		available = {
+			date > 1936.6.1
+		}
 		prerequisite = {
 			focus = GER_Reposition_the_Reichsmark
 		}
@@ -1304,6 +1307,9 @@ focus_tree = {
 		id = GER_Drive_Industrial_Conglomerates
 		icon = GFX_GER_Synchretic_Economics
 		cost = 56
+		available = {
+			date > 1936.6.1
+		}
 		prerequisite = {
 			focus = GER_Reposition_the_Reichsmark
 		}
@@ -1338,6 +1344,9 @@ focus_tree = {
 		id = GER_Give_in_to_Hitlers_Demands
 		icon = GFX_GER_NSDAP
 		cost = 10
+		available = {
+			date > 1937.6.1
+		}
 		prerequisite = {
 			focus = GER_Drive_Industrial_Conglomerates
 			focus = GER_The_Foreign_Offices_Deals
@@ -2733,7 +2742,7 @@ focus_tree = {
 		icon = GFX_GER_Goerings_Four_Year_Plan
 		cost = 70
 		available = {
-			date > 1935.1.6
+			date > 1935.1.1
 		}
 		prerequisite = {
 			focus = GER_Politicize_Autarky
@@ -2754,6 +2763,9 @@ focus_tree = {
 		id = GER_Reichswerke_Hermann_Goering
 		icon = GFX_GER_Reichswerke_Hermann_Goering
 		cost = 42
+		available = {
+			date > 1936.6.1
+		}
 		prerequisite = {
 			focus = GER_Four_Year_Plan
 		}
@@ -2786,6 +2798,9 @@ focus_tree = {
 		id = GER_Limited_Military_Spending
 		icon = GFX_GENERIC_Military_Production
 		cost = 10
+		available = {
+			date > 1937.6.1
+		}
 		prerequisite = {
 			focus = GER_The_Foreign_Offices_Deals
 			focus = GER_Drive_Industrial_Conglomerates
@@ -3466,6 +3481,9 @@ focus_tree = {
 		id = GER_Volkswagen
 		icon = GFX_GER_KdF_Wagon
 		cost = 42
+		available = {
+			date > 1936.6.1
+		}
 		prerequisite = {
 			focus = GER_Four_Year_Plan
 		}
@@ -4059,6 +4077,9 @@ focus_tree = {
 		id = GER_Rheinmetall_Merger
 		icon = GFX_GER_Rheinmetall_Merger
 		cost = 40
+		available = {
+			date > 1937.6.1
+		}
 		prerequisite = {
 			focus = GER_Volkswagen
 		}
@@ -4150,6 +4171,9 @@ focus_tree = {
 		id = GER_Dissolve_Small_Corporations
 		icon = GFX_GENERIC_Dissolve_Small_Corporations
 		cost = 40
+		available = {
+			date > 1937.6.1
+		}
 		prerequisite = {
 			focus = GER_Volkswagen
 			focus = GER_Reichswerke_Hermann_Goering
