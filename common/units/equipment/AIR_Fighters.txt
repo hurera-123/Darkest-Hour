@@ -10,7 +10,6 @@ equipments = {
 		is_buildable = no
 		type = {
 			fighter
-			interceptor
 		}
 		allow_mission_type = {
 			training

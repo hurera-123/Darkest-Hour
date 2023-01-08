@@ -192,7 +192,6 @@ recruit_character = JAP_Shigeru_Honjo
 recruit_character = JAP_Yoshijiro_Umezu
 recruit_character = JAP_Hatazo_Adachi
 recruit_character = JAP_Iwane_Matsui
-recruit_character = JAP_Sadao_Araki
 recruit_character = JAP_Keisuke_Fujie
 recruit_character = JAP_Kiichiro_Higuchi
 recruit_character = JAP_Masaharu_Homma

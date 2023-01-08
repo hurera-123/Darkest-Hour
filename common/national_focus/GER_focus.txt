@@ -2922,9 +2922,20 @@ focus_tree = {
 		y = 10
 		available = {
 			date > 1937.12.1
-			has_army_manpower = {
-				size > 600000
+			if = {
+				limit = {
+					is_ai = no
+				}
+				has_army_manpower = {
+					size > 600000
+				}
 			}
+			else = {
+				has_army_manpower = {
+					size > 400000
+				}
+			}
+			
 		}
 		select_effect = {
 			if = {

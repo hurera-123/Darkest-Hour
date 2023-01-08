@@ -3388,6 +3388,16 @@ characters={
 				L_Stern_Imperialist
 			}
 		}
+		corps_commander={
+			traits = {
+				JAP_samurai_lineage
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
 	}
 	JAP_Tsuchihashi_Yuitsu = {
 		name=JAP_Tsuchihashi_Yuitsu
@@ -5756,24 +5766,6 @@ characters={
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 1
-		}
-	}
-	JAP_Sadao_Araki = {
-		name=JAP_Sadao_Araki
-		portraits={
-			army={
-				large="GFX_M_Sadao_Araki"
-			}
-		}
-        corps_commander={
-			traits = {
-				JAP_samurai_lineage
-			}
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
 		}
 	}
 	JAP_Keisuke_Fujie = {
