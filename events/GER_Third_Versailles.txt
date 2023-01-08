@@ -7,7 +7,7 @@ country_event = {
 	id = GER_Third_Versailles.1
 	title = GER_Third_Versailles.1.t
 	desc = GER_Third_Versailles.1.d
-	picture = GFX_
+	picture = GFX_report_ENG_Londons_Last_Stand
 	is_triggered_only = yes
 	
 	option = {
@@ -28,7 +28,7 @@ country_event = {
 	id = GER_Third_Versailles.2
 	title = GER_Third_Versailles.2.t
 	desc = GER_Third_Versailles.2.d
-	picture = GFX_
+	picture = GFX_report_ENG_Edward_VIII
 	is_triggered_only = yes
 	
 	option = {
@@ -113,7 +113,7 @@ country_event = {
 	id = GER_Third_Versailles.4
 	title = GER_Third_Versailles.4.t
 	desc = GER_Third_Versailles.4.d
-	picture = GFX_
+	picture = GFX_report_GER_Luftwaffe_Parade
 	
 	fire_only_once = yes
 	
@@ -143,7 +143,7 @@ country_event = {
 	id = GER_Third_Versailles.5
 	title = GER_Third_Versailles.5.t
 	desc = GER_Third_Versailles.5.d
-	picture = GFX_
+	picture = GFX_report_GER_Occupation_of_Britain
 	is_triggered_only = yes
 	
 	option = {
@@ -179,7 +179,7 @@ country_event = {
 	id = GER_Third_Versailles.6
 	title = GER_Third_Versailles.6.t
 	desc = GER_Third_Versailles.6.d
-	picture = GFX_
+	picture = GFX_report_GER_German_Occupation_of_the_Channel_Islands
 	is_triggered_only = yes
 	
 	option = {
@@ -223,7 +223,7 @@ country_event = {
 	id = GER_Third_Versailles.7
 	title = GER_Third_Versailles.7.t
 	desc = GER_Third_Versailles.7.d
-	picture = GFX_
+	picture = GFX_report_GER_Occupation_of_Britain
 	is_triggered_only = yes
 	
 	option = {
@@ -255,7 +255,7 @@ country_event = {
 	id = GER_Third_Versailles.8
 	title = GER_Third_Versailles.8.t
 	desc = GER_Third_Versailles.8.d
-	picture = GFX_
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes	
 	
 	option = {
@@ -278,7 +278,7 @@ country_event = {
 	id = GER_Third_Versailles.9
 	title = GER_Third_Versailles.9.t
 	desc = GER_Third_Versailles.9.d
-	picture = GFX_
+	picture = GFX_report_event_generic_sign_treaty1
 	is_triggered_only = yes	
 	
 	option = {
@@ -297,7 +297,7 @@ country_event = {
 	id = GER_Third_Versailles.10
 	title = GER_Third_Versailles.10.t
 	desc = GER_Third_Versailles.10.d
-	picture = GFX_
+	picture = GFX_report_GER_French_Armistice
 	is_triggered_only = yes	
 	
 	option = { # Light Terms
@@ -479,7 +479,7 @@ country_event = {
 	id = GER_Third_Versailles.11
 	title = GER_Third_Versailles.11.t
 	desc = GER_Third_Versailles.11.d
-	picture = GFX_
+	picture = GFX_report_GER_French_Armistice
 	is_triggered_only = yes
 
 	option = {
@@ -518,7 +518,7 @@ country_event = {
 	id = GER_Third_Versailles.12
 	title = GER_Third_Versailles.12.t
 	desc = GER_Third_Versailles.12.d
-	picture = GFX_
+	picture = GFX_report_event_german_italian_pact
 	is_triggered_only = yes
 	
 	option = {
@@ -584,7 +584,7 @@ country_event = {
 	id = GER_Third_Versailles.13
 	title = GER_Third_Versailles.13.t
 	desc = GER_Third_Versailles.13.d
-	picture = GFX_
+	picture = GFX_report_event_german_italian_pact
 	is_triggered_only = yes
 	
 	option = {
@@ -598,7 +598,7 @@ news_event = {
 	id = GER_Third_Versailles.14
 	title = GER_Third_Versailles.14.t
 	desc = GER_Third_Versailles.14.d
-	picture = GFX_
+	picture = GFX_news_GER_Hitler_in_Paris
 	is_triggered_only = yes	
 	major = yes
 	

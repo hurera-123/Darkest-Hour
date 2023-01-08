@@ -1,7 +1,7 @@
 ####################################################
 ## Nationalist Spain
 #####################################################
-Spain_Push_1936 = { #During Civil War
+Spain_No_Invasions = { #During Civil War
 	enable = {
 		tag = SPA
 		has_global_flag = SCW_started
@@ -10,6 +10,20 @@ Spain_Push_1936 = { #During Civil War
 		type = invade
 		id = SPR
 		value = -2000
+	}
+}
+Spain_Push = { #During Civil War
+	enable = {
+		tag = SPA
+		has_global_flag = SCW_started
+	}
+	ai_strategy = {
+		type = front_control
+		tag = SPR
+		ordertype = front
+		execution_type = balanced
+		execute_order = yes
+		manual_attack = yes
 	}
 }
 Spain_Push_1936 = { #During Civil War

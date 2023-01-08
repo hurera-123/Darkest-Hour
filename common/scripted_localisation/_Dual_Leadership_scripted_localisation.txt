@@ -385,6 +385,18 @@ defined_text = {
 		}
 		localization_key = ROM_D_Mihai_I
 	}
+	text = {
+		trigger = {
+			has_idea = ROM_D_Gheorghe_Tatarescu
+		}
+		localization_key = ROM_D_Gheorghe_Tatarescu
+	}
+	text = {
+		trigger = {
+			has_idea = ROM_D_Armand_Calinescu
+		}
+		localization_key = ROM_D_Armand_Calinescu
+	}
 	#### POL - Poland
 	text = {
 		trigger = {
@@ -1547,6 +1559,18 @@ defined_text = {
 			has_idea = ROM_D_Mihai_I
 		}
 		localization_key = GFX_P_A_Mihai_I
+	}
+	text = {
+		trigger = {
+			has_idea = ROM_D_Gheorghe_Tatarescu
+		}
+		localization_key = GFX_P_D_Gheorghe_Tatarescu
+	}
+	text = {
+		trigger = {
+			has_idea = ROM_D_Armand_Calinescu
+		}
+		localization_key = GFX_P_D_Armand_Calinescu
 	}
 	#### POL - Poland
 	text = {

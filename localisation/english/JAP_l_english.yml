@@ -515,31 +515,31 @@
  JAP_The_Manchurian_Lifeline.1.C: "Signifigant Investment - 300"
 
  # Pan-Asianism
- JAP_Pan_Asianism.1.t: "Invitation to Hakkō Ichiu" #For Chinese subject
+ JAP_Pan_Asianism.1.t: "Invitation to Hakko Ichiu" #For Chinese subject
  JAP_Pan_Asianism.1.d: ""
  JAP_Pan_Asianism.1.A: ""
  JAP_Pan_Asianism.2.t: "No Longer a Crown of Japan" #For Chinese subject
  JAP_Pan_Asianism.2.d: ""
  JAP_Pan_Asianism.2.A: ""
- JAP_Pan_Asianism.3.t: "[From.GetNameDef] Leaves Hakkō Ichiu" #For Japan
+ JAP_Pan_Asianism.3.t: "[From.GetNameDef] Leaves Hakko Ichiu" #For Japan
  JAP_Pan_Asianism.3.d: ""
  JAP_Pan_Asianism.3.A: ""
- JAP_Pan_Asianism.4.t: "The Collapse of Hakkō Ichiu"  #For Japan
+ JAP_Pan_Asianism.4.t: "The Collapse of Hakko Ichiu"  #For Japan
  JAP_Pan_Asianism.4.d: ""
  JAP_Pan_Asianism.4.A: ""
- JAP_Pan_Asianism.5.t: "Tōa Shin Chitsujo"  #For Japan
+ JAP_Pan_Asianism.5.t: "Toa Shin Chitsujo"  #For Japan
  JAP_Pan_Asianism.5.d: "On November 3rd, Emperor Meiji’s birthday, Prime Minister Fumimaro Konoe announced a seemingly new course in the Empire’s foreign policy. The Tōa Shin Chitsujo, meaning “New Order in East Asia”, is to become the Chrysanthemum Throne’s new direction in regards to its Asian "partners", the purported scope being the total liberation of the oppressed people in this corner of the World from the greed and neglect inflicted by the European colonial powers.\n\nThese newly liberated people, from China to Java, would be free to pursue their hopes, aspirations, self-determination, and prosperity in a fair and peaceful manner with complete "Sovereign" authority over themselves.\n\nThis Pan-Asiatic concept has received considerable support from the populace of the Empire. After all, it is the duty of the people of Yamato to show those lacking the civility, sophistication, and will that the Emperor imbibes us with.\n\nBehind the idealism, however, lie those who see an opportunity for Japan.\n\nMany politicians and nationalists would like to see the “unshackled” territories and people of East Asia, with their resources and capital, be used to further the ascendancy of the Rising Sun on the global stage through the utilisation of their "economic and diplomatic worth". The militarists, likewise, covet the people and materials of the region, but for fuelling the ever-growing war machine, and all the conflicts that are certain to follow it.\n\nAs such, it comes as no surprise that, in the halls of power, the New Order is slowly, but surely, transforming. For the Land of the Rising Sun is the heart of a free Asia, and its needs are the Continent’s needs, whether the people inhabiting it see it that way or not."
  JAP_Pan_Asianism.5.A: "Asia for Asians!"
- JAP_Pan_Asianism.6.t: "Invitation to Tōa Shin Chitsujo" #For subject
+ JAP_Pan_Asianism.6.t: "Invitation to Toa Shin Chitsujo" #For subject
  JAP_Pan_Asianism.6.d: ""
  JAP_Pan_Asianism.6.A: ""
- JAP_Pan_Asianism.7.t: "Withdraw from Tōa Shin Chitsujo" #For subject
+ JAP_Pan_Asianism.7.t: "Withdraw from Toa Shin Chitsujo" #For subject
  JAP_Pan_Asianism.7.d: ""
  JAP_Pan_Asianism.7.A: ""
- JAP_Pan_Asianism.8.t: "[From.GetNameDef] Leaves Tōa Shin Chitsujo" #For Japan
+ JAP_Pan_Asianism.8.t: "[From.GetNameDef] Leaves Toa Shin Chitsujo" #For Japan
  JAP_Pan_Asianism.8.d: ""
  JAP_Pan_Asianism.8.A: ""
- JAP_Pan_Asianism.9.t: "The Collapse of Tōa Shin Chitsujo" #For Japan
+ JAP_Pan_Asianism.9.t: "The Collapse of Toa Shin Chitsujo" #For Japan
  JAP_Pan_Asianism.9.d: ""
  JAP_Pan_Asianism.9.A: ""
  JAP_Pan_Asianism.10.t: "The Beginning of Dai Toa Kyoeiken" #For Japan
@@ -548,19 +548,19 @@
  JAP_Pan_Asianism.11.t: "Japan form the new alliance" #For subject
  JAP_Pan_Asianism.11.d: ""
  JAP_Pan_Asianism.11.A: ""
- JAP_Pan_Asianism.12.t: "[From.GetNameDef] Joins Dai Tōa Kyōeiken" #For Japan
+ JAP_Pan_Asianism.12.t: "[From.GetNameDef] Joins Dai Toa Kyoeiken" #For Japan
  JAP_Pan_Asianism.12.d: ""
  JAP_Pan_Asianism.12.A: ""
- JAP_Pan_Asianism.13.t: "The Invitation to Dai Tōa Kyōeiken" #For member
+ JAP_Pan_Asianism.13.t: "The Invitation to Dai Toa Kyoeiken" #For member
  JAP_Pan_Asianism.13.d: ""
  JAP_Pan_Asianism.13.A: ""
- JAP_Pan_Asianism.14.t: "Withdraw from Dai Tōa Kyōeiken" #For member
+ JAP_Pan_Asianism.14.t: "Withdraw from Dai Toa Kyoeiken" #For member
  JAP_Pan_Asianism.14.d: ""
  JAP_Pan_Asianism.14.A: ""
- JAP_Pan_Asianism.15.t: "[From.GetNameDef] Leaves Dai Tōa Kyōeiken" #For Japan
+ JAP_Pan_Asianism.15.t: "[From.GetNameDef] Leaves Dai Toa Kyoeiken" #For Japan
  JAP_Pan_Asianism.15.d: ""
  JAP_Pan_Asianism.15.A: ""
- JAP_Pan_Asianism.16.t: "The Collapse of Dai Tōa Kyōeiken" #For Japan
+ JAP_Pan_Asianism.16.t: "The Collapse of Dai Toa Kyoeiken" #For Japan
  JAP_Pan_Asianism.16.d: ""
  JAP_Pan_Asianism.16.A: ""
  JAP_Pan_Asianism.17.t: "The Yen Bloc Agreement" #For subject

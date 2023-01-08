@@ -1585,7 +1585,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 195 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_195_german
@@ -1598,7 +1598,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 217 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_217_german
@@ -1611,7 +1611,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 227 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_227_german
@@ -1624,7 +1624,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 218 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_218_german
@@ -1637,7 +1637,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 221 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_221_german
@@ -1650,7 +1650,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 202 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_202_german
@@ -1663,7 +1663,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 241 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_241_german
@@ -1676,7 +1676,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 242 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_242_german
@@ -1689,7 +1689,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 247 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_247_german
@@ -1702,7 +1702,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 213 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_213_german
@@ -1715,7 +1715,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 214 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_214_german
@@ -1728,7 +1728,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 249 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_249_german
@@ -1741,7 +1741,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 263 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_263_german
@@ -1754,7 +1754,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 192 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_192_german
@@ -1767,7 +1767,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 219 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_219_german
@@ -1780,7 +1780,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 220 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_220_german
@@ -1793,7 +1793,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 223 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_223_german
@@ -1806,7 +1806,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 226 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_226_german
@@ -1823,7 +1823,7 @@ State_Renaming_German = {
 	if = {
         limit = {
             FROM.FROM = { state = 236 }
-			has_global_flag = GER_Victory_Against_the_USSR
+			
         }
         FROM.FROM = {
 			set_state_name = STATE_236_german

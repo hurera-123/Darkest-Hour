@@ -762,6 +762,9 @@
  ROM_SOV_communist_AUTONOMY_Satellite: "Romanian People's Republic"
  ROM_SOV_1946: "Kingdom of Romania"
 
+ ROM_Antonescu: "Romanian Legionary State"
+ ROM_Antonescu_DEF: "Romanian Legionary State"
+
  ### Yugoslavia
  YUG_fascist: "Kingdom of Yugoslavia"
  YUG_fascist_DEF: "The Kingdom of Yugoslavia"
