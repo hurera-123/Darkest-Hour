@@ -31,13 +31,13 @@ GER_historical = {
 		GER_A_One_Party_State
 		GER_A_Loudspeaker_in_Every_Home
 		# 1934
+		GER_Issue_MEFO_Bills
 		GER_Unternehmen_Kolibri
 		GER_Allgemeine_SS
 		GER_SS_VT
 		GER_Kirchenkampf
 		GER_Reichskonkordat
 		GER_Reconstruct_the_Reich
-		GER_Issue_MEFO_Bills
 		GER_Privatizations_and_Austerity
 		GER_Volkswohlfahrt
 		GER_Commence_Rearmament

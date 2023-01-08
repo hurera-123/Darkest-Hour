@@ -5061,6 +5061,7 @@ characters={
 				ranger
 			}
 			legacy_id = 104003
+			skill = 2
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 3
@@ -5082,6 +5083,7 @@ characters={
 				ranger
 			}
 			legacy_id = 104004
+			skill = 2
 			attack_skill = 4
 			defense_skill = 2
 			planning_skill = 4
