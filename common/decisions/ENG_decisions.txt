@@ -931,7 +931,7 @@ ENG_Getting_Out_of_the_Slump = {
 		fire_only_once = yes
 		custom_cost_trigger = {
 			set_temp_variable = {
-				amount_of_money_to_check = 100
+				amount_of_money_to_check = 200
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
@@ -950,7 +950,7 @@ ENG_Getting_Out_of_the_Slump = {
 		days_remove = 40
 		complete_effect = {
 			set_temp_variable = {
-				money_to_gain = -100
+				money_to_gain = -200
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
 		}
@@ -959,6 +959,18 @@ ENG_Getting_Out_of_the_Slump = {
 				unemployment_value = -0.002
 			}
 			add_unemployment_effect = yes
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ENG
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 	}
 	ENG_Keep_the_Glaswegian_Shipyards_Open = {
@@ -998,7 +1010,7 @@ ENG_Getting_Out_of_the_Slump = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -3998,6 +4010,11 @@ ENG_Imperial_Defence_Shakeup_Category = {
 					instant_build = yes
 					province = 11964
 				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -4096,7 +4113,7 @@ ENG_Imperial_Defence_Shakeup_Category = {
 			}
 		}
 		ai_will_do = {
-			base = 200
+			base = 500
 		}
 		days_remove = 100
 		complete_effect = {
@@ -4129,6 +4146,11 @@ ENG_Imperial_Defence_Shakeup_Category = {
 					level = 3
 					instant_build = yes
 					province = 14064
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
 				}
 			}
 		}

@@ -428,6 +428,18 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			add_ideas = ENG_Lifeblood_of_the_Empire1
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ENG
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 	}
 	focus = {
@@ -446,6 +458,18 @@ focus_tree = {
 			air_experience = 10
 			add_command_power = 30
 			add_war_support = 0.03
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ENG
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 	}
 	focus = {
@@ -2022,6 +2046,18 @@ focus_tree = {
 		completion_reward = {
 			country_event = ENG_Military_Tree.5
 			add_war_support = 0.02
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ENG
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 		search_filters = {  }
 	}
@@ -2070,6 +2106,18 @@ focus_tree = {
 				bonus = 1
 				category = cl_tech
 			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ENG
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -2090,6 +2138,18 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = ENG_Lifeblood_of_the_Empire1
 				add_idea = ENG_Lifeblood_of_the_Empire2
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ENG
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
 			}
 		}
 	}
@@ -3351,6 +3411,18 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ENG
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
 		}
 	}
 	focus = {
@@ -3372,6 +3444,18 @@ focus_tree = {
 				bonus = 0.5
 				uses = 3
 				category = industry
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ENG
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -3676,6 +3760,18 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ENG
+					is_coastal = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
 			}
 		}
 	}

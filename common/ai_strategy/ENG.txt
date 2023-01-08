@@ -2318,13 +2318,18 @@ ENG_unit_production = {
 	# Naval unit factors
 	ai_strategy = {
 		type = unit_ratio
+		id = carrier
+		value = 5
+	}
+	ai_strategy = {
+		type = unit_ratio
 		id = capital_ship
 		value = 5
 	}
 	ai_strategy = {
 		type = unit_ratio
 		id = submarine
-		value = 5
+		value = 20
 	}
 	ai_strategy = {
 		type = unit_ratio
@@ -2334,7 +2339,7 @@ ENG_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = convoy
-		value = 100
+		value = 10
 	}
 	ai_strategy = {
 		type = equipment_production_factor
