@@ -4,7 +4,6 @@ recruit_character = JAP_Mizuno_Rentaro
 recruit_character = JAP_Oura_Kanetake
 recruit_character = JAP_Fujie_Keisuke
 recruit_character = JAP_Nakajima_Kesago
-recruit_character = JAP_Tanaka_Seiichi
 recruit_character = JAP_Hirabayashi_Morito
 recruit_character = JAP_Hiranuma_Kiichiro
 recruit_character = JAP_Teshima_Fusataro

@@ -45,7 +45,6 @@ recruit_character = FRA_Paul_Legentilhomme
 recruit_character = FRA_Maxime_Weygand
 recruit_character = FRA_JeanFrancois_Darlan
 recruit_character = FRA_Jean_Esteva
-recruit_character = FRA_Rene_Emile_Godfroy
 recruit_character = FRA_Edouard_Bares
 recruit_character = FRA_Victor_Denain
 recruit_character = FRA_Laurent_Eynac
