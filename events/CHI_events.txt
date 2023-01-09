@@ -1731,7 +1731,7 @@ country_event = {
 		else = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 2000
+				amount = 5000
 			}
 			add_equipment_to_stockpile = {
 				type = support_equipment
@@ -1777,7 +1777,7 @@ country_event = {
 		else = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 2000
+				amount = 5000
 			}
 			add_equipment_to_stockpile = {
 				type = support_equipment
