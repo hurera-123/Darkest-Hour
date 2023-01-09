@@ -1736,6 +1736,9 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			64 = {
+				infrastructure > 4
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -1749,9 +1752,6 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 68
-			64 = {
-				infrastructure > 4
-			}
 		}
 		modifier = {
 			civilian_factory_use = 5
@@ -1809,6 +1809,9 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			64 = {
+				infrastructure > 4
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -1822,9 +1825,6 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 66
-			64 = {
-				infrastructure > 4
-			}
 		}
 		modifier = {
 			civilian_factory_use = 5
@@ -1881,6 +1881,9 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			66 = {
+				infrastructure > 4
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -1894,9 +1897,6 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 67
-			66 = {
-				infrastructure > 4
-			}
 		}
 		modifier = {
 			civilian_factory_use = 5
@@ -1953,6 +1953,9 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			64 = {
+				infrastructure > 4
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -1966,9 +1969,6 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 812
-			64 = {
-				infrastructure > 4
-			}
 		}
 		modifier = {
 			civilian_factory_use = 5
@@ -2025,6 +2025,14 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			OR = {
+				812 = {
+					infrastructure > 4
+				}
+				60 = {
+					infrastructure > 4
+				}
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -2038,14 +2046,6 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 59
-			OR = {
-				812 = {
-					infrastructure > 4
-				}
-				60 = {
-					infrastructure > 4
-				}
-			}
 		}
 		modifier = {
 			civilian_factory_use = 5
@@ -2102,6 +2102,17 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			OR = {
+				59 = {
+					infrastructure > 4
+				}
+				55 = {
+					infrastructure > 4
+				}
+				809 = {
+					infrastructure > 4
+				}
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -2115,17 +2126,6 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 57
-			OR = {
-				59 = {
-					infrastructure > 4
-				}
-				55 = {
-					infrastructure > 4
-				}
-				809 = {
-					infrastructure > 4
-				}
-			}
 		}
 		modifier = {
 			civilian_factory_use = 5
@@ -2182,6 +2182,17 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			OR = {
+				55 = {
+					infrastructure > 4
+				}
+				57 = {
+					infrastructure > 4
+				}
+				808 = {
+					infrastructure > 4
+				}
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -2195,17 +2206,6 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 809
-			OR = {
-				55 = {
-					infrastructure > 4
-				}
-				57 = {
-					infrastructure > 4
-				}
-				808 = {
-					infrastructure > 4
-				}
-			}
 		}
 		modifier = {
 			civilian_factory_use = 5
@@ -2262,19 +2262,6 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
-		}
-		available = {
-			set_temp_variable = {
-				amount_of_money_to_check = 200
-			}
-			has_specific_amount_of_money_with_inflation_included = yes
-			custom_trigger_tooltip = {
-				tooltip = GER_Reichsautobahn_in_Construction
-				NOT = {
-					has_country_flag = GER_Reichsautobahn_in_Construction
-				}
-			}
-			has_full_control_of_state = 55
 			OR = {
 				60 = {
 					infrastructure > 4
@@ -2292,6 +2279,19 @@ GER_Reichsautobahn_category = {
 					infrastructure > 4
 				}
 			}
+		}
+		available = {
+			set_temp_variable = {
+				amount_of_money_to_check = 200
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = GER_Reichsautobahn_in_Construction
+				NOT = {
+					has_country_flag = GER_Reichsautobahn_in_Construction
+				}
+			}
+			has_full_control_of_state = 55
 		}
 		modifier = {
 			civilian_factory_use = 5
@@ -2348,6 +2348,14 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			OR = {
+				812 = {
+					infrastructure > 4
+				}
+				59 = {
+					infrastructure > 4
+				}
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -2361,14 +2369,6 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 60
-			OR = {
-				812 = {
-					infrastructure > 4
-				}
-				59 = {
-					infrastructure > 4
-				}
-			}
 		}
 		modifier = {
 			civilian_factory_use = 5
@@ -2425,19 +2425,6 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
-		}
-		available = {
-			set_temp_variable = {
-				amount_of_money_to_check = 200
-			}
-			has_specific_amount_of_money_with_inflation_included = yes
-			custom_trigger_tooltip = {
-				tooltip = GER_Reichsautobahn_in_Construction
-				NOT = {
-					has_country_flag = GER_Reichsautobahn_in_Construction
-				}
-			}
-			has_full_control_of_state = 808
 			OR = {
 				50 = {
 					infrastructure > 4
@@ -2452,6 +2439,19 @@ GER_Reichsautobahn_category = {
 					infrastructure > 4
 				}
 			}
+		}
+		available = {
+			set_temp_variable = {
+				amount_of_money_to_check = 200
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = GER_Reichsautobahn_in_Construction
+				NOT = {
+					has_country_flag = GER_Reichsautobahn_in_Construction
+				}
+			}
+			has_full_control_of_state = 808
 		}
 		modifier = {
 			civilian_factory_use = 5
@@ -2508,19 +2508,6 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
-		}
-		available = {
-			set_temp_variable = {
-				amount_of_money_to_check = 200
-			}
-			has_specific_amount_of_money_with_inflation_included = yes
-			custom_trigger_tooltip = {
-				tooltip = GER_Reichsautobahn_in_Construction
-				NOT = {
-					has_country_flag = GER_Reichsautobahn_in_Construction
-				}
-			}
-			has_full_control_of_state = 54
 			OR = {
 				60 = {
 					infrastructure > 4
@@ -2538,6 +2525,19 @@ GER_Reichsautobahn_category = {
 					infrastructure > 4
 				}
 			}
+		}
+		available = {
+			set_temp_variable = {
+				amount_of_money_to_check = 200
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = GER_Reichsautobahn_in_Construction
+				NOT = {
+					has_country_flag = GER_Reichsautobahn_in_Construction
+				}
+			}
+			has_full_control_of_state = 54
 		}
 		modifier = {
 			civilian_factory_use = 5
@@ -2594,6 +2594,14 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			OR = {
+				50 = {
+					infrastructure > 4
+				}
+				808 = {
+					infrastructure > 4
+				}
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -2607,14 +2615,6 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 807
-			OR = {
-				50 = {
-					infrastructure > 4
-				}
-				808 = {
-					infrastructure > 4
-				}
-			}
 		}
 		modifier = {
 			civilian_factory_use = 5
@@ -2671,19 +2671,6 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
-		}
-		available = {
-			set_temp_variable = {
-				amount_of_money_to_check = 200
-			}
-			has_specific_amount_of_money_with_inflation_included = yes
-			custom_trigger_tooltip = {
-				tooltip = GER_Reichsautobahn_in_Construction
-				NOT = {
-					has_country_flag = GER_Reichsautobahn_in_Construction
-				}
-			}
-			has_full_control_of_state = 50
 			OR = {
 				52 = {
 					infrastructure > 4
@@ -2698,6 +2685,19 @@ GER_Reichsautobahn_category = {
 					infrastructure > 4
 				}
 			}
+		}
+		available = {
+			set_temp_variable = {
+				amount_of_money_to_check = 200
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = GER_Reichsautobahn_in_Construction
+				NOT = {
+					has_country_flag = GER_Reichsautobahn_in_Construction
+				}
+			}
+			has_full_control_of_state = 50
 		}
 		modifier = {
 			civilian_factory_use = 5
@@ -2754,6 +2754,14 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			OR = {
+				54 = {
+					infrastructure > 4
+				}
+				50 = {
+					infrastructure > 4
+				}
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -2767,14 +2775,6 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 52
-			OR = {
-				54 = {
-					infrastructure > 4
-				}
-				50 = {
-					infrastructure > 4
-				}
-			}
 		}
 		modifier = {
 			civilian_factory_use = 5

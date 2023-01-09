@@ -877,6 +877,7 @@
 ######################################################################
 ### Generic
  Heavy_Weapons_equipment: "Heavy Weapons"
+ Heavy_Weapons_equipment_desc: ""
  Heavy_Weapons_equipment_1905: "Heavy Weapons '00"
  Heavy_Weapons_equipment_1905_short: "Heavy Weapons '00"
  Heavy_Weapons_equipment_1916: "Heavy Weapons '16"

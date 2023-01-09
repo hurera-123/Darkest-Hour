@@ -2293,6 +2293,32 @@ GER_equipment_production_2 = {
 	}
 }
 
+GER_Build_the_Army = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		date > 1935.1.1
+	}
+	abort = {
+		OR = {
+			has_army_size = {
+				size > 200
+			}
+			has_war_with = SOV
+		}	
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 50
+	}
+	ai_strategy = {
+		type = build_army
+		id = infantry
+		value = 200
+	}
+}
+
 GER_equipment_production_3 = {
 	allowed = {
 		original_tag = GER
@@ -2552,7 +2578,7 @@ GER_stockpile_more = {
 		date > 1938.1.1
 	}
 	abort = {
-		has_war = yes
+		has_war_with = SOV
 	}
 
 	ai_strategy = {

@@ -172,3 +172,8 @@ NDefines.NGame.GAME_SPEED_SECONDS = { 0.35, 0.15, 0.1, 0.035, 0.0 }
 -- Resistance
 NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_PER_COMPLIANCE = -1.0
 NDefines.NResistance.INITIAL_HISTORY_COMPLIANCE = 100.0
+
+-- Character
+NDefines.NCharacter.OFFICER_CORP_ADVISOR_ENTRIES_IN_MENU = { "high_command", "Chief_of_Staff", "Chief_of_Army", "Chief_of_Airforce", "Chief_of_Navy" }
+NDefines.NCharacter.DEFAULT_PP_COST_FOR_MILITARY_ADVISOR = 150	-- When an advisor does not have cost assigned this is the default used
+NDefines.NCharacter.DEFAULT_PP_COST_FOR_POLITICAL_ADVISOR = 150

@@ -744,6 +744,24 @@ focus_tree = {
 				cost_reduction = 0.5
 				category = cat_battlefield_support
 			}
+			add_ace = {
+				name = "Giuseppe"
+				surname = "Cenni"
+				callsign = "Vittorio Stella"
+				type = fighter_good
+			}
+			add_ace = {
+				name = "Mario"
+				surname = "Visintini"
+				callsign = "Cacciatore Scientifico"
+				type = fighter_unique
+			}
+			add_ace = {
+				name = "Franco"
+				surname = "Lucchini"
+				callsign = "Francesco Baracca II"
+				type = fighter_unique
+			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -1025,6 +1043,18 @@ focus_tree = {
 				uses = 1
 				bonus = 0.5
 				category = naval_air
+			}
+			add_ace = {
+				type = support_unique
+				name = "Giulio"
+				surname = "Graziani"
+				callsign = "Torpedo Twin"
+			}
+			add_ace = {
+				type = support_good
+				name = "Carlo"
+				surname = "Faggioni"
+				callsign = "Torpedo Twin"
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }

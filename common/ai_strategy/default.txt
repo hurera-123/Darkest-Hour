@@ -696,13 +696,13 @@ do_not_waste_pp_befriend = {
 
 do_not_embargo = {
 	enable = {
-		always = yes
+		date > 1933.1.1
 	}
 
 	ai_strategy = {
 		type = pp_spend_priority
 		id = embargo
-		value = -9999
+		value = -2000
 	}
 }
 

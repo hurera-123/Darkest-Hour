@@ -306,7 +306,7 @@ economy_decisions = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		days_remove = 200
 		complete_effect = {
@@ -372,6 +372,9 @@ economy_decisions = {
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
+		ai_will_do = {
+			factor = 200
+		}
 		cost = 75
 		complete_effect = {
 			set_temp_variable = {
@@ -418,7 +421,7 @@ FRA_Colonial_Empire_category = {
 		}
 		days_remove = 360
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		remove_effect = {
 			army_experience = 30
@@ -444,7 +447,7 @@ FRA_Colonial_Empire_category = {
 		}
 		cost = 50
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		complete_effect = {
 			country_event = FRA_Front_Populaire_1936.8
@@ -469,7 +472,7 @@ FRA_Colonial_Empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -826,7 +829,7 @@ FRA_Plan_Marquet_category = {
 		}
 		custom_cost_text = GER_Reichsautobahn_cost
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		days_remove = 100
 		complete_effect = {
@@ -876,7 +879,7 @@ FRA_Plan_Marquet_category = {
 		}
 		custom_cost_text = GER_Reichsautobahn_cost
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		days_remove = 100
 		complete_effect = {
@@ -926,7 +929,7 @@ FRA_Plan_Marquet_category = {
 		}
 		custom_cost_text = GER_Reichsautobahn_cost
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		days_remove = 100
 		complete_effect = {
@@ -968,7 +971,7 @@ FRA_Plan_Marquet_category = {
 		}
 		custom_cost_text = GER_Reichsautobahn_cost
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		days_remove = 100
 		complete_effect = {
@@ -1010,7 +1013,7 @@ FRA_Plan_Marquet_category = {
 		}
 		custom_cost_text = GER_Reichsautobahn_cost
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		days_remove = 100
 		complete_effect = {
@@ -2462,7 +2465,7 @@ FRA_La_Armee_delAir_category = {
 		}
 		cost = 0
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -2491,7 +2494,7 @@ FRA_La_Armee_delAir_category = {
 		}
 		cost = 0
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -2712,7 +2715,7 @@ FRA_Programme_des_12_Milliards_category = {
 		}
 		cost = 50
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		complete_effect = {
 			add_stability = -0.05
@@ -2740,7 +2743,7 @@ FRA_Programme_des_12_Milliards_category = {
 		}
 		cost = 75
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		complete_effect = {
 			14 = {
@@ -2781,7 +2784,7 @@ FRA_Programme_des_12_Milliards_category = {
 		}
 		cost = 100
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		complete_effect = {
 			custom_effect_tooltip = FRA_Increase_Rearmament_Level
@@ -3029,6 +3032,9 @@ FRA_Grand_Quartier_General_category = {
 		fire_only_once = yes
 		available = {
 		}
+		ai_will_do = {
+			factor = 200
+		}
 		custom_cost_trigger = {
 			command_power > 24
 		}
@@ -3068,6 +3074,9 @@ FRA_Grand_Quartier_General_category = {
 		fire_only_once = yes
 		available = {
 		}
+		ai_will_do = {
+			factor = 100
+		}
 		custom_cost_trigger = {
 			command_power > 29
 		}
@@ -3096,6 +3105,9 @@ FRA_Grand_Quartier_General_category = {
 				is_in_faction_with = FRA
 			}
 		}
+		ai_will_do = {
+			factor = 100
+		}
 		days_remove = 40
 		modifier = {
 			army_speed_factor = 0.1
@@ -3115,7 +3127,7 @@ FRA_Grand_Quartier_General_category = {
 				unlock_decision_tooltip = FRA_Build_Fortifications_in_Belgium
 				add_war_support = 0.05
 				add_political_power = 50
-				army_experience = 25
+				army_experience = 15
 			}
 			else = {
 				add_war_support = -0.05
@@ -3211,7 +3223,7 @@ FRA_Grand_Quartier_General_category = {
 				unlock_decision_tooltip = FRA_Build_Fortifications_in_the_Netherlands
 				add_war_support = 0.05
 				add_political_power = 50
-				army_experience = 25
+				army_experience = 15
 			}
 			else = {
 				add_war_support = -0.05
@@ -3258,118 +3270,6 @@ FRA_Grand_Quartier_General_category = {
 			}
 		}
 	}
-#	FRA_Operation_Bourrasque = {
-#		icon = GFX_
-#		fire_only_once = yes
-#		available = {
-#			NOT = {
-#				has_idea = FRA_The_Phoney_War
-#			}
-#			surrender_progress < 0.01
-#		}
-#		custom_cost_trigger = {
-#			command_power > 24
-#		}
-#		custom_cost_text = decision_cost_CP_25
-#		days_remove = 120
-#		complete_effect = {
-#			hidden_effect = {
-#				add_command_power = -25
-#			}
-#		}
-#		modifier = {
-#			river_crossing_factor = -0.05
-#		}
-#		remove_effect = {
-#			if = {
-#				limit = {
-#					42 = {
-#						is_controlled_by_ROOT_or_ally = yes
-#					}
-#					51 = {
-#						is_controlled_by_ROOT_or_ally = yes
-#					}
-#					806 = {
-#						is_controlled_by_ROOT_or_ally = yes
-#					}
-#					1498 = {
-#						is_controlled_by_ROOT_or_ally = yes
-#					}
-#				}
-#				add_war_support = 0.05
-#				add_stability = 0.025
-#			}
-#			else = {
-#				add_war_support = -0.1
-#				add_political_power = -60
-#			}
-#		}
-#	}
-#	FRA_Operation_Bosquet = {
-#		icon = GFX_
-#		fire_only_once = yes
-#		available = {
-#			GER = {
-#				surrender_progress > 0.25
-#			}
-#		}
-#		custom_cost_trigger = {
-#			command_power > 24
-#		}
-#		custom_cost_text = decision_cost_CP_25
-#		days_remove = 120
-#		complete_effect = {
-#			hidden_effect = {
-#				add_command_power = -25
-#			}
-#		}
-#		remove_effect = {
-#			if = {
-#				limit = {
-#					controls_state = 52
-#					controls_state = 53
-#				}
-#				add_war_support = 0.05
-#				add_stability = 0.025
-#			}
-#			else = {
-#				add_war_support = -0.05
-#				add_political_power = -60
-#			}
-#		}
-#	}
-#	FRA_Operation_Gambetta = {
-#		icon = GFX_
-#		fire_only_once = yes
-#		available = {
-#			GER = {
-#				surrender_progress > 0.3
-#			}
-#		}
-#		custom_cost_trigger = {
-#			command_power > 24
-#		}
-#		custom_cost_text = decision_cost_CP_25
-#		days_remove = 120
-#		complete_effect = {
-#			hidden_effect = {
-#				add_command_power = -25
-#			}
-#		}
-#		remove_effect = {
-#			if = {
-#				limit = {
-#					controls_state = 1057
-#				}
-#				add_war_support = 0.05
-#				add_stability = 0.025
-#			}
-#			else = {
-#				add_war_support = -0.05
-#				add_political_power = -60
-#			}
-#		}
-#	}
 }
 
 FRA_Battle_of_France_category = {
@@ -3406,8 +3306,8 @@ FRA_Battle_of_France_category = {
 		timeout_effect = {
 			add_war_support = 0.1
 			add_stability = 0.05
-			army_experience = 25
-			air_experience = 25
+			army_experience = 15
+			air_experience = 15
 		}
 	}
 	FRA_The_Defense_of_France = {
@@ -3442,6 +3342,9 @@ FRA_Battle_of_France_category = {
 				controls_state = 1023
 				controls_state = 762
 			}
+		}
+		ai_will_do = {
+			factor = 200
 		}
 		complete_effect = {
 			add_war_support = -0.05

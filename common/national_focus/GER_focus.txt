@@ -1528,10 +1528,8 @@ focus_tree = {
 			}
 			change_faction_loyalty = yes
 			### TODO: Unlock GER_CoAir_Albert_Kesselring
-			create_corps_commander = {
-				name = "Albert Kesselring"
-				id = 104025
-				GFX = GFX_M_Albert_Kesselring
+			add_corps_commander_role = {
+				character = GER_Albert_Kesselring
 				traits = {
 					brilliant_strategist
 					trait_cautious
@@ -1570,16 +1568,14 @@ focus_tree = {
 					paratroopers = 1
 				}
 			}
-			create_corps_commander = {
-				name = "Kurt Student"
-				GFX = GFX_M_Kurt_Student
+			add_corps_commander_role = {
+				character = GER_Kurt_Student
 				traits = {
 					commando
 					paratrooper
 					trait_reckless
 				}
 				skill = 4
-				id = 16
 				attack_skill = 4
 				defense_skill = 2
 				planning_skill = 4
@@ -2090,10 +2086,8 @@ focus_tree = {
 			has_completed_focus = GER_Luftwaffe
 		}
 		completion_reward = {
-			create_corps_commander = {
-				name = "Heinz Guderian"
-				id = 104033
-				GFX = GFX_M_Heinz_Guderian
+			add_corps_commander_role = {
+				character = GER_Heinz_Guderian
 				traits = {
 					trickster
 					brilliant_strategist
@@ -2105,6 +2099,42 @@ focus_tree = {
 				attack_skill = 2
 				defense_skill = 4
 				planning_skill = 4
+				logistics_skill = 3
+			}
+			add_advisor_role = {
+				character = GER_Heinz_Guderian
+				advisor = {
+					slot = high_command
+					idea_token = GER_Heinz_Guderian_HC
+					traits = {
+						army_armored_3
+					}
+					allowed = {
+						tag = GER
+					}
+					visible = {
+						date > 1933.1.1
+						date < 1964.1.1
+						F_Minister_Allowed = yes
+						NOT = {
+							has_country_flag = Heinz_Guderian_unavailable
+						}
+					}
+				}
+			}
+			add_corps_commander_role = {
+				character = GER_Erwin_Rommel
+				traits = {
+					trickster
+					trait_reckless
+					war_hero
+					armor_officer
+					media_personality
+				}
+				skill = 4
+				attack_skill = 4
+				defense_skill = 4
+				planning_skill = 2
 				logistics_skill = 3
 			}
 			# Fedor von Bock
