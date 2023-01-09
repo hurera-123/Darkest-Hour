@@ -2293,7 +2293,7 @@ ENG_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = fighter
-		value = 50
+		value = 40
 	}
 	ai_strategy = {
 		type = unit_ratio
@@ -2344,7 +2344,12 @@ ENG_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = fighter
-		value = 30
+		value = 20
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = strategic_bomber
+		value = 15
 	}
 	ai_strategy = {
 		type = equipment_production_factor

@@ -2815,7 +2815,7 @@ GER_Treaty_of_Versaille = {
 	# Second Rearmament Program
 	###########################
 	GER_Second_Rearmament_Program = {
-		icon = decision_ger_military_buildup
+		icon = GFX_decision_ger_military_buildup
 		allowed = {
 			original_tag = GER
 		}
@@ -12308,6 +12308,7 @@ GER_Rule_over_the_Danube_category = {
 					amount_of_influence_to_check = 25
 				}
 				GER_Influence_Trigger = yes
+				is_in_faction = no
 			}
 			has_global_flag = fall_of_france
 			custom_trigger_tooltip = {
@@ -12346,6 +12347,7 @@ GER_Rule_over_the_Danube_category = {
 					amount_of_influence_to_check = 25
 				}
 				GER_Influence_Trigger = yes
+				is_in_faction = no
 			}
 			OR = {
 				GER = {
@@ -12397,6 +12399,7 @@ GER_Rule_over_the_Danube_category = {
 					amount_of_influence_to_check = 25
 				}
 				GER_Influence_Trigger = yes
+				is_in_faction = no
 			}
 			has_global_flag = fall_of_france
 		}
@@ -12432,6 +12435,7 @@ GER_Rule_over_the_Danube_category = {
 						amount_of_influence_to_check = 25
 					}
 					GER_Influence_Trigger = yes
+					is_in_faction = no
 				}
 			}
 			has_global_flag = fall_of_france

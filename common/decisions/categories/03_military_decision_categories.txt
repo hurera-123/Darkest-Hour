@@ -247,6 +247,7 @@ GER_Reichsverteidigung_category = {
 		original_tag = GER
 		has_government = fascist
 		has_war = yes
+		surrender_progress > 0.05
 	}
 }
 ITA_reform_military_category = {
