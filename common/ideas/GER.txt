@@ -834,7 +834,7 @@ ideas = {
 		}
 		#### Develop the Volksgewehr
 		GER_Develop_the_Volksgewehr = {
-			picture = mex_politicised_army
+			picture = GER_Develop_the_Volksgewehr
 			
 			available = {
 			}

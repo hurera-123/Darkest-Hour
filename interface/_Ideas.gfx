@@ -8078,4 +8078,5 @@ spriteTypes = {
         name = "GFX_idea_VIC_Retour_a_la_Terre"
         texturefile = "gfx/interface/ideas/Spirits/VIC_Retour_a_la_Terre.png"
     }
+    
 }
