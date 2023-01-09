@@ -1,0 +1,29 @@
+####################################################
+## Ethiopia
+#####################################################
+ETH_Use_all_the_troops = {
+	allowed = {
+		tag = ETH
+	}
+	enable = {
+		has_war_with = ITA
+	}
+	abort = {
+		NOT = {
+			has_war_with = ITA
+		}
+	}
+	ai_strategy = {
+		type = spare_unit_factor
+		value = -500
+	}
+	ai_strategy = {
+		type = garrison_reinforcement_priority
+		value = -100
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = ITA
+		value = 100
+	}
+}
