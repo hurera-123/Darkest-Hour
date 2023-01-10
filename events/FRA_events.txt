@@ -1263,7 +1263,7 @@ country_event = {
 				YUG = {
 					deactivate_advisor = YUG_Aleksandar_I_HoG
 					set_country_flag = Aleksandar_I_unavailable
-					add_ideas = YUG_Petar_II_HoG
+					add_ideas = YUG_Prince_Paul_HoG
 				}
 				news_event = { id = FRA_Assassination_of_Alexander_I.9 days = 2 }
 			}
@@ -1278,7 +1278,7 @@ country_event = {
 						YUG = {
 							deactivate_advisor = YUG_Aleksandar_I_HoG
 							set_country_flag = Aleksandar_I_unavailable
-							add_ideas = YUG_Petar_II_HoG
+							add_ideas = YUG_Prince_Paul_HoG
 						}
 						news_event = { id = FRA_Assassination_of_Alexander_I.9 days = 2 }
 					}
@@ -1288,7 +1288,7 @@ country_event = {
 						YUG = {
 							deactivate_advisor = YUG_Aleksandar_I_HoG
 							set_country_flag = Aleksandar_I_unavailable
-							add_ideas = YUG_Petar_II_HoG
+							add_ideas = YUG_Prince_Paul_HoG
 						}
 						country_event = { id = FRA_Assassination_of_Alexander_I.10 days = 2 }
 					}

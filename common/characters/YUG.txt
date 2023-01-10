@@ -21,6 +21,28 @@ characters={
 			}
 		}
 	}
+	YUG_Prince_Paul = {
+		name=YUG_Prince_Paul
+		portraits={
+			army={
+				small="GFX_idea_Prince_Paul"
+			}
+		}
+		advisor={
+			slot=Head_of_Government
+			idea_token=YUG_Prince_Paul_HoG
+			removal_cost = -1
+			allowed={
+				tag=YUG
+			}
+			traits={
+				POSITION_Regent
+				SUBIDEOLOGY_Monarchism
+				
+				L_Old_Lawyer
+			}
+		}
+	}
 	YUG_Petar_II = {
 		name=YUG_Petar_II
 		portraits={
@@ -189,7 +211,8 @@ characters={
 	YUG_Bogoljub_Jevtic = {
 		name=YUG_Bogoljub_Jevtic
 		portraits={
-			army={
+			civilian={
+				large = "GFX_P_A_Bogoljub_Jevtic"
 				small="GFX_idea_Bogoljub_Jevtic"
 			}
 		}
@@ -227,7 +250,8 @@ characters={
 	YUG_Milan_Stojadinovic = {
 		name=YUG_Milan_Stojadinovic
 		portraits={
-			army={
+			civilian={
+				large = "GFX_P_A_Milan_Stojadinovic"
 				small="GFX_idea_Milan_Stojadinovic"
 			}
 		}
@@ -334,6 +358,7 @@ characters={
 		name=YUG_Dusan_Simovic
 		portraits={
 			army={
+				large = "GFX_P_A_Dusan_Simovic"
 				small="GFX_idea_Dusan_Simovic"
 			}
 		}
@@ -439,7 +464,8 @@ characters={
 	YUG_Dragisa_Cvetkovic = {
 		name=YUG_Dragisa_Cvetkovic
 		portraits={
-			army={
+			civilian={
+				large = "GFX_P_A_Dragisa_Cvetkovic"
 				small="GFX_idea_Dragisa_Cvetkovic"
 			}
 		}

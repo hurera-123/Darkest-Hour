@@ -43,7 +43,10 @@ country_event = {
 	# 
 	option = {
 		name = GER_SOV_War.1.A
-		add_ideas = SOV_The_German_Betrayal
+		add_timed_idea = {
+			idea = SOV_The_German_Betrayal
+			days = 200
+		}
 	}
 }
 ###########################
@@ -147,7 +150,6 @@ country_event = {
 	option = {
 		name = GER_SOV_War.6.A
 		add_political_power = 100
-		remove_ideas = SOV_The_German_Betrayal
 		set_country_flag = SOV_The_Great_Patriotic_War
 		unlock_decision_category_tooltip = SOV_The_Great_Patriotic_War_category
 	}

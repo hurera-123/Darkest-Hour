@@ -23,11 +23,17 @@ country_event = {
 	option = {
 		name = YUG_Election_1935.1.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Milan Stojadinovic"
-			picture = GFX_P_A_Milan_Stojadinovic
-			ideology = monarchism
-			traits = { POSITION_Prime_Minister SUBIDEOLOGY_Monarchism }
+		add_country_leader_role = {
+			character = YUG_Milan_Stojadinovic
+			promote_leader = yes
+			country_leader = {
+				ideology = monarchism
+				expire = "1964.1.1"
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Monarchism
+				}
+			}
 		}
 		hidden_effect = {
 			set_popularities = {
@@ -40,7 +46,7 @@ country_event = {
 		}
 	}
 }
-# Yugoslavian General Election, 1935
+# Yugoslavian General Election, 1938
 country_event = {
 	id = YUG_Election_1938.1
 	title = YUG_Election_1938.1.t
@@ -55,11 +61,17 @@ country_event = {
 	# Milan Stojadinović - National Party
 	option = {
 		name = YUG_Election_1938.1.A
-		create_country_leader = {
-			name = "Milan Stojadinovic"
-			picture = GFX_P_A_Milan_Stojadinovic
-			ideology = monarchism
-			traits = { POSITION_Prime_Minister SUBIDEOLOGY_Monarchism }
+		add_country_leader_role = {
+			character = YUG_Milan_Stojadinovic
+			promote_leader = yes
+			country_leader = {
+				ideology = monarchism
+				expire = "1964.1.1"
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Monarchism
+				}
+			}
 		}
 		hidden_effect = {
 			set_popularities = {
@@ -78,7 +90,6 @@ country_event = {
 	title = YUG_Politics.1.t
 	desc = YUG_Politics.1.d
 	picture = GFX_Generic_Elections
-	is_triggered_only = yes
 	trigger = {
 		original_tag = YUG
 		date > 1934.1.27
@@ -102,7 +113,6 @@ country_event = {
 	title = YUG_Politics.2.t
 	desc = YUG_Politics.2.d
 	picture = GFX_Generic_Elections
-	is_triggered_only = yes
 	trigger = {
 		original_tag = YUG
 		date > 1934.12.22
@@ -112,11 +122,17 @@ country_event = {
 	option = {
 		name = YUG_Politics.2.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Bogoljub Jevtic"
-			picture = GFX_P_A_Bogoljub_Jevtic
-			ideology = monarchism
-			traits = { POSITION_Prime_Minister SUBIDEOLOGY_Monarchism }
+		add_country_leader_role = {
+			character = YUG_Bogoljub_Jevtic
+			promote_leader = yes
+			country_leader = {
+				ideology = monarchism
+				expire = "1964.1.1"
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Monarchism
+				}
+			}
 		}
 	}
 }
@@ -126,7 +142,6 @@ country_event = {
 	title = YUG_Politics.3.t
 	desc = YUG_Politics.3.d
 	picture = GFX_Generic_Elections
-	is_triggered_only = yes
 	trigger = {
 		original_tag = YUG
 		date > 1939.2.5
@@ -136,11 +151,17 @@ country_event = {
 	option = {
 		name = YUG_Politics.3.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Dragiša Cvetkovic"
-			picture = GFX_P_A_Dragisa_Cvetkovic
-			ideology = monarchism
-			traits = { POSITION_Prime_Minister SUBIDEOLOGY_Monarchism }
+		add_country_leader_role = {
+			character = YUG_Dragisa_Cvetkovic
+			promote_leader = yes
+			country_leader = {
+				ideology = monarchism
+				expire = "1964.1.1"
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Monarchism
+				}
+			}
 		}
 	}
 }

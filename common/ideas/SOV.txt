@@ -781,28 +781,6 @@ ideas = {
 				skill_bonus_factor = 0.2
 			}
 		}
-		#### The Great Patriotic War
-		SOV_The_German_Betrayal_2 = {
-			picture = home_of_revolution
-			allowed = {
-				original_tag = SOV
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				offence = -0.2
-				defence = -0.2
-				army_org_factor = -0.2
-				army_speed_factor = -0.1
-				experience_gain_army_unit_factor = 0.3
-				skill_bonus_factor = 0.2
-			}
-		}
 		
 		#### The Great Patriotic War
 		SOV_Mobilization_of_the_Soviet_Industry_1 = {

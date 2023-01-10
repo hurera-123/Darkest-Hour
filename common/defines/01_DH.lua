@@ -26,6 +26,8 @@ NDefines.NDiplomacy.VERY_GOOD_OPINION = 50
 NDefines.NDiplomacy.VERY_BAD_OPINION = -50
 NDefines.NDiplomacy.IDEOLOGY_JOIN_FACTION_MIN_LEVEL = 0.4
 NDefines.NDiplomacy.EMBARGO_THREAT_THRESHOLD = 60					-- Target-generated threat threshold to allow embargo (affected by modifiers)
+NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.05			-- Each province owned by the target country contributes this amount of volunteers to the limit.
+NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0.05				-- Each army unit owned by the source country contributes this amount of volunteers to the limit.
 -- Trade. changes
 NDefines.NTrade.DISTANCE_TRADE_FACTOR = -0.03	-- Trade factor is modified by distance times this
 NDefines.NTrade.RELATION_TRADE_FACTOR = 1.5					-- Trade factor is modified by Opinion value times this
@@ -46,6 +48,7 @@ NDefines.NAI.DIPLOMACY_ACCEPT_VOLUNTEERS_BASE = 25	-- 50
 NDefines.NAI.RESEARCH_BONUS_FACTOR = 5.0 -- 0.9
 NDefines.NAI.RESERVE_TO_COMMITTED_BALANCE = 0.20 -- 0.1
 NDefines.NAI.NAVAL_MISSION_MIN_FLEET_SIZE = 6 -- 3
+NDefines.NAI.MAX_VOLUNTEER_ARMY_FRACTION = 0.1	-- 0.25		-- Countries will not send more than their forces time this number to aid another country
 -- AI Military execution changes
 NDefines.NAI.PLAN_VALUE_TO_EXECUTE = -0.1	-- -0.5			-- AI will typically avoid carrying out a plan it below this value (0.0 is considered balanced).
 NDefines.NAI.DIVISION_UPGRADE_MIN_XP = 50	-- 5	-- Minimum XP before attempting to upgrade a division template.
@@ -88,10 +91,8 @@ NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH = 0.65 --0.9, -- % of total Strength.
 NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 1.0 --1.6, -- casting damage value to ship strength multiplier. Use it to balance the game difficulty.
 NDefines.NNavy.COMBAT_DAMAGE_TO_ORG_FACTOR = 1.9 --1.9, -- casting damage value to ship organisation multiplier. Use it to balance the game difficulty.
 -- Air Combat Changes
-NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.1               -- % how many max disrupted only planes are alloed to die in a single combat
-NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.25	-- 0.1
+NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.05               -- % how many max disrupted only planes are allowed to die in a single combat
 NDefines.NAir.AIR_WING_BOMB_DAMAGE_FACTOR = 5					-- Used to balance the damage done while bombing.
-NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.05               -- % how many max disrupted only planes are alloed to die in a single combat
 NDefines.NAir.COMBAT_BETTER_AGILITY_DAMAGE_REDUCTION = 0.60 		-- How much the better agility (then opponent's) can reduce their damage to us.
 -- Naval Production
 NDefines.NProduction.MAX_NAV_FACTORIES_PER_LINE = 10

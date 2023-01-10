@@ -524,6 +524,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_idea = YUG_Prince_Paul_HoG
+		}
+		localization_key = YUG_Prince_Paul_HoG
+	}
+	text = {
+		trigger = {
 			has_idea = YUG_Petar_II_HoG
 		}
 		localization_key = YUG_Petar_II
@@ -1875,6 +1881,12 @@ defined_text = {
 			has_idea = YUG_Aleksandar_I_HoG
 		}
 		localization_key = GFX_P_A_Aleksandar_I
+	}
+	text = {
+		trigger = {
+			has_idea = YUG_Prince_Paul_HoG
+		}
+		localization_key = GFX_P_A_Prince_Paul
 	}
 	text = {
 		trigger = {

@@ -10693,16 +10693,20 @@ country_event = {
 	option = {
 		name = GER_Danube.30.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Peter II"
-			desc = ""
-			picture = GFX_P_A_Peter_II
-			ideology = social_conservatism
-			traits = {
-				POSITION_King
-				SUBIDEOLOGY_Social_Conservatism
+		add_country_leader_role = {
+			character = YUG_Dusan_Simovic
+			promote_leader = yes
+			country_leader = {
+				ideology = monarchism
+				expire = "1964.1.1"
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Monarchism
+					L_Old_General
+				}
 			}
 		}
+		add_ideas = YUG_Petar_II_HoG
 		leave_faction = yes
 		clr_country_flag = GER_Tripartite_Pact
 		set_temp_variable = {
