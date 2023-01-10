@@ -213,8 +213,6 @@ country_event = {
 	picture = GFX_report_event_generic_army
 	is_triggered_only = yes
 
-	major = yes
-
 	# 
 	option = {
 		name = GER_SOV_War.10.A
@@ -229,8 +227,6 @@ country_event = {
 	desc = GER_SOV_War.11.d
 	picture = GFX_report_event_generic_army
 	is_triggered_only = yes
-
-	major = yes
 
 	# 
 	option = {
@@ -269,7 +265,7 @@ country_event = {
 	option = {
 		name = GER_SOV_War.13.A
 		SOV = {
-			country_event = { id = GER_SOV_War.14 days = 3 }
+			news_event = { id = GER_SOV_War.14 days = 3 }
 		}
 	}
 
@@ -277,7 +273,7 @@ country_event = {
 	option = {
 		name = GER_SOV_War.13.B
 		SOV = {
-			news_event = { id = GER_SOV_War.15 days = 3 }
+			country_event = { id = GER_SOV_War.15 days = 3 }
 		}
 	}
 }

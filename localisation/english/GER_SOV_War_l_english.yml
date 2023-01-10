@@ -58,7 +58,8 @@
 
  GER_SOV_War.13.t: "An Invitation to Moscow"
  GER_SOV_War.13.d: ""
- GER_SOV_War.13.A: ""
+ GER_SOV_War.13.A: "Accept"
+ GER_SOV_War.13.B: "Refuse"
 
  GER_SOV_War.14.t: "Soviet–Japanese Neutrality Pact Signed"
  GER_SOV_War.14.d: "[FROM.GetNewsIcon]Today, Japanese Foreign Minister Yosuke Matsuoka and Ambassador Yoshitsugu Tatekawa met in Moscow with Vyacheslav Molotov. A potential neutrality agreement between the Soviet Union and Japan was the reason for the meeting.\n\nThe Soviet Union sought this deal to secure their border with the Japanese puppet state of Manchukuo in the Far East and to narrow their attention to the German Reich's frontier in Europe in case a conflict broke out in the future. The Japanese were keen to sign this deal because they wanted to concentrate on their military campaign against the Chinese United Front and their expansion into South-East Asia.\n\nInternational observers have called this a “surprising turn of events”, considering that these countries recently engaged in border wars in Mongolia with each other. "

@@ -1670,6 +1670,7 @@ GER_Reichsautobahn_category = {
 			has_full_control_of_state = 64
 			has_full_control_of_state = 1057
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -1753,6 +1754,7 @@ GER_Reichsautobahn_category = {
 			}
 			has_full_control_of_state = 68
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -1826,6 +1828,7 @@ GER_Reichsautobahn_category = {
 			}
 			has_full_control_of_state = 66
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -1898,6 +1901,7 @@ GER_Reichsautobahn_category = {
 			}
 			has_full_control_of_state = 67
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -1970,6 +1974,7 @@ GER_Reichsautobahn_category = {
 			}
 			has_full_control_of_state = 812
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2047,6 +2052,7 @@ GER_Reichsautobahn_category = {
 			}
 			has_full_control_of_state = 59
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2127,6 +2133,7 @@ GER_Reichsautobahn_category = {
 			}
 			has_full_control_of_state = 57
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2207,6 +2214,7 @@ GER_Reichsautobahn_category = {
 			}
 			has_full_control_of_state = 809
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2293,6 +2301,7 @@ GER_Reichsautobahn_category = {
 			}
 			has_full_control_of_state = 55
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2370,6 +2379,7 @@ GER_Reichsautobahn_category = {
 			}
 			has_full_control_of_state = 60
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2453,6 +2463,7 @@ GER_Reichsautobahn_category = {
 			}
 			has_full_control_of_state = 808
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2539,6 +2550,7 @@ GER_Reichsautobahn_category = {
 			}
 			has_full_control_of_state = 54
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2616,6 +2628,7 @@ GER_Reichsautobahn_category = {
 			}
 			has_full_control_of_state = 807
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2699,6 +2712,7 @@ GER_Reichsautobahn_category = {
 			}
 			has_full_control_of_state = 50
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2776,6 +2790,7 @@ GER_Reichsautobahn_category = {
 			}
 			has_full_control_of_state = 52
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
