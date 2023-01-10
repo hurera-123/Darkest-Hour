@@ -2897,6 +2897,7 @@ focus_tree = {
 		available = {
 			is_puppet = no
 			controls_state = 806
+			date > 1936.1.1
 			has_army_manpower = {
 				size > 350000
 			}
