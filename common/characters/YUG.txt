@@ -39,7 +39,6 @@ characters={
 				POSITION_Regent
 				SUBIDEOLOGY_Monarchism
 				
-				L_Old_Lawyer
 			}
 		}
 	}

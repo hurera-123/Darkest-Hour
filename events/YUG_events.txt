@@ -90,6 +90,7 @@ country_event = {
 	title = YUG_Politics.1.t
 	desc = YUG_Politics.1.d
 	picture = GFX_Generic_Elections
+	fire_only_once = yes
 	trigger = {
 		original_tag = YUG
 		date > 1934.1.27
@@ -113,6 +114,7 @@ country_event = {
 	title = YUG_Politics.2.t
 	desc = YUG_Politics.2.d
 	picture = GFX_Generic_Elections
+	fire_only_once = yes
 	trigger = {
 		original_tag = YUG
 		date > 1934.12.22
@@ -142,6 +144,7 @@ country_event = {
 	title = YUG_Politics.3.t
 	desc = YUG_Politics.3.d
 	picture = GFX_Generic_Elections
+	fire_only_once = yes
 	trigger = {
 		original_tag = YUG
 		date > 1939.2.5

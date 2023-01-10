@@ -222,6 +222,7 @@ recruit_character = FRA_Eugene_Mittelhauser
 		Tactical_Bomber_1916 = 1
 		Tactical_Bomber_1918 = 1
 		Tactical_Bomber_1925 = 1
+		Tactical_Bomber_1933 = 1
 		Strategic_Bomber_1916 = 1
 		Strategic_Bomber_1933 = 1
 		Naval_Bomber_1918 = 1
