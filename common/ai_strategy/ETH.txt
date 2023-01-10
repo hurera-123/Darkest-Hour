@@ -14,16 +14,24 @@ ETH_Use_all_the_troops = {
 		}
 	}
 	ai_strategy = {
+		type = front_control
+		tag = ITA
+		ordertype = front
+		execution_type = careful
+		manual_attack = yes
+		execute_order = yes
+	}
+	ai_strategy = {
 		type = spare_unit_factor
-		value = -500
+		value = -1000
 	}
 	ai_strategy = {
 		type = garrison_reinforcement_priority
-		value = -100
+		value = -500
 	}
 	ai_strategy = {
 		type = front_unit_request
 		tag = ITA
-		value = 100
+		value = 500
 	}
 }
