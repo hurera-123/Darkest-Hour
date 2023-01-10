@@ -1219,7 +1219,7 @@ leader_traits = {
 		gui_row = 10
 	}
 	
-	paratrooper = { 
+	paratrooper_trait = { 
 		type = corps_commander
 		gain_xp = {
 			always = no # not gainable

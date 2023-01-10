@@ -1781,8 +1781,8 @@
 #  Italy Custom Tooltips
 ######################################################################
  fiat_ITA_tt: "§GImproves the New Style Army national spirit§!"
- binaria_ITA_tt: "§GImproves the Old Style the Army/New Style Army national sprit§!"
- simplify_ITA_tt: "§GImproves the Old Style the Army national sprit§!"
+ binaria_ITA_tt: "§GImproves the Old Style Army/New Style Army national sprit§!"
+ simplify_ITA_tt: "§GImproves the Old Style Army national sprit§!"
  navy_ITA_tt: "§GImproves the Overfunded Regia Marina national sprit§!"
  supply_ITA_tt: "§GBy drawing up supply lines our soldiers will have an attack advantage against the Ethiopian in the case of war§!"
  brit_ITA_tt: "We will make sure that the British do not intervene in case of a war"

@@ -413,6 +413,11 @@ focus_tree = {
 					add_idea = ITA_New_Style_Army_4
 				}
 			}
+			add_tech_bonus = {
+				uses = 1
+				bonus = 1
+				category = motorized_equipment
+			}
 		}
 	}
 	focus = {
@@ -469,7 +474,7 @@ focus_tree = {
 			add_tech_bonus = {
 				uses = 1
 				bonus = 1
-				category = motorized_equipment
+				category = cat_medium_armor
 			}
 			set_temp_variable = {
 				money_to_gain = -50

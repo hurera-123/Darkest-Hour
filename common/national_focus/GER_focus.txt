@@ -1572,7 +1572,7 @@ focus_tree = {
 				character = GER_Kurt_Student
 				traits = {
 					commando
-					paratrooper
+					paratrooper_trait
 					trait_reckless
 				}
 				skill = 4
@@ -1586,7 +1586,7 @@ focus_tree = {
 				GFX = GFX_M_Eugen_Meindl
 				traits = {
 					commando
-					paratrooper
+					paratrooper_trait
 					trait_reckless
 				}
 				skill = 2
