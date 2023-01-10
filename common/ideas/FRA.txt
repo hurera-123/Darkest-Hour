@@ -1181,7 +1181,7 @@ ideas = {
 			}
 		}
 		FRA_La_Der_des_Ders = {
-			picture = FRA_La_Der_Des_Ders
+			picture = FRA_La_Der_des_Ders
 			modifier = {
 				war_support_factor = -0.5
 				#mobilization_laws_cost_factor = 0.5
@@ -1190,7 +1190,7 @@ ideas = {
 			}
 		}
 		FRA_La_Der_des_Ders_2 = {
-			picture = FRA_La_Der_Des_Ders
+			picture = FRA_La_Der_des_Ders
 			modifier = {
 				war_support_factor = -0.3
 				#mobilization_laws_cost_factor = 0.25
@@ -1198,7 +1198,7 @@ ideas = {
 			}
 		}
 		FRA_La_Der_des_Ders_3 = {
-			picture = FRA_La_Der_Des_Ders
+			picture = FRA_La_Der_des_Ders
 			modifier = {
 				war_support_factor = -0.15
 			}

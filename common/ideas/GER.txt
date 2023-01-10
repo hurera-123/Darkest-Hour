@@ -802,7 +802,7 @@ ideas = {
 		}
 		#### Jägernotprogramm
 		GER_Jaegernotprogramm = {
-			picture = GFX_idea_GER_Jaegernotprogramm
+			picture = GER_Jaegernotprogramm
 			
 			available = {
 			}
@@ -834,7 +834,7 @@ ideas = {
 		}
 		#### Develop the Volksgewehr
 		GER_Develop_the_Volksgewehr = {
-			picture = GFX_idea_GER_Develop_the_Volksgewehr
+			picture = GER_Develop_the_Volksgewehr
 			
 			available = {
 			}
