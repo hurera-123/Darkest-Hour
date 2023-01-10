@@ -13256,6 +13256,11 @@ GER_Rule_over_the_Danube_category = {
 			has_country_flag = flag_fuhrer_25
 		}
 		available = {
+			YUG = {
+				NOT = {
+					is_in_faction_with = GER
+				}
+			}
 		}
 		cost = 5
 		ai_will_do = {

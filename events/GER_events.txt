@@ -10709,6 +10709,10 @@ country_event = {
 			GER_Influence_to_add = -100
 		}
 		add_influence = yes
+		add_opinion_modifier = {
+			target = GER
+			modifier = huge_decrease
+		}
 		news_event = { id = GER_Danube.31 hours = 6 }
 	}
 }

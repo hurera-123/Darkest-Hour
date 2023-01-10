@@ -6585,8 +6585,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_idea_FRA_La_Der_Des_Ders"
-        texturefile = "gfx/interface/ideas/Spirits/FRA_La_Der_Des_Ders.png"
+        name = "GFX_idea_FRA_La_Der_des_Ders"
+        texturefile = "gfx/interface/ideas/Spirits/FRA_La_Der_des_Ders.png"
     }
 
     spriteType = {
@@ -6905,6 +6905,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_GER_Develop_the_Volksgewehr"
+        texturefile = "gfx/interface/ideas/Spirits/GER_Develop_the_Volksgewehr.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_GER_Economic_Liberalization"
         texturefile = "gfx/interface/ideas/Spirits/GER_Economic_Liberalization.png"
     }
@@ -6972,6 +6977,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_GER_Hitler_Youth"
         texturefile = "gfx/interface/ideas/Spirits/GER_Hitler_Youth.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_GER_Jaegernotprogramm"
+        texturefile = "gfx/interface/ideas/Spirits/GER_Jaegernotprogramm.png"
     }
 
     spriteType = {
@@ -8078,5 +8088,4 @@ spriteTypes = {
         name = "GFX_idea_VIC_Retour_a_la_Terre"
         texturefile = "gfx/interface/ideas/Spirits/VIC_Retour_a_la_Terre.png"
     }
-    
 }
