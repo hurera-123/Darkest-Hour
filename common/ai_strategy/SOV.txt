@@ -129,7 +129,6 @@ SOV_Prepare_for_War_with_Germany = {
 				exists = no
 			}
 		}
-		GER = { has_completed_focus = GER_Eye_to_The_East }
 	}
 	abort = {
 		OR = {

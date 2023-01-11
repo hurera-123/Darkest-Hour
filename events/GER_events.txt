@@ -2398,7 +2398,7 @@ country_event = {
 			transfer_state = 39
 		}
 		ai_chance = {
-			factor = 15
+			factor = 0
 			modifier = {
 				factor = 0
 				is_in_faction_with = ENG				#Is in the allies
@@ -2419,6 +2419,7 @@ country_event = {
 		ai_chance = {
 			factor = 85
 		}
+		set_global_flag = ITA_Refused_SudTirol_Claim
 	}
 }
 ###########################

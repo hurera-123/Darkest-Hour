@@ -113,6 +113,7 @@ ITA_prepare_to_join_the_war = {
 		GER = {
 			has_war_with = FRA
 		}
+		NOT = { has_global_flag = ITA_Refused_SudTirol_Claim }
 		NOT = {
 			ITA = {
 				has_war = yes
@@ -442,6 +443,7 @@ Italian_Yugoslav_Greek_Relations = {
 		ITA = {
 			has_government = fascist
 		}
+		NOT = { has_global_flag = ITA_Refused_SudTirol_Claim }
 		date > 1940.1.1
 		any_other_country = {
 			OR = {
@@ -575,6 +577,7 @@ ITA_GER_Want_to_Invade_FRA_Without_Us = {
 	}
 	enable = {
 		date < 1940.6.10
+		NOT = { has_global_flag = ITA_Refused_SudTirol_Claim }
 	}
 
 	abort = {
@@ -1292,5 +1295,39 @@ ITA_No_Volunteers_to_Asia = {
 		type = send_volunteers_desire
 		id = JAP
 		value = -1000
+	}
+}
+#############################################
+# Alternate History
+#############################################
+ITA_Counter_Germany = {
+	allowed = {
+		original_tag = ITA
+	}
+	enable = {
+		has_global_flag = ITA_Refused_SudTirol_Claim
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = prepare_for_war
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = front_control
+		tag = GER
+		ordertype = front
+		execution_type = careful
+		execute_order = yes
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = "GER"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 500
 	}
 }
