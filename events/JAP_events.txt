@@ -3179,6 +3179,9 @@ country_event = {
 	option = {
 		name = JAP_Pan_Asianism.13.A
 		add_ideas = JAP_Co_Prosperity_Sphere
+		JAP = {
+			add_to_faction = SIA
+		}
 	}
 }
 ### JAP_Three_Principles_of_Hirota

@@ -1255,14 +1255,6 @@ country_event = {
  				transfer_state = 748
  				748 = { add_core_of = RNG }
  				set_cosmetic_tag = RNG_JAP
-				annex_country = {
-					target = SHX
-					transfer_troops = no
-				}
-				annex_country = {
-					target = GXC
-					transfer_troops = no
-				}
  			}
  			if = {
  				limit = {
@@ -1276,6 +1268,16 @@ country_event = {
  					}
  				}
  			}
+			RNG = {
+				annex_country = {
+					target = SHX
+					transfer_troops = no
+				}
+				annex_country = {
+					target = GXC
+					transfer_troops = no
+				}
+			}
  			LXI = {
  				transfer_state = 605
  				transfer_state = 901
@@ -1473,6 +1475,7 @@ country_event = {
 				set_capital = { 
 					state = 613
 				}
+				leave_faction = yes
  			}
  			if = {
  				limit = {
@@ -1580,7 +1583,9 @@ country_event = {
  						autonomy_state = AUTONOMY_Imperial_Protectorate
  					}
  				}
- 				SHX = { set_cosmetic_tag = SHX_JAP1 }
+ 				SHX = { 
+					set_cosmetic_tag = SHX_JAP1
+				}
  			}
  			else = {
  				white_peace = SHX
@@ -1588,6 +1593,9 @@ country_event = {
  					country_event = { id = SHX_Sino_Japanese_War_Chinese_Defeat.1 days = 10 }
  				}
  			}
+			GXC = {
+				leave_faction = yes
+			}
  			puppet = GXC
  			GXC = { set_cosmetic_tag = GXC_JAP1 }
  			JAP = {

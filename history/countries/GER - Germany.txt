@@ -767,7 +767,7 @@ recruit_character = GER_Wilhelm_III
 		GFX = GFX_M_Kurt_Student
 		traits = {
 			commando
-			paratrooper
+			paratrooper_trait
 			trait_reckless
 		}
 		skill = 4
@@ -782,7 +782,7 @@ recruit_character = GER_Wilhelm_III
 		GFX = GFX_M_Eugen_Meindl
 		traits = {
 			commando
-			paratrooper
+			paratrooper_trait
 			trait_reckless
 		}
 		skill = 2

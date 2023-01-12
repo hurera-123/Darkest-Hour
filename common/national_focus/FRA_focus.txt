@@ -2937,7 +2937,7 @@ focus_tree = {
 					
 				}
 				add_unit_leader_trait = commando
-				add_unit_leader_trait = paratrooper
+				add_unit_leader_trait = paratrooper_trait
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }

@@ -28,6 +28,14 @@
  ETH.6.A: "Sure my dude"
  ETH.6.B: "Fuck you lmao"
 
+ ETH_Italian_Loss_in_War.1.t: "We won the war"
+ ETH_Italian_Loss_in_War.1.d: ""
+ ETH_Italian_Loss_in_War.1.A: ""
+
+ ETH_Italian_Loss_in_War.2.t: "We lost the war"
+ ETH_Italian_Loss_in_War.2.d: ""
+ ETH_Italian_Loss_in_War.2.A: ""
+
 ######################################################################
 #  Ethiopia Focuses
 ######################################################################

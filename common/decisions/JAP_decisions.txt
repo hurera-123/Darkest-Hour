@@ -4229,6 +4229,9 @@ JAP_GEACPS_category = {
 		}
 		modifier = {
 			money_income_factor = 0.1
+			hidden_modifier = {
+				money_income_factor_from_decisions = 0.1
+			}
 		}
 		cost = 10
 		days_remove = 60
