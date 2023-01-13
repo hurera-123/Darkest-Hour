@@ -41,6 +41,7 @@ recruit_character = YUG_Milan_Milovanovic
 recruit_character = YUG_Danilo_Kalafatovic
 recruit_character = YUG_Marijan_Polic
 recruit_character = YUG_Ivan_Ribar
+recruit_character = YUG_Prince_Paul
 
 #########################################################################
 # Yugoslavia - 1933

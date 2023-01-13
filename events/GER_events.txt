@@ -761,7 +761,6 @@ news_event = {
 		trigger = {
 			original_tag = GER
 		}
-		add_political_power = 50
 		add_popularity = {
 			ideology = fascist
 			popularity = 0.05
@@ -821,7 +820,6 @@ news_event = {
 		trigger = {
 			original_tag = GER
 		}
-		add_political_power = 50
 		add_stability = 0.05
 		add_popularity = {
 			ideology = fascist
@@ -856,7 +854,7 @@ news_event = {
 	option = {
 		name = GER_Gleichschaltung.6.A
 		add_stability = -0.05
-		add_political_power = 50
+		add_political_power = 25
 	}
 }
 ###########################
@@ -1550,7 +1548,6 @@ news_event = {
 	# Glory to the Reich!
 	option = {
 		name = GER_Reichsparteitag.1.A
-		add_political_power = 25
 	}
 }
 ###########################
@@ -1572,7 +1569,6 @@ news_event = {
 	# Glory to the Reich!
 	option = {
 		name = GER_Reichsparteitag.2.A
-		add_political_power = 25
 	}
 }
 ###########################
@@ -1594,7 +1590,6 @@ news_event = {
 	# Glory to the Reich!
 	option = {
 		name = GER_Reichsparteitag.3.A
-		add_political_power = 25
 	}
 }
 ###########################
@@ -1641,7 +1636,6 @@ news_event = {
 				is_demilitarized_zone = yes
 			}
 		}
-		add_political_power = 25
 	}
 }
 ###########################
@@ -1758,7 +1752,6 @@ news_event = {
 	# Glory to the Reich!
 	option = {
 		name = GER_Reichsparteitag.8.A
-		add_political_power = 25
 	}
 }
 #########################################################################
@@ -1862,7 +1855,6 @@ news_event = {
 		trigger = {
 			original_tag = GER
 		}
-		add_political_power = 5
 		add_war_support = 0.05
 		ENG = {
 			add_opinion_modifier = {
@@ -4589,7 +4581,6 @@ country_event = {
 	option = {
 		name = Germany_V.50.A
 		add_stability = -0.025
-		add_political_power = 20
 	}
 }
 ###########################

@@ -993,26 +993,21 @@
 ######################################################################
 ### Generic
  MANPATS_MANPADS_1936: "MANPATS '39"
+ MANPATS_MANPADS_1936_desc: ""
  MANPATS_MANPADS_1936_tt: "All Small Arms:\n   Hard Attack: §G1§!\n   Piercing: §G10.4§!\n"
  MANPATS_MANPADS_1936_tt2: "All Heavy Weapons:\n   Hard Attack: §G3§!\n   Piercing: §G10.4§!\n"
  MANPATS_MANPADS_1942: "MANPATS '42"
+ MANPATS_MANPADS_1942_desc: ""
  MANPATS_MANPADS_1942_tt: "All Small Arms:\n   Hard Attack: §G1.1§!\n   Piercing: §G61.4§!\n"
  MANPATS_MANPADS_1942_tt2: "All Heavy Weapons:\n   Hard Attack: §G4.4§!\n   Piercing: §G61.4§!\n"
  MANPATS_MANPADS_1944: "MANPATS '44"
+ MANPATS_MANPADS_1944_desc: ""
  MANPATS_MANPADS_1944_tt: "All Small Arms:\n   Hard Attack: §G1.5§!\n   Piercing: §G82.4§!\n"
  MANPATS_MANPADS_1944_tt2: "All Heavy Weapons:\n   Hard Attack: §G6§!\n   Piercing: §G82.4§!\n"
  MANPATS_MANPADS_1952: "MANPATS '50"
+ MANPATS_MANPADS_1952_desc: ""
  MANPATS_MANPADS_1952_tt: "All Small Arms:\n   Hard Attack: §G2§!\n   Piercing: §G130.4§!\n"
  MANPATS_MANPADS_1952_tt2: "All Heavy Weapons:\n   Hard Attack: §G8.1§!\n   Piercing: §G130.4§!\n"
- MANPATS_MANPADS_1962: "MANPATS & MANPADS '62"
- MANPATS_MANPADS_1962_tt: "All Small Arms:\n   Hard Attack: §G2.7§!\n   Piercing: §G160.4§!\n"
- MANPATS_MANPADS_1962_tt2: "All Heavy Weapons:\n   Hard Attack: §G11§!\n   Piercing: §G160.4§!\n"
- MANPATS_MANPADS_1980: "MANPATS & MANPADS '80"
- MANPATS_MANPADS_1980_tt: "All Small Arms:\n   Hard Attack: §G3.7§!\n   Piercing: §G175.4§!\n"
- MANPATS_MANPADS_1980_tt2: "All Heavy Weapons:\n   Hard Attack: §G15§!\n   Piercing: §G175.4§!\n"
- MANPATS_MANPADS_1995: "MANPATS & MANPADS '95"
- MANPATS_MANPADS_1995_tt: "All Small Arms:\n   Hard Attack: §G5§!\n   Piercing: §G205.4§!\n"
- MANPATS_MANPADS_1995_tt2: "All Heavy Weapons:\n   Hard Attack: §G20.4§!\n   Piercing: §G205.4§!\n"
 
 ### Majors
  GER_MANPATS_MANPADS_1936: "PzB 39"
@@ -1076,14 +1071,17 @@
 ######################################################################
 ### Generic
  Infantry_Kit_1914: "Infantry Kit '14"
+ Infantry_Kit_1914_desc: ""
  Infantry_Kit_1918: "Infantry Kit '18"
+ Infantry_Kit_1918_desc: ""
  Infantry_Kit_1935: "Infantry Kit '35"
+ Infantry_Kit_1935_desc: ""
  Infantry_Kit_1942: "Infantry Kit '42"
+ Infantry_Kit_1942_desc: ""
  Infantry_Kit_1945: "Infantry Kit '45"
+ Infantry_Kit_1945_desc: ""
  Infantry_Kit_1952: "Infantry Kit '52"
- Infantry_Kit_1962: "Infantry Kit '62"
- Infantry_Kit_1980: "Infantry Kit '80"
- Infantry_Kit_1995: "Infantry Kit '95"
+ Infantry_Kit_1952_desc: ""
  
 ### Majors
 

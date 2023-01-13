@@ -48,8 +48,8 @@
  SSN_equipment_1990_long: "Nuclear Attack-Submarine '90"
  
 ### Heavy Submarines HSS
- heavy_submarine: "\nHeavy Submarine"
- HSS_1933: "Heavy Submarine '33"
+ heavy_submarine: "Heavy Submarine"
+ HSS_equipment: "\nHeavy Submarine"
  HSS_equipment_1933: "Heavy Submarine '33"
  HSS_equipment_1933_desc: "Heavy Submarines with very long range and equipped with Sea-Planes are well suited for Reconnaissance"
  HSS_equipment_1940: "Heavy Submarine '40"
@@ -231,7 +231,7 @@
  CVN_equipment_1980_long: "Nuclear Supercarrier '80"
 
 # -- Escort Aircraft Carriers CVE
- escort_carrier: "\nEscort Carrier"
+ escort_carrier: "Escort Carrier"
  CVE_equipment: "\nEscort Carrier"
 
  CV_equipment_1912: "Seaplane Carrier '12"

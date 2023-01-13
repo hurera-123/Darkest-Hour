@@ -146,7 +146,7 @@ ideas = {
 				has_war = no
 			}
 			modifier = {
-				political_power_gain = 0.2
+				political_power_gain = 0.1
 				production_speed_buildings_factor = -0.05
 			}
 		}
@@ -316,7 +316,7 @@ ideas = {
 				has_government = fascist
 			}
 			modifier = {
-				political_power_gain = 0.2
+				political_power_gain = 0.1
 				consumer_goods_factor = 0.05
 				conscription_factor =  -0.10
 			}
@@ -1067,7 +1067,7 @@ ideas = {
 				has_government = fascist
 			}
 			modifier = {
-				political_power_gain = 1
+				political_power_gain = 0.5
 				drift_defence_factor = 0.5
 			}
 			rule = {
