@@ -294,11 +294,13 @@ ITA_Pacify_Abyssinia_category = {
 		}
 		NOT = {
 			AND = {
-				check_variable = {
-					ITA_Ethiopian_Unrest_partisan = 0
-				}
-				check_variable = {
-					ITA_Ethiopian_Unrest_damage = 0
+				AOI = {
+					check_variable = {
+						ITA_Ethiopian_Unrest_partisan = 0
+					}
+					check_variable = {
+						ITA_Ethiopian_Unrest_damage = 0
+					}
 				}
 			}
 		}

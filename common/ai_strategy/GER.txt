@@ -2045,7 +2045,7 @@ GER_equipment_production_1 = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = infantry
-		value = 13
+		value = 20
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2216,7 +2216,7 @@ GER_equipment_production_2 = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 35
+		value = 100
 	}
 
 	ai_strategy = {
@@ -2261,7 +2261,7 @@ GER_equipment_production_2 = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = infantry
-		value = 20
+		value = 30
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories
@@ -2310,7 +2310,7 @@ GER_Build_the_Army = {
 	abort = {
 		OR = {
 			has_army_size = {
-				size > 200
+				size > 150
 			}
 			has_war_with = SOV
 		}	
@@ -2323,6 +2323,16 @@ GER_Build_the_Army = {
 		type = build_army
 		id = infantry
 		value = 200
+	}
+	ai_strategy = {
+		type = build_army
+		id = armor
+		value = 20
+	}
+	ai_strategy = {
+		type = build_army
+		id = motorized
+		value = 15
 	}
 }
 
@@ -2476,7 +2486,7 @@ GER_equipment_production_3 = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
-		value = 35
+		value = 100
 	}
 
 	ai_strategy = {
@@ -2521,7 +2531,7 @@ GER_equipment_production_3 = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = infantry
-		value = 20
+		value = 40
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories

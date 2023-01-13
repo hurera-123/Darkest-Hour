@@ -935,6 +935,37 @@ ENG_Invade_Persia = {
 	}
 }
 
+ENG_Stop_Building_so_Much = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		has_army_size = {
+			size > 120
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = force_build_armies
+		value = -500
+	}
+	ai_strategy = {
+		type = build_army
+		id = infantry
+		value = -500
+	}
+	ai_strategy = {
+		type = build_army
+		id = armor
+		value = -500
+	}
+	ai_strategy = {
+		type = build_army
+		id = motorized
+		value = -500
+	}
+}
+
 #### WAR WITH JAPAN ####
 ENG_ignore_japan_until_germany_is_dealt_with = {
 	allowed = {
