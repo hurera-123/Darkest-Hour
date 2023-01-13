@@ -1432,12 +1432,33 @@ US_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = middle_east
-		value = 80
+		value = 30
 	}
 	ai_strategy = {
 		type = area_priority
-		id = africa
-		value = 75
+		id = north_africa
+		value = 30
+	}
+}
+USA_Defend_Home = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		date > 1933.1.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = garrison
+		id = "USA"
+		value = 30
+	}
+	ai_strategy = {
+		type = put_unit_buffers
+		area = north_america
+		ratio = 0.5
+		subtract_invasions_from_need = no
 	}
 }
 USA_garrison_the_pacific = {

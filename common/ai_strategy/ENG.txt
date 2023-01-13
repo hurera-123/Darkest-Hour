@@ -875,24 +875,6 @@ ENG_Defend_Mediterranean = {
 	}
 }
 
-ENG_lifeline_of_the_empire = {
-	allowed = {
-		original_tag = ENG
-	}
-	enable = {
-		always = yes
-	}
-	abort = {
-		always = no
-	}
-
-	ai_strategy = {
-		type = area_priority
-		id = suez
-		value = 80 # this is extra on top of 50 base (now equal to other territory)
-	}
-}
-
 ENG_Invade_Iraq = {
 	allowed = {
 		original_tag = ENG
@@ -2092,17 +2074,12 @@ British_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = middle_east
-		value = 150
+		value = 30
 	}
 	ai_strategy = {
 		type = area_priority
-		id = africa
-		value = 200
-	}
-	ai_strategy = {
-		type = area_priority
-		id = suez
-		value = 120
+		id = north_africa
+		value = 40
 	}
 }
 

@@ -662,7 +662,7 @@ ITA_war_against_ENG = {
 	ai_strategy = {
 		type = area_priority
 		id = north_africa
-		value = 1000
+		value = 150
 	}
 
 	ai_strategy = {
@@ -695,37 +695,37 @@ Italian_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = north_america
-		value = 10
+		value = 0
 	}
 	ai_strategy = {
 		type = area_priority
 		id = south_america
-		value = 10
+		value = 0
 	}
 	ai_strategy = {
 		type = area_priority
 		id = asia
-		value = 25
+		value = -10
 	}
 	ai_strategy = {
 		type = area_priority
 		id = pacific
-		value = 10
+		value = -10
 	}
 	ai_strategy = {
 		type = area_priority
 		id = oceania
-		value = 10
+		value = -10
 	}
 	ai_strategy = {
 		type = area_priority
-		id = middle_east
-		value = 150
+		id = north_africa
+		value = 40
 	}
 	ai_strategy = {
 		type = area_priority
 		id = africa
-		value = 150
+		value = 50
 	}
 }
 

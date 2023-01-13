@@ -526,12 +526,6 @@ JAP_China_Invasions_2 = {
 
 	ai_strategy = {
 		type = invasion_unit_request
-		state = 592
-		value = 200
-	}
-
-	ai_strategy = {
-		type = invasion_unit_request
 		state = 591
 		value = 200
 	}
@@ -934,7 +928,7 @@ JAP_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = south_america
-		value = 25
+		value = 0
 	}
 	ai_strategy = {
 		type = area_priority
@@ -954,12 +948,12 @@ JAP_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = middle_east
-		value = 50
+		value = -10
 	}
 	ai_strategy = {
 		type = area_priority
 		id = africa
-		value = 10
+		value = -10
 	}
 }
 JAP_Protect_Home = {

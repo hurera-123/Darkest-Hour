@@ -5450,6 +5450,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Aleksandar_I"
+        texturefile = "gfx/interface/ideas/Cabinet/YUG/Aleksandar_I.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Anton_Korosec"
         texturefile = "gfx/interface/ideas/Cabinet/YUG/Anton_Korosec.png"
     }
@@ -5487,6 +5492,16 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_Milan_Stojadinovic"
         texturefile = "gfx/interface/ideas/Cabinet/YUG/Milan_Stojadinovic.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Petar_II"
+        texturefile = "gfx/interface/ideas/Cabinet/YUG/Petar_II.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Prince_Paul"
+        texturefile = "gfx/interface/ideas/Cabinet/YUG/Prince_Paul.png"
     }
 
     spriteType = {
@@ -7787,6 +7802,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_SOV_Vocational_Training_System"
         texturefile = "gfx/interface/ideas/Spirits/SOV_Vocational_Training_System.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_SOV_Voroshilovtchina"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_Voroshilovtchina.png"
     }
 
     spriteType = {
