@@ -10,7 +10,7 @@ NDefines.NCountry.MIN_FOCUSES_FOR_CONTINUOUS = 0
 NDefines.NMilitary.BASE_COMBAT_WIDTH = 120
 NDefines.NMilitary.ADDITIONAL_COMBAT_WIDTH = 40
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 16
-NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 25
+NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 16
 NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 5
 NDefines.NMilitary.MIN_DIVISION_DEPLOYMENT_TRAINING = 0.3
 NDefines.NMilitary.SLOWEST_SPEED = 0.5
@@ -25,7 +25,7 @@ NDefines.NDiplomacy.MIN_OPINION_VALUE = -100
 NDefines.NDiplomacy.VERY_GOOD_OPINION = 50
 NDefines.NDiplomacy.VERY_BAD_OPINION = -50
 NDefines.NDiplomacy.IDEOLOGY_JOIN_FACTION_MIN_LEVEL = 0.4
-NDefines.NDiplomacy.EMBARGO_THREAT_THRESHOLD = 60					-- Target-generated threat threshold to allow embargo (affected by modifiers)
+NDefines.NDiplomacy.EMBARGO_THREAT_THRESHOLD = 100					-- Target-generated threat threshold to allow embargo (affected by modifiers)
 NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.05			-- Each province owned by the target country contributes this amount of volunteers to the limit.
 NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0.05				-- Each army unit owned by the source country contributes this amount of volunteers to the limit.
 -- Trade. changes

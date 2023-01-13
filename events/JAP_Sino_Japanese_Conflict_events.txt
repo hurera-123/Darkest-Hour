@@ -1255,6 +1255,22 @@ country_event = {
  				transfer_state = 748
  				748 = { add_core_of = RNG }
  				set_cosmetic_tag = RNG_JAP
+				create_country_leader = {
+					name = "Wang Jingwei"
+					desc = ""
+					picture = GFX_P_A_Wang_Jingwei
+					expire = "1964.1.1"
+					ideology = despotism
+					traits = { POSITION_President SUBIDEOLOGY_Despotism }
+				}
+				create_country_leader = {
+					name = "Wang Jingwei"
+					desc = ""
+					picture = GFX_P_A_Wang_Jingwei
+					expire = "1964.1.1"
+					ideology = ultranationalism
+					traits = { POSITION_President SUBIDEOLOGY_Ultranationalism }
+				}
  			}
  			if = {
  				limit = {

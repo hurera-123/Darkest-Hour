@@ -3495,7 +3495,7 @@ JAP_GEACPS_category = {
 			}
 			add_to_variable = {
 				var = JAP_Yen_Bloc_Money_Gained
-				value = 3
+				value = 0.03
 			}
 		}
 		ai_will_do = {
@@ -3535,7 +3535,7 @@ JAP_GEACPS_category = {
 			}
 			add_to_variable = {
 				var = JAP_Yen_Bloc_Money_Gained
-				value = 5
+				value = 0.05
 			}
 		}
 		ai_will_do = {
@@ -3574,7 +3574,7 @@ JAP_GEACPS_category = {
 			}
 			add_to_variable = {
 				var = JAP_Yen_Bloc_Money_Gained
-				value = 3
+				value = 0.03
 			}
 		}
 		ai_will_do = {
@@ -3616,7 +3616,7 @@ JAP_GEACPS_category = {
 			}
 			add_to_variable = {
 				var = JAP_Yen_Bloc_Money_Gained
-				value = 3
+				value = 0.03
 			}
 		}
 		ai_will_do = {
@@ -4110,10 +4110,6 @@ JAP_GEACPS_category = {
 		days_remove = 60
 		modifier = {
 			production_factory_max_efficiency_factor = 0.05
-		}
-		targeted_modifier = {
-			tag = FROM
-			production_factory_max_efficiency_factor = -0.05
 		}
 		complete_effect = {
 			add_manpower = 20000

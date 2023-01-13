@@ -1449,7 +1449,7 @@
  # GEACPS
  JAP_GEACPS_category: "§rGreater East Asia Co-Prosperity Sphere§!"
  JAP_GEACPS_category_desc: "\n\n\n£decision_header_JAP_GEACPS£\n\n\n\nThe \"Dai Tōa Kyōeiken\", or the Co-Prosperity Sphere, is a unique concept crafted by ourselves with the sole purpose of liberating the people of East Asia from the shackles of Western imperialism. This liberation, however, cannot happen without the means with which to accomplish it: abundant resources and absolute cooperation. The Old World, while corrupt and decadent, is still a powerful tyrant. With the exception of the Land of the Rising Sun, every other Asian nation is incapable of matching the European colonial powers.\n\nIn order to circumvent this disadvantage, our sworn allies must give everything they have, be they resources, factories or men, to their liberator and protector, for only the Emperor’s warriors can obtain victory against the devils of the West. Someday they will control their own fate, but not today.\n\n                                    Strength of §lHakko Ichiu§! in the §rSphere§!: [?JAP_Hakko_Ichiu_var|+=0] [This.Dynamic_JAP_Yen_Bloc]"
- JAP_Yen_Bloc_Information: "\n\n                                       §YTotal Members§! in the £yen_icon §JYen Bloc§!: [?JAP_Yen_Bloc_Members|+0]\n                                             Total £money_icon §GMoney§! Gained: [?JAP_Yen_Bloc_Money_Gained|+1%%]"
+ JAP_Yen_Bloc_Information: "\n\n                                       §YTotal Members§! in the £yen_icon §JYen Bloc§!: [?JAP_Yen_Bloc_Members|+0]\n                                             Total £money_icon §GMoney§! Gained: [?JAP_Yen_Bloc_Money_Gained|=+1%]"
  JAP_Invite_to_Yen_Bloc_Small_Puppet: "Invite [FROM.GetName] to the £yen_icon Yen Bloc"
  JAP_Invite_to_Yen_Bloc_Big_Puppet: "Invite [FROM.GetName] to the £yen_icon Yen Bloc"
  JAP_Invite_to_Yen_Bloc_India: "Invite India to the £yen_icon Yen Bloc"
@@ -1489,8 +1489,8 @@
  JAP_Discontent_in_the_Imperial_Japanese_Army: "§ODiscontent in the Imperial Japanese Army§!"
  JAP_Discontent_in_the_Imperial_Japanese_Navy: "§ODiscontent in the Imperial Japanese Navy§!"
 
- JAP_Modify_Balance_of_Power_Towards_Navy: "Modify the §YBalance of Power§! towards the §SNavy§!"
- JAP_Modify_Balance_of_Power_Towards_Army: "Modify the §YBalance of Power§! towards the §aArmy§!"
+ JAP_Modify_Balance_of_Power_Towards_Navy: "Modify the §YBalance of Power§! towards the §SNavy§!\n\n"
+ JAP_Modify_Balance_of_Power_Towards_Army: "Modify the §YBalance of Power§! towards the §aArmy§!\n\n"
  JAP_Rivalry_Decision_in_Progress: "Another decision is in progress"
  JAP_Prioritized_Steel_for_Guns_and_Artillery: "Prioritized Steel for Guns and Artillery"
  JAP_Prioritized_Steel_for_Light_Ships: "Prioritized Steel for Light Ships"
