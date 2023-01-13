@@ -3508,51 +3508,6 @@ news_event = {
 	}
 }
 ###########################
-# The Bierhallenputsch Commemoration
-###########################
-news_event = {
-	id = GER_BeerHallPutsch.1
-	title = GER_BeerHallPutsch.1.t
-	desc = GER_BeerHallPutsch.1.d
-	picture = GFX_news_GER_Beer_Hall_Putsch_Commemoration
-	fire_only_once = yes
-	trigger = {
-		original_tag = GER
-		date > 1933.11.8
-		has_start_date < 1933.11.8
-	}
-	# They shall be remembered
-	option = {
-		name = GER_BeerHallPutsch.1.A
-		add_political_power = 25
-		trigger = {
-			date < 1938.1.1
-			date > 1938.12.1
-		}
-		hidden_effect = {
-			news_event = {
-				id = GER_BeerHallPutsch.1
-				days = 365
-			}
-		}
-	}
-	# They shall be remembered (The Special 1939 version)
-	option = {
-		name = Germany_Politics.8.A
-		add_political_power = 25
-		trigger = {
-			date > 1938.1.1
-			date < 1938.12.1
-		}
-		hidden_effect = {
-			country_event = {
-				id = GER_BeerHallPutsch.2
-				days = 365
-			}
-		}
-	}
-}
-###########################
 # Surprise Attack on Scapa Flow (Major Success)
 ###########################
 country_event = {
@@ -4541,6 +4496,26 @@ news_event = {
 	}
 }
 ###########################
+# The Bierhallenputsch Commemoration
+###########################
+news_event = {
+	id = GER_BeerHallPutsch.1
+	title = GER_BeerHallPutsch.1.t
+	desc = GER_BeerHallPutsch.1.d
+	picture = GFX_news_GER_Beer_Hall_Putsch_Commemoration
+	fire_only_once = yes
+	trigger = {
+		original_tag = GER
+		date > 1933.11.8
+		has_start_date < 1933.11.8
+	}
+	# They shall be remembered
+	option = {
+		name = GER_BeerHallPutsch.1.A
+		add_political_power = 25
+	}
+}
+###########################
 # The Anniversary of The Beer Hall Putsch
 ###########################
 country_event = {
@@ -4557,14 +4532,52 @@ country_event = {
 	#Short speech
 	option = {
 		name = GER_BeerHallPutsch.2.A
-		ai_chance = {
-			factor = 90
-		}
 		hidden_effect = {
 			country_event = {
-				id = Germany_V.50
+				id = GER_BeerHallPutsch.4
 			}
 		}
+	}
+	# Long speech (Alt-hist: Hitler dies)
+	#option = {
+	#	name = GER_BeerHallPutsch.2.B
+	#	hidden_effect = {
+	#		country_event = {
+	#			id = GER_BeerHallPutsch.3
+	#		}
+	#	}
+	#}
+}
+###########################
+# The Führer has been Assassinated
+###########################
+country_event = {
+	id = GER_BeerHallPutsch.3
+	title = GER_BeerHallPutsch.3.t
+	desc = GER_BeerHallPutsch.3.d
+	picture = GFX_report_GER_Beer_Hall_Putsch_Commemoration
+	fire_only_once = yes
+	is_triggered_only = yes
+	#Short speech
+	option = {
+		name = GER_BeerHallPutsch.3.A
+
+	}
+}
+###########################
+# Assassination Attempt on Hitler
+###########################
+country_event = {
+	id = GER_BeerHallPutsch.4
+	title = GER_BeerHallPutsch.4.t
+	desc = GER_BeerHallPutsch.4.d
+	picture = GFX_report_GER_Beer_Hall_Putsch_Commemoration
+	fire_only_once = yes
+	is_triggered_only = yes
+	#Short speech
+	option = {
+		name = GER_BeerHallPutsch.4.A
+
 	}
 }
 ###########################
@@ -5565,7 +5578,7 @@ news_event = {
 	title = GER_Kuomintang.2.t
 	desc = GER_Kuomintang.2.d
 	picture = GFX_news_JAP_Operation_Nekka
-	fire_only_once = yes
+	fire_only_once = no
 	is_triggered_only = yes
 	###
 	option = {
@@ -12091,23 +12104,6 @@ country_event = {
 			news_event = {
 				id = GER_Munich_Conference_News.7
 				hours = 6
-			}
-			if = {
-				limit = {
-					has_dlc = "Death or Dishonor"
-					country_exists = YUG
-					ENG = {
-						NOT = {
-							has_war_with = YUG
-						}
-					}
-				}
-				ENG = {
-					country_event = {
-						id = DOD_yugoslavia.42
-						days = 3
-					}
-				}
 			}
 		}
 	}

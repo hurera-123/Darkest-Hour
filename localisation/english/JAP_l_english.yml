@@ -34,8 +34,8 @@
  JAP_Preserve_NUC.2.B: "Include Militarists"
  
  JAP_Preserve_NUC.3.t: "Support from the IJN"
- JAP_Preserve_NUC.3.d: ""
- JAP_Preserve_NUC.3.A: ""
+ JAP_Preserve_NUC.3.d: "Following negotiations with the command of the Imperial Japanese Navy, a number of high-ranking and respected admirals have come out in support of the government. In exchange for their support, the government has agreed to redirect some funds originally intended for the Army to the Navy. This would not be necessary in any normal country. In a normal country, the Army and Navy would be more capable of cooperating and would not demand that one be defunded in order to fund the other. However, Japan is not a typical country. The IJN and IJA have been at odds since the early 1930s, and with this most recent move by the government, the balance of power has shifted in favour of the IJN."
+ JAP_Preserve_NUC.3.A: "As it should be."
  
  JAP_Preserve_NUC.4.t: "A Deal For the Greater Good"
  JAP_Preserve_NUC.4.d: ""
@@ -275,12 +275,12 @@
 
  # Second Konoe Cabinet
  JAP_Second_Konoe_Cabinet.0.t: "A New Organization?"
- JAP_Second_Konoe_Cabinet.0.d: ""
- JAP_Second_Konoe_Cabinet.0.A: ""
+ JAP_Second_Konoe_Cabinet.0.d: "Order. This is essentially what Japan requires.\n\nThe very existence of the Yonai cabinet demonstrates this. Political parties have become too divisive, severing our government in multiple places. Aren't we all ready for something more than old liberal ideals? Something more powerful, something capable of bringing the New World Order to light, with the Empire on top. If we truly share the same goals, why do we divide ourselves into factions in the first place? It's time for a new, unifying political party to unite all men and women under one banner. We already have nationalized many of our industries and war machines, isn't it time for us to do the same for our government?\n\nAfter staring out the window for so long, Konoe finally sat down at his desk. Entranced in thought, he scribbled down the name of such an organisation that could unite all of Japan and stop it from being divided over silly squabbles:"
+ JAP_Second_Konoe_Cabinet.0.A: "The Taisei Yokusankai."
 
  JAP_Second_Konoe_Cabinet.1.t: "Facing the World"
- JAP_Second_Konoe_Cabinet.1.d: ""
- JAP_Second_Konoe_Cabinet.1.A: ""
+ JAP_Second_Konoe_Cabinet.1.d: ""The army has specifically requested your return, sir; you will take over as Prime Minister immediately. Yonai's entire cabinet has already resigned. I request that you meet with the Emperor as soon as possible."\n\nKonoe smiled, "A second chance I suppose... I'll be there soon, you're dismissed."\n\nThe officer left the room, leaving Konoe to his thoughts once again. He saw this coming from a mile away, who wouldn't at this point. The collapse of the Yonai cabinet was unfortunate, but spelled a greater opportunity for his own formation of a cabinet. This premiership wouldn't be the same as the last, in fact it seems it will be an uphill battle to the very end. The conflict in China needs to be resolved, whether it be peace or a continued effort for total victory. While at the same time, the government will need to walk a tightrope with the United States, as a possible war looms. The right pick of a new Foreign Minister will be vital if the cabinet is to survive. Konoe stood up from his desk and adjusted his uniform..."
+ JAP_Second_Konoe_Cabinet.1.A: "Time to face the world once more."
 
  JAP_Second_Konoe_Cabinet.2.t: "The Karuizawa Conference"
  JAP_Second_Konoe_Cabinet.2.d: ""

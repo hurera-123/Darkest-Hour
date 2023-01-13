@@ -166,6 +166,13 @@ country_event = {
 				}
 			}
 			add_manpower = 10000
+			hidden_effect = {
+				add_state_claim = 7
+				add_state_claim = 35
+				add_state_claim = 36
+				add_state_claim = 960
+				add_state_claim = 1128
+			}
 		}
 		puppet = RND
 		set_autonomy = {
@@ -176,7 +183,7 @@ country_event = {
 			limit = {
 				is_core_of = HOL
 			}
-			add_compliance = 20
+			add_compliance = 25
 		}
 		send_equipment = {
 			equipment = infantry_equipment
@@ -227,6 +234,13 @@ country_event = {
 				}
 			}
 			add_manpower = 10000
+			hidden_effect = {
+				add_state_claim = 7
+				add_state_claim = 35
+				add_state_claim = 36
+				add_state_claim = 960
+				add_state_claim = 1128
+			}
 		}
 		puppet = RND
 		set_autonomy = {
@@ -243,7 +257,7 @@ country_event = {
 			limit = {
 				is_core_of = HOL
 			}
-			add_compliance = 20
+			add_compliance = 25
 		}
 	}
 	### Full Occupation
@@ -279,6 +293,16 @@ country_event = {
 			transfer_state = 1204
 			transfer_state = 1553
 			add_manpower = 10000
+			hidden_effect = {
+				add_state_claim = 6
+				add_state_claim = 964
+				add_state_claim = 34
+				add_state_claim = 960
+				add_state_claim = 1505
+				add_state_claim = 762
+				add_state_claim = 1204
+				add_state_claim = 1553
+			}
 		}
 		puppet = RBF
 		RBF = {
@@ -306,6 +330,12 @@ country_event = {
 		set_autonomy = {
 			target = RBF
 			autonomy_state = AUTONOMY_Reichskommissariat
+		}
+		every_state = {
+			limit = {
+				is_controlled_by = RBF
+			}
+			add_compliance = 25
 		}
 		GER = {
 			transfer_state = 802
@@ -367,6 +397,23 @@ country_event = {
 					L_PowerHungry_Demagogue
 				}
 			}
+			hidden_effect = {
+				add_state_claim = 110
+				add_state_claim = 142
+				add_state_claim = 143
+				add_state_claim = 1615
+				add_state_claim = 1125
+				add_state_claim = 1613
+				add_state_claim = 1618
+				add_state_claim = 1127
+				add_state_claim = 1126
+				add_state_claim = 1614
+				add_state_claim = 1617
+				add_state_claim = 1616
+				add_state_claim = 144
+				add_state_claim = 1124
+				add_state_claim = 1561
+			}
 		}
 		add_manpower = -10000
 		send_equipment = {
@@ -378,7 +425,7 @@ country_event = {
 			limit = {
 				is_core_of = NOR
 			}
-			add_compliance = 20
+			add_compliance = 25
 		}
 		puppet = RNR
 		set_autonomy = {

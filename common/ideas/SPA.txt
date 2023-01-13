@@ -15,7 +15,7 @@ ideas = {
 		SPA_Reorganising_Command_Structure = {
 			picture = tur_disorganised_armed_forces
 			modifier = {
-				army_attack_factor = -0.4
+				army_attack_factor = -0.6
 				army_speed_factor = -0.7
 				local_org_regain = -0.2
 			}

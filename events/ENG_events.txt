@@ -62,9 +62,9 @@ news_event = {
 		custom_effect_tooltip = ENG_Chamberlains_Ministry_is_Formed
 		hidden_effect = {
 			add_ideas = {
-				ENG_FM_Anthony_Eden
-				ENG_AM_John_Simon
-				ENG_MoS_Samuel_Hoare
+				ENG_Anthony_Eden_FM
+				ENG_John_Simon_AM
+				ENG_Samuel_Hoare_MoS
 			}
 			mark_focus_tree_layout_dirty = yes
 		}
@@ -172,9 +172,9 @@ news_event = {
 		set_country_flag = ramsay_resigned
 		hidden_effect = {
 			add_ideas = {
-				ENG_FM_Samuel_Hoare
-				ENG_AM_Neville_Chamberlain
-				ENG_MoS_John_Simon
+				ENG_Samuel_Hoare_FM
+				ENG_Neville_Chamberlain_AM
+				ENG_John_Simon_MoS
 			}
 			mark_focus_tree_layout_dirty = yes
 		}

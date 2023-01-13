@@ -252,5 +252,5 @@
 
  # Events:
  Parliament_Events.EVTNAME1: "Parliament Election"
- Parliament_Events.EVTDESC1: "Placeholder Desc"
- Parliament_Events1.EVTOPT1: "Ok."
+ Parliament_Events.EVTDESC1: "Today, our country celebrates one of its most cherished traditions: parliamentary elections. While the government has had some successes, it has also had some setbacks. Predictions about whether the current governing coalition will retain power are, as usual, all over the place. As the campaigns wind down and people flock to the polls in droves, everyone waits with bated breath to see what the future holds for our great country."
+ Parliament_Events1.EVTOPT1: "Whoever wins, it is also a victory for democracy."

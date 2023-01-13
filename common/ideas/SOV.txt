@@ -1851,7 +1851,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture =
+			picture = SOV_Voroshilovtchina
 
 			modifier = {
 				political_power_factor = 0.15
@@ -1873,7 +1873,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture =
+			picture = SOV_Voroshilovtchina
 
 			modifier = {
 				political_power_factor = 0.15

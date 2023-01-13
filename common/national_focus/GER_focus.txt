@@ -4800,6 +4800,20 @@ focus_tree = {
 				id = GER_Kuomintang.2
 				hours = 6
 			}
+			hidden_effect = {
+				CHI = {
+					news_event = {
+						id = GER_Kuomintang.2
+						hours = 6
+					}
+				}
+				JAP = {
+					news_event = {
+						id = GER_Kuomintang.2
+						hours = 6
+					}
+				}
+			}
 		}
 		relative_position_id = GER_Chancellor_Hitler
 	}

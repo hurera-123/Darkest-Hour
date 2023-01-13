@@ -111,7 +111,7 @@ characters={
 		name=DNZ_Ernst_Ziehm
 		portraits={
 			civilian={
-				large="GFX_P_F_Ernst_Ziehm"
+				large="GFX_P_A_Ernst_Ziehm"
 			}
 		}
 		country_leader={

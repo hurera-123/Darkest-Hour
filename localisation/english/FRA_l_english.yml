@@ -643,8 +643,8 @@
  FRA_Wartime_Tree.2.A: ""
 
  FRA_Wartime_Tree.3.t: "[This.GetLeader] Government is Overthrown"
- FRA_Wartime_Tree.3.d: ""
- FRA_Wartime_Tree.3.A: ""
+ FRA_Wartime_Tree.3.d: "France appears to be in terminal decline. The English have fled the continent, abandoning everything in their haste, leaving our beleaguered army to face the Germans alone. Many in France believe that the British are attempting to use France to bleed out the Germans once more, and this sense of betrayal and rage at the British has permeated the Cabinet, where Prime Minister [This.GetLeader] has been attacked by a peace faction led by Philippe Petain and Commander in Chief Maxime Waygand. The Prime Minister fought hard against defeatists in his government, proposing a variety of solutions to France's problem.\n\nHe proposed that the government move to and fortify Brittany before continuing the fight, or that it move to North Africa and fight from there while maintaining a guerrilla war in the metropole. The Cabinet rejected both of these. He then proposed that France follow the Dutch example by surrendering the Metropole but fighting on in the colonies, but this was rejected as an unacceptable surrender. Finally, he presented the Cabinet with a last-ditch effort to keep the fight going. He proposed that France and Britain unite to fight as one great nation. He was met with intense hostility right away. Petain called it "fusion with a corpse," while others saw it as a sinister British plot to steal France's colonies, declaring that they would rather be a Nazi province than a British dominion. The outright refusal of the plan appeared to finally shatter Reynaud, and in response, and without even voting on the proposal, [This.GetLeader] resigned as France's Prime Minister. As he attempted to flee to North Africa, the President, who wished to continue the fight, had little choice but to appoint Philippe Petain as Prime Minister."
+ FRA_Wartime_Tree.3.A: "Sacre bleu!"
 
  FRA_Wartime_Tree.4.t: "The Old Lion"
  FRA_Wartime_Tree.4.d: ""

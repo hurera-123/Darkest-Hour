@@ -373,7 +373,7 @@
  GER_Raeders_Surface_Raiders_tt: "§YErich Raeder§! Will be appointed as §YCommander-in-Chief§! of the Kriegsmarine\n"
 
  GER_Establish_the_Wehrmacht: "Establish the Wehrmacht"
- GER_Establish_the_Wehrmacht_desc: "We need to have a military force that is loyal to Hitler and any loyal Aryan can join it. It is our great army and navy which can shine with the SS and other elements of the Heer and the Kriegsmarine. We can use the military force to achieve the Reich’s goals, as we can use them as defense and offensive soldiers that will show our might to the world.\n\nIt is different from the Reichswehr as we can have more than 100,000 men and the best were forced to retire and the fact the Reichswehr is part of the weak Weimar Republic and we need something which stands for all of Germany.\n\nWe can break the chains of Versailles and we will show the world our strength and might!"
+ GER_Establish_the_Wehrmacht_desc: "We need to build a military force that is not only strong and powerful, but also loyal to Hitler and the Aryan race. All branches of the Wehrmacht, those being the Heer, the Luftwaffe, and the Kriegsmarine, are not up to our proud German standards, so it is imperative that we modernise them to ensure that the goals of the Reich are achieved.\n\nThe old Reichswehr was just 100,000 soldiers. This new-look Wehrmacht will represent a new and reborn Germany that will not be held back any longer, and we shall march into the future with a proud and strong army to protect what we have built in this sacred land!"
  GER_Establish_the_Wehrmacht_tt: "§YWe Have Denounced the Disarmament Clauses§!"
  GER_Establish_the_Wehrmacht_tt2: "§YThe German Defence Forces§! will be Established, Unlocking the §aHeer§!, §SLuftwaffe§! and §oKriegsmarine§! trees\n\n"
 
@@ -819,8 +819,8 @@
 
  GER_Reichsparteitag.5.t: "Reichsparteitag der Arbeit"
  GER_Reichsparteitag.5.d: "[FROM.GetNewsIcon]This year our glorious leader celebrated the success of the work reforms, and the incredibly low unemployment rates that followed in their wake. He proceeded to promise additional employments, since a populous without work simply won’t do for the German Reich! The Führer was visibly proud of the accomplishments of his people, and as his speech reached its crescendo the spellbound audience applauded wildly before watching the yearly parade through the great city of Nürnberg."
- GER_Reichsparteitag.5.A: "Focus on Unemployment!"
- GER_Reichsparteitag.5.B: "Focus on Work Ethics!"
+ GER_Reichsparteitag.5.A: "Focus on unemployment!"
+ GER_Reichsparteitag.5.B: "Focus on work ethics!"
 
  GER_Reichsparteitag.6.t: "Reichsparteitag Großdeutschland"
  GER_Reichsparteitag.6.d: "[FROM.GetNewsIcon]In what must be one of the largest Reichsparteitag celebrations ever, nearly half a million Germans gathered in Nürnberg over the week, celebrating the Anschluss of Austria, where the Austrian population were integrated into the Reich. As expected, this major success was the focal point of the Führer’s speech, where he welcomed the Austrians as his own kin."
@@ -835,9 +835,9 @@
  GER_Reichsparteitag.8.A: "Glory to the Reich!"
 
  GER_Reichsparteitag.11.t: "The Reichsparteitag Begins!"
- GER_Reichsparteitag.11.d: ""
- GER_Reichsparteitag.11.A: "Focus on Unemployment!"
- GER_Reichsparteitag.11.B: "Focus on Work Ethics!"
+ GER_Reichsparteitag.11.d: "Joseph Goebbels opened this year's Reichsparteitag in Nuremberg with a grand speech today. They have been held every year since 1923 and have gradually grown in importance as the Party's fortunes have improved. They have become a focal point of Party life and massive propaganda events since Hitler's rise to power, and are used by Hitler and the Party not only to demonstrate their popularity with the public, but also to announce new policy initiatives, provide a preview of what the coming year will bring, and celebrate recent successes. This year promises to be no different, as the nation and the rest of the world as a whole is watching and waiting with bated breath to see what our radical regime has in store. This year's Rally has been dubbed the Rally of Labour, and Hitler intends to speak about his regime's efforts to reduce unemployment as well as the ever-laudable German work ethic. However, there is still a choice to be made. Is he to focus more on his achievements in putting Germany to work or on how great Germany's work has been?"
+ GER_Reichsparteitag.11.A: "Focus on unemployment!"
+ GER_Reichsparteitag.11.B: "Focus on work ethics!"
 
 #### Gleichschaltung Events
  GER_Gleichschaltung.1.t: "Gleichschaltung law passed in the Reichstag!"
@@ -1263,12 +1263,12 @@
  GER_BeerHallPutsch.1.d: "[FROM.GetNewsIcon]Today is once again the annual celebration of the Beer Hall Putsch, our party’s first attempt at spreading the Nazi ideology to the masses and liberate Germany from foreign Imperialism. We attempted a seizure of power in the city of Munich, one of the major cities in Germany and holds significant amounts of economic clout and political influence.\n\nAs such, we believed it to be the best choice as the heart of the revolution. With the help of our monarchist allies such as Erich Ludendorff, we fought bravely and gallantly to light the fires of the revolution. Unfortunately, the central government was not keen to such event occurring in the South, and as such, sent a sizable amount of police forces to counter our advances, eventually crushing the revolution temporarily.\n\nThis single act of German nationalism shall be remembered and celebrated every year, so that our people will be reinvigorated with Nationalism and Germanic supremacy, capable of defending the Fatherland from threats both at home and abroad."
  GER_BeerHallPutsch.1.A: "They shall be remembered"
 
- GER_BeerHallPutsch.2.t: "The Anniversary Of The Beer Hall Putsch"
+ GER_BeerHallPutsch.2.t: "The Anniversary of the Beer Hall Putsch"
  GER_BeerHallPutsch.2.d: "Today, 16 years ago, the decadent government of the Weimar republic imprisoned and shed the blood the members of the NSDAP as they tried to seize power, save and lead the German people to greatness. Now, since their rise to power, The Führer has made a celebratory, annual ritual, addressing the old guard of the party, before performing a reenactment of the march down the streets of Munich. The guests have arrived, alongside a massive crowd, and the Führer is ready to have a word with his loyal followers."
  GER_BeerHallPutsch.2.A: "Let's make this short and simple."
  GER_BeerHallPutsch.2.B: "Time for a long, rousing speech! The way only the Führer can deliver!"
 
- GER_BeerHallPutsch.3.t: "The Führer has been Assassinated"
+ GER_BeerHallPutsch.3.t: "The Führer Has Been Assassinated"
  GER_BeerHallPutsch.3.d: "Despair across the streets of Munich yesterday, when on the 16th the anniversary of the Marsch auf die Feldherrnhalle, during the annual address to followers, The Führer himself has suffered an attempt against his life! Mere moments after the end of his speech, as the most powerful man of Germany finished his riling speech the Bürgerbräukeller, the infamous Beer Hall that housed the NSDAP members in its infancy, suffered an explosion. The Führer found himself within the blast, alongside at least 71 wounded, and 8 that have perished to what investigators claim to have been a concealed bomb set behind one of the pillars. The Chancellor was rushed to the University Hospital of Munich, and appeared stable. It was only this morning that news reached the worried population, that the Führer succumbed to his wounds, as the sun rose. Deputy Führer Rudolph Hess, has refused to offer any statements, before leaving to attend a summit of the party's high-echelon. Germans across the Reich weep and wonder what will come out of this tragedy."
  GER_BeerHallPutsch.3.A: "How could something like this have happened?!"
 
@@ -1439,10 +1439,6 @@
  GER_Reichsverteidigung.5.A: "„I am sorry.“"
 
  GER_Spezialangriff_Abfangjager_tt: "§RWe will Sacrifice our Aircraft to slow down the Enemy!§!"
-
- Germany_V.50.t: "Assassination Attempt On Hitler"
- Germany_V.50.d: ""
- Germany_V.50.A: "How could something like this have happened?!"
 
  Germany_V.52.t: "Hitler visits Paris"
  Germany_V.52.d: "[FROM.GetNewsIcon]Not long after the magnificent subjugation of the French state by the impetus of the German forces, The Führer has embarked on an entourage across the recently occupied country. After spending the early evening at the Opera, which the Chancellor reportedly enjoyed, he, followed by none other than the great architect Albert Speer, drove down the Madeleine, then followed to the Champs-Élysées, the Trocadero, and then, finally, to the Eiffel Tower, where a picture was taken by request of the Führer himself. Later, Hitler ordered another stop at the tomb of Napoleon, where, in solemn silence, he stood for a long time."
@@ -2166,13 +2162,13 @@
  GER_Berlin_Pact.3.A: ""
 
  GER_Berlin_Pact.4.t: "The Formalization of the Berlin Pact"
- GER_Berlin_Pact.4.d: "[FROM.GetNewsIcon]"
- GER_Berlin_Pact.4.A: ""
- GER_Berlin_Pact.4.B: ""
+ GER_Berlin_Pact.4.d: "[FROM.GetNewsIcon]The Japanese government formally joined the Pact of Steel today in a ceremony packed with reporters, transforming the European Axis into a global alliance of authoritarianism. Germany and Japan have been talking about Japan joining the Axis for years. However, Japan's hesitancy on the issue has some international observers wondering if the two sides will ever reach an agreement. Today, however, answers those questions. Italy, Germany, and Japan appear to have a lot to gain from one another as a united bloc against the twin perils of democracy and Communism. However, with Japan on the other side of the globe from its allies and a large and powerful Soviet adversary between the two, it is unlikely that Japan and its European allies could or would cooperate meaningfully. Despite this, the formalization of the Pact has heightened tensions in London, Amsterdam, and Paris. Japan now has a powerful ally in Germany, putting Europe's Asian colonies in greater danger than ever before."
+ GER_Berlin_Pact.4.A: "Storm clouds gather on the horizon..."
+ GER_Berlin_Pact.4.B: "The New Order dawns!"
 
  GER_Berlin_Pact.5.t: "The Formalization of the Berlin Pact"
- GER_Berlin_Pact.5.d: ""
- GER_Berlin_Pact.5.A: ""
+ GER_Berlin_Pact.5.d: "The signing of the Pact of Steel with Italy in 1933 was an important first step toward forming an authoritarian alliance to oppose both Western European democracies and the Soviet behemoth. However, neither us nor the Italians have the reach to attack the Western Democracies' Asian outposts, nor do we have a large enough military to face the full force of the Red Army. To address both of these issues, we began began to reach out to Japan. After years of deliberation and stalling, Japan finally signed up to the Pact of Steel, transforming it into the Tripartite Pact. This pact is purely defensive in nature, and as such, each nation retains the option of not becoming involved in any unnecessary wars started by the others. Few expect either of the first two to oppose a third. Some are also surprised that we would side with the Japanese, who are not of Aryan descent or even white. Hitler, on the other hand, is a pragmatist who recognizes that the benefits of having a Japanese ally far outweigh the drawbacks."
+ GER_Berlin_Pact.5.A: "Unity and power!"
 
 # Allied Diplomacy events
  GER_Naval_Agreement.1.t: "[FROM.GetLeader]'s speech gives us an opportunity"
@@ -2311,7 +2307,7 @@
  GER_Molotov_Ribbentrop.5.D: "Oh crap..."
 
  GER_Molotov_Ribbentrop.6.t: "Respect the Agreement"
- GER_Molotov_Ribbentrop.6.d: ""
+ GER_Molotov_Ribbentrop.6.d: "After the successful occupation of Poland, it is time for us to respect the accord signed with the Soviets. We should give them control of all of Eastern Poland.\n\nWhile some inside the army are worried by this partition, as they don’t see the Bolsheviks as trustworthy allies, others, notably the Russophiles, argue that we should preserve the friendship with the Soviets at all costs.\n\nFor now, we have decided to evacuate these territories. There is nothing interesting in the East of Poland anyway."
  GER_Molotov_Ribbentrop.6.A: "Yes"
 
  GER_Molotov_Ribbentrop.7.t: "Respect the Agreement"
@@ -2456,12 +2452,12 @@
  GER_Danube.25.B: "We really haven't a choice"
 
  GER_Danube.26.t: "Southern Dobruja to Stay Romanian!"
- GER_Danube.26.d: ""
- GER_Danube.26.A: "Germany's Influence in the Balkans Grows"
+ GER_Danube.26.d: "After the end of the Second Balkan War, the territory of Southern Dobruja was seized by the Romanian army.\n\nThis annexation has been a source of tensions for the last two decades, and since then, the Bulgarians have always claimed it as legitimate territory of theirs.\n\nSo, a few days ago, when a new crisis threatened to burst between the two neighbours, Germany accepted to be a mediator between the two countries. And, after a few deliberations, they gave their verdict.\n\nClaiming that Romania has gained the right to govern it by the right of conquest, they supported the Romanian government in this crisis. Of course, the Tsardom of Bulgaria had no other choice than to accept this result"
+ GER_Danube.26.A: "Germany's influence in the Balkans grows"
 
  GER_Danube.27.t: "Southern Dobruja to Become Bulgarian!"
- GER_Danube.27.d: ""
- GER_Danube.27.A: "A Dangerous Move"
+ GER_Danube.27.d: "After the end of the Second Balkan War, the territory of Southern Dobruja was seized by the Romanian army.\n\nThis annexation has been a source of tensions for the last two decades, and since then, the Bulgarians have always claimed it as legitimate territory of theirs.\n\nSo, a few days ago, when a new crisis threatened to burst between the two neighbours, Germany accepted to be a mediator between the two countries. And, after a few deliberations, they gave their verdict.\n\nArguing that Bulgaria has the legitimacy of the historical heritage, they followed the Tsar’s government in this crisis. This is not really a surprise, as the German Reich is known for its irredentist rhetoric."
+ GER_Danube.27.A: "A dangerous move"
 
  GER_Danube.28.t: "Germany asks us to keep our oil influx"
  GER_Danube.28.d: ""
