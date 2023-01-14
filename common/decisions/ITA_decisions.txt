@@ -3302,6 +3302,7 @@ ITA_The_Balkan_Strategy = {
 			has_completed_focus = ITA_Expand_Our_Influence
 		}
 		available = {
+			has_global_flag = ITA_Annexed_Albania
 			country_exists = GRE
 			GRE = {
 				is_subject = no
@@ -3317,11 +3318,9 @@ ITA_The_Balkan_Strategy = {
 			set_country_flag = ITA_Invasion_of_Greece
 		}
 		remove_effect = {
-			GRE = {
-				country_event = {
-					id = ITA_Invasion_of_Greece.1
-					days = 1
-				}
+			country_event = {
+				id = ITA_Invasion_of_Greece.1
+				days = 1
 			}
 		}
 		ai_will_do = {

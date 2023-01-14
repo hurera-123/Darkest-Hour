@@ -10713,6 +10713,12 @@ country_event = {
 		}
 		add_ideas = YUG_Petar_II_HoG
 		leave_faction = yes
+		every_country = {
+			limit = {
+				has_war_with = YUG
+			}
+			white_peace = YUG
+		}
 		clr_country_flag = GER_Tripartite_Pact
 		set_temp_variable = {
 			GER_Influence_to_add = -100
