@@ -19,7 +19,7 @@ characters={
 		name=USA_Wendell_Willkie
 		portraits={
 			civilian={
-				large="GFX_P_D_Wendell_Wilkie"
+				large="GFX_P_D_Wendell_Willkie"
 			}
 		}
 	}
