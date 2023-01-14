@@ -28,6 +28,7 @@ add_namespace = USA_Smoot_Hawley
 add_namespace = USA_Department_of_War
 add_namespace = USA_Wilkie_Dead
 add_namespace = USA_McNary_Dead
+add_namespace = USA_FDR_Dead
 add_namespace = USA_Philippines
 add_namespace = USA_Status_New_Territories
 add_namespace = USA_Capitulate_Japan
@@ -5359,7 +5360,7 @@ country_event = {
 	id = USA_1940_1944_Wilkie.14
 	title = USA_1940_1944_Wilkie.14.t
 	desc = USA_1940_1944_Wilkie.14.d
-	picture = GFX_news_USA_Bank_Holiday
+	picture = GFX_report_USA_1940_DNC_Roosevelt
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -5374,7 +5375,7 @@ country_event = {
 	id = USA_1940_1944_Wilkie.15
 	title = USA_1940_1944_Wilkie.15.t
 	desc = USA_1940_1944_Wilkie.15.d
-	picture = GFX_news_USA_Capitol_Hill
+	picture = GFX_report_USA_Capitol
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -5390,7 +5391,7 @@ country_event = {
 	id = USA_Wilkie_Dead.1
 	title = USA_Wilkie_Dead.1.t
 	desc = USA_Wilkie_Dead1.d
-	picture = GFX_news_USA_Bank_Holiday
+	picture = GFX_report_USA_Capitol
 	fire_only_once = yes
 	trigger = {
 		tag = USA
@@ -5420,7 +5421,7 @@ country_event = {
 	id = USA_McNary_Dead.1
 	title = USA_McNary_Dead.1.t
 	desc = USA_McNary_Dead.1.d
-	picture = GFX_news_USA_Bank_Holiday
+	picture = GFX_report_USA_Capitol
 	fire_only_once = yes
 	trigger = {
 		tag = USA
@@ -5494,6 +5495,52 @@ country_event = {
 				}
 			}
 		}
+	}
+}
+
+# President Roosevelt Dead!
+country_event = {
+	id = USA_FDR_Dead.1
+	title = USA_FDR_Dead.1.t
+	desc = USA_FDR_Dead.1.d
+	picture = GFX_report_USA_Capitol
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		date > 1945.4.12
+		has_country_leader = {
+			ruling_only = yes
+			name = "Franklin D. Roosevelt"
+		}
+	}
+	option = {
+		name = USA_FDR_Dead.1.A
+		kill_country_leader = yes
+		add_country_leader_role = {
+			character = USA_Harry_S_Truman
+			promote_leader = yes
+			country_leader = {
+				desc = USA_Harry_S_Truman_desc
+				ideology = social_conservatism
+				expire = "1964.1.1"
+				traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+			}
+		}
+		hidden_effect = {
+			news_event = { id = USA_FDR_Dead.2 hours = 6 }
+		}
+	}
+}
+# President Roosevelt Dead!
+news_event = {
+	id = USA_FDR_Dead.2
+	title = USA_FDR_Dead.2.t
+	desc = USA_FDR_Dead.2.d
+	picture = GFX_news_USA_FDR_Death
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = USA_FDR_Dead.2.A
 	}
 }
 

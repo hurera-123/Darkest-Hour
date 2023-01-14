@@ -30,10 +30,6 @@ Build_Only_Civs_Custom = {
 				original_tag = JAP
 			}
 			AND = {
-				date < 1939.1.1
-				original_tag = USA
-			}
-			AND = {
 				date < 1935.1.1
 				original_tag = CHI
 			}
@@ -62,10 +58,6 @@ Build_Only_Civs_Custom = {
 			AND = {
 				date > 1935.1.1
 				original_tag = JAP
-			}
-			AND = {
-				date > 1939.1.1
-				original_tag = USA
 			}
 			AND = {
 				date > 1935.1.1
@@ -153,10 +145,6 @@ Increase_Mils_Construction_Ratio_1936 = {
 Build_Only_Mils_Custom = {
 	enable = {
 		OR = {
-			AND = {
-				date > 1939.1.1
-				original_tag = USA
-			}
 			AND = {
 				date > 1935.1.1
 				original_tag = CHI

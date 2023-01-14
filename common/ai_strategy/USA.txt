@@ -375,6 +375,83 @@ USA_Increase_Military_Factories = {
 		value = 100
 	}
 }
+USA_Build_Only_Civs = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		date < 1938.1.1
+	}
+	abort = {
+		date > 1938.1.1
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = 800
+	}
+	ai_strategy = {
+		type = building_target
+		id = infrastructure
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = coastal_bunker
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = naval_base
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = air_base
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = rail_way
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = supply_node
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = radar_station
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = anti_air_building
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = bunker
+		value = -500
+	}
+}
+USA_Build_Only_Mils = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		date > 1938.1.1
+	}
+	abort = {
+		date > 1942.1.1
+	}
+	ai_strategy = {
+		type = building_target
+		id = arms_factory
+		value = 800
+	}
+}
 USA_Increase_Army = {
 	allowed = {
 		original_tag = USA
@@ -386,7 +463,7 @@ USA_Increase_Army = {
 	}
 	abort = {
 		has_army_size = {
-			size > 100
+			size > 150
 		}
 	}
 	ai_strategy = {
@@ -395,7 +472,23 @@ USA_Increase_Army = {
 	}
 	ai_strategy = {
 		type = build_army
-		value = 500
+		id = infantry
+		value = 100
+	}
+	ai_strategy = {
+		type = build_army
+		id = armor
+		value = 20
+	}
+	ai_strategy = {
+		type = build_army
+		id = motorized
+		value = 15
+	}
+	ai_strategy = {
+		type = build_army
+		id = mechanized
+		value = 15
 	}
 }
 USA_save_the_aussies = {

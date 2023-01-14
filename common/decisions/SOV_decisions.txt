@@ -1624,8 +1624,7 @@ foreign_politics = {
 		ai_will_do = {
 			factor = 10
 			modifier = {
-				add = 100
-				factor = 500
+				add = 500
 				date > 1939.9.30
 			}
 		}
@@ -1675,8 +1674,7 @@ foreign_politics = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 100
-				factor = 500
+				add = 500
 				date > 1940.6.10
 			}
 		}
@@ -1735,8 +1733,7 @@ foreign_politics = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 100
-				factor = 500
+				add = 500
 				date > 1940.6.10
 			}
 		}
@@ -1770,8 +1767,7 @@ foreign_politics = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 200
-				factor = 100
+				add = 500
 				date > 1944.10.11
 			}
 		}

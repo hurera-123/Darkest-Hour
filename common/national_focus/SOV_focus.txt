@@ -1850,7 +1850,12 @@ focus_tree = {
 			NOT = {
 				has_country_flag = Mikhail_N_Tukhatchevskiy_unavailable
 			}
-			has_idea = SOV_Mikhail_N_Tukhatchevskiy_CoStaff
+			if = {
+				limit = {
+					is_ai = no
+				}
+				has_idea = SOV_Mikhail_N_Tukhatchevskiy_CoStaff
+			}
 		}
 		completion_reward = {
 			add_timed_idea = {
@@ -1883,7 +1888,12 @@ focus_tree = {
 			NOT = {
 				has_country_flag = Kliment_Y_Voroshilov_unavailable
 			}
-			has_idea = SOV_Kliment_Y_Voroshilov_CoStaff
+			if = {
+				limit = {
+					is_ai = no
+				}
+				has_idea = SOV_Kliment_Y_Voroshilov_CoStaff
+			}
 		}
 		completion_reward = {
 			add_timed_idea = {

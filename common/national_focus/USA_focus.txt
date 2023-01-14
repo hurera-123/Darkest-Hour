@@ -1718,12 +1718,21 @@ focus_tree = {
 		x = 25
 		y = 1
 		available = {
-			set_temp_variable = {
-				total_support_to_check = 0.5
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				date > 1936.1.1
 			}
-			has_at_least_parliament_total_support = yes
-			threat > 0.35
-			has_war_support > 0.4
+			else = {
+				date > 1935.1.1
+				set_temp_variable = {
+					total_support_to_check = 0.5
+				}
+				has_at_least_parliament_total_support = yes
+				has_war_support > 0.4
+			}
+			
 		}
 		completion_reward = {
 			country_event = USA_Army.1
@@ -8129,6 +8138,9 @@ focus_tree = {
 		}
 		available = {
 			has_war = no
+			has_country_leader = {
+				character = USA_Robert_A_Taft
+			}
 		}
 		prerequisite = {
 			focus = USA_Complete_Mobilization
@@ -8174,6 +8186,15 @@ focus_tree = {
 		cost = 40
 		available = {
 			has_country_flag = USA_FDR_Wins_1944_Election_focus
+			has_country_leader = {
+				ruling_only = yes
+				name = "Franklin D. Roosevelt"
+			}
+		}
+		bypass = {
+			has_country_leader = {
+				character = USA_Harry_S_Truman
+			}
 		}
 		relative_position_id = USA_The_War_Continues
 		x = -1
@@ -8196,6 +8217,9 @@ focus_tree = {
 		prerequisite = {
 			focus = USA_The_Final_Stretch
 		}
+		bypass = {
+			has_war = no
+		}
 		relative_position_id = USA_The_Final_Stretch
 		x = -1
 		y = 1
@@ -8212,6 +8236,9 @@ focus_tree = {
 		prerequisite = {
 			focus = USA_The_Final_Stretch
 		}
+		bypass = {
+			has_war = no
+		}
 		relative_position_id = USA_The_Final_Stretch
 		x = 1
 		y = 1
@@ -8227,6 +8254,12 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = USA_Ensure_Victory_Through_Lend_Lease
+		}
+		available = {
+			has_war = no
+			has_country_leader = {
+				character = USA_Harry_S_Truman
+			}
 		}
 		relative_position_id = USA_United_We_Stand
 		x = -4
@@ -8256,6 +8289,12 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = USA_Ensure_Victory_Through_Lend_Lease
+		}
+		available = {
+			has_war = no
+			has_country_leader = {
+				character = USA_Harry_S_Truman
+			}
 		}
 		relative_position_id = USA_United_We_Stand
 		x = -2
@@ -8386,6 +8425,12 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = USA_Ensure_Victory_Through_Lend_Lease
+		}
+		available = {
+			has_war = no
+			has_country_leader = {
+				character = USA_Harry_S_Truman
+			}
 		}
 		relative_position_id = USA_United_We_Stand
 		x = 1
@@ -8774,6 +8819,12 @@ focus_tree = {
 		prerequisite = {
 			focus = USA_Ensure_Victory_Through_Lend_Lease
 		}
+		available = {
+			has_war = no
+			has_country_leader = {
+				character = USA_Harry_S_Truman
+			}
+		}
 		relative_position_id = USA_United_We_Stand
 		x = 4
 		y = 1
@@ -8790,6 +8841,12 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = USA_Ensure_Victory_Through_Lend_Lease
+		}
+		available = {
+			has_war = no
+			has_country_leader = {
+				character = USA_Harry_S_Truman
+			}
 		}
 		relative_position_id = USA_United_We_Stand
 		x = 6
