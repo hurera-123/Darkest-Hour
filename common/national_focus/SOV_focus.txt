@@ -3920,6 +3920,9 @@ focus_tree = {
 		available = {
 			always = no
 		}
+		bypass = {
+			has_defensive_war_with = GER
+		}
 		prerequisite = {
 			
 		}

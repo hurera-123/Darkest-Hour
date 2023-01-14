@@ -375,7 +375,6 @@ on_actions = {
 				hidden_effect = {
 					SOV = {
 						country_event = { id = GER_SOV_War.1 }
-						complete_national_focus = SOV_The_Great_Patriotic_War
 						if = {
 							limit = {
 								has_country_leader = {
