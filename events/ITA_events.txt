@@ -1074,6 +1074,7 @@ country_event = { #Capitulation of Ethiopia
 		}
 		hidden_effect = {
 			AOI = {
+				inherit_technology = ITA
 				country_event = { id = AOI_Leadership_Changes.1 days = 32 }
 				add_autonomy_score = {
 					value = 100

@@ -4482,7 +4482,7 @@ country_event = {
 	desc = JAP_Pearl_Harbor.1.d
 	picture = GFX_report_JAP_Officers
 	is_triggered_only = yes
-	# If you do not enter the Tiger's cave, you will not catch it's cub.
+	# If you do not enter the Tiger's cave, you will not catch its cub.
 	option = {
 		name = JAP_Pearl_Harbor.1.A
 		set_variable = {
@@ -4615,7 +4615,7 @@ country_event = {
 	}
 	# Pearl itself must be put out of action
 	option = {
-		name = JAP_Pearl_Harbor.6.A
+		name = JAP_Pearl_Harbor.6.B
 		ai_chance = {
 			base = 0
 		}

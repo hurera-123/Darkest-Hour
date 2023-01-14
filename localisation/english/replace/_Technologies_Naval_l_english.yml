@@ -5,7 +5,7 @@
  #### Screens 
  #############################################
 ### Submarines SS
- SS_equipment: "\nAttack Submarine"
+ SS_equipment: "Attack Submarine"
  SS_equipment_1895: "Dive Boat '1895"
  SS_equipment_1895_desc: "The Submarine is designed to travel underwater allowing it to operate clandestinely against other naval units. Its main armament consists of torpedoes which are deadly against all other types of vessel, be they Carrier, Battleship, Naval Transport or another Submarine. However, the Submarine can be handicapped by a short range and new technologies to improve them can be expensive."
  SS_equipment_1912: "Submarine '12"
@@ -35,7 +35,7 @@
  SSK_equipment_1990: "SSK '90"
  SSK_equipment_1990_long: "Diesel Attack-Submarine '90"
 
- SSN_equipment: "\nNuclear Attack-Submarine"
+ SSN_equipment: "Nuclear Attack-Submarine"
  SSN_equipment_1955: "SSN '55"
  SSN_equipment_1955_long: "Nuclear Attack-Submarine '55"
  SSN_equipment_1960: "SSN '60"
@@ -49,7 +49,7 @@
  
 ### Heavy Submarines HSS
  heavy_submarine: "Heavy Submarine"
- HSS_equipment: "\nHeavy Submarine"
+ HSS_equipment: "Heavy Submarine"
  HSS_equipment_1933: "Heavy Submarine '33"
  HSS_equipment_1933_desc: "Heavy Submarines with very long range and equipped with Sea-Planes are well suited for Reconnaissance"
  HSS_equipment_1940: "Heavy Submarine '40"
@@ -59,7 +59,7 @@
  SHSS_equipment_1945_desc: "Heavy Submarines with very long range and equipped with Sea-Planes are well suited for Reconnaissance"
 
 ### Destroyers DD
- DD_equipment: "\nDestroyer"
+ DD_equipment: "Destroyer"
  DD_equipment_1885: "Torpedo Gunboat '1885"
  DD_equipment_1885_desc: "The Destroyer is the smallest and the fastest of the surface ships. It is lightly armed in comparison with the battleship, but its speed and maneuverability allow it to provide a good first line of defense away from the main capital ships of a fleet, and its light guns are useful for engaging aircraft. Destroyers are usually combined in groups and used for convoy escort and anti-submarine duties."
  DD_equipment_1900: "Fleet Destroyer '00"
@@ -99,7 +99,7 @@
  FFG_equipment_1990_long: "Missile Frigate '90"
 
 ### Light Cruisers CL
- CL_equipment: "\nLight Cruiser"
+ CL_equipment: "Light Cruiser"
 
  CL_equipment_1885: "Protected Cruiser '1885"
  CL_equipment_1885_desc: "Light Cruisers are little more than large destroyers. They are usually lightly armored to give good speed and range. They are normally used in an escort role for capital ships like battleships or carriers, granting protection mainly from enemy air attacks, but also from enemy submarines."
@@ -122,7 +122,7 @@
  CLG_equipment_1955_desc: "Light Cruisers are little more than large destroyers. They are usually lightly armored to give good speed and range. They are normally used in an escort role for capital ships like battleships or carriers, granting protection mainly from enemy air attacks, but also from enemy submarines."
  
 ### Heavy Cruisers CA
- CA_equipment: "\nHeavy Cruiser"
+ CA_equipment: "Heavy Cruiser"
 
  CA_equipment_1885: "Armored Frigate '1885"
  CA_equipment_1885_desc: "Heavy Cruisers are larger and more heavily armored than their lighter counterparts. They have larger main guns, giving them the ability to bombard enemy units on land. They are effective against enemy surface ships, especially destroyers and light cruisers, but are susceptible to air and submarine attacks."
@@ -157,7 +157,7 @@
 #############################################
 
  ### Battlecruisers BC
- BC_equipment: "\nBattlecruiser"
+ BC_equipment: "Battlecruiser"
 
  BC_equipment_1906: "Battlecruiser '06"
  BC_equipment_1906_desc: "Battlecruisers are very heavy cruisers that combine large main guns and good armor with reasonable speed and a good range. They are mainly used against enemy shipping lanes, able to outrun enemy battleships and able to outfight convoy escorts."
@@ -173,7 +173,7 @@
  BC_equipment_1950_desc: "Battlecruisers are very heavy cruisers that combine large main guns and good armor with reasonable speed and a good range. They are mainly used against enemy shipping lanes, able to outrun enemy battleships and able to outfight convoy escorts."
  
 ### Battleships BB
- BB_equipment: "\nBattleship"
+ BB_equipment: "Battleship"
 
  BB_equipment_1885: "Turret Battleship '1885"
  BB_equipment_1885_desc: "The Battleship is the Queen of the Sea. It is a massive floating gun platform, designed primarily to engage enemy capital ships at long range and send them to the bottom of the ocean. However, they are now vulnerable to air or submarine torpedo attacks, and the advent of the Aircraft Carrier has started to number their days."
@@ -204,7 +204,7 @@
  SHBB_equipment_1945_desc: "An improvement on our earlier super heavy design with stronger weapons and improved fire control systems."
 
 # -- Aircraft Carriers CV
- CV_equipment: "\nCarrier"
+ CV_equipment: "Carrier"
 
  CV_equipment_1922: "Converted Carrier '22"
  CV_equipment_1922_desc: "The Aircraft Carrier is rapidly becoming the most important naval vessel. Its ability to project power through the aircraft it carries makes it dangerous to other capital ships and land forces. However, the ship itself is only lightly armed and must rely on other naval units, as well as its own aircraft, to afford it protection."
@@ -232,7 +232,7 @@
 
 # -- Escort Aircraft Carriers CVE
  escort_carrier: "Escort Carrier"
- CVE_equipment: "\nEscort Carrier"
+ CVE_equipment: "Escort Carrier"
 
  CV_equipment_1912: "Seaplane Carrier '12"
  CV_equipment_1912_desc: "The Escort Carrier became an important naval vessel later in the war. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carried made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, were only lightly armed, lightly armored, and of far smaller displacement than fleet or light carriers."
@@ -245,7 +245,7 @@
 
  
 # -- Light Aircraft Carriers CVL
- CVL_equipment: "\nLight Carrier"
+ CVL_equipment: "Light Carrier"
 
  CVL_equipment_1930: "Light Carrier '30"
  CVL_equipment_1930_desc: "The Light Carrier was an important supplement for carrier fleets. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carries made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, are only lightly armed, lightly armored, and of far smaller displacement than fleet carriers."

@@ -12351,6 +12351,7 @@ GER_Rule_over_the_Danube_category = {
 				GER_Influence_Trigger = yes
 				is_in_faction = no
 			}
+			has_global_flag = fall_of_france
 			OR = {
 				GER = {
 					has_war_with = SOV
@@ -13664,6 +13665,9 @@ GER_Aufbau_Ost_category = {
 				type = annex_everything
 			}
 			set_global_flag = Barbarossa_Initiated
+			hidden_effect = {
+				remove_ideas = GER_SOV_Trade_Agreement_Idea 
+			}
 		}
 	}
 	###########################

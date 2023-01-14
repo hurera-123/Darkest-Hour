@@ -423,6 +423,10 @@ on_actions = {
 						add_idea = USA_The_Great_Depression_2
 						remove_idea = USA_The_Great_Depression
 					}
+					swap_ideas = {
+						remove_idea = isolationism
+						add_idea = cooperation
+					}
 				}
 			}
 			# Change US Spirit to Remove Unemployment Growth
@@ -443,6 +447,10 @@ on_actions = {
 						swap_ideas = {
 							add_idea = USA_The_Great_Depression_2
 							remove_idea = USA_The_Great_Depression
+						}
+						swap_ideas = {
+							remove_idea = isolationism
+							add_idea = cooperation
 						}
 					}
 				}

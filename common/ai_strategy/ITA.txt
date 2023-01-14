@@ -662,7 +662,7 @@ ITA_war_against_ENG = {
 	ai_strategy = {
 		type = area_priority
 		id = north_africa
-		value = 150
+		value = 100
 	}
 
 	ai_strategy = {
@@ -725,7 +725,7 @@ Italian_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = africa
-		value = 50
+		value = 40
 	}
 }
 
@@ -750,24 +750,6 @@ ITA_Protect_Home = {
 
 		order_id = 1
 
-		# North Italy
-		states = {
-			158
-			856
-			1248
-			114
-		}
-
-		ratio = 0.3
-
-		subtract_invasions_from_need = no
-	}
-
-	ai_strategy = {
-		type = put_unit_buffers
-
-		order_id = 1
-
 		# South Italy
 		states = {
 			117
@@ -777,23 +759,7 @@ ITA_Protect_Home = {
 			858
 		}
 
-		ratio = 0.4
-
-		subtract_invasions_from_need = no
-	}
-
-	ai_strategy = {
-		type = put_unit_buffers
-
-		order_id = 1
-
-		# North Africa
-		states = {
-			448
-			450
-		}
-
-		ratio = 0.3
+		ratio = 0.2
 
 		subtract_invasions_from_need = no
 	}

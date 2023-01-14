@@ -501,6 +501,7 @@ country_event = {
 			}
 			SLO = {
 				transfer_state = PREV
+				inherit_technology = CZE
 				set_politics = {
 					ruling_party = fascist
 					last_election = "1933.1.1"

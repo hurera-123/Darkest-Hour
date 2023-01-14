@@ -98,7 +98,9 @@ FIN_Befriend_Germans_After_War = {
 		NOT = {
 			is_puppet = yes
 		}
-		NOT = {	GER = { has_non_aggression_pact_with = SOV } }
+		GER = {
+			has_war_with = SOV
+		}
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {

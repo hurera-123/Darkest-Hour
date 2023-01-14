@@ -918,7 +918,7 @@ JAP_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = europe
-		value = 10
+		value = -100
 	}
 	ai_strategy = {
 		type = area_priority
@@ -948,12 +948,12 @@ JAP_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = middle_east
-		value = -10
+		value = -100
 	}
 	ai_strategy = {
 		type = area_priority
 		id = africa
-		value = -10
+		value = -100
 	}
 }
 JAP_Protect_Home = {

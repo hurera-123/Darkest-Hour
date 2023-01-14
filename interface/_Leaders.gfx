@@ -9240,8 +9240,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_P_D_Wendell_Wilkie"
-        texturefile = "gfx/leaders/USA/P_D_Wendell_Wilkie.png"
+        name = "GFX_P_D_Wendell_Willkie"
+        texturefile = "gfx/leaders/USA/P_D_Wendell_Willkie.png"
     }
 
     spriteType = {
@@ -9582,6 +9582,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_P_A_Dragisa_Cvetkovic"
         texturefile = "gfx/leaders/YUG/P_A_Dragisa_Cvetkovic.png"
+    }
+
+    spriteType = {
+        name = "GFX_P_A_Dusan_Simovic"
+        texturefile = "gfx/leaders/YUG/P_A_Dusan_Simovic.png"
     }
 
     spriteType = {

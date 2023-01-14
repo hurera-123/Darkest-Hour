@@ -89,25 +89,43 @@ on_actions = {
 					has_war = yes
 					has_manpower < 75000
 					has_idea = one_year_service
+					has_country_flag = {
+						flag = one_year_service
+						days > 200
+					}
 				}
+				clr_country_flag = one_year_service
+				set_country_flag = two_year_service
 				add_ideas = two_year_service
 				add_political_power = -50
 			}
 			if = {
 				limit = {
 					has_war = yes
-					has_manpower < 75000
+					has_manpower < 50000
 					has_idea = two_year_service
+					has_country_flag = {
+						flag = two_year_service
+						days > 200
+					}
 				}
+				clr_country_flag = two_year_service
+				set_country_flag = three_year_service
 				add_ideas = three_year_service
 				add_political_power = -50
 			}
 			if = {
 				limit = {
 					has_war = yes
-					has_manpower < 75000
+					has_manpower < 50000
 					has_idea = three_year_service
+					has_country_flag = {
+						flag = three_year_service
+						days > 200
+					}
 				}
+				clr_country_flag = three_year_service
+				set_country_flag = service_by_requirement
 				add_ideas = service_by_requirement
 				add_political_power = -50
 			}

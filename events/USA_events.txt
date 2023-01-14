@@ -1052,8 +1052,15 @@ country_event = { # Senate Majority Leader Robinson Has Suffered a Health Scare!
 	is_triggered_only = yes
 	immediate = {
 		hidden_effect = {
-			news_event = { id = USA_Packing_the_Courts.12 days = 10 } # The Judicial Procedures Reform Bill Has Passed!
-			news_event = { id = USA_Packing_the_Courts.13 days = 10 } # The Judicial Procedures Reform Bill Has Failed!
+			if = {
+				limit = {
+					has_country_flag = USA_Support_Court_Packing
+				}
+				news_event = { id = USA_Packing_the_Courts.12 days = 10 } # The Judicial Procedures Reform Bill Has Passed!
+			}
+			else = {
+				news_event = { id = USA_Packing_the_Courts.13 days = 10 } # The Judicial Procedures Reform Bill Has Failed!
+			}
 		}
 	}
 	option = { # Thank God!
@@ -1067,9 +1074,6 @@ news_event = { # The Judicial Procedures Reform Bill Has Passed!
 	picture = GFX_news_USA_Capitol_Hill
 	fire_only_once = yes
 	is_triggered_only = yes
-	trigger = {
-		has_country_flag = USA_Support_Court_Packing
-	}
 	immediate = {
 		clr_country_flag = USA_Support_Court_Packing
 		set_country_flag = USA_Court_Packing_Pass
@@ -1743,6 +1747,7 @@ news_event = { # Inauguration of Wendell Wilkie
 		retire_country_leader = yes
 		add_country_leader_role = {
 			character = USA_Wendell_Willkie
+			promote_leader = yes
 			country_leader = {
 				desc = USA_Wendell_Wilkie_desc
 				ideology = social_conservatism

@@ -79,7 +79,7 @@ ideas = {
 				modifier = {
 					#Prio if low on manpower
 					add = 1000
-					manpower_per_military_factory < 800
+					manpower_per_military_factory < 1500
 				}
 				modifier = {
 					add = 200
@@ -117,12 +117,16 @@ ideas = {
 				modifier = {
 					#Prio if low on manpower
 					add = 1000
-					manpower_per_military_factory < 800
+					manpower_per_military_factory < 1500
 				}
 				modifier = {
 					add = 200
 					tag = CHI
 					has_manpower < 200000
+				}
+				modifier = {
+					factor = 0
+					NOT = { has_idea = two_year_service }
 				}
 			}
 			cost = 150
@@ -165,7 +169,7 @@ ideas = {
 				modifier = {
 					#Prio if low on manpower
 					add = 1000
-					manpower_per_military_factory < 700
+					manpower_per_military_factory < 1000
 				}
 				modifier = {
 					#Block has plenty manpower
@@ -180,6 +184,10 @@ ideas = {
 					add = 200
 					tag = CHI
 					has_manpower < 200000
+				}
+				modifier = {
+					factor = 0
+					NOT = { has_idea = three_year_service }
 				}
 			}
 			cost = 150
@@ -237,7 +245,7 @@ ideas = {
 				modifier = {
 					#Prio if low on manpower
 					add = 1000
-					manpower_per_military_factory < 600
+					manpower_per_military_factory < 800
 				}
 				modifier = {
 					#Lower chance if has decent amount
@@ -257,6 +265,10 @@ ideas = {
 					add = 200
 					tag = CHI
 					has_manpower < 200000
+				}
+				modifier = {
+					factor = 0
+					NOT = { has_idea = service_by_requirement }
 				}
 			}
 			cost = 150
@@ -315,17 +327,21 @@ ideas = {
 				modifier = {
 					#Prio if low on manpower
 					add = 1000
-					manpower_per_military_factory < 500
+					manpower_per_military_factory < 600
 				}
 				modifier = {
 					#Lower chance if has decent amount
 					factor = 0.5
-					manpower_per_military_factory > 1000
+					manpower_per_military_factory > 800
 				}
 				modifier = {
 					#Block has plenty manpower
 					factor = 0
 					manpower_per_military_factory > 5000
+				}
+				modifier = {
+					factor = 0
+					NOT = { has_idea = all_adults_serve }
 				}
 			}
 			cost = 150
