@@ -1396,7 +1396,7 @@ POL_Prospect_New_Airfields = {
 		}
 		visible = {
 		}
-		days_remove = 2
+		days_remove = 240
 		available = {
 			NOT = {
 				has_country_flag = POL_Civil_Aviation_Decision_Selected
