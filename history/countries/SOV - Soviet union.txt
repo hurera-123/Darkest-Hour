@@ -96,7 +96,6 @@ recruit_character = SOV_Semyon_Timoshenko
 recruit_character = SOV_Ivan_Konev
 recruit_character = SOV_P_Drozd
 recruit_character = SOV_Nikolay_G_Kuznetsov
-recruit_character = SOV_Modest_Ivanov
 recruit_character = SOV_Vladimir_M_Orlov
 recruit_character = SOV_Ivan_S_Isakov
 recruit_character = SOV_Lev_Galler

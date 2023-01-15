@@ -974,6 +974,10 @@ spriteTypes = {
 	}
 	## Tactical Bomber
 	SpriteType = {
+		name = "GFX_ENG_Tactical_Bomber_1914_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/ENG_Martinsyde_G100.dds"
+	}
+	SpriteType = {
 		name = "GFX_ENG_Tactical_Bomber_1933_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/ENG_Heyford.dds"
 	}
@@ -999,6 +1003,10 @@ spriteTypes = {
 	}
 
 	## Strategic Bomber
+	SpriteType = {
+		name = "GFX_ENG_Strategic_Bomber_1916_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/ENG_Vickers_Vimy.dds"
+	}
 	SpriteType = {
 		name = "GFX_ENG_Strategic_Bomber_1933_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/ENG_Hendon.dds"
@@ -1026,6 +1034,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ENG_Strategic_Bomber_1950_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/ENG_Valiant.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Naval_Bomber_1918_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/ENG_Felixstowe_F5.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Naval_Bomber_1925_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/ENG_Supermarine_Southampton.dds"
 	}
 	SpriteType = {
 		name = "GFX_ENG_Naval_Bomber_1936_medium"

@@ -3370,7 +3370,7 @@ country_event = {
 	}
 }
 
-### On the Cossacks
+### Katyusha, Stalin's Organs
 country_event = {
 	id = SOV_Red_Army.8
 	title = SOV_Red_Army.8.t

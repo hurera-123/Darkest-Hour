@@ -1023,12 +1023,12 @@ GER_Prepare_for_Yugoslavia = {
 	}
 	abort_when_not_enabled = yes
 
-	add_ai_strategy = {
+	ai_strategy = {
 		type = prepare_for_war
 		id = YUG
 		value = 200
 	}
-	add_ai_strategy = {
+	ai_strategy = {
 		type = front_unit_request
 		tag = YUG
 		value = 100

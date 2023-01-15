@@ -1364,6 +1364,9 @@ foreign_politics = {
 			GER = {
 				has_war_with = POL
 			}
+			POL = {
+				surrender_progress > 0.2
+			}
 		}
 		ai_will_do = {
 			base = 0
