@@ -691,61 +691,6 @@ GER_Invasion_of_Poland = {
 		value = 500
 	}
 }
-# Operation Weserubung
-#GER_Operation_Weserubung = {
-#	enable = {
-#		original_tag = GER
-#		has_government = fascist
-#		OR = {
-#			POL = {
-#				has_capitulated = yes
-#			}
-#			has_offensive_war_with = DEN
-#			has_offensive_war_with = NOR
-#		}
-#	}
-#	abort = {
-#		DEN = {
-#			has_capitulated = yes
-#		}
-#		NOR = {
-#			has_capitulated = yes
-#		}
-#	}
-#	ai_strategy = {
-#		type = area_priority
-#		id = scandinavia
-#		value = 50
-#	}
-#	ai_strategy = {
-#		type = invade
-#		id = "NOR"
-#		value = 500
-#	}
-#	ai_strategy = {
-#		type = front_control
-#		area = norwegian_coast
-#		ordertype = invasion
-#		execute_order = yes
-#	}
-#	ai_strategy = {
-#		type = front_control
-#		tag = DEN
-#		ordertype = front
-#		execution_type = rush
-#	}
-#	ai_strategy = {
-#		type = naval_avoid_region
-#		id = 46 #barents sea
-#		value = 2000
-#	}
-#
-#	ai_strategy = {
-#		type = naval_avoid_region
-#		id = 16 #north sea
-#		value = 2000
-#	}
-#}
 GER_Operation_Weserubung_1 = {
 	allowed = {
 		tag = GER
@@ -840,6 +785,16 @@ GER_Operation_Weserubung_2 = {
 		type = invasion_unit_request
 		state = 110
 		value = 80
+	}
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 1123
+		value = -200
+	}
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 1561
+		value = -200
 	}
 	ai_strategy = {
 		type = front_armor_score
@@ -1247,14 +1202,20 @@ GER_stock_up_on_trains_before_barbarossa = {
 		value = 600
 	}
 }
-GER_normandy_buffer = {
+GER_Atlantikwall = {
 	allowed = {
 		original_tag = GER
 	}
 	enable = {
-		is_historical_focus_on = yes
-		FRA = {
-			has_capitulated = yes
+		OR = {
+			FRA = {
+				has_capitulated = yes
+			}
+			has_global_flag = fall_of_france
+		}
+		OR = {
+			has_war_with = ENG
+			has_war_with = USA
 		}
 	}
 	abort_when_not_enabled = yes
@@ -1262,13 +1223,80 @@ GER_normandy_buffer = {
 	ai_strategy = {
 		type = put_unit_buffers
 		states = {
-			15
 			14
-			1026
+			15
+			19
+			23
+			762
 			801
+			1026
+			1028
+			1637
 		}
-		ratio = 0.07
-		area = normandy_landing_zone
+		ratio = 0.3
+		subtract_invasions_from_need = no
+		subtract_fronts_from_need = yes
+	}
+}
+GER_Atlantikwall_Benelux = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		HOL = {
+			has_capitulated = yes
+		}
+		BEL = {
+			has_capitulated = yes
+		}
+		OR = {
+			has_war_with = ENG
+			has_war_with = USA
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = put_unit_buffers
+		states = {
+			7
+			36
+			56
+			59
+			964
+			1524
+		}
+		ratio = 0.2
+		subtract_invasions_from_need = no
+		subtract_fronts_from_need = yes
+	}
+}
+GER_Atlantikwall_Norway = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		NOR = {
+			has_capitulated = yes
+		}
+		OR = {
+			has_war_with = ENG
+			has_war_with = USA
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = put_unit_buffers
+		states = {
+			110
+			142
+			143
+			144
+			1126
+
+		}
+		ratio = 0.3
 		subtract_invasions_from_need = no
 		subtract_fronts_from_need = yes
 	}
@@ -1386,7 +1414,7 @@ GER_Dont_Push_on_Maginot = {
 		type = front_control
 		tag = FRA
 		ordertype = front
-		execution_type = no
+		execute_order = no
 		manual_attack = no
 	}
 }

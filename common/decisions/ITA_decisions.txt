@@ -3302,7 +3302,7 @@ ITA_The_Balkan_Strategy = {
 			has_completed_focus = ITA_Expand_Our_Influence
 		}
 		available = {
-			has_global_flag = ITA_Annexed_Albania
+			has_country_flag = ITA_Annexed_Albania
 			country_exists = GRE
 			GRE = {
 				is_subject = no
@@ -3329,7 +3329,7 @@ ITA_The_Balkan_Strategy = {
 				add = 500
 				date > 1940.10.28
 				OR = {
-					has_global_flag = ITA_Annexed_Albania
+					has_country_flag = ITA_Annexed_Albania
 					ALB = {
 						exists = no
 					}

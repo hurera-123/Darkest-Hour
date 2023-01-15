@@ -71,7 +71,7 @@ NDefines.NAI.LAND_COMBAT_FIGHTERS_PER_PLANE = 2 --1.1				            -- Amount o
 NDefines.NAI.LAND_COMBAT_CAS_PER_ENEMY_ARMY = 100				                -- Amount of CAS planes requested per enemy army
 NDefines.NAI.LAND_COMBAT_BOMBERS_PER_LAND_FORT_LEVEL = 10 --15		            -- Amount of bomber planes requested per enemy land fort level
 NDefines.NAI.LAND_COMBAT_BOMBERS_PER_COASTAL_FORT_LEVEL = 10 --10	            -- Amount of bomber planes requested per enemy coastal fort level
-NDefines.NAI.STR_BOMB_MIN_ENEMY_FIGHTERS_IN_AREA = 300 --2000		            -- If amount of enemy fighters is higher than this mission won't perform
+NDefines.NAI.STR_BOMB_MIN_ENEMY_FIGHTERS_IN_AREA = 1000 --2000		            -- If amount of enemy fighters is higher than this mission won't perform
 NDefines.NAI.STR_BOMB_FIGHTERS_PER_PLANE = 2 --0				                -- Amount of air superiority planes requested per enemy plane
 -- Naval Invasion Changes
 NDefines.NNavy.NAVAL_SUPREMACY_INTEL_LOW = 0.3						-- we need more intel than this to get any supremacy

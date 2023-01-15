@@ -1930,12 +1930,7 @@ country_event = {
 		}
 		ITA = {
 			country_event = { id = ITA_Political_Tree.13 }
-			annex_country = {
-				target = ALB
-				transfer_troops = yes
-			}
 		}
-		set_global_flag = ITA_Annexed_Albania
 	}
 	# Refuse
 	option = {
@@ -1960,6 +1955,11 @@ country_event = {
 	# 
 	option = {
 		name = ITA_Political_Tree.13.A
+		annex_country = {
+			target = ALB
+			transfer_troops = yes
+		}
+		set_country_flag = ITA_Annexed_Albania
 	}
 }
 ###########################
@@ -2045,6 +2045,7 @@ news_event = {
 			target = ALB
 			transfer_troops = no
 		}
+		set_country_flag = ITA_Annexed_Albania
 	}
 	option = {
 		name = ITA_Political_Tree.143.B
@@ -5632,9 +5633,9 @@ country_event = {
 				ENG = {
 					has_war_with = ITA
 				}
-				ENG = {
-					add_to_faction = GRE
-				}
+			}
+			ENG = {
+				add_to_faction = GRE
 			}
 		}
 		hidden_effect = {

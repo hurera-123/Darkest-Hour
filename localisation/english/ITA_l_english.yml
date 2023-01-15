@@ -665,8 +665,8 @@
  ITA_Invasion_of_Greece.1.t: "Anglophiles in Athens"
  ITA_Invasion_of_Greece.1.d: "It's an open secret that Metaxas favours diplomacy and cooperation with Albion that he does our vaunted realm. This comes as no shock to anybody in the know, as Greco-Italian relations have been rather frosty for many years now, with serious grievances dating all the back to our annexation of the Dodecanese Islands in 1912, which Greek Nationalists rather stupidly proclaim to be rightfully part of their country. But now that we are waging a tenacious war against the British all across the Mediterranean, many in the high command have pressured Mussolini to take pre-emptive action against the potential british outpost in southern Europe. We have drafted an ultimatum to be delivered to Metaxas' desk, designed to be rejected and to allow the Regio Esercito to swiftly occupy the largely underdeveloped and impoverished country."
  ITA_Invasion_of_Greece.1.A: "Let us avert unneeded wars."
- ITA_Invasion_of_Greece.1.B: "Send the Ultimatum."
- ITA_Invasion_of_Greece.1.B.tt: "§RThis Ultimatum was designed to be rejected, and will surely lead to war!§!"
+ ITA_Invasion_of_Greece.1.B: "Send the ultimatum."
+ ITA_Invasion_of_Greece.1.B.tt: "§RThis ultimatum was designed to be rejected, and will surely lead to war!§!"
 
  ITA_Invasion_of_Greece.2.t: "An Ultimatum from Italy"
  ITA_Invasion_of_Greece.2.d: ""
@@ -1713,8 +1713,9 @@
  ITA_The_Balkan_Strategy: "The Balkan Strategy"
  ITA_The_Balkan_Strategy_desc: ""
  ITA_Demand_Yugoslavian_Territories: "Demand Yugoslavian Territories"
- ITA_Issue_Ultimatum_to_Bulgaria: "Issue Ultimatum to Bulgaria"
- ITA_Demand_Islands_from_Greece: "Demand all Aegean,and Adriatic sea islands and Crete from Greece"
+ ITA_Issue_Ultimatum_to_Bulgaria: "Issue an ultimatum to Bulgaria"
+ ITA_Demand_Islands_from_Greece: "Send an ultimatum to Greece"
+ ITA_Annexed_Albania: "§YAlbania has been dealt with§!"
  # Latin Axis
  ITA_Latin_Axis: "Latin Axis"
  ITA_Invite_Spain_to_the_Latin_Axis: "Invite Spain to the Latin Axis"

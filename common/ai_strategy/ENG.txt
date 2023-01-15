@@ -894,11 +894,6 @@ ENG_Invade_Iraq = {
 		value = 500
 	}
 	ai_strategy = {
-		type = declare_war
-		id = "IRQ"
-		value = 500
-	}
-	ai_strategy = {
 		type = force_defend_ally_borders
 		id = JOR
 		value = 70
