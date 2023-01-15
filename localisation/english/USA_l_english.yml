@@ -2345,12 +2345,12 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
  USA_McNary_Dead.1.d: "McNary sat across from the Secretary of State in a dimly lit meeting room. It was late at night, but Willkie's' sudden death had left a lot of work for both of them, especially now that McNary was President. It had come as a surprise, but he was prepared for his newfound responsibilities.\n\nBoth he and the Secretary of State noticed that his speech was beginning to slur. He had these kind of problems a couple of times over the past few weeks, but he neglected going to the doctors because of all the work. He was most likely just tired, as he hadn't slept properly in days. They carried on as usual, with the President now listening more than talking.\n\nMcNary became unable to concentrate as time passed. Everything he heard he forgot in a matter of seconds, and he couldn't form a coherent thought. He had a headache in the back of his head that was gradually getting worse. It had gotten to the point where the pain was unbearable. At this point, his Secretary of State had also noticed and was asking him if everything was okay.\n\nMcNary collapsed before he could respond, his head slamming into the meeting table."
  USA_McNary_Dead.1.A: "Cause of death: brain tumor."
 
- USA_FDR_Dead.1.t: "President Roosevelt Dead!"
+ USA_FDR_Dead.1.t: "An Unfinished Portrait"
  USA_FDR_Dead.1.d: ""
  USA_FDR_Dead.1.A: ""
 
  USA_FDR_Dead.2.t: "President Roosevelt Dead!"
- USA_FDR_Dead.2.d: ""
+ USA_FDR_Dead.2.d: "[FROM.GetNewsIcon]"
  USA_FDR_Dead.2.A: ""
 
 
