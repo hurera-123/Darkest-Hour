@@ -35,6 +35,7 @@ category = {
 		GER_Invasion_of_Poland_Soundeffect
 		SPR_Spanish_Civil_War_Soundeffect
 		ITA_Invasion_of_Ethiopia_Soundeffect
+		USA_Bombing_of_Washington_Soundeffect
 	}
 	
 	compressor = {
@@ -171,5 +172,19 @@ soundeffect = {
 	volume = 1
 	sounds = {
 		sound = ITA_Invasion_of_Ethiopia
+	} 
+}
+
+sound = {
+	name = "USA_Bombing_of_Washington"
+	file = "sound_effects/USA_Bombing_of_Washington.wav"
+	always_load = yes
+}
+
+soundeffect = {
+	name = USA_Bombing_of_Washington_Soundeffect
+	volume = 1
+	sounds = {
+		sound = USA_Bombing_of_Washington
 	} 
 }
