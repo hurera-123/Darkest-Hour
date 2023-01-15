@@ -1008,7 +1008,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Handheld AT/USA_M9_Bazooka.dds"
 	}
 	SpriteType = {
-		name = "GFX_USA_MANPATS_MANPADS_1950_medium"
+		name = "GFX_USA_MANPATS_MANPADS_1952_medium"
 		texturefile = "gfx/interface/technologies/Handheld AT/USA_M20_Super_Bazooka.dds"
 	}
 	SpriteType = {
