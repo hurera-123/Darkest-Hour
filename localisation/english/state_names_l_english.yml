@@ -456,8 +456,10 @@
  STATE_183: "Southern Cyprus"
 
  STATE_184: "Dytikí Thráki"
+ STATE_184_bulgarian: "Zapadna Trakiya"
 
  STATE_185: "Ípeiros"
+ STATE_185_italian: "Ciamuria"
 
  STATE_186: "Peloponnisos"
 
@@ -2443,6 +2445,7 @@
  STATE_1109: "Evros"
 
  STATE_1110: "Anatolikí Makedonía"
+ STATE_1110_bulgarian: "Iztochna Makedoniya"
 
  STATE_1111: "Elassona"
 

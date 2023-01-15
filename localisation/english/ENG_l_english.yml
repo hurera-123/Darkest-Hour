@@ -1647,7 +1647,7 @@
 
  # Air Branch
 
- ENG_Royal_Airforce: "The Royal Air Force"
+ ENG_Royal_Airforce: "§SThe Royal Air Force§!"
  ENG_Royal_Airforce_desc: "The recent rise in our rival's air forces has started to put our military commanders into a bit of a scare. Many have considered that we divert some research and industry to ensure the victory of the Royal Air Force. Though Britain easily has one of the strongest fleets in the world, our ships cannot defend the streets of London from bombs. We must revitalize the Royal Air Force and make sure that we are not bested by our rivals."
 
  ENG_Reorganize_Air_Defences: "Reorganize the Air Defences"
@@ -1709,8 +1709,8 @@
 
  # Navy Branch
 
- ENG_Royal_Navy: "The Royal Navy"
- ENG_Royal_Navy_desc: "As per the decree of the royal navy, more dockyards are to be constructed for higher production on ships for the war effort, as well as dedicated research to naval strategies. If Britain is to war with any major powers, her strength will be that of ruling the seas, and the people recognize this."
+ ENG_Royal_Navy: "§3The Royal Navy§!"
+ ENG_Royal_Navy_desc: "As per the decree of the Royal Navy, more dockyards are to be constructed for higher production on ships for the war effort, as well as dedicated research to naval strategies. If Britain is to war with any major powers, her strength will be that of ruling the seas, and the people recognize this."
 
  ENG_Fleet_Air_Arm: "The Fleet Air Arm"
  ENG_Fleet_Air_Arm_desc: ""
@@ -1775,7 +1775,7 @@
  ENG_Prepare_Bletchley_Park: "Prepare Bletchley Park"
  ENG_Prepare_Bletchley_Park_desc: ""
 
- ENG_British_Army: "The British Army"
+ ENG_British_Army: "§aThe British Army§!"
  ENG_British_Army_desc: ""
 
  ENG_Continue_Conservative_Casualty_Avoidance: "Continue Conservative Casualty Avoidance"

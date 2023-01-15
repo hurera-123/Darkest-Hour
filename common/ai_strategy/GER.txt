@@ -1010,6 +1010,30 @@ GER_Dont_Call_YUG = {
 		value = -2000
 	}
 }
+GER_Prepare_for_Yugoslavia = {
+	allowed = {
+		tag = GER
+	}
+	enable = {
+		YUG = {
+			exists = yes
+			has_capitulated = no
+		}
+		has_country_flag = flag_fuhrer_25
+	}
+	abort_when_not_enabled = yes
+
+	add_ai_strategy = {
+		type = prepare_for_war
+		id = YUG
+		value = 200
+	}
+	add_ai_strategy = {
+		type = front_unit_request
+		tag = YUG
+		value = 100
+	}
+}
 GER_Dont_Garrison_ITA= {
 	enable = {
 		original_tag = GER

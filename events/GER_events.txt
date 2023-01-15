@@ -10749,11 +10749,6 @@ news_event = {
 		}
 		unlock_decision_tooltip = GER_Fuhrer_25
 		set_country_flag = flag_fuhrer_25
-		add_ai_strategy = {
-			type = prepare_for_war
-			id = YUG
-			value = 500
-		}
 	}
 	# A Dangerous Move !
 	option = {
