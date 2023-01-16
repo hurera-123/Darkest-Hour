@@ -845,8 +845,8 @@
  JAP_Pearl_Harbor.15.A: "Destroy the fascists."
 
  JAP_Wartime_Tree_Events.1.t: "Umi Yukaba"
- JAP_Wartime_Tree_Events.1.d: ""
- JAP_Wartime_Tree_Events.1.A: ""
+ JAP_Wartime_Tree_Events.1.d: "Wang's Restaurant was completely booked that night. That night, several families had arrived to eat, and the restaurant was alive with the clatter of plates and the chatter of customers. When Prime Minister Tojo's voice came on the radio, the sounds died down.\n\n"We, by the grace of Heaven, Emperor of Japan, enjoin upon ye, Our loyal and brave subjects...." he said firmly. Wang paid close attention. Perhaps it was an update on the battle with China, or perhaps it was a new economic agenda. Wang never knew what the Imperial Government would do next.\n\n"We hereby declare war on the United States of America and the British Empire." continued the Prime Minister. One of the customers gasped audibly. Wang noticed that many of his customers looking at each other. It seemed, much like Wang, that they could not believe what they were hearing.\n\nThe Prime Minister continued, blaming the Western Powers for destroying the peace in Asia and supporting the illegal Chinese regime. With each passing sentence, Wang and the customers got more and more riled up. Some began shouting in agreement, others clapped. Soon, the entire restaurant was buzzing with noise again.\n\n"... the sources of evil will be speedily eradicated and an enduring peace immutably established in East Asia, preserving thereby the glory of Our Empire!" he concluded.\n\nThen, a familiar tune began playing. A sweet voice sang,\n"At sea be my body water-soaked.."\nThe customers began singing along.\n"On land be it with grass overgrown..."\nWang found himself joining in.\n"Let me die by the side of my Sovereign...."\n\nIn thunderous harmony, the restaurant and the radio sang...."
+ JAP_Wartime_Tree_Events.1.A: ""...Never will I look back!""
  JAP_Bushido.tt: "Add §YBushido§!, which grants \nRecruitable Population: §G+1.00%§!"
 
  JAP_Wartime_Tree_Events.2.t: "The Wartime Elections"
