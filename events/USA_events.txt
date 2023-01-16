@@ -5498,7 +5498,7 @@ country_event = {
 	}
 }
 
-# President Roosevelt Dead!
+# An Unfinished Portrait
 country_event = {
 	id = USA_FDR_Dead.1
 	title = USA_FDR_Dead.1.t
@@ -5541,6 +5541,17 @@ news_event = {
 	major = yes
 	option = {
 		name = USA_FDR_Dead.2.A
+		trigger = {
+			tag = USA
+		}
+	}
+	option = {
+		name = USA_FDR_Dead.2.B
+		trigger = {
+			NOT = {
+				tag = USA
+			}
+		}
 	}
 }
 

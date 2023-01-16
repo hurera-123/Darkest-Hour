@@ -3856,7 +3856,7 @@ country_event = {
 			change_tag_from = ENG
 		}
 		CAN = {
-			set_faction_leader = yes
+			set_major = yes
 			annex_country = {
 				target = ENG
 				transfer_troops = yes
@@ -3891,6 +3891,28 @@ country_event = {
 			country_event = { 
 				id = ENG_Crumbling_Empire.8
 				days = 3
+			}
+		}
+		if = {
+			limit = {
+				USA = {
+					is_in_faction_with = CAN
+				}
+			}
+			USA = {
+				set_faction_leader = yes
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					USA = {
+						is_in_faction_with = CAN
+					}
+				}
+			}
+			CAN = {
+				set_faction_leader = yes
 			}
 		}
 		hidden_effect = {

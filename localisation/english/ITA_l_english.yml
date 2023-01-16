@@ -663,7 +663,7 @@
  ITA_Rome_Protocols.1.B: "Let’s see how long this will last."
  
  ITA_Invasion_of_Greece.1.t: "Anglophiles in Athens"
- ITA_Invasion_of_Greece.1.d: "It's an open secret that Metaxas favours diplomacy and cooperation with Albion that he does our vaunted realm. This comes as no shock to anybody in the know, as Greco-Italian relations have been rather frosty for many years now, with serious grievances dating all the back to our annexation of the Dodecanese Islands in 1912, which Greek Nationalists rather stupidly proclaim to be rightfully part of their country. But now that we are waging a tenacious war against the British all across the Mediterranean, many in the high command have pressured Mussolini to take pre-emptive action against the potential british outpost in southern Europe. We have drafted an ultimatum to be delivered to Metaxas' desk, designed to be rejected and to allow the Regio Esercito to swiftly occupy the largely underdeveloped and impoverished country."
+ ITA_Invasion_of_Greece.1.d: "It's an open secret that Metaxas favours diplomacy and cooperation with Albion than he does our vaunted realm. This comes as no shock to anybody in the know, as Greco-Italian relations have been rather frosty for many years now, with serious grievances dating all the back to our annexation of the Dodecanese Islands in 1912, which Greek Nationalists rather stupidly proclaim to be rightfully part of their country. But now that we are waging a tenacious war against the British all across the Mediterranean, many in the high command have pressured Mussolini to take pre-emptive action against the potential British outpost in southern Europe. We have drafted an ultimatum to be delivered to Metaxas' desk, designed to be rejected and to allow the Regio Esercito to swiftly occupy the largely underdeveloped and impoverished country."
  ITA_Invasion_of_Greece.1.A: "Let us avert unneeded wars."
  ITA_Invasion_of_Greece.1.B: "Send the ultimatum."
  ITA_Invasion_of_Greece.1.B.tt: "§RThis ultimatum was designed to be rejected, and will surely lead to war!§!"
@@ -673,7 +673,7 @@
  ITA_Invasion_of_Greece.2.A: "Ochi!"
  
  ITA_Invasion_of_Greece.3.t: "Metaxas Stands Defiant!"
- ITA_Invasion_of_Greece.3.d: "This evening the Greek Ambassador delivered to us the official Greek response to our ultimatum. The Duce did not even need to read the communique in order to know what had been relayed to him. This of course, was to be expected. Accepting such demands would have been impossible for any nation, however Mussolini did not care. His new Roman Empire now has the Casus Belli that it needs in order to set about reclaiming one of antiquity's most valued provinces: Greece. Within mere minutes of recieving the Greek response he was already on the phone with important members of the Regio Esercito to order the commencement of hostilities. As the clock struck 04:00 today, artillery began to sing and our troops began crossing the Grco-Albanian border in what will surely be a short and simple campaign."
+ ITA_Invasion_of_Greece.3.d: "This evening the Greek Ambassador delivered to us the official Greek response to our ultimatum. The Duce did not even need to read the communique in order to know what had been relayed to him. This of course, was to be expected. Accepting such demands would have been impossible for any nation, however Mussolini did not care. His new Roman Empire now has the Casus Belli that it needs in order to set about reclaiming one of antiquity's most valued provinces: Greece. Within mere minutes of recieving the Greek response he was already on the phone with important members of the Regio Esercito to order the commencement of hostilities. As the clock struck 04:00 today, artillery began to sing and our troops began crossing the Greco-Albanian border in what will surely be a short and simple campaign."
  ITA_Invasion_of_Greece.3.A: "Avanti Italia!"
  
  ITA_Invasion_of_Greece.4.t: "Carving up Greece"
@@ -707,12 +707,12 @@
  ITA_Fall_of_Fascism.3.d: ""
  ITA_Fall_of_Fascism.3.A: "So they switch side again?"
  ITA_Fall_of_Fascism.3.B: "Traitors!"
- ITA_Fall_of_Fascism.3.C: "The end of a nightmare"
+ ITA_Fall_of_Fascism.3.C: "The end of a Nightmare"
 
  ITA_Fall_of_Fascism.4.t: "The Italian Civil War"
  ITA_Fall_of_Fascism.4.d: ""
- ITA_Fall_of_Fascism.4.A: "For the King"
- ITA_Fall_of_Fascism.4.B: "For the Duce"
+ ITA_Fall_of_Fascism.4.A: "For the King!"
+ ITA_Fall_of_Fascism.4.B: "For the Duce!"
 
 ######################################################################
 #  Italy Focus
