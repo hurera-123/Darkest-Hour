@@ -1625,7 +1625,7 @@ foreign_politics = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			base = 0
 			modifier = {
 				add = 500
 				date > 1939.9.30

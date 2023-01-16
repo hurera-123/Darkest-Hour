@@ -1040,68 +1040,6 @@ country_event = { #Capitulation of Ethiopia
 			division_template = "Divisione Fanteria Coloniale"
 			disband = no #will refund equipment and manpower
 		}
-		hidden_effect = {
-			AOI = {
-				transfer_state = 1049
-				transfer_state = 550
-				transfer_state = 1435
-				transfer_state = 1050
-				transfer_state = 1432
-				transfer_state = 875
-				transfer_state = 1434
-				transfer_state = 879
-				transfer_state = 1433
-				transfer_state = 876
-				transfer_state = 878
-				transfer_state = 271
-				transfer_state = 877
-				transfer_state = 1063
-				transfer_state = 1431
-				transfer_state = 880
-				transfer_state = 1042
-				transfer_state = 1043
-				transfer_state = 559
-				transfer_state = 1044
-				transfer_state = 1045
-				transfer_state = 1046
-				load_oob = ITA_Colonial_Troops_Ethiopia
-				inherit_technology = ITA
-			}
-		}
-		set_autonomy = {
-			target = AOI
-			autonomy_state = AUTONOMY_Colony
-		}
-		hidden_effect = {
-			AOI = {
-				inherit_technology = ITA
-				country_event = { id = AOI_Leadership_Changes.1 days = 32 }
-				add_autonomy_score = {
-					value = 100
-				}
-				set_variable = {
-					var = ITA_Ethiopian_Unrest_partisan
-					value = 0.5
-				}
-				set_variable = {
-					var = ITA_Ethiopian_Unrest_damage
-					value = 0.5
-				}
-				clamp_variable = {
-					var = ITA_Ethiopian_Unrest_partisan
-					min = 0
-					max = 1
-				}
-				clamp_variable = {
-					var = ITA_Ethiopian_Unrest_damage
-					min = 0
-					max = 1
-				}
-				add_dynamic_modifier = {
-					modifier = ITA_Ethiopian_Unrest
-				}
-			}
-		}
 	}
 }
 country_event = { # ITA AI declare war on Ethiopia
@@ -1245,8 +1183,68 @@ country_event = { #Establishment of Africa Orientale Italiana
 	is_triggered_only = yes
 	option = { #
 		name = ITA_Colonial.5.A
-		set_country_flag = ITA_Giuseppe_Bottai_Appointed_Vicere
-		add_ideas = ITA_M_Giuseppe_Bottai
+		hidden_effect = {
+			AOI = {
+				transfer_state = 1049
+				transfer_state = 550
+				transfer_state = 1435
+				transfer_state = 1050
+				transfer_state = 1432
+				transfer_state = 875
+				transfer_state = 1434
+				transfer_state = 879
+				transfer_state = 1433
+				transfer_state = 876
+				transfer_state = 878
+				transfer_state = 271
+				transfer_state = 877
+				transfer_state = 1063
+				transfer_state = 1431
+				transfer_state = 880
+				transfer_state = 1042
+				transfer_state = 1043
+				transfer_state = 559
+				transfer_state = 1044
+				transfer_state = 1045
+				transfer_state = 1046
+				load_oob = ITA_Colonial_Troops_Ethiopia
+				inherit_technology = ITA
+			}
+		}
+		set_autonomy = {
+			target = AOI
+			autonomy_state = AUTONOMY_Colony
+		}
+		hidden_effect = {
+			AOI = {
+				inherit_technology = ITA
+				country_event = { id = AOI_Leadership_Changes.1 days = 32 }
+				add_autonomy_score = {
+					value = 100
+				}
+				set_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					value = 0.5
+				}
+				set_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					value = 0.5
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					min = 0
+					max = 1
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					min = 0
+					max = 1
+				}
+				add_dynamic_modifier = {
+					modifier = ITA_Ethiopian_Unrest
+				}
+			}
+		}
 	}
 }
 country_event = { #Victor Emannuel crowned Emperor of Ethiopia
@@ -4106,8 +4104,8 @@ country_event = {
 			factor = 50
 		}
 		army_experience = 10
-		add_tech_bonus = {
-			bonus = 1
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.5
 			uses = 1
 			category = land_doctrine
 		}
@@ -4145,8 +4143,8 @@ country_event = {
 	option = {
 		name = ITA_Cooperation_with_Gaul.3.A
 		army_experience = 10
-		add_tech_bonus = {
-			bonus = 1
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.5
 			uses = 1
 			category = land_doctrine
 		}

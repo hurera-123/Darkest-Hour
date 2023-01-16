@@ -3735,9 +3735,9 @@ news_event = {
 	# 
 	option = {
 		name = FRA_Gamelin_Meets_Bodoglio.1.A
-		add_tech_bonus = {
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.5
 			uses = 1
-			bonus = 1
 			category = land_doctrine
 		}
 	}

@@ -1964,6 +1964,29 @@ GER_Less_Garrison = {
 		value = -5
 	}
 }
+GER_Friendly_Countries_Wont_Embargo = {
+	enable = {
+		date > 1933.1.1
+		OR = {
+			tag = SWE
+			tag = FIN
+			tag = SPA
+			tag = TUR
+			tag = ROM
+			tag = ITA
+			tag = SOV
+			tag = HUN
+			tag = BUL
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = diplo_action_desire
+		id = GER
+		value = -500
+		target = embargo
+	}
+}
 
 #########################
 # Region Priority

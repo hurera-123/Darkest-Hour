@@ -149,9 +149,7 @@ country_event = {
 	# 
 	option = {
 		name = GER_SOV_War.6.A
-		add_political_power = 100
-		set_country_flag = SOV_The_Great_Patriotic_War
-		unlock_decision_category_tooltip = SOV_The_Great_Patriotic_War_category
+		complete_national_focus = SOV_The_Great_Patriotic_War
 	}
 }
 ###########################

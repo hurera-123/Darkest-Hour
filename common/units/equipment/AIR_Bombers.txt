@@ -531,7 +531,7 @@ equipments = {
 		naval_strike_targetting = 6
 		# Technical Stats
 		maximum_speed = 360
-		air_range = 2700
+		air_range = 1800
 		# Production Stats
 		manpower = 90
 		build_cost_ic = 37
@@ -560,7 +560,7 @@ equipments = {
 		naval_strike_targetting = 6
 		# Technical Stats
 		maximum_speed = 360
-		air_range = 4000
+		air_range = 2100
 		# Production Stats
 		manpower = 100
 		build_cost_ic = 39
@@ -589,7 +589,7 @@ equipments = {
 		naval_strike_targetting = 6
 		# Technical Stats
 		maximum_speed = 550
-		air_range = 1800
+		air_range = 2100
 		# Production Stats
 		manpower = 100
 		build_cost_ic = 41
@@ -618,7 +618,7 @@ equipments = {
 		naval_strike_targetting = 8
 		# Technical Stats
 		maximum_speed = 650
-		air_range = 2100
+		air_range = 2500
 		# Production Stats
 		manpower = 100
 		build_cost_ic = 43

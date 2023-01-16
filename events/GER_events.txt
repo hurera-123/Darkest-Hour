@@ -4141,9 +4141,8 @@ country_event = {
 	option = {
 		name = GER_Heer.1.A
 		set_country_flag = Blitzkrieg_Theory
-		add_tech_bonus = {
-			name = land_doc_bonus
-			bonus = 0.5
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.25
 			uses = 1
 			category = land_doctrine
 		}
@@ -5615,8 +5614,8 @@ news_event = {
 			amount = 20
 			producer = GER
 		}
-		add_tech_bonus = {
-			bonus = 0.5
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.25
 			uses = 1
 			category = land_doctrine
 		}
