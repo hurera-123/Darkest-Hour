@@ -661,3 +661,24 @@ ITA_Holy_See = {
 FRA_Monaco = {
 	
 }
+
+# AI Modifiers
+aimod_production_speed = {
+	production_speed_buildings_factor = 0.15
+}
+
+aimod_dig_in_speed = {
+	dig_in_speed_factor = 0.15
+}
+
+aimod_research_speed = {
+	research_speed_factor = 0.15
+}
+
+aimod_industrial_capacity_factory = {
+	industrial_capacity_factory = 0.15
+}
+
+aimod_industrial_capacity_dockyard = {
+	industrial_capacity_dockyard = 0.15
+}
