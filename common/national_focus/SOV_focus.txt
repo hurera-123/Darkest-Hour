@@ -3787,9 +3787,6 @@ focus_tree = {
 		available = {
 			date > 1939.4.1
 		}
-		bypass = {
-			date > 1939.9.1
-		}
 		relative_position_id = SOV_Expand_Cult_of_Personality
 		x = -1
 		y = 1
@@ -3928,9 +3925,6 @@ focus_tree = {
 		icon = GFX_SOV_The_Great_Patriotic_War
 		cost = 35
 		available = {
-			always = no
-		}
-		bypass = {
 			has_defensive_war_with = GER
 		}
 		prerequisite = {
