@@ -1648,7 +1648,6 @@ GER_Reichsautobahn_category = {
 				state = 64
 			}
 		}
-		on_map_mode = map_only
 		allowed = {
 			original_tag = GER
 		}
@@ -1730,7 +1729,6 @@ GER_Reichsautobahn_category = {
 				state = 68
 			}
 		}
-		on_map_mode = map_only
 		allowed = {
 			original_tag = GER
 		}
@@ -1804,7 +1802,6 @@ GER_Reichsautobahn_category = {
 				state = 66
 			}
 		}
-		on_map_mode = map_only
 		allowed = {
 			original_tag = GER
 		}
@@ -1877,7 +1874,6 @@ GER_Reichsautobahn_category = {
 				state = 67
 			}
 		}
-		on_map_mode = map_only
 		allowed = {
 			original_tag = GER
 		}
@@ -1950,7 +1946,6 @@ GER_Reichsautobahn_category = {
 				state = 812
 			}
 		}
-		on_map_mode = map_only
 		allowed = {
 			original_tag = GER
 		}
@@ -2023,7 +2018,6 @@ GER_Reichsautobahn_category = {
 				state = 59
 			}
 		}
-		on_map_mode = map_only
 		allowed = {
 			original_tag = GER
 		}
@@ -2101,7 +2095,6 @@ GER_Reichsautobahn_category = {
 				state = 57
 			}
 		}
-		on_map_mode = map_only
 		allowed = {
 			original_tag = GER
 		}
@@ -2182,7 +2175,6 @@ GER_Reichsautobahn_category = {
 				state = 809
 			}
 		}
-		on_map_mode = map_only
 		allowed = {
 			original_tag = GER
 		}
@@ -2263,7 +2255,6 @@ GER_Reichsautobahn_category = {
 				state = 55
 			}
 		}
-		on_map_mode = map_only
 		allowed = {
 			original_tag = GER
 		}
@@ -2350,7 +2341,6 @@ GER_Reichsautobahn_category = {
 				state = 60
 			}
 		}
-		on_map_mode = map_only
 		allowed = {
 			original_tag = GER
 		}
@@ -2428,7 +2418,6 @@ GER_Reichsautobahn_category = {
 				state = 808
 			}
 		}
-		on_map_mode = map_only
 		allowed = {
 			original_tag = GER
 		}
@@ -2512,7 +2501,6 @@ GER_Reichsautobahn_category = {
 				state = 54
 			}
 		}
-		on_map_mode = map_only
 		allowed = {
 			original_tag = GER
 		}
@@ -2599,7 +2587,6 @@ GER_Reichsautobahn_category = {
 				state = 807
 			}
 		}
-		on_map_mode = map_only
 		allowed = {
 			original_tag = GER
 		}
@@ -2677,7 +2664,6 @@ GER_Reichsautobahn_category = {
 				state = 50
 			}
 		}
-		on_map_mode = map_only
 		allowed = {
 			original_tag = GER
 		}
@@ -2761,7 +2747,6 @@ GER_Reichsautobahn_category = {
 				state = 52
 			}
 		}
-		on_map_mode = map_only
 		allowed = {
 			original_tag = GER
 		}
