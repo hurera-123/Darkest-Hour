@@ -175,6 +175,9 @@ FRA_Motorisation_de_Armee_category = {
 	}
 	visible = {
 		has_completed_focus = FRA_Cavalerie_Motorisee
+		NOT = {
+			has_country_flag = become_vichy
+		}
 	}
 }
 FRA_Finish_the_Maginot_Line_category = {
@@ -189,6 +192,7 @@ FRA_Finish_the_Maginot_Line_category = {
 			owns_state = 1169
 			owns_state = 28
 		}	
+		has_war = no
 	}
 }
 FRA_La_Armee_delAir_category = {
@@ -217,6 +221,7 @@ FRA_Grand_Quartier_General_category = {
 	}
 	visible = {
 		has_completed_focus = FRA_The_GQG
+		has_war = yes
 	}
 }
 FRA_Battle_of_France_category = {
@@ -226,6 +231,7 @@ FRA_Battle_of_France_category = {
 	}
 	visible = {
 		has_country_flag = FRA_Battle_of_France
+		has_war = yes
 	}
 }
 

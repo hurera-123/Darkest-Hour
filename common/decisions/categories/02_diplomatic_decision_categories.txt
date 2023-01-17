@@ -117,12 +117,6 @@ FIN_scandinavian_decisions = {
 		always = yes
 	}
 }
-FRA_Barthou_Doctrine_category = {
-	icon = generic_political_actions
-	allowed = {
-		original_tag = FRA
-	}
-}
 FRA_Containment_of_Fascism = {
 	icon = generic_political_actions
 	allowed = {
@@ -130,6 +124,7 @@ FRA_Containment_of_Fascism = {
 	}
 	visible = {
 		has_completed_focus = FRA_Promote_Anti_Fascist_Policy
+		is_democratic = yes
 	}
 }
 GER_Heim_ins_Reich_category = {

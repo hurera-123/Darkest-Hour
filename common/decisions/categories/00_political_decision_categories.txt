@@ -130,11 +130,13 @@ FRA_Les_Grandes_Reformes_Sociales_category = {
 		original_tag = FRA
 	}
 	visible = {
-		has_completed_focus = FRA_Great_Social_Reform
-		NOT = {
-			has_completed_focus = FRA_The_end_of_the_Ruling_party
+		OR = {
+			has_completed_focus = FRA_Great_Social_Reform
+			NOT = {
+				has_completed_focus = FRA_The_end_of_the_Ruling_party
+			}
+			has_war = no
 		}
-		has_war = no
 	}
 }
 FRA_Colonial_Empire_category = {
@@ -145,14 +147,6 @@ FRA_Colonial_Empire_category = {
 		has_completed_focus = FRA_End_the_Pacification_of_Morocco
 	}
 }
-#FRA_Eastern_Pact_category = {
-#	allowed = {
-#		original_tag = FRA
-#	}
-#	visible = {
-#		has_completed_focus = FRA_The_Eastern_Pact
-#	}
-#}
 GER_Positive_Christianity_category = {
 	icon = eng_move_to_secure_the_dominions
 	priority = 50
