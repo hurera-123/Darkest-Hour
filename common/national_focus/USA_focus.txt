@@ -27,7 +27,7 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Franklin D. Roosevelt"
+				character = USA_Franklin_D_Roosevelt
 			}
 		}
 		completion_reward = {
@@ -8186,7 +8186,7 @@ focus_tree = {
 			has_country_flag = USA_FDR_Wins_1944_Election_focus
 			has_country_leader = {
 				ruling_only = yes
-				name = "Franklin D. Roosevelt"
+				character = USA_Franklin_D_Roosevelt
 			}
 		}
 		bypass = {
