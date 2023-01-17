@@ -2448,15 +2448,15 @@
 
  GER_Danube.25.t: "Germany says Southern Dobruja is Bulgarian"
  GER_Danube.25.d: ""
- GER_Danube.25.A: "THIS IS AN OUTRAGE"
+ GER_Danube.25.A: "This is an outrage!"
  GER_Danube.25.B: "We really haven't a choice"
 
  GER_Danube.26.t: "Southern Dobruja to Stay Romanian!"
- GER_Danube.26.d: "After the end of the Second Balkan War, the territory of Southern Dobruja was seized by the Romanian army.\n\nThis annexation has been a source of tensions for the last two decades, and since then, the Bulgarians have always claimed it as legitimate territory of theirs.\n\nSo, a few days ago, when a new crisis threatened to burst between the two neighbours, Germany accepted to be a mediator between the two countries. And, after a few deliberations, they gave their verdict.\n\nClaiming that Romania has gained the right to govern it by the right of conquest, they supported the Romanian government in this crisis. Of course, the Tsardom of Bulgaria had no other choice than to accept this result"
+ GER_Danube.26.d: "[FROM.GetNewsIcon]After the end of the Second Balkan War, the territory of Southern Dobruja was seized by the Romanian army.\n\nThis annexation has been a source of tensions for the last two decades, and since then, the Bulgarians have always claimed it as legitimate territory of theirs.\n\nSo, a few days ago, when a new crisis threatened to burst between the two neighbours, Germany accepted to be a mediator between the two countries. And, after a few deliberations, they gave their verdict.\n\nClaiming that Romania has gained the right to govern it by the right of conquest, they supported the Romanian government in this crisis. Of course, the Tsardom of Bulgaria had no other choice than to accept this result"
  GER_Danube.26.A: "Germany's influence in the Balkans grows"
 
  GER_Danube.27.t: "Southern Dobruja to Become Bulgarian!"
- GER_Danube.27.d: "After the end of the Second Balkan War, the territory of Southern Dobruja was seized by the Romanian army.\n\nThis annexation has been a source of tensions for the last two decades, and since then, the Bulgarians have always claimed it as legitimate territory of theirs.\n\nSo, a few days ago, when a new crisis threatened to burst between the two neighbours, Germany accepted to be a mediator between the two countries. And, after a few deliberations, they gave their verdict.\n\nArguing that Bulgaria has the legitimacy of the historical heritage, they followed the Tsar’s government in this crisis. This is not really a surprise, as the German Reich is known for its irredentist rhetoric."
+ GER_Danube.27.d: "[FROM.GetNewsIcon]After the end of the Second Balkan War, the territory of Southern Dobruja was seized by the Romanian army.\n\nThis annexation has been a source of tensions for the last two decades, and since then, the Bulgarians have always claimed it as legitimate territory of theirs.\n\nSo, a few days ago, when a new crisis threatened to burst between the two neighbours, Germany accepted to be a mediator between the two countries. And, after a few deliberations, they gave their verdict.\n\nArguing that Bulgaria has the legitimacy of the historical heritage, they followed the Tsar’s government in this crisis. This is not really a surprise, as the German Reich is known for its irredentist rhetoric."
  GER_Danube.27.A: "A dangerous move"
 
  GER_Danube.28.t: "Germany asks us to keep our oil influx"
@@ -2477,21 +2477,21 @@
  GER_Danube.31.A: "Hopefully this won't mess with our plans"
  GER_Danube.31.B: "What does this mean for the Balkans?"
 
- GER_Danube.32.t: "Reach out to the allies"
+ GER_Danube.32.t: "Reach out to the Allies"
  GER_Danube.32.d: ""
  GER_Danube.32.A: "Reach out to Britain"
  GER_Danube.32.B: "Reach out to Soviet Union"
  GER_Danube.32.C: "We're strong while independent"
 
- GER_Danube.33.t: "[FROM.GetName] asks help against Germany"
+ GER_Danube.33.t: "[FROM.GetName] Asks for Help Against Germany"
  GER_Danube.33.d: ""
- GER_Danube.33.A: "We must help them"
+ GER_Danube.33.A: "We must help them."
  GER_Danube.33.B: "We have no interest in helping them."
 
- GER_Danube.34.t: "German Landesgruppe in [FROM.GetCapital] to be Expelled"
+ GER_Danube.34.t: "German Landesgruppe in [FROM.GetCapital] to be Expelled!"
  GER_Danube.34.d: ""
  GER_Danube.34.A: "We must comply"
- GER_Danube.34.B: "Make it go Clandestine"
+ GER_Danube.34.B: "Make it Clandestine"
  GER_Danube.34.C: "A Hit to German Influence in the Balkans"
 
  GER_Danube.35.t: "Clandestine German Landesgruppe uncovered in [GetCapital]"

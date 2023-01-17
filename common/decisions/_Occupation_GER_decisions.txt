@@ -728,7 +728,7 @@ GER_Reichskommissariats = {
 			owns_state = 1333
 			owns_state = 1499
 		}
-		cost = 0
+		cost = 50
 		ai_will_do = {
 			factor = 0
 			modifier = {

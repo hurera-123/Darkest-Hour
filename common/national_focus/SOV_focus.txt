@@ -1999,7 +1999,7 @@ focus_tree = {
 	focus = {
 		id = SOV_STAVKA
 		icon = GFX_focus_generic_military_mission
-		cost = 35
+		cost = 40
 		prerequisite = {
 			focus = SOV_Tactical_Deep_Battle
 			focus = SOV_Mass_Mobilization
@@ -2007,6 +2007,9 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_Koshkins_Tank_Design
 			focus = SOV_Defense_in_Depth
+		}
+		available = {
+			has_war_with_major = yes
 		}
 		x = 0
 		y = 1
@@ -2065,7 +2068,7 @@ focus_tree = {
 	focus = {
 		id = SOV_The_Red_Army_Reborn
 		icon = GFX_focus_SOV_builder_of_the_red_army
-		cost = 35
+		cost = 50
 		prerequisite = {
 			focus = SOV_Deep_Battle_Plan
 			focus = SOV_Human_Wave_Tactics

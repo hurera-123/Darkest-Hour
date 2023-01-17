@@ -256,6 +256,9 @@ SOV_intervention_in_spain = {
 				is_subject_of = SOV
 			}
 		}
+		NOT = {
+			has_global_flag = SCW_ended_Nat
+		}
 	}
 }
 JAP_Victory_In_China_category = {

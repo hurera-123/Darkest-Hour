@@ -301,6 +301,29 @@ SOV_Prepare_for_Finland = {
 	}
 }
 
+SOV_Winter_War = {
+	enable = {
+		tag = SOV
+		has_completed_focus = SOV_Expansion_of_the_Soviet_Sphere
+		has_war_with = FIN
+		date < 1941.1.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = invade
+		id = "FIN"
+		value = -200
+	}
+	ai_strategy = {
+		type = front_control
+		tag = FIN
+		ordertype = front
+		execution_type = balanced
+		manual_attack = yes
+	}
+}
+
 SOV_War_with_Germany = {
 	enable = {
 		tag = SOV

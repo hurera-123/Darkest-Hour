@@ -294,6 +294,8 @@ operations = {
 			transfer_state = 100
 			transfer_state = 942
 			transfer_state = 841
+			transfer_state = 101
+			transfer_state = 1628
 		}
 	}
 	###########################
