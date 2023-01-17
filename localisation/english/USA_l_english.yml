@@ -85,7 +85,7 @@
  USA.1.d: "[FROM.GetNewsIcon]"
  USA.1.A: ""
 
- USA.2.t: "Panic on Alien Invasion!"
+ USA.2.t: "Panic over an Alien Invasion!"
  USA.2.d: "[FROM.GetNewsIcon]"
  USA.2.A: ""
 
@@ -273,7 +273,7 @@
  USA_Elections_1940.5.A: "\"Four more years!\""
 
  USA_Elections_1940.6.t: "The 1940 Republican National Convention"
- USA_Elections_1940.6.d: "The 1940 Republican National Convention concluded with Alf Landon's re-nomination for President. At the start of the convention, most people thought Landon would be re-nominated. This was ensured by a poor showing by Manhattan District Attorney Thomas E. Dewey, who many questioned because of his young age and lack of experience, and mediocre showings by Michigan Senator Arthur Vandenberg and Ohio Senator Robert A. Taft, allowing Landon to easily win the nomination."
+ USA_Elections_1940.6.d: "[FROM.GetNewsIcon]The 1940 Republican National Convention concluded with Alf Landon's re-nomination for President. At the start of the convention, most people thought Landon would be re-nominated. This was ensured by a poor showing by Manhattan District Attorney Thomas E. Dewey, who many questioned because of his young age and lack of experience, and mediocre showings by Michigan Senator Arthur Vandenberg and Ohio Senator Robert A. Taft, allowing Landon to easily win the nomination."
  USA_Elections_1940.6.A: "Landon will prevail again!"
 
  USA_Elections_1940.7.t: "The 1940 Democratic National Convention"
@@ -286,11 +286,11 @@
  USA_Elections_1940.8.B: "You just can't beat Cactus Jack"
 
  USA_Elections_1940.9.t: "Alf Landon's Second Inauguration"
- USA_Elections_1940.9.d: "President Alf Landon's second term began with less vigor and excitement than his first, as he delivered his inaugural address to a smaller crowd due to a cold front that had blown into the Washington, D.C. area. Because of the cold, Landon's speech was even shorter than usual, as he thanked the American people for believing in him to lead their country. His brief mentions of additional tax breaks were met with enthusiastic applause from those in attendance. At the end of his speech, the crowd quickly dispersed, most likely to escape the blustery weather."
+ USA_Elections_1940.9.d: "[FROM.GetNewsIcon]President Alf Landon's second term began with less vigor and excitement than his first, as he delivered his inaugural address to a smaller crowd due to a cold front that had blown into the Washington, D.C. area. Because of the cold, Landon's speech was even shorter than usual, as he thanked the American people for believing in him to lead their country. His brief mentions of additional tax breaks were met with enthusiastic applause from those in attendance. At the end of his speech, the crowd quickly dispersed, most likely to escape the blustery weather."
  USA_Elections_1940.9.A: "Back to work in Washington."
 
  USA_Elections_1940.10.t: "Inauguration of John Nance Garner"
- USA_Elections_1940.10.d: "On the blustery late morning of January 20th, President-elect John Nance Garner placed his hand on the Bible as he was sworn in as President of the United States. Garner had a large following of supporters after serving as Roosevelt's vice president, particularly in the Deep South and his home state of Texas. Many in attendance had traveled to D.C. to witness "Cactus Jack" take the oath of office. Garner's speech was quick and emphasized by his southern drawl. Cheers and hollers greeted the new President as he waved to the audience before exiting the building."
+ USA_Elections_1940.10.d: "[FROM.GetNewsIcon]On the blustery late morning of January 20th, President-elect John Nance Garner placed his hand on the Bible as he was sworn in as President of the United States. Garner had a large following of supporters after serving as Roosevelt's vice president, particularly in the Deep South and his home state of Texas. Many in attendance had traveled to D.C. to witness "Cactus Jack" take the oath of office. Garner's speech was quick and emphasized by his southern drawl. Cheers and hollers greeted the new President as he waved to the audience before exiting the building."
  USA_Elections_1940.10.A: "Cactus Jack is back!"
 
  ### US 1944 Election Events
@@ -2353,7 +2353,7 @@ USA_Send_Aid_to_SPR: "Send Aid to Spain"
 
  USA_FDR_Dead.1.t: "An Unfinished Portrait"
  USA_FDR_Dead.1.d: "Roosevelt was completely exhausted. Over the last few years, he had noticed a rapid decline in his physical health. All of the stress and duties that come with being President have taken their toll on the man. Being the only President in history to serve four consecutive terms, and having to lead his country through a war that spanned the entire globe, his burden was massive and incomparable to any president before him.\n\nHe had time to reflect and consider his situation now that he was sitting on a chair and told not to move. His appointment with Elizabeth Shoumatoff to have a portrait painted of him was a welcome distraction. He is concerned that they will no longer be able to keep his deteriorating health a secret from the public, and that once word gets out, there will be widespread panic and questioning of his fitness for the presidency. The people needed to have faith and be united now more than ever.Something felt strange. His thoughts were interrupted by a pain in the back of his head that seemed to get worse with time. It wasn't long before the pain became unbearable, and he had to speak up so that a doctor could examine him."
- USA_FDR_Dead.1.A: "\"I have a terrible headache.\""
+ USA_FDR_Dead.1.A: "\"I have a terrific headache.\""
 
  USA_FDR_Dead.2.t: "President Roosevelt Dead!"
  USA_FDR_Dead.2.d: "[FROM.GetNewsIcon]President of the United States Franklin Delano Roosevelt died unexpectedly yesterday afternoon at the age of 63, sending shockwaves around the world, having recently been inaugurated for a fourth term, which is unprecedented in the history of the United States. Vice President Harry S. Truman will now assume the presidency.\n\nRoosevelt collapsed unconscious in his chair while sitting for a portrait and was carried into his bedroom. Howard Bruenn, the president's attending cardiologist, diagnosed the medical emergency as a massive intracerebral haemorrhage.\n\nRoosevelt's body was placed in a flag-draped coffin and loaded onto the presidential train for the journey back to Washington this morning. Thousands of people flock to the tracks along the route to pay their respects. Following a White House funeral in a few days, Roosevelt will be transported to his birthplace at Hyde Park, and then buried in the rose garden of his Springwood estate, as he requested.\n\nRoosevelt was widely regarded as one of the most important figures in American history, as well as one of the most influential figures of the twentieth century, with some comparing him to Abraham Lincoln and George Washington for leading the country through the Great Depression and the war to a prosperous future."

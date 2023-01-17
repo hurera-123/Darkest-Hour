@@ -565,6 +565,7 @@ country_event = {
 				SPA_disorganized_army_1
 			}
 		}
+		set_global_flag = SCW_ended_Nat
 	}
 }
 
@@ -610,6 +611,7 @@ country_event = {
 				SPA_civil_war_scars_1
 				SPR_peoples_militia_1
 			}
+			set_global_flag = SCW_ended_Rep
 		}
 	}
 }

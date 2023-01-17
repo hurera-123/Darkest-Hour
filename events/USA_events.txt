@@ -5413,6 +5413,7 @@ country_event = {
 				traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
 			}
 		}
+		deactivate_advisor = USA_Charles_McNary_HoG
 	}
 }
 
@@ -5427,8 +5428,7 @@ country_event = {
 		tag = USA
 		date > 1944.2.21
 		has_country_leader = {
-			name = "Charles L. McNary"
-			ruling_only = yes
+			character = USA_Charles_McNary
 		}
 	}
 	option = {

@@ -6445,8 +6445,7 @@ focus_tree = {
 		relative_position_id = USA_Coordinate_Our_Resources
 		available = {
 			has_country_leader = {
-				name = "Charles L. McNary"
-				ruling_only = yes
+				character = USA_Charles_McNary
 			}
 		}
 		completion_reward = {
@@ -6474,8 +6473,7 @@ focus_tree = {
 		relative_position_id = USA_Coordinate_Our_Resources
 		available = {
 			has_country_leader = {
-				name = "Charles L. McNary"
-				ruling_only = yes
+				character = USA_Charles_McNary
 			}
 		}
 		completion_reward = {

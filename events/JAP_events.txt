@@ -4240,7 +4240,23 @@ country_event = {
 		ai_chance = {
 			base = 0
 		}
-		add_war_support = 0.05
+		add_war_support = 0.1
+		add_stability = -0.30
+		custom_effect_tooltip = JAP_Panay_Incident.1.A.tt
+		set_temp_variable = {
+			party_id = 4
+		}			#Republicans
+		set_temp_variable = {
+			support_to_add = -0.25
+		}
+		change_party_support = yes
+		set_temp_variable = {
+			party_id = 6
+		}			#Democrats
+		set_temp_variable = {
+			support_to_add = -0.25
+		}
+		change_party_support = yes
 		add_to_war = { 
 			targeted_alliance = CHI
 			enemy = JAP

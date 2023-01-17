@@ -42,7 +42,7 @@ ideas = {
 				conscription_factor = -0.35
 				join_faction_tension = 0.20
 				monthly_unemployment_change = 0.005
-				consumer_goods_income_factor = -0.55
+				consumer_goods_income_factor = -0.75
 			}
 		}
 		#### The Great Depression

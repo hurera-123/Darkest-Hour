@@ -1627,6 +1627,7 @@ country_event = {
  			}
 			CHI = {
 				remove_ideas = CHI_D_Wang_Jingwei
+				dismantle_faction= yes
 			}
  			set_country_flag = JAP_victory_in_china
  			news_event = { id = JAP_Sino_Japanese_War_Chinese_Defeat.12 days = 1 }
