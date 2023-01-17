@@ -114,6 +114,9 @@ on_actions = {
 				if = {
 					limit = {
 						has_country_flag = SOV_purge_started
+						NOT = {
+							check_variable = { var = SOV_Stalin_Paranoia value = 0 compare = equals }
+						}
 					}
 					add_to_variable = { SOV_Stalin_Paranoia = SOV_Stalin_Paranoia_Change }
 					clamp_variable = {
