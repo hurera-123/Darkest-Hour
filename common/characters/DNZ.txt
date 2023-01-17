@@ -9,7 +9,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=DNZ_D_Helmer_Rosting_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=DNZ
 			}
@@ -33,7 +33,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=DNZ_D_Sean_Lester_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=DNZ
 			}
@@ -57,7 +57,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=DNZ_D_Carl_Jakob_Burckhardt_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=DNZ
 			}

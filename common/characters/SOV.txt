@@ -9,7 +9,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Nikolai_I_Yezhov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -30,7 +30,7 @@ characters = {
 			allowed={
 				tag=SOV
 			}
-			removal_cost = -1
+			can_be_fired = no
 			visible={
 				date > 1933.01.01
 				date < 1956.01.01
@@ -70,7 +70,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Gregori_N_Zhilenkov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -96,7 +96,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Alexander_F_Kerensky_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -125,7 +125,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Nikolai_Bukharin_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -185,7 +185,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Aleksey_Rykov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -253,7 +253,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Leon_Trotsky_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -350,7 +350,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Sergey_Kirov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -418,7 +418,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Vyacheslav_M_Molotov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -462,7 +462,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Lavrentiy_Beria_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -484,7 +484,7 @@ characters = {
 			allowed={
 				tag=SOV
 			}
-			removal_cost = -1
+			can_be_fired = no
 			visible={
 				date > 1933.01.01
 				date < 1964.01.01
@@ -507,7 +507,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Nikolai_Voznesensky_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -550,7 +550,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Andrei_Zhdanov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -605,7 +605,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Georgy_M_Malenkov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -626,7 +626,7 @@ characters = {
 			allowed={
 				tag=SOV
 			}
-			removal_cost = -1
+			can_be_fired = no
 			visible={
 				date > 1933.01.01
 				date < 1958.01.01
@@ -666,7 +666,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Mikhail_Suslov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -870,7 +870,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Nikita_S_Khrushchev_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -1091,7 +1091,7 @@ characters = {
 		advisor={
 			slot=Minister_of_Security
 			idea_token=SOV_Vyacheslav_Menzhinsky_MoS
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -2787,7 +2787,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Joseph_Stalin_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -3813,6 +3813,22 @@ characters = {
 		portraits={
 			army={
 				small="GFX_idea_Marina_Raskova"
+			}
+		}
+		advisor={
+			slot=Chief_of_Airforce
+			idea_token=SOV_Marina_Raskova_CoAir
+			allowed={
+				tag=SOV
+			}
+			visible={
+				C_Minister_Allowed = yes
+				date > 1933.01.01
+				date < 1964.01.01
+				has_country_flag = SOV_Raskova_Advisor
+			}
+			traits={			
+				CoAir_Night_Witch
 			}
 		}
 	}

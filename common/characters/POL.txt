@@ -10,7 +10,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Tadeusz_Bielecki_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -43,7 +43,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Roman_Dmowski_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -71,7 +71,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Waclaw_Kozielski_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -99,7 +99,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Janusz_Jedrzejewicz_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -127,7 +127,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Aleksander_Prystor_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -155,7 +155,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Leon_Kozlowski_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -203,7 +203,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Walery_Slawek_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -288,7 +288,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Felicjan_SlawojSkladkowski_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -366,7 +366,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Edward_RydzSmigly_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -461,7 +461,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Kardynal_AS_Sapieha_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -518,7 +518,7 @@ characters={
 		advisor={
 			slot=Chief_of_Army
 			idea_token=POL_Jozef_Pilsudski_CoArmy
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -538,7 +538,7 @@ characters={
 		advisor = {
 			slot=Chief_of_Staff
 			idea_token=POL_Jozef_Pilsudski_CoStaff
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -576,7 +576,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Ignacy_Moscicki_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -605,7 +605,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Mikolaj_Dolanowski_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -655,7 +655,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Wladyslaw_Sikorski_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -721,7 +721,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Boguslaw_Miedzinski_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -749,7 +749,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Jan_Kwapinski_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -777,7 +777,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Kardynal_Stefan_Wyszynski_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -805,7 +805,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Antoni_Paczek_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -852,7 +852,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Stanislaw_Mikolajczyk_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -899,7 +899,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Wojciech_Korfanty_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -946,7 +946,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Eugeniusz_Kwiatkowski_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -1012,7 +1012,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Tomasz_Arciszewski_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -1040,7 +1040,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Stanislaw_Osiecki_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -1068,7 +1068,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Stanislas_A_Neyman_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -1115,7 +1115,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Mieczyslaw_Michalowicz_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -1143,7 +1143,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Hugon_Hanke_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -1171,7 +1171,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Jozef_Dziegielewski_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -1199,7 +1199,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Boleslaw_Drobner_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -1247,7 +1247,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Edward_OsobkaMorawski_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -1294,7 +1294,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Marceli_Nowotko_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -1322,7 +1322,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Jozef_Cyrenkiewicz_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}
@@ -1357,7 +1357,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=POL_Boleslaw_Bierut_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = POL
 			}

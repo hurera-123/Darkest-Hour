@@ -2086,6 +2086,8 @@ focus_tree = {
 			has_completed_focus = GER_Luftwaffe
 		}
 		completion_reward = {
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = GER_Heinz_Guderian_HC
 			add_corps_commander_role = {
 				character = GER_Heinz_Guderian
 				traits = {
@@ -2100,27 +2102,6 @@ focus_tree = {
 				defense_skill = 4
 				planning_skill = 4
 				logistics_skill = 3
-			}
-			add_advisor_role = {
-				character = GER_Heinz_Guderian
-				advisor = {
-					slot = high_command
-					idea_token = GER_Heinz_Guderian_HC
-					traits = {
-						army_armored_3
-					}
-					allowed = {
-						tag = GER
-					}
-					visible = {
-						date > 1933.1.1
-						date < 1964.1.1
-						F_Minister_Allowed = yes
-						NOT = {
-							has_country_flag = Heinz_Guderian_unavailable
-						}
-					}
-				}
 			}
 			add_corps_commander_role = {
 				character = GER_Erwin_Rommel

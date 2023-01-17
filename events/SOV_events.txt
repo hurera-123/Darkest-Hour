@@ -3412,23 +3412,7 @@ country_event = {
 
 	option = {
 		name = SOV_Airforce.2.A
-		add_advisor_role = {
-			character = SOV_Marina_Raskova
-			activate = yes
-			advisor={
-				slot=Chief_of_Airforce
-				idea_token=SOV_Marina_Raskova_CoAir
-				allowed={
-					tag=SOV
-				}
-				visible={
-					C_Minister_Allowed = yes
-				}
-				traits={			
-					CoAir_Night_Witch
-				}
-			}
-		}
+		set_country_flag = SOV_Raskova_Advisor
 	}
 	option = {
 		name = SOV_Airforce.2.B

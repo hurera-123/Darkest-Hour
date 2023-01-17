@@ -33,7 +33,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Fritz_Kuhn_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -77,7 +77,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_John_J_Pershing_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -154,7 +154,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_HR_Mengert_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -197,7 +197,7 @@ characters={
 		advisor={
 			slot=Minister
 			idea_token=USA_Homer_S_Cummings_M
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -225,7 +225,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Gerald_K_Smith_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -268,7 +268,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Robert_E_Wood_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -311,7 +311,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Dr_Samuel_Green_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -396,7 +396,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Burton_K_Wheeler_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -439,7 +439,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Charles_Curtis_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -467,7 +467,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=USA_Charles_McNary_FM
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -485,7 +485,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Charles_McNary_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -511,7 +511,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Henry_A_Wallace_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -538,7 +538,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=USA_Cordell_Hull_FM
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -556,7 +556,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Cordell_Hull_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -600,7 +600,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Lawrence_Dennis_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -626,7 +626,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Frank_Knox_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -669,7 +669,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_John_Bricker_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -696,7 +696,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Earl_Warren_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -847,7 +847,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Charles_W_Bryan_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -873,7 +873,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Joseph_Taylor_Robinson_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -900,7 +900,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_John_Nance_Garner_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -927,7 +927,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Harry_L_Hopkins_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -970,7 +970,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Joel_B_Clark_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -996,7 +996,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Harry_S_Truman_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1023,7 +1023,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Alben_W_Barkley_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1049,7 +1049,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Allan_L_Benson_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1075,7 +1075,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Morris_Hillquit_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1101,7 +1101,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_James_Cannon_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1127,7 +1127,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Joseph_P_Lash_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1170,7 +1170,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_William_Z_Foster_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1196,7 +1196,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Benjamin_Gitlow_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1239,7 +1239,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Martin_Abern_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1282,7 +1282,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_James_W_Ford_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1376,7 +1376,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=USA_Ray_Lymon_Wilbur_MoS
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1502,7 +1502,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=USA_William_Borah_MoS
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1578,7 +1578,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=USA_Harold_Ickes_MoS
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -2523,7 +2523,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=USA_Ogden_L_Mills_AM
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -2799,7 +2799,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=USA_William_H_Woodin_AM
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -2850,7 +2850,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=USA_Henry_L_Stimson_FM
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -3662,7 +3662,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=USA_William_F_Friedman_HoI
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -4154,6 +4154,50 @@ characters={
 			legacy_id = 305017
 		}
 	}
+	USA_Alexander_Vandegrift = {
+		name=USA_Alexander_Vandegrift
+		portraits={
+			army={
+				large="GFX_M_Alexander_Vandegrift"
+			}
+		}
+		corps_commander={
+			visible = { 
+				has_completed_focus = USA_Expand_the_Marine_Corps 
+			}
+			traits = {
+				commando
+				naval_invader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	USA_Holland_Smith = {
+		name=USA_Holland_Smith
+		portraits={
+			army={
+				large="GFX_M_Holland_Smith"
+			}
+		}
+		corps_commander={
+			visible = { 
+				has_completed_focus = USA_Expand_the_Marine_Corps 
+			}
+			traits = {
+				commando
+				naval_invader
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
 	USA_Douglas_MacArthur = {
 		name=USA_Douglas_MacArthur
 		portraits={
@@ -4191,7 +4235,7 @@ characters={
 		advisor={
 			slot=Chief_of_Army
 			idea_token=USA_Douglas_MacArthur_CoArmy
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -5072,7 +5116,7 @@ characters={
 		advisor={
 			slot=Minister
 			idea_token=USA_Thomas_E_Dewey_M
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -5100,7 +5144,7 @@ characters={
 		advisor={
 			slot=Minister
 			idea_token=USA_Wallace_H_White_Jr_M
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -5539,7 +5583,7 @@ characters={
 		advisor={
 			slot=Minister
 			idea_token=USA_Arthur_Hyde_M
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -5568,7 +5612,7 @@ characters={
 		advisor={
 			slot=Minister
 			idea_token=USA_James_Farley_M
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}

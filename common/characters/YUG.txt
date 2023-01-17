@@ -9,7 +9,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=YUG_Aleksandar_I_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=YUG
 			}
@@ -31,7 +31,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=YUG_Prince_Paul_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=YUG
 			}
@@ -52,7 +52,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=YUG_Petar_II_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=YUG
 			}
@@ -73,7 +73,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token= YUG_Ivan_Ribar_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=YUG
 			}

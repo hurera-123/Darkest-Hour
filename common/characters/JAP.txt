@@ -9,7 +9,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=JAP_Hirohito_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=JAP
 			}

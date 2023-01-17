@@ -9,7 +9,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_George_V_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -49,7 +49,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Edward_VIII_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -79,7 +79,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_George_VI_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -106,7 +106,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Arnold_Spencer_Leese_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -162,7 +162,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Oswald_Mosley_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -205,7 +205,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Enoch_Powell_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -251,7 +251,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Stanley_Baldwin_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -297,7 +297,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Neville_Chamberlain_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -326,7 +326,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Winston_Churchill_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -365,7 +365,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Lord_Halifax_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -436,7 +436,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_JR_Clynes_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -476,7 +476,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Ramsay_MacDonald_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -505,7 +505,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Clement_Attlee_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -548,7 +548,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_David_Lloyd_George_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -587,7 +587,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Harry_Pollitt_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}

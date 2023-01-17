@@ -23,7 +23,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ITA_Victor_Emmanuel_III_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ITA
 			}
@@ -44,7 +44,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ITA_Junio_Borghese_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ITA
 			}
@@ -77,100 +77,6 @@ characters={
 			}
 		}
 	}
-	ITA_Gabriele_dAnnunzio = {
-		name=ITA_Gabriele_dAnnunzio
-		portraits={
-			army={
-				small="GFX_idea_Gabriele_dAnnunzio"
-			}
-		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=ITA_Gabriele_dAnnunzio_HoG
-			removal_cost = -1
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1920.01.01
-				date < 1932.01.01
-				F_Minister_Allowed = yes
-				NOT = { has_country_flag = Gabriele_dAnnunzio_unavailable }
-			}
-			traits={
-				
-				L_Flamboyant_Tough_Guy
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Gabriele_dAnnunzio_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1920.01.01
-				date < 1932.01.01
-				F_Minister_Allowed = yes
-				NOT = { has_country_flag = Gabriele_dAnnunzio_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Mass_Combat
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=ITA_Gabriele_dAnnunzio_CoArmy
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1920.01.01
-				date < 1932.01.01
-				F_Minister_Allowed = yes
-				NOT = { has_country_flag = Gabriele_dAnnunzio_unavailable }
-			}
-			traits={
-				
-				CoArmy_Guns_And_Butter_Doctrine
-			}
-		}
-		advisor={
-			slot=Chief_of_Airforce
-			idea_token=ITA_Gabriele_dAnnunzio_CoAir
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1920.01.01
-				date < 1932.01.01
-				F_Minister_Allowed = yes
-				NOT = { has_country_flag = Gabriele_dAnnunzio_unavailable }
-			}
-			traits={
-				
-				CoAir_Army_Aviation_Doctrine
-			}
-		}
-		advisor={
-			slot=Foreign_Minister
-			idea_token=ITA_Gabriele_dAnnunzio_FM
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1920.01.01
-				date < 1932.01.01
-				F_Minister_Allowed = yes
-				NOT = { has_country_flag = Gabriele_dAnnunzio_unavailable }
-			}
-			traits={
-				
-				FM_Iron_Fisted_Brute
-			}
-		}
-	}
 	ITA_Benito_Mussolini = {
 		name=ITA_Benito_Mussolini
 		portraits={
@@ -195,7 +101,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ITA_Benito_Mussolini_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ITA
 			}
@@ -311,7 +217,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ITA_Pietro_Badoglio_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ITA
 			}
@@ -388,7 +294,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ITA_Conde_Stefano_Jacini_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ITA
 			}
@@ -444,7 +350,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ITA_Alcide_de_Gasperi_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ITA
 			}
@@ -504,7 +410,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ITA_Giuseppe_Pella_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ITA
 			}
@@ -589,7 +495,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ITA_Ivanoe_Bonomi_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ITA
 			}
@@ -649,7 +555,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ITA_Ferruccio_Parri_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ITA
 			}
@@ -705,7 +611,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ITA_Pietro_Nenni_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ITA
 			}
@@ -748,7 +654,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ITA_Luigi_Longo_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ITA
 			}
@@ -791,7 +697,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ITA_Enrico_Berlinguer_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ITA
 			}
@@ -830,7 +736,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ITA_Palmiro_Togliatti_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ITA
 			}
@@ -2478,48 +2384,6 @@ characters={
 			}
 		}
 	}
-	ITA_Vittorio_Italico_Zupelli = {
-		name=ITA_Vittorio_Italico_Zupelli
-		portraits={
-			army={
-				small="GFX_idea_Vittorio_Italico_Zupelli"
-			}
-		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=ITA_Vittorio_Italico_Zupelli_AM
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1918.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Vittorio_Italico_Zupelli_unavailable }
-			}
-			traits={
-				
-				AM_Military_Entrepreneur
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Vittorio_Italico_Zupelli_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Vittorio_Italico_Zupelli_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Manoeuvre
-			}
-		}
-	}
 	ITA_A_de_Marinis_de_Ricia = {
 		name=ITA_A_de_Marinis_de_Ricia
 		portraits={
@@ -3436,274 +3300,6 @@ characters={
 			}
 		}
 	}
-	ITA_Luigi_Cadorna = {
-		name=ITA_Luigi_Cadorna
-		portraits={
-			army={
-				small="GFX_idea_Luigi_Cadorna"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Luigi_Cadorna_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Luigi_Cadorna_unavailable }
-			}
-			traits={
-				
-				CoStaff_Stubborn_Disciplinarian
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=ITA_Luigi_Cadorna_CoArmy
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Luigi_Cadorna_unavailable }
-			}
-			traits={
-				
-				CoArmy_Decisive_Battle_Doctrine
-			}
-		}
-	}
-	ITA_Domenico_Grandi = {
-		name=ITA_Domenico_Grandi
-		portraits={
-			army={
-				small="GFX_idea_Domenico_Grandi"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Domenico_Grandi_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Domenico_Grandi_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Defence
-			}
-		}
-	}
-	ITA_Alberto_Pollio = {
-		name=ITA_Alberto_Pollio
-		portraits={
-			army={
-				small="GFX_idea_Alberto_Pollio"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Alberto_Pollio_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Alberto_Pollio_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Fire_Support
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=ITA_Alberto_Pollio_CoArmy
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Alberto_Pollio_unavailable }
-			}
-			traits={
-				
-				CoArmy_Guns_And_Butter_Doctrine
-			}
-		}
-	}
-	ITA_Paolo_Spingardi = {
-		name=ITA_Paolo_Spingardi
-		portraits={
-			army={
-				small="GFX_idea_Paolo_Spingardi"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Paolo_Spingardi_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Paolo_Spingardi_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Fire_Support
-			}
-		}
-	}
-	ITA_Armando_Diaz = {
-		name=ITA_Armando_Diaz
-		portraits={
-			army={
-				small="GFX_idea_Armando_Diaz"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Armando_Diaz_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1916.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Armando_Diaz_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Defence
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=ITA_Armando_Diaz_CoArmy
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1916.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Armando_Diaz_unavailable }
-			}
-			traits={
-				
-				CoArmy_Static_Defence_Doctrine
-			}
-		}
-	}
-	ITA_Paolo_Morrone = {
-		name=ITA_Paolo_Morrone
-		portraits={
-			army={
-				small="GFX_idea_Paolo_Morrone"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Paolo_Morrone_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1916.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Paolo_Morrone_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Mass_Combat
-			}
-		}
-	}
-	ITA_Gaetano_Ettore_Giardino = {
-		name=ITA_Gaetano_Ettore_Giardino
-		portraits={
-			army={
-				small="GFX_idea_Gaetano_Ettore_Giardino"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Gaetano_Ettore_Giardino_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1917.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Gaetano_Ettore_Giardino_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Defence
-			}
-		}
-	}
-	ITA_Giuseppe_Vaccari = {
-		name=ITA_Giuseppe_Vaccari
-		portraits={
-			army={
-				small="GFX_idea_Giuseppe_Vaccari"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Giuseppe_Vaccari_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1921.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Giuseppe_Vaccari_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Fire_Support
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=ITA_Giuseppe_Vaccari_CoArmy
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1921.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Giuseppe_Vaccari_unavailable }
-			}
-			traits={
-				
-				CoArmy_Decisive_Battle_Doctrine
-			}
-		}
-	}
 	ITA_Claudio_Trezzani = {
 		name=ITA_Claudio_Trezzani
 		portraits={
@@ -3771,131 +3367,6 @@ characters={
 			}
 		}
 	}
-	ITA_Giuseppe_Mancinelli = {
-		name=ITA_Giuseppe_Mancinelli
-		portraits={
-			army={
-				small="GFX_idea_Giuseppe_Mancinelli"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Giuseppe_Mancinelli_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1954.01.01
-				date < 1964.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Giuseppe_Mancinelli_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Defence
-			}
-		}
-	}
-	ITA_Aldo_Rossi = {
-		name=ITA_Aldo_Rossi
-		portraits={
-			army={
-				small="GFX_idea_Aldo_Rossi"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Aldo_Rossi_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1959.01.01
-				date < 1964.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Aldo_Rossi_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Fire_Support
-			}
-		}
-	}
-	ITA_Giuseppe_Ettore_Vigano = {
-		name=ITA_Giuseppe_Ettore_Vigano
-		portraits={
-			army={
-				small="GFX_idea_Giuseppe_Ettore_Vigano"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Giuseppe_Ettore_Vigano_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Giuseppe_Ettore_Vigano_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Defence
-			}
-		}
-	}
-	ITA_Vittorio_Alfieri = {
-		name=ITA_Vittorio_Alfieri
-		portraits={
-			army={
-				small="GFX_idea_Vittorio_Alfieri"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Vittorio_Alfieri_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1917.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Vittorio_Alfieri_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Fire_Support
-			}
-		}
-	}
-	ITA_Enrico_Caviglia = {
-		name=ITA_Enrico_Caviglia
-		portraits={
-			army={
-				small="GFX_idea_Enrico_Caviglia"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Enrico_Caviglia_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1919.01.01
-				date < 1932.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Enrico_Caviglia_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Manoeuvre
-			}
-		}
-	}
 	ITA_Alessandro_Casati = {
 		name=ITA_Alessandro_Casati
 		portraits={
@@ -3960,31 +3431,6 @@ characters={
 			traits={
 				
 				CoAir_Army_Aviation_Doctrine
-			}
-		}
-	}
-	ITA_Lamberto_Bartolucci = {
-		name=ITA_Lamberto_Bartolucci
-		portraits={
-			army={
-				small="GFX_idea_Lamberto_Bartolucci"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=ITA_Lamberto_Bartolucci_CoStaff
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1985.01.01
-				date < 1992.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Lamberto_Bartolucci_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Mass_Combat
 			}
 		}
 	}
@@ -4175,31 +3621,6 @@ characters={
 			}
 		}
 	}
-	ITA_Carlo_Porro = {
-		name=ITA_Carlo_Porro
-		portraits={
-			army={
-				small="GFX_idea_Carlo_Porro"
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=ITA_Carlo_Porro_CoArmy
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1911.01.01
-				date < 1918.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Carlo_Porro_unavailable }
-			}
-			traits={
-				
-				CoArmy_Guns_And_Butter_Doctrine
-			}
-		}
-	}
 	ITA_Raffaele_Cadorna_Jr = {
 		name=ITA_Raffaele_Cadorna_Jr
 		portraits={
@@ -4243,156 +3664,6 @@ characters={
 				date < 1965.01.01
 				D_Minister_Allowed = yes
 				NOT = { has_country_flag = Ernesto_Cappa_unavailable }
-			}
-			traits={
-				
-				CoArmy_Guns_And_Butter_Doctrine
-			}
-		}
-	}
-	ITA_Giuseppe_Pizzorno = {
-		name=ITA_Giuseppe_Pizzorno
-		portraits={
-			army={
-				small="GFX_idea_Giuseppe_Pizzorno"
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=ITA_Giuseppe_Pizzorno_CoArmy
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1952.01.01
-				date < 1965.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Giuseppe_Pizzorno_unavailable }
-			}
-			traits={
-				
-				CoArmy_Static_Defence_Doctrine
-			}
-		}
-	}
-	ITA_Giorgio_Liuzzi = {
-		name=ITA_Giorgio_Liuzzi
-		portraits={
-			army={
-				small="GFX_idea_Giorgio_Liuzzi"
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=ITA_Giorgio_Liuzzi_CoArmy
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1954.01.01
-				date < 1965.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Giorgio_Liuzzi_unavailable }
-			}
-			traits={
-				
-				CoArmy_Guns_And_Butter_Doctrine
-			}
-		}
-	}
-	ITA_Bruno_Lucini = {
-		name=ITA_Bruno_Lucini
-		portraits={
-			army={
-				small="GFX_idea_Bruno_Lucini"
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=ITA_Bruno_Lucini_CoArmy
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1959.01.01
-				date < 1965.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Bruno_Lucini_unavailable }
-			}
-			traits={
-				
-				CoArmy_Decisive_Battle_Doctrine
-			}
-		}
-	}
-	ITA_Antonio_Gualano = {
-		name=ITA_Antonio_Gualano
-		portraits={
-			army={
-				small="GFX_idea_Antonio_Gualano"
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=ITA_Antonio_Gualano_CoArmy
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1960.01.01
-				date < 1965.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Antonio_Gualano_unavailable }
-			}
-			traits={
-				
-				CoArmy_Guns_And_Butter_Doctrine
-			}
-		}
-	}
-	ITA_Giuseppe_Aloia = {
-		name=ITA_Giuseppe_Aloia
-		portraits={
-			army={
-				small="GFX_idea_Giuseppe_Aloia"
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=ITA_Giuseppe_Aloia_CoArmy
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1962.01.01
-				date < 1965.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Giuseppe_Aloia_unavailable }
-			}
-			traits={
-				
-				CoArmy_Static_Defence_Doctrine
-			}
-		}
-	}
-	ITA_Umberto_Cappuzzo = {
-		name=ITA_Umberto_Cappuzzo
-		portraits={
-			army={
-				small="GFX_idea_Umberto_Cappuzzo"
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=ITA_Umberto_Cappuzzo_CoArmy
-			allowed={
-				tag=ITA
-			}
-			visible={
-				date > 1985.01.01
-				date < 1992.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Umberto_Cappuzzo_unavailable }
 			}
 			traits={
 				

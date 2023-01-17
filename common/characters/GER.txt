@@ -13,7 +13,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Hermann_Goring_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -99,7 +99,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Adolf_Hitler_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -164,7 +164,7 @@ characters={
 			slot=Head_of_Government
 			idea_token=GER_Paul_Von_Hindenburg_HoG
 			desc=GER_Paul_von_Hindenburg_desc
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -230,7 +230,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Reichstag_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -253,7 +253,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Gregor_Strasser_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -302,7 +302,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Rudolf_Hess_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -339,7 +339,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Hans_Heinrich_Lammers_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -369,7 +369,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Martin_Bormann_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -398,7 +398,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Joseph_Goebbels_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -467,7 +467,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Heinrich_Himmler_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -515,7 +515,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Albert_Speer_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -568,7 +568,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Kurt_von_Schleicher_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -617,7 +617,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Alfred_Hugenberg_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -686,7 +686,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Franz_von_Papen_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -754,7 +754,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Carl_Friedrich_Goerdeler_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -803,7 +803,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Lutz_von_Schwerin_Krosigk_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -872,7 +872,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Konrad_Adenauer_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -922,7 +922,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Ernst_Thalmann_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -951,7 +951,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Ernst_Toller_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -3761,6 +3761,25 @@ characters={
 			army={
 				small="GFX_idea_Heinz_Guderian"
 				large="GFX_M_Heinz_Guderian"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = GER_Heinz_Guderian_HC
+			allowed = {
+				tag = GER
+			}
+			visible = {
+				has_completed_focus = GER_Bewegungskrieg
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Heinz_Guderian_unavailable
+				}
+			}
+			traits = {
+				army_armored_3
 			}
 		}
 		advisor={
