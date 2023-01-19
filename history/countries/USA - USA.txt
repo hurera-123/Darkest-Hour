@@ -215,6 +215,8 @@ recruit_character = USA_Harold_Stassen
 recruit_character = USA_Franklin_D_Roosevelt
 recruit_character = USA_Alf_Landon
 recruit_character = USA_Wendell_Willkie
+recruit_character = USA_Alexander_Vandegrift
+recruit_character = USA_Holland_Smith
 
 #########################################################################
 # United States of America - 1933

@@ -4918,7 +4918,7 @@ characters={
 		name=USA_Earnest_King
 		portraits={
 			army={
-				large="GFX_M_Earnest_King"
+				large="GFX_M_Ernest_King"
 			}
 		}
 		navy_leader={

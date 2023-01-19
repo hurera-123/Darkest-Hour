@@ -1948,6 +1948,10 @@ focus_tree = {
 				uses = 2
 				category = para_tech
 			}
+			custom_effect_tooltip = USA_Form_Airbone_Division_tt
+			hidden_effect = {
+				load_oob = USA_Airborne
+			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -3438,6 +3442,8 @@ focus_tree = {
 				uses = 1
 				category = marine_tech
 			}
+			show_unit_leaders_tooltip = USA_Holland_Smith
+			show_unit_leaders_tooltip = USA_Alexander_Vandegrift
 			add_units_to_division_template = {
 				template_name = "Marines"
 				regiments = {

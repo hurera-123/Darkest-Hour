@@ -6655,6 +6655,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_FRA_Plan_Mandel"
+        texturefile = "gfx/interface/ideas/Spirits/FRA_Plan_Mandel.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_FRA_Rearmament_Program"
         texturefile = "gfx/interface/ideas/Spirits/FRA_Rearmament_Program.png"
     }
@@ -7792,6 +7797,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_SOV_The_Wings_of_the_Red_Army"
         texturefile = "gfx/interface/ideas/Spirits/SOV_The_Wings_of_the_Red_Army.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_SOV_Tukhachevsky_Reforms"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_Tukhachevsky_Reforms.png"
     }
 
     spriteType = {

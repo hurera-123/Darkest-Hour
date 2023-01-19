@@ -2176,7 +2176,10 @@ focus_tree = {
 				bonus = 0.5
 				category = marine_tech
 			}
-			# Spawn Royal Marines OOB
+			custom_effect_tooltip = ENG_The_Royal_Marines_tt
+			hidden_effect = {
+				load_oob = ENG_Royal_Marines
+			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}

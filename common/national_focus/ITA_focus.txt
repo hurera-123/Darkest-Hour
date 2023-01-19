@@ -707,6 +707,10 @@ focus_tree = {
 				bonus = 1
 				category = para_tech
 			}
+			custom_effect_tooltip = ITA_Ex_Alto_Fulgor_tt
+			hidden_effect = {
+				load_oob = ITA_Folgore
+			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}

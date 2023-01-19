@@ -1,6 +1,5 @@
 ﻿recruit_character = ITA_Victor_Emmanuel_III
 recruit_character = ITA_Junio_Borghese
-recruit_character = ITA_Gabriele_dAnnunzio
 recruit_character = ITA_Benito_Mussolini
 recruit_character = ITA_Augusto_De_Marsanich
 recruit_character = ITA_Pietro_Badoglio
@@ -103,38 +102,17 @@ recruit_character = ITA_Ugo_Cavallero
 recruit_character = ITA_Vittorio_Ambrosio
 recruit_character = ITA_Mario_Cingolani
 recruit_character = ITA_Ettore_Conti
-recruit_character = ITA_Luigi_Cadorna
-recruit_character = ITA_Domenico_Grandi
-recruit_character = ITA_Alberto_Pollio
-recruit_character = ITA_Paolo_Spingardi
-recruit_character = ITA_Armando_Diaz
-recruit_character = ITA_Paolo_Morrone
-recruit_character = ITA_Gaetano_Ettore_Giardino
-recruit_character = ITA_Giuseppe_Vaccari
 recruit_character = ITA_Claudio_Trezzani
 recruit_character = ITA_Louis_Efisio_Marras
-recruit_character = ITA_Giuseppe_Mancinelli
-recruit_character = ITA_Aldo_Rossi
-recruit_character = ITA_Giuseppe_Ettore_Vigano
-recruit_character = ITA_Vittorio_Alfieri
-recruit_character = ITA_Enrico_Caviglia
 recruit_character = ITA_Alessandro_Casati
 recruit_character = ITA_Luigi_Gasparotto
-recruit_character = ITA_Lamberto_Bartolucci
 recruit_character = ITA_Federico_Baistrocchi
 recruit_character = ITA_Rodolfo_Graziani
 recruit_character = ITA_Mario_Roatta
 recruit_character = ITA_Dionisio_Ancelotti
 recruit_character = ITA_Enrico_Mattei
-recruit_character = ITA_Carlo_Porro
 recruit_character = ITA_Raffaele_Cadorna_Jr
 recruit_character = ITA_Ernesto_Cappa
-recruit_character = ITA_Giuseppe_Pizzorno
-recruit_character = ITA_Giorgio_Liuzzi
-recruit_character = ITA_Bruno_Lucini
-recruit_character = ITA_Antonio_Gualano
-recruit_character = ITA_Giuseppe_Aloia
-recruit_character = ITA_Umberto_Cappuzzo
 recruit_character = ITA_Giancarlo_Pajetta
 recruit_character = ITA_Alfredo_Rocco
 recruit_character = ITA_Domenico_Cavagnari
@@ -189,7 +167,8 @@ recruit_character = ITA_Angelo_Iachano
 	# Research
 	#######################
 	set_technology = {
-	basic_train = 1
+	basic_train = 1
+
 		### Infantry Tech
 		Small_Arms_1900 = 1
 		Small_Arms_1916 = 1

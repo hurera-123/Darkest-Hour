@@ -1208,7 +1208,7 @@ ideas = {
 			available = {
 				has_war = yes
 			}
-			picture = placeholder
+			picture = FRA_Plan_Mandel
 			modifier = {
 				industrial_capacity_factory = 0.1
 				conscription_factor = 0.01
