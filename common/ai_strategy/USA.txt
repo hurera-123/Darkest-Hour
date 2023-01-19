@@ -363,18 +363,6 @@ USA_Dont_Join_the_War_too_Early = {
 		value = -1500
 	}
 }
-USA_Increase_Military_Factories = {
-	allowed = {
-		original_tag = USA
-	}
-	enable = {
-		date > 1938.1.1
-	}
-	ai_strategy = {
-		type = added_military_to_civilian_factory_ratio
-		value = 100
-	}
-}
 USA_Build_Only_Civs = {
 	allowed = {
 		original_tag = USA
@@ -444,12 +432,78 @@ USA_Build_Only_Mils = {
 		date > 1938.1.1
 	}
 	abort = {
-		date > 1942.1.1
+		num_of_military_factories > 150
 	}
 	ai_strategy = {
 		type = building_target
 		id = arms_factory
-		value = 800
+		value = 100
+	}
+	ai_strategy = {
+		type = building_target
+		id = industrial_complex
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = infrastructure
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = coastal_bunker
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = naval_base
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = air_base
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = rail_way
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = supply_node
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = radar_station
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = anti_air_building
+		value = -500
+	}
+	ai_strategy = {
+		type = building_target
+		id = bunker
+		value = -500
+	}
+}
+USA_Build_Dockyards = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		date > 1940.1.1
+	}
+	abort = {
+		num_of_naval_factories > 40
+	}
+	ai_strategy = {
+		type = building_target
+		id = dockyard
+		value = 100
 	}
 }
 USA_Increase_Army = {
