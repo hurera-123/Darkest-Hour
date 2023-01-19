@@ -166,8 +166,9 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Marine Brigade" 		# 1st, 2nd Marine Brigades, precursors to 1st, 2nd USMC Divisions
+	name = "Marines" 		# 1st, 2nd Marine Brigades, precursors to 1st, 2nd USMC Divisions
 	division_names_group = USA_MAR_03
+	division_cap = 3	# Historically the USMC was pretty limited in size until the wartime expansion.  There were only two prewar brigades, but a third brigade is within reason.
 
 	regiments = {
 		marine = { x = 0 y = 0 }
@@ -180,7 +181,7 @@ division_template = {
 		recon = { x = 0 y = 1 }
 		artillery_battery = { x = 0 y = 2 }
 	}
-	priority = 0 # I'm aware that marines are considered elite, but throughout it's history the USMC has been the last to receive new equipment.  So this priority level reflects historical accuracy.
+	priority = 0 # I'm aware that marines are considered elite, but throughout its history the USMC has been the last to receive new equipment.  So this priority level reflects historical accuracy.
 }
 division_template = {
 	name = "Armored Regiment (Light)"
@@ -608,7 +609,7 @@ units = {
 			}
 		}
 		location = 4641  # 4641 Port Au Prince, Haiti until August 1934 then September 1935 at Quantico, VA
-		division_template = "Marine Brigade"
+		division_template = "Marines"
 		start_experience_factor = 0.26
 		start_equipment_factor = 0.8
 		force_equipment_variants = { Small_Arms_equipment_1900 = { owner = "USA" } } #The standard US rifle was the M1903 Springfield.  The few M1917s left over equipped the Chemical Mortar Corps.

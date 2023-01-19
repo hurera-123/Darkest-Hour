@@ -3438,6 +3438,33 @@ focus_tree = {
 				uses = 1
 				category = marine_tech
 			}
+			add_units_to_division_template = {
+				template_name = "Marines"
+				regiments = {
+					marine = 0
+					marine = 1
+					marine = 2
+					marine = 2
+					marine = 2
+					artillery_battalion_light = 3
+					artillery_battalion_light = 3
+					artillery_battalion_light = 3
+					artillery_battalion = 3
+					light_armor = 4
+				}
+				support = {
+					anti_tank_company = 0
+					anti_air_battery = 0
+					signal_company = 1
+					field_hospital = 1
+					logistics_company = 1
+					military_police = 1
+				}
+			}
+			set_division_template_lock = {
+				division_template = "Marines"
+				is_locked = no
+			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}

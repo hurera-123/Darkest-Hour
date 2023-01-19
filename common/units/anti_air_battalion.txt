@@ -10,7 +10,8 @@ sub_units = {
 		priority = 301
 		ai_priority = 10
 		active = yes
-		
+		can_be_parachuted = yes # should only be added with the glider tech
+	
 
 		type = {
 			infantry
