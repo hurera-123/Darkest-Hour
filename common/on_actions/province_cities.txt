@@ -193,6 +193,12 @@ on_actions = {
 					province = { id = 6380 }
 				}
 			}
+			104 = { #Sarajevo
+				add_province_modifier = {
+					static_modifiers = { terrain_sarajevo }
+					province = { id = 11899 }
+				}
+			}
 		}	
 	}
 }
