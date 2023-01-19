@@ -30,7 +30,7 @@ ideas = {
 				training_time_army_factor = 0.15
 				army_org_factor = -0.2
 				army_core_attack_factor = -0.3
-				army_defence_factor = -0.4
+				army_defence_factor = -0.3
 			}
 		}
 
@@ -46,7 +46,6 @@ ideas = {
 				training_time_army_factor = 0.1
 				army_org_factor = -0.1
 				army_core_attack_factor = -0.25
-				army_defence_factor = -0.1
 			}
 		}
 		
@@ -61,7 +60,9 @@ ideas = {
 				conscription_factor =  -0.2
 				training_time_army_factor = 0.1
 				army_core_attack_factor = -0.25
-				army_defence_factor = 0.1
+				army_defence_factor = 0.3
+				army_morale_factor = 0.1
+				army_org_factor = 0.1
 			}
 		}
 		
@@ -76,7 +77,23 @@ ideas = {
 				conscription_factor =  -0.2
 				training_time_army_factor = 0.1
 				army_core_attack_factor = -0.2
-				army_defence_factor = 0.2
+				army_defence_factor = 0.5
+				army_morale_factor = 0.2
+				army_org_factor = 0.2
+			}
+		}
+		
+		CHI_Incompetent_NRA_5 = {
+			picture = chi_incompetent_officers
+			available = {
+				always = yes
+			}
+			modifier = {
+				command_power_gain_mult = -0.1
+				army_core_attack_factor = -0.1
+				army_defence_factor = 0.5
+				army_morale_factor = 0.35
+				army_org_factor = 0.2
 			}
 		}
 
