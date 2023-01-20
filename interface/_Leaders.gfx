@@ -8890,6 +8890,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_M_Charles_M_Cooke"
+        texturefile = "gfx/leaders/USA/M_Charles_M_Cooke.png"
+    }
+
+    spriteType = {
         name = "GFX_M_Chester_W_Nimitz"
         texturefile = "gfx/leaders/USA/M_Chester_W_Nimitz.png"
     }
@@ -9032,6 +9037,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_M_Mark_Clark"
         texturefile = "gfx/leaders/USA/M_Mark_Clark.png"
+    }
+
+    spriteType = {
+        name = "GFX_M_Matthew_Ridgway"
+        texturefile = "gfx/leaders/USA/M_Matthew_Ridgway.png"
     }
 
     spriteType = {
