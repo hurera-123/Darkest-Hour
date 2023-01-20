@@ -939,6 +939,29 @@ SOV_Ignore_Claims_in_Romania = {
 		value = 1
 	}
 }
+SOV_Ignore_Claims_Baltics = {
+	enable = {
+		tag = SOV
+	}
+
+	ai_strategy = {
+		type = ignore_claim
+		id = "LIT"
+		value = 1
+	}
+	
+	ai_strategy = {
+		type = ignore_claim
+		id = "LAT"
+		value = 1
+	}
+	
+	ai_strategy = {
+		type = ignore_claim
+		id = "EST"
+		value = 1
+	}
+}
 SOV_Dont_Come_Back_After_Losing = {
 	enable = {
 		tag = SOV
