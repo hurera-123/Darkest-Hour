@@ -1293,6 +1293,7 @@
 
  FRA_Prepare_The_Second_Trench_Warfare: "Prepare the Second Trench Warfare"
  FRA_Prepare_The_Second_Trench_Warfare_desc: ""
+ FRA_Prepare_The_Second_Trench_Warfare_tt: "Add national spirit §YStatic Warfare§! which grants \nMax Entrenchment: §G+2§!"
 
  FRA_Develop_the_Genie: "Develop the Genie"
  FRA_Develop_the_Genie_desc: ""
@@ -1302,9 +1303,11 @@
 
  FRA_Tactic_over_strategy: "Promote Tactics Over Strategy"
  FRA_Tactic_over_strategy_desc: ""
+ FRA_Tactic_over_strategy_tt: "§YStatic Warfare§! will be modified by \nBreakthrough: §G+10,0%§! \nCoordination: §R-10,0%§! \nArmy Experience Gain: §G+5,0%§!"
 
  FRA_Supreme_Role_OF_Machinegun: "The Supreme Role of Machine-Guns"
  FRA_Supreme_Role_OF_Machinegun_desc: ""
+ FRA_Supreme_Role_OF_Machinegun_tt: "§YStatic Warfare§! will be modified by \nDivision Defense: §G+5,0%§! \nInfantry Attack: §G+5,0%§!"
 
  FRA_Division_Cuirrase: "The Division Cuirasse"
  FRA_Division_Cuirrase_desc: ""
@@ -1312,12 +1315,14 @@
 
  FRA_Rain_of_Steel: "The Rain of Steel"
  FRA_Rain_of_Steel_desc: ""
+ FRA_Rain_of_Steel_tt: "§YStatic Warfare§! will be modified by \nDivision Defense: §G+5,0%§! \nArtillery Attack: §G+10,0%§!"
 
  FRA_La_Voie_Sacree: "La Voie Sacree"
  FRA_La_Voie_Sacree_desc: ""
 
  FRA_On_ne_Passe_Pas: "On Ne Passe Pas!"
  FRA_On_ne_Passe_Pas_desc: ""
+ FRA_On_ne_Passe_Pas_tt: "§YStatic Warfare§! will be modified by \nMax Entrenchment: §G+1§!"
 
  FRA_Abandon_the_Delusion: "Abandon the Delusion"
  FRA_Abandon_the_Delusion_desc: ""
