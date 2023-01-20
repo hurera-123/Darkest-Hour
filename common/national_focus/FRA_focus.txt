@@ -1957,7 +1957,14 @@ focus_tree = {
 				uses = 1
 				category = cat_grand_battle_plan
 			}
-			add_ideas = FRA_Static_Warfare
+			add_to_variable = { FRA_Static_Warfare_MDI_Var = 2 } 
+			FRA = {
+				add_dynamic_modifier = {
+					modifier = FRA_Static_Warfare
+				}
+			}
+			force_update_dynamic_modifier = yes
+			custom_effect_tooltip = FRA_Prepare_The_Second_Trench_Warfare_tt
 		}
 	}
 	focus = {
@@ -2009,7 +2016,10 @@ focus_tree = {
 		x = -1
 		y = 1
 		completion_reward = { 
-			add_ideas = FRA_Gamelin_Strategy
+			add_to_variable = { FRA_Static_Warfare_BF_Var = 0.1 }
+			add_to_variable = { FRA_Static_Warfare_CB_Var = -0.1 }
+			add_to_variable = { FRA_Static_Warfare_EGAUF_Var = 0.05 }
+			custom_effect_tooltip = FRA_Tactic_over_strategy_tt
 		}
 	}
 	focus = {
@@ -2023,10 +2033,9 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = { 
-			swap_ideas = {
-				remove_idea = FRA_Static_Warfare
-				add_idea = FRA_Static_Warfare_2
-			}
+			add_to_variable = { FRA_Static_Warfare_ADF_Var = 0.05 }
+			add_to_variable = { FRA_Static_Warfare_AIAF_Var = 0.05 }
+			custom_effect_tooltip = FRA_Supreme_Role_OF_Machinegun_tt
 		}
 	}
 	focus = {
@@ -2038,6 +2047,10 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = FRA_Supreme_Role_OF_Machinegun
+		}
+		available = {
+			has_tech = Light_Tank_1939
+			has_tech = Heavy_Tank_1939
 		}
 		relative_position_id = FRA_Supreme_Role_OF_Machinegun
 		x = -1
@@ -2063,10 +2076,9 @@ focus_tree = {
 		x = 0
 		y = 2
 		completion_reward = { 
-			swap_ideas = {
-				remove_idea = FRA_Static_Warfare_2
-				add_idea = FRA_Static_Warfare_3
-			}
+			add_to_variable = { FRA_Static_Warfare_ADF_Var = 0.05 }
+			add_to_variable = { FRA_Static_Warfare_AAAF_Var = 0.1 }
+			custom_effect_tooltip = FRA_Rain_of_Steel_tt
 		}
 	}
 	focus = {
@@ -2083,10 +2095,8 @@ focus_tree = {
 		x = 0
 		y = 2
 		completion_reward = { 
-			swap_ideas = {
-				remove_idea = FRA_Gamelin_Strategy
-				add_idea = FRA_Gamelin_Strategy_2
-			}
+			add_to_variable = { FRA_Static_Warfare_AMF_Var = 0.05 }
+			add_to_variable = { FRA_Static_Warfare_SCF_Var = -0.1 }
 		}
 	}
 	focus = {
@@ -2106,11 +2116,8 @@ focus_tree = {
 		x = 0
 		y = 1
 		completion_reward = {
-			remove_ideas = {
-				FRA_Static_Warfare_3
-				FRA_Gamelin_Strategy_2
-			}			
-			add_ideas = FRA_Spirit_of_Verdun
+			add_to_variable = { FRA_Static_Warfare_MDI_Var = 1 }
+			custom_effect_tooltip = FRA_On_ne_Passe_Pas_tt
 		}
 	}
 	focus = {
