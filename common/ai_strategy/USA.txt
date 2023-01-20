@@ -718,7 +718,7 @@ USA_help_AST = {
 		}
 		AST = {
 			has_government = democratic
-			surrender_progress > 0.15
+			surrender_progress > 0.1
 		}
 		has_opinion = {
 			target = AST

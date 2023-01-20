@@ -1869,51 +1869,191 @@ country_event = {
 		surrender_progress > 0.35
 	}
 	option = { 
-		name = CHI_War_Buffs_Increase.3.A
+		name = CHI_War_Buffs_Increase.4.A
 		swap_ideas = {
 			remove_idea = CHI_Incompetent_NRA_4
 			add_idea = CHI_Incompetent_NRA_5
 		}
-		if = {
-			limit = {
-				JAP = {
-					is_ai = no
-				}
-			}
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 15000
-			}
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 1000
-			}
-			add_equipment_to_stockpile = {
-				type = motorized_equipment
-				amount = 1000
-			}
-			add_equipment_to_stockpile = {
-				type = artillery_equipment
-				amount = 500
-			}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 15000
 		}
-		else = {
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 15000
-			}
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 2000
-			}
-			add_equipment_to_stockpile = {
-				type = motorized_equipment
-				amount = 1500
-			}
-			add_equipment_to_stockpile = {
-				type = artillery_equipment
-				amount = 2000
-			}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 2000
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 2000
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 2000
+		}
+	}
+}
+### Buffs Increase
+country_event = {
+	id = CHI_War_Buffs_Increase.5
+	title = CHI_War_Buffs_Increase.5.t
+	desc = CHI_War_Buffs_Increase.5.d
+	picture = GFX_news_SOV_17th_Congress
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = CHI
+		has_war_with = JAP
+		surrender_progress > 0.45
+	}
+	option = { 
+		name = CHI_War_Buffs_Increase.5.A
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 15000
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 1000
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 1000
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 1000
+		}
+	}
+}
+### Buffs Increase
+country_event = {
+	id = CHI_War_Buffs_Increase.6
+	title = CHI_War_Buffs_Increase.6.t
+	desc = CHI_War_Buffs_Increase.6.d
+	picture = GFX_news_SOV_17th_Congress
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = CHI
+		has_war_with = JAP
+		surrender_progress > 0.55
+	}
+	option = { 
+		name = CHI_War_Buffs_Increase.6.A
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 15000
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 1000
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 1000
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 1000
+		}
+	}
+}
+### Buffs Increase
+country_event = {
+	id = CHI_War_Buffs_Increase.7
+	title = CHI_War_Buffs_Increase.7.t
+	desc = CHI_War_Buffs_Increase.7.d
+	picture = GFX_news_SOV_17th_Congress
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = CHI
+		has_war_with = JAP
+		surrender_progress > 0.65
+	}
+	option = { 
+		name = CHI_War_Buffs_Increase.7.A
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 15000
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 1000
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 1000
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 1000
+		}
+	}
+}
+### Buffs Increase
+country_event = {
+	id = CHI_War_Buffs_Increase.8
+	title = CHI_War_Buffs_Increase.8.t
+	desc = CHI_War_Buffs_Increase.8.d
+	picture = GFX_news_SOV_17th_Congress
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = CHI
+		has_war_with = JAP
+		surrender_progress > 0.75
+	}
+	option = { 
+		name = CHI_War_Buffs_Increase.8.A
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 15000
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 1000
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 1000
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 1000
+		}
+	}
+}
+### Buffs Increase
+country_event = {
+	id = CHI_War_Buffs_Increase.9
+	title = CHI_War_Buffs_Increase.9.t
+	desc = CHI_War_Buffs_Increase.9.d
+	picture = GFX_news_SOV_17th_Congress
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = CHI
+		has_war_with = JAP
+		surrender_progress > 0.85
+	}
+	option = { 
+		name = CHI_War_Buffs_Increase.9.A
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 15000
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 1000
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 1000
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 1000
 		}
 	}
 }
