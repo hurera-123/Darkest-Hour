@@ -25,14 +25,14 @@ difficulty_settings = {
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_factory_ger"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_factory
 		countries = { GER }
 		multiplier = 2.0
 	}
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_dockyard_ger"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_dockyard
 		countries = { GER }
 		multiplier = 2.0
 	}
@@ -62,14 +62,14 @@ difficulty_settings = {
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_factory_ita"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_factory
 		countries = { ITA }
 		multiplier = 2.0
 	}
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_dockyard_ita"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_dockyard
 		countries = { ITA }
 		multiplier = 2.0
 	}
@@ -99,14 +99,14 @@ difficulty_settings = {
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_factory_sov"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_factory
 		countries = { SOV }
 		multiplier = 2.0
 	}
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_dockyard_sov"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_dockyard
 		countries = { SOV }
 		multiplier = 2.0
 	}
@@ -136,14 +136,14 @@ difficulty_settings = {
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_factory_fra"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_factory
 		countries = { FRA }
 		multiplier = 2.0
 	}
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_dockyard_fra"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_dockyard
 		countries = { FRA }
 		multiplier = 2.0
 	}
@@ -173,14 +173,14 @@ difficulty_settings = {
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_factory_eng"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_factory
 		countries = { ENG }
 		multiplier = 2.0
 	}
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_dockyard_eng"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_dockyard
 		countries = { ENG }
 		multiplier = 2.0
 	}
@@ -210,14 +210,14 @@ difficulty_settings = {
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_factory_usa"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_factory
 		countries = { USA }
 		multiplier = 2.0
 	}
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_dockyard_usa"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_dockyard
 		countries = { USA }
 		multiplier = 2.0
 	}
@@ -247,14 +247,14 @@ difficulty_settings = {
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_factory_jap"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_factory
 		countries = { JAP }
 		multiplier = 2.0
 	}
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_dockyard_jap"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_dockyard
 		countries = { JAP }
 		multiplier = 2.0
 	}
@@ -284,14 +284,14 @@ difficulty_settings = {
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_factory_chi"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_factory
 		countries = { CHI }
 		multiplier = 2.0
 	}
 
 	difficulty_setting = {
 		key = "aimod_industrial_capacity_dockyard_chi"
-		modifier = aimod_research_speed
+		modifier = aimod_industrial_capacity_dockyard
 		countries = { CHI }
 		multiplier = 2.0
 	}
