@@ -4632,10 +4632,16 @@ news_event = {
 	picture = GFX_news_GER_Hitler_in_Paris
 	fire_only_once = yes
 	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			sound_effect = "GER_Hitler_Visits_Paris_Soundeffect"
+		}
+	}
 	#What a speech
 	option = {
 		name = Germany_V.52.A
 	}
+	
 }
 ###########################
 # Rudolf Hess Liberated

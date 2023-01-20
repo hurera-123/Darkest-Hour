@@ -5488,4 +5488,9 @@ spriteTypes = {
         name = "GFX_news_FRA_Atomic_Bombinf_of_Paris"
         texturefile = "gfx/event_pictures/news_FRA_Atomic_Bombinf_of_Paris.png"
     }
+    
+    spriteType = {
+        name = "GFX_news_GER_Third_Versailles"
+        texturefile = "gfx/event_pictures/news_GER_Third_Versailles.png"
+    }
 }

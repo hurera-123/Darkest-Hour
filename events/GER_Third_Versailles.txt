@@ -145,6 +145,8 @@ country_event = {
 	desc = GER_Third_Versailles.5.d
 	picture = GFX_report_GER_Occupation_of_Britain
 	is_triggered_only = yes
+
+
 	
 	option = {
 		name = GER_Third_Versailles.5.a
@@ -598,10 +600,14 @@ news_event = {
 	id = GER_Third_Versailles.14
 	title = GER_Third_Versailles.14.t
 	desc = GER_Third_Versailles.14.d
-	picture = GFX_news_GER_Hitler_in_Paris
+	picture = GFX_news_GER_Third_Versailles
 	is_triggered_only = yes	
 	major = yes
-	
+	immediate = {
+		hidden_effect = {
+			sound_effect = "GER_Third_Threaty_of_Vers_Soundeffect"
+		}
+	}
 	option = {
 		name = GER_Third_Versailles.14.A
 		trigger = {

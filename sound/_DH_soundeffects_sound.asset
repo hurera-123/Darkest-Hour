@@ -36,6 +36,8 @@ category = {
 		SPR_Spanish_Civil_War_Soundeffect
 		ITA_Invasion_of_Ethiopia_Soundeffect
 		USA_Bombing_of_Washington_Soundeffect
+		GER_Third_Threaty_of_Vers_Soundeffect
+		GER_Hitler_Visits_Paris_Soundeffect
 	}
 	
 	compressor = {
@@ -186,5 +188,33 @@ soundeffect = {
 	volume = 1
 	sounds = {
 		sound = USA_Bombing_of_Washington
+	} 
+}
+
+sound = {
+	name = "GER_Third_Threaty_of_Vers"
+	file = "sound_effects/GER_Third_Threaty_of_Vers.wav"
+	always_load = yes
+}
+
+soundeffect = {
+	name = GER_Third_Threaty_of_Vers_Soundeffect
+	volume = 1
+	sounds = {
+		sound = GER_Third_Threaty_of_Vers
+	} 
+}
+
+sound = {
+	name = "GER_Hitler_Visits_Paris"
+	file = "sound_effects/GER_Hitler_Visits_Paris.wav"
+	always_load = yes
+}
+
+soundeffect = {
+	name = GER_Hitler_Visits_Paris_Soundeffect
+	volume = 1
+	sounds = {
+		sound = GER_Hitler_Visits_Paris
 	} 
 }
