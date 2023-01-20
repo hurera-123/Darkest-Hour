@@ -12333,11 +12333,18 @@ GER_Rule_over_the_Danube_category = {
 			country_exists = ROM
 		}
 		available = {
-			ROM = {
-				set_temp_variable = {
-					amount_of_influence_to_check = 25
+			if = {
+				limit = {
+					is_ai = no
 				}
-				GER_Influence_Trigger = yes
+				ROM = {
+					set_temp_variable = {
+						amount_of_influence_to_check = 25
+					}
+					GER_Influence_Trigger = yes
+				}
+			}
+			ROM = {
 				is_in_faction = no
 			}
 			has_global_flag = fall_of_france
@@ -12390,16 +12397,23 @@ GER_Rule_over_the_Danube_category = {
 			country_exists = BUL
 		}
 		available = {
-			BUL = {
-				set_temp_variable = {
-					amount_of_influence_to_check = 25
+			if = {
+				limit = {
+					is_ai = no
 				}
-				GER_Influence_Trigger = yes
+				BUL = {
+					set_temp_variable = {
+						amount_of_influence_to_check = 25
+					}
+					GER_Influence_Trigger = yes
+				}
+			}
+			BUL = {
 				is_in_faction = no
 			}
 			has_global_flag = fall_of_france
 		}
-		cost = 50
+		cost = 25
 		ai_will_do = {
 			base = 0
 			modifier = {
@@ -12441,8 +12455,10 @@ GER_Rule_over_the_Danube_category = {
 						amount_of_influence_to_check = 25
 					}
 					GER_Influence_Trigger = yes
-					is_in_faction = no
 				}
+			}
+			YUG = {
+				is_in_faction = no
 			}
 			has_global_flag = fall_of_france
 		}
