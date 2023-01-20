@@ -6475,6 +6475,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_ENG_Territorial_Army_idea"
+        texturefile = "gfx/interface/ideas/Spirits/ENG_Territorial_Army_idea.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_ENG_The_Economic_War"
         texturefile = "gfx/interface/ideas/Spirits/ENG_The_Economic_War.png"
     }
@@ -7670,6 +7675,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_SOV_OGPU_idea"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_OGPU_idea.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_SOV_Operation_Groza_Level_1"
         texturefile = "gfx/interface/ideas/Spirits/SOV_Operation_Groza_Level_1.png"
     }
@@ -7992,6 +8002,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_USA_Lend_Lease"
         texturefile = "gfx/interface/ideas/Spirits/USA_Lend_Lease.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_USA_National_Guard_idea"
+        texturefile = "gfx/interface/ideas/Spirits/USA_National_Guard_idea.png"
     }
 
     spriteType = {
