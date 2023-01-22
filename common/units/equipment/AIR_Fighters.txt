@@ -453,7 +453,7 @@ equipments = {
 		maximum_speed = 130
 		air_range = 350
 		# Production Stats
-		manpower = 1
+		manpower = 70
 		build_cost_ic = 24
 		resources = {
 			aluminium = 3
@@ -481,7 +481,7 @@ equipments = {
 		maximum_speed = 130
 		air_range = 350
 		# Production Stats
-		manpower = 1
+		manpower = 70
 		build_cost_ic = 24
 		resources = {
 			aluminium = 3
@@ -509,7 +509,7 @@ equipments = {
 		maximum_speed = 170
 		air_range = 350
 		# Production Stats
-		manpower = 1
+		manpower = 70
 		build_cost_ic = 24
 		resources = {
 			aluminium = 3
@@ -537,7 +537,7 @@ equipments = {
 		maximum_speed = 260
 		air_range = 480
 		# Production Stats
-		manpower = 1
+		manpower = 80
 		build_cost_ic = 24
 		resources = {
 			aluminium = 3
@@ -565,7 +565,7 @@ equipments = {
 		maximum_speed = 500
 		air_range = 900
 		# Production Stats
-		manpower = 1
+		manpower = 80
 		build_cost_ic = 26
 		resources = {
 			aluminium = 3
@@ -593,7 +593,7 @@ equipments = {
 		maximum_speed = 600
 		air_range = 900
 		# Production Stats
-		manpower = 1
+		manpower = 80
 		build_cost_ic = 28
 		resources = {
 			aluminium = 3
@@ -621,7 +621,7 @@ equipments = {
 		maximum_speed = 650
 		air_range = 900
 		# Production Stats
-		manpower = 1
+		manpower = 80
 		build_cost_ic = 30
 		resources = {
 			aluminium = 3
@@ -649,7 +649,7 @@ equipments = {
 		maximum_speed = 850
 		air_range = 1900
 		# Production Stats
-		manpower = 1
+		manpower = 80
 		build_cost_ic = 32
 		resources = {
 			aluminium = 3
@@ -677,7 +677,7 @@ equipments = {
 		maximum_speed = 900
 		air_range = 1900
 		# Production Stats
-		manpower = 1
+		manpower = 80
 		build_cost_ic = 36
 		resources = {
 			aluminium = 3
@@ -705,7 +705,7 @@ equipments = {
 		maximum_speed = 1100
 		air_range = 650
 		# Production Stats
-		manpower = 1
+		manpower = 80
 		build_cost_ic = 39
 		resources = {
 			aluminium = 3
@@ -781,7 +781,7 @@ equipments = {
 		maximum_speed = 190
 		air_range = 400
 		# Production Stats
-		manpower = 1
+		manpower = 70
 		build_cost_ic = 22
 		resources = {
 			aluminium = 3
@@ -810,7 +810,7 @@ equipments = {
 		maximum_speed = 200
 		air_range = 500
 		# Production Stats
-		manpower = 1
+		manpower = 70
 		build_cost_ic = 22
 		resources = {
 			aluminium = 3
@@ -839,7 +839,7 @@ equipments = {
 		maximum_speed = 300
 		air_range = 500
 		# Production Stats
-		manpower = 1
+		manpower = 80
 		build_cost_ic = 22
 		resources = {
 			aluminium = 3
@@ -868,7 +868,7 @@ equipments = {
 		maximum_speed = 300
 		air_range = 1200
 		# Production Stats
-		manpower = 1
+		manpower = 80
 		build_cost_ic = 24
 		resources = {
 			aluminium = 3
@@ -897,7 +897,7 @@ equipments = {
 		maximum_speed = 400
 		air_range = 1200
 		# Production Stats
-		manpower = 1
+		manpower = 80
 		build_cost_ic = 26
 		resources = {
 			aluminium = 3
@@ -926,7 +926,7 @@ equipments = {
 		maximum_speed = 400
 		air_range = 1200
 		# Production Stats
-		manpower = 1
+		manpower = 80
 		build_cost_ic = 28
 		resources = {
 			aluminium = 3
@@ -955,7 +955,7 @@ equipments = {
 		maximum_speed = 700
 		air_range = 1200
 		# Production Stats
-		manpower = 1
+		manpower = 80
 		build_cost_ic = 30
 		resources = {
 			aluminium = 3
@@ -984,7 +984,7 @@ equipments = {
 		maximum_speed = 750
 		air_range = 700
 		# Production Stats
-		manpower = 1
+		manpower = 80
 		build_cost_ic = 34
 		resources = {
 			aluminium = 3
@@ -1013,7 +1013,7 @@ equipments = {
 		maximum_speed = 950
 		air_range = 850
 		# Production Stats
-		manpower = 1
+		manpower = 80
 		build_cost_ic = 37
 		resources = {
 			aluminium = 3
