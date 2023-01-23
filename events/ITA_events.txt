@@ -4893,6 +4893,13 @@ news_event = { # Cassibile Armistice
 					can_not_declare_war = no
 				}
 			}
+			every_state = {
+				limit = {
+					is_core_of = FRA
+					is_controlled_by = ITA
+				}
+				transfer_state_to = GER
+			}
 			# Peace with the Allies
 			ENG = {
 				white_peace = ITA
@@ -5026,13 +5033,6 @@ country_event = { # Civil War
 		every_state = {
 			limit = {
 				is_core_of = YUG
-				is_controlled_by = ITA
-			}
-			transfer_state_to = GER
-		}
-		every_state = {
-			limit = {
-				is_core_of = FRA
 				is_controlled_by = ITA
 			}
 			transfer_state_to = GER

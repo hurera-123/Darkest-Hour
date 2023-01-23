@@ -181,6 +181,14 @@ country_event = {
 		original_tag = YUG
 		has_war_with = ITA
 		has_war_with = GER
+		ITA = {
+			is_in_faction_with = GER
+		}
+		NOT = {
+			GER = {
+				is_puppet_of = ITA
+			}
+		}
 		surrender_progress > 0.8
 	}
 	# 
