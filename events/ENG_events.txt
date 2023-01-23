@@ -1875,6 +1875,15 @@ country_event = {
 	option = {
 		name = ENG_Military_Tree.7.A
 		army_experience = 30
+		add_corps_commander_role ={
+			character = ENG_Lord_John_Gort
+			traits = { politically_connected trait_cautious }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
 	}
 }
 

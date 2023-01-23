@@ -321,6 +321,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Small Arms/JAP_Type89F.dds"
 	}
 
+	#Uniform
+	SpriteType = {
+		name = "GFX_JAP_Infantry_Kit_1914_medium"
+		texturefile = "gfx/interface/technologies/Uniform/JAP_Uniform_1914.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Infantry_Kit_1918_medium"
+		texturefile = "gfx/interface/technologies/Uniform/JAP_Uniform_1918.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Infantry_Kit_1935_medium"
+		texturefile = "gfx/interface/technologies/Uniform/JAP_Uniform_1935.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Infantry_Kit_1942_medium"
+		texturefile = "gfx/interface/technologies/Uniform/JAP_Uniform_1942.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_Infantry_Kit_1945_medium"
+		texturefile = "gfx/interface/technologies/Uniform/JAP_Uniform_1945.dds"
+	}
+
 	#Infantry Vehicles
 	SpriteType = {
 		name = "GFX_JAP_Motorized_1916_medium"

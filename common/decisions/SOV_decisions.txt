@@ -7521,7 +7521,11 @@ SOV_Secure_The_Eastern_Flank_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
+			modifier  = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 		custom_cost_trigger = {
 			NOT = {
@@ -7534,7 +7538,7 @@ SOV_Secure_The_Eastern_Flank_category = {
 			add_command_power = -25
 		}
 		remove_effect = {
-			CHI = {
+			SIK = {
 				country_event = { id = SIK_Sino_Japanese_War_Chinese_Defeat.1 days = 1 }
 			}
 		}

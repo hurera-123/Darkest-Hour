@@ -74,75 +74,6 @@ characters={
 				large = "GFX_M_John_J_Pershing"
 			}
 		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=USA_John_J_Pershing_HoG
-			can_be_fired = no
-			allowed={
-				tag=USA
-			}
-			visible={
-				date > 1900.01.01
-				date < 1924.01.01
-				A_Minister_Allowed = yes
-				NOT = { has_country_flag = John_J_Pershing_unavailable }
-			}
-			traits={
-				
-				L_Old_General
-			}
-		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=USA_John_J_Pershing_AM
-			allowed={
-				tag=USA
-			}
-			visible={
-				date > 1900.01.01
-				date < 1924.01.01
-				A_Minister_Allowed = yes
-				NOT = { has_country_flag = John_J_Pershing_unavailable }
-			}
-			traits={
-				
-				AM_Infantry_Proponent
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=USA_John_J_Pershing_CoStaff
-			allowed={
-				tag=USA
-			}
-			visible={
-				date > 1921.01.01
-				date < 1924.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = John_J_Pershing_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Mass_Combat
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=USA_John_J_Pershing_CoArmy
-			allowed={
-				tag=USA
-			}
-			visible={
-				date > 1921.01.01
-				date < 1924.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = John_J_Pershing_unavailable }
-			}
-			traits={
-				
-				CoArmy_Guns_And_Butter_Doctrine
-			}
-		}
 	}
 	USA_HR_Mengert = {
 		name=USA_HR_Mengert
@@ -3527,31 +3458,6 @@ characters={
 			}
 		}
 	}
-	USA_Dennis_E_Nolan = {
-		name=USA_Dennis_E_Nolan
-		portraits={
-			army={
-				small="GFX_idea_Dennis_E_Nolan"
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=USA_Dennis_E_Nolan_HoI
-			allowed={
-				tag=USA
-			}
-			visible={
-				date > 1920.01.01
-				date < 1937.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Dennis_E_Nolan_unavailable }
-			}
-			traits={
-				
-				HoI_Logistics_Specialist
-			}
-		}
-	}
 	USA_Stuart_Heintzelman = {
 		name=USA_Stuart_Heintzelman
 		portraits={
@@ -3802,23 +3708,6 @@ characters={
 				HoI_Logistics_Specialist
 			}
 		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=USA_Walter_BedellSmith_CoStaff
-			allowed={
-				tag=USA
-			}
-			visible={
-				date > 1942.01.01
-				date < 1962.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Walter_BedellSmith_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Fire_Support
-			}
-		}
 	}
 	USA_Sidney_Souers = {
 		name=USA_Sidney_Souers
@@ -3920,29 +3809,112 @@ characters={
 			}
 		}
 	}
-	USA_Larry_K_Arnold = {
-		name=USA_Larry_K_Arnold
+	USA_Briant_H_Wells= {
+		name=USA_Briant_H_Wells
 		portraits={
-			army={
-				small="GFX_idea_Larry_K_Arnold"
+			army = {
+				large="GFX_M_Briant_H_Wells"
 			}
 		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=USA_Larry_K_Arnold_CoStaff
-			allowed={
-				tag=USA
+		corps_commander={
+			traits = {
+				organizer infantry_leader
 			}
-			visible={
-				date > 1924.01.01
-				date < 1964.01.01
-				A_Minister_Allowed = yes
-				NOT = { has_country_flag = Larry_K_Arnold_unavailable }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	USA_Preston_Brown= {
+		name=USA_Preston_Brown
+		portraits={
+			army = {
+				large="GFX_M_Preston_Brown"
 			}
-			traits={
-				
-				CoStaff_School_Of_Fire_Support
+		}
+		corps_commander={
+			traits = {
+				infantry_leader
 			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	USA_Dennis_E_Nolan = {
+		name=USA_Dennis_E_Nolan
+		portraits={
+			army={
+				large="GFX_M_Dennis_E_Nolan"
+			}
+		}
+		corps_commander={
+			traits = {
+				infantry_leader trickster
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	USA_Frank_Parker = {
+		name=USA_Frank_Parker
+		portraits={
+			army={
+				large="GFX_M_Frank_Parker"
+			}
+		}
+		corps_commander={
+			traits = {
+				infantry_leader career_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	USA_Johnson_Hagood = {
+		name=USA_Johnson_Hagood
+		portraits={
+			army={
+				large="GFX_M_Johnson_Hagood"
+			}
+		}
+		corps_commander={
+			traits = {
+				organizer logistics_wizard engineer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	USA_Edwin_B_Winans = {
+		name=USA_Edwin_B_Winans
+		portraits={
+			army={
+				large="GFX_M_Edwin_B_Winans"
+			}
+		}
+		corps_commander={
+			traits = {
+				cavalry_leader inspirational_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 	USA_Walter_Krueger = {
@@ -4682,7 +4654,7 @@ characters={
 				tag=USA
 			}
 			visible={
-				date > 1933.01.01
+				date > 1935.01.01
 				date < 1951.01.01
 				D_Minister_Allowed = yes
 				NOT = { has_country_flag = Hugh_A_Drum_unavailable }
@@ -4699,7 +4671,7 @@ characters={
 				tag=USA
 			}
 			visible={
-				date > 1933.01.01
+				date > 1935.01.01
 				date < 1951.01.01
 				D_Minister_Allowed = yes
 				NOT = { has_country_flag = Hugh_A_Drum_unavailable }

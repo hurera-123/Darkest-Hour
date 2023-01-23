@@ -65,4 +65,5 @@
  ace_promoted.1.A: "Who dares, wins."
  ace_died.1.A: "A living legend is still better."
  ace_killed_by_ace.1.A: "A devastating loss for us all"
+ ace_killed_other_ace.1.A: "A victory all of [From.Owner.GetName] will remember!"
  aces_killed_each_other.1.A: "A great loss for us nonetheless"

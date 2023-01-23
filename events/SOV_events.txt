@@ -2252,12 +2252,26 @@ country_event = {
 	is_triggered_only = yes
 	option = { # We cannot afford to anger Japan.
 		name = SOV_Sino_Japanese_War_Chinese_Defeat.1.A
+		ai_chance = {
+			base = 80
+		}
 		CHI = {
 			country_event = { id = CHI_Sino_Japanese_War_Chinese_Defeat.5 days = 1 }
 		}
 	}
 	option = { # Chiang is lost, but we must still secure our flank!
 		name = SOV_Sino_Japanese_War_Chinese_Defeat.1.B
+		ai_chance = {
+			base = 15
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
 		trigger = {
 			NOT = {
 				surrender_progress > 0.1
@@ -2270,6 +2284,17 @@ country_event = {
 	}
 	option = { # Japan must be contained.
 		name = SOV_Sino_Japanese_War_Chinese_Defeat.1.C
+		ai_chance = {
+			base = 5
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
 		trigger = {
 			NOT = {
 				surrender_progress > 0.1
@@ -2278,9 +2303,6 @@ country_event = {
 		give_guarantee = CHI
 		CHI = {
 			country_event = { id = CHI_Sino_Japanese_War_Chinese_Defeat.6 days = 1 }
-		}
-		JAP = {
-			country_event = { id = JAP_Sino_Japanese_War_Chinese_Defeat.10 days = 1 }
 		}
 	}
 }

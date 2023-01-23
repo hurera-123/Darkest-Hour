@@ -2623,9 +2623,7 @@ focus_tree = {
 			effect_tooltip = {
 				army_experience = 10
 			}
-			hidden_effect = {
-				country_event = ENG_Military_Tree.2
-			}
+			country_event = ENG_Military_Tree.2
 		}
 		search_filters = { FOCUS_FILTER_HISTORICAL }
 	}
@@ -2805,11 +2803,9 @@ focus_tree = {
 		x = 3
 		y = 1
 		completion_reward = {
-			hidden_effect = {
 				country_event = {
 					id = ENG_Military_Tree.4
 				}
-			}
 			effect_tooltip = {
 				custom_effect_tooltip = available_chief_of_army
 				show_ideas_tooltip = ENG_BH_Liddell_Hart_CoArmy
@@ -2944,12 +2940,10 @@ focus_tree = {
 		x = 3
 		y = 1
 		completion_reward = {
-			hidden_effect = {
-				country_event = ENG_Military_Tree.6
-			}
+			country_event = ENG_Military_Tree.6
 			effect_tooltip = {
-				add_tech_bonus = {
-					bonus = 0.5
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.25
 					uses = 1
 					category = cat_mobile_warfare
 				}
@@ -2979,12 +2973,10 @@ focus_tree = {
 		x = 5
 		y = 1
 		completion_reward = {
-			hidden_effect = {
-				country_event = ENG_Military_Tree.8
-			}
+			country_event = ENG_Military_Tree.8
 			effect_tooltip = {
-				add_tech_bonus = {
-					bonus = 0.5
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.25
 					uses = 1
 					category = cat_mobile_warfare
 				}

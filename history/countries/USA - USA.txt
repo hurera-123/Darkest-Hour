@@ -217,6 +217,11 @@ recruit_character = USA_Alf_Landon
 recruit_character = USA_Wendell_Willkie
 recruit_character = USA_Alexander_Vandegrift
 recruit_character = USA_Holland_Smith
+recruit_character = USA_Briant_H_Wells
+recruit_character = USA_Preston_Brown
+recruit_character = USA_Frank_Parker
+recruit_character = USA_Johnson_Hagood
+recruit_character = USA_Edwin_B_Winans
 
 #########################################################################
 # United States of America - 1933
