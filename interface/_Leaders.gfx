@@ -9000,6 +9000,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_M_Hugh_A_Drum"
+		texturefile = "gfx/leaders/USA/M_Hugh_A_Drum.png"
+	}
+
+	spriteType = {
 		name = "GFX_M_James_Gowen"
 		texturefile = "gfx/leaders/USA/M_James_Gowen.png"
 	}
@@ -9057,6 +9062,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_M_Lucius_Holbrook"
 		texturefile = "gfx/leaders/USA/M_Lucius_Holbrook.png"
+	}
+
+	spriteType = {
+		name = "GFX_M_Malin_Craig"
+		texturefile = "gfx/leaders/USA/M_Malin_Craig.png"
 	}
 
 	spriteType = {
