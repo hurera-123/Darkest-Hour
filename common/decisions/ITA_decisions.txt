@@ -4082,3 +4082,177 @@ ITA_Stresa_Front_category = {
 		}
 	}
 }
+ITA_Italianizzazione_category = {
+	ITA_Integrate_Corsica = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 1
+		}
+		cost = 50
+		days_remove = 180
+		complete_effect = {
+		}
+		remove_effect = {
+			1 = {
+				add_core_of = ITA
+			}
+		}
+	}
+	ITA_Integrate_Nice = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 846
+		}
+		cost = 50
+		days_remove = 180
+		complete_effect = {
+		}
+		remove_effect = {
+			846 = {
+				add_core_of = ITA
+			}
+		}
+	}
+	ITA_Integrate_Upper_Savoy = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 764
+			controls_state = 735
+		}
+		cost = 50
+		days_remove = 365
+		complete_effect = {
+		}
+		remove_effect = {
+			764 = {
+				add_core_of = ITA
+			}
+			735 = {
+				add_core_of = ITA
+			}
+		}
+	}
+	ITA_Integrate_Ticino = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 767
+		}
+		cost = 50
+		days_remove = 180
+		complete_effect = {
+		}
+		remove_effect = {
+			767 = {
+				add_core_of = ITA
+			}
+		}
+	}
+	ITA_Integrate_Dalmatian_Coast = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 1085
+			controls_state = 1091
+		}
+		cost = 50
+		days_remove = 180
+		complete_effect = {
+		}
+		remove_effect = {
+			1085 = {
+				add_core_of = ITA
+			}
+			1091 = {
+				add_core_of = ITA
+			}
+		}
+	}
+	ITA_Integrate_Slovene_Lands = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 1404
+			controls_state = 765
+		}
+		cost = 50
+		days_remove = 365
+		complete_effect = {
+		}
+		remove_effect = {
+			1404 = {
+				add_core_of = ITA
+			}
+			765 = {
+				add_core_of = ITA
+			}
+		}
+	}
+	ITA_Integrate_Interior_Dalmatia = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 103
+		}
+		cost = 50
+		days_remove = 365
+		complete_effect = {
+		}
+		remove_effect = {
+			103 = {
+				add_core_of = ITA
+			}
+		}
+	}
+	ITA_Integrate_Malta = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 116
+		}
+		cost = 50
+		days_remove = 180
+		complete_effect = {
+		}
+		remove_effect = {
+			116 = {
+				add_core_of = ITA
+			}
+		}
+	}
+}

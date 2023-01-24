@@ -221,6 +221,15 @@ ITA_Stresa_Front_category = {
 	}
 	visible_when_empty = yes
 }
+ITA_Italianizzazione_category = {
+	allowed = {
+		original_tag = ITA
+	}
+	visible = {
+		has_completed_focus = ITA_Italianizzazione
+		has_government = fascist
+	}
+}
 TNG_Ma_Zhongying = {
 	# set_variable = { var = TUN_Ma_Zhongying_Mood value = 0
 	icon = military_operation

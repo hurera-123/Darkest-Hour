@@ -1111,6 +1111,9 @@
  ITA_Integration_of_Albania: "Integration of Albania"
  ITA_Integration_of_Albania_desc: "Albania had been an Italian possession for centuries. First it was owned by the Romans for millennia and then, after the Ottomans swept through the area, the coasts were under the influence of Venice. It wasn’t until the Ottomans that Italian influence in the region was finally expelled. Since then it's been a dream of our great nation to once more own that land. Not only is it historically ours, but it's strategically vital. Its position gives us a powerful base in the Balkans from which to work from and the Port of Vlore and island of Sazan are keys to controlling the mouth of the Adriatic. We began making inroads into that historical blunder of a country in 1924 and 1926. The Albanian economy now runs solely on loans from Italian banks, its army is trained and led by Italian officers, and its government is dominated by Italians. Their despot, Zog, foolishly decided to repay our kindness by turning his back on us and seeking help from the equally vulnerable Balkan nations. He believes they will be able to stop us. We will show him and the rest of the world that we are not to be taken lightly."
 
+ ITA_Italianizzazione: "Italianizzazione"
+ ITA_Italianizzazione_desc: ""
+
  ITA_Rome_Berlin_Axis: "Rome-Berlin Axis"
  ITA_Rome_Berlin_Axis_desc: ""
 
@@ -1777,7 +1780,16 @@
  # Preventive Mediterranean Measures
  ITA_Propose_Intervention_in_Greece: "Propose Intervention in Greece"
  ITA_Propose_Intervention_in_Turkey: "Propose Intervention in Turkey"
-
+ # Intregration of Territories
+ ITA_Italianizzazione_category: "Italianizzazione"
+ ITA_Integrate_Corsica: "Integrate Corsica"
+ ITA_Integrate_Nice: "Integrate Nizza"
+ ITA_Integrate_Upper_Savoy: "Integrate Alta Savoia"
+ ITA_Integrate_Ticino: "Integrate Ticino"
+ ITA_Integrate_Malta: "Integrate Malta"
+ ITA_Integrate_Dalmatian_Coast: "Integrate Dalmazia"
+ ITA_Integrate_Slovene_Lands: "Integrate Provincia di Ljubliana"
+ ITA_Integrate_Interior_Dalmatia: "Integrate Dalmazia Interno"
 
 ######################################################################
 #  Italy Custom Tooltips

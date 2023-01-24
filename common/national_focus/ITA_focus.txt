@@ -2252,6 +2252,23 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = ITA_Italianizzazione
+		icon = GFX_ITA_Italianizzazione
+		cost = 35
+		x = 0
+		y = 2
+		available = {
+			Owns_Italian_Irredenta = yes
+		}
+		prerequisite = {
+			focus = ITA_Integration_of_Albania
+		}
+		relative_position_id = ITA_Italia_Imperiale
+		completion_reward = {
+			unlock_decision_category_tooltip = ITA_Italianizzazione_category
+		}
+	}
+	focus = {
 		id = ITA_In_The_Footsteps_of_Giant
 		icon = GFX_ITA_Third_Rome
 		cost = 35
