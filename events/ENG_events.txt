@@ -1884,6 +1884,45 @@ country_event = {
 			planning_skill = 4
 			logistics_skill = 3
 		}
+		add_corps_commander_role={
+			character = ENG_Bernard_Montgomery
+			traits = { offensive_doctrine media_personality trait_cautious inflexible_strategist organizer }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		add_corps_commander_role={
+			character = ENG_Alan_Brooke
+			traits = { defensive_doctrine trait_cautious career_officer }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		add_corps_commander_role={
+			character = ENG_Harold_Alexander
+			traits = { politically_connected }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+		}
+		create_corps_commander = {
+			name = "Harold Franklyn"
+			GFX = GFX_M_Harold_Franklyn
+			traits = {
+				defensive_doctrine infantry_leader
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
 	}
 }
 

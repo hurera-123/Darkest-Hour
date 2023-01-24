@@ -158,6 +158,13 @@ recruit_character = ENG_Arthur_Power
 recruit_character = ENG_Gilbert_Stephenson
 recruit_character = ENG_Edgar_Ludlow_Hewitt
 recruit_character = ENG_Edward_Ellington
+recruit_character = ENG_Alexander_Wardrop
+recruit_character = ENG_Percy_Radcliffe
+recruit_character = ENG_Walter_Kirke
+recruit_character = ENG_Archibald_Cameron
+recruit_character = ENG_John_Burnett_Stuart
+recruit_character = ENG_Francis_Gathorne_Hardy
+recruit_character = ENG_George_Alexander_Weir
 #########################################################################
 # United Kingdom - 1933
 #########################################################################

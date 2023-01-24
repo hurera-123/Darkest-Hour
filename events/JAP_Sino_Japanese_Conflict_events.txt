@@ -1372,34 +1372,43 @@ country_event = {
 			}
  			set_country_flag = JAP_victory_in_china
  			news_event = { id = JAP_Sino_Japanese_War_Chinese_Defeat.12 days = 1 }
- 			if = {
- 				limit = {
- 					AND = {
- 						YUN = { NOT = { is_subject = yes } }
- 						YUN = { has_war_with = JAP }
- 					}
- 				}
- 				white_peace = {
- 					tag = YUN
- 				}
- 			}
- 			if = {
- 				limit = {
- 					AND = {
- 						SIK = { NOT = { is_subject = yes } }
- 						SIK = { has_war_with = JAP }
- 					}
- 				}
- 				white_peace = {
- 					tag = SIK
- 				}
- 			}
+ 			every_country = {
+				limit = {
+					OR = {
+						tag = JAP
+						is_in_faction_with = JAP
+						is_subject_of = JAP
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							YUN = { NOT = { is_subject = yes } }
+							YUN = { has_war_with = JAP }
+						}
+					}
+					white_peace = {
+						tag = YUN
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							SIK = { NOT = { is_subject = yes } }
+							SIK = { has_war_with = JAP }
+						}
+					}
+					white_peace = {
+						tag = SIK
+					}
+				}
+				white_peace = {
+					tag = CHI
+					#message = KUOMINTANG_COLLAPSE
+				}
+			}
 		}
 		custom_effect_tooltip = JAP_Sino_Japanese_War_China_Defeat.tt
-		white_peace = {
- 			tag = CHI
- 			#message = KUOMINTANG_COLLAPSE
- 		}
 	}
 }
 ### Sunrise in Chongqing - No war with Western Allies
@@ -1609,7 +1618,16 @@ country_event = {
 				}
  			}
  			else = {
- 				white_peace = SHX
+				every_country = {
+					limit = {
+						OR = {
+							tag = JAP
+							is_in_faction_with = JAP
+							is_subject_of = JAP
+						}
+					}
+ 					white_peace = SHX
+				}
  				SHX = {
  					country_event = { id = SHX_Sino_Japanese_War_Chinese_Defeat.1 days = 10 }
  				}
@@ -1627,38 +1645,47 @@ country_event = {
  			}
 			CHI = {
 				remove_ideas = CHI_D_Wang_Jingwei
-				dismantle_faction= yes
+				dismantle_faction = yes
 			}
  			set_country_flag = JAP_victory_in_china
  			news_event = { id = JAP_Sino_Japanese_War_Chinese_Defeat.12 days = 1 }
- 			if = {
- 				limit = {
- 					AND = {
- 						YUN = { NOT = { is_subject = yes } }
- 						YUN = { has_war_with = JAP }
- 					}
- 				}
- 				white_peace = {
- 					tag = YUN
- 				}
- 			}
- 			if = {
- 				limit = {
- 					AND = {
- 						SIK = { NOT = { is_subject = yes } }
- 						SIK = { has_war_with = JAP }
- 					}
- 				}
- 				white_peace = {
- 					tag = SIK
- 				}
- 			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = JAP
+						is_in_faction_with = JAP
+						is_subject_of = JAP
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							YUN = { NOT = { is_subject = yes } }
+							YUN = { has_war_with = JAP }
+						}
+					}
+					white_peace = {
+						tag = YUN
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							SIK = { NOT = { is_subject = yes } }
+							SIK = { has_war_with = JAP }
+						}
+					}
+					white_peace = {
+						tag = SIK
+					}
+				}
+				white_peace = {
+					tag = CHI
+					#message = KUOMINTANG_COLLAPSE
+				}
+			}
 		}
 		custom_effect_tooltip = JAP_Sino_Japanese_War_China_Defeat.tt
-		white_peace = {
- 			tag = CHI
- 			#message = KUOMINTANG_COLLAPSE
- 		}
 	}
 }
 ### A Yunnanese Lapdog
@@ -1883,7 +1910,7 @@ news_event = {
 	id = JAP_Sino_Japanese_War_Chinese_Defeat.12
 	title = JAP_Sino_Japanese_War_Chinese_Defeat.12.t
 	desc = JAP_Sino_Japanese_War_Chinese_Defeat.12.d
-	picture = GFX_report_JAP_Expansion_Decision
+	picture = GFX_news_JAP_Operation_Nekka
 	major = yes
 	is_triggered_only = yes
 	option = { #There goes the neighborhood...

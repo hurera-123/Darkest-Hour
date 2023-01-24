@@ -4272,7 +4272,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_Alberto_Da_Zara"
-				large="GFX_M_Alberto_Da_Zara"
+				large="GFX_M_Alberto_da_Zara"
 			}
 		}
         navy_leader ={

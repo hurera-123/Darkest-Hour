@@ -1672,7 +1672,9 @@ foreign_politics = {
 		}
 		available = {
 			has_country_flag = Baltic_Ultimatum
-			has_war = no
+			NOT = {
+				has_war_with = GER
+			}
 		}
 		ai_will_do = {
 			base = 0
@@ -1731,7 +1733,9 @@ foreign_politics = {
 		}
 		available = {
 			has_country_flag = Baltic_Ultimatum
-			has_war = no
+			NOT = {
+				has_war_with = GER
+			}
 		}
 		ai_will_do = {
 			base = 0

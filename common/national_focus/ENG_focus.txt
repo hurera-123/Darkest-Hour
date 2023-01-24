@@ -2197,6 +2197,8 @@ focus_tree = {
 		x = -2
 		y = 1
 		completion_reward = {
+			custom_effect_tooltip = available_chief_of_airforce
+			show_ideas_tooltip = ENG_Frederick_Bowhill_CoAir
 			add_tech_bonus = {
 				uses = 1
 				bonus = 1
@@ -2853,6 +2855,54 @@ focus_tree = {
 		x = -2
 		y = 1
 		completion_reward = {
+			create_corps_commander = {
+				name = "William Gott"
+				GFX = GFX_M_William_Gott
+				traits = {
+					armor_officer
+				}
+				skill = 3
+				attack_skill = 4
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 3
+			}
+			create_corps_commander = {
+				name = "Herbert Lumsden"
+				GFX = GFX_M_Herbert_Lumsden
+				traits = {
+					armor_officer
+				}
+				skill = 3
+				attack_skill = 4
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 3
+			}
+			create_corps_commander = {
+				name = "John Crocker"
+				GFX = GFX_M_John_Crocker
+				traits = {
+					armor_officer
+				}
+				skill = 3
+				attack_skill = 4
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 3
+			}
+			create_corps_commander = {
+				name = "Richard McCreery"
+				GFX = GFX_M_Richard_McCreery
+				traits = {
+					armor_officer
+				}
+				skill = 3
+				attack_skill = 4
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 3
+			}
 			add_tech_bonus = {
 				uses = 1
 				bonus = 1

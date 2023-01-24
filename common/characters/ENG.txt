@@ -2240,14 +2240,6 @@ characters={
 				large="GFX_M_Harold_Alexander"
 			}
 		}
-        corps_commander={
-			traits = { politically_connected }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 5
-		}
 		advisor={
 			slot=Chief_of_Army
 			idea_token=ENG_Harold_Alexander_CoArmy
@@ -2976,7 +2968,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_Lord_John_Gort"
-				large="GFX_M_John_Verecer_Lord_Gort"
+				large="GFX_M_John_Vereker"
 			}
 		}
 		advisor={
@@ -3106,14 +3098,6 @@ characters={
 				large="GFX_M_Alan_Brooke"
 			}
 		}
-		corps_commander={
-			traits = { defensive_doctrine trait_cautious career_officer }
-			skill = 4
-			attack_skill = 2
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 2
-		}
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=ENG_Alan_Brooke_CoStaff
@@ -3207,14 +3191,6 @@ characters={
 				small="GFX_idea_Bernard_Montgomery"
 				large="GFX_M_Bernard_Montgomery"
 			}
-		}
-		corps_commander={
-			traits = { offensive_doctrine media_personality trait_cautious inflexible_strategist organizer }
-			skill = 4
-			attack_skill = 2
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 4
 		}
 		advisor={
 			slot=Chief_of_Staff
@@ -4367,6 +4343,118 @@ characters={
 			}
 			expire = "1965.1.1"
 			id=-1
+		}
+	}
+	ENG_Alexander_Wardrop = {
+		name=ENG_Alexander_Wardrop
+		portraits={
+			army={
+				large="GFX_M_Alexander_Wardrop"
+			}
+		}
+        corps_commander={
+			traits = {   }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_Percy_Radcliffe = {
+		name=ENG_Percy_Radcliffe
+		portraits={
+			army={
+				large="GFX_M_Percy_Radcliffe"
+			}
+		}
+        corps_commander={
+			traits = {   }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_Walter_Kirke = {
+		name=ENG_Walter_Kirke
+		portraits={
+			army={
+				large="GFX_M_Walter_Kirke"
+			}
+		}
+        corps_commander={
+			traits = {   }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_Archibald_Cameron = {
+		name=ENG_Archibald_Cameron
+		portraits={
+			army={
+				large="GFX_M_Archibald_Cameron"
+			}
+		}
+        corps_commander={
+			traits = {   }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_John_Burnett_Stuart = {
+		name=ENG_John_Burnett_Stuart
+		portraits={
+			army={
+				large="GFX_M_John_Burnett_Stuart"
+			}
+		}
+        corps_commander={
+			traits = {   }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_George_Alexander_Weir= {
+		name=ENG_George_Alexander_Weir
+		portraits={
+			army={
+				large="GFX_M_George_Alexander_Weir"
+			}
+		}
+        corps_commander={
+			traits = {   }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_Francis_Gathorne_Hardy= {
+		name=ENG_Francis_Gathorne_Hardy
+		portraits={
+			army={
+				large="GFX_M_Francis_Gathorne_Hardy"
+			}
+		}
+        corps_commander={
+			traits = {   }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	ENG_Neil_Ritchie = {
