@@ -31,16 +31,16 @@ GER_historical = {
 		GER_A_One_Party_State
 		GER_A_Loudspeaker_in_Every_Home
 		# 1934
+		GER_Issue_MEFO_Bills
 		GER_Unternehmen_Kolibri
 		GER_Allgemeine_SS
 		GER_SS_VT
 		GER_Kirchenkampf
-		GER_Adopt_Positive_Christianity
+		GER_Reichskonkordat
 		GER_Reconstruct_the_Reich
-		GER_Issue_MEFO_Bills
 		GER_Privatizations_and_Austerity
 		GER_Volkswohlfahrt
-		GER_Build_up_the_Economic_Base
+		GER_Commence_Rearmament
 		# 1935
 		GER_Politicize_Autarky
 		GER_Renounce_the_Disarmament_Clauses
@@ -57,7 +57,7 @@ GER_historical = {
 		GER_Frontlinienflieger
 		GER_Coal_Liquefaction
 		GER_Anti_Komintern_Pact_focus
-		GER_Donitz_UBoot_Fleet
+		GER_Raeders_Surface_Raiders
 		# 1937
 		GER_Reichswerke_Hermann_Goering
 		GER_Westwall
@@ -75,25 +75,25 @@ GER_historical = {
 		GER_Reorganize_the_Abwehr
 		GER_Goodwill_Gesture_to_Japan
 		# 1939
-		GER_Soviet_Pact
 		GER_Motorization_Campaign
-		GER_Waffen_SS
-		GER_Reichssicherheitsamt
 		GER_Stahlpakt
 		GER_Plan_Z
+		GER_Soviet_Pact
 		GER_End_of_Versailles
-		GER_SS_Fuhrungshauptamt
-		GER_Trade_Agreements_With_USSR
+		GER_Waffen_SS
+		GER_Reichssicherheitsamt
 		# 1940
+		GER_Trade_Agreements_With_USSR
+		GER_SS_Fuhrungshauptamt
 		GER_Bewegungskrieg
-		GER_SS_Freiwillige_Divisions
 		GER_Secure_the_North
 		GER_Around_the_Maginot
-		GER_Eye_to_The_East
+		GER_SS_Freiwillige_Divisions
 		GER_Formalize_the_Berlin_Pact
+		GER_Rule_over_the_Danube
 		GER_Kriegswirtschaft
 		# 1941
-		GER_Rule_over_the_Danube
+		GER_Eye_to_The_East
 		GER_Expand_the_Jadgwaffe
 		GER_Panzerkorps
 		GER_Plunder_Conquered_Territories

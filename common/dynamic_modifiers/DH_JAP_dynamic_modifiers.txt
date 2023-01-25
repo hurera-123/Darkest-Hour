@@ -15,3 +15,7 @@ JAP_Bushido = {
 	production_speed_bunker_factor = JAP_Bushido_PSBF_Var
 	foreign_subversive_activites = JAP_Bushido_FSA_Var
 }
+
+JAP_Yen_Bloc_dynamic_modifier = {
+	money_income_factor = JAP_Yen_Bloc_Money_Gained
+}

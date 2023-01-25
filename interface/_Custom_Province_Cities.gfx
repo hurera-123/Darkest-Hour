@@ -127,4 +127,8 @@ spriteTypes = {
 		name = "GFX_terrain_moscow"
 		textureFile = "gfx/cities/terrain_moscow.dds"
 	}
+	spriteType = {
+		name = "GFX_terrain_sarajevo"
+		textureFile = "gfx/cities/terrain_sarajevo.dds"
+	}
 }

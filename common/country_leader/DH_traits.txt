@@ -69,8 +69,8 @@ leader_traits = {
 	# Autocratic Charmer
 	L_Autocratic_Charmer = {
 		random = no
-		political_power_factor = 0.1
-		consumer_goods_factor = -0.05
+		political_power_factor = 0.05
+		consumer_goods_factor = -0.02
 		resistance_growth_on_our_occupied_states = -0.1
 		industrial_capacity_factory = -0.1
 		industrial_capacity_dockyard = -0.1
@@ -552,12 +552,12 @@ leader_traits = {
 		justify_war_goal_time = -0.05
 	}
 	# Inheritor_of_lenin
-	SOV_Inheritor_of_lenin = {
+	L_Inheritor_of_Lenin = {
 		political_power_factor = 0.1
 		justify_war_goal_time = -0.25
 	}
 	# servant_of_lenin
-	SOV_servant_of_lenin = {
+	L_Servant_of_Lenin = {
 		guarantee_cost = -0.5
 		drift_defence_factor = 0.15
 	}
@@ -637,7 +637,7 @@ leader_traits = {
 		industrial_capacity_factory = 0.03
 		local_resources_factor = 0.03
 		#research_bonus = { industry = 0.025 }
-		consumer_goods_factor = -0.1
+		consumer_goods_factor = -0.01
 		random = no
 	}
 	# Razor
@@ -1032,7 +1032,7 @@ leader_traits = {
 	# Media Magnate
 	MoS_Media_Magnate = {
 		political_power_gain = 0.05
-		consumer_goods_factor = -0.05
+		consumer_goods_factor = -0.02
 		random = no
 	}
 	# Health and Safety
@@ -1219,7 +1219,7 @@ leader_traits = {
 	# Keynesian Economy
 	AM_Keynesian_Economy = {
 		local_resources_factor = 0.1
-		consumer_goods_factor = 0.1
+		consumer_goods_factor = 0.03
 		production_factory_max_efficiency_factor = 0.05
 	}
 	# Reformer
@@ -1577,10 +1577,6 @@ leader_traits = {
 				soft_attack = 0.1
 				instant = yes
 			}
-			motorized_equipment = {
-				soft_attack = 0.1
-				instant = yes
-			}
 		}
 		army_armor_attack_factor = 0.1
 		army_armor_defence_factor = 0.1
@@ -1703,7 +1699,7 @@ leader_traits = {
 		production_speed_bunker_factor = 0.10
 		production_speed_coastal_bunker_factor = 0.10
 		army_speed_factor = -0.1
-		army_core_defence_factor = 0.2
+		army_core_defence_factor = 0.05
 		experience_gain_army = 0.02
 		experience_gain_navy = 0.02
 		experience_gain_air = 0.02
@@ -1713,8 +1709,8 @@ leader_traits = {
 	CoStaff_Hedgehoge_Defender = {
 		army_core_defence_factor = 0.05
 		max_dig_in = 5
-		dig_in_speed_factor = 0.15
-		army_morale_factor = 0.15
+		dig_in_speed_factor = 0.10
+		army_morale_factor = 0.1
 		experience_gain_army = 0.02
 		experience_gain_navy = 0.02
 		experience_gain_air = 0.02
@@ -1953,8 +1949,8 @@ leader_traits = {
 	}
 	# Army Aviation Doctrine
 	CoAir_Army_Aviation_Doctrine = {
-		army_bonus_air_superiority_factor = 0.1
-		air_cas_present_factor = 0.15
+		army_bonus_air_superiority_factor = 0.05
+		air_cas_present_factor = 0.05
 		air_close_air_support_attack_factor = 0.03
 		air_close_air_support_defence_factor = 0.03
 		air_close_air_support_agility_factor = 0.03

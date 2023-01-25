@@ -216,6 +216,12 @@ calculate_money_income = {
 	set_temp_variable = { income_from_our_consumer_goods_factories = num_of_civilian_factories }
 	multiply_temp_variable = { income_from_our_consumer_goods_factories = modifier@consumer_goods_factor }
 	round_temp_variable = income_from_our_consumer_goods_factories
+	if = {
+		limit = {
+			check_variable = { income_from_our_consumer_goods_factories < 0 }
+		}
+		set_temp_variable = { income_from_our_consumer_goods_factories = 0 }
+	}
 	multiply_temp_variable = { income_from_our_consumer_goods_factories = 0.3 }
 	multiply_temp_variable = { income_from_our_consumer_goods_factories = 7 } # money is now weekly
 
@@ -224,7 +230,7 @@ calculate_money_income = {
 
 	# Free Civilian Factories:
 	set_temp_variable = { income_from_our_free_civilian_factories = num_of_available_civilian_factories }
-	multiply_temp_variable = { income_from_our_free_civilian_factories = 0.1 }
+	multiply_temp_variable = { income_from_our_free_civilian_factories = 0.08 }
 	multiply_temp_variable = { income_from_our_free_civilian_factories = 7 } # money is now weekly
 	add_to_temp_variable = { total_income_temp = income_from_our_free_civilian_factories }
 

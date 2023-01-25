@@ -342,7 +342,7 @@ technologies = {
 	##################################################################
 	# 1915 Uniform
 	Infantry_Kit_1914 = {
-		category_all_infantry = {
+		category_infantry_cavalry = {
 			defense = 0.03
 			default_morale = 0.02
 			supply_consumption = 0.02
@@ -382,7 +382,7 @@ technologies = {
 	}
 	# 1918 Uniform
 	Infantry_Kit_1918 = {
-		category_all_infantry = {
+		category_infantry_cavalry = {
 			defense = 0.03
 			default_morale = 0.02
 			supply_consumption = 0.02
@@ -422,7 +422,7 @@ technologies = {
 	}
 	# 1939 Uniform
 	Infantry_Kit_1935 = {
-		category_all_infantry = {
+		category_infantry_cavalry = {
 			defense = 0.03
 			default_morale = 0.05
 			supply_consumption = 0.02
@@ -1062,14 +1062,9 @@ technologies = {
 			leads_to_tech = MANPATS_MANPADS_1942
 			research_cost_coeff = 1
 		}
-		on_research_complete = {
-			custom_effect_tooltip = MANPATS_MANPADS_1936_tt
-			custom_effect_tooltip = MANPATS_MANPADS_1936_tt2
-			hidden_effect = {
-				add_ideas = {
-					MANPATS_MANPADS_1936
-				}
-			}
+		category_infantry_cavalry = {
+			hard_attack = 0.25
+			ap_attack = 1
 		}
 		research_cost = 1.5
 		start_year = 1935
@@ -1110,15 +1105,9 @@ technologies = {
 			leads_to_tech = MANPATS_MANPADS_1944
 			research_cost_coeff = 1
 		}
-		on_research_complete = {
-			custom_effect_tooltip = MANPATS_MANPADS_1942_tt
-			custom_effect_tooltip = MANPATS_MANPADS_1942_tt2
-			hidden_effect = {
-				swap_ideas = {
-					remove_idea = MANPATS_MANPADS_1936
-					add_idea = MANPATS_MANPADS_1942
-				}
-			}
+		category_infantry_cavalry = {
+			hard_attack = 0.25
+			ap_attack = 1
 		}
 		research_cost = 1.5
 		start_year = 1942
@@ -1159,15 +1148,9 @@ technologies = {
 			leads_to_tech = MANPATS_MANPADS_1952
 			research_cost_coeff = 1
 		}
-		on_research_complete = {
-			custom_effect_tooltip = MANPATS_MANPADS_1944_tt
-			custom_effect_tooltip = MANPATS_MANPADS_1944_tt2
-			hidden_effect = {
-				swap_ideas = {
-					remove_idea = MANPATS_MANPADS_1942
-					add_idea = MANPATS_MANPADS_1944
-				}
-			}
+		category_infantry_cavalry = {
+			hard_attack = 0.25
+			ap_attack = 1
 		}
 		research_cost = 1.5
 		start_year = 1944
@@ -1204,15 +1187,9 @@ technologies = {
 	}
 	# 1952 AT
 	MANPATS_MANPADS_1952 = {
-		on_research_complete = {
-			custom_effect_tooltip = MANPATS_MANPADS_1952_tt
-			custom_effect_tooltip = MANPATS_MANPADS_1952_tt2
-			hidden_effect = {
-				swap_ideas = {
-					remove_idea = MANPATS_MANPADS_1944
-					add_idea = MANPATS_MANPADS_1952
-				}
-			}
+		category_infantry_cavalry = {
+			hard_attack = 0.25
+			ap_attack = 1
 		}
 		research_cost = 1.5
 		start_year = 1952

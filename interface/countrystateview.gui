@@ -451,6 +451,12 @@ guiTypes = {
 					alwaystransparent = yes
                 }
 
+				iconType = {
+                    name = "terrain_sarajevo_icon"
+                    spriteType = "GFX_terrain_sarajevo"
+					alwaystransparent = yes
+                }
+
 				# Vanilla
 				iconType = {
 					name = "flooded_icon"

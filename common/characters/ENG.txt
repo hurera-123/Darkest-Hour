@@ -9,7 +9,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_George_V_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -49,7 +49,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Edward_VIII_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -79,7 +79,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_George_VI_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -106,7 +106,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Arnold_Spencer_Leese_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -162,7 +162,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Oswald_Mosley_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -205,7 +205,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Enoch_Powell_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -251,7 +251,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Stanley_Baldwin_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -297,7 +297,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Neville_Chamberlain_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -326,7 +326,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Winston_Churchill_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -365,7 +365,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Lord_Halifax_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -436,7 +436,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_JR_Clynes_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -464,7 +464,7 @@ characters={
 		}
 		country_leader={
 			ideology=social_democracy
-			desc = "Ramsay_MacDonald_desc"
+			desc = ENG_Ramsay_MacDonald_desc
 			traits={ 
 				POSITION_Prime_Minister 
 				SUBIDEOLOGY_Social_Democracy 
@@ -476,7 +476,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Ramsay_MacDonald_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -505,7 +505,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Clement_Attlee_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -548,7 +548,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_David_Lloyd_George_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -587,7 +587,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=ENG_Harry_Pollitt_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=ENG
 			}
@@ -2240,14 +2240,6 @@ characters={
 				large="GFX_M_Harold_Alexander"
 			}
 		}
-        corps_commander={
-			traits = { politically_connected }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 5
-		}
 		advisor={
 			slot=Chief_of_Army
 			idea_token=ENG_Harold_Alexander_CoArmy
@@ -2902,7 +2894,7 @@ characters={
 			}
 			visible={
 				date > 1933.01.01
-				date < 1964.01.01
+				date < 1947.01.01
 				D_Minister_Allowed = yes
 				NOT = { has_country_flag = Archibald_Montgomery_Massingberd_unavailable }
 			}
@@ -2919,7 +2911,7 @@ characters={
 			}
 			visible={
 				date > 1933.01.01
-				date < 1964.01.01
+				date < 1947.01.01
 				D_Minister_Allowed = yes
 				NOT = { has_country_flag = A_MontgomeryMassingberd_unavailable }
 			}
@@ -2976,6 +2968,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_Lord_John_Gort"
+				large="GFX_M_John_Vereker"
 			}
 		}
 		advisor={
@@ -2985,7 +2978,7 @@ characters={
 				tag=ENG
 			}
 			visible={
-				date > 1933.01.01
+				date > 1937.01.01
 				date < 1964.01.01
 				D_Minister_Allowed = yes
 				NOT = { has_country_flag = Lord_John_Gort_unavailable }
@@ -3105,14 +3098,6 @@ characters={
 				large="GFX_M_Alan_Brooke"
 			}
 		}
-		field_marshal={
-			traits = { defensive_doctrine trait_cautious career_officer }
-			skill = 5
-			attack_skill = 3
-			defense_skill = 5
-			planning_skill = 5
-			logistics_skill = 3
-		}
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=ENG_Alan_Brooke_CoStaff
@@ -3206,14 +3191,6 @@ characters={
 				small="GFX_idea_Bernard_Montgomery"
 				large="GFX_M_Bernard_Montgomery"
 			}
-		}
-		field_marshal={
-			traits = { logistics_wizard offensive_doctrine media_personality trait_cautious inflexible_strategist organizer }
-			skill = 4
-			attack_skill = 2
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 4
 		}
 		advisor={
 			slot=Chief_of_Staff
@@ -3812,31 +3789,6 @@ characters={
 			}
 		}
 	}
-	ENG_Owen_Boyd = {
-		name=ENG_Owen_Boyd
-		portraits={
-			army={
-				small="GFX_idea_Owen_Boyd"
-			}
-		}
-		advisor={
-			slot=Chief_of_Airforce
-			idea_token=ENG_Owen_Boyd_CoAir
-			allowed={
-				tag=ENG
-			}
-			visible={
-				date > 1933.01.01
-				date < 1964.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Owen_Boyd_unavailable }
-			}
-			traits={
-				
-				CoAir_Air_Superiority_Doctrine
-			}
-		}
-	}
 	ENG_Edward_Ellington = {
 		name=ENG_Edward_Ellington
 		portraits={
@@ -3876,7 +3828,7 @@ characters={
 				tag=ENG
 			}
 			visible={
-				date > 1933.01.01
+				date > 1937.01.01
 				date < 1964.01.01
 				D_Minister_Allowed = yes
 				NOT = { has_country_flag = Charles_Portal_unavailable }
@@ -3956,6 +3908,9 @@ characters={
 			allowed={
 				tag=ENG
 			}
+			available = {
+				has_completed_focus = ENG_Coastal_Command
+			}
 			visible={
 				date > 1933.01.01
 				date < 1999.01.01
@@ -3982,7 +3937,7 @@ characters={
 				tag=ENG
 			}
 			visible={
-				date > 1937.01.01
+				date > 1935.01.01
 				date < 1964.01.01
 				D_Minister_Allowed = yes
 				NOT = { has_country_flag = Cyril_Newall_unavailable }
@@ -4010,7 +3965,7 @@ characters={
 				has_completed_focus = ENG_Commit_to_Strategic_Bombing_Campaigns
 			}
 			visible={
-				date > 1941.01.01
+				date > 1939.01.01
 				date < 1964.01.01
 				D_Minister_Allowed = yes
 				NOT = { has_country_flag = Arthur_Harris_unavailable }
@@ -4034,8 +3989,11 @@ characters={
 			allowed={
 				tag=ENG
 			}
+			available = {
+				has_completed_focus = ENG_Ensure_Dominance_Over_the_Skies
+			}
 			visible={
-				date > 1942.01.01
+				date > 1938.01.01
 				date < 1964.01.01
 				D_Minister_Allowed = yes
 				NOT = { has_country_flag = Trafford_LeighMallory_unavailable }
@@ -4060,7 +4018,7 @@ characters={
 				tag=ENG
 			}
 			visible={
-				date > 1945.01.01
+				date > 1940.01.01
 				date < 1964.01.01
 				D_Minister_Allowed = yes
 				NOT = { has_country_flag = Arthur_Tedder_unavailable }
@@ -4085,7 +4043,7 @@ characters={
 				tag=ENG
 			}
 			visible={
-				date > 1948.01.01
+				date > 1943.01.01
 				date < 1999.01.01
 				D_Minister_Allowed = yes
 				NOT = { has_country_flag = John_Slessor_unavailable }
@@ -4387,6 +4345,118 @@ characters={
 			id=-1
 		}
 	}
+	ENG_Alexander_Wardrop = {
+		name=ENG_Alexander_Wardrop
+		portraits={
+			army={
+				large="GFX_M_Alexander_Wardrop"
+			}
+		}
+        corps_commander={
+			traits = {   }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_Percy_Radcliffe = {
+		name=ENG_Percy_Radcliffe
+		portraits={
+			army={
+				large="GFX_M_Percy_Radcliffe"
+			}
+		}
+        corps_commander={
+			traits = {   }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_Walter_Kirke = {
+		name=ENG_Walter_Kirke
+		portraits={
+			army={
+				large="GFX_M_Walter_Kirke"
+			}
+		}
+        corps_commander={
+			traits = {   }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_Archibald_Cameron = {
+		name=ENG_Archibald_Cameron
+		portraits={
+			army={
+				large="GFX_M_Archibald_Cameron"
+			}
+		}
+        corps_commander={
+			traits = {   }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_John_Burnett_Stuart = {
+		name=ENG_John_Burnett_Stuart
+		portraits={
+			army={
+				large="GFX_M_John_Burnett_Stuart"
+			}
+		}
+        corps_commander={
+			traits = {   }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_George_Alexander_Weir= {
+		name=ENG_George_Alexander_Weir
+		portraits={
+			army={
+				large="GFX_M_George_Alexander_Weir"
+			}
+		}
+        corps_commander={
+			traits = {   }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	ENG_Francis_Gathorne_Hardy= {
+		name=ENG_Francis_Gathorne_Hardy
+		portraits={
+			army={
+				large="GFX_M_Francis_Gathorne_Hardy"
+			}
+		}
+        corps_commander={
+			traits = {   }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
 	ENG_Neil_Ritchie = {
 		name=ENG_Neil_Ritchie
 		portraits={
@@ -4451,22 +4521,6 @@ characters={
 			logistics_skill = 3
 		}
 	}
-	ENG_Jackie_Smyth = {
-		name=ENG_Jackie_Smyth
-		portraits={
-			army={
-				large="GFX_M_Jackie_Smyth"
-			}
-		}
-        corps_commander={
-			traits = { old_guard }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
 	ENG_Thomas_Jacomb_Hutton = {
 		name=ENG_Thomas_Jacomb_Hutton
 		portraits={
@@ -4513,38 +4567,6 @@ characters={
 			defense_skill = 2
 			planning_skill = 2
 			logistics_skill = 2
-		}
-	}
-	ENG_John_Verecer_Lord_Gort = {
-		name=ENG_John_Verecer_Lord_Gort
-		portraits={
-			army={
-				large="GFX_M_John_Verecer_Lord_Gort"
-			}
-		}
-        corps_commander={
-			traits = { politically_connected trait_cautious }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 3
-		}
-	}
-	ENG_Jock_Campbell = {
-		name=ENG_Jock_Campbell
-		portraits={
-			army={
-				large="GFX_M_Jock_Campbell"
-			}
-		}
-        corps_commander={
-			traits = { armor_officer  }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 4
 		}
 	}
 	ENG_Oliver_Leese = {

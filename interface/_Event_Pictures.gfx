@@ -5473,4 +5473,24 @@ spriteTypes = {
         name = "GFX_report_YEM_Yemeni_Forces_in_Sanaa"
         texturefile = "gfx/event_pictures/report_YEM_Yemeni_Forces_in_Sanaa.png"
     }
+    
+    spriteType = {
+        name = "GFX_news_USA_Bombing_of_Washington"
+        texturefile = "gfx/event_pictures/news_USA_Bombing_of_Washington.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_USA_Nuclear_Bombing_of_New_York"
+        texturefile = "gfx/event_pictures/news_USA_Nuclear_Bombing_of_New_York.png"
+    }
+
+    spriteType = {
+        name = "GFX_news_FRA_Atomic_Bombinf_of_Paris"
+        texturefile = "gfx/event_pictures/news_FRA_Atomic_Bombinf_of_Paris.png"
+    }
+    
+    spriteType = {
+        name = "GFX_news_GER_Third_Versailles"
+        texturefile = "gfx/event_pictures/news_GER_Third_Versailles.png"
+    }
 }

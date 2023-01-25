@@ -41,6 +41,7 @@ recruit_character = YUG_Milan_Milovanovic
 recruit_character = YUG_Danilo_Kalafatovic
 recruit_character = YUG_Marijan_Polic
 recruit_character = YUG_Ivan_Ribar
+recruit_character = YUG_Prince_Paul
 
 #########################################################################
 # Yugoslavia - 1933
@@ -202,45 +203,6 @@ recruit_character = YUG_Ivan_Ribar
 		YUG_Aleksandar_I_HoG
 	}
 	set_country_flag = Allows_Democratic_Ministers
-
-	#######################
-	# Generals
-	#######################
-	create_field_marshal = {
-		name = "Milutin Nedić"
-		id = 319006
-		#picture = GFX__Portrait_yugoslavia_milutin_nedic
-		traits = {
-			thorough_planner
-		}
-		skill = 3
-		attack_skill = 3
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 3
-	}
-	create_field_marshal = {
-		name = "Danilo Kalafatović"
-		id = 319007
-		#picture = GFX__Portrait_yugoslavia_danilo_kalafatovic
-		traits = {
-		}
-		skill = 2
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 1
-	}
-	#######################
-	# Admirals
-	#######################
-	create_navy_leader = {
-		name = "Marijan Polić"
-		#picture = GFX__Portrait_yugoslavia_marijan_polic
-		traits = {
-		}
-		skill = 2
-	}
 }
 
 #########################################################################

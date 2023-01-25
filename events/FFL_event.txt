@@ -1,0 +1,29 @@
+#########################################################################
+# Darkest Hour Events : France
+#########################################################################
+add_namespace = FFL_Liberation
+
+#########################################################################
+# Liberation of Paris
+#########################################################################
+country_event = {
+	id = FFL_Liberation.1
+	title = FFL_Liberation.1.t
+	desc = FFL_Liberation.1.d
+	picture = TBI
+	fire_only_once = yes
+	trigger = {
+		original_tag = FFL
+		controls_province = 9523
+		country_exists = FRA
+	}
+	option = {
+		name = FFL_Liberation.1.A
+		if = {
+			limit = { country_exists = FRA }
+			declare_war_on = {
+				target = FRA
+			}
+		}
+	}
+}

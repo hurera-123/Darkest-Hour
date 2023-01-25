@@ -1,15 +1,4 @@
 areas = {
-	suez = {
-		strategic_regions = {
-			128
-			28
-			214
-			242
-			# now also morocco etc for testing
-			# 182
-			# 126
-		}
-	}
 	scandinavia = {
 		strategic_regions = {
 			11
@@ -69,11 +58,6 @@ areas = {
 		strategic_regions = {
 			55
 			53
-		}
-	}
-	guandong = {
-		strategic_regions = {
-			165
 		}
 	}
 	normandy_landing_zone = {
@@ -190,6 +174,7 @@ areas = {
 		strategic_regions = {
 			126
 			242
+			128
 		}
 	}
 	norwegian_coast = {

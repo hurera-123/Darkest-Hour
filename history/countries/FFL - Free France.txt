@@ -33,4 +33,29 @@
 		socialist = 0
 		communist = 25
 	}
+	create_intelligence_agency = {
+		name = "Bureau Central de Renseignements et d'Action"
+		icon = "GFX_intelligence_agency_logo_fra"
+	}
+	if = {
+		limit = {
+			has_dlc = "La Resistance"
+		}
+		create_operative_leader = {
+			name = "Maisie Renault"
+			GFX = GFX_operative_Maisie_Renault
+			traits = { operative_tough }
+			bypass_recruitment = no
+			available_to_spy_master = yes
+			nationalities = { FRA }
+		}
+		create_operative_leader = {
+			name = "René Joyeuse"
+			GFX = GFX_operative_Rene_Joyeuse
+			traits = { operative_infiltrator }
+			bypass_recruitment = no
+			available_to_spy_master = yes
+			nationalities = { SWI FRA }
+		}
+	}
 }

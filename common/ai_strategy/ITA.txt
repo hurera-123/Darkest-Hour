@@ -66,12 +66,25 @@ ITA_Prepare_for_war_with_Ethiopia = {
 	ai_strategy = {
 		type = prepare_for_war
 		id = "ETH"
-		value = 200
+		value = 250
 	}
 	ai_strategy = {
 		type = front_unit_request
 		tag = ETH
-		value = 100
+		value = 25
+	}
+	# Eritrea
+	ai_strategy = {
+		type = theatre_distribution_demand_increase
+		id = 550
+		value = 3
+	}
+
+	# Somaliland
+	ai_strategy = {
+		type = theatre_distribution_demand_increase
+		id = 559
+		value = 3
 	}
 }
 ITA_Kill_Ethiopia = {
@@ -100,6 +113,7 @@ ITA_prepare_to_join_the_war = {
 		GER = {
 			has_war_with = FRA
 		}
+		NOT = { has_global_flag = ITA_Refused_SudTirol_Claim }
 		NOT = {
 			ITA = {
 				has_war = yes
@@ -429,6 +443,7 @@ Italian_Yugoslav_Greek_Relations = {
 		ITA = {
 			has_government = fascist
 		}
+		NOT = { has_global_flag = ITA_Refused_SudTirol_Claim }
 		date > 1940.1.1
 		any_other_country = {
 			OR = {
@@ -457,6 +472,33 @@ Italian_Yugoslav_Greek_Relations = {
 		type = prepare_for_war
 		id = "GRE"
 		value = 500
+	}
+}
+ITA_Dont_Ally_Austria = {
+	allowed = {
+		original_tag = ITA
+	}
+	enable = {
+		has_government = fascist
+		AUS = {
+			exists = yes
+		}
+	}
+	abort = {
+		OR = {
+			has_global_flag = GER_Brother_War
+			has_completed_focus = ITA_The_Rome_Pact
+		}
+	}
+	ai_strategy = {
+		type = ignore
+		id = "AUS"
+		value = 500
+	}
+	ai_strategy = {
+		type = alliance
+		id = "AUS"
+		value = -1000
 	}
 }
 AUS_Brothers_War = {
@@ -535,6 +577,7 @@ ITA_GER_Want_to_Invade_FRA_Without_Us = {
 	}
 	enable = {
 		date < 1940.6.10
+		NOT = { has_global_flag = ITA_Refused_SudTirol_Claim }
 	}
 
 	abort = {
@@ -574,7 +617,9 @@ ITA_Invade_Greece = {
 		original_tag = ITA
 	}
 	enable = {
-		has_country_flag = ITA_Invasion_of_Greece
+		has_government = fascist
+		has_war_with = ENG
+		date > 1940.6.1
 	}
 	abort = {
 		GRE = {
@@ -587,22 +632,17 @@ ITA_Invade_Greece = {
 	ai_strategy = {
 		type = prepare_for_war
 		id = "GRE"
-		value = 800
+		value = 200
 	}
 	ai_strategy = {
 		type = front_unit_request
 		tag = "GRE"
-		value = 200
+		value = 50
 	}
 	ai_strategy = {
 		type = conquer
 		id = "GRE"
-		value = 800
-	}
-	ai_strategy = {
-		type = declare_war
-		id = "GRE"
-		value = 800
+		value = 500
 	}
 }
 ITA_war_against_ENG = {
@@ -622,7 +662,7 @@ ITA_war_against_ENG = {
 	ai_strategy = {
 		type = area_priority
 		id = north_africa
-		value = 1000
+		value = 100
 	}
 
 	ai_strategy = {
@@ -655,37 +695,37 @@ Italian_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = north_america
-		value = 10
+		value = 0
 	}
 	ai_strategy = {
 		type = area_priority
 		id = south_america
-		value = 10
+		value = 0
 	}
 	ai_strategy = {
 		type = area_priority
 		id = asia
-		value = 25
+		value = -10
 	}
 	ai_strategy = {
 		type = area_priority
 		id = pacific
-		value = 10
+		value = -10
 	}
 	ai_strategy = {
 		type = area_priority
 		id = oceania
-		value = 10
+		value = -10
 	}
 	ai_strategy = {
 		type = area_priority
-		id = middle_east
-		value = 150
+		id = north_africa
+		value = 40
 	}
 	ai_strategy = {
 		type = area_priority
 		id = africa
-		value = 150
+		value = 40
 	}
 }
 
@@ -710,24 +750,6 @@ ITA_Protect_Home = {
 
 		order_id = 1
 
-		# North Italy
-		states = {
-			158
-			856
-			1248
-			114
-		}
-
-		ratio = 0.3
-
-		subtract_invasions_from_need = no
-	}
-
-	ai_strategy = {
-		type = put_unit_buffers
-
-		order_id = 1
-
 		# South Italy
 		states = {
 			117
@@ -737,23 +759,7 @@ ITA_Protect_Home = {
 			858
 		}
 
-		ratio = 0.4
-
-		subtract_invasions_from_need = no
-	}
-
-	ai_strategy = {
-		type = put_unit_buffers
-
-		order_id = 1
-
-		# North Africa
-		states = {
-			448
-			450
-		}
-
-		ratio = 0.3
+		ratio = 0.2
 
 		subtract_invasions_from_need = no
 	}
@@ -930,6 +936,38 @@ ITA_unit_production = {
 		type = equipment_production_min_factories
 		id = train
 		value = 1
+	}
+}
+
+ITA_Equipment_Production_1 = {
+	allowed = {
+		original_tag = ITA
+	}
+	enable = {
+		date < 1936.1.1
+	}
+	abort = {
+		date > 1936.1.1
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = interceptor
+		value = -100
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = strategic_bomber
+		value = -100
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = train
+		value = 1
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = motorized
+		value = 2
 	}
 }
 
@@ -1199,5 +1237,63 @@ ITA_let_germany_handle_polish_front_alone = {
 		type = dont_defend_ally_borders
 		id = "SLO"
 		value = 100
+	}
+}
+ITA_No_Volunteers_to_Asia = {
+	allowed = {
+		original_tag = ITA
+	}
+	enable = {
+		always = yes
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = MAN
+		value = -1000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = MEN
+		value = -1000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = JAP
+		value = -1000
+	}
+}
+#############################################
+# Alternate History
+#############################################
+ITA_Counter_Germany = {
+	allowed = {
+		original_tag = ITA
+	}
+	enable = {
+		has_global_flag = ITA_Refused_SudTirol_Claim
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = prepare_for_war
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = front_control
+		tag = GER
+		ordertype = front
+		execution_type = careful
+		execute_order = yes
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = "GER"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 500
 	}
 }

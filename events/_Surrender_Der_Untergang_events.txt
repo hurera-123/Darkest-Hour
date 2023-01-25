@@ -52,10 +52,10 @@ country_event = {
 			name = "Constantin Sanatescu"
 			picture = GFX_M_Constantin_Sanatescu
 			expire = "1947.1.1"
-			ideology = stalinism
+			ideology = social_democracy
 			traits = {
 				POSITION_Prime_Minister
-				SUBIDEOLOGY_Stalinism
+				SUBIDEOLOGY_Social_Democracy
 			}
 		}
 		remove_ideas = ROM_D_Carol_II
@@ -127,13 +127,19 @@ country_event = {
 			}
 			ROM = {
 				set_cosmetic_tag = ROM_SOV_1946
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = no
+				}
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.5
+				}
 				add_to_war = {
 					targeted_alliance = SOV
 					enemy = GER
 				}
-				hidden_effect = {
-					country_event = { id = Surrender_SOV_Response.1 }
-				}
+				country_event = { id = Surrender_SOV_Response.1 }
 			}
 			set_global_flag = SOV_ROM_surrendered
 		}

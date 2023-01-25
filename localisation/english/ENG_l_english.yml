@@ -255,10 +255,10 @@
  ENG_Abdication_Crisis.11.t: "The Coronation of George VI"
  ENG_Abdication_Crisis.11.d: "[FROM.GetNewsIcon]Today, across the United Kingdom and the British Empire, celebrations have begun after the coronation of Prince Albert of the House of Windsor, now King George VI, has finished. The younger brother of the tumultuous Prince of Wales, Edward, George was not expected to ascend to the throne, however after Edward abdicated his throne because of the American widow Wallace Simpson, George had no choice but to take up the mantle and lead the country.\n\nKing George is a fine example of a monarch and of a man, and, having served in the Royal Navy during the Great War, knows how dangerous the troubles of conflict are. There is no doubt that his kind, guiding hand shall lead us through these dark times to the light at the end of the tunnel."
  ENG_Abdication_Crisis.11.A: "God Save the King! God Save George VI!"
- ENG_Abdication_Crisis.11.B: ""
- ENG_Abdication_Crisis.11.C: ""
- ENG_Abdication_Crisis.11.D: ""
- ENG_Abdication_Crisis.11.E: ""
+ ENG_Abdication_Crisis.11.B: "What about his brother?"
+ ENG_Abdication_Crisis.11.C: "New king, same problems."
+ ENG_Abdication_Crisis.11.D: "Send our congratulations."
+ ENG_Abdication_Crisis.11.E: "That was unexpected."
 
  ENG_Abdication_Crisis.12.t: "The King Relents"
  ENG_Abdication_Crisis.12.d: "King Edward has announced today, in front of the British cabinet and representatives from the other Dominion governments, that he will abandon his plans to marry Wallis Simpson. Seeing how his plans had received almost no support from either the government or the general public, Edward realised that he could not prioritise his own needs and desires over the needs and desires of the country. He understands that if he marries against the advice of his ministers, the government will resign, resulting in a constitutional crisis.\n\nThe announcement stunned the entire room, eliciting roaring applause and relief from nearly every cabinet member, and has greatly improved King Edward's standing and reputation among both the British cabinet and the general public."
@@ -294,8 +294,8 @@
  ENG_Abdication_Crisis.18.A: "Right away sir, I’m sure he’ll be ecstatic as well!"
 
  ENG_Abdication_Crisis.20.t: "A Less-Than-Smooth Ride"
- ENG_Abdication_Crisis.20.d: ""
- ENG_Abdication_Crisis.20.A: ""
+ ENG_Abdication_Crisis.20.d: "Some may call it a less-than-smooth ride.\n\nOthers are calling it a car crash.\n\nWhat should’ve been a way to shore up support for the King’s marriage has turned into a political crisis that is gripping the very heart of the United Kingdom. When Edward made the speech on radio to the nation a few days ago, he could not have imagined the damage it would do to the stability of a country now in complete shock at what is unfolding in Parliament.\n\nNot only are many MP’s from both major parties unconvinced, but many who are part of the government have begun to resign in droves, including both Stanley Baldwin and Ramsay MacDonald. This has left the leadership of our nation in a state of paralysis, one which will surely not be resolved in the foreseeable future.\n\nWhat will happen next is anyone’s guess, but the pressure of Edward is mounting at a rapid rate, and only time will tell if he can survive it."
+ ENG_Abdication_Crisis.20.A: "A disaster for our nation!"
 
  ENG_Abdication_Crisis.22.t: "The Coronation of Edward VIII" # Morganatic Marriage
  ENG_Abdication_Crisis.22.d: "[FROM.GetNewsIcon]Despite initial strong opposition from his ministers and advisors, King Edward VIII has decided to marry American socialite Wallis Simpson in a morganatic marriage. He will remain king in this marriage, but Simpson will not become queen consort. Instead, she will be given a lesser title, and any children they have will not inherit the throne.\n\nThe views of the other governments were sought in accordance with the Statute of Westminster 1931, which stated that \"any change in the law touching the Succession to the Throne or the Royal Style and Titles shall hereafter require the assent of the Parliaments of all the Dominions as well as the Parliament of the United Kingdom.\" The Prime Minister of Australia, among some others, stated his opposition to the king marrying a divorcee.\n\nWhen confronted with this opposition, Edward responded that there are \"not many people in Australia\" and their opinion does not matter. Some ministers are already resigning, raising the question: Is the United Kingdom on the verge of a constitutional crisis, or will the government hold?"
@@ -477,7 +477,7 @@
  ENG_Irish_Trade_War.3.B: "Deny them any concessions"
 
  ENG_Irish_Trade_War.4.t: "The Irish Crawl Back"
- ENG_Irish_Trade_War.4.d: ""
+ ENG_Irish_Trade_War.4.d: "Following our refusal to negotiate a closure to the Anglo-Irish Trade Conflict with the Irish Free State, the Irish delegation has returned, this time accompanied by James Ryan, the Irish Minister of Agriculture. James Ryan delivered a relatively short speech highlighting the significant negative effects of the trade war on the agricultural industries of the Irish economy, which itself was followed by a delegation declaration announcing the Free State's willingness to negotiate extended concessions in exchange for a decrease of our pressure. They concluded with a reading of a letter addressed to [ENG.GetLeader from [IRE.GetLeader] himself, reiterating the economic disruption done to Ireland."
  ENG_Irish_Trade_War.4.A: "Some relief may be what's needed"
  ENG_Irish_Trade_War.4.B: "Deny them any concessions whatsoever"
 
@@ -487,30 +487,30 @@
  ENG_Irish_Trade_War.5.B: "We cannot accept these alterations to defence policy"
 
  ENG_Irish_Trade_War.6.t: "The Irish Financial and Trade Terms"
- ENG_Irish_Trade_War.6.d: ""
- ENG_Irish_Trade_War.6.A: ""
+ ENG_Irish_Trade_War.6.d: "Following the Irish Free State's sentimental, but somewhat hustled, efforts to bring the Anglo-Irish Trade War to an end, we have convened to negotiate predefined terms with [IRE.GetLeader] to start reducing tensions between our two countries. We have agreed to remove our tariffs on Irish exports to our nation in return for the Irish relinquishing their claims on the Treaty Ports of Berehaven, Spike Island, and Lough Swilly. Furthermore, the Irish Free State will make a one-time compensation of £8 million to accommodate land annuity liabilities. While these aren't the greatest conditions we could have obtained, they do enable us to concentrate our efforts on Europe's growing unease."
+ ENG_Irish_Trade_War.6.A: "We'll certainly agree to this!"
 
  ENG_Irish_Trade_War.7.t: "The Anglo-Irish Agreements"
- ENG_Irish_Trade_War.7.d: "[FROM.GetNewsIcon]"
- ENG_Irish_Trade_War.7.A: ""
- ENG_Irish_Trade_War.7.B: ""
- ENG_Irish_Trade_War.7.C: ""
+ ENG_Irish_Trade_War.7.d: "[FROM.GetNewsIcon]Following a series of negotiations between authorities from the United Kingdom and Ireland, numerous terms and arrangements have been attained. The primary focus has centred on the financial, trade, and defence segments. All tax duties imposed in the previous five years have been raised, with [IRE.GetLeader] consenting to a one-time compensation of £10 million to the UK while retaining the authority to impose tariffs on British imports to safeguard their recently established industries.\n\nA free-trade agreement has also been reached, which vastly strengthens the ties between the United Kingdom and the Free State. The surrender of the treaty ports, which the UK retained in 1921, is perhaps one of the most notable features of the terms. As a result, as officially confirmed by the British Prime Minister, Berehaven, Spike Island, and Lough Swilly will be transferred to Ireland immediately as an expression of trust and goodwill."
+ ENG_Irish_Trade_War.7.A: "A toast to better times ahead!"
+ ENG_Irish_Trade_War.7.B: "A toast to better times ahead!"
+ ENG_Irish_Trade_War.7.C: "The British and the Irish agreeing on something?!"
 
  ENG_Irish_Trade_War.8.t: "The Dual Anglo-Irish Agreements"
- ENG_Irish_Trade_War.8.d: "[FROM.GetNewsIcon]"
- ENG_Irish_Trade_War.8.A: ""
- ENG_Irish_Trade_War.8.B: ""
- ENG_Irish_Trade_War.8.C: ""
+ ENG_Irish_Trade_War.8.d: "[FROM.GetNewsIcon]Following [ENG.GetLeader]'s initial stoicism in bargaining mutually beneficial terms to cease the Anglo-Irish Trade War, an Irish delegation returned to London with a revived willingness to make additional concessions. [ENG.GetLeader] decided to make the executive decision, after careful consideration, to welcome [IRE.GetLeader] to London to begin talks. After several months of perceptibly deliberate stalling by British negotiators, the following terms have been agreed upon and signed into effect:\n\nThe Irish Free State has agreed to relinquish all claims to the Treaty Ports in Ireland that are currently under British administration.  Moreover, the Free State will make a one-time instalment of £8 million to accommodate land annuity liabilities. Moreover, all tariffs on British and Irish exports will be eliminated. The Anglo-Irish Trade Conflict has been declared concluded with these terms. In the words of [ENG.GetLeader], British ministers are now "free to focus their efforts to more critical matters on the continent."
+ ENG_Irish_Trade_War.8.A: "At last, and end to the trade war!"
+ ENG_Irish_Trade_War.8.B: "At last, and end to the trade war!"
+ ENG_Irish_Trade_War.8.C: "They finally came to their senses."
 
  ENG_Irish_Trade_War.9.t: "A Desperate Irish Attempt"
- ENG_Irish_Trade_War.9.d: ""
- ENG_Irish_Trade_War.9.A: ""
+ ENG_Irish_Trade_War.9.d: "With our continued obstinacy and outright refusal to negotiate further on the issue of reducing tensions caused by the Anglo-Irish Trade Conflict, Irish delegations have left London disappointed and frustrated, unable to meet our demands. Given that the trade war has little impact on British daily life and the overall economy, this has little impact on us, while the Irish Free State's economy continues to deteriorate.\n\nHowever, the Irish are determined to get something out of their efforts, and have returned, hoping to use an unstable Europe as a stabilizing factor to put an end to the ongoing destruction of their new industries. While a decision has been reached, the terms are not necessarily advantageous to either party. Tariffs are to be reduced on both ends, significantly relieving the Free State; however, they must pay a one-time payment of £6 million as compensation for land annuity liabilities. The Anglo-Irish Trade War is finally over, and our ministers can refocus their efforts on a more lethal conflict."
+ ENG_Irish_Trade_War.9.A: "The issue of the trade war can be settled at last."
 
  ENG_Irish_Trade_War.8.t: "The Anglo-Irish Agreement"
- ENG_Irish_Trade_War.8.d: "[FROM.GetNewsIcon]"
- ENG_Irish_Trade_War.8.A: ""
- ENG_Irish_Trade_War.8.B: ""
- ENG_Irish_Trade_War.8.C: ""
+ ENG_Irish_Trade_War.8.d: "[FROM.GetNewsIcon]The Anglo-Irish Trade War has been brought to an end! With Europe becoming more unstable, and with the UK wanting to shore up its economy, the Irish delegation returned to London accompanied by [IRE.GetLeader], with high expectations of reaching the conclusion of the Trade Conflict. Irish industries are collapsing, the citizenry is impoverished, and the economy is in complete disarray, unable to re-establish itself against British tariffs on its exports. After tense but brief negotiations, an agreement was finally reached and signed into effect. The following are the terms:\n\nTariffs on Irish and British goods are to be removed immediately, allowing free commerce between the two countries to begin and, hopefully, permitting the Irish Free State's economy to gain some momentum. The Free State will make a one-time payment of £6 million to compensate for land annuity liabilities.\n\nWith the closure of the Anglo-Irish Trade War, the British and their Commonwealth can shift their focus to a far more threatening conflict that has the possibility of bringing Britain to her knees for the first time in many centuries..."
+ ENG_Irish_Trade_War.8.A: "This should help our economic situation."
+ ENG_Irish_Trade_War.8.B: "This should help our economic situation."
+ ENG_Irish_Trade_War.8.C: "At last, the trade war is over."
  
 ######################################################################
 #  Chinese Defeat in the Second Sino-Japanese War - British Events
@@ -645,21 +645,21 @@
  ENG_Wartime_Tree.3.d: "The Germans have taken another step toward extinguishing European liberty. With their conquest of Paris, they have placed the lives of many important officials from various European nations in danger. Paris had been hosting many governments in exile, each of whom represented their people's continuing fighting spirit and desire to oppose Fascism. The Czechoslovak Government-in-Exile was one such government.\n\nAs the Germans marched into Paris, plans were being made to relocate them to the United Kingdom, where they could continue fighting for their country's freedom and security. Those preparations have now paid off, with the establishment of a formal Czechoslovak Government-in-Exile in London, led by [CZE.GetLeader].\n\nThis relocation, however, is not without complications. For one thing, the Czechoslovaks have made it clear that they intend to reverse the Munich Agreement at the end of the war. Many of our officials have reported that they continue to hold us in contempt and anger for signing the agreement in the first place.\n\nAnother issue is the Germans' creation of [SLO.GetNameDef]. While it claims to be a sovereign Slovak nation, there is no doubt that it is a German puppet. In any case, there is some debate over whether the Czechoslovak Government-in-Exile is truly a Czechoslovak Government-in-Exile or simply a Czech Government-in-Exile.\n\nIn any case, with all formalities completed, [CZE.GetLeader] will be settling into the London weather and organising the Czechoslovak resistance from his English Oak table."
  ENG_Wartime_Tree.3.a: "We shall wish them the best."
 
- ENG_Wartime_Tree.4.t: "The Tizard mission"
+ ENG_Wartime_Tree.4.t: "The Tizard Mission"
  ENG_Wartime_Tree.4.d: "The British government have sent us a scientific delegation led by Henry Tizard with an interesting proposal. The British are willing to pool their research efforts with ours in several key areas as they do not have the industrial capacity to produce their inventions in great enough numbers."
  ENG_Wartime_Tree.4.a: "An excellent proposal!"
  ENG_Wartime_Tree.4.b: "No, the British are on their own."
  ENG_Wartime_Tree.4.c: "We should aim for a more long term cooperation."
 
- ENG_Wartime_Tree.5.t: "Tizard successful"
+ ENG_Wartime_Tree.5.t: "Tizard Successful"
  ENG_Wartime_Tree.5.d: "The Tizard Mission has been completed after a few months of waiting! The delegation did not return empty-handed: after lengthy negotiations, they obtained plans for RADAR technology, which should now aid us in the current war.\n\nEven if the collaborations with the American behemoth were not as fruitful as some would have liked, the RADAR is a significant step forward. Military industries have already installed them on planes and ships to improve visibility in Europe's seas and skies."
  ENG_Wartime_Tree.5.a: "Jolly good!"
 
- ENG_Wartime_Tree.6.t: "Tizard rejected"
+ ENG_Wartime_Tree.6.t: "Tizard Rejected"
  ENG_Wartime_Tree.6.d: "Despite spending months in the USA, our delegation will return to London tomorrow without any new technology from the Americans. Congress has completely rejected our proposal for cooperation, viewing their intervention in our research as a threat to the stability of the policy of isolation.\n\nThe government has dramatically stated that it has been the worst diplomatic failure in the world since the declaration of the Franco-Prussian war in 1870, also saying that “much is at stake because of this”. The expedition's leader, Henry Tizard, is disappointed, but he assures the government that he will continue to develop the technology required to win the war, even if it means killing himself at work.\n\nThe government has quickly reassigned him to a new mission, developing our own RADAR technology, and, if he believes he is capable, the development of our own nuclear program. At the same time, the rejection of our proposition by the Americans has launched a cooling of our mutual relations. We will never have the same relationship with the US as no one is quite sure what the future of our diplomacy will look like with them."
  ENG_Wartime_Tree.6.a: "A failure for the Allies, or a benefit for British science?"
 
- ENG_Wartime_Tree.7.t: "Tizard triumphant"
+ ENG_Wartime_Tree.7.t: "Tizard Triumphant!"
  ENG_Wartime_Tree.7.d: "The Tizard delegation has good news! After months of back-and-forth negotiations, the Americans have finally decided to assist us! And, contrary to popular belief, they will not only provide us with assistance, but will also assist us in the development of our RADAR plans, as well as in its installation for use in a variety of areas. Some of their scientists also seem to have been impressed by our research on the atom, and they have indicated their willingness to work on this with us in the future.\n\nThis is a huge success for our government, and military industrialists have already begun to develop RADAR-equipped planes and submarines. The Americans, on the other hand, are very impressed by the British delegation's effectiveness and have asked Professor Tizard to stay in America with the American delegates for some time.\n\nIn the Prime Minister’s cabinet, everyone has agreed on the fact this operation is the biggest achievement of the century for the British services, and we think it can, in the long run, lead to the end of American isolationism."
  ENG_Wartime_Tree.7.a: "After months of dark storms, the skies of Europe finally see the sun appear!"
 
@@ -1647,7 +1647,7 @@
 
  # Air Branch
 
- ENG_Royal_Airforce: "The Royal Air Force"
+ ENG_Royal_Airforce: "§SThe Royal Air Force§!"
  ENG_Royal_Airforce_desc: "The recent rise in our rival's air forces has started to put our military commanders into a bit of a scare. Many have considered that we divert some research and industry to ensure the victory of the Royal Air Force. Though Britain easily has one of the strongest fleets in the world, our ships cannot defend the streets of London from bombs. We must revitalize the Royal Air Force and make sure that we are not bested by our rivals."
 
  ENG_Reorganize_Air_Defences: "Reorganize the Air Defences"
@@ -1709,8 +1709,8 @@
 
  # Navy Branch
 
- ENG_Royal_Navy: "The Royal Navy"
- ENG_Royal_Navy_desc: "As per the decree of the royal navy, more dockyards are to be constructed for higher production on ships for the war effort, as well as dedicated research to naval strategies. If Britain is to war with any major powers, her strength will be that of ruling the seas, and the people recognize this."
+ ENG_Royal_Navy: "§3The Royal Navy§!"
+ ENG_Royal_Navy_desc: "As per the decree of the Royal Navy, more dockyards are to be constructed for higher production on ships for the war effort, as well as dedicated research to naval strategies. If Britain is to war with any major powers, her strength will be that of ruling the seas, and the people recognize this."
 
  ENG_Fleet_Air_Arm: "The Fleet Air Arm"
  ENG_Fleet_Air_Arm_desc: ""
@@ -1723,6 +1723,7 @@
 
  ENG_The_Royal_Marines: "Royal Marines"
  ENG_The_Royal_Marines_desc: ""
+ ENG_The_Royal_Marines_tt: "§5Unlocks the Royal Marine Division template§!"
 
  ENG_Coastal_Command: "Form Coastal Command"
  ENG_Coastal_Command_desc: "To assure our people that no hostile nation will ever successfully invade the British Isles, we will have to fortify our beaches and our coastal cities. Men will be trained to defend their homes, fighters and naval bombers will be brought on nearby airfields and our citizens will know what to do, if the enemy come near us. Nothing can defeat us. Their pilots, their navy and their soldiers shall be nothing when compared to the will and determination of the British people."
@@ -1775,7 +1776,7 @@
  ENG_Prepare_Bletchley_Park: "Prepare Bletchley Park"
  ENG_Prepare_Bletchley_Park_desc: ""
 
- ENG_British_Army: "The British Army"
+ ENG_British_Army: "§aThe British Army§!"
  ENG_British_Army_desc: ""
 
  ENG_Continue_Conservative_Casualty_Avoidance: "Continue Conservative Casualty Avoidance"
@@ -2363,6 +2364,7 @@
  ENG_Continued_British_Exploitation: "Continued British Exploitation"
  ENG_Indian_Gold_Imports: "Indian Gold Imports"
  ENG_Colonial_Resource_Commissions: "Colonial Resource Commissions"
+ ENG_Britannia_Disarmed: "Britannia Disarmed"
 
 ##############################################
 ## British Opinion

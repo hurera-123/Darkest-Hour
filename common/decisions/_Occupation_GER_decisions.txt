@@ -30,7 +30,7 @@ GER_Reichskommissariats = {
 		days_mission_timeout = 45
 		is_good = no
 		cost = 0
-		fire_only_once = no
+		fire_only_once = yes
 		cancel_trigger = {
 			NOT = {
 				9 = {
@@ -42,8 +42,7 @@ GER_Reichskommissariats = {
 			country_event = Occupation_GER_CZE.1
 		}
 		timeout_effect = {
-			set_country_flag = Occupation_GER_CZE
-			# occupy_medium_country = yes
+			country_event = Occupation_GER_CZE.1
 		}
 		ai_will_do = {
 			factor = 100
@@ -77,7 +76,7 @@ GER_Reichskommissariats = {
 		days_mission_timeout = 45
 		is_good = no
 		cost = 0
-		fire_only_once = no
+		fire_only_once = yes
 		cancel_trigger = {
 			NOT = {
 				70 = {
@@ -89,8 +88,7 @@ GER_Reichskommissariats = {
 			country_event = Occupation_GER_SLO.1
 		}
 		timeout_effect = {
-			set_country_flag = Occupation_GER_SLO
-			# occupy_medium_country = yes
+			country_event = Occupation_GER_SLO.1
 		}
 		ai_will_do = {
 			factor = 100
@@ -137,8 +135,7 @@ GER_Reichskommissariats = {
 			country_event = Occupation_GER_DEN.1
 		}
 		timeout_effect = {
-			set_country_flag = Occupation_GER_DEN
-			# occupy_medium_country = yes
+			country_event = Occupation_GER_DEN.1
 		}
 		ai_will_do = {
 			factor = 100
@@ -173,7 +170,7 @@ GER_Reichskommissariats = {
 		days_mission_timeout = 45
 		is_good = no
 		cost = 0
-		fire_only_once = no
+		fire_only_once = yes
 		cancel_trigger = {
 			NOT = {
 				110 = {
@@ -185,8 +182,7 @@ GER_Reichskommissariats = {
 			country_event = Occupation_GER_NOR.1
 		}
 		timeout_effect = {
-			set_country_flag = Occupation_GER_NOR
-			# occupy_medium_country = yes
+			country_event = Occupation_GER_NOR.1
 		}
 		ai_will_do = {
 			factor = 100
@@ -218,7 +214,7 @@ GER_Reichskommissariats = {
 		days_mission_timeout = 45
 		is_good = no
 		cost = 0
-		fire_only_once = no
+		fire_only_once = yes
 		cancel_trigger = {
 			NOT = {
 				7 = {
@@ -230,8 +226,7 @@ GER_Reichskommissariats = {
 			country_event = Occupation_GER_HOL.1
 		}
 		timeout_effect = {
-			set_country_flag = Occupation_GER_HOL
-			# occupy_medium_country = yes
+			country_event = Occupation_GER_HOL.1
 		}
 		ai_will_do = {
 			factor = 100
@@ -273,7 +268,7 @@ GER_Reichskommissariats = {
 		is_good = no
 		cost = 0
 		days_mission_timeout = 90
-		fire_only_once = no
+		fire_only_once = yes
 		cancel_trigger = {
 			NOT = {
 				7 = {
@@ -282,6 +277,9 @@ GER_Reichskommissariats = {
 			}
 		}
 		complete_effect = {
+			country_event = Occupation_GER_HOL.2
+		}
+		timeout_effect = {
 			country_event = Occupation_GER_HOL.2
 		}
 		ai_will_do = {
@@ -325,7 +323,7 @@ GER_Reichskommissariats = {
 		days_mission_timeout = 45
 		is_good = no
 		cost = 0
-		fire_only_once = no
+		fire_only_once = yes
 		cancel_trigger = {
 			NOT = {
 				6 = {
@@ -337,8 +335,7 @@ GER_Reichskommissariats = {
 			country_event = Occupation_GER_BEL.1
 		}
 		timeout_effect = {
-			set_country_flag = Occupation_GER_BEL
-			# occupy_medium_country = yes
+			country_event = Occupation_GER_BEL.1
 		}
 		ai_will_do = {
 			factor = 100
@@ -383,7 +380,7 @@ GER_Reichskommissariats = {
 				controls_state = 88
 			}
 		}
-		cost = 0
+		cost = 50
 		fire_only_once = yes
 		ai_will_do = {
 			factor = 100
@@ -640,7 +637,7 @@ GER_Reichskommissariats = {
 			owns_state = 1631
 			owns_state = 1632
 		}
-		cost = 0
+		cost = 50
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -731,7 +728,7 @@ GER_Reichskommissariats = {
 			owns_state = 1333
 			owns_state = 1499
 		}
-		cost = 0
+		cost = 50
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -898,7 +895,7 @@ GER_Reichskommissariats = {
 			owns_state = 581
 			owns_state = 903
 		}
-		cost = 0
+		cost = 50
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -1203,7 +1200,7 @@ GER_Reichskommissariats = {
 			owns_state = 1475
 			owns_state = 1634
 		}
-		cost = 0
+		cost = 50
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -1338,7 +1335,7 @@ GER_Reichskommissariats = {
 			owns_state = 1462
 			owns_state = 1572
 		}
-		cost = 0
+		cost = 50
 		ai_will_do = {
 			factor = 0
 			modifier = {
@@ -1444,7 +1441,7 @@ GER_Reichskommissariats = {
 			owns_state = 1578
 			owns_state = 582
 		}
-		cost = 0
+		cost = 50
 		ai_will_do = {
 			factor = 100
 		}
@@ -1536,7 +1533,7 @@ GER_Reichskommissariats = {
 			owns_state = 1584
 			owns_state = 1585
 		}
-		cost = 0
+		cost = 50
 		ai_will_do = {
 			factor = 100
 		}
@@ -1610,7 +1607,7 @@ GER_Reichskommissariats = {
 			owns_state = 137
 			owns_state = 196
 		}
-		cost = 0
+		cost = 25
 		ai_will_do = {
 			factor = 1
 		}
@@ -1657,7 +1654,7 @@ GER_Reichskommissariats = {
 			has_government = fascist
 			owns_state = 772
 		}
-		cost = 0
+		cost = 25
 		ai_will_do = {
 			factor = 1
 		}

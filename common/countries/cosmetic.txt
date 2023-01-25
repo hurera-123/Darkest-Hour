@@ -93,6 +93,11 @@ ITA_FASCISM = {
 	color_ui = rgb { 67 127 63 } 
 }
 
+EGY_ITA_PUPPET = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 67 127 63 } 
+}
+
 JAP_OCCUPIED = {
 	color = rgb { 230 230 230 }
 	color_ui = rgb { 230 230 230 }

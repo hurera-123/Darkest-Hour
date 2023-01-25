@@ -118,3 +118,7 @@ State_Renaming_Croatian = {
 State_Renaming_Greek = {
 	tag = GRE
 }
+
+State_Renaming_Yugoslavian = {
+	tag = YUG
+}

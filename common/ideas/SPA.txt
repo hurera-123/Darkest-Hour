@@ -12,6 +12,14 @@ ideas = {
 				ai_get_ally_desire_factor = -1000
 			}
 		}
+		SPA_Reorganising_Command_Structure = {
+			picture = tur_disorganised_armed_forces
+			modifier = {
+				army_attack_factor = -0.6
+				army_speed_factor = -0.7
+				local_org_regain = -0.2
+			}
+		}
 		SPA_civilwar_army_1 = {
 			picture = spa_la_division_azul
 			modifier = {

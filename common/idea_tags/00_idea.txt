@@ -18,8 +18,7 @@ idea_categories = {
 		character_slot = Armaments_Minister
 		character_slot = Minister
 		character_slot = Minister
-		cost = 50
-		removal_cost = 250
+		cost = 150
 		ledger = civilian
 	}
 	military_staff = {
@@ -29,8 +28,7 @@ idea_categories = {
 		character_slot = Chief_of_Airforce
 		character_slot = Head_of_Intelligence
 		character_slot = high_command
-		cost = 50
-		removal_cost = 150
+		cost = 150
 		ledger = invalid # must be overridden
 	}
 	government = {

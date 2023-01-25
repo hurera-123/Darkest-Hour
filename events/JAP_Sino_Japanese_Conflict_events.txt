@@ -428,6 +428,7 @@ country_event = {
 	desc = JAP_CHI_Mongolian_Confederation.2.d
 	picture = GFX_report_JAP_Jiro_Minami
 	is_triggered_only = yes
+	fire_only_once = yes
 	#
 	option = {
 		name = JAP_CHI_Mongolian_Confederation.2.A
@@ -444,7 +445,7 @@ country_event = {
 				}
 			}
 			JAP = {
-					country_event = { id = JAP_CHI_Mongol_Skirmish.1 days = 145 }
+				country_event = { id = JAP_CHI_Mongol_Skirmish.1 days = 145 }
 			}
 			MEN = {
 				country_event = { id = JAP_CHI_Mongol_Skirmish.1 days = 145 }
@@ -680,7 +681,7 @@ country_event = {
 			target = SHX
 		}
 		hidden_effect = {
-			country_event = { id = JAP_CHI_Mongol_Skirmish.5 days = 30 }
+			country_event = { id = JAP_CHI_Mongol_Skirmish.5 days = 150 }
 		}
 	}
 }
@@ -696,8 +697,10 @@ country_event = {
 	#
 	option = {
 		name = JAP_CHI_Mongol_Skirmish.5.A
-		hidden_effect = {
-			load_oob = SHX_1936
+		SHX = {
+			hidden_effect = {
+				load_oob = SHX_1936
+			}
 		}
 		612 = {
 			set_border_war = yes
@@ -926,6 +929,10 @@ country_event = {
 					target = CHI
 					type = puppet_wargoal_focus
 				}
+				declare_war_on = {
+					target = PRC
+					type = puppet_wargoal_focus
+				}
 			}
 			614 = {
 				set_demilitarized_zone = no
@@ -1075,6 +1082,7 @@ news_event = {
 	desc = JAP_CHI_Sino_Japanese_War.10.d
 	picture = GFX_news_JAP_Operation_Nekka
 	is_triggered_only = yes
+	fire_only_once = yes
 	major = yes
 	option = {
 		name = JAP_CHI_Sino_Japanese_War.10.A
@@ -1126,8 +1134,9 @@ news_event = {
 	id = JAP_CHI_Sino_Japanese_War.11
 	title = JAP_CHI_Sino_Japanese_War.11.t
 	desc = JAP_CHI_Sino_Japanese_War.11.d
-	picture = GFX_report_CHI_100_Regiments_Offensive
+	picture = GFX_news_JAP_Operation_Nekka
 	is_triggered_only = yes
+	fire_only_once = yes
 	major = yes
 	option = {
 		name = JAP_CHI_Sino_Japanese_War.11.A
@@ -1248,13 +1257,21 @@ country_event = {
  				transfer_state = 748
  				748 = { add_core_of = RNG }
  				set_cosmetic_tag = RNG_JAP
-				annex_country = {
-					target = SHX
-					transfer_troops = no
+				create_country_leader = {
+					name = "Wang Jingwei"
+					desc = ""
+					picture = GFX_P_A_Wang_Jingwei
+					expire = "1964.1.1"
+					ideology = despotism
+					traits = { POSITION_President SUBIDEOLOGY_Despotism }
 				}
-				annex_country = {
-					target = GXC
-					transfer_troops = no
+				create_country_leader = {
+					name = "Wang Jingwei"
+					desc = ""
+					picture = GFX_P_A_Wang_Jingwei
+					expire = "1964.1.1"
+					ideology = ultranationalism
+					traits = { POSITION_President SUBIDEOLOGY_Ultranationalism }
 				}
  			}
  			if = {
@@ -1269,6 +1286,16 @@ country_event = {
  					}
  				}
  			}
+			RNG = {
+				annex_country = {
+					target = SHX
+					transfer_troops = no
+				}
+				annex_country = {
+					target = GXC
+					transfer_troops = no
+				}
+			}
  			LXI = {
  				transfer_state = 605
  				transfer_state = 901
@@ -1340,36 +1367,48 @@ country_event = {
  				}
  			}
  			LXI = { set_cosmetic_tag = LXI_SPMA }
+			CHI = {
+				remove_ideas = CHI_D_Wang_Jingwei
+			}
  			set_country_flag = JAP_victory_in_china
  			news_event = { id = JAP_Sino_Japanese_War_Chinese_Defeat.12 days = 1 }
- 			if = {
- 				limit = {
- 					AND = {
- 						YUN = { NOT = { is_subject = yes } }
- 						YUN = { has_war_with = JAP }
- 					}
- 				}
- 				white_peace = {
- 					tag = YUN
- 				}
- 			}
- 			if = {
- 				limit = {
- 					AND = {
- 						SIK = { NOT = { is_subject = yes } }
- 						SIK = { has_war_with = JAP }
- 					}
- 				}
- 				white_peace = {
- 					tag = SIK
- 				}
- 			}
+ 			every_country = {
+				limit = {
+					OR = {
+						tag = JAP
+						is_in_faction_with = JAP
+						is_subject_of = JAP
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							YUN = { NOT = { is_subject = yes } }
+							YUN = { has_war_with = JAP }
+						}
+					}
+					white_peace = {
+						tag = YUN
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							SIK = { NOT = { is_subject = yes } }
+							SIK = { has_war_with = JAP }
+						}
+					}
+					white_peace = {
+						tag = SIK
+					}
+				}
+				white_peace = {
+					tag = CHI
+					#message = KUOMINTANG_COLLAPSE
+				}
+			}
 		}
 		custom_effect_tooltip = JAP_Sino_Japanese_War_China_Defeat.tt
-		white_peace = {
- 			tag = CHI
- 			#message = KUOMINTANG_COLLAPSE
- 		}
 	}
 }
 ### Sunrise in Chongqing - No war with Western Allies
@@ -1466,6 +1505,7 @@ country_event = {
 				set_capital = { 
 					state = 613
 				}
+				leave_faction = yes
  			}
  			if = {
  				limit = {
@@ -1573,14 +1613,28 @@ country_event = {
  						autonomy_state = AUTONOMY_Imperial_Protectorate
  					}
  				}
- 				SHX = { set_cosmetic_tag = SHX_JAP1 }
+ 				SHX = { 
+					set_cosmetic_tag = SHX_JAP1
+				}
  			}
  			else = {
- 				white_peace = SHX
+				every_country = {
+					limit = {
+						OR = {
+							tag = JAP
+							is_in_faction_with = JAP
+							is_subject_of = JAP
+						}
+					}
+ 					white_peace = SHX
+				}
  				SHX = {
  					country_event = { id = SHX_Sino_Japanese_War_Chinese_Defeat.1 days = 10 }
  				}
  			}
+			GXC = {
+				leave_faction = yes
+			}
  			puppet = GXC
  			GXC = { set_cosmetic_tag = GXC_JAP1 }
  			JAP = {
@@ -1589,36 +1643,49 @@ country_event = {
  					autonomy_state = AUTONOMY_Imperial_Protectorate
  				}
  			}
+			CHI = {
+				remove_ideas = CHI_D_Wang_Jingwei
+				dismantle_faction = yes
+			}
  			set_country_flag = JAP_victory_in_china
  			news_event = { id = JAP_Sino_Japanese_War_Chinese_Defeat.12 days = 1 }
- 			if = {
- 				limit = {
- 					AND = {
- 						YUN = { NOT = { is_subject = yes } }
- 						YUN = { has_war_with = JAP }
- 					}
- 				}
- 				white_peace = {
- 					tag = YUN
- 				}
- 			}
- 			if = {
- 				limit = {
- 					AND = {
- 						SIK = { NOT = { is_subject = yes } }
- 						SIK = { has_war_with = JAP }
- 					}
- 				}
- 				white_peace = {
- 					tag = SIK
- 				}
- 			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = JAP
+						is_in_faction_with = JAP
+						is_subject_of = JAP
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							YUN = { NOT = { is_subject = yes } }
+							YUN = { has_war_with = JAP }
+						}
+					}
+					white_peace = {
+						tag = YUN
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							SIK = { NOT = { is_subject = yes } }
+							SIK = { has_war_with = JAP }
+						}
+					}
+					white_peace = {
+						tag = SIK
+					}
+				}
+				white_peace = {
+					tag = CHI
+					#message = KUOMINTANG_COLLAPSE
+				}
+			}
 		}
 		custom_effect_tooltip = JAP_Sino_Japanese_War_China_Defeat.tt
-		white_peace = {
- 			tag = CHI
- 			#message = KUOMINTANG_COLLAPSE
- 		}
 	}
 }
 ### A Yunnanese Lapdog
@@ -1843,7 +1910,7 @@ news_event = {
 	id = JAP_Sino_Japanese_War_Chinese_Defeat.12
 	title = JAP_Sino_Japanese_War_Chinese_Defeat.12.t
 	desc = JAP_Sino_Japanese_War_Chinese_Defeat.12.d
-	picture = GFX_report_JAP_Expansion_Decision
+	picture = GFX_news_JAP_Operation_Nekka
 	major = yes
 	is_triggered_only = yes
 	option = { #There goes the neighborhood...

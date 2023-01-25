@@ -24,18 +24,18 @@
 
  # NUC
  JAP_Preserve_NUC.1.t: "Interpreting the NUC Mandate"
- JAP_Preserve_NUC.1.d: ""
+ JAP_Preserve_NUC.1.d: "While the National Unity Cabinet has brought together numerous political parties to preserve our Eastern Democracy, this is also the source of many of its problems. This means that we must make difficult decisions to ensure its survival, decisions which are sure to upset someone somewhere within the cabinet.\n\nTwo choices face us. The first is that we can stand alone with the National Unity Cabinet. While this will be a show of strength, and a testament to the will of the NUC, it could also lead to resentment from others as we will most likely be ignoring them in favour of the NUC.\n\nThe second choice is to take sides. While this a pragmatic option, and will allow us to be more flexible in what we do, it could affect the strength and power the NUC has, which in the long run could destabilise our politics overall. We must be sure of our choice before we lead the cabinet in a new direction."
  JAP_Preserve_NUC.1.A: "NUC Alone"
  JAP_Preserve_NUC.1.B: "Taking Side"
  
  JAP_Preserve_NUC.2.t: "The Utilization of Kokutai"
- JAP_Preserve_NUC.2.d: ""
+ JAP_Preserve_NUC.2.d: "We cannot allow communist and reactionaries to poison and destroy our precious Japanese democracy, and as such, we must take any measures possible to prevent them from gaining influence.\n\nThe Kokutai defines our nation, and is the basis for our system of government, as well as the devotion we have in serving and protecting our emperor. The Peace Preservation Law passed in 1925 makes it illegal for anyone to propose altering it, and we now have the unique opportunity to use it to crack down on these radicals. While it might not seem like the most democratic thing to do, it is the best thing for our nation, and will help our democracy in the long run.\n\nThe question that remains now is if we go solely after the communists, or if we go after the militarists as well as the reds."
  JAP_Preserve_NUC.2.A: "Only Communists"
  JAP_Preserve_NUC.2.B: "Include Militarists"
  
  JAP_Preserve_NUC.3.t: "Support from the IJN"
- JAP_Preserve_NUC.3.d: ""
- JAP_Preserve_NUC.3.A: ""
+ JAP_Preserve_NUC.3.d: "Following negotiations with the command of the Imperial Japanese Navy, a number of high-ranking and respected admirals have come out in support of the government. In exchange for their support, the government has agreed to redirect some funds originally intended for the Army to the Navy. This would not be necessary in any normal country. In a normal country, the Army and Navy would be more capable of cooperating and would not demand that one be defunded in order to fund the other. However, Japan is not a typical country. The IJN and IJA have been at odds since the early 1930s, and with this most recent move by the government, the balance of power has shifted in favour of the IJN."
+ JAP_Preserve_NUC.3.A: "As it should be."
  
  JAP_Preserve_NUC.4.t: "A Deal For the Greater Good"
  JAP_Preserve_NUC.4.d: ""
@@ -88,7 +88,7 @@
  JAP_Aizawa_Incident.5.A: "The Kodoha Faction hangs by a thread."
  
  JAP_Aizawa_Incident.6.t: "One's Devotions, One's Duty"
- JAP_Aizawa_Incident.6.d: ""
+ JAP_Aizawa_Incident.6.d: "Our current War Minister, Sadao Araki, has just resigned. This is a great set back for sympathisers of the Kodoha movement as he is the primary founder of said movement. Adding up to the recent increased tensions with the Toseiha faction after the Manchurian incidents, the Kodoha movement is in a precarious situation: if a Toseiha War Minister takes office, the Toseiha could have  power to directly undermine the Kodoha faction by reassigning the officers who are sympathetic to the Kodoha cause. This might be a seismic shift for our military’s involvement in politics."
  JAP_Aizawa_Incident.6.A: "Time to pass the torch to the younger men."
  JAP_Aizawa_Incident.6.B: "My duty will sustain me."
 
@@ -275,12 +275,12 @@
 
  # Second Konoe Cabinet
  JAP_Second_Konoe_Cabinet.0.t: "A New Organization?"
- JAP_Second_Konoe_Cabinet.0.d: ""
- JAP_Second_Konoe_Cabinet.0.A: ""
+ JAP_Second_Konoe_Cabinet.0.d: "Order. This is essentially what Japan requires.\n\nThe very existence of the Yonai cabinet demonstrates this. Political parties have become too divisive, severing our government in multiple places. Aren't we all ready for something more than old liberal ideals? Something more powerful, something capable of bringing the New World Order to light, with the Empire on top. If we truly share the same goals, why do we divide ourselves into factions in the first place? It's time for a new, unifying political party to unite all men and women under one banner. We already have nationalized many of our industries and war machines, isn't it time for us to do the same for our government?\n\nAfter staring out the window for so long, Konoe finally sat down at his desk. Entranced in thought, he scribbled down the name of such an organisation that could unite all of Japan and stop it from being divided over silly squabbles:"
+ JAP_Second_Konoe_Cabinet.0.A: "The Taisei Yokusankai."
 
  JAP_Second_Konoe_Cabinet.1.t: "Facing the World"
- JAP_Second_Konoe_Cabinet.1.d: ""
- JAP_Second_Konoe_Cabinet.1.A: ""
+ JAP_Second_Konoe_Cabinet.1.d: ""The army has specifically requested your return, sir; you will take over as Prime Minister immediately. Yonai's entire cabinet has already resigned. I request that you meet with the Emperor as soon as possible."\n\nKonoe smiled, "A second chance I suppose... I'll be there soon, you're dismissed."\n\nThe officer left the room, leaving Konoe to his thoughts once again. He saw this coming from a mile away, who wouldn't at this point. The collapse of the Yonai cabinet was unfortunate, but spelled a greater opportunity for his own formation of a cabinet. This premiership wouldn't be the same as the last, in fact it seems it will be an uphill battle to the very end. The conflict in China needs to be resolved, whether it be peace or a continued effort for total victory. While at the same time, the government will need to walk a tightrope with the United States, as a possible war looms. The right pick of a new Foreign Minister will be vital if the cabinet is to survive. Konoe stood up from his desk and adjusted his uniform..."
+ JAP_Second_Konoe_Cabinet.1.A: "Time to face the world once more."
 
  JAP_Second_Konoe_Cabinet.2.t: "The Karuizawa Conference"
  JAP_Second_Konoe_Cabinet.2.d: ""
@@ -342,7 +342,7 @@
 
  JAP_Third_Konoe_Cabinet.8.t: "An Inescapable Fate"
  JAP_Third_Konoe_Cabinet.8.d: "Konoe is sitting in his office when he hears a knock on the door.\n"Come on in."\nTeiichi Suzuki, the head of the cabinet planning board, intervenes and approaches Konoe.\n\n"I have a message for you from Tojo."\n\n"We just had a meeting, so it had better be important."\n\nSuzuki clears his throat and begins.\n"Tojo believes you should step down as Prime Minister."\nKonoe's eyes widened, and his heart skipped a beat.\n"If you resign, Tojo will endorse Prince Higashikuni as Prime Minister. Tojo has realised that the navy is unwilling to admit that it could not fight the United States, and he believes that you and your entire cabinet should resign and bear the responsibility for wrongfully calling for the imperial edict, which only Prince Higashikuni can reverse."\n\nKonoe's blood chilled; no matter how hard he tried to convince Tojo and his militarists that war with the United States would destroy the country, he had been ignored. He had failed, and all of his effort had resulted in this.\n\n"...You're dismissed, Suzuki..."\n\nSuzuki walks out of the office, and Konoe places his hands on his head."
- JAP_Third_Konoe_Cabinet.8.A: "/“...I have failed.../”"
+ JAP_Third_Konoe_Cabinet.8.A: "“...I have failed...”"
 
  # Tojo Cabinet
  JAP_Tojo_Cabinet.1.t: "The Emperor's Will"
@@ -515,31 +515,31 @@
  JAP_The_Manchurian_Lifeline.1.C: "Signifigant Investment - 300"
 
  # Pan-Asianism
- JAP_Pan_Asianism.1.t: "Invitation to Hakkō Ichiu" #For Chinese subject
+ JAP_Pan_Asianism.1.t: "Invitation to Hakko Ichiu" #For Chinese subject
  JAP_Pan_Asianism.1.d: ""
  JAP_Pan_Asianism.1.A: ""
  JAP_Pan_Asianism.2.t: "No Longer a Crown of Japan" #For Chinese subject
  JAP_Pan_Asianism.2.d: ""
  JAP_Pan_Asianism.2.A: ""
- JAP_Pan_Asianism.3.t: "[From.GetNameDef] Leaves Hakkō Ichiu" #For Japan
+ JAP_Pan_Asianism.3.t: "[From.GetNameDef] Leaves Hakko Ichiu" #For Japan
  JAP_Pan_Asianism.3.d: ""
  JAP_Pan_Asianism.3.A: ""
- JAP_Pan_Asianism.4.t: "The Collapse of Hakkō Ichiu"  #For Japan
+ JAP_Pan_Asianism.4.t: "The Collapse of Hakko Ichiu"  #For Japan
  JAP_Pan_Asianism.4.d: ""
  JAP_Pan_Asianism.4.A: ""
- JAP_Pan_Asianism.5.t: "Tōa Shin Chitsujo"  #For Japan
+ JAP_Pan_Asianism.5.t: "Toa Shin Chitsujo"  #For Japan
  JAP_Pan_Asianism.5.d: "On November 3rd, Emperor Meiji’s birthday, Prime Minister Fumimaro Konoe announced a seemingly new course in the Empire’s foreign policy. The Tōa Shin Chitsujo, meaning “New Order in East Asia”, is to become the Chrysanthemum Throne’s new direction in regards to its Asian "partners", the purported scope being the total liberation of the oppressed people in this corner of the World from the greed and neglect inflicted by the European colonial powers.\n\nThese newly liberated people, from China to Java, would be free to pursue their hopes, aspirations, self-determination, and prosperity in a fair and peaceful manner with complete "Sovereign" authority over themselves.\n\nThis Pan-Asiatic concept has received considerable support from the populace of the Empire. After all, it is the duty of the people of Yamato to show those lacking the civility, sophistication, and will that the Emperor imbibes us with.\n\nBehind the idealism, however, lie those who see an opportunity for Japan.\n\nMany politicians and nationalists would like to see the “unshackled” territories and people of East Asia, with their resources and capital, be used to further the ascendancy of the Rising Sun on the global stage through the utilisation of their "economic and diplomatic worth". The militarists, likewise, covet the people and materials of the region, but for fuelling the ever-growing war machine, and all the conflicts that are certain to follow it.\n\nAs such, it comes as no surprise that, in the halls of power, the New Order is slowly, but surely, transforming. For the Land of the Rising Sun is the heart of a free Asia, and its needs are the Continent’s needs, whether the people inhabiting it see it that way or not."
  JAP_Pan_Asianism.5.A: "Asia for Asians!"
- JAP_Pan_Asianism.6.t: "Invitation to Tōa Shin Chitsujo" #For subject
+ JAP_Pan_Asianism.6.t: "Invitation to Toa Shin Chitsujo" #For subject
  JAP_Pan_Asianism.6.d: ""
  JAP_Pan_Asianism.6.A: ""
- JAP_Pan_Asianism.7.t: "Withdraw from Tōa Shin Chitsujo" #For subject
+ JAP_Pan_Asianism.7.t: "Withdraw from Toa Shin Chitsujo" #For subject
  JAP_Pan_Asianism.7.d: ""
  JAP_Pan_Asianism.7.A: ""
- JAP_Pan_Asianism.8.t: "[From.GetNameDef] Leaves Tōa Shin Chitsujo" #For Japan
+ JAP_Pan_Asianism.8.t: "[From.GetNameDef] Leaves Toa Shin Chitsujo" #For Japan
  JAP_Pan_Asianism.8.d: ""
  JAP_Pan_Asianism.8.A: ""
- JAP_Pan_Asianism.9.t: "The Collapse of Tōa Shin Chitsujo" #For Japan
+ JAP_Pan_Asianism.9.t: "The Collapse of Toa Shin Chitsujo" #For Japan
  JAP_Pan_Asianism.9.d: ""
  JAP_Pan_Asianism.9.A: ""
  JAP_Pan_Asianism.10.t: "The Beginning of Dai Toa Kyoeiken" #For Japan
@@ -548,19 +548,19 @@
  JAP_Pan_Asianism.11.t: "Japan form the new alliance" #For subject
  JAP_Pan_Asianism.11.d: ""
  JAP_Pan_Asianism.11.A: ""
- JAP_Pan_Asianism.12.t: "[From.GetNameDef] Joins Dai Tōa Kyōeiken" #For Japan
+ JAP_Pan_Asianism.12.t: "[From.GetNameDef] Joins Dai Toa Kyoeiken" #For Japan
  JAP_Pan_Asianism.12.d: ""
  JAP_Pan_Asianism.12.A: ""
- JAP_Pan_Asianism.13.t: "The Invitation to Dai Tōa Kyōeiken" #For member
+ JAP_Pan_Asianism.13.t: "The Invitation to Dai Toa Kyoeiken" #For member
  JAP_Pan_Asianism.13.d: ""
  JAP_Pan_Asianism.13.A: ""
- JAP_Pan_Asianism.14.t: "Withdraw from Dai Tōa Kyōeiken" #For member
+ JAP_Pan_Asianism.14.t: "Withdraw from Dai Toa Kyoeiken" #For member
  JAP_Pan_Asianism.14.d: ""
  JAP_Pan_Asianism.14.A: ""
- JAP_Pan_Asianism.15.t: "[From.GetNameDef] Leaves Dai Tōa Kyōeiken" #For Japan
+ JAP_Pan_Asianism.15.t: "[From.GetNameDef] Leaves Dai Toa Kyoeiken" #For Japan
  JAP_Pan_Asianism.15.d: ""
  JAP_Pan_Asianism.15.A: ""
- JAP_Pan_Asianism.16.t: "The Collapse of Dai Tōa Kyōeiken" #For Japan
+ JAP_Pan_Asianism.16.t: "The Collapse of Dai Toa Kyoeiken" #For Japan
  JAP_Pan_Asianism.16.d: ""
  JAP_Pan_Asianism.16.A: ""
  JAP_Pan_Asianism.17.t: "The Yen Bloc Agreement" #For subject
@@ -739,6 +739,7 @@
  JAP_Panay_Incident.1.A: "This is an outrage. Remember the Panay!"
  JAP_Panay_Incident.1.B: "This is an outrage, this demands compensation!"
  JAP_Panay_Incident.1.C: "We can not risk escalation..."
+ JAP_Panay_Incident.1.A.tt: "§RGoing to war over the USS Panay would be deeply unpopular, pleasing only the most hardcore of Nationalists!§!" 
 
  JAP_Panay_Incident.2.t: "The Panay Incident"
  JAP_Panay_Incident.2.d: "[FROM.GetNewsIcon]Today, the USS Panay and three other Standard Oil boats were attacked by the Japanese Air Force. Panay served as part of the US Navy's Yangtze Patrol in the Asiatic Fleet, which was responsible for patrolling the Yangtze River to protect American lives and property in China after the Japanese invasion of China.\n\nStorekeeper First Class Charles Lee Ensminger, Standard Oil tanker captain Carl H. Carlson, and Italian reporter Sandro Sandri died as a result of the attack, while coxswain Edgar C. Hulsebus passed away later that evening. According to reports, five civilians and 43 sailors were injured. Additionally bombed and destroyed were the three Standard Oil vessels. The ship sank in the middle of the river after they reached shore, and two newsreel cameramen who were on board throughout the attack were able to capture some of the battle.\n\nThe American ambassador immediately lodged a formal protest with the Japanese government. Japan accepted responsibility and apologised, but claimed the attack was a mistake, blaming it on poor field communications and bad visibility.\n\nThe Pacific remains quiet but for how long will this peace last between the sleeping giant and the Rising Sun? "
@@ -782,7 +783,7 @@
 
  JAP_Pearl_Harbor.1.t: "Slaying the Giant"
  JAP_Pearl_Harbor.1.d: "The war room buzzed with quiet activity as Admiral Isoroku Yamamoto prepared to open the meeting. But how does one open a meeting on a subject this vitally important and dangerous? An operation of this scale and magnitude is clearly not something to consider frivolously. Admiral Yamamoto knew that well, it was why he demanded to be the one to plan it, even going so far as to threaten resignation should he not get approval to.\n\nYamamoto may have been against attacking the United States, but he knew he was also the admiral with the most knowledge of the United States and their capabilities. He hadn’t spent time on Japan’s diplomatic team to the US, as well as time at Harvard, for nothing. Thus he was aware of just how much of a power imbalance existed between their two countries, and just how much this attack had to go perfectly if Japan wanted to survive the coming war. If this opening attack did not cripple a large portion of the American Pacific Fleet out of the gate, there would be no hope for a rapid successful conclusion to the war.\n\nBefore him stood the three men whom he believed most qualified to plan this operation. Rear Admiral Ryūnosuke Kusaka, Captain Minoru Genda and Yamamoto's own Deputy Chief of Staff, Captain Kameto Kuroshima. He knew each of these men well, and had served with each one of them first-hand on the open seas. None of them were blinded by inane nationalism to the realities a war with the United States would entail. In the end, his opening remark would end up curt and to the point.\n\n“Gentlemen, we all know our duty to Japan. Let us begin.”"
- JAP_Pearl_Harbor.1.A: "If you do not enter the Tiger's cave, you will not catch it's cub."
+ JAP_Pearl_Harbor.1.A: "If you do not enter the Tiger's cave, you will not catch its cub."
 
  JAP_Pearl_Harbor.2.t: "An Illustrious Example"
  JAP_Pearl_Harbor.2.d: "Technological advancement has changed the ways in which war has been waged immensely over the past 40 years. This is something Yamamoto is acutely aware of, being a military man himself, privy to how technology has written and rewritten time and time again the rules of war on the battlefield. The field of naval warfare is no different, and nowhere can this be seen more acutely than the relatively recent raid at Taranto, Italy.\n\nThe Royal Navy utilized the naval air wing of their fleet to devastating effect on the Italians, whose battle fleet of the Regia Marina had been anchored at port in Taranto. Despite the shallowness of the water, the British decided to attack using dozens of aerial torpedoes. Ultimately, the attack was a total success on Great Britain’s part, allowing them to disable half of all the battleships moored in the port, and several other smaller ships. To date, there has not yet been an example as clear as this that the age of big gun ships is over.\n\nOur assistant naval attaché to Berlin, Lieutenant Commander Takeshi Naito, flew south to Taranto to study the aftermath of the raid, and to discuss with Italian naval commanders how precisely the attack was executed. This raid will serve as an operative basis of how to execute a large-scale port strike. If we wish to decommission a large part of the American navy at port in Pearl Harbor, it is through air power that we shall do it."
@@ -845,8 +846,8 @@
  JAP_Pearl_Harbor.15.A: "Destroy the fascists."
 
  JAP_Wartime_Tree_Events.1.t: "Umi Yukaba"
- JAP_Wartime_Tree_Events.1.d: ""
- JAP_Wartime_Tree_Events.1.A: ""
+ JAP_Wartime_Tree_Events.1.d: "Wang's Restaurant was completely booked that night. That night, several families had arrived to eat, and the restaurant was alive with the clatter of plates and the chatter of customers. When Prime Minister Tojo's voice came on the radio, the sounds died down.\n\n"We, by the grace of Heaven, Emperor of Japan, enjoin upon ye, Our loyal and brave subjects...." he said firmly. Wang paid close attention. Perhaps it was an update on the battle with China, or perhaps it was a new economic agenda. Wang never knew what the Imperial Government would do next.\n\n"We hereby declare war on the United States of America and the British Empire." continued the Prime Minister. One of the customers gasped audibly. Wang noticed that many of his customers looking at each other. It seemed, much like Wang, that they could not believe what they were hearing.\n\nThe Prime Minister continued, blaming the Western Powers for destroying the peace in Asia and supporting the illegal Chinese regime. With each passing sentence, Wang and the customers got more and more riled up. Some began shouting in agreement, others clapped. Soon, the entire restaurant was buzzing with noise again.\n\n"... the sources of evil will be speedily eradicated and an enduring peace immutably established in East Asia, preserving thereby the glory of Our Empire!" he concluded.\n\nThen, a familiar tune began playing. A sweet voice sang,\n"At sea be my body water-soaked.."\nThe customers began singing along.\n"On land be it with grass overgrown..."\nWang found himself joining in.\n"Let me die by the side of my Sovereign...."\n\nIn thunderous harmony, the restaurant and the radio sang...."
+ JAP_Wartime_Tree_Events.1.A: ""...Never will I look back!""
  JAP_Bushido.tt: "Add §YBushido§!, which grants \nRecruitable Population: §G+1.00%§!"
 
  JAP_Wartime_Tree_Events.2.t: "The Wartime Elections"
@@ -999,11 +1000,11 @@
  JAP_One_Act_One_Profit: "One's Act, One's Profit"
  JAP_One_Act_One_Profit_desc: "The politics of the Empire is filled with intrigue and mystique, shadow puppet masters pull their string behind the scenes, and there's always powerplay scheme in motion. Like a ship, the Emperor is the commander, but he always takes his ‘advice’ from his devoted aides, some of which might influence him in a ‘bad’ way. Such people were the Kodoha faction, and their leader, Sadao Araki. And although this twisted man and his radical advice may have managed to nearly persuade the Emperor into thinking we have to be purged, in the end the reason and intellect of anti-radicalism have won.\n\nLike a ship, Japan has survived the domestic storm, and is ready to enter another, better prepared."
  JAP_Strike_South_Doctrine: "Strike South Doctrine"
- JAP_Strike_South_Doctrine_desc: ""
+ JAP_Strike_South_Doctrine_desc: "Nanshin-ron, or the "Southern Expansion Doctrine," is an idea proposed by influential figures in our country to focus our attention on the many Pacific countries and islands. Many of them hold important positions in the region, and more importantly, they are rich in resources such as rubber and untapped oil reserves, which are critical for our economy's survival and the continued operation of our war machine.\n\nWhile it would be nice to walk into these territories unopposed, many of them are controlled or allied with Western imperialist powers, all of which have vast armies to protect them. As a result, if we strike hard and fast, we can cause havoc among their colonial holdings before they have a chance to organise, which will undoubtedly aid us in strengthening and expanding the Empire to encompass much of the Pacific."
  JAP_Ally_Siam: "Ally [SIA.GetNameDEF]"
- JAP_Ally_Siam_desc: ""
+ JAP_Ally_Siam_desc: "[SIA.GetNameDEF] is located in an interesting part of Asia. Its location, sandwiched between Indochina and the British Raj, with Malaya to the south, means that it could be attacked at any time by the western imperialist powers of Britain and France. However, it also implies that it can strike back against them, and with a strong ally and sufficient support, it could be extremely useful in securing the region for us.\n\nWe should approach their government without hesitation, hoping that they will recognise the gravity of the situation and, perhaps, promise them more power and wealth in the world. It should also be noted that they have a large supply of rubber, which will allow us to ensure a consistent supply of the much-needed resource."
  JAP_Strike_on_the_Southern_Resource_Area: "Strike on the Southern Resource Area"
- JAP_Strike_on_the_Southern_Resource_Area_desc: ""
+ JAP_Strike_on_the_Southern_Resource_Area_desc: "As stated within our new “Southern Expansion Doctrine”, there is an enormous amount of resources held within many nations such as the Philippines, Malaya, Indochina, and the Dutch East Indies. However, with these all being held captive by the western imperialist nations who want to destroy and enslave Asia, we must use force if we are to make Asia for the Asians.\n\nStriking the Southern Resource Area will not only plunge the West into further chaos, but it will also allow us to seize the opportunity while they are weak. The main British, Dutch, and French forces are too far away to have any significant effect on us, while the USA is a sleeping giant, and will take a long time to get up and running, and by the time they do, our gains will be overwhelming.\n\nSome question if we are biting off more than we can chew, but we know what we are worth, and we Japanese are worthy of a Pacific empire!"
  JAP_The_Manchurian_Project: "The Manchurian Project"
  JAP_The_Manchurian_Project_desc: "The Manchurian lands, while underdeveloped, present us with opportunity to expand our activities in northern Asia as a whole. The region possesses an abundance of natural resources that can fuel our growing armament industry. To make use of these, however, a large investment will be required. \n \nThe Manchurian Project is that investment. To turn these undeveloped lands into one of the backbones of the Imperial Japanese Army, expansive railway systems must be constructed in order to supply our troops in any war against China or the Soviet Union, while economic development in the form of factories and improved urban infrastructure will definitely present us in the brighter color to the local Manchu populace. \n\nManchuria is a goldmine - we just have to invest into it, and reap the profits."
  JAP_Carte_Blanche_to_the_Kwantung: "Carte Blanche to the Kanto-Gun"
@@ -1039,9 +1040,9 @@
  JAP_Imperial_Rule_Assistance_Association: "The Taisei Yokusankai"
  JAP_Imperial_Rule_Assistance_Association_desc: "With the improvements Prime Minister Konoe has put into action, the will of the people and belief in our government, is higher than ever. With this entrenched support, Konoe will establish a new political party, known as the Taisei Yokusankai, or Imperial Aid Association. Centered around the Monarchy and Japanese militarism, our new party will not only increase the effectiveness of the New Order agenda, but eliminate the sectionalism that's been present in Japan for hundreds of years. This will allow us to finally see Japan as one culture and nation. Another, more subtle, goal of the Taisei Yokusankai is establishing Japan as a one party state, removing all other affiliations that are harmful to the Kokutai. With the peoples unwavering adulation, we'll be seen as political saviors, and we can meld and form new Japan, to its unrealised greatness!"
  JAP_Depreciate_the_Yen: "Depreciate the Yen"
- JAP_Depreciate_the_Yen_desc: ""
+ JAP_Depreciate_the_Yen_desc: "The Yen is being pushed to its breaking point. There are rumours in the government that the Western Powers' unjust trade accords, the recent Great War, and our own resource deficiencies may lead to an economic catastrophe. Many people believe that continuing to spend so much money on meaningless infrastructure projects and social initiatives will simply hasten the impending collapse.\n\nAs a result, we must now begin a gradual depreciation of the Yen on our own terms. If done correctly, this might reduce our trade imbalance, restore the Yen as a strong worldwide currency, and pave the way for the economic revival of our glorious Empire!"
  JAP_Curb_Military_Spending: "Curb Military Spending"
- JAP_Curb_Military_Spending_desc: ""
+ JAP_Curb_Military_Spending_desc: "For a long time, the Imperial Army has been draining the Empire's coffers. In order to continue their onslaught across large territory, they continue to exact a severe toll on the nation's finances. While these areas appear to be large on paper, they have little practical value due to a lack of resources. As a result, every Yen spent on the Imperial Army's request is essentially squandered.\n\nIt makes no sense to pour gold down our Generals' throats while our own people are suffering from the Great Depression and other economic disasters. Steps must be taken to reduce military spending, or we will soon be a military without a state...."
  JAP_Temporary_Export_Import_Commodities_Measures_Law: "Temporary Export-Import Commodities Measures Law"
  JAP_Temporary_Export_Import_Commodities_Measures_Law_desc: "Japan has long been a nation of closed door policies. Our isolationist Sakoku policy, first fully enacted in 1639 by the Edo Shogunate, lasted for 214 years until 1853, when Matthew Perry came in and smashed the door open. Although the years after Perry were thrown into sheer chaos, we learned from the arrogant Americans that a little trade doesn't hurt anyone. With a new trade law, we could issue a limited amount of exports to boost the stalling economy, while also keeping our internal secrets safe from the enemy and improving relations with other nations in our interest. To fuel our mobilization of the army, we can import oil from the Americas as well. Opening the door, just a bit, can provide benefits isolationism couldn't even begin to dream of."
  JAP_Production_Capacity_Expansion_Plan: "Production Capacity Expansion Plan"
@@ -1051,19 +1052,19 @@
  JAP_Synergy_of_the_Old_and_New: "Synergy of the Old and New"
  JAP_Synergy_of_the_Old_and_New_desc: "When Japan closed its doors for a lonely 217 years, we thought we were saving ourselves from colonial conquest, the fearful iron hand from the British or French. But when we finally opened our eyes to the outside world, we found ourselves isolated. A country too primitive to understand western or European values, and used only for its trade. To the world, that's all we were good for. Then, the Meiji Restoration took hold. Sciences of all kinds flooded into our culture. Railroads, guns, mass production, steam power, and new ways of thinking suddenly came into reach of our \"primitive\" people. Now, due to the movement of the Shōwa Modan, we have as many patents of inventions equal to those of America and Germany. European powers constantly change their governments and ideals to fit the advance of technology. For us, we don't forget what brought us to this point. We adapt the new ways of thinking with the old. It's time for the nation's of the world to witness Japan's synergy of the old and new, and finally prove our destiny on the international stage."
  JAP_The_Synthetic_Solution: "The Synthetic Solution"
- JAP_The_Synthetic_Solution_desc: ""
+ JAP_The_Synthetic_Solution_desc: "It is no secret that our Empire is severely deficient in oil and other fossil resources. Despite the fact that territories rich in these resources are barely beyond our reach, they are now occupied by Western Powers, and we lack the ability to challenge them at this time.\n\nMeanwhile, we must rely on science to solve our problems. Innovative entrepreneurs and researchers have developed fantastic new methods for producing rubber and other important items with as little petroleum as possible. We must implement their results into our manufacturing system in order to reduce our Empire's reliance on foreign petroleum imports and to ensure that every drop of petroleum is exploited to its full potential."
  JAP_The_National_Defense_State: "The National Defense State"
  JAP_The_National_Defense_State_desc: "In order to supplement the large-scale military mobilisation that is currently ongoing, and ensure that the army is given all the tools it needs to crush the Chinese, we must impose a policy of total mobilisation on the national economy by granting the government the authority to do whatever it feels is necessary. Besides the obvious production-related benefits, where numbers could double or even triple, the government will also be able to nationalise the news media and other strategic industries, as well as pass unlimited budgets in order to subsidise the war effort as a whole.\n\nHowever positive this motion will be for the war, it is not without its critics, as it has been labelled as "unconstitutional" by some in the Imperial Diet. Passing it will require us to make use of significant political capital, and even then, the military will need to exert its own pressure in order to ensure that this law comes into effect sooner rather than later."
  JAP_New_Order_in_East_Asia: "A New Order in East Asia"
  JAP_New_Order_in_East_Asia_desc: ""
  JAP_The_Yen_Bloc: "The Yen Bloc"
- JAP_The_Yen_Bloc_desc: ""
+ JAP_The_Yen_Bloc_desc: "The globe, particularly Asia, is suffering as a result of the domination of the Dollar and Pound. The Great Depression demonstrated the frailty and fragility of such currencies, but the Western powers continue to push them on the world while also enforcing a system in which their countries suffer less while benefiting tremendously from such disasters.\n\nThis exploitation must be stopped. We will build a "Yen Bloc" of big Asian economic powers, which will be an ideal counterweight to the stumbling Western economy. Furthermore, it will ensure that Asian nations are better integrated economically, strengthening our stance against Western Imperialists."
  JAP_Greater_East_Asian_War: "An End to the Military's Antics"
- JAP_Greater_East_Asian_War_desc: ""
+ JAP_Greater_East_Asian_War_desc: "A serious error has been made. The Imperial Army has risen in power and influence right under our noses, and it appears that they now consider themselves worthy enough to make military choices without consulting our holy Emperor. Their onslaught into Asian territories continues, putting a great strain on the government's shoulders.\n\nIt is utterly wrong that the government is being forced to serve the military when they don't even seem to be serving the Emperor. The time has come to stand firm and put a stop to the military's antics. The Japanese people will undoubtedly profit from the resulting economic and political relief."
  JAP_Asia_for_the_Asiatics: "Five Races Under One Union"
- JAP_Asia_for_the_Asiatics_desc: ""
+ JAP_Asia_for_the_Asiatics_desc: "The Chinese people have long wished for unification. One of the most powerful ideas they appear to have united under is \"Five Races Under One Union\", which asks for the unity of the Han, Manchus, Hui, Mongols, and Koreans under one banner. They appear to believe that such unity would offer the area peace, stability, and prosperity, as well as propel China to a position of tremendous strength and influence on the global stage.\n\nThe corrupt warlords and the illegitimate Chinese government, on the other hand, are diametrically opposed to this concept. The region is divided as a result of their deliberate planning, torn apart by boundaries arbitrarily drawn by inept buffoons. It is time for the Chinese to understand that they deserve to stand strong together with the Koreans, and that Japan is the one force that can and wants to make that happen."
  JAP_Greater_East_Asia_Co_Prosperity_Sphere: "Dai Toa Kyoeiken"
- JAP_Greater_East_Asia_Co_Prosperity_Sphere_desc: ""
+ JAP_Greater_East_Asia_Co_Prosperity_Sphere_desc: "The time has come to unite Asia against the evil and corrupt Western Imperialists. For months, we have been laying the groundwork for a unification of the continent under our guidance, and we are now fully prepared.\n\nWe will now announce the creation Dai Tōa Kyōeiken. This will be a great slap in the face of the haughty Westerners, and we will face some resistance from stubborn and foolish locals, of course, but the strength of our military, the power of our will and the glory of our Emperor will no doubt ensure that our mission to liberate Asia will be a success!"
  JAP_Operation_Z: "Operation Z"
  JAP_Operation_Z_desc: ""
  JAP_Across_the_Sea: "Umi Yukaba"
@@ -1105,7 +1106,7 @@
  JAP_Senbonzakura_desc: "Our Special Attack Units, already showing excellent results in the field, have sunk or damaged many enemy vessels and have struck fear within our enemy's ranks. Even with this success, there is room to improve, and engineers from Yokosuka have created the MXY-7 Ohka. This manned bomb, propelled by a small jet engine, will be carried by one of our various bombers until close enough to be released. Once close enough, it will dive towards its target and ram directly into the ship, hopefully causing crippling damage. The Imperial General Headquarters, having seen their success, has decided to start mass production of these manned bombs and the training of pilots to man them. Like the Kamikaze that wiped out the Mongols, Japan will weather the storm and hold back the western attackers."
  JAP_Senbonzakura_tt: "The §YYokosuka MXY7 Ohka§! Rocket-Powered Kamikaze Attack Aircraft will enter service"
  JAP_The_Divine_Will: "The Divine Will"
- JAP_The_Divine_Will_desc: "Our greatest weapon shall not be one that is produced in factories or screwed together in dockyards. It shall be the greatest force known to man, the power of the divine will. No technology will ever be able to defeat our soldiers trained in the way of the warrior. With this spirit, a squad armed with bamboo spears can defeat an entire army of tanks. Our glorious soldiers shall not fear death, as they will be grateful to give their only life away for the Emperor. They shall fight persistently to their last breaths, no matter how outmanned or outgunned they are. They will never surrender, our brave soldiers shall commit seppuku to cleanse themselves from the unbearable shame of defeat. With such determination and will, the glorious Rising Sun shall outshine all of its enemies."
+ JAP_The_Divine_Will_desc: "Our greatest weapon shall not be one that is produced in factories or screwed together in dockyards. It shall be the greatest force known to man, the power of the divine will. No technology will ever be able to defeat our soldiers trained in the way of the warrior. With this spirit, a squad armed with bamboo spears can defeat an entire army of tanks.\n\nOur glorious soldiers shall not fear death, as they will be grateful to give their only life away for the Emperor. They shall fight persistently to their last breaths, no matter how outmanned or outgunned they are. They will never surrender, our brave soldiers shall commit seppuku to cleanse themselves from the unbearable shame of defeat. With such determination and will, the glorious Rising Sun shall outshine all of its enemies."
  JAP_Technological_Warfare: "Technological Warfare"
  JAP_Technological_Warfare_desc: "Many in the Imperial Army Headquarters suggest that fanatical morale is the sole thing required to achieve victory. But we know that technological advancements are crucial because no matter how determined, soldiers armed with outdated weapons can not defeat a more advanced enemy.\n\nThe Empire of the Rising Sun has been home to many notable innovations & inventions, ranging from all types of martial arts to a multitude of technologically sophisticated machinery. This creativity shall become our greatest weapon in the liberation of Asia. The most advanced armaments will come out of our factories, the greatest battleships will be built in our dockyards. Not even the western colonialists will be capable of producing better equipment. With such technological superiority, the enemies of the Rising Sun will tremble."
  JAP_Melee_and_Non_Melee_Training: "Melee and Non-Melee Training"
@@ -1140,13 +1141,13 @@
  JAP_Decisive_Battle: "Decisive Battle"
  JAP_Decisive_Battle_desc: "Our naval doctrine, though conventionally on similar lines to that of the Royal Navy, is built on the ideas of Alfred Thayer Mahan, a famous American naval officer, and historian. Named the ‘Kantai Kessen’, meaning Decisive Battle Doctrine, this dictates that to win a war, the Japanese navy must win a single, decisive battle, in which the use of battleships is heavily needed.\n\nProof for the efficacy of this mindset can be seen in the Battle of Tsushima, where our smaller, but better-trained navy utterly destroyed the far larger fleet of the Russian Empire. A truly glorious moment for the Empire of Japan as a whole, its significance for the direction of the Imperial Japanese Navy is clear to this day.\n\nAs British naval dominance diminishes and the American navy becomes more and more of a threat, the Decisive Battle Doctrine shall prove to be as useful as 30 years ago. We will continue to use and improve this tested way of naval warfare. After all, there is no need to dispose of something which has yet to fail us, is there?"
  JAP_Quality_over_Quantity: "Quality over Quantity"
- JAP_Quality_over_Quantity_desc: ""
+ JAP_Quality_over_Quantity_desc: "It is no secret that our Empire cannot match the production capabilities of the Western Powers. While we struggle to put out ships in the water, the Americans and the British continuously churn out ships and naval transports, thereby holding the world's oceans hostage.\n\nAccepting our pitfalls in production capabilities, we must now look to science to help us contest the Western dominance over the waters. Instead of attempting to outproduce our enemies, we will outmatch them in technological superiority. Through a concerted effort, we can make it so that for every Japanese vessel sunk, our enemies will lose most of their fleet. Soon, the Imperial Navy will soon crush our enemies' dominance over the seas!"
  JAP_The_Long_Lance: "The Long Lance"
- JAP_The_Long_Lance_desc: ""
+ JAP_The_Long_Lance_desc: "Our adversaries rule the Pacific with an iron fist. They have made it impossible for us to spread across the oceans since hundreds of islands and colonies are right on our doorstep. Our ships face hostile weapons at every turn, and our own Pacific islands have proven to be few and far between.\n\nHowever, our naval designers and experts have devised a great counter-measure. If we can't meet our adversaries up close, why not drown them from afar? With this goal in mind, they have developed a massive, heavy, and long-range torpedo that may be deployed extensively to inflict significant damage on enemy fleets without placing our own at risk. We must order the mass production of these torpedoes, which are without a doubt the best in our time!"
  JAP_The_Pioneers_of_Kantai_Kessen: "The Pioneers of Kantai Kessen"
- JAP_The_Pioneers_of_Kantai_Kessen_desc: ""
+ JAP_The_Pioneers_of_Kantai_Kessen_desc: "While many naval forces deploy diverse naval methods, our doctrine of \"Decisive Battle\" is without a doubt the best one yet. Our navy specialises at inflicting severe damage on enemy fleets in a single battle, as seen by the Battle of Tsushima.\n\nWith these ideals in mind, we will enhance construction of battleships and other capital ships that have proven critical in such strikes. Furthermore, we will commend the primary proponents of this concept and train them to improve on it. Rest assured, the Imperial Navy will rule the waves with such great admirals leading the battle against our foes and such superb doctrine!"
  JAP_Carrier_Training_Programme: "Carrier Training Programme"
- JAP_Carrier_Training_Programme_desc: ""
+ JAP_Carrier_Training_Programme_desc: "Our country is inadequately unprepared for Carrier Combat. While other Asian naval forces have trained well-functioning carrier crews, the Imperial Navy decided to make foolhardy advances in battleship combat, relying on a naval doctrine that needs to be buried.\n\nHowever, we must now start working to fix this error. We must develop carrier training programmes to prepare our excellent naval officers for Carrier Warfare. This, along with a few other minor changes, will help ensure that our navy is adequately prepared to conduct large-scale carrier operations and that our carrier fleet is second to none!"
  JAP_Revisit_the_Findings_of_the_Sempill_Mission: "Revisit the Findings of the Sempill Mission"
  JAP_Revisit_the_Findings_of_the_Sempill_Mission_desc: ""
  JAP_Daiichi_Koku_Kantai: "Daiichi Koku Kantai"
@@ -1324,7 +1325,7 @@
  JAP_Hundred_Million_United_as_One_desc: ""
  JAP_Hundred_Million_United_as_One.tt: "The §YBushido Spirit§! will be strengthened by \nRecruitable Population: §G+1.00%§!, Required Consumer Goods Factories: §G-5.00%§!"
  JAP_Establish_the_Daitouashou: "Establish the Daitouashou"
- JAP_Establish_the_Daitouashou_desc: ""
+ JAP_Establish_the_Daitouashou_desc: "As our empire continues to expand, so do the requirements of protecting our new gains, some of which can be vast and hard to control with just a few garrisons. Therefore we will order the establishment of the Daitouashou. These will allow for local governments to be set up in the territories we have conquered, and will allow for precious resources to be directed elsewhere.\n\nThese governments will be stacked with members of the local populace who shall be loyal to Japanese rule, and will carry out our orders for the area as we sit fit. While it is true that the locals will know their country best, we will be sure to keep an eye on them to make sure that they don’t stray out of line with the will of the Emperor…"
  JAP_Establish_the_Daitouashou.tt: "§rWe will unlock possibilities to set up local governments in liberated Asian countries"
  JAP_Assist_the_KALIBAPI: "Assist the KALIBAPI"
  JAP_Assist_the_KALIBAPI_desc: ""
@@ -1449,7 +1450,7 @@
  # GEACPS
  JAP_GEACPS_category: "§rGreater East Asia Co-Prosperity Sphere§!"
  JAP_GEACPS_category_desc: "\n\n\n£decision_header_JAP_GEACPS£\n\n\n\nThe \"Dai Tōa Kyōeiken\", or the Co-Prosperity Sphere, is a unique concept crafted by ourselves with the sole purpose of liberating the people of East Asia from the shackles of Western imperialism. This liberation, however, cannot happen without the means with which to accomplish it: abundant resources and absolute cooperation. The Old World, while corrupt and decadent, is still a powerful tyrant. With the exception of the Land of the Rising Sun, every other Asian nation is incapable of matching the European colonial powers.\n\nIn order to circumvent this disadvantage, our sworn allies must give everything they have, be they resources, factories or men, to their liberator and protector, for only the Emperor’s warriors can obtain victory against the devils of the West. Someday they will control their own fate, but not today.\n\n                                    Strength of §lHakko Ichiu§! in the §rSphere§!: [?JAP_Hakko_Ichiu_var|+=0] [This.Dynamic_JAP_Yen_Bloc]"
- JAP_Yen_Bloc_Information: "\n\n                                       §YTotal Members§! in the £yen_icon §JYen Bloc§!: [?JAP_Yen_Bloc_Members|+0]\n                                             Total £money_icon §GMoney§! Gained: [?JAP_Yen_Bloc_Money_Gained|+1%%]"
+ JAP_Yen_Bloc_Information: "\n\n                                       §YTotal Members§! in the £yen_icon §JYen Bloc§!: [?JAP_Yen_Bloc_Members|+0]\n                                             Total £money_icon §GMoney§! Gained: [?JAP_Yen_Bloc_Money_Gained|=+1%]"
  JAP_Invite_to_Yen_Bloc_Small_Puppet: "Invite [FROM.GetName] to the £yen_icon Yen Bloc"
  JAP_Invite_to_Yen_Bloc_Big_Puppet: "Invite [FROM.GetName] to the £yen_icon Yen Bloc"
  JAP_Invite_to_Yen_Bloc_India: "Invite India to the £yen_icon Yen Bloc"
@@ -1477,7 +1478,7 @@
 
  # Imperial General Geadquarters (The Rivalries of War)
  JAP_Imperial_General_Headquarters: "Imperial General Headquarters"
- JAP_Imperial_General_Headquarters_desc: "\n\n\n£decision_header_JAP_Imperial_General_Headquarters£\n\n\nThe Japanese Empire has spent its recent history experiencing unrivalled growth and prosperity while united under the Emperor's will. However, cooperation between the Imperial Japanese Army (IJA) and the Imperial Japanese Navy (IJN) has been non-existent.\n\nThe IJA believes the Empire's fortunes and glory lie north, beyond Manchuria and into Siberia. The IJN, on the other hand, believes the Empire should expand its control over the South Pacific's resource-rich islands. These divergences in opinion have strained coordination between the two services and sparked a rivalry that is only continuing to intensify.\n\nMembers of the IJN will become enraged and defiant if the IJA is successful in courting those in power to their cause, and if the IJN is successful in persuading the government to supply them with more resources, the IJA will become so, as well.\n\nWill both factions' support remain balanced, or will the IJA or IJN be able to tip the scales in their favour?"
+ JAP_Imperial_General_Headquarters_desc: "\n\n\n£decision_header_JAP_Imperial_General_Headquarters£\n\n\n\nThe Japanese Empire has spent its recent history experiencing unrivalled growth and prosperity while united under the Emperor's will. However, cooperation between the Imperial Japanese Army (IJA) and the Imperial Japanese Navy (IJN) has been non-existent.\n\nThe IJA believes the Empire's fortunes and glory lie north, beyond Manchuria and into Siberia. The IJN, on the other hand, believes the Empire should expand its control over the South Pacific's resource-rich islands. These divergences in opinion have strained coordination between the two services and sparked a rivalry that is only continuing to intensify.\n\nMembers of the IJN will become enraged and defiant if the IJA is successful in courting those in power to their cause, and if the IJN is successful in persuading the government to supply them with more resources, the IJA will become so, as well.\n\nWill both factions' support remain balanced, or will the IJA or IJN be able to tip the scales in their favour?"
  JAP_Prop_up_the_Army_Control_Faction: "Prop up the Army Control Faction"
  JAP_Prop_up_the_Naval_Treaty_Faction: "Prop up the Naval Treaty Faction"
  JAP_Prioritize_Available_Steel_for_Guns_and_Artillery: "Prioritize Available Steel for Guns and Artillery"
@@ -1489,8 +1490,8 @@
  JAP_Discontent_in_the_Imperial_Japanese_Army: "§ODiscontent in the Imperial Japanese Army§!"
  JAP_Discontent_in_the_Imperial_Japanese_Navy: "§ODiscontent in the Imperial Japanese Navy§!"
 
- JAP_Modify_Balance_of_Power_Towards_Navy: "Modify the §YBalance of Power§! towards the §SNavy§!"
- JAP_Modify_Balance_of_Power_Towards_Army: "Modify the §YBalance of Power§! towards the §aArmy§!"
+ JAP_Modify_Balance_of_Power_Towards_Navy: "Modify the §YBalance of Power§! towards the §SNavy§!\n\n"
+ JAP_Modify_Balance_of_Power_Towards_Army: "Modify the §YBalance of Power§! towards the §aArmy§!\n\n"
  JAP_Rivalry_Decision_in_Progress: "Another decision is in progress"
  JAP_Prioritized_Steel_for_Guns_and_Artillery: "Prioritized Steel for Guns and Artillery"
  JAP_Prioritized_Steel_for_Light_Ships: "Prioritized Steel for Light Ships"

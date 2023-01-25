@@ -45,24 +45,26 @@ news_event = {
 	option = {
 		name = ENG_Politics.1.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Neville Chamberlain"
-			desc = ""
-			picture = GFX_P_D_Neville_Chamberlain
-			ideology = social_conservatism
-			traits = {
-				POSITION_Prime_Minister
-				SUBIDEOLOGY_Social_Conservatism
-				L_The_Pacifier
+		add_country_leader_role = {
+			character = ENG_Neville_Chamberlain
+			promote_leader = yes
+			country_leader = {
+				ideology = social_conservatism
+				expire = "1964.1.1"
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Social_Conservatism
+					L_The_Pacifier
+				}
 			}
 		}
 		set_country_flag = baldwin_resigned
 		custom_effect_tooltip = ENG_Chamberlains_Ministry_is_Formed
 		hidden_effect = {
 			add_ideas = {
-				ENG_FM_Anthony_Eden
-				ENG_AM_John_Simon
-				ENG_MoS_Samuel_Hoare
+				ENG_Anthony_Eden_FM
+				ENG_John_Simon_AM
+				ENG_Samuel_Hoare_MoS
 			}
 			mark_focus_tree_layout_dirty = yes
 		}
@@ -90,16 +92,19 @@ news_event = {
 		ai_chance = {
 			factor = 90
 		}
-		kill_country_leader = yes
-		create_country_leader = {
-			name = "Winston Churchill"
-			desc = "Winston_Churchill_desc"
-			picture = GFX_P_D_Winston_Churchill
-			ideology = social_conservatism
-			traits = {
-				POSITION_Prime_Minister
-				SUBIDEOLOGY_Social_Conservatism
-				L_Bulldog
+		retire_country_leader = yes
+		add_country_leader_role = {
+			character = ENG_Winston_Churchill
+			promote_leader = yes
+			country_leader = {
+				desc = ENG_Winston_Churchill_desc
+				ideology = social_conservatism
+				expire = "1964.1.1"
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Social_Conservatism
+					L_Bulldog
+				}
 			}
 		}
 	}
@@ -110,15 +115,17 @@ news_event = {
 	#		factor = 10
 	#	}
 	#	retire_country_leader = yes
-	#	create_country_leader = {
-	#		name = "Lord Edward Halifax"
-	#		desc = ""
-	#		picture = GFX_P_D_Edward_Halifax
-	#		ideology = social_conservatism
-	#		traits = {
-	#			POSITION_Prime_Minister
-	#			SUBIDEOLOGY_Social_Conservatism
-	#			FM_The_Appeaser
+	#	add_country_leader_role = {
+	#		character = ENG_Lord_Halifax
+	#		promote_leader = yes
+	#		country_leader = {
+	#			ideology = social_conservatism
+	#			expire = "1964.1.1"
+	#			traits = {
+	#				POSITION_Prime_Minister
+	#				SUBIDEOLOGY_Social_Conservatism
+	#				FM_The_Appeaser
+	#			}
 	#		}
 	#	}
 	#}
@@ -146,15 +153,18 @@ news_event = {
 		}
 		complete_national_focus = ENG_Uncle_Stanley
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Stanley Baldwin"
-			desc = "Stanley_Baldwin_desc"
-			picture = GFX_P_D_Stanley_Baldwin
-			ideology = social_conservatism
-			traits = {
-				POSITION_Prime_Minister
-				SUBIDEOLOGY_Social_Conservatism
-				L_Naive_Optimist
+		add_country_leader_role = {
+			character = ENG_Stanley_Baldwin
+			promote_leader = yes
+			country_leader = {
+				desc = ENG_Stanley_Baldwin_desc
+				ideology = social_conservatism
+				expire = "1964.1.1"
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Social_Conservatism
+					L_Naive_Optimist
+				}
 			}
 		}
 		activate_mission = ENG_Baldwins_Term
@@ -162,9 +172,9 @@ news_event = {
 		set_country_flag = ramsay_resigned
 		hidden_effect = {
 			add_ideas = {
-				ENG_FM_Samuel_Hoare
-				ENG_AM_Neville_Chamberlain
-				ENG_MoS_John_Simon
+				ENG_Samuel_Hoare_FM
+				ENG_Neville_Chamberlain_AM
+				ENG_John_Simon_MoS
 			}
 			mark_focus_tree_layout_dirty = yes
 		}
@@ -209,7 +219,7 @@ news_event = {
 	fire_only_once = yes
 	trigger = {
 		original_tag = ENG
-		has_idea = ENG_AM_Kingsley_Wood
+		has_idea = ENG_Kingsley_Wood_AM
 		date > 1943.9.21
 		has_start_date < 1943.9.21
 	}
@@ -217,7 +227,7 @@ news_event = {
 		name = ENG_Politics.4.A
 		custom_effect_tooltip = ENG_Kingsley_Wood_is_Replaced
 		hidden_effect = {
-			add_ideas = ENG_AM_John_Anderson
+			add_ideas = ENG_John_Anderson_AM
 		}
 		set_country_flag = Kingsley_Wood_unavailable
 	}
@@ -1865,6 +1875,54 @@ country_event = {
 	option = {
 		name = ENG_Military_Tree.7.A
 		army_experience = 30
+		add_corps_commander_role ={
+			character = ENG_Lord_John_Gort
+			traits = { politically_connected trait_cautious }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		add_corps_commander_role={
+			character = ENG_Bernard_Montgomery
+			traits = { offensive_doctrine media_personality trait_cautious inflexible_strategist organizer }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		add_corps_commander_role={
+			character = ENG_Alan_Brooke
+			traits = { defensive_doctrine trait_cautious career_officer }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		add_corps_commander_role={
+			character = ENG_Harold_Alexander
+			traits = { politically_connected }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+		}
+		create_corps_commander = {
+			name = "Harold Franklyn"
+			GFX = GFX_M_Harold_Franklyn
+			traits = {
+				defensive_doctrine infantry_leader
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
 	}
 }
 
@@ -3827,7 +3885,7 @@ country_event = {
 	picture = GFX_report_ENG_Sunset
 	trigger = {
 		original_tag = ENG
-		surrender_progress > 0.95
+		surrender_progress > 0.8
 		has_war_with = GER
 		any_core_state = {
 			controller = {
@@ -3844,7 +3902,9 @@ country_event = {
 		name = ENG_Crumbling_Empire.7.A
 		CAN = {
 			change_tag_from = ENG
-			set_faction_leader = yes
+		}
+		CAN = {
+			set_major = yes
 			annex_country = {
 				target = ENG
 				transfer_troops = yes
@@ -3879,6 +3939,57 @@ country_event = {
 			country_event = { 
 				id = ENG_Crumbling_Empire.8
 				days = 3
+			}
+		}
+		if = {
+			limit = {
+				USA = {
+					is_in_faction_with = CAN
+				}
+			}
+			USA = {
+				set_faction_leader = yes
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					USA = {
+						is_in_faction_with = CAN
+					}
+				}
+			}
+			CAN = {
+				set_faction_leader = yes
+			}
+		}
+		hidden_effect = {
+			GER = {
+				white_peace = CAN
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = CAN
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = GER
+					}
+					white_peace = PREV
+				}
+			}
+			every_country = {
+				limit = {
+					is_in_faction_with = GER
+				}
+				every_controlled_state = {
+					limit = {
+						OWNER = {
+							is_in_faction_with = CAN
+						}
+					}
+					transfer_state_to = PREV
+				}
 			}
 		}
 		GER = {
@@ -4564,6 +4675,7 @@ country_event = {
 	option = { #Sack the idiot
 		name = ENG_London_Economic_Conference_Events.18.A
 		GER = {
+			set_country_flag = Alfred_Hugenberg_unavailable
 			add_ideas = {
 				GER_Kurt_Schmitt_AM
 			}
@@ -4760,8 +4872,24 @@ country_event = {
 			9 = {
 				set_state_owner_to = CZE
 			}
+			9 = {
+				set_state_controller_to = BOH
+			}
 		}
-		ENG = { add_to_faction = CZE }
+		CZE = {
+			become_exiled_in = { target = ENG legitimacy = 50 }
+		}
+		
+		ENG = { 
+			add_to_faction = CZE
+		}
+		CZE = {
+			add_to_war = {
+				targeted_alliance = ENG
+				enemy = GER
+				hostility_reason = asked_to_join
+			}
+		}
 	}
 }
 
@@ -5072,6 +5200,8 @@ country_event = {
 			transfer_state = 100
 			transfer_state = 942
 			transfer_state = 841
+			transfer_state = 1628
+			transfer_state = 101
 		}
 	}
 }

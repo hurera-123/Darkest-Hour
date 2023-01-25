@@ -1,0 +1,133 @@
+####################################################
+## Ethiopia
+#####################################################
+ETH_ENG_Relations = {
+	allowed = {
+		original_tag = ETH
+	}
+	enable = {
+		ENG = {
+			exists = yes
+			has_government = democratic
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = befriend
+		id = "ENG"
+		value = 20
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "ENG"
+		value = -200
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = ENG
+		value = -100
+	}
+	ai_strategy = {
+		type = ignore
+		id = "ENG"
+		value = 100
+	}
+}
+ETH_FRA_Relations = {
+	allowed = {
+		original_tag = ETH
+	}
+	enable = {
+		FRA = {
+			exists = yes
+			has_government = democratic
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = befriend
+		id = "FRA"
+		value = 20
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "FRA"
+		value = -200
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = FRA
+		value = -100
+	}
+	ai_strategy = {
+		type = ignore
+		id = "FRA"
+		value = 100
+	}
+}
+ETH_ITA_Relations = {
+	allowed = {
+		original_tag = ETH
+	}
+	enable = {
+		ITA = {
+			exists = yes
+			has_government = fascist
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 10
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "ITA"
+		value = 50
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = ITA
+		value = 100
+	}
+	ai_strategy = {
+		type = ignore
+		id = "ITA"
+		value = 100
+	}
+}
+ETH_Use_all_the_troops = {
+	allowed = {
+		tag = ETH
+	}
+	enable = {
+		has_war_with = ITA
+	}
+	abort = {
+		NOT = {
+			has_war_with = ITA
+		}
+	}
+	ai_strategy = {
+		type = front_control
+		tag = ITA
+		ordertype = front
+		execution_type = careful
+		manual_attack = yes
+		execute_order = yes
+	}
+	ai_strategy = {
+		type = spare_unit_factor
+		value = -1000
+	}
+	ai_strategy = {
+		type = garrison_reinforcement_priority
+		value = -500
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = ITA
+		value = 500
+	}
+}

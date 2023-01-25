@@ -4,12 +4,12 @@
 	priority = 0
 	
 	regiments = {
-		light_infantry = { x = 1 y = 0 }	#The Czechs were authorized a force of 7k, which was historically split into 12 battalions.  6 battalions are used here to keep the correct size.
+		light_infantry = { x = 0 y = 0 }	#The Czechs were authorized a force of 7k, which was historically split into 12 battalions.  6 battalions are used here to keep the correct size.
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 1 y = 0 }
 		light_infantry = { x = 1 y = 1 }
 		light_infantry = { x = 1 y = 2 }
-		light_infantry = { x = 2 y = 0 }
-		light_infantry = { x = 2 y = 1 }
-		light_infantry = { x = 2 y = 2 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }

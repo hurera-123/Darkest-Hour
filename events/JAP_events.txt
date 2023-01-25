@@ -1178,7 +1178,7 @@ country_event = {
 	option = { 
 		name = JAP_Abe_Cabinet.5.A
 		hidden_effect = {
-			country_event = { id = JAP_Abe_Cabinet.2 days = 2 }
+			country_event = { id = JAP_Abe_Cabinet.6 days = 2 }
 		}
 	}
 }
@@ -1203,7 +1203,7 @@ country_event = {
 					SUBIDEOLOGY_Authoritarian_Democracy
 				}
 			}
-			country_event = { id = JAP_Yonai_Cabinet days = 1 }
+			country_event = { id = JAP_Yonai_Cabinet.1 days = 1 }
 		}
 	}
 }
@@ -1252,7 +1252,7 @@ country_event = {
 		name = JAP_Yonai_Cabinet.2.A
 		hidden_effect = {
 			country_event = { id = JAP_Second_Konoe_Cabinet.0 days = 45 }
-			country_event = { id = JAP_Yonai_Cabinet.5 days = 90 }
+			country_event = { id = JAP_Yonai_Cabinet.3 days = 90 }
 		}
 	}
 }
@@ -1330,6 +1330,7 @@ country_event = {
 		add_ideas = JAP_Sugiyama_Hajime_CoStaff
 		add_ideas = JAP_Tojo_Hideki_CoArmy
 		add_ideas = JAP_Oikawa_Koshiro_CoNavy
+		remove_ideas = JAP_The_Fading_Ballot_Box
 		hidden_effect = {
 			set_politics = {
 				ruling_party = fascist
@@ -1694,7 +1695,7 @@ country_event = {
 	option = { 
 		name = JAP_Tojo_Cabinet.2.A
 		hidden_effect = {
-			country_event = { id = JAP_Tojo_Cabinet.2 days = 23 }
+			country_event = { id = JAP_Tojo_Cabinet.3 days = 23 }
 		}
 	}
 }
@@ -2787,18 +2788,22 @@ country_event = {
 					state = 716
 					num_provinces = 1
 					on_win = MAN_Nekka_Incident.1
+					on_cancel = MAN_Nekka_Incident.1
+					on_lose = MAN_Nekka_Incident.1
 				}
 				defender = {
 					state = 609
 					num_provinces = 1
+					on_win = NEA_Nekka_Incident.1
+					on_cancel = NEA_Nekka_Incident.1
 					on_lose = NEA_Nekka_Incident.1
 				}
 			}
 			set_border_war_data = {
 				attacker = 716
 				defender = 609
-				attacker_modifier = 5.0
-				defender_modifier = -4.0
+				attacker_modifier = 10.0
+				defender_modifier = -10.0
 			}
 		}
 	}
@@ -2888,24 +2893,28 @@ country_event = {
 			#610 = { set_border_war = yes }
 			#715 = { set_border_war = yes }
 			start_border_war = {
-				change_state_after_war = yes
+				change_state_after_war = no
 				attacker = {
 					state = 715
 					num_provinces = 6
 					on_win = MAN_Nekka_Incident.2
+					on_cancel = MAN_Nekka_Incident.2
+					on_lose = MAN_Nekka_Incident.2
 				}
 				defender = {
 					state = 610
 					num_provinces = 4
 					on_lose = NEA_Nekka_Incident.2
+					on_cancel = NEA_Nekka_Incident.2
+					on_win = NEA_Nekka_Incident.2
 				}
 			}
 			hidden_effect = {
 				set_border_war_data = {
 					attacker = 715
 					defender = 610
-					attacker_modifier = 5.0
-					defender_modifier = -4.0
+					attacker_modifier = 10.0
+					defender_modifier = -8.0
 				}
 			}
 		}
@@ -2925,9 +2934,9 @@ country_event = {
 		hidden_effect = {
 			#610 = { set_border_war = no }
 			#715 = { set_border_war = no }
-			#MAN = {
-			#	transfer_state = 610
-			#}
+			MAN = {
+				transfer_state = 610
+			}
 			#CHI = {
 			#	transfer_state = 826
 			#	transfer_state = 612
@@ -3170,6 +3179,9 @@ country_event = {
 	option = {
 		name = JAP_Pan_Asianism.13.A
 		add_ideas = JAP_Co_Prosperity_Sphere
+		JAP = {
+			add_to_faction = SIA
+		}
 	}
 }
 ### JAP_Three_Principles_of_Hirota
@@ -4228,7 +4240,23 @@ country_event = {
 		ai_chance = {
 			base = 0
 		}
-		add_war_support = 0.05
+		add_war_support = 0.1
+		add_stability = -0.30
+		custom_effect_tooltip = JAP_Panay_Incident.1.A.tt
+		set_temp_variable = {
+			party_id = 4
+		}			#Republicans
+		set_temp_variable = {
+			support_to_add = -0.25
+		}
+		change_party_support = yes
+		set_temp_variable = {
+			party_id = 6
+		}			#Democrats
+		set_temp_variable = {
+			support_to_add = -0.25
+		}
+		change_party_support = yes
 		add_to_war = { 
 			targeted_alliance = CHI
 			enemy = JAP
@@ -4470,7 +4498,7 @@ country_event = {
 	desc = JAP_Pearl_Harbor.1.d
 	picture = GFX_report_JAP_Officers
 	is_triggered_only = yes
-	# If you do not enter the Tiger's cave, you will not catch it's cub.
+	# If you do not enter the Tiger's cave, you will not catch its cub.
 	option = {
 		name = JAP_Pearl_Harbor.1.A
 		set_variable = {
@@ -4603,7 +4631,7 @@ country_event = {
 	}
 	# Pearl itself must be put out of action
 	option = {
-		name = JAP_Pearl_Harbor.6.A
+		name = JAP_Pearl_Harbor.6.B
 		ai_chance = {
 			base = 0
 		}
@@ -5019,21 +5047,6 @@ country_event = {
 		add_war_support = 0.25
 		if = {
 			limit = {
-				ENG = {
-					is_faction_leader = yes
-					has_government = democratic
-				}
-			}
-			ENG = {
-				add_to_faction = USA
-				add_to_war = { 
-					targeted_alliance = USA
-					enemy = JAP
-				}
-			}
-		}
-		if = {
-			limit = {
 				has_idea = USA_Neutrality_Act
 			}
 			remove_ideas = USA_Neutrality_Act
@@ -5049,6 +5062,37 @@ country_event = {
 				has_idea = USA_Neutrality_Act_3
 			}
 			remove_ideas = USA_Neutrality_Act_3
+		}
+		else_if = {
+			limit = {
+				has_idea = USA_Lend_Lease
+			}
+			remove_ideas = USA_Lend_Lease
+		}
+		else_if = {
+			limit = {
+				has_idea = USA_Lend_Lease_2
+			}
+			remove_ideas = USA_Lend_Lease_2
+		}
+		swap_ideas = {
+			remove_idea = isolationism
+			add_idea = cooperation
+		}
+		if = {
+			limit = {
+				ENG = {
+					is_faction_leader = yes
+					has_government = democratic
+				}
+			}
+			ENG = {
+				add_to_faction = USA
+				add_to_war = { 
+					targeted_alliance = USA
+					enemy = JAP
+				}
+			}
 		}
 	}
 }

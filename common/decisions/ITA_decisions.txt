@@ -217,7 +217,7 @@ ITA_ETH_war = {
 			559 = {
 				add_building_construction = {
 					type = naval_base
-					level = 1
+					level = 2
 					instant_build = yes
 					province = 12991
 				}
@@ -828,20 +828,22 @@ ITA_Pacify_Abyssinia_category = {
 		}
 		cost = 25
 		remove_effect = {
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_partisan_gain = -0.05
+			AOI = {
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_partisan_gain = -0.05
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
+				}
+				custom_effect_tooltip = ITA_Partisan_Unrest_tt
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_damage_gain = -0.05
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
+				}
+				custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
 			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
-			}
-			custom_effect_tooltip = ITA_Partisan_Unrest_tt
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_damage_gain = -0.05
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
-			}
-			custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
 			set_country_flag = ITA_State_Sponsored_Immigration_completed
 		}
 		days_remove = 180
@@ -876,47 +878,51 @@ ITA_Pacify_Abyssinia_category = {
 				}
 				add_manpower = -5000
 			}
-			random_owned_controlled_state = {
-				limit = {
-					is_core_of = ETH
+			AOI = {
+				random_owned_controlled_state = {
+					limit = {
+						is_core_of = ETH
+					}
+					add_manpower = 5000
 				}
-				add_manpower = 5000
-			}
-			random_owned_controlled_state = {
-				limit = {
-					is_core_of = ETH
+				random_owned_controlled_state = {
+					limit = {
+						is_core_of = ETH
+					}
+					add_manpower = 5000
 				}
-				add_manpower = 5000
 			}
 		}
 		cost = 10
+		days_remove = 100
 		remove_effect = {
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_partisan_gain = -0.06
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
-			}
-			custom_effect_tooltip = ITA_Partisan_Unrest_tt
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_damage_gain = -0.06
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
-			}
-			custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_partisan
-				min = 0
-				max = 1
-			}
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_damage
-				min = 0
-				max = 1
+			AOI = {
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_partisan_gain = -0.06
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
+				}
+				custom_effect_tooltip = ITA_Partisan_Unrest_tt
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_damage_gain = -0.06
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
+				}
+				custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					min = 0
+					max = 1
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					min = 0
+					max = 1
+				}
 			}
 		}
-		days_remove = 100
 	}
 	ITA_Track_Down_Guerilla_Leaders = {
 		icon = GFX_decision_ITA_Track_Down_Guerrilla_Leaders
@@ -936,33 +942,35 @@ ITA_Pacify_Abyssinia_category = {
 				producer = ITA
 			}
 		}
+		days_remove = 30
 		remove_effect = {
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_partisan_gain = -0.03
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
-			}
-			custom_effect_tooltip = ITA_Partisan_Unrest_tt
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_damage_gain = -0.06
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
-			}
-			custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_partisan
-				min = 0
-				max = 1
-			}
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_damage
-				min = 0
-				max = 1
+			AOI = {
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_partisan_gain = -0.03
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
+				}
+				custom_effect_tooltip = ITA_Partisan_Unrest_tt
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_damage_gain = -0.06
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
+				}
+				custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					min = 0
+					max = 1
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					min = 0
+					max = 1
+				}
 			}
 		}
-		days_remove = 30
 	}
 	ITA_Raid_in_a_Major_City = {
 		icon = GFX_decision_ITA_Raid_in_a_Major_City
@@ -982,32 +990,34 @@ ITA_Pacify_Abyssinia_category = {
 		}
 		custom_cost_text = GER_Reichsverteidigung_cost
 		cost = 25
+		days_remove = 7
 		remove_effect = {
-			random_owned_controlled_state = {
-				limit = {
-					is_core_of = ETH
+			AOI = {
+				random_owned_controlled_state = {
+					limit = {
+						is_core_of = ETH
+					}
+					add_compliance = 15
 				}
-				add_compliance = 15
-			}
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_partisan_gain = -0.1
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
-			}
-			custom_effect_tooltip = ITA_Partisan_Unrest_tt
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_partisan
-				min = 0
-				max = 1
-			}
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_damage
-				min = 0
-				max = 1
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_partisan_gain = -0.1
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
+				}
+				custom_effect_tooltip = ITA_Partisan_Unrest_tt
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					min = 0
+					max = 1
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					min = 0
+					max = 1
+				}
 			}
 		}
-		days_remove = 7
 	}
 	ITA_Finance_Local_Institutions = {
 		icon = GFX_decision_ITA_Finance_Local_Institutions
@@ -1023,43 +1033,45 @@ ITA_Pacify_Abyssinia_category = {
 		}
 		complete_effect = {
 		}
+		days_remove = 60
 		remove_effect = {
 			set_temp_variable = {
 				money_to_gain = -250
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
-			every_owned_state = {
-				limit = {
-					is_core_of = ETH
+			AOI = {
+				every_owned_state = {
+					limit = {
+						is_core_of = ETH
+					}
+					add_compliance = 10
 				}
-				add_compliance = 10
-			}
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_partisan_gain = -0.03
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
-			}
-			custom_effect_tooltip = ITA_Partisan_Unrest_tt
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_damage_gain = -0.07
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
-			}
-			custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_partisan
-				min = 0
-				max = 1
-			}
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_damage
-				min = 0
-				max = 1
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_partisan_gain = -0.03
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
+				}
+				custom_effect_tooltip = ITA_Partisan_Unrest_tt
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_damage_gain = -0.07
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
+				}
+				custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					min = 0
+					max = 1
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					min = 0
+					max = 1
+				}
 			}
 		}
-		days_remove = 60
 	}
 	ITA_Favor_Ethnic_Minorities = {
 		icon = GFX_decision_ITA_Favor_Ethnic_Minorities
@@ -1072,39 +1084,41 @@ ITA_Pacify_Abyssinia_category = {
 		complete_effect = {
 			add_stability = -0.06
 		}
+		days_remove = 45
 		remove_effect = {
-			every_owned_state = {
-				limit = {
-					is_core_of = ETH
+			AOI = {
+				every_owned_state = {
+					limit = {
+						is_core_of = ETH
+					}
+					add_compliance = 3
 				}
-				add_compliance = 3
-			}
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_partisan_gain = -0.06
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
-			}
-			custom_effect_tooltip = ITA_Partisan_Unrest_tt
-			set_temp_variable = {
-				ITA_Ethiopian_Unrest_damage_gain = -0.06
-			}
-			add_to_variable = {
-				ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
-			}
-			custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_partisan
-				min = 0
-				max = 1
-			}
-			clamp_variable = {
-				var = ITA_Ethiopian_Unrest_damage
-				min = 0
-				max = 1
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_partisan_gain = -0.06
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_partisan = ITA_Ethiopian_Unrest_partisan_gain
+				}
+				custom_effect_tooltip = ITA_Partisan_Unrest_tt
+				set_temp_variable = {
+					ITA_Ethiopian_Unrest_damage_gain = -0.06
+				}
+				add_to_variable = {
+					ITA_Ethiopian_Unrest_damage = ITA_Ethiopian_Unrest_damage_gain
+				}
+				custom_effect_tooltip = ITA_Damage_to_Garrisons_tt
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					min = 0
+					max = 1
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					min = 0
+					max = 1
+				}
 			}
 		}
-		days_remove = 45
 		ai_will_do = {
 			factor = 0
 		}
@@ -1275,7 +1289,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			custom_effect_tooltip = ITA_Incorporate_Istituto_di_Liquidazioni_tt
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 500
 		}
 	}
 	ITA_Absorb_Shares_of_Banca_Commerciale_Italiana = {
@@ -1330,7 +1344,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			clr_country_flag = ITA_Absorbing_Other_Shares
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Absorb_Shares_of_Banco_di_Roma = {
@@ -1375,7 +1389,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			clr_country_flag = ITA_Absorbing_Other_Shares
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Absorb_Shares_of_Credito_Italiano = {
@@ -1420,7 +1434,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			clr_country_flag = ITA_Absorbing_Other_Shares
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Liquidate_Societa_Finanziaria_Italiana = {
@@ -1435,7 +1449,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		cost = 20
 		modifier = {
 			political_power_cost = 0.05
-			consumer_goods_factor = 0.05
+			consumer_goods_factor = 0.02
 		}
 		complete_effect = {
 		}
@@ -1450,7 +1464,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			add_unemployment_effect = yes
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Liquidate_Sofindit = {
@@ -1465,7 +1479,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		cost = 20
 		modifier = {
 			political_power_cost = 0.05
-			consumer_goods_factor = 0.05
+			consumer_goods_factor = 0.02
 		}
 		complete_effect = {
 		}
@@ -1480,7 +1494,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			add_unemployment_effect = yes
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Liquidate_Societa_Elettrofinanziaria = {
@@ -1495,7 +1509,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		cost = 20
 		modifier = {
 			political_power_cost = 0.05
-			consumer_goods_factor = 0.05
+			consumer_goods_factor = 0.02
 		}
 		complete_effect = {
 		}
@@ -1510,7 +1524,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			add_unemployment_effect = yes
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Subsidize_Management_Training_for_Steel_Industry = {
@@ -1544,7 +1558,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			custom_effect_tooltip = ITA_IRI_Resource_Extraction_tt
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 200
 		}
 	}
 	ITA_Acquire_Societa_Idroelettrica_Piemontese = {
@@ -1596,7 +1610,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			custom_effect_tooltip = ITA_IRI_Maintenance_tt
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 500
 		}
 	}
 	ITA_Reprivatize_EDISON_and_SADE_Companies = {
@@ -1633,7 +1647,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			add_unemployment_effect = yes
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Nationalize_Banca_dItalia = {
@@ -1666,7 +1680,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		remove_effect = {
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Nationalize_Banca_Commerciale_Italiana = {
@@ -1705,7 +1719,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		remove_effect = {
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Nationalize_Banco_di_Roma = {
@@ -1738,7 +1752,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		remove_effect = {
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Nationalize_Credito_Italiano = {
@@ -1771,7 +1785,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		remove_effect = {
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 100
 		}
 	}
 	ITA_Establish_FINMARE = {
@@ -1814,7 +1828,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			set_country_flag = ITA_FINMARE_Established
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 500
 		}
 	}
 	ITA_Reorganize_Italia_and_Lloyd_Triestino_Shipping_Compaines = {
@@ -1855,7 +1869,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 500
 		}
 	}
 	ITA_Reogranize_Adriatica_and_Tirrentia_Shipping_Companies = {
@@ -1870,7 +1884,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 		days_remove = 130
 		modifier = {
 			political_power_cost = 0.1
-			consumer_goods_factor = 0.05
+			consumer_goods_factor = 0.02
 		}
 		complete_effect = {
 		}
@@ -1904,7 +1918,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			factor = 500
 		}
 	}
 	ITA_Establish_FINSIDER = {
@@ -2003,7 +2017,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			add_unemployment_effect = yes
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 		}
 	}
 	ITA_Acquire_SIAC_Shares = {
@@ -2218,7 +2232,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			add_unemployment_effect = yes
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 		}
 	}
 	ITA_Merge_Investment_Department_of_IRI_with_the_IMI = {
@@ -2354,7 +2368,7 @@ ITA_Istituto_per_la_Ricostruzione_Industriale_category = {
 			custom_effect_tooltip = ITA_IRI_Maintenance_tt
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 		}
 	}
 }
@@ -3210,8 +3224,7 @@ ITA_The_Balkan_Strategy = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 1
-				factor = 100
+				add = 200
 				NOT = {
 					is_historical_focus_on = yes
 					YUG = {
@@ -3232,55 +3245,56 @@ ITA_The_Balkan_Strategy = {
 			}
 		}
 	}
-	ITA_Issue_Ultimatum_to_Bulgaria = {
-		#icon = 
-		fire_only_once = yes
-		visible = {
-			has_completed_focus = ITA_Expand_Our_Influence
-		}
-		available = {
-			country_exists = BUL
-			BUL = {
-				is_subject = no
-				has_war = no
-				NOT = {
-					is_in_faction_with = ITA
-				}
-			}
-		}
-		cost = 20
-		days_remove = 10
-		complete_effect = {
-		}
-		remove_effect = {
-			BUL = {
-				country_event = {
-					id = ITA_Political_Tree.4
-					days = 1
-				}
-			}
-		}
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 1
-				factor = 100
-				OR = {
-					has_decision = ITA_Demand_Yugoslavian_Territories
-					NOT = {
-						country_exists = YUG
-					}
-				}
-				NOT = {
-					BUL = {
-						is_subject = yes
-						is_in_faction_with = GER
-						is_in_faction_with = ITA
-					}
-				}
-			}
-		}
-	}
+	#ITA_Issue_Ultimatum_to_Bulgaria = {
+	#	#icon = 
+	#	fire_only_once = yes
+	#	visible = {
+	#		has_completed_focus = ITA_Expand_Our_Influence
+	#	}
+	#	available = {
+	#		country_exists = BUL
+	#		BUL = {
+	#			is_subject = no
+	#			has_war = no
+	#			NOT = {
+	#				is_in_faction_with = ITA
+	#			}
+	#		}
+	#	}
+	#	cost = 20
+	#	days_remove = 10
+	#	complete_effect = {
+	#	}
+	#	remove_effect = {
+	#		BUL = {
+	#			country_event = {
+	#				id = ITA_Political_Tree.4
+	#				days = 1
+	#			}
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		base = 0
+	#		modifier = {
+	#			add = 200
+	#			OR = {
+	#				has_decision = ITA_Demand_Yugoslavian_Territories
+	#				NOT = {
+	#					country_exists = YUG
+	#				}
+	#			}
+	#			NOT = {
+	#				BUL = {
+	#					OR = {
+	#						is_subject = yes
+	#						is_in_faction_with = GER
+	#						is_in_faction_with = ITA
+	#					}
+	#				}
+	#			}
+	#		}
+	#	}
+	#}
 	ITA_Demand_Islands_from_Greece = {
 		#icon = 
 		fire_only_once = yes
@@ -3288,6 +3302,7 @@ ITA_The_Balkan_Strategy = {
 			has_completed_focus = ITA_Expand_Our_Influence
 		}
 		available = {
+			has_country_flag = ITA_Annexed_Albania
 			country_exists = GRE
 			GRE = {
 				is_subject = no
@@ -3303,21 +3318,18 @@ ITA_The_Balkan_Strategy = {
 			set_country_flag = ITA_Invasion_of_Greece
 		}
 		remove_effect = {
-			GRE = {
-				country_event = {
-					id = ITA_Political_Tree.5
-					days = 1
-				}
+			country_event = {
+				id = ITA_Invasion_of_Greece.1
+				days = 1
 			}
 		}
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 100
-				factor = 500
-				date > 1940.10.1
+				add = 500
+				date > 1940.10.28
 				OR = {
-					has_global_flag = ITA_Annexed_Albania
+					has_country_flag = ITA_Annexed_Albania
 					ALB = {
 						exists = no
 					}
@@ -4067,6 +4079,180 @@ ITA_Stresa_Front_category = {
 		}
 		ai_will_do = {
 			factor = 100
+		}
+	}
+}
+ITA_Italianizzazione_category = {
+	ITA_Integrate_Corsica = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 1
+		}
+		cost = 50
+		days_remove = 180
+		complete_effect = {
+		}
+		remove_effect = {
+			1 = {
+				add_core_of = ITA
+			}
+		}
+	}
+	ITA_Integrate_Nice = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 846
+		}
+		cost = 50
+		days_remove = 180
+		complete_effect = {
+		}
+		remove_effect = {
+			846 = {
+				add_core_of = ITA
+			}
+		}
+	}
+	ITA_Integrate_Upper_Savoy = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 764
+			controls_state = 735
+		}
+		cost = 50
+		days_remove = 365
+		complete_effect = {
+		}
+		remove_effect = {
+			764 = {
+				add_core_of = ITA
+			}
+			735 = {
+				add_core_of = ITA
+			}
+		}
+	}
+	ITA_Integrate_Ticino = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 767
+		}
+		cost = 50
+		days_remove = 180
+		complete_effect = {
+		}
+		remove_effect = {
+			767 = {
+				add_core_of = ITA
+			}
+		}
+	}
+	ITA_Integrate_Dalmatian_Coast = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 1085
+			controls_state = 1091
+		}
+		cost = 50
+		days_remove = 180
+		complete_effect = {
+		}
+		remove_effect = {
+			1085 = {
+				add_core_of = ITA
+			}
+			1091 = {
+				add_core_of = ITA
+			}
+		}
+	}
+	ITA_Integrate_Slovene_Lands = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 1404
+			controls_state = 765
+		}
+		cost = 50
+		days_remove = 365
+		complete_effect = {
+		}
+		remove_effect = {
+			1404 = {
+				add_core_of = ITA
+			}
+			765 = {
+				add_core_of = ITA
+			}
+		}
+	}
+	ITA_Integrate_Interior_Dalmatia = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 103
+		}
+		cost = 50
+		days_remove = 365
+		complete_effect = {
+		}
+		remove_effect = {
+			103 = {
+				add_core_of = ITA
+			}
+		}
+	}
+	ITA_Integrate_Malta = {
+		#icon = 
+		fire_only_once = yes
+		visible = {
+			original_tag = ITA
+			has_completed_focus = ITA_Italianizzazione
+		}
+		available = {
+			controls_state = 116
+		}
+		cost = 50
+		days_remove = 180
+		complete_effect = {
+		}
+		remove_effect = {
+			116 = {
+				add_core_of = ITA
+			}
 		}
 	}
 }

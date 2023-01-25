@@ -631,8 +631,8 @@
 #WW2
  FRA_Wartime_Tree.0.t: "France Mobilises!"
  FRA_Wartime_Tree.0.d: "[FROM.GetNewsIcon]"
- FRA_Wartime_Tree.0.A: ""
- FRA_Wartime_Tree.0.B: ""
+ FRA_Wartime_Tree.0.A: "Aux Armes Citoyens!"
+ FRA_Wartime_Tree.0.B: "Worrisome"
 
  FRA_Wartime_Tree.1.t: "Banishment of the PCF"
  FRA_Wartime_Tree.1.d: ""
@@ -643,8 +643,8 @@
  FRA_Wartime_Tree.2.A: ""
 
  FRA_Wartime_Tree.3.t: "[This.GetLeader] Government is Overthrown"
- FRA_Wartime_Tree.3.d: ""
- FRA_Wartime_Tree.3.A: ""
+ FRA_Wartime_Tree.3.d: "France appears to be in terminal decline. The English have fled the continent, abandoning everything in their haste, leaving our beleaguered army to face the Germans alone. Many in France believe that the British are attempting to use France to bleed out the Germans once more, and this sense of betrayal and rage at the British has permeated the Cabinet, where Prime Minister [This.GetLeader] has been attacked by a peace faction led by Philippe Petain and Commander in Chief Maxime Waygand. The Prime Minister fought hard against defeatists in his government, proposing a variety of solutions to France's problem.\n\nHe proposed that the government move to and fortify Brittany before continuing the fight, or that it move to North Africa and fight from there while maintaining a guerrilla war in the metropole. The Cabinet rejected both of these. He then proposed that France follow the Dutch example by surrendering the Metropole but fighting on in the colonies, but this was rejected as an unacceptable surrender. Finally, he presented the Cabinet with a last-ditch effort to keep the fight going. He proposed that France and Britain unite to fight as one great nation. He was met with intense hostility right away. Petain called it "fusion with a corpse," while others saw it as a sinister British plot to steal France's colonies, declaring that they would rather be a Nazi province than a British dominion. The outright refusal of the plan appeared to finally shatter Reynaud, and in response, and without even voting on the proposal, [This.GetLeader] resigned as France's Prime Minister. As he attempted to flee to North Africa, the President, who wished to continue the fight, had little choice but to appoint Philippe Petain as Prime Minister."
+ FRA_Wartime_Tree.3.A: "Sacre bleu!"
 
  FRA_Wartime_Tree.4.t: "The Old Lion"
  FRA_Wartime_Tree.4.d: ""
@@ -658,7 +658,7 @@
  FRA_Wartime_Tree.6.t: "The British Proposition"
  FRA_Wartime_Tree.6.d: ""
  FRA_Wartime_Tree.6.A: "We are not a Dominion"
- FRA_Wartime_Tree.6.B: ""
+ FRA_Wartime_Tree.6.B: "Unity is Strength!"
 
  FRA_Wartime_Tree.7.t: "Reynaud Resigns"
  FRA_Wartime_Tree.7.d: ""
@@ -670,7 +670,9 @@
 
  FRA_Wartime_Tree.10.t: "Nomination of the Generalissime"
  FRA_Wartime_Tree.10.d: ""
- FRA_Wartime_Tree.10.A: ""
+ FRA_Wartime_Tree.10.A: "Maurice Gamelin"
+ FRA_Wartime_Tree.10.B: "Henri Mordacq"
+ FRA_Wartime_Tree.10.C: "Charles de Gaulle"
 
  FRA_Wartime_Tree.11.t: "Allied Military Government Organised"
  FRA_Wartime_Tree.11.d: ""
@@ -1291,6 +1293,7 @@
 
  FRA_Prepare_The_Second_Trench_Warfare: "Prepare the Second Trench Warfare"
  FRA_Prepare_The_Second_Trench_Warfare_desc: ""
+ FRA_Prepare_The_Second_Trench_Warfare_tt: "Add national spirit §YStatic Warfare§! which grants \nMax Entrenchment: §G+2§!"
 
  FRA_Develop_the_Genie: "Develop the Genie"
  FRA_Develop_the_Genie_desc: ""
@@ -1300,9 +1303,11 @@
 
  FRA_Tactic_over_strategy: "Promote Tactics Over Strategy"
  FRA_Tactic_over_strategy_desc: ""
+ FRA_Tactic_over_strategy_tt: "§YStatic Warfare§! will be modified by \nBreakthrough: §G+10,0%§! \nCoordination: §R-10,0%§! \nArmy Experience Gain: §G+5,0%§!"
 
  FRA_Supreme_Role_OF_Machinegun: "The Supreme Role of Machine-Guns"
  FRA_Supreme_Role_OF_Machinegun_desc: ""
+ FRA_Supreme_Role_OF_Machinegun_tt: "§YStatic Warfare§! will be modified by \nDivision Defense: §G+5,0%§! \nInfantry Attack: §G+5,0%§!"
 
  FRA_Division_Cuirrase: "The Division Cuirasse"
  FRA_Division_Cuirrase_desc: ""
@@ -1310,12 +1315,14 @@
 
  FRA_Rain_of_Steel: "The Rain of Steel"
  FRA_Rain_of_Steel_desc: ""
+ FRA_Rain_of_Steel_tt: "§YStatic Warfare§! will be modified by \nDivision Defense: §G+5,0%§! \nArtillery Attack: §G+10,0%§!"
 
  FRA_La_Voie_Sacree: "La Voie Sacree"
  FRA_La_Voie_Sacree_desc: ""
 
  FRA_On_ne_Passe_Pas: "On Ne Passe Pas!"
  FRA_On_ne_Passe_Pas_desc: ""
+ FRA_On_ne_Passe_Pas_tt: "§YStatic Warfare§! will be modified by \nMax Entrenchment: §G+1§!"
 
  FRA_Abandon_the_Delusion: "Abandon the Delusion"
  FRA_Abandon_the_Delusion_desc: ""
@@ -1803,7 +1810,6 @@
  FRA_idea_Urgent_Equipment_growth_plan: "Urgent Equipment Growth Plan"
  FRA_Multitude_of_aircraft_manufacturers: "Multitude of aircraft manufacturers"
  FRA_Strike_in_the_aeronautical_sector: "Strike in the aeronautical sector"
- FRA_Active_Opposition: "Active Opposition"
  
  FRA_Beast_of_the_Ocean: "Beast of the Ocean"
  FRA_La_Jeune_Ecole: "The Young School"
@@ -2131,6 +2137,7 @@
  FRA_Grand_Quartier_General_category: "Grand Quartier Général"
  FRA_Grand_Quartier_General_category_desc: "\n\n\n£decision_header_FRA_Programme_des_12_milliards£\n\n\n\n"
  FRA_Centralize_the_GQG: "Centralize the GQG"
+ FRA_Promote_New_Generals: "Promote New Generals"
  FRA_Launch_Saar_Offensive: "Launch the Saar Offensive"
  FRA_The_Saar_Offensive: "The Saar Offensive"
  FRA_Prepare_the_Plan_Dyle_Breda: "Prepare Plan Dyle-Breda"

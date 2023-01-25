@@ -1,6 +1,7 @@
 script_enum_equipment_bonus_type = {
 	## Air
 	fighter_equipment
+	interceptor_equipment
 	cv_fighter_equipment
 	jet_fighter_equipment
 	cv_CAS_equipment
@@ -36,7 +37,9 @@ script_enum_equipment_bonus_type = {
 	
 	## DH Air
 	Attacker_equipment
-	cv_Attacker_equipment 
+	cv_Attacker_equipment
+	light_fighter
+	cas_bomber
 
 	## Land
 	infantry_equipment
@@ -76,12 +79,16 @@ script_enum_equipment_bonus_type = {
 	marines
 	mountaineers
 	paratroopers
+	cat_light_armor
 	light_armor_equipment
 	armor_equipment
 	medium_tank_artillery_equipment
 	medium_tank_destroyer_equipment
 	heavy_tank_equipment 
 	Super_Heavy_Tank_equipment
+	Main_Battle_Tank_equipment_1952
+	APC_equipment
+	IFV_equipment
 
 	## Sea
 	ship_hull_light
@@ -125,6 +132,7 @@ script_enum_operative_mission_type = {
 }
 
 script_enum_advisor_slot_type = {
+	Head_of_Government
 	# DH Advisors
 	Chief_of_Airforce
 	Chief_of_Navy
@@ -134,5 +142,6 @@ script_enum_advisor_slot_type = {
 	Head_of_Intelligence
 	Foreign_Minister
 	Armaments_Minister
+	Minister
 	high_command
 }

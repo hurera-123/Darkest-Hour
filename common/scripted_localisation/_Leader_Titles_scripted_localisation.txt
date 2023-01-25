@@ -410,6 +410,13 @@ defined_text = {
 		}
 		localization_key = POSITION_ITA_Duce
 	}
+	### Duce
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_Vicere_of_Ethiopia
+		}
+		localization_key = POSITION_Vicere_of_Ethiopia
+	}
 	### Conducator
 	text = {
 		trigger = {

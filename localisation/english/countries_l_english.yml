@@ -72,6 +72,21 @@
  ENG_EDWARD_authoritarian: "Edwardites"
  ENG_EDWARD_authoritarian_DEF: "The Edwardites"
 
+ FRA_UK_fascist: "Franco-British Empire"
+ FRA_UK_fascist_DEF: "The Franco-British Empire"
+ FRA_UK_authoritarian: "Angevin Empire"
+ FRA_UK_authoritarian_DEF: "The Angevin Empire"
+ FRA_UK_democratic: "Franco-British Union"
+ FRA_UK_democratic_DEF: "The Franco-British Union"
+ FRA_UK_socialist: "Franco-British Union"
+ FRA_UK_socialist_DEF: "The Franco-British Union"
+ FRA_UK_communist: "United Socialist Republics of France and Britain"
+ FRA_UK_communist_DEF: "The United Socialist Republics of France and Britain"
+ FRA_UK_authoritarian_ADJ: "Franco-British"
+ FRA_UK_democratic_ADJ: "Franco-British"
+ FRA_UK_socialist_ADJ: "Franco-British"
+ FRA_UK_communist_ADJ: "Franco-British"
+
  ### Soviet Union/Russia
  SOV_fascist: "All-Russian Federative State"
  SOV_fascist_DEF: "The All-Russian Federative State"
@@ -707,6 +722,23 @@
  ITA_democratic_ADJ: "Italian"
  ITA_socialist_ADJ: "Italian"
  ITA_communist_ADJ: "Italian"
+ 
+ ### Italian East Africa
+ AOI_fascist: "Italian East Africa"
+ AOI_fascist_DEF: "Italian East Africa"
+ AOI_authoritarian: "Italian East Africa"
+ AOI_authoritarian_DEF: "Italian East Africa"
+ AOI_democratic: "Italian East Africa"
+ AOI_democratic_DEF: "Italian East Africa"
+ AOI_communist: "Italian East Africa"
+ AOI_communist_DEF: "Italian East Africa"
+ AOI_socialist: "Italian East Africa"
+ AOI_socialist_DEF: "Italian East Africa"
+ AOI_fascist_ADJ: "Italian"
+ AOI_authoritarian_ADJ: "Italian"
+ AOI_democratic_ADJ: "Italian"
+ AOI_communist_ADJ: "Italian"
+ AOI_socialist_ADJ: "Italian"
 
  ### Romania
  ROM_fascist: "Romanian Legionary State"
@@ -729,6 +761,9 @@
  ROM_SOV_communist_AUTONOMY_Puppet: "Romanian Soviet Republic"
  ROM_SOV_communist_AUTONOMY_Satellite: "Romanian People's Republic"
  ROM_SOV_1946: "Kingdom of Romania"
+
+ ROM_Antonescu: "Romanian Legionary State"
+ ROM_Antonescu_DEF: "Romanian Legionary State"
 
  ### Yugoslavia
  YUG_fascist: "Kingdom of Yugoslavia"
@@ -4151,16 +4186,16 @@
  GAN_communist_ADJ: "Gansu"
 
 ### Reorganized China
- RNG_fascist: "Republic of China"
- RNG_fascist_DEF: "The Republic of China"
- RNG_authoritarian: "Republic of China"
- RNG_authoritarian_DEF: "The Republic of China"
- RNG_democratic: "Republic of China"
- RNG_democratic_DEF: "The Republic of China"
- RNG_socialist: "Republic of China"
- RNG_socialist_DEF: "The Republic of China"
- RNG_communist: "Republic of China"
- RNG_communist_DEF: "The Republic of China"
+ RNG_fascist: "Reorganized Government of China"
+ RNG_fascist_DEF: "The Reorganized Government of China"
+ RNG_authoritarian: "Reorganized Government of China"
+ RNG_authoritarian_DEF: "The Reorganized Government of China"
+ RNG_democratic: "Reorganized Government of China"
+ RNG_democratic_DEF: "The Reorganized Government of China"
+ RNG_socialist: "Reorganized Government of China"
+ RNG_socialist_DEF: "The Reorganized Government of China"
+ RNG_communist: "Reorganized Government of China"
+ RNG_communist_DEF: "The Reorganized Government of China"
  RNG_fascist_ADJ: "Chinese"
  RNG_authoritarian_ADJ: "Chinese"
  RNG_democratic_ADJ: "Chinese"

@@ -107,17 +107,41 @@ Spanish_Civil_War_Send_Volunteers_Other = {
 		value = -1000
 	}
 }
-Spanish_Civil_War_Use_the_Troops = {
+Spanish_Civil_War_Use_the_Troops_SPA = {
 	enable = {
-		OR = {
-			original_tag = SPR
-			original_tag = SPA
-		}
+		original_tag = SPA
 		SPR = {
 			has_war_with = SPA
 		}
 	}
 	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = front_unit_request
+		tag = SPR
+		value = 1000
+	}
+	ai_strategy = {
+		type = garrison_reinforcement_priority
+		value = -500
+	}
+	ai_strategy = {
+		type = spare_unit_factor
+		value = -100
+	}
+}
+Spanish_Civil_War_Use_the_Troops_SPR = {
+	enable = {
+		original_tag = SPR
+		SPR = {
+			has_war_with = SPA
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = front_unit_request
+		tag = SPA
+		value = 1000
+	}
 	ai_strategy = {
 		type = garrison_reinforcement_priority
 		value = -500

@@ -4,7 +4,6 @@ recruit_character = JAP_Mizuno_Rentaro
 recruit_character = JAP_Oura_Kanetake
 recruit_character = JAP_Fujie_Keisuke
 recruit_character = JAP_Nakajima_Kesago
-recruit_character = JAP_Tanaka_Seiichi
 recruit_character = JAP_Hirabayashi_Morito
 recruit_character = JAP_Hiranuma_Kiichiro
 recruit_character = JAP_Teshima_Fusataro
@@ -193,7 +192,6 @@ recruit_character = JAP_Shigeru_Honjo
 recruit_character = JAP_Yoshijiro_Umezu
 recruit_character = JAP_Hatazo_Adachi
 recruit_character = JAP_Iwane_Matsui
-recruit_character = JAP_Sadao_Araki
 recruit_character = JAP_Keisuke_Fujie
 recruit_character = JAP_Kiichiro_Higuchi
 recruit_character = JAP_Masaharu_Homma
@@ -247,8 +245,7 @@ recruit_character = JAP_Kazuo_Aoki
 	# Research
 	#######################
 	set_technology = {
-	basic_train = 1
-
+		basic_train = 1
 		### Infantry Tech
 		Small_Arms_1900 = 1
 		Small_Arms_1916 = 1
@@ -348,7 +345,6 @@ recruit_character = JAP_Kazuo_Aoki
 		Novel_Drills = 1
 		Contemporary_Construction_Standards = 1
 		Advanced_Drilling_Method = 1
-		Construction_Site_Management = 1
 		Motorized_Plowing = 1
 		Farm_Tractors = 1
 		Scientific_Agricultural_Processes = 1
@@ -479,6 +475,27 @@ recruit_character = JAP_Kazuo_Aoki
 		name = "G-2 Department"
 		icon = "GFX_intelligence_agency_logo_jap"
 	}
+	if = {
+		limit = {
+			has_dlc = "La Resistance"
+		}
+		create_operative_leader = {
+			name = "Takeo Yoshikawa"
+			GFX = GFX_operative_Takeo_Yoshikawa
+			traits = { }
+			bypass_recruitment = no
+			available_to_spy_master = yes
+			nationalities = { JAP }
+		}
+		create_operative_leader = {
+			name = "Yoshio Kodama"
+			GFX = GFX_operative_Yoshio_Kodama
+			traits = { }
+			bypass_recruitment = no
+			available_to_spy_master = yes
+			nationalities = { JAP }
+		}
+	}
 	country_event = { id = JAP_Aizawa_Incident.6 days = 372 }
 	#######################
 	# Diplomacy
@@ -486,6 +503,16 @@ recruit_character = JAP_Kazuo_Aoki
 	set_autonomy = {
 		target = MAN
 		autonomous_state = AUTONOMY_Imperial_Protectorate
+	}
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 4500
+		producer = JAP
+	}
+	add_equipment_to_stockpile = {
+		type = Motorized_equipment
+		amount = 2000
+		producer = JAP
 	}
 }
 

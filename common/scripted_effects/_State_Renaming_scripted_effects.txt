@@ -113,6 +113,12 @@ State_Renaming_Base = {
         }
         State_Renaming_Greek = yes
     }
+	if = {
+        limit = {
+            ROOT = { State_Renaming_Yugoslavian = yes }
+        }
+        State_Renaming_Yugoslavian = yes
+    }
 }
 
 State_Renaming_Hebrew = {
@@ -257,6 +263,41 @@ State_Renaming_Bulgarian = {
             set_province_name = {
 				id = 922
 				name = VICTORY_POINTS_922_bulgarian
+			}
+        }
+    }
+    if = {
+        limit = {
+            FROM.FROM = { state = 184 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_184_bulgarian
+            set_province_name = {
+				id = 11774
+				name = VICTORY_POINTS_11774_bulgarian
+			}
+        }
+    }
+    if = {
+        limit = {
+            FROM.FROM = { state = 1109 }
+        }
+        FROM.FROM = {
+            set_province_name = {
+				id = 11905
+				name = VICTORY_POINTS_11905_bulgarian
+			}
+        }
+    }
+    if = {
+        limit = {
+            FROM.FROM = { state = 1110 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_1110_bulgarian
+            set_province_name = {
+				id = 6690
+				name = VICTORY_POINTS_6990_bulgarian
 			}
         }
     }
@@ -1478,6 +1519,355 @@ State_Renaming_German = {
 			}
         }
     }
+    if = {
+        limit = {
+            FROM.FROM = { state = 137 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_137_german
+            set_province_name = {
+				id = 3686
+				name = VICTORY_POINTS_3686_german
+			}
+            set_province_name = {
+				id = 13251
+				name = VICTORY_POINTS_13251_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 1 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_1_german
+            set_province_name = {
+				id = 3838
+				name = VICTORY_POINTS_3838_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 2 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_2_german
+            set_province_name = {
+				id = 9904
+				name = VICTORY_POINTS_9904_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 12 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_12_german
+            set_province_name = {
+				id = 310
+				name = VICTORY_POINTS_310_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 23 }
+        }
+        FROM.FROM = {
+            set_province_name = {
+				id = 6657
+				name = VICTORY_POINTS_6657_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 22 }
+        }
+        FROM.FROM = {
+			set_state_name = STATE_22_german
+            set_province_name = {
+				id = 9898
+				name = VICTORY_POINTS_9898_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 19 }
+        }
+        FROM.FROM = {
+            set_province_name = {
+				id = 9737
+				name = VICTORY_POINTS_9737_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 11 }
+        }
+        FROM.FROM = {
+			set_state_name = STATE_11_german
+            set_province_name = {
+				id = 6296
+				name = VICTORY_POINTS_6296_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 195 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_195_german
+            set_province_name = {
+				id = 3151
+				name = VICTORY_POINTS_3151_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 217 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_217_german
+            set_province_name = {
+				id = 3529
+				name = VICTORY_POINTS_3529_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 227 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_227_german
+            set_province_name = {
+				id = 6474
+				name = VICTORY_POINTS_6474_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 218 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_218_german
+            set_province_name = {
+				id = 9417
+				name = VICTORY_POINTS_9417_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 221 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_221_german
+            set_province_name = {
+				id = 418
+				name = VICTORY_POINTS_418_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 202 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_202_german
+            set_province_name = {
+				id = 525
+				name = VICTORY_POINTS_525_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 241 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_241_german
+            set_province_name = {
+				id = 9288
+				name = VICTORY_POINTS_9288_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 242 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_242_german
+            set_province_name = {
+				id = 306
+				name = VICTORY_POINTS_306_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 247 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_247_german
+            set_province_name = {
+				id = 6245
+				name = VICTORY_POINTS_6245_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 213 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_213_german
+            set_province_name = {
+				id = 3134
+				name = VICTORY_POINTS_3134_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 214 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_214_german
+            set_province_name = {
+				id = 3338
+				name = VICTORY_POINTS_3338_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 249 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_249_german
+            set_province_name = {
+				id = 6338
+				name = VICTORY_POINTS_6338_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 263 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_263_german
+            set_province_name = {
+				id = 117
+				name = VICTORY_POINTS_117_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 192 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_192_german
+            set_province_name = {
+				id = 11670
+				name = VICTORY_POINTS_11670_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 219 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_219_german
+            set_province_name = {
+				id = 6380
+				name = VICTORY_POINTS_6380_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 220 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_220_german
+            set_province_name = {
+				id = 3580
+				name = VICTORY_POINTS_3580_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 223 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_223_german
+            set_province_name = {
+				id = 6262
+				name = VICTORY_POINTS_6262_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 226 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_226_german
+            set_province_name = {
+				id = 11437
+				name = VICTORY_POINTS_11437_german
+			}
+			set_province_name = {
+				id = 11561
+				name = VICTORY_POINTS_11561_german
+			}
+        }
+    }
+	if = {
+        limit = {
+            FROM.FROM = { state = 236 }
+			
+        }
+        FROM.FROM = {
+			set_state_name = STATE_236_german
+            set_province_name = {
+				id = 9753
+				name = VICTORY_POINTS_9753_german
+			}
+        }
+    }
 }
 
 State_Renaming_Lithuanian = {
@@ -1858,6 +2248,66 @@ State_Renaming_Italian = {
             set_province_name = {
 				id = 914
 				name = VICTORY_POINTS_914_italian
+			}
+        }
+    }
+    if = {
+        limit = {
+            FROM.FROM = { state = 185 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_185_italian
+            set_province_name = {
+				id = 3914
+				name = VICTORY_POINTS_3914_italian
+			}
+        }
+    }
+    if = {
+        limit = {
+            FROM.FROM = { state = 815 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_815
+            set_province_name = {
+				id = 11564
+				name = VICTORY_POINTS_11564
+			}
+        }
+    }
+    if = {
+        limit = {
+            FROM.FROM = { state = 813 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_813
+            set_province_name = {
+				id = 11735
+				name = VICTORY_POINTS_11735
+			}
+        }
+    }
+    if = {
+        limit = {
+            FROM.FROM = { state = 814 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_814
+            set_province_name = {
+				id = 599
+				name = VICTORY_POINTS_599
+			}
+        }
+    }
+    if = {
+        limit = {
+            FROM.FROM = { state = 163 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_163
+            set_province_name = {
+				id = 3949
+				name = VICTORY_POINTS_3949
 			}
         }
     }
@@ -2492,4 +2942,55 @@ State_Renaming_Greek = {
 			}
         }
     }
+    if = {
+        limit = {
+            FROM.FROM = { state = 185 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_185
+            set_province_name = {
+				id = 3914
+				name = VICTORY_POINTS_3914
+			}
+        }
+    }
+    if = {
+        limit = {
+            FROM.FROM = { state = 184 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_184
+            set_province_name = {
+				id = 11774
+				name = VICTORY_POINTS_11774
+			}
+        }
+    }
+    if = {
+        limit = {
+            FROM.FROM = { state = 1109 }
+        }
+        FROM.FROM = {
+            set_province_name = {
+				id = 11905
+				name = VICTORY_POINTS_11905
+			}
+        }
+    }
+    if = {
+        limit = {
+            FROM.FROM = { state = 1110 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_1110
+            set_province_name = {
+				id = 6690
+				name = VICTORY_POINTS_6990
+			}
+        }
+    }
+}
+
+State_Renaming_Yugoslavian = {
+
 }

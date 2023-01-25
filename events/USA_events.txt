@@ -28,6 +28,7 @@ add_namespace = USA_Smoot_Hawley
 add_namespace = USA_Department_of_War
 add_namespace = USA_Wilkie_Dead
 add_namespace = USA_McNary_Dead
+add_namespace = USA_FDR_Dead
 add_namespace = USA_Philippines
 add_namespace = USA_Status_New_Territories
 add_namespace = USA_Capitulate_Japan
@@ -1052,8 +1053,15 @@ country_event = { # Senate Majority Leader Robinson Has Suffered a Health Scare!
 	is_triggered_only = yes
 	immediate = {
 		hidden_effect = {
-			news_event = { id = USA_Packing_the_Courts.12 days = 10 } # The Judicial Procedures Reform Bill Has Passed!
-			news_event = { id = USA_Packing_the_Courts.13 days = 10 } # The Judicial Procedures Reform Bill Has Failed!
+			if = {
+				limit = {
+					has_country_flag = USA_Support_Court_Packing
+				}
+				news_event = { id = USA_Packing_the_Courts.12 days = 10 } # The Judicial Procedures Reform Bill Has Passed!
+			}
+			else = {
+				news_event = { id = USA_Packing_the_Courts.13 days = 10 } # The Judicial Procedures Reform Bill Has Failed!
+			}
 		}
 	}
 	option = { # Thank God!
@@ -1067,9 +1075,6 @@ news_event = { # The Judicial Procedures Reform Bill Has Passed!
 	picture = GFX_news_USA_Capitol_Hill
 	fire_only_once = yes
 	is_triggered_only = yes
-	trigger = {
-		has_country_flag = USA_Support_Court_Packing
-	}
 	immediate = {
 		clr_country_flag = USA_Support_Court_Packing
 		set_country_flag = USA_Court_Packing_Pass
@@ -1220,12 +1225,14 @@ news_event = { # Roosevelt Inaugurated President
 	option = {
 		name = USA_Elections_1932.1.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Franklin D. Roosevelt"
-			desc = USA_Franklin_Roosevelt_desc
-			picture = GFX_P_D_Franklin_Roosevelt_1933
-			ideology = social_liberalism
-			traits = { POSITION_President SUBIDEOLOGY_Social_Liberalism }
+		add_country_leader_role = {
+			character = USA_Franklin_D_Roosevelt
+			promote_leader = yes
+			country_leader = {
+				desc = USA_Franklin_Roosevelt_desc
+				ideology = social_liberalism
+				traits = { POSITION_President SUBIDEOLOGY_Social_Liberalism }
+			}
 		}
 		remove_ideas = {
 			USA_Charles_Curtis_HoG
@@ -1524,16 +1531,6 @@ news_event = { # FDR's Second Inauguration
 		clr_country_flag = USA_DNC_1936_FDR
 		set_country_flag = USA_Roosevelt_1936
 		mark_focus_tree_layout_dirty = yes
-		hidden_effect = {
-			retire_country_leader = yes
-			create_country_leader = {
-				name = "Franklin D. Roosevelt"
-				desc = USA_Franklin_Roosevelt_desc
-				picture = GFX_P_D_Franklin_Roosevelt
-				ideology = social_liberalism
-				traits = { POSITION_President SUBIDEOLOGY_Social_Liberalism }
-			}
-		}
 	}
 }
 news_event = { # Inauguration of Alf Landon
@@ -1550,12 +1547,14 @@ news_event = { # Inauguration of Alf Landon
 	option = {
 		name = USA_Elections_1936.6.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Alf Landon"
-			desc = "Alf_Landon_desc"
-			picture = GFX_P_D_Alf_Landon
-			ideology = social_conservatism
-			traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+		add_country_leader_role = {
+			character = USA_Alf_Landon
+			promote_leader = yes
+			country_leader = {
+				desc = USA_Alf_Landon_desc
+				ideology = social_conservatism
+				traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+			}
 		}
 		remove_ideas = {
 			USA_John_Nance_Garner_HoG
@@ -1676,7 +1675,7 @@ country_event = { # United States presidential election, 1940 Republican Convent
 	trigger = {
 		original_tag = USA
 		date > 1940.5.16
-		NOT = {has_country_flag = USA_RNC_1936_Landon }
+		NOT = {has_country_flag = USA_Landon_1936 }
 	}
 	# The Dark Horse Wilkie is our choice!
 	option = {
@@ -1695,7 +1694,7 @@ country_event = { # United States presidential election, 1940 Democratic Convent
 	trigger = {
 		original_tag = USA
 		date > 1940.7.17
-		NOT = {has_country_flag = USA_RNC_1936_Landon }
+		NOT = {has_country_flag = USA_Landon_1936 }
 	}
 	# FDR is Indispensable.
 	option = {
@@ -1711,7 +1710,7 @@ country_event = { # Election Night 1940
 	trigger = {
 		original_tag = USA
 		date > 1940.11.4
-		NOT = {has_country_flag = USA_RNC_1936_Landon }
+		NOT = {has_country_flag = USA_Landon_1936 }
 	}
 	# Let's all drink to Wilkie!
 	option = {
@@ -1747,12 +1746,14 @@ news_event = { # Inauguration of Wendell Wilkie
 	option = {
 		name = USA_Elections_1940.4.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Wendell Willkie"
-			desc = "Wendell_Willkie_desc"
-			picture = GFX_P_D_Wendell_Wilkie
-			ideology = social_conservatism
-			traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+		add_country_leader_role = {
+			character = USA_Wendell_Willkie
+			promote_leader = yes
+			country_leader = {
+				desc = USA_Wendell_Wilkie_desc
+				ideology = social_conservatism
+				traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+			}
 		}
 		remove_ideas = USA_Charles_Curtis_HoG
 		add_ideas = USA_Charles_McNary_HoG
@@ -1768,9 +1769,6 @@ news_event = { # Inauguration of Wendell Wilkie
 					idea_token = USA_Henry_Luce_FM
 					traits = {
 						
-					}
-					allowed = {
-						tag = USA
 					}
 				}
 			}
@@ -1788,9 +1786,6 @@ news_event = { # Inauguration of Wendell Wilkie
 					traits = {
 						
 					}
-					allowed = {
-						tag = USA
-					}
 				}
 			}
 		}
@@ -1807,9 +1802,6 @@ news_event = { # Inauguration of Wendell Wilkie
 					traits = {
 						
 					}
-					allowed = {
-						tag = USA
-					}
 				}
 			}
 		}
@@ -1825,9 +1817,6 @@ news_event = { # Inauguration of Wendell Wilkie
 					idea_token = USA_Robert_A_Taft_FM
 					traits = {
 						
-					}
-					allowed = {
-						tag = USA
 					}
 				}
 			}
@@ -1856,6 +1845,14 @@ news_event = { # FDR's Third Inauguration
 		name = USA_Elections_1940.5.A
 		set_country_flag = USA_FDR_Wins_1940_Election
 		mark_focus_tree_layout_dirty = yes
+		set_portraits = {
+			character = USA_Franklin_D_Roosevelt
+			civilian = { large ="GFX_P_D_Franklin_Roosevelt_1940" }
+		}
+		remove_ideas = {
+			USA_John_Nance_Garner_HoG
+		}
+		activate_advisor = USA_Henry_A_Wallace_HoG
 	}
 }
 ## USA Election 1940 Unhistorical
@@ -1868,7 +1865,7 @@ country_event = { # Republican Convention
 	trigger = {
 		original_tag = USA
 		date > 1940.5.16
-		has_country_flag = USA_RNC_1936_Landon
+		has_country_flag = USA_Landon_1936
 	}
 	# Landon will prevail again!
 	option = {
@@ -1884,7 +1881,7 @@ country_event = { # Democratic Convention
 	trigger = {
 		original_tag = USA
 		date > 1940.7.17
-		has_country_flag = USA_RNC_1936_Landon
+		has_country_flag = USA_Landon_1936
 	}
 	# We'll need our Texan Superstar!
 	option = {
@@ -1904,7 +1901,7 @@ country_event = { # Election Night 1940
 	trigger = {
 		original_tag = USA
 		date > 1940.11.4
-		has_country_flag = USA_RNC_1936_Landon
+		has_country_flag = USA_Landon_1936
 	}
 	# Here's to Four More years of Compromise!
 	option = {
@@ -1948,15 +1945,27 @@ news_event = { # Inauguration of John Nance Garner
 	option = {
 		name = USA_Elections_1940.10.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "John Nance Garner"
-			desc = "John_Nance_Garner_desc"
-			picture = GFX_P_D_John_Nance_Garner
-			ideology = social_conservatism
-			traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+		add_country_leader_role = {
+			character = USA_John_Nance_Garner
+			promote_leader = yes
+			country_leader = {
+				desc = USA_John_Nance_Garner_desc
+				ideology = social_conservatism
+				traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism L_Cactus_Jack }
+			}
 		}
 		remove_ideas = USA_Frank_Knox_HoG
-		add_ideas = USA_Henry_Wallace_HoG
+		add_advisor_role = {
+			character = USA_James_Farley
+			activate = yes
+			advisor = {
+				slot = Head_of_Government
+				idea_token = USA_Henry_Luce_HoG
+				traits = {
+					POSITION_Vice_President
+				}
+			}
+		}
 		set_country_flag = USA_John_Nance_Garner_Wins_1940_Election
 		mark_focus_tree_layout_dirty = yes
 		set_party_name = { 
@@ -2041,12 +2050,13 @@ news_event = { # Inauguration of Tomas E. Dewey
 	option = {
 		name = USA_Elections_1944.4.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Thomas E. Dewey"
-			desc = "Thomas_E_Dewey_desc"
-			picture = GFX_P_D_Thomas_E_Dewey
-			ideology = social_conservatism
-			traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+		add_country_leader_role = {
+			character = USA_Thomas_E_Dewey
+			promote_leader = yes
+			country_leader = {
+				ideology = social_conservatism
+				traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+			}
 		}
 		add_ideas = USA_John_Bricker_HoG
 		mark_focus_tree_layout_dirty = yes
@@ -2074,6 +2084,10 @@ news_event = { # FDR's Fourth Inauguration
 		remove_ideas = USA_Charles_Curtis_HoG
 		add_ideas = USA_Harry_S_Truman_HoG
 		mark_focus_tree_layout_dirty = yes
+		set_portraits = {
+			character = USA_Franklin_D_Roosevelt
+			civilian = { large ="GFX_P_D_Franklin_Roosevelt_1944" }
+		}
 	}
 }
 #########################################################################
@@ -3313,8 +3327,8 @@ country_event = {
 	option = {
 		name = USA_Army.3.A
 		army_experience = 20
-		add_tech_bonus = {
-			bonus = 0.4
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.2
 			uses = 2
 			category = land_doctrine
 		}
@@ -5267,7 +5281,14 @@ country_event = {
 
 	option = {
 		name = USA_1940_1944_Wilkie.12.A
-		#WIP
+		complete_national_focus = USA_We_Shall_Keep_Fighting
+	}
+	option = {
+		name = USA_1940_1944_Wilkie.12.B
+		trigger = {
+			has_country_flag = USA_Robert_A_Taft_SoS
+		}
+		complete_national_focus = USA_A_Return_to_Isolation
 	}
 }
 
@@ -5281,15 +5302,50 @@ news_event = {
 	major = yes
 	option = {
 		name = USA_1940_1944_Wilkie.13.A
+		trigger = {
+			tag = USA
+		}
+	}
+	option = {
+		name = USA_1940_1944_Wilkie.13.B
+		trigger = {
+			OR = {
+				tag = GER
+				is_in_faction_with = GER
+			}
+		}
+	}
+	option = {
+		name = USA_1940_1944_Wilkie.13.C
+		trigger = {
+			OR = {
+				tag = ENG
+				is_in_faction_with = ENG
+			}
+		}
+	}
+	option = {
+		name = USA_1940_1944_Wilkie.13.D
+		trigger = {
+			NOT = {
+				OR = {
+					tag = USA
+					tag = ENG
+					is_in_faction_with = ENG
+					tag = GER
+					is_in_faction_with = GER
+				}
+			}
+		}
 	}
 }
 
 # Rally In Seattle
-news_event = {
+country_event = {
 	id = USA_1940_1944_Wilkie.14
 	title = USA_1940_1944_Wilkie.14.t
 	desc = USA_1940_1944_Wilkie.14.d
-	picture = GFX_news_USA_Bank_Holiday
+	picture = GFX_report_USA_1940_DNC_Roosevelt
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -5300,11 +5356,11 @@ news_event = {
 }
 
 # President Taft Addresses the Nation!
-news_event = {
+country_event = {
 	id = USA_1940_1944_Wilkie.15
 	title = USA_1940_1944_Wilkie.15.t
 	desc = USA_1940_1944_Wilkie.15.d
-	picture = GFX_news_USA_Capitol_Hill
+	picture = GFX_report_USA_Capitol
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -5316,11 +5372,11 @@ news_event = {
 }
 
 # President Wilkie Dead!
-news_event = {
+country_event = {
 	id = USA_Wilkie_Dead.1
 	title = USA_Wilkie_Dead.1.t
 	desc = USA_Wilkie_Dead1.d
-	picture = GFX_news_USA_Bank_Holiday
+	picture = GFX_report_USA_Capitol
 	fire_only_once = yes
 	trigger = {
 		tag = USA
@@ -5333,29 +5389,31 @@ news_event = {
 	option = {
 		name = USA_Wilkie_Dead.1.A
 		kill_country_leader = yes
-		create_country_leader = {
-			name = "Charles L. McNary"
-			desc = "Charles_McNary_desc"
-			picture = GFX_Charles_McNary
-			ideology = social_conservatism
-			traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+		add_country_leader_role = {
+			character = USA_Charles_McNary
+			promote_leader = yes
+			country_leader = {
+				desc = USA_Charles_McNary_desc
+				ideology = social_conservatism
+				traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+			}
 		}
+		deactivate_advisor = USA_Charles_McNary_HoG
 	}
 }
 
 # President McNary Dead!
-news_event = {
+country_event = {
 	id = USA_McNary_Dead.1
 	title = USA_McNary_Dead.1.t
 	desc = USA_McNary_Dead.1.d
-	picture = GFX_news_USA_Bank_Holiday
+	picture = GFX_report_USA_Capitol
 	fire_only_once = yes
 	trigger = {
 		tag = USA
 		date > 1944.2.21
 		has_country_leader = {
-			name = "Charles L. McNary"
-			ruling_only = yes
+			character = USA_Charles_McNary
 		}
 	}
 	option = {
@@ -5370,6 +5428,7 @@ news_event = {
 				character = USA_Henry_Luce
 				promote_leader = yes
 				country_leader = {
+					desc = USA_Harold_Stassen_desc
 					ideology = social_conservatism
 					expire = "1964.1.1"
 					traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
@@ -5384,6 +5443,7 @@ news_event = {
 				character = USA_Harold_Stassen
 				promote_leader = yes
 				country_leader = {
+					desc = USA_Henry_Luce_desc
 					ideology = social_conservatism
 					expire = "1964.1.1"
 					traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
@@ -5398,6 +5458,7 @@ news_event = {
 				character = USA_Raymond_E_Baldwin
 				promote_leader = yes
 				country_leader = {
+					desc = USA_Raymond_Baldwin_desc
 					ideology = social_conservatism
 					expire = "1964.1.1"
 					traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
@@ -5412,10 +5473,68 @@ news_event = {
 				character = USA_Robert_A_Taft
 				promote_leader = yes
 				country_leader = {
+					desc = USA_Robert_Taft_desc
 					ideology = social_conservatism
 					expire = "1964.1.1"
 					traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
 				}
+			}
+		}
+	}
+}
+
+# An Unfinished Portrait
+country_event = {
+	id = USA_FDR_Dead.1
+	title = USA_FDR_Dead.1.t
+	desc = USA_FDR_Dead.1.d
+	picture = GFX_report_USA_Capitol
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		date > 1945.4.12
+		has_country_leader = {
+			ruling_only = yes
+			name = "Franklin D. Roosevelt"
+		}
+	}
+	option = {
+		name = USA_FDR_Dead.1.A
+		kill_country_leader = yes
+		add_country_leader_role = {
+			character = USA_Harry_S_Truman
+			promote_leader = yes
+			country_leader = {
+				desc = USA_Harry_S_Truman_desc
+				ideology = social_conservatism
+				expire = "1964.1.1"
+				traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism }
+			}
+		}
+		hidden_effect = {
+			news_event = { id = USA_FDR_Dead.2 hours = 6 }
+		}
+	}
+}
+# President Roosevelt Dead!
+news_event = {
+	id = USA_FDR_Dead.2
+	title = USA_FDR_Dead.2.t
+	desc = USA_FDR_Dead.2.d
+	picture = GFX_news_USA_FDR_Death
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = USA_FDR_Dead.2.A
+		trigger = {
+			tag = USA
+		}
+	}
+	option = {
+		name = USA_FDR_Dead.2.B
+		trigger = {
+			NOT = {
+				tag = USA
 			}
 		}
 	}

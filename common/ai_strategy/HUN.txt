@@ -9,6 +9,41 @@
 # garrison
 # protect
 # influence
+# Sets AI ignorance of claims against the specified tag. Accepts 1 as a value.
+# In this way Italy won't justify wargoals where they have a claim
+HUN_ignore_claims = {
+	allowed = {
+		tag = HUN
+	}
+	enable = {
+		NOT = {
+			HUN = {
+				has_war = yes
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = ignore_claim
+		id = "SLO"
+		value = 1
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = "YUG"
+		value = 1
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = "ROM"
+		value = 1
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = "GER"
+		value = 1
+	}
+}
 # Hungary declares war to Carpatho-Ukraine
 Hungary_war_with_Carpatho_Ukraine = {
 	enable = {

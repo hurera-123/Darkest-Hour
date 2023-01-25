@@ -52,6 +52,6 @@
  STATE_DECISION_4: "Cede Claimed State"
  STATE_DECISION_4_DESC: "§Y[This.GetName]§! is claimed by another existing country. We should cede it to them. \nIf we have any core or claim in §Y[This.GetName]§!, we will lose that."
  STATE_DECISION_5: "Seize Land for Industry"
- STATE_DECISION_5_DESC: "§Y[This.GetName]§! does not have enough government property on which we could extend our war industry. We should size some land to be able to use it for important factories and buildings."
+ STATE_DECISION_5_DESC: "§Y[This.GetName]§! does not have enough government property on which we could extend our war industry. We should seize some land to be able to use it for important factories and buildings."
  STATE_DECISION_6: "Resource Rights Administration"
  STATE_DECISION_6_DESC: "As their master, it's our right to demand their resources to be used directly by us... and even if it wouldn't be our right, what could they do? \n\nIf we already have demanded rights to the resources in §Y[This.GetName]§! of §Y[This.Owner.GetName]§!, this decision will make us give up our rights for these resources again. After enacting, it will be available again after §Y30§! days."

@@ -57,10 +57,76 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = test.1.A
-		hidden_effect = {
-			remove_ideas_with_trait = Position_Foreign_Minister
-			remove_ideas_with_trait = Position_Minister_of_Security
-			remove_ideas_with_trait = Position_Armaments_Minister
+		add_corps_commander_role = {
+			character = FRA_Jean_Barrau
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			traits = {
+				jungle_rat
+			}
+		}
+		add_corps_commander_role = {
+			character = FRA_Paul_Beynet
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		add_corps_commander_role = {
+			character = FRA_Henri_Dentz
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		add_corps_commander_role = {
+			character = FRA_Aime_Doumenc
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+			traits = {
+				war_hero
+				infantry_leader
+				trickster
+				unyielding_defender
+			}
+		}
+		add_corps_commander_role = {
+			character = FRA_Aubert_Frere
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
+			traits = {
+				trickster
+			}
+		}
+		add_corps_commander_role = {
+			character = FRA_Emile_Laure
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		add_corps_commander_role = {
+			character = FRA_Eugene_Mittelhauser
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			traits = {
+				infantry_officer
+			}
 		}
 	}
 }
@@ -1053,7 +1119,7 @@ news_event = {
 		name = FRA_Reform_of_the_State.8.A
 		remove_ideas = FRA_The_Third_Republic_2
 		add_ideas = FRA_Renaissance_Republicaine
-		complete_national_focus = FRA_The_Reform_is_a_Success
+		complete_national_focus = FRA_National_republican_League
 		clr_country_flag = FRA_Launched_the_Reform_of_the_State
 		set_country_flag = FRA_Reform_of_the_State_Success
 		mark_focus_tree_layout_dirty = yes
@@ -1197,7 +1263,7 @@ country_event = {
 				YUG = {
 					deactivate_advisor = YUG_Aleksandar_I_HoG
 					set_country_flag = Aleksandar_I_unavailable
-					add_ideas = YUG_Petar_II_HoG
+					add_ideas = YUG_Prince_Paul_HoG
 				}
 				news_event = { id = FRA_Assassination_of_Alexander_I.9 days = 2 }
 			}
@@ -1212,7 +1278,7 @@ country_event = {
 						YUG = {
 							deactivate_advisor = YUG_Aleksandar_I_HoG
 							set_country_flag = Aleksandar_I_unavailable
-							add_ideas = YUG_Petar_II_HoG
+							add_ideas = YUG_Prince_Paul_HoG
 						}
 						news_event = { id = FRA_Assassination_of_Alexander_I.9 days = 2 }
 					}
@@ -1222,7 +1288,7 @@ country_event = {
 						YUG = {
 							deactivate_advisor = YUG_Aleksandar_I_HoG
 							set_country_flag = Aleksandar_I_unavailable
-							add_ideas = YUG_Petar_II_HoG
+							add_ideas = YUG_Prince_Paul_HoG
 						}
 						country_event = { id = FRA_Assassination_of_Alexander_I.10 days = 2 }
 					}
@@ -2151,10 +2217,29 @@ country_event = {
 	option = {
 		name = FRA_Front_Populaire_1936.11.A
 		retire_country_leader = yes
-		FRA_Camille_Chautemps = { promote_character = yes } #Could not work if chautemps has never been leader before
 		add_days_mission_timeout = {
 			mission = FRA_Le_Front_Populaire
 			days = -93
+		}
+		if = {
+			limit = { has_country_flag = Chautemps_Appointed }
+			retire_country_leader = yes
+			FRA_Camille_Chautemps = {promote_character = yes}
+		}
+		else = {
+			set_country_flag = Chautemps_Appointed
+			retire_country_leader = yes
+			add_country_leader_role = {
+				Character = FRA_Camille_Chautemps
+				Promote_leader = yes
+				Country_leader = {
+					ideology = social_democracy
+					traits = {
+						POSITION_Prime_Minister
+						L_Silent_Workhorse
+					}
+				}
+			}
 		}
 	}
 }
@@ -2290,6 +2375,7 @@ news_event = {
 		name = FRA_Front_Populaire_1936.3.A
 		add_political_power = 100
 		add_stability = 0.05
+		remove_ideas = FRA_The_Third_Republic_2
 		set_temp_variable = { party_id = 6 }
 		remove_party_from_parliament = yes
 		set_country_flag = FRA_SFIO_Renamed_to_USF
@@ -2587,6 +2673,11 @@ country_event = {
 			has_country_flag = FRA_Crisis
 		}
 	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
 	option = {
 		name = FRA_Government_Collapse.1.A
 		country_event = { id = FRA_Government_Collapse.2 }
@@ -2986,6 +3077,7 @@ country_event = {
 		retire_character = FRA_Maurice_Gamelin
 		hidden_effect = {
 			news_event = { id = FRA_Army.2 days = 4 }
+			set_country_flag = Maurice_Gamelin_unavailable
 		}
 	}
 	option = {
@@ -3038,9 +3130,10 @@ country_event = {
 		add_ideas = FRA_Charles_de_Gaulle_CoArmy
 		add_political_power = -50
 		custom_effect_tooltip = FRA_Abandon_The_Maginot_Line_tt
-		set_country_flag = FRA_Abandon_The_Maginot_Line
 		hidden_effect = {
+			set_country_flag = FRA_Abandon_The_Maginot_Line
 			set_country_flag = Henri_Mordacq_unavailable
+			set_country_flag = DeGaulle_Promoted
 		}
 	}
 	option = {
@@ -3048,7 +3141,10 @@ country_event = {
 		add_ideas = FRA_Henri_Mordacq_CoArmy
 		add_political_power = -75
 		custom_effect_tooltip = FRA_Abandon_The_Maginot_Line_tt
-		set_country_flag = FRA_Abandon_The_Maginot_Line
+		hidden_effect = {
+			set_country_flag = FRA_Abandon_The_Maginot_Line
+			set_country_flag = Mordacq_Promoted
+		}
 	}
 }
 #########################################################################
@@ -3639,9 +3735,9 @@ news_event = {
 	# 
 	option = {
 		name = FRA_Gamelin_Meets_Bodoglio.1.A
-		add_tech_bonus = {
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.5
 			uses = 1
-			bonus = 1
 			category = land_doctrine
 		}
 	}
@@ -3752,20 +3848,29 @@ country_event = {
 
 #WW2
 # France Mobilises
-country_event = {
+news_event = {
 	id = FRA_Wartime_Tree.0
 	title = FRA_Wartime_Tree.0.t
 	desc = FRA_Wartime_Tree.0.d
 	picture = GFX_
 	fire_only_once = yes
-	is_triggered_only = yes
+	trigger = {
+		original_tag = FRA
+		has_war_with_major = yes
+	}
 	
 	option = {
 		name = FRA_Wartime_Tree.0.A
 		trigger = {
 			tag = FRA
 		}
-		add_threat = 0.05
+		add_threat = 5
+		hidden_effect = {
+			add_ideas = three_year_service
+			set_country_flag = FRA_General_Mobilization
+			mark_focus_tree_layout_dirty = yes
+			complete_national_focus = FRA_General_Mobilization
+		}
 	}
 	option = {
 		name = FRA_Wartime_Tree.0.B
@@ -3899,7 +4004,7 @@ country_event = {
 	trigger = {
 		tag = FRA
 		has_defensive_war_with = GER
-		surrender_progress > 0.4
+		surrender_progress > 0.35
 	}
 	
 	option = {
@@ -3919,6 +4024,9 @@ country_event = {
 		tag = FRA
 		has_defensive_war_with = GER
 		surrender_progress > 0.5
+		ENG = {
+			has_war_with = GER
+		}
 	}
 	
 	option = {
@@ -3934,18 +4042,44 @@ country_event = {
 		ai_chance = {
 			base = 0
 		}
-		ENG = {
-			annex_country = {
-				target = FRA
-				transfer_troops = yes
+		hidden_effect = {
+			every_country = {
+				limit = {
+						is_subject_of = FRA
+				}
+				ENG = {
+					set_autonomy = {
+						target = PREV
+						autonomy_state = AUTONOMY_Protectorate
+					}
+			   }
+			   	set_politics = {
+					ruling_party = authoritarian
+				}
+				add_popularity = {
+					ideology = authoritarian
+					popularity = 0.5
+				}
+			}	 
+			ENG = {
+				annex_country = { target = FRA transfer_troops = yes }
+				change_tag_from = FRA
 			}
-		}
-		every_state = {
-			limit = {
-				is_core_of = FRA
+			every_state = {
+				limit = {
+					is_core_of = FRA
+				}
+				add_core_of = ENG
 			}
-			add_core_of = ENG
-		}
+			FRA = {
+				every_unit_leader = {
+					set_unit_leader_flag = flag_former_french_general
+					set_nationality = ENG
+				}
+			}
+			ENG = { set_cosmetic_tag = FRA_UK }
+			set_global_flag = Franco_British_Union
+		} 
 	}
 }
 
@@ -3959,8 +4093,11 @@ country_event = {
 	trigger = {
 		tag = FRA
 		has_defensive_war_with = GER
-		surrender_progress > 0.6
+		surrender_progress > 0.55
 		has_country_flag = FRA_defeatist_in_place
+		GER = {
+			controls_state = 16
+		}
 	}
 	
 	option = {
@@ -4016,7 +4153,26 @@ country_event = {
 	
 	option = {
 		name = FRA_Wartime_Tree.10.A
-		
+		trigger = {
+			NOT = {
+				has_country_flag = Maurice_Gamelin_unavailable
+			}
+		}
+		add_ideas = FRA_Maurice_Gamelin_CoStaff
+	}
+	option = {
+		name = FRA_Wartime_Tree.10.B
+		trigger = {
+			has_country_flag = Mordacq_Promoted
+		}
+		add_ideas = FRA_Henri_Mordacq_CoStaff
+	}
+	option = {
+		name = FRA_Wartime_Tree.10.C
+		trigger = {
+			has_country_flag = DeGaulle_Promoted
+		}
+		add_ideas = FRA_Charles_de_Gaulle_CoStaff
 	}
 }
 
@@ -4029,7 +4185,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		tag = FRA
-		has_offensive_war_with = GER
+		has_war_with = GER
 		GER = {
 			surrender_progress > 0.5
 		}
@@ -4050,7 +4206,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		tag = FRA
-		has_offensive_war_with = GER
+		has_war_with = GER
 		GER = {
 			surrender_progress > 0.6
 		}
@@ -4072,7 +4228,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		tag = FRA
-		has_offensive_war_with = GER
+		has_war_with = GER
 		GER = {
 			surrender_progress > 0.7
 		}
@@ -4093,7 +4249,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		tag = FRA
-		has_offensive_war_with = GER
+		has_war_with = GER
 		GER = {
 			surrender_progress > 0.8
 		}
@@ -4417,6 +4573,16 @@ country_event = {
 						}
 						transfer_state_to = ITA
 					}
+				}
+			}
+			if = {
+				limit = {
+					TUN = {
+						owns_state = 1228
+					}
+				}
+				ITA = {
+					transfer_state = 1228
 				}
 			}
 			FRA = {

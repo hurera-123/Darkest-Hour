@@ -4,7 +4,8 @@
 
 # First of all make a sound so that the game can find the location of the file
 # Then make a soundeffect, in there you can change a bunch of things, to know more visit https://hoi4.paradoxwikis.com/Sound_modding
-# Finally add in the event/focus/decision whatever sound_effect = "sound_test_2"
+# Finally add in the event/focus/decision, sound_effect = "sound_test_2" (sound_effect is global) 
+# or scoped_sound_effect = "sound_test_2" (scoped_sound_effect is for the current scope)
 # Remember that the files must be .wav
 
 #sound = {
@@ -30,6 +31,13 @@ category = {
 		GER_Remilitarization_of_the_Rhineland_Soundeffect
 		ENG_We_Shall_Never_Surrender_Soundeffect
 		GER_Death_of_Hindenburg_Soundeffect
+		GER_Book_Burning_Soundeffect
+		GER_Invasion_of_Poland_Soundeffect
+		SPR_Spanish_Civil_War_Soundeffect
+		ITA_Invasion_of_Ethiopia_Soundeffect
+		USA_Bombing_of_Washington_Soundeffect
+		GER_Third_Threaty_of_Vers_Soundeffect
+		GER_Hitler_Visits_Paris_Soundeffect
 	}
 	
 	compressor = {
@@ -110,5 +118,103 @@ soundeffect = {
 	volume = 1
 	sounds = {
 		sound = GER_Death_of_Hindenburg
+	} 
+}
+
+sound = {
+	name = "GER_Book_Burning"
+	file = "sound_effects/GER_Book_Burning.wav"
+	always_load = yes
+}
+
+soundeffect = {
+	name = GER_Book_Burning_Soundeffect
+	volume = 1
+	sounds = {
+		sound = GER_Book_Burning
+	} 
+}
+
+sound = {
+	name = "GER_Invasion_of_Poland"
+	file = "sound_effects/GER_Invasion_of_Poland.wav"
+	always_load = yes
+}
+
+soundeffect = {
+	name = GER_Invasion_of_Poland_Soundeffect
+	volume = 1
+	sounds = {
+		sound = GER_Invasion_of_Poland
+	} 
+}
+
+sound = {
+	name = "SPR_Spanish_Civil_War"
+	file = "sound_effects/SPR_Spanish_Civil_War.wav"
+	always_load = yes
+}
+
+soundeffect = {
+	name = SPR_Spanish_Civil_War_Soundeffect
+	volume = 1
+	sounds = {
+		sound = SPR_Spanish_Civil_War
+	} 
+}
+
+sound = {
+	name = "ITA_Invasion_of_Ethiopia"
+	file = "sound_effects/ITA_Invasion_of_Ethiopia.wav"
+	always_load = yes
+}
+
+soundeffect = {
+	name = ITA_Invasion_of_Ethiopia_Soundeffect
+	volume = 1
+	sounds = {
+		sound = ITA_Invasion_of_Ethiopia
+	} 
+}
+
+sound = {
+	name = "USA_Bombing_of_Washington"
+	file = "sound_effects/USA_Bombing_of_Washington.wav"
+	always_load = yes
+}
+
+soundeffect = {
+	name = USA_Bombing_of_Washington_Soundeffect
+	volume = 1
+	sounds = {
+		sound = USA_Bombing_of_Washington
+	} 
+}
+
+sound = {
+	name = "GER_Third_Threaty_of_Vers"
+	file = "sound_effects/GER_Third_Threaty_of_Vers.wav"
+	always_load = yes
+}
+
+soundeffect = {
+	name = GER_Third_Threaty_of_Vers_Soundeffect
+	volume = 1
+	sounds = {
+		sound = GER_Third_Threaty_of_Vers
+	} 
+}
+
+sound = {
+	name = "GER_Hitler_Visits_Paris"
+	file = "sound_effects/GER_Hitler_Visits_Paris.wav"
+	always_load = yes
+}
+
+soundeffect = {
+	name = GER_Hitler_Visits_Paris_Soundeffect
+	volume = 1
+	sounds = {
+		sound = GER_Hitler_Visits_Paris
 	} 
 }

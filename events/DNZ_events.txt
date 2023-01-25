@@ -30,6 +30,29 @@ country_event = {
 }
 
 ######################################
+# Hidden event that triggers DNZ_Politics.2
+######################################
+country_event = {
+	id = DNZ_Politics.22
+	title = DNZ_Politics.22.t
+	desc = DNZ_Politics.22.d
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		tag = DNZ
+		NOT = { has_government = fascist }
+		fascist_largest_ideology = yes
+		date > 1933.5.28
+	}
+	option = {
+		name = DNZ_Politics.22.A
+		DNZ = {
+			news_event = { id = DNZ_Politics.2 }
+		}
+	}
+}
+
+######################################
 # Nazi takeover in Danzig
 ######################################
 news_event = {
@@ -37,13 +60,8 @@ news_event = {
 	title = DNZ_Politics.2.t
 	desc = DNZ_Politics.2.d
 	picture = GFX_news_DNZ_Nazi_Leadership
-	trigger = {
-		tag = DNZ
-		NOT = { has_government = fascist }
-		fascist_largest_ideology = yes
-		date > 1933.5.28
-	}
-	major=yes
+	is_triggered_only = yes
+	major = yes
 	option = {
 		name = DNZ_Politics.2.A
 		trigger = {

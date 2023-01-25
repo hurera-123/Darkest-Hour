@@ -1,4 +1,28 @@
 characters={
+	USA_Franklin_D_Roosevelt = {
+		name=USA_Franklin_D_Roosevelt
+		portraits={
+			civilian={
+				large="GFX_P_D_Franklin_Roosevelt_1933"
+			}
+		}
+	}
+	USA_Alf_Landon= {
+		name=USA_Alf_Landon
+		portraits={
+			civilian={
+				large="GFX_P_D_Alf_Landon"
+			}
+		}
+	}
+	USA_Wendell_Willkie= {
+		name=USA_Wendell_Willkie
+		portraits={
+			civilian={
+				large="GFX_P_D_Wendell_Willkie"
+			}
+		}
+	}
 	USA_Fritz_Kuhn = {
 		name=USA_Fritz_Kuhn
 		portraits={
@@ -9,7 +33,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Fritz_Kuhn_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -50,75 +74,6 @@ characters={
 				large = "GFX_M_John_J_Pershing"
 			}
 		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=USA_John_J_Pershing_HoG
-			removal_cost = -1
-			allowed={
-				tag=USA
-			}
-			visible={
-				date > 1900.01.01
-				date < 1924.01.01
-				A_Minister_Allowed = yes
-				NOT = { has_country_flag = John_J_Pershing_unavailable }
-			}
-			traits={
-				
-				L_Old_General
-			}
-		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=USA_John_J_Pershing_AM
-			allowed={
-				tag=USA
-			}
-			visible={
-				date > 1900.01.01
-				date < 1924.01.01
-				A_Minister_Allowed = yes
-				NOT = { has_country_flag = John_J_Pershing_unavailable }
-			}
-			traits={
-				
-				AM_Infantry_Proponent
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=USA_John_J_Pershing_CoStaff
-			allowed={
-				tag=USA
-			}
-			visible={
-				date > 1921.01.01
-				date < 1924.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = John_J_Pershing_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Mass_Combat
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=USA_John_J_Pershing_CoArmy
-			allowed={
-				tag=USA
-			}
-			visible={
-				date > 1921.01.01
-				date < 1924.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = John_J_Pershing_unavailable }
-			}
-			traits={
-				
-				CoArmy_Guns_And_Butter_Doctrine
-			}
-		}
 	}
 	USA_HR_Mengert = {
 		name=USA_HR_Mengert
@@ -130,7 +85,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_HR_Mengert_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -173,7 +128,7 @@ characters={
 		advisor={
 			slot=Minister
 			idea_token=USA_Homer_S_Cummings_M
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -201,7 +156,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Gerald_K_Smith_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -244,7 +199,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Robert_E_Wood_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -287,7 +242,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Dr_Samuel_Green_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -372,7 +327,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Burton_K_Wheeler_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -415,7 +370,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Charles_Curtis_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -435,14 +390,15 @@ characters={
 	USA_Charles_McNary = {
 		name=USA_Charles_McNary
 		portraits={
-			army={
+			civilian={
 				small="GFX_idea_Charles_McNary"
+				large = "GFX_P_D_Charles_L_McNary"
 			}
 		}
 		advisor={
 			slot=Foreign_Minister
 			idea_token=USA_Charles_McNary_FM
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -460,7 +416,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Charles_McNary_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -486,7 +442,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Henry_A_Wallace_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -513,7 +469,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=USA_Cordell_Hull_FM
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -531,7 +487,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Cordell_Hull_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -575,7 +531,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Lawrence_Dennis_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -601,7 +557,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Frank_Knox_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -644,7 +600,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_John_Bricker_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -671,7 +627,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Earl_Warren_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -822,7 +778,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Charles_W_Bryan_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -848,7 +804,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Joseph_Taylor_Robinson_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -867,14 +823,15 @@ characters={
 	USA_John_Nance_Garner = {
 		name=USA_John_Nance_Garner
 		portraits={
-			army={
+			civilian={
 				small="GFX_idea_John_Nance_Garner"
+				large = "GFX_P_D_John_Nance_Garner"
 			}
 		}
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_John_Nance_Garner_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -901,7 +858,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Harry_L_Hopkins_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -944,7 +901,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Joel_B_Clark_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -970,7 +927,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Harry_S_Truman_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -997,7 +954,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Alben_W_Barkley_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1023,7 +980,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Allan_L_Benson_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1049,7 +1006,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Morris_Hillquit_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1075,7 +1032,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_James_Cannon_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1101,7 +1058,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Joseph_P_Lash_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1144,7 +1101,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_William_Z_Foster_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1170,7 +1127,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Benjamin_Gitlow_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1213,7 +1170,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_Martin_Abern_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1256,7 +1213,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=USA_James_W_Ford_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1350,7 +1307,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=USA_Ray_Lymon_Wilbur_MoS
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1476,7 +1433,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=USA_William_Borah_MoS
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -1552,7 +1509,7 @@ characters={
 		advisor={
 			slot=Minister_of_Security
 			idea_token=USA_Harold_Ickes_MoS
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -2497,7 +2454,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=USA_Ogden_L_Mills_AM
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -2773,7 +2730,7 @@ characters={
 		advisor={
 			slot=Armaments_Minister
 			idea_token=USA_William_H_Woodin_AM
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -2824,7 +2781,7 @@ characters={
 		advisor={
 			slot=Foreign_Minister
 			idea_token=USA_Henry_L_Stimson_FM
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -3501,31 +3458,6 @@ characters={
 			}
 		}
 	}
-	USA_Dennis_E_Nolan = {
-		name=USA_Dennis_E_Nolan
-		portraits={
-			army={
-				small="GFX_idea_Dennis_E_Nolan"
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=USA_Dennis_E_Nolan_HoI
-			allowed={
-				tag=USA
-			}
-			visible={
-				date > 1920.01.01
-				date < 1937.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Dennis_E_Nolan_unavailable }
-			}
-			traits={
-				
-				HoI_Logistics_Specialist
-			}
-		}
-	}
 	USA_Stuart_Heintzelman = {
 		name=USA_Stuart_Heintzelman
 		portraits={
@@ -3636,7 +3568,7 @@ characters={
 		advisor={
 			slot=Head_of_Intelligence
 			idea_token=USA_William_F_Friedman_HoI
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -3776,23 +3708,6 @@ characters={
 				HoI_Logistics_Specialist
 			}
 		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=USA_Walter_BedellSmith_CoStaff
-			allowed={
-				tag=USA
-			}
-			visible={
-				date > 1942.01.01
-				date < 1962.01.01
-				D_Minister_Allowed = yes
-				NOT = { has_country_flag = Walter_BedellSmith_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Fire_Support
-			}
-		}
 	}
 	USA_Sidney_Souers = {
 		name=USA_Sidney_Souers
@@ -3894,29 +3809,112 @@ characters={
 			}
 		}
 	}
-	USA_Larry_K_Arnold = {
-		name=USA_Larry_K_Arnold
+	USA_Briant_H_Wells= {
+		name=USA_Briant_H_Wells
 		portraits={
-			army={
-				small="GFX_idea_Larry_K_Arnold"
+			army = {
+				large="GFX_M_Briant_H_Wells"
 			}
 		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=USA_Larry_K_Arnold_CoStaff
-			allowed={
-				tag=USA
+		corps_commander={
+			traits = {
+				organizer infantry_leader
 			}
-			visible={
-				date > 1924.01.01
-				date < 1964.01.01
-				A_Minister_Allowed = yes
-				NOT = { has_country_flag = Larry_K_Arnold_unavailable }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	USA_Preston_Brown= {
+		name=USA_Preston_Brown
+		portraits={
+			army = {
+				large="GFX_M_Preston_Brown"
 			}
-			traits={
-				
-				CoStaff_School_Of_Fire_Support
+		}
+		corps_commander={
+			traits = {
+				infantry_leader
 			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	USA_Dennis_E_Nolan = {
+		name=USA_Dennis_E_Nolan
+		portraits={
+			army={
+				large="GFX_M_Dennis_E_Nolan"
+			}
+		}
+		corps_commander={
+			traits = {
+				infantry_leader trickster
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	USA_Frank_Parker = {
+		name=USA_Frank_Parker
+		portraits={
+			army={
+				large="GFX_M_Frank_Parker"
+			}
+		}
+		corps_commander={
+			traits = {
+				infantry_leader career_officer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	USA_Johnson_Hagood = {
+		name=USA_Johnson_Hagood
+		portraits={
+			army={
+				large="GFX_M_Johnson_Hagood"
+			}
+		}
+		corps_commander={
+			traits = {
+				organizer logistics_wizard engineer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	USA_Edwin_B_Winans = {
+		name=USA_Edwin_B_Winans
+		portraits={
+			army={
+				large="GFX_M_Edwin_B_Winans"
+			}
+		}
+		corps_commander={
+			traits = {
+				cavalry_leader inspirational_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 	USA_Walter_Krueger = {
@@ -4128,6 +4126,50 @@ characters={
 			legacy_id = 305017
 		}
 	}
+	USA_Alexander_Vandegrift = {
+		name=USA_Alexander_Vandegrift
+		portraits={
+			army={
+				large="GFX_M_Alexander_Vandegrift"
+			}
+		}
+		corps_commander={
+			visible = { 
+				has_completed_focus = USA_Expand_the_Marine_Corps 
+			}
+			traits = {
+				commando
+				naval_invader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	USA_Holland_Smith = {
+		name=USA_Holland_Smith
+		portraits={
+			army={
+				large="GFX_M_Holland_Smith"
+			}
+		}
+		corps_commander={
+			visible = { 
+				has_completed_focus = USA_Expand_the_Marine_Corps 
+			}
+			traits = {
+				commando
+				naval_invader
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
 	USA_Douglas_MacArthur = {
 		name=USA_Douglas_MacArthur
 		portraits={
@@ -4165,7 +4207,7 @@ characters={
 		advisor={
 			slot=Chief_of_Army
 			idea_token=USA_Douglas_MacArthur_CoArmy
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -4612,7 +4654,7 @@ characters={
 				tag=USA
 			}
 			visible={
-				date > 1933.01.01
+				date > 1935.01.01
 				date < 1951.01.01
 				D_Minister_Allowed = yes
 				NOT = { has_country_flag = Hugh_A_Drum_unavailable }
@@ -4629,7 +4671,7 @@ characters={
 				tag=USA
 			}
 			visible={
-				date > 1933.01.01
+				date > 1935.01.01
 				date < 1951.01.01
 				D_Minister_Allowed = yes
 				NOT = { has_country_flag = Hugh_A_Drum_unavailable }
@@ -4848,7 +4890,7 @@ characters={
 		name=USA_Earnest_King
 		portraits={
 			army={
-				large="GFX_M_Earnest_King"
+				large="GFX_M_Ernest_King"
 			}
 		}
 		navy_leader={
@@ -5038,14 +5080,15 @@ characters={
 	USA_Thomas_E_Dewey = {
 		name=USA_Thomas_E_Dewey
 		portraits={
-			army={
+			civilian={
 				small="GFX_idea_Thomas_E_Dewey"
+				large = "GFX_P_D_Thomas_E_Dewey"
 			}
 		}
 		advisor={
 			slot=Minister
 			idea_token=USA_Thomas_E_Dewey_M
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -5073,7 +5116,7 @@ characters={
 		advisor={
 			slot=Minister
 			idea_token=USA_Wallace_H_White_Jr_M
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -5512,7 +5555,7 @@ characters={
 		advisor={
 			slot=Minister
 			idea_token=USA_Arthur_Hyde_M
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}
@@ -5541,7 +5584,7 @@ characters={
 		advisor={
 			slot=Minister
 			idea_token=USA_James_Farley_M
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=USA
 			}

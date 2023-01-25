@@ -49,7 +49,7 @@
  
 ### Heavy Submarines HSS
  heavy_submarine: "Heavy Submarine"
- HSS_1933: "Heavy Submarine '33"
+ HSS_equipment: "Heavy Submarine"
  HSS_equipment_1933: "Heavy Submarine '33"
  HSS_equipment_1933_desc: "Heavy Submarines with very long range and equipped with Sea-Planes are well suited for Reconnaissance"
  HSS_equipment_1940: "Heavy Submarine '40"
@@ -232,6 +232,7 @@
 
 # -- Escort Aircraft Carriers CVE
  escort_carrier: "Escort Carrier"
+ CVE_equipment: "Escort Carrier"
 
  CV_equipment_1912: "Seaplane Carrier '12"
  CV_equipment_1912_desc: "The Escort Carrier became an important naval vessel later in the war. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carried made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, were only lightly armed, lightly armored, and of far smaller displacement than fleet or light carriers."
@@ -560,7 +561,7 @@
  ITA_DD_equipment_1922: "Navigatori-class"
  ITA_DD_equipment_1933: "Dardo-class"
  ITA_DD_equipment_1936: "Poeti-class"
- ITA_DD_equipment_1940: "Commandanti Medaglie d’Oro-class"
+ ITA_DD_equipment_1940: "Comandanti Medaglie d’Oro-class"
  ITA_DD_equipment_1945: "Impetuoso-class"
  ITA_DD_equipment_1950: "Impavido-class"
 
@@ -837,7 +838,7 @@
 ### USA - United States
 ######################################################################
  USA_DD_equipment_1885: "Bainbridge-class"
- USA_DD_equipment_1900: "Truxton-class"
+ USA_DD_equipment_1900: "Truxtun-class"
  USA_DD_equipment_1912: "Smith-class"
  USA_DD_equipment_1916: "Wickes-class"
  USA_DD_equipment_1922: "Clemson-class"
@@ -969,7 +970,7 @@
  ARG_CL_equipment_1940: "Neuquen-class"
  ARG_CL_equipment_1945: "Santísima Trinidad-class"
  
- ARG_CA_equipment_1895: "Garibald-class"
+ ARG_CA_equipment_1895: "Garibaldi-class"
  ARG_CA_equipment_1922: "Veinticinco de Mayo-class"
  ARG_CA_equipment_1933: "Tierra del Fuego-class"
  ARG_CA_equipment_1936: "Nueve de Julio-class"

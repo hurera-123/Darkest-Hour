@@ -28,7 +28,7 @@
 
 ############################################################
 ### Opinion Modifier
-##############################
+############################################################
  similar_ideologies: "Simliar Ideologies"
  different_ideologies: "Different Ideologies"
  same_ideologies: "Same Ideologies"
@@ -99,6 +99,14 @@
  ROM_diplomatic_approachement: "Diplomatic Approachement from Romania"
  ROM_diplomatic_approachement_trade: "Trade Approachement from Romania"
  ROM_deal_with_nazi_symp: "Deal with Nazi Sympathizers"
+ 
+############################################################
+###   Recall Volunteers
+############################################################
+ RECALL_VOLUNTEERS_TITLE: "Recall Volunteers"
+ RECALL_VOLUNTEERS_ACTION_DESC: "We can decide to recall the volunteers we have sent to other countries."
+ RECALL_VOLUNTEERS_TOOLTIP: "§Y[This.GetNameWithFlag]§! §Rmust have any volunteers from us we can recall.§!"
+ RECALL_VOLUNTEERS_TOOLTIP_G: "§Y[This.GetNameWithFlag]§! must have any volunteers from us we can recall."
 
 ############################################################
 ###   Vanilla Diplomatic Actions

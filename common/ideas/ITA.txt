@@ -29,7 +29,7 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.05
 				political_power_gain = 0.1
 				stability_factor = 0.05
-				consumer_goods_factor = 0.01
+				consumer_goods_factor = 0.05
 				trade_opinion_factor = -0.2
 			}
 		}
@@ -40,7 +40,7 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.1
 				production_factory_efficiency_gain_factor = -0.05
 				political_power_gain = 0.1
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.03
 			}
 		}
 		#### The Corporatist Experiment
@@ -50,7 +50,7 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.1
 				production_factory_efficiency_gain_factor = -0.05
 				political_power_gain = 0.1
-				consumer_goods_factor = -0.12
+				consumer_goods_factor = -0.05
 				conscription_factor = 0.05
 			}
 		}
@@ -74,7 +74,7 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.1
 				production_factory_efficiency_gain_factor = -0.05
 				political_power_gain = 0.1
-				consumer_goods_factor = -0.14
+				consumer_goods_factor = -0.07
 				conscription_factor = 0.05
 				money_income_factor = 0.2
 			}
@@ -266,10 +266,8 @@ ideas = {
 				experience_gain_army_factor = -0.10
 				army_morale_factor = -0.1
 				army_attack_factor = -0.1
-			}
-			research_bonus = {
-				land_doctrine = -0.25
-			}			
+				land_doctrine_cost_factor = 0.25
+			}		
 		}
 		#### Regio Esercito Reorganization 2
 		ITA_Regio_Esercito_Reorganization_2 = {
@@ -278,10 +276,8 @@ ideas = {
 				experience_gain_army_factor = -0.10
 				army_morale_factor = -0.075
 				army_attack_factor = -0.1
-			}
-			research_bonus = {
-				land_doctrine = -0.25
-			}			
+				land_doctrine_cost_factor = 0.25
+			}		
 		}
 		#### Regio Esercito Reorganization 3
 		ITA_Regio_Esercito_Reorganization_3 = {
@@ -291,56 +287,17 @@ ideas = {
 				army_morale_factor = -0.05
 				army_attack_factor = -0.1
 				army_defence_factor = 0.05
-			}
-			research_bonus = {
-				land_doctrine = -0.25
-			}			
+				land_doctrine_cost_factor = 0.25
+			}		
 		}
 		#### Battaglia del Grano
 		ITA_Battaglia_del_Grano = {
 			picture = ITA_Battaglia_Del_Grano
 			modifier = {
 				stability_factor = 0.05
-				conscription_factor = 0.05
-				min_export = -0.1
+				conscription_factor = 0.03
+				min_export = -0.05
 			}		
-		}
-		#### Outdated Tactics
-		ITA_outdated_tactics = {
-			picture = chi_incompetent_officers
-			modifier = {
-				experience_gain_army_factor = -0.5
-				land_reinforce_rate = -0.1
-				army_attack_factor = -0.05
-				army_morale_factor = -0.1
-			}
-			research_bonus = {
-				land_doctrine = -0.5
-			}
-		}
-		#### Outdated Tactics 2
-		ITA_outdated_tactics_2 = {
-			picture = chi_incompetent_officers
-			modifier = {
-				experience_gain_army_factor = -0.5
-				land_reinforce_rate = -0.05
-				army_attack_factor = -0.025
-				army_morale_factor = -0.05
-			}
-			research_bonus = {
-				land_doctrine = -0.5
-			}
-		}
-		#### Outdated Tactics 3
-		ITA_outdated_tactics_3 = {
-			picture = chi_incompetent_officers
-			modifier = {
-				experience_gain_army_factor = -0.5
-				land_reinforce_rate = -0.05
-			}
-			research_bonus = {
-				land_doctrine = -0.25
-			}
 		}
 		#### Ancient Artillery
 		ITA_ancient_artillery = {
@@ -458,23 +415,6 @@ ideas = {
 				authoritarian_drift = 0.05
 			}
 		}
-		american_treaty_ITA_ETH_ITA = {
-			picture = GENERIC_Trade_Unions 
-			
-			modifier = {
-				money_expenses = -3
-				political_power_factor = 0.05
-			}
-		}
-		american_treaty_ITA_ETH_USA = {
-			picture = GENERIC_Trade_Unions 
-			
-			modifier = {
-				fascist_drift = 0.01
-				fascist_acceptance = 15	
-				consumer_goods_factor = -0.075
-			}
-		}
 		#### OLD
 		victor_emmanuel = {
 			allowed = {
@@ -566,26 +506,25 @@ ideas = {
 		ITA_Old_Style_Army = {
 			picture = ITA_Old_Style_Army
 			research_bonus = {
-				land_doctrine = -0.05
 				motorized_equipment = -0.10
 			}
 			modifier = {
+				land_doctrine_cost_factor = 0.05
 			}
 		}
 		ITA_Old_Style_Army_2 = {
 			picture = ITA_Old_Style_Army
 			research_bonus = {
-				land_doctrine = -0.05
 				motorized_equipment = -0.10
 			}
 			modifier = {
+				land_doctrine_cost_factor = 0.05
 				army_org_factor = 0.02
 			}
 		}
 		ITA_Old_Style_Army_3 = {
 			picture = ITA_Old_Style_Army
 			research_bonus = {
-				land_doctrine = -0.05
 				motorized_equipment = -0.10
 			}
 			equipment_bonus = {
@@ -594,6 +533,7 @@ ideas = {
 				}
 			}
 			modifier = {
+				land_doctrine_cost_factor = 0.05
 				army_org_factor = 0.02
 			}
 		}
@@ -647,14 +587,12 @@ ideas = {
 		}
 		ITA_High_Command_Incompetence_2 = {
 			picture = chi_incompetent_officers
-			research_bonus = {
-			land_doctrine = -0.10
-			}
 			modifier = {
 				experience_gain_army_factor = -0.20
 				army_org_factor = -0.15
 				experience_loss_factor = 0.05
 				political_power_factor = 0.10
+				land_doctrine_cost_factor = 0.1
 			}
 		}
 		ITA_Rigid_Autarky = {
@@ -665,7 +603,7 @@ ideas = {
 			}
 		}
 		ITA_Italian_Workers_in_Germany = {
-			picture = GFX_idea_generic_fascist_workers
+			picture = generic_fascist_workers
 			modifier = {
 				consumer_goods_factor = -0.03
 			}

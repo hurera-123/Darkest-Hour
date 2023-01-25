@@ -16,6 +16,9 @@ country_event = {
 	trigger = {
 		original_tag = SOV
 		has_war_with = GER
+		GER = {
+			has_government = fascist
+		}
 		OR = {
 			NOT = { 
 				controls_state = 195
@@ -124,6 +127,7 @@ news_event = {
 				L_Autocratic_Charmer		
 			}
 		}
+		remove_ideas = SOV_Vyacheslav_M_Molotov_HoG
 		add_ideas = SOV_Andrei_Zhdanov_HoG
 		swap_ideas = {
 			add_idea = SOV_Command_Structure_Paralyzed_2
@@ -270,6 +274,7 @@ country_event = {
 	option = { # A Victory for the entire German people!
 		name = Surrender_GER.2.A
 		GER = { white_peace = SOV }
+		set_global_flag = GER_Victory_Against_the_USSR
 		set_country_flag = germany_bitter_peace_military_occupation
 		custom_effect_tooltip = lag_warning
 		hidden_effect = {

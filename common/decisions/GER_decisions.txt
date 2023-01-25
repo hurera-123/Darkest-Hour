@@ -30,6 +30,178 @@ war_measures = {
 		}
 	}
 }
+#########################################################################
+#  Economy decisions
+#########################################################################
+economy_decisions = {
+	###########################
+	# Rebuild Grozny Oilfields
+	###########################
+	GER_Rebuild_Grozny_Oilfields = {
+		fire_only_once = yes
+		icon = GFX_decision_oil
+		allowed = {
+			OR = {
+				original_tag = GER
+				original_tag = RKA
+			}
+		}
+		available = {
+			OR = {
+				GER = {
+					controls_state = 232
+				}
+				RKA = {
+					controls_state = 232
+				}
+			}
+		}
+		visible = {
+			has_global_flag = SOV_Destroyed_Grozny
+			OR = {
+				GER = {
+					controls_state = 232
+				}
+				RKA = {
+					controls_state = 232
+				}
+			}
+		}
+		on_map_mode = map_and_decisions_view
+		days_remove = 180
+		cost = 20
+		highlight_states = {
+			highlight_state_targets = {
+				state = 232
+			}
+		}
+		modifier = {
+			civilian_factory_use = 2
+		}
+		remove_effect = {
+			add_resource = {
+				type = oil
+				amount = 20
+				state = 232
+			}
+		}
+		ai_will_do = {
+			base = 500
+		}
+	}
+	###########################
+	# Get Baku Oilfields Operational
+	###########################
+	GER_Rebuild_Baku_Oilfields_1 = {
+		fire_only_once = yes
+		icon = GFX_decision_oil
+		allowed = {
+			OR = {
+				original_tag = GER
+				original_tag = RKA
+			}
+		}
+		available = {
+			OR = {
+				GER = {
+					controls_state = 229
+				}
+				RKA = {
+					controls_state = 229
+				}
+			}
+		}
+		visible = {
+			has_global_flag = SOV_Destroyed_Baku
+			OR = {
+				GER = {
+					controls_state = 229
+				}
+				RKA = {
+					controls_state = 229
+				}
+			}
+		}
+		on_map_mode = map_and_decisions_view
+		days_remove = 180
+		cost = 20
+		highlight_states = {
+			highlight_state_targets = {
+				state = 229
+			}
+		}
+		modifier = {
+			civilian_factory_use = 2
+		}
+		remove_effect = {
+			add_resource = {
+				type = oil
+				amount = 20
+				state = 229
+			}
+			set_country_flag = GER_Baku_Oilfields_Operational
+		}
+		ai_will_do = {
+			base = 500
+		}
+	}
+	###########################
+	# Get Baku Oilfields at Full Capacity
+	###########################
+	GER_Rebuild_Baku_Oilfields_2 = {
+		fire_only_once = yes
+		icon = GFX_decision_oil
+		allowed = {
+			OR = {
+				original_tag = GER
+				original_tag = RKA
+			}
+		}
+		available = {
+			OR = {
+				GER = {
+					controls_state = 229
+				}
+				RKA = {
+					controls_state = 229
+				}
+			}
+			has_country_flag = GER_Baku_Oilfields_Operational
+		}
+		visible = {
+			has_global_flag = SOV_Destroyed_Baku
+			OR = {
+				GER = {
+					controls_state = 229
+				}
+				RKA = {
+					controls_state = 229
+				}
+			}
+		}
+		on_map_mode = map_and_decisions_view
+		days_remove = 730
+		cost = 40
+		highlight_states = {
+			highlight_state_targets = {
+				state = 229
+			}
+		}
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			add_resource = {
+				type = oil
+				amount = 60
+				state = 229
+			}
+		}
+		ai_will_do = {
+			base = 500
+		}
+	}
+}
 
 #########################################################################
 #  Positive Christianity
@@ -218,7 +390,7 @@ GER_Positive_Christianity_category = {
 		available = {
 			has_country_flag = GER_Propagate_the_Only_Real_Christianity
 		}
-		cost = 0
+		cost = 50
 		ai_will_do = {
 			factor = 1
 		}
@@ -280,7 +452,7 @@ GER_Positive_Christianity_category = {
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 5
+		days_remove = 20
 		remove_effect = {
 			add_manpower = -1000
 			set_country_flag = GER_Raid_Catholic_Churches
@@ -332,11 +504,11 @@ GER_Positive_Christianity_category = {
 		available = {
 			has_country_flag = GER_Raid_Catholic_Churches
 		}
-		cost = 30
+		cost = 50
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 30
+		days_remove = 60
 		remove_effect = {
 			add_manpower = -50000
 			set_temp_variable = {
@@ -371,7 +543,7 @@ GER_Positive_Christianity_category = {
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 30
+		days_remove = 60
 		complete_effect = {
 			add_stability = -0.25
 		}
@@ -422,7 +594,7 @@ GER_Positive_Christianity_category = {
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 40
+		days_remove = 80
 		remove_effect = {
 			set_temp_variable = {
 				GER_Protestant_Population_gain = -0.05
@@ -464,7 +636,7 @@ GER_Positive_Christianity_category = {
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 60
+		days_remove = 90
 		modifier = {
 			political_power_gain = -0.1
 		}
@@ -508,7 +680,7 @@ GER_Positive_Christianity_category = {
 				state = 52
 			}
 		}
-		days_remove = 60
+		days_remove = 90
 		modifier = {
 			political_power_gain = -0.1
 		}
@@ -552,7 +724,7 @@ GER_Positive_Christianity_category = {
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 30
+		days_remove = 90
 		modifier = {
 			political_power_gain = -0.1
 		}
@@ -592,7 +764,7 @@ GER_Positive_Christianity_category = {
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 60
+		days_remove = 90
 		modifier = {
 			political_power_gain = -0.1
 		}
@@ -635,7 +807,7 @@ GER_Positive_Christianity_category = {
 		ai_will_do = {
 			factor = 1
 		}
-		days_remove = 60
+		days_remove = 90
 		modifier = {
 			political_power_gain = -0.1
 		}
@@ -1497,6 +1669,7 @@ GER_Reichsautobahn_category = {
 			has_full_control_of_state = 64
 			has_full_control_of_state = 1057
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -1562,6 +1735,9 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			64 = {
+				infrastructure > 4
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -1575,10 +1751,8 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 68
-			64 = {
-				infrastructure > 4
-			}
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -1634,6 +1808,9 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			64 = {
+				infrastructure > 4
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -1647,10 +1824,8 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 66
-			64 = {
-				infrastructure > 4
-			}
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -1705,6 +1880,9 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			66 = {
+				infrastructure > 4
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -1718,10 +1896,8 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 67
-			66 = {
-				infrastructure > 4
-			}
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -1776,6 +1952,9 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			64 = {
+				infrastructure > 4
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -1789,10 +1968,8 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 812
-			64 = {
-				infrastructure > 4
-			}
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -1847,6 +2024,14 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			OR = {
+				812 = {
+					infrastructure > 4
+				}
+				60 = {
+					infrastructure > 4
+				}
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -1860,15 +2045,8 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 59
-			OR = {
-				812 = {
-					infrastructure > 4
-				}
-				60 = {
-					infrastructure > 4
-				}
-			}
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -1923,6 +2101,17 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			OR = {
+				59 = {
+					infrastructure > 4
+				}
+				55 = {
+					infrastructure > 4
+				}
+				809 = {
+					infrastructure > 4
+				}
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -1936,18 +2125,8 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 57
-			OR = {
-				59 = {
-					infrastructure > 4
-				}
-				55 = {
-					infrastructure > 4
-				}
-				809 = {
-					infrastructure > 4
-				}
-			}
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2002,6 +2181,17 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			OR = {
+				55 = {
+					infrastructure > 4
+				}
+				57 = {
+					infrastructure > 4
+				}
+				808 = {
+					infrastructure > 4
+				}
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -2015,18 +2205,8 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 809
-			OR = {
-				55 = {
-					infrastructure > 4
-				}
-				57 = {
-					infrastructure > 4
-				}
-				808 = {
-					infrastructure > 4
-				}
-			}
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2081,19 +2261,6 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
-		}
-		available = {
-			set_temp_variable = {
-				amount_of_money_to_check = 200
-			}
-			has_specific_amount_of_money_with_inflation_included = yes
-			custom_trigger_tooltip = {
-				tooltip = GER_Reichsautobahn_in_Construction
-				NOT = {
-					has_country_flag = GER_Reichsautobahn_in_Construction
-				}
-			}
-			has_full_control_of_state = 55
 			OR = {
 				60 = {
 					infrastructure > 4
@@ -2112,6 +2279,20 @@ GER_Reichsautobahn_category = {
 				}
 			}
 		}
+		available = {
+			set_temp_variable = {
+				amount_of_money_to_check = 200
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = GER_Reichsautobahn_in_Construction
+				NOT = {
+					has_country_flag = GER_Reichsautobahn_in_Construction
+				}
+			}
+			has_full_control_of_state = 55
+		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2166,6 +2347,14 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			OR = {
+				812 = {
+					infrastructure > 4
+				}
+				59 = {
+					infrastructure > 4
+				}
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -2179,15 +2368,8 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 60
-			OR = {
-				812 = {
-					infrastructure > 4
-				}
-				59 = {
-					infrastructure > 4
-				}
-			}
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2242,19 +2424,6 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
-		}
-		available = {
-			set_temp_variable = {
-				amount_of_money_to_check = 200
-			}
-			has_specific_amount_of_money_with_inflation_included = yes
-			custom_trigger_tooltip = {
-				tooltip = GER_Reichsautobahn_in_Construction
-				NOT = {
-					has_country_flag = GER_Reichsautobahn_in_Construction
-				}
-			}
-			has_full_control_of_state = 808
 			OR = {
 				50 = {
 					infrastructure > 4
@@ -2270,6 +2439,20 @@ GER_Reichsautobahn_category = {
 				}
 			}
 		}
+		available = {
+			set_temp_variable = {
+				amount_of_money_to_check = 200
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = GER_Reichsautobahn_in_Construction
+				NOT = {
+					has_country_flag = GER_Reichsautobahn_in_Construction
+				}
+			}
+			has_full_control_of_state = 808
+		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2324,19 +2507,6 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
-		}
-		available = {
-			set_temp_variable = {
-				amount_of_money_to_check = 200
-			}
-			has_specific_amount_of_money_with_inflation_included = yes
-			custom_trigger_tooltip = {
-				tooltip = GER_Reichsautobahn_in_Construction
-				NOT = {
-					has_country_flag = GER_Reichsautobahn_in_Construction
-				}
-			}
-			has_full_control_of_state = 54
 			OR = {
 				60 = {
 					infrastructure > 4
@@ -2355,6 +2525,20 @@ GER_Reichsautobahn_category = {
 				}
 			}
 		}
+		available = {
+			set_temp_variable = {
+				amount_of_money_to_check = 200
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = GER_Reichsautobahn_in_Construction
+				NOT = {
+					has_country_flag = GER_Reichsautobahn_in_Construction
+				}
+			}
+			has_full_control_of_state = 54
+		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2409,6 +2593,14 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			OR = {
+				50 = {
+					infrastructure > 4
+				}
+				808 = {
+					infrastructure > 4
+				}
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -2422,15 +2614,8 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 807
-			OR = {
-				50 = {
-					infrastructure > 4
-				}
-				808 = {
-					infrastructure > 4
-				}
-			}
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2485,19 +2670,6 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
-		}
-		available = {
-			set_temp_variable = {
-				amount_of_money_to_check = 200
-			}
-			has_specific_amount_of_money_with_inflation_included = yes
-			custom_trigger_tooltip = {
-				tooltip = GER_Reichsautobahn_in_Construction
-				NOT = {
-					has_country_flag = GER_Reichsautobahn_in_Construction
-				}
-			}
-			has_full_control_of_state = 50
 			OR = {
 				52 = {
 					infrastructure > 4
@@ -2513,6 +2685,20 @@ GER_Reichsautobahn_category = {
 				}
 			}
 		}
+		available = {
+			set_temp_variable = {
+				amount_of_money_to_check = 200
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = GER_Reichsautobahn_in_Construction
+				NOT = {
+					has_country_flag = GER_Reichsautobahn_in_Construction
+				}
+			}
+			has_full_control_of_state = 50
+		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2567,6 +2753,14 @@ GER_Reichsautobahn_category = {
 		visible = {
 			has_start_date < 1936.01.01
 			has_completed_focus = GER_Reichsautobahn
+			OR = {
+				54 = {
+					infrastructure > 4
+				}
+				50 = {
+					infrastructure > 4
+				}
+			}
 		}
 		available = {
 			set_temp_variable = {
@@ -2580,15 +2774,8 @@ GER_Reichsautobahn_category = {
 				}
 			}
 			has_full_control_of_state = 52
-			OR = {
-				54 = {
-					infrastructure > 4
-				}
-				50 = {
-					infrastructure > 4
-				}
-			}
 		}
+		cost = 50
 		modifier = {
 			civilian_factory_use = 5
 			production_speed_buildings_factor = -0.05
@@ -2628,7 +2815,7 @@ GER_Treaty_of_Versaille = {
 	# Second Rearmament Program
 	###########################
 	GER_Second_Rearmament_Program = {
-		icon = decision_ger_military_buildup
+		icon = GFX_decision_ger_military_buildup
 		allowed = {
 			original_tag = GER
 		}
@@ -2740,7 +2927,7 @@ foreign_politics = {
 			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 200
 		}
 	}
 	###########################
@@ -3992,20 +4179,7 @@ GER_War_Operations_category = {
 		}
 		available = {
 			OR = {
-				AND = {
-					ENG = {
-						surrender_progress > 0.04
-						any_core_state = {
-							controller = {
-								OR = {
-									is_in_faction_with = GER
-									is_puppet_of = GER
-									original_tag = GER
-								}
-							}
-						}
-					}
-				}
+				controls_state = 801
 				IRE = {
 					has_capitulated = yes
 				}
@@ -5180,7 +5354,7 @@ GER_Westwall_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 500
 		}
 		highlight_states = {
 			highlight_state_targets = {
@@ -5202,18 +5376,6 @@ GER_Westwall_category = {
 					type = bunker
 					level = 2
 					instant_build = yes
-					province = 3558
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 563
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
 					province = 9575
 				}
 				add_building_construction = {
@@ -5221,6 +5383,40 @@ GER_Westwall_category = {
 					level = 2
 					instant_build = yes
 					province = 11547
+				}
+			}
+			806 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 14695
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 11531
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 14694
+				}
+			}
+			1498 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 3558
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 563
 				}
 			}
 		}
@@ -5317,9 +5513,15 @@ GER_Westwall_category = {
 			806 = {
 				add_building_construction = {
 					type = bunker
-					level = 2
+					level = 1
 					instant_build = yes
 					province = 11531
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 14695
 				}
 			}
 		}
@@ -5357,7 +5559,7 @@ GER_Westwall_category = {
 			controls_state = 51
 		}
 		ai_will_do = {
-			factor = 40
+			factor = 1000
 		}
 		highlight_states = {
 			highlight_state_targets = {
@@ -7391,6 +7593,53 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				45 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				772 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				819 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				978 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				82 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -7505,6 +7754,29 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				NOR = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = NOR
+					is_controlled_by_ROOT_or_ally = yes
+				}
+				DEN = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = DEN
+					is_controlled_by_ROOT_or_ally = yes
+				}
+				SWE = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = SWE
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -7589,6 +7861,26 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				975 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				155 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -7670,6 +7962,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				HOL = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = HOL
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -7738,6 +8039,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				BEL = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = BEL
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -7814,6 +8124,53 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				69 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				9 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				1105 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				74 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+			}
+			75 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+						is_controlled_by_ROOT_or_ally = yes
+					}
 				}
 			}
 		}
@@ -7924,6 +8281,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				FIN = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = FIN
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -7998,6 +8364,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				SWE = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = SWE
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -8082,6 +8457,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				NOR = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = NOR
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -8156,6 +8540,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				SWI = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = SWI
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -8238,6 +8631,62 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				126 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				127 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				123 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				125 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				129 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				128 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
 				}
 			}
 		}
@@ -8363,6 +8812,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				SAF = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = SAF
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -8451,6 +8909,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				USA = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = USA
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -8513,6 +8980,43 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				MOR = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = MOR
+					is_controlled_by_ROOT_or_ally = yes
+				}
+				ALG = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = ALG
+					is_controlled_by_ROOT_or_ally = yes
+				}
+				TUN = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = TUN
+					is_controlled_by_ROOT_or_ally = yes
+				}
+				LBA = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = LBA
+					is_controlled_by_ROOT_or_ally = yes
+				}
+				MRT = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = MRT
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -8607,6 +9111,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				MOL = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = MOL
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -8681,6 +9194,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				ARG = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = ARG
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -8759,6 +9281,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				BRA = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = BRA
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -8835,6 +9366,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				CHL = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = CHL
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -8903,6 +9443,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				PRU = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = PRU
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -8975,6 +9524,17 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				239 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -9019,6 +9579,17 @@ GER_Waffen_SS_category = {
 				ss_division_type_temp = 2
 			}
 			GER_SS_division_names_available = yes
+			OR = {
+				88 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -9092,6 +9663,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				CRO = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = CRO
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -9154,6 +9734,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			171 = {
+				CONTROLLER = {
+					OR = {
+						original_tag = GER
+						is_subject_of = GER
+						is_controlled_by_ROOT_or_ally = yes
+					}
 				}
 			}
 		}
@@ -9220,6 +9809,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				LAT = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = LAT
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -9282,6 +9880,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 7
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				EST = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = EST
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -9358,6 +9965,24 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				ALB = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = ALB
+					is_controlled_by_ROOT_or_ally = yes
+				}
+				818 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
 				}
 			}
 		}
@@ -9439,6 +10064,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				SLV = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = SLV
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -9501,6 +10135,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				SLO = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = SLO
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -9577,6 +10220,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				HUN = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = HUN
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -9667,6 +10319,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				ITA = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = ITA
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -9737,6 +10398,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				SOV = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = SOV
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -9805,6 +10475,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				BLR = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = BLR
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -9895,6 +10574,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				FRA = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = FRA
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -9983,6 +10671,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				BRT = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = BRT
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -10051,6 +10748,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				SER = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = SER
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -10127,6 +10833,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				RAJ = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = RAJ
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -10211,6 +10926,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				SCO = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = SCO
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -10293,6 +11017,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				WAL = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = WAL
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -10355,6 +11088,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				IRE = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = IRE
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -10445,6 +11187,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				GRE = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = GRE
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -10509,6 +11260,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				ROM = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = ROM
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -10571,6 +11331,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				BUL = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = BUL
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -10661,6 +11430,22 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				SPR = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = SPR
+					is_controlled_by_ROOT_or_ally = yes
+				}
+				SPA = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = SPA
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -10730,6 +11515,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 7
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				POR = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = POR
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -10820,6 +11614,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				USA = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = USA
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -10906,6 +11709,15 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				TUR = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = TUR
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -10996,6 +11808,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				AST = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = AST
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -11084,6 +11905,15 @@ GER_Waffen_SS_category = {
 					GER_SS_division_names_available = yes
 				}
 			}
+			OR = {
+				CAN = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = CAN
+					is_controlled_by_ROOT_or_ally = yes
+				}
+			}
 		}
 		available = {
 			NOT = {
@@ -11146,6 +11976,36 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				SYR = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = SYR
+					is_controlled_by_ROOT_or_ally = yes
+				}
+				IRQ = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = IRQ
+					is_controlled_by_ROOT_or_ally = yes
+				}
+				SAU = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = SAU
+					is_controlled_by_ROOT_or_ally = yes
+				}
+				JOR = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = JOR
+					is_controlled_by_ROOT_or_ally = yes
 				}
 			}
 		}
@@ -11237,6 +12097,83 @@ GER_Waffen_SS_category = {
 						ss_division_type_temp = 8
 					}
 					GER_SS_division_names_available = yes
+				}
+			}
+			OR = {
+				ARM = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = ARM
+					is_controlled_by_ROOT_or_ally = yes
+				}
+				AZR = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = AZR
+					is_controlled_by_ROOT_or_ally = yes
+				}
+				GEO = {
+					is_subject_of = GER
+				}
+				any_state = {
+					is_core_of = GEO
+					is_controlled_by_ROOT_or_ally = yes
+				}
+				234 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				238 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				245 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				218 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				407 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
+				}
+				1284 = {
+					CONTROLLER = {
+						OR = {
+							original_tag = GER
+							is_subject_of = GER
+							is_controlled_by_ROOT_or_ally = yes
+						}
+					}
 				}
 			}
 		}
@@ -11358,6 +12295,7 @@ GER_Rule_over_the_Danube_category = {
 					amount_of_influence_to_check = 25
 				}
 				GER_Influence_Trigger = yes
+				is_in_faction = no
 			}
 			has_global_flag = fall_of_france
 			custom_trigger_tooltip = {
@@ -11370,7 +12308,11 @@ GER_Rule_over_the_Danube_category = {
 		}
 		cost = 50
 		ai_will_do = {
-			factor = 500
+			base = 0
+			modifier = {
+				add = 500
+				date > 1940.11.20
+			}
 		}
 		complete_effect = {
 			HUN = {
@@ -11391,12 +12333,21 @@ GER_Rule_over_the_Danube_category = {
 			country_exists = ROM
 		}
 		available = {
-			ROM = {
-				set_temp_variable = {
-					amount_of_influence_to_check = 25
+			if = {
+				limit = {
+					is_ai = no
 				}
-				GER_Influence_Trigger = yes
+				ROM = {
+					set_temp_variable = {
+						amount_of_influence_to_check = 25
+					}
+					GER_Influence_Trigger = yes
+				}
 			}
+			ROM = {
+				is_in_faction = no
+			}
+			has_global_flag = fall_of_france
 			OR = {
 				GER = {
 					has_war_with = SOV
@@ -11421,7 +12372,11 @@ GER_Rule_over_the_Danube_category = {
 		}
 		cost = 50
 		ai_will_do = {
-			factor = 500
+			base = 0
+			modifier = {
+				add = 500
+				date > 1940.11.23
+			}
 		}
 		complete_effect = {
 			ROM = {
@@ -11442,17 +12397,35 @@ GER_Rule_over_the_Danube_category = {
 			country_exists = BUL
 		}
 		available = {
-			BUL = {
-				set_temp_variable = {
-					amount_of_influence_to_check = 25
+			if = {
+				limit = {
+					is_ai = no
 				}
-				GER_Influence_Trigger = yes
+				BUL = {
+					set_temp_variable = {
+						amount_of_influence_to_check = 25
+					}
+					GER_Influence_Trigger = yes
+				}
+			}
+			BUL = {
+				is_in_faction = no
 			}
 			has_global_flag = fall_of_france
 		}
-		cost = 50
+		cost = 25
 		ai_will_do = {
-			factor = 500
+			base = 0
+			modifier = {
+				add = 500
+				OR = {
+					ITA = {
+						is_in_faction_with = GER
+						has_war_with = GRE
+					}
+					date > 1941.3.1
+				}
+			}
 		}
 		complete_effect = {
 			BUL = {
@@ -11484,15 +12457,17 @@ GER_Rule_over_the_Danube_category = {
 					GER_Influence_Trigger = yes
 				}
 			}
+			YUG = {
+				is_in_faction = no
+			}
 			has_global_flag = fall_of_france
 		}
 		cost = 50
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 100
-				factor = 500
-				date > 1941.3.1
+				add = 500
+				date > 1941.3.25
 			}
 		}
 		complete_effect = {
@@ -11568,8 +12543,7 @@ GER_Rule_over_the_Danube_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 100
-				factor = 500
+				add = 500
 				date > 1940.8.28				#March 15, 1939
 			}
 		}
@@ -12299,9 +13273,17 @@ GER_Rule_over_the_Danube_category = {
 			original_tag = GER
 		}
 		visible = {
-			has_country_flag = flag_fuhrer_25
+			has_country_flag = {
+				flag = flag_fuhrer_25
+				days > 7
+			}
 		}
 		available = {
+			YUG = {
+				NOT = {
+					is_in_faction_with = GER
+				}
+			}
 		}
 		cost = 5
 		ai_will_do = {
@@ -12703,6 +13685,9 @@ GER_Aufbau_Ost_category = {
 				type = annex_everything
 			}
 			set_global_flag = Barbarossa_Initiated
+			hidden_effect = {
+				remove_ideas = GER_SOV_Trade_Agreement_Idea 
+			}
 		}
 	}
 	###########################
@@ -12779,11 +13764,27 @@ GER_Aufbau_Ost_category = {
 						controls_state = 10
 					}
 				}
-				10 = {
-					set_building_level = {
-						type = air_base
-						level = 6
-						instant_build = yes
+				if = {
+					limit = {
+						10 = {
+							air_base < 6
+						}
+					}
+					10 = {
+						set_building_level = {
+							type = air_base
+							level = 6
+							instant_build = yes
+						}
+					}
+				}
+				else = {
+					10 = {
+						add_building_construction = {
+							type = air_base
+							level = 1
+							instant_build = yes
+						}
 					}
 				}
 			}
@@ -12793,11 +13794,27 @@ GER_Aufbau_Ost_category = {
 						controls_state = 92
 					}
 				}
-				92 = {
-					set_building_level = {
-						type = air_base
-						level = 2
-						instant_build = yes
+				if = {
+					limit = {
+						92 = {
+							air_base < 2
+						}
+					}
+					92 = {
+						set_building_level = {
+							type = air_base
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				else = {
+					92 = {
+						add_building_construction = {
+							type = air_base
+							level = 1
+							instant_build = yes
+						}
 					}
 				}
 			}
@@ -12807,11 +13824,27 @@ GER_Aufbau_Ost_category = {
 						is_controlled_by_ROOT_or_ally = yes
 					}
 				}
-				79 = {
-					set_building_level = {
-						type = air_base
-						level = 6
-						instant_build = yes
+				if = {
+					limit = {
+						79 = {
+							air_base < 2
+						}
+					}
+					79 = {
+						set_building_level = {
+							type = air_base
+							level = 6
+							instant_build = yes
+						}
+					}
+				}
+				else = {
+					79 = {
+						add_building_construction = {
+							type = air_base
+							level = 1
+							instant_build = yes
+						}
 					}
 				}
 			}

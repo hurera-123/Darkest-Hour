@@ -596,7 +596,6 @@ equipments = {
 		# shore_bombardment = 0.6
 		armor_value = 2
 		ap_attack = 2.5
-		#carrier_size = 0
 		#Resources
 		resources = { steel = 4 chromium = 1 }
 		type = { screen_ship anti_air }

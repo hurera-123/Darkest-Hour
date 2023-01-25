@@ -594,9 +594,50 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Electronics/Teleprinter.dds"	
 	}
 ### Train Tech
+	# Generic
 	SpriteType = {
 		name = "GFX_basic_train_medium"
 		texturefile = "gfx/interface/technologies/Electronics/Basic_Train.png"	
+	}
+	# United Kingdom
+	SpriteType = {
+		name = "GFX_ENG_basic_train_medium"
+		texturefile = "gfx/interface/technologies/Electronics/Basic_Train.png"	
+	}
+	# Germany
+	SpriteType = {
+		name = "GFX_GER_basic_train_medium"
+		texturefile = "gfx/interface/technologies/Electronics/GER_Basic_Train.png"	
+	}
+	# France
+	SpriteType = {
+		name = "GFX_FRA_basic_train_medium"
+		texturefile = "gfx/interface/technologies/Electronics/FRA_Basic_Train.png"	
+	}
+	# Italy
+	SpriteType = {
+		name = "GFX_ITA_basic_train_medium"
+		texturefile = "gfx/interface/technologies/Electronics/ITA_Basic_Train.png"	
+	}
+	# Soviet Union
+	SpriteType = {
+		name = "GFX_SOV_basic_train_medium"
+		texturefile = "gfx/interface/technologies/Electronics/SOV_Basic_Train.png"	
+	}
+	# Japan
+	SpriteType = {
+		name = "GFX_JAP_basic_train_medium"
+		texturefile = "gfx/interface/technologies/Electronics/JAP_Basic_Train.png"	
+	}
+	# Poland
+	SpriteType = {
+		name = "GFX_POL_basic_train_medium"
+		texturefile = "gfx/interface/technologies/Electronics/POL_Basic_Train.png"	
+	}
+	# United States
+	SpriteType = {
+		name = "GFX_USA_basic_train_medium"
+		texturefile = "gfx/interface/technologies/Electronics/USA_Basic_Train.png"	
 	}
 	SpriteType = {
 		name = "GFX_wartime_train_medium"

@@ -97,6 +97,11 @@ FRA_Franco_German_Relations = {
 		id = "GER"
 		value = 250
 	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = GER
+		value = 50
+	}
 }
 
 FRA_Prepare_for_Italy = {
@@ -112,7 +117,7 @@ FRA_Prepare_for_Italy = {
 	ai_strategy = {
 		type = prepare_for_war
 		id = "ITA"
-		value = 300
+		value = 200
 	}
 	ai_strategy = {
 		type = conquer
@@ -121,8 +126,8 @@ FRA_Prepare_for_Italy = {
 	}
 	ai_strategy = {
 		type = front_unit_request
-		tag = "ITA"
-		value = 50
+		tag = ITA
+		value = 25
 	}
 }
 
@@ -281,6 +286,11 @@ FRA_Franco_Swiss_Relations = {
 		id = "SWI"
 		value = 100
 	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = SWI
+		value = -100
+	}
 }
 
 FRA_Franco_Luxembourgish_Relations = {
@@ -363,7 +373,7 @@ FRA_Franco_Polish_Relations = {
 	}
 }
 
-FRA_VIC_Dont_Join_Faction = {
+FRA_VIC_Be_Neutral = {
 	allowed = {
 		original_tag = FRA
 	}
@@ -417,6 +427,21 @@ FRA_VIC_Dont_Join_Faction = {
 		id = "CHI"
 		value = -250
 	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = -250
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = -250
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = -250
+	}
 }
 
 FRA_unit_production = {
@@ -468,7 +493,7 @@ FRA_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 80
+		value = 60
 	}
 
 	#Air unit factors
@@ -644,11 +669,6 @@ FRA_protect_home = {
 
 	ai_strategy = {
 		type = strike_force_home_base
-		id = 18
-	}
-
-	ai_strategy = {
-		type = strike_force_home_base
 		id = 42
 	}
 
@@ -656,56 +676,10 @@ FRA_protect_home = {
 		type = strike_force_home_base
 		id = 68
 	}
-
-	ai_strategy = {
-		type = put_unit_buffers
-		
-		order_id = 1
-		
-		# france
-		states = {
-			28
-			1169
-			764
-			735
-			32
-			846
-			1
-			220
-			762
-			1023
-			763
-		}
-		
-		ratio = 1
-		
-		subtract_invasions_from_need = no
-		subtract_fronts_from_need = no
-	}
-	
-	ai_strategy = {
-		type = put_unit_buffers
-		
-		order_id = 1
-		
-		# north_africa
-		states = {
-			665
-			458
-		}
-		
-		ratio = 0.1
-		
-		subtract_invasions_from_need = no
-	}
 	
 	ai_strategy = {
 		type = spare_unit_factor
 		value = -500
-	}
-	ai_strategy = {
-		type = garrison_reinforcement_priority
-		value = -30
 	}
 	ai_strategy = {
 		type = force_defend_ally_borders
@@ -781,6 +755,28 @@ FRA_Germany_Bad = {
 	}
 }
 
+FRA_Dont_Build_too_Much = {
+	allowed = { original_tag = FRA }
+    enable = {
+        has_army_size = {
+			size > 140
+		}
+    }
+	abort = {
+		has_army_size = {
+			size < 140
+		}
+	}
+	ai_strategy = {
+		type = build_army
+		value = -1000
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = -500
+	}
+}
+
 FRA_area_priority = {
 	allowed = { original_tag = FRA }
     enable = {
@@ -802,79 +798,50 @@ FRA_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = french_north_africa
-		value = 10
+		value = 20
 	}
 
 	ai_strategy = {
 		type = area_priority
 		id = africa
-		value = -10
+		value = 10
 	}
 	
 	ai_strategy = {
 		type = area_priority
 		id = north_america
-		value = -500
+		value = 10
 	}
-	
-	ai_strategy = {
-        type = area_priority
-        id = suez
-        value = -500
-    }
+
 	
 	ai_strategy = {
 		type = area_priority
 		id = asia
-		value = -500
+		value = 0
 	}
 	
 	ai_strategy = {
 		type = area_priority
 		id = middle_east
-		value = -500
+		value = 10
 	}
 
 	ai_strategy = {
 		type = area_priority
 		id = pacific
-		value = -500 #less focus here
+		value = -50 #less focus here
 	}
 
 	ai_strategy = {
 		type = area_priority
 		id = oceania
-		value = -500
+		value = -50
 	}
 	
 	ai_strategy = {
 		type = area_priority
 		id = south_america
-		value = -500
-	}
-	
-	ai_strategy = {
-		type = area_priority
-		id = guandong
-		value = -500
-	}
-	
-	ai_strategy = {
-		type = area_priority
-		id = french_border_congo
-		value = -500
-	}
-	
-	ai_strategy = {
-		type = area_priority
-		id = french_west_africa
-		value = -500
-	}
-	
-	ai_strategy = {
-		type = area_priority
-		id = french_islands
-		value = -500
+		value = 10
 	}
 }
 
@@ -894,25 +861,25 @@ FRA_benelux_will_surely_not_fall = {
 		OR = {
 			date > 1941.1.1
 			AND = {
-				HOL = { surrender_progress > 0.30 }
-				BEL = { surrender_progress > 0.30 }
+				HOL = { surrender_progress > 0.5 }
+				BEL = { surrender_progress > 0.5 }
 			}
 		}
 	}
 
 	ai_strategy = {
 		type = dont_defend_ally_borders
-		id = "HOL"
-		value = 50
+		id = HOL
+		value = 200
 	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
-		id = "BEL"
-		value = 50
+		id = BEL
+		value = 200
 	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
-		id = "LUX"
+		id = LUX
 		value = 50
 	}
 	ai_strategy = {

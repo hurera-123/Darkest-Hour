@@ -743,6 +743,9 @@ on_actions = {
 			}
 			# FACTIONS #
 			CHI = {
+				868 = {
+					set_demilitarized_zone = yes
+				}
 				# # Populate array with factions
 				# clear_array = active_factions_array
 				# set_temp_variable = { faction_id = 1 }
@@ -854,52 +857,52 @@ on_actions = {
 				set_temp_variable = { faction_id = 27 }
 				add_faction_idea = yes
 
-				clear_array = parliament_array
-				if = {
-					limit = {
-						has_start_date < 1933.1.2
-					}
-					# add parties
-					add_to_array = { parliament_array = 4 } # Seiyūkai
-					add_to_array = { parliament_array = 6 } # Minseitō
-					# set up default relative party popularity
-					initiate_parliament_party_relative_party_popularities = yes
-					# set specific relative party populartiy
-					set_variable = { party_relative_popularity_4 = 0.39 }
-					set_variable = { party_relative_popularity_6 = 0.61 }
-					# set party seat share (scaled up values from earlier election)
-					set_variable = { party_influence_4 = 0.39 }	# FR
-					set_variable = { party_influence_6 = 0.61 }	# RAD
-					# set ruling party
-					set_temp_variable = { party_id = 6 }
-					set_parliament_ruling_party = yes
-					# set party support
-					for_each_loop = {
-						array = parliament_array
-						set_temp_variable = { party_id = v }
-						if = {
-							limit = {
-								check_variable = { party_id = 4 } #FR
-							}
-							set_temp_variable = { support_to_add = 0.54 }
-						}
-						else_if = {
-							limit = {
-								check_variable = { party_id = 6 } #RAD
-							}
-							set_temp_variable = { support_to_add = 0.62 }
-						}
-						else = {
-							set_temp_variable = { support_to_add = 0 }
-						}
-						change_party_support = yes
-					}
-					# calculate total parliament support
-					calculate_total_parliament_support = yes
-					# update pie chart
-					update_parliament_piechart = yes
-				}
-				JAP_calculate_total_parliament_support = yes
+				#clear_array = parliament_array
+				#if = {
+				#	limit = {
+				#		has_start_date < 1933.1.2
+				#	}
+				#	# add parties
+				#	add_to_array = { parliament_array = 4 } # Seiyūkai
+				#	add_to_array = { parliament_array = 6 } # Minseitō
+				#	# set up default relative party popularity
+				#	initiate_parliament_party_relative_party_popularities = yes
+				#	# set specific relative party populartiy
+				#	set_variable = { party_relative_popularity_4 = 0.39 }
+				#	set_variable = { party_relative_popularity_6 = 0.61 }
+				#	# set party seat share (scaled up values from earlier election)
+				#	set_variable = { party_influence_4 = 0.39 }	# FR
+				#	set_variable = { party_influence_6 = 0.61 }	# RAD
+				#	# set ruling party
+				#	set_temp_variable = { party_id = 6 }
+				#	set_parliament_ruling_party = yes
+				#	# set party support
+				#	for_each_loop = {
+				#		array = parliament_array
+				#		set_temp_variable = { party_id = v }
+				#		if = {
+				#			limit = {
+				#				check_variable = { party_id = 4 } #FR
+				#			}
+				#			set_temp_variable = { support_to_add = 0.54 }
+				#		}
+				#		else_if = {
+				#			limit = {
+				#				check_variable = { party_id = 6 } #RAD
+				#			}
+				#			set_temp_variable = { support_to_add = 0.62 }
+				#		}
+				#		else = {
+				#			set_temp_variable = { support_to_add = 0 }
+				#		}
+				#		change_party_support = yes
+				#	}
+				#	# calculate total parliament support
+				#	calculate_total_parliament_support = yes
+				#	# update pie chart
+				#	update_parliament_piechart = yes
+				#}
+				#JAP_calculate_total_parliament_support = yes
 			}
 			#TUR = {
 			#	# Populate array with factions
@@ -1025,6 +1028,18 @@ on_actions = {
                     value = 28
                 }
             }
+			# Resource rights
+			OMA = { give_resource_rights = { receiver = ENG state = 294 } }
+			PER = {
+				give_resource_rights = { receiver = ENG state = 413 } # Iran
+				give_resource_rights = { receiver = ENG state = 412 } # Iran
+				give_resource_rights = { receiver = ENG state = 411 } # Iran
+			}
+			IRQ = {
+				give_resource_rights = { receiver = ENG state = 291 } # Iraq
+				give_resource_rights = { receiver = FRA state = 676 }
+			}
+			SAU = { give_resource_rights = { receiver = USA state = 292 } }
 			# GOALS AND ACHIEVEMENTS #
 			random_country = {
 				set_up_goals_and_achievements = yes

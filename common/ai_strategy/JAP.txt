@@ -25,6 +25,20 @@ JAP_SOV_NAP = {
 		value = 100
 	}
 }
+JAP_Dont_Do_Funny_With_POL = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		country_exists = POL
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = ignore
+		id = "POL"
+		value = 500
+	}
+}
 JAP_Faction = {
 	enable = {
 		JAP = {
@@ -308,6 +322,47 @@ JAP_US_Relations = {
 		value = 150
 	}
 }
+JAP_Put_Units_on_Border_with_China = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		date > 1933.1.1
+		date < 1937.1.1
+		NEA = {
+			exists = yes
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = prepare_for_war
+		id = "NEA"
+		value = 200
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = MAN
+		value = 200
+	}
+}
+MAN_Put_Units_on_Border_with_China = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		date > 1933.1.1
+		date < 1937.1.1
+		NEA = {
+			exists = yes
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = prepare_for_war
+		id = "NEA"
+		value = 200
+	}
+}
 JAP_Prepare_for_Attack_on_China = {
 	allowed = {
 		original_tag = JAP
@@ -315,7 +370,6 @@ JAP_Prepare_for_Attack_on_China = {
 	enable = {
 		date > 1937.1.1
 		has_start_date < 1937.1.1
-		has_completed_focus = JAP_Strike_South_Doctrine
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
@@ -326,27 +380,12 @@ JAP_Prepare_for_Attack_on_China = {
 	ai_strategy = {
 		type = invade
 		id = "CHI"
-		value = 500
+		value = 200
 	}
 	ai_strategy = {
 		type = conquer
 		id = "CHI"
-		value = 500
-	}
-	ai_strategy = {
-		type = put_unit_buffers
-		
-		order_id = 1
-		
-		# border with china
-		states = {
-			609
-			611
-		}
-		
-		ratio = 0.6
-		
-		subtract_invasions_from_need = no
+		value = 100
 	}
 	ai_strategy = {
 		type = garrison_reinforcement_priority
@@ -362,10 +401,7 @@ Puppets_Prepare_for_Attack_on_China = {
 	}
 	enable = {
 		date > 1937.1.1
-		has_start_date < 1933.1.1
-		JAP = {
-			has_completed_focus = JAP_Strike_South_Doctrine
-		}
+		has_start_date < 1937.1.1
 	}
 	ai_strategy = {
 		type = prepare_for_war
@@ -486,12 +522,6 @@ JAP_China_Invasions_2 = {
 		type = invasion_unit_request
 		state = 595
 		value = 500
-	}
-
-	ai_strategy = {
-		type = invasion_unit_request
-		state = 592
-		value = 200
 	}
 
 	ai_strategy = {
@@ -888,7 +918,7 @@ JAP_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = europe
-		value = 10
+		value = -100
 	}
 	ai_strategy = {
 		type = area_priority
@@ -898,7 +928,7 @@ JAP_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = south_america
-		value = 25
+		value = 0
 	}
 	ai_strategy = {
 		type = area_priority
@@ -918,12 +948,12 @@ JAP_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = middle_east
-		value = 50
+		value = -100
 	}
 	ai_strategy = {
 		type = area_priority
 		id = africa
-		value = 10
+		value = -100
 	}
 }
 JAP_Protect_Home = {
@@ -1000,7 +1030,7 @@ JAP_Protect_Home_Islands = {
 			536
 		}
 
-		ratio = 0.8
+		ratio = 0.6
 
 		area = japan
 
@@ -1090,87 +1120,6 @@ JAP_Protect_Conquered_Lands = {
 		ratio = 0.7
 
 		subtract_invasions_from_need = no
-	}
-}
-
-less_trucks_4_u_JAP = {
-	enable = {
-		tag = JAP
-		date < 1939.1.1
-	}
-	abort = {
-		date > 1939.1.1
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = infantry
-		value = 80
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = garrison
-		value = 12
-	}
-	ai_strategy = {
-		type = template_prio
-		id = infantry
-		value = 100
-	}
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = artillery
-		value = 5
-	}
-}
-JAP_template_design = {
-	enable = {
-		original_tag = JAP
-		date > 1940.1.1
-	}
-	ai_strategy = {
-		type = template_prio
-		id = infantry
-		value = -10
-	}
-	ai_strategy = {
-		type = template_prio
-		id = motorized
-		value = 10
-	}
-	ai_strategy = {
-		type = template_prio
-		id = cavalry
-		value = -100
-	}
-	ai_strategy = {
-		type = template_prio
-		id = light_armor
-		value = -10
-	}
-	ai_strategy = {
-		type = template_prio
-		id = medium_armor
-		value = 40
-	}
-	ai_strategy = {
-		type = template_prio
-		id = modern_armor
-		value = 50
-	}
-	ai_strategy = {
-		type = template_prio
-		id = heavy_armor
-		value = -100
-	}
-	ai_strategy = {
-		type = template_prio
-		id = paratroopers
-		value = -10
-	}
-	ai_strategy = {
-		type = template_prio
-		id = mechanized
-		value = 10
 	}
 }
 # hey dynamic targets would be swole as f*
@@ -1521,21 +1470,11 @@ JAP_unit_production = {
 	}
 	abort = {
 		always = no
-	}
+	}	
 	ai_strategy = {
 		type = role_ratio
-		id = garrison
-		value = 10		#30 to 8
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = paratroopers
-		value = 0
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = mountaineers
-		value = 0
+		id = infantry
+		value = 90
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -1544,38 +1483,24 @@ JAP_unit_production = {
 	}
 	ai_strategy = {
 		type = role_ratio
-		id = cavalry
-		value = 0
+		id = garrison
+		value = 5
 	}
 	ai_strategy = {
-		type = role_ratio
-		id = motorized
-		value = 20		#because doctrine this = 2
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = mechanized
-		value = 0		#because doctrine this = 0
-	}
-	ai_strategy = {
-		type = role_ratio
-		id = armor
-		value = 20		#because doctrine this = 10
-	}
-	ai_strategy = {
-		type = role_ratio
+		type = equipment_production_min_factories
 		id = infantry
-		value = 80		#88 to 70
+		value = 3
 	}
 	ai_strategy = {
-		type = force_build_armies
-		value = 500
+		type = equipment_production_min_factories
+		id = artillery
+		value = 1
 	}
 	#Air unit factors
 	ai_strategy = {
 		type = unit_ratio
 		id = fighter
-		value = 70
+		value = 60
 	}
 	ai_strategy = {
 		type = unit_ratio
@@ -1597,50 +1522,171 @@ JAP_unit_production = {
 		id = naval_bomber
 		value = 5
 	}
-	# Naval unit factors
+}
+JAP_armored_production = {
+	enable = {
+		original_tag = JAP
+		num_of_military_factories > 119
+		date > 1941.6.1
+	}
+	abort = {
+		num_of_military_factories < 120
+	}
+
 	ai_strategy = {
-		type = unit_ratio
-		id = capital_ship
-		value = 60
+		type = role_ratio
+		id = infantry
+		value = -5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 5
+	}
+
+    ai_strategy = {
+		type = equipment_production_min_factories
+		id = armor
+		value = 3
+	}
+}
+less_trucks_4_u_JAP = {
+	enable = {
+		tag = JAP
+		date < 1939.1.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = template_prio
+		id = motorized
+		value = -80
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = cavalry
+		value = -80
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = mountaineers
+		value = -80
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = infantry
+		value = 100
+	}
+
+}
+JAP_Build_the_Army = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		date > 1935.1.1
+	}
+	abort = {
+		has_army_size = {
+			size > 99
+		}
 	}
 	ai_strategy = {
-		type = unit_ratio
-		id = submarine
-		value = 50		#because doctrine this = 50
+		type = force_build_armies
+		value = 50
 	}
 	ai_strategy = {
-		type = unit_ratio
-		id = screen_ship
-		value = 60
+		type = build_army
+		id = infantry
+		value = 100
+	}
+}
+JAP_build_up_1937 = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		date > 1937.1.1
 	}
 	ai_strategy = {
-		type = unit_ratio
-		id = carrier
+		type = building_target
+		id = arms_factory
 		value = 500
 	}
+}
+JAP_build_some_factories_jeez = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		date > 1939.1.2
+	}
+	abort = {
+		OR = {
+			num_of_military_factories > 100
+			CHI = { is_subject_of = JAP }
+		}
+	}
+
 	ai_strategy = {
-		type = unit_ratio
-		id = convoy
-		value = 20
+		type = added_military_to_civilian_factory_ratio
+		value = 15
+	}
+}
+JAP_template_design = {
+	allowed = {
+		tag = JAP
+	}
+	enable = {
+		date > 1940.1.1
 	}
 	ai_strategy = {
-		type = equipment_production_factor
-		id = fighter
-		value = 20
-	}
-	ai_strategy = {
-		type = equipment_production_factor
+		type = template_prio
 		id = infantry
-		value = 50		#30 to 50
+		value = 10
 	}
 	ai_strategy = {
-		type = equipment_production_factor
-		id = artillery
-		value = 30		#20 to 40
+		type = template_prio
+		id = motorized
+		value = 10
 	}
 	ai_strategy = {
-		type = equipment_production_factor
-		id = armor
+		type = template_prio
+		id = cavalry
+		value = -100
+	}
+	ai_strategy = {
+		type = template_prio
+		id = light_armor
+		value = -10
+	}
+	ai_strategy = {
+		type = template_prio
+		id = medium_armor
+		value = 40
+	}
+	ai_strategy = {
+		type = template_prio
+		id = modern_armor
+		value = 50
+	}
+	ai_strategy = {
+		type = template_prio
+		id = heavy_armor
+		value = -100
+	}
+	ai_strategy = {
+		type = template_prio
+		id = paratroopers
+		value = -10
+	}
+	ai_strategy = {
+		type = template_prio
+		id = mechanized
 		value = 10
 	}
 }

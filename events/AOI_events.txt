@@ -1,0 +1,56 @@
+add_namespace = AOI_Leadership_Changes
+######################################
+# Italian East Africa Events
+######################################
+country_event = { # 
+	id = AOI_Leadership_Changes.1
+	title = AOI_Leadership_Changes.1.t
+	desc = AOI_Leadership_Changes.1.d
+	fire_only_once = yes
+	hidden = yes
+	is_triggered_only = yes
+	option = {
+		name = AOI_Leadership_Changes.1.A
+		retire_country_leader = yes
+		add_country_leader_role = {
+			character = AOI_Rodolfo_Graziani
+			promote_leader = yes
+			country_leader = {
+				ideology = fascism
+				traits={ 
+					POSITION_Vicere_of_Ethiopia
+					SUBIDEOLOGY_Fascism
+				}
+				expire = "1965.1.1"
+				id=-1
+			}
+		}
+		
+		country_event = { id = AOI_Leadership_Changes.2 days = 555}
+	}
+}
+country_event = { # 
+	id = AOI_Leadership_Changes.2
+	title = AOI_Leadership_Changes.2.t
+	desc = AOI_Leadership_Changes.2.d
+	fire_only_once = yes
+	hidden = yes
+	is_triggered_only = yes
+	option = {
+		name = AOI_Leadership_Changes.2.A
+		retire_country_leader = yes
+		add_country_leader_role = {
+			character = AOI_Amedeo_di_Savoia
+			promote_leader = yes
+			country_leader = {
+				ideology = fascism
+				traits={ 
+					POSITION_Vicere_of_Ethiopia
+					SUBIDEOLOGY_Fascism
+				}
+				expire = "1965.1.1"
+				id=-1
+			}
+		}
+	}
+}

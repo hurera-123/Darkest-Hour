@@ -5,7 +5,8 @@ set_convoys = 150
 set_stability = 0.5
 
 set_technology = {
-	basic_train = 1
+	basic_train = 1
+
 	Small_Arms_1916 = 1
 	Small_Arms_1935 = 1
 	tech_recon = 1
@@ -94,7 +95,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Francisco Franco Bahamonde"
-	desc = "Francisco_Franco_Bahamonde_desc"
+	desc = Francisco_Franco_Bahamonde_desc
 	picture = GFX_P_A_Francesco_Franco
 	expire = "1965.1.1"
 	ideology = military_dictatorship

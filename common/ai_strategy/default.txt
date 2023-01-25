@@ -15,7 +15,7 @@
 # area_priority
 default_unit_production = {
 	enable = {
-		always = yes
+		date > 1933.1.1
 		NOT = {
 			original_tag = GER
 		}
@@ -30,6 +30,12 @@ default_unit_production = {
 		}
 		NOT = {
 			original_tag = ENG
+		}
+		NOT = {
+			original_tag = SOV
+		}
+		NOT = {
+			original_tag = ITA
 		}
 		is_major = no
 	}
@@ -199,7 +205,7 @@ default_mountaineers_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = mountaineers
-		value = -100
+		value = 3
 	}
 }
 
@@ -217,7 +223,7 @@ default_marines_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = marines
-		value = -100
+		value = 0
 	}
 }
 
@@ -320,7 +326,7 @@ more_naval_focused_nation = {
 			tag = USA
 			tag = ENG
 		}
-		date > "1941.1.1"		#Delaying it by a couple of years
+		date > 1941.1.1		#Delaying it by a couple of years
 	}
 	ai_strategy = {
 		type = unit_ratio
@@ -381,18 +387,52 @@ default_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = africa
-		value = -90
+		value = 10
 	}
 	ai_strategy = {
 		type = area_priority
 		id = pacific
-		value = 300
+		value = 50
 	}
 	ai_strategy = {
 		type = area_priority
 		id = oceania
-		value = 80
+		value = 75
 	}
+}
+
+default_area_priority_non_africa = {
+    enable = {
+        NOT = { original_tag = ITA }
+        NOT = { original_tag = FRA }
+        NOT = { original_tag = USA }
+        NOT = { original_tag = ENG }
+        NOT = { is_subject_of = ENG }
+        NOT = { capital_scope = { is_on_continent = africa } }
+    }
+
+    ai_strategy = {
+        type = area_priority
+        id = africa
+        value = -70
+    }
+}
+
+default_railway_gun_management = {
+	enable = {
+		num_divisions > 150
+		is_major = yes
+		has_dlc = "No Step Back"
+	}
+	abort = {
+		num_divisions < 120
+	}
+
+	ai_strategy = { # This will add the specified value to the RAILWAY_GUN_PRODUCTION_BASE_DIVISIONS_RATIO_PERCENT define and use that as the desired railway guns / divisions ratio (in %)
+		type = railway_gun_divisions_ratio
+		value = 4
+	}
+
 }
 
 default_stockpile_management = {
@@ -408,7 +448,7 @@ default_stockpile_management = {
 	}
 }
 
-DEFAULT_template_design = {
+DEFAULT_early_template_design = {
 	enable = {
 		NOT = {
 			OR = {
@@ -651,13 +691,13 @@ do_not_waste_pp_befriend = {
 
 do_not_embargo = {
 	enable = {
-		always = yes
+		date > 1933.1.1
 	}
 
 	ai_strategy = {
 		type = pp_spend_priority
 		id = embargo
-		value = -9999
+		value = -2000
 	}
 }
 
@@ -866,5 +906,230 @@ ill_show_you_mine_2 = {
 		type = role_ratio
 		id = naval_mine_layer
 		value = -10
+	}
+}
+
+build_intelligence_agency_as_major = {
+	enable = {
+		is_major = yes
+		OR = {
+			has_war = yes
+			date > 1938.1.1
+		}
+	}
+
+	ai_strategy = {
+		type = intelligence_agency_usable_factories
+		value = 5
+	}
+
+}
+
+build_intelligence_agency = {
+	enable = {
+		date > 1940.1.1
+		has_war = no
+		num_of_civilian_factories > 25
+	}
+	abort = {
+		OR = {
+			has_war = yes
+			num_of_civilian_factories < 25
+		}
+	}
+
+	ai_strategy = {
+		type = intelligence_agency_usable_factories
+		value = 5
+	}
+
+}
+
+upgrade_intelligence_agency = {
+	enable = {
+		date > 1940.1.1
+		num_of_civilian_factories > 50
+	}
+	abort = {
+		OR = {
+			num_of_civilian_factories < 40
+		}
+	}
+
+	ai_strategy = {
+		type = intelligence_agency_usable_factories
+		value = 5
+	}
+}
+
+upgrade_intelligence_agency_as_spy_master = {
+	enable = {
+		is_spymaster = yes
+		OR = {
+			has_war = no
+			num_of_civilian_factories > 50
+		}
+	}
+	abort = {
+		is_spymaster = no
+		num_of_civilian_factories < 40
+	}
+
+	ai_strategy = {
+		type = intelligence_agency_usable_factories
+		value = 10
+	}
+}
+
+addintelligence_agency_normal_upgrade_prio = {
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_intelligence
+		value = 1000
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_defense
+		value = 1000
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_operation
+		value = 500
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_operative
+		value = 100
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_crypto
+		value = 2000
+	}
+}
+
+more_upgrades_as_spymaster = {
+
+	enable = {
+		is_spymaster = yes
+	}
+
+	abort = {
+		is_spymaster = no
+	}
+
+	ai_strategy = {
+		type = agency_ai_base_num_factories_factor
+		value = -50    # -50% on the define
+	}
+
+	ai_strategy = {
+		type = agency_ai_per_upgrade_factories_factor
+		value = -25    # -25% on the define
+	}
+}
+
+
+put_garrisons_on_high_prio = {
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = garrison_reinforcement_priority
+		value = 100 # positive is high prio, negative is low prio
+	}
+}
+
+###
+
+comintern_avoid_starting_wars_during_endgame = { #Sov should avoid attacking allies while ww2 is still going on
+
+	allowed = {
+		OR = {
+			original_tag = SOV
+			is_in_faction_with = SOV
+		}
+	}
+	enable = {
+		is_historical_focus_on = yes
+		SOV = { has_government = communist }
+		OR = {
+			USA = {
+				has_capitulated = no
+				has_war_with = JAP
+			}
+			ENG = {
+				has_capitulated = no
+				has_war_with = JAP
+			}
+		}
+		date > 1943.1.1
+		date < 1945.1.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = avoid_starting_wars
+		value = -400
+	}
+	ai_strategy = {
+		type = conquer
+		id = POL
+		value = -400 #REALLY dont try and conquer poland
+	}
+	ai_strategy = {
+		type = befriend
+		id = "POL"
+		value = 200
+	}
+	ai_strategy = {
+		type = conquer
+		id = JAP
+		value = 400 #These values offset each other. Basically we won't start wars with anyone except for japan while this strategy is active
+	}
+	ai_strategy = {
+		type = conquer
+		id = FIN
+		value = 400 #These values offset each other. Basically we won't start wars with anyone except for finland while this strategy is active
+	}
+	ai_strategy = {
+		type = conquer
+		id = PER
+		value = 400 #These values offset each other. Basically we won't start wars with anyone except for iran while this strategy is active
+	}
+}
+
+allies_avoid_starting_wars_during_endgame = { #Allies should avoid attacking.. well, anyone while ww2 is in endgame
+	allowed = {
+		OR = {
+			tag = ENG
+			is_in_faction_with = ENG
+		}
+	}
+	enable = {
+		is_historical_focus_on = yes
+		ENG = { has_government = democratic }
+		OR = {
+			tag = ENG
+			is_in_faction_with = ENG
+		}
+		has_war_with = JAP
+		JAP = {
+			has_government = fascist #Just to make sure we're not looking at a puppet or sth
+		}
+		date > 1943.1.1
+		date < 1945.1.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = avoid_starting_wars
+		value = -400
 	}
 }
