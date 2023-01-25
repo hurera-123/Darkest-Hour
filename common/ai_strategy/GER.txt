@@ -1675,6 +1675,31 @@ GER_Help_ITA_in_Africa = {
 		value = 10
 	}
 }
+GER_Allies_Dont_Help_in_Africa = {
+	enable = {
+		NOT = {
+			tag = GER
+			tag = ITA
+			tag = ENG
+			tag = FRA
+		}	
+		is_in_faction_with = GER
+		is_in_faction_with = ITA
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = front_unit_request
+		area = north_africa
+		value = -100
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		area = africa
+		value = -100
+	}
+}
 #Operation Barbarossa
 GER_Operation_Barbarossa = {
 	enable = {

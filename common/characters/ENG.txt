@@ -312,6 +312,24 @@ characters={
 				L_The_Pacifier
 			}
 		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=ENG_Neville_Chamberlain_AM
+			can_be_fired = no
+			allowed={
+				tag=ENG
+			}
+			visible={
+				date > 1933.01.01
+				date < 1941.01.01
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Neville_Chamberlain_unavailable }
+			}
+			traits={
+				
+				AM_Balanced_Budget_Economy
+			}
+		}
 	}
 	ENG_Winston_Churchill = {
 		name=ENG_Winston_Churchill

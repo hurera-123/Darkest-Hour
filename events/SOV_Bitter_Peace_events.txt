@@ -334,6 +334,20 @@ country_event = {
 			}
 			if = {
 				limit = {
+					SOV = {
+						owns_state = 419
+					}
+				}
+				every_state = {
+					limit = {	
+						is_owned_by = SOV
+						is_core_of = PER
+					}
+					PER = { transfer_state = PREV }
+				}
+			}
+			if = {
+				limit = {
 					has_global_flag = SOV_Continue_war_with_Germany
 				}
 				every_state = {

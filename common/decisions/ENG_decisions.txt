@@ -442,9 +442,9 @@ operations = {
 		fire_only_once = yes
 		days_remove = 30
 		custom_cost_trigger = {
-			command_power > 74
+			command_power > 49
 		}
-		custom_cost_text = decision_cost_CP_75
+		custom_cost_text = decision_cost_CP_50
 		allowed = {
 			OR = {
 				original_tag = ENG
@@ -471,13 +471,13 @@ operations = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 500
+				add = 900
 				date > 1942.11.1
 			}
 		}
 		complete_effect = {
 			hidden_effect = {
-				add_command_power = -75
+				add_command_power = -50
 			}
 			declare_war_on = {
 				target = FRA
