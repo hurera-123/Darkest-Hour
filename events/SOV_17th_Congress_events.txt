@@ -262,17 +262,6 @@ news_event = {
 		set_country_flag = SOV_XVII_Congress_complete
 		hidden_effect = {
 			complete_national_focus = SOV_XVII_Congress
-			create_country_leader = {
-				name = "Iosif V. Stalin"
-				desc = "Joseph_Stalin_desc"
-				picture = GFX_P_C_Joseph_Stalin
-				ideology = stalinism
-				traits = {
-					POSITION_General_Secretary
-					SUBIDEOLOGY_Stalinism
-					L_Paranoid_Megalomaniac
-				}
-			}
 		}
 	}
 	# Congrats, to Comrade Stalin.

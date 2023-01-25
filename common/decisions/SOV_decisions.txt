@@ -98,7 +98,7 @@ SOV_The_Great_Purge = {
 			factor = 500
 		}
 		cost = 75
-		days_remove = 0
+		days_remove = 25
 		complete_effect = {
 			set_country_flag = SOV_Case_of_the_Anti_Soviet_Trotskyist_Center
 			country_event = {
@@ -141,7 +141,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
-		days_remove = 30
+		days_remove = 40
 		cost = 75
 		complete_effect = {
 		}
@@ -168,7 +168,7 @@ SOV_The_Great_Purge = {
 			factor = 100
 		}
 		cost = 50
-		days_remove = 70
+		days_remove = 35
 		complete_effect = {
 			set_temp_variable = {
 				SOV_Stalin_Paranoia_Change_gain = -0.015
@@ -249,7 +249,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
-		days_remove = 35
+		days_remove = 70
 		cost = 50
 		complete_effect = {
 			set_temp_variable = {
@@ -301,7 +301,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
-		days_remove = 5
+		days_remove = 70
 		cost = 50
 		complete_effect = {
 			# every_army_leader = {
@@ -336,7 +336,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 100
 		}
-		days_remove = 30
+		days_remove = 40
 		cost = 50
 		complete_effect = {
 		}
@@ -375,7 +375,7 @@ SOV_The_Great_Purge = {
 		ai_will_do = {
 			factor = 999
 		}
-		days_remove = 10
+		days_remove = 20
 		cost = 50
 		complete_effect = {
 			custom_effect_tooltip = SOV_Agranov_is_Replaced
@@ -646,7 +646,7 @@ SOV_The_Great_Purge = {
 			decryption_factor = -0.05
 			encryption_factor = -0.05
 		}
-		days_remove = 150
+		days_remove = 100
 		complete_effect = {
 			set_temp_variable = {
 				SOV_Stalin_Paranoia_gain = -3
@@ -683,7 +683,7 @@ SOV_The_Great_Purge = {
 		modifier = {
 			weekly_manpower = -7500
 		}
-		days_remove = 52
+		days_remove = 70
 		complete_effect = {
 			set_temp_variable = {
 				SOV_Stalin_Paranoia_gain = -10
@@ -947,7 +947,7 @@ SOV_The_Great_Purge = {
 			factor = 100
 		}
 		cost = 50
-		days_remove = 0
+		days_remove = 15
 		complete_effect = {
 			retire_character = SOV_Vasily_Blyukher
 		}
@@ -969,7 +969,7 @@ SOV_The_Great_Purge = {
 			factor = 999
 		}
 		cost = 75
-		days_remove = 0
+		days_remove = 15
 		complete_effect = {
 			custom_effect_tooltip = SOV_Frinovsky_is_Replaced
 			clr_country_flag = SOV_Frinovsky_Deputy_of_NKVD
@@ -998,7 +998,7 @@ SOV_The_Great_Purge = {
 		modifier = {
 			weekly_manpower = -500
 		}
-		days_remove = 32
+		days_remove = 50
 		complete_effect = {
 			add_war_support = -0.05
 			add_stability = -0.02
@@ -1050,7 +1050,7 @@ SOV_The_Great_Purge = {
 			political_power_gain = -0.1
 			local_resources = -0.1
 		}
-		days_remove = 100
+		days_remove = 144
 		complete_effect = {
 		}
 		remove_effect = {
@@ -1364,6 +1364,9 @@ foreign_politics = {
 			GER = {
 				has_war_with = POL
 			}
+			POL = {
+				surrender_progress > 0.2
+			}
 		}
 		ai_will_do = {
 			base = 0
@@ -1372,7 +1375,8 @@ foreign_politics = {
 				date > 1939.9.1
 			}
 		}
-		complete_effect = {
+		days_remove = 14
+		remove_effect = {
 			#declare_war_on = {
 			#	type = take_state_focus
 			#	target = POL
@@ -1385,12 +1389,16 @@ foreign_politics = {
 				add_state_claim = 94
 				add_state_claim = 95
 				add_state_claim = 96
+				add_state_claim = 97
 				add_state_claim = 885
 				add_state_claim = 886
 				add_state_claim = 1170
 				add_state_claim = 1426
 				add_state_claim = 1427
+				add_state_claim = 1428
 				add_state_claim = 1499
+				add_state_claim = 805
+				add_state_claim = 1171
 			}
 			transfer_state = 89
 			transfer_state = 91
@@ -1398,34 +1406,16 @@ foreign_politics = {
 			transfer_state = 94
 			transfer_state = 95
 			transfer_state = 96
+			transfer_state = 97
 			transfer_state = 885
 			transfer_state = 886
 			transfer_state = 1170
 			transfer_state = 1426
 			transfer_state = 1427
+			transfer_state = 1428
 			transfer_state = 1499
-			if = {
-				limit = {
-					LIT = {
-						exists = yes
-						NOT = {
-							has_war_with = SOV
-						}
-					}
-				}
-				LIT = {
-					transfer_state = 805
-					transfer_state = 1171
-				}
-			}
-			else_if = {
-				hidden_effect = {
-					add_state_claim = 805
-					add_state_claim = 1171
-				}
-				transfer_state = 805
-				transfer_state = 1171
-			}
+			transfer_state = 805
+			transfer_state = 1171
 			add_threat = 2
 		}
 	}
@@ -1454,18 +1444,6 @@ foreign_politics = {
 			}
 			NOT = {
 				has_war_with = ROM
-				OR = {
-					owns_state = 78
-					78 = {
-						is_claimed_by = ROOT
-					}
-				}
-				OR = {
-					owns_state = 80
-					80 = {
-						is_claimed_by = ROOT
-					}
-				}
 			}
 		}
 		ai_will_do = {
@@ -1488,30 +1466,6 @@ foreign_politics = {
 					days = 1
 					id = SOV_Bessarabia_Annexation.1
 				}
-			}
-			if = {
-				limit = {
-					78 = {
-						OWNER = {
-							NOT = {
-								is_in_faction_with = ROOT
-							}
-						}
-					}
-				}
-				add_state_claim = 78
-			}
-			if = {
-				limit = {
-					80 = {
-						OWNER = {
-							NOT = {
-								is_in_faction_with = ROOT
-							}
-						}
-					}
-				}
-				add_state_claim = 80
 			}
 			add_named_threat = {
 				threat = 1
@@ -1671,10 +1625,9 @@ foreign_politics = {
 			}
 		}
 		ai_will_do = {
-			factor = 10
+			base = 0
 			modifier = {
-				add = 100
-				factor = 500
+				add = 500
 				date > 1939.9.30
 			}
 		}
@@ -1719,13 +1672,14 @@ foreign_politics = {
 		}
 		available = {
 			has_country_flag = Baltic_Ultimatum
-			has_war = no
+			NOT = {
+				has_war_with = GER
+			}
 		}
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 100
-				factor = 500
+				add = 500
 				date > 1940.6.10
 			}
 		}
@@ -1779,17 +1733,14 @@ foreign_politics = {
 		}
 		available = {
 			has_country_flag = Baltic_Ultimatum
-			OR = {
-				controls_state = 805
-				controls_state = 1171
+			NOT = {
+				has_war_with = GER
 			}
-			has_war = no
 		}
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 100
-				factor = 500
+				add = 500
 				date > 1940.6.10
 			}
 		}
@@ -1823,8 +1774,7 @@ foreign_politics = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 200
-				factor = 100
+				add = 500
 				date > 1944.10.11
 			}
 		}
@@ -1832,7 +1782,7 @@ foreign_politics = {
 			TAN = {
 				country_event = {
 					days = 2
-					id = soviet.14
+					id = SOV_TAN_Integration.1
 				}
 			}
 		}
@@ -2317,6 +2267,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Moscow_Metro = {
 		fire_only_once = yes
 		icon = generic_construction
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 120
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 120
@@ -2358,6 +2315,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Ural_Heavy_Machinery_Plant = {
 		fire_only_once = yes
 		icon = generic_industry
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 375
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 375
@@ -2399,6 +2363,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Kramatorsk_Heavy_Machine_Tool_Engineering_Plant = {
 		fire_only_once = yes
 		icon = generic_industry
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 250
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 250
@@ -2445,6 +2416,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Ural_Railroad_Car_Factory = {
 		fire_only_once = yes
 		icon = generic_industry
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 300
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 300
@@ -2491,6 +2469,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Chelyabinsk_Tractor_Plant = {
 		fire_only_once = yes
 		icon = generic_industry
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 450
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 450
@@ -2537,6 +2522,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Krivoi_Rog_Steel_Mill = {
 		fire_only_once = yes
 		icon = steel
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 300
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 300
@@ -2587,6 +2579,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_New_Lipetsk_Steel_Mill = {
 		fire_only_once = yes
 		icon = steel
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 250
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 250
@@ -2637,6 +2636,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_New_Tula_Steel_Mill = {
 		fire_only_once = yes
 		icon = steel
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 250
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 250
@@ -2687,6 +2693,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Azovstal_Steel_Rolling_Plant = {
 		fire_only_once = yes
 		icon = steel
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 250
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 250
@@ -2737,6 +2750,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Zaporozhstal_Steel_Rolling_Plant = {
 		fire_only_once = yes
 		icon = steel
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 250
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 250
@@ -2787,6 +2807,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Tashkent_Textile_Factory = {
 		fire_only_once = yes
 		icon = generic_factory
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 100
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 100
@@ -2827,6 +2854,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Barnaul_Paper_Cotton_Factory = {
 		fire_only_once = yes
 		icon = generic_factory
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 100
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 100
@@ -2867,6 +2901,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Norilsk_Ore_Mining_Smelting_Plant = {
 		fire_only_once = yes
 		icon = generic_factory
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 250
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 250
@@ -2912,6 +2953,13 @@ SOV_Second_Five_Year_Plan_category = {
 	SOV_Ural_Kuznetsk_Ore_Mining_Smelting_Works = {
 		fire_only_once = yes
 		icon = generic_factory
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 400
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 400
@@ -3104,7 +3152,7 @@ SOV_Battle_for_Harvest_category = {
 				date < 1933.5.6
 			}
 		}
-		days_re_enable = 275
+		days_re_enable = 200
 		cost = 60
 		complete_effect = {
 			custom_effect_tooltip = SOV_30_Percent_Grain_Harvest
@@ -3236,7 +3284,7 @@ SOV_Battle_for_Harvest_category = {
 				date < 1933.5.6
 			}
 		}
-		days_re_enable = 275
+		days_re_enable = 200
 		cost = 50
 		complete_effect = {
 			custom_effect_tooltip = SOV_Normal_Grain_Harvest
@@ -3368,7 +3416,7 @@ SOV_Battle_for_Harvest_category = {
 				date < 1933.5.6
 			}
 		}
-		days_re_enable = 275
+		days_re_enable = 200
 		cost = 40
 		complete_effect = {
 			custom_effect_tooltip = SOV_30_Percent_Minus_Grain_Harvest
@@ -4772,6 +4820,7 @@ SOV_Evacuation_of_Industry_category = {
 				amount = -20
 				state = 232
 			}
+			set_global_flag = SOV_Destroyed_Grozny
 		}
 		ai_will_do = {
 			base = 0
@@ -4812,6 +4861,7 @@ SOV_Evacuation_of_Industry_category = {
 				amount = -80
 				state = 229
 			}
+			set_global_flag = SOV_Destroyed_Baku
 		}
 		ai_will_do = {
 			base = 0
@@ -5055,6 +5105,13 @@ SOV_Trasformation_of_Nature_category = {
 	SOV_Windbreak_in_Central_Russia = {
 		fire_only_once = yes
 		icon = placeholder
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 100
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 100
@@ -5145,6 +5202,13 @@ SOV_Trasformation_of_Nature_category = {
 	SOV_Windbreak_in_Southern_Russia = {
 		fire_only_once = yes
 		icon = placeholder
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 100
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 100
@@ -5235,6 +5299,13 @@ SOV_Trasformation_of_Nature_category = {
 	SOV_Windbreak_in_Northern_Caucasus = {
 		fire_only_once = yes
 		icon = placeholder
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 100
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 100
@@ -5324,6 +5395,13 @@ SOV_Trasformation_of_Nature_category = {
 	SOV_Construct_Central_Turkmen_Canal = {
 		fire_only_once = yes
 		icon = placeholder
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 150
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 150
@@ -5468,6 +5546,13 @@ SOV_Trasformation_of_Nature_category = {
 	SOV_Construct_Volga_Don_Canal = {
 		fire_only_once = yes
 		icon = placeholder
+		custom_cost_trigger = {
+			set_temp_variable = {
+				amount_of_money_to_check = 150
+			}
+			has_specific_amount_of_money_with_inflation_included = yes
+		}
+		custom_cost_text = decision_cost_money
 		available = {
 			set_temp_variable = {
 				amount_of_money_to_check = 150
@@ -6279,7 +6364,7 @@ SOV_The_Great_Patriotic_War_category = {
 		available = {
 			has_war_with = GER
 			IRQ = {
-				is_puppet_of = ENG
+				is_subject_of = ENG
 			}
 		}
 		ai_will_do = {
@@ -7440,7 +7525,11 @@ SOV_Secure_The_Eastern_Flank_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 200
+			base = 200
+			modifier  = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 		custom_cost_trigger = {
 			NOT = {
@@ -7453,7 +7542,7 @@ SOV_Secure_The_Eastern_Flank_category = {
 			add_command_power = -25
 		}
 		remove_effect = {
-			CHI = {
+			SIK = {
 				country_event = { id = SIK_Sino_Japanese_War_Chinese_Defeat.1 days = 1 }
 			}
 		}
@@ -7514,7 +7603,7 @@ SOV_intervention_in_china = {
 		ai_will_do = {
 			factor = 500
 		}
-		days_re_enable = 30
+		days_re_enable = 60
 		complete_effect = {
 			send_equipment = {
 				equipment = infantry_equipment
@@ -7524,6 +7613,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_1_influence
 			add_to_variable = {
 				soviet_influence = 0.01
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7542,7 +7636,7 @@ SOV_intervention_in_china = {
 		ai_will_do = {
 			factor = 500
 		}
-		days_re_enable = 60
+		days_re_enable = 120
 		complete_effect = {
 			send_equipment = {
 				equipment = light_armor_equipment
@@ -7552,6 +7646,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_1_influence
 			add_to_variable = {
 				soviet_influence = 0.01
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7570,7 +7669,7 @@ SOV_intervention_in_china = {
 		ai_will_do = {
 			factor = 500
 		}
-		days_re_enable = 80
+		days_re_enable = 150
 		complete_effect = {
 			send_equipment = {
 				equipment = armor_equipment
@@ -7580,6 +7679,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_2_influence
 			add_to_variable = {
 				soviet_influence = 0.02
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7598,7 +7702,7 @@ SOV_intervention_in_china = {
 		ai_will_do = {
 			factor = 500
 		}
-		days_re_enable = 60
+		days_re_enable = 90
 		complete_effect = {
 			send_equipment = {
                equipment = artillery_equipment
@@ -7608,6 +7712,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_1_influence
 			add_to_variable = {
 				soviet_influence = 0.01
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7621,7 +7730,7 @@ SOV_intervention_in_china = {
 		ai_will_do = {
 			factor = 500
 		}
-		days_re_enable = 180
+		days_re_enable = 200
 		complete_effect = {
 			CHI = {
 				army_experience = 50
@@ -7629,6 +7738,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_5_influence
 			add_to_variable = {
 				soviet_influence = 0.05
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7654,6 +7768,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_5_influence
 			add_to_variable = {
 				soviet_influence = 0.05
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7704,7 +7823,7 @@ SOV_intervention_in_china = {
 		ai_will_do = {
 			factor = 500
 		}
-		days_re_enable = 30
+		days_re_enable = 60
 		complete_effect = {
 			send_equipment = {
 				equipment = infantry_equipment
@@ -7714,6 +7833,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_1_influence
 			add_to_variable = {
 				soviet_influence = 0.01
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7732,7 +7856,7 @@ SOV_intervention_in_china = {
 		ai_will_do = {
 			factor = 500
 		}
-		days_re_enable = 60
+		days_re_enable = 120
 		complete_effect = {
 			send_equipment = {
                equipment = light_armor_equipment
@@ -7742,6 +7866,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_1_influence
 			add_to_variable = {
 				soviet_influence = 0.01
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7760,7 +7889,7 @@ SOV_intervention_in_china = {
 		ai_will_do = {
 			factor = 500
 		}
-		days_re_enable = 80
+		days_re_enable = 150
 		complete_effect = {
 			send_equipment = {
 				equipment = armor_equipment
@@ -7770,6 +7899,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_2_influence
 			add_to_variable = {
 				soviet_influence = 0.02
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7788,7 +7922,7 @@ SOV_intervention_in_china = {
 		ai_will_do = {
 			factor = 500
 		}
-		days_re_enable = 60
+		days_re_enable = 90
 		complete_effect = {
 			send_equipment = {
                equipment = artillery_equipment
@@ -7798,6 +7932,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_1_influence
 			add_to_variable = {
 				soviet_influence = 0.01
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7819,6 +7958,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_5_influence
 			add_to_variable = {
 				soviet_influence = 0.05
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7844,6 +7988,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_5_influence
 			add_to_variable = {
 				soviet_influence = 0.05
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7898,7 +8047,7 @@ SOV_intervention_in_china = {
 		ai_will_do = {
 			factor = 500
 		}
-		days_re_enable = 30
+		days_re_enable = 60
 		complete_effect = {
 			send_equipment = {
                equipment = infantry_equipment
@@ -7908,6 +8057,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_1_influence
 			add_to_variable = {
 				soviet_influence = 0.01
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7926,7 +8080,7 @@ SOV_intervention_in_china = {
 		ai_will_do = {
 			factor = 500
 		}
-		days_re_enable = 60
+		days_re_enable = 120
 		complete_effect = {
 			send_equipment = {
                equipment = light_armor_equipment
@@ -7936,6 +8090,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_1_influence
 			add_to_variable = {
 				soviet_influence = 0.01
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7954,7 +8113,7 @@ SOV_intervention_in_china = {
 		ai_will_do = {
 			factor = 500
 		}
-		days_re_enable = 80
+		days_re_enable = 150
 		complete_effect = {
 			send_equipment = {
 				equipment = armor_equipment
@@ -7964,6 +8123,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_2_influence
 			add_to_variable = {
 				soviet_influence = 0.02
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -7982,7 +8146,7 @@ SOV_intervention_in_china = {
 		ai_will_do = {
 			factor = 500
 		}
-		days_re_enable = 60
+		days_re_enable = 90
 		complete_effect = {
 			send_equipment = {
                equipment = artillery_equipment
@@ -7992,6 +8156,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_1_influence
 			add_to_variable = {
 				soviet_influence = 0.01
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -8013,6 +8182,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_5_influence
 			add_to_variable = {
 				soviet_influence = 0.05
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -8038,6 +8212,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_5_influence
 			add_to_variable = {
 				soviet_influence = 0.05
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -8096,6 +8275,11 @@ SOV_intervention_in_china = {
 			custom_effect_tooltip = SOV_add_20_influence
 			add_to_variable = {
 				soviet_influence = 0.2
+			}
+			clamp_variable = {
+				var = soviet_influence
+				min = 0
+				max = 1
 			}
 			hidden_effect = {
 				news_event = { id = SOV_CHI_Intervention.1 }
@@ -8241,7 +8425,6 @@ SOV_intervention_in_china = {
 SOV_intervention_in_spain = {
 	SOV_Send_Infantry_SPR = {
 		icon = GFX_decision_generic_prepare_civil_war
-		fire_only_once = yes
 		visible = {
 			original_tag = SOV
 			has_country_flag = SOV_support_SPR
@@ -8264,6 +8447,11 @@ SOV_intervention_in_spain = {
 			custom_effect_tooltip = SOV_add_1_influence
 			add_to_variable = {
 				soviet_influence_SPR = 0.01
+			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -8293,6 +8481,11 @@ SOV_intervention_in_spain = {
 			add_to_variable = {
 				soviet_influence_SPR = 0.01
 			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
+			}
 		}
 	}
 
@@ -8320,6 +8513,11 @@ SOV_intervention_in_spain = {
 			custom_effect_tooltip = SOV_add_2_influence
 			add_to_variable = {
 				soviet_influence_SPR = 0.02
+			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -8349,6 +8547,11 @@ SOV_intervention_in_spain = {
 			add_to_variable = {
 				soviet_influence_SPR = 0.01
 			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
+			}
 		}
 	}
 
@@ -8369,6 +8572,11 @@ SOV_intervention_in_spain = {
 			custom_effect_tooltip = SOV_add_5_influence
 			add_to_variable = {
 				soviet_influence_SPR = 0.05
+			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -8393,6 +8601,11 @@ SOV_intervention_in_spain = {
 			custom_effect_tooltip = SOV_add_3_influence
 			add_to_variable = {
 				soviet_influence_SPR = 0.03
+			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
 			}
 		}
 	}
@@ -8426,6 +8639,11 @@ SOV_intervention_in_spain = {
 			custom_effect_tooltip = SOV_add_10_influence
 			add_to_variable = {
 				soviet_influence_SPR = 0.1
+			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
 			}
 			SPR = {
 				add_opinion_modifier = {
@@ -8461,6 +8679,11 @@ SOV_intervention_in_spain = {
 			add_to_variable = {
 				soviet_influence = 0.05
 			}
+			clamp_variable = {
+				var = soviet_influence_SPR
+				min = 0
+				max = 1
+			}
 		}
 	}
 
@@ -8479,6 +8702,11 @@ SOV_intervention_in_spain = {
 					value = 0.7
 					compare = greater_than
 				} 
+			}
+			NOT = {
+				SPR = {
+					has_war_with = SPA
+				}
 			}
 		}
 		ai_will_do = {
@@ -9237,10 +9465,10 @@ SOV_Formation_of_the_Guards_Army = {
 		days_remove = 50
 		remove_effect = {
 			custom_effect_tooltip = SOV_Introduce_Guards_Title_tt
+			set_country_flag = SOV_Guards_Army_Formed
 			hidden_effect = {
 				load_oob = SOV_Guards_Infantry
 			}
-			set_country_flag = SOV_Guards_Army_Formed
 		}
 	}
 	SOV_Raise_Guards_Cavalry_Divisions = {

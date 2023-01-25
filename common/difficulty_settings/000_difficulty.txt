@@ -1,0 +1,298 @@
+difficulty_settings = {
+
+	################################
+	# Germany
+	################################
+
+	difficulty_setting = {
+		key = "aimod_production_speed_ger"
+		modifier = aimod_production_speed
+		countries = { GER }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_dig_in_speed_ger"
+		modifier = aimod_dig_in_speed
+		countries = { GER }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_research_speed_ger"
+		modifier = aimod_research_speed
+		countries = { GER }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_factory_ger"
+		modifier = aimod_industrial_capacity_factory
+		countries = { GER }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_dockyard_ger"
+		modifier = aimod_industrial_capacity_dockyard
+		countries = { GER }
+		multiplier = 2.0
+	}
+
+	################################
+	# Italy
+	################################
+
+	difficulty_setting = {
+		key = "aimod_production_speed_ita"
+		modifier = aimod_production_speed
+		countries = { ITA }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_dig_in_speed_ita"
+		modifier = aimod_dig_in_speed
+		countries = { ITA }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_research_speed_ita"
+		modifier = aimod_research_speed
+		countries = { ITA }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_factory_ita"
+		modifier = aimod_industrial_capacity_factory
+		countries = { ITA }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_dockyard_ita"
+		modifier = aimod_industrial_capacity_dockyard
+		countries = { ITA }
+		multiplier = 2.0
+	}
+
+	################################
+	# Soviet
+	################################
+
+	difficulty_setting = {
+		key = "aimod_production_speed_sov"
+		modifier = aimod_production_speed
+		countries = { SOV }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_dig_in_speed_sov"
+		modifier = aimod_dig_in_speed
+		countries = { SOV }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_research_speed_sov"
+		modifier = aimod_research_speed
+		countries = { SOV }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_factory_sov"
+		modifier = aimod_industrial_capacity_factory
+		countries = { SOV }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_dockyard_sov"
+		modifier = aimod_industrial_capacity_dockyard
+		countries = { SOV }
+		multiplier = 2.0
+	}
+
+	################################
+	# France
+	################################
+
+	difficulty_setting = {
+		key = "aimod_production_speed_fra"
+		modifier = aimod_production_speed
+		countries = { FRA }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_dig_in_speed_fra"
+		modifier = aimod_dig_in_speed
+		countries = { FRA }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_research_speed_fra"
+		modifier = aimod_research_speed
+		countries = { FRA }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_factory_fra"
+		modifier = aimod_industrial_capacity_factory
+		countries = { FRA }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_dockyard_fra"
+		modifier = aimod_industrial_capacity_dockyard
+		countries = { FRA }
+		multiplier = 2.0
+	}
+
+	################################
+	# United Kingdom
+	################################
+
+	difficulty_setting = {
+		key = "aimod_production_speed_eng"
+		modifier = aimod_production_speed
+		countries = { ENG }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_dig_in_speed_eng"
+		modifier = aimod_dig_in_speed
+		countries = { ENG }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_research_speed_eng"
+		modifier = aimod_research_speed
+		countries = { ENG }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_factory_eng"
+		modifier = aimod_industrial_capacity_factory
+		countries = { ENG }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_dockyard_eng"
+		modifier = aimod_industrial_capacity_dockyard
+		countries = { ENG }
+		multiplier = 2.0
+	}
+
+	################################
+	# USA
+	################################
+
+	difficulty_setting = {
+		key = "aimod_production_speed_usa"
+		modifier = aimod_production_speed
+		countries = { USA }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_dig_in_speed_usa"
+		modifier = aimod_dig_in_speed
+		countries = { USA }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_research_speed_usa"
+		modifier = aimod_research_speed
+		countries = { USA }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_factory_usa"
+		modifier = aimod_industrial_capacity_factory
+		countries = { USA }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_dockyard_usa"
+		modifier = aimod_industrial_capacity_dockyard
+		countries = { USA }
+		multiplier = 2.0
+	}
+
+	################################
+	# Japan
+	################################
+
+	difficulty_setting = {
+		key = "aimod_production_speed_jap"
+		modifier = aimod_production_speed
+		countries = { JAP }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_dig_in_speed_jap"
+		modifier = aimod_dig_in_speed
+		countries = { JAP }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_research_speed_jap"
+		modifier = aimod_research_speed
+		countries = { JAP }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_factory_jap"
+		modifier = aimod_industrial_capacity_factory
+		countries = { JAP }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_dockyard_jap"
+		modifier = aimod_industrial_capacity_dockyard
+		countries = { JAP }
+		multiplier = 2.0
+	}
+
+	################################
+	# China
+	################################
+
+	difficulty_setting = {
+		key = "aimod_production_speed_chi"
+		modifier = aimod_production_speed
+		countries = { CHI }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_dig_in_speed_chi"
+		modifier = aimod_dig_in_speed
+		countries = { CHI }
+		multiplier = 2.0
+	}
+	difficulty_setting = {
+		key = "aimod_research_speed_chi"
+		modifier = aimod_research_speed
+		countries = { CHI }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_factory_chi"
+		modifier = aimod_industrial_capacity_factory
+		countries = { CHI }
+		multiplier = 2.0
+	}
+
+	difficulty_setting = {
+		key = "aimod_industrial_capacity_dockyard_chi"
+		modifier = aimod_industrial_capacity_dockyard
+		countries = { CHI }
+		multiplier = 2.0
+	}
+}

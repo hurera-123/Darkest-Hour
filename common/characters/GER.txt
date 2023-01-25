@@ -13,7 +13,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Hermann_Goring_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -99,7 +99,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Adolf_Hitler_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -145,7 +145,7 @@ characters={
 				large="GFX_P_A_Paul_von_Hindenburg"
 			}
 			army={
-				small="GFX_idea_Paul_von_Hindenburg"
+				small="GFX_idea_Paul_Von_Hindenburg"
 				large="GFX_M_Paul_von_Hindenburg"
 			}
 		}
@@ -164,7 +164,7 @@ characters={
 			slot=Head_of_Government
 			idea_token=GER_Paul_Von_Hindenburg_HoG
 			desc=GER_Paul_von_Hindenburg_desc
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -230,7 +230,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Reichstag_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -253,7 +253,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Gregor_Strasser_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -302,7 +302,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Rudolf_Hess_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -339,7 +339,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Hans_Heinrich_Lammers_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -362,13 +362,14 @@ characters={
 		name=GER_Martin_Bormann
 		portraits={
 			army={
+				large = "GFX_P_F_Martin_Bormann"
 				small="GFX_idea_Martin_Bormann"
 			}
 		}
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Martin_Bormann_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -397,7 +398,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Joseph_Goebbels_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -466,7 +467,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Heinrich_Himmler_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -514,7 +515,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Albert_Speer_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -567,7 +568,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Kurt_von_Schleicher_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -616,7 +617,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Alfred_Hugenberg_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -685,7 +686,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Franz_von_Papen_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -753,7 +754,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Carl_Friedrich_Goerdeler_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -802,7 +803,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Lutz_von_Schwerin_Krosigk_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -871,7 +872,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Konrad_Adenauer_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -921,7 +922,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Ernst_Thalmann_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -950,7 +951,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=GER_Ernst_Toller_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed = {
 				tag = GER
 			}
@@ -1350,6 +1351,9 @@ characters={
 			traits = {
 				
 				MoS_Ruthless_Organizer
+			}
+			ai_will_do = {
+				factor = 500
 			}
 		}
 	}
@@ -3399,7 +3403,7 @@ characters={
 		name=GER_Erich_von_Manstein
 		portraits={
 			army={
-				large="GFX_M_Erich_von_Manstein"
+				large="GFX_M_Erich_Von_Manstein"
 				small="GFX_idea_Erich_von_Manstein"
 			}
 		}
@@ -3550,26 +3554,11 @@ characters={
 			}
 			traits = {
 				
-				army_armored_3
+				army_chief_maneuver_2
 			}
 			ai_will_do = {
 				factor = 1
 			}
-		}
-		corps_commander={
-			legacy_id = 104002
-			traits = {
-				trickster
-				trait_reckless
-				war_hero
-				armor_officer
-				media_personality
-			}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 2
-			logistics_skill = 3
 		}
 	}
 	GER_Hans_Speidel={
@@ -3774,6 +3763,25 @@ characters={
 				large="GFX_M_Heinz_Guderian"
 			}
 		}
+		advisor = {
+			slot = high_command
+			idea_token = GER_Heinz_Guderian_HC
+			allowed = {
+				tag = GER
+			}
+			visible = {
+				has_completed_focus = GER_Bewegungskrieg
+				date > 1933.1.1
+				date < 1964.1.1
+				F_Minister_Allowed = yes
+				NOT = {
+					has_country_flag = Heinz_Guderian_unavailable
+				}
+			}
+			traits = {
+				army_armored_3
+			}
+		}
 		advisor={
 			slot=Chief_of_Army
 			idea_token=GER_Heinz_Guderian_CoArmy
@@ -3870,7 +3878,7 @@ characters={
 				army_infantry_2
 			}
 			ai_will_do = {
-				factor = 1
+				factor = 500
 			}
 		}
 	}
@@ -3937,7 +3945,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_Fedor_von_Bock"
-				large="GFX_M_Fedor_von_Bock"
+				large="GFX_M_Fedor_Von_Bock"
 			}
 		}
 		advisor={
@@ -4154,7 +4162,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_Erwin_von_Witzleben"
-				large="GFX_M_Erwin_von_Witzleben"
+				large="GFX_M_Erwin_Von_Witzleben"
 			}
 		}
 		advisor={
@@ -4907,6 +4915,7 @@ characters={
 				NOT = {
 					has_country_flag = Kurt_Student_unavailable
 				}
+				has_completed_focus = GER_Fallschirmtruppen
 			}
 			traits = {
 				
@@ -5057,6 +5066,7 @@ characters={
 				ranger
 			}
 			legacy_id = 104003
+			skill = 2
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 3
@@ -5078,6 +5088,7 @@ characters={
 				ranger
 			}
 			legacy_id = 104004
+			skill = 2
 			attack_skill = 4
 			defense_skill = 2
 			planning_skill = 4
@@ -5169,7 +5180,7 @@ characters={
 		name=GER_Maximilian_Von_Weichs
 		portraits={
 			army={
-				large="GFX_M_Maximilian_von_Weichs"
+				large="GFX_M_Maximilian_Von_Weichs"
 			}
 		}
 		corps_commander={
@@ -5322,31 +5333,11 @@ characters={
 			legacy_id = 104021
 		}
 	}
-	GER_Alexander_Von_Falkenhousen={
-		name=GER_Alexander_Von_Falkenhousen
-		portraits={
-			army={
-				large="GFX_M_Alexander_von_Falkenhousen"
-			}
-		}
-		corps_commander={
-			traits = {
-				infantry_officer
-				guerilla_fighter
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 2
-			legacy_id = 104023
-		}
-	}
 	GER_Hasso_Von_Manteuffel={
 		name=GER_Hasso_Von_Manteuffel
 		portraits={
 			army={
-				large="GFX_M_Hasso_von_Manteuffel"
+				large="GFX_M_Hasso_Von_Manteuffel"
 			}
 		}
 		corps_commander={

@@ -298,6 +298,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_decision_header_SOV_Guards_Army"
+		texturefile = "gfx/interface/decision_headers/decision_header_SOV_Guards_Army.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_decision_header_SOV_Harvest"
 		texturefile = "gfx/interface/decision_headers/decision_header_SOV_Harvest.dds"
 		legacy_lazy_load = no

@@ -3,189 +3,6 @@ ideas = {
 #  National Spirits
 #########################################################################
 	country = {
-		#### The Great Depression
-		ENG_The_Great_Depression = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.30
-				industrial_capacity_factory = -0.30
-				industrial_capacity_dockyard = -0.30
-			}
-		}
-		
-		ENG_The_Great_Depression2 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.27
-				industrial_capacity_factory = -0.27
-				industrial_capacity_dockyard = -0.27
-			}
-		}
-		ENG_The_Great_Depression3 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.24
-				industrial_capacity_factory = -0.24
-				industrial_capacity_dockyard = -0.24
-			}
-		}
-		ENG_The_Great_Depression4 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.19
-				industrial_capacity_factory = -0.19
-				industrial_capacity_dockyard = -0.19
-			}
-		}
-		ENG_The_Great_Depression5 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.16
-				industrial_capacity_factory = -0.16
-				industrial_capacity_dockyard = -0.16
-			}
-		}
-		ENG_The_Great_Depression6 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.13
-				industrial_capacity_factory = -0.13
-				industrial_capacity_dockyard = -0.13
-			}
-		}
-		ENG_The_Great_Depression7 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.13
-				industrial_capacity_factory = -0.13
-				industrial_capacity_dockyard = -0.13
-			}
-		}
-		ENG_The_Great_Depression8 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.10
-				industrial_capacity_factory = -0.10
-				industrial_capacity_dockyard = -0.10
-			}
-		}
-		ENG_The_Great_Depression9 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.5
-				industrial_capacity_factory = -0.5
-				industrial_capacity_dockyard = -0.5
-			}
-		}
-
 		#### Pax Britannica
 		ENG_Pax_Britannica = {
 			allowed = {
@@ -1037,6 +854,9 @@ ideas = {
 						
 			modifier = {
 				money_income_factor = 0.1
+				hidden_modifier = {
+					money_income_factor_from_decisions = 0.1
+				}
 			}
 		}
 		ENG_Special_Areas_Act_2 = {
@@ -1053,6 +873,9 @@ ideas = {
 						
 			modifier = {
 				money_income_factor = 0.2
+				hidden_modifier = {
+					money_income_factor_from_decisions = 0.2
+				}
 			}
 		}
 		ENG_Special_Areas_Act_3 = {
@@ -1069,6 +892,9 @@ ideas = {
 						
 			modifier = {
 				money_income_factor = 0.3
+				hidden_modifier = {
+					money_income_factor_from_decisions = 0.3
+				}
 			}
 		}
 		ENG_Infantry_Rearmament = {
@@ -1464,6 +1290,9 @@ ideas = {
 				industrial_capacity_factory = -0.05
 				stability_factor = -0.1
 				money_income_factor = 0.05
+				hidden_modifier = {
+					money_income_factor_from_decisions = 0.05
+				}
 				custom_modifier_tooltip = ENG_Trade_Influence_100
 			}
 		}
@@ -1526,6 +1355,9 @@ ideas = {
 				industrial_capacity_factory = -0.05
 				stability_factor = -0.05
 				money_income_factor = 0.05
+				hidden_modifier = {
+					money_income_factor_from_decisions = 0.05
+				}
 				custom_modifier_tooltip = ENG_Trade_Influence_50
 			}
 		}

@@ -39,7 +39,6 @@ recruit_character = SOV_Ivan_Dubovoy
 recruit_character = SOV_Ivan_Belov
 recruit_character = SOV_Grigori_Kulik
 recruit_character = SOV_Mikhail_P_Tomsky
-recruit_character = SOV_Vladimir_AntonovOvseyenko
 recruit_character = SOV_Alexey_A_Kuznetsov
 recruit_character = SOV_Naftaly_Frenkel
 recruit_character = SOV_Lazar_M_Kaganovich
@@ -52,12 +51,7 @@ recruit_character = SOV_Sergey_Korolev
 recruit_character = SOV_Rodion_Y_Malinovsky
 recruit_character = SOV_Arseny_Zverev
 recruit_character = SOV_Mikhail_A_Meandrov
-recruit_character = SOV_Yakov_Peters
-recruit_character = SOV_Martin_Latsis
-recruit_character = SOV_Jozef_Unszlicht
-recruit_character = SOV_Grigory_Ordzhonikidze
 recruit_character = SOV_Yan_K_Berzin
-recruit_character = SOV_Ivan_IProskurov
 recruit_character = SOV_Semyon_G_Gendin
 recruit_character = SOV_Filip_I_Golikov
 recruit_character = SOV_Igor_I_Ilichev
@@ -76,11 +70,6 @@ recruit_character = SOV_Ivan_Ilyichev
 recruit_character = SOV_Viktor_Abakumov
 recruit_character = SOV_Fyodor_Trikhin
 recruit_character = SOV_Konstantin_K_Rokossovsky
-recruit_character = SOV_Mikhail_BonchBruyevich
-recruit_character = SOV_Nikolay_Rattel
-recruit_character = SOV_Fedor_Kostyaev
-recruit_character = SOV_Pavel_Lebedev
-recruit_character = SOV_Mikhail_Frunze
 recruit_character = SOV_Vasily_Blyukher
 recruit_character = SOV_Mikhail_Katukov
 recruit_character = SOV_Nikolai_Kashirin
@@ -93,8 +82,6 @@ recruit_character = SOV_Yan_Gamarnik
 recruit_character = SOV_Semyon_Budyonny
 recruit_character = SOV_Mikhail_N_Tukhatchevskiy
 recruit_character = SOV_Kliment_Y_Voroshilov
-recruit_character = SOV_Boris_M_Shaposhnikov
-recruit_character = SOV_Kirill_A_Meretskov
 recruit_character = SOV_Alesandr_M_Vasilevskiy
 recruit_character = SOV_Aleksei_I_Antonov
 recruit_character = SOV_Alexander_Yegorov
@@ -109,15 +96,8 @@ recruit_character = SOV_Semyon_Timoshenko
 recruit_character = SOV_Ivan_Konev
 recruit_character = SOV_P_Drozd
 recruit_character = SOV_Nikolay_G_Kuznetsov
-recruit_character = SOV_Modest_Ivanov
-recruit_character = SOV_Vasiliy_Altfater
-recruit_character = SOV_Yevgeny_Berens
-recruit_character = SOV_Aleksandr_Nemits
-recruit_character = SOV_Eduard_Pantserzhansky
-recruit_character = SOV_Vyacheslav_Zof
 recruit_character = SOV_Vladimir_M_Orlov
 recruit_character = SOV_Ivan_S_Isakov
-recruit_character = SOV_Mikhail_V_Viktorov
 recruit_character = SOV_Lev_Galler
 recruit_character = SOV_Mikhail_Viktorov
 recruit_character = SOV_Pyotr_Smirnov
@@ -150,6 +130,8 @@ recruit_character = SOV_Kirill_Vladimirovich
 recruit_character = SOV_Pavel_Milyukov
 recruit_character = SOV_Viktor_Chernov
 recruit_character = SOV_Andrey_Vlasov
+recruit_character = SOV_Ivan_Chernyakhovsky
+recruit_character = SOV_Leonid_Govorov
 
 #########################################################################
 # Soviet Union - 1933
@@ -168,8 +150,7 @@ recruit_character = SOV_Andrey_Vlasov
 	# Research
 	#######################
 	set_technology = {
-	basic_train = 1
-
+		basic_train = 1
 		### Infantry Tech
 		Small_Arms_1900 = 1
 		Small_Arms_1916 = 1
@@ -345,6 +326,7 @@ recruit_character = SOV_Andrey_Vlasov
 		SOV_Soviet_Collectivization
 		SOV_High_Agricultural_Employment
 		SOV_General_Recruitment_Blocked
+		SOV_Volunteer_Cap
 		# Laws & Policies
 		isolationism
 		industrializing_economy

@@ -61,3 +61,9 @@
  GENERIC_Focus_Tree.12.t: "Ship Competition completed"
  GENERIC_Focus_Tree.12.desc: "Following negotiations with the manufacturer and state officials, we have successfully secured a production license for a new ship. An example of the ship has already arrived to train mechanics on its maintainance, and a full set of drawings and blueprints is expected shortly. Production can commence at any time."
  GENERIC_Focus_Tree.12.A: "Very Good"
+ 
+ ace_promoted.1.A: "Who dares, wins."
+ ace_died.1.A: "A living legend is still better."
+ ace_killed_by_ace.1.A: "A devastating loss for us all"
+ ace_killed_other_ace.1.A: "A victory all of [From.Owner.GetName] will remember!"
+ aces_killed_each_other.1.A: "A great loss for us nonetheless"

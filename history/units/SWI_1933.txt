@@ -56,7 +56,7 @@ division_template = {
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
 		mountaineers = { x = 1 y = 2 }
-		motorized_artillery_battalion = { x = 2 y = 0 } #Actually pack howitzers
+		artillery_battalion_light = { x = 2 y = 0 } #Actually pack howitzers
 		motorized_artillery_battalion = { x = 2 y = 1 } #Motorized artillery
 		motorized_artillery_battalion = { x = 2 y = 2 } #Heavy motorized artillery
 	}
@@ -138,7 +138,7 @@ division_template = {
         light_infantry = { x = 1 y = 1 }
         light_infantry = { x = 1 y = 2 }
         garrison = { x = 2 y = 0 }
-		artillery_battalion = { x = 3 y = 2 }
+		artillery_battalion = { x = 3 y = 0 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }	# Combat Engineer company

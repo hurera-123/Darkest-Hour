@@ -1,7 +1,7 @@
 ﻿#########################################################################################
 # Reformed Government of the Republic of China
 #########################################################################################
-1939.9.1 = {
+1933.1.1 = {
 	capital = 613
 
 	set_convoys = 10
@@ -37,12 +37,12 @@
 	# Leaders
 	#######################
 	create_country_leader = {
-		name = "Liang Hongzhi"
+		name = "Wang Jingwei"
 		desc = ""
-		picture = GFX_P_A_Liang_Hongzhi
-		expire = "1946.11.6"
+		picture = GFX_P_A_Wang_Jingwei
+		expire = "1964.1.1"
 		ideology = despotism
-		traits = { POSITION_Chairman SUBIDEOLOGY_Despotism }
+		traits = { POSITION_President SUBIDEOLOGY_Despotism }
 	}
 }
 

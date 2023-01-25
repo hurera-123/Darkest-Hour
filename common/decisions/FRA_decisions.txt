@@ -2,6 +2,33 @@
 # The French Economy
 #######################################################################
 economy_decisions = {
+	FRA_Stabilize_the_Economy = {
+		icon = putIcon
+		allowed = {
+			original_tag = FRA
+		}
+		available = {
+			custom_trigger_tooltip = {
+                tooltip = FRA_Stabilize_the_Economy_tt
+                check_variable = { unemployment_value_modifier < 0.75 }
+            }
+		}
+		activation = {
+			has_completed_focus = FRA_Fix_the_Current_Situation
+		}
+		days_mission_timeout = 180
+		fire_only_once = yes
+		is_good = no
+		complete_effect = {
+			add_stability = 0.05
+			add_political_power = 100
+			clr_country_flag = FRA_Fixing_the_Current_Situation
+		}
+		timeout_effect = {
+			add_political_power = -25
+			clr_country_flag = FRA_Fixing_the_Current_Situation
+		}
+	}
 	FRA_Budget_Austerity = {
 		icon = putIcon
 		fire_only_once = no
@@ -126,31 +153,6 @@ economy_decisions = {
 			}
 		}
 	}
-	FRA_Invest_in_Great_Works = {
-		icon = GFX_decision_GENERIC_Create_Public_Works
-		fire_only_once = no
-		allowed = {
-			original_tag = FRA
-		}
-		visible = {
-		}
-		available = {
-			has_completed_focus = FRA_Grand_Travaux_Policy
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		days_remove = 70
-		modifier = {
-			money_income = -15
-		}
-		remove_effect = {
-			set_temp_variable = {
-				unemployment_value = -0.005
-			}
-			add_unemployment_effect = yes
-		}
-	}
 	FRA_Franc_Devaluation = {
 		icon = GFX_decision_gre_paying_ifc_debt
 		fire_only_once = no
@@ -265,30 +267,29 @@ economy_decisions = {
 			}
 		}
 	}
-	FRA_Stabilize_the_Economy = {
-		icon = putIcon
+	FRA_Invest_in_Great_Works = {
+		icon = GFX_decision_GENERIC_Create_Public_Works
+		fire_only_once = no
 		allowed = {
 			original_tag = FRA
 		}
+		visible = {
+		}
 		available = {
-			custom_trigger_tooltip = {
-                tooltip = FRA_Stabilize_the_Economy_tt
-                check_variable = { unemployment_value_modifier < 0.75 }
-            }
+			has_completed_focus = FRA_Grand_Travaux_Policy
 		}
-		activation = {
-			has_completed_focus = FRA_Fix_the_Current_Situation
+		ai_will_do = {
+			factor = 1
 		}
-		days_mission_timeout = 180
-		fire_only_once = yes
-		is_good = no
-		complete_effect = {
-			add_stability = 0.05
-			add_political_power = 100
-			clr_country_flag = FRA_Fixing_the_Current_Situation
+		days_remove = 70
+		modifier = {
+			money_income = -15
 		}
-		timeout_effect = {
-			add_political_power = -25
+		remove_effect = {
+			set_temp_variable = {
+				unemployment_value = -0.005
+			}
+			add_unemployment_effect = yes
 		}
 	}
 	FRA_Continue_construction_of_Autoroutes = { #Plan Frost
@@ -305,7 +306,7 @@ economy_decisions = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		days_remove = 200
 		complete_effect = {
@@ -371,6 +372,9 @@ economy_decisions = {
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
+		ai_will_do = {
+			factor = 200
+		}
 		cost = 75
 		complete_effect = {
 			set_temp_variable = {
@@ -398,9 +402,13 @@ FRA_Colonial_Empire_category = {
 		icon = putIcon
 		fire_only_once = yes
 		allowed = {
-			original_tag = FRA
 		}
 		visible = {
+			MOR = {
+				is_subject_of = FRA
+				owns_state = 1139
+				owns_state = 1141
+			}
 		}
 		available = {
 			has_completed_focus = FRA_End_the_Pacification_of_Morocco
@@ -417,7 +425,7 @@ FRA_Colonial_Empire_category = {
 		}
 		days_remove = 360
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		remove_effect = {
 			army_experience = 30
@@ -436,6 +444,13 @@ FRA_Colonial_Empire_category = {
 		}
 		visible = {
 			has_completed_focus = FRA_Application_of_the_Blum_Violette_Act
+			is_democratic = yes
+			NOT = {
+				country_exists = ALG
+			}
+			owns_state = 459
+			owns_state = 460
+			owns_state = 842
 		}
 		available = {
 			set_temp_variable = { total_support_to_check = 0.75 }
@@ -443,7 +458,7 @@ FRA_Colonial_Empire_category = {
 		}
 		cost = 50
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		complete_effect = {
 			country_event = FRA_Front_Populaire_1936.8
@@ -468,7 +483,7 @@ FRA_Colonial_Empire_category = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -825,7 +840,7 @@ FRA_Plan_Marquet_category = {
 		}
 		custom_cost_text = GER_Reichsautobahn_cost
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		days_remove = 100
 		complete_effect = {
@@ -875,7 +890,7 @@ FRA_Plan_Marquet_category = {
 		}
 		custom_cost_text = GER_Reichsautobahn_cost
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		days_remove = 100
 		complete_effect = {
@@ -925,7 +940,7 @@ FRA_Plan_Marquet_category = {
 		}
 		custom_cost_text = GER_Reichsautobahn_cost
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		days_remove = 100
 		complete_effect = {
@@ -967,7 +982,7 @@ FRA_Plan_Marquet_category = {
 		}
 		custom_cost_text = GER_Reichsautobahn_cost
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		days_remove = 100
 		complete_effect = {
@@ -1009,7 +1024,7 @@ FRA_Plan_Marquet_category = {
 		}
 		custom_cost_text = GER_Reichsautobahn_cost
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		days_remove = 100
 		complete_effect = {
@@ -2461,7 +2476,7 @@ FRA_La_Armee_delAir_category = {
 		}
 		cost = 0
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -2490,7 +2505,7 @@ FRA_La_Armee_delAir_category = {
 		}
 		cost = 0
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -2711,7 +2726,7 @@ FRA_Programme_des_12_Milliards_category = {
 		}
 		cost = 50
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		complete_effect = {
 			add_stability = -0.05
@@ -2739,7 +2754,7 @@ FRA_Programme_des_12_Milliards_category = {
 		}
 		cost = 75
 		ai_will_do = {
-			factor = 1
+			factor = 200
 		}
 		complete_effect = {
 			14 = {
@@ -2780,7 +2795,7 @@ FRA_Programme_des_12_Milliards_category = {
 		}
 		cost = 100
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		complete_effect = {
 			custom_effect_tooltip = FRA_Increase_Rearmament_Level
@@ -2807,7 +2822,7 @@ FRA_Le_Front_Populaire_category = {
 		}
 		available = {
 			set_temp_variable = {
-				unemployment_value = 0.05
+				unemployment_value = 0.025
 			}
 			has_less_than_unemployment_value = yes
 		}
@@ -2828,60 +2843,60 @@ FRA_Le_Front_Populaire_category = {
 			}
 		}
 	}
-	FRA_Ask_Full_Financial_Power = {
-		icon = GFX_decision_generic_fundraising
-		fire_only_once = no
-		allowed = {
-			original_tag = FRA
-		}
-		available = {
-			NOT = {
-				has_idea = FRA_Full_Economic_Power
-			}
-		}
-		days_re_enable = 120
-		complete_effect = {
-			custom_effect_tooltip = FRA_Ask_Full_Financial_Power_tt
-			hidden_effect = {
-				if = {
-					limit = {
-						set_temp_variable = { total_support_to_check = 0.7 }
-						has_at_least_parliament_total_support = yes
-					}
-					add_timed_idea = {
-						idea = FRA_Full_Economic_Power
-						days = 365
-					}
-				}
-				else = {
-					if = {
-						limit = {
-							has_country_leader = {
-								name = "Camille Chautemps"
-								ruling_only = yes
-							}
-						}
-						country_event = {
-							id = FRA_Front_Populaire_1936.12
-							days = 1
-						}
-					}
-					else_if = {
-						limit = {
-							has_country_leader = {
-								name = "Léon Blum"
-								ruling_only = yes
-							}
-						}
-						country_event = {
-							id = FRA_Front_Populaire_1936.11
-							days = 1
-						}
-					}
-				}
-			}
-		}
-	}
+	#FRA_Ask_Full_Financial_Power = {
+	#	icon = GFX_decision_generic_fundraising
+	#	fire_only_once = no
+	#	allowed = {
+	#		original_tag = FRA
+	#	}
+	#	available = {
+	#		NOT = {
+	#			has_idea = FRA_Full_Economic_Power
+	#		}
+	#	}
+	#	days_re_enable = 120
+	#	complete_effect = {
+	#		custom_effect_tooltip = FRA_Ask_Full_Financial_Power_tt
+	#		hidden_effect = {
+	#			if = {
+	#				limit = {
+	#					set_temp_variable = { total_support_to_check = 0.7 }
+	#					has_at_least_parliament_total_support = yes
+	#				}
+	#				add_timed_idea = {
+	#					idea = FRA_Full_Economic_Power
+	#					days = 365
+	#				}
+	#			}
+	#			else = {
+	#				if = {
+	#					limit = {
+	#						has_country_leader = {
+	#							name = "Camille Chautemps"
+	#							ruling_only = yes
+	#						}
+	#					}
+	#					country_event = {
+	#						id = FRA_Front_Populaire_1936.12
+	#						days = 1
+	#					}
+	#				}
+	#				else_if = {
+	#					limit = {
+	#						has_country_leader = {
+	#							name = "Léon Blum"
+	#							ruling_only = yes
+	#						}
+	#					}
+	#					country_event = {
+	#						id = FRA_Front_Populaire_1936.11
+	#						days = 1
+	#					}
+	#				}
+	#			}
+	#		}
+	#	}
+	#}
 	FRA_Applied_the_Programe_of_the_Front = {
 		icon = putIcon
 		fire_only_once = yes
@@ -2894,68 +2909,13 @@ FRA_Le_Front_Populaire_category = {
 		complete_effect = {
 			add_stability = 0.15
 			set_temp_variable = {
-				modifier_value = 0.05
+				modifier_value = 0.02
 			}
 			change_unemployment_value_modifier = yes
 			add_days_mission_timeout = {
 				mission = FRA_Le_Front_Populaire
 				days = 62
 			}
-		}
-	}
-}
-war_measures = {
-	FRA_Mobilisation_General = {
-		icon = GFX_decision_generic_military
-		fire_only_once = yes
-		allowed = {
-			original_tag = FRA
-		}
-		available = {
-			OR = {
-				has_war = yes
-				GER = {
-					has_war_with = POL
-				}
-			}
-		}
-		ai_will_do = {
-			base = 500
-		}
-		days_remove = 5
-		cost = 25
-		complete_effect = {
-			if = {
-				limit = {
-					has_idea = FRA_Rearmament_Program_1
-				}
-				remove_ideas = FRA_Rearmament_Program_1
-			}
-			else_if = {
-				limit = {
-					has_idea = FRA_Rearmament_Program_2
-				}
-				remove_ideas = FRA_Rearmament_Program_2
-			}
-			else_if = {
-				limit = {
-					has_idea = FRA_Rearmament_Program_3
-				}
-				remove_ideas = FRA_Rearmament_Program_3
-			}
-			else_if = {
-				limit = {
-					has_idea = FRA_Rearmament_Program_4
-				}
-				remove_ideas = FRA_Rearmament_Program_4
-			}
-			add_ideas = three_year_service
-
-			set_country_flag = FRA_General_Mobilization
-			mark_focus_tree_layout_dirty = yes
-			complete_national_focus = FRA_General_Mobilization
-
-			news_event = { id = FRA_Wartime_Tree.0 }
 		}
 	}
 }
@@ -2980,10 +2940,111 @@ FRA_Grand_Quartier_General_category = {
 			}
 		}
 	}
+	FRA_Promote_New_Generals = {
+		icon = GFX_decision_generic_army_support
+		fire_only_once = yes
+		available = {
+		}
+		custom_cost_trigger = {
+			command_power > 24
+		}
+		custom_cost_text = decision_cost_CP_25
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+			}
+			add_corps_commander_role = {
+				character = FRA_Jean_Barrau
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 3
+				traits = {
+					jungle_rat
+				}
+			}
+			add_corps_commander_role = {
+				character = FRA_Paul_Beynet
+				skill = 2
+				attack_skill = 2
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 2
+			}
+			add_corps_commander_role = {
+				character = FRA_Henri_Dentz
+				skill = 2
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 2
+			}
+			add_corps_commander_role = {
+				character = FRA_Aime_Doumenc
+				skill = 4
+				attack_skill = 3
+				defense_skill = 5
+				planning_skill = 4
+				logistics_skill = 4
+				traits = {
+					war_hero
+					infantry_leader
+					trickster
+					unyielding_defender
+				}
+			}
+			add_corps_commander_role = {
+				character = FRA_Aubert_Frere
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 4
+				traits = {
+					trickster
+				}
+			}
+			add_corps_commander_role = {
+				character = FRA_Emile_Laure
+				skill = 2
+				attack_skill = 2
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 2
+			}
+			add_corps_commander_role = {
+				character = FRA_Eugene_Mittelhauser
+				skill = 3
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 3
+				traits = {
+					infantry_officer
+				}
+			}
+			add_corps_commander_role = {
+				character = FRA_Robert_Touchon
+				traits = {
+					trait_mountaineer
+					infantry_officer
+				}
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 3
+			}
+		}
+	}
 	FRA_Launch_Saar_Offensive = {
 		icon = GFX_decision_generic_operation
 		fire_only_once = yes
 		available = {
+		}
+		ai_will_do = {
+			factor = 200
 		}
 		custom_cost_trigger = {
 			command_power > 24
@@ -3024,6 +3085,9 @@ FRA_Grand_Quartier_General_category = {
 		fire_only_once = yes
 		available = {
 		}
+		ai_will_do = {
+			factor = 100
+		}
 		custom_cost_trigger = {
 			command_power > 29
 		}
@@ -3052,6 +3116,9 @@ FRA_Grand_Quartier_General_category = {
 				is_in_faction_with = FRA
 			}
 		}
+		ai_will_do = {
+			factor = 100
+		}
 		days_remove = 40
 		modifier = {
 			army_speed_factor = 0.1
@@ -3071,7 +3138,7 @@ FRA_Grand_Quartier_General_category = {
 				unlock_decision_tooltip = FRA_Build_Fortifications_in_Belgium
 				add_war_support = 0.05
 				add_political_power = 50
-				army_experience = 25
+				army_experience = 15
 			}
 			else = {
 				add_war_support = -0.05
@@ -3167,7 +3234,7 @@ FRA_Grand_Quartier_General_category = {
 				unlock_decision_tooltip = FRA_Build_Fortifications_in_the_Netherlands
 				add_war_support = 0.05
 				add_political_power = 50
-				army_experience = 25
+				army_experience = 15
 			}
 			else = {
 				add_war_support = -0.05
@@ -3214,118 +3281,6 @@ FRA_Grand_Quartier_General_category = {
 			}
 		}
 	}
-#	FRA_Operation_Bourrasque = {
-#		icon = GFX_
-#		fire_only_once = yes
-#		available = {
-#			NOT = {
-#				has_idea = FRA_The_Phoney_War
-#			}
-#			surrender_progress < 0.01
-#		}
-#		custom_cost_trigger = {
-#			command_power > 24
-#		}
-#		custom_cost_text = decision_cost_CP_25
-#		days_remove = 120
-#		complete_effect = {
-#			hidden_effect = {
-#				add_command_power = -25
-#			}
-#		}
-#		modifier = {
-#			river_crossing_factor = -0.05
-#		}
-#		remove_effect = {
-#			if = {
-#				limit = {
-#					42 = {
-#						is_controlled_by_ROOT_or_ally = yes
-#					}
-#					51 = {
-#						is_controlled_by_ROOT_or_ally = yes
-#					}
-#					806 = {
-#						is_controlled_by_ROOT_or_ally = yes
-#					}
-#					1498 = {
-#						is_controlled_by_ROOT_or_ally = yes
-#					}
-#				}
-#				add_war_support = 0.05
-#				add_stability = 0.025
-#			}
-#			else = {
-#				add_war_support = -0.1
-#				add_political_power = -60
-#			}
-#		}
-#	}
-#	FRA_Operation_Bosquet = {
-#		icon = GFX_
-#		fire_only_once = yes
-#		available = {
-#			GER = {
-#				surrender_progress > 0.25
-#			}
-#		}
-#		custom_cost_trigger = {
-#			command_power > 24
-#		}
-#		custom_cost_text = decision_cost_CP_25
-#		days_remove = 120
-#		complete_effect = {
-#			hidden_effect = {
-#				add_command_power = -25
-#			}
-#		}
-#		remove_effect = {
-#			if = {
-#				limit = {
-#					controls_state = 52
-#					controls_state = 53
-#				}
-#				add_war_support = 0.05
-#				add_stability = 0.025
-#			}
-#			else = {
-#				add_war_support = -0.05
-#				add_political_power = -60
-#			}
-#		}
-#	}
-#	FRA_Operation_Gambetta = {
-#		icon = GFX_
-#		fire_only_once = yes
-#		available = {
-#			GER = {
-#				surrender_progress > 0.3
-#			}
-#		}
-#		custom_cost_trigger = {
-#			command_power > 24
-#		}
-#		custom_cost_text = decision_cost_CP_25
-#		days_remove = 120
-#		complete_effect = {
-#			hidden_effect = {
-#				add_command_power = -25
-#			}
-#		}
-#		remove_effect = {
-#			if = {
-#				limit = {
-#					controls_state = 1057
-#				}
-#				add_war_support = 0.05
-#				add_stability = 0.025
-#			}
-#			else = {
-#				add_war_support = -0.05
-#				add_political_power = -60
-#			}
-#		}
-#	}
 }
 
 FRA_Battle_of_France_category = {
@@ -3362,8 +3317,8 @@ FRA_Battle_of_France_category = {
 		timeout_effect = {
 			add_war_support = 0.1
 			add_stability = 0.05
-			army_experience = 25
-			air_experience = 25
+			army_experience = 15
+			air_experience = 15
 		}
 	}
 	FRA_The_Defense_of_France = {
@@ -3398,6 +3353,9 @@ FRA_Battle_of_France_category = {
 				controls_state = 1023
 				controls_state = 762
 			}
+		}
+		ai_will_do = {
+			factor = 200
 		}
 		complete_effect = {
 			add_war_support = -0.05

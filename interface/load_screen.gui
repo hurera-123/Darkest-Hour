@@ -73,7 +73,7 @@ guiTypes = {
 				maxHeight = 800
 				fixedsize = yes
 				format = left
-				vertical_alignment = left
+				#vertical_alignment = left
 			}
 		}
 	}

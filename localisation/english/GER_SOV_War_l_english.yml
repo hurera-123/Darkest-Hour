@@ -9,16 +9,16 @@
  GER_SOV_War.0.C: "Into the Caucasus!"
 
  GER_SOV_War.1.t: "German Betrayal"
- GER_SOV_War.1.d: ""
- GER_SOV_War.1.A: ""
+ GER_SOV_War.1.d: "“How dare they!”\n“General Secretary, the Teutonic race, is known for its madness.”\n“I know, but the pact...”\n“Comrade, this is no longer the time to discuss why, but how we will stop the Germans!”\n“Y...Yes, you’re right. Call the generals and the high officers... we need them.”\n\nThe discussion between Stalin and Kliment Voroshilov, Field Marshal of the Soviet Union, followed the surprise declaration of war from Germany. Despite the pact signed by both parties, it seems that the ambition of the Reich was too much for the survival of this pact.\n\n“Comrades, friends of the Red Army, if I have called you all here today, this is to announce to you terrible news, a news which will determine the future of the Soviet Union...\""
+ GER_SOV_War.1.A: "A war, a Great Patriotic War, has begun today..."
 
  GER_SOV_War.2.t: "The Great Eastern Crusade"
- GER_SOV_War.2.d: ""
- GER_SOV_War.2.A: ""
+ GER_SOV_War.2.d: "After years of preparation, finally, our time has come. Like the Teutonic Order, like the Prussian Kingdom, finally, we will launch all our forces into a new, modern crusade for the liberation of all the Germanic people!\n\nAlong the entire border we share with the Soviets, our troops have started to advance into the despicable communist nation. Ready to take Moscow, Leningrad, Stalingrad, our brave and powerful soldiers will not stop until the complete surrender of the Bolsheviks!\n\nJust like twenty years earlier, the Brest-Litovsk treaty will be enforced by our army! Our main objectives are to liberate Ostland, Ukraine, the Caucasus and Moscow. We will also establish Reichskommissariats here, to ensure the beginning of German colonisation of Russia. After the end of the war, the resources of the Reich will be infinite."
+ GER_SOV_War.2.A: "How many crusades are there now? Nine? Yeah, this will be the Ninth Crusade!"
 
- GER_SOV_War.3.t: "Germany Commence Hostilities with the Soviet Union"
- GER_SOV_War.3.d: "[FROM.GetNewsIcon]"
- GER_SOV_War.3.A: ""
+ GER_SOV_War.3.t: "Germany Commences Hostilities with the Soviet Union"
+ GER_SOV_War.3.d: "[FROM.GetNewsIcon]The Teutonic Order and its endless wars in Northern Europe. The Prussian Kingdom and its militaristic traditions. The German Empire and its bloody conflict against the whole of Europe.\n\nOnce again, Germany has been responsible for a conflict against a major power of the modern world: the Soviet Union. Following both its Prussians legacy and his anti-bolshevism, the Reich has declared war on his gigantic neighbour.\n\nEven though nobody knows how this conflict will end, many specialists think that this war can only end with one of two scenarios: a victory of Germany, like in 1918 with the Treaty of Brest-Litovsk; or a victory of the Soviets, and the destruction of the German army, much like the Great Army of Napoleon in 1812.\n\nThe future of the war is uncertain, but one thing is clear for everyone: it will end with the total destruction of one ideology. Fascism or Communism."
+ GER_SOV_War.3.A: "Fascist Germany declaring war on Soviet Russia? How unexpected..."
 
  GER_SOV_War.4.t: "Stalin flees to his Dacha"
  GER_SOV_War.4.d: ""
@@ -58,7 +58,8 @@
 
  GER_SOV_War.13.t: "An Invitation to Moscow"
  GER_SOV_War.13.d: ""
- GER_SOV_War.13.A: ""
+ GER_SOV_War.13.A: "Accept"
+ GER_SOV_War.13.B: "Refuse"
 
  GER_SOV_War.14.t: "Soviet–Japanese Neutrality Pact Signed"
  GER_SOV_War.14.d: "[FROM.GetNewsIcon]Today, Japanese Foreign Minister Yosuke Matsuoka and Ambassador Yoshitsugu Tatekawa met in Moscow with Vyacheslav Molotov. A potential neutrality agreement between the Soviet Union and Japan was the reason for the meeting.\n\nThe Soviet Union sought this deal to secure their border with the Japanese puppet state of Manchukuo in the Far East and to narrow their attention to the German Reich's frontier in Europe in case a conflict broke out in the future. The Japanese were keen to sign this deal because they wanted to concentrate on their military campaign against the Chinese United Front and their expansion into South-East Asia.\n\nInternational observers have called this a “surprising turn of events”, considering that these countries recently engaged in border wars in Mongolia with each other. "
@@ -70,3 +71,10 @@
  GER_SOV_War.15.d: "\"Sir, the Japanese have refused to sign a treaty of non-aggression.\"\n\n[SOV.GetLeader]'s hand tightened. Under the strain, the pencil he was holding cracked. As he gazed at the map of [SOV.GetNameDef] before him, one thought dominated his mind: "What now?"\n\nBut he knew the answer was straightforward. In the event of war, he'd have to maintain a defensive posture in both the Asian and European theatres. To repel invasion from both directions, he'd have to divide his resources east and west. He'd have to keep looking over his shoulder as he prepared to fight on one side to make sure the other didn't pounce on him.\n\n"I should've known this was going to happen," [SOV.GetLeader] thought to himself. The Japanese government had made no secret of their dislike for [SOV.GetNameDef]. The Japanese had many issues with the Soviets, ranging from recent border clashes in Manchuria to ownership of the Sakhalin Islands. Not to mention that the Russians' disastrous defeat at the hands of the Japanese some 30 years before had not been forgotten by the Russian people.\n\nHe'd assumed there were bigger fish to fry. He assumed Japan was more concerned with China. More interested in Southeast Asia's resource-rich regions. After all, the value of the Siberian tundra pales in comparison to the East Indies' rich oil deposits.\n\nHowever, it was now clear that he was completely incorrect. The Japanese tiger in Manchuria was tightening its claws, preparing to pounce on Siberia and Mongolia. He could see his country's armed forces and resources being depleted by the enormous demand of war on two fronts. He could now see his country being shattered by the Germans and the Japanese...."
  GER_SOV_War.15.A: "We must ensure that they will have nothing but dust and blood."
 
+ GER_SOV_War.100.t: "Our Focus Shifts to the Defensive"
+ GER_SOV_War.100.d: ""
+ GER_SOV_War.100.A: ""
+
+ GER_SOV_War.101.t: "Our Focus Shifts to the Offensive"
+ GER_SOV_War.101.d: "For years now, Stalin has maintained the Union outside of conflicts. If he wants to believe in the Global Revolution, he knows this objective is impossible to accomplish if we look into our current means.\n\nBut, as the shadow of the war kept coming closer to our borders, the Soviet leadership, composed of most of the leaders from the Party, as well as the great names of the Red Army, has taken the decision to now concentrate all our budget into the offensive.\n\nAs this committee argues, we can’t wait to be in a total war against foreign aggressors to prepare ourselves. We need to prepare for the invasion and liberation of border countries. We need to destroy the fascist-capitalist menace once and for all. And to do this, we must plunge a sword into their hearts... before they do it to us."
+ GER_SOV_War.101.A: "Comrades, the future of the Soviet Union is not in Europe, nor is he in Asia. Our future is in Eurasia!"

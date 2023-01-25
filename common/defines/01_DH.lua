@@ -4,19 +4,19 @@ NDefines.NGame.END_DATE = "2035.1.1.1"
 NDefines.NFocus.FOCUS_POINT_DAYS = 1
 NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 30
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 1
-NDefines.NCountry.POLITICAL_POWER_CAP = 500.0
+NDefines.NCountry.POLITICAL_POWER_UPPER_CAP = 1000.0
 NDefines.NCountry.MAJOR_MIN_FACTORIES = 60
 NDefines.NCountry.MIN_FOCUSES_FOR_CONTINUOUS = 0
 NDefines.NMilitary.BASE_COMBAT_WIDTH = 120
 NDefines.NMilitary.ADDITIONAL_COMBAT_WIDTH = 40
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 16
-NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 25
+NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 16
 NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 5
 NDefines.NMilitary.MIN_DIVISION_DEPLOYMENT_TRAINING = 0.3
 NDefines.NMilitary.SLOWEST_SPEED = 0.5
 NDefines.NProduction.MAX_CIV_FACTORIES_PER_LINE = 10
 NDefines.NProduction.BASE_FACTORY_MAX_EFFICIENCY_FACTOR = 10
-NDefines.NProduction.BASE_FACTORY_SPEED = 2.5
+NDefines.NProduction.BASE_FACTORY_SPEED = 1.75
 NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 4.5
 NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 2.5
 -- Diplomatic changes
@@ -25,6 +25,9 @@ NDefines.NDiplomacy.MIN_OPINION_VALUE = -100
 NDefines.NDiplomacy.VERY_GOOD_OPINION = 50
 NDefines.NDiplomacy.VERY_BAD_OPINION = -50
 NDefines.NDiplomacy.IDEOLOGY_JOIN_FACTION_MIN_LEVEL = 0.4
+NDefines.NDiplomacy.EMBARGO_THREAT_THRESHOLD = 100					-- Target-generated threat threshold to allow embargo (affected by modifiers)
+NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.05			-- Each province owned by the target country contributes this amount of volunteers to the limit.
+NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0.05				-- Each army unit owned by the source country contributes this amount of volunteers to the limit.
 -- Trade. changes
 NDefines.NTrade.DISTANCE_TRADE_FACTOR = -0.03	-- Trade factor is modified by distance times this
 NDefines.NTrade.RELATION_TRADE_FACTOR = 1.5					-- Trade factor is modified by Opinion value times this
@@ -45,27 +48,30 @@ NDefines.NAI.DIPLOMACY_ACCEPT_VOLUNTEERS_BASE = 25	-- 50
 NDefines.NAI.RESEARCH_BONUS_FACTOR = 5.0 -- 0.9
 NDefines.NAI.RESERVE_TO_COMMITTED_BALANCE = 0.20 -- 0.1
 NDefines.NAI.NAVAL_MISSION_MIN_FLEET_SIZE = 6 -- 3
+NDefines.NAI.MAX_VOLUNTEER_ARMY_FRACTION = 0.1	-- 0.25		-- Countries will not send more than their forces time this number to aid another country
 -- AI Military execution changes
-NDefines.NAI.PLAN_VALUE_TO_EXECUTE = -0.1	-- -0.5			-- AI will typically avoid carrying out a plan it below this value (0.0 is considered balanced).
+NDefines.NAI.PLAN_VALUE_TO_EXECUTE = -0.2	-- -0.5			-- AI will typically avoid carrying out a plan it below this value (0.0 is considered balanced).
 NDefines.NAI.DIVISION_UPGRADE_MIN_XP = 50	-- 5	-- Minimum XP before attempting to upgrade a division template.
-NDefines.NAI.PLAN_FACTION_STRONG_TO_EXECUTE = 0.9 --0.80	0.60		        -- % or more of units in an order to consider ececuting the plan
-NDefines.NAI.ORG_UNIT_STRONG = 0.95 --0.5	 --0.75		0.9				            -- Organization % for unit to be considered strong
-NDefines.NAI.STR_UNIT_STRONG = 0.9 --0.9 --0.7		0.75					    -- Strength (equipment) % for unit to be considered strong
+NDefines.NAI.PLAN_FACTION_STRONG_TO_EXECUTE = 0.8 --	0.60		        -- % or more of units in an order to consider ececuting the plan
+NDefines.NAI.ORG_UNIT_STRONG = 0.8 --0.5	 --0.75		0.9				            -- Organization % for unit to be considered strong
+NDefines.NAI.STR_UNIT_STRONG = 0.8 --0.9 --0.7		0.75					    -- Strength (equipment) % for unit to be considered strong
 NDefines.NAI.PLAN_FACTION_WEAK_TO_ABORT = 0.55 --0.50		0.65		        -- % or more of units in an order to consider ececuting the plan
 NDefines.NAI.ORG_UNIT_WEAK = 0.5 --0.25 --0.3			0.15					-- Organization % for unit to be considered weak
 NDefines.NAI.STR_UNIT_WEAK = 0.4 --0.6 --0.5			0.1					    -- Strength (equipment) % for unit to be considered weak
 NDefines.NAI.LAND_DEFENSE_FIGHERS_PER_PLANE = 2 -- 1.1				            -- Amount of air superiority planes requested per enemy plane
 NDefines.NAI.LAND_DEFENSE_INTERSEPTORS_PER_BOMBERS = 2 -- 0.2		            -- Amount of air interceptor planes requested per enemy plane
-NDefines.NAI.LAND_COMBAT_AIR_SUPERIORITY_IMPORTANCE = 1	 --0.20		            -- Strategic importance of air superiority ( amount of enemy planes in area )
-NDefines.NAI.LAND_COMBAT_OUR_ARMIES_AIR_IMPORTANCE = 100 --12		            -- Strategic importance of our armies
-NDefines.NAI.LAND_COMBAT_OUR_COMBATS_AIR_IMPORTANCE = 100 --55		            -- Strategic importance of our armies in the combats
-NDefines.NAI.LAND_COMBAT_FRIEND_ARMIES_AIR_IMPORTANCE = 100 --12	            -- Strategic importance of friendly armies
-NDefines.NAI.LAND_COMBAT_FRIEND_COMBATS_AIR_IMPORTANCE = 100 --6		        -- Strategic importance of friendly armies in the combat
+NDefines.NAI.LAND_COMBAT_AIR_SUPERIORITY_IMPORTANCE = 1	 --0.40		            -- Strategic importance of air superiority ( amount of enemy planes in area )
+NDefines.NAI.LAND_COMBAT_OUR_ARMIES_AIR_IMPORTANCE = 20 --100		            -- Strategic importance of our armies
+NDefines.NAI.LAND_COMBAT_OUR_COMBATS_AIR_IMPORTANCE = 55 --100		            -- Strategic importance of our armies in the combats
+NDefines.NAI.LAND_COMBAT_FRIEND_ARMIES_AIR_IMPORTANCE = 10 --100	            -- Strategic importance of friendly armies
+NDefines.NAI.LAND_COMBAT_FRIEND_COMBATS_AIR_IMPORTANCE = 8 --100		        -- Strategic importance of friendly armies in the combat
+NDefines.NAI.LAND_COMBAT_ENEMY_LAND_FORTS_AIR_IMPORTANCE = 10	-- Strategic importance of enemy land forts in the region
+NDefines.NAI.LAND_COMBAT_ENEMY_COASTAL_FORTS_AIR_IMPORTANCE = 6	-- Strategic importance of enemy coastal fronts in the region
 NDefines.NAI.LAND_COMBAT_FIGHTERS_PER_PLANE = 2 --1.1				            -- Amount of air superiority planes requested per enemy plane
 NDefines.NAI.LAND_COMBAT_CAS_PER_ENEMY_ARMY = 100				                -- Amount of CAS planes requested per enemy army
 NDefines.NAI.LAND_COMBAT_BOMBERS_PER_LAND_FORT_LEVEL = 10 --15		            -- Amount of bomber planes requested per enemy land fort level
 NDefines.NAI.LAND_COMBAT_BOMBERS_PER_COASTAL_FORT_LEVEL = 10 --10	            -- Amount of bomber planes requested per enemy coastal fort level
-NDefines.NAI.STR_BOMB_MIN_ENEMY_FIGHTERS_IN_AREA = 300 --300		            -- If amount of enemy fighters is higher than this mission won't perform
+NDefines.NAI.STR_BOMB_MIN_ENEMY_FIGHTERS_IN_AREA = 1000 --2000		            -- If amount of enemy fighters is higher than this mission won't perform
 NDefines.NAI.STR_BOMB_FIGHTERS_PER_PLANE = 2 --0				                -- Amount of air superiority planes requested per enemy plane
 -- Naval Invasion Changes
 NDefines.NNavy.NAVAL_SUPREMACY_INTEL_LOW = 0.3						-- we need more intel than this to get any supremacy
@@ -87,11 +93,7 @@ NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH = 0.65 --0.9, -- % of total Strength.
 NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 1.0 --1.6, -- casting damage value to ship strength multiplier. Use it to balance the game difficulty.
 NDefines.NNavy.COMBAT_DAMAGE_TO_ORG_FACTOR = 1.9 --1.9, -- casting damage value to ship organisation multiplier. Use it to balance the game difficulty.
 -- Air Combat Changes
-NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.1               -- % how many max disrupted only planes are alloed to die in a single combat
-NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.25	-- 0.1
 NDefines.NAir.AIR_WING_BOMB_DAMAGE_FACTOR = 5					-- Used to balance the damage done while bombing.
-NDefines.NAir.AIR_COMBAT_FINAL_DAMAGE_SCALE = 0.05               -- % how many max disrupted only planes are alloed to die in a single combat
-NDefines.NAir.COMBAT_BETTER_AGILITY_DAMAGE_REDUCTION = 0.60 		-- How much the better agility (then opponent's) can reduce their damage to us.
 -- Naval Production
 NDefines.NProduction.MAX_NAV_FACTORIES_PER_LINE = 10
 --Graphical Changes
@@ -171,3 +173,8 @@ NDefines.NGame.GAME_SPEED_SECONDS = { 0.35, 0.15, 0.1, 0.035, 0.0 }
 -- Resistance
 NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_PER_COMPLIANCE = -1.0
 NDefines.NResistance.INITIAL_HISTORY_COMPLIANCE = 100.0
+
+-- Character
+NDefines.NCharacter.OFFICER_CORP_ADVISOR_ENTRIES_IN_MENU = { "high_command", "Chief_of_Staff", "Chief_of_Army", "Chief_of_Airforce", "Chief_of_Navy" }
+NDefines.NCharacter.DEFAULT_PP_COST_FOR_MILITARY_ADVISOR = 150	-- When an advisor does not have cost assigned this is the default used
+NDefines.NCharacter.DEFAULT_PP_COST_FOR_POLITICAL_ADVISOR = 150

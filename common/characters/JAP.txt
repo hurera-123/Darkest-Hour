@@ -9,7 +9,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=JAP_Hirohito_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=JAP
 			}
@@ -116,6 +116,9 @@ characters={
 				
 				MoS_Silent_Lawyer
 			}
+			ai_will_do = {
+				factor = 500
+			}
 		}
 	}
 	JAP_Fujie_Keisuke = {
@@ -165,31 +168,6 @@ characters={
 			traits={
 				
 				MoS_Man_Of_The_People
-			}
-		}
-	}
-	JAP_Tanaka_Seiichi = {
-		name=JAP_Tanaka_Seiichi
-		portraits={
-			army={
-				small="GFX_idea_Tanaka_Seiichi"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=JAP_Tanaka_Seiichi_MoS
-			allowed={
-				tag=JAP
-			}
-			visible={
-				date > 1938.01.01
-				date < 1964.01.01
-				F_Minister_Allowed = yes
-				NOT = { has_country_flag = Tanaka_Seiichi_unavailable }
-			}
-			traits={
-				
-				MoS_Back_Stabber
 			}
 		}
 	}
@@ -3391,7 +3369,6 @@ characters={
 				NOT = { has_country_flag = Araki_Sadao_unavailable }
 			}
 			traits={
-				
 				HoI_Naval_Intelligence_Specialist
 			}
 		}
@@ -3403,14 +3380,23 @@ characters={
 			}
 			visible={
 				date > 1933.01.01
-				date < 1964.01.01
+				date < 1934.01.23
 				A_Minister_Allowed = yes
 				NOT = { has_country_flag = Araki_Sadao_unavailable }
 			}
 			traits={
-				
 				L_Stern_Imperialist
 			}
+		}
+		corps_commander={
+			traits = {
+				JAP_samurai_lineage
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
 		}
 	}
 	JAP_Tsuchihashi_Yuitsu = {
@@ -3628,6 +3614,9 @@ characters={
 			traits={
 				
 				HoI_Political_Specialist
+			}
+			ai_will_do = {
+				factor = 500
 			}
 		}
 		advisor={
@@ -4155,6 +4144,9 @@ characters={
 				
 				CoArmy_Static_Defence_Doctrine
 			}
+			ai_will_do = {
+				factor = 500
+			}
 		}
 	}
 	JAP_Abe_Nobuyuki = {
@@ -4257,6 +4249,9 @@ characters={
 			traits={
 				
 				CoNavy_Base_Control_Doctrine
+			}
+			ai_will_do = {
+				factor = 500
 			}
 		}
 	}
@@ -5773,24 +5768,6 @@ characters={
 			logistics_skill = 1
 		}
 	}
-	JAP_Sadao_Araki = {
-		name=JAP_Sadao_Araki
-		portraits={
-			army={
-				large="GFX_M_Sadao_Araki"
-			}
-		}
-        corps_commander={
-			traits = {
-				JAP_samurai_lineage
-			}
-			skill = 2
-			attack_skill = 1
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
 	JAP_Keisuke_Fujie = {
 		name=JAP_Keisuke_Fujie
 		portraits={
@@ -6126,7 +6103,7 @@ characters={
 			}
 			visible={
 				date > 1937.01.01
-				date < 1964.01.01
+				date < 1943.02.04
 				A_Minister_Allowed = yes
 				NOT = { has_country_flag = Hayashi_Senjuro_unavailable }
 			}
@@ -6143,7 +6120,7 @@ characters={
 			}
 			visible={
 				date > 1933.01.01
-				date < 1964.01.01
+				date < 1943.02.04
 				A_Minister_Allowed = yes
 				NOT = { has_country_flag = Hayashi_Senjuro_unavailable }
 			}

@@ -56,3 +56,97 @@ chaco_war_support_BOL = {
 		value = 100
 	}
 }
+BOL_Defend = {
+	allowed = {
+		tag = BOL
+	}
+	enable = {
+		PAR = {
+			has_war_with = BOL
+		}
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = PAR
+		value = 500
+	}
+	ai_strategy = {
+		type = front_control
+		tag = PAR
+		ordertype = front
+		execution_type = careful
+	}
+}
+PAR_Stall = {
+	allowed = {
+		tag = PAR
+	}
+	enable = {
+		date < 1935.3.1
+		PAR = {
+			has_war_with = BOL
+		}
+	}
+	abort = {
+		date > 1935.3.1
+	}
+	ai_strategy = {
+		type = front_unit_request
+		tag = BOL
+		value = 1000
+	}
+	ai_strategy = {
+		type = front_control
+		tag = BOL
+		ordertype = front
+		execution_type = careful
+		execute_order = no
+		manual_attack = no
+	}
+}
+PAR_Attack = {
+	allowed = {
+		tag = PAR
+	}
+	enable = {
+		date > 1935.3.1
+		PAR = {
+			has_war_with = BOL
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = front_unit_request
+		tag = BOL
+		value = 1000
+	}
+	ai_strategy = {
+		type = front_control
+		tag = BOL
+		ordertype = front
+		execution_type = rush
+		execute_order = yes
+		manual_attack = no
+	}
+}
+chaco_war_use_all_your_troops = {
+	enable = {
+		PAR = {
+			has_war_with = BOL
+		}
+		OR = {
+			tag = PAR
+			tag = BOL
+		}
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = spare_unit_factor
+		value = -500
+	}
+	ai_strategy = {
+		type = garrison_reinforcement_priority
+		value = -500
+	}
+}

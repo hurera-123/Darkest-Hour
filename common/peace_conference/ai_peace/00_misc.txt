@@ -793,7 +793,7 @@ peace_ai_desires = {
 						pc_is_forced_government_by = ROOT
 						AND = {
 							country_exists = THIS #Ie - has provinces already and isn't a new creation
-							has_same_ideology = yes
+							has_government = ROOT
 						}
 						is_in_faction_with = ROOT
 					}

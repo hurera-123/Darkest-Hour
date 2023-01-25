@@ -186,7 +186,7 @@ guiTypes = {
 			position = { x = 113 y = 349 }
 			spriteType = "GFX_main_menu_social_steam"
 			pdx_tooltip = "MENU_STEAM"
-			web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=2824483457"
+			web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=2906604003"
 		}
 		buttonType = {
 			name = "wiki_button"

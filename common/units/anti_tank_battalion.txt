@@ -3,9 +3,10 @@ sub_units = {
 	anti_tank_battalion = {
 		sprite = anti_tank
 		map_icon_category = infantry
-		priority = 297
+		priority = 301
 		ai_priority = 100
 		active = yes
+		can_be_parachuted = yes # should only be added with the glider tech
 
 		
 		type = {

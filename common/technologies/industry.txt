@@ -28,6 +28,7 @@ technologies = {
 		industrial_capacity_factory = 0.05
 		industrial_capacity_dockyard = 0.05
 		production_factory_max_efficiency_factor = 0.05
+		global_building_slots_factor = 0.2
 		path = {
 			leads_to_tech = Factory_Electrification
 			research_cost_coeff = 1
@@ -79,6 +80,7 @@ technologies = {
 		industrial_capacity_factory = 0.07
 		industrial_capacity_dockyard = 0.06
 		production_factory_start_efficiency_factor = 0.05
+		global_building_slots_factor = 0.2
 		path = {
 			leads_to_tech = Moving_Assembly_Line
 			research_cost_coeff = 1
@@ -197,7 +199,7 @@ technologies = {
 		industrial_capacity_factory = 0.1
 		industry_air_damage_factor = -0.25
 		production_factory_max_efficiency_factor = 0.1
-		global_building_slots_factor = 0.6
+		global_building_slots_factor = 0.2
 		industrial_capacity_dockyard = 0.15
 		XOR = {
 			Concentrated_Industry
@@ -227,8 +229,8 @@ technologies = {
 		conversion_cost_civ_to_mil_factor = -0.4
 		industrial_capacity_factory = 0.2
 		industry_air_damage_factor = 0.25
-		production_factory_max_efficiency_factor = 0.25
-		global_building_slots_factor = 0.6
+		production_factory_max_efficiency_factor = 0.2
+		global_building_slots_factor = 0.2
 		industrial_capacity_dockyard = 0.25
 		XOR = {
 			Dispersed_Industry
@@ -1288,6 +1290,13 @@ technologies = {
 	###Fuel Gain (Refineries)
 	Early_Synthetic_Oil_Production = {
 		#3
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 1
+			}
+		}
 		fuel_gain_factor_from_states = 0.35
 		path = {
 			leads_to_tech = Widespread_Use_of_Lignite_Coal
@@ -1316,6 +1325,13 @@ technologies = {
 	}
 	Widespread_Use_of_Lignite_Coal = {
 		#4
+		on_research_complete = {
+			modify_building_resources = {
+				building = synthetic_refinery
+				resource = oil
+				amount = 2
+			}
+		}
 		fuel_gain_factor_from_states = 0.4
 		path = {
 			leads_to_tech = Refined_Pyrolysis_Process
@@ -1344,13 +1360,6 @@ technologies = {
 	}
 	Refined_Pyrolysis_Process = {
 		#5
-		on_research_complete = {
-			modify_building_resources = {
-				building = synthetic_refinery
-				resource = rubber
-				amount = 1
-			}
-		}
 		fuel_gain_factor_from_states = 0.4
 		path = {
 			leads_to_tech = Major_Hydrogeneration_Productivity_Gain

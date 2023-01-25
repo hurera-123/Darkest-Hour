@@ -22,7 +22,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=MAN_Aisin_Gioro_Puyi_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=MAN
 			}

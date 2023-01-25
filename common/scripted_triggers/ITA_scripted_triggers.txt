@@ -1,0 +1,34 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = ITA
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+# 
+#	THIS FILE IS FOR TRIGGERS SPECIFICALLY FOR THE ITA TAG
+
+Owns_Italian_Irredenta = {
+	original_tag = ITA
+	any_controlled_state = {
+		OR = {
+			state = 1
+			state = 846
+			state = 764
+			state = 735
+			state = 767
+			state = 1085
+			state = 1091
+			state = 1404
+			state = 765
+			state = 103
+			state = 116
+		}
+	}
+}

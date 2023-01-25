@@ -27,7 +27,7 @@ focus_tree = {
 		available = {
 			has_country_leader = {
 				ruling_only = yes
-				name = "Franklin D. Roosevelt"
+				character = USA_Franklin_D_Roosevelt
 			}
 		}
 		completion_reward = {
@@ -1718,12 +1718,21 @@ focus_tree = {
 		x = 25
 		y = 1
 		available = {
-			set_temp_variable = {
-				total_support_to_check = 0.5
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				date > 1936.1.1
 			}
-			has_at_least_parliament_total_support = yes
-			threat > 0.35
-			has_war_support > 0.4
+			else = {
+				date > 1935.1.1
+				set_temp_variable = {
+					total_support_to_check = 0.5
+				}
+				has_at_least_parliament_total_support = yes
+				has_war_support > 0.4
+			}
+			
 		}
 		completion_reward = {
 			country_event = USA_Army.1
@@ -1938,6 +1947,10 @@ focus_tree = {
 				bonus = 0.4
 				uses = 2
 				category = para_tech
+			}
+			custom_effect_tooltip = USA_Form_Airbone_Division_tt
+			hidden_effect = {
+				load_oob = USA_Airborne
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -2639,6 +2652,35 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 			country_event = USA_Department_of_War.3
+			if = {
+				limit = {
+					has_dlc = "La Resistance"
+				}
+				create_operative_leader = {
+					name = "Peter J. Ortiz"
+					GFX = GFX_operative_Peter_Ortiz
+					traits = { operative_linguist operative_tough operative_commando }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { USA FRA }
+				}
+				create_operative_leader = {
+					name = "Joe Savoldi"
+					GFX = GFX_operative_Joe_Savoldi
+					traits = { operative_linguist operative_tough }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { USA ITA }
+				}
+				create_operative_leader = {
+					name = "Fritz Kolbe"
+					GFX = GFX_operative_Fritz_Kolbe
+					traits = { operative_infiltrator }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { GER }
+				}
+			}
 		}
 	}
 	focus = {
@@ -3399,6 +3441,35 @@ focus_tree = {
 				bonus = 0.6
 				uses = 1
 				category = marine_tech
+			}
+			show_unit_leaders_tooltip = USA_Holland_Smith
+			show_unit_leaders_tooltip = USA_Alexander_Vandegrift
+			add_units_to_division_template = {
+				template_name = "Marines"
+				regiments = {
+					marine = 0
+					marine = 1
+					marine = 2
+					marine = 2
+					marine = 2
+					artillery_battalion_light = 3
+					artillery_battalion_light = 3
+					artillery_battalion_light = 3
+					artillery_battalion = 3
+					light_armor = 4
+				}
+				support = {
+					anti_tank_company = 0
+					anti_air_battery = 0
+					signal_company = 1
+					field_hospital = 1
+					logistics_company = 1
+					military_police = 1
+				}
+			}
+			set_division_template_lock = {
+				division_template = "Marines"
+				is_locked = no
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -6407,8 +6478,7 @@ focus_tree = {
 		relative_position_id = USA_Coordinate_Our_Resources
 		available = {
 			has_country_leader = {
-				name = "Charles L. McNary"
-				ruling_only = yes
+				character = USA_Charles_McNary
 			}
 		}
 		completion_reward = {
@@ -6436,8 +6506,7 @@ focus_tree = {
 		relative_position_id = USA_Coordinate_Our_Resources
 		available = {
 			has_country_leader = {
-				name = "Charles L. McNary"
-				ruling_only = yes
+				character = USA_Charles_McNary
 			}
 		}
 		completion_reward = {
@@ -8100,6 +8169,9 @@ focus_tree = {
 		}
 		available = {
 			has_war = no
+			has_country_leader = {
+				character = USA_Robert_A_Taft
+			}
 		}
 		prerequisite = {
 			focus = USA_Complete_Mobilization
@@ -8145,6 +8217,15 @@ focus_tree = {
 		cost = 40
 		available = {
 			has_country_flag = USA_FDR_Wins_1944_Election_focus
+			has_country_leader = {
+				ruling_only = yes
+				character = USA_Franklin_D_Roosevelt
+			}
+		}
+		bypass = {
+			has_country_leader = {
+				character = USA_Harry_S_Truman
+			}
 		}
 		relative_position_id = USA_The_War_Continues
 		x = -1
@@ -8167,6 +8248,9 @@ focus_tree = {
 		prerequisite = {
 			focus = USA_The_Final_Stretch
 		}
+		bypass = {
+			has_war = no
+		}
 		relative_position_id = USA_The_Final_Stretch
 		x = -1
 		y = 1
@@ -8183,6 +8267,9 @@ focus_tree = {
 		prerequisite = {
 			focus = USA_The_Final_Stretch
 		}
+		bypass = {
+			has_war = no
+		}
 		relative_position_id = USA_The_Final_Stretch
 		x = 1
 		y = 1
@@ -8198,6 +8285,12 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = USA_Ensure_Victory_Through_Lend_Lease
+		}
+		available = {
+			has_war = no
+			has_country_leader = {
+				character = USA_Harry_S_Truman
+			}
 		}
 		relative_position_id = USA_United_We_Stand
 		x = -4
@@ -8227,6 +8320,12 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = USA_Ensure_Victory_Through_Lend_Lease
+		}
+		available = {
+			has_war = no
+			has_country_leader = {
+				character = USA_Harry_S_Truman
+			}
 		}
 		relative_position_id = USA_United_We_Stand
 		x = -2
@@ -8357,6 +8456,12 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = USA_Ensure_Victory_Through_Lend_Lease
+		}
+		available = {
+			has_war = no
+			has_country_leader = {
+				character = USA_Harry_S_Truman
+			}
 		}
 		relative_position_id = USA_United_We_Stand
 		x = 1
@@ -8745,6 +8850,12 @@ focus_tree = {
 		prerequisite = {
 			focus = USA_Ensure_Victory_Through_Lend_Lease
 		}
+		available = {
+			has_war = no
+			has_country_leader = {
+				character = USA_Harry_S_Truman
+			}
+		}
 		relative_position_id = USA_United_We_Stand
 		x = 4
 		y = 1
@@ -8761,6 +8872,12 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = USA_Ensure_Victory_Through_Lend_Lease
+		}
+		available = {
+			has_war = no
+			has_country_leader = {
+				character = USA_Harry_S_Truman
+			}
 		}
 		relative_position_id = USA_United_We_Stand
 		x = 6

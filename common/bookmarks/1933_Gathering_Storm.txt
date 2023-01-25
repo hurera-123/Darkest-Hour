@@ -39,7 +39,7 @@ bookmarks = {
 			ideology = democratic
 			ideas = {
 				ENG_Pax_Britannica
-				ENG_The_Great_Depression
+				ENG_Anglo_Irish_Trade_War_1
 				ENG_World_War_One_Reparations
 			}
 			focuses = {

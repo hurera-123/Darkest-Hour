@@ -54,10 +54,10 @@
 	}
 	set_popularities = {
 		fascist = 0
-		authoritarian = 0
-		democratic = 0
-		socialist = 0
-		communist = 100
+		authoritarian = 10
+		democratic = 5
+		socialist = 5
+		communist = 80
 	}
 	####################################################
 	# Leaders

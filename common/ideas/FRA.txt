@@ -250,7 +250,7 @@ ideas = {
 			picture = FRA_Stategie_de_la_Grande_Guerre
 			modifier = {
 				max_dig_in = 2
-				defence = 0.05
+				army_defence_factor = 0.05
 				army_infantry_attack_factor = 0.05
 			}
 		}
@@ -258,7 +258,7 @@ ideas = {
 			picture = FRA_Stategie_de_la_Grande_Guerre
 			modifier = {
 				max_dig_in = 2
-				defence = 0.1
+				army_defence_factor = 0.1
 				army_infantry_attack_factor = 0.05
 				army_artillery_attack_factor = 0.10
 			}
@@ -287,7 +287,7 @@ ideas = {
 			picture = FRA_Stategie_de_la_Grande_Guerre
 			modifier = {
 				max_dig_in = 3
-				defence = 0.10
+				army_defence_factor = 0.10
 				army_infantry_attack_factor = 0.05
 				army_artillery_attack_factor = 0.10
 				breakthrough_factor = 0.1
@@ -1013,6 +1013,9 @@ ideas = {
 			}
 		}
 		FRA_Milices_Fascistes = {
+			available = {
+				has_war = no
+			}
 			picture = FRA_Violence_Politique
 			modifier = {
 				political_power_gain = -0.15
@@ -1143,14 +1146,6 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.1
 		    }
 		}
-		FRA_Active_Opposition = {
-			picture = FRA_Matignon_Accord
-			modifier = {
-				army_speed_factor = -0.1
-				recruitable_population_factor = -0.1
-				# repair_speed_buildings_factor = -0.3
-		    }
-		}
 		#France au travail / France at Work
 		FRA_La_France_au_Travail= {
 			available = {
@@ -1165,6 +1160,9 @@ ideas = {
 		}
 		# The Grand Quartier General (GQG)
 		FRA_The_GQG = {
+			available = {
+				has_war = yes
+			}
 			picture = FRA_Grand_Quartier_General
 			modifier = {
 				max_command_power = 30
@@ -1173,6 +1171,9 @@ ideas = {
 			}
 		}
 		FRA_The_GQG_2 = {
+			available = {
+				has_war = yes
+			}
 			picture = FRA_Grand_Quartier_General
 			modifier = {
 				max_command_power = 50
@@ -1181,7 +1182,7 @@ ideas = {
 			}
 		}
 		FRA_La_Der_des_Ders = {
-			picture = FRA_La_Der_Des_Ders
+			picture = FRA_La_Der_des_Ders
 			modifier = {
 				war_support_factor = -0.5
 				#mobilization_laws_cost_factor = 0.5
@@ -1190,7 +1191,7 @@ ideas = {
 			}
 		}
 		FRA_La_Der_des_Ders_2 = {
-			picture = FRA_La_Der_Des_Ders
+			picture = FRA_La_Der_des_Ders
 			modifier = {
 				war_support_factor = -0.3
 				#mobilization_laws_cost_factor = 0.25
@@ -1198,18 +1199,16 @@ ideas = {
 			}
 		}
 		FRA_La_Der_des_Ders_3 = {
-			picture = FRA_La_Der_Des_Ders
+			picture = FRA_La_Der_des_Ders
 			modifier = {
 				war_support_factor = -0.15
 			}
 		}
 		FRA_Plan_Mandel = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				has_war = yes
 			}
-			picture = placeholder
+			picture = FRA_Plan_Mandel
 			modifier = {
 				industrial_capacity_factory = 0.1
 				conscription_factor = 0.01
@@ -1217,9 +1216,7 @@ ideas = {
 		}
 		FRA_IAAC = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				has_war = yes
 			}
 			picture = generic_air_bonus
 			modifier = {
@@ -1230,9 +1227,7 @@ ideas = {
 		}
 		FRA_Inter_Allied_Production_Support = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				has_war = yes
 			}
 			picture = generic_license_production
 			equipment_bonus = {
@@ -1254,9 +1249,7 @@ ideas = {
 		}
 		FRA_The_Phoney_War = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				has_war = yes
 			}
 			picture = FRA_The_Phoney_War
 			modifier = {
@@ -1267,9 +1260,7 @@ ideas = {
 		### La Débacle
 		FRA_La_Debacle = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				has_war = yes
 			}
 			picture = generic_army_problems
 			modifier = {
@@ -1282,9 +1273,7 @@ ideas = {
 		}
 		FRA_La_Patrie_en_Danger = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				has_war = yes
 			}
 			picture = FRA_La_Patrie_en_Danger
 			modifier = {
@@ -1293,41 +1282,34 @@ ideas = {
 		}
 		FRA_La_Patrie_en_Danger_2 = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				has_war = yes
 			}
 			picture = FRA_La_Patrie_en_Danger
 			modifier = {
-				army_core_defence_factor  = 0.1
+				army_core_defence_factor  = 0.05
 				stability_factor = -0.025
-				surrender_limit = 0.5
+				surrender_limit = 0.25
 			}
 		}
 		FRA_La_Patrie_en_Danger_3 = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
-			}
-			picture = FRA_La_Patrie_en_Danger
+				has_war = yes
+			}			picture = FRA_La_Patrie_en_Danger
 			modifier = {
-				army_core_defence_factor  = 0.15
+				army_core_defence_factor  = 0.1
 				stability_factor = -0.05
-				surrender_limit = 0.5
+				surrender_limit = 0.25
 			}
 		}
 		FRA_La_Patrie_en_Danger_4 = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				has_war = yes
 			}
 			picture = FRA_La_Patrie_en_Danger
 			modifier = {
-				army_core_defence_factor  = 0.15
+				army_core_defence_factor  = 0.1
 				stability_factor = -0.075
-				surrender_limit = 0.5
+				surrender_limit = 0.25
 				mobilization_speed = 0.25
 				conscription_factor = 0.25
 			}
@@ -1359,22 +1341,17 @@ ideas = {
 		}
 		FRA_Defender_of_the_Republic = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				is_democratic = yes
 			}
 			picture = FRA_national_mobilization_focus
 			modifier = {
 				war_support_factor = 0.1
 				army_morale_factor = 0.05
-				surrender_limit = 0.1
 			}
 		}
 		FRA_National_Defense_Bonds= {
 			available = {
-				NOT = {
-					has_war = yes
-				}
+				has_war = no
 			}
 			picture = tur_balkan_central_bank_wealthy_greece
 			modifier = {

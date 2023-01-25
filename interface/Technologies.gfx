@@ -994,10 +994,6 @@ spriteTypes = {
 		name = "GFX_SOV_mechanised_infantry_medium"
 		texturefile = "gfx/interface/technologies/SOV_mechanized_equipment_1.dds"
 	}
-	SpriteType = {
-		name = "GFX_SOV_Uniform_1952"
-		texturefile = "gfx/interface/technologies/SOV_Uniform_1952.dds"
-	}
 	### ENG equipment ###	
 	SpriteType = {
 		name = "GFX_ENG_artillery4_medium"
@@ -1381,10 +1377,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_JAP_motorised_infantry_medium"
 		texturefile = "gfx/interface/technologies/JAP_motorized_equipment_1.dds"
-	}
-	SpriteType = {
-		name = "GFX_JAP_Uniform_1914"
-		texturefile = "gfx/interface/technologies/GER_Uniform_1945.dds"
 	}
 	### USA equipment ###	
 	SpriteType = {

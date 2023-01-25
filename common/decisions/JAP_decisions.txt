@@ -129,6 +129,12 @@ factions_decision_category = {
 	JAP_Expand_Police = {
 		visible = {
 			has_completed_focus = JAP_Curb_the_External_Threat
+			NOT = {
+				OR = {
+					has_completed_focus = JAP_One_Act_One_Profit
+					has_country_flag = JAP_Incident
+				}
+			}
 		}
 		cost = 25
 		days_remove = 30
@@ -3489,7 +3495,7 @@ JAP_GEACPS_category = {
 			}
 			add_to_variable = {
 				var = JAP_Yen_Bloc_Money_Gained
-				value = 3
+				value = 0.03
 			}
 		}
 		ai_will_do = {
@@ -3529,7 +3535,7 @@ JAP_GEACPS_category = {
 			}
 			add_to_variable = {
 				var = JAP_Yen_Bloc_Money_Gained
-				value = 5
+				value = 0.05
 			}
 		}
 		ai_will_do = {
@@ -3568,7 +3574,7 @@ JAP_GEACPS_category = {
 			}
 			add_to_variable = {
 				var = JAP_Yen_Bloc_Money_Gained
-				value = 3
+				value = 0.03
 			}
 		}
 		ai_will_do = {
@@ -3610,7 +3616,7 @@ JAP_GEACPS_category = {
 			}
 			add_to_variable = {
 				var = JAP_Yen_Bloc_Money_Gained
-				value = 3
+				value = 0.03
 			}
 		}
 		ai_will_do = {
@@ -4105,10 +4111,6 @@ JAP_GEACPS_category = {
 		modifier = {
 			production_factory_max_efficiency_factor = 0.05
 		}
-		targeted_modifier = {
-			tag = FROM
-			production_factory_max_efficiency_factor = -0.05
-		}
 		complete_effect = {
 			add_manpower = 20000
 			FROM = {
@@ -4223,6 +4225,9 @@ JAP_GEACPS_category = {
 		}
 		modifier = {
 			money_income_factor = 0.1
+			hidden_modifier = {
+				money_income_factor_from_decisions = 0.1
+			}
 		}
 		cost = 10
 		days_remove = 60
@@ -4993,7 +4998,7 @@ JAP_Imperial_General_Headquarters = {
 			clr_country_flag = JAP_Rivalry_Decision_in_Progress
 		}
 		ai_will_do = {
-			base = 1
+			base = 999
 			modifier = {
 				add = 50
 				has_idea = JAP_Rivalries_Of_War_Navy_Strengthened
@@ -5173,16 +5178,6 @@ JAP_Imperial_General_Headquarters = {
 		cost = 50
 		modifier = {
 			experience_gain_army_factor = 0.15
-			equipment_bonus = {
-				artillery_equipment = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				infantry_equipment = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-			}
 		}
 		complete_effect = {
 			set_country_flag = JAP_Rivalry_Decision_in_Progress
@@ -5231,16 +5226,6 @@ JAP_Imperial_General_Headquarters = {
 		cost = 50
 		modifier = {
 			experience_gain_navy_factor = 0.15
-			equipment_bonus = {
-				DD_equipment = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-				SS_equipment = {
-					build_cost_ic = -0.1
-					instant = yes
-				}
-			}
 		}
 		complete_effect = {
 			set_country_flag = JAP_Rivalry_Decision_in_Progress
@@ -5904,8 +5889,7 @@ JAP_Strike_South_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 100
-				factor = 500
+				add = 500
 				date > 1941.6.1
 			}
 		}

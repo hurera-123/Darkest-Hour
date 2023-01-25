@@ -15,7 +15,8 @@
 	# Research
 	#######################
 	set_technology = {
-	basic_train = 1
+	basic_train = 1
+
 		### Infantry Tech
 		Small_Arms_1900 = 1
 		Small_Arms_1916 = 1
@@ -159,7 +160,7 @@
 	}
 	create_country_leader = {
 		name = "Bo Gu"
-		desc = "Bo_Gu_desc"
+		desc = PRC_Bo_Gu_desc
 		picture = GFX_P_C_Bo_Gu
 		expire = "1965.1.1"
 		ideology = marxism_leninism

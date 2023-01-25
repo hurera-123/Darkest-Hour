@@ -1,0 +1,118 @@
+#########################################################################
+# Darkest Hour Events : Romania
+#########################################################################
+add_namespace = ROM_politics
+#########################################################################
+#  Change of Prime Minister
+#########################################################################
+country_event = {
+	id = ROM_politics.1
+	title = ROM_politics.1.t
+	desc = ROM_politics.1.d
+	picture = GFX_
+	fire_only_once = yes
+	trigger = {
+		tag = ROM
+		date > 1934.1.4
+		has_start_date < 1934.1.4
+	}
+	# Gheorghe Tatarescu
+	option = {
+		name = ROM_politics.1.A
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Gheorghe Tatarescu"
+			picture = GFX_P_D_Gheorghe_Tatarescu
+			expire = "1964.1.1"
+			ideology = social_conservatism
+			traits = {
+				POSITION_Prime_Minister
+				SUBIDEOLOGY_Social_Conservatism
+				L_Silent_Workhorse
+			}
+		}
+	}
+}
+#########################################################################
+#  Royal Dictatorship
+#########################################################################
+country_event = {
+	id = ROM_politics.2
+	title = ROM_politics.2.t
+	desc = ROM_politics.2.d
+	picture = GFX_
+	fire_only_once = yes
+	trigger = {
+		tag = ROM
+		date > 1938.2.10
+		has_start_date < 1938.2.10
+	}
+	# 
+	option = {
+		name = ROM_politics.2.A
+		retire_country_leader = yes
+		set_politics = {
+			ruling_party = authoritarian
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = authoritarian
+			popularity = 0.5
+		}
+		add_ideas = ROM_D_Armand_Calinescu
+	}
+}
+#########################################################################
+#  Tatarescu Returns
+#########################################################################
+country_event = {
+	id = ROM_politics.3
+	title = ROM_politics.3.t
+	desc = ROM_politics.3.d
+	picture = GFX_
+	fire_only_once = yes
+	trigger = {
+		tag = ROM
+		date > 1939.11.24
+		has_start_date < 1939.11.24
+	}
+	# Gheorghe Tatarescu
+	option = {
+		name = ROM_politics.3.A
+		add_ideas = ROM_D_Gheorghe_Tatarescu
+	}
+}
+#########################################################################
+#  Carol II Abdicates
+#########################################################################
+country_event = {
+	id = ROM_politics.4
+	title = ROM_politics.4.t
+	desc = ROM_politics.4.d
+	picture = GFX_
+	fire_only_once = yes
+	trigger = {
+		tag = ROM
+		date > 1940.9.6
+		has_start_date < 1940.9.6
+	}
+	# Gheorghe Tatarescu
+	option = {
+		name = ROM_politics.4.A
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Ion Antonescu"
+			desc = ""
+			picture = GFX_P_F_Ion_Antonescu
+			expire = "1956.1.1"
+			ideology = military_dictatorship
+			traits = {
+				POSITION_ROM_Conducator
+				SUBIDEOLOGY_Military_Dictatorship
+				L_Resigned_Generalissimo
+			}
+		}
+		add_ideas = ROM_D_Mihai_I
+		set_cosmetic_tag = ROM_Antonescu
+	}
+}

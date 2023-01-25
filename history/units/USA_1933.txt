@@ -166,8 +166,9 @@ division_template = {
 	priority = 0
 }
 division_template = {
-	name = "Marine Brigade" 		# 1st, 2nd Marine Brigades, precursors to 1st, 2nd USMC Divisions
+	name = "Marines" 		# 1st, 2nd Marine Brigades, precursors to 1st, 2nd USMC Divisions
 	division_names_group = USA_MAR_03
+	division_cap = 3	# Historically the USMC was pretty limited in size until the wartime expansion.  There were only two prewar brigades, but a third brigade is within reason.
 
 	regiments = {
 		marine = { x = 0 y = 0 }
@@ -180,7 +181,7 @@ division_template = {
 		recon = { x = 0 y = 1 }
 		artillery_battery = { x = 0 y = 2 }
 	}
-	priority = 0 # I'm aware that marines are considered elite, but throughout it's history the USMC has been the last to receive new equipment.  So this priority level reflects historical accuracy.
+	priority = 0 # I'm aware that marines are considered elite, but throughout its history the USMC has been the last to receive new equipment.  So this priority level reflects historical accuracy.
 }
 division_template = {
 	name = "Armored Regiment (Light)"
@@ -209,7 +210,6 @@ units = {
 		name = "1st Cavalry Division \"The First Team\""		
 		unique={
 			"Walter Cowen Short" # Not the more famous Walter C. Short, middle name Campbell
-			"Frank R. McCoy"
 			"Hamilton S. Hawkins Jr."
 		}
 		location = 10740  # Ft. Bliss, TX
@@ -295,15 +295,14 @@ units = {
 			name_order = 2
 		}
 		unique={
-			"Albert J. Bowley"
-			"Charles Howland"
+			"Halstead Dorey"
+			"Charles R. Howland"
 			"Frank C. Bolles"
-			"Alexander T. Overshine"
+			"Alexander T. Ovenshine"
 		}
 		portraits = {
 			army = {
-				small = GFX_M_Albert_Bowley
-				large = GFX_M_Albert_Bowley
+				large = "GFX_M_Halstead_Dorey"
 			}
 		}
 		location = 12782  # Ft. Sam Houston, TX
@@ -317,14 +316,9 @@ units = {
 			name_order = 3
 		}
 		unique={
-			"Halstead Dorey"
+			"Joseph C. Castner"
 			"Henry W. Butner"
 			"Otho B. Rosenbaum"
-		}
-		portraits = {
-			army = {
-				large = "GFX_M_Halstead_Dorey"
-			}
 		}
 		location = 7386  # Ft. Lewis, WA
 		division_template = "Infantry Division"
@@ -337,13 +331,13 @@ units = {
 			name_order = 24
 		} # Hawaiian Division.  Good triggers should make the split happen fairly decently.
 		unique={
+			"Albert J. Bowley"
 			"James C. Gowen"
-			"Andrew Moses"
 		}
 		portraits = {
 			army = {
-				small = GFX_M_James_Gowen
-				large = GFX_M_James_Gowen
+				small = GFX_M_Albert_Bowley
+				large = GFX_M_Albert_Bowley
 			}
 		}
 		location = 4180 # Schofield Barracks, TH
@@ -358,7 +352,7 @@ units = {
 			name_order = 12
 		}  # Philippine Division did actually have the number 12 reserved, and utilized it when reconstituted.
 		unique={
-			"Casper H. Conrad"
+			"Caspar H. Conrad"
 			"Frank S. Cocheu"
 			"Stanley H. Ford"
 		}
@@ -486,7 +480,7 @@ units = {
 			name_order = 9
 		}
 		unique={
-			"Charles B. Elliott"
+			"Charles B. Elliot"
 		} # 1st CO when the division was actually organized in 1940
 		location = 6732  # Boston, MA
 		division_template = "Infantry Division (Regular Army Inactive)"
@@ -533,7 +527,10 @@ units = {
 	####### Garrison Forces #######
 	### Carribean ###
 	division = {			
-		name = "Puerto Rico Department"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 105
+		}
 		location = 1440 # San Juan, PR
 		division_template = "Garrison Brigade" # 42d Infantry Regiment RAI and 65th Infantry Regiment
 		start_experience_factor = 0.18
@@ -541,17 +538,9 @@ units = {
 		force_equipment_variants = { Small_Arms_equipment_1900 = { owner = "USA" } } #The standard US rifle was the M1903 Springfield.  The few M1917s left over equipped the Chemical Mortar Corps.
 	}			
 	division = {			
-		name = "Panama Canal Department"		
-		unique={
-			"Preston Brown"
-			"Harold B. Fiske"
-			"Lytle Brown"
-		}
-		portraits = {
-			army = {
-				small = GFX_M_Preston_Brown
-				large = GFX_M_Preston_Brown
-			}
+		division_name = {
+			is_name_ordered = yes
+			name_order = 107
 		}
 		location = 7617 # Panama Canal Zone
 		division_template = "Garrison Brigade" # Consisted of 14th and 33d Infantry Regiments plus support units, organized into an Atlantic Sector and Pacific Sector.
@@ -608,7 +597,7 @@ units = {
 			}
 		}
 		location = 4641  # 4641 Port Au Prince, Haiti until August 1934 then September 1935 at Quantico, VA
-		division_template = "Marine Brigade"
+		division_template = "Marines"
 		start_experience_factor = 0.26
 		start_equipment_factor = 0.8
 		force_equipment_variants = { Small_Arms_equipment_1900 = { owner = "USA" } } #The standard US rifle was the M1903 Springfield.  The few M1917s left over equipped the Chemical Mortar Corps.
@@ -947,7 +936,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = DD_equipment_1900
+			type = DD_equipment_1933
 			creator = "USA"
 		}
 		requested_factories = 11
@@ -967,7 +956,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = CA_equipment_1895
+			type = CA_equipment_1933
 			creator = "USA"
 		}
 		requested_factories = 5

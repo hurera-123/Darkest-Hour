@@ -186,7 +186,20 @@ news_event = {
 ###########################
 news_event = {
 	id = GER_Reichskanzler_Hitler.6
-	title = GER_Reichskanzler_Hitler.6.t
+	title = {
+		text = GER_Reichskanzler_Hitler.6.t
+		trigger = {
+			NOT = {
+				original_tag = GER
+			}
+		}
+	}
+	title = {
+		text = GER_Reichskanzler_Hitler.6.t.GER
+		trigger = {
+			original_tag = GER
+		}
+	}
 	desc = {
 		text = GER_Reichskanzler_Hitler.6.d
 		trigger = {
@@ -226,13 +239,11 @@ news_event = {
 			remove_ideas = {
 				GER_Kurt_von_Schleicher_HoG
 				GER_Franz_Bracht_MoS
-				GER_Alfred_Hugenberg_AM
 			}
 		}
 		add_ideas = {
 			GER_Adolf_Hitler_HoG
 			GER_Wilhelm_Frick_MoS
-			GER_Werner_von_Blomberg_AM
 		}
 		# Populate array with factions
 		clear_array = active_factions_array
@@ -447,8 +458,14 @@ news_event = {
 	id = GER_Book_Burnings.1
 	title = GER_Book_Burnings.1.t
 	desc = GER_Book_Burnings.1.d
-	picture = GFX_news_GER_Nazi_Book_Burning
+	picture = GFX_news_GER_Animated_Book_burning
+	#picture = GFX_news_GER_Nazi_Book_Burning
 	fire_only_once = yes
+	immediate = {
+		hidden_effect = {
+			scoped_sound_effect = "GER_Book_Burning_Soundeffect"
+		}
+	}
 	trigger = {
 		date > 1933.5.10
 		has_start_date < 1933.5.10
@@ -744,7 +761,6 @@ news_event = {
 		trigger = {
 			original_tag = GER
 		}
-		add_political_power = 50
 		add_popularity = {
 			ideology = fascist
 			popularity = 0.05
@@ -804,7 +820,6 @@ news_event = {
 		trigger = {
 			original_tag = GER
 		}
-		add_political_power = 50
 		add_stability = 0.05
 		add_popularity = {
 			ideology = fascist
@@ -839,7 +854,7 @@ news_event = {
 	option = {
 		name = GER_Gleichschaltung.6.A
 		add_stability = -0.05
-		add_political_power = 50
+		add_political_power = 25
 	}
 }
 ###########################
@@ -1065,19 +1080,19 @@ country_event = {
 		}
 	}
 	# I won't take instructions from 'The Ridiculous Corporal'!
-	option = {
-		name = GER_SA_Purge.2.B
-		ai_chance = {
-			factor = 0
-		}
-		add_political_power = -50
+	#option = {
+	#	name = GER_SA_Purge.2.B
+	#	ai_chance = {
+	#		factor = 0
+	#	}
+	#	add_political_power = -50
 		# Commented until 0.2
 		#custom_effect_tooltip = GER_SA_Purge.2.B.tt 
-		custom_effect_tooltip = DH_FOR_0.2
-		hidden_effect = {
-			set_country_flag = SA_Coup
-		}
-	}
+	#	custom_effect_tooltip = DH_FOR_0.2
+	#	hidden_effect = {
+	#		set_country_flag = SA_Coup
+	#	}
+	#}
 }
 ###########################
 # Schleicher criticizes the Cabinet
@@ -1533,7 +1548,6 @@ news_event = {
 	# Glory to the Reich!
 	option = {
 		name = GER_Reichsparteitag.1.A
-		add_political_power = 25
 	}
 }
 ###########################
@@ -1555,7 +1569,6 @@ news_event = {
 	# Glory to the Reich!
 	option = {
 		name = GER_Reichsparteitag.2.A
-		add_political_power = 25
 	}
 }
 ###########################
@@ -1577,7 +1590,6 @@ news_event = {
 	# Glory to the Reich!
 	option = {
 		name = GER_Reichsparteitag.3.A
-		add_political_power = 25
 	}
 }
 ###########################
@@ -1624,7 +1636,6 @@ news_event = {
 				is_demilitarized_zone = yes
 			}
 		}
-		add_political_power = 25
 	}
 }
 ###########################
@@ -1741,7 +1752,6 @@ news_event = {
 	# Glory to the Reich!
 	option = {
 		name = GER_Reichsparteitag.8.A
-		add_political_power = 25
 	}
 }
 #########################################################################
@@ -1845,7 +1855,6 @@ news_event = {
 		trigger = {
 			original_tag = GER
 		}
-		add_political_power = 5
 		add_war_support = 0.05
 		ENG = {
 			add_opinion_modifier = {
@@ -2381,7 +2390,7 @@ country_event = {
 			transfer_state = 39
 		}
 		ai_chance = {
-			factor = 15
+			factor = 0
 			modifier = {
 				factor = 0
 				is_in_faction_with = ENG				#Is in the allies
@@ -2402,6 +2411,7 @@ country_event = {
 		ai_chance = {
 			factor = 85
 		}
+		set_global_flag = ITA_Refused_SudTirol_Claim
 	}
 }
 ###########################
@@ -3498,51 +3508,6 @@ news_event = {
 	}
 }
 ###########################
-# The Bierhallenputsch Commemoration
-###########################
-news_event = {
-	id = GER_BeerHallPutsch.1
-	title = GER_BeerHallPutsch.1.t
-	desc = GER_BeerHallPutsch.1.d
-	picture = GFX_news_GER_Beer_Hall_Putsch_Commemoration
-	fire_only_once = yes
-	trigger = {
-		original_tag = GER
-		date > 1933.11.8
-		has_start_date < 1933.11.8
-	}
-	# They shall be remembered
-	option = {
-		name = GER_BeerHallPutsch.1.A
-		add_political_power = 25
-		trigger = {
-			date < 1938.1.1
-			date > 1938.12.1
-		}
-		hidden_effect = {
-			news_event = {
-				id = GER_BeerHallPutsch.1
-				days = 365
-			}
-		}
-	}
-	# They shall be remembered (The Special 1939 version)
-	option = {
-		name = Germany_Politics.8.A
-		add_political_power = 25
-		trigger = {
-			date > 1938.1.1
-			date < 1938.12.1
-		}
-		hidden_effect = {
-			country_event = {
-				id = GER_BeerHallPutsch.2
-				days = 365
-			}
-		}
-	}
-}
-###########################
 # Surprise Attack on Scapa Flow (Major Success)
 ###########################
 country_event = {
@@ -3720,7 +3685,7 @@ country_event = {
 	}
 	#
 	option = {
-		name = GER_Unternehmen_Success.1.A4
+		name = GER_Unternehmen_Success.1.A
 		add_war_support = 0.05
 		add_tech_bonus = {
 			bonus = 0.5
@@ -4176,9 +4141,8 @@ country_event = {
 	option = {
 		name = GER_Heer.1.A
 		set_country_flag = Blitzkrieg_Theory
-		add_tech_bonus = {
-			name = land_doc_bonus
-			bonus = 0.5
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.25
 			uses = 1
 			category = land_doctrine
 		}
@@ -4531,6 +4495,26 @@ news_event = {
 	}
 }
 ###########################
+# The Bierhallenputsch Commemoration
+###########################
+news_event = {
+	id = GER_BeerHallPutsch.1
+	title = GER_BeerHallPutsch.1.t
+	desc = GER_BeerHallPutsch.1.d
+	picture = GFX_news_GER_Beer_Hall_Putsch_Commemoration
+	fire_only_once = yes
+	trigger = {
+		original_tag = GER
+		date > 1933.11.8
+		has_start_date < 1933.11.8
+	}
+	# They shall be remembered
+	option = {
+		name = GER_BeerHallPutsch.1.A
+		add_political_power = 25
+	}
+}
+###########################
 # The Anniversary of The Beer Hall Putsch
 ###########################
 country_event = {
@@ -4547,14 +4531,52 @@ country_event = {
 	#Short speech
 	option = {
 		name = GER_BeerHallPutsch.2.A
-		ai_chance = {
-			factor = 90
-		}
 		hidden_effect = {
 			country_event = {
-				id = Germany_V.50
+				id = GER_BeerHallPutsch.4
 			}
 		}
+	}
+	# Long speech (Alt-hist: Hitler dies)
+	#option = {
+	#	name = GER_BeerHallPutsch.2.B
+	#	hidden_effect = {
+	#		country_event = {
+	#			id = GER_BeerHallPutsch.3
+	#		}
+	#	}
+	#}
+}
+###########################
+# The Führer has been Assassinated
+###########################
+country_event = {
+	id = GER_BeerHallPutsch.3
+	title = GER_BeerHallPutsch.3.t
+	desc = GER_BeerHallPutsch.3.d
+	picture = GFX_report_GER_Beer_Hall_Putsch_Commemoration
+	fire_only_once = yes
+	is_triggered_only = yes
+	#Short speech
+	option = {
+		name = GER_BeerHallPutsch.3.A
+
+	}
+}
+###########################
+# Assassination Attempt on Hitler
+###########################
+country_event = {
+	id = GER_BeerHallPutsch.4
+	title = GER_BeerHallPutsch.4.t
+	desc = GER_BeerHallPutsch.4.d
+	picture = GFX_report_GER_Beer_Hall_Putsch_Commemoration
+	fire_only_once = yes
+	is_triggered_only = yes
+	#Short speech
+	option = {
+		name = GER_BeerHallPutsch.4.A
+
 	}
 }
 ###########################
@@ -4571,7 +4593,6 @@ country_event = {
 	option = {
 		name = Germany_V.50.A
 		add_stability = -0.025
-		add_political_power = 20
 	}
 }
 ###########################
@@ -4611,10 +4632,16 @@ news_event = {
 	picture = GFX_news_GER_Hitler_in_Paris
 	fire_only_once = yes
 	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			sound_effect = "GER_Hitler_Visits_Paris_Soundeffect"
+		}
+	}
 	#What a speech
 	option = {
 		name = Germany_V.52.A
 	}
+	
 }
 ###########################
 # Rudolf Hess Liberated
@@ -5323,6 +5350,7 @@ news_event = {
 			original_tag = GER
 		}
 		drop_cosmetic_tag = yes
+		custom_effect_tooltip = GER_Nuremburg.2.A_tt
 	}
 	# Let us see eye-to-eye with the Germans
 	option = {
@@ -5555,7 +5583,7 @@ news_event = {
 	title = GER_Kuomintang.2.t
 	desc = GER_Kuomintang.2.d
 	picture = GFX_news_JAP_Operation_Nekka
-	fire_only_once = yes
+	fire_only_once = no
 	is_triggered_only = yes
 	###
 	option = {
@@ -5592,8 +5620,8 @@ news_event = {
 			amount = 20
 			producer = GER
 		}
-		add_tech_bonus = {
-			bonus = 0.5
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.25
 			uses = 1
 			category = land_doctrine
 		}
@@ -6026,7 +6054,7 @@ news_event = {
 	is_triggered_only = yes
 	# Very concerning !
 	option = {
-		name = Berlin_Pact.4.A
+		name = GER_Berlin_Pact.4.A
 		trigger = {
 			NOT = {
 				is_in_faction_with = GER
@@ -6038,7 +6066,7 @@ news_event = {
 	}
 	# The beggining of a great adventure !
 	option = {
-		name = Berlin_Pact.4.B
+		name = GER_Berlin_Pact.4.B
 		trigger = {
 			OR = {
 				is_in_faction_with = GER
@@ -10675,22 +10703,36 @@ country_event = {
 	option = {
 		name = GER_Danube.30.A
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Peter II"
-			desc = ""
-			picture = GFX_P_A_Peter_II
-			ideology = social_conservatism
-			traits = {
-				POSITION_King
-				SUBIDEOLOGY_Social_Conservatism
+		add_country_leader_role = {
+			character = YUG_Dusan_Simovic
+			promote_leader = yes
+			country_leader = {
+				ideology = monarchism
+				expire = "1964.1.1"
+				traits = {
+					POSITION_Prime_Minister
+					SUBIDEOLOGY_Monarchism
+					L_Old_General
+				}
 			}
 		}
+		add_ideas = YUG_Petar_II_HoG
 		leave_faction = yes
+		every_country = {
+			limit = {
+				has_war_with = YUG
+			}
+			white_peace = YUG
+		}
 		clr_country_flag = GER_Tripartite_Pact
 		set_temp_variable = {
 			GER_Influence_to_add = -100
 		}
 		add_influence = yes
+		add_opinion_modifier = {
+			target = GER
+			modifier = huge_decrease
+		}
 		news_event = { id = GER_Danube.31 hours = 6 }
 	}
 }
@@ -10712,11 +10754,6 @@ news_event = {
 		}
 		unlock_decision_tooltip = GER_Fuhrer_25
 		set_country_flag = flag_fuhrer_25
-		add_ai_strategy = {
-			type = prepare_for_war
-			id = YUG
-			value = 500
-		}
 	}
 	# A Dangerous Move !
 	option = {
@@ -12074,23 +12111,6 @@ country_event = {
 				id = GER_Munich_Conference_News.7
 				hours = 6
 			}
-			if = {
-				limit = {
-					has_dlc = "Death or Dishonor"
-					country_exists = YUG
-					ENG = {
-						NOT = {
-							has_war_with = YUG
-						}
-					}
-				}
-				ENG = {
-					country_event = {
-						id = DOD_yugoslavia.42
-						days = 3
-					}
-				}
-			}
 		}
 	}
 }
@@ -12591,22 +12611,13 @@ country_event = {
 			}
 			add_war_support = 0.1
 		}
-		if = {
-			limit = {
-				has_dlc = "Together for Victory"
-			}
-			set_autonomy = {
-				target = SLO
-				autonomous_state = AUTONOMY_Satellite
-			}
-			set_autonomy = {
-				target = BOH
-				autonomous_state = AUTONOMY_Reichsprotectorate
-			}
+		set_autonomy = {
+			target = SLO
+			autonomous_state = AUTONOMY_Satellite
 		}
-		else = {
-			puppet = SLO
-			puppet = BOH
+		set_autonomy = {
+			target = BOH
+			autonomous_state = AUTONOMY_Reichsprotectorate
 		}
 		custom_effect_tooltip = end_of_czechoslovakia_mefo_bills_tt
 		add_to_variable = {
@@ -12940,9 +12951,6 @@ country_event = {
 				factor = 10
 				is_in_faction_with = HUN
 			}
-		}
-		HUN = {
-			country_event = DOD_hungary.101
 		}
 	}
 }
@@ -13294,6 +13302,7 @@ country_event = {
 				load_oob = GER_BOH
 			}
 			SLO = {
+				inherit_technology = CZE
 				load_oob = SLO_independence
 			}
 			CPU = {
@@ -14281,6 +14290,11 @@ news_event = {
 	major = yes
 	is_triggered_only = yes
 	fire_for_sender = no
+	immediate = {
+		hidden_effect = {
+			sound_effect = "GER_Invasion_of_Poland_Soundeffect"
+		}
+	}
 	#They have ignored every warning!
 	option = {
 		name = GER_Danzig_or_War.5.A
@@ -14331,6 +14345,14 @@ country_event = {
 	desc = GER_Hess_Flight.1.d
 	picture = GFX_news_POL_Polish_Forces_Border
 	is_triggered_only = yes
+	trigger = {
+		GER = {
+			has_war_with = ENG
+		}
+		ENG = {
+			surrender_progress < 0.01
+		}
+	}
 	option = {
 		name = GER_Hess_Flight.1.A
 		GER = { 

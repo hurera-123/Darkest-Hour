@@ -16,6 +16,8 @@ add_namespace = ITA_Flavour_Events
 add_namespace = ITA_Libyan_Concessions
 add_namespace = ITA_Conquest_Events
 add_namespace = ITA_Fall_of_Fascism
+add_namespace = ITA_Invasion_of_Greece
+add_namespace = ITA_Fall_of_Cairo
 ###########################
 # Allies in Rome
 ###########################
@@ -518,6 +520,11 @@ news_event = { #Invades ETH
 	picture = GFX_news_ITA_Animated_Ethiopian_War
 	is_triggered_only = yes
 	major = yes
+	immediate = {
+		hidden_effect = {
+			sound_effect = "ITA_Invasion_of_Ethiopia_Soundeffect"
+		}
+	}
 	option = {
 		name = ITA_Ethiopian_War.22.A
 		trigger = {
@@ -549,9 +556,6 @@ news_event = { #march of the iron will - normal
 	is_triggered_only = yes
 	option = {
 		name = ITA_Ethiopian_War.23.A
-		ai_chance = {
-			factor = 25
-		}
 		clr_country_flag = ITA_ETH_first_decisions
 	}
 }
@@ -564,9 +568,6 @@ news_event = { #march of the iron will - 180 days
 	is_triggered_only = yes
 	option = {
 		name = ITA_Ethiopian_War.24.A
-		ai_chance = {
-			factor = 25
-		}
 		add_war_support = 0.05
 		add_stability = 0.05
 		clr_country_flag = ITA_ETH_first_decisions
@@ -581,9 +582,6 @@ news_event = { #LoN lambasts italian actions
  	fire_only_once = yes
 	option = {
 		name = ITA_Ethiopian_War.25.A
-		ai_chance = {
-			factor = 25
-		}
 		FRA = {
 			country_event = {
     			id = ITA_Ethiopian_War.26
@@ -653,18 +651,6 @@ country_event = { #ITA gaul stabs us in the back
 		add_opinion_modifier = {
     		target = FRA
     		modifier = ITA_heavy_Embargo_opinion
-		}
-		if = {
-			limit = {
-				has_idea = ITA_heavy_Embargo_cost_uk
-			}
-			swap_ideas = {
-				remove_idea = ITA_heavy_Embargo_cost_uk
-				add_idea = ITA_most_heavy_Embargo_cost
-			}
-			else = {
-				add_ideas = ITA_heavy_Embargo_cost_fra
-			}
 		}
 	}
 }
@@ -766,18 +752,6 @@ country_event = { #uk blame both - ita
     		target = ENG
     		modifier = ITA_heavy_Embargo_opinion
 		}
-		if = {
-			limit = {
-				has_idea = ITA_heavy_Embargo_cost_fra
-			}
-			swap_ideas = {
-				remove_idea = ITA_heavy_Embargo_cost_fra
-				add_idea = ITA_most_heavy_Embargo_cost
-			}
-			else = {
-				add_ideas = ITA_heavy_Embargo_cost_uk
-			}
-		}
 	}
 }
 country_event = { #uk blame both - ETH
@@ -802,7 +776,6 @@ country_event = { #uk blame both - ETH
     		target = ENG
     		modifier = ITA_heavy_Embargo_opinion
 		}
-		add_ideas = ITA_heavy_Embargo_cost_uk		
 	}
 }
 country_event = { #uk blame ITA the fascist demon
@@ -826,68 +799,6 @@ country_event = { #uk blame ITA the fascist demon
 		add_opinion_modifier = {
     		target = ENG
     		modifier = ITA_heavy_Embargo_opinion
-		}
-		if = {
-			limit = {
-				has_idea = ITA_heavy_Embargo_cost_fra
-			}
-			swap_ideas = {
-				remove_idea = ITA_heavy_Embargo_cost_fra
-				add_idea = ITA_most_heavy_Embargo_cost
-			}
-			else = {
-				add_ideas = ITA_heavy_Embargo_cost_uk
-			}
-		}
-	}
-}
-country_event = { #american event
-	id = Italy.37
-	title = Italy.37.t
-	desc = Italy.37.d
- 	fire_only_once = yes
-	picture = GFX_report_ITA_Wal_Wal_Incident
-	trigger = {
-		has_idea = ITA_heavy_Embargo_cost_uk
-		has_idea = ITA_heavy_Embargo_cost_fra
-	}
-	option = {
-		name = Italy.37.A #yes
-		ai_chance = {
-			factor = 80
-		}
-		swap_ideas = {
-   			remove_idea = ITA_most_heavy_Embargo_cost
-    		add_idea = american_treaty_ITA_ETH_ITA
-		}
-		add_opinion_modifier = {
-    		target = USA
-   		 	modifier = ITA_usa_anti_embargo_trade
-		}
-		add_opinion_modifier = {
-    		target = USA
-   		 	modifier = ITA_usa_anti_embargo_opinion
-		}
-		USA = {
-			add_ideas = american_treaty_ITA_ETH_USA
-			add_opinion_modifier = {
-    			target = ITA
-   		 		modifier = ITA_usa_anti_embargo_trade
-			}
-			add_opinion_modifier = {
-    			target = ITA
-   		 		modifier = ITA_usa_anti_embargo_opinion
-			}
-		}
-	}
-	option = {
-		name = Italy.37.B #nope
-		ai_chance = {
-			factor = 20
-		}
-		add_opinion_modifier = {
-    		target = USA
-   		 	modifier = ITA_usa_said_rip_treaty_opinion
 		}
 	}
 }
@@ -1127,30 +1038,7 @@ country_event = { #Capitulation of Ethiopia
 		unlock_decision_category_tooltip = ITA_Pacify_Abyssinia_category
 		delete_unit_template_and_units = {
 			division_template = "Divisione Fanteria Coloniale"
-			disband = yes #will refund equipment and manpower
-		}
-		set_variable = {
-			var = ITA_Ethiopian_Unrest_partisan
-			value = 0.5
-		}
-		set_variable = {
-			var = ITA_Ethiopian_Unrest_damage
-			value = 0.5
-		}
-		clamp_variable = {
-			var = ITA_Ethiopian_Unrest_partisan
-			min = 0
-			max = 1
-		}
-		clamp_variable = {
-			var = ITA_Ethiopian_Unrest_damage
-			min = 0
-			max = 1
-		}
-		hidden_effect = {
-			add_dynamic_modifier = {
-				modifier = ITA_Ethiopian_Unrest
-			}
+			disband = no #will refund equipment and manpower
 		}
 	}
 }
@@ -1295,8 +1183,68 @@ country_event = { #Establishment of Africa Orientale Italiana
 	is_triggered_only = yes
 	option = { #
 		name = ITA_Colonial.5.A
-		set_country_flag = ITA_Giuseppe_Bottai_Appointed_Vicere
-		add_ideas = ITA_M_Giuseppe_Bottai
+		hidden_effect = {
+			AOI = {
+				transfer_state = 1049
+				transfer_state = 550
+				transfer_state = 1435
+				transfer_state = 1050
+				transfer_state = 1432
+				transfer_state = 875
+				transfer_state = 1434
+				transfer_state = 879
+				transfer_state = 1433
+				transfer_state = 876
+				transfer_state = 878
+				transfer_state = 271
+				transfer_state = 877
+				transfer_state = 1063
+				transfer_state = 1431
+				transfer_state = 880
+				transfer_state = 1042
+				transfer_state = 1043
+				transfer_state = 559
+				transfer_state = 1044
+				transfer_state = 1045
+				transfer_state = 1046
+				load_oob = ITA_Colonial_Troops_Ethiopia
+				inherit_technology = ITA
+			}
+		}
+		set_autonomy = {
+			target = AOI
+			autonomy_state = AUTONOMY_Colony
+		}
+		hidden_effect = {
+			AOI = {
+				inherit_technology = ITA
+				country_event = { id = AOI_Leadership_Changes.1 days = 32 }
+				add_autonomy_score = {
+					value = 100
+				}
+				set_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					value = 0.5
+				}
+				set_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					value = 0.5
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_partisan
+					min = 0
+					max = 1
+				}
+				clamp_variable = {
+					var = ITA_Ethiopian_Unrest_damage
+					min = 0
+					max = 1
+				}
+				add_dynamic_modifier = {
+					modifier = ITA_Ethiopian_Unrest
+				}
+			}
+		}
 	}
 }
 country_event = { #Victor Emannuel crowned Emperor of Ethiopia
@@ -1371,7 +1319,7 @@ country_event = { # Agreement on Synthetic Oil Patents with IG Farben Signed (IT
 		trigger = {
 			original_tag = GER
 		}
-		set_temp_variable = { money_to_gain = -1000 }
+		set_temp_variable = { money_to_gain = 1000 }
 		add_money_with_inflation_included_with_tooltip_effect = yes
 		add_opinion_modifier = {
 			target = GER
@@ -1390,7 +1338,7 @@ country_event = { # Agreement on Synthetic Oil Patents with IG Farben Signed (IT
 		trigger = {
 			original_tag = ITA
 		}
-		set_temp_variable = { money_to_gain = 1000 }
+		set_temp_variable = { money_to_gain = -1000 }
 		add_money_with_inflation_included_with_tooltip_effect = yes
 		add_opinion_modifier = {
 			target = ITA
@@ -1602,6 +1550,14 @@ country_event = { # New Cities in Agro Pontino
 	is_triggered_only = yes
 	option = { # 
 		name = ITA_Economic_Tree.4.A
+		2 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
 	}
 }
 country_event = { # The ONC put at the Head of Draining Projects
@@ -1659,7 +1615,7 @@ country_event = { # Italy Demands Territory (YUG)
 			transfer_state = 103
 			transfer_state = 1085
 			transfer_state = 1091
-			country_event = { id = ITA_Political_Tree.6 }
+			country_event = { id = ITA_Political_Tree.6 days = 1 }
 		}
 	}
 	option = { # Refuse
@@ -1672,7 +1628,7 @@ country_event = { # Italy Demands Territory (YUG)
 			}
 		}
 		ITA = {
-			country_event = { id = ITA_Political_Tree.7 }
+			country_event = { id = ITA_Political_Tree.7 days = 1 }
 		}
 	}
 }
@@ -1695,7 +1651,7 @@ country_event = { # Issue Ultimatum to Bulgaria
 		}
 		ITA = {
 			puppet = BUL
-			country_event = { id = ITA_Political_Tree.6 }
+			country_event = { id = ITA_Political_Tree.6 days = 1 }
 		}
 	}
 	option = { # We'd like to see them try!
@@ -1708,7 +1664,7 @@ country_event = { # Issue Ultimatum to Bulgaria
 			}
 		}
 		ITA = {
-			country_event = { id = ITA_Political_Tree.7 }
+			country_event = { id = ITA_Political_Tree.7 days = 1 }
 		}
 	}
 }
@@ -1737,7 +1693,7 @@ country_event = { # Italians ask for surrender of our isles!
 			transfer_state = 1117
 			transfer_state = 1118
 			transfer_state = 1119
-			country_event = { id = ITA_Political_Tree.6 }
+			country_event = { id = ITA_Political_Tree.6 days = 1 }
 		}
 	}
 	option = { # Never again shall be oppressed by a foreign power!
@@ -1750,7 +1706,7 @@ country_event = { # Italians ask for surrender of our isles!
 			}
 		}
 		ITA = {
-			country_event = { id = ITA_Political_Tree.7 }
+			country_event = { id = ITA_Political_Tree.7 days = 1 }
 		}
 	}
 }
@@ -1780,9 +1736,9 @@ country_event = {
 	# 
 	option = {
 		name = ITA_Political_Tree.7.A
-		declare_war_on = {
+		create_wargoal = {
+			type = annex_everything
 			target = FROM
-			type = puppet_wargoal_focus
 		}
 	}
 }
@@ -1972,12 +1928,7 @@ country_event = {
 		}
 		ITA = {
 			country_event = { id = ITA_Political_Tree.13 }
-			annex_country = {
-				target = ALB
-				transfer_troops = yes
-			}
 		}
-		set_global_flag = ITA_Annexed_Albania
 	}
 	# Refuse
 	option = {
@@ -2002,6 +1953,11 @@ country_event = {
 	# 
 	option = {
 		name = ITA_Political_Tree.13.A
+		annex_country = {
+			target = ALB
+			transfer_troops = yes
+		}
+		set_country_flag = ITA_Annexed_Albania
 	}
 }
 ###########################
@@ -2027,7 +1983,7 @@ country_event = {
 	}
 	# Declare War
 	option = {
-		name = ITA_Political_Tree.14.A
+		name = ITA_Political_Tree.14.B
 		ai_chance = {
 			base = 100
 		}
@@ -2087,6 +2043,7 @@ news_event = {
 			target = ALB
 			transfer_troops = no
 		}
+		set_country_flag = ITA_Annexed_Albania
 	}
 	option = {
 		name = ITA_Political_Tree.143.B
@@ -3256,6 +3213,7 @@ country_event = {
 	title = ITA_Pact_with_Albion.5.t
 	desc = ITA_Pact_with_Albion.5.d
 	picture = GFX_report_ITA_English_Royal_Navy_Agrees
+	fire_only_once = yes
 	is_triggered_only = yes
 	# Our old boys shall show a thing or two to those Sun dwellers
 	option = {
@@ -4146,8 +4104,8 @@ country_event = {
 			factor = 50
 		}
 		army_experience = 10
-		add_tech_bonus = {
-			bonus = 1
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.5
 			uses = 1
 			category = land_doctrine
 		}
@@ -4185,8 +4143,8 @@ country_event = {
 	option = {
 		name = ITA_Cooperation_with_Gaul.3.A
 		army_experience = 10
-		add_tech_bonus = {
-			bonus = 1
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.5
 			uses = 1
 			category = land_doctrine
 		}
@@ -4935,6 +4893,13 @@ news_event = { # Cassibile Armistice
 					can_not_declare_war = no
 				}
 			}
+			every_state = {
+				limit = {
+					is_core_of = FRA
+					is_controlled_by = ITA
+				}
+				transfer_state_to = GER
+			}
 			# Peace with the Allies
 			ENG = {
 				white_peace = ITA
@@ -5068,13 +5033,6 @@ country_event = { # Civil War
 		every_state = {
 			limit = {
 				is_core_of = YUG
-				is_controlled_by = ITA
-			}
-			transfer_state_to = GER
-		}
-		every_state = {
-			limit = {
-				is_core_of = FRA
 				is_controlled_by = ITA
 			}
 			transfer_state_to = GER
@@ -5600,5 +5558,197 @@ country_event = {
 	option = {
 		name = italy.16.A
 		transfer_state = 735
+	}
+}
+
+# Anglophiles in Athens
+country_event = {
+	id = ITA_Invasion_of_Greece.1
+	title = ITA_Invasion_of_Greece.1.t
+	desc = ITA_Invasion_of_Greece.1.d
+	picture = GFX_report_ITA_British_Reaction
+	is_triggered_only = yes
+	
+	option = { # We cannot risk conflict.
+		name = ITA_Invasion_of_Greece.1.A
+		ai_chance = { factor = 0 }
+		
+	}
+	
+	option = { # Send the Ultimatum.
+		name = ITA_Invasion_of_Greece.1.B
+		ai_chance = { factor = 100 }
+		
+		custom_effect_tooltip = ITA_Invasion_of_Greece.1.B.tt
+		hidden_effect = {
+			GRE = {
+				country_event = {
+					id = ITA_Invasion_of_Greece.2
+					days = 4
+				}
+			}
+		}
+	}
+}
+
+# An Ultimatum from Italy
+country_event = {
+	id = ITA_Invasion_of_Greece.2
+	title = ITA_Invasion_of_Greece.2.t
+	desc = ITA_Invasion_of_Greece.2.d
+	picture = GFX_report_ITA_Benito_Mussolini
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA_Invasion_of_Greece.2.A
+		
+		ITA = {
+			country_event = {
+				id = ITA_Invasion_of_Greece.3
+				days = 4
+			}
+		}
+	}
+}
+
+#Metaxas Stands Defiant!
+country_event = {
+	id = ITA_Invasion_of_Greece.3
+	title = ITA_Invasion_of_Greece.3.t
+	desc = ITA_Invasion_of_Greece.3.d
+	picture = GFX_report_ITA_Mussolini_with_Generals
+	is_triggered_only = yes
+	
+	option = {
+		name = ITA_Invasion_of_Greece.3.A
+		
+		declare_war_on = {
+			target = GRE
+			type = annex_everything
+		}
+		if = {
+			limit = {
+				ENG = {
+					has_war_with = ITA
+				}
+			}
+			ENG = {
+				add_to_faction = GRE
+			}
+		}
+		hidden_effect = {
+			set_global_flag = ITA_Historical_Invasion_of_Greece
+		}
+	}
+}
+
+#Carve up Greece
+country_event = {
+	id = ITA_Invasion_of_Greece.4
+	title = ITA_Invasion_of_Greece.4.t
+	desc = ITA_Invasion_of_Greece.4.d
+	picture = GFX_report_ITA_Proposal
+	
+	trigger = {
+		tag = ITA
+		has_global_flag = ITA_Historical_Invasion_of_Greece
+		is_in_faction_with = GER
+		GRE = {
+			has_capitulated = yes
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = { #No.
+		name = ITA_Invasion_of_Greece.4.A
+		ai_chance = { factor = 0 }
+	}
+	
+	option = { #Divide the Greek Lands with our Allies
+		name = ITA_Invasion_of_Greece.4.B
+		
+		hidden_effect = {
+			ITA = {
+				set_state_controller = 1113
+				set_state_controller = 185
+				set_state_controller = 1112
+				set_state_controller = 1111
+				set_state_controller = 1114
+				set_state_controller = 1115
+				set_state_controller = 47
+				set_state_controller = 186
+				set_state_controller = 1117
+				set_state_controller = 1118
+				set_state_controller = 1119
+			}
+			GER = {
+				set_state_controller = 731
+				set_state_controller = 900
+				set_state_controller = 1109
+				set_state_controller = 187			
+			}
+			if = {
+				limit = {
+					BUL = {
+						is_in_faction_with = ITA
+					}
+				}
+				BUL = {
+					set_state_controller = 184
+					set_state_controller = 1110
+				}
+			}
+			else = {
+				GER = {
+					set_state_controller = 184
+					set_state_controller = 1110
+				}
+			}
+		}
+	}
+}
+
+# Fall of Cairo
+country_event = {
+	id = ITA_Fall_of_Cairo.1
+	title = ITA_Fall_of_Cairo.1.t
+	desc = ITA_Fall_of_Cairo.1.d
+	picture = GFX_report_ITA_Benito_Mussolini
+	
+	trigger = {
+		tag = ITA
+		has_government = fascist
+		has_war_with = EGY
+		has_war_with = ENG
+		controls_state = 446
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = ITA_Fall_of_Cairo.1.A
+		
+		every_country = {
+			limit = {
+				has_war_with = EGY
+			}
+			white_peace = EGY
+		}
+		puppet = EGY
+		EGY = {
+			set_politics = {
+				ruling_party = authoritarian
+				elections_allowed = no
+			}
+			set_popularities = {
+				democratic = 0
+				authoritarian = 70
+				fascist = 30
+				communist = 0
+				socialist = 0
+			}
+			set_cosmetic_tag = EGY_ITA_PUPPET
+		}
 	}
 }

@@ -80,8 +80,8 @@ units = {
 		}
 		portraits = {
             army = {
-                small= "GFX_M_Fedor_von_Bock"
-				large= "GFX_M_Fedor_von_Bock"
+                small= "GFX_M_Fedor_Von_Bock"
+				large= "GFX_M_Fedor_Von_Bock"
             }
         }
 		location = 6282 # Stettin

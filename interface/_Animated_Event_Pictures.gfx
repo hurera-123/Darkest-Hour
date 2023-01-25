@@ -101,4 +101,16 @@ spriteTypes = {
 		play_on_show = yes
 		pause_on_loop = 0.0
 	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_news_GER_Animated_Book_burning"
+		texturefile = "gfx/event_animated_pics/news_GER_Animated_Book_burning.png"
+		noOfFrames = 40
+		loadType = "INGAME"
+		allwaystransparent = no
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
 }

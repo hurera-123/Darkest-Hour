@@ -23,19 +23,18 @@ Build_Only_Civs_Custom = {
 					original_tag = ENG
 					original_tag = FRA
 					original_tag = POL
-					original_tag = JAP
 				}
 			}
 			AND = {
-				date < 1938.1.1
-				original_tag = USA
+				date < 1935.1.1
+				original_tag = JAP
 			}
 			AND = {
 				date < 1935.1.1
 				original_tag = CHI
 			}
 			AND = {
-				date < 1937.6.1
+				date < 1938.6.1
 				original_tag = ITA
 			}
 			AND = {
@@ -54,19 +53,18 @@ Build_Only_Civs_Custom = {
 					original_tag = ENG
 					original_tag = FRA
 					original_tag = POL
-					original_tag = JAP
 				}
 			}
 			AND = {
-				date > 1938.1.1
-				original_tag = USA
+				date > 1935.1.1
+				original_tag = JAP
 			}
 			AND = {
 				date > 1935.1.1
 				original_tag = CHI
 			}
 			AND = {
-				date > 1937.6.1
+				date > 1938.6.1
 				original_tag = ITA
 			}
 			AND = {
@@ -148,10 +146,6 @@ Build_Only_Mils_Custom = {
 	enable = {
 		OR = {
 			AND = {
-				date > 1938.1.1
-				original_tag = USA
-			}
-			AND = {
 				date > 1935.1.1
 				original_tag = CHI
 			}
@@ -160,7 +154,7 @@ Build_Only_Mils_Custom = {
 				original_tag = POL
 			}
 			AND = {
-				date > 1937.6.1
+				date > 1938.6.1
 				original_tag = ITA
 			}
 			AND = {
@@ -168,17 +162,29 @@ Build_Only_Mils_Custom = {
 				original_tag = GER
 			}
 			AND = {
-				date > 1936.1.1
+				date > 1935.1.1
 				original_tag = JAP
 			}
 		}
 	}
 	abort = {
 		OR = {
-			date > 1942.1.1
+			date > 1940.1.1
 			AND = {
-				date > 1939.1.1
+				date > 1936.1.1
 				original_tag = JAP
+			}
+			AND = {
+				date > 1938.6.1
+				original_tag = GER
+			}
+			AND = {
+				date > 1938.1.1
+				original_tag = POL
+			}
+			AND = {
+				date > 1936.1.1
+				original_tag = CHI
 			}
 		}
 	}
@@ -196,16 +202,6 @@ Build_Less_of_These = {
 		type = building_target
 		id = infrastructure
 		value = -100
-	}
-	ai_strategy = {
-		type = building_target
-		id = rail_way
-		value = -50
-	}
-	ai_strategy = {
-		type = building_target
-		id = supply_node
-		value = -50
 	}
 }
 Ally_Germany_if_Tripartite = {

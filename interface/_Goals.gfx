@@ -1065,6 +1065,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_FRA_Abandon_the_Delusion"
+        texturefile = "gfx/interface/goals/FRA_Abandon_the_Delusion.png"
+    }
+
+    spriteType = {
         name = "GFX_FRA_Adopt_Fequants_Ideas"
         texturefile = "gfx/interface/goals/FRA_Adopt_Fequants_Ideas.png"
     }
@@ -3577,6 +3582,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_ITA_Integrate_Albania"
         texturefile = "gfx/interface/goals/ITA_Integrate_Albania.png"
+    }
+	
+	spriteType = {
+        name = "GFX_ITA_Italianizzazione"
+        texturefile = "gfx/interface/goals/ITA_Italianizzazione.png"
     }
 
     spriteType = {

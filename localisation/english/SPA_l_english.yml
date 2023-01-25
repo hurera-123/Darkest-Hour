@@ -2,7 +2,7 @@
 ######################################################################
 #  Nationalist Spain Leaders
 ######################################################################
- Francisco_Franco_Bahamonde_desc: "The El Caudillo himself, Francisco Franco is a man who wants nothing more than the restoration of the Spanish prestige and glory, which is now lost as a relic of time. \n\nFrancisco Franco's quest for power starts from the very day of his birth, as his Father's family had created a dynasty of Naval Admirals for Spain, producing generations of naval officers, all of which are both loyal to the Crown, yet skilled as grand strategists of naval warfare. Unfortunately for Franco, he wasn't accepted into the Navy, so he had to turn to the alternative - the Army.\n\nFranco was especially successful in the Army, establishing a loyal following of conservative and reactionary officers, willing to follow him and lead Spain back to its true nature. As democracy and republicanism sweeps España, the more followers he gains, especially since the military machinery was filled with reactionary officers.\n\nNow, as El Caudillo, he shall guide Spain through a new era, one where Spain shall no longer bow down to the winds of Liberalism, and instead give way to the fires of Reactionarism and Authoritarianism, whatever it takes..."
+ Francisco_Franco_Bahamonde_desc: "The Caudillo himself, Francisco Franco is a man who wants nothing more than the restoration of the Spanish prestige and glory, which is now lost as a relic of time. \n\nFrancisco Franco's quest for power starts from the very day of his birth, as his Father's family had created a dynasty of Naval Admirals for Spain, producing generations of naval officers, all of which are both loyal to the Crown, yet skilled as grand strategists of naval warfare. Unfortunately for Franco, he wasn't accepted into the Navy, so he had to turn to the alternative - the Army.\n\nFranco was especially successful in the Army, establishing a loyal following of conservative and reactionary officers, willing to follow him and lead Spain back to its true nature. As democracy and republicanism sweeps España, the more followers he gains, especially since the military machinery was filled with reactionary officers.\n\nNow, as El Caudillo, he shall guide Spain through a new era, one where Spain shall no longer bow down to the winds of Liberalism, and instead give way to the fires of Reactionarism and Authoritarianism, whatever it takes..."
 
 ######################################################################
 #  Nationalist Spain Events
@@ -47,13 +47,13 @@
  ############################################
  # Spanish Post War Events
  ############################################
- SPA_Post_War.1.t:0 "End of the Spanish Civil War"
- SPA_Post_War.1.d:0 ""
- SPA_Post_War.1.a:0 "Viva España!"
+ SPA_Post_War.1.t: "End of the Spanish Civil War"
+ SPA_Post_War.1.d: ""
+ SPA_Post_War.1.a: "Viva España!"
  
- SPA_Post_War.2.t:0 "Occupation of Tangiers"
- SPA_Post_War.2.d:0 ""
- SPA_Post_War.2.a:0 "Proceed."
+ SPA_Post_War.2.t: "Occupation of Tangiers"
+ SPA_Post_War.2.d: ""
+ SPA_Post_War.2.a: "Proceed."
  
 ###  Nationalist Civil War Decision Events
 
@@ -126,7 +126,7 @@
  SPA_Ejercito_de_Africa: "Ejército de Africa"
  SPA_Ejercito_de_Africa_desc: "While a sizable portion of our countrymen have supported our cause, the vast majority supported the revolutionaries, especially with their coercive rhetoric that has swayed them to their side. As such, we are often outnumbered by our adversaries, and rebellion ensues in the areas we currently occupy. However, there is a silver lining, our colonies in Africa. The moroccan garrison has pledged their support to our regime, seizing control over colonial territories that belong to the communists. If we were to utilize them, this will be a strategic advantage for us, since we have access to colonial troops."
  SPA_Engage_in_Concentrated_Offensives: "Engage in Concentrated Offensives"
- SPA_Engage_in_Concentrated_Offensives_desc:
+ SPA_Engage_in_Concentrated_Offensives_desc: ""
  SPA_A_Strong_and_Reliable_Leader: "A Strong and Reliable Leader!"
  SPA_A_Strong_and_Reliable_Leader_desc: "As our vision for a New Spain reaches closer to reality, our leadership has remained indecisive, roadblocks to our progress against the revolutionaries and their republican counterparts. Not only that, the Carlists within our leadership have begun to oppose our reign, signalling plots of a potential removal from power. These traitors have nothing, compared to our leader, Francisco Franco.\n\nFranco has led us far and wide, surely more than our predecessors have. His vision for Spain is the embodiment, the Spanish dream of every single soul. When there's war, he brings peace. When there's chaos, he provides security and stability. When there are revolutionaries willing to destroy this peninsula, he brings in guardians to protect the status-quo.\n\nViva la El Caudillo! Viva la España!"
  SPA_Carlist_Leadership: "Carlist Leadership"
@@ -150,6 +150,7 @@
  ### Nationalist Civil War
  SPR_civil_war: "Spanish Civil War"
  SPA_la_guerra_civil: "¡La Guerra Civil!"
+ SPA_Reorganising_Command_Structure: "Reorganising Command Structure"
  SPA_civilwar_army_1: "The Army is With Us"
  SPA_civilwar_army_2: "The Army is With Us"
  SPA_civilwar_army_3: "The Army is With Us"

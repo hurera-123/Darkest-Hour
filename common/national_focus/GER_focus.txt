@@ -317,7 +317,7 @@ focus_tree = {
 	focus = {
 		id = GER_Waffen_SS
 		icon = GFX_GER_Waffen_SS
-		cost = 70
+		cost = 60
 		prerequisite = {
 			focus = GER_SS_VT
 		}
@@ -489,7 +489,7 @@ focus_tree = {
 	focus = {
 		id = GER_Reichssicherheitsamt
 		icon = GFX_GER_RSHA
-		cost = 70
+		cost = 60
 		prerequisite = {
 			focus = GER_Allgemeine_SS
 		}
@@ -499,6 +499,19 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = GER_Gestapo_2
 				add_idea = GER_Gestapo_3
+			}
+			if = {
+				limit = {
+					has_dlc = "La Resistance"
+				}
+				create_operative_leader = {
+					name = "Otto Skorzeny"
+					GFX = GFX_M_Otto_Skorzeny
+					traits = { operative_commando }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { GER }
+				}
 			}
 		}
 		relative_position_id = GER_Chancellor_Hitler
@@ -750,6 +763,10 @@ focus_tree = {
 		id = GER_Issue_MEFO_Bills
 		icon = GFX_GER_MEFO_Bills
 		cost = 50
+		available = {
+			date > 1934.1.1
+			has_completed_focus = GER_Enabling_Act
+		}
 		prerequisite = {
 			focus = GER_The_Economic_Recovery_Policy
 		}
@@ -784,6 +801,9 @@ focus_tree = {
 		id = GER_Reconstruct_the_Reich
 		icon = GFX_GER_Volksgemeinschaft
 		cost = 20
+		available = {
+			date > 1934.6.1
+		}
 		prerequisite = {
 			focus = GER_Adopt_Positive_Christianity
 			focus = GER_Reichskonkordat
@@ -820,6 +840,9 @@ focus_tree = {
 		id = GER_Privatizations_and_Austerity
 		icon = GFX_GENERIC_Support_Privatization
 		cost = 10
+		available = {
+			has_completed_focus = GER_Enabling_Act
+		}
 		prerequisite = {
 			focus = GER_The_Economic_Recovery_Policy
 		}
@@ -832,22 +855,27 @@ focus_tree = {
 			}
 			add_stability = -0.05
 			add_money_with_inflation_included_with_tooltip_effect = yes
-			random_owned_controlled_state = {
+			if = {
 				limit = {
-					industrial_complex > 1
+					is_ai = no
 				}
-				remove_building = {
-					type = industrial_complex
-					level = 1
+				random_owned_controlled_state = {
+					limit = {
+						industrial_complex > 1
+					}
+					remove_building = {
+						type = industrial_complex
+						level = 1
+					}
 				}
-			}
-			random_owned_controlled_state = {
-				limit = {
-					industrial_complex > 1
-				}
-				remove_building = {
-					type = industrial_complex
-					level = 1
+				random_owned_controlled_state = {
+					limit = {
+						industrial_complex > 1
+					}
+					remove_building = {
+						type = industrial_complex
+						level = 1
+					}
 				}
 			}
 		}
@@ -858,6 +886,9 @@ focus_tree = {
 		id = GER_Reichsautobahn
 		icon = GFX_GER_Deutsches_Reichbahn
 		cost = 30
+		available = {
+			has_completed_focus = GER_Enabling_Act
+		}
 		prerequisite = {
 			focus = GER_The_Economic_Recovery_Policy
 		}
@@ -929,22 +960,47 @@ focus_tree = {
 				money_to_gain = -200
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
-			GER = {
-				random_owned_controlled_state = {
-					add_building_construction = {
-						type = arms_factory
-						level = 1
-						instant_build = yes
-					}
-					add_extra_state_shared_building_slots = 1
+			if = {
+				limit = {
+					is_ai = no
 				}
-				random_owned_controlled_state = {
-					add_building_construction = {
-						type = arms_factory
-						level = 1
-						instant_build = yes
+				GER = {
+					random_owned_controlled_state = {
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+						add_extra_state_shared_building_slots = 1
 					}
-					add_extra_state_shared_building_slots = 1
+					random_owned_controlled_state = {
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+						add_extra_state_shared_building_slots = 1
+					}
+				}
+			}
+			else = {
+				GER = {
+					random_owned_controlled_state = {
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+						add_extra_state_shared_building_slots = 1
+					}
+					random_owned_controlled_state = {
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+						add_extra_state_shared_building_slots = 1
+					}
 				}
 			}
 		}
@@ -1001,6 +1057,9 @@ focus_tree = {
 		id = GER_Deal_with_IG_Farben
 		icon = GFX_GER_IG_Farben
 		cost = 10
+		available = {
+			has_completed_focus = GER_Enabling_Act
+		}
 		prerequisite = {
 			focus = GER_The_Economic_Recovery_Policy
 		}
@@ -1017,6 +1076,9 @@ focus_tree = {
 		id = GER_Deutsche_Arbeitsfront
 		icon = GFX_GER_Deutsche_Arbeitsfront
 		cost = 10
+		available = {
+			has_completed_focus = GER_Enabling_Act
+		}
 		prerequisite = {
 			focus = GER_The_Economic_Recovery_Policy
 		}
@@ -1083,6 +1145,9 @@ focus_tree = {
 		id = GER_Follow_the_Reichsbank
 		icon = GFX_GER_Hire_Leading_Economists
 		cost = 56
+		available = {
+			date > 1935.1.1
+		}
 		prerequisite = {
 			focus = GER_Build_up_the_Economic_Base
 			focus = GER_Commence_Rearmament
@@ -1116,6 +1181,9 @@ focus_tree = {
 		id = GER_Politicize_Autarky
 		icon = GFX_GER_Politicize_Autarky
 		cost = 70
+		available = {
+			date > 1935.1.1
+		}
 		prerequisite = {
 			focus = GER_Commence_Rearmament
 			focus = GER_Build_up_the_Economic_Base
@@ -1148,6 +1216,9 @@ focus_tree = {
 		id = GER_Coal_Liquefaction
 		icon = GFX_GER_Coal_Liquefaction
 		cost = 70
+		available = {
+			date > 1935.1.6
+		}
 		prerequisite = {
 			focus = GER_Politicize_Autarky
 			focus = GER_Follow_the_Reichsbank
@@ -1192,6 +1263,9 @@ focus_tree = {
 		id = GER_Reposition_the_Reichsmark
 		icon = GFX_GER_Reposition_the_Reichsmark
 		cost = 56
+		available = {
+			date > 1935.1.1
+		}
 		prerequisite = {
 			focus = GER_Follow_the_Reichsbank
 		}
@@ -1213,6 +1287,9 @@ focus_tree = {
 		id = GER_The_Foreign_Offices_Deals
 		icon = GFX_GER_The_Foreign_Offices_Deals
 		cost = 56
+		available = {
+			date > 1936.6.1
+		}
 		prerequisite = {
 			focus = GER_Reposition_the_Reichsmark
 		}
@@ -1230,6 +1307,9 @@ focus_tree = {
 		id = GER_Drive_Industrial_Conglomerates
 		icon = GFX_GER_Synchretic_Economics
 		cost = 56
+		available = {
+			date > 1936.6.1
+		}
 		prerequisite = {
 			focus = GER_Reposition_the_Reichsmark
 		}
@@ -1237,7 +1317,7 @@ focus_tree = {
 		y = 6
 		completion_reward = {
 			set_temp_variable = {
-				unemployment_value = -0.05
+				unemployment_value = -0.03
 			}
 			add_unemployment_effect = yes
 			64 = {
@@ -1249,7 +1329,7 @@ focus_tree = {
 				}
 			}
 			52 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -1264,6 +1344,9 @@ focus_tree = {
 		id = GER_Give_in_to_Hitlers_Demands
 		icon = GFX_GER_NSDAP
 		cost = 10
+		available = {
+			date > 1937.6.1
+		}
 		prerequisite = {
 			focus = GER_Drive_Industrial_Conglomerates
 			focus = GER_The_Foreign_Offices_Deals
@@ -1445,10 +1528,8 @@ focus_tree = {
 			}
 			change_faction_loyalty = yes
 			### TODO: Unlock GER_CoAir_Albert_Kesselring
-			create_corps_commander = {
-				name = "Albert Kesselring"
-				id = 104025
-				GFX = GFX_M_Albert_Kesselring
+			add_corps_commander_role = {
+				character = GER_Albert_Kesselring
 				traits = {
 					brilliant_strategist
 					trait_cautious
@@ -1482,16 +1563,19 @@ focus_tree = {
 				load_oob = GER_Fallschirmtruppen
 			}
 			custom_effect_tooltip = GER_Fallschirmtruppen_tt
-			create_corps_commander = {
-				name = "Kurt Student"
-				GFX = GFX_M_Kurt_Student
+			hidden_effect = {
+				set_technology = {
+					paratroopers = 1
+				}
+			}
+			add_corps_commander_role = {
+				character = GER_Kurt_Student
 				traits = {
 					commando
-					paratrooper
+					paratrooper_trait
 					trait_reckless
 				}
 				skill = 4
-				id = 16
 				attack_skill = 4
 				defense_skill = 2
 				planning_skill = 4
@@ -1502,7 +1586,7 @@ focus_tree = {
 				GFX = GFX_M_Eugen_Meindl
 				traits = {
 					commando
-					paratrooper
+					paratrooper_trait
 					trait_reckless
 				}
 				skill = 2
@@ -1650,11 +1734,13 @@ focus_tree = {
 		y = 2
 		available = {
 			OR = {
-				has_equipment = {
-					fighter_equipment > 999
+				has_deployed_air_force_size = {
+					size > 999
+					type = fighter
 				}
-				has_equipment = {
-					interceptor_equipment > 999
+				has_deployed_air_force_size = {
+					size > 999
+					type = interceptor
 				}
 			}
 		}
@@ -1838,7 +1924,16 @@ focus_tree = {
 		x = 35
 		y = 2
 		completion_reward = {
-			army_experience = 15
+			if = {
+				limit = {
+					is_ai = no
+				}
+				army_experience = 15
+			}
+			else = {
+				army_experience = 200
+			}
+			
 			random_army_leader = {
 				limit = {
 					has_id = 104005
@@ -1991,10 +2086,10 @@ focus_tree = {
 			has_completed_focus = GER_Luftwaffe
 		}
 		completion_reward = {
-			create_corps_commander = {
-				name = "Heinz Guderian"
-				id = 104033
-				GFX = GFX_M_Heinz_Guderian
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = GER_Heinz_Guderian_HC
+			add_corps_commander_role = {
+				character = GER_Heinz_Guderian
 				traits = {
 					trickster
 					brilliant_strategist
@@ -2006,6 +2101,21 @@ focus_tree = {
 				attack_skill = 2
 				defense_skill = 4
 				planning_skill = 4
+				logistics_skill = 3
+			}
+			add_corps_commander_role = {
+				character = GER_Erwin_Rommel
+				traits = {
+					trickster
+					trait_reckless
+					war_hero
+					armor_officer
+					media_personality
+				}
+				skill = 4
+				attack_skill = 4
+				defense_skill = 4
+				planning_skill = 2
 				logistics_skill = 3
 			}
 			# Fedor von Bock
@@ -2241,7 +2351,7 @@ focus_tree = {
 	focus = {
 		id = GER_Kriegsmarine
 		icon = GFX_GER_Kriegsmarine
-		cost = 21
+		cost = 40
 		available = {
 			has_completed_focus = GER_Renounce_the_Disarmament_Clauses
 		}
@@ -2269,7 +2379,7 @@ focus_tree = {
 	focus = {
 		id = GER_ENIGMA
 		icon = GFX_GER_ENIGMA
-		cost = 15
+		cost = 35
 		prerequisite = {
 			focus = GER_Kriegsmarine
 		}
@@ -2642,6 +2752,9 @@ focus_tree = {
 		id = GER_Four_Year_Plan
 		icon = GFX_GER_Goerings_Four_Year_Plan
 		cost = 70
+		available = {
+			date > 1935.1.1
+		}
 		prerequisite = {
 			focus = GER_Politicize_Autarky
 		}
@@ -2649,7 +2762,7 @@ focus_tree = {
 		y = 5
 		completion_reward = {
 			set_temp_variable = {
-				unemployment_value = -0.07
+				unemployment_value = -0.05
 			}
 			add_unemployment_effect = yes
 			add_ideas = mixed_economy
@@ -2661,6 +2774,9 @@ focus_tree = {
 		id = GER_Reichswerke_Hermann_Goering
 		icon = GFX_GER_Reichswerke_Hermann_Goering
 		cost = 42
+		available = {
+			date > 1936.6.1
+		}
 		prerequisite = {
 			focus = GER_Four_Year_Plan
 		}
@@ -2670,7 +2786,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			set_temp_variable = {
-				unemployment_value = -0.04
+				unemployment_value = -0.03
 			}
 			add_unemployment_effect = yes
 			set_variable = {
@@ -2693,6 +2809,9 @@ focus_tree = {
 		id = GER_Limited_Military_Spending
 		icon = GFX_GENERIC_Military_Production
 		cost = 10
+		available = {
+			date > 1937.6.1
+		}
 		prerequisite = {
 			focus = GER_The_Foreign_Offices_Deals
 			focus = GER_Drive_Industrial_Conglomerates
@@ -2759,6 +2878,7 @@ focus_tree = {
 		available = {
 			is_puppet = no
 			controls_state = 806
+			date > 1936.1.1
 			has_army_manpower = {
 				size > 350000
 			}
@@ -2828,9 +2948,21 @@ focus_tree = {
 		x = -8
 		y = 10
 		available = {
-			has_army_manpower = {
-				size > 600000
+			date > 1937.12.1
+			if = {
+				limit = {
+					is_ai = no
+				}
+				has_army_manpower = {
+					size > 600000
+				}
 			}
+			else = {
+				has_army_manpower = {
+					size > 400000
+				}
+			}
+			
 		}
 		select_effect = {
 			if = {
@@ -3119,55 +3251,76 @@ focus_tree = {
 			controls_state = 807
 			controls_state = 42
 			controls_state = 806
+			controls_state = 1498
 		}
 		completion_reward = {
 			custom_effect_tooltip = GER_Westwall_tt
 			807 = {
 				add_building_construction = {
 					type = bunker
-					level = 2
+					level = 4
 					instant_build = yes
 					province = 6712
 				}
 				add_building_construction = {
 					type = bunker
-					level = 2
+					level = 4
 					instant_build = yes
 					province = 11640
 				}
 				add_building_construction = {
 					type = bunker
-					level = 2
+					level = 4
 					instant_build = yes
 					province = 6542
 				}
 			}
-			42 = {
+			1498 = {
 				add_building_construction = {
 					type = bunker
-					level = 2
+					level = 4
 					instant_build = yes
 					province = 3558
 				}
 				add_building_construction = {
 					type = bunker
-					level = 2
+					level = 4
 					instant_build = yes
 					province = 563
-				}
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 9575
 				}
 			}
 			806 = {
 				add_building_construction = {
 					type = bunker
-					level = 2
+					level = 4
+					instant_build = yes
+					province = 14694
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
 					instant_build = yes
 					province = 11531
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					instant_build = yes
+					province = 14695
+				}
+			}
+			42 = {
+				add_building_construction = {
+					type = bunker
+					level = 4
+					instant_build = yes
+					province = 9575
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					instant_build = yes
+					province = 11435
 				}
 			}
 			unlock_decision_category_tooltip = GER_Westwall_category
@@ -3340,6 +3493,9 @@ focus_tree = {
 		id = GER_Volkswagen
 		icon = GFX_GER_KdF_Wagon
 		cost = 42
+		available = {
+			date > 1936.6.1
+		}
 		prerequisite = {
 			focus = GER_Four_Year_Plan
 		}
@@ -3366,22 +3522,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			58 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			59 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		relative_position_id = GER_Chancellor_Hitler
@@ -3392,6 +3532,9 @@ focus_tree = {
 		cost = 15
 		prerequisite = {
 			focus = GER_End_of_Versailles
+		}
+		bypass = {
+			has_war_with = SOV
 		}
 		mutually_exclusive = {
 			focus = GER_Berlin_Moscow_Axis
@@ -3507,6 +3650,14 @@ focus_tree = {
 				}
 				upgrade_intelligence_agency = upgrade_form_department
 				upgrade_intelligence_agency = upgrade_passive_defense
+				create_operative_leader = {
+					name = "Nikolaus Ritter"
+					GFX = GFX_operative_Nikolaus_Ritter
+					traits = { operative_safe_cracker }
+					bypass_recruitment = no
+					available_to_spy_master = yes
+					nationalities = { GER }
+				}
 			}
 		}
 		relative_position_id = GER_Chancellor_Hitler
@@ -3941,8 +4092,13 @@ focus_tree = {
 		id = GER_Rheinmetall_Merger
 		icon = GFX_GER_Rheinmetall_Merger
 		cost = 40
+		available = {
+			date > 1937.6.1
+		}
 		prerequisite = {
 			focus = GER_Volkswagen
+		}
+		prerequisite = {
 			focus = GER_Reichswerke_Hermann_Goering
 		}
 		x = 8
@@ -3955,14 +4111,6 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = -40
-			random_owned_controlled_state = {
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 1
-			}
 			random_owned_controlled_state = {
 				add_building_construction = {
 					type = arms_factory
@@ -4038,16 +4186,19 @@ focus_tree = {
 		id = GER_Dissolve_Small_Corporations
 		icon = GFX_GENERIC_Dissolve_Small_Corporations
 		cost = 40
+		available = {
+			date > 1937.6.1
+		}
 		prerequisite = {
-			focus = GER_Reichswerke_Hermann_Goering
 			focus = GER_Volkswagen
+			focus = GER_Reichswerke_Hermann_Goering
 		}
 		x = 6
 		y = 7
 		completion_reward = {
 			add_political_power = -40
 			set_temp_variable = {
-				unemployment_value = -0.03
+				unemployment_value = -0.01
 			}
 			add_unemployment_effect = yes
 			random_owned_controlled_state = {
@@ -4354,7 +4505,7 @@ focus_tree = {
 	focus = {
 		id = GER_Stahlpakt
 		icon = GFX_focus_generic_italy_first
-		cost = 70
+		cost = 60
 		prerequisite = {
 			focus = GER_Anti_Komintern_Pact_focus
 		}
@@ -4501,7 +4652,7 @@ focus_tree = {
 	focus = {
 		id = GER_Trade_Agreements_With_USSR
 		icon = GFX_GENERIC_Economic_Cooperation
-		cost = 40
+		cost = 30
 		prerequisite = {
 			focus = GER_Soviet_Pact
 		}
@@ -4629,6 +4780,20 @@ focus_tree = {
 			news_event = {
 				id = GER_Kuomintang.2
 				hours = 6
+			}
+			hidden_effect = {
+				CHI = {
+					news_event = {
+						id = GER_Kuomintang.2
+						hours = 6
+					}
+				}
+				JAP = {
+					news_event = {
+						id = GER_Kuomintang.2
+						hours = 6
+					}
+				}
 			}
 		}
 		relative_position_id = GER_Chancellor_Hitler

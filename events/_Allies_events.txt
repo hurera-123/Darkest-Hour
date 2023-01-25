@@ -67,9 +67,12 @@ country_event = { #Oster Coup
 
 		hidden_effect = {
 			news_event = { id = GER_Oster_Coup.3 }
-			FRA = {
-				country_event = { id = GER_Oster_Coup.4 days = 4 }
-			}
+			if = {
+				limit = { has_war_with = FRA }
+				FRA = {
+					country_event = { id = GER_Oster_Coup.4 days = 4 }
+				}
+			}		
 		}
 	}
 }
@@ -123,30 +126,50 @@ country_event = { #France refuse peace
 		name = GER_Oster_Coup.5.A
 		add_stability = -0.05
 		add_political_power = -50
+		set_country_flag = Germany_Must_Die
 	}
 }
-
-news_event = { #Germany capitulate
-	id = GER_Oster_Coup.6
-	title = GER_Oster_Coup.6.t
-	desc = GER_Oster_Coup.6.d
+country_event = { # Hidden event that triggers GER_Oster_Coup.6
+	id = GER_Oster_Coup.66
+	title = GER_Oster_Coup.66.t
+	desc = GER_Oster_Coup.66.d
 	picture = GFX_news_event_002
-	major = yes
-
+	fire_only_once = yes
+	hidden = yes
 	trigger = {
 		original_tag = GER
 		GER_Hans_Oster = {
 			is_country_leader = yes
 		}
 		has_war_with = FRA
-		surrender_progress > 0.1
+		surrender_progress > 0.9
+		has_country_flag = Germany_Must_Die
 	}
+
+	option = {
+		name = GER_Oster_Coup.66.A
+		GER = {
+			news_event = { id = GER_Oster_Coup.6 }
+		}
+	}
+}
+news_event = { # Germany capitulates
+	id = GER_Oster_Coup.6
+	title = GER_Oster_Coup.6.t
+	desc = GER_Oster_Coup.6.d
+	picture = GFX_news_event_002
+	is_triggered_only = yes
+	major = yes
 
 	immediate = {
 		GER = {
 			white_peace = FRA
 			white_peace = ENG
 			white_peace = POL
+			dismantle_faction = yes
+			set_rule = {
+				can_not_declare_war = yes
+			}
 		}
 		FRA = {
 			country_event = { id = Treaty_of_Munich.1 days = 5 }
@@ -172,6 +195,10 @@ news_event = { #Frankfurt Armistice
 			white_peace = FRA
 			white_peace = ENG
 			white_peace = POL
+			dismantle_faction = yes
+			set_rule = {
+				can_not_declare_war = yes
+			}
 		}
 		FRA = {
 			country_event = { id = Treaty_of_Danzig.1 days = 5 }
@@ -746,17 +773,16 @@ news_event = {
 		}
 	}
 }
-# Operation Torch Succeeds
-news_event = {
-	id = Operation_Torch.5
-	title = Operation_Torch.5.t
-	desc = Operation_Torch.5.d
+# Hidden event that triggers Operation_Torch.5
+country_event = {
+	id = Operation_Torch.55
+	title = Operation_Torch.55.t
+	desc = Operation_Torch.55.d
 	picture = GFX_news_event_002
+	fire_only_once = yes
+	hidden = yes
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = USA
-		}
+		tag = ENG
 		has_decision = ENG_Operation_Torch
 		461 = {
 			is_controlled_by_ROOT_or_ally = yes
@@ -768,6 +794,21 @@ news_event = {
 			is_controlled_by_ROOT_or_ally = yes
 		}
 	}
+
+	option = {
+		name = Operation_Torch.55.A
+		ENG = {
+			news_event = { id = Operation_Torch.5 }
+		}
+	}
+}
+# Operation Torch Succeeds
+news_event = {
+	id = Operation_Torch.5
+	title = Operation_Torch.5.t
+	desc = Operation_Torch.5.d
+	picture = GFX_news_event_002
+	is_triggered_only = yes
 	major = yes
 	immediate = {
 		set_global_flag = Allies_Torch_Success
@@ -1336,6 +1377,10 @@ country_event = {
 			}
 			SOV = {
 				transfer_state = 5
+				transfer_state = 188
+				transfer_state = 91
+				transfer_state = 89
+				transfer_state = 1170
 			}
 
 			# Division of Austria
@@ -1417,8 +1462,7 @@ country_event = {
 						has_war_with = GER
 					}
 				}
-				FRA = {
-					change_tag_from = FFL
+				FFL = {
 					transfer_state = 1505
 					transfer_state = 762
 					transfer_state = 1022
@@ -1460,6 +1504,9 @@ country_event = {
 					transfer_state = 32
 					transfer_state = 846
 					transfer_state = 1
+					annex_country = {
+						target = FRA
+					}
 				}
 				every_state = {
 					limit = {
@@ -1551,6 +1598,16 @@ country_event = {
 					set_politics = {
 						ruling_party = democratic
 						elections_allowed = no
+					}
+					if = {
+						limit = {
+							RSI = {
+								exists = yes
+							}
+						}
+						annex_country = {
+							target = RSI
+						}
 					}
 				}
 
@@ -1667,33 +1724,26 @@ country_event = {
 			}
 
 			# Greece
-			if = {
-				limit = {
-					GRE = {
-						has_war_with = GER
-					}
-				}
-				GRE = {
-					transfer_state = 1109
-					transfer_state = 184
-					transfer_state = 1110
-					transfer_state = 900
-					transfer_state = 731
-					transfer_state = 1112
-					transfer_state = 185
-					transfer_state = 1113
-					transfer_state = 1115
-					transfer_state = 1111
-					transfer_state = 1114
-					transfer_state = 186
-					transfer_state = 47
-					transfer_state = 182
-					transfer_state = 1116
-					transfer_state = 1117
-					transfer_state = 187
-					transfer_state = 1118
-					transfer_state = 1119
-				}
+			GRE = {
+				transfer_state = 1109
+				transfer_state = 184
+				transfer_state = 1110
+				transfer_state = 900
+				transfer_state = 731
+				transfer_state = 1112
+				transfer_state = 185
+				transfer_state = 1113
+				transfer_state = 1115
+				transfer_state = 1111
+				transfer_state = 1114
+				transfer_state = 186
+				transfer_state = 47
+				transfer_state = 182
+				transfer_state = 1116
+				transfer_state = 1117
+				transfer_state = 187
+				transfer_state = 1118
+				transfer_state = 1119
 			}
 
 			# Romania
@@ -1713,10 +1763,10 @@ country_event = {
 						name = "Constantin Sanatescu"
 						picture = GFX_M_Constantin_Sanatescu
 						expire = "1947.1.1"
-						ideology = stalinism
+						ideology = social_democracy
 						traits = {
 							POSITION_Prime_Minister
-							SUBIDEOLOGY_Stalinism
+							SUBIDEOLOGY_Social_Democracy
 						}
 					}
 					remove_ideas = ROM_D_Carol_II
@@ -1761,6 +1811,16 @@ country_event = {
 					transfer_state = 836
 					transfer_state = 1145
 					transfer_state = 1143
+				}
+				ROM = {
+					set_politics = {
+						ruling_party = democratic
+						elections_allowed = no
+					}
+					add_popularity = {
+						ideology = democratic
+						popularity = 0.5
+					}
 				}
 			}
 

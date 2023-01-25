@@ -5,7 +5,7 @@ ideas = {
 	country = {
 		#### Graveyard of Empires
 		AJC_Official_Disbandment = {
-			picture = GFX_idea_generic_army_problems
+			picture = spr_disbanded_army
 			allowed = {
 				original_tag = AJC
 			}
@@ -18,7 +18,7 @@ ideas = {
 			}
 		}
 		AJC_A_New_Army = {
-			picture = GFX_idea_chi_army_corruption2
+			picture = chi_army_corruption2
 			allowed = {
 				original_tag = AJC
 			}

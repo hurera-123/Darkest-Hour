@@ -459,7 +459,7 @@
 	# Democracy
 	create_country_leader = {
 		name = "John J. Curtin"
-		desc = "John_Curtin_desc"
+		desc = AST_John_Curtin_desc
 		picture = GFX_P_D_John_Curtin
 		expire = "1965.1.1"
 		ideology = social_democracy
@@ -480,7 +480,7 @@
 	# Democracy
 	create_country_leader = {
 		name = "Ben Chifley"
-		desc = "Ben_Chifley_desc"
+		desc = AST_Ben_Chifley_desc
 		picture = GFX_P_D_Ben_Chifley
 		expire = "1965.1.1"
 		ideology = social_democracy
