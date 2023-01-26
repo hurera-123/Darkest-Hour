@@ -6121,12 +6121,7 @@ SOV_Western_Military_Reorganisation_category = {
 			NOT = {
 				has_country_flag = SOV_Doing_Another_Decision
 			}
-			FRA = {
-				OR = {
-					has_capitulated = yes
-					exists = no
-				}
-			}
+			has_global_flag = fall_of_france
 			has_army_experience > 20
 		}
 		custom_cost_trigger = {
