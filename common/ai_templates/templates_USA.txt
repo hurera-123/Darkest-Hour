@@ -8,7 +8,7 @@ armored_USA= {
 		armor
 	}
 	
-	match_to_count = 0.5
+	match_to_count = 0.9
 	
 	upgrade_prio = {
 		factor = 2.17
@@ -155,7 +155,7 @@ armored_USA= {
 		}
 
 		target_template = {
-			weight = 0.5
+			weight = 0.9
 			match_value = 1000.0
 			
 			support = {
@@ -173,7 +173,7 @@ armored_USA= {
 		}
 		
 		allowed_types = {
-				modern_armor
+			modern_armor
 			heavy_armor
 			
 			motorized
@@ -401,7 +401,7 @@ garrison_USA = {
 		}
 	}
 	
-	match_to_count = 0.8
+	match_to_count = 0.9
 
 
 	garrison_USA = {
@@ -422,7 +422,7 @@ garrison_USA = {
 		
 		target_width = 10.0
 		width_weight = 100.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.4
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -495,7 +495,7 @@ infantry_USA = {
 		}
 	}
 	
-	match_to_count = 0.45
+	match_to_count = 1
 
 	infantry_default_USA = {
 	
@@ -509,7 +509,7 @@ infantry_USA = {
 		
 		target_width = 40.0
 		width_weight = 100.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.1
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -551,6 +551,7 @@ infantry_USA = {
 				field_hospital = 1
 				signal_company = 1
 				anti_tank_company = 1
+				artillery_battery = 1
 				military_police = 1
 			}
 			
@@ -602,7 +603,7 @@ mountaineers_USA = {
 		}
 	}
 	
-	match_to_count = 0.45
+	match_to_count = 0.8
 
 	mountaineers_default_USA = {
 	
@@ -616,7 +617,7 @@ mountaineers_USA = {
 		
 		target_width = 19.9
 		width_weight = 3
-		column_swap_factor = 0.2
+		column_swap_factor = 0.1
 		
 		stat_weights = {
 			0 #-- default_morale
@@ -649,7 +650,7 @@ mountaineers_USA = {
 		}
 
 		target_template = {
-			weight = 0.5
+			weight = 0.9
 			match_value = 3000.0
 			
 			support = {
@@ -698,7 +699,7 @@ marines_USA = {
 		}
 	}
 	
-	match_to_count = 0.45
+	match_to_count = 0.8
 
 	marine_default_USA = {
 	
@@ -788,7 +789,7 @@ paratroopers_USA = {
 		}
 	}
 	
-	match_to_count = 0.45
+	match_to_count = 0.8
 
 	paratrooper_default_USA = {
 	

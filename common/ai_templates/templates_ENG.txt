@@ -24,7 +24,7 @@ armor_ENG = {
 		}
 	}
 	
-	match_to_count = 0.5
+	match_to_count = 0.9
 	
 	light_armor_default_ENG = {
 	
@@ -85,7 +85,7 @@ armor_ENG = {
 			}
 			
 			regiments = {
-				light_armor = 5
+				light_armor = 6
 				motorized = 4
 			}
 		}
@@ -114,8 +114,8 @@ armor_ENG = {
 			}
 		}
 		
-		target_width = 19.9
-		width_weight = 3.0
+		target_width = 20.0
+		width_weight = 100.0
 		column_swap_factor = 0.1
 		
 		stat_weights = {
@@ -154,19 +154,20 @@ armor_ENG = {
 			
 			support = {
 				engineer = 1
-				recon = 1
-				logistics_company = 1
+				mot_recon = 1
+				signal_company = 1
 				maintenance_company = 1
+				logistics_company = 1
 			}
 			
 			regiments = {
 				heavy_armor = 6
-				infantry = 3
+				motorized = 4
 			}
 		}
 		
 		allowed_types = {
-				modern_armor
+			modern_armor
 			heavy_armor
 			
 
@@ -179,6 +180,7 @@ armor_ENG = {
 
 			engineer
 			recon
+			mot_recon
 			signal_company
 			maintenance_company
 			logistics_company
@@ -206,8 +208,8 @@ armor_ENG = {
 			}
 		}
 		
-		target_width = 8.0
-		width_weight = 2.0
+		target_width = 30.0
+		width_weight = 100.0
 		column_swap_factor = 0.1
 		
 		stat_weights = {
@@ -247,12 +249,15 @@ armor_ENG = {
 			
 			support = {
 				engineer = 1
-				recon = 1
+				mot_recon = 1
+				signal_company = 1
 				maintenance_company = 1
+				logistics_company = 1
 			}
 			
 			regiments = {
-				medium_armor = 4
+				medium_armor = 9
+				motorized = 6
 			}
 		}
 
@@ -267,6 +272,7 @@ armor_ENG = {
 
 			engineer
 			recon
+			mot_recon
 			signal_company
 			maintenance_company
 			logistics_company
@@ -294,8 +300,8 @@ armor_ENG = {
 			}
 		}
 		
-		target_width = 22.0
-		width_weight = 2.0
+		target_width = 20.0
+		width_weight = 100.0
 		column_swap_factor = 0.1
 		
 		stat_weights = {
@@ -342,7 +348,7 @@ armor_ENG = {
 			
 			regiments = {
 				medium_armor = 5
-				motorized = 6
+				motorized = 4
 			}
 		}
 
@@ -384,8 +390,8 @@ armor_ENG = {
 			}
 		}
 		
-		target_width = 19.9
-		width_weight = 3.0
+		target_width = 20.0
+		width_weight = 100.0
 		column_swap_factor = 0.1
 		
 		stat_weights = {
@@ -475,7 +481,7 @@ infantry_ENG = {
 		}
 	}
 	
-	match_to_count = 0.45
+	match_to_count = 0.9
 
 	infantry_default_ENG = {
 	
@@ -487,9 +493,9 @@ infantry_ENG = {
 			}
 		}
 		
-		target_width = 36.0
-		width_weight = 1.0
-		column_swap_factor = 0.5
+		target_width = 40.0
+		width_weight = 100.0
+		column_swap_factor = 0.1
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -533,7 +539,7 @@ infantry_ENG = {
 			}
 			
 			regiments = {
-				infantry = 12
+				infantry = 14
 				artillery_battalion = 4
 			}
 		}
@@ -580,7 +586,7 @@ mountaineers_ENG = {
 		}
 	}
 	
-	match_to_count = 0.45
+	match_to_count = 0.9
 
 	mountaineers_default_ENG = {
 	
@@ -592,9 +598,9 @@ mountaineers_ENG = {
 			}
 		}
 	
-		target_width = 19.9
-		width_weight = 3
-		column_swap_factor = 0.2
+		target_width = 20.0
+		width_weight = 100.0
+		column_swap_factor = 0.1
 		
 		stat_weights = {
 			0 #-- default_morale
@@ -676,7 +682,7 @@ marines_ENG = {
 		}
 	}
 	
-	match_to_count = 0.45
+	match_to_count = 0.9
 
 	marine_default_ENG = {
 		upgrade_prio = {
@@ -686,8 +692,8 @@ marines_ENG = {
 				factor = 1
 			}
 		}
-		target_width = 20.0
-		width_weight = 1.0
+		target_width = 30.0
+		width_weight = 100.0
 		column_swap_factor = 0.1
 		
 		stat_weights = {
@@ -726,11 +732,14 @@ marines_ENG = {
 			
 			support = {
 				recon = 1
+				engineer = 1
+				anti_tank_company = 1
 				logistics_company = 1
 			}
 			
 			regiments = {
 				marine = 9
+				artillery_battalion = 2
 			}
 		}
 
@@ -738,7 +747,9 @@ marines_ENG = {
 		allowed_types = {
 			marine
 			engineer
+			anti_tank_company
 			logistics_company
+			artillery_battalion
 		}
 	}
 }
@@ -764,7 +775,7 @@ paratrooper_ENG = {
 		}
 	}
 	
-	match_to_count = 0.45
+	match_to_count = 0.9
 
 	paratrooper_default_ENG = {
 			
@@ -776,8 +787,8 @@ paratrooper_ENG = {
 			}
 		}
 	
-		target_width = 9.9
-		width_weight = 3.0
+		target_width = 10.0
+		width_weight = 100.0
 		column_swap_factor = 0.1
 		
 		stat_weights = {
@@ -861,7 +872,7 @@ garrison_ENG = {
 		#}
 	}
 	
-	match_to_count = 0.8
+	match_to_count = 0.9
 	
 	garrison_ENG = {
 	
@@ -876,9 +887,9 @@ garrison_ENG = {
 		reinforce_prio = 0
 		custom_icon = 7
 		
-		target_width = 12.0
-		width_weight = 1.0
-		column_swap_factor = 0.5
+		target_width = 10.0
+		width_weight = 100.0
+		column_swap_factor = 0.1
 		
 		stat_weights = {
 			0.00 #-- default_morale

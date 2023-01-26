@@ -8,7 +8,7 @@ armored_GER = {
 		armor
 	}
 	
-	match_to_count = 0.50
+	match_to_count = 0.9
 	
 	upgrade_prio = {
 		factor = 2.0
@@ -38,7 +38,7 @@ armored_GER = {
 		
 		target_width = 30.0
 		width_weight = 100.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.1
 
 		# this is a stop-gap towards medium tanks, if deployed dont upgrade to medium tanks until we burn out our light tanks
 		can_upgrade_in_field = {
@@ -120,7 +120,7 @@ armored_GER = {
 		
 		target_width = 30.0
 		width_weight = 100.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.1
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -217,7 +217,7 @@ armored_GER = {
 		
 		target_width = 30.0
 		width_weight = 100.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.1
 
 		# this is a stop-gap towards medium tanks, if deployed dont upgrade to medium tanks until we burn out our light tanks
 		can_upgrade_in_field = {
@@ -322,7 +322,7 @@ armored_GER = {
 		
 		target_width = 30.0
 		width_weight = 100.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.1
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -411,7 +411,7 @@ armored_GER = {
 		
 		target_width = 30.0
 		width_weight = 100.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.1
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -511,7 +511,7 @@ garrison_GER = {
 		}
 	}
 	
-	match_to_count = 0.5
+	match_to_count = 0.9
 
 
 	garrison_GER = {
@@ -529,7 +529,7 @@ garrison_GER = {
 		
 		target_width = 10.0
 		width_weight = 100.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.1
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -570,11 +570,12 @@ garrison_GER = {
 			}
 			
 			regiments = {
-				infantry = 5
+				garrison = 5
 			}
 		}
 		
 		allowed_types = {
+			garrison
 			infantry		
 			military_police
 		}
@@ -602,7 +603,7 @@ infantry_GER = {
 		}
 	}
 	
-	match_to_count = 0.7
+	match_to_count = 1.0
 
 
 	infantry_default_GER = {
@@ -617,7 +618,7 @@ infantry_GER = {
 		
 		target_width = 40.0
 		width_weight = 100.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.0
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -650,7 +651,7 @@ infantry_GER = {
 		}
 		
 		target_template = {
-			weight = 0.9
+			weight = 1.0
 			match_value = 3000.0
 			
 			support = {
@@ -701,7 +702,7 @@ mountaineers_GER = {
 		}
 	}
 	
-	match_to_count = 0.45
+	match_to_count = 0.9
 	
 	mountaineers_default_GER = {
 	
@@ -715,7 +716,7 @@ mountaineers_GER = {
 		
 		target_width = 20.0
 		width_weight = 100.0
-		column_swap_factor = 0.2
+		column_swap_factor = 0.1
 		
 		stat_weights = {
 			0 #-- default_morale
@@ -798,7 +799,7 @@ marines_GER = {
 		}
 	}
 	
-	match_to_count = 0.45
+	match_to_count = 0.9
 
 	marine_default_GER = {
 	
@@ -812,7 +813,7 @@ marines_GER = {
 		
 		target_width = 30.0
 		width_weight = 100.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.1
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -893,7 +894,7 @@ paratroopers_GER = {
 		}
 	}
 	
-	match_to_count = 0.45
+	match_to_count = 0.9
 
 	paratrooper_default_GER = {
 	
@@ -907,7 +908,7 @@ paratroopers_GER = {
 		
 		target_width = 20.0
 		width_weight = 100.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.1
 		
 		stat_weights = {
 			0.20 #-- default_morale
@@ -1000,7 +1001,7 @@ anti_armor_GER = {
 		}
 	}
 	
-	match_to_count = 0.5
+	match_to_count = 0.95
 	
 	infantry_anti_armor_GER = {
 	
@@ -1024,7 +1025,7 @@ anti_armor_GER = {
 		
 		target_width = 20.0
 		width_weight = 100.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.1
 		
 		stat_weights = {
 			0.00 #-- default_morale
