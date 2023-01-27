@@ -265,7 +265,7 @@ ideas = {
 				monthly_population = -0.2
 			}
 		}
-		
+
 		#### Repressed Church
 		SOV_Repressed_Church = {
 			allowed = {
@@ -670,7 +670,7 @@ ideas = {
 				political_power_factor = 0.05
 			}
 		}
-		
+
 		#### Industrial Ethos
 		SOV_Industrial_Ethos1 = {
 			picture = SOV_Industrial_Ethos
@@ -691,7 +691,7 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.1
 			}
 		}
-		
+
 		#### Industrial Ethos
 		SOV_Industrial_Ethos2 = {
 			picture = SOV_Industrial_Ethos
@@ -714,7 +714,7 @@ ideas = {
 				stability_factor = 0.05
 			}
 		}
-		
+
 		#### Command Structure Paralyzed
 		SOV_Command_Structure_Paralyzed = {
 			picture = GENERIC_Army_Cleansed
@@ -735,7 +735,7 @@ ideas = {
 				stability_factor = -0.2
 			}
 		}
-		
+
 		#### Command Structure Paralyzed
 		SOV_Command_Structure_Paralyzed_2 = {
 			picture = GENERIC_Army_Cleansed
@@ -756,7 +756,7 @@ ideas = {
 				stability_factor = -0.1
 			}
 		}
-		
+
 		#### The German Betrayal
 		SOV_The_German_Betrayal = {
 			picture = GENERIC_Army_Cleansed
@@ -797,18 +797,18 @@ ideas = {
 
 			equipment_bonus = {
 				Heavy_Weapons_equipment = {
-					build_cost_ic = -0.1 
+					build_cost_ic = -0.1
 					reliability = -0.1 instant = yes
 				}
 				artillery_equipment = {
 					soft_attack = 0.1
 					hard_attack = 0.1
-					build_cost_ic = -0.1 
+					build_cost_ic = -0.1
 					reliability = -0.1 instant = yes
 				}
 			}
 		}
-		
+
 		#### The Great Patriotic War
 		SOV_Mobilization_of_the_Soviet_Industry_2 = {
 			picture = SOV_third_five_year_plan_military
@@ -824,13 +824,13 @@ ideas = {
 
 			equipment_bonus = {
 				Heavy_Weapons_equipment = {
-					build_cost_ic = -0.1 
+					build_cost_ic = -0.1
 					reliability = -0.1 instant = yes
 				}
 				artillery_equipment = {
 					soft_attack = 0.1
 					hard_attack = 0.1
-					build_cost_ic = -0.1 
+					build_cost_ic = -0.1
 					reliability = -0.1 instant = yes
 				}
 				armor_equipment = {
@@ -854,13 +854,13 @@ ideas = {
 
 			equipment_bonus = {
 				Heavy_Weapons_equipment = {
-					build_cost_ic = -0.1 
+					build_cost_ic = -0.1
 					reliability = -0.1 instant = yes
 				}
 				artillery_equipment = {
 					soft_attack = 0.1
 					hard_attack = 0.1
-					build_cost_ic = -0.1 
+					build_cost_ic = -0.1
 					reliability = -0.1 instant = yes
 				}
 				armor_equipment = {
@@ -869,7 +869,7 @@ ideas = {
 				}
 			}
 		}
-		
+
 		#### The Great Patriotic War
 		SOV_Mobilization_of_the_Soviet_Industry_4 = {
 			picture = SOV_third_five_year_plan_military
@@ -885,27 +885,27 @@ ideas = {
 
 			equipment_bonus = {
 				Heavy_Weapons_equipment = {
-					build_cost_ic = -0.1 
+					build_cost_ic = -0.1
 					reliability = -0.1 instant = yes
 				}
 				artillery_equipment = {
 					soft_attack = 0.1
 					hard_attack = 0.1
-					build_cost_ic = -0.1 
+					build_cost_ic = -0.1
 					reliability = -0.1 instant = yes
 				}
 				armor_equipment = {
-					build_cost_ic = -0.2 
+					build_cost_ic = -0.2
 					reliability = -0.1 instant = yes
 				}
 				rocket_artillery_equipment = {
 					soft_attack = 0.05
-					build_cost_ic = -0.2 
+					build_cost_ic = -0.2
 					reliability = -0.1 instant = yes
 				}
 			}
 		}
-		
+
 		#### The Great Patriotic War
 		SOV_Mobilization_of_the_Soviet_Industry_5 = {
 			picture = SOV_third_five_year_plan_military
@@ -1651,7 +1651,7 @@ ideas = {
 			allowed_civil_war = {
 				has_government = communist
 			}
-			
+
 			picture = SOV_NKVD_idea
 
 			modifier = {
@@ -1669,7 +1669,7 @@ ideas = {
 			allowed_civil_war = {
 				has_government = communist
 			}
-			
+
 			picture = SOV_NKVD_idea
 
 			modifier = {
@@ -2335,7 +2335,7 @@ ideas = {
 				planning_speed = 0.05
 			}
 		}
-		SOV_Operation_Groza_2  ={
+		SOV_Operation_Groza_2 = {
 			allowed = {
 				always = no
 			}
@@ -2378,6 +2378,104 @@ ideas = {
 				army_speed_factor = 0.05
 			}
 		}
+		SOV_Operation_Groza_Military_Industry = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
+		SOV_Operation_Groza_Draft_Mobilization = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_
+
+			modifier = {
+				mobilization_speed = 0.1
+				conscription_factor = 0.1
+			}
+		}
+		SOV_Operation_Groza_Air_Superiority = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_
+
+			modifier = {
+				production_speed_air_base_factor = 0.1
+			}
+			equipment_bonus = {
+				fighter = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
+		SOV_Operation_Groza_Baltic_Seaports = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_
+
+			modifier = {
+				industrial_capacity_dockyard = 0.1
+				production_speed_dockyard_factor = 0.1
+			}
+		}
+		SOV_Operation_Groza_Completed = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_
+
+			modifier = {
+				drift_defence_factor = 0.15
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				resistance_growth = -0.1
+				compliance_growth = 0.1
+			}
+		}
 		SOV_The_Great_Terror_1 = {
 			allowed = {
 				always = no
@@ -2395,12 +2493,12 @@ ideas = {
 
 			picture = SOV_The_Great_Terror_Phase_1
 
-			modifier = {	
+			modifier = {
 				stability_factor = -0.3
 				war_support_factor = -0.3
 				political_power_factor = -0.5
 				army_attack_factor = -0.05
-				army_defence_factor = -0.05	
+				army_defence_factor = -0.05
 				army_org_factor = -0.1
 			}
 		}
@@ -2465,7 +2563,7 @@ ideas = {
 
 			modifier = {
 				army_attack_factor = -0.05
-				army_defence_factor = -0.05	
+				army_defence_factor = -0.05
 				army_org_factor = -0.05
 				experience_gain_army = -0.03
 			}
@@ -2487,7 +2585,7 @@ ideas = {
 				war_support_factor = -0.1
 				political_power_gain = -0.25
 				army_attack_factor = -0.05
-				army_defence_factor = -0.05	
+				army_defence_factor = -0.05
 				army_org_factor = -0.1
 				experience_gain_army = -0.03
 			}
@@ -2586,7 +2684,7 @@ ideas = {
 			}
 
 			modifier = {
-				
+
 			}
 		}
 		SOV_Volunteer_Cap = {

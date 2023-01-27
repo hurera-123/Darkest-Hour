@@ -1490,7 +1490,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		completion_reward = {
-			
+
 		}
 		search_filters = { FOCUS_FILTER_HISTORICAL }
 	}
@@ -2473,7 +2473,7 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			country_event = { id = SOV_Stalin_Constitution.2 days = 1 }
-		}	
+		}
 	}
 	focus = {
 		id = SOV_The_Bloody_Dwarf
@@ -3911,7 +3911,7 @@ focus_tree = {
 			}
 		}
 		prerequisite = {
-			
+
 		}
 		mutually_exclusive = {
 			focus = SOV_The_Great_Patriotic_War
@@ -3920,7 +3920,8 @@ focus_tree = {
 		y = 16
 		completion_reward = {
 			add_ideas = SOV_The_Great_Patriotic_War
-			unlock_decision_category_tooltip = SOV_Operation_Groza_category
+			set_temp_variable = { operation_id = 1 }
+			add_active_war_room_operation = yes
 		}
 	}
 	focus = {
@@ -3931,7 +3932,7 @@ focus_tree = {
 			has_defensive_war_with = GER
 		}
 		prerequisite = {
-			
+
 		}
 		mutually_exclusive = {
 			focus = SOV_The_Revolution_Marches_West
@@ -3951,7 +3952,7 @@ focus_tree = {
 		available = {
 			has_war_with = GER
 			NOT = {
-				has_idea = SOV_The_German_Betrayal 
+				has_idea = SOV_The_German_Betrayal
 			}
 			controls_state = 202
 			controls_state = 206
@@ -4317,7 +4318,7 @@ focus_tree = {
 				202 = {
 					add_building_construction = {
 						type = bunker
-        				province = 525 
+        				province = 525
 						level = 5
 						instant_build = yes
 					}
@@ -4332,7 +4333,7 @@ focus_tree = {
 				242 = {
 					add_building_construction = {
 						type = bunker
-        				province = 306 
+        				province = 306
 						level = 5
 						instant_build = yes
 					}
@@ -4347,7 +4348,7 @@ focus_tree = {
 				137 = {
 					add_building_construction = {
 						type = bunker
-        				province = 3686 
+        				province = 3686
 						level = 5
 						instant_build = yes
 					}
@@ -4362,7 +4363,7 @@ focus_tree = {
 				206 = {
 					add_building_construction = {
 						type = bunker
-        				province = 11370 
+        				province = 11370
 						level = 5
 						instant_build = yes
 					}
@@ -4377,7 +4378,7 @@ focus_tree = {
 				221 = {
 					add_building_construction = {
 						type = bunker
-        				province = 418 
+        				province = 418
 						level = 5
 						instant_build = yes
 					}
@@ -4392,7 +4393,7 @@ focus_tree = {
 				263 = {
 					add_building_construction = {
 						type = bunker
-        				province = 117 
+        				province = 117
 						level = 5
 						instant_build = yes
 					}
