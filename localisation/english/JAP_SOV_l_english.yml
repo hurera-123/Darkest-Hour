@@ -283,6 +283,7 @@
  JAP_SOV_Heihe_Incident.011.t: "A Campaign at Heihe"
  JAP_SOV_Heihe_Incident.011.d: ""
  JAP_SOV_Heihe_Incident.011.A: ""
+ JAP_SOV_Heihe_Incident.011.B: ""
 
  JAP_SOV_Heihe_Incident.1.t: "Heihe Campaign - Defeat"
  JAP_SOV_Heihe_Incident.1.d: ""
@@ -355,3 +356,10 @@
  JAP_SOV_INCIDENT_PROGRESS_BAR_TT: "The §YBalance of Power§! between §Y[SOV.GetNameWithFlag]§! and §Y[JAP.GetNameWithFlag]§! is currently at §Y[?JAP_SOV_Balance_of_Power|2%%]§!."
  JAP_SOV_INCIDENT_LEFT_FLAG: "§Y[SOV.GetNameWithFlag]§!"
  JAP_SOV_INCIDENT_RIGHT_FLAG: "§Y[JAP.GetNameWithFlag]§!"
+
+ JAP_SOV_Balance_of_Power_Minus_5_tt: "The §YBalance of Power§! will move §R5%§! in our disadvantage"
+ JAP_SOV_Balance_of_Power_Minus_10_tt: "The §YBalance of Power§! will move §R10%§! in our disadvantage"
+ JAP_SOV_Balance_of_Power_Minus_15_tt: "The §YBalance of Power§! will move §R15%§! in our disadvantage"
+ JAP_SOV_Balance_of_Power_5_tt: "The §YBalance of Power§! will move §G5%§! in our favour"
+ JAP_SOV_Balance_of_Power_10_tt: "The §YBalance of Power§! will move §G10%§! in our favour"
+ JAP_SOV_Balance_of_Power_15_tt: "The §YBalance of Power§! will move §G15%§! in our favour"

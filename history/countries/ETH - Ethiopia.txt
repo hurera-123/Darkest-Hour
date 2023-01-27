@@ -37,6 +37,7 @@
 		Industrial_Management = 1
 		Factory_Electrification = 1
 		Motorized_Plowing = 1
+		Basic_Construction_Machines = 1
 		### Land Doctrines
 		Twentieth_Century_Warfare = 1
 		Leading_by_Order = 1

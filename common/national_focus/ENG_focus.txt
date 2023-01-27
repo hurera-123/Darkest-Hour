@@ -1131,6 +1131,33 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			unlock_decision_category_tooltip = ENG_British_Indian_Army_Category
+			add_corps_commander_role = {
+				character = ENG_Claude_Auchinleck
+				traits = { inflexible_strategist career_officer }
+				skill = 5
+				attack_skill = 3
+				defense_skill = 5
+				planning_skill = 3
+				logistics_skill = 5
+			}
+			add_corps_commander_role={
+				character = ENG_William_Slim
+				traits = { trickster war_hero }
+				skill = 5
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 5
+				logistics_skill = 5
+			}
+			add_corps_commander_role={
+				character = ENG_Thomas_Jacomb_Hutton
+				traits = { old_guard }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 1
+			}
 		}
 	}
 	focus = {
@@ -1317,6 +1344,70 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			unlock_decision_tooltip = ENG_Fortify_El_Alamein
+			add_corps_commander_role = {
+				character = ENG_Lord_Archibald_Wavell
+				traits = { career_officer }
+				skill = 4
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 4
+			}
+			add_corps_commander_role={
+				character = ENG_Oliver_Leese
+				traits = {  armor_officer harsh_leader politically_connected }
+				skill = 4
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 4
+			}
+			add_corps_commander_role={
+				character = ENG_Brian_Horrocks
+				traits = {  armor_officer career_officer war_hero }
+				skill = 3
+				attack_skill = 1
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 3
+			}
+			add_corps_commander_role={
+				character = ENG_Miles_Dempsey
+				traits = { brilliant_strategist infantry_officer career_officer }
+				skill = 4
+				attack_skill = 3
+				defense_skill = 4
+				planning_skill = 4
+				logistics_skill = 2
+			}
+			add_corps_commander_role={
+				character = ENG_Neil_Ritchie
+				traits = { inflexible_strategist armor_officer politically_connected  }
+				skill = 4
+				attack_skill = 3
+				defense_skill = 4
+				planning_skill = 3
+				logistics_skill = 3
+			}
+			add_corps_commander_role = {
+				character = ENG_Richard_OConnor
+				traits = {  }
+				skill = 4
+				attack_skill = 2
+				defense_skill = 4
+				planning_skill = 4
+				logistics_skill = 3
+			}
+			create_corps_commander = {
+				name = "Henry Wilson"
+				GFX = GFX_M_Henry_Wilson
+				traits = { career_officer }
+				skill = 4
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 4
+			}
 		}
 	}
 	focus = {
