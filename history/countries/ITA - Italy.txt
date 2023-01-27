@@ -68,7 +68,6 @@ recruit_character = ITA_Giuseppe_de_Nava
 recruit_character = ITA_Gianbattista_Bettone
 recruit_character = ITA_Leone_Wollemborg
 recruit_character = ITA_Alfredo_Dallolio
-recruit_character = ITA_Vittorio_Italico_Zupelli
 recruit_character = ITA_A_de_Marinis_de_Ricia
 recruit_character = ITA_Luigi_Einaudi
 recruit_character = ITA_Alessandro_Marchese_Casati

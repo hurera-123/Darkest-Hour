@@ -3352,12 +3352,23 @@ characters={
 			}
 		}
 	}
-	ENG_Lord_Archibald_Wavell = {
-		name=ENG_Lord_Archibald_Wavell
+	ENG_Archibald_Wavell = {
+		name=ENG_Archibald_Wavell
 		portraits={
 			army={
-				small="GFX_idea_Lord_Archibald_Wavell"
+				small="GFX_idea_Archibald_Wavell"
 				large="GFX_M_Archibald_Wavell"
+			}
+		}
+		advisor={
+			slot=high_command
+			idea_token=ENG_Archibald_Wavell_HC
+			allowed={
+				tag=ENG
+			}
+			traits={
+				
+				army_regrouping_2
 			}
 		}
 		advisor={
@@ -4137,25 +4148,6 @@ characters={
 			traits={
 				
 				CoAir_Carpet_Bombing_Doctrine
-			}
-		}
-	}
-	ENG_Archibald_Wavell = {
-		name=ENG_Archibald_Wavell
-		portraits={
-			army={
-				small="GFX_idea_Archibald_Wavell"
-			}
-		}
-		advisor={
-			slot=high_command
-			idea_token=ENG_Archibald_Wavell_HC
-			allowed={
-				tag=ENG
-			}
-			traits={
-				
-				army_regrouping_2
 			}
 		}
 	}

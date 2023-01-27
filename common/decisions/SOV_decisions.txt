@@ -2249,8 +2249,6 @@ SOV_Second_Five_Year_Plan_category = {
 				idea = SOV_Five_Year_Plan_Fulfilled
 				days = 372
 			}
-			set_country_flag = SOV_Five_Year_Plan_Completed_flag
-			mark_focus_tree_layout_dirty = yes
 		}
 		timeout_effect = {
 			add_timed_idea = {

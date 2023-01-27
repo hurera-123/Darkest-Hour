@@ -130,7 +130,6 @@ recruit_character = USA_Sidney_Souers
 recruit_character = USA_Harry_Haywood
 recruit_character = USA_Joseph_Vanzler
 recruit_character = USA_Parker_Sage
-recruit_character = USA_Larry_K_Arnold
 recruit_character = USA_Walter_Krueger
 recruit_character = USA_Lloyd_Fredendall
 recruit_character = USA_Leslie_McNair
