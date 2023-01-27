@@ -178,14 +178,14 @@ units = {
 	## Shanghai Defense Force ##
 	division = {
 		name ="Shanghai Jingbei"
-		location = 7014
+		location = 12052
 		division_template = "Mínbīng"		# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.5
 
 	}
 	division = {
 		name ="Lu zhan Shi"
-		location = 7014
+		location = 12052
 		division_template = "Mínbīng"		# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.5
 		start_equipment_factor = 0.5
@@ -262,7 +262,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 411
 		}
-		location = 12076
+		location = 10034
 		division_template = "Bùbīng shī"		# Reorganized German-trained division (frontline infantry, better equipment and highest experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
@@ -273,14 +273,14 @@ units = {
 			is_name_ordered = yes
 			name_order = 414
 		}
-		location = 12076
+		location = 10034
 		division_template = "Bùbīng shī"		# German-trained division (frontline infantry, better equipment and experience)
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
 	}
 	division = {
 		name ="4 Mínbīng"
-		location = 12076
+		location = 10034
 		division_template = "Mínbīng"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -288,7 +288,7 @@ units = {
 	}
 	division = {
 		name ="18 Mínbīng"
-		location = 12076
+		location = 10034
 		division_template = "Mínbīng"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -392,7 +392,7 @@ units = {
 	}
 	division = {
 		name ="Huaining Jingbei"
-		location = 1083
+		location = 12061
 		division_template = "Mínbīng"		# Garrison unit (poor equipment and training)
 		start_equipment_factor = 0.5
 
@@ -414,7 +414,7 @@ units = {
 	}
 	division = {
 		name ="13 Lujun Shi"
-		location = 12030
+		location = 7172
 		division_template = "Bùbīng shī"
 		start_equipment_factor = 0.5
 
@@ -521,8 +521,8 @@ units = {
 	##### ROCN #####
 	navy = {
 		name = "Zhōnghuá Mínguó Hǎijūn"
-		base = 7014
-		location = 7014 #Shanghai (Should be Qingdao)
+		base = 10000
+		location = 10000 #Shanghai (Should be Qingdao)
 		# 1st Fleet
 		ship = { name = "Ninghai" definition = light_cruiser equipment = { CL_equipment_1922 = { amount = 1 owner = CHI } } }
 		ship = { name = "Pinghai" definition = light_cruiser equipment = { CL_equipment_1922 = { amount = 1 owner = CHI } } }

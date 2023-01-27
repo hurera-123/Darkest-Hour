@@ -114,16 +114,16 @@
  ITA_Ethiopian_War.22.C: "Where is Ethiopia, anyway?"
  
  ITA_Ethiopian_War.23.t: "March of the Iron Will"
- ITA_Ethiopian_War.23.d: "[FROM.GetNewsIcon]"
- ITA_Ethiopian_War.23.A: ""
+ ITA_Ethiopian_War.23.d: "[FROM.GetNewsIcon]Today, Marshal of Italy Pietro Bagdolio declared the start of the March of the Iron Will. It will be part military manoeuvre, part force display. The plan appears to be for him to lead a mechanized column from Dessie to Ethiopia's capital, Addis Ababa. The fact that he is confident enough to broadcast his next military manoeuvre to the entire world and use it as a PR showcase demonstrates how severely the Italians have savaged the Ethiopian Army. The Ethiopians, for their part, appear to have established a minor checkpoint along the planned route at Termaber Pass. Aside from that, with the majority of the army in the north scattered at Maychew and the army in the south still being whipped by the Italians, it's clear that the Ethiopians intend to fight their war from exile. Emperor Halie Salisse is said to have asked for permission to seek refuge in French Somaliland."
+ ITA_Ethiopian_War.23.A: "Adwa Avenged!"
  
  ITA_Ethiopian_War.24.t: "March of the Iron Will"
- ITA_Ethiopian_War.24.d: "[FROM.GetNewsIcon]"
- ITA_Ethiopian_War.24.A: ""
+ ITA_Ethiopian_War.24.d: "[FROM.GetNewsIcon]Today, Marshal of Italy Pietro Bagdolio declared the start of the March of the Iron Will. It will be part military manoeuvre, part force display. The plan appears to be for him to lead a mechanized column from Dessie to Ethiopia's capital, Addis Ababa. The fact that he is confident enough to broadcast his next military manoeuvre to the entire world and use it as a PR showcase demonstrates how severely the Italians have savaged the Ethiopian Army. The Ethiopians, for their part, appear to have established a minor checkpoint along the planned route at Termaber Pass. Aside from that, with the majority of the army in the north scattered at Maychew and the army in the south still being whipped by the Italians, it's clear that the Ethiopians intend to fight their war from exile. Emperor Halie Salisse is said to have asked for permission to seek refuge in French Somaliland."
+ ITA_Ethiopian_War.24.A: "Adwa Avenged!"
  
- ITA_Ethiopian_War.25.t: "League of Nations lambasts Italian actions"
- ITA_Ethiopian_War.25.d: ""
- ITA_Ethiopian_War.25.A: ""
+ ITA_Ethiopian_War.25.t: "League of Nations condemns Italian actions"
+ ITA_Ethiopian_War.25.d: "The League of Nations voted today, largely symbolically, to condemn the recently launched Italian invasion of Ethiopia. After beginning under false pretences, the League has united in its opposition at the urging of Ethiopia, France, and the United Kingdom. While this vote is purely symbolic, it is an important first step because it allows the League to move on to more aggressive future actions. Embargoes on Italian imports needed for the war, such as steel and oil, are among the proposed actions. However, as with anything related to the League, these proposals have been met with opposition. Predictably, the majority of this is centred on the Italian delegation, which has taken to shouting down any discussion of punitive actions against the country they represent. As Ethiopia valiantly defends its independence in an increasingly hopeless battle, the League once again demonstrates its inaction at a critical juncture."
+ ITA_Ethiopian_War.25.A: "We will have our glory!"
  
  ITA_Ethiopian_War.26.t: "The Italian invasion of Ethiopia"
  ITA_Ethiopian_War.26.d: ""
@@ -145,8 +145,8 @@
  ITA_Ethiopian_War.29.A: ""
  
  ITA_Ethiopian_War.30.t: "The British denounce us"
- ITA_Ethiopian_War.30.d: ""
- ITA_Ethiopian_War.30.A: ""
+ ITA_Ethiopian_War.30.d: "The British ambassador to Italy, Eric Drummond, Earl of Perth, met with Mussolini today. The discussion was brief but intense. In the recent League of Nations vote, Britain was one of the most vocal delegations opposing us, and Mussolini could guess what Drummond had to say. When Drummond stated that the British government would never accept Ethiopia's annexation into the Italian Empire, Mussolini appeared to have guessed correctly. Mussolini responded that during its expansion, Britain had annexed a large number of nations, and proceeded to list over a dozen nations in India alone that the British Raj had subsumed. Drummond simply reiterated his message: the British government would never accept Ethiopia's annexation. "What matters is not what you accept, but what happens," Mussolini allegedly said. "We will have Ethiopia, no matter what your Prime Minister wants". After a brief moment of waiting for Drummond to respond, Mussolini waved him off, not entirely surprised by what had just occurred."
+ ITA_Ethiopian_War.30.A: "Perfidious Albion!"
  
  ITA_Ethiopian_War.31.t: "The British oppose us"
  ITA_Ethiopian_War.31.d: ""
@@ -193,8 +193,8 @@
  ITA_Ethiopian_War.39.B: "Let them be"
  
  ITA_Ethiopian_War.40.t: "Capitulation of Ethiopia"
- ITA_Ethiopian_War.40.d: ""
- ITA_Ethiopian_War.40.A: ""
+ ITA_Ethiopian_War.40.d: "The last organized Abyssinian resistance to our victorious armies was defeated today in the town of Gogetti. Adwa's humiliation has been avenged tenfold, and Italy now has the seeds of the colonial empire it was robbed of! The barbaric tribesmen the Ethiopians had the audacity to call soldiers fell like flies as a result of the use of modern weaponry such as poison gas and machine guns! The destruction of their 'Empire' was a foregone conclusion after the fall of their capital, Addis Ababa. However, the Abyssinians persisted in their fight, and they are now paying the price for their arrogance. Their Royal Family is in exile, their Army is imprisoned, and their people are now subject to our rule.\n\nLengthy plans for the administration of newly conquered lands have been implemented as the General Staff in Rome shake hands and Mussolini toasts to the fascist system's victory. The Duke of Aosta will lead the new colonial administration of Italian East Africa (AOI). Miscegenation will be prohibited, the ruling Amhara caste will be isolated, and the people will be pacified using the tried-and-true Roman method of bread and circuses. The international community has lodged their limp wristed and ineffective 'diplomatic protests' with the equally ineffective League of Nations, but we should disregard this. Did Rome seek permission from the Gaul and British tribes before conquering the Mediterranean? No! So, just as our forefathers did before us, we'll let them scream themselves purple while we bask in the warmth of our victory."
+ ITA_Ethiopian_War.40.A: "Avanti Italia"
  
  ITA_Ethiopian_War.50.t: "Pietro Gazzera Dismissed as Minister of War, Mussolini Takes His Place"
  ITA_Ethiopian_War.50.d: "[FROM.GetNewsIcon]The news came through today of Pietro Gazzera's dismissal as minister of war directly from the top, but to no great surprise seeing the many conflicts within the leadership of the military and the party he's caused. The man, having been in the position since 1929 has done a competent job at keeping and expanding our armed forces, however, his views for the MVSN has been unacceptable. Ever since 1931 Gazzera's ambition has been to reintegrate the MVSN directly inside the Regio Esercito and effectively dissolve it, this has been met with fierce resistance from the National Fascist Party exponents. His opposition to these members and unwillingness to back down had prompted the Duce to step in and mend the situation, but to no avail, Gazzera wouldn't budge. \n\nAs such, his office has been removed from under his control and placed under the ever watching eye of Mussolini which will undoubtedly be the best for the cohesion of the armed forces and the future of our military endeavours. However, Gazzera remains a senator so his work with the party will continue even if in offices of diminished power."
@@ -216,11 +216,11 @@
  ITA_Colonial.3.A: "*Click*"
  
  ITA_Colonial.4.t: "Restore Libyan Rights"
- ITA_Colonial.4.d: "Can a sick man take care of others? \n\nAny sane man would say no, as it's custom to take care of the sick instead of working them more than before. Alas, that's what the Ottomans thought they could do. The broken Empire held onto the Libyan desert for more than 350 years, until we liberated them in the Tripolitanian War. Up until then, they never treated the Libyans as people. The old man of Europe coughed and wheezed - gasping for life until it was no more, it infected everything it touched. \n\nThat old man is long dead now, and we hold a small piece of its ashes. A piece of desert far, and wide - full of cultured and working people. The Libyans need a saviour to save them from the hardships left behind, and what better way to do that but treat them more equally than before? and give them the request they've earned. \n\nEstablishing new class citizenship to Libyans loyal to the fascist cause will reign in a new era for the oppressed Libyan people. More recruitment to the P.N.F and promoting religious equality are just a few examples included in the "new" Africa Orientale Italiana. Our ideology knows no bounds to our people…for the prosperity and for the development of our Empire."
+ ITA_Colonial.4.d: "Can a sick man take care of others? \n\nAny sane man would say no, as it's custom to take care of the sick instead of working them more than before. Alas, that's what the Ottomans thought they could do. The broken Empire held onto the Libyan desert for more than 350 years, until we liberated them in the Tripolitanian War. Up until then, they never treated the Libyans as people. The old man of Europe coughed and wheezed - gasping for life until it was no more, it infected everything it touched. \n\nThat old man is long dead now, and we hold a small piece of its ashes. A piece of desert far, and wide - full of cultured and working people. The Libyans need a saviour to save them from the hardships left behind, and what better way to do that but treat them more equally than before? and give them the request they've earned. \n\nEstablishing new class citizenship to Libyans loyal to the fascist cause will reign in a new era for the oppressed Libyan people. More recruitment to the P.N.F and promoting religious equality are just a few examples included in the "new" Africa Orientale Italiana. Our ideology knows no bounds to our people...for the prosperity and for the development of our Empire."
  ITA_Colonial.4.A: "...And That's What Everyone Gets Wrong."
  
  ITA_Colonial.5.t: "Establishment of Africa Orientale Italiana"
- ITA_Colonial.5.d: "No one ever said colonization would be easy. The British had revolutions everywhere, the French sold much of theirs, and then there's Portugal with its extensive Atlantic slave trade. They all have the same common theme: A lack of a sense of unity. The Great Powers of old thought they could just walk in and strip whatever they could, without a hint of compensation for the people there. Sure, we may have had to… “forcefully” take what was ours, but we don't consider those supportive of our colonial cause lesser than us.\n\nThe Africa Orientale Italiana, or AOI, addresses that lack. The plan consists of merging the pre-existing colonies of Italian Somaliland and Italian Eritrea with the newly conquered Ethiopian state. Although it could be an initial bureaucratic nightmare, establishing our presence and creating a national identity of Italian Africa could be worth it. Assigning a governor to the region would also help with the logistical assistance, dividing them into six separate Governorates. \n\nEl Duce pondered this and sat back in his chair. It seems all in order. It all comes down to how the citizens of our colonies will respond to the new organization. "
+ ITA_Colonial.5.d: "No one ever said colonization would be easy. The British had revolutions everywhere, the French sold much of theirs, and then there's Portugal with its extensive Atlantic slave trade. They all have the same common theme: A lack of a sense of unity. The Great Powers of old thought they could just walk in and strip whatever they could, without a hint of compensation for the people there. Sure, we may have had to... “forcefully” take what was ours, but we don't consider those supportive of our colonial cause lesser than us.\n\nThe Africa Orientale Italiana, or AOI, addresses that lack. The plan consists of merging the pre-existing colonies of Italian Somaliland and Italian Eritrea with the newly conquered Ethiopian state. Although it could be an initial bureaucratic nightmare, establishing our presence and creating a national identity of Italian Africa could be worth it. Assigning a governor to the region would also help with the logistical assistance, dividing them into six separate Governorates. \n\nEl Duce pondered this and sat back in his chair. It seems all in order. It all comes down to how the citizens of our colonies will respond to the new organization. "
  ITA_Colonial.5.A: "Time to Give Emmanuel a Call"
  ITA_Giuseppe_Bottai_Appointed_Vicere: "§YGiuseppe Bottai§! has been Appointed §OViceré§!"
  
@@ -229,45 +229,45 @@
  ITA_Colonial.6.A: "“Would you rather Mussolini crown himself Emperor instead?”"
  
  ITA_IG_Farben_Negotation.1.t: "Approach IG Farben"
- ITA_IG_Farben_Negotation.1.d: ""
- ITA_IG_Farben_Negotation.1.A: ""
+ ITA_IG_Farben_Negotation.1.d: "Many of our experts have been considering how the numerous collaborations with the German Reich could have aided in the development of a local pharmaceutical sector. Given how well our relations with the German Reich are now, we should contact IG Farben.\n\nWe now intend to send our top scientists to an internship programme, where they will gain skills and provide us with highly qualified personnel to work on a domestic brand and increase domestic manufacturing."
+ ITA_IG_Farben_Negotation.1.A: "Let's present the terms."
  
  ITA_IG_Farben_Negotation.2.t: "Italy Proposes Negotiations to IG Farben"
- ITA_IG_Farben_Negotation.2.d: ""
+ ITA_IG_Farben_Negotation.2.d: "We have been presented an offer by the Italian government in relation to IG Farben, a German company that is a major producer of chemicals that will be very useful for our transition to autarky. As we have good relations with the Italians, mainly due to our shared ideology and goals, they hope that we will be able to strike a deal that they can use to the fullest extent.\n\nHowever, we too want our fair share, and while we are more than willing to find a deal with them, it could be in our interests to try and increase the price that they must pay to get what they want. Of course, we can agree to the terms that they first presented to us, but it could be a good idea if we want to generate some more funds."
  ITA_IG_Farben_Negotation.2.A: "Ask for 100% Increase"
  ITA_IG_Farben_Negotation.2.B: "Agree with Starting Proposal"
  
- GER_Request_for_100_Increase_tt: "We will request §B200§! £money_icon \n"
- GER_Agree_Starting_Proposal_tt: "We will §GAgree§! on the Initial Proposal of §B100§! £money_icon \n" 
+ GER_Request_for_100_Increase_tt: "We will request §B2000§! £money_icon \n"
+ GER_Agree_Starting_Proposal_tt: "We will §GAgree§! on the Initial Proposal of §B1000§! £money_icon \n" 
  
  ITA_IG_Farben_Negotation.3.t: "Agreement on Synthetic Oil Patents with IG Farben Signed"
- ITA_IG_Farben_Negotation.3.d: ""
- ITA_IG_Farben_Negotation.3.A: ""
- ITA_IG_Farben_Negotation.3.B: ""
+ ITA_IG_Farben_Negotation.3.d: "Today is a great day in Europe for fascist forces, as Italy and the Germans have finally agreed on partnership terms after lengthy negotiations. This collaboration involved a Synthetic Oil Patents agreement that will benefit both countries.\n\nSynthetic oil, which has been developed for a few years, must be the future of the fuel economy, as those who own it no longer require the massive oil wells that the French and British value so highly in the Middle East.\n\nFollowing the agreement's signing, both Il Duce and the Fuhrer addressed their ministers and populations, claiming that this is only the beginning of a "closer relationship between the heirs of the Roman Empire and the Holy Roman Empire!"\n\nThe British and French diplomats remained silent, claiming that the "synthetic oil" is a waste of time. However, this is a significant scientific advance for both the synthetic industry and a significant step toward autarky for both nations."
+ ITA_IG_Farben_Negotation.3.A: "The German and the Italians, together on the road to glory!"
+ ITA_IG_Farben_Negotation.3.B: "The German and the Italians, together on the road to glory!"
  
  ITA_IG_Farben_Negotation.5.t: "IG Farben asks to Increase Price"
- ITA_IG_Farben_Negotation.5.d: ""
- ITA_IG_Farben_Negotation.5.A: "Agree with German Price"
- ITA_IG_Farben_Negotation.5.B: ""
+ ITA_IG_Farben_Negotation.5.d: "Today, we received a letter from our German friends. This letter concerned the deal we have with IG Farben.\n\nArguing that the agreement's prices are too low for the company's benefit, they have officially announced their intention to raise the prices by 100%, a decision that has concerned Italian business owners, who have warned that paying too much could have dire consequences for our economy.\n\nMussolini, on the other hand, has emphasised the significance of this Italo-German agreement, arguing that Italy cannot remain alone in a massively hostile Europe dominated by ageing democracies and archaic monarchies. He stated that Germany is currently the only potential partner, or at least the only one who does not hesitate to contact us.\n\nIn the end, the decision is ours. Should we accept the high prices in exchange for a better partnership with the Germans, or should we accept only half of their offer, upsetting our only significant investor?"
+ ITA_IG_Farben_Negotation.5.A: "A price worth paying for strong allies."
+ ITA_IG_Farben_Negotation.5.B: "Make a 50% counter-proposal. We will not sell our country."
  
  ITA_IG_Farben_Negotation.6.t: "Agreement on Synthetic Oil Patents with IG Farben Signed"
- ITA_IG_Farben_Negotation.6.d: ""
- ITA_IG_Farben_Negotation.6.A: ""
- ITA_IG_Farben_Negotation.6.B: ""
+ ITA_IG_Farben_Negotation.6.d: "Today is a great day in Europe for fascist forces, as Italy and the Germans have finally agreed on partnership terms after lengthy negotiations. This collaboration involved a Synthetic Oil Patents agreement that will benefit both countries.\n\nSynthetic oil, which has been developed for a few years, must be the future of the fuel economy, as those who own it no longer require the massive oil wells that the French and British value so highly in the Middle East.\n\nFollowing the agreement's signing, both Il Duce and the Fuhrer addressed their ministers and populations, claiming that this is only the beginning of a "closer relationship between the heirs of the Roman Empire and the Holy Roman Empire!"\n\nThe British and French diplomats remained silent, claiming that the "synthetic oil" is a waste of time. However, this is a significant scientific advance for both the synthetic industry and a significant step toward autarky for both nations."
+ ITA_IG_Farben_Negotation.6.A: "The German and the Italians, together on the road to glory!"
+ ITA_IG_Farben_Negotation.6.B: "The German and the Italians, together on the road to glory!"
  
  ITA_IG_Farben_Negotation.8.t: "Spaghetti-Eaters Ask for Price Reduction"
- ITA_IG_Farben_Negotation.8.d: ""
- ITA_IG_Farben_Negotation.8.A: "Agree to 50% Reduction"
- ITA_IG_Farben_Negotation.8.B: "Insist on our Proposal"
+ ITA_IG_Farben_Negotation.8.d: "Our proposal for a 100% price increase was rejected, and the Italian government now wants only a 50% price increase because the original proposal would have required too much financial commitment.\n\nAs a result, IG Farben are tempted to agree to the Italian proposal, which could lead to the Synthetic Oil Patents Agreement being signed shortly. If the price reduction goes through, it could result in a lower profit, although the money will help us significantly improve our economic and military capacities, as well as our connections with the Kingdom of Italy. Do we want better relations for a lower price, or do we want what we are rightly owed?"
+ ITA_IG_Farben_Negotation.8.A: "Agree to a 50% reduction."
+ ITA_IG_Farben_Negotation.8.B: "Insist on our proposal."
  
  ITA_IG_Farben_Negotation.9.t: "IG Farben Agreed to Reduce Price"
- ITA_IG_Farben_Negotation.9.d: ""
- ITA_IG_Farben_Negotation.9.A: ""
+ ITA_IG_Farben_Negotation.9.d: "Our German partner appears to have agreed to our proposal of only a 50% price increase for synthetic oil. Given the importance of synthetic oil to our economy, this is a rather advantageous compromise for us.\n\nWe now have the power of synthetic oil on our hands, thanks to the price negotiation coming to an acceptable price that both Germany and us can agree on. This would be a critical step toward reducing our reliance on natural oil from our French and British competitors, as well as reducing the potential damage of an economic blockade."
+ ITA_IG_Farben_Negotation.9.A: "Another step on the road to autarky."
  
  ITA_IG_Farben_Negotation.10.t: "Agreement on Synthetic Oil Patents with IG Farben Signed"
- ITA_IG_Farben_Negotation.10.d: ""
- ITA_IG_Farben_Negotation.10.A: ""
- ITA_IG_Farben_Negotation.10.B: ""
+ ITA_IG_Farben_Negotation.10.d: "Italy and Germany have formally begun their cooperation in the field of synthetic oil after a long series of price negotiations. The two countries will now collaborate on the development and production of synthetic fuels in the hopes of reducing their own reliance on foreign oil, much to the chagrin of the United Kingdom and France, which appear to be less interested in such fields, believing it to be a scientific dead end.\n\nRegardless, the German-Italian synthetic oil cooperation has now solidified, and both parties would benefit greatly from this cooperation on many fields, more than just the industrial fronts. With a reduced price agreed, both sides stated that \"a new era of Italo-German cooperation has begun\"."
+ ITA_IG_Farben_Negotation.10.A: "A great success for all!"
+ ITA_IG_Farben_Negotation.10.B: "A great success for all!"
 
  
  ITA_Economic_Tree.1.t: "General Confederation of Italian Industry"
@@ -291,8 +291,8 @@
  ITA_Economic_Tree.5.A: "Maybe not us, but our children? Surely."
 
  ITA_Political_Tree.1.t: "Formation of the Corporations"
- ITA_Political_Tree.1.d: ""
- ITA_Political_Tree.1.A: ""
+ ITA_Political_Tree.1.d: "Mussolini and the Fascist Party promise the Italian people a new economic system known as corporatism, which includes the establishment of professional corporations. Professional corporations are formed by trade unions and employers organisations from the same profession or branch. This system will be both egalitarian and traditional at the same time.\n\nThe corporate State believes that private enterprise in the production sector is the most effective and useful tool in the national interest. Given that private production organisation is a function of national concern, the enterprise organiser is accountable to the State for the direction given to production.\n\nState intervention in economic production occurs only when private initiative is absent or insufficient, or when the State's political interests are at stake. Control, assistance, or direct management may be used in this intervention."
+ ITA_Political_Tree.1.A: "Everything within the state, nothing outside the state, nothing against the state!"
 
  ITA_Political_Tree.2.t: "No More Pacts With the Plutocrats"
  ITA_Political_Tree.2.d: ""
@@ -314,8 +314,8 @@
  ITA_Political_Tree.5.B: "Never again shall we be oppressed by a foreign power!"
 
  ITA_Political_Tree.6.t: "[FROM.GetName] Has Accepted Our Ultimatum"
- ITA_Political_Tree.6.d: ""
- ITA_Political_Tree.6.A: ""
+ ITA_Political_Tree.6.d: "[FROM.GetName] has shown wisdom and acknowledged our superiority. They have agreed to fully meet the demands that were made to them. This has not only increased our power and influence in the Balkans, but it also serves as an example of Italian supremacy to the rest of the world.\n\nThis has brought us one step closer to total dominance of the Balkans, and Italians all over the country are celebrating, ecstatic about what the future holds for Italy. But now is not the time to be complacent: we must focus our sights and attention on a new goal, and quickly, lest someone else beats us to it."
+ ITA_Political_Tree.6.A: "One after the other, they will submit."
  
  ITA_Political_Tree.7.t: "[FROM.GetName] Has Refused Our Ultimatum"
  ITA_Political_Tree.7.d: ""
@@ -345,17 +345,17 @@
  ITA_Political_Tree.12.B: "Refuse"
 
  ITA_Political_Tree.13.t: "Albania Submits to Us"
- ITA_Political_Tree.13.d: ""
- ITA_Political_Tree.13.A: ""
+ ITA_Political_Tree.13.d: "The Albanian King Zog I has cowardly accepted our ultimatum of a total Italian takeover of the nation.\n\nAlbania has long been economically dependent on Italian loans and financial aid; we have long been close allies with them, and as a result of these loans and financial aids, Albania has become a de facto protectorate of Italy. For these and other reasons, such as the superior numbers of the Italian troops, King Zog accepted the ultimatum without much of a fight.\n\nItalian forces have already crossed the sea into Albania, imposing order and dominance on the once-independent country and, in the process, finally expanding the Italian empire."
+ ITA_Political_Tree.13.A: "Now what to do with Zog?"
 
  ITA_Political_Tree.14.t: "Albania Refuses to Submit"
- ITA_Political_Tree.14.d: ""
- ITA_Political_Tree.14.A: "Accept the Refusal"
- ITA_Political_Tree.14.B: "Declare War"
+ ITA_Political_Tree.14.d: "Zog has foolishly refused our ultimatum on annexing Albania!\n\nEven after threats, proposals, and assurances, King Zog stands firm and refuses to allow Albania to be occupied and annexed. Given the Italian army's overwhelming strength and numbers, as well as Albania's economic reliance on Italian loans and financial aid, this is both unacceptable and foolish. Because of these factors, Albania has de facto become an Italian protectorate, so rejecting the ultimatum makes little sense.\n\nKing Zog will see the consequences of his actions, and he will realise that simply rejecting what Italy demands is not enough."
+ ITA_Political_Tree.14.A: "War is not in our interests."
+ ITA_Political_Tree.14.B: "Prepare the troops."
 
  ITA_Political_Tree.141.t: "Naval Landings in Albania Succeed"
- ITA_Political_Tree.141.d: ""
- ITA_Political_Tree.141.A: ""
+ ITA_Political_Tree.141.d: "On April 7, 1939, Italian forces successfully landed in Albania, marking the first successful foreign invasion of the country. The operation, led by Italian dictator Benito Mussolini, is a decisive victory for the Italian military and a major step forward in Italy's efforts to expand its empire.\n\nThe naval landings were carefully planned and executed, with Italian ships transporting troops to the shores of Albania under cover of darkness. Once on shore, the Italian soldiers quickly secured key positions, overwhelming the Albanian defenders with their superior weaponry and training.\n\nAs the sun rose over the Albanian coastline, it became clear that the Italian invasion had been a complete success. Mussolini, who had been closely monitoring the operation from Rome, was jubilant at the news. He declared that the Italian people had once again shown their strength and determination, and that the conquest of Albania was just the beginning of a new era of Italian greatness.\n\nFor the Albanian people, however, the Italian invasion is the beginning of a nightmare. Many were killed or injured in the fighting, and the country has been left in chaos and confusion.\n\nDespite the initial success of the naval landings, the Italian occupation of Albania could prove to be a costly and difficult endeavour. The Albanian people are sure to continue to resist the Italian occupiers, and a war of resistance could drag on for years, costing countless lives and devastating the country. Nevertheless, the successful naval landings in Albania remain a key moment in Italy's history, and a testament to the power of Mussolini's fascist regime."
+ ITA_Political_Tree.141.A: "A great success for our forces!"
 
  ITA_Political_Tree.142.t: "Albanian Resistance Crumbles"
  ITA_Political_Tree.142.d: ""
@@ -364,6 +364,7 @@
  ITA_Political_Tree.143.t: "Victor Emmanuel III Crowned as King of the Albanians"
  ITA_Political_Tree.143.d: "[FROM.GetNewsIcon]"
  ITA_Political_Tree.143.A: ""
+ ITA_Political_Tree.143.B: ""
 
  ITA_Political_Tree.15.t: "Italy, Centre of European Stability"
  ITA_Political_Tree.15.d: "[FROM.GetNewsIcon]Today the Final Declaration of the Stresa Conference took place, an agreement made in Stresa, a town on the banks of Lake Maggiore in Italy, between France, Britain and Italy. It aims to reaffirm the Locarno Treaties and to declare that the independence of Austria "would continue to inspire their common policy". The signatories also agreed to resist any future attempt by Germany to change the Treaty of Versailles.\n\nThe Stresa Front, as the agreement is also referred to, was triggered by Germany's declaration of its intention of building up an air force, increasing the size of its army and introducing conscription. All of these actions are direct violations of the Treaty of Versailles, which limits the size of the German army to 100,000 men and prohibits Germany from using conscription and having an air force.\n\nSince British politicians stated they do not want to attack or occupy Germany, but prefer to have agreements with it to maintain peace in Central Europe and with antiwar sentiment being very strong among the British public, they thought this to be the best way to contain Germany.\n\nHowever, already some people are doubtful and think that these countries will not follow up on this agreement if push comes to shove."
@@ -371,7 +372,7 @@
  ITA_Political_Tree.15.B: "Let’s See if They Keep Their Word"
 
  ITA_Political_Tree.17.t: "Italy Plans Preemptive Assault on Greece"
- ITA_Political_Tree.17.d: "A letter from the Italian war committee:\n\n“…To further secure trade in the Mediterranean Sea for civilian and military goods from a hostile government, a new plan of offense has been drafted against the nation of Greece. With planning established, we ask our fellow allies to support an invasion of the coastal nation for the greater good of Europe…”\n\nAlmost instantly upon reading, our own committee was split on the proposal. Some argue that it's a necessary evil to secure another front and trade in the Mediterranean. Others are saying it's warmongering and it'll spread our equipment and troops even more than they are now. \n\nHow should we respond?"
+ ITA_Political_Tree.17.d: "A letter from the Italian war committee:\n\n“...To further secure trade in the Mediterranean Sea for civilian and military goods from a hostile government, a new plan of offense has been drafted against the nation of Greece. With planning established, we ask our fellow allies to support an invasion of the coastal nation for the greater good of Europe...”\n\nAlmost instantly upon reading, our own committee was split on the proposal. Some argue that it's a necessary evil to secure another front and trade in the Mediterranean. Others are saying it's warmongering and it'll spread our equipment and troops even more than they are now. \n\nHow should we respond?"
  ITA_Political_Tree.17.A: "It Is a Necessary Move to Halt the Enemy's Advances"
  ITA_Political_Tree.17.B: "Protest the Choice, but Go No Further"
 
@@ -380,7 +381,7 @@
  ITA_Political_Tree.18.A: "Who needs them anyway?"
 
  ITA_Political_Tree.19.t: "Green Light From Our Allies"
- ITA_Political_Tree.19.d: "The ambassador poured himself a tall glass of fine wine. He looked pleased at himself, almost a little too much.\n\n\"You look… happy. What happened?\"\n\nThe ambassador put his drink down and smiled. \"After days and days of arguing back and forth with those pitty Frenchmen and the emotionless British we were finally able to convince them that our plan of offense was worth it. More than worth it. Almost a necessity.\" He took a long sip of his wine before giving a devilish smile. \"They gave us a complete go ahead with full support, all we have to do is enact it…\" He stood up and slowly walked to the window with his arms folded, gazing out into the night sky. \"Maybe the French and British aren't so bad after all?\""
+ ITA_Political_Tree.19.d: "The ambassador poured himself a tall glass of fine wine. He looked pleased at himself, almost a little too much.\n\n\"You look... happy. What happened?\"\n\nThe ambassador put his drink down and smiled. \"After days and days of arguing back and forth with those pitty Frenchmen and the emotionless British we were finally able to convince them that our plan of offense was worth it. More than worth it. Almost a necessity.\" He took a long sip of his wine before giving a devilish smile. \"They gave us a complete go ahead with full support, all we have to do is enact it...\" He stood up and slowly walked to the window with his arms folded, gazing out into the night sky. \"Maybe the French and British aren't so bad after all?\""
  ITA_Political_Tree.19.A: "Yup, that's enough wine for you"
 
  ITA_Political_Tree.20.t: "Our Proposal Has Been Rejected!"
@@ -389,7 +390,7 @@
  ITA_Political_Tree.20.B: "We Won't Listen to Them!"
 
  ITA_Political_Tree.21.t: "Italy Plans Preemptive Assault on Turkey"
- ITA_Political_Tree.21.d: "A letter from the Italian war committee:\n\n“...It has come to our attention that the nation of Turkey is a viable trade partner and a geographic gateway into the Black Sea and the Balkans. With threats of a hostile government forming in the nation, we have been planning an offensive intervention. We call upon our allies to support us in the invasion for the greater good of Europe…”\n\nAn invasion of Turkey could prove beneficial for the reasons stated in the proposal. However, some of our advisers have been harshly against it, calling it “warmongering” and "a perfect way to waste our troops' lives."\n\nHow should we respond? "
+ ITA_Political_Tree.21.d: "A letter from the Italian war committee:\n\n“...It has come to our attention that the nation of Turkey is a viable trade partner and a geographic gateway into the Black Sea and the Balkans. With threats of a hostile government forming in the nation, we have been planning an offensive intervention. We call upon our allies to support us in the invasion for the greater good of Europe...”\n\nAn invasion of Turkey could prove beneficial for the reasons stated in the proposal. However, some of our advisers have been harshly against it, calling it “warmongering” and "a perfect way to waste our troops' lives."\n\nHow should we respond? "
  ITA_Political_Tree.21.A: "It Is a Necessary Move to Halt the Enemy's Advances"
  ITA_Political_Tree.21.B: "Protest the Choice, but Go No Further"
 
@@ -491,7 +492,7 @@
  ITA_Pact_with_Albion.7.A: ""
 
  ITA_Pact_with_Albion.8.t: "Italian Magnate Fiat Puts Forward Joint Aircraft Development Proposal!"
- ITA_Pact_with_Albion.8.d: "The Italian firm ‘Fabbrica Italiana Automobili Torino’, better known as Fiat, has proposed joint development of an aircraft! Planned to be designed and built together with Supermarine, a respected and well-known British aircraft manufacturer, the supposed warplane would be the pinnacle of air engineering, combining the elements of each firm to produce a flying machine of death.\n\nGiven the recent ‘British-Italian friendship’, such a development would be, for all intents and purposes, a beneficial endeavor for multiple reasons. For one, the aforementioned friendship would no doubt deepen, with the side effect of obtaining a potentially superior aircraft.\n\nThe downside is the disparity in technology. It is widely known that the Italian warplanes are… lacking in some areas. The only thing going for them is the manoeuvrability of the latest Fiat aircraft, the CR.42 Falco, its speed, armament, and armour being outdated. Many say that such a collaboration would result in more gain for our olive-skinned Mediterranean friends, and we ought to receive compensation for that unfairness. \n\nAnd there is always the option of refusing them outright. Aircrafts have proven to be vital for the war effort, any advantage in air equating to a decisive advantage on the ground. No one would disagree when we say that willingly giving up what amounts to strategic advantages in the form of this "Eurofighter" is rather foolish, especially in light of the possibility of conflict."
+ ITA_Pact_with_Albion.8.d: "The Italian firm ‘Fabbrica Italiana Automobili Torino’, better known as Fiat, has proposed joint development of an aircraft! Planned to be designed and built together with Supermarine, a respected and well-known British aircraft manufacturer, the supposed warplane would be the pinnacle of air engineering, combining the elements of each firm to produce a flying machine of death.\n\nGiven the recent ‘British-Italian friendship’, such a development would be, for all intents and purposes, a beneficial endeavor for multiple reasons. For one, the aforementioned friendship would no doubt deepen, with the side effect of obtaining a potentially superior aircraft.\n\nThe downside is the disparity in technology. It is widely known that the Italian warplanes are... lacking in some areas. The only thing going for them is the manoeuvrability of the latest Fiat aircraft, the CR.42 Falco, its speed, armament, and armour being outdated. Many say that such a collaboration would result in more gain for our olive-skinned Mediterranean friends, and we ought to receive compensation for that unfairness. \n\nAnd there is always the option of refusing them outright. Aircrafts have proven to be vital for the war effort, any advantage in air equating to a decisive advantage on the ground. No one would disagree when we say that willingly giving up what amounts to strategic advantages in the form of this "Eurofighter" is rather foolish, especially in light of the possibility of conflict."
  ITA_Pact_with_Albion.8.A: "It Would Be Like a Air Alvis-Alpha Romeo!"
  ITA_Pact_with_Albion.8.B: "We Hold More Knowledge Than They Do, and It Doesn't Come Cheap"
  ITA_Pact_with_Albion.8.C: "We Not Ready for Such an Undertaking, Maybe a Few Decades Later"
@@ -553,14 +554,14 @@
  ITA_Pact_with_Albion.18.A: ""
 
  ITA_Pact_with_Albion.19.t: "Pressure From the Stresa Front"
- ITA_Pact_with_Albion.19.d: "We have recently received three messages, one from each of the members of the Stresa Front, concerning Italian claims of our land. Britain and France both sent similar messages, speaking of how “the Adriatic Coast and other parts of the Yugoslavian nation belonged to Italy”  and that we should “come to the negotiating table to find a solution peacefully.” It was a much nicer message than the one we received from the Italian government.\n\nTheir message in no other terms stated that we were holding Italian land hostage under our “corrupt and evil regime” and that they “would not tolerate the occupation any further.” The lands they speak of have never been Italian, although their government must be blinded by the fact they missed out on them after the end of the Great War.\n\nThe Italians now want a firm yes or no answer on whether we are to hand over our territory to them. We have no obligation to do so, and the British and French seem a little cautious in their backing of the Italians. However, there is the possibility of the situation escalating further, and should the Italians want to use their army to take the land from us, we would be in a much weaker position, as our forces are not up to the same standard as them.\n\nThe time has come to give them a response, and we say…"
- ITA_Pact_with_Albion.19.A: "… maybe we can come to a reasonable deal."
- ITA_Pact_with_Albion.19.A: "… this land is our land, and our land only!"
+ ITA_Pact_with_Albion.19.d: "We have recently received three messages, one from each of the members of the Stresa Front, concerning Italian claims of our land. Britain and France both sent similar messages, speaking of how “the Adriatic Coast and other parts of the Yugoslavian nation belonged to Italy”  and that we should “come to the negotiating table to find a solution peacefully.” It was a much nicer message than the one we received from the Italian government.\n\nTheir message in no other terms stated that we were holding Italian land hostage under our “corrupt and evil regime” and that they “would not tolerate the occupation any further.” The lands they speak of have never been Italian, although their government must be blinded by the fact they missed out on them after the end of the Great War.\n\nThe Italians now want a firm yes or no answer on whether we are to hand over our territory to them. We have no obligation to do so, and the British and French seem a little cautious in their backing of the Italians. However, there is the possibility of the situation escalating further, and should the Italians want to use their army to take the land from us, we would be in a much weaker position, as our forces are not up to the same standard as them.\n\nThe time has come to give them a response, and we say..."
+ ITA_Pact_with_Albion.19.A: "... maybe we can come to a reasonable deal."
+ ITA_Pact_with_Albion.19.A: "... this land is our land, and our land only!"
 
  ITA_Pact_with_Albion.20.t: "Yugoslavia Refuses Our Demands!"
  ITA_Pact_with_Albion.20.d: "Those foolish Yugoslavians have refused our demands, despite the pressure from us and the rest of the Stresa Front. No matter, for now, is the time for more decisive action!\n\nWe have two choices ahead of us. One of those is that we hold off on our demands for the time being and wait for a better chance to take back what is rightfully ours. This might anger those who have been waiting for the return of our lands, but it will please Britain and France, as they will think we have backed down. Only for now though, as eventually, they will see that they cannot deny what they promised us in 1915.\n\nThe other option is to use our proud army to forcefully seize the land and free those who have been oppressed by the crooked Yugoslavian regime. This will upset the French and British very much, not to mention Yugoslavia of course, but there comes a point when we can no longer listen to them and be held back. If neither of them is willing to support an old ally, we must forge our own path and send our forces to crush Yugoslavia ourselves. Sure, the unity of the front will be irreparably damaged, but we have to do what is necessary to preserve our glorious nation.\n\nWith one order, we shall either hold off our claims for some time longer, or we shall take our place in the world by force."
  ITA_Pact_with_Albion.20.A: "The Time Is Not Right to Take Our Lands"
- ITA_Pact_with_Albion.20.B: "We Have Waited Since 1915 for This Moment…"
+ ITA_Pact_with_Albion.20.B: "We Have Waited Since 1915 for This Moment..."
 
  ITA_Pact_with_Albion.21.t: "Yugoslavia submits to our demands!"
  ITA_Pact_with_Albion.21.d: ""
@@ -571,7 +572,7 @@
  ITA_Pact_with_Albion.22.A: ""
 
  ITA_Cooperation_with_Gaul.1.t: "Italy Proposes an Army Conference."
- ITA_Cooperation_with_Gaul.1.d: "The Italian ambassador has forwarded a proposal from his government that suggests a sharing of military expertise between the officers of our armies. In principle, such a sharing of knowledge would be undoubtedly beneficial to both parties. While we are no slouchers, the Interbellum has seen us lose some of our… edges in the theatre of war, a reality not helped by the continuous peace since then. Our southern friends, on the other hand, are in possession of a bellicose mentality, which has resulted in the active pursuit of military advancements. At face value, cooperation in this field can only help us.\n\nUnfortunately, beneath the surface lie some cracks. Motivation and capital are important factors, but one cannot look only at these factors to determine the competence of an armed force. As it stands, the ‘Regio Esercito Italiano’ has shown itself to be a place of high morale and relatively well-trained personnel, but some questionable leadership in the form of its officers. The last thing we desire is for incompetence to be transmitted to our own cadre.\n\nAs it stands, the Italians have more to gain from this than we do. If we really want a reason to pursue this undertaking, we can always find one in the improvement of relations between our countries."
+ ITA_Cooperation_with_Gaul.1.d: "The Italian ambassador has forwarded a proposal from his government that suggests a sharing of military expertise between the officers of our armies. In principle, such a sharing of knowledge would be undoubtedly beneficial to both parties. While we are no slouchers, the Interbellum has seen us lose some of our... edges in the theatre of war, a reality not helped by the continuous peace since then. Our southern friends, on the other hand, are in possession of a bellicose mentality, which has resulted in the active pursuit of military advancements. At face value, cooperation in this field can only help us.\n\nUnfortunately, beneath the surface lie some cracks. Motivation and capital are important factors, but one cannot look only at these factors to determine the competence of an armed force. As it stands, the ‘Regio Esercito Italiano’ has shown itself to be a place of high morale and relatively well-trained personnel, but some questionable leadership in the form of its officers. The last thing we desire is for incompetence to be transmitted to our own cadre.\n\nAs it stands, the Italians have more to gain from this than we do. If we really want a reason to pursue this undertaking, we can always find one in the improvement of relations between our countries."
  ITA_Cooperation_with_Gaul.1.A: "No, Thank You."
  ITA_Cooperation_with_Gaul.1.B: "Pack Your Bags, Generals!"
 
@@ -645,7 +646,7 @@
  ITA_Align_with_Germany.5.C: "The German Sphere of Influence Grows Larger"
 
  ITA_Flavour_Events.1.t: "Inauguration of the Via Balbia" # Death of Italo Balbo
- ITA_Flavour_Events.1.d: "\"Wait… he's dead?\"\n\n\"Shot down by friendly fire, sir. Our batteries couldn't tell who he was when he was trying to land. By the time they realized, it was too late. Everyone on board perished.\"\n\nItalo Balbo. A long time friend, and a thorn in his side, gone. To think the great aviator would go down in a plane, it was all too poetic. Although politically exiling him as Governor of Libya was meant as punishment, he made great improvements to the colony. The time the two opened the northern highway along the Mediterranean was still fresh on his mind.\n\nEven if Balbo was a friend, he just…kept going against official orders. He constantly denounced our relationships with the Germans, and he kept stirring the pot, till the pot turned over. He was a good man, but a part of Mussolini couldn't help but feel relieved that he was gone. Sad, but relieved. \n\n\"Not to speak out of line, sir, but do you have any plans for a memorial, or are we moving forward?\" his aide asked gingerly.\n\nMussolini folded his arms in thought, turned away for a moment and then looked back at the aide, his eyes slightly reddened.\n\n\"Prepare my plane for Libya. I know a perfect highway that we can remember him by.\""
+ ITA_Flavour_Events.1.d: "\"Wait... he's dead?\"\n\n\"Shot down by friendly fire, sir. Our batteries couldn't tell who he was when he was trying to land. By the time they realized, it was too late. Everyone on board perished.\"\n\nItalo Balbo. A long time friend, and a thorn in his side, gone. To think the great aviator would go down in a plane, it was all too poetic. Although politically exiling him as Governor of Libya was meant as punishment, he made great improvements to the colony. The time the two opened the northern highway along the Mediterranean was still fresh on his mind.\n\nEven if Balbo was a friend, he just...kept going against official orders. He constantly denounced our relationships with the Germans, and he kept stirring the pot, till the pot turned over. He was a good man, but a part of Mussolini couldn't help but feel relieved that he was gone. Sad, but relieved. \n\n\"Not to speak out of line, sir, but do you have any plans for a memorial, or are we moving forward?\" his aide asked gingerly.\n\nMussolini folded his arms in thought, turned away for a moment and then looked back at the aide, his eyes slightly reddened.\n\n\"Prepare my plane for Libya. I know a perfect highway that we can remember him by.\""
  ITA_Flavour_Events.1.A: "The Via Balbia"
 
  ITA_Libyan_Concessions.1.t: "The Anglo-Egyptian Condominium Cedes the Sarra Triangle"
@@ -659,8 +660,31 @@
  ITA_Rome_Protocols.1.t: "Allies in Rome!"
  ITA_Rome_Protocols.1.d: "[FROM.GetNewsIcon]Earlier today, the Rome Protocols, a series of three international agreements, were concluded and signed by the governments of Austria, Hungary and Italy.\n\nProtocol one contains only a brief statement in which the signatories undertake “"To confer together on all problems which particularly concern them, and on problems of a general character, in the spirit of the existing treaties of friendship, which are based on a recognition of the existence of numerous common interests, a concordant policy directed towards the promotion of effective co-operation between the States of Europe and particularly between Italy, Austria and Hungary" and "to hold joint consultations whenever at least one of them deems it desirable”.\n\nProtocol two deals with economic relations between the three governments, like not to place any obstacles to trade between them and to conclude commercial treaties to that effect.\n\nProtocol three is concluded between only the governments of Italy and Austria and states that a new trade treaty and trade privileges are to be negotiated as soon as possible.\n\nThe protocols are expected to go into effect in a few months.\nOnly time will tell if this cooperation can last, or if it will be rather short-lived."
  ITA_Rome_Protocols.1.A: "To Good Future Relations"
- ITA_Rome_Protocols.1.B: "Let’s See How Long This Will Last"
+ ITA_Rome_Protocols.1.B: "Let’s see how long this will last."
+ 
+ ITA_Invasion_of_Greece.1.t: "Anglophiles in Athens"
+ ITA_Invasion_of_Greece.1.d: "It's an open secret that Metaxas favours diplomacy and cooperation with Albion than he does our vaunted realm. This comes as no shock to anybody in the know, as Greco-Italian relations have been rather frosty for many years now, with serious grievances dating all the back to our annexation of the Dodecanese Islands in 1912, which Greek Nationalists rather stupidly proclaim to be rightfully part of their country. But now that we are waging a tenacious war against the British all across the Mediterranean, many in the high command have pressured Mussolini to take pre-emptive action against the potential British outpost in southern Europe. We have drafted an ultimatum to be delivered to Metaxas' desk, designed to be rejected and to allow the Regio Esercito to swiftly occupy the largely underdeveloped and impoverished country."
+ ITA_Invasion_of_Greece.1.A: "Let us avert unneeded wars."
+ ITA_Invasion_of_Greece.1.B: "Send the ultimatum."
+ ITA_Invasion_of_Greece.1.B.tt: "§RThis ultimatum was designed to be rejected, and will surely lead to war!§!"
 
+ ITA_Invasion_of_Greece.2.t: "An Ultimatum from Italy"
+ ITA_Invasion_of_Greece.2.d: ""
+ ITA_Invasion_of_Greece.2.A: "Ochi!"
+ 
+ ITA_Invasion_of_Greece.3.t: "Metaxas Stands Defiant!"
+ ITA_Invasion_of_Greece.3.d: "This evening the Greek Ambassador delivered to us the official Greek response to our ultimatum. The Duce did not even need to read the communique in order to know what had been relayed to him. This of course, was to be expected. Accepting such demands would have been impossible for any nation, however Mussolini did not care. His new Roman Empire now has the Casus Belli that it needs in order to set about reclaiming one of antiquity's most valued provinces: Greece. Within mere minutes of recieving the Greek response he was already on the phone with important members of the Regio Esercito to order the commencement of hostilities. As the clock struck 04:00 today, artillery began to sing and our troops began crossing the Greco-Albanian border in what will surely be a short and simple campaign."
+ ITA_Invasion_of_Greece.3.A: "Avanti Italia!"
+ 
+ ITA_Invasion_of_Greece.4.t: "Carving up Greece"
+ ITA_Invasion_of_Greece.4.d: "In coordination with our allies, our armies have occupied the Greek lands. With the vast majority of the country under our control, we must now decide how best to divide the conquered territories between our nations. While we could simply leave the existing occupation lines as-is, we might also stand to gain for a pre-arranged settlement of occupation zones."
+ ITA_Invasion_of_Greece.4.A: "We have little interest in sharing."
+ ITA_Invasion_of_Greece.4.B: "Divide the Greek Lands with our Allies."
+ 
+ ITA_Fall_of_Cairo.1.t: "Egypt Switches Sides!"
+ ITA_Fall_of_Cairo.1.d: "As the Regio Esercito brushed aside the remaining British forces in western Egypt the British and their loyal Egyptian puppets evacuated the important city of Cairo. Across the city documents were burned and offices hastily emptied as nearly 40 years of British overlordship came to an abrupt end. However, when our forces crossed the Nile and entered the city they were suprised to find that not only had the Egyptian Royals not evacuated, but that King Farouk is willing to defect to our alliance and join our war against the British! Of course, all parties are aware that the Kingdom of Egypt will naturally be a junior member of such an alliance. With Egypt on our side, it is unlikely that the British will be able to mount a successful defense of the vital Suez Canal."
+ ITA_Fall_of_Cairo.1.A: "Avanti!"
+ 
  # Fall of Fasicsm
  ITA_Conquest_Events.1.t: "Fall of Libya"
  ITA_Conquest_Events.1.d: ""
@@ -668,27 +692,27 @@
 
  ITA_Conquest_Events.2.t: "Fall of Africa Orientale"
  ITA_Conquest_Events.2.d: ""
- ITA_Conquest_Events.2.A: "Is it the end of our Colonial Empire?"
+ ITA_Conquest_Events.2.A: "Is this the end of our Colonial Empire?"
 
  ITA_Fall_of_Fascism.1.t: "Mozione Grandi"
  ITA_Fall_of_Fascism.1.d: ""
- ITA_Fall_of_Fascism.1.A: "Is it the fall of Fascism?"
+ ITA_Fall_of_Fascism.1.A: "Is this the fall of Fascism?"
 
  ITA_Fall_of_Fascism.2.t: "Mussolini Arrested!"
  ITA_Fall_of_Fascism.2.d: ""
  ITA_Fall_of_Fascism.2.A: "Mama Mia"
- ITA_Fall_of_Fascism.2.B: "The rule of the Duce have ended"
+ ITA_Fall_of_Fascism.2.B: "The rule of the Duce has ended"
 
  ITA_Fall_of_Fascism.3.t: "Cassibile Armistice!"
  ITA_Fall_of_Fascism.3.d: ""
- ITA_Fall_of_Fascism.3.A: "So They Switch Side Again?"
+ ITA_Fall_of_Fascism.3.A: "So they switch side again?"
  ITA_Fall_of_Fascism.3.B: "Traitors!"
- ITA_Fall_of_Fascism.3.C: "The End of a Nightmare"
+ ITA_Fall_of_Fascism.3.C: "The end of a Nightmare"
 
  ITA_Fall_of_Fascism.4.t: "The Italian Civil War"
  ITA_Fall_of_Fascism.4.d: ""
- ITA_Fall_of_Fascism.4.A: "For the King"
- ITA_Fall_of_Fascism.4.B: "For the Duce"
+ ITA_Fall_of_Fascism.4.A: "For the King!"
+ ITA_Fall_of_Fascism.4.B: "For the Duce!"
 
 ######################################################################
 #  Italy Focus
@@ -792,9 +816,11 @@
 
  ITA_Biastrocchis_Reforms: "Baistrocchi's Reforms"
  ITA_Biastrocchis_Reforms_desc: ""
+ ITA_Motorized_Division: "§sWe will get our first Motorized Division§!\n\n"
 
  ITA_Badoglios_Old_Ways: "Badoglio's Old Ways"
  ITA_Badoglios_Old_Ways_desc: ""
+ ITA_Armoured_Division_Badoglio: "§sWe will get our first £tank_icon_1_20x20 Armoured Brigade§!\n\n"
 
  ITA_Engineer_Dual_Purpose_Cannons: "Engineer Dual Purpose Cannon's"
  ITA_Engineer_Dual_Purpose_Cannons_desc: ""
@@ -813,6 +839,7 @@
 
  ITA_Lend_An_Ear_To_Pariani: "Lend An Ear to Pariani"
  ITA_Lend_An_Ear_To_Pariani_desc: ""
+ ITA_Armoured_Division_Pariani: "§sWe will get our first £tank_icon_1_20x20 Armoured Brigade§!\n\n"
 
  ITA_Divisione_Binaria: "Divisione Binaria"
  ITA_Divisione_Binaria_desc: ""
@@ -861,6 +888,7 @@
 
  ITA_Ex_Alto_Fulgor: "Ex Alto Fulgor"
  ITA_Ex_Alto_Fulgor_desc: ""
+ ITA_Ex_Alto_Fulgor_tt: "The £helmet_icon_1_20x20 §Y185th Divisione Paracadutisti "Folgore"§! will be deployed"
 
  ITA_New_Fascist_Airfleet: "New Fascist Airfleet"
  ITA_New_Fascist_Airfleet_desc: ""
@@ -924,6 +952,7 @@
 
  ITA_First_Reggimento_San_Marco: "1st Reggimento San Marco"
  ITA_First_Reggimento_San_Marco_desc: ""
+ ITA_Reggimento_San_Marco: "§5The 1° Regiment \"San Marco\" will be mobilised§!"
 
  ITA_Fortezza_Sicilia: "Fortezza Sicilia"
  ITA_Fortezza_Sicilia_desc: ""
@@ -1080,7 +1109,10 @@
  ITA_Possible_with_Ethiopia: "§YThe Dark Continent shall provide for Italy!§!"
 
  ITA_Integration_of_Albania: "Integration of Albania"
- ITA_Integration_of_Albania_desc: ""
+ ITA_Integration_of_Albania_desc: "Albania had been an Italian possession for centuries. First it was owned by the Romans for millennia and then, after the Ottomans swept through the area, the coasts were under the influence of Venice. It wasn’t until the Ottomans that Italian influence in the region was finally expelled. Since then it's been a dream of our great nation to once more own that land. Not only is it historically ours, but it's strategically vital. Its position gives us a powerful base in the Balkans from which to work from and the Port of Vlore and island of Sazan are keys to controlling the mouth of the Adriatic. We began making inroads into that historical blunder of a country in 1924 and 1926. The Albanian economy now runs solely on loans from Italian banks, its army is trained and led by Italian officers, and its government is dominated by Italians. Their despot, Zog, foolishly decided to repay our kindness by turning his back on us and seeking help from the equally vulnerable Balkan nations. He believes they will be able to stop us. We will show him and the rest of the world that we are not to be taken lightly."
+
+ ITA_Italianizzazione: "Italianizzazione"
+ ITA_Italianizzazione_desc: ""
 
  ITA_Rome_Berlin_Axis: "Rome-Berlin Axis"
  ITA_Rome_Berlin_Axis_desc: ""
@@ -1119,7 +1151,7 @@
  ITA_Carta_della_Scuola_desc: "Education in Italy has, for the better part of its entire history, been highly dependent on your rank and social status. If you are rich, you lived in a rich neighbourhood with a good school, where you would get a good education, which would allow you to go to university, get a degree, get a well-paying job and in the end stay rich. If you are poor however you had to go to a poor school, in a poor neighbourhood, where you only could learn the basics of education before you had to once again go to work to support your family.\n\nIt is given that this state of affairs is unacceptable, robbing Italy of massive amounts of potential while creating a wedge and contempt between the classes.\n\nTo root out this problem, the NFP has decided to enact a reform of the school system, the Carta della Scuola. This new law will from now on allow less economically inclined citizens to visit prestigious schools through generous scholarship grants, while already existing schools in poorer areas will receive greater funding than their bourgeoise counterparts. Furthermore, the law will create state-sponsored night schools, which will allow manual workers to receive new experiences in specialized manual work, while unproductive, chronic students will be forced to finally contribute to society, by reducing the number of study titles an individual can hold."
 
  ITA_Additional_Funding_for_Dopolavoro: "Additional Funding for Dopolavoro"
- ITA_Additional_Funding_for_Dopolavoro_desc: ""
+ ITA_Additional_Funding_for_Dopolavoro_desc: "The Opera Nazionale Dopolavoro, or Nationalist After Work Club, was founded in 1925 and served as a leisure and recreational organization for adults in Fascist Italy. The OND, which was formed at the request of loyal trade unions, has done wonders in siphoning support away from the Socialists. The OND covers its members' vacations and trips to many of Italy's most beautiful and once-exclusive resorts. These working-class, blue-collar factory workers who take these trips find the luxurious lifestyle offered by these resorts appealing and know who to thank for such an experience. Despite this, the program has consistently failed to convert its participants into committed Fascists, as its leader Augusto Turati intended. However, Mussolini sees its value as long as it keeps people out of the clutches of the Red Menace. It has been so effective in its role that Mussolini has doubled its budget so that more people can benefit from the Fascist system's kindness."
 
  ITA_Expand_the_Assets_of_Istituto_Luce: "Expand the Assets of Istituto Luce"
  ITA_Expand_the_Assets_of_Istituto_Luce_desc: "Inside our fascist society, the Instituto Luce is the corporation, which is responsible for the production of movies and documentaries with strictly informative purposes, with the studio having produced hundreds of such films and documentaries since its founding in 1924.\n\nTo further support the great work the Instituto is doing and expand its capabilities as a propaganda tool the Duce himself, has decided to expand the assets of the Instituto allowing it to produce even more films with a higher production budget. These films will be the forerunners in informational productions throughout the entire world, teaching our entire country about the great glories of Italian history."
@@ -1131,7 +1163,7 @@
  ITA_Reign_In_The_Branches_desc: ""
 
  ITA_The_Four_Powers_Act: "The Four Powers Act"
- ITA_The_Four_Powers_Act_desc: ""
+ ITA_The_Four_Powers_Act_desc: "Mussolini has taken it upon himself to diffuse tensions in Europe as they reach feverish proportions. To accomplish this, he will propose a Four Powers Pact. This agreement between Italy, France, the United Kingdom, and Germany will go a long way toward simplifying European power politics. The strongmen on the Continent will no longer have to worry about the opinions of insignificant and small states. Germany wishes to reintegrate the German territories? They can negotiate with the other Great Powers through the mechanisms of this pact to ensure that such a just move does not lead to an unjust war. This Pact will also allow Mussolini to strengthen ties with France and Britain, two major Mediterranean powers. With enough territorial incentives elsewhere, they might be able to support his pet project, Mare Nostrum. With enough benefits to all those involved, who could refuse it?"
 
  ITA_Expand_The_Assets_Of_Istituto_Luce: "Expand the Assets of Istituto Luce"
  ITA_Expand_The_Assets_Of_Istituto_Luce_desc: ""
@@ -1149,7 +1181,7 @@
  ITA_Protect_Workers_Livelihoods_desc: "The workers in our country are working hard for our push towards autarky but it is apparent that they are not treated with the among of care they deserved for their work. Workplace injuries have been a huge problem for our workers, especially when there are no measures taken to even care for their livelihoods, how can we gain the respect of our workers when their livelihoods are at risk?\n\nIt is time for the  National Institute for Insurance against Accidents at Work (INFAIL) to protect workers from their misfortunes and gain their support."
 
  ITA_Provide_Additional_Funding_to_the_OND: "Provide Funding to the OND"
- ITA_Provide_Additional_Funding_to_the_OND_desc: "The Opera Nazionale Dopolavoro („OND), the National Afterwork Club, is the current leisure and recreational organization of the Kingdom of Italy, being a direct auxiliary of the National Fascist Party. The OND so far has helped provide leisure activities such as concerts, plays, outdoor hikes, and much more to nearly every Italian worker, for little to no price, opening up the cultural glories of Italy to the common man. Due to its work, the OND has become extremely popular and is one of the largest mass organizations in our state, surpassing even our Fascist union, which greatly helped us to convince the workers of the benefits of the fascist system.\n\nThus it is logical to further expand the work of the OND to provide more and better activities to even more people around the country, hopefully greatly expanding the standing of the National Fascist Party in the populace."
+ ITA_Provide_Additional_Funding_to_the_OND_desc: "The Opera Nazionale Dopolavoro (OND), the National Afterwork Club, is the current leisure and recreational organization of the Kingdom of Italy, being a direct auxiliary of the National Fascist Party. The OND so far has helped provide leisure activities such as concerts, plays, outdoor hikes, and much more to nearly every Italian worker, for little to no price, opening up the cultural glories of Italy to the common man. Due to its work, the OND has become extremely popular and is one of the largest mass organizations in our state, surpassing even our Fascist union, which greatly helped us to convince the workers of the benefits of the fascist system.\n\nThus it is logical to further expand the work of the OND to provide more and better activities to even more people around the country, hopefully greatly expanding the standing of the National Fascist Party in the populace."
 
  ITA_Battaglia_Del_Grano: "Battaglia del Grano"
  ITA_Battaglia_Del_Grano_desc: "For years, we have been reliant upon importations of foreign grains, and this has significantly increased our international trade deficit. How can we move to self-reliance when even basic food staples must be imported from foreign countries? \n\nWe must change this and become self-reliant in the production of wheat, to be viewed as a major power in Europe. Tariffs on grains shall be raised in favour of domestic grain production and its expansion. Grants shall be procured and given for those who are producing crops to buy farming machines, fertilizers and whatever is needed to boost our homeland production!"
@@ -1207,7 +1239,7 @@
  ITA_The_Balkan_Strategy_desc: "The Balkans are, as they have always been, a divided place, rife with conflict, seen and unseen. This is a weakness, working against the interests of not only its nations but the world as seen 20 years ago. No empires have been able to successfully subdue the ferocious spirit that lies in the people of this area. None except Rome. Bringing peace and stability to the area, the Romans ushered in what is perhaps the only time in history in which the peninsula enjoyed relative prosperity.\n\nAs we are Romulus’s heirs, it is only right we bring the benefits of our rule to the suffering people of this most unfortunate place. They might not desire it, but they didn’t want it the first time either. Pax Romana will make itself known anew, with all the glory and happiness which accompanies it."
 
  ITA_Expand_Our_Influence: "Expand our Sphere of Influence"
- ITA_Expand_Our_Influence_desc: ""
+ ITA_Expand_Our_Influence_desc: "While our valiant Regio Esercito could dispatch any Balkan 'nation' that dared to oppose us, war is extremely unpopular. That is why we will first seek Balkan hegemony through diplomacy rather than war. Greece, in particular, will be our first serious target. Adding them to our influence as a large nation with a healthy population will reap numerous benefits. To keep Greece under control, we need an outpost in the Aegean Sea. Taking those islands would not only provide us with a prime point from which to strike Greece if they try to reject our gracious guidance, but it would also provide us with a launchpad from which to strike Turkey and what lies beyond."
 
  ITA_Preventive_Measures_in_the_Mediterranean: "Preventative Measures in the Mediterranean"
  ITA_Preventive_Measures_in_the_Mediterranean_desc: "The curtain is rising once more. The shadow that has stalked the continent for the last 20 years has at last showed itself in all its terror. Germany, it seems, has learned nothing from the suffering it has endured and has decided to plunge Europe into an era of turmoil a second time. We are firmly on the side of the free world, ready to defend a way of life that is so precious to not only us but also countless people across the Globe.\n\nIt is our duty to repel any attempt by the Third Reich to expand its territory, along with its sickening ideology. To fulfil Italia’s commitment to stopping the Germans, though, we need to be able to protect those who can not defend themselves. The Mediterranean, our sea, is full of nations incapable of mounting an effective resistance against any serious military power. To mitigate this unfortunate situation, we will ask the British and the French for permission to occupy such weak countries, only until the German threat is no more, of course."
@@ -1304,7 +1336,7 @@
  ITA_Introduce_Currency_Control_desc: "A further measure to combat the Great Depression is the introduction of foreign exchange controls. We will abandon the fixed rate of the lira and restrict the amount of currency that may be imported or exported. We will also ban the usage of foreign currency within our country and ban locals from possessing foreign currency. \n\nFurthermore, we will be restricting currency exchange to government-approved exchangers. These controls will allow us to better manage our economy by controlling the inflow and outflow of currency, which may otherwise create exchange rate volatility."
 
  ITA_Bank_Law_of_Nineteen_Thirty_Six: "Bank Law of 1936"
- ITA_Bank_Law_of_Nineteen_Thirty_Six_desc: ""
+ ITA_Bank_Law_of_Nineteen_Thirty_Six_desc: "The Italian banking system desperately needs reform. As things stand today, the entire industry is a jumble of short and long term banks that can do a lot of things that they can't do anywhere else for good reason. Mussolini has found it necessary to reform this system to a more modern standard as he seeks to lift the Italian economy to new heights. The new Banking Law of 1936 is a broad document that limits banks' activities and severs the deep financial ties that banks have with the industries they support. This legislation includes common sense regulations such as prohibiting banks from serving on company boards, instituting specializations for banks in temporal, institutional, and operational credit, and establishing a government agency to oversee credit activity. All of this will work wonders to clear the cobwebs from the system and make the entire industry a better system for everyone involved."
 
  ITA_Fascization_Of_Confindustria: "Fascization of Confindustria"
  ITA_Fascization_Of_Confindustria_desc: "With the new Director Volpi in charge, a major industrialist and Fascist since 1922, it is time that we take matters into our own hands and steer the Italian economy in a way that will align with our interests. \n\nThis should be a fairly easy task, seeing how the leaders of the Italian production world view Mussolini as a modernizer and beneficial to their interests. We will enact anti-inflationary measures, perform a revaluation of the lira and strive to attract more foreign investors, but will also be sure to protect domestic Italian manufacturers through protectionism."
@@ -1318,8 +1350,8 @@
  ITA_Unification_of_Electricity_Networks: "Unification of the Electricity Networks"
  ITA_Unification_of_Electricity_Networks_desc: "To truly harvest the power of industrial electrification, a statewide solution must be implemented. New power grids being built across the peninsula will light up every street corner, factory, and house. In many places, people will ascend from darkness and finally enjoy the fruits of technological innovation.\n\nRural backwater towns will transform into vibrant bustling hubs for commerce and transportation, further integrating previously neglected regions. Foreigners will be forced to recognize Italy as a modern, economically independent player on the European stage."
 
- ITA_Expand_OCI_Factory: "Expand OCI Factory"
- ITA_Expand_OCI_Factory_desc: ""
+ ITA_Expand_OCI_Production: "Expand OCI Production"
+ ITA_Expand_OCI_Production_desc: "The Fiat OCI is a treaded tractor that was originally designed to assist the Italian Army in dragging artillery pieces up mountains. It has been used successfully in Ethiopia and Libya, and the Air Force has requested some to help drag planes around runways. However, the tractor has previously only been manufactured in a single factory in Modena. Only this one factory produces far too few for us to use as widely as we would like. We must immediately increase production of such a critical machine. Fiat will be incentivised to open more factories across the country dedicated to the production of the OCI. It will not only allow for more of these tractors to be manufactured, but it will also create more jobs for the people."
 
  ITA_Sell_Isotta_Fraschini_to_Ford: "Sell Isotta Fraschini to Ford"
  ITA_Sell_Isotta_Fraschini_to_Ford_desc: "A global symbol of wealth, Isolatta Fraschini dominated the market for luxury cars during the early part of the century. However, after being financially crippled by the Great Depression, the famed automaker has experienced stagnant growth.\n\nAn offer to purchase the company by Ford has the potential to revitalie the Italian auto industry while also introducing new production techniques to increase efficiency."
@@ -1328,10 +1360,10 @@
  ITA_Standardization_of_Vechicle_Models_desc: "Currently, locally produced vehicles come in a range of different specifications and models. Mass production of these disparate vehicles would be both costly and logistically impossible. \n\nStandardizing various vehicles to use similar components can increase production efficiency and lower costs."
 
  ITA_Serpieri_Acerbo_Law_on_Land_Expropriation: "Serpieri-Acerbo Law on Land Expropriation"
- ITA_Serpieri_Acerbo_Law_on_Land_Expropriation_desc: ""
+ ITA_Serpieri_Acerbo_Law_on_Land_Expropriation_desc: "A strong agricultural base is the bedrock of any true modern nation. Unfortunately, the Italian Peninsula lacks arable land, as the majority of the Peninsula is part of the mountainous Apennine Range. We have very little farmland, which is concentrated in the far south and far north. However, some of the citizens' lands are not being used to their full potential. They are either underutilized or not farmed at all. We cannot continue to allow such waste. So, in the interest of the State, we will pass legislation allowing the State to seize any land that it deems underutilised. This land will then be given to the Opera National Combatants and War Veterans to be given to those warriors of the Great War who were abandoned and left destitute by the previous government. Those who fight for this land, like the Legions of old Rome, will now be able to use it."
 
  ITA_Mechanization_of_Agriculture: "Mechanisation of Agriculture"
- ITA_Mechanization_of_Agriculture_desc: ""
+ ITA_Mechanization_of_Agriculture_desc: "Even though man is the most perfect machine, he requires assistance. Much of Italy's farmland is farmed with hand tools or oxen-drawn ploughs. This significantly slows the pace of work and limits the output of these farms. The solution is obvious if we want to increase crop yields. We must subsidize Italian agricultural mechanization. It will aid not only in the purchase of tractors, but also in the mechanization of all levels of the supply chain. Farmers will be given numerous opportunities to use cutting-edge technology. Some believe that this program exists solely to improve the lot of the average Italian; of course, a farmer who farms more will be more prosperous. Mussolini wants Italians to prosper, but he also actually needs Italy to be self-sufficient. If war breaks out in Europe, food may become scarce, and he does not want Italy to go hungry."
 
  ITA_Drain_the_Swamp: "Drain the Swamps"
  ITA_Drain_the_Swamp_desc: "The Pontine Marshes have been a liability for our economic growth and water supplies, and created a malaria problem for the country, we shall conduct a grand project to combat this situation. We must completely overhaul the terrain and clear way the potential source of diseases.\n\nWe must start by draining and refitting the swamps to make them more habitable and then regulate the water sources. Opera Nazionale Combattenti shall oversee the project and the mobilization of the labourers necessary."
@@ -1452,25 +1484,25 @@
  ITA_Increased_Carta_del_Lavoro: "§YThe Effects of Carta del Lavoro will increase!§!"
  
  ITA_Overfunded_Regia_Marina: "Overfunded Regia Marina"
- ITA_Overfunded_Regia_Marina_desc: "One of the chronic issues of the Italian army ever since The Great War has been its upper brass. It is formed by a highly aristocratic strata that are often detached from the realities of war, there is a great lack of experience amongst its rank holders, not only due to the youth of the Italian nation and the lack of military adventures in its time but also due to widespread nepotism leading to unfit people in command roles. \n\nThis continued nepotism and snobbish behavior continued even after the Fascist rise to power and it seems to have further consolidated itself as Mussolini used the army and the old guard leading it to consolidate his state."
+ ITA_Overfunded_Regia_Marina_desc: "The Italian navy has received particular attention from the Duce himself, reputing it to be the shield of Italy and the main way Italy will be able to project its power across the world, and through it show the strength of the fascist system. Not only, but it is also the duty, nay, the Destiny of the Italians to rule the waves of the Mediterranean, just as their glorious ancestors had once before. \n\nHowever with the carte blanche, the Navy has been given in regards to its funding and expansion, it has opened up a myriad of holes and cracks for the generous amounts of money of the state to fall through. The Admirals grow content, palms are greased but the efficiency of staff and sailors is on the decline."
  
  ITA_Overfunded_Regia_Marina_2: "Overfunded Regia Marina"
- ITA_Overfunded_Regia_Marina_2_desc: "One of the chronic issues of the Italian army ever since The Great War has been its upper brass. It is formed by a highly aristocratic strata that are often detached from the realities of war, there is a great lack of experience amongst its rank holders, not only due to the youth of the Italian nation and the lack of military adventures in its time but also due to widespread nepotism leading to unfit people in command roles. \n\nThis continued nepotism and snobbish behavior continued even after the Fascist rise to power and it seems to have further consolidated itself as Mussolini used the army and the old guard leading it to consolidate his state."
+ ITA_Overfunded_Regia_Marina_2_desc: "The Italian navy has received particular attention from the Duce himself, reputing it to be the shield of Italy and the main way Italy will be able to project its power across the world, and through it show the strength of the fascist system. Not only, but it is also the duty, nay, the Destiny of the Italians to rule the waves of the Mediterranean, just as their glorious ancestors had once before. \n\nHowever with the carte blanche, the Navy has been given in regards to its funding and expansion, it has opened up a myriad of holes and cracks for the generous amounts of money of the state to fall through. The Admirals grow content, palms are greased but the efficiency of staff and sailors is on the decline."
  
  ITA_Overfunded_Regia_Marina_3: "Overfunded Regia Marina"
- ITA_Overfunded_Regia_Marina_3_desc: "One of the chronic issues of the Italian army ever since The Great War has been its upper brass. It is formed by a highly aristocratic strata that are often detached from the realities of war, there is a great lack of experience amongst its rank holders, not only due to the youth of the Italian nation and the lack of military adventures in its time but also due to widespread nepotism leading to unfit people in command roles. \n\nThis continued nepotism and snobbish behavior continued even after the Fascist rise to power and it seems to have further consolidated itself as Mussolini used the army and the old guard leading it to consolidate his state."
+ ITA_Overfunded_Regia_Marina_3_desc: "The Italian navy has received particular attention from the Duce himself, reputing it to be the shield of Italy and the main way Italy will be able to project its power across the world, and through it show the strength of the fascist system. Not only, but it is also the duty, nay, the Destiny of the Italians to rule the waves of the Mediterranean, just as their glorious ancestors had once before. \n\nHowever with the carte blanche, the Navy has been given in regards to its funding and expansion, it has opened up a myriad of holes and cracks for the generous amounts of money of the state to fall through. The Admirals grow content, palms are greased but the efficiency of staff and sailors is on the decline."
  
  ITA_Overfunded_Regia_Marina_4: "Overfunded Regia Marina"
- ITA_Overfunded_Regia_Marina_4_desc: "One of the chronic issues of the Italian army ever since The Great War has been its upper brass. It is formed by a highly aristocratic strata that are often detached from the realities of war, there is a great lack of experience amongst its rank holders, not only due to the youth of the Italian nation and the lack of military adventures in its time but also due to widespread nepotism leading to unfit people in command roles. \n\nThis continued nepotism and snobbish behavior continued even after the Fascist rise to power and it seems to have further consolidated itself as Mussolini used the army and the old guard leading it to consolidate his state."
+ ITA_Overfunded_Regia_Marina_4_desc: "The Italian navy has received particular attention from the Duce himself, reputing it to be the shield of Italy and the main way Italy will be able to project its power across the world, and through it show the strength of the fascist system. Not only, but it is also the duty, nay, the Destiny of the Italians to rule the waves of the Mediterranean, just as their glorious ancestors had once before. \n\nHowever with the carte blanche, the Navy has been given in regards to its funding and expansion, it has opened up a myriad of holes and cracks for the generous amounts of money of the state to fall through. The Admirals grow content, palms are greased but the efficiency of staff and sailors is on the decline."
  
  ITA_Overfunded_Regia_Marina_5: "Overfunded Regia Marina"
- ITA_Overfunded_Regia_Marina_5_desc: "One of the chronic issues of the Italian army ever since The Great War has been its upper brass. It is formed by a highly aristocratic strata that are often detached from the realities of war, there is a great lack of experience amongst its rank holders, not only due to the youth of the Italian nation and the lack of military adventures in its time but also due to widespread nepotism leading to unfit people in command roles. \n\nThis continued nepotism and snobbish behavior continued even after the Fascist rise to power and it seems to have further consolidated itself as Mussolini used the army and the old guard leading it to consolidate his state."
+ ITA_Overfunded_Regia_Marina_5_desc: "The Italian navy has received particular attention from the Duce himself, reputing it to be the shield of Italy and the main way Italy will be able to project its power across the world, and through it show the strength of the fascist system. Not only, but it is also the duty, nay, the Destiny of the Italians to rule the waves of the Mediterranean, just as their glorious ancestors had once before. \n\nHowever with the carte blanche, the Navy has been given in regards to its funding and expansion, it has opened up a myriad of holes and cracks for the generous amounts of money of the state to fall through. The Admirals grow content, palms are greased but the efficiency of staff and sailors is on the decline."
  
  ITA_High_Command_Incompetence: "High Command Incompetence"
- ITA_High_Command_Incompetence_desc: "The Italian navy has received particular attention from the Duce himself, reputing it to be the shield of Italy and the main way Italy will be able to project its power across the world, and through it show the strength of the fascist system. Not only, but it is also the duty, nay, the Destiny of the Italians to rule the waves of the Mediterranean, just as their glorious ancestors had once before. \n\nHowever with the carte blanche, the Navy has been given in regards to its funding and expansion, it has opened up a myriad of holes and cracks for the generous amounts of money of the state to fall through. The Admirals grow content, palms are greased but the efficiency of staff and sailors is on the decline."
+ ITA_High_Command_Incompetence_desc: "One of the chronic issues of the Italian army ever since The Great War has been its upper brass. It is formed by a highly aristocratic strata that are often detached from the realities of war, there is a great lack of experience amongst its rank holders, not only due to the youth of the Italian nation and the lack of military adventures in its time but also due to widespread nepotism leading to unfit people in command roles. \n\nThis continued nepotism and snobbish behavior continued even after the Fascist rise to power and it seems to have further consolidated itself as Mussolini used the army and the old guard leading it to consolidate his state."
  
  ITA_High_Command_Incompetence_2: "High Command Incompetence"
- ITA_High_Command_Incompetence_2_desc: "The Italian navy has received particular attention from the Duce himself, reputing it to be the shield of Italy and the main way Italy will be able to project its power across the world, and through it show the strength of the fascist system. Not only, but it is also the duty, nay, the Destiny of the Italians to rule the waves of the Mediterranean, just as their glorious ancestors had once before. \n\nHowever with the carte blanche, the Navy has been given in regards to its funding and expansion, it has opened up a myriad of holes and cracks for the generous amounts of money of the state to fall through. The Admirals grow content, palms are greased but the efficiency of staff and sailors is on the decline."
+ ITA_High_Command_Incompetence_2_desc: "One of the chronic issues of the Italian army ever since The Great War has been its upper brass. It is formed by a highly aristocratic strata that are often detached from the realities of war, there is a great lack of experience amongst its rank holders, not only due to the youth of the Italian nation and the lack of military adventures in its time but also due to widespread nepotism leading to unfit people in command roles. \n\nThis continued nepotism and snobbish behavior continued even after the Fascist rise to power and it seems to have further consolidated itself as Mussolini used the army and the old guard leading it to consolidate his state."
 
  ITA_Regio_Esercito_Reorganization: "Regio Esercito Reorganization"
  ITA_Regio_Esercito_Reorganization_desc: "Ever since the institution of the new Fascist government, the army has been a popular talk point amongst its members and that of party propaganda and was a particularly hot issue in the post-war years as the demobilization was slow and sluggish due to unrest in the country. Through the fascist optic, the army is seen as the sword that will exemplify the Italian people through its might and discipline, sadly that has not been the case. \n\nThe constant debates over the size of the standing army, during the 20s, the equipment needed to supply them, the recruitment and training of new soldiers were constantly an issue but by the start of the 30s, as the political climate cooled down and Mussolini’s grasp of the state of the situation became more consolidated, plans have been put forth to finalize the Army’s reorganization with the most current effort regarding the integration of the MVSN."
@@ -1537,6 +1569,8 @@
 
  ITA_Debt_Paid_Partially_by_Spain: "Debt Paid Partially"
  ITA_Debt_Paid_Partially_by_Spain_desc: ""
+ 
+ ITA_Italian_Workers_in_Germany: "Italian Workers in Germany"
  
 ######################################################################
 #  Italy Decisions
@@ -1683,8 +1717,9 @@
  ITA_The_Balkan_Strategy: "The Balkan Strategy"
  ITA_The_Balkan_Strategy_desc: ""
  ITA_Demand_Yugoslavian_Territories: "Demand Yugoslavian Territories"
- ITA_Issue_Ultimatum_to_Bulgaria: "Issue Ultimatum to Bulgaria"
- ITA_Demand_Islands_from_Greece: "Demand all Aegean,and Adriatic sea islands and Crete from Greece"
+ ITA_Issue_Ultimatum_to_Bulgaria: "Issue an ultimatum to Bulgaria"
+ ITA_Demand_Islands_from_Greece: "Send an ultimatum to Greece"
+ ITA_Annexed_Albania: "§YAlbania has been dealt with§!"
  # Latin Axis
  ITA_Latin_Axis: "Latin Axis"
  ITA_Invite_Spain_to_the_Latin_Axis: "Invite Spain to the Latin Axis"
@@ -1745,14 +1780,23 @@
  # Preventive Mediterranean Measures
  ITA_Propose_Intervention_in_Greece: "Propose Intervention in Greece"
  ITA_Propose_Intervention_in_Turkey: "Propose Intervention in Turkey"
-
+ # Intregration of Territories
+ ITA_Italianizzazione_category: "Italianizzazione"
+ ITA_Integrate_Corsica: "Integrate Corsica"
+ ITA_Integrate_Nice: "Integrate Nizza"
+ ITA_Integrate_Upper_Savoy: "Integrate Alta Savoia"
+ ITA_Integrate_Ticino: "Integrate Ticino"
+ ITA_Integrate_Malta: "Integrate Malta"
+ ITA_Integrate_Dalmatian_Coast: "Integrate Dalmazia"
+ ITA_Integrate_Slovene_Lands: "Integrate Provincia di Ljubliana"
+ ITA_Integrate_Interior_Dalmatia: "Integrate Dalmazia Interno"
 
 ######################################################################
 #  Italy Custom Tooltips
 ######################################################################
  fiat_ITA_tt: "§GImproves the New Style Army national spirit§!"
- binaria_ITA_tt: "§GImproves the Old Style the Army/New Style Army national sprit§!"
- simplify_ITA_tt: "§GImproves the Old Style the Army national sprit§!"
+ binaria_ITA_tt: "§GImproves the Old Style Army/New Style Army national sprit§!"
+ simplify_ITA_tt: "§GImproves the Old Style Army national sprit§!"
  navy_ITA_tt: "§GImproves the Overfunded Regia Marina national sprit§!"
  supply_ITA_tt: "§GBy drawing up supply lines our soldiers will have an attack advantage against the Ethiopian in the case of war§!"
  brit_ITA_tt: "We will make sure that the British do not intervene in case of a war"

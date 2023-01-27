@@ -525,6 +525,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Edward_Ellington"
+        texturefile = "gfx/interface/ideas/Cabinet/ENG/Edward_Ellington.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Edward_Heath"
         texturefile = "gfx/interface/ideas/Cabinet/ENG/Edward_Heath.png"
     }
@@ -1995,8 +2000,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_idea_Paul_von_Hindenburg"
-        texturefile = "gfx/interface/ideas/Cabinet/GER/Paul_von_Hindenburg.png"
+        name = "GFX_idea_Paul_Von_Hindenburg"
+        texturefile = "gfx/interface/ideas/Cabinet/GER/Paul_Von_Hindenburg.png"
     }
 
     spriteType = {
@@ -2675,6 +2680,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Emilio_De_Bono"
+        texturefile = "gfx/interface/ideas/Cabinet/ITA/Emilio_De_Bono.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Emillio_Galbiati"
         texturefile = "gfx/interface/ideas/Cabinet/ITA/Emillio_Galbiati.png"
     }
@@ -2970,6 +2980,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Hayashi_Senjuro"
+        texturefile = "gfx/interface/ideas/Cabinet/JAP/Hayashi_Senjuro.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Hideo_Kodama"
         texturefile = "gfx/interface/ideas/Cabinet/JAP/Hideo_Kodama.png"
     }
@@ -3120,6 +3135,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Nakajima_Kesago"
+        texturefile = "gfx/interface/ideas/Cabinet/JAP/Nakajima_Kesago.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Nishizo_Tsukahara"
         texturefile = "gfx/interface/ideas/Cabinet/JAP/Nishizo_Tsukahara.png"
     }
@@ -3227,6 +3247,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_Sotaro_Ishiwata"
         texturefile = "gfx/interface/ideas/Cabinet/JAP/Sotaro_Ishiwata.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Suetsugu_Nobumasa"
+        texturefile = "gfx/interface/ideas/Cabinet/JAP/Suetsugu_Nobumasa.png"
     }
 
     spriteType = {
@@ -3570,13 +3595,23 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_idea_Aleksander_Pryskor"
-        texturefile = "gfx/interface/ideas/Cabinet/POL/Aleksander_Pryskor.png"
+        name = "GFX_idea_Aleksander_Prystor"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Aleksander_Prystor.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_August_Zaleski"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/August_Zaleski.png"
     }
 
     spriteType = {
         name = "GFX_idea_Bronislaw_Pieracki"
         texturefile = "gfx/interface/ideas/Cabinet/POL/Bronislaw_Pieracki.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Czeslaw_Michalowski"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Czeslaw_Michalowski.png"
     }
 
     spriteType = {
@@ -3595,8 +3630,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Henryk_Jozewski"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Henryk_Jozewski.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Ignacy_Matuszewski"
         texturefile = "gfx/interface/ideas/Cabinet/POL/Ignacy_Matuszewski.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Ignacy_Moscicki"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Ignacy_Moscicki.png"
     }
 
     spriteType = {
@@ -3610,8 +3655,18 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_idea_Janusz_Radziwil"
-        texturefile = "gfx/interface/ideas/Cabinet/POL/Janusz_Radziwil.png"
+        name = "GFX_idea_Janusz_Jedrzejewicz"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Janusz_Jedrzejewicz.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Janusz_Radziwill"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Janusz_Radziwill.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Jan_hr_Szembek"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Jan_hr_Szembek.png"
     }
 
     spriteType = {
@@ -3620,8 +3675,23 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Jedrzej_Giertych"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Jedrzej_Giertych.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Jedrzej_Moraczewski"
         texturefile = "gfx/interface/ideas/Cabinet/POL/Jedrzej_Moraczewski.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Jerzy_Swirski"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Jerzy_Swirski.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Jerzy_Zdziechowski"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Jerzy_Zdziechowski.png"
     }
 
     spriteType = {
@@ -3635,8 +3705,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Jozef_Unrug"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Jozef_Unrug.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Kazimierz_Sosnkowski"
         texturefile = "gfx/interface/ideas/Cabinet/POL/Kazimierz_Sosnkowski.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Kazimierz_Switalski"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Kazimierz_Switalski.png"
     }
 
     spriteType = {
@@ -3647,6 +3727,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_Leon_Kozlowski"
         texturefile = "gfx/interface/ideas/Cabinet/POL/Leon_Kozlowski.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Marian_Januszajtis_Zegota"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Marian_Januszajtis_Zegota.png"
     }
 
     spriteType = {
@@ -3665,13 +3750,28 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Stanislaw_Glabinski"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Stanislaw_Glabinski.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Stanislaw_Kopanski"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Stanislaw_Kopanski.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Tadeusz_Bielecki"
         texturefile = "gfx/interface/ideas/Cabinet/POL/Tadeusz_Bielecki.png"
     }
 
     spriteType = {
-        name = "GFX_idea_Waclaw_Stachewicz"
-        texturefile = "gfx/interface/ideas/Cabinet/POL/Waclaw_Stachewicz.png"
+        name = "GFX_idea_Tadeusz_Kasprzycki"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Tadeusz_Kasprzycki.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Waclaw_Stachiewicz"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Waclaw_Stachiewicz.png"
     }
 
     spriteType = {
@@ -3682,6 +3782,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_Wincenty_Witos"
         texturefile = "gfx/interface/ideas/Cabinet/POL/Wincenty_Witos.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Witold_Grabowski"
+        texturefile = "gfx/interface/ideas/Cabinet/POL/Witold_Grabowski.png"
     }
 
     spriteType = {
@@ -4510,6 +4615,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Marina_Raskova"
+        texturefile = "gfx/interface/ideas/Cabinet/SOV/Marina_Raskova.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Mikhail_Frinovsky"
         texturefile = "gfx/interface/ideas/Cabinet/SOV/Mikhail_Frinovsky.png"
     }
@@ -4547,6 +4657,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_Nikolai_Kuznetsov"
         texturefile = "gfx/interface/ideas/Cabinet/SOV/Nikolai_Kuznetsov.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Nikolai_Podvoisky"
+        texturefile = "gfx/interface/ideas/Cabinet/SOV/Nikolai_Podvoisky.png"
     }
 
     spriteType = {
@@ -5090,6 +5205,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Harold_Stassen"
+        texturefile = "gfx/interface/ideas/Cabinet/USA/Harold_Stassen.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Harry_H_Woodring"
         texturefile = "gfx/interface/ideas/Cabinet/USA/Harry_H_Woodring.png"
     }
@@ -5107,6 +5227,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_Henry_H_Arnold"
         texturefile = "gfx/interface/ideas/Cabinet/USA/Henry_H_Arnold.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Henry_Luce"
+        texturefile = "gfx/interface/ideas/Cabinet/USA/Henry_Luce.png"
     }
 
     spriteType = {
@@ -5205,6 +5330,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Raymond_E_Baldwin"
+        texturefile = "gfx/interface/ideas/Cabinet/USA/Raymond_E_Baldwin.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Raymond_Spruance"
         texturefile = "gfx/interface/ideas/Cabinet/USA/Raymond_Spruance.png"
     }
@@ -5212,6 +5342,16 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_Ray_Lymon_Wilbur"
         texturefile = "gfx/interface/ideas/Cabinet/USA/Ray_Lymon_Wilbur.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Robert_A_Taft"
+        texturefile = "gfx/interface/ideas/Cabinet/USA/Robert_A_Taft.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Robert_E_Wood"
+        texturefile = "gfx/interface/ideas/Cabinet/USA/Robert_E_Wood.png"
     }
 
     spriteType = {
@@ -5310,6 +5450,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_Aleksandar_I"
+        texturefile = "gfx/interface/ideas/Cabinet/YUG/Aleksandar_I.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_Anton_Korosec"
         texturefile = "gfx/interface/ideas/Cabinet/YUG/Anton_Korosec.png"
     }
@@ -5347,6 +5492,16 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_Milan_Stojadinovic"
         texturefile = "gfx/interface/ideas/Cabinet/YUG/Milan_Stojadinovic.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Petar_II"
+        texturefile = "gfx/interface/ideas/Cabinet/YUG/Petar_II.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_Prince_Paul"
+        texturefile = "gfx/interface/ideas/Cabinet/YUG/Prince_Paul.png"
     }
 
     spriteType = {
@@ -6320,6 +6475,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_ENG_Territorial_Army_idea"
+        texturefile = "gfx/interface/ideas/Spirits/ENG_Territorial_Army_idea.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_ENG_The_Economic_War"
         texturefile = "gfx/interface/ideas/Spirits/ENG_The_Economic_War.png"
     }
@@ -6445,8 +6605,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_idea_FRA_La_Der_Des_Ders"
-        texturefile = "gfx/interface/ideas/Spirits/FRA_La_Der_Des_Ders.png"
+        name = "GFX_idea_FRA_La_Der_des_Ders"
+        texturefile = "gfx/interface/ideas/Spirits/FRA_La_Der_des_Ders.png"
     }
 
     spriteType = {
@@ -6470,8 +6630,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_idea_FRA_Matignon_Accord "
-        texturefile = "gfx/interface/ideas/Spirits/FRA_Matignon_Accord .png"
+        name = "GFX_idea_FRA_Matignon_Accord"
+        texturefile = "gfx/interface/ideas/Spirits/FRA_Matignon_Accord.png"
     }
 
     spriteType = {
@@ -6497,6 +6657,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_FRA_Peace_at_Almost_Any_Price"
         texturefile = "gfx/interface/ideas/Spirits/FRA_Peace_at_Almost_Any_Price.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_FRA_Plan_Mandel"
+        texturefile = "gfx/interface/ideas/Spirits/FRA_Plan_Mandel.png"
     }
 
     spriteType = {
@@ -6765,6 +6930,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_GER_Develop_the_Volksgewehr"
+        texturefile = "gfx/interface/ideas/Spirits/GER_Develop_the_Volksgewehr.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_GER_Economic_Liberalization"
         texturefile = "gfx/interface/ideas/Spirits/GER_Economic_Liberalization.png"
     }
@@ -6832,6 +7002,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_GER_Hitler_Youth"
         texturefile = "gfx/interface/ideas/Spirits/GER_Hitler_Youth.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_GER_Jaegernotprogramm"
+        texturefile = "gfx/interface/ideas/Spirits/GER_Jaegernotprogramm.png"
     }
 
     spriteType = {
@@ -7175,8 +7350,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_idea_JAP_Disjointed_Intervention_Policy"
-        texturefile = "gfx/interface/ideas/Spirits/JAP_Disjointed_Intervention_Policy.png"
+        name = "GFX_idea_JAP_Divided_Command_System"
+        texturefile = "gfx/interface/ideas/Spirits/JAP_Divided_Command_System.png"
     }
 
     spriteType = {
@@ -7470,8 +7645,18 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_SOV_Heroes_of_the_Air"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_Heroes_of_the_Air.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_SOV_High_Agricultural_Employment"
         texturefile = "gfx/interface/ideas/Spirits/SOV_High_Agricultural_Employment.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_SOV_Human_Wave"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_Human_Wave.png"
     }
 
     spriteType = {
@@ -7487,6 +7672,26 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_SOV_NKVD_idea"
         texturefile = "gfx/interface/ideas/Spirits/SOV_NKVD_idea.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_SOV_OGPU_idea"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_OGPU_idea.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_SOV_Operation_Groza_Level_1"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_Operation_Groza_Level_1.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_SOV_Operation_Groza_Level_2"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_Operation_Groza_Level_2.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_SOV_Operation_Groza_Level_3"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_Operation_Groza_Level_3.png"
     }
 
     spriteType = {
@@ -7600,6 +7805,16 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_idea_SOV_The_Wings_of_the_Red_Army"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_The_Wings_of_the_Red_Army.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_SOV_Tukhachevsky_Reforms"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_Tukhachevsky_Reforms.png"
+    }
+
+    spriteType = {
         name = "GFX_idea_SOV_Unity_Achieved"
         texturefile = "gfx/interface/ideas/Spirits/SOV_Unity_Achieved.png"
     }
@@ -7607,6 +7822,16 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_SOV_Vocational_Training_System"
         texturefile = "gfx/interface/ideas/Spirits/SOV_Vocational_Training_System.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_SOV_Voroshilovtchina"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_Voroshilovtchina.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_SOV_Women_in_Aviation"
+        texturefile = "gfx/interface/ideas/Spirits/SOV_Women_in_Aviation.png"
     }
 
     spriteType = {
@@ -7777,6 +8002,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_idea_USA_Lend_Lease"
         texturefile = "gfx/interface/ideas/Spirits/USA_Lend_Lease.png"
+    }
+
+    spriteType = {
+        name = "GFX_idea_USA_National_Guard_idea"
+        texturefile = "gfx/interface/ideas/Spirits/USA_National_Guard_idea.png"
     }
 
     spriteType = {

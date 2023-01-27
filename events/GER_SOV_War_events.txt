@@ -43,7 +43,10 @@ country_event = {
 	# 
 	option = {
 		name = GER_SOV_War.1.A
-		add_ideas = SOV_The_German_Betrayal
+		add_timed_idea = {
+			idea = SOV_The_German_Betrayal
+			days = 200
+		}
 	}
 }
 ###########################
@@ -91,7 +94,7 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		original_tag = SOV
-		SOV = { has_war_with = GER }
+		has_war_with = GER
 		OR = {
 			NOT = { controls_state = 195 }
 			NOT = { controls_state = 219 }
@@ -146,11 +149,7 @@ country_event = {
 	# 
 	option = {
 		name = GER_SOV_War.6.A
-		add_political_power = 100
-		remove_ideas = SOV_The_German_Betrayal
-		set_country_flag = SOV_The_Great_Patriotic_War
 		complete_national_focus = SOV_The_Great_Patriotic_War
-		unlock_decision_category_tooltip = SOV_The_Great_Patriotic_War_category
 	}
 }
 ###########################
@@ -212,8 +211,6 @@ country_event = {
 	picture = GFX_report_event_generic_army
 	is_triggered_only = yes
 
-	major = yes
-
 	# 
 	option = {
 		name = GER_SOV_War.10.A
@@ -228,8 +225,6 @@ country_event = {
 	desc = GER_SOV_War.11.d
 	picture = GFX_report_event_generic_army
 	is_triggered_only = yes
-
-	major = yes
 
 	# 
 	option = {
@@ -268,7 +263,7 @@ country_event = {
 	option = {
 		name = GER_SOV_War.13.A
 		SOV = {
-			country_event = { id = GER_SOV_War.14 days = 3 }
+			news_event = { id = GER_SOV_War.14 days = 3 }
 		}
 	}
 
@@ -276,7 +271,7 @@ country_event = {
 	option = {
 		name = GER_SOV_War.13.B
 		SOV = {
-			news_event = { id = GER_SOV_War.15 days = 3 }
+			country_event = { id = GER_SOV_War.15 days = 3 }
 		}
 	}
 }
@@ -369,6 +364,10 @@ country_event = {
 		}
 	}
 
+	mean_time_to_happen = {
+		days = 2
+	}
+
 	# 
 	option = {
 		name = GER_SOV_War.100.A
@@ -442,6 +441,10 @@ country_event = {
 		controls_state = 202
 		controls_state = 206
 		controls_state = 263
+	}
+
+	mean_time_to_happen = {
+		days = 2
 	}
 
 	# 

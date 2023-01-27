@@ -11,12 +11,10 @@ Poland_historical = {
 	ai_national_focuses = {
 		# 1933
 		POL_Finish_Gdynia_Passenger_Port
-		POL_Warsaw_Airport
 		POL_Polish_Innovative_Revival
 		POL_Polish_Academy_Literature
 		POL_Open_the_Krakow_National_Museum
 		POL_Cooperate_Lwow_School_Mathematics
-		POL_Warsaw_Airport
 		POL_Open_PZL_Factory
 		POL_Modernise_Civil_Aviation
 		# 1934
@@ -24,7 +22,7 @@ Poland_historical = {
 		POL_Finish_Off_Opposition
 		POL_Strenghten_Watterplate_Garnison
 		POL_State_Sponsored_Assimilation
-		POL_Charasmatic_Authoritarianism
+		POL_Charismatic_Authoritarianism
 		POL_Economy
 		POL_Warsaw_Cross_City_Line
 		POL_Factory_Nitrogen_Coumpond

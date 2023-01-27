@@ -44,7 +44,7 @@ ITA_DMT_01 = {
 	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
+	link_numbering_with = { ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARMB_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
 
 	fallback_name = "Divisione Militare Territoriale (%dª)" 
 
@@ -100,7 +100,7 @@ ITA_INF_02 = {
 	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
+	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARMB_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
 
 	fallback_name = "%s Brigata di Fanteria" 
 
@@ -164,7 +164,7 @@ ITA_INF_01 = {
 	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ITA_DMT_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
+	link_numbering_with = { ITA_DMT_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARMB_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
 
 	fallback_name = "%dª Divisione Fanteria" 
 
@@ -340,7 +340,7 @@ ITA_INF_39 = {
 	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
+	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARMB_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
 
 	fallback_name = "%dª Divisione Fanteria" 
 
@@ -518,7 +518,7 @@ ITA_INF_40 = {
 	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
+	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARMB_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
 
 	fallback_name = "%dª Divisione Fanteria" 
 
@@ -794,43 +794,93 @@ ITA_CAV_01 = {
 	} 
 } 
 
-ITA_CAV_02 = { 
-	name = "Cavalry Regiments" 
+ITA_CAVB_02 = { 
+	name = "Armored Cavalry Brigades" 
 
 	for_countries = { ITA RSI } 
 
-	can_use = { has_civil_war = no } 
+	can_use = { 
+		has_civil_war = no
+		NOT = { has_completed_focus = ITA_Give_Reign_to_Messe }
+		NOT = { has_completed_focus = ITA_De_Bono_and_Graziani_Know_Best }
+	}
 
-	division_types = { "cavalry" "armored_car_battalion" } 
+	division_types = { "bicycle_battalion" "armored_car_battalion" "light_armor" } 
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ITA_CAV_01 } 
+	link_numbering_with = { ITA_CAV_02 } 
 
-	fallback_name = "%d° Reggimento di Cavalleria" 
+	fallback_name = "%s Brigata Celere Corazzata"
 
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
 	ordered = { 
-		1 = { "%d° Reggimento \"Nizza Cavalleria\"" } 
-		2 = { "%d° Reggimento \"Piemonte Cavalleria\"" } 
-		3 = { "%d° Reggimento \"Savoia Cavalleria\"" } 
-		4 = { "%d° Reggimento \"Genova Cavalleria\"" } 
-		5 = { "%d° Reggimento \"Lancieri di Novara\"" } 
-		6 = { "%d° Reggimento \"Lancieri di Aosta\"" } 
-		8 = { "%d° Reggimento \"Lancieri di Montebello\"" } 
-		13 = { "%d° Reggimento \"Cavalleggeri di Monferrato\"" } 
-		15 = { "%d° Reggimento \"Cavalleggeri di Lodi\"" } 
-		19 = { "%d° Reggimento \"Cavalleggeri Guide\"" } 
-		7 = { "%d° Reggimento di Cavalleria" } 										# Filler divisions (7, 9 - 12, 14, 16- 18, 20) start here
-		9 = { "%d° Reggimento di Cavalleria" } 
-		10 = { "%d° Reggimento di Cavalleria" } 
-		11 = { "%d° Reggimento di Cavalleria" } 
-		12 = { "%d° Reggimento di Cavalleria" } 
-		14 = { "%d° Reggimento di Cavalleria" } 
-		16 = { "%d° Reggimento di Cavalleria" } 
-		17 = { "%d° Reggimento di Cavalleria" } 
-		18 = { "%d° Reggimento di Cavalleria" } 
-		20 = { "%d° Reggimento di Cavalleria" } 
+		1 = { "%s Brigata Celere Corazzata" } 
+		2 = { "%s Brigata Celere Corazzata" } 
+		3 = { "%s Brigata Celere Corazzata" } 
+		4 = { "%s Brigata Celere Corazzata" } 
+		5 = { "%s Brigata Celere Corazzata" } 
+		6 = { "%s Brigata Celere Corazzata" } 
+		7 = { "%s Brigata Celere Corazzata" } 
+		8 = { "%s Brigata Celere Corazzata" } 
+		9 = { "%s Brigata Celere Corazzata" } 
+		10 = { "%s Brigata Celere Corazzata" } 
+		11 = { "%s Brigata Celere Corazzata" } 
+		12 = { "%s Brigata Celere Corazzata" } 
+		13 = { "%s Brigata Celere Corazzata" } 
+		14 = { "%s Brigata Celere Corazzata" } 
+		15 = { "%s Brigata Celere Corazzata" } 
+		16 = { "%s Brigata Celere Corazzata" } 
+		17 = { "%s Brigata Celere Corazzata" } 
+		18 = { "%s Brigata Celere Corazzata" } 
+		19 = { "%s Brigata Celere Corazzata" } 
+		20 = { "%s Brigata Celere Corazzata" } 
+	} 
+} 
+
+ITA_CAV_02 = { 
+	name = "Armored Cavalry Divisions" 
+
+	for_countries = { ITA RSI } 
+
+	can_use = { 
+		has_civil_war = no
+		OR = {
+			has_completed_focus = ITA_Give_Reign_to_Messe
+			has_completed_focus = ITA_De_Bono_and_Graziani_Know_Best
+		}	
+	}
+
+	division_types = { "bicycle_battalion" "armored_car_battalion" "light_armor" } 
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ITA_CAVB_02 } 
+
+	fallback_name = "%dª Divisione Celere Corazzata"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = { 
+		1 = { "%dª Divisione Celere Corazzata" } 
+		2 = { "%dª Divisione Celere Corazzata" } 
+		3 = { "%dª Divisione Celere Corazzata" } 
+		4 = { "%dª Divisione Celere Corazzata" } 
+		5 = { "%dª Divisione Celere Corazzata" } 
+		6 = { "%dª Divisione Celere Corazzata" } 
+		7 = { "%dª Divisione Celere Corazzata" } 
+		8 = { "%dª Divisione Celere Corazzata" } 
+		9 = { "%dª Divisione Celere Corazzata" } 
+		10 = { "%dª Divisione Celere Corazzata" } 
+		11 = { "%dª Divisione Celere Corazzata" } 
+		12 = { "%dª Divisione Celere Corazzata" } 
+		13 = { "%dª Divisione Celere Corazzata" } 
+		14 = { "%dª Divisione Celere Corazzata" } 
+		15 = { "%dª Divisione Celere Corazzata" } 
+		16 = { "%dª Divisione Celere Corazzata" } 
+		17 = { "%dª Divisione Celere Corazzata" } 
+		18 = { "%dª Divisione Celere Corazzata" } 
+		19 = { "%dª Divisione Celere Corazzata" } 
+		20 = { "%dª Divisione Celere Corazzata" } 
 	} 
 } 
 
@@ -848,7 +898,7 @@ ITA_MOT_01 = {
 	division_types = { "motorized" } 
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_39 ITA_MEC_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
+	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_39 ITA_MEC_01 ITA_ARMB_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
 
 	fallback_name = "%dª Divisione Motorizzata" 
 
@@ -1026,7 +1076,7 @@ ITA_MOT_39 = {
 	division_types = { "motorized" } 
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MEC_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
+	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MEC_01 ITA_ARMB_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
 
 	fallback_name = "%dª Divisione Motorizzata" 
 
@@ -1198,7 +1248,7 @@ ITA_MEC_01 = {
 	division_types = { "mechanized" "heavy_mechanized" } 
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
+	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_ARMB_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
 
 	fallback_name = "%dª Divisione Meccanizzata" 
 
@@ -1345,6 +1395,50 @@ ITA_MEC_01 = {
 		} 
 } 
 
+ITA_ARMB_01 = { 
+	name = "Armored Brigades" 
+
+	for_countries = { ITA RSI } 
+
+	can_use = { 
+		has_civil_war = no
+		NOT = { has_completed_focus = ITA_Give_Reign_to_Messe }
+		NOT = { has_completed_focus = ITA_De_Bono_and_Graziani_Know_Best }
+	}
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "SS_armor" "SS_heavy_armor" } 
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
+
+	fallback_name = "%s Brigata Corazzata" 
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = { 
+		131 = { "I Brigata Corazzata" } 			# Created in '36
+		132 = { "II Brigata Corazzata" } 				# Created in '37
+		133 = { "III Brigata Corazzata" } 			# Units from here were directly formed as divisions but given sequential brigade numbers
+		134 = { "IV Brigata Corazzata" }
+		135 = { "V Brigata Corazzata" }
+		136 = { "VI Brigata Corazzata" }
+		137 = { "VII Brigata Corazzata" }
+		138 = { "VIII Brigata Corazzata" }
+		139 = { "IX Brigata Corazzata" } 
+		140 = { "X Brigata Corazzata" }
+		141 = { "XI Brigata Corazzata" } 
+		142 = { "XII Brigata Corazzata" } 
+		143 = { "XIII Brigata Corazzata" } 
+		144 = { "XIV Brigata Corazzata" } 
+		145 = { "XV Brigata Corazzata" } 
+		146 = { "XVI Brigata Corazzata" } 
+		147 = { "XVII Brigata Corazzata" } 
+		148 = { "XVIII Brigata Corazzata" } 
+		149 = { "XIX Brigata Corazzata" } 
+		150 = { "XX Brigata Corazzata" } 
+	} 
+} 
+
 ITA_ARM_01 = { 
 	name = "Armored Divisions" 
 
@@ -1353,12 +1447,16 @@ ITA_ARM_01 = {
 	can_use = { 
 		has_government = fascist
 		has_civil_war = no
+		OR = {
+			has_completed_focus = ITA_Give_Reign_to_Messe
+			has_completed_focus = ITA_De_Bono_and_Graziani_Know_Best
+		}	
 	}
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "SS_armor" "SS_heavy_armor" } 
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
+	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARMB_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
 
 	fallback_name = "%dª Divisione Corazzata" 
 
@@ -1398,12 +1496,16 @@ ITA_ARM_02 = {
 			has_government = fascist
 			}
 		has_civil_war = no
+		OR = {
+			has_completed_focus = ITA_Give_Reign_to_Messe
+			has_completed_focus = ITA_De_Bono_and_Graziani_Know_Best
+		}	
 	}
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "SS_armor" "SS_heavy_armor" } 
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARM_01 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
+	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARMB_01 ITA_ARM_01 ITA_PAR_01 ITA_GAR_01 ITA_GAR_02 } 
 
 	fallback_name = "%dª Divisione Corazzata" 
 
@@ -1415,7 +1517,7 @@ ITA_ARM_02 = {
 		133 = { "%dª Divisione Corazzata \"Littorio\"" }
 		134 = { "%dª Divisione Corazzata \"Freccia\"" }
 		135 = { "%dª Divisione Corazzata \"Ariete II\"" }
-		136 = { "%dª Divisione Corazzata \"Centauro II\"" } 			# The name taken by the CCNN Armored division once they were purged of Blackshirts.
+		136 = { "%dª Divisione Legionaria Corazzata \"Centauro II\"" } 			# The name taken by the CCNN Armored division once they were purged of Blackshirts.
 		137 = { "%dª Divisione Corazzata \"Pozzuolo del Friuli\"" }		# Uses the nickname from a postwar armored division to remove the fascist title.  The other two postwar armored divisions used the Ariete and Centauro nicknames.
 		138 = { "%dª Divisione Corazzata" } 
 		139 = { "%dª Divisione Corazzata" } 
@@ -1445,15 +1547,32 @@ ITA_MAR_01 = {
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { ITA_MAR_01 } 
 
-	fallback_name = "%d° Reggimento da Sbarco" 
+	fallback_name = "%d° Reggimento \"San Marco\"" 
 
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
 	ordered = { 
-		1 = { "%d° Reggimento da Sbarco \"San Marco\"" } 
-		2 = { "%d° Reggimento da Sbarco \"Carlotto\"" }  # These are modern units (post Cold War) part of the San Marco Brigade
-		3 = { "%d° Reggimento da Sbarco \"San Marco\"" } 
-		4 = { "%d° Reggimento Lagunari \"Serenissima\"" }	# Numbered in sequence but has no number, this is the only Army naval infantry unit, while the others are part of the Navy
+		1 = { "%d° Reggimento \"San Marco\"" } 
+		2 = { "%d° Reggimento \"San Marco\"" }
+		3 = { "%d° Reggimento \"San Marco\"" } 
+		999 = { "Reggimento Lagunari \"Serenissima\"" }	# this is the only Army naval infantry unit, while the others are part of the Navy
+		4 = { "%d° Reggimento \"San Marco\"" } 
+		5 = { "%d° Reggimento \"San Marco\"" }
+		6 = { "%d° Reggimento \"San Marco\"" } 
+		7 = { "%d° Reggimento \"San Marco\"" } 
+		8 = { "%d° Reggimento \"San Marco\"" }
+		9 = { "%d° Reggimento \"San Marco\"" } 
+		10 = { "%d° Reggimento \"San Marco\"" } 
+		11 = { "%d° Reggimento \"San Marco\"" } 
+		12 = { "%d° Reggimento \"San Marco\"" }
+		13 = { "%d° Reggimento \"San Marco\"" } 
+		14 = { "%d° Reggimento \"San Marco\"" } 
+		15 = { "%d° Reggimento \"San Marco\"" }
+		16 = { "%d° Reggimento \"San Marco\"" } 
+		17 = { "%d° Reggimento \"San Marco\"" } 
+		18 = { "%d° Reggimento \"San Marco\"" }
+		19 = { "%d° Reggimento \"San Marco\"" } 
+		20 = { "%d° Reggimento \"San Marco\"" } 
 	} 
 } 
 
@@ -1533,7 +1652,7 @@ ITA_PAR_01 = {
 	division_types = { "paratrooper" } 
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARM_01 ITA_ARM_02 ITA_GAR_01 ITA_GAR_02 } 
+	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARMB_01 ITA_ARM_01 ITA_ARM_02 ITA_GAR_01 ITA_GAR_02 } 
 
 	fallback_name = "%dª Divisione Paracadutisti" 
 
@@ -1574,7 +1693,7 @@ ITA_GAR_01 = {
 	division_types = { "infantry" "garrison" } 
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_02 } 
+	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARMB_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_02 } 
 
 	fallback_name = "%dª Divisione Costiera" 
 
@@ -1633,7 +1752,7 @@ ITA_GAR_02 = {
 	division_types = { "infantry" "garrison" } 
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 } 
+	link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARMB_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 } 
 
 	fallback_name = "%dª Divisione Fanteria da Occupazione" 
 
@@ -1662,7 +1781,7 @@ ITA_CIV_01 = {
 	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" "garrison" "militia" "cavalry" "armored_car_battalion" "motorized" "mechanized" "heavy_mechanized" "light_armor" "medium_armor" "heavy_armor" "marine" "mountaineers" "paratrooper" } 
 
 	# Number reservation system will tie to another group.
-	# link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 } 
+	# link_numbering_with = { ITA_DMT_01 ITA_INF_01 ITA_INF_02 ITA_INF_39 ITA_INF_40 ITA_MOT_01 ITA_MOT_39 ITA_MEC_01 ITA_ARMB_01 ITA_ARM_01 ITA_ARM_02 ITA_PAR_01 ITA_GAR_01 } 
 	
 	fallback_name = "Gruppo di Combattimento %s" 
 

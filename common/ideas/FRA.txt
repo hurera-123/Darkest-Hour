@@ -31,7 +31,7 @@ ideas = {
 				is_democratic =  yes
 			}
 			modifier = {
-				political_power_gain = 0.15
+				political_power_factor = 0.15
 				democratic_drift = -0.03
 			}
 		}
@@ -54,18 +54,6 @@ ideas = {
 				stability_factor = 0.1
 				political_power_factor = 0.1
 				production_speed_buildings_factor = 0.05
-			}
-		}
-		FRA_Renaissance_Republicaine_3 = {
-			picture = FRA_Commissariat_au_Plan
-			available = {
-				is_democratic =  yes
-			}
-			modifier = {
-				stability_factor = 0.1
-				political_power_factor = 0.1
-				production_speed_buildings_factor = 0.05
-				global_building_slots_factor = 0.25
 			}
 		}
 		#Scars of the Great War
@@ -171,7 +159,7 @@ ideas = {
 					has_country_flag = become_vichy
 				}
 			}
-			picture = add_icon
+			picture = GENERIC_Economic_Compromise
 			modifier = {
 				political_power_factor = 0.05
 				money_income = 1
@@ -223,7 +211,7 @@ ideas = {
 		}
 		### Urgent Equipment growth plan
 		FRA_idea_Urgent_Equipment_growth_plan = {
-			picture = GFX_idea_man_five_year_plan_air
+			picture = man_five_year_plan_air
 			equipment_bonus = {
 				fighter_equipment = {
 					build_cost_ic = -0.1
@@ -255,24 +243,24 @@ ideas = {
 		FRA_Static_Warfare ={
 			picture = FRA_Stategie_de_la_Grande_Guerre
 			modifier = {
-				max_dig_in = 5
+				max_dig_in = 2
 			}
 		}
 		FRA_Static_Warfare_2 ={
 			picture = FRA_Stategie_de_la_Grande_Guerre
 			modifier = {
-				max_dig_in = 5
-				defence = 0.05
+				max_dig_in = 2
+				army_defence_factor = 0.05
 				army_infantry_attack_factor = 0.05
 			}
 		}
 		FRA_Static_Warfare_3 ={
 			picture = FRA_Stategie_de_la_Grande_Guerre
 			modifier = {
-				max_dig_in = 5
-				defence = 0.15
+				max_dig_in = 2
+				army_defence_factor = 0.1
 				army_infantry_attack_factor = 0.05
-				army_artillery_attack_factor = 0.15
+				army_artillery_attack_factor = 0.10
 			}
 		}
 
@@ -290,28 +278,28 @@ ideas = {
 				breakthrough_factor = 0.1
 				coordination_bonus = -0.1
 				experience_gain_army_unit_factor = 0.05
-				army_morale_factor = 0.1
-				supply_consumption_factor = -0.15
+				army_morale_factor = 0.05
+				supply_consumption_factor = -0.10
 			}
 		}
 
 		FRA_Spirit_of_Verdun ={
 			picture = FRA_Stategie_de_la_Grande_Guerre
 			modifier = {
-				max_dig_in = 5
-				defence = 0.15
+				max_dig_in = 3
+				army_defence_factor = 0.10
 				army_infantry_attack_factor = 0.05
-				army_artillery_attack_factor = 0.15
+				army_artillery_attack_factor = 0.10
 				breakthrough_factor = 0.1
 				coordination_bonus = -0.1
 				experience_gain_army_unit_factor = 0.05
-				army_morale_factor = 0.1
-				supply_consumption_factor = -0.15
+				army_morale_factor = 0.05
+				supply_consumption_factor = -0.10
 			}
 		}
 
 		FRA_Old_Guard_Opposition = {
-			picture = FRA_Stategie_de_la_Grande_Guerre
+			picture = FRA_Etat_Major_Politisee
 			modifier = {
 				political_power_gain = -0.1
 				army_org_factor = -0.10
@@ -333,7 +321,7 @@ ideas = {
 		FRA_Armee_de_Metier_2 = {
 			picture = FRA_Armee_de_Metier
 			modifier = {
-				training_time_factor = 0.1
+				training_time_factor = 0.15
 				army_org = 10
 				army_infantry_attack_factor = 0.05
 				army_infantry_defence_factor = 0.05
@@ -344,13 +332,13 @@ ideas = {
 		FRA_Armee_de_Metier_3 = {
 			picture = FRA_Armee_de_Metier
 			modifier = {
-				training_time_factor = 0.1
+				training_time_factor = 0.2
 				army_org = 10
 				army_infantry_attack_factor = 0.05
 				army_infantry_defence_factor = 0.05
 				coordination_bonus = 0.1
 				initiative_factor = 0.15
-				air_superiority_bonus_in_combat = 0.25
+				air_superiority_bonus_in_combat = 0.20
 			}
 		}
 
@@ -383,7 +371,7 @@ ideas = {
 			}
 		}
 		FRA_Army_Modernization = {
-			picture = GFX_idea_SOV_third_five_year_plan_military
+			picture = FRA_Redirected_Military_Budget
 			modifier = {
 				civilian_factory_use = 5
 				industrial_capacity_factory = -0.1
@@ -404,36 +392,36 @@ ideas = {
 		FRA_Citoyen_Soldat = {
 			picture = FRA_Citoyen_Soldat
 			modifier = {
-				training_time_factor = -0.15
-				recruitable_population_factor = 0.1
+				training_time_factor = -0.10
+				recruitable_population_factor = 0.05
 			}
 		}
 		FRA_Citoyen_Soldat_2 = {
 			picture = FRA_Citoyen_Soldat
 			modifier = {
-				training_time_factor = -0.15
-				recruitable_population_factor = 0.1
-				army_morale_factor = 0.2
-				army_org = 10
+				training_time_factor = -0.10
+				recruitable_population_factor = 0.05
+				army_morale_factor = 0.1
+				army_org = 5
 			}
 		}
 		FRA_Total_War_Tenet = {
-			picture = TBI
+			picture = FRA_A_Righteous_War
 			modifier = {
-				offence = 0.1
+				offence = 0.025
 				army_attack_against_major_factor = 0.05
 			}
 		}
 		FRA_Total_War_Tenet_2 = {
-			picture = TBI
+			picture = FRA_A_Righteous_War
 			modifier = {
-				training_time_factor = -0.15
-				recruitable_population_factor = 0.1
-				army_morale_factor = 0.25
-				army_org = 15
-				offence = 0.15
+				training_time_factor = -0.10
+				recruitable_population_factor = 0.05
+				army_morale_factor = 0.1
+				army_org = 5
+				offence = 0.05
 				army_attack_against_major_factor = 0.1
-				stability_factor = -0.1
+				stability_factor = -0.2
 			}
 		}
 		### Aviation d'Attaque
@@ -531,7 +519,7 @@ ideas = {
 		
 		### Aviation de Coopération
 		FRA_Aviation_de_Cooperation = {
-			picture = GFX_idea_generic_aircraft_support
+			picture = generic_aircraft_support
 			modifier = {
 				army_bonus_air_superiority_factor = -0.5
 				army_attack_factor = 0.05
@@ -567,7 +555,7 @@ ideas = {
 		
 		### Aviation de Coopération
 		FRA_Aviation_de_Cooperation_2 = {
-			picture = GFX_idea_generic_aircraft_support
+			picture = generic_aircraft_support
 			modifier = {
 				army_bonus_air_superiority_factor = -0.5
 				army_attack_factor = 0.05
@@ -989,7 +977,7 @@ ideas = {
 		
 		### Le CIP
 		FRA_Le_CIP = {
-			picture = GFX_idea_FRA_Le_CIP
+			picture = FRA_Le_CIP
 			modifier = {
 				extra_paratrooper_supply_grace = 24
 				special_forces_out_of_supply_factor = -0.1
@@ -1025,6 +1013,9 @@ ideas = {
 			}
 		}
 		FRA_Milices_Fascistes = {
+			available = {
+				has_war = no
+			}
 			picture = FRA_Violence_Politique
 			modifier = {
 				political_power_gain = -0.15
@@ -1050,7 +1041,9 @@ ideas = {
 			}
 			picture = FRA_Rearmament_Program
 			modifier = {
+				money_income = -2
 				industrial_capacity_factory = 0.1
+				production_speed_arms_factory_factor = 0.05
 		    }
 			equipment_bonus = {
 				infantry_equipment = {
@@ -1064,8 +1057,10 @@ ideas = {
 			}
 			picture = FRA_Rearmament_Program
 			modifier = {
+				money_income = -3
 				industrial_capacity_factory = 0.1
-				production_factory_max_efficiency_factor = 0.05
+				industrial_capacity_dockyard = 0.15
+				production_speed_arms_factory_factor = 0.05
 		    }
 			equipment_bonus = {
 				infantry_equipment = {
@@ -1079,26 +1074,16 @@ ideas = {
 			}
 			picture = FRA_Rearmament_Program
 			modifier = {
+				money_income = -5
 				industrial_capacity_factory = 0.1
-				production_factory_max_efficiency_factor = 0.075
+				industrial_capacity_dockyard = 0.15
+				production_speed_arms_factory_factor = 0.1
 		    }
 			equipment_bonus = {
 				infantry_equipment = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.05 instant = yes
 				}
-			}
-		}
-		FRA_Rearmament_Program_4 = {
-			available = {
-				has_war = no
-			}
-			picture = FRA_Rearmament_Program
-			modifier = {
-				industrial_capacity_factory = 0.15
-				production_factory_max_efficiency_factor = 0.1
-		    }
-			equipment_bonus = {
-				infantry_equipment = {
+				armor_equipment = {
 					build_cost_ic = -0.1 instant = yes
 				}
 			}
@@ -1161,14 +1146,6 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.1
 		    }
 		}
-		FRA_Active_Opposition = {
-			picture = FRA_Matignon_Accord
-			modifier = {
-				army_speed_factor = -0.1
-				recruitable_population_factor = -0.1
-				# repair_speed_buildings_factor = -0.3
-		    }
-		}
 		#France au travail / France at Work
 		FRA_La_France_au_Travail= {
 			available = {
@@ -1183,7 +1160,10 @@ ideas = {
 		}
 		# The Grand Quartier General (GQG)
 		FRA_The_GQG = {
-			picture = GFX_idea_FRA_Grand_Quartier_General
+			available = {
+				has_war = yes
+			}
+			picture = FRA_Grand_Quartier_General
 			modifier = {
 				max_command_power = 30
 				command_power_gain_mult = -0.25
@@ -1191,7 +1171,10 @@ ideas = {
 			}
 		}
 		FRA_The_GQG_2 = {
-			picture = GFX_idea_FRA_Grand_Quartier_General
+			available = {
+				has_war = yes
+			}
+			picture = FRA_Grand_Quartier_General
 			modifier = {
 				max_command_power = 50
 				command_power_gain_mult = 0.15
@@ -1199,7 +1182,7 @@ ideas = {
 			}
 		}
 		FRA_La_Der_des_Ders = {
-			picture = GFX_idea_FRA_La_Der_Des_Ders
+			picture = FRA_La_Der_des_Ders
 			modifier = {
 				war_support_factor = -0.5
 				#mobilization_laws_cost_factor = 0.5
@@ -1208,7 +1191,7 @@ ideas = {
 			}
 		}
 		FRA_La_Der_des_Ders_2 = {
-			picture = GFX_idea_FRA_La_Der_Des_Ders
+			picture = FRA_La_Der_des_Ders
 			modifier = {
 				war_support_factor = -0.3
 				#mobilization_laws_cost_factor = 0.25
@@ -1216,18 +1199,16 @@ ideas = {
 			}
 		}
 		FRA_La_Der_des_Ders_3 = {
-			picture = GFX_idea_FRA_La_Der_Des_Ders
+			picture = FRA_La_Der_des_Ders
 			modifier = {
 				war_support_factor = -0.15
 			}
 		}
 		FRA_Plan_Mandel = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				has_war = yes
 			}
-			picture = placeholder
+			picture = FRA_Plan_Mandel
 			modifier = {
 				industrial_capacity_factory = 0.1
 				conscription_factor = 0.01
@@ -1235,9 +1216,7 @@ ideas = {
 		}
 		FRA_IAAC = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				has_war = yes
 			}
 			picture = generic_air_bonus
 			modifier = {
@@ -1248,11 +1227,9 @@ ideas = {
 		}
 		FRA_Inter_Allied_Production_Support = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				has_war = yes
 			}
-			picture = GFX_idea_generic_license_production
+			picture = generic_license_production
 			equipment_bonus = {
 				cat_light_armor = {
 					build_cost_ic = -0.15
@@ -1260,13 +1237,21 @@ ideas = {
 				}				
 			}
 		}
+		FRA_The_Saar_Offensive_spirit = {
+			available = {
+				has_war = yes
+			}
+			picture = FRA_Rearmament_Program
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.15
+			}
+		}
 		FRA_The_Phoney_War = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				has_war = yes
 			}
-			picture = GFX_idea_FRA_The_Phoney_War
+			picture = FRA_The_Phoney_War
 			modifier = {
 				army_core_defence_factor = 0.05
 				army_attack_factor = -0.2
@@ -1275,11 +1260,9 @@ ideas = {
 		### La Débacle
 		FRA_La_Debacle = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				has_war = yes
 			}
-			picture = GFX_idea_generic_army_problems
+			picture = generic_army_problems
 			modifier = {
 				army_attack_factor = -0.25
 				army_org_factor = -0.05
@@ -1290,54 +1273,90 @@ ideas = {
 		}
 		FRA_La_Patrie_en_Danger = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				has_war = yes
 			}
-			picture = GFX_idea_FRA_La_Patrie_en_Danger
+			picture = FRA_La_Patrie_en_Danger
 			modifier = {
 				army_core_defence_factor  = 0.05
 			}
 		}
 		FRA_La_Patrie_en_Danger_2 = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
+				has_war = yes
 			}
-			picture = GFX_idea_FRA_La_Patrie_en_Danger
+			picture = FRA_La_Patrie_en_Danger
 			modifier = {
-				army_core_defence_factor  = 0.1
+				army_core_defence_factor  = 0.05
 				stability_factor = -0.025
-				surrender_limit = 0.5
+				surrender_limit = 0.25
 			}
 		}
 		FRA_La_Patrie_en_Danger_3 = {
 			available = {
-				NOT = {
-					has_global_flag = VIC_Vichy_Established
-				}
-			}
-			picture = GFX_idea_FRA_La_Patrie_en_Danger
+				has_war = yes
+			}			picture = FRA_La_Patrie_en_Danger
 			modifier = {
-				army_core_defence_factor  = 0.15
+				army_core_defence_factor  = 0.1
 				stability_factor = -0.05
-				surrender_limit = 0.5
+				surrender_limit = 0.25
 			}
 		}
 		FRA_La_Patrie_en_Danger_4 = {
+			available = {
+				has_war = yes
+			}
+			picture = FRA_La_Patrie_en_Danger
+			modifier = {
+				army_core_defence_factor  = 0.1
+				stability_factor = -0.075
+				surrender_limit = 0.25
+				mobilization_speed = 0.25
+				conscription_factor = 0.25
+			}
+		}
+		FRA_National_Office_of_Industry = {
 			available = {
 				NOT = {
 					has_global_flag = VIC_Vichy_Established
 				}
 			}
-			picture = GFX_idea_FRA_La_Patrie_en_Danger
+			picture = man_five_year_plan_industry
 			modifier = {
-				army_core_defence_factor  = 0.15
-				stability_factor = -0.075
-				surrender_limit = 0.5
-				mobilization_speed = 0.25
-				conscription_factor = 0.25
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_start_efficiency_factor = 0.1
+			}
+		}
+		FRA_National_Office_of_Industry_2 = {
+			available = {
+				NOT = {
+					has_global_flag = VIC_Vichy_Established
+				}
+			}
+			picture = man_five_year_plan_industry
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_start_efficiency_factor = 0.1
+				local_resources_factor = 0.15
+			}
+		}
+		FRA_Defender_of_the_Republic = {
+			available = {
+				is_democratic = yes
+			}
+			picture = FRA_national_mobilization_focus
+			modifier = {
+				war_support_factor = 0.1
+				army_morale_factor = 0.05
+			}
+		}
+		FRA_National_Defense_Bonds= {
+			available = {
+				has_war = no
+			}
+			picture = tur_balkan_central_bank_wealthy_greece
+			modifier = {
+				money_income = 0.05
+				political_power_factor = -0.1
 			}
 		}
 	}

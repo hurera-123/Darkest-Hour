@@ -16,7 +16,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=FRA_Albert_Lebrun_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=FRA
 			}
@@ -66,6 +66,7 @@ characters={
 			}
 		}
 		country_leader={
+			desc = FRA_Joseph_Paul_Boncour_desc
 			ideology=social_democracy
 			traits={ 
 				POSITION_Prime_Minister
@@ -85,12 +86,8 @@ characters={
 				NOT = { has_country_flag = Joseph_Paul_Boncour_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Foreign_Minister
 				MoS_Compassionate_Gentleman
 			}
 		}
@@ -115,12 +112,8 @@ characters={
 				NOT = { has_country_flag = Camille_Chautemps_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Silent_Lawyer
 			}
 		}
@@ -144,12 +137,8 @@ characters={
 			visible = {
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Foreign_Minister
 				FM_Appeaser
 			}
 		}
@@ -185,12 +174,8 @@ characters={
 				NOT = { has_country_flag = Pierre_Etienne_Flandin_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 4} #FR
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Foreign_Minister
 				FM_Defaitiste
 			}
 		}
@@ -219,12 +204,8 @@ characters={
 				NOT = { has_country_flag = Pierre_Etienne_Flandin_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 4} #FR
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Resource_Industrialist
 			}
 		}
@@ -242,7 +223,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=FRA_Pierre_Laval_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=FRA
 				A_Minister_Allowed = yes
@@ -268,6 +249,7 @@ characters={
 				}
 			}
 			traits = {
+				Position_Foreign_Minister
 				FM_Pacifist
 			}
 		}
@@ -284,6 +266,7 @@ characters={
 				NOT = { has_country_flag = Pierre_Laval_unavailable }
 			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Prince_Of_Terror
 			}
 		}
@@ -325,13 +308,24 @@ characters={
 				NOT = { has_country_flag = Paul_Reynaud_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 5} #AD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
+			traits={
+				Position_Foreign_Minister
+				FM_Bellicistes
+			}
+		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=FRA_Paul_Reynaud_AM
+			allowed={
+				tag=FRA
+			}
+			visible={
+				NOT = { has_country_flag = Paul_Reynaud_unavailable }
+				D_Minister_Allowed = yes
 			}
 			traits={
-				FM_Bellicistes
+				Position_Armaments_Minister
+				AM_Laissez-faire_Capitalist
 			}
 		}
 	}
@@ -354,12 +348,8 @@ characters={
 			visible = {
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Security_Paranoia
 			}
 		}
@@ -389,7 +379,6 @@ characters={
 				}
 			}
 			traits = {
-				
 				POSITION_President
 				L_Le_Mirabolant
 				L_Anti_Nazi
@@ -416,15 +405,8 @@ characters={
 				NOT = { has_country_flag = Louis_Barthou_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				OR = {
-					set_temp_variable = {party_id = 5} #AD
-					set_temp_variable = {support_to_check = 0.70}
-					has_at_least_parliament_party_support = yes
-				}
-				
-			}
 			traits={
+				Position_Foreign_Minister
 				FM_Respectable_Compromiser
 			}
 		}
@@ -444,8 +426,10 @@ characters={
 			}
 			visible = {
 				D_Minister_Allowed = yes
+				A_Minister_Allowed = yes
 			}
 			traits={
+				Position_Foreign_Minister
 				FM_Defaitiste
 			}
 		}
@@ -467,12 +451,8 @@ characters={
 				NOT = { has_country_flag = Albert_Bedouce_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 8} #SFIO
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Administrative_Genius
 				AM_Reformer
 			}
@@ -495,12 +475,8 @@ characters={
 				NOT = { has_country_flag = Georges_Bonnet_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Balanced_Budget_Economy
 			}
 		}
@@ -514,12 +490,8 @@ characters={
 				NOT = { has_country_flag = Georges_Bonnet_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Foreign_Minister
 				FM_Fascist_Sympathiser
 			}
 		}
@@ -541,12 +513,8 @@ characters={
 				NOT = { has_country_flag = Marx_Darnoy_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 8} #SFIO
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Compassionate_Gentleman
 			}
 		}
@@ -568,12 +536,8 @@ characters={
 				NOT = { has_country_flag = Yvon_Delbos_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Foreign_Minister
 				MoS_Compassionate_Gentleman
 			}
 		}
@@ -594,13 +558,10 @@ characters={
 			visible={
 				NOT = { has_country_flag = Ludovic_Oscar_Frossard_unavailable }
 				D_Minister_Allowed = yes
-			}
-			available = {
-				set_temp_variable = {party_id = 8} #SFIO
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
+				A_Minister_Allowed = yes
 			}
 			traits={
+				Position_Armaments_Minister
 				AM_Balanced_Budget_Economy
 			}
 		}
@@ -621,12 +582,8 @@ characters={
 			visible = {
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Bad_Reputation
 				MoS_Crime_Fighter
 			}
@@ -649,6 +606,7 @@ characters={
 				D_Minister_Allowed = yes
 			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Opposer_Of_The_Far_Right
 			}
 		}
@@ -669,12 +627,8 @@ characters={
 			visible = {
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Crime_Fighter
 			}
 		}
@@ -697,6 +651,7 @@ characters={
 				D_Minister_Allowed = yes
 			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Back_Stabber
 			}
 		}
@@ -718,12 +673,8 @@ characters={
 				NOT = { has_country_flag = Jules_Moch_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 8} #SFIO
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Construction_Magnate
 			}
 		}
@@ -745,12 +696,8 @@ characters={
 				NOT = { has_country_flag = Anatole_de_Monzie_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 8} #SFIO
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Balanced_Budget_Economy
 			}
 		}
@@ -774,6 +721,7 @@ characters={
 				D_Minister_Allowed = yes
 			}
 			traits={
+				Position_Armaments_Minister
 				AM_Military_Entrepreneur
 			}
 		}
@@ -795,12 +743,8 @@ characters={
 				NOT = { has_country_flag = Joseph_Paganon_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Health_And_Safety
 			}
 		}
@@ -814,12 +758,8 @@ characters={
 				NOT = { has_country_flag = Joseph_Paganon_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Industrial_Chemist
 			}
 		}
@@ -833,13 +773,7 @@ characters={
 				NOT = { has_country_flag = Joseph_Paganon_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
-				
 				HoI_Political_Specialist
 			}
 		}
@@ -860,13 +794,10 @@ characters={
 			visible={
 				NOT = { has_country_flag = Charles_Pomaret_unavailable }
 				D_Minister_Allowed = yes
-			}
-			available = {
-				set_temp_variable = {party_id = 8} #SFIO
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
+				A_Minister_Allowed = yes
 			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Silent_Lawyer
 			}
 		}
@@ -887,12 +818,8 @@ characters={
 			visible = {
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Silent_Lawyer
 			}
 		}
@@ -913,12 +840,8 @@ characters={
 			visible = {
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Silent_Lawyer
 			}
 		}
@@ -932,12 +855,8 @@ characters={
 				NOT = { has_country_flag = Henri_Roy_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Reformer
 			}
 		}
@@ -959,12 +878,8 @@ characters={
 				NOT = { has_country_flag = Roger_Salengro_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 8} #SFIO
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Opposer_Of_The_Far_Right
 			}
 		}
@@ -986,18 +901,15 @@ characters={
 				NOT = { has_country_flag = Antoine_Henri_Queuille_unavailable }
 				D_Minister_Allowed = yes
 			}
-			available = {
-				set_temp_variable = {party_id = 6} #RAD
-				set_temp_variable = {support_to_check = 0.70}
-				has_at_least_parliament_party_support = yes
-			}
 			traits={
+				Position_Armaments_Minister
 				AM_Mixed_Economy
 			}
 		}
 	}
 
 	### Generals ###
+
 	FRA_Sylvestre_Gerard_Audet = {
 		name= FRA_Sylvestre_Gerard_Audet
 		portraits={
@@ -1155,7 +1067,7 @@ characters={
 				large="GFX_M_Maurice_Gamelin"
 			}
 		}
-		corps_commander={
+		field_marshal={
 			traits = {
 				old_guard
 				career_officer
@@ -1172,6 +1084,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=FRA_Maurice_Gamelin_CoStaff
+			cost = 200
 			allowed={
 				tag=FRA
 			}
@@ -1335,9 +1248,25 @@ characters={
 			}
 			visible={
 				NOT = { has_country_flag = Henri_Mordacq_unavailable }
+				has_country_flag = Mordacq_Promoted
 			}
 			traits={
 				CoArmy_Military_Genius
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token = FRA_Henri_Mordacq_CoStaff
+			cost = 200
+			allowed={
+				tag=FRA
+			}
+			visible={
+				NOT = { has_country_flag = Henri_Mordacq_unavailable }
+				has_country_flag = Mordacq_Promoted
+			}
+			traits={
+				CoStaff_School_Of_Fire_Support
 			}
 		}
 	}
@@ -1440,25 +1369,6 @@ characters={
 			logistics_skill = 2
 		}
 	}
-	FRA_Robert_Touchon = {
-		name= FRA_Robert_Touchon
-		portraits={
-			army={
-				large="GFX_M_Robert_Touchon"
-			}
-		}
-		corps_commander={
-			traits = {
-				trait_mountaineer
-				infantry_officer
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
-		}
-	}
 	FRA_Maxime_Weygand = {
 		name= FRA_Maxime_Weygand
 		portraits={
@@ -1486,6 +1396,7 @@ characters={
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=FRA_Maxime_Weygand_CoStaff
+			cost = 200
 			allowed={
 				tag=FRA
 			}
@@ -1501,7 +1412,81 @@ characters={
 			}
 		}
 	}
-	### To promote
+	### 1940 Promotion
+
+	FRA_Jean_Barrau = {
+		name = FRA_Jean_Barrau
+		portraits={
+			army={
+				large="GFX_M_Jean_Barrau"
+			}
+		}
+	}
+
+	FRA_Paul_Beynet = {
+		name = FRA_Paul_Beynet
+		portraits={
+			army={
+				large="GFX_M_Paul_Beynet"
+			}
+		}
+	}
+
+	FRA_Henri_Dentz = {
+		name = FRA_Henri_Dentz
+		portraits={
+			army={
+				large="GFX_M_Henri_Dentz"
+			}
+		}
+	}
+
+	FRA_Aime_Doumenc = {
+		name = FRA_Aime_Doumenc
+		portraits={
+			army={
+				large="GFX_M_Aime_Doumenc"
+			}
+		}
+	}
+
+	FRA_Aubert_Frere = {
+		name = FRA_Aubert_Frere
+		portraits={
+			army={
+				large="GFX_M_Aubert_Frere"
+			}
+		}
+	}
+
+	FRA_Emile_Laure = {
+		name = FRA_Emile_Laure
+		portraits={
+			army={
+				large="GFX_M_Emile_Laure"
+			}
+		}
+	}
+
+	FRA_Eugene_Mittelhauser = {
+		name = FRA_Eugene_Mittelhauser
+		portraits={
+			army={
+				large="GFX_M_Eugene_Mittelhauser"
+			}
+		}
+	}
+
+	FRA_Robert_Touchon = {
+		name= FRA_Robert_Touchon
+		portraits={
+			army={
+				large="GFX_M_Robert_Touchon"
+			}
+		}
+	}
+
+	### 1943 Promotion
 	FRA_Charles_de_Gaulle = {
 		name= FRA_Charles_de_Gaulle
 		portraits={
@@ -1523,20 +1508,6 @@ characters={
 		#	logistics_skill = 2
 		#}
 		advisor={
-			slot=Head_of_Government
-			idea_token=FRA_Charles_de_Gaulle_HoG
-			removal_cost = -1
-			allowed={
-				tag=FFL
-			}
-			visible={
-				NOT = { has_country_flag = Charles_de_Gaulle_unavailable }
-			}
-			traits={
-				POSITION_President
-			}
-		}
-		advisor={
 			slot=Armaments_Minister
 			idea_token=FRA_Charles_de_Gaulle_AM
 			allowed={
@@ -1549,6 +1520,7 @@ characters={
 				D_Minister_Allowed = yes
 			}
 			traits={
+				Position_Armaments_Minister
 				AM_Tank_Proponent
 			}
 		}
@@ -1560,9 +1532,24 @@ characters={
 			}
 			visible={
 				NOT = { has_country_flag = Charles_de_Gaulle_unavailable }
+				has_country_flag = DeGaulle_Promoted
 			}
 			traits={
-				
+				CoArmy_Armoured_Spearhead_Doctrine
+			}
+		}
+		advisor={
+			slot=Chief_of_Staff
+			idea_token=FRA_Charles_de_Gaulle_CoStaff
+			cost = 200
+			allowed={
+				tag=FRA
+			}
+			visible={
+				NOT = { has_country_flag = Charles_de_Gaulle_unavailable }
+				has_country_flag = DeGaulle_Promoted
+			}
+			traits={
 				CoStaff_School_Of_Manoeuvre
 			}
 		}
@@ -1697,13 +1684,14 @@ characters={
 		}
 		navy_leader={
 			traits = {
-				seawolf
+				air_controller
+				flight_deck_manager
 			}
-			skill = 2
-			attack_skill=1
-			defense_skill=2
-			maneuvering_skill=2
-			coordination_skill=2
+			skill = 4
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=4
+			coordination_skill=4
 		}
 		advisor={
 			slot=Chief_of_Navy
@@ -1723,25 +1711,139 @@ characters={
 			}
 		}
 	}
-	FRA_Rene_Emile_Godfroy = {
-		name= FRA_Rene_Emile_Godfroy
-		portraits={
+
+	FRA_Jean_Marie_Abrial = {
+		name = FRA_Jean_Marie_Abrial
+		portraits = {
 			army={
-				large="GFX_M_Rene_Emile_Godfroy"
+				large="GFX_M_Jean_Marie_Abrial"
 			}
 		}
-		navy_leader={
+		navy_leader = {
 			traits = {
-				old_guard_navy
-				spotter
+				fleet_protector
 			}
-			skill = 2
-			attack_skill=2
-			defense_skill=1
-			maneuvering_skill=2
-			coordination_skill=2
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			maneuvering_skill = 3
+			coordination_skill = 4
 		}
 	}
+
+	FRA_Raoul_Castex = {
+		name = FRA_Raoul_Castex
+		portraits = {
+			army={
+				large="GFX_M_Raoul_Castex"
+			}
+		}
+		navy_leader = {
+			traits = {
+				superior_tactician
+				ironside
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			maneuvering_skill = 4
+			coordination_skill = 4
+		}
+	}
+
+	FRA_Marcel_Gensoul = {
+		name = FRA_Marcel_Gensoul
+		portraits = {
+			army={
+				large="GFX_M_Marcel_Gensoul"
+			}
+		}
+		navy_leader = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
+		}
+	}
+
+	FRA_Jean_de_Laborde = {
+		name = FRA_Jean_de_Laborde
+		portraits = {
+			army={
+				large="GFX_M_Jean_de_Laborde"
+			}
+		}
+		navy_leader = {
+			traits = {
+				air_controller
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 5
+			maneuvering_skill = 4
+			coordination_skill = 5
+		}
+	}
+
+	FRA_Georges_Robert = {
+		name = FRA_Georges_Robert
+		portraits = {
+			army={
+				large="GFX_M_Georges_Robert"
+			}
+		}
+		navy_leader = {
+			traits = {
+				ironside
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 5
+			coordination_skill = 4
+		}
+	}
+
+	FRA_Emmanuel_Ollive = {
+		name = FRA_Emmanuel_Ollive
+		portraits = {
+			army={
+				large="GFX_M_Emmanuel_Ollive"
+			}
+		}
+		navy_leader = {
+			traits = {
+				fleet_protector
+				lancer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+
+	#FRA_Rene_Emile_Godfroy = {
+	#	name= FRA_Rene_Emile_Godfroy
+	#	portraits={
+	#		army={
+	#			large="GFX_M_Rene_Emile_Godfroy"
+	#		}
+	#	}
+	#	navy_leader={
+	#		traits = {
+	#			old_guard_navy
+	#			spotter
+	#		}
+	#		skill = 2
+	#		attack_skill=2
+	#		defense_skill=1
+	#		maneuvering_skill=2
+	#		coordination_skill=2
+	#	}
+	#}
 
 	## Airforce ##
 
@@ -1807,6 +1909,7 @@ characters={
 				D_Minister_Allowed = yes
 			}
 			traits={
+				Position_Armaments_Minister
 				AM_Air_Superiority_Proponent
 			}
 		}
@@ -1872,7 +1975,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=FRA_Marcel_Bucard_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=FRA
 			}
@@ -1911,6 +2014,7 @@ characters={
 				NOT = { has_country_flag = Robert_Brasillach_unavailable }
 			}
 			traits={
+				Position_Foreign_Minister
 				FM_Biased_Intellectual
 			}
 		}
@@ -1934,6 +2038,7 @@ characters={
 				NOT = { has_country_flag = Xavier_Vallat_unavailable }
 			}
 			traits={
+				Position_Minister_of_Security
 				MoS_Back_Stabber
 			}
 		}
@@ -1964,18 +2069,17 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=FRA_Charles_Maurras_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=FRA
 			}
 			visible={
 				date > 1930.01.01
 				date < 1952.01.01
-				F_Minister_Allowed = yes
+				A_Minister_Allowed = yes
 				NOT = { has_country_flag = Charles_Maurras_unavailable }
 			}
 			traits={
-				
 				L_Happy_Amateur
 			}
 		}
@@ -1999,20 +2103,23 @@ characters={
 			}
 		}
 		advisor={
-			slot=Head_of_Government
-			idea_token=FRA_Philippe_Petain_HoG
-			removal_cost = -1
+			slot=Minister
+			idea_token = FRA_Philippe_Petain_M
+			can_be_fired = no
 			allowed={
 				tag=FRA
 			}
-			visible={
-				date > 1916.01.01
-				A_Minister_Allowed = yes
-				NOT = { has_country_flag = Philippe_Petain_unavailable }
+			visible = {
+				has_country_flag = FRA_defeatist_in_place
+				NOT = { has_completed_focus = FRA_Remove_the_Defeatist }
+				NOT = {	has_country_flag = Philippe_Petain_unavailable}
+				D_Minister_Allowed = yes
 			}
-			traits={
-				
-				L_Old_General
+			available = {
+			}
+			traits = {
+				L_The_Old_Marshal
+				FM_Fascist_Sympathiser
 			}
 		}
 	}
@@ -2035,7 +2142,7 @@ characters={
 			}
 			expire = "1965.1.1"
 			id=-1
-		}
+		}		
 	}
 
 	### Communist ###
@@ -2076,7 +2183,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=FRA_Marcel_Cachin_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=FRA
 			}
@@ -2104,6 +2211,7 @@ characters={
 				NOT = { has_country_flag = Marcel_Cachin_unavailable }
 			}
 			traits={
+				Position_Foreign_Minister
 				FM_Biased_Intellectual
 			}
 		}
@@ -2118,7 +2226,7 @@ characters={
 		advisor={
 			slot=Head_of_Government
 			idea_token=FRA_Jacques_Duclos_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=FRA
 			}

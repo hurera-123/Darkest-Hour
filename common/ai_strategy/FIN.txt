@@ -98,7 +98,9 @@ FIN_Befriend_Germans_After_War = {
 		NOT = {
 			is_puppet = yes
 		}
-		NOT = {	GER = { has_non_aggression_pact_with = SOV } }
+		GER = {
+			has_war_with = SOV
+		}
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
@@ -141,5 +143,30 @@ FIN_Antagonize_SOV = {
 		type = prepare_for_war
 		id = SOV
 		value = 200
+	}
+}
+
+GER_Dont_Join_Finland = {
+	enable = {
+		tag = GER
+		is_historical_focus_on = yes
+		has_country_flag = FIN_Soviet_Keraila_Demands
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = ignore
+		id = FIN
+		value = 1000
+	}
+	ai_strategy = {
+		type = alliance
+		id = FIN
+		value = -1000
+	}
+	ai_strategy = {
+		type = dont_join_wars_with
+		id = FIN
+		value = 1000
+		target_country = SOV
 	}
 }

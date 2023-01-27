@@ -472,7 +472,7 @@ news_event = {
 	id = Nuke_FRA.1
 	title = Nuke_FRA.1.t
 	desc = Nuke_FRA.1.d
-	picture = GFX_news_event_Nuke
+	picture = GFX_news_FRA_Atomic_Bombinf_of_Paris
 
 	is_triggered_only = yes
 	
@@ -687,11 +687,17 @@ news_event = {
 	id = Nuke_USA.1
 	title = Nuke_USA.1.t
 	desc = Nuke_USA.1.d
-	picture = GFX_news_event_Nuke
+	picture = GFX_news_USA_Bombing_of_Washington
 
 	is_triggered_only = yes
 	
 	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			scoped_sound_effect = "USA_Bombing_of_Washington_Soundeffect"
+		}
+	}
 
 	trigger = {
 		FROM.FROM = { state = 784 }
@@ -730,7 +736,7 @@ news_event = {
 	id = Nuke_USA.2
 	title = Nuke_USA.2.t
 	desc = Nuke_USA.2.d
-	picture = GFX_news_event_Nuke
+	picture = GFX_news_USA_Nuclear_Bombing_of_New_York
 
 	is_triggered_only = yes
 	

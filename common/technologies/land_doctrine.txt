@@ -16,7 +16,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		xp_research_bonus = 1
-		category_all_infantry = {
+		category_infantry_cavalry = {
 			max_organisation = 5
 		}
 		doctrine = yes
@@ -48,7 +48,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		xp_research_bonus = 1
-		category_all_infantry = {
+		category_infantry_cavalry = {
 			default_morale = 0.05
 		}
 		doctrine = yes
@@ -80,7 +80,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		xp_research_bonus = 1
-		category_all_infantry = {
+		category_infantry_cavalry = {
 			max_organisation = 5
 		}
 		doctrine = yes
@@ -642,7 +642,10 @@ technologies = {
 		motorized = {
 			defense = 0.1
 		}
-		mechanized = {
+		motorized = {
+			defense = 0.1
+		}
+		cavalry = {
 			defense = 0.1
 		}
 		category_tanks = {
@@ -967,7 +970,7 @@ technologies = {
 		xp_unlock_cost = 100
 		xp_research_bonus = 1
 		supply_consumption_factor = -0.05
-		infantry = {
+		category_light_infantry = {
 			combat_width = -0.4
 		}
 		enable_tactic = tactic_relentless_assault
@@ -1412,7 +1415,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 		xp_research_bonus = 1
-		category_all_infantry = {
+		category_infantry_cavalry = {
 			defense = 0.2
 		}
 		doctrine = yes
@@ -2091,7 +2094,7 @@ technologies = {
 		xp_unlock_cost = 100
 		xp_research_bonus = 1
 		land_reinforce_rate = 0.02
-		recon = {
+		category_recon = {
 			recon = 1
 		}
 		doctrine = yes

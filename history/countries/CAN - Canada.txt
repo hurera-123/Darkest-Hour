@@ -46,6 +46,7 @@
 		Tactical_Bomber_1925 = 1
 		Strategic_Bomber_1916 = 1
 		#### Armour Tech
+		Motorized_1916 = 1
 		Armored_Car_1911 = 1
 		Armored_Car_1916 = 1
 		Armored_Car_1926 = 1

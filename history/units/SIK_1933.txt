@@ -2,12 +2,12 @@
 	name = "Bùbīng shī"				# Infantry Division 
 									
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 2 y = 0 }
+		light_infantry = { x = 2 y = 1 }
 	}
 }
 
@@ -113,7 +113,7 @@ units = {
     }
     ##### Hami Garrison Command #####
     division = {
-        name = "Hāmì​​jiālǐ sēn"
+        name = "Hāmìjiālǐ sēn"
         location = 10614 # Nortern Bayingol
         division_template = "Zhùjūn shī"
         start_experience_factor = 0.1

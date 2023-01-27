@@ -30,7 +30,7 @@ ideas = {
 		}
 		### Divided Command System
 		JAP_Divided_Command_System = {
-			picture = GFX_idea_JAP_Disjointed_Intervention_Policy
+			picture = JAP_Divided_Command_System
 			available = {
 				original_tag = JAP
 			}
@@ -45,7 +45,7 @@ ideas = {
 		}
 		### Invade China
 		JAP_Invade_China = {
-			picture = GFX_idea_jap_intervene_in_china
+			picture = jap_intervene_in_china
 			available = {
 				original_tag = JAP
 			}
@@ -120,6 +120,7 @@ ideas = {
 		}
 		
 		JAP_IJA_Outrage = {
+			picture = GFX
 			modifier = {
 				army_org_factor = -0.1
 				army_org_regain = -0.05
@@ -129,6 +130,7 @@ ideas = {
 		}
 		
 		JAP_IJN_Outrage = {
+			picture = GFX
 			modifier = {
 				experience_gain_navy = -0.05
 			}
@@ -146,7 +148,7 @@ ideas = {
 		
 		### Buying Automotive Parts
 		JAP_Buying_Automotive_Parts = {
-			picture = idea_can_wartime_prices_and_trade_board
+			picture = can_wartime_prices_and_trade_board
 			allowed = {
 				has_war_with = JAP
 			}
@@ -519,7 +521,7 @@ ideas = {
 		}
 		### The Big 5 Continue to Exist
 		JAP_The_Big_5_Continue_to_Exist = {
-			picture = GFX_idea_jap_zaibatsu
+			picture = jap_zaibatsu
 
 			modifier = {
 				money_income_factor = -0.1
@@ -528,7 +530,7 @@ ideas = {
 		}
 		### The Big 5 have been Broken
 		JAP_The_Big_5_have_been_Broken = {
-			picture = GFX_idea_jap_zaibatsu_control
+			picture = jap_zaibatsu_control
 
 			modifier = {
 				political_power_factor = -0.05
@@ -600,7 +602,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_JAP_Expand_the_SNLF
+			picture = JAP_Expand_the_SNLF
 
 			modifier = {
 				special_forces_cap = 0.02
@@ -608,7 +610,7 @@ ideas = {
 		}
 		### Kikakuin
 		JAP_Kikakuin_1 = {
-			picture = GFX_idea_JAP_Kikakuin
+			picture = JAP_Kikakuin
 			
 			modifier = {
 				mobilization_speed = 1
@@ -617,7 +619,7 @@ ideas = {
 		}
 		### Kikakuin
 		JAP_Kikakuin_2 = {
-			picture = GFX_idea_JAP_Kikakuin
+			picture = JAP_Kikakuin
 			
 			modifier = {
 				mobilization_speed = 1
@@ -627,7 +629,7 @@ ideas = {
 		}
 		### Kikakuin
 		JAP_Kikakuin_3 = {
-			picture = GFX_idea_JAP_Kikakuinv
+			picture = JAP_Kikakuin
 			
 			modifier = {
 				mobilization_speed = 1
@@ -640,7 +642,7 @@ ideas = {
 		}
 		### Kikakuin
 		JAP_Kikakuin_4 = {
-			picture = GFX_idea_JAP_Kikakuin
+			picture = JAP_Kikakuin
 			
 			modifier = {
 				mobilization_speed = 1
@@ -655,7 +657,7 @@ ideas = {
 		}
 		### Kikakuin
 		JAP_Kikakuin_5 = {
-			picture = GFX_idea_JAP_Kikakuin
+			picture = JAP_Kikakuin
 			
 			modifier = {
 				mobilization_speed = 1
@@ -672,7 +674,7 @@ ideas = {
 		}
 		### Kikakuin
 		JAP_Kikakuin_6 = {
-			picture = GFX_idea_JAP_Kikakuin
+			picture = JAP_Kikakuin
 			
 			modifier = {
 				mobilization_speed = 1
@@ -690,7 +692,7 @@ ideas = {
 		}
 		# Aikoku Fujinkai
 		JAP_Aikoku_Fujinkai_1 = {
-			picture = GFX_idea_JAP_Aikoku_Fujinkai
+			picture = JAP_Aikoku_Fujinkai
 			
 			modifier = {
 				industry_repair_factor = 0.2
@@ -700,7 +702,7 @@ ideas = {
 		}
 		# The Bells of Gion Shouja
 		JAP_Aikoku_Fujinkai_2 = {
-			picture = GFX_idea_JAP_Aikoku_Fujinkai
+			picture = JAP_Aikoku_Fujinkai
 			
 			modifier = {
 				industry_repair_factor = 0.2
@@ -713,7 +715,7 @@ ideas = {
 		}
 		# The Land Buffer
 		JAP_The_Land_Buffer_1 = {
-			picture = GFX_idea_JAP_The_Land_Buffer_CHI
+			picture = JAP_The_Land_Buffer_CHI
 			
 			targeted_modifier = { 
 				tag = CHI
@@ -723,7 +725,7 @@ ideas = {
 		}
 		# The Land Buffer
 		JAP_The_Land_Buffer_2 = {
-			picture = GFX_idea_JAP_The_Land_Buffer_SOV
+			picture = JAP_The_Land_Buffer_SOV
 			
 			targeted_modifier = { 
 				tag = SOV
@@ -733,7 +735,7 @@ ideas = {
 		}
 		# The Empire's Supply Lanes
 		JAP_The_Empires_Supply_Lanes_1 = {
-			picture = GFX_idea_JAP_The_Empires_Supply_Lanes
+			picture = JAP_The_Empires_Supply_Lanes
 			
 			modifier = {
 			
@@ -746,7 +748,7 @@ ideas = {
 		}
 		# The Empire's Supply Lanes
 		JAP_The_Empires_Supply_Lanes_2 = {
-			picture = GFX_idea_JAP_The_Empires_Supply_Lanes
+			picture = JAP_The_Empires_Supply_Lanes
 			
 			modifier = {
 				research_speed_factor = 0.05
@@ -761,7 +763,7 @@ ideas = {
 		}
 		# Strengthen the Kantō-gun
 		JAP_Strengthen_the_Kanto_gun = {
-			picture = GFX_idea_JAP_Strengthen_the_Kanto_gun
+			picture = JAP_Strengthen_the_Kanto_gun
 			
 			modifier = {
 				training_time_factor = -0.2
@@ -806,7 +808,7 @@ ideas = {
 			}
 		}
 		JAP_The_Divine_Waves_Shall_Protect_Us = {
-			picture = GFX_idea_JAP_The_Divine_Waves_Shall_Protect_Us
+			picture = JAP_The_Divine_Waves_Shall_Protect_Us
 			allowed = {
 				always = no
 			}
@@ -823,7 +825,7 @@ ideas = {
 			}
 		}
 		JAP_The_Divine_Waves_Shall_Protect_Us_Battleship = {
-			picture = GFX_idea_JAP_The_Divine_Waves_Shall_Protect_Us
+			picture = JAP_The_Divine_Waves_Shall_Protect_Us
 			allowed = {
 				always = no
 			}
@@ -841,7 +843,7 @@ ideas = {
 			}
 		}
 		JAP_The_Divine_Waves_Shall_Protect_Us_Carrier = {
-			picture = GFX_idea_JAP_The_Divine_Waves_Shall_Protect_Us
+			picture = JAP_The_Divine_Waves_Shall_Protect_Us
 			allowed = {
 				always = no
 			}
@@ -859,7 +861,7 @@ ideas = {
 			}
 		}
 		JAP_CHINA_Communist_Guerrillas = {
-			picture = GFX_idea_JAP_CHINA_Communist_Guerrillas
+			picture = JAP_CHINA_Communist_Guerrillas
 			allowed = {
 				always = no
 			}

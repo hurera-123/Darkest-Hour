@@ -9,7 +9,7 @@
  DH_options: "Options"
  DH_BOOKMARK: "Bookmarks"
  DH_COUNTRY_SELECTION: "Country Selection"
- DH_version: "DH v1.0 “The Road to War”"
+ DH_version: "DH v1.0.2 “The Road to War”"
  DH_submod_version: ""
  DH_COUNTRY_INFO_TITLE: "Informations"
  DH_leader: "Leader:"
@@ -116,7 +116,7 @@
  ######################################################################
  ## Tooltips
  ###################################################################### 
- DH_FOR_0.2: "§RAlternate History for 0.2/0.3§!"
+ DH_FOR_0.2: "§RAlternate History for 2.0/3.0§!"
  TECH_River_Effect_3Percent: "River:\n Movement: §G+3.0%§!"
  TECH_River_Effect_5Percent: "River:\n Movement: §G+5.0%§!"
  TECH_River_Effect_10Percent: "River:\n Movement: §G+10.0%§!"

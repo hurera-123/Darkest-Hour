@@ -129,6 +129,12 @@ factions_decision_category = {
 	JAP_Expand_Police = {
 		visible = {
 			has_completed_focus = JAP_Curb_the_External_Threat
+			NOT = {
+				OR = {
+					has_completed_focus = JAP_One_Act_One_Profit
+					has_country_flag = JAP_Incident
+				}
+			}
 		}
 		cost = 25
 		days_remove = 30
@@ -1776,6 +1782,9 @@ JAP_Sino_Japanese_War_category = {
 						traits = { POSITION_President SUBIDEOLOGY_Despotism }
 					}
 				}
+				CHI = { # To prevent double Wang. Rework with China rework
+					remove_ideas = CHI_D_Wang_Jingwei
+				}
 			}
 		}
 	}
@@ -2099,19 +2108,19 @@ JAP_Soviet_Japanese_Border_Clashes_category = {
 		remove_effect = {
 			clr_country_flag = JAP_Already_Doing_Border_Decision
 			random_list = {
-				33 = {
+				50 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.4
 						days = 1
 					}
 				}
-				34 = {
+				30 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.5
 						days = 1
 					}
 				}
-				33 = {
+				20 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.6
 						days = 1
@@ -2203,19 +2212,19 @@ JAP_Soviet_Japanese_Border_Clashes_category = {
 		remove_effect = {
 			clr_country_flag = JAP_Already_Doing_Border_Decision
 			random_list = {
-				70 = {
+				60 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.10
 						days = 1
 					}
 				}
-				20 = {
+				25 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.11
 						days = 1
 					}
 				}
-				10 = {
+				15 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.12
 						days = 1
@@ -2307,19 +2316,19 @@ JAP_Soviet_Japanese_Border_Clashes_category = {
 		remove_effect = {
 			clr_country_flag = SOV_Already_Doing_Border_Decision
 			random_list = {
-				33 = {
+				50 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.16
 						days = 1
 					}
 				}
-				34 = {
+				30 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.17
 						days = 1
 					}
 				}
-				33 = {
+				20 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.18
 						days = 1
@@ -2411,19 +2420,19 @@ JAP_Soviet_Japanese_Border_Clashes_category = {
 		remove_effect = {
 			clr_country_flag = SOV_Already_Doing_Border_Decision
 			random_list = {
-				70 = {
+				60 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.22
 						days = 1
 					}
 				}
-				20 = {
+				25 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.23
 						days = 1
 					}
 				}
-				10 = {
+				15 = {
 					country_event = {
 						id = JAP_SOV_Decisions_Events.24
 						days = 1
@@ -3486,7 +3495,7 @@ JAP_GEACPS_category = {
 			}
 			add_to_variable = {
 				var = JAP_Yen_Bloc_Money_Gained
-				value = 3
+				value = 0.03
 			}
 		}
 		ai_will_do = {
@@ -3526,7 +3535,7 @@ JAP_GEACPS_category = {
 			}
 			add_to_variable = {
 				var = JAP_Yen_Bloc_Money_Gained
-				value = 5
+				value = 0.05
 			}
 		}
 		ai_will_do = {
@@ -3565,7 +3574,7 @@ JAP_GEACPS_category = {
 			}
 			add_to_variable = {
 				var = JAP_Yen_Bloc_Money_Gained
-				value = 3
+				value = 0.03
 			}
 		}
 		ai_will_do = {
@@ -3607,7 +3616,7 @@ JAP_GEACPS_category = {
 			}
 			add_to_variable = {
 				var = JAP_Yen_Bloc_Money_Gained
-				value = 3
+				value = 0.03
 			}
 		}
 		ai_will_do = {
@@ -4102,10 +4111,6 @@ JAP_GEACPS_category = {
 		modifier = {
 			production_factory_max_efficiency_factor = 0.05
 		}
-		targeted_modifier = {
-			tag = FROM
-			production_factory_max_efficiency_factor = -0.05
-		}
 		complete_effect = {
 			add_manpower = 20000
 			FROM = {
@@ -4220,6 +4225,9 @@ JAP_GEACPS_category = {
 		}
 		modifier = {
 			money_income_factor = 0.1
+			hidden_modifier = {
+				money_income_factor_from_decisions = 0.1
+			}
 		}
 		cost = 10
 		days_remove = 60
@@ -4974,12 +4982,23 @@ JAP_Imperial_General_Headquarters = {
 			set_country_flag = JAP_Rivalry_Decision_in_Progress
 			set_country_flag = JAP_Prioritized_Steel_for_Guns_and_Artillery
 			JAP_Increase_Balance_Towards_Army = yes
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
 		}
 		remove_effect = {
 			clr_country_flag = JAP_Rivalry_Decision_in_Progress
 		}
 		ai_will_do = {
-			base = 1
+			base = 999
 			modifier = {
 				add = 50
 				has_idea = JAP_Rivalries_Of_War_Navy_Strengthened
@@ -5015,6 +5034,17 @@ JAP_Imperial_General_Headquarters = {
 			set_country_flag = JAP_Rivalry_Decision_in_Progress
 			set_country_flag = JAP_Prioritized_Steel_for_Light_Ships
 			JAP_Increase_Balance_Towards_Navy = yes
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = JAP
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
 		}
 		remove_effect = {
 			clr_country_flag = JAP_Rivalry_Decision_in_Progress
@@ -5146,6 +5176,9 @@ JAP_Imperial_General_Headquarters = {
 		}
 		days_remove = 90
 		cost = 50
+		modifier = {
+			experience_gain_army_factor = 0.15
+		}
 		complete_effect = {
 			set_country_flag = JAP_Rivalry_Decision_in_Progress
 			set_country_flag = JAP_Allocated_Spare_Resources_to_the_Kwangtung_Army
@@ -5191,6 +5224,9 @@ JAP_Imperial_General_Headquarters = {
 		}
 		days_remove = 90
 		cost = 50
+		modifier = {
+			experience_gain_navy_factor = 0.15
+		}
 		complete_effect = {
 			set_country_flag = JAP_Rivalry_Decision_in_Progress
 			set_country_flag = JAP_Allocated_Spare_Resources_to_the_SNLF
@@ -5853,8 +5889,7 @@ JAP_Strike_South_category = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 100
-				factor = 500
+				add = 500
 				date > 1941.6.1
 			}
 		}

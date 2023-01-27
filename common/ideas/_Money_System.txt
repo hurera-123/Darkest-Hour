@@ -141,8 +141,9 @@ ideas = {
 			ai_will_do = {
 				base = 1
 				modifier = {
-					factor = 2000
-					has_balance_in_positive = yes
+					factor = 1000
+					calculate_money_balance = yes
+					check_variable = { total_balance_temp > 50 }
 					has_idea = research_spending_level_5
 					has_idea = taxation_level_3
 					NOT = {
@@ -202,7 +203,7 @@ ideas = {
 			ai_will_do = {
 				base = 1
 				modifier = {
-					factor = 2000
+					factor = 1000
 					has_balance_in_negative = yes
 					has_idea = taxation_level_2
 				}
@@ -258,7 +259,7 @@ ideas = {
 			ai_will_do = {
 				base = 1
 				modifier = {
-					factor = 2000
+					factor = 1000
 					has_balance_in_negative = yes
 					has_idea = taxation_level_3
 					OR = {
@@ -273,6 +274,10 @@ ideas = {
 				modifier = {
 					factor = 0
 					has_country_flag = Set_Taxation_Level_to_3
+				}
+				modifier = {
+					factor = 0
+					tag = ITA
 				}
 			}
 		}
@@ -401,7 +406,7 @@ ideas = {
 			ai_will_do = {
 				base = 1
 				modifier = {
-					factor = 3000
+					factor = 1000
 					has_balance_in_negative = yes
 				}
 				modifier = {
@@ -549,7 +554,7 @@ ideas = {
 				stability_factor = -0.1
 				political_power_factor = -0.12
 				monthly_population = 0.15
-				research_spending_cost_factor = -0.7
+				research_spending_cost_factor = -0.75
 			}
 			ai_will_do = {
 				factor = 0
@@ -637,17 +642,18 @@ ideas = {
 				}
 			}
 			modifier = {
-				research_speed_factor = 0.15
+				research_speed_factor = 0.05
 				stability_factor = 0.03
 				political_power_factor = 0.03
 				monthly_population = -0.1
-				research_spending_cost_factor = 0.5
+				research_spending_cost_factor = 1
 			}
 			ai_will_do = {
 				base = 1
 				modifier = {
 					factor = 1000
-					has_balance_in_positive = yes
+					calculate_money_balance = yes
+					check_variable = { total_balance_temp > 50 }
 					NOT = { has_idea = research_spending_level_5 }
 				}
 				modifier = {
@@ -681,18 +687,19 @@ ideas = {
 				}
 			}
 			modifier = {
-				research_speed_factor = 0.25
+				research_speed_factor = 0.10
 				stability_factor = 0.05
 				political_power_factor = 0.1
 				monthly_population = -0.15
-				research_spending_cost_factor = 1
+				research_spending_cost_factor = 2
 			}
 			ai_will_do = {
 				base = 1
 				modifier = {
 					factor = 2000
 					has_idea = research_spending_level_4
-					has_balance_in_positive = yes
+					calculate_money_balance = yes
+					check_variable = { total_balance_temp > 50 }
 				}
 				modifier = {
 					factor = 0
@@ -730,9 +737,8 @@ ideas = {
 			modifier = {
 				army_org_factor = -0.4
 				training_time_army_factor = 0.3
-				special_forces_min = 2
 				conscription_factor = -0.7
-				army_spending_cost_factor = -0.1
+				army_spending_cost_factor = -0.5
 			}
 		}
 		army_spending_level_2 = {
@@ -758,12 +764,10 @@ ideas = {
 				army_org_factor = -0.3
 				training_time_army_factor = 0.2
 				minimum_training_level = -0.1
-				mobilization_speed = 0.5
+				mobilization_speed = -0.5
 				army_morale_factor = -0.15
-				land_reinforce_rate = 0.02
-				conscription_factor = 0.2
-				army_defence_factor = 0.1
-				army_spending_cost_factor = -0.05
+				conscription_factor = 0.05
+				army_spending_cost_factor = -0.25
 			}
 			ai_will_do = {
 				factor = 0
@@ -793,10 +797,12 @@ ideas = {
 				experience_gain_factor = 0.05
 			}
 			ai_will_do = {
-				base = 1
+				base = 500
 				modifier = {
 					factor = 0
 					has_war = yes
+					calculate_money_balance = yes
+					check_variable = { total_balance_temp > 50 }
 				}
 			}
 		}
@@ -824,11 +830,11 @@ ideas = {
 				army_morale_factor = 0.05
 				land_reinforce_rate = 0.01
 				special_forces_cap = 0.03
-				mobilization_speed = 1
+				mobilization_speed = 0.5
 				experience_gain_factor = 0.1
 				army_attack_factor = 0.05
 				army_defence_factor = 0.05
-				army_spending_cost_factor = 0.1
+				army_spending_cost_factor = 0.25
 			}
 			ai_will_do = {
 				base = 1
@@ -836,8 +842,10 @@ ideas = {
 					factor = 500
 					has_war = yes
 					has_army_size = {
-						size > 199
+						size > 99
 					}
+					calculate_money_balance = yes
+					check_variable = { total_balance_temp > 50 }
 				}
 				modifier = {
 					factor = 0
@@ -873,16 +881,18 @@ ideas = {
 				experience_gain_factor = 0.15
 				army_attack_factor = 0.1
 				army_defence_factor = 0.05
-				army_spending_cost_factor = 0.25
+				army_spending_cost_factor = 0.50
 			}
 			ai_will_do = {
 				base = 1
 				modifier = {
-					factor = 1000
+					factor = 500
 					has_war = yes
 					has_army_size = {
-						size < 199
+						size < 100
 					}
+					calculate_money_balance = yes
+					check_variable = { total_balance_temp > 50 }
 				}
 				modifier = {
 					factor = 0

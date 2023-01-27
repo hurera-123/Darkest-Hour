@@ -3,189 +3,6 @@ ideas = {
 #  National Spirits
 #########################################################################
 	country = {
-		#### The Great Depression
-		ENG_The_Great_Depression = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.30
-				industrial_capacity_factory = -0.30
-				industrial_capacity_dockyard = -0.30
-			}
-		}
-		
-		ENG_The_Great_Depression2 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.27
-				industrial_capacity_factory = -0.27
-				industrial_capacity_dockyard = -0.27
-			}
-		}
-		ENG_The_Great_Depression3 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.24
-				industrial_capacity_factory = -0.24
-				industrial_capacity_dockyard = -0.24
-			}
-		}
-		ENG_The_Great_Depression4 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.19
-				industrial_capacity_factory = -0.19
-				industrial_capacity_dockyard = -0.19
-			}
-		}
-		ENG_The_Great_Depression5 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.16
-				industrial_capacity_factory = -0.16
-				industrial_capacity_dockyard = -0.16
-			}
-		}
-		ENG_The_Great_Depression6 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.13
-				industrial_capacity_factory = -0.13
-				industrial_capacity_dockyard = -0.13
-			}
-		}
-		ENG_The_Great_Depression7 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.13
-				industrial_capacity_factory = -0.13
-				industrial_capacity_dockyard = -0.13
-			}
-		}
-		ENG_The_Great_Depression8 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.10
-				industrial_capacity_factory = -0.10
-				industrial_capacity_dockyard = -0.10
-			}
-		}
-		ENG_The_Great_Depression9 = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			picture = usa_great_depression_2
-
-			modifier = {
-				money_income_factor = -0.5
-				production_speed_buildings_factor = -0.5
-				industrial_capacity_factory = -0.5
-				industrial_capacity_dockyard = -0.5
-			}
-		}
-
 		#### Pax Britannica
 		ENG_Pax_Britannica = {
 			allowed = {
@@ -348,7 +165,7 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			picture = GFX_idea_ENG_Britannia_Disarmed
+			picture = ENG_Britannia_Disarmed
 			
 			modifier = {
 				production_speed_arms_factory_factor = -0.5
@@ -368,7 +185,7 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			picture = GFX_idea_ENG_Britannia_Endentured
+			picture = ENG_Britannia_Endentured
 			
 			targeted_modifier = {
 				tag = GER
@@ -629,7 +446,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_ENG_Food_Rations
+			picture = ENG_Food_Rations
 			
 			modifier = {
 				monthly_population = -0.05
@@ -755,22 +572,6 @@ ideas = {
 						
 			modifier = {
 				conscription_factor = -0.15
-			}
-		}
-		ENG_War_to_End_All_Wars_2 = {
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-						
-			modifier = {
-				conscription_factor = -0.10
 			}
 		}
 		ENG_A_New_Wave_of_Conservatism = {
@@ -1053,6 +854,9 @@ ideas = {
 						
 			modifier = {
 				money_income_factor = 0.1
+				hidden_modifier = {
+					money_income_factor_from_decisions = 0.1
+				}
 			}
 		}
 		ENG_Special_Areas_Act_2 = {
@@ -1069,6 +873,9 @@ ideas = {
 						
 			modifier = {
 				money_income_factor = 0.2
+				hidden_modifier = {
+					money_income_factor_from_decisions = 0.2
+				}
 			}
 		}
 		ENG_Special_Areas_Act_3 = {
@@ -1085,6 +892,9 @@ ideas = {
 						
 			modifier = {
 				money_income_factor = 0.3
+				hidden_modifier = {
+					money_income_factor_from_decisions = 0.3
+				}
 			}
 		}
 		ENG_Infantry_Rearmament = {
@@ -1336,7 +1146,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_eng_chiefs_of_staff_committee
+			picture = eng_chiefs_of_staff_committee
 			
 			modifier = {
 				planning_speed = 0.15
@@ -1480,6 +1290,9 @@ ideas = {
 				industrial_capacity_factory = -0.05
 				stability_factor = -0.1
 				money_income_factor = 0.05
+				hidden_modifier = {
+					money_income_factor_from_decisions = 0.05
+				}
 				custom_modifier_tooltip = ENG_Trade_Influence_100
 			}
 		}
@@ -1542,6 +1355,9 @@ ideas = {
 				industrial_capacity_factory = -0.05
 				stability_factor = -0.05
 				money_income_factor = 0.05
+				hidden_modifier = {
+					money_income_factor_from_decisions = 0.05
+				}
 				custom_modifier_tooltip = ENG_Trade_Influence_50
 			}
 		}
@@ -1552,7 +1368,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_generic_license_production
+			picture = generic_license_production
 			
 			modifier = {
 				production_speed_arms_factory_factor = 0.1
@@ -1570,7 +1386,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_ENG_Fledgeling_MI5_Programme
+			picture = ENG_Fledgeling_MI5_Programme
 			
 			modifier = {
 				local_intel_to_enemies = -0.15
@@ -1583,7 +1399,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_ENG_MI5
+			picture = ENG_MI5
 			
 			modifier = {
 				local_intel_to_enemies = -0.20
@@ -1596,7 +1412,7 @@ ideas = {
 			}
 			removal_cost = -1
 
-			picture = GFX_idea_chi_war_of_resistance3
+			picture = chi_war_of_resistance3
 
 			targeted_modifier = {
 				tag = GER
@@ -1632,7 +1448,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_ENG_The_Sterling_Area
+			picture = ENG_The_Sterling_Area
 			
 			modifier = {
 				consumer_goods_factor = -0.03
@@ -1663,7 +1479,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_ENG_Plan_R4
+			picture = ENG_Plan_R4
 			
 			targeted_modifier = {
 				tag = NOR
@@ -1680,7 +1496,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_GENERIC_Economic_Compromise
+			picture = GENERIC_Economic_Compromise
 			
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -1696,7 +1512,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_GENERIC_Economic_Compromise
+			picture = GENERIC_Economic_Compromise
 			
 			modifier = {
 				consumer_goods_factor = 0.05
@@ -1713,7 +1529,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_generic_exploit_mines
+			picture = generic_exploit_mines
 			
 			modifier = {
 				political_power_gain = -0.15
@@ -1729,7 +1545,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_generic_wall_line
+			picture = generic_wall_line
 			
 			modifier = {
 				army_defence_factor = 0.1
@@ -1744,7 +1560,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_generic_exploit_mines
+			picture = generic_exploit_mines
 			
 			modifier = {
 				local_resources_factor = 0.1
@@ -1759,7 +1575,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_ENG_Commonwealth_Air_Training_Plan
+			picture = ENG_Commonwealth_Air_Training_Plan
 			
 			modifier = {
 				experience_gain_air = 0.05		
@@ -1778,7 +1594,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_ENG_Joint_Air_Training_Scheme
+			picture = ENG_Joint_Air_Training_Scheme
 			
 			modifier = {
 				experience_gain_air = 0.05
@@ -1797,7 +1613,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_tur_etatism
+			picture = tur_etatism
 			
 			modifier = {
 				cic_to_overlord_factor = 0.1
@@ -1813,7 +1629,7 @@ ideas = {
 			cancel_if_invalid = no
 			removal_cost = -1
 
-			picture = GFX_idea_spr_seize_the_gold_reserves
+			picture = spr_seize_the_gold_reserves
 			
 			modifier = {
 				consumer_goods_factor = -0.05

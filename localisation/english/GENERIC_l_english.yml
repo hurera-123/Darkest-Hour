@@ -6,6 +6,19 @@
  GENERIC_London_Naval_Treaty: "London Naval Treaty"
  GENERIC_London_Naval_Treaty_desc: "Following the human disaster that was the Great War the fervent jingoism that encompassed the peoples of Europe dissipated and so did the interest in keeping a massive amount of armed forces at the ready but not for the fleet. The winning nations of the conflict, with their adversaries subdued, continued to sink money into the development of ships in order to preserve their influence and economic dominance overseas but the ever-increasing escalation had to stop as the tensions could lead to another break in relations and perhaps another conflict.\n\nSo it was that in 1930, after several failed attempts during the twenties to reach the same result, the 5 great naval powers convened in London and signed the convention to a naval armaments and ship tonnage limitation treaty that put a stop on the nascent arms race and seemingly put an end the money sink that the fleets had turned out to be."
 
+ generic_idea_exploit_natrual_riches: "Explot Natural Riches"
+ generic_idea_exploit_natrual_riches_desc: ""
+
+
+###########################################
+## Generic Events
+###########################################
+
+ GENERIC_Focus_Tree.13.t: "Public Works"
+ GENERIC_Focus_Tree.13.d: ""
+ GENERIC_Focus_Tree.13.A: ""
+ GENERIC_Focus_Tree.13.B: ""
+ GENERIC_Focus_Tree.13.C: ""
 
 ###########################################
 ## Generic Decisions
@@ -26,6 +39,9 @@
  anti_democratic_raids: "Anti-Democratic Raids"
  anti_socialist_raids: "Anti-Socialist Raids"
  anti_communist_raids: "Anti-Communist Raids"
+
+# Economic Recovery
+ Wartime_Economic_Recovery: "Wartime Economic Recovery"
 
 # Categories
  fortification_projects: "Fortification Projects"
@@ -76,6 +92,12 @@
 
  Faction_Join_Internationale: "Join the Internationale"
  Faction_Join_Internationale_desc: "Psst hey kid, Want to do some revolutions?"
+
+###########################################
+## Custom trigger tooltips
+###########################################
+
+GENERIC_Check_if_Coastal: "Is not a Landlocked Nation"
  
 ###########################################
 ## Government Changes
@@ -202,7 +224,7 @@
  GEN_Improving_the_Rural_Industry: "Improving the Rural Industry"
  GEN_Improving_the_Rural_Industry_desc: ""
 
- GEN_Improve_Agricutlural_Methods: "Improve Agricutlural Methods"
+ GEN_Improve_Agricutlural_Methods: "Improve Agricultural Methods"
  GEN_Improve_Agricutlural_Methods_desc: ""
 
  GEN_Land_Reform_economic: "Land Reform economic"
@@ -229,7 +251,7 @@
  GEN_Start_Rural_Electrification: "Start Rural Electrification"
  GEN_Start_Rural_Electrification_desc: ""
 
- GEN_Open_University_in_the_Capital: "Open University in the Capital"
+ GEN_Open_University_in_the_Capital: "Open a University in the Capital"
  GEN_Open_University_in_the_Capital_desc: ""
 
  GEN_Invest_in_Airports: "Invest in Airports"
@@ -250,7 +272,7 @@
  GEN_Promote_Trade: "Promote Trade"
  GEN_Promote_Trade_desc: ""
 
- GEN_Development_on_our_own: "Development on our own"
+ GEN_Development_on_our_own: "Development on our Own"
  GEN_Development_on_our_own_desc: ""
 
  GEN_Reactive_Old_Armories: "Reactive Old Armories"

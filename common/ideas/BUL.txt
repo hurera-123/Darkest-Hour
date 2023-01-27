@@ -246,7 +246,7 @@ ideas = {
 		### Zveno Threat
 		BUL_Zveno_Threat = {
 			
-			picture = generic_acquire_tanks
+			picture = bul_zveno
 
 			allowed = {
 				always = no
@@ -264,7 +264,7 @@ ideas = {
 		### IMRO Terror
 		BUL_IMRO_Terror = {
 			
-			picture = generic_acquire_tanks
+			picture = bul_imro
 
 			allowed = {
 				always = no

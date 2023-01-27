@@ -9,8 +9,8 @@
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-		shock_infantry = { x = 2 y = 0 } # Machine Gun Battalion
-		shock_infantry = { x = 2 y = 1 } # Machine Gun Battalion
+		infantry = { x = 2 y = 0 } # Machine Gun Battalion
+		infantry = { x = 2 y = 1 } # Machine Gun Battalion
 		artillery_battalion = { x = 3 y = 0 }
 		artillery_battalion = { x = 3 y = 1 }
 		artillery_battalion = { x = 3 y = 2 }

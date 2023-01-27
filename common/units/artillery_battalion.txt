@@ -4,7 +4,7 @@ sub_units = {
 	artillery_battalion = {
 		sprite = artillery
 		map_icon_category = infantry
-		priority = 298
+		priority = 301
 		ai_priority = 100
 		active = yes
 		
@@ -88,9 +88,10 @@ sub_units = {
 	artillery_battalion_light = {
 		sprite = artillery
 		map_icon_category = infantry
-		priority = 298
+		priority = 300
 		ai_priority = 100
 		active = yes
+		can_be_parachuted = yes # should only be added with the glider tech
 		
 		
 		type = {
@@ -153,7 +154,7 @@ sub_units = {
 	artillery_battalion_heavy = {
 		sprite = artillery
 		map_icon_category = infantry
-		priority = 298
+		priority = 300
 		ai_priority = 100
 		active = no
 		
@@ -248,7 +249,7 @@ sub_units = {
 	motorized_artillery_battalion = {
 		sprite = artillery
 		map_icon_category = infantry
-		priority = 298
+		priority = 301
 		ai_priority = 100
 		active = no
 		
@@ -336,7 +337,7 @@ sub_units = {
 	rocket_artillery_battalion = {
 		sprite = "artillery"
 		map_icon_category = infantry
-		priority = 299
+		priority = 300
 		ai_priority = 100
 		active = yes
 		
@@ -417,7 +418,7 @@ sub_units = {
 	motorized_rocket_artillery_battalion = {
 		sprite = motorized
 		map_icon_category = infantry
-		priority = 299
+		priority = 300
 		ai_priority = 100
 		active = no
 		

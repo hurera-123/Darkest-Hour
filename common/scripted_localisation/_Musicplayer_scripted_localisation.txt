@@ -1,0 +1,89 @@
+defined_text = {
+	name = GetCustomMusicplayerBackgroundImage
+
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					original_tag = GER
+					OR = {
+						has_government = fascist
+						has_government = authoritarian
+					}
+				}
+				AND = {
+					is_in_faction_with = GER
+					GER = {
+						OR = {
+							has_government = fascist
+							has_government = authoritarian
+						}
+					}
+				}
+			}
+		}
+		localization_key = "GFX_musicplayer_background_Axis"
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					original_tag = SOV
+					OR = {
+						has_government = communist
+						has_government = socialist
+					}
+				}
+				AND = {
+					is_in_faction_with = SOV
+					SOV = {
+						OR = {
+							has_government = communist
+							has_government = socialist
+						}
+					}
+				}
+			}
+		}
+		localization_key = "GFX_musicplayer_background_Comintern"
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					OR = {
+						original_tag = ENG
+						original_tag = FRA
+						original_tag = USA
+					}
+					has_government = democratic
+				}
+				AND = {
+					is_in_faction_with = ENG
+					ENG = {
+						has_government = democratic
+					}
+				}
+				AND = {
+					is_in_faction_with = FRA
+					FRA = {
+						has_government = democratic
+					}
+				}
+				AND = {
+					is_in_faction_with = USA
+					USA = {
+						has_government = democratic
+					}
+				}
+			}
+		}
+		localization_key = "GFX_musicplayer_background_Allies"
+	}
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = "GFX_musicplayer_background_generic"
+	}
+}

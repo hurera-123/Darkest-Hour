@@ -21,15 +21,16 @@ country_event = {
 			factor = 90
 		}
 		give_military_access = SOV
-		country_event = {
-			id = EST_Soviet_Annexation.2
-		}
 		SOV = { country_event = { id = EST_Soviet_Annexation.2 }}
 	}
 	option = { # Refuse
 		name = EST_Soviet_Annexation.1.B
 		ai_chance = {
 			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 		SOV = {
 			create_wargoal = {
@@ -89,9 +90,6 @@ news_event = {
 	desc = EST_Soviet_Annexation.4.d
 	picture = GFX_news_SOV_Occupation_Estonia
 	is_triggered_only = yes
-	trigger = {
-		original_tag = SOV
-	}
 	option = {
 		name = EST_Soviet_Annexation.4.A
 		hidden_effect = {
@@ -99,7 +97,6 @@ news_event = {
 				id = EST_Soviet_Annexation.5
 				days = 1
 			}
-			EST = { country_event = { id = EST_Soviet_Annexation.5 days = 1 }}
 		}
 	}
 }
@@ -160,10 +157,6 @@ news_event = {
 		add_stability = -0.05
 		add_war_support = -0.15
 		hidden_effect = {
-			country_event = {
-				id = EST_Soviet_Annexation.7
-				days = 7
-			}
 			SOV = { country_event = { id = EST_Soviet_Annexation.7 days = 7 }}
 		}
 	}
@@ -221,9 +214,6 @@ country_event = {
 			factor = 100
 		}
 		give_military_access = SOV
-		country_event = {
-			id = LAT_Soviet_Annexation.2
-		}
 		SOV = { country_event = { id = LAT_Soviet_Annexation.2 }}
 	}
 	option = { # Refuse
@@ -270,6 +260,10 @@ country_event = {
 		name = LAT_Soviet_Annexation.3.B
 		ai_chance = {
 			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 		SOV = {
 			create_wargoal = {
@@ -293,7 +287,6 @@ news_event = {
 				id = LAT_Soviet_Annexation.5
 				days = 1
 			}
-			LAT = { country_event = { id = LAT_Soviet_Annexation.5 days = 1 }}
 		}
 	}
 }
@@ -356,10 +349,6 @@ news_event = {
 		add_war_support = -0.15
 		hidden_effect = {
 			SOV = { country_event = { id = LAT_Soviet_Annexation.7 days = 7 }}
-			country_event = {
-				id = LAT_Soviet_Annexation.7
-				days = 7
-			}
 		}
 	}
 }
@@ -416,9 +405,6 @@ country_event = {
 			factor = 100
 		}
 		give_military_access = SOV
-		country_event = {
-			id = LIT_Soviet_Annexation.2
-		}
 		SOV = { country_event = { id = LIT_Soviet_Annexation.2 }}
 		if = {
 			limit = {
@@ -427,6 +413,14 @@ country_event = {
 				}
 			}
 			transfer_state = 805
+		}
+		if = {
+			limit = {
+				SOV = {
+					controls_state = 1171
+				}
+			}
+			transfer_state = 1171
 		}
 	}
 	option = { # Refuse
@@ -465,15 +459,16 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		news_event = {
-			id = LIT_Soviet_Annexation.4
-		}
 		SOV = { news_event = { id = LIT_Soviet_Annexation.4 days = 1 }}
 	}
 	option = { # We Refuse!
 		name = LIT_Soviet_Annexation.3.B
 		ai_chance = {
 			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 		SOV = {
 			create_wargoal = {
@@ -492,10 +487,6 @@ news_event = {
 	is_triggered_only = yes
 	option = {
 		name = LIT_Soviet_Annexation.4.A
-		country_event = {
-			id = LIT_Soviet_Annexation.5
-			days = 2
-		}
 		SOV = { country_event = { id = LIT_Soviet_Annexation.5 days = 1 }}
 	}
 }
@@ -556,10 +547,6 @@ news_event = {
 		add_stability = -0.05
 		add_war_support = -0.15
 		hidden_effect = {
-			country_event = {
-				id = LIT_Soviet_Annexation.7
-				days = 7
-			}
 			SOV = { country_event = { id = LIT_Soviet_Annexation.7 days = 7 }}
 		}
 	}

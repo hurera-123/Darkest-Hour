@@ -28,16 +28,6 @@
  AUS_Politics.5.A: "A \"Neues Leben\" for Austria."
  AUS_Politics.5.B: "A \"Neues Leben\" for Austria."
 
- 
- AUS.1.t: "Nazi Terror Wave"
- AUS.1.d: "[FROM.GetNewsIcon]Violence and civil unrest erupted in our capital Vienna, as the local Nazi groups are now taking their vision of unification to the streets, utilizing a combination of makeshift weaponry and military grade ones, all of which are considered to be directly sourced from the Reich. Paramilitaries are clashing with local police forces, unable to resolve the situation. Thankfully, the local law enforcement was able to crack down on these threats and stability is restored once more. However, it has shown us one thing: The Reich is hellbent on claiming Austria into its own sovereignty, and will stop at nothing to achieve this goal, even if it shall spill the blood of our own citizens."
- AUS.1.A: "Keep a close eye on the situation"
-
-
-#  AUS_Politics.1.t: "Kurt Schuschnigg resigns, Seyss-Inquart named new chancellor"
-#  AUS_Politics.1.d: "[FROM.GetNewsIcon]It happened. The filthy Nazis are marching through Vienna as we speak. We have failed our objective. Austria, as a sovereign state, is no more. It is a part of the so-called \"Greater German Reich\", a cover for the corrupt and weak regime. The \"Anschluss\" has they call it has happened. Our forces have surrendered, some willing to join them in their crazy adventures, some being opposed to this idea. We will finally leave this dark world, in which no one can survive. Everyone is asking themselves what will happen now. The Italians have betrayed us, thinking Hitler and his friends are better and more powerful, deceived by them. Will we ever see the light of day again? Or will the world be engulfed by the flames of these totalitarian regimes?"
-#  AUS_Politics.1.A: "Lets hope for the best..."
-
 ######################################################################
 #  Austria Decisions
 ######################################################################

@@ -1,6 +1,7 @@
 ﻿l_english:
  STATE_1: "Corse"
  STATE_1_italian: "Corsica" #Italian
+ STATE_1_german: "Korsika"
 
  STATE_2: "Lazio"
  STATE_2_german: "Latium" #German
@@ -33,8 +34,10 @@
  STATE_10_exonym: "Warsaw" #Exonym
 
  STATE_11: "Aukstaitija"
+ STATE_11_german: "Kauen"
 
  STATE_12: "Riga"
+ STATE_12_german: "Livland"
 
  STATE_13: "Harju"
 
@@ -42,8 +45,8 @@
  STATE_14_breton: "Breizh" #Breton
  STATE_14_exonym: "Brittany" #Exonym
 
- STATE_15: "Normandie"
- STATE_15_exonym: "Normandy" #Exonym
+ STATE_15: "Basse-Normandie"
+ STATE_15_exonym: "Lower-Normandy" #Exonym
 
  STATE_16: "Ile-de-France"
 
@@ -60,6 +63,7 @@
  STATE_21_italian: "Provenza" #Italian
 
  STATE_22: "Languedoc"
+ STATE_22_german: "Languedoch"
 
  STATE_23: "Poitou-Charentes"
 
@@ -341,6 +345,7 @@
 
  STATE_137: "Krym"
  STATE_137_exonym: "Crimea" #Exonym
+ STATE_137_german: "Krim"
 
  STATE_138: "Skåneland"
 
@@ -402,6 +407,7 @@
  STATE_162_exonym: "Tuscany" #Exonym
 
  STATE_163: "Zara"
+ STATE_163_croatian: "Zadar"
 
  STATE_164: "Dodecaneso"
  STATE_164_greek: "Dodekánisa" #Greek
@@ -450,8 +456,10 @@
  STATE_183: "Southern Cyprus"
 
  STATE_184: "Dytikí Thráki"
+ STATE_184_bulgarian: "Zapadna Trakiya"
 
  STATE_185: "Ípeiros"
+ STATE_185_italian: "Ciamuria"
 
  STATE_186: "Peloponnisos"
 
@@ -467,6 +475,7 @@
  STATE_191: "Tartu"
 
  STATE_192: "Odessa"
+ STATE_192_german: "Gotenschau"
 
  STATE_193: "Chernihiv"
 
@@ -474,6 +483,7 @@
 
  STATE_195: "Leningrad"
  STATE_195_2: "Sankt-Peterburg" #Alternate name - Desovietization
+ STATE_195_german: "Wolfsburg"
 
  STATE_196: "Kherson"
 
@@ -488,6 +498,7 @@
  STATE_201: "Zhytomyr"
 
  STATE_202: "Kiev"
+ STATE_202_german: "Kiroffo"
 
  STATE_203: "Cherkasy"
 
@@ -510,8 +521,10 @@
  STATE_212: "Plovdiv"
 
  STATE_213: "Murmansk"
+ STATE_213_german: "Murmau"
 
  STATE_214: "Arkhangelsk"
+ STATE_214_german: "Erzengel"
 
  STATE_215: "Kem"
 
@@ -519,28 +532,36 @@
 
  STATE_217: "Stalingrad"
  STATE_217_2: "Volgograd" #Alternate name - Destalinization
+ STATE_217_german: "Wolfstadt"
 
  STATE_218: "Rostov"
+ STATE_218_german: "Rostow"
 
  STATE_219: "Moskva"
  STATE_219_exonym: "Moscow" #Exonym
+ STATE_219_german: "Moskau"
 
  STATE_220: "Kursk"
+ STATE_220_german: "Zitadellenfurt"
 
  STATE_221: "Kharkov"
+ STATE_221_german: "Karkau"
 
  STATE_222: "Orel"
 
  STATE_223: "Tula"
+ STATE_223_german: "Thulestadt"
 
  STATE_224: "Bryansk"
 
  STATE_225: "Sumy"
 
  STATE_226: "Dnipropetrovsk"
+ STATE_226_german: "Katerinoslau"
 
  STATE_227: "Stalino"
  STATE_227_2: "Donetsk" #Alternate name - Destalinization
+ STATE_227_german: "Neukoblenz"
 
  STATE_228: "Voroshilovgrad"
 
@@ -559,6 +580,7 @@
  STATE_235: "Stavropol"
 
  STATE_236: "Astrakhan"
+ STATE_236_german: "Astrachan"
 
  STATE_237: "Kalmykiya"
 
@@ -569,8 +591,10 @@
  STATE_240: "Belgorod"
 
  STATE_241: "Gomel"
+ STATE_241_german: "Homiel"
 
  STATE_242: "Smolensk"
+ STATE_242_german: "Smolenau"
 
  STATE_243: "Roslavl"
 
@@ -581,10 +605,12 @@
  STATE_246: "Rzhev"
 
  STATE_247: "Kalinin"
+ STATE_247_german: "Königstein"
 
  STATE_248: "Yaroslavl"
 
  STATE_249: "Kazan"
+ STATE_249_german: "Kosakenstadt"
 
  STATE_250: "Ulyanovsk"
 
@@ -614,6 +640,7 @@
  STATE_262: "Nenetsiya"
 
  STATE_263: "Novgorod"
+ STATE_263_german: "Holmgard"
 
  STATE_264: "Tikhvin"
 
@@ -1771,12 +1798,15 @@
  STATE_812: "Sachsen-Anhalt"
 
  STATE_813: "Istria"
+ STATE_813_croatian: "Istra"
 
  STATE_814: "Litorale"
  STATE_814_german: "Küstenland" #German
  STATE_814_exonym: "Slovene Littoral" #Exonym
+ STATE_814_croatian: "Primorska"
 
  STATE_815: "Fiume"
+ STATE_815_croatian: "Rijeka"
 
  STATE_816: "Sokcho"
 
@@ -2225,7 +2255,7 @@
 
  STATE_1025: "Ain"
 
- STATE_1026: "Seine-Maritime"
+ STATE_1026: "Seine-Inférieure"
 
  STATE_1027: "Seine-et-Marne"
 
@@ -2415,6 +2445,7 @@
  STATE_1109: "Evros"
 
  STATE_1110: "Anatolikí Makedonía"
+ STATE_1110_bulgarian: "Iztochna Makedoniya"
 
  STATE_1111: "Elassona"
 
@@ -3022,11 +3053,11 @@
 
  STATE_1388: "Paraná"
 
- STATE_1389: "Rondônia"
+ STATE_1389: "Guaporé"
 
  STATE_1390: "Acre"
 
- STATE_1391: "Roraima"
+ STATE_1391: "Rio Branco"
 
  STATE_1392: "Amapá"
 

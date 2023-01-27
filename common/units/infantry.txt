@@ -18,6 +18,7 @@ sub_units = {
 			category_light_infantry
 			category_all_infantry
 			category_army
+			category_infantry_cavalry
 		}
 		combat_width = 2
 		#Size Definitions
@@ -61,6 +62,7 @@ sub_units = {
 			category_light_infantry
 			category_all_infantry
 			category_army
+			category_infantry_cavalry
 		}
 		combat_width = 2
 		#Size Definitions
@@ -117,6 +119,7 @@ sub_units = {
 			category_light_infantry
 			category_all_infantry
 			category_army
+			category_infantry_cavalry
 		}
 		combat_width = 2
 		#Size Definitions
@@ -149,6 +152,7 @@ sub_units = {
 			category_light_infantry
 			category_all_infantry
 			category_army
+			category_infantry_cavalry
 		}
 		combat_width = 1.5
 		#Size Definitions
@@ -203,6 +207,7 @@ sub_units = {
 			category_light_infantry
 			category_all_infantry
 			category_army
+			category_infantry_cavalry
 		}
 		combat_width = 2.5
 		#Size Definitions
@@ -242,6 +247,7 @@ sub_units = {
 			category_light_infantry
 			category_all_infantry
 			category_army
+			category_infantry_cavalry
 		}
 		combat_width = 2
 		#Size Definitions
@@ -300,6 +306,7 @@ sub_units = {
 			category_light_infantry
 			category_all_infantry
 			category_army
+			category_infantry_cavalry
 		}
 		combat_width = 2
 		#Size Definitions
@@ -345,6 +352,7 @@ sub_units = {
 			category_light_infantry
 			category_all_infantry
 			category_army
+			category_infantry_cavalry
 		}
 		combat_width = 2
 		#Size Definitions
@@ -392,6 +400,7 @@ sub_units = {
 			category_all_infantry
 			category_army
 			category_special_forces
+			category_infantry_cavalry
 		}
 		combat_width = 2
 		#Size Definitions
@@ -427,6 +436,7 @@ sub_units = {
 			category_front_line
 			category_all_infantry
 			category_army
+			category_infantry_cavalry
 		}
 		combat_width = 2
 		#Size Definitions
@@ -486,6 +496,7 @@ sub_units = {
 			category_front_line
 			category_all_infantry
 			category_army
+			category_infantry_cavalry
 		}
 		combat_width = 2
 		#Offensive Abilities
@@ -552,6 +563,7 @@ sub_units = {
 			category_front_line
 			category_all_infantry
 			category_army
+			category_infantry_cavalry
 		}
 		combat_width = 2
 		#Offensive Abilities
@@ -618,6 +630,7 @@ sub_units = {
 			category_front_line
 			category_all_infantry
 			category_army
+			category_infantry_cavalry
 		}
 		combat_width = 2
 		#Offensive Abilities
@@ -684,6 +697,7 @@ sub_units = {
 			category_light_infantry
 			category_all_infantry
 			category_army
+			category_infantry_cavalry
 		}
 		combat_width = 1
 		#Size Definitions

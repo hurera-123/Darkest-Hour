@@ -82,7 +82,7 @@ equipments = {
 		lg_attack = 0
 		
 		torpedo_attack = 0
-		carrier_size = 6
+		carrier_size = 0
 		
 		anti_air_attack = 8
 		
@@ -105,7 +105,7 @@ equipments = {
 		year = 1912
 		archetype = CVE_equipment
 		priority = 1200
-		build_cost_ic = 4600
+		build_cost_ic = 5600
 		ap_attack = 1.5
 		# attack = 0
 		# fire_range = 0
@@ -126,7 +126,7 @@ equipments = {
 		resources = {
 		  steel = 1
 		}
-		manpower = 400
+		manpower = 1200
 	}
 ################################
 # 1916 CVE
@@ -141,7 +141,7 @@ equipments = {
 		# fire_range = 15.5
 		torpedo_attack = 0
 		sub_attack = 16
-		carrier_size = 18
+		carrier_size = 0
 		anti_air_attack = 8
 		armor_value = 1
 		# evasion = 10
@@ -153,11 +153,11 @@ equipments = {
 		naval_range = 7000
 		max_strength = 50
 		# port_capacity_usage = 0.7
-		build_cost_ic = 7200
+		build_cost_ic = 6000
 		resources = {
 			steel = 1
 		}
-		manpower = 5000
+		manpower = 1200
 	}
 ################################
 # 1922 CVE
@@ -165,11 +165,12 @@ equipments = {
 	CVE_equipment_1922 = {
 		year = 1922
 		archetype = CVE_equipment
+		parent = CV_equipment_1916
 		priority = 1200
 		ap_attack = 2
 		# attack = 10
 		# fire_range = 15.5
-		carrier_size = 4
+		carrier_size = 0
 		anti_air_attack = 12
 		sub_attack = 20
 		armor_value = 1
@@ -181,12 +182,12 @@ equipments = {
 		surface_visibility = 13
 		naval_range = 9000
 		naval_speed = 16
-		manpower = 550
+		manpower = 1200
 		# port_capacity_usage = 0.7
 		resources = {
 			steel = 1
 		}
-		build_cost_ic = 8800
+		build_cost_ic = 6000
 	}
 ################################
 # 1940 CVE
@@ -215,7 +216,7 @@ equipments = {
 		lg_armor_piercing = 0
 		lg_attack = 0
 		torpedo_attack = 0
-		carrier_size = 6
+		carrier_size = 0
 		
 		anti_air_attack = 8
 		
@@ -261,7 +262,7 @@ equipments = {
 		lg_armor_piercing = 0
 		lg_attack = 0
 		torpedo_attack = 0
-		carrier_size = 6
+		carrier_size = 1
 		
 		anti_air_attack = 8
 		

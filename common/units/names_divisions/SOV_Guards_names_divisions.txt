@@ -38,7 +38,7 @@ SOV_GINF_01 =
 
 	can_use = { 
 		has_start_date < 1941.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" }
@@ -193,7 +193,7 @@ SOV_GINF_42 =
 	can_use = { 
 		has_start_date > 1941.12.31
 		has_start_date < 1942.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" }
@@ -348,7 +348,7 @@ SOV_GINF_43 =
 	can_use = { 
 		has_start_date > 1942.12.31
 		has_start_date < 1943.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" }
@@ -503,7 +503,7 @@ SOV_GINF_44 =
 	can_use = { 
 		has_start_date > 1943.12.31
 		has_start_date < 1944.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 # After December 1943 unit names indicated how many times they had been decorated with the Red Banner.
 
@@ -659,7 +659,7 @@ SOV_GINF_45 =
 	can_use = { 
 		has_start_date > 1944.12.31
 		has_start_date < 1945.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" }
@@ -813,7 +813,7 @@ SOV_GINF_46 =
 
 	can_use = { 
 		has_start_date > 1945.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" }
@@ -967,7 +967,7 @@ SOV_GMRD_01 =
 
 	can_use = { 
 		has_start_date < 1941.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "motorized" }
@@ -996,7 +996,7 @@ SOV_GMRD_42 =
 	can_use = { 
 		has_start_date > 1941.12.31
 		has_start_date < 1942.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "motorized" }
@@ -1024,7 +1024,7 @@ SOV_GMRD_43 =
 
 	can_use = { 
 		has_start_date > 1942.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "motorized" }
@@ -1052,7 +1052,7 @@ SOV_GMTN_01 =
 
 	can_use = { 
 		has_start_date < 1941.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "mountaineers" }
@@ -1207,7 +1207,7 @@ SOV_GMTN_42 =
 	can_use = { 
 		has_start_date > 1941.12.31
 		has_start_date < 1942.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "mountaineers" }
@@ -1362,7 +1362,7 @@ SOV_GMTN_43 =
 	can_use = { 
 		has_start_date > 1942.12.31
 		has_start_date < 1943.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "mountaineers" }
@@ -1517,7 +1517,7 @@ SOV_GMTN_44 =
 	can_use = { 
 		has_start_date > 1943.12.31
 		has_start_date < 1944.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 # After December 1943 unit names indicated how many times they had been decorated with the Red Banner.
 
@@ -1673,7 +1673,7 @@ SOV_GMTN_45 =
 	can_use = { 
 		has_start_date > 1944.12.31
 		has_start_date < 1945.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "mountaineers" }
@@ -1827,7 +1827,7 @@ SOV_GMTN_46 =
 
 	can_use = { 
 		has_start_date > 1945.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "mountaineers" }
@@ -1972,6 +1972,46 @@ SOV_GMTN_46 =
 		129 = { "%d-ya Gvardeyskaya Gornostrelkovaya Zhitomirskaya Krasnoznamonnaya ordena Suvorova Diviziya" }
 	}
 }
+SOV_PAR_01 = 
+{
+	name = "Airborne Divisions"
+
+	for_countries = { SOV }
+
+	can_use = { 
+		has_completed_focus = SOV_Deep_Battle_Plan
+		NOT = { has_country_flag = SOV_Guards_Army_Formed }
+	}
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { SOV_GPAR_01 SOV_GPAR_44 SOV_GPAR_45 SOV_GPAR_46 }
+
+	fallback_name = "%d-ya Vozdushno-Desantnaya Diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		2 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		3 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		4 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		5 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		6 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		7 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		8 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		9 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		10 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		11 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		12 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		13 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		14 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		15 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+		16 = { "%d-ya Vozdushno-Desantnaya Diviziya" }
+	}
+}
 SOV_GPAR_01 = 
 {
 	name = "Guards Airborne Divisions"
@@ -1980,7 +2020,7 @@ SOV_GPAR_01 =
 
 	can_use = { 
 		has_start_date < 1943.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "paratrooper" }
@@ -2021,7 +2061,7 @@ SOV_GPAR_44 =
 	can_use = { 
 		has_start_date > 1943.12.31
 		has_start_date < 1944.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 # After December 1943 unit names indicated how many times they had been decorated with the Red Banner.
 
@@ -2063,7 +2103,7 @@ SOV_GPAR_45 =
 	can_use = { 
 		has_start_date > 1944.12.31
 		has_start_date < 1945.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "paratrooper" }
@@ -2103,7 +2143,7 @@ SOV_GPAR_46 =
 
 	can_use = { 
 		has_start_date > 1945.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "paratrooper" }
@@ -2143,7 +2183,7 @@ SOV_GCAV_01 =
 
 	can_use = { 
 		has_start_date < 1941.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "cavalry" "armored_car_battalion" }
@@ -2185,7 +2225,7 @@ SOV_GCAV_42 =
 	can_use = { 
 		has_start_date > 1941.12.31
 		has_start_date < 1942.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "cavalry" "armored_car_battalion" }
@@ -2227,7 +2267,7 @@ SOV_GCAV_43 =
 	can_use = { 
 		has_start_date > 1942.12.31
 		has_start_date < 1943.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 # After December 1943 unit names indicated how many times they had been decorated with the Red Banner.
 
@@ -2270,7 +2310,7 @@ SOV_GCAV_44 =
 	can_use = { 
 		has_start_date > 1943.12.31
 		has_start_date < 1944.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "cavalry" "armored_car_battalion" }
@@ -2312,7 +2352,7 @@ SOV_GCAV_45 =
 	can_use = { 
 		has_start_date > 1944.12.31
 		has_start_date < 1945.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "cavalry" "armored_car_battalion" }
@@ -2353,7 +2393,7 @@ SOV_GCAV_46 =
 
 	can_use = { 
 		has_start_date > 1945.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "cavalry" "armored_car_battalion" }
@@ -2395,7 +2435,7 @@ SOV_GMECC_01 =
 	can_use = {
 		has_start_date < 1941.12.31
 		has_tech = APC_1941
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "mechanized" "motorized" }
@@ -2430,7 +2470,7 @@ SOV_GMECC_42 =
 		has_start_date > 1941.12.31
 		has_start_date < 1942.12.31
 		has_tech = APC_1941
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "mechanized" "motorized" }
@@ -2457,7 +2497,7 @@ SOV_GMECC_42 =
 }
 SOV_GMECC_43 = 
 {
-	name = "Mechanized Corps" # 1943.7.26
+	name = "Guards Mechanized Corps" # 1943.7.26
 
 	for_countries = { SOV }
 
@@ -2465,7 +2505,7 @@ SOV_GMECC_43 =
 		has_start_date > 1942.12.31
 		has_start_date < 1943.12.31
 		has_tech = APC_1941
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "mechanized" "motorized" }
@@ -2492,7 +2532,7 @@ SOV_GMECC_43 =
 }
 SOV_GMECC_44 = 
 {
-	name = "Mechanized Corps" # 1944.6.20
+	name = "Guards Mechanized Corps" # 1944.6.20
 
 	for_countries = { SOV }
 
@@ -2500,7 +2540,7 @@ SOV_GMECC_44 =
 		has_start_date > 1943.12.31
 		has_start_date < 1944.12.31
 		has_tech = APC_1941
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "mechanized" "motorized" }
@@ -2527,7 +2567,7 @@ SOV_GMECC_44 =
 }
 SOV_GMECC_45 = 
 {
-	name = "Mechanized Corps" # 1945.1.1
+	name = "Guards Mechanized Corps" # 1945.1.1
 
 	for_countries = { SOV }
 
@@ -2535,7 +2575,7 @@ SOV_GMECC_45 =
 		has_start_date > 1944.12.31
 		has_start_date < 1945.12.31
 		has_tech = APC_1941
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "mechanized" "motorized" }
@@ -2562,14 +2602,14 @@ SOV_GMECC_45 =
 }
 SOV_GMECC_46 = 
 {
-	name = "Mechanized Corps" # The wartime mechanized formations
+	name = "Guards Mechanized Corps" # The wartime mechanized formations
 
 	for_countries = { SOV }
 
 	can_use = { 
 		has_start_date > 1945.12.31
 		has_tech = APC_1941
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "mechanized" "motorized" }
@@ -2603,7 +2643,7 @@ SOV_GARMC_01 =
 
 	can_use = {
 		has_start_date < 1942.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" }
@@ -2640,7 +2680,7 @@ SOV_GARMC_43 =
 	can_use = { 
 		has_start_date > 1942.12.31
 		has_start_date < 1943.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" }
@@ -2677,7 +2717,7 @@ SOV_GARMC_44 =
 	can_use = { 
 		has_start_date > 1943.12.31
 		has_start_date < 1944.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" }
@@ -2714,7 +2754,7 @@ SOV_GARMC_45 =
 	can_use = { 
 		has_start_date > 1944.12.31
 		has_start_date < 1945.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" }
@@ -2750,7 +2790,7 @@ SOV_GARMC_46 =
 
 	can_use = { 
 		has_start_date > 1945.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" }
@@ -2787,7 +2827,7 @@ SOV_GART_01 =
 
 	can_use = { 
 		has_start_date < 1942.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "artillery_battalion" "artillery_battalion_light" "motorized_artillery_battalion" }
@@ -2818,7 +2858,7 @@ SOV_GART_01_43 =
 	can_use = { 
 		has_start_date > 1942.12.31
 		has_start_date < 1943.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	} 
 
 	division_types = { "artillery_battalion" "artillery_battalion_light" "motorized_artillery_battalion" }
@@ -2849,7 +2889,7 @@ SOV_GART_01_44 =
 	can_use = { 
 		has_start_date > 1943.12.31
 		has_start_date < 1944.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "artillery_battalion" "artillery_battalion_light" "motorized_artillery_battalion" }
@@ -2880,7 +2920,7 @@ SOV_GART_01_45 =
 	can_use = { 
 		has_start_date > 1944.12.31
 		has_start_date < 1945.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "artillery_battalion" "artillery_battalion_light" "motorized_artillery_battalion" }
@@ -2910,7 +2950,7 @@ SOV_GART_01_46 =
 
 	can_use = { 
 		has_start_date > 1945.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "artillery_battalion" "artillery_battalion_light" "motorized_artillery_battalion" }
@@ -2940,7 +2980,7 @@ SOV_GART_02 =
 
 	can_use = { 
 		has_start_date < 1942.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "artillery_battalion" "artillery_battalion_heavy" }
@@ -2971,7 +3011,7 @@ SOV_GART_03 =
 
 	can_use = { 
 		has_start_date < 1942.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "artillery_battalion_heavy" }
@@ -3001,7 +3041,7 @@ SOV_GART_04 =
 
 	can_use = { 
 		has_start_date < 1942.12.31
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "medium_sp_artillery_battalion" }
@@ -3030,7 +3070,7 @@ SOV_GAAA_01 =
 
 	for_countries = { SOV }
 
-	can_use = { has_completed_focus = SOV_Guard_Units } 
+	can_use = { has_country_flag = SOV_Guards_Army_Formed } 
 
 	division_types = { "anti_air_battalion" "motorized_anti_air_battalion" }
 
@@ -3059,7 +3099,7 @@ SOV_GRKT_01 =
 
 	can_use = { 
 		has_tech = Rocket_Artillery_1940
-		has_completed_focus = SOV_Guard_Units
+		has_country_flag = SOV_Guards_Army_Formed
 	}
 
 	division_types = { "rocket_artillery_battalion" "motorized_rocket_artillery_battalion" }

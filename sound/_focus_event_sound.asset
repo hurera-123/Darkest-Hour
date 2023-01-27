@@ -1,3 +1,26 @@
+#######################################
+# Example on how to make a soundeffect to add in game
+#######################################
+
+# First of all make a sound so that the game can find the location of the file
+# Then make a soundeffect, in there you can change a bunch of things, to know more visit https://hoi4.paradoxwikis.com/Sound_modding
+# Finally add in the event/focus/decision, sound_effect = "sound_test_2" (sound_effect is global) 
+# or scoped_sound_effect = "sound_test_2" (scoped_sound_effect is for the current scope)
+# Remember that the files must be .wav
+
+#sound = {
+#	name = "sound_test"
+#	file = "sound_effects/musicfile.wav"
+#	always_load = yes
+#}
+
+#soundeffect = {
+#	name = sound_test_2
+#	volume = 1
+#	sounds = {
+#		sound = sound_test
+#	} 
+#}
 category = {
 	name = "DH_UI"
 	
@@ -23,25 +46,3 @@ soundeffect = {
 		sound = complete_focus
 	} 
 }
-#######################################
-# Example on how to make a soundeffect to add in game
-#######################################
-
-# First of all make a sound so that the game can find the location of the file
-# Then make a soundeffect, in there you can change a bunch of things, to know more visit https://hoi4.paradoxwikis.com/Sound_modding
-# Finally add in the event/focus/decision whatever sound_effect = "sound_test_2"
-# Remember that the files must be .wav
-
-#sound = {
-#	name = "sound_test"
-#	file = "sounds/musicfile.wav"
-#	always_load = no
-#}
-
-#soundeffect = {
-#	name = sound_test_2
-#	volume = 1
-#	sounds = {
-#		sound = sound_test
-#	} 
-#}

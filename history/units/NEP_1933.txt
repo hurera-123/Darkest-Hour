@@ -1,56 +1,61 @@
 ﻿division_template = {
-	name = "Miliita Force"
+	name = "Gorkha Brigade" # The Nepali Army is a rather confusing research project since there was both an independent army and the Gurkha units of the British Army which were specifically recruited from Nepal.  As best as I can tell, there were 26 battalions of troops, all based in Kathmandu
+	division_names_group = NEP_MTN_01
 
 	regiments = {
-		militia = { x = 0 y = 0 }
-		militia = { x = 0 y = 1 }
-		militia = { x = 0 y = 2 }
-		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
 	}
 }
 
 units = {
 	##### Royal Nepalese Army #####
 	division = {
-		name = "Purwanchal Militia"
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
 		location = 4987
-		division_template = "Miliita Force"
+		division_template = "Gorkha Brigade"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
-
+		start_equipment_factor = 0.7
 	}
 	division = {
-		name = "Madhyamanchal Militia"
+        division_name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
 		location = 4987
-		division_template = "Miliita Force"
+		division_template = "Gorkha Brigade"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
-
+		start_equipment_factor = 0.7
 	}
 	division = {
-		name = "Pashchimanchal Militia"
+        division_name = {
+            is_name_ordered = yes
+            name_order = 3
+        }
 		location = 4987
-		division_template = "Miliita Force"
+		division_template = "Gorkha Brigade"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
-
+		start_equipment_factor = 0.7
 	}
 	division = {
-		name = "Madhya Pashchimanchal Militia"
+        division_name = {
+            is_name_ordered = yes
+            name_order = 4
+        }
 		location = 4987
-		division_template = "Miliita Force"
+		division_template = "Gorkha Brigade"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
-
-	}
-	division = {
-		name = "Sudur Pashchimanchal Militia"
-		location = 4987
-		division_template = "Miliita Force"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.5
-
+		start_equipment_factor = 0.7
 	}
 }
 

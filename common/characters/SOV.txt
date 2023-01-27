@@ -9,7 +9,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Nikolai_I_Yezhov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -30,7 +30,7 @@ characters = {
 			allowed={
 				tag=SOV
 			}
-			removal_cost = -1
+			can_be_fired = no
 			visible={
 				date > 1933.01.01
 				date < 1956.01.01
@@ -70,7 +70,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Gregori_N_Zhilenkov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -96,7 +96,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Alexander_F_Kerensky_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -125,7 +125,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Nikolai_Bukharin_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -175,58 +175,6 @@ characters = {
 			}
 		}
 	}
-	SOV_Ivan_Silayev = {
-		name=SOV_Ivan_Silayev
-		portraits={
-			army={
-				small="GFX_idea_Ivan_Silayev"
-			}
-		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=SOV_Ivan_Silayev_HoG
-			removal_cost = -1
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1991.01.01
-				date < 2020.01.01
-				S_Minister_Allowed = yes
-				NOT = { has_country_flag = Ivan_Silayev_unavailable }
-			}
-			traits={
-				
-				L_Corporate_Suit
-			}
-		}
-	}
-	SOV_Vladimir_Lenin = {
-		name=SOV_Vladimir_Lenin
-		portraits={
-			army={
-				small="GFX_idea_Vladimir_Lenin"
-			}
-		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=SOV_Vladimir_Lenin_HoG
-			removal_cost = -1
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1924.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Vladimir_Lenin_unavailable }
-			}
-			traits={
-				
-				L_Flamboyant_Tough_Guy
-			}
-		}
-	}
 	SOV_Aleksey_Rykov = {
 		name=SOV_Aleksey_Rykov
 		portraits={
@@ -237,7 +185,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Aleksey_Rykov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -250,23 +198,6 @@ characters = {
 			traits={
 				
 				L_Corporate_Suit
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=SOV_Aleksey_Rykov_MoS
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Aleksey_Rykov_unavailable }
-			}
-			traits={
-				
-				MoS_Silent_Lawyer
 			}
 		}
 		advisor={
@@ -287,89 +218,11 @@ characters = {
 			}
 		}
 	}
-	SOV_Lev_Kamenev = {
-		name=SOV_Lev_Kamenev
-		portraits={
-			army={
-				small="GFX_idea_Lev_Kamenev"
-			}
-		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=SOV_Lev_Kamenev_HoG
-			removal_cost = -1
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1926.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Lev_Kamenev_unavailable }
-			}
-			traits={
-				
-				L_Backroom_Backstabber
-			}
-		}
-		advisor={
-			slot=Foreign_Minister
-			idea_token=SOV_Lev_Kamenev_FM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1926.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Lev_Kamenev_unavailable }
-			}
-			traits={
-				
-				FM_Great_Compromiser
-			}
-		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=SOV_Lev_Kamenev_AM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1926.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Lev_Kamenev_unavailable }
-			}
-			traits={
-				
-				AM_Administrative_Genius
-			}
-		}
-	}
 	SOV_Alexei_Kosygin = {
 		name=SOV_Alexei_Kosygin
 		portraits={
 			army={
 				small="GFX_idea_Alexei_Kosygin_2"
-			}
-		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=SOV_Alexei_Kosygin_HoG
-			removal_cost = -1
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1953.01.01
-				date < 1982.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Alexei_Kosygin_unavailable }
-			}
-			traits={
-				
-				L_Silent_Workhorse
 			}
 		}
 		advisor={
@@ -390,135 +243,6 @@ characters = {
 			}
 		}
 	}
-	SOV_Konstantin_Chernenko = {
-		name=SOV_Konstantin_Chernenko
-		portraits={
-			army={
-				small="GFX_idea_Konstantin_Chernenko"
-			}
-		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=SOV_Konstantin_Chernenko_HoG
-			removal_cost = -1
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1980.01.01
-				date < 1986.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Konstantin_Chernenko_unavailable }
-			}
-			traits={
-				
-				L_Political_Protege
-			}
-		}
-	}
-	SOV_Mikhail_Gorbachev = {
-		name=SOV_Mikhail_Gorbachev
-		portraits={
-			army={
-				small="GFX_idea_Mikhail_Gorbachev"
-			}
-		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=SOV_Mikhail_Gorbachev_HoG
-			removal_cost = -1
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1980.01.01
-				date < 2020.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Mikhail_Gorbachev_unavailable }
-			}
-			traits={
-				
-				L_Flamboyant_Tough_Guy
-			}
-		}
-	}
-	SOV_Nikolai_Ryzhkov = {
-		name=SOV_Nikolai_Ryzhkov
-		portraits={
-			army={
-				small="GFX_idea_Nikolai_Ryzhkov"
-			}
-		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=SOV_Nikolai_Ryzhkov_HoG
-			removal_cost = -1
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1985.01.01
-				date < 2020.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Nikolai_Ryzhkov_unavailable }
-			}
-			traits={
-				
-				L_Corporate_Suit
-			}
-		}
-	}
-	SOV_Valentin_Pavlov = {
-		name=SOV_Valentin_Pavlov
-		portraits={
-			army={
-				small="GFX_idea_Valentin_Pavlov"
-			}
-		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=SOV_Valentin_Pavlov_HoG
-			removal_cost = -1
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1991.01.01
-				date < 2004.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Valentin_Pavlov_unavailable }
-			}
-			traits={
-				
-				L_Old_Airmarshal
-			}
-		}
-	}
-	SOV_Georgiy_Chicherin = {
-		name=SOV_Georgiy_Chicherin
-		portraits={
-			army={
-				small="GFX_idea_Georgiy_Chicherin"
-			}
-		}
-		advisor={
-			slot=Foreign_Minister
-			idea_token=SOV_Georgiy_Chicherin_FM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Georgiy_Chicherin_unavailable }
-			}
-			traits={
-				
-				FM_Great_Compromiser
-			}
-		}
-	}
 	SOV_Leon_Trotsky = {
 		name=SOV_Leon_Trotsky
 		portraits={
@@ -529,7 +253,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Leon_Trotsky_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -626,7 +350,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Sergey_Kirov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -694,7 +418,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Vyacheslav_M_Molotov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -738,7 +462,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Lavrentiy_Beria_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -760,7 +484,7 @@ characters = {
 			allowed={
 				tag=SOV
 			}
-			removal_cost = -1
+			can_be_fired = no
 			visible={
 				date > 1933.01.01
 				date < 1964.01.01
@@ -783,7 +507,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Nikolai_Voznesensky_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -826,7 +550,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Andrei_Zhdanov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -881,7 +605,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Georgy_M_Malenkov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -902,7 +626,7 @@ characters = {
 			allowed={
 				tag=SOV
 			}
-			removal_cost = -1
+			can_be_fired = no
 			visible={
 				date > 1933.01.01
 				date < 1958.01.01
@@ -942,7 +666,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Mikhail_Suslov_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -992,71 +716,11 @@ characters = {
 			}
 		}
 	}
-	SOV_Dmitriy_T_Shepilov = {
-		name=SOV_Dmitriy_T_Shepilov
-		portraits={
-			army={
-				small="GFX_idea_Dmitriy_T_Shepilov"
-			}
-		}
-		advisor={
-			slot=Foreign_Minister
-			idea_token=SOV_Dmitriy_T_Shepilov_FM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1956.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Dmitriy_T_Shepilov_unavailable }
-			}
-			traits={
-				
-				FM_Apologetic_Clerk
-			}
-		}
-	}
 	SOV_Anastas_Mikoyan = {
 		name=SOV_Anastas_Mikoyan
 		portraits={
 			army={
 				small="GFX_idea_Anastas_Mikoyan"
-			}
-		}
-		advisor={
-			slot=Foreign_Minister
-			idea_token=SOV_Anastas_Mikoyan_FM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1953.01.01
-				date < 1966.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Anastas_Mikoyan_unavailable }
-			}
-			traits={
-				
-				FM_Traveling_Salesman
-			}
-		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=SOV_Anastas_Mikoyan_HoG
-			removal_cost = -1
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1953.01.01
-				date < 1966.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Anastas_Mikoyan_unavailable }
-			}
-			traits={
-				
-				L_Ambitious_Union_Boss
 			}
 		}
 		advisor={
@@ -1083,24 +747,6 @@ characters = {
 			army={
 				small="GFX_idea_Aleksandr_Vasilevsky"
 				large="GFX_M_Aleksandr_Vasilevsky"
-			}
-		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=SOV_Aleksandr_Vasilevsky_HoG
-			removal_cost = -1
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1953.01.01
-				date < 1978.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Aleksandr_Vasilevsky_unavailable }
-			}
-			traits={
-				
-				L_Old_General
 			}
 		}
 		advisor={
@@ -1180,41 +826,6 @@ characters = {
 			}
 		}
 		advisor={
-			slot=Head_of_Government
-			idea_token=SOV_Nikolay_A_Bulganin_HoG
-			removal_cost = -1
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1955.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Nikolay_A_Bulganin_unavailable }
-			}
-			traits={
-				
-				L_Old_General
-			}
-		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=SOV_Nikolay_A_Bulganin_AM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1953.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Nikolay_A_Bulganin_unavailable }
-			}
-			traits={
-				
-				AM_Planned_Economy_Proponent
-			}
-		}
-		advisor={
 			slot=Chief_of_Staff
 			idea_token=SOV_Nikolay_A_Bulganin_CoStaff
 			allowed={
@@ -1259,7 +870,7 @@ characters = {
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Nikita_S_Khrushchev_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -1272,32 +883,6 @@ characters = {
 			traits={
 				
 				L_Flamboyant_Tough_Guy
-			}
-		}
-	}
-	SOV_Nikolai_Tikhonov = {
-		name=SOV_Nikolai_Tikhonov
-		portraits={
-			army={
-				small="GFX_idea_Nikolai_Tikhonov"
-			}
-		}
-		advisor={
-			slot=Head_of_Government
-			idea_token=SOV_Nikolai_Tikhonov_HoG
-			removal_cost = -1
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1980.01.01
-				date < 1998.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Nikolai_Tikhonov_unavailable }
-			}
-			traits={
-				
-				L_Silent_Workhorse
 			}
 		}
 	}
@@ -1418,48 +1003,6 @@ characters = {
 			}
 		}
 	}
-	SOV_Moisey_Uritsky = {
-		name=SOV_Moisey_Uritsky
-		portraits={
-			army={
-				small="GFX_idea_Moisey_Uritsky"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=SOV_Moisey_Uritsky_MoS
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1919.01.01
-				S_Minister_Allowed = yes
-				NOT = { has_country_flag = Moisey_Uritsky_unavailable }
-			}
-			traits={
-				
-				MoS_Back_Stabber
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_Moisey_Uritsky_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1918.01.01
-				S_Minister_Allowed = yes
-				NOT = { has_country_flag = Moisey_Uritsky_unavailable }
-			}
-			traits={
-				
-				HoI_Political_Specialist
-			}
-		}
-	}
 	SOV_Yakov_Agranov = {
 		name=SOV_Yakov_Agranov
 		portraits={
@@ -1485,232 +1028,6 @@ characters = {
 			}
 		}
 	}
-	SOV_Grigoriy_Petrovsky = {
-		name=SOV_Grigoriy_Petrovsky
-		portraits={
-			army={
-				small="GFX_idea_Grigoriy_Petrovsky"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=SOV_Grigoriy_Petrovsky_MoS
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Grigoriy_Petrovsky_unavailable }
-			}
-			traits={
-				
-				MoS_Back_Stabber
-			}
-		}
-	}
-	SOV_Feliks_Dzerzhinsky = {
-		name=SOV_Feliks_Dzerzhinsky
-		portraits={
-			army={
-				small="GFX_idea_Feliks_Dzerzhinsky"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=SOV_Feliks_Dzerzhinsky_MoS
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Feliks_Dzerzhinsky_unavailable }
-			}
-			traits={
-				
-				MoS_Prince_Of_Terror
-			}
-		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=SOV_Feliks_Dzerzhinsky_AM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Feliks_Dzerzhinsky_unavailable }
-			}
-			traits={
-				
-				AM_Resource_Industrialist
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_Feliks_Dzerzhinsky_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Feliks_Dzerzhinsky_unavailable }
-			}
-			traits={
-				
-				HoI_Industrial_Specialist
-			}
-		}
-	}
-	SOV_Aleksandr_Beloborodov = {
-		name=SOV_Aleksandr_Beloborodov
-		portraits={
-			army={
-				small="GFX_idea_Aleksandr_Beloborodov"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=SOV_Aleksandr_Beloborodov_MoS
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Aleksandr_Beloborodov_unavailable }
-			}
-			traits={
-				
-				MoS_Efficient_Sociopath
-			}
-		}
-	}
-	SOV_Maria_Spiridonova = {
-		name=SOV_Maria_Spiridonova
-		portraits={
-			army={
-				small="GFX_idea_Maria_Spiridonova"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=SOV_Maria_Spiridonova_MoS
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1916.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Maria_Spiridonova_unavailable }
-			}
-			traits={
-				
-				MoS_Health_And_Safety
-			}
-		}
-	}
-	SOV_Eduard_Shevardnadze = {
-		name=SOV_Eduard_Shevardnadze
-		portraits={
-			army={
-				small="GFX_idea_Eduard_Shevardnadze"
-			}
-		}
-		advisor={
-			slot=Foreign_Minister
-			idea_token=SOV_Eduard_Shevardnadze_FM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1980.01.01
-				date < 2015.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Eduard_Shevardnadze_unavailable }
-			}
-			traits={
-				
-				FM_Great_Compromiser
-			}
-		}
-	}
-	SOV_Andrey_Gromyko = {
-		name=SOV_Andrey_Gromyko
-		portraits={
-			army={
-				small="GFX_idea_Andrey_Gromyko"
-			}
-		}
-		advisor={
-			slot=Foreign_Minister
-			idea_token=SOV_Andrey_Gromyko_FM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1980.01.01
-				date < 1990.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Andrey_Gromyko_unavailable }
-			}
-			traits={
-				
-				FM_Biased_Intellectual
-			}
-		}
-	}
-	SOV_Grigory_Y_Zinoviev = {
-		name=SOV_Grigory_Y_Zinoviev
-		portraits={
-			army={
-				small="GFX_idea_Grigory_Y_Zinoviev"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=SOV_Grigory_Y_Zinoviev_MoS
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1918.01.01
-				date < 1927.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Grigory_Y_Zinoviev_unavailable }
-			}
-			traits={
-				
-				MoS_Prince_Of_Terror
-			}
-		}
-		advisor={
-			slot=Foreign_Minister
-			idea_token=SOV_Grigory_Y_Zinoviev_FM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1918.01.01
-				date < 1927.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Grigory_Y_Zinoviev_unavailable }
-			}
-			traits={
-				
-				FM_Messianic_Zealot
-			}
-		}
-	}
 	SOV_Genrikh_G_Yagoda = {
 		name=SOV_Genrikh_G_Yagoda
 		portraits={
@@ -1733,6 +1050,9 @@ characters = {
 			traits={
 				
 				MoS_Purged_Purger
+			}
+			ai_will_do = {
+				factor = 500
 			}
 		}
 	}
@@ -1771,7 +1091,7 @@ characters = {
 		advisor={
 			slot=Minister_of_Security
 			idea_token=SOV_Vyacheslav_Menzhinsky_MoS
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -1784,23 +1104,6 @@ characters = {
 			traits={
 				
 				MoS_Crime_Fighter
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_Vyacheslav_Menzhinsky_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Vyacheslav_Menzhinsky_unavailable }
-			}
-			traits={
-				
-				HoI_Naval_Intelligence_Specialist
 			}
 		}
 	}
@@ -1921,184 +1224,6 @@ characters = {
 			}
 		}
 	}
-	SOV_Sergey_N_Kruglov = {
-		name=SOV_Sergey_N_Kruglov
-		portraits={
-			army={
-				small="GFX_idea_Sergey_N_Kruglov"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=SOV_Sergey_N_Kruglov_MoS
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1953.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Sergey_N_Kruglov_unavailable }
-			}
-			traits={
-				
-				MoS_Secret_Police_Chief
-			}
-		}
-	}
-	SOV_Nikolay_Dudorov = {
-		name=SOV_Nikolay_Dudorov
-		portraits={
-			army={
-				small="GFX_idea_Nikolay_Dudorov"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=SOV_Nikolay_Dudorov_MoS
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1956.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Nikolay_Dudorov_unavailable }
-			}
-			traits={
-				
-				MoS_Back_Stabber
-			}
-		}
-	}
-	SOV_Yekaterina_Furtseva = {
-		name=SOV_Yekaterina_Furtseva
-		portraits={
-			army={
-				small="GFX_idea_Yekaterina_Furtseva"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=SOV_Yekaterina_Furtseva_MoS
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1960.01.01
-				date < 1975.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Yekaterina_Furtseva_unavailable }
-			}
-			traits={
-				
-				MoS_Culture_Warrior
-			}
-		}
-	}
-	SOV_Sergei_Sokolov = {
-		name=SOV_Sergei_Sokolov
-		portraits={
-			army={
-				small="GFX_idea_Sergei_Sokolov"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=SOV_Sergei_Sokolov_MoS
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1980.01.01
-				date < 2013.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Sergei_Sokolov_unavailable }
-			}
-			traits={
-				
-				MoS_Back_Stabber
-			}
-		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=SOV_Sergei_Sokolov_AM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1980.01.01
-				date < 2013.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Sergei_Sokolov_unavailable }
-			}
-			traits={
-				
-				AM_Planned_Economy_Proponent
-			}
-		}
-	}
-	SOV_Viktor_Chebrikov = {
-		name=SOV_Viktor_Chebrikov
-		portraits={
-			army={
-				small="GFX_idea_Viktor_Chebrikov"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=SOV_Viktor_Chebrikov_MoS
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1980.01.01
-				date < 2000.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Viktor_Chebrikov_unavailable }
-			}
-			traits={
-				
-				MoS_Efficient_Sociopath
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_Viktor_Chebrikov_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1980.01.01
-				date < 2000.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Viktor_Chebrikov_unavailable }
-			}
-			traits={
-				
-				HoI_Technical_Specialist
-			}
-		}
-	}
-	SOV_Sergei_Kruglov = {
-		name=SOV_Sergei_Kruglov
-		portraits={
-			army={
-				small="GFX_idea_Sergei_Kruglov"
-			}
-		}
-		advisor={
-			slot=Minister_of_Security
-			idea_token=SOV_Sergei_Kruglov_MoS
-			allowed={
-				tag=SOV
-			}
-			traits={
-				
-				MoS_Back_Stabber
-			}
-		}
-	}
 	SOV_Anton_Scheglov = {
 		name=SOV_Anton_Scheglov
 		portraits={
@@ -2146,6 +1271,9 @@ characters = {
 			traits={
 				
 				AM_Planned_Economy_Proponent
+			}
+			ai_will_do = {
+				factor = -500
 			}
 		}
 	}
@@ -2274,58 +1402,20 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	SOV_Pavel_Dybenko = {
-		name=SOV_Pavel_Dybenko
+	SOV_Ivan_Chernyakhovsky = {
+		name=SOV_Ivan_Chernyakhovsky
 		portraits={
 			army={
-				small="GFX_idea_Pavel_Dybenko"
-				large="GFX_M_Pavel_Dybenko"
+				large="GFX_M_Ivan_Chernyakhovsky"
 			}
 		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=SOV_Pavel_Dybenko_AM
-			allowed={
-				tag=SOV
+	}
+	SOV_Leonid_Govorov = {
+		name=SOV_Leonid_Govorov
+		portraits={
+			army={
+				large="GFX_M_Leonid_Govorov"
 			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				S_Minister_Allowed = yes
-				NOT = { has_country_flag = Pavel_Dybenko_unavailable }
-			}
-			traits={
-				
-				AM_Battle_Fleet_Proponent
-			}
-		}
-		advisor={
-			slot=Chief_of_Navy
-			idea_token=SOV_Pavel_Dybenko_CoNavy
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				S_Minister_Allowed = yes
-				NOT = { has_country_flag = Pavel_Dybenko_unavailable }
-			}
-			traits={
-				
-				CoNavy_Base_Control_Doctrine
-			}
-		}
-		corps_commander={
-			traits = {
-				harsh_leader
-				politically_connected
-			}
-			skill = 2
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 3
 		}
 	}
 	SOV_Mikhail_P_Tomsky = {
@@ -2351,130 +1441,8 @@ characters = {
 				
 				AM_Resource_Industrialist
 			}
-		}
-	}
-	SOV_Isidore_Gukovsky = {
-		name=SOV_Isidore_Gukovsky
-		portraits={
-			army={
-				small="GFX_idea_Isidore_Gukovsky"
-			}
-		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=SOV_Isidore_Gukovsky_AM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1921.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Isidore_Gukovsky_unavailable }
-			}
-			traits={
-				
-				AM_Theoretical_Scientist
-			}
-		}
-	}
-	SOV_Nikolay_Krestinsky = {
-		name=SOV_Nikolay_Krestinsky
-		portraits={
-			army={
-				small="GFX_idea_Nikolay_Krestinsky"
-			}
-		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=SOV_Nikolay_Krestinsky_AM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Nikolay_Krestinsky_unavailable }
-			}
-			traits={
-				
-				AM_Planned_Economy_Proponent
-			}
-		}
-	}
-	SOV_Vladimir_AntonovOvseyenko = {
-		name=SOV_Vladimir_AntonovOvseyenko
-		portraits={
-			army={
-				small="GFX_idea_Vladimir_AntonovOvseyenko"
-			}
-		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=SOV_Vladimir_AntonovOvseyenko_AM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Vladimir_AntonovOvseyenko_unavailable }
-			}
-			traits={
-				
-				AM_Infantry_Proponent
-			}
-		}
-	}
-	SOV_Boris_Savinkov = {
-		name=SOV_Boris_Savinkov
-		portraits={
-			army={
-				small="GFX_idea_Boris_Savinkov"
-			}
-		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=SOV_Boris_Savinkov_AM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1916.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Boris_Savinkov_unavailable }
-			}
-			traits={
-				
-				AM_Military_Entrepreneur
-			}
-		}
-	}
-	SOV_Grigory_Sokolnikov = {
-		name=SOV_Grigory_Sokolnikov
-		portraits={
-			army={
-				small="GFX_idea_Grigory_Sokolnikov"
-			}
-		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=SOV_Grigory_Sokolnikov_AM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1920.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Grigory_Sokolnikov_unavailable }
-			}
-			traits={
-				
-				AM_Reformer
+			ai_will_do = {
+				factor = 500
 			}
 		}
 	}
@@ -2500,56 +1468,6 @@ characters = {
 			traits={
 				
 				AM_Resource_Industrialist
-			}
-		}
-	}
-	SOV_Vasily_Garbuzov = {
-		name=SOV_Vasily_Garbuzov
-		portraits={
-			army={
-				small="GFX_idea_Vasily_Garbuzov"
-			}
-		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=SOV_Vasily_Garbuzov_AM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1980.01.01
-				date < 1986.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Vasily_Garbuzov_unavailable }
-			}
-			traits={
-				
-				AM_Resource_Industrialist
-			}
-		}
-	}
-	SOV_Ivan_SkvortsovStepanov = {
-		name=SOV_Ivan_SkvortsovStepanov
-		portraits={
-			army={
-				small="GFX_idea_Ivan_SkvortsovStepanov"
-			}
-		}
-		advisor={
-			slot=Armaments_Minister
-			idea_token=SOV_Ivan_SkvortsovStepanov_AM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Ivan_SkvortsovStepanov_unavailable }
-			}
-			traits={
-				
-				AM_Corrupt_Kleptocrat
 			}
 		}
 	}
@@ -2801,6 +1719,7 @@ characters = {
 		portraits={
 			army={
 				small="GFX_idea_Rodion_Y_Malinovsky"
+				large = "GFX_M_Rodion_Malinovsky"
 			}
 		}
 		advisor={
@@ -2882,106 +1801,6 @@ characters = {
 			}
 		}
 	}
-	SOV_Yakov_Peters = {
-		name=SOV_Yakov_Peters
-		portraits={
-			army={
-				small="GFX_idea_Yakov_Peters"
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_Yakov_Peters_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Yakov_Peters_unavailable }
-			}
-			traits={
-				
-				HoI_Dismal_Enigma
-			}
-		}
-	}
-	SOV_Martin_Latsis = {
-		name=SOV_Martin_Latsis
-		portraits={
-			army={
-				small="GFX_idea_Martin_Latsis"
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_Martin_Latsis_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Martin_Latsis_unavailable }
-			}
-			traits={
-				
-				HoI_Technical_Specialist
-			}
-		}
-	}
-	SOV_Jozef_Unszlicht = {
-		name=SOV_Jozef_Unszlicht
-		portraits={
-			army={
-				small="GFX_idea_Jozef_Unszlicht"
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_Jozef_Unszlicht_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Jozef_Unszlicht_unavailable }
-			}
-			traits={
-				
-				HoI_Logistics_Specialist
-			}
-		}
-	}
-	SOV_Grigory_Ordzhonikidze = {
-		name=SOV_Grigory_Ordzhonikidze
-		portraits={
-			army={
-				small="GFX_idea_Grigory_Ordzhonikidze"
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_Grigory_Ordzhonikidze_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Grigory_Ordzhonikidze_unavailable }
-			}
-			traits={
-				
-				HoI_Political_Specialist
-			}
-		}
-	}
 	SOV_Yan_K_Berzin = {
 		name=SOV_Yan_K_Berzin
 		portraits={
@@ -3004,31 +1823,6 @@ characters = {
 			traits={
 				
 				HoI_Technical_Specialist
-			}
-		}
-	}
-	SOV_Ivan_IProskurov = {
-		name=SOV_Ivan_IProskurov
-		portraits={
-			army={
-				small="GFX_idea_Ivan_IProskurov"
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_Ivan_IProskurov_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1937.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Ivan_IProskurov_unavailable }
-			}
-			traits={
-				
-				HoI_Dismal_Enigma
 			}
 		}
 	}
@@ -3242,156 +2036,6 @@ characters = {
 			}
 		}
 	}
-	SOV_M_A_Shalin = {
-		name=SOV_M_A_Shalin
-		portraits={
-			army={
-				small="GFX_idea_M_A_Shalin"
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_M_A_Shalin_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1949.01.01
-				date < 1958.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = M_A_Shalin_unavailable }
-			}
-			traits={
-				
-				HoI_Political_Specialist
-			}
-		}
-	}
-	SOV_Semyon_D_Ignatyev = {
-		name=SOV_Semyon_D_Ignatyev
-		portraits={
-			army={
-				small="GFX_idea_Semyon_D_Ignatyev"
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_Semyon_D_Ignatyev_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1951.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Semyon_D_Ignatyev_unavailable }
-			}
-			traits={
-				
-				HoI_Political_Specialist
-			}
-		}
-	}
-	SOV_Ivan_A_Serov = {
-		name=SOV_Ivan_A_Serov
-		portraits={
-			army={
-				small="GFX_idea_Ivan_A_Serov"
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_Ivan_A_Serov_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1953.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Ivan_A_Serov_unavailable }
-			}
-			traits={
-				
-				HoI_Technical_Specialist
-			}
-		}
-	}
-	SOV_Aleksandr_N_Shelepin = {
-		name=SOV_Aleksandr_N_Shelepin
-		portraits={
-			army={
-				small="GFX_idea_Aleksandr_N_Shelepin"
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_Aleksandr_N_Shelepin_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1958.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Aleksandr_N_Shelepin_unavailable }
-			}
-			traits={
-				
-				HoI_Political_Specialist
-			}
-		}
-	}
-	SOV_Vladimir_Y_Semichastny = {
-		name=SOV_Vladimir_Y_Semichastny
-		portraits={
-			army={
-				small="GFX_idea_Vladimir_Y_Semichastny"
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_Vladimir_Y_Semichastny_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1961.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Vladimir_Y_Semichastny_unavailable }
-			}
-			traits={
-				
-				HoI_Dismal_Enigma
-			}
-		}
-	}
-	SOV_Yuri_Andropov = {
-		name=SOV_Yuri_Andropov
-		portraits={
-			army={
-				small="GFX_idea_Yuri_Andropov"
-			}
-		}
-		advisor={
-			slot=Head_of_Intelligence
-			idea_token=SOV_Yuri_Andropov_HoI
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1961.01.01
-				date < 1985.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Yuri_Andropov_unavailable }
-			}
-			traits={
-				
-				HoI_Political_Specialist
-			}
-		}
-	}
 	SOV_Semyon_Uritsky = {
 		name=SOV_Semyon_Uritsky
 		portraits={
@@ -3404,6 +2048,12 @@ characters = {
 			idea_token=SOV_Semyon_Uritsky_HoI
 			allowed={
 				tag=SOV
+			}
+			visible={
+				date > 1935.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Semyon_Uritsky_unavailable }
 			}
 			traits={
 				
@@ -3424,6 +2074,12 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1937.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexander_Nikonov_unavailable }
+			}
 			traits={
 				
 				HoI_Brilliant_Spymaster
@@ -3442,6 +2098,12 @@ characters = {
 			idea_token=SOV_Semyon_Gendin_HoI
 			allowed={
 				tag=SOV
+			}
+			visible={
+				date > 1937.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Semyon_Gendin_unavailable }
 			}
 			traits={
 				
@@ -3462,6 +2124,12 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1938.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexander_Orlov_unavailable }
+			}
 			traits={
 				
 				HoI_Political_Specialist
@@ -3480,6 +2148,12 @@ characters = {
 			idea_token=SOV_Ivan_Proskurov_HoI
 			allowed={
 				tag=SOV
+			}
+			visible={
+				date > 1939.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Ivan_Proskurov_unavailable }
 			}
 			traits={
 				
@@ -3500,6 +2174,12 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1940.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Filipp_Golikov_unavailable }
+			}
 			traits={
 				
 				HoI_Dismal_Enigma
@@ -3518,6 +2198,12 @@ characters = {
 			idea_token=SOV_Alexei_Panfilov_HoI
 			allowed={
 				tag=SOV
+			}
+			visible={
+				date > 1941.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexei_Panfilov_unavailable }
 			}
 			traits={
 				
@@ -3538,6 +2224,12 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1942.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Ivan_Ilyichev_unavailable }
+			}
 			traits={
 				
 				HoI_Political_Specialist
@@ -3556,6 +2248,12 @@ characters = {
 			idea_token=SOV_Viktor_Abakumov_HoI
 			allowed={
 				tag=SOV
+			}
+			visible={
+				date > 1943.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Viktor_Abakumov_unavailable }
 			}
 			traits={
 				
@@ -3593,6 +2291,7 @@ characters = {
 		portraits={
 			army={
 				small="GFX_idea_Konstantin_K_Rokossovsky"
+				large =  "GFX_M_Konstantin_Rokossovsky"
 			}
 		}
 		advisor={
@@ -3622,130 +2321,8 @@ characters = {
 				
 				army_armored_3
 			}
-		}
-	}
-	SOV_Mikhail_BonchBruyevich = {
-		name=SOV_Mikhail_BonchBruyevich
-		portraits={
-			army={
-				small="GFX_idea_Mikhail_BonchBruyevich"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=SOV_Mikhail_BonchBruyevich_CoStaff
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Mikhail_BonchBruyevich_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Fire_Support
-			}
-		}
-	}
-	SOV_Nikolay_Rattel = {
-		name=SOV_Nikolay_Rattel
-		portraits={
-			army={
-				small="GFX_idea_Nikolay_Rattel"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=SOV_Nikolay_Rattel_CoStaff
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Nikolay_Rattel_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Manoeuvre
-			}
-		}
-	}
-	SOV_Fedor_Kostyaev = {
-		name=SOV_Fedor_Kostyaev
-		portraits={
-			army={
-				small="GFX_idea_Fedor_Kostyaev"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=SOV_Fedor_Kostyaev_CoStaff
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Fedor_Kostyaev_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Defence
-			}
-		}
-	}
-	SOV_Pavel_Lebedev = {
-		name=SOV_Pavel_Lebedev
-		portraits={
-			army={
-				small="GFX_idea_Pavel_Lebedev"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=SOV_Pavel_Lebedev_CoStaff
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Pavel_Lebedev_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Psychology
-			}
-		}
-	}
-	SOV_Mikhail_Frunze = {
-		name=SOV_Mikhail_Frunze
-		portraits={
-			army={
-				small="GFX_idea_Mikhail_Frunze"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=SOV_Mikhail_Frunze_CoStaff
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Mikhail_Frunze_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Mass_Combat
+			ai_will_do = {
+				factor = 500
 			}
 		}
 	}
@@ -3784,7 +2361,7 @@ characters = {
 				large="GFX_M_Vasily_Blyukher"
 			}
 		}
-        corps_commander={
+        field_marshal ={
 			traits = {
 				brilliant_strategist
 				war_hero
@@ -3821,7 +2398,7 @@ characters = {
 		}
 	}
 	SOV_Nikolai_Kashirin = {
-		name=SOV_M_Nikolai_Kashirin
+		name=SOV_Nikolai_Kashirin
 		portraits={
 			army={
 				large="GFX_M_Nikolai_Kashirin"
@@ -3950,18 +2527,6 @@ characters = {
 				large="GFX_M_Yan_Gamarnik"
 			}
 		}
-        field_marshal={
-			traits = {
-				politically_connected
-				harsh_leader
-			}
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = 266008
-		}
 	}
 	SOV_Semyon_Budyonny = {
 		name=SOV_Semyon_Budyonny
@@ -3987,7 +2552,7 @@ characters = {
 		}
 	}
 	SOV_Mikhail_N_Tukhatchevskiy = {
-		name=SOV_Mikhail_N_Tukhatchevskiy
+		name = SOV_Mikhail_N_Tukhatchevskiy
 		portraits={
 			army={
 				small="GFX_idea_Mikhail_N_Tukhatchevskiy"
@@ -4032,6 +2597,7 @@ characters = {
 		portraits={
 			army={
 				small="GFX_idea_Kliment_Y_Voroshilov"
+				large="GFX_M_Kliment_Voroshilov"
 			}
 		}
 		advisor={
@@ -4042,7 +2608,7 @@ characters = {
 			}
 			visible={
 				date > 1924.01.01
-				date < 1940.01.01
+				date < 1964.01.01
 				C_Minister_Allowed = yes
 				NOT = { has_country_flag = Kliment_Y_Voroshilov_unavailable }
 			}
@@ -4068,43 +2634,33 @@ characters = {
 				CoArmy_Guns_And_Butter_Doctrine
 			}
 		}
-	}
-	SOV_Boris_M_Shaposhnikov = {
-		name=SOV_Boris_M_Shaposhnikov
-		portraits={
-			army={
-				small="GFX_idea_Boris_M_Shaposhnikov"
+        field_marshal={
+			traits = {
+				old_guard
+				politically_connected
+				inflexible_strategist
+				war_hero
+				defensive_doctrine
 			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=SOV_Boris_M_Shaposhnikov_CoStaff
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1937.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Boris_M_Shaposhnikov_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Mass_Combat
-			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 266002
 		}
 	}
-	SOV_Kirill_A_Meretskov = {
-		name=SOV_Kirill_A_Meretskov
+	SOV_Kirill_Meretskov = {
+		name=SOV_Kirill_Meretskov
 		portraits={
 			army={
-				small="GFX_idea_Kirill_A_Meretskov"
+				small="GFX_idea_Kirill_Meretskov"
 				large = "GFX_M_Kirill_Meretskov"
 			}
 		}
 		advisor={
 			slot=Chief_of_Staff
-			idea_token=SOV_Kirill_A_Meretskov_CoStaff
+			idea_token=SOV_Kirill_Meretskov_CoStaff
 			allowed={
 				tag=SOV
 			}
@@ -4112,11 +2668,11 @@ characters = {
 				date > 1940.01.01
 				date < 1964.01.01
 				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Kirill_A_Meretskov_unavailable }
+				NOT = { has_country_flag = Kirill_Meretskov_unavailable }
 			}
 			traits={
 				
-				CoStaff_School_Of_Psychology
+				CoStaff_School_Of_Fire_Support
 			}
 		}
 	}
@@ -4182,7 +2738,7 @@ characters = {
 		}
 		country_leader={
 			ideology=stalinism
-			desc = "Joseph_Stalin_desc"
+			desc = SOV_Joseph_Stalin_desc
 			traits={
 				POSITION_General_Secretary
 				SUBIDEOLOGY_Stalinism
@@ -4190,23 +2746,6 @@ characters = {
 			}
 			expire = "1965.1.1"
 			id=-1
-		}
-		advisor={
-			slot=Foreign_Minister
-			idea_token=SOV_Joseph_Stalin_FM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1919.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = SOV_Joseph_Stalin_unavailable }
-			}
-			traits={
-				
-				FM_Iron_Fisted_Brute
-			}
 		}
 		advisor={
 			slot=Chief_of_Army
@@ -4241,11 +2780,14 @@ characters = {
 				
 				AM_Planned_Economy_Proponent
 			}
+			ai_will_do = {
+				factor = -500
+			}
 		}
 		advisor={
 			slot=Head_of_Government
 			idea_token=SOV_Joseph_Stalin_HoG
-			removal_cost = -1
+			can_be_fired = no
 			allowed={
 				tag=SOV
 			}
@@ -4337,31 +2879,6 @@ characters = {
 			}
 		}
 	}
-	SOV_Sergei_Akhromeyev = {
-		name=SOV_Sergei_Akhromeyev
-		portraits={
-			army={
-				small="GFX_idea_Sergei_Akhromeyev"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=SOV_Sergei_Akhromeyev_CoStaff
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1980.01.01
-				date < 1992.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Sergei_Akhromeyev_unavailable }
-			}
-			traits={
-				
-				CoStaff_School_Of_Manoeuvre
-			}
-		}
-	}
 	SOV_Alexander_Yegorov = {
 		name=SOV_Alexander_Yegorov
 		portraits={
@@ -4376,12 +2893,18 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1933.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexander_Yegorov_unavailable }
+			}
 			traits={
 				
 				CoStaff_School_Of_Psychology
 			}
 		}
-        corps_commander={
+        field_marshal={
 			traits = {
 				infantry_officer
 				politically_connected
@@ -4410,6 +2933,12 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1937.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Boris_Shaposhnikov_unavailable }
+			}
 			traits={
 				
 				CoStaff_School_Of_Defence
@@ -4427,25 +2956,6 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 4
 			legacy_id = 266000
-		}
-	}
-	SOV_Kirill_Meretskov = {
-		name=SOV_Kirill_Meretskov
-		portraits={
-			army={
-				small="GFX_idea_Kirill_Meretskov"
-			}
-		}
-		advisor={
-			slot=Chief_of_Staff
-			idea_token=SOV_Kirill_Meretskov_CoStaff
-			allowed={
-				tag=SOV
-			}
-			traits={
-				
-				CoStaff_School_Of_Fire_Support
-			}
 		}
 	}
 	SOV_Georgy_Zhukov = {
@@ -4502,6 +3012,12 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1941.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Aleksei_Antonov_unavailable }
+			}
 			traits={
 				
 				CoStaff_School_Of_Psychology
@@ -4530,56 +3046,6 @@ characters = {
 			traits={
 				
 				CoArmy_Decisive_Battle_Doctrine
-			}
-		}
-	}
-	SOV_Nikolay_Krylenko = {
-		name=SOV_Nikolay_Krylenko
-		portraits={
-			army={
-				small="GFX_idea_Nikolay_Krylenko"
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=SOV_Nikolay_Krylenko_CoArmy
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Nikolay_Krylenko_unavailable }
-			}
-			traits={
-				
-				CoArmy_Elastic_Defence_Doctrine
-			}
-		}
-	}
-	SOV_Jukums_Vacietis = {
-		name=SOV_Jukums_Vacietis
-		portraits={
-			army={
-				small="GFX_idea_Jukums_Vacietis"
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=SOV_Jukums_Vacietis_CoArmy
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Jukums_Vacietis_unavailable }
-			}
-			traits={
-				
-				CoArmy_Commando_Doctrine_Army
 			}
 		}
 	}
@@ -4622,143 +3088,6 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	SOV_Sergey_Kamenev = {
-		name=SOV_Sergey_Kamenev
-		portraits={
-			army={
-				small="GFX_idea_Sergey_Kamenev"
-				large="GFX_M_Sergey_Kamenev"
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=SOV_Sergey_Kamenev_CoArmy
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Sergey_Kamenev_unavailable }
-			}
-			traits={
-				
-				CoArmy_Guns_And_Butter_Doctrine
-			}
-		}
-		corps_commander={
-			traits = {
-				skilled_staffer
-				brilliant_strategist
-				trickster
-			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 2
-		}
-	}
-	SOV_Mikhail_Artemyevich_Muravyov = {
-		name=SOV_Mikhail_Artemyevich_Muravyov
-		portraits={
-			army={
-				small="GFX_idea_Mikhail_Artemyevich_Muravyov"
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=SOV_Mikhail_Artemyevich_Muravyov_CoArmy
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1916.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Mikhail_Artemyevich_Muravyov_unavailable }
-			}
-			traits={
-				
-				CoArmy_Commando_Doctrine_Army
-			}
-		}
-	}
-	SOV_Semen_K_Timoshenko = {
-		name=SOV_Semen_K_Timoshenko
-		portraits={
-			army={
-				small="GFX_idea_Semen_K_Timoshenko"
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=SOV_Semen_K_Timoshenko_CoArmy
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1941.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Semyon_Timoshenko_unavailable }
-			}
-			traits={
-				
-				CoArmy_Elastic_Defence_Doctrine
-			}
-		}
-	}
-	SOV_Vasily_Petrov = {
-		name=SOV_Vasily_Petrov
-		portraits={
-			army={
-				small="GFX_idea_Vasily_Petrov"
-			}
-		}
-		advisor={
-			slot=Chief_of_Army
-			idea_token=SOV_Vasily_Petrov_CoArmy
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1980.01.01
-				date < 2015.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Vasily_Petrov_unavailable }
-			}
-			traits={
-				
-				CoArmy_Guns_And_Butter_Doctrine
-			}
-		}
-	}
-	SOV_Kliment_Voroshilov = {
-		name=SOV_Kliment_Voroshilov
-		portraits={
-			army={
-				large="GFX_M_Kliment_Voroshilov"
-			}
-		}
-        corps_commander={
-			traits = {
-			old_guard
-			politically_connected
-			inflexible_strategist
-			war_hero
-			defensive_doctrine
-			winter_specialist
-			}
-			skill = 2
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = 266002
-		}
-	}
 	SOV_Semyon_Timoshenko = {
 		name=SOV_Semyon_Timoshenko
 		portraits={
@@ -4773,12 +3102,18 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1941.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Semyon_Timoshenko_unavailable }
+			}
 			traits={
 				
-				CoStaff_School_Of_Mass_Combat
+				CoArmy_Elastic_Defence_Doctrine
 			}
 		}
-        corps_commander={
+		corps_commander={
 			traits = {
 				old_guard
 				politically_connected
@@ -4873,156 +3208,6 @@ characters = {
 			}
 		}
 	}
-	SOV_Modest_Ivanov = {
-		name=SOV_Modest_Ivanov
-		portraits={
-			army={
-				small="GFX_idea_Modest_Ivanov"
-			}
-		}
-		advisor={
-			slot=Chief_of_Navy
-			idea_token=SOV_Modest_Ivanov_CoNavy
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Modest_Ivanov_unavailable }
-			}
-			traits={
-				
-				CoNavy_Open_Seas_Doctrine
-			}
-		}
-	}
-	SOV_Vasiliy_Altfater = {
-		name=SOV_Vasiliy_Altfater
-		portraits={
-			army={
-				small="GFX_idea_Vasiliy_Altfater"
-			}
-		}
-		advisor={
-			slot=Chief_of_Navy
-			idea_token=SOV_Vasiliy_Altfater_CoNavy
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1919.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Vasiliy_Altfater_unavailable }
-			}
-			traits={
-				
-				CoNavy_Decisive_Naval_Battle_Doctrine
-			}
-		}
-	}
-	SOV_Yevgeny_Berens = {
-		name=SOV_Yevgeny_Berens
-		portraits={
-			army={
-				small="GFX_idea_Yevgeny_Berens"
-			}
-		}
-		advisor={
-			slot=Chief_of_Navy
-			idea_token=SOV_Yevgeny_Berens_CoNavy
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Yevgeny_Berens_unavailable }
-			}
-			traits={
-				
-				CoNavy_Power_Projection_Doctrine
-			}
-		}
-	}
-	SOV_Aleksandr_Nemits = {
-		name=SOV_Aleksandr_Nemits
-		portraits={
-			army={
-				small="GFX_idea_Aleksandr_Nemits"
-			}
-		}
-		advisor={
-			slot=Chief_of_Navy
-			idea_token=SOV_Aleksandr_Nemits_CoNavy
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Aleksandr_Nemits_unavailable }
-			}
-			traits={
-				
-				CoNavy_Indirect_Approach_Doctrine
-			}
-		}
-	}
-	SOV_Eduard_Pantserzhansky = {
-		name=SOV_Eduard_Pantserzhansky
-		portraits={
-			army={
-				small="GFX_idea_Eduard_Pantserzhansky"
-			}
-		}
-		advisor={
-			slot=Chief_of_Navy
-			idea_token=SOV_Eduard_Pantserzhansky_CoNavy
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1920.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Eduard_Pantserzhansky_unavailable }
-			}
-			traits={
-				
-				CoNavy_Base_Control_Doctrine
-			}
-		}
-	}
-	SOV_Vyacheslav_Zof = {
-		name=SOV_Vyacheslav_Zof
-		portraits={
-			army={
-				small="GFX_idea_Vyacheslav_Zof"
-			}
-		}
-		advisor={
-			slot=Chief_of_Navy
-			idea_token=SOV_Vyacheslav_Zof_CoNavy
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1920.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Vyacheslav_Zof_unavailable }
-			}
-			traits={
-				
-				CoNavy_Open_Seas_Doctrine
-			}
-		}
-	}
 	SOV_Vladimir_M_Orlov = {
 		name=SOV_Vladimir_M_Orlov
 		portraits={
@@ -5073,31 +3258,6 @@ characters = {
 			}
 		}
 	}
-	SOV_Mikhail_V_Viktorov = {
-		name=SOV_Mikhail_V_Viktorov
-		portraits={
-			army={
-				small="GFX_idea_Mikhail_V_Viktorov"
-			}
-		}
-		advisor={
-			slot=Chief_of_Navy
-			idea_token=SOV_Mikhail_V_Viktorov_CoNavy
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1938.01.01
-				date < 1964.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Mikhail_V_Viktorov_unavailable }
-			}
-			traits={
-				
-				CoNavy_Power_Projection_Doctrine
-			}
-		}
-	}
 	SOV_Lev_Galler = {
 		name=SOV_Lev_Galler
 		portraits={
@@ -5110,6 +3270,12 @@ characters = {
 			idea_token=SOV_Lev_Galler_CoNavy
 			allowed={
 				tag=SOV
+			}
+			visible={
+				date > 1933.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Lev_Galler_unavailable }
 			}
 			traits={
 				
@@ -5130,6 +3296,12 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1933.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Mikhail_Viktorov_unavailable }
+			}
 			traits={
 				
 				CoNavy_Decisive_Naval_Battle_Doctrine
@@ -5148,6 +3320,12 @@ characters = {
 			idea_token=SOV_Pyotr_Smirnov_CoNavy
 			allowed={
 				tag=SOV
+			}
+			visible={
+				date > 1933.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Pyotr_Smirnov_unavailable }
 			}
 			traits={
 				
@@ -5168,6 +3346,12 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1938.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Mikhail_Frinovsky_unavailable }
+			}
 			traits={
 				
 				CoNavy_Political_Appointee
@@ -5186,6 +3370,12 @@ characters = {
 			idea_token=SOV_Nikolai_Kuznetsov_CoNavy
 			allowed={
 				tag=SOV
+			}
+			visible={
+				date > 1938.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Nikolai_Kuznetsov_unavailable }
 			}
 			traits={
 				
@@ -5206,28 +3396,15 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1937.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Ivan_Yumashev_unavailable }
+			}
 			traits={
 				
 				CoNavy_Open_Seas_Doctrine
-			}
-		}
-	}
-	SOV_Vladimir_Chernavin = {
-		name=SOV_Vladimir_Chernavin
-		portraits={
-			army={
-				small="GFX_idea_Vladimir_Chernavin"
-			}
-		}
-		advisor={
-			slot=Chief_of_Navy
-			idea_token=SOV_Vladimir_Chernavin_CoNavy
-			allowed={
-				tag=SOV
-			}
-			traits={
-				
-				CoNavy_Old_School_Admiral
 			}
 		}
 	}
@@ -5244,6 +3421,12 @@ characters = {
 			idea_token=SOV_Sergey_Gorshkov_CoNavy
 			allowed={
 				tag=SOV
+			}
+			visible={
+				date > 1937.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Sergey_Gorshkov_unavailable }
 			}
 			traits={
 				
@@ -5314,181 +3497,6 @@ characters = {
 			}
 		}
 	}
-	SOV_Konstantin_Akashev = {
-		name=SOV_Konstantin_Akashev
-		portraits={
-			army={
-				small="GFX_idea_Konstantin_Akashev"
-			}
-		}
-		advisor={
-			slot=Chief_of_Airforce
-			idea_token=SOV_Konstantin_Akashev_CoAir
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Konstantin_Akashev_unavailable }
-			}
-			traits={
-				
-				CoAir_Carpet_Bombing_Doctrine
-			}
-		}
-	}
-	SOV_Mikhail_Solovov = {
-		name=SOV_Mikhail_Solovov
-		portraits={
-			army={
-				small="GFX_idea_Mikhail_Solovov"
-			}
-		}
-		advisor={
-			slot=Chief_of_Airforce
-			idea_token=SOV_Mikhail_Solovov_CoAir
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Mikhail_Solovov_unavailable }
-			}
-			traits={
-				
-				CoAir_Naval_Aviation_Doctrine
-			}
-		}
-	}
-	SOV_Aleksandr_Vorotnikov = {
-		name=SOV_Aleksandr_Vorotnikov
-		portraits={
-			army={
-				small="GFX_idea_Aleksandr_Vorotnikov"
-			}
-		}
-		advisor={
-			slot=Chief_of_Airforce
-			idea_token=SOV_Aleksandr_Vorotnikov_CoAir
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Aleksandr_Vorotnikov_unavailable }
-			}
-			traits={
-				
-				CoAir_Air_Superiority_Doctrine
-			}
-		}
-	}
-	SOV_Andrey_Sergeev = {
-		name=SOV_Andrey_Sergeev
-		portraits={
-			army={
-				small="GFX_idea_Andrey_Sergeev"
-			}
-		}
-		advisor={
-			slot=Chief_of_Airforce
-			idea_token=SOV_Andrey_Sergeev_CoAir
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1914.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Andrey_Sergeev_unavailable }
-			}
-			traits={
-				
-				CoAir_Army_Aviation_Doctrine
-			}
-		}
-	}
-	SOV_Andrey_Znamensky = {
-		name=SOV_Andrey_Znamensky
-		portraits={
-			army={
-				small="GFX_idea_Andrey_Znamensky"
-			}
-		}
-		advisor={
-			slot=Chief_of_Airforce
-			idea_token=SOV_Andrey_Znamensky_CoAir
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1920.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Andrey_Znamensky_unavailable }
-			}
-			traits={
-				
-				CoAir_Vertical_Envelopment_Doctrine
-			}
-		}
-	}
-	SOV_Arkady_Rosengolts = {
-		name=SOV_Arkady_Rosengolts
-		portraits={
-			army={
-				small="GFX_idea_Arkady_Rosengolts"
-			}
-		}
-		advisor={
-			slot=Chief_of_Airforce
-			idea_token=SOV_Arkady_Rosengolts_CoAir
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1920.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Arkady_Rosengolts_unavailable }
-			}
-			traits={
-				
-				CoAir_Carpet_Bombing_Doctrine
-			}
-		}
-	}
-	SOV_Pyotr_Baranov = {
-		name=SOV_Pyotr_Baranov
-		portraits={
-			army={
-				small="GFX_idea_Pyotr_Baranov"
-			}
-		}
-		advisor={
-			slot=Chief_of_Airforce
-			idea_token=SOV_Pyotr_Baranov_CoAir
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1920.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Pyotr_Baranov_unavailable }
-			}
-			traits={
-				
-				CoAir_Naval_Aviation_Doctrine
-			}
-		}
-	}
 	SOV_Yakov_I_Alksnis = {
 		name=SOV_Yakov_I_Alksnis
 		portraits={
@@ -5536,31 +3544,6 @@ characters = {
 			traits={
 				
 				CoAir_Army_Aviation_Doctrine
-			}
-		}
-	}
-	SOV_Yefimov_Nikolayevich = {
-		name=SOV_Yefimov_Nikolayevich
-		portraits={
-			army={
-				small="GFX_idea_Yefimov_Nikolayevich"
-			}
-		}
-		advisor={
-			slot=Chief_of_Airforce
-			idea_token=SOV_Yefimov_Nikolayevich_CoAir
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1980.01.01
-				date < 2013.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Yefimov_Nikolayevich_unavailable }
-			}
-			traits={
-				
-				CoAir_Air_Superiority_Doctrine
 			}
 		}
 	}
@@ -5677,6 +3660,12 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1937.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Yakov_Smushkevich_unavailable }
+			}
 			traits={
 				
 				CoAir_Air_Superiority_Doctrine
@@ -5695,6 +3684,12 @@ characters = {
 			idea_token=SOV_Aleksandr_Loktionov_CoAir
 			allowed={
 				tag=SOV
+			}
+			visible={
+				date > 1937.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Aleksandr_Loktionov_unavailable }
 			}
 			traits={
 				
@@ -5715,6 +3710,12 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1939.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Pavel_Rychagov_unavailable }
+			}
 			traits={
 				
 				CoAir_Air_Superiority_Doctrine
@@ -5733,6 +3734,12 @@ characters = {
 			idea_token=SOV_Pavel_Zhigarev_CoAir
 			allowed={
 				tag=SOV
+			}
+			visible={
+				date > 1940.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Pavel_Zhigarev_unavailable }
 			}
 			traits={
 				
@@ -5764,6 +3771,12 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1937.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexander_Novikov_unavailable }
+			}
 			traits={
 				
 				CoAir_Army_Aviation_Doctrine
@@ -5783,9 +3796,39 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1946.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Konstantin_Vershinin_unavailable }
+			}
 			traits={
 				
 				CoAir_Army_Aviation_Doctrine
+			}
+		}
+	}
+	SOV_Marina_Raskova = {
+		name=SOV_Marina_Raskova
+		portraits={
+			army={
+				small="GFX_idea_Marina_Raskova"
+			}
+		}
+		advisor={
+			slot=Chief_of_Airforce
+			idea_token=SOV_Marina_Raskova_CoAir
+			allowed={
+				tag=SOV
+			}
+			visible={
+				C_Minister_Allowed = yes
+				date > 1933.01.01
+				date < 1964.01.01
+				has_country_flag = SOV_Raskova_Advisor
+			}
+			traits={			
+				CoAir_Night_Witch
 			}
 		}
 	}
@@ -5801,6 +3844,12 @@ characters = {
 			idea_token=SOV_Sergei_Khudyakov_HC
 			allowed={
 				tag=SOV
+			}
+			visible={
+				date > 1937.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Sergei_Khudyakov_unavailable }
 			}
 			traits={
 				
@@ -5821,6 +3870,12 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1940.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Stepan_Krasovsky_unavailable }
+			}
 			traits={
 				
 				air_air_combat_training_2
@@ -5839,6 +3894,12 @@ characters = {
 			idea_token=SOV_Vladimir_Kasatonov_HC
 			allowed={
 				tag=SOV
+			}
+			visible={
+				date > 1939.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Vladimir_Kasatonov_unavailable }
 			}
 			traits={
 				
@@ -5859,6 +3920,12 @@ characters = {
 			allowed={
 				tag=SOV
 			}
+			visible={
+				date > 1937.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Gordey_Levchenko_unavailable }
+			}
 			traits={
 				
 				navy_capital_ship_2
@@ -5878,6 +3945,12 @@ characters = {
 			idea_token=SOV_Arseniy_Golovko_HC
 			allowed={
 				tag=SOV
+			}
+			visible={
+				date > 1940.01.01
+				date < 1964.01.01
+				C_Minister_Allowed = yes
+				NOT = { has_country_flag = Arseniy_Golovko_unavailable }
 			}
 			traits={
 				
@@ -6052,31 +4125,6 @@ characters = {
 			traits={
 				
 				FM_Biased_Intellectual
-			}
-		}
-	}
-	SOV_Boris_Kamkov = {
-		name=SOV_Boris_Kamkov
-		portraits={
-			army={
-				small="GFX_idea_Boris_Kamkov"
-			}
-		}
-		advisor={
-			slot=Foreign_Minister
-			idea_token=SOV_Boris_Kamkov_FM
-			allowed={
-				tag=SOV
-			}
-			visible={
-				date > 1916.01.01
-				date < 1932.01.01
-				C_Minister_Allowed = yes
-				NOT = { has_country_flag = Boris_Kamkov_unavailable }
-			}
-			traits={
-				
-				FM_Ideological_Crusader
 			}
 		}
 	}

@@ -21,6 +21,7 @@
 		### Artillery Tech
 		Artillery_1910 = 1
 		### Armour Tech
+		Motorized_1916 = 1
 		Armored_Car_1911 = 1
 		### Air Tech
 		Unarmed_Recon_1910 = 1

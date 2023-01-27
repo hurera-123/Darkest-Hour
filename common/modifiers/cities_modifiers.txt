@@ -126,3 +126,7 @@ terrain_moscow = {
 	army_speed_factor = -0.4
 	local_org_regain = 0.2
 }
+terrain_sarajevo = {
+	army_speed_factor = -0.4
+	local_org_regain = 0.2
+}

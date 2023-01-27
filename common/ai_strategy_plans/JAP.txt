@@ -19,22 +19,22 @@ Japan_historical = {
 		JAP_The_Nihon_Lifeline
 		# 1934
 		JAP_The_Manchurian_Project
+		JAP_Blooming_Sakura
+		JAP_Dai_Nippon_Teikoku_Kaigun
+		JAP_Dai_Nippon_Teikoku_Rikugun
 		JAP_Preserve_the_NUC
 		JAP_Fanatics_Out_Moderates_In
 		JAP_Curb_the_External_Threat
 		JAP_Handshake_with_Bureaucrats
 		JAP_Exporting_Radicals_Abroad
 		JAP_In_The_Name_Kokutai
-		JAP_Dai_Nippon_Teikoku_Rikugun
+		# 1935
 		JAP_The_Divine_Will
 		JAP_Melee_and_Non_Melee_Training
 		JAP_Strengthen_the_Bushido_Code
-		# 1935
 		JAP_Carte_Blanche_to_the_Kwantung
-		JAP_Blooming_Sakura
 		JAP_Birth_Kakushin_Kanryo
 		JAP_Shadow_Behind_Throne
-		JAP_Dai_Nippon_Teikoku_Kaigun
 		JAP_Decisive_Battle
 		JAP_4th_Fleet_Exercise
 		JAP_Peak_Inevitable_Slope

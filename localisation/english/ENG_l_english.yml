@@ -59,14 +59,6 @@
  ENG.3.t: "The Hobbit Published"
  ENG.3.d: "[FROM.GetNewsIcon]The children of England have been taken by surprise, with the publishing of \"The Hobbit, or There and Back Again\", by renowned author and war veteran J. R. R. Tolkien. The book carry readers by a magical quest, leaving them, child and adult alike, in absolute awe as the adventure goes on episode after episode, until it reaches the climax with massive battles that shape the fantastical world of the Middle-Earth. The critical and financial success of this work will surely embolden Tolkien's wish for a sequel, and the new fans will impatiently await to return this world they have learned to love."
  ENG.3.A: "Definitely worth a read!"
- 
- ENG.4.t: "Royal Family Evacuation"
- ENG.4.d: "As the enemy forces roll ever forward onto the capital, the decision has been made in both Houses of Parliament as well as the Royal Household to flee to safety and command the war effort from there. As such, [ENG.address_leader_two] [ENG.leader_title_two] [ENG.leader_name_two] has ordered his family and the government to be escorted to Canada safely, himself being the last royal to leave London. Before leaving, he grants one final speech to the citizens and armed forces remaining in the city, telling them to fight strong, and no matter the cost to himself and his country, he shall return to rule this city once more."
- ENG.4.A: "God Save the King!"
- 
- ENG.5.t: "Women, Children and Conservatives first"
- ENG.5.d: "It has been revealed that Conservative politicians have been secretly evacuating themselves before those of the Opposition parties. Samuel Herbert, Aneurin Bevin and especially Clement Attlee have denounced such ‘Selfishness in a time of the utmost Crisis’. The resistance to the ever marching armies continues, however the thought of their leaders being so petty has damaged the mental image of King and Country."
- ENG.5.A: "Tories..."
 
  ENG.6.t: "Preparations for a March"
  ENG.6.d: "Oswald Mosley is getting ready for a march through the streets of London. Fascism is on the rise; a civil war has broken out in Spain, and Hitler and Mussolini seem eager to fight us. He calls for a struggle in the \"Jew-ridden and communistic\" streets of Whitechapel, and many Blackshirts have rallied to his cause. He seems to want to provoke the communists into a full-out fight. We should probably intervene; the world seems geared towards another Great War, and we can't afford interior discontent. The only thing to do is to help one of the sides of this conflict. But which one?"
@@ -88,11 +80,6 @@
  ENG.9.d: "[ROOT.GetNewsIcon]After more than six years of construction, the grand ocean liner Queen Mary departed from  Southampton, England, and set sail on her maiden voyage to New York. Named after the wife of King George the Fifth, the ship was built in response to an influx of new passenger ships from Germany. Now she is seen as an accompaniment for the world to see. With 12 decks, 24 boilers, four steam turbines, a speed of 28.5 knots, a length of 1,019.4 feet,  and a capacity of more than 2100 passengers, many see the Mary as a staple of traditional and modern ship design. \n\nThe reported amenities on the ship are even more astounding, with kitchens, luxury rooms, tennis courts, swimming pools, salons, studios, and a grand ballroom in the middle of it all. Although the excitement wasn't as great when compared to the launch of the ship in 1934, the words of King George V still stay true: “May her life among great waters spread friendship among the nations!”"
  ENG.9.A: "Would a race with the SS Normandie be out of the question?"
 
- ENG.10.t: "Anglo-Irish Trade Agreement"
- ENG.10.d: "Due to the ongoing Anglo-Irish trade war we wish to ease economic tensions between us and the Irish to achieve prosperity among the British peoples, with this we wish to facilitate the 'Anglo-Irish trade agreement' in which the 20% tariffs both Ireland and Britain placed on their imported goods are to be abolished. Ireland is also to pay £10 million to Britain for the \"land annuities\" derived from financial loans granted to Irish farmers by the British government to enable them to purchase lands under the Irish Land Acts"
- ENG.10.A: "Sign it"
- ENG.10.B: "The Irish are insane"
-
  ENG.11.t: "Germany Calling"
  ENG.11.d: "[ROOT.GetNewsIcon]A stray fox has left the woodlands. Born within our midst, William Joyce has turned his faith away from us. The known zealous Hitler-fanatic has left the United States and, with the European powderkeg's fuse about to catch fire, once more set foot on German soil to avoid confrontation with the authorities. His Nazi propaganda to Britain from Germany is a thorn in our side, which asks to be removed."
  ENG.11.A: "So you Germans believe that you can defeat the superior British forces! Haw, Haw."
@@ -108,10 +95,6 @@
  ENG.14.t: "Altmark Incident"
  ENG.14.d: "[ROOT.GetNewsIcon]The Altmark Incident may have angered the neutral and peaceful Norwegians, but they know nothing about the oppression and the tyranny that the Jerry's would enforce upon them if given the chance. Although in their territory, the German tanker was carrying almost 300 British Prisoners of War, that, had we not rescued, could have well been tortured and killed by the evil Krauts. The captured men knew about this and they started a revolt, so they can be heard by our inspectors on the ship. Even though the Norwegians might be upset about this, they should know that we would not violate their neutrality."
  ENG.14.A: "Surely nothing will come of this incident"
-
- ENG.15.t: "Their Finest Hour"
- ENG.15.d: "This is their finest hour. They conquered Western Europe in a few weeks. They now swim in the great spoils of victory... How could we allow such tragedy? This new tactic, \"The Blitzkrieg\", or Lighting Warfare, as they call it, was very effective and although they had a small number of tanks, they were sufficient for a speedy breakthrough, through the Benelux and down into the heart of France. The \"famed\" Maginot Line was a complete waste of time, as they just went around it. We wasted the lives of many men, just to be utterly destroyed on every front. They will bomb our ports, airfields, bases and even the cities, which are full of terrified civilians. We must not be afraid, even though dark times are upon us and even though they are already planning the naval invasion of the British Isles."
- ENG.15.A: "We will survive, as we did before!"
 
  ENG.16.t: "Occupation of the Channel Islands"
  ENG.16.d: "[ROOT.GetNewsIcon]They've done it. They have stepped foot on British territory. The Channel Isles have fallen. They have destroyed France in so little time. Just the Germans. Our hopes for a quick Allied victory are destroyed, now it seems that this war will be an Axis victory. We must prepare for a desperate defense, the great defense of democracy in Europe. We will not fall, Britannia will not fall, Britannia will rule the waves and the winds. We will not let these \"Sauerkrauts\" think they are the leaders of the world, we will not let these National-Socialists destroy humanity just for their racial beliefs. We will never surrender!"
@@ -134,10 +117,6 @@
  ENG.36.d: "With political tensions running high and extremism rampant, it is up to the government to curb such dangerous philosophies in the wake of an outward threat. The United Kingdom has been a bastion of democracy for over half a century, and we will not concede even an inch to those who wish to upset the balance. Henceforth, political marches must be cleared by local law enforcement before beginning, allowing us to cast a net over those we wish to censor for the greater good. In addition, donning political attire in a public meeting place is also banned, thus preventing virulent imagery to spread through our streets. The final tenants of the Act ban informal political militias, thus decreasing the chances of violent uprisings and ensuring the police can respond to crimes of all kinds, including those perpetrated for the behoof of a politician’s agenda."
  ENG.36.A: "Mosley must be neutralized at any cost."
  ENG.36.B: "We must look to our own people before intervening abroad."
- 
- ENG.40.t: "Blood, Toil, Tears and Sweat"
- ENG.40.d: "\"I have nothing to offer, but blood, toil, tears and sweat!\" These were the words of the former First Lord of the Admiralty, Winston Leonard Spencer Churchill, upon assuming the Prime Ministership after Neville Chamberlain's resignation.\n\nLong an opponent of appeasement, Churchill warned against negotiating with Hitler long before the war commenced. Now in charge of the war effort, his determination to see us through this conflict, no matter the cost, shall no doubt aid him, and us, in this time of great danger and desperation."
- ENG.40.A: "God Save the King, and God Save Churchill!"
 
 ######################################################################
 #  British Political Events
@@ -152,12 +131,12 @@
  ENG_Politics.2.B: "Lord Edward Halifax."
  
  ENG_Politics.3.t: "Prime Minister Ramsay MacDonald Resigns"
- ENG_Politics.3.d: "[FROM.GetNewsIcon]\n"
+ ENG_Politics.3.d: "[FROM.GetNewsIcon]Prime Minister Ramsay Macdonald resigned today, the man known to have kept our country together during our darkest times during the Great Depression. He has chosen to resign due to his rapidly declining health, both physical and mental. Macdonald got Great Britain through the Great Depression, and was viewed as a founder of the “Labour Party”, although some view the Prime Minister as a turncoat who helped the opposition. He also helped to form the National Government, successfully convincing His Majesty King George V.  It is still not known who will take Ramsay MacDonald’s place as Prime Minister, although many believe it will be Stanley Baldwin who will take his seat as Prime Minister of our country."
  ENG_Politics.3.A: "The Conservative Grandee shall follow his steps."
  ENG_Politics.3.B: "The British Bulldog is the only capable leader."
  
  ENG_Politics.4.t: "Sir Kingsley Wood Dies"
- ENG_Politics.4.d: "[FROM.GetNewsIcon]"
+ ENG_Politics.4.d: "[FROM.GetNewsIcon]Sad news has emerged from the heart of the government today, as Sir Kingsley Wood, Chancellor of the Exchequer and Conservative MP, has died suddenly at the age of 62.\n\nHe held a number of important positions under a number of Prime Ministers, including Secretary of State for Air and, until his death, the post of Chancellor under Prime Minister [ENG.GetLeader]. One of the most recent changes he was pioneering was the new Pay As You Earn system, which was to be announced this morning, but sadly, he would not be present to see it.\n\nA minute's silence has been scheduled for today's session of Parliament, and flags around Westminster will be flown at half mast for a few days in a show of respect from both parties."
  ENG_Politics.4.A: "Tragedy has struck our nation."
 
 ######################################################################
@@ -193,26 +172,35 @@
 #  British Mers El Kebir Events
 ######################################################################
  ENG_Raid_On_Mers_El_Kebir.1.t: "Somerville's Ultimatum"
- ENG_Raid_On_Mers_El_Kebir.1.d: ""
+ ENG_Raid_On_Mers_El_Kebir.1.d: "The commander of a British Carrier, Captain Cedric Holland, has just contacted us. He has issued an ultimatum on behalf of British Admiral James Somerville, the terms of which contradict the German-French armistice. We must surrender our most powerful fleet of warships at Mers-el-Kébir in French Algeria immediately, sail to British ports with a reduced crew, and join the fight against the German Reich. If this demand is not met, we will sail to the French West Indies to be demilitarised. If this deadline is not met, the British will launch an attack in six hours.\n\nAdmiral Marcel-Bruno Gensoul has been given three options for responding:\n\nThe first option is to comply with their demands and hand over our warships to the British. Some believe that a British attack would be disastrous for us and that we would have no chance of repelling it. This would significantly strengthen the British fleet while harming the Axis naval power.\n\nThe second and most popular option is to flatly refuse the demands and prepare for an attack by the British. This is our most powerful warship fleet, and it will easily dispatch the British hounds. If we succeed, the British will be humiliated, and our allegiance to the Axis will be cemented.\n\nThe third and most contentious option would be to sink the entire fleet. That way, even if things look hopeless for us, we won't give the British the satisfaction of capturing us and bolstering their fleet. This would not help the British or the Axis, but it would safeguard our honour in an otherwise hopeless situation."
  ENG_Raid_On_Mers_El_Kebir.1.A: "Vive la France libre!"
  ENG_Raid_On_Mers_El_Kebir.1.B: "We can't give them our ships, but they will not aid the Hun"
  ENG_Raid_On_Mers_El_Kebir.1.C: "We have no choice but to refuse their obscene demands"
  ENG_French_Fleet_Transferred_tt: "§Y4 Battleships and 5 Destroyers will be transferred to the British§!"
+
  ENG_Raid_On_Mers_El_Kebir.2.t: "The French Fleet Defects"
- ENG_Raid_On_Mers_El_Kebir.2.d: ""
+ ENG_Raid_On_Mers_El_Kebir.2.d: "Wonderful news! The French fleet of warships at Mers-el-Kébir in French Algeria has fully agreed to our demands and is on its way to British ports to fight the German Reich. This latest addition to our already formidable fleet will fortify the Allies and increase our chances of total naval superiority and dominance over the Axis powers. The Axis, on the other hand, have suffered a catastrophic loss today that they will not be able to recover from anytime soon. Now that we have control of such a powerful group of warships, it is time to take to the seas and show the Axis just how much they lost on this day!"
  ENG_Raid_On_Mers_El_Kebir.2.A: "We may still hang out that washing yet"
+
  ENG_Raid_On_Mers_El_Kebir.3.t: "The French Scuttle Their Fleet"
- ENG_Raid_On_Mers_El_Kebir.3.d: ""
+ ENG_Raid_On_Mers_El_Kebir.3.d: "The French sank their fleet instead of handing it over to the us.\n\nAfter our ultimatum, the French fleet of warships at Mers-el-Kébir in French Algeria was completely sunk, which surprised almost everyone. According to reports, the French sank them in order to avoid being captured by us. While this saves us the trouble of attacking and destroying them ourselves, we would have preferred if they had instead surrendered the fleet. Nonetheless the Axis powers have suffered a severe loss that they will not be able to recover from anytime soon now that this fleet has been destroyed."
  ENG_Raid_On_Mers_El_Kebir.3.A: "What Cowards..."
+
  ENG_Raid_On_Mers_El_Kebir.4.t: "The French Refuse"
- ENG_Raid_On_Mers_El_Kebir.4.d: ""
+ ENG_Raid_On_Mers_El_Kebir.4.d: "As expected, the French fleet of warships at Mers-el-Kébir in French Algeria has refused all of our demands and are determined to fight until the bitter end. Now that we've given them a chance to surrender, which they foolishly refused, it's time to demonstrate the Royal Navy's might. If we can't have these ships, the Axis can't be allowed to use them either. Because this was the expected response, we have already prepared everything for the attack, and we will strike within 6 hours. Sinking this fleet will serve as a show of strength to the rest of the Axis powers, as well as an example that defying the Allied fleet is unwise."
  ENG_Raid_On_Mers_El_Kebir.4.A: "If they aren't with us..."
+
  ENG_Raid_On_Mers_El_Kebir.5.t: "The French Navy Defects to the British!"
- ENG_Raid_On_Mers_El_Kebir.5.d: "[FROM.GetNewsIcon]"
- ENG_Raid_On_Mers_El_Kebir.5.A: ""
+ ENG_Raid_On_Mers_El_Kebir.5.d: "[FROM.GetNewsIcon]The Allies celebrated today as the entire French fleet at Mers-el-Kébir in French Algeria, including the French navy's most powerful warships under Admiral Marcel-Bruno Gensoul's command, arrived in British ports with reduced crews to surrender control in response to the United Kingdom's ultimatum. The French navy has joined the Allies in their fight against the Germans.\n\nRecognizing British naval superiority and knowing they had no chance of repelling a British attack, the Admiral agreed to all demands. This, in turn, represents a massive increase in naval power for the United Kingdom and the Allies, while the Axis and their naval power suffer a massive loss. Will this new fleet of powerful warships be able to successfully end the battle for the seas?"
+ ENG_Raid_On_Mers_El_Kebir.5.A: "Welcome old friends!"
+ ENG_Raid_On_Mers_El_Kebir.5.B: "Traitors!"
+ ENG_Raid_On_Mers_El_Kebir.5.C: "The French switch sides... again?"
+
  ENG_Raid_On_Mers_El_Kebir.6.t: "French Fleet Scuttled at Mers El Kebir!"
- ENG_Raid_On_Mers_El_Kebir.6.d: "[FROM.GetNewsIcon]"
- ENG_Raid_On_Mers_El_Kebir.6.A: ""
+ ENG_Raid_On_Mers_El_Kebir.6.d: "[FROM.GetNewsIcon]Following the United Kingdom's ultimatum to the French, the French fleet at Mers-el-Kébir in French Algeria, which included the French navy's most powerful warships, was completely and utterly destroyed, down to the last ship. According to early reports, it was not the Allies, the Axis, or any other foreign power that sank the fleet, but rather Admiral Marcel-Bruno Gensoul and his naval staff.\n\nWhile the exact reasons for this are unknown, one thing is certain: no one wins in this situation. These ships can no longer be used in the battle for naval supremacy by either the Allies or the Axis. It's bad for the Allies, but it's even worse for the Axis. It remains to be seen how far this incident will have an impact in the future, but for the time being, the battle for the seas continues."
+ ENG_Raid_On_Mers_El_Kebir.6.A: "Are they insane?"
+ ENG_Raid_On_Mers_El_Kebir.6.B: "The French play to no one."
+
  ENG_Raid_On_Mers_El_Kebir.7.t: "The British Attack at Mers El Kebir"
  ENG_Raid_On_Mers_El_Kebir.7.d: "[FROM.GetNewsIcon]The British Royal Navy has just attacked a French naval base at Mers-el-Kébir in French Algeria, in what will undoubtedly go down in history as one of the strangest events of the war. The British attacked their former ally's flotilla with the stated goal of sinking as many ships as possible in the harbor to prevent them from falling into Axis hands. After France rejected a British ultimatum to hand over their fleet, which would have violated France's surrender agreement with Germany, the British commander gave the order for his naval force to fire on the French ships.\n\nFollowing the French surrender, the French agreed to keep their navy neutral in exchange for the Germans granting relative autonomy in the zone libre, the free southern part of France. However, both Hitler and Churchill were dissatisfied with this arrangement. Hitler feared that the French would eventually join the British in their fight against Germany, whereas Churchill feared that the French navy would be swallowed up by the Italian and German Navies.\n\nThis has been viewed as a complete and utter betrayal by French civilians, who are already suffering a humiliating defeat at the hands of the Germans. German propaganda is already working hard to make this story go viral. Philippe Pétain, the French President, has monopolized the attacks by severing diplomatic ties with the United Kingdom. The attack has sparked debate even within the United Kingdom.\n\nOthers, on the other hand, interpret it as evidence that the unwavering British resolve to win this war has not yet been overcome."
  ENG_Raid_On_Mers_El_Kebir.7.A: "Regardless, it must be recognized as a tragedy that over a thousand French sailors were killed."
@@ -222,11 +210,11 @@
 ######################################################################
  ENG_Abdication_Crisis.1.t: "The Death of King George V"
  ENG_Abdication_Crisis.1.d: "[FROM.GetNewsIcon]His Majesty King George V of Windsor has passed, succumbing to his illness just before midnight yesterday. The King will lie in state at Westminster Hall until the funeral, where thousands of the crown's loyal subjects will pay their respects.\n\nGeorge V ruled the United Kingdom through a time of unprecedented strife, leading the people of Britain and the Commonwealth through the Great War and the worst of the depression. The King had suffered from various respiratory issues and had spent the last year confined to Sandringham House.\n\nDevoted to and well-loved by the citizens of the Empire, the King's moderating influence will be missed by many, especially considering his heir's authoritarian inclinations and history of womanizing.\n\nThe Prince of Wales will ascend to the throne as King Edward VIII in Westminster Abbey tomorrow."
- ENG_Abdication_Crisis.1.A: ""
- ENG_Abdication_Crisis.1.B: ""
- ENG_Abdication_Crisis.1.C: ""
- ENG_Abdication_Crisis.1.D: ""
- ENG_Abdication_Crisis.1.E: ""
+ ENG_Abdication_Crisis.1.A: "The King is dead, long live the King!"
+ ENG_Abdication_Crisis.1.B: "The King is dead, long live the King!"
+ ENG_Abdication_Crisis.1.C: "The King is dead, long live the King!"
+ ENG_Abdication_Crisis.1.D: "Another phoney monarch bites the dust."
+ ENG_Abdication_Crisis.1.E: "We send our condolences."
  
  ENG_Abdication_Crisis.2.t: "The King and.. His Friend?"
  ENG_Abdication_Crisis.2.d: "The warm, bright water of the Mediterranean caressed the yacht, tracing its sleek contours like a lover. It reminded Edward of one particularly... debauched night in Paris. The King leaned back in his deck chair, smiling at the memory but unable to remember the woman's face. Oh well. Those days were behind him anyway.\n\nThe love of his life sat down beside him, and he pictured her in a crown. In his mind, pillars rose, branching out and intertwining to form the vaulted ceiling of Westminster Abbey. Bright light streamed through stained glass windows, painting the pair in a saintly aura- a mighty King, with his Queen beside him. Majestic.\n\nHe saw in Wallis what the throne lacked- strength. Forcefulness. Vitality. The things that drew him to her and seized him like no woman ever had. The politicians back home hated his future wife- she was too ambitious, too American, too divorced. But why did that matter? He loved her, and that was the only important thing. Wallis noticed his distress and frowned in concern. If the crown was contingent on giving up love, he knew which one he'd choose."
@@ -267,14 +255,14 @@
  ENG_Abdication_Crisis.11.t: "The Coronation of George VI"
  ENG_Abdication_Crisis.11.d: "[FROM.GetNewsIcon]Today, across the United Kingdom and the British Empire, celebrations have begun after the coronation of Prince Albert of the House of Windsor, now King George VI, has finished. The younger brother of the tumultuous Prince of Wales, Edward, George was not expected to ascend to the throne, however after Edward abdicated his throne because of the American widow Wallace Simpson, George had no choice but to take up the mantle and lead the country.\n\nKing George is a fine example of a monarch and of a man, and, having served in the Royal Navy during the Great War, knows how dangerous the troubles of conflict are. There is no doubt that his kind, guiding hand shall lead us through these dark times to the light at the end of the tunnel."
  ENG_Abdication_Crisis.11.A: "God Save the King! God Save George VI!"
- ENG_Abdication_Crisis.11.B: ""
- ENG_Abdication_Crisis.11.C: ""
- ENG_Abdication_Crisis.11.D: ""
- ENG_Abdication_Crisis.11.E: ""
+ ENG_Abdication_Crisis.11.B: "What about his brother?"
+ ENG_Abdication_Crisis.11.C: "New king, same problems."
+ ENG_Abdication_Crisis.11.D: "Send our congratulations."
+ ENG_Abdication_Crisis.11.E: "That was unexpected."
 
  ENG_Abdication_Crisis.12.t: "The King Relents"
- ENG_Abdication_Crisis.12.d: ""
- ENG_Abdication_Crisis.12.A: ""
+ ENG_Abdication_Crisis.12.d: "King Edward has announced today, in front of the British cabinet and representatives from the other Dominion governments, that he will abandon his plans to marry Wallis Simpson. Seeing how his plans had received almost no support from either the government or the general public, Edward realised that he could not prioritise his own needs and desires over the needs and desires of the country. He understands that if he marries against the advice of his ministers, the government will resign, resulting in a constitutional crisis.\n\nThe announcement stunned the entire room, eliciting roaring applause and relief from nearly every cabinet member, and has greatly improved King Edward's standing and reputation among both the British cabinet and the general public."
+ ENG_Abdication_Crisis.12.A: "A woman is not as important as the Kingdom."
 
  ENG_Abdication_Crisis.13.t: "The Coronation of Edward VIII" # No wedding, Wallis abandoned
  ENG_Abdication_Crisis.13.d: "[FROM.GetNewsIcon]After months of tension that threatened a possible constitutional crisis, Edward VIII was crowned today as King of the United Kingdom and the Dominions of the British Commonwealth.\n\nFor several months prior to the coronation, the King and the British government were at odds. Soon after taking over for his father, Edward proposed to American socialite Wallis Simpson, who was going through a divorce at the time. The Church of England, which forbade divorced people from marrying, rejected the idea, but the King persisted and proposed a morganatic union instead. However, the British government and the dominions either flatly rejected or were skeptical of his marriage proposal. After the government threatened to resign if he went ahead with the marriage, Edward caved in and ended his relationship with Simpson.\n\nTens of thousands of people attended the planned coronation when Edward VIII took the oath and assumed the crown. Memorabilia were sold out rapidly as the British people wanted something to remember for the historic and controversial coronation. Several observers noted that the new monarch appeared unhappy during the proceedings, glancing repeatedly to his side as though someone ought to be standing with him."
@@ -285,44 +273,37 @@
  ENG_Abdication_Crisis.13.E: "May God be with him."
 
  ENG_Abdication_Crisis.14.t: "A Favour from a Friend"
- ENG_Abdication_Crisis.14.d: ""
- ENG_Abdication_Crisis.14.A: "We Cannot Afford to Expend Political Capital on this Matter"
- ENG_Abdication_Crisis.14.B: "A Morganatic Marriage May Prove to be a Wise Compromise"
+ ENG_Abdication_Crisis.14.d: "“Ah, Prime Minister! Please, come in!”\n\nChurchill walked into the Chinese dining room, soon impressed by the room’s lavish décor.\n\n‘It's funny, but I don’t think I have ever been in this part of the palace, your majesty; it's an honour.”\n\n“Really? I thought an old man like you would know this place like the back of your hand by now! But anyways, please take a seat, let's chat.”\n\nAgogged, Churchill sat down in the chair adjacent to the King, and poured himself a cup of champagne. “So, what is it that requires my attention? I’m assuming it has to do with this lady of yours, correct?”\n\nEdward thumbled with the tea cup in front of him, “Yes... in fact, I have come to a decision on the matter... I’m going to marry her.”\n\n"What?!" Churchill nearly spit out his drink. “With all due respect, your majesty, forcing such a marriage with a divorced American woman would split the bloody country in half! While I support you in your endeavour, neither of us has the political capital to pursue such a royal marriage; Parliament would tear us apart and-"\n\nEdward abruptly stood up, “I’m sorry Prime Minister, but I love this woman! Why should I fall in line with what the government wants?”\n\nAn awkward silence filled the room, then the king plumped back into his chair. “There is another way I could see the marriage through... a morganatic marriage. I marry her, but she doesn’t gain any royal titles. Since much of the push back is along those lines, you could rally enough political support in parliament to see it happen... What do you say?”\n\nChurchill sighed, and took one last sip of his drink before answering,"
+ ENG_Abdication_Crisis.14.A: "I’m sorry, but we just can’t afford the political capital on this, morganatic or not."
+ ENG_Abdication_Crisis.14.B: "A morganatic marriage could prove a wise compromise, I can see what I can do."
 
  ENG_Abdication_Crisis.15.t: "The Bulldog's Bark"
- ENG_Abdication_Crisis.15.d: ""
- ENG_Abdication_Crisis.15.A: ""
+ ENG_Abdication_Crisis.15.d: "“A morganatic wedding between the King and Ms. Simpson is the most reasonable solution!”\n“A marriage of any kind will break the very foundation the royal family was built on, this shall not happen! And I'm going to make sure you bloody idiots don’t let it!”\n\nRichard Denman sighed as he struggled to keep up with writing the arguments for both sides, but the House of Commons devolved into yelling and arguing, as it does whenever they had to debate a problem. The problem of the day, on the other hand, was one-of-a-kind: the King's proposal for a morganatic wedding. Previously, the issue appeared to be a no-brainer, but without the issue of royal titles, parliament appeared to be divided. Denman scribbled down the three parties' opinions:\n\nLABOUR: MIXED                    CONSERVATIVES: MIXED                  LIBERAL: FOR\n\nDue to Archibald Sinclair’s friendship with Churchill, most of the Liberals were on board for the marriage, but the strongholds of both the major parties seemed harder to convince. Then, the MP next to him whispered under his breath with embarrassment,\n\n“Oh God, here comes Churchill.”\n\nSure enough, the Prime Minister approached the table amongst the yelling. Somehow, he was able to whip parliament back into shape, and quieted everyone down. He then made a stirring speech to the house. Denman could see the opinion of parliament change with every word that came out of his mouth, and even he felt a little inspired from it. Denman then proceeded to write underneath the date in big, bold letters:"
+ ENG_Abdication_Crisis.15.A: "THE BULLDOG BARKS"
 
  ENG_Abdication_Crisis.16.t: "Whipping the Commonwealth"
- ENG_Abdication_Crisis.16.d: ""
- ENG_Abdication_Crisis.16.A: ""
+ ENG_Abdication_Crisis.16.d: "“Your government's support for the marriage, er, morganatic marriage, would go a long way of convincing the British people and the Commonwealth-... no it’s more symbolic, understand she is not going to be a queen, she won’t be considered royalty... yes-... okay, see what you can do and get back to me as soon as possible, thank you.”\n\nChurchill slapped the phone down, then rubbed his face back and forth in frustration and exhaustion. “So far, only South Africa, which only happened because of Jan Smut's help to convince Hertzog, and New Zealand fully approved of the marriage. Ireland seems rather apathetic to the whole matter, only as long as the British people accepted the arrangement. As for Canada, the government is in support, but the Canadian people are still largely sceptical of the idea but-”\n\nA voice from his secretary down the hall then broke his chain of thought: “Uh Mr. Churchill, Australia's Prime Minister is next on the line, do you want me to put him through, or do you want to take a break?”\n\n"If I can just get a few more Commonwealth nations on board, our chances of getting the marriage through will be much better," Churchill sighed. “Just a few more.”"
+ ENG_Abdication_Crisis.16.A: "“Better now than never my dear, put him through.”"
 
  ENG_Abdication_Crisis.17.t: "Straight to the People"
- ENG_Abdication_Crisis.17.d: ""
- ENG_Abdication_Crisis.17.A: ""
+ ENG_Abdication_Crisis.17.d: "“This will be our final push, a push from the British people themselves. Once Edward speaks personally to the people across the nation, and convinces those on the fence, surely, it’ll force the hands of anyone denying his marriage” \n\nThe BBC manager shrugged. “If you say so, but remember, you owe me a huge favour after this, got it?”\n\nChurchill smiled and patted his back, “Of course, let's just focus on getting the King the air first, then we talk afterwards.”\n\nThe King sat in front of them, re-reading his personally typed speech as radio operators prepared the microphone and cables. After a few final plugins, they stepped back and watched the clock. “You’re on in three, two, one...” A small red light appeared on the microphone, and the King made his final plea, to convince every British man and woman that he had the right to marry the woman he loved.\n\n“Hello and good evening, this is your humble King, Edward VIII...”"
+ ENG_Abdication_Crisis.17.A: "...at long last I am able to say a few words of my own.”"
 
- ENG_Abdication_Crisis.18.t: "A Stirring Speech"
- ENG_Abdication_Crisis.18.d: ""
- ENG_Abdication_Crisis.18.A: ""
+ ENG_Abdication_Crisis.18.t: "Minor Inconveniences"
+ ENG_Abdication_Crisis.18.d: "\"Just look at the news this morning, Prime Minister, the speech was well received!\"\n\nChurchill's secretary approached his desk and handed him the morning paper, which featured the king's "Brave, Heart-warming, and Delicate Speech" in bold letters on the front page, with reviews praising it left to right. He put down his cigarette and rushed over the words.\n\n“Good god it worked! The people are on our side! W-what about parliament? Did anyone really resign like they said they would? I don’t expect they did with this much support for the king, ha!”\n\n"No one of major concern, the word is a few MP's submitted their resignation in protest, but Baldwin and McDonald have both announced they would support the government regarding the marriage," his secretary smiled.\n\n"So just a few minor inconveniences then? No matter, their protests are worth less than a pothole! Now, if you can get the king on the phone, I'll tell him that his marriage is not only going to happen, but that the government is in line to support him too!""
+ ENG_Abdication_Crisis.18.A: "Right away sir, I’m sure he’ll be ecstatic as well!"
 
- ENG_Abdication_Crisis.19.t: "Minor Inconveniences"
- ENG_Abdication_Crisis.19.d: ""
- ENG_Abdication_Crisis.19.A: ""
-
- ENG_Abdication_Crisis.20.t: "A Flat Reception"
- ENG_Abdication_Crisis.20.d: ""
- ENG_Abdication_Crisis.20.A: ""
-
- ENG_Abdication_Crisis.21.t: "A Less-Than-Smooth Ride"
- ENG_Abdication_Crisis.21.d: ""
- ENG_Abdication_Crisis.21.A: ""
+ ENG_Abdication_Crisis.20.t: "A Less-Than-Smooth Ride"
+ ENG_Abdication_Crisis.20.d: "Some may call it a less-than-smooth ride.\n\nOthers are calling it a car crash.\n\nWhat should’ve been a way to shore up support for the King’s marriage has turned into a political crisis that is gripping the very heart of the United Kingdom. When Edward made the speech on radio to the nation a few days ago, he could not have imagined the damage it would do to the stability of a country now in complete shock at what is unfolding in Parliament.\n\nNot only are many MP’s from both major parties unconvinced, but many who are part of the government have begun to resign in droves, including both Stanley Baldwin and Ramsay MacDonald. This has left the leadership of our nation in a state of paralysis, one which will surely not be resolved in the foreseeable future.\n\nWhat will happen next is anyone’s guess, but the pressure of Edward is mounting at a rapid rate, and only time will tell if he can survive it."
+ ENG_Abdication_Crisis.20.A: "A disaster for our nation!"
 
  ENG_Abdication_Crisis.22.t: "The Coronation of Edward VIII" # Morganatic Marriage
- ENG_Abdication_Crisis.22.d: "[FROM.GetNewsIcon]"
- ENG_Abdication_Crisis.22.B: ""
- ENG_Abdication_Crisis.22.C: ""
- ENG_Abdication_Crisis.22.D: ""
- ENG_Abdication_Crisis.22.E: ""
+ ENG_Abdication_Crisis.22.d: "[FROM.GetNewsIcon]Despite initial strong opposition from his ministers and advisors, King Edward VIII has decided to marry American socialite Wallis Simpson in a morganatic marriage. He will remain king in this marriage, but Simpson will not become queen consort. Instead, she will be given a lesser title, and any children they have will not inherit the throne.\n\nThe views of the other governments were sought in accordance with the Statute of Westminster 1931, which stated that \"any change in the law touching the Succession to the Throne or the Royal Style and Titles shall hereafter require the assent of the Parliaments of all the Dominions as well as the Parliament of the United Kingdom.\" The Prime Minister of Australia, among some others, stated his opposition to the king marrying a divorcee.\n\nWhen confronted with this opposition, Edward responded that there are \"not many people in Australia\" and their opinion does not matter. Some ministers are already resigning, raising the question: Is the United Kingdom on the verge of a constitutional crisis, or will the government hold?"
+ ENG_Abdication_Crisis.22.A: "Was it the right decision?"
+ ENG_Abdication_Crisis.22.B: "Was it the right decision?"
+ ENG_Abdication_Crisis.22.C: "Was it the right decision?"
+ ENG_Abdication_Crisis.22.D: "Was it the right decision?"
+ ENG_Abdication_Crisis.22.E: "If faith can move mountains, love can move the world."
 
  ######################################################################
  #  Crumbling Empire Events
@@ -332,23 +313,23 @@
  ENG_Crumbling_Empire.1.A: "We shall NEVER surrender...right?"
  
  ENG_Crumbling_Empire.2.t: "The Coats Mission"
- ENG_Crumbling_Empire.2.d: ""We will first travel to Pitchford Hall, your Majesty, then from there, if needed, we will drive the family to Liverpool to prepare for your departure to Canada."\n\n"If needed?"\n\n"Yes, if the enemy manages to reach the Midlands, we have direct orders to evacuate you and the rest of the family to...-"\n\nThe commander trailed off. He squinted his eyes, looking at something in the distance. Then, a look of pure dread appeared on his face. He slowed the car down and took a sharp turn onto a dirt side-road full of trees on each side, with the rest of the convoy following. Silence followed, with no one daring to take a breath. In the distance, multiple figures emerged, with dark grey suits, helmets… and guns. The commander turned his head back, whispering “Get your heads down!” The German patroller’s footsteps became louder, louder, then German laughs and talking came into range. Now they were right next to the clearing, with the armoured cars on the other side. But what was something of a miracle, and possibly drunk patrollers, they didn’t look over, and the footsteps slowly faded, along with their talking. The commander slowly lifted his head to look out the side window. Nothing in sight.\n\n“Bloody hell. Sorry for that, your Majesty, but no time to catch our breaths. We keep moving, and quickly.”"
+ ENG_Crumbling_Empire.2.d: ""We will first travel to Pitchford Hall, your Majesty, then from there, if needed, we will drive the family to Liverpool to prepare for your departure to Canada."\n\n"If needed?"\n\n"Yes, if the enemy manages to reach the Midlands, we have direct orders to evacuate you and the rest of the family to...-"\n\nThe commander trailed off. He squinted his eyes, looking at something in the distance. Then, a look of pure dread appeared on his face. He slowed the car down and took a sharp turn onto a dirt side-road full of trees on each side, with the rest of the convoy following. Silence followed, with no one daring to take a breath. In the distance, multiple figures emerged, with dark grey suits, helmets... and guns. The commander turned his head back, whispering “Get your heads down!” The German patroller’s footsteps became louder, louder, then German laughs and talking came into range. Now they were right next to the clearing, with the armoured cars on the other side. But what was something of a miracle, and possibly drunk patrollers, they didn’t look over, and the footsteps slowly faded, along with their talking. The commander slowly lifted his head to look out the side window. Nothing in sight.\n\n“Bloody hell. Sorry for that, your Majesty, but no time to catch our breaths. We keep moving, and quickly.”"
  ENG_Crumbling_Empire.2.A: "Too close for comfort."
 
  ENG_Crumbling_Empire.3.t: "Women, Children and Conservatives First"
  ENG_Crumbling_Empire.3.d: "“Please sir, I’m begging you, you have to let us on this ship! My wife and kids are there! They can’t be left alone, please sir!” Tears filled the father's eyes.\n\n“My kids need to be on that ship! They need to get out of here, who knows when another one will come! ” Another mother cried.\n\nA soldier addressed the crowd: “Folks, I’m sorry, but there just isn’t enough room. You’ll have to board another ship.”\n\nRight as the crowd of civilians was to make another plea, several armored cars rolled forward through the chaos of the port. Out came multiple MPs and rich aristocrats. A group of soldiers parted the crowd, and the guard of the ship’s entrance let them in without hesitation. As they boarded the ship, outrage began to fill the crowd.\n\n“You cowards! You’re leaving us to die!”\n\n“What happened to the women and children first policy, you bloody dicks!”\n\n“You’re supposed to lead and help us!”\n\nFood and garbage filled the air as people threw whatever they had at the elite. And they didn’t even look back at the people they were supposed to help, stranding them on the isles, and leaving them in the hands of the Germans"
  ENG_Crumbling_Empire.3.A: "And what about us?!"
 
- ENG_Crumbling_Empire.3.t: "Curtains"
- ENG_Crumbling_Empire.3.d: "“We live in a period, where…”\n\n“SHUT UP”, one of the guards shouted, ramming the end of his rifle into Mosley’s stomach. He had been trying to convince the guards that the end was inevitable and that the UK should accept its fate. Emotions were high in the prison cell where Oswald lay, bruised and bloodied, with each of the guards taking their turns to attack him and hurl insults towards him.\n\n“You fascist traitor! You think the Germans will save you? Hah! They’d make you nothing more than their little bitch.” John, a proud Labour voter, had never liked Oswald since the day he created the BUF, and had been a part of a mob that once tried to attack Mosley in his early days of fascism. And now he was in charge of making sure that the Germans never got to him; he had the final say over what happened to his enemy, Oswald Mosley.\n\n“There’s only one option we have in this hour of darkness: slay this fucker and leave him to rot in this wretched place”, exclaimed John. The others all looked at one another, nodding their heads in agreement. “How are we going to do it though?”, one of them asked.\n\n“In the most painful way possible”, snarled John.\n\nThey picked Mosley up and slammed him against the wall, and he was sobbing by now, trying to apologise and make up for what he said were “terrible mistakes”. “That doesn’t cut it now you slimy bastard. Bring him this way”, yelled John. The rest dragged Mosley into the courtyard of the prison, out into the cold bitter air of the night, and he was promptly thrown down onto the ground, kneeling and begging for mercy. The guards formed a line and waited for John's orders.\n\n“Ready… Aim… Fire!”\n\nAnd with four gunshots, the figurehead of British fascism was gone, snuffed out before he could betray anyone else. One of the guards poured a can of petrol over him, and John grabbed a match. Lighting his cigarette, and then Mosley's lifeless corpse, he watched all that anger, all that hatred, burn before him."
- ENG_Crumbling_Empire.3.A: "And no one shed a tear"
+ ENG_Crumbling_Empire.4.t: "Curtains"
+ ENG_Crumbling_Empire.4.d: "“We live in a period, where...”\n\n“SHUT UP”, one of the guards shouted, ramming the end of his rifle into Mosley’s stomach. He had been trying to convince the guards that the end was inevitable and that the UK should accept its fate. Emotions were high in the prison cell where Oswald lay, bruised and bloodied, with each of the guards taking their turns to attack him and hurl insults towards him.\n\n“You fascist traitor! You think the Germans will save you? Hah! They’d make you nothing more than their little bitch.” John, a proud Labour voter, had never liked Oswald since the day he created the BUF, and had been a part of a mob that once tried to attack Mosley in his early days of fascism. And now he was in charge of making sure that the Germans never got to him; he had the final say over what happened to his enemy, Oswald Mosley.\n\n“There’s only one option we have in this hour of darkness: slay this fucker and leave him to rot in this wretched place”, exclaimed John. The others all looked at one another, nodding their heads in agreement. “How are we going to do it though?”, one of them asked.\n\n“In the most painful way possible”, snarled John.\n\nThey picked Mosley up and slammed him against the wall, and he was sobbing by now, trying to apologise and make up for what he said were “terrible mistakes”. “That doesn’t cut it now you slimy bastard. Bring him this way”, yelled John. The rest dragged Mosley into the courtyard of the prison, out into the cold bitter air of the night, and he was promptly thrown down onto the ground, kneeling and begging for mercy. The guards formed a line and waited for John's orders.\n\n“Ready... Aim... Fire!”\n\nAnd with four gunshots, the figurehead of British fascism was gone, snuffed out before he could betray anyone else. One of the guards poured a can of petrol over him, and John grabbed a match. Lighting his cigarette, and then Mosley's lifeless corpse, he watched all that anger, all that hatred, burn before him."
+ ENG_Crumbling_Empire.4.A: "And no one shed a tear"
 
  ENG_Crumbling_Empire.5.t: "Departure"
- ENG_Crumbling_Empire.5.d: "“We're leaving now, Prime Minister… you aren't coming, are you?”\n\nChurchill sat on the far end of the bed with a bottle of Champagne on his nightstand. He didn’t say a word, only looking down at the floor. The King closed the door and walked over to his bed, and sat next to him. The two sat for a few minutes until Churchill broke the solemn silence. \n\n“Do you ever regret asking me to become Prime Minister of this country?”\n\nThe king looked over, pausing for a second until answering. “Not at all. While I at first preferred Halifax at the beginning, and maybe it would’ve been better to sue for peace before the invasion, I don’t think anyone could lead Britain through this time better than you have. You will then, and always, have my support. Even with the buggers marching around London and my palace." Churchill chuckled to himself and grinned slightly.\n\n“Your Majesty, I will lead England to its last breath. Even then, its heart will live in every home, every street, and every mind of every British citizen. No matter where, no matter when, no matter who conquers our island, we will fight for freedom.”\n\nThe King smiled. “Yes, yes we will… and I know I’ve asked thousands of times before, but for one final time, please, you should come with us to Canada. If Britain does fall, we will need someone leading the fight in exile. We need you.”\n\n“Your Majesty, with all due respect, that is still one of your dumbest ideas yet. I don't know why you keep bringing it up.” The two laughed one final time together.\n\n“I will fight for this country until God takes me. If Britain needs anything right now, it’s their leader.”\n\n“That’s the Churchill I know. And let's be honest, you never took any of my advice anyways… Do you think  that I'll ever see you again, after all of this?\n\nChurchill looked over, “I won’t make any promises, your Majesty, but do know this: I will not leave this island until Britain is saved.”"
+ ENG_Crumbling_Empire.5.d: "“We're leaving now, Prime Minister... you aren't coming, are you?”\n\nChurchill sat on the far end of the bed with a bottle of Champagne on his nightstand. He didn’t say a word, only looking down at the floor. The King closed the door and walked over to his bed, and sat next to him. The two sat for a few minutes until Churchill broke the solemn silence. \n\n“Do you ever regret asking me to become Prime Minister of this country?”\n\nThe king looked over, pausing for a second until answering. “Not at all. While I at first preferred Halifax at the beginning, and maybe it would’ve been better to sue for peace before the invasion, I don’t think anyone could lead Britain through this time better than you have. You will then, and always, have my support. Even with the buggers marching around London and my palace.\" Churchill chuckled to himself and grinned slightly.\n\n“Your Majesty, I will lead England to its last breath. Even then, its heart will live in every home, every street, and every mind of every British citizen. No matter where, no matter when, no matter who conquers our island, we will fight for freedom.”\n\nThe King smiled. “Yes, yes we will... and I know I’ve asked thousands of times before, but for one final time, please, you should come with us to Canada. If Britain does fall, we will need someone leading the fight in exile. We need you.”\n\n“Your Majesty, with all due respect, that is still one of your dumbest ideas yet. I don't know why you keep bringing it up.” The two laughed one final time together.\n\n“I will fight for this country until God takes me. If Britain needs anything right now, it’s their leader.”\n\n“That’s the Churchill I know. And let's be honest, you never took any of my advice anyways... Do you think  that I'll ever see you again, after all of this?\n\nChurchill looked over, “I won’t make any promises, your Majesty, but do know this: I will not leave this island until Britain is saved.”"
  ENG_Crumbling_Empire.5.A: "Goodbye, Winston. God be with you."
 
  ENG_Crumbling_Empire.6.t: "Et Tu, Hun?"
- ENG_Crumbling_Empire.6.d: "\"Are you sure, Mr. Prime Minister?\" \"Mrs. Churchill and the children are already here,\" the other end of the telegram inquired, \"but the Protocol requires all government officials and their families to…\"\n\n\"Not for me!\" exclaimed Winston Churchill. I will not let the British people see their Prime Minister as a coward who will flee with his tails between his legs!\" \"Understood, Prime Minister,\" the other side says over the phone, breaking the silence, \"I wish you the best of luck.\"\n\nWinston Churchill hung up the phone, walked over to his desk, and pulled out a drawer containing a Webley Pistol and a case of cigars. He lit up one of the cigars, took a big puff, and opened a bottle of Pol Roger, drinking as much as he could stomach. It might be the last drink he ever has, he reasoned. Noises began to come from outside his room, loud, heavy steps, steps too loud for any proper British gentleman, steps too heavy for any British of good manners.\n\nWinston knew exactly who was taking these steps, so he checked his Webley's chamber and cocked its hammer, waiting for the people outside the doors to come in for a proper welcome..."
+ ENG_Crumbling_Empire.6.d: "\"Are you sure, Mr. Prime Minister?\" \"Mrs. Churchill and the children are already here,\" the other end of the telegram inquired, \"but the Protocol requires all government officials and their families to...\"\n\n\"Not for me!\" exclaimed Winston Churchill. I will not let the British people see their Prime Minister as a coward who will flee with his tails between his legs!\" \"Understood, Prime Minister,\" the other side says over the phone, breaking the silence, \"I wish you the best of luck.\"\n\nWinston Churchill hung up the phone, walked over to his desk, and pulled out a drawer containing a Webley Pistol and a case of cigars. He lit up one of the cigars, took a big puff, and opened a bottle of Pol Roger, drinking as much as he could stomach. It might be the last drink he ever has, he reasoned. Noises began to come from outside his room, loud, heavy steps, steps too loud for any proper British gentleman, steps too heavy for any British of good manners.\n\nWinston knew exactly who was taking these steps, so he checked his Webley's chamber and cocked its hammer, waiting for the people outside the doors to come in for a proper welcome..."
  ENG_Crumbling_Empire.6.A: "Gone, but not forgotten"
 
  ENG_Crumbling_Empire.7.t: "Sunset"
@@ -356,8 +337,8 @@
  ENG_Crumbling_Empire.7.A: "God have mercy on us all"
 
  ENG_Crumbling_Empire.8.t: "Carving the Carcass"
- ENG_Crumbling_Empire.8.d: ""
- ENG_Crumbling_Empire.8.A: ""
+ ENG_Crumbling_Empire.8.d: "London burns. And with it, the British Empire, a once proud and mighty power with the world at its feet, now sunken to the bottom of despair and desolation.\n\nBut not all countries see it that way. Some see it with glowing eyes, ready to pounce on defenseless territory.\n\nBuilding an empire makes enemies of many, with those exact enemies waiting until the time is right to take back what they see as theirs. And with British rule across the world in chaos, the dead body of the British Empire is slowly being picked upon, nations circling like vultures and taking pieces of a carcass spanning a third of the globe.\n\nIn Africa and the Middle East, various independence movements are already declaring unrecognized states, although it remains to be seen if Axis will let so much territory slip away from them. South Africa expands its borders in an attempt to consolidate the region and protect its interests, and Yemen moves to claim land it has wanted for years.\n\nIn Asia, the question of the problems within the Raj will have to be solved by those who live there, which will surely spell disaster for some and opportunity for others. Malaysia is now free, although what kind of future they want is still clouded, especially with Japan keenly eyeing the region. Australia also seeks to strengthen its interests, and will want to become a bulwark against Japanese expansionism, perhaps even aligning itself with US interests.\n\nAs the sun sets on the British Empire, a new sun rises over a world, clouded in ever more confusion about what the future holds."
+ ENG_Crumbling_Empire.8.A: "All empires fall eventually..."
 
  ENG_Crumbling_Empire.9.t: "Götterdämmerung"
  ENG_Crumbling_Empire.9.d: "The unthinkable has occurred. Several German paratroopers and infantry units landed at four different locations on our shores. After a crucial naval battle between the Royal Navy and the German Fleet, led by Erich Raeder, they gained enough naval and aerial superiority thanks to the new Focke-Wulf 190 fighter - which outperformed the Spitfire -  to land.\n\nThe German tanks and infantry had a difficult time breaking through our defences due to strong resistance from the Home Guard and other units. The fallschirmjäger have also landed behind lines, capturing key buildings and radio towers.\n\nMultiple counter-offensives began as soon as the enemy landed, but because the Home Guard were untrained and the other British Army units were at half-strength and missing a lot of heavy weaponry, the attacks were repulsed and the Germans were able to continue their offensive to London.\n\nIt is unclear whether more landings will take place, but given their near-complete aerial superiority and vastly outnumbering our tanks, it will be difficult to mount a strong enough defence to successfully repel the German advance toward London."
@@ -390,51 +371,51 @@
  ENG_Oxford_Election.1.B: "A dignified end is the best he can hope for."
  
  ENG_Oxford_Election.2.t: "The Necessary Prerequisite"
- ENG_Oxford_Election.2.d: ""
- ENG_Oxford_Election.2.A: ""
+ ENG_Oxford_Election.2.d: "Foreign Secretary John Simon has decided to resign in order to run for Chancellor of Oxford University and avoid criticism for his previous failures. His replacement, and the new Foreign Secretary, is National Liberal MP Walter Runciman, the former President of the Board of Trade, with many predicting him as the most obvious choice.\n\nSimon has now fully committed to becoming the new Chancellor of Oxford University, and despite his deep unpopularity, he must do everything in his power to beat the current favourite Lord Irwin for the position.\n\nNow that Walter Runciman has taken over as Foreign Secretary, a new President of the Board of Trade must be found. And we already have the perfect candidate in mind."
+ ENG_Oxford_Election.2.A: "Make sure to bring your best cigars."
  
  ENG_Oxford_Election.3.t: "Churchill's Return from the Wilderness"
  ENG_Oxford_Election.3.d: "Politicians have been defeated before. It is hardly unusual that every day some aspiring future leader of our nation is crushed in the wake of his foes and disappears from the political realm. It is just rare that one can recover from such depths - as Winston Churchill is about to do.\n\nAn influential and charismatic Liberal Member of Parliament when the Great War began, Churchill was made the First Lord of the Admiralty, tasked with overseeing Britain's naval effort. However, his downfall came swift - and in the form of the Gallipoli Campaign. A quick attack designed to knock the Ottomans out of the war spiralled into a stalemate, and as Allied forces were ordered to retreat, criticism rained down on Churchill. Holding numerous other cabinet offices since then, culminating in a short, but ultimately disastrous stint as the Conservative Chancellor of the Exchequer, his downward spiral reached its rock bottom conclusion in 1929 when Labour won the general election. The Conservatives were out - along with Churchill, who barely managed to hold his Epping seat. In the years since then, he has been roaming the political wilderness, with his calls for greater efforts to rearm the nation furthering his condemnation into political isolation.\n\nOnly now has he been presented with a chance to serve the country once again and rehabilitate his image. As the replacement for Walter Runciman, the Presidency of the Board of Trade will afford Churchill the chance to show off his political skill and experience, but most importantly, allow him to form a loyal base of support throughout the Conservative Party, one that will vigorously back his calls for national rearmament and a strong, unyielding presence on the global stage.\n\nIt can only be onwards and upwards from here for Churchill. This could be his last chance."
  ENG_Oxford_Election.3.A: "Had a nice trip, Winston?"
  
  ENG_Oxford_Election.4.t: "Simon's Folly"
- ENG_Oxford_Election.4.d: ""
- ENG_Oxford_Election.4.A: ""
+ ENG_Oxford_Election.4.d: "Failure. Lord Irwin will replace Viscount Grey as Chancellor of Oxford University. Simon should have seen this coming, as Lord Irwin had been the favourite candidate from the start, and he still has his disastrous past and deep unpopularity hanging over his head.\n\nLord Irwin, senior Conservative politician, former Viceroy of India, firm protégé of Stanley Baldwin, former President of the Board of Education and Master of the Middleton Hunt, and now Chancellor of Oxford University, has emerged on top.\n\nSimon is now left with nothing. He had given up his position as Foreign Secretary to become Chancellor of Oxford University, only to fail miserably and lose everything. He hoped to escape his past, but it appears that it will follow him until the end. Simon's future is uncertain, so it's time for him to look for a new occupation. Perhaps he could once again run for the position and succeed Lord Irwin sometime in the future."
+ ENG_Oxford_Election.4.A: "The past haunts us all."
  
  ENG_Oxford_Election.5.t: "A Worthwhile Endeavour"
- ENG_Oxford_Election.5.d: ""
- ENG_Oxford_Election.5.A: ""
+ ENG_Oxford_Election.5.d: "Success! Viscount Grey will be succeeded as Chancellor of Oxford University by John Simon. He thought he was doomed to lose the position to Lord Irwin because of his past and because Lord Irwin has been the favourite from the start with an excellent reputation, the polar opposite of his own, but he has successfully managed to beat Lord Irwin.\n\nNow, as Chancellor of Oxford University, Simon has the opportunity to break free from his past and start over. He will redeem himself, creating a new image and reputation that he will not allow himself to destroy this time.\n\nHis dedication paid off, and he may now be remembered as a Chancellor of Oxford University rather than a failed Foreign Secretary."
+ ENG_Oxford_Election.5.A: "A chance at redemption."
 
 ######################################################################
 #  British Military Tree Events
 ######################################################################
  ENG_Military_Tree.1.t: "A Waning Power"
- ENG_Military_Tree.1.d: ""
- ENG_Military_Tree.1.A: ""
+ ENG_Military_Tree.1.d: "For too long now, the British Army has been underfunded and undertrained. Years of almost unbroken peace has led to the poor state of the army, and it is now a shadow of what it once was.\n\nBut, after many governments unwilling to increase funds that are necessary for its survival and maintenance, it is time to give it the resources it needs to lift it out of its dire situation. A few experts have succeeded in learning how to improve the situation in the Army, and we must learn from them if we are to stop its decay.\n\nNow, the decision to refund, retrain, and modernise our army is under the hands of our Prime Minister and our War Cabinet, both ready to lead us to the future."
+ ENG_Military_Tree.1.A: "If the sun never sets on the empire, it makes sense that it never sets on the army either."
  
  ENG_Military_Tree.2.t: "The Legacy of the Great War"
  ENG_Military_Tree.2.d: "The public's yearning for peace is growing, but our military's quality is deteriorating as a result of the sacrifices made by our best troops and generals in the past decades. The public now can advocate that either the military be reformed, or that we never rearm.\nThe Great War, which forced us to lose control of our colonies, had a significant impact on our economy. Even Irish independence dealt us a heavy blow at the same time.\nThe government is also in jeopardy. Fascists, communists, and even the bloody Labour Party want to enter into politics. These politicians are skillful at inciting public support before grabbing power.\nAs a result, we can only take advantage of opportunities for peaceful development when we try to avoid conflict.\nWe will not join  another war under any circumstances; we need peace and stability!"
  ENG_Military_Tree.2.A: "Ideally, we will never have a Great War again."
  
  ENG_Military_Tree.3.t: "The New Defenders of Albion"
- ENG_Military_Tree.3.d: ""
- ENG_Military_Tree.3.A: ""
+ ENG_Military_Tree.3.d: "During the Great War, a new sort of warfare emerged. The fights in the skies, formerly reserved to the old Celtic and Nordic Gods, have now also been conquered by their human successors.\n\nTo fight the Germans during the last war, we formed the Royal Air Force, or RAF, which is the flagship of British aviation, as well as a proud example of British engineering and military prowess.\n\nNow, as war approaches the British lands again, it is time for the government to fund our branch, thus to give us the abilities to protect not only our soldiers on the battlefront, but also our homes in the isles. It is time to warm up the engines again."
+ ENG_Military_Tree.3.A: "Let our flying shields accomplish their destiny! The Red Baron won’t rise again!"
  
  ENG_Military_Tree.4.t: "Embracing Modern Warfare"
- ENG_Military_Tree.4.d: ""
- ENG_Military_Tree.4.A: ""
+ ENG_Military_Tree.4.d: "In the lost fields of the Great War, Britain led the way in more than one domain. In fact, some of the first tank engines were created and driven by British soldiers and engineers!\n\nHowever, since then, tank development hasn't seen as much funding as it should've, and some of our tanks corps drive outdated models. On the other hand, the Germans have been developing and refining a new doctrine based around tank warfare calling it “Blitzkrieg”, or the Lightning War in our language.\n\nNow, it is time for the British Crown to give some love again to its steel child, before sending it to fight for Britain in battlefields all around the world. The wars of tomorrow will be won by the choices we make today, especially in the field of tank warfare."
+ ENG_Military_Tree.4.A: "What’s better than a man in armour? Thousands of men in indestructible armour, with immense firepower!"
  
  ENG_Military_Tree.5.t: "Our Weakening Rule"
- ENG_Military_Tree.5.d: ""
- ENG_Military_Tree.5.A: ""
+ ENG_Military_Tree.5.d: "With the question of the modernisation of our armies comes the question of what we should do when that goal is achieved. Yes, the real opponents in the European front are major powers and their allied nations, but in the future, who can say that this situation will not evolve? If a power like Germany can rearm and modernise herself in less than twenty years, then it is pretty clear that Britain needs a powerful upgrade of its own capacities, a project that should start as soon as possible!\n\nIt is inevitable that if the major powers are modernising, so too will our colonies. But this also means that if the colonies modernise themselves, so too will the rebels. We can’t allow this to happen. We need to protect every jewel of the Crown, now and forever!\n\nThe British Empire will protect its subjects across the world, from the icy lands of Canada, to the arid lands of Australia, the multicultural lands of South Africa, and the multi-religious lands of the Raj!"
+ ENG_Military_Tree.5.A: "The sun will never set on the British Empire. We won't allow it."
  
  ENG_Military_Tree.6.t: "Hart's Doctrinal Purity"
  ENG_Military_Tree.6.d: ""
  ENG_Military_Tree.6.A: ""
  
  ENG_Military_Tree.7.t: "A New Expeditionary Force"
- ENG_Military_Tree.7.d: ""
- ENG_Military_Tree.7.A: ""
+ ENG_Military_Tree.7.d: "Years ago, the British Expeditionary Force, or BEF, were the first British soldiers sent into Europe after the beginning of the Great War. Despite their greatness and the feats they have accomplished across history, time was not been kind to them, and they were dissolved a few years after the war, as another one was deemed unfathomable.\n\nBut now, with conflict looming over the continent, some think that it is time to form a new British Expeditionary Force. We should fund this project, and show to our allies that we will never let them fight alone!\n\nThe advantage of reforming a group dissolved years ago is that you can bring two things: young, fresh troops, and a complete modernisation of the force. If in the last war they were considered as the elites of our army, today, they will be at best considered soldiers. Therefore, it is crucial that we equip them, train them, and, of course, familiarise them with the new tactics of war."
+ ENG_Military_Tree.7.A: "Call Field Marshall Vereker, we have an important mission for him."
  
  ENG_Military_Tree.8.t: "A Storm of Lightning and Thunder"
  ENG_Military_Tree.8.d: ""
@@ -444,10 +425,10 @@
 #  Tizard's Research Events
 ######################################################################
  ENG_Tizards_Research.1.t: "Tizard's Experimental Research"
- ENG_Tizards_Research.1.d: ""
- ENG_Tizards_Research.1.A: "Leave Him Be"
- ENG_Tizards_Research.1.B: "Lower Funding"
- ENG_Tizards_Research.1.C: "Higher Funding"
+ ENG_Tizards_Research.1.d: "Scientist Henry Tizard, a former second lieutenant in the Great War known for his unusual training methods, has requested government funding and assistance to aid in the research of new methods of spotting aircraft.\n\nTizard has been researching and developing new methods for identifying aircraft, but unlike some other experts, his research has a lot of potential. Some government officials believe that funding Tizard's research would be a waste of money, while others believe that the government should invest heavily in his work.\n\nIf the government funds Tizard's research and the work is extensive, a new era in aeroplane detection technology will undoubtedly emerge."
+ ENG_Tizards_Research.1.A: "No funding or assistance from the government!"
+ ENG_Tizards_Research.1.B: "Only a tiny bit of funding from the government"
+ ENG_Tizards_Research.1.C: "A significant amount of funding from the government"
 
  ENG_Tizards_Research.2.t: "Tizard's Showcase"
  ENG_Tizards_Research.2.d: "Unsurprisingly, Tizard didn't do much to further his research after the government opted not to fund it.\n\nTizard was devastated and furious when he learned that the government had decided not to fund his research, but that was the decision, and it couldn't be changed. Tizard made an effort to advance his research further, but he was unable to do so due to a lack of funds and motivation.\n\nHowever, Tizard's research has only moderately helped. Although some government officials are currently having second thoughts, there is now nothing they can do."
@@ -480,56 +461,56 @@
 #  Irish Trade War
 ######################################################################
  ENG_Irish_Trade_War.1.t: "A Willingness to Back Down"
- ENG_Irish_Trade_War.1.d: ""
- ENG_Irish_Trade_War.1.A: "De-Escalating the Situation Would be Mutually Beneficial"
- ENG_Irish_Trade_War.1.B: "We Must Mantain the Economic Pressure"
+ ENG_Irish_Trade_War.1.d: "A delegation from the Irish Free State arrived in London today to express the Irish government's willingness to soften its aggressive stance in our trade dispute in exchange for relief, as their fledgling economy cannot withstand our 20% import tax on their goods, specifically their livestock. The Irish Free State, according to the delegation, is willing to negotiate a mutually beneficial agreement to reduce tensions between our two countries. While the Irish economic conflict has far less of an impact than it does on them, having an upset Ireland to our west may cause complications in the future."
+ ENG_Irish_Trade_War.1.A: "De-escalating the situation would be mutually beneficial"
+ ENG_Irish_Trade_War.1.B: "We must maintain the economic pressure"
 
  ENG_Irish_Trade_War.2.t: "The Coal-Cattle Pact is Signed"
- ENG_Irish_Trade_War.2.d: "[FROM.GetNewsIcon]"
- ENG_Irish_Trade_War.2.A: ""
- ENG_Irish_Trade_War.2.B: ""
- ENG_Irish_Trade_War.2.C: ""
+ ENG_Irish_Trade_War.2.d: "[FROM.GetNewsIcon]With the decision to sign the Coal-Cattle Pact, tensions between the United Kingdom as well as the Irish Free State have begun to alleviate. Due to an enormous surplus of livestock that had accumulated, Irish farmers were becoming compelled to slaughter their cattle, and the dilemma was beginning to spiral out of control. With the declaration of this pact, all tax duties levied on British coal and Irish cattle have been eliminated, enormously benefiting the Free State's economy.\n\nThe Free Irish State appears to be more willing to soften their aggressive stance on the trade war, and there are rumours of ongoing discussions between both countries' leaders concerning further cooperation to end the conflict. With the German Reich's announcement of the Luftwaffe and Italy's growing forces in the Horn of Africa, Europe's political situation is becoming strained, and Neville Chamberlain is eager to shift the focus of the United Kingdom to more pressing issues."
+ ENG_Irish_Trade_War.2.A: "Let us hope this signals the end of the trade war."
+ ENG_Irish_Trade_War.2.B: "Let us hope this signals the end of the trade war."
+ ENG_Irish_Trade_War.2.C: "Let us hope this signals the end of the trade war."
 
  ENG_Irish_Trade_War.3.t: "A Return to the Table"
- ENG_Irish_Trade_War.3.d: ""
- ENG_Irish_Trade_War.3.A: "Further De-Escalation is Necessary"
- ENG_Irish_Trade_War.3.B: "Deny Them Any Concessions"
+ ENG_Irish_Trade_War.3.d: "The Irish Free State has expressed its intention to continue introducing negotiations to end the trade war conclusively since the decision to sign the Coal-Cattle pact. With the recent concerning political developments in both the German Reich and Italy becoming more tense by the month, a resolution to this dispute would allow our ministers to concentrate on more pressing matters. While the Irish negotiators are likely to be abrasive in their demands, our diplomats are confident that if we choose to commence talks, we will be able to establish a firm foothold. Should [IRE.GetLeader] be welcomed to London?"
+ ENG_Irish_Trade_War.3.A: "Further de-escalation is necessary"
+ ENG_Irish_Trade_War.3.B: "Deny them any concessions"
 
  ENG_Irish_Trade_War.4.t: "The Irish Crawl Back"
- ENG_Irish_Trade_War.4.d: ""
- ENG_Irish_Trade_War.4.A: "Some Relief May Be What's Needed"
- ENG_Irish_Trade_War.4.B: "Deny Them Any Concessions Whatsoever"
+ ENG_Irish_Trade_War.4.d: "Following our refusal to negotiate a closure to the Anglo-Irish Trade Conflict with the Irish Free State, the Irish delegation has returned, this time accompanied by James Ryan, the Irish Minister of Agriculture. James Ryan delivered a relatively short speech highlighting the significant negative effects of the trade war on the agricultural industries of the Irish economy, which itself was followed by a delegation declaration announcing the Free State's willingness to negotiate extended concessions in exchange for a decrease of our pressure. They concluded with a reading of a letter addressed to [ENG.GetLeader from [IRE.GetLeader] himself, reiterating the economic disruption done to Ireland."
+ ENG_Irish_Trade_War.4.A: "Some relief may be what's needed"
+ ENG_Irish_Trade_War.4.B: "Deny them any concessions whatsoever"
 
  ENG_Irish_Trade_War.5.t: "The Financial, Trade and Defence Terms"
- ENG_Irish_Trade_War.5.d: ""
- ENG_Irish_Trade_War.5.A: "These Terms Are Acceptable"
- ENG_Irish_Trade_War.5.B: "We Cannot Accept These Alterations to Defence Policy"
+ ENG_Irish_Trade_War.5.d: "Several terms and agreements have been discussed today during a series of negotiations with [IRE.GetLeader], who brought Seán Lemass and James Ryan to assist and support with the discussions. The focus has centred on the financial, trade, and defence sectors. A draft agreement has been written, which states that all tax duties imposed during the previous five years will be lifted, with [IRE.GetLeader] consenting to a one-time compensation of £10 million while retaining the authority to impose tariffs on our imports to safeguard their newly established industries. A free-trade agreement will also be included to strengthen our relationship with the Free State. The surrender of the treaty ports of Berehaven, Spike Island, and Lough Swilly, which we retained in 1921, is perhaps one of, if not the, most notable feature of the terms. Should we agree to this deal?"
+ ENG_Irish_Trade_War.5.A: "These terms are acceptable"
+ ENG_Irish_Trade_War.5.B: "We cannot accept these alterations to defence policy"
 
  ENG_Irish_Trade_War.6.t: "The Irish Financial and Trade Terms"
- ENG_Irish_Trade_War.6.d: ""
- ENG_Irish_Trade_War.6.A: ""
+ ENG_Irish_Trade_War.6.d: "Following the Irish Free State's sentimental, but somewhat hustled, efforts to bring the Anglo-Irish Trade War to an end, we have convened to negotiate predefined terms with [IRE.GetLeader] to start reducing tensions between our two countries. We have agreed to remove our tariffs on Irish exports to our nation in return for the Irish relinquishing their claims on the Treaty Ports of Berehaven, Spike Island, and Lough Swilly. Furthermore, the Irish Free State will make a one-time compensation of £8 million to accommodate land annuity liabilities. While these aren't the greatest conditions we could have obtained, they do enable us to concentrate our efforts on Europe's growing unease."
+ ENG_Irish_Trade_War.6.A: "We'll certainly agree to this!"
 
  ENG_Irish_Trade_War.7.t: "The Anglo-Irish Agreements"
- ENG_Irish_Trade_War.7.d: "[FROM.GetNewsIcon]"
- ENG_Irish_Trade_War.7.A: ""
- ENG_Irish_Trade_War.7.B: ""
- ENG_Irish_Trade_War.7.C: ""
+ ENG_Irish_Trade_War.7.d: "[FROM.GetNewsIcon]Following a series of negotiations between authorities from the United Kingdom and Ireland, numerous terms and arrangements have been attained. The primary focus has centred on the financial, trade, and defence segments. All tax duties imposed in the previous five years have been raised, with [IRE.GetLeader] consenting to a one-time compensation of £10 million to the UK while retaining the authority to impose tariffs on British imports to safeguard their recently established industries.\n\nA free-trade agreement has also been reached, which vastly strengthens the ties between the United Kingdom and the Free State. The surrender of the treaty ports, which the UK retained in 1921, is perhaps one of the most notable features of the terms. As a result, as officially confirmed by the British Prime Minister, Berehaven, Spike Island, and Lough Swilly will be transferred to Ireland immediately as an expression of trust and goodwill."
+ ENG_Irish_Trade_War.7.A: "A toast to better times ahead!"
+ ENG_Irish_Trade_War.7.B: "A toast to better times ahead!"
+ ENG_Irish_Trade_War.7.C: "The British and the Irish agreeing on something?!"
 
  ENG_Irish_Trade_War.8.t: "The Dual Anglo-Irish Agreements"
- ENG_Irish_Trade_War.8.d: "[FROM.GetNewsIcon]"
- ENG_Irish_Trade_War.8.A: ""
- ENG_Irish_Trade_War.8.B: ""
- ENG_Irish_Trade_War.8.C: ""
+ ENG_Irish_Trade_War.8.d: "[FROM.GetNewsIcon]Following [ENG.GetLeader]'s initial stoicism in bargaining mutually beneficial terms to cease the Anglo-Irish Trade War, an Irish delegation returned to London with a revived willingness to make additional concessions. [ENG.GetLeader] decided to make the executive decision, after careful consideration, to welcome [IRE.GetLeader] to London to begin talks. After several months of perceptibly deliberate stalling by British negotiators, the following terms have been agreed upon and signed into effect:\n\nThe Irish Free State has agreed to relinquish all claims to the Treaty Ports in Ireland that are currently under British administration.  Moreover, the Free State will make a one-time instalment of £8 million to accommodate land annuity liabilities. Moreover, all tariffs on British and Irish exports will be eliminated. The Anglo-Irish Trade Conflict has been declared concluded with these terms. In the words of [ENG.GetLeader], British ministers are now "free to focus their efforts to more critical matters on the continent."
+ ENG_Irish_Trade_War.8.A: "At last, and end to the trade war!"
+ ENG_Irish_Trade_War.8.B: "At last, and end to the trade war!"
+ ENG_Irish_Trade_War.8.C: "They finally came to their senses."
 
  ENG_Irish_Trade_War.9.t: "A Desperate Irish Attempt"
- ENG_Irish_Trade_War.9.d: ""
- ENG_Irish_Trade_War.9.A: ""
+ ENG_Irish_Trade_War.9.d: "With our continued obstinacy and outright refusal to negotiate further on the issue of reducing tensions caused by the Anglo-Irish Trade Conflict, Irish delegations have left London disappointed and frustrated, unable to meet our demands. Given that the trade war has little impact on British daily life and the overall economy, this has little impact on us, while the Irish Free State's economy continues to deteriorate.\n\nHowever, the Irish are determined to get something out of their efforts, and have returned, hoping to use an unstable Europe as a stabilizing factor to put an end to the ongoing destruction of their new industries. While a decision has been reached, the terms are not necessarily advantageous to either party. Tariffs are to be reduced on both ends, significantly relieving the Free State; however, they must pay a one-time payment of £6 million as compensation for land annuity liabilities. The Anglo-Irish Trade War is finally over, and our ministers can refocus their efforts on a more lethal conflict."
+ ENG_Irish_Trade_War.9.A: "The issue of the trade war can be settled at last."
 
  ENG_Irish_Trade_War.8.t: "The Anglo-Irish Agreement"
- ENG_Irish_Trade_War.8.d: "[FROM.GetNewsIcon]"
- ENG_Irish_Trade_War.8.A: ""
- ENG_Irish_Trade_War.8.B: ""
- ENG_Irish_Trade_War.8.C: ""
+ ENG_Irish_Trade_War.8.d: "[FROM.GetNewsIcon]The Anglo-Irish Trade War has been brought to an end! With Europe becoming more unstable, and with the UK wanting to shore up its economy, the Irish delegation returned to London accompanied by [IRE.GetLeader], with high expectations of reaching the conclusion of the Trade Conflict. Irish industries are collapsing, the citizenry is impoverished, and the economy is in complete disarray, unable to re-establish itself against British tariffs on its exports. After tense but brief negotiations, an agreement was finally reached and signed into effect. The following are the terms:\n\nTariffs on Irish and British goods are to be removed immediately, allowing free commerce between the two countries to begin and, hopefully, permitting the Irish Free State's economy to gain some momentum. The Free State will make a one-time payment of £6 million to compensate for land annuity liabilities.\n\nWith the closure of the Anglo-Irish Trade War, the British and their Commonwealth can shift their focus to a far more threatening conflict that has the possibility of bringing Britain to her knees for the first time in many centuries..."
+ ENG_Irish_Trade_War.8.A: "This should help our economic situation."
+ ENG_Irish_Trade_War.8.B: "This should help our economic situation."
+ ENG_Irish_Trade_War.8.C: "At last, the trade war is over."
  
 ######################################################################
 #  Chinese Defeat in the Second Sino-Japanese War - British Events
@@ -548,8 +529,8 @@
  ENG_Ramsay_Events.1.A: "The health of the Prime Minister is very worrying"
 
  ENG_Ramsay_Events.2.t: "A Rogue Element"
- ENG_Ramsay_Events.2.d: ""
- ENG_Ramsay_Events.2.A: ""
+ ENG_Ramsay_Events.2.d: "With the rise of Adolf Hitler in Germany and Benito Mussolini in Italy, Oswald Mosley, the leader of the British Union of Fascists, poses a threat to the United Kingdom's political and internal security. His persuasive oratory skills could jeopardise the stability and unity of the United Kingdom and its Empire around the world. Worryingly, he has been seen with Edward the VIII and his mistress Wallis Simpson, as well as other important royal figures.\n\nThe MI5 has proposed that he be monitored more closely by listening in on his conversations with party members in order to keep an eye on him and his organisation.\n\nHopefully we can prevent the BUF from expanding further in this manner."
+ ENG_Ramsay_Events.2.A: "Let’s hope the King doesn’t have such radical thoughts..."
 
  ENG_Ramsay_Events.3.t: "Preventing A Future Headache"
  ENG_Ramsay_Events.3.d: "The British Union of Fascists has gained up to 50,000 members in recent years, mainly thanks to Oswald Mosley and his notable oratory skills that have helped to convince the public to provide financial support to the BUF, enabling it to challenge the political establishment. We must convince MI5 to launch a sting operation in cooperation with the London Metropolitan Police to arrest Mosley and other members of his organization. Thankfully they have already infiltrated his organization and we have plenty of evidence against him and his acolytes.\n\nBy detaining him, we will ensure that his organization and any other fascist movements that have appeared in our nation are shut down once and for all to ensure political stability within the United Kingdom and our Empire overseas. There can be no place in our nation for such radical and destructive views that threaten democracy itself!"
@@ -604,7 +585,7 @@
  ENG_London_Economic_Conference_Events.9.A: "He needs to see the bigger picture"
 
  ENG_London_Economic_Conference_Events.10.t: "Our Talks Have Been Revealed"
- ENG_London_Economic_Conference_Events.10.d: "The Oval Office was flooded with the warm June light, as the sun began to rise over the city. Roosevelt basked in the bit of peace he had, waiting for the tidal wave of paperwork about to wash up on his desk. Well, this time it wasn’t just paperwork on his desk, but a copy of The Washington Herald.\n\n“There’s been a leak, Mr. President, about our currency stabilization talks…”\n\nThe aid slowly pushed the print towards him. With doubt in his eyes, the president slowly sat up and looked down on the paper on his desk. To his dismay, in the top left corner, there was the headline in bold letters, ROOSEVELT CONSIDERING CURRENCY STABILIZATION.  His stomach turned, only wishing the market didn’t think too much of it. Those hopes were dashed right as he turned the paper over to the front page to see tanking stock numbers. After a deep breath, he let out an apologetic, “How?”\n\nThe aide shrugged. “But we don’t have much time for that, Mr. President, It’s out there.”\nRoosevelt tapped his fingers back and forth in a repetitive motion on his desk, before letting out a sigh. ‘There's no way we can consider going through with the talks now, there'll be too much push back from the market and export traders. All we can do now is damage control.” The president pointed towards his black phone."
+ ENG_London_Economic_Conference_Events.10.d: "The Oval Office was flooded with the warm June light, as the sun began to rise over the city. Roosevelt basked in the bit of peace he had, waiting for the tidal wave of paperwork about to wash up on his desk. Well, this time it wasn’t just paperwork on his desk, but a copy of The Washington Herald.\n\n“There’s been a leak, Mr. President, about our currency stabilization talks...”\n\nThe aid slowly pushed the print towards him. With doubt in his eyes, the president slowly sat up and looked down on the paper on his desk. To his dismay, in the top left corner, there was the headline in bold letters, ROOSEVELT CONSIDERING CURRENCY STABILIZATION.  His stomach turned, only wishing the market didn’t think too much of it. Those hopes were dashed right as he turned the paper over to the front page to see tanking stock numbers. After a deep breath, he let out an apologetic, “How?”\n\nThe aide shrugged. “But we don’t have much time for that, Mr. President, It’s out there.”\nRoosevelt tapped his fingers back and forth in a repetitive motion on his desk, before letting out a sigh. ‘There's no way we can consider going through with the talks now, there'll be too much push back from the market and export traders. All we can do now is damage control.” The president pointed towards his black phone."
  ENG_London_Economic_Conference_Events.10.A: "Get me Hull on the line"
 
  ENG_London_Economic_Conference_Events.11.t: "Roosevelt Backs Out!"
@@ -620,7 +601,7 @@
  ENG_London_Economic_Conference_Events.13.A: "Fingers crossed!"
 
  ENG_London_Economic_Conference_Events.14.t: "An Acceptable Proposal"
- ENG_London_Economic_Conference_Events.14.d: "The Oval Office was flooded with the warm June light, as the sun began to rise over the city. Roosevelt basked in the bit of peace he had, waiting for the tidal wave of paperwork about to wash up on his desk. Soon enough, the peace fled as the desk phone ringed its ear-piercing tune.\n\nHis secretary yelled from the switchboard room, "It's Hull, Mr. President, should I put him through?"\n\n"Yes yes, put him on."\n\nHe put the phone up to his ear. "What's the news, did you guys come to an agreement?" Hull answered happily through the fuzzy static. "I'm proud to say we did. The plan is to apply temporary currency stabilization measures based on the US dollar to help our fellow European allies. This will surely boost both of our economies in the long run...but in the short term, we might receive some pushback. Luckily, they agreed we can let the public know in our way to mitigate any damage to the polls. In other words, It's nothing we can't handle."\n\nRoosevelt smiled and let out a sigh of relief, "Well, that sounds like an acceptable proposal, tell them we're fully on board." After a quick goodbye, the president stared at the papers on his desk and wondered, would this actually do any good?"
+ ENG_London_Economic_Conference_Events.14.d: "The Oval Office was flooded with the warm June light, as the sun began to rise over the city. Roosevelt basked in the bit of peace he had, waiting for the tidal wave of paperwork about to wash up on his desk. Soon enough, the peace fled as the desk phone ringed its ear-piercing tune.\n\nHis secretary yelled from the switchboard room, \"It's Hull, Mr. President, should I put him through?\"\n\n\"Yes yes, put him on.\"\n\nHe put the phone up to his ear. \"What's the news, did you guys come to an agreement?\" Hull answered happily through the fuzzy static. \"I'm proud to say we did. The plan is to apply temporary currency stabilization measures based on the US dollar to help our fellow European allies. This will surely boost both of our economies in the long run...but in the short term, we might receive some pushback. Luckily, they agreed we can let the public know in our way to mitigate any damage to the polls. In other words, It's nothing we can't handle.\"\n\nRoosevelt smiled and let out a sigh of relief, "Well, that sounds like an acceptable proposal, tell them we're fully on board." After a quick goodbye, the president stared at the papers on his desk and wondered, would this actually do any good?"
  ENG_London_Economic_Conference_Events.14.A: "Better to try than not at all"
 
  ENG_London_Economic_Conference_Events.15.t: "Roosevelt Agrees to the Plan!"
@@ -636,7 +617,7 @@
  ENG_London_Economic_Conference_Events.17.A: "Quite embarrassing"
 
  ENG_London_Economic_Conference_Events.18.t: "Hugenberg's Fate"
- ENG_London_Economic_Conference_Events.18.d: "Sending Hugenberg to the London Conference has proved to be a complete disaster. During a speech, the man proposed a program of German colonization in Africa and Eastern Europe to solve the world economic crisis. Even though that's what our great nation deserves, it was ridiculous and embarrassing as every German diplomat attending became a laughing stock at the conference after they realized he was serious. When other members of the cabinet tried to control the damage he caused by suggesting it was his own personal beliefs, he still refused to go back on his plan, saying "It was on behalf of the German Government" even though it clearly wasn't. Besides the humiliation, France and the USSR have submitted formal complaints about Hugenberg's "proposal", and we're left with the two options: Sacking him out of the cabinet or keeping him for the time being."
+ ENG_London_Economic_Conference_Events.18.d: "Sending Hugenberg to the London Conference has proved to be a complete disaster. During a speech, the man proposed a program of German colonization in Africa and Eastern Europe to solve the world economic crisis. Even though that's what our great nation deserves, it was ridiculous and embarrassing as every German diplomat attending became a laughing stock at the conference after they realized he was serious. When other members of the cabinet tried to control the damage he caused by suggesting it was his own personal beliefs, he still refused to go back on his plan, saying \"It was on behalf of the German Government\" even though it clearly wasn't. Besides the humiliation, France and the USSR have submitted formal complaints about Hugenberg's \"proposal\", and we're left with the two options: Sacking him out of the cabinet or keeping him for the time being."
  ENG_London_Economic_Conference_Events.18.A: "Sack the idiot"
  ENG_London_Economic_Conference_Events.18.B: "It doesn't really matter"
 
@@ -653,7 +634,7 @@
 ######################################################################
 
  ENG_Wartime_Tree.1.t: "His Majesty's Most Loyal Enemy Aliens"
- ENG_Wartime_Tree.1.d: "An enemy alien is any native, citizen, denizen, or subject of a foreign country or government with which a domestic country or government is at war. Typically, nations have declared war on one another by this time.\n\nPeople who had fled Nazi persecution, particularly Jews and political refugees, have found refuge in our country since the beginning of the war against the German Reich and the Axis powers. The majority of them were relocated to the Isle of Man, where we also housed Enemy Aliens during WWI. At the start of the war, approximately 70,000 German and Austrian residents of the United Kingdom were designated as enemy aliens.\n\nInitially, they were used by the Pioneer Corps to aid in fortification and military construction. These men, dubbed "The King's Most Loyal Enemy Aliens," later served in fighting units and saw active combat. Some were recruited as secret agents by the Special Operations Executive (S.O.E.)."
+ ENG_Wartime_Tree.1.d: "An enemy alien is any native, citizen, denizen, or subject of a foreign country or government with which a domestic country or government is at war. Typically, nations have declared war on one another by this time.\n\nPeople who had fled Nazi persecution, particularly Jews and political refugees, have found refuge in our country since the beginning of the war against the German Reich and the Axis powers. The majority of them were relocated to the Isle of Man, where we also housed Enemy Aliens during the Great War. At the start of the war, approximately 70,000 German and Austrian residents of the United Kingdom were designated as enemy aliens.\n\nInitially, they were used by the Pioneer Corps to aid in fortification and military construction. These men, dubbed \"The King's Most Loyal Enemy Aliens\" later served in fighting units and saw active combat. Some were recruited as secret agents by the Special Operations Executive (S.O.E.)."
  ENG_Wartime_Tree.1.a: "Alle waffen gegen Hitler!"
 
  ENG_Wartime_Tree.2.t: "Our Darkest Hour"
@@ -661,34 +642,34 @@
  ENG_Wartime_Tree.2.a: "We shall never surrender!"
 
  ENG_Wartime_Tree.3.t: "The Czechoslovak Government-in-Exile"
- ENG_Wartime_Tree.3.d: ""
- ENG_Wartime_Tree.3.a: "Response"
+ ENG_Wartime_Tree.3.d: "The Germans have taken another step toward extinguishing European liberty. With their conquest of Paris, they have placed the lives of many important officials from various European nations in danger. Paris had been hosting many governments in exile, each of whom represented their people's continuing fighting spirit and desire to oppose Fascism. The Czechoslovak Government-in-Exile was one such government.\n\nAs the Germans marched into Paris, plans were being made to relocate them to the United Kingdom, where they could continue fighting for their country's freedom and security. Those preparations have now paid off, with the establishment of a formal Czechoslovak Government-in-Exile in London, led by [CZE.GetLeader].\n\nThis relocation, however, is not without complications. For one thing, the Czechoslovaks have made it clear that they intend to reverse the Munich Agreement at the end of the war. Many of our officials have reported that they continue to hold us in contempt and anger for signing the agreement in the first place.\n\nAnother issue is the Germans' creation of [SLO.GetNameDef]. While it claims to be a sovereign Slovak nation, there is no doubt that it is a German puppet. In any case, there is some debate over whether the Czechoslovak Government-in-Exile is truly a Czechoslovak Government-in-Exile or simply a Czech Government-in-Exile.\n\nIn any case, with all formalities completed, [CZE.GetLeader] will be settling into the London weather and organising the Czechoslovak resistance from his English Oak table."
+ ENG_Wartime_Tree.3.a: "We shall wish them the best."
 
- ENG_Wartime_Tree.4.t: "The Tizard mission"
+ ENG_Wartime_Tree.4.t: "The Tizard Mission"
  ENG_Wartime_Tree.4.d: "The British government have sent us a scientific delegation led by Henry Tizard with an interesting proposal. The British are willing to pool their research efforts with ours in several key areas as they do not have the industrial capacity to produce their inventions in great enough numbers."
  ENG_Wartime_Tree.4.a: "An excellent proposal!"
  ENG_Wartime_Tree.4.b: "No, the British are on their own."
  ENG_Wartime_Tree.4.c: "We should aim for a more long term cooperation."
 
- ENG_Wartime_Tree.5.t: "Tizard successful"
- ENG_Wartime_Tree.5.d: "The US government has agreed to our proposal and have shared some of their research data with our delegation."
+ ENG_Wartime_Tree.5.t: "Tizard Successful"
+ ENG_Wartime_Tree.5.d: "The Tizard Mission has been completed after a few months of waiting! The delegation did not return empty-handed: after lengthy negotiations, they obtained plans for RADAR technology, which should now aid us in the current war.\n\nEven if the collaborations with the American behemoth were not as fruitful as some would have liked, the RADAR is a significant step forward. Military industries have already installed them on planes and ships to improve visibility in Europe's seas and skies."
  ENG_Wartime_Tree.5.a: "Jolly good!"
 
- ENG_Wartime_Tree.6.t: "Tizard rejected"
+ ENG_Wartime_Tree.6.t: "Tizard Rejected"
  ENG_Wartime_Tree.6.d: "Despite spending months in the USA, our delegation will return to London tomorrow without any new technology from the Americans. Congress has completely rejected our proposal for cooperation, viewing their intervention in our research as a threat to the stability of the policy of isolation.\n\nThe government has dramatically stated that it has been the worst diplomatic failure in the world since the declaration of the Franco-Prussian war in 1870, also saying that “much is at stake because of this”. The expedition's leader, Henry Tizard, is disappointed, but he assures the government that he will continue to develop the technology required to win the war, even if it means killing himself at work.\n\nThe government has quickly reassigned him to a new mission, developing our own RADAR technology, and, if he believes he is capable, the development of our own nuclear program. At the same time, the rejection of our proposition by the Americans has launched a cooling of our mutual relations. We will never have the same relationship with the US as no one is quite sure what the future of our diplomacy will look like with them."
  ENG_Wartime_Tree.6.a: "A failure for the Allies, or a benefit for British science?"
 
- ENG_Wartime_Tree.7.t: "Tizard triumphant"
+ ENG_Wartime_Tree.7.t: "Tizard Triumphant!"
  ENG_Wartime_Tree.7.d: "The Tizard delegation has good news! After months of back-and-forth negotiations, the Americans have finally decided to assist us! And, contrary to popular belief, they will not only provide us with assistance, but will also assist us in the development of our RADAR plans, as well as in its installation for use in a variety of areas. Some of their scientists also seem to have been impressed by our research on the atom, and they have indicated their willingness to work on this with us in the future.\n\nThis is a huge success for our government, and military industrialists have already begun to develop RADAR-equipped planes and submarines. The Americans, on the other hand, are very impressed by the British delegation's effectiveness and have asked Professor Tizard to stay in America with the American delegates for some time.\n\nIn the Prime Minister’s cabinet, everyone has agreed on the fact this operation is the biggest achievement of the century for the British services, and we think it can, in the long run, lead to the end of American isolationism."
  ENG_Wartime_Tree.7.a: "After months of dark storms, the skies of Europe finally see the sun appear!"
 
  ENG_Wartime_Tree.8.t: "The Atlantic Charter"
- ENG_Wartime_Tree.8.d: ""
+ ENG_Wartime_Tree.8.d: "Yesterday, the President of the United States [USA.GetLeader] and the Prime Minister met to discuss their post-war goals and visions. After hours of deliberation, both leaders signed a charter outlining their respective visions.\n\nThis agreement, dubbed the \"Atlantic Charter\" by experts, has made it clear that the United States supports the Allies in the war. It contains eight clauses ranging from limiting territorial expansion to ensuring increased global trade.\n\nThe Charter's reception has been mixed. While the clauses concerning freedom of the seas and increased global trade have received widespread support, the third clause, which states: \"All people have the right to self-determination,\" has sparked controversy.\n\nWhile colonial powers such as ourselves and the Netherlands argue that the clause should not apply to their own colonies, the colonies themselves appear to have seen the Charter as a ray of hope.\n\nThe Charter has also heightened tensions between the Western Allies and the Soviet Union because it does not specify whether the people of the Baltic nations, Eastern Poland, and Ukraine also have the right to self-determination. While the Soviets appear determined to maintain their stranglehold on Eastern Europe, the response of the Western Allies remains to be seen."
  ENG_Wartime_Tree.8.a: "One Step Closer - Together."
 
  ENG_Wartime_Tree.9.t: "The Death of Appeasement"
- ENG_Wartime_Tree.9.d: ""
- ENG_Wartime_Tree.9.a: "We Have Thrown Down the Gauntlet."
+ ENG_Wartime_Tree.9.d: "\"Well, Sam...\" asked James, pointing to the headline: WAR IN EUROPE. "What do you think of appeasement now, eh?"\n"It was a noble attempt to safeguard peace." said Samuel, calmly sipping his tea.\n"Noble attempt? Are you out of your bloody mind? This was the stupidest idea of them all. Instead of defending European liberty, we stood by like idiots. And now, thousands will pay for it with their lives!" James yelled. Samuel could feel the anger bubbling up.\n\n"You don't know what you're talking about, James. Leave it." he said, tightening his grip on his cup.\n"Oh, I bloody well do! You old men are pussies, is what. They wanna hide in their houses because of some old war that happened years ago. Me? I'm not like that. If my country wants me to, I won't even think twice before picking up a gun to shoot the fascists!" James retaliated. Samuel saw red. He stood up, dropping the cup of tea to the ground. It shattered to pieces, spilling tea all over.\n\n"Do you have any idea what its like in the trenches, you silly boy? Have you ever seen all your comrades die beside you as you shared a hole in the ground with rats and disease? Have you ever felt a ringing in your ear from artillery exploding next to you? Have you ever seen someone's brains drip out their ears?" he screamed, "No you haven't! So don't tell me you know what war is, and for God's sake, don't even think you'll survive a day out there!" he stormed out of the café.\n\nAs Samuel walked back back home, he felt dreadful. Despite his protests, there was no denying that appeasement had failed. There was no denying that European peace had been shattered, just like his tea cup. There was no denying that, like his tea, the blood of thousands, if not millions, of people would be spilled all over....."
+ ENG_Wartime_Tree.9.a: "We have thrown down the gauntlet."
  ENG_Wartime_Tree.9.a.tt: "We will stop this tyrant or §Rdie§! trying"
 
  ENG_Wartime_Tree.10.t: "Roaring Factories"
@@ -715,16 +696,16 @@
 #  Wartime Decision Events
 ######################################################################
  ENG_Wartime_Decisions.1.t: "The Nuuklear Option"
- ENG_Wartime_Decisions.1.d: ""
+ ENG_Wartime_Decisions.1.d: "The British government approached us today about the possibility of acquiring ownership of both Iceland and Greenland, which were formerly Danish territories.\n\nWhen Denmark fell to the German invasion, British forces moved quickly to secure Iceland and Greenland, preventing the fascists from using them as a base to further disrupt the war effort in the UK, as well as a potential invasion point into the British Isles. While this was a wise decision at the time, the occupation of these two territories required a large number of soldiers and equipment, which the British claim could have been used elsewhere in the war to combat the Axis powers.\n\nWe would gain complete control of Iceland and Denmark under this agreement, but we would have to send troops to protect them. Another issue is that they are technically still part of Denmark, and proceeding with the plan could be interpreted as a violation of Danish sovereignty."
  ENG_Wartime_Decisions.1.A: "Perhaps we'll own this land someday?"
  ENG_Wartime_Decisions.1.B: "This is a clear violation of Danish sovereignty"
 
  ENG_Wartime_Decisions.2.t: "America Takes Control of Danish Possessions"
- ENG_Wartime_Decisions.2.d: ""
- ENG_Wartime_Decisions.2.A: "Thanks Chaps"
+ ENG_Wartime_Decisions.2.d: "The US government has given us good news about our potential deal with Greenland and Iceland. They have informed us that they are willing to proceed with the transfer of those territories from British to American control!\n\nThis is good news for us because it means we can now start withdrawing the garrisons stationed there and relocating them to the frontlines, where they will be much more useful in our fight against the Axis. It also helps to relieve administrative strain, which is already at breaking point as a result of the war.\n\nWe are confident that the United States will do an excellent job of protecting Greenland and Iceland, and we hope that when the war is over, we will be able to ensure that the rightful Danish government receives their land back."
+ ENG_Wartime_Decisions.2.A: "We give thanks to the Yanks!"
 
  ENG_Wartime_Decisions.3.t: "No Deal in Nuuk"
- ENG_Wartime_Decisions.3.d: ""
+ ENG_Wartime_Decisions.3.d: "The US government has given us some unfortunate news about our potential deal with Greenland and Iceland. They have informed us that they are not willing to proceed with the transfer of those territories from British to American control!\n\nThis is bad news for us because it means we must leave the garrisons stationed there to ensure their protection, and we won’t be able to move them to the frontlines where they would’ve been much more useful in our fight against the Axis. It also puts extra administrative strain on a system which is already at breaking point as a result of the war.\n\nThe US stated that it was not in their national interest to take control of Greenland and Iceland, also adding that it would be a violation of Danish sovereignty. While we will protect them for now, we hope to be able to return them to the rightful Danish government soon."
  ENG_Wartime_Decisions.3.A: "Ah, Piss"
 
  ENG_Wartime_Decisions.4.t: "Destroyers for Bases"
@@ -748,94 +729,96 @@
 #  Wartime Decision Events
 ######################################################################
  Operation_Torch.1.t: "The Cherchell Conference"
- Operation_Torch.1.d: ""
- Operation_Torch.1.A: ""
+ Operation_Torch.1.d: "American Major General Mark Clark finally arrived in Cherchell, French Algeria, a few days ago. Arriving in the city's port during the night of October 21-22, the major arrived with a submarine, an unusual but functional choice. The goal of this manoeuvre is straightforward: he was sent here to meet with a Vichy French commander named Charles Mast.\n\nMast was chosen for a simple reason. He was arrested and detained because he was suspected of being an opponent of the Vichy Regime, and thus an opponent of Pétain, Hitler, or even Mussolini. His release was facilitated by a friend, colonel Numata, a Japanese military attaché in the Vichy regime. Mast has only been a chief of staff in North Africa since those events.\n\nDuring their discussions, Mast agreed not to intervene against the Allies when they begin landing in North Africa, and he also promised that his troops would not intervene. The two men parted at sunrise, both pleased with the new turn of events."
+ Operation_Torch.1.A: "A new victory for the free world!"
  Allies_Cherchell_Ended: "The Cherchell Conference has ended"
 
  Operation_Torch.2.t: "Albion Strikes"
- Operation_Torch.2.d: ""
- Operation_Torch.2.A: ""
+ Operation_Torch.2.d: "History was written in North Africa just a few days ago. The start of Operation Torch was finally carried out after months of planning.\n\nThe British forces, along with some American volunteers and, of course, Free French troops, have begun the invasion of Vichy France. The city of Algiers fell quickly thanks to the cooperation of French General Mast, but resistance has been stronger in Tunisia and Morocco, and some cities continue to resist the Allies' intervention. Fearing for their lives, some leaders have handed over the Tunisian Protectorate to the Germans, further delaying the operation's conclusion.\n\nHowever, in the cities that do not oppose us, a large number of settlers and soldiers are relieved to see the return of democracy in their lands, with some municipal buildings already flying the flag of free France as well as the English or American flags. Even if the fighting continues, North Africa's future will be assured in a few weeks in the name of the King and the Allies!"
+ Operation_Torch.2.A: "Will the rest of them follow us, or will they fight on the side of the Axis?"
 
  Operation_Torch.3.t: "Allies Defeated in French North Africa"
- Operation_Torch.3.d: "[FROM.GetNewsIcon]"
- Operation_Torch.3.A: ""
- Operation_Torch.3.B: ""
+ Operation_Torch.3.d: "[FROM.GetNewsIcon]Breaking news from French North Africa! Despite their best efforts to land peacefully in Algeria, the Allied forces were turned back into the Mediterranean Sea!\n\nAccording to journalists in the region, a soldier discovered the plot of the French commander Charles Mast and reported it to his superiors. Mast was quickly arrested, and the Vichy regime immediately sent more men to Africa to defend the colonies!\n\nThe fighting was brutal for both British and American troops, as many soldiers had died before reaching the beach. The Free France supporters in the city, led by one of De Gaulle's friends, have been missing for days, and everyone agrees that they were apprehended by Joseph Darnand's Milice.\n\nAccording to other reports, the situation in Tunisia and Morocco is not much better. Despite a successful landing in Agadir's south, the troops were surrounded by enemy forces and quickly imprisoned. The population has reacted negatively to this news across the Allies' sphere, and many are beginning to question the leaders' decisions."
+ Operation_Torch.3.A: "Like Gallipoli all over again..."
+ Operation_Torch.3.B: "Stay away, and don’t come back!"
+ Operation_Torch.3.C: "Another twist in the war."
 
  Operation_Torch.4.t: "Allies Landed in French North Africa"
  Operation_Torch.4.d: "[FROM.GetNewsIcon]"
  Operation_Torch.4.A: ""
  Operation_Torch.4.B: ""
+ Operation_Torch.4.C: ""
 
  Operation_Torch.5.t: "Operation Torch Succeeds"
- Operation_Torch.5.d: "[FROM.GetNewsIcon]"
- Operation_Torch.5.A: ""
- Operation_Torch.5.B: ""
- Operation_Torch.5.C: ""
- Operation_Torch.5.D: ""
- Operation_Torch.5.E: ""
+ Operation_Torch.5.d: "[FROM.GetNewsIcon]It took days to complete the operation, but the Allies finally defeated Vichy France! Or, at the very least, they have defeated their colonial forces. The landing, which was supported by American and British troops as well as hundreds of Free France volunteers, was a complete success!\n\nWhen the allied troops were close to cities, the resistance rose up against the collaborators in many cities, causing the Vichy troops to become disorganised completely.\n\nMorocco and Tunisia have caused the most trouble. When the troops try to set foot in Morocco, the garrison opens fire on them. After a few days, however, the garrison surrendered when Free France troops attacked them on a second front. The second issue stems from Tunisia, where the Vichy regime handed over the protectorate to German forces. Following tradition, the Teutons quickly dispatched a large number of troops and materials to consolidate their foothold in Africa.\n\nOverall, the operation was a huge success, and it was widely celebrated in the Allied world."
+ Operation_Torch.5.A: "We follow the torch of liberty!"
+ Operation_Torch.5.B: "Hopefully this won't upset the Germans."
+ Operation_Torch.5.C: "A painful thorn in our side."
+ Operation_Torch.5.D: "One step closer to liberating our home"
+ Operation_Torch.5.E: "A turning point?"
  FRA_HCFA_is_released: "§RDarlan has made a deal with the Allies, taking our territory in Africa with him§!"
 
  Operation_Torch.6.t: "Petain Signs the Pact of Steel"
- Operation_Torch.6.d: "[FROM.GetNewsIcon]"
- Operation_Torch.6.A: ""
- Operation_Torch.6.B: ""
+ Operation_Torch.6.d: "[FROM.GetNewsIcon]Today, dark clouds appeared in Europe's sky. Following the failure of Operation Torch, the French leader, Philippe Pétain, initiated a new rapprochement with the German Reich. He has officially asked the German chancellor to join the Axis, claiming that Vichy France has clearly demonstrated his military capabilities by rejecting Allies troops right in the sea.\n\nThe Reich quickly accepted the offer, and a few hours later, Hitler and Pétain made a public declaration in Paris, informing the French people that the French State was now a partner in the conflict with Germany and Italy.\n\nFollowing the declaration, most collaborationist leaders, including Milice leader Joseph Darnand, RNP leader Marcel Déat, and PPF leader Jacques Doriot, celebrated the new cooperation with military parades in the streets of Paris, Bordeaux, Marseille, and Vichy.\n\nEven Pétain's second in command, Pierre Laval, has endorsed the situation, claiming that "after such a defeat, our enemies will think twice before launching another attack against France!""
+ Operation_Torch.6.A: "The French State sinks further into darkness."
+ Operation_Torch.6.B: "Congratulations to our new allies!"
  Operation_Torch.6.C: ""
 
  Operation_Torch.7.t: "Romance of the Three Nations"
- Operation_Torch.7.d: ""
- Operation_Torch.7.A: ""
+ Operation_Torch.7.d: "It's been a long time since France has been so divided. Even during the Paris Commune of 1870-1871, we were not as divided as we are today.\n\nFollowing years of division in French society, tens of movements have emerged, gradually fracturing the country. The worst was in 1934, when the leagues attempted to permanently demolish the government. And, based on the situation today, it appears that some of them have finally gotten what they want.\n\nFollowing the fall of France, Maréchal Phillipe Pétain obtained full powers and, rather than using them to push back the Germans, began peace talks with them. After a few hours, Hitler declared the occupation of North France, and the Vichy Regime took control of the south.\n\nAt the same time, the young General Charles de Gaulles decided not to resign, and a few days after the declaration, he issued a call from London to the French to resist the Germans and join Free France in fighting fascism and collaborators.\n\nFinally, in North Africa, Admiral François Darlan attempts to consolidate control in his French Civil and Military High Command, and no one knows to whom he will pledge allegiance for the time being."
+ Operation_Torch.7.A: "Who will win in the end? Collaborationists or the Resistance? Fascists or Republicans?"
 
 ######################################################################
 #  Baldwin Events
 ######################################################################
  ENG_Baldwin_Events.1.t: "Continuing the Anglo-German Naval Negotiations"
- ENG_Baldwin_Events.1.d: ""
- ENG_Baldwin_Events.1.A: ""
+ ENG_Baldwin_Events.1.d: "Germany presented their own demand at the World Disarmament Conference, known as "Gleichberechtigung," or the repeal of Part V of the Treaty of Versailles. Germany was eventually allowed to partially rearm its own nation after several discussions and agreements.\n\nGermany's diplomatic stance has gradually shifted since then. It is gradually seeing Britain as a potential ally and communicating with it amicably. During the official negotiations of the British-German naval treaty, however, the British envoy Simon and the German diplomat Ribbentrop disagreed.\n\nBecause Baldwin's administration wished to avoid an armaments race with Germany, the British cabinet voted in favour of a motion to continue talks. They informed Ribbentrop and his delegation that the British side agreed that the Kriegsmarine's total tonnage would be 35% of the Royal Navy's total tonnage on a permanent basis.\n\nThe negotiations went on smoothly. Britain's new foreign secretary believes it is the start of an Anglo-German alliance."
+ ENG_Baldwin_Events.1.A: "Let us hope for a good deal!"
 
  ENG_Baldwin_Events.2.t: "A New Governmental Mandate"
- ENG_Baldwin_Events.2.d: ""
- ENG_Baldwin_Events.2.A: ""
+ ENG_Baldwin_Events.2.d: "Recently, Prime Minister Stanley Baldwin has called a General Election to be held soon. This decision was followed by weeks of campaigning by both major political parties, each trying to win key constituencies that could tilt the balance of Parliament in their favour.\n\nThe principal subject of the aforementioned elections was about important matters: should we pursue a more aggressive rearmament or should we continue for peaceful politics? It is an important question that needs to be answered during the General Election.\n\nWhat policy decision we choose is best to get behind could determine the fate of the National Government, so we must be careful, and with the British voters poised to head to the polls, they will be watching what we say ever more closely."
+ ENG_Baldwin_Events.2.A: "We should opt for an appeasement policy: there is no need to anger Germany..."
 
  ENG_Baldwin_Events.3.t: "Chamberlain's Counsel"
- ENG_Baldwin_Events.3.d: ""
- ENG_Baldwin_Events.3.A: "We Must Promise No Great Armaments"
+ ENG_Baldwin_Events.3.d: "Neville Chamberlain arrived today to meet with Prime Minister Stanley Baldwin. Contrary to appearances, his visit was not coincidental, and the chancellor of the exchequer has clearly advised him to support the rearmament against Germany on the campaign trail. Chamberlain believes that this would be a good way to show Europe that the UK would be ready for any escalation in tensions across the continent.\n\nDespite this, Baldwin maintained his positions, claiming that despite his good intentions against any European threat, this policy will never gain enough support in the population, let alone within the government."
+ ENG_Baldwin_Events.3.A: "We must promise no great armaments"
 
  ENG_Baldwin_Events.4.t: "A Pacifistic Focus"
- ENG_Baldwin_Events.4.d: ""
- ENG_Baldwin_Events.4.A: ""
+ ENG_Baldwin_Events.4.d: "Despite recent advice from friends and colleagues, Stanley Baldwin has chosen the focal point of his current campaign. He wants to focus on the League of Nations, modernising British defences, and, of course, housing the homeless, putting the unemployed to work, and thus ending the effects of the Great Depression in the United Kingdom.\n\nDespite the protestations of a minority, the campaign should be won without much resistance."
+ ENG_Baldwin_Events.4.A: "The march toward peace has begun."
 
  ENG_Baldwin_Events.5.t: "A Large But Weakening Majority"
- ENG_Baldwin_Events.5.d: ""
- ENG_Baldwin_Events.5.A: ""
+ ENG_Baldwin_Events.5.d: "Despite the election's significant results, it appears that British public opinion is as volatile as the wind. In fact, despite having a large majority, Stanley Baldwin appears to have lost some support two weeks after his last announcement.\n\nThe election has revealed that while still possessing a healthy majority in Parliament, the National Government has certainly been weakened, whether that be due to its reaction to the Great Depression, or for being weak on foreign policy. With that however, comes for a chance for Baldwin to reflect on the campaign and to forge ahead with the plans that he seeks to put forward."
+ ENG_Baldwin_Events.5.A: "A win is still a win, right?"
 
  ENG_Baldwin_Events.6.t: "Taking Advantage"
- ENG_Baldwin_Events.6.d: ""
- ENG_Baldwin_Events.6.A: "More and More Homes"
- ENG_Baldwin_Events.6.B: "Focus Efforts on Road and Highway Development"
- ENG_Baldwin_Events.6.C: "Direct Focus to Industrial Strengthening"
+ ENG_Baldwin_Events.6.d: "The Great Depression has clearly taken its toll on the British family. Many families lack a proper place to live where they will not be forced to leave on short notice. If the husband is lucky enough to have a job to go to in the morning, he is frequently forced to travel on the dilapidated British road network, which is completely unfit to handle the volumes and strains placed on it by modern society. Should he survive the perilous journey across town, he may be greeted with a pink slip and an apology as his struggling factory closes its doors for the final time.\n\nWith the funds from the National Government's drive to resuscitate the floundering economy, we have the opportunity to begin hammering away at this cornucopia of economic woes. But because our coin purse is not infinite, we must be prudent in where we invest the limited resources we have at our disposal. What should we start with, Mr. Prime Minister?"
+ ENG_Baldwin_Events.6.A: "The working man needs a home to come back to!"
+ ENG_Baldwin_Events.6.B: "The working man needs safe and efficient roads!"
+ ENG_Baldwin_Events.6.C: "The working man needs to be able to put bread on the table!"
 
  ENG_Baldwin_Events.7.t: "Continuing the Southern Housing Boom"
- ENG_Baldwin_Events.7.d: ""
- ENG_Baldwin_Events.7.A: ""
+ ENG_Baldwin_Events.7.d: "We have managed to propel the nascent housing boom in Southern England as a result of our wise investment in the vital housing sector. New housing developments are springing up left, right, and centre in towns ranging from Dover to Bristol. With the increase in affordable housing, fewer and fewer people are forced to live in squalid "homes" or, worse, with their dreaded in-laws.\n\nWith this, our housing construction campaign has been declared a great success, and the government has begun to turn its attention to other more pressing matters. While only a small dent in the overall effects of the Great Depression, we can sleep well tonight knowing that our relief funds were wisely invested."
+ ENG_Baldwin_Events.7.A: "I hope they rest easy in their beds, too."
 
  ENG_Baldwin_Events.8.t: "For Miles and Miles"
- ENG_Baldwin_Events.8.d: ""
- ENG_Baldwin_Events.8.A: ""
+ ENG_Baldwin_Events.8.d: "Even in the best of times, much of the existing network was underdeveloped, and it was never really ready to handle the advent of the automobile, and it then suffered increasing neglect as economic hardship meant fewer funds available for road maintenance. However, as a result of recent investment in our road network and government attention to British roads, many critical roads have been built and expanded across the country, spanning for miles and miles.\n\nWith this, our road expansion campaign has been declared a huge success, and the government has begun to shift its focus to more pressing issues. While only a small dent in the overall effects of the Great Depression, we can sleep well tonight knowing that our relief funds were wisely invested."
+ ENG_Baldwin_Events.8.A: "Would anyone fancy a drive out in the country?"
 
  ENG_Baldwin_Events.9.t: "Honouring Our Industrial Legacy"
- ENG_Baldwin_Events.9.d: ""
- ENG_Baldwin_Events.9.A: ""
+ ENG_Baldwin_Events.9.d: "If one were to study a history textbook in one of Britain's many underfunded schools, they would be surprised to learn that the Industrial Revolution was actually born in England, given the depressing state of our domestic industry in previous years. Since the Great Depression rocked the economy, many once productive factories have been forced to close their doors and cease operations, creating a tidal wave of unemployed industrial workers. However, with our recent investment into the industrial sector the number of closures has cratered, and in some regions has even reversed course, providing jobs to thousands of workers looking to put bread on the table.\n\nWith this, our industrial preservation campaign has been declared a great success, and the government has begun to turn its attention to other more pressing matters. While only a small dent into the overall effects of the Great Depression, we may rest easy tonight knowing that we invested our relief funds wisely."
+ ENG_Baldwin_Events.9.A: "I've never been happier to see industrial smog!"
 
 ######################################################################
 #  Chamberlain Events
 ######################################################################
  ENG_Chamberlain_Events.1.t: "The Irish Constitution"
- ENG_Chamberlain_Events.1.d: ""
- ENG_Chamberlain_Events.1.A: ""
+ ENG_Chamberlain_Events.1.d: "Since the end of the Irish War of Independence in 1921, the creation of an Irish constitution has been a top priority. The Irish Constituent Assembly adopted the Irish Free State Constitution in 1922, but it still needs to be revised because Ireland's freedom is not fully realised.\n\nAs a result, despite constituting only 38% of the electorate, 56% of Irish residents supported the formation of the Irish constitution in the referendum on July 1, 1937.\n\nAccording to the Irish Constitution, Ireland is a sovereign autonomous state, not a vassal state or a territory of another government. Citizens in Ireland are free to make their own choices, and only a referendum can change the constitution.\n\nIreland has a bicameral legislative system, a separation of powers system, and judicial review. The constitution is based on a representative democracy, which requires the president to be elected as the head of state."
+ ENG_Chamberlain_Events.1.A: "Let's hope this brings stability."
 
  ENG_Chamberlain_Events.2.t: "Britannia at War"
- ENG_Chamberlain_Events.2.d: ""
- ENG_Chamberlain_Events.2.A: ""
+ ENG_Chamberlain_Events.2.d: "The Great War cost us the best of a generation, and our citizens hope that there will never be another war, allowing us to advance in peace and stability.\n\nHowever, the German declaration of war quickly dashed these hopes. Since Germany declared war on the European continent, our Prime Minister Chamberlain has advocated for an appeasement strategy. He even used the phrase "a generation of peace" to describe the shaky peace treaty he signed with Germany.\n\nIn retrospect, Chamberlain waving his paper and seeing the misery of our European brethren, which eventually resulted in the war that Germany began coming to our UK, appears farcical.\n\nNow that we are involved in another war, we must think carefully about the future of our country and nation, and we must not allow the proud empire on which the sun never sets to be dismembered by other countries."
+ ENG_Chamberlain_Events.2.A: "We shall never surrender!"
 
 ######################################################################
 #  British Focuses
@@ -1412,7 +1395,7 @@
  ENG_Backroom_Reconciliation_desc: ""
 
  ENG_Continue_Delegating_to_Baldwin: "Continue Delegating to Baldwin"
- ENG_Continue_Delegating_to_Baldwin_desc: "On the 12th of October 1933, Prime Minister Ramsay MacDonald will celebrate his 67th birthday. Unfortunately, his work continues to grow while his health declines in the opposite direction. The only idea we can submit to help MacDonald reduce his stress is to delegate some duties to other cabinet members. The Prime Minister has many duties, from nominating other ministers to assist in international conferences, to attending to the national politics of our nations. And even if some choices, like the nomination of ministers, can be refused or disputed by His Royal Majesty George V, most of the time he finds a way to get the job done.\n\nFollowing the idea of sharing his charges, the aging PM submitted the names of two ministers he trusts: the Lord President of the Council, Stanley Baldwin, and the Chancellor of the Exchequer, Neville Chamberlain."
+ ENG_Continue_Delegating_to_Baldwin_desc: "On the 12th of October 1933, Prime Minister Ramsay MacDonald will celebrate his 67th birthday. Unfortunately, his work continues to grow while his health declines in the opposite direction. The only idea we can submit to help MacDonald reduce his stress is to delegate some duties to other cabinet members. The Prime Minister has many duties, from nominating other ministers to assist in international conferences, to attending to the national politics of our nations. And even if some choices, like the nomination of ministers, can be refused or disputed by [ENG.address_leader_two] [ENG.leader_name_two], most of the time he finds a way to get the job done.\n\nFollowing the idea of sharing his charges, the aging PM submitted the names of two ministers he trusts: the Lord President of the Council, Stanley Baldwin, and the Chancellor of the Exchequer, Neville Chamberlain."
 
  ENG_Monitor_Mosley: "Monitor Mosley"
  ENG_Monitor_Mosley_desc: "Mr. Oswald Mosley: The man that continues to be a thorn in our side with his fascist ideals and his ever-growing "British Union of Fascists." While it would be nice to ignore such a man, it's clear we can't push him to the side like normal. His fringe fascist party is growing larger, his marches are becoming more violent, and his speeches are increasingly bold. We could outright arrest him, but such a drastic measure too early could be problematic. Instead, MI5 has informed us that they could monitor Mosely closely through listening devices and spies in the BUF, making sure he isn't plotting anything dangerous against the government or the country. Doing this will keep him in check, and provide evidence if we are pushed to make a conviction. In other words, let him dig his own grave."
@@ -1451,7 +1434,7 @@
  ENG_Foster_the_Electrical_Industry_desc: "As a result of the housing boom in London, a new resource is in high demand: electricity. As housing and factories continue to be built, the need for electricity grows. Not only do they have the potential to make a profit off the new buildings, but also electronics, with mass production methods allowing the electrical industry to start producing household electronics, such as radios and cooking appliances, at a fair price. If we are to truly take the electronic industry to the national stage, we need to foster it until it can stand on its own"
 
  ENG_British_Shipbuilding_Loans: "British Shipbuilding Loans"
- ENG_British_Shipbuilding_Loans_desc: "Britannia rules the waves… but without ships being built, the phrase is more of an empty promise. Shipbuilding across the North of England has slowed dramatically due to lower demands from the Great Depression, and as the ship-building sector falters, so do the coal and steel sectors. Without ships being built, there's no need for coal to run them, and there's no need for steel to build them, creating a chain reaction that's plummeting both industries into the ground. To fix this, we need to stimulate the ports once more through loans. This way, ships are being built, demand for coal and steel goes up, and people get their jobs back."
+ ENG_British_Shipbuilding_Loans_desc: "Britannia rules the waves... but without ships being built, the phrase is more of an empty promise. Shipbuilding across the North of England has slowed dramatically due to lower demands from the Great Depression, and as the ship-building sector falters, so do the coal and steel sectors. Without ships being built, there's no need for coal to run them, and there's no need for steel to build them, creating a chain reaction that's plummeting both industries into the ground. To fix this, we need to stimulate the ports once more through loans. This way, ships are being built, demand for coal and steel goes up, and people get their jobs back."
 
  ENG_Bring_Up_Indian_Autonomy: "Bring Up Indian Autonomy"
  ENG_Bring_Up_Indian_Autonomy_desc: "The Indians have increasingly been demanding a larger say in the British Raj. Since the Great War, in which the Indian people participated vigorously in, the Indians believe that they have sacrificed much of their blood for the Commonwealth, and rightfully deserve to have more autonomy. Now is the time to bring up the issue of Indian Autonomy to Parliament by drafting a white paper on how an autonomous India might look like. While we don’t expect it to go anywhere pass a draft, we can at least address the issue, and remember what the Indian people have sacrificed for us."
@@ -1664,7 +1647,7 @@
 
  # Air Branch
 
- ENG_Royal_Airforce: "The Royal Air Force"
+ ENG_Royal_Airforce: "§SThe Royal Air Force§!"
  ENG_Royal_Airforce_desc: "The recent rise in our rival's air forces has started to put our military commanders into a bit of a scare. Many have considered that we divert some research and industry to ensure the victory of the Royal Air Force. Though Britain easily has one of the strongest fleets in the world, our ships cannot defend the streets of London from bombs. We must revitalize the Royal Air Force and make sure that we are not bested by our rivals."
 
  ENG_Reorganize_Air_Defences: "Reorganize the Air Defences"
@@ -1726,8 +1709,8 @@
 
  # Navy Branch
 
- ENG_Royal_Navy: "The Royal Navy"
- ENG_Royal_Navy_desc: "As per the decree of the royal navy, more dockyards are to be constructed for higher production on ships for the war effort, as well as dedicated research to naval strategies. If Britain is to war with any major powers, her strength will be that of ruling the seas, and the people recognize this."
+ ENG_Royal_Navy: "§3The Royal Navy§!"
+ ENG_Royal_Navy_desc: "As per the decree of the Royal Navy, more dockyards are to be constructed for higher production on ships for the war effort, as well as dedicated research to naval strategies. If Britain is to war with any major powers, her strength will be that of ruling the seas, and the people recognize this."
 
  ENG_Fleet_Air_Arm: "The Fleet Air Arm"
  ENG_Fleet_Air_Arm_desc: ""
@@ -1740,6 +1723,7 @@
 
  ENG_The_Royal_Marines: "Royal Marines"
  ENG_The_Royal_Marines_desc: ""
+ ENG_The_Royal_Marines_tt: "§5Unlocks the Royal Marine Division template§!"
 
  ENG_Coastal_Command: "Form Coastal Command"
  ENG_Coastal_Command_desc: "To assure our people that no hostile nation will ever successfully invade the British Isles, we will have to fortify our beaches and our coastal cities. Men will be trained to defend their homes, fighters and naval bombers will be brought on nearby airfields and our citizens will know what to do, if the enemy come near us. Nothing can defeat us. Their pilots, their navy and their soldiers shall be nothing when compared to the will and determination of the British people."
@@ -1792,7 +1776,7 @@
  ENG_Prepare_Bletchley_Park: "Prepare Bletchley Park"
  ENG_Prepare_Bletchley_Park_desc: ""
 
- ENG_British_Army: "The British Army"
+ ENG_British_Army: "§aThe British Army§!"
  ENG_British_Army_desc: ""
 
  ENG_Continue_Conservative_Casualty_Avoidance: "Continue Conservative Casualty Avoidance"
@@ -2183,7 +2167,7 @@
  decision_cost_CP_75_tooltip: "It costs £command_power  §Y75§! to take the decision"
 
  ENG_African_Sun_Category: "The African Sun"
- ENG_African_Sun_Category_desc: "\n\n\n£decision_header_ENG_The_African_Sun£\n\n\n\n"
+ ENG_African_Sun_Category_desc: "\n\n\n£decision_header_ENG_The_African_Sun£\n\n\n\nWhile the African lands hold plenty of riches and natural wonders, its infrastructure level is catastrophic. We need to invest in the local infrastructures to ease the situation before their total disintegration. To carry out this project, we will entirely restructure the old roads and rails of colonial Africa, allowing for further economic growth, and, in the long term, a better exploitation of our territories in the dark continent."
  ENG_Entice_Protectorate_Leaders: "Entice Protectorate Leaders"
  ENG_Clear_Usable_Land: "Clear Usable Land"
  ENG_Build_Heavy_Industry_Centres: "Build Heavy Industry Centres"
@@ -2207,13 +2191,13 @@
  decision_cost_pp_50_money_250_blocked: "£pol_power  §R50§!  §R[?amount_of_money_to_check|0]§! £money_icon£"
 
  ENG_British_Indian_Army_Category: "The British Indian Army"
- ENG_British_Indian_Army_Category_desc: "\n\n\n£decision_header_ENG_The_British_Indian_Army£\n\n\n\n"
+ ENG_British_Indian_Army_Category_desc: "\n\n\n£decision_header_ENG_The_British_Indian_Army£\n\n\n\nFor years now, the British army in India has been made up of a mix of British and Indian officers, all trained at the Royal Military College. But now, as war is looming on the horizon, the minister of war and the governor of India have both suggested that we exploit the gigantic manpower of the Raj into the army for the greater good. We should build it from the ground up, and start to expand the new Indian Military Academy."
  ENG_Introduce_Armour_to_the_Indian_Army: "Introduce Armour to the Indian Army"
  ENG_Send_Auchinleck_to_India: "Send Auchinleck to India"
  ENG_Aid_the_Indian_Modernisation_Programmes: "Aid the Indian Modernisation Programmes"
 
  ENG_Imperial_Defence_Shakeup_Category: "Imperial Defence Shakeup"
- ENG_Imperial_Defence_Shakeup_Category_desc: "\n\n\n£decision_header_ENG_Imperial_Defence_Shakeup£\n\n\n\n"
+ ENG_Imperial_Defence_Shakeup_Category_desc: "\n\n\n£decision_header_ENG_Imperial_Defence_Shakeup£\n\n\n\nThe Empire is vast, and its defences are at adequate at best. We need to develop the defences of various regions, such as Malta, the undefended African territories, Gibraltar, and everywhere we can afford to. We should invest in anti-aircraft defences, coastal forts, and even, if we have the funds, land forts. Every piece of land should be protected from any foreign threats."
  ENG_Establish_Maltese_Defences: "Establish Maltese Defences"
  ENG_Established_Maltese_Defences: "§YHas established Maltese defences§!"
  ENG_An_Unsinkable_Aircraft_Carrier: "An Unsinkable Aircraft Carrier"
@@ -2346,7 +2330,6 @@
  ENG_Rearmament_of_the_Nation: "Re-Armament of the Nation"
  ENG_Preperation_for_the_Inevitable: "Preparations for the Inevitable"
  ENG_War_to_End_All_Wars: "War to End All Wars"
- ENG_War_to_End_All_Wars_2: "War to End All Wars"
  ENG_A_New_Wave_of_Conservatism: "A New Wave of Conservatism"
  ENG_Reduced_Indian_Autonomy: "Reduced Indian Autonomy"
  ENG_Imperial_Pride: "Imperial Pride"
@@ -2381,6 +2364,7 @@
  ENG_Continued_British_Exploitation: "Continued British Exploitation"
  ENG_Indian_Gold_Imports: "Indian Gold Imports"
  ENG_Colonial_Resource_Commissions: "Colonial Resource Commissions"
+ ENG_Britannia_Disarmed: "Britannia Disarmed"
 
 ##############################################
 ## British Opinion

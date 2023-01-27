@@ -12,7 +12,7 @@ ideas = {
 			}
 			modifier = {
 				surrender_limit = 0.25
-				army_core_defence_factor = 0.08
+				army_core_defence_factor = 0.05
 				army_core_attack_factor = 0.03
 				training_time_army_factor = -0.05
 			}
@@ -24,11 +24,13 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				political_power_gain = -0.2
+				political_power_gain = -0.1
 				command_power_gain_mult = -0.20
-				conscription_factor =  -0.10
+				conscription_factor =  -0.35
 				training_time_army_factor = 0.15
-				army_org_factor = -0.15
+				army_org_factor = -0.2
+				army_core_attack_factor = -0.3
+				army_defence_factor = -0.3
 			}
 		}
 
@@ -38,11 +40,60 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				political_power_gain = -0.15
+				political_power_gain = -0.1
 				command_power_gain_mult = -0.15
-				conscription_factor =  -0.05
-				training_time_army_factor = 0.10
-				army_org_factor = -0.10
+				conscription_factor =  -0.25
+				training_time_army_factor = 0.1
+				army_org_factor = -0.1
+				army_core_attack_factor = -0.25
+			}
+		}
+		
+		CHI_Incompetent_NRA_3 = {
+			picture = chi_incompetent_officers
+			available = {
+				always = yes
+			}
+			modifier = {
+				political_power_gain = -0.1
+				command_power_gain_mult = -0.1
+				conscription_factor =  -0.2
+				training_time_army_factor = 0.1
+				army_core_attack_factor = -0.25
+				army_defence_factor = 0.3
+				army_morale_factor = 0.1
+				army_org_factor = 0.1
+			}
+		}
+		
+		CHI_Incompetent_NRA_4 = {
+			picture = chi_incompetent_officers
+			available = {
+				always = yes
+			}
+			modifier = {
+				political_power_gain = -0.1
+				command_power_gain_mult = -0.1
+				conscription_factor =  -0.2
+				training_time_army_factor = 0.1
+				army_core_attack_factor = -0.2
+				army_defence_factor = 0.5
+				army_morale_factor = 0.2
+				army_org_factor = 0.2
+			}
+		}
+		
+		CHI_Incompetent_NRA_5 = {
+			picture = chi_incompetent_officers
+			available = {
+				always = yes
+			}
+			modifier = {
+				command_power_gain_mult = -0.1
+				army_core_attack_factor = -0.1
+				army_defence_factor = 0.6
+				army_morale_factor = 0.35
+				army_org_factor = 0.25
 			}
 		}
 
@@ -305,6 +356,7 @@ ideas = {
 			}
 		}
 		CHI_Overseas_Chinese_Drivers_and_Mechanics = {
+			picture = FRA_motorized_focus
 			available = {
 				always = yes
 			}

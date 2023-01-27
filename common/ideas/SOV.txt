@@ -68,7 +68,7 @@ ideas = {
 
 			modifier = {
 				stability_factor = -0.075
-				political_power_gain = -0.15
+				political_power_factor = -0.25
 			}
 		}
 		#### The Great Soviet Famine
@@ -105,11 +105,13 @@ ideas = {
 			picture = chi_hyper_inflation
 
 			modifier = {
-				stability_factor = -0.05
-				consumer_goods_factor = -0.05
+				political_power_factor = -0.05
+				consumer_goods_factor = 0.1
 				research_speed_factor = -0.05
 				production_speed_industrial_complex_factor = -0.10
-				production_speed_arms_factory_factor = 0.10
+				production_speed_arms_factory_factor = -0.10
+				production_factory_max_efficiency_factor = -0.2
+				production_factory_efficiency_gain_factor = -0.2
 				trade_opinion_factor = -0.25
 			}
 		}
@@ -128,11 +130,13 @@ ideas = {
 			picture = chi_hyper_inflation
 
 			modifier = {
-				stability_factor = -0.05
-				consumer_goods_factor = -0.06
+				political_power_factor = -0.05
+				consumer_goods_factor = 0.05
 				research_speed_factor = -0.05
-				production_speed_industrial_complex_factor = -0.10
-				production_speed_arms_factory_factor = 0.10
+				production_speed_industrial_complex_factor = -0.05
+				production_speed_arms_factory_factor = -0.05
+				production_factory_max_efficiency_factor = -0.2
+				production_factory_efficiency_gain_factor = -0.15
 				trade_opinion_factor = -0.25
 			}
 		}
@@ -151,15 +155,13 @@ ideas = {
 			picture = chi_hyper_inflation
 
 			modifier = {
-				stability_factor = -0.05
-				consumer_goods_factor = -0.06
-				research_speed_factor = -0.05
-				production_speed_industrial_complex_factor = -0.10
-				production_speed_arms_factory_factor = 0.10
-				trade_opinion_factor = -0.25
-				industrial_capacity_factory = 0.01
-				industrial_capacity_dockyard = 0.01
 				political_power_factor = -0.05
+				research_speed_factor = -0.05
+				production_speed_industrial_complex_factor = -0.05
+				production_speed_arms_factory_factor = -0.05
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.1
+				trade_opinion_factor = -0.25
 			}
 		}
 		#### Deficient Economy.
@@ -177,15 +179,11 @@ ideas = {
 			picture = chi_hyper_inflation
 
 			modifier = {
-				stability_factor = -0.05
-				consumer_goods_factor = -0.07
-				research_speed_factor = -0.05
-				production_speed_industrial_complex_factor = -0.10
-				production_speed_arms_factory_factor = 0.10
-				trade_opinion_factor = -0.25
-				industrial_capacity_factory = 0.01
-				industrial_capacity_dockyard = 0.01
 				political_power_factor = -0.05
+				production_speed_arms_factory_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+				trade_opinion_factor = -0.25
 			}
 		}
 		#### Final Phase of the Decossackization
@@ -204,7 +202,6 @@ ideas = {
 
 			modifier = {
 				conscription_factor = -0.05
-				political_power_gain = 0.25
 				war_support_factor = -0.05
 			}
 		}
@@ -281,7 +278,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_opiate_of_the_masses
+			picture = SOV_opiate_of_the_masses
 
 			modifier = {
 				stability_factor = -0.05
@@ -438,7 +435,7 @@ ideas = {
 			modifier = {
 				industrial_capacity_factory = 0.05
 				industrial_capacity_dockyard = 0.05
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.03
 				conscription_factor = 0.05
 			}
 		}
@@ -459,7 +456,7 @@ ideas = {
 			modifier = {
 				industrial_capacity_factory = 0.05
 				industrial_capacity_dockyard = 0.05
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.03
 				conscription_factor = 0.15
 			}
 		}
@@ -543,63 +540,6 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.05
 			}
 		}
-		SOV_Soviet_Famine_idea = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = SOV_Soviet_Famine
-
-			modifier = {
-				stability_factor = -0.2
-				MONTHLY_POPULATION = -0.2
-				communist_drift = -0.05
-			}
-		}
-		SOV_Soviet_Big_Famine_idea = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = SOV_Soviet_Famine
-
-			modifier = {
-				stability_factor = -0.2
-				MONTHLY_POPULATION = -0.2
-				communist_drift = -0.05
-			}
-		}
-		SOV_Soviet_Small_Famine_idea = {
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = SOV_Soviet_Famine
-
-			modifier = {
-				stability_factor = -0.1
-				MONTHLY_POPULATION = -0.1
-				communist_drift = -0.03
-			}
-		}
 		SOV_Transformation_of_Nature_idea = {
 			allowed = {
 				always = no
@@ -611,10 +551,10 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_transformation_of_nature
+			picture = SOV_transformation_of_nature
 
 			modifier = {
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = -0.05
 				communist_drift = 0.02
 				MONTHLY_POPULATION = 0.05
 			}
@@ -841,32 +781,10 @@ ideas = {
 				skill_bonus_factor = 0.2
 			}
 		}
-		#### The Great Patriotic War
-		SOV_The_German_Betrayal_2 = {
-			picture = home_of_revolution
-			allowed = {
-				original_tag = SOV
-			}
-
-			allowed_civil_war = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				offence = -0.2
-				defence = -0.2
-				army_org_factor = -0.2
-				army_speed_factor = -0.1
-				experience_gain_army_unit_factor = 0.3
-				skill_bonus_factor = 0.2
-			}
-		}
-
+		
 		#### The Great Patriotic War
 		SOV_Mobilization_of_the_Soviet_Industry_1 = {
-			picture = GFX_idea_SOV_third_five_year_plan_military
+			picture = SOV_third_five_year_plan_military
 			allowed = {
 				original_tag = SOV
 			}
@@ -893,7 +811,7 @@ ideas = {
 
 		#### The Great Patriotic War
 		SOV_Mobilization_of_the_Soviet_Industry_2 = {
-			picture = GFX_idea_SOV_third_five_year_plan_military
+			picture = SOV_third_five_year_plan_military
 			allowed = {
 				original_tag = SOV
 			}
@@ -923,7 +841,7 @@ ideas = {
 		}
 		#### The Great Patriotic War
 		SOV_Mobilization_of_the_Soviet_Industry_3 = {
-			picture = GFX_idea_SOV_third_five_year_plan_military
+			picture = SOV_third_five_year_plan_military
 			allowed = {
 				original_tag = SOV
 			}
@@ -954,7 +872,7 @@ ideas = {
 
 		#### The Great Patriotic War
 		SOV_Mobilization_of_the_Soviet_Industry_4 = {
-			picture = GFX_idea_SOV_third_five_year_plan_military
+			picture = SOV_third_five_year_plan_military
 			allowed = {
 				original_tag = SOV
 			}
@@ -990,7 +908,7 @@ ideas = {
 
 		#### The Great Patriotic War
 		SOV_Mobilization_of_the_Soviet_Industry_5 = {
-			picture = GFX_idea_SOV_third_five_year_plan_military
+			picture = SOV_third_five_year_plan_military
 			allowed = {
 				original_tag = SOV
 			}
@@ -1020,7 +938,7 @@ ideas = {
 		}
 
 		SOV_Five_Year_Plan_Fulfilled = {
-			picture = GFX_idea_SOV_third_five_year_plan
+			picture = SOV_third_five_year_plan
 			allowed = {
 				always = no
 			}
@@ -1131,7 +1049,7 @@ ideas = {
 				stability_factor = -0.10
 			}
 		}
-	#### Production Quotas
+		#### Production Quotas
 		SOV_Production_Quotas = {
 			allowed = {
 				always = no
@@ -1213,7 +1131,7 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
-	#### Repurposed Guns
+		#### Repurposed Guns
 		SOV_repurpose_guns = {
 			allowed = {
 				always = no
@@ -1233,7 +1151,7 @@ ideas = {
 				}
 			}
 		}
-	#### Repurposed Hulls
+		#### Repurposed Hulls
 		SOV_repurpose_hulls = {
 			allowed = {
 				always = no
@@ -1259,7 +1177,7 @@ ideas = {
 				}
 			}
 		}
-	#### Unstable Democracy
+		#### Unstable Democracy
 		SOV_Unstable_Democracy = {
 			allowed = {
 				always = no
@@ -1277,7 +1195,7 @@ ideas = {
 				political_power_gain = -0.2
 			}
 		}
-	#### Soviet Democracy
+		#### Soviet Democracy
 		SOV_Soviet_Democracy = {
 			allowed = {
 				always = no
@@ -1295,7 +1213,7 @@ ideas = {
 				political_power_gain = -0.1
 			}
 		}
-	#### New Economic Policy
+		#### New Economic Policy
 		SOV_New_Economic_Policy = {
 			picture = SOV_NEP
 			allowed = {
@@ -1315,7 +1233,7 @@ ideas = {
 				research_speed_factor = -0.05
 			}
 		}
-	#### The Deal
+		#### The Deal
 		SOV_The_Deal_idea = {
 			picture = SOV_The_Deal_idea
 			allowed = {
@@ -1933,7 +1851,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture =
+			picture = SOV_Voroshilovtchina
 
 			modifier = {
 				political_power_factor = 0.15
@@ -1955,7 +1873,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture =
+			picture = SOV_Voroshilovtchina
 
 			modifier = {
 				political_power_factor = 0.15
@@ -1964,6 +1882,51 @@ ideas = {
 				max_dig_in = 10
 				experience_gain_army_factor = -0.25
 				command_power_gain_mult = -0.25
+			}
+		}
+
+		SOV_Tukhachevsky_Reforms = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_Tukhachevsky_Reforms
+
+			modifier = {
+				political_power_gain = -0.1
+				training_time_army_factor = 0.1
+				army_org_factor = 0.1
+				experience_gain_army_factor = 0.25
+				command_power_gain_mult = 0.25
+			}
+		}
+
+		SOV_Tukhachevsky_Reforms_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_Tukhachevsky_Reforms
+
+			modifier = {
+				political_power_gain = -0.1
+				training_time_army_factor = 0.1
+				army_org_factor = 0.1
+				experience_gain_army_factor = 0.25
+				command_power_gain_mult = 0.25
+				army_attack_factor = 0.1
 			}
 		}
 
@@ -1978,13 +1941,94 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture =
+			picture = saf_soviet_advisers
 
 			modifier = {
 				max_command_power = 50
 				experience_gain_army = 0.1
 				promote_cost_factor = -0.25
 				army_advisor_cost_factor = -0.5
+			}
+		}
+
+		SOV_Deep_Battle = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_acquire_tanks
+
+			modifier = {
+				army_armor_attack_factor = 0.15
+				army_defence_factor = -0.05
+				army_org_factor = 0.1
+			}
+		}
+
+		SOV_Human_Wave = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_Human_Wave
+
+			modifier = {
+				army_infantry_attack_factor = 0.15
+				army_infantry_defence_factor = -0.05
+				army_org_factor = -0.1
+				army_morale_factor = 0.05
+			}
+		}
+
+		SOV_TANKOGRAD = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = man_five_year_plan_tank
+
+			equipment_bonus = {
+				armor_equipment = {
+					build_cost_ic = -0.1
+					reliability = -0.05
+				}
+			}
+		}
+
+		SOV_Krasnaya_Armiya_Vorzrozhdayetsya = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = SOV_war_heroes
+
+			modifier = {
+				army_org_factor = 0.05
+				dig_in_speed_factor = 0.05
 			}
 		}
 
@@ -1999,7 +2043,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_war_heroes
+			picture = SOV_war_heroes
 
 			modifier = {
 				army_infantry_attack_factor = 0.1
@@ -2075,7 +2119,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_war_heroes
+			picture = SOV_war_heroes
 
 			modifier = {
 				weekly_manpower = 10000
@@ -2092,7 +2136,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_The_Great_Patriotic_War_Neutral
+			picture = SOV_The_Great_Patriotic_War_Neutral
 
 			modifier = {
 				army_core_defence_factor = 0.1
@@ -2109,7 +2153,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_The_Great_Patriotic_War_Defence_1
+			picture = SOV_The_Great_Patriotic_War_Defence_1
 
 			modifier = {
 				army_core_defence_factor = 0.05
@@ -2133,7 +2177,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_The_Great_Patriotic_War_Defence_2
+			picture = SOV_The_Great_Patriotic_War_Defence_2
 
 			modifier = {
 				army_core_defence_factor = 0.1
@@ -2156,7 +2200,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_The_Great_Patriotic_War_Offence_1
+			picture = SOV_The_Great_Patriotic_War_Offence_1
 
 			modifier = {
 				army_attack_factor = 0.05
@@ -2178,7 +2222,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_The_Great_Patriotic_War_Offence_2
+			picture = SOV_The_Great_Patriotic_War_Offence_2
 
 			modifier = {
 				army_attack_factor = 0.1
@@ -2200,7 +2244,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_Fighting_on_Their_Ground
+			picture = SOV_Fighting_on_Their_Ground
 
 			modifier = {
 				army_attack_factor = 0.15
@@ -2216,7 +2260,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_From_Forts_to_Tombs
+			picture = SOV_From_Forts_to_Tombs
 
 			modifier = {
 				breakthrough_factor = 0.1
@@ -2249,7 +2293,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_Fighting_on_Familiar_Ground
+			picture = SOV_Fighting_on_Familiar_Ground
 
 			modifier = {
 				army_defence_factor = 0.15
@@ -2281,7 +2325,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_
+			picture = SOV_Operation_Groza_Level_1
 
 			modifier = {
 				army_attack_factor = 0.05
@@ -2301,7 +2345,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_
+			picture = SOV_Operation_Groza_Level_2
 
 			modifier = {
 				army_attack_factor = 0.075
@@ -2322,10 +2366,10 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_
+			picture = SOV_Operation_Groza_Level_3
 
 			modifier = {
-				army_attack_factor = 0.01
+				army_attack_factor = 0.1
 				army_defence_factor = 0.1
 				breakthrough_factor = 0.1
 				supply_consumption_factor = -0.1
@@ -2439,15 +2483,20 @@ ideas = {
 			allowed_civil_war = {
 				always = no
 			}
+			cancel = {
+				NOT = {
+					check_variable = { var = SOV_Stalin_Paranoia value = 0 compare = greater_than }
+				}
+			}
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_The_Great_Terror_Phase_1
+			picture = SOV_The_Great_Terror_Phase_1
 
 			modifier = {
 				stability_factor = -0.3
 				war_support_factor = -0.3
-				political_power_gain = -0.5
+				political_power_factor = -0.5
 				army_attack_factor = -0.05
 				army_defence_factor = -0.05
 				army_org_factor = -0.1
@@ -2460,15 +2509,20 @@ ideas = {
 			allowed_civil_war = {
 				always = no
 			}
+			cancel = {
+				NOT = {
+					check_variable = { var = SOV_Stalin_Paranoia value = 0 compare = greater_than }
+				}
+			}
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_The_Great_Terror_Phase_2
+			picture = SOV_The_Great_Terror_Phase_2
 
 			modifier = {
 				stability_factor = -0.2
 				war_support_factor = -0.2
-				political_power_gain = -0.3
+				political_power_factor = -0.3
 				army_org_factor = -0.05
 			}
 		}
@@ -2479,15 +2533,20 @@ ideas = {
 			allowed_civil_war = {
 				always = no
 			}
+			cancel = {
+				NOT = {
+					check_variable = { var = SOV_Stalin_Paranoia value = 0 compare = greater_than }
+				}
+			}
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_The_Great_Terror_Phase_3
+			picture = SOV_The_Great_Terror_Phase_3
 
 			modifier = {
 				stability_factor = -0.1
 				war_support_factor = -0.1
-				political_power_gain = -0.2
+				political_power_factor = -0.2
 			}
 		}
 		SOV_The_Great_Reorganisation = {
@@ -2500,7 +2559,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_The_Great_Reorganisation
+			picture = SOV_The_Great_Reorganisation
 
 			modifier = {
 				army_attack_factor = -0.05
@@ -2519,7 +2578,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = GFX_idea_SOV_The_Great_Disgrace
+			picture = SOV_The_Great_Disgrace
 
 			modifier = {
 				stability_factor = -0.1
@@ -2529,6 +2588,86 @@ ideas = {
 				army_defence_factor = -0.05
 				army_org_factor = -0.1
 				experience_gain_army = -0.03
+			}
+		}
+		SOV_Heroes_of_the_Air = {
+			picture = SOV_Heroes_of_the_Air
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				air_attack_factor = 0.1
+			}
+		}
+		SOV_Growing_Flight_Industry = {
+			picture = SOV_The_Great_Disgrace
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {		
+				production_speed_air_base_factor = 0.1
+				air_training_xp_gain_factor  = 0.05
+			}
+		}
+		SOV_Wings_of_the_Red_Army = {
+			picture = SOV_The_Wings_of_the_Red_Army
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {	
+				air_attack_factor = 0.1	
+				air_cas_efficiency  = 0.15
+			}
+		}
+		SOV_Wings_of_the_Red_Army_2 = {
+			picture = SOV_The_Wings_of_the_Red_Army
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {	
+				air_attack_factor = 0.1	
+				air_superiority_efficiency = 0.05	
+				air_cas_efficiency  = 0.15
+				air_strategic_bomber_bombing_factor = 0.1
+			}
+		}
+		SOV_Women_in_Aviation = {
+			picture = SOV_Women_in_Aviation
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {	
+				
 			}
 		}
 	}
@@ -2546,6 +2685,11 @@ ideas = {
 
 			modifier = {
 
+			}
+		}
+		SOV_Volunteer_Cap = {
+			modifier = {
+				send_volunteer_size = -3
 			}
 		}
 	}

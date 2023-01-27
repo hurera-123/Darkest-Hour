@@ -172,15 +172,15 @@ news_event = {
 	}
 }
 #########################################################################
-#  Arabian Conquest of Hodeida
+#  Hidden event that triggers SAU_YEM_War.7
 #########################################################################
-news_event = {
-	id = SAU_YEM_War.7
-	title = SAU_YEM_War.7.t
-	desc = SAU_YEM_War.7.d
-	picture = GFX_news_SAU_Saudi_Forces_alHudaida
-	fire_for_sender = yes
-	major = yes
+country_event = {
+	id = SAU_YEM_War.77
+	title = SAU_YEM_War.77.t
+	desc = SAU_YEM_War.77.d
+	picture = GFX_report_YEM_Yemeni_Forces_in_Sanaa
+	hidden = yes
+	fire_only_once = yes
 	trigger = {
 		original_tag = SAU
 		OR = {
@@ -188,11 +188,30 @@ news_event = {
 			YEM = {
 				surrender_progress > 0.3
 			}
-		}
-		NOT = {
-			has_country_flag = SAU_Victory_in_Yemen
+			has_country_flag = {
+				flag = SAU_Reclaim_the_Highlands_of_Tehama
+				days > 150
+			}
 		}
 	}
+	### 
+	option = {
+		name = SAU_YEM_War.77.A
+		SAU = {
+			news_event = { id = SAU_YEM_War.7 }
+		}
+	}
+}
+#########################################################################
+#  Arabian Conquest of Hodeida
+#########################################################################
+news_event = {
+	id = SAU_YEM_War.7
+	title = SAU_YEM_War.7.t
+	desc = SAU_YEM_War.7.d
+	picture = GFX_news_SAU_Saudi_Forces_alHudaida
+	is_triggered_only = yes
+	major = yes
 	### Worrisome
 	option = {
 		name = SAU_YEM_War.7.A

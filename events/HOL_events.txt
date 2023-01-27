@@ -19,7 +19,7 @@ country_event = {
 		date > 1933.1.1
 		date < 1934.1.1
 	}
-	# Hendricu Colijn - Roman Catholic State Party (Conservative)
+	# Hendrikus Colijn - Anti-Revolutionary Party (Conservative)
 	option = {
 		name = HOL_Election_1933.1.A
 		ai_chance = {
@@ -29,11 +29,11 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}
-		set_party_name = { ideology = democratic long_name = "Roman Catholic State Party" name = "RKST" }
+		set_party_name = { ideology = democratic long_name = "Anti-Revolutionaire Partij" name = "ARP" }
 		hidden_effect = {
 			retire_country_leader = yes
 			create_country_leader = {
-				name = "Hendricu Colijn"
+				name = "Hendrikus Colijn"
 				picture = GFX_P_D_Hendricu_Colijn
 				ideology = social_conservatism
 				traits = {
@@ -98,7 +98,7 @@ country_event = {
 		hidden_effect = {
 			retire_country_leader = yes
 			create_country_leader = {
-				name = "Hendricu Colijn"
+				name = "Hendrikus Colijn"
 				picture = GFX_P_D_Hendricu_Colijn
 				ideology = social_conservatism
 				traits = {

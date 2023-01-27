@@ -593,7 +593,7 @@
 ### Majors
  GER_Medium_Tank_equipment_1926: "Sturmpanzerwagen Oberschlesien"
  GER_Medium_Tank_equipment_1926_short: "Oberschlesien"
- GER_Medium_Tank_equipment_1936: "Großtractor"
+ GER_Medium_Tank_equipment_1936: "Großtraktor"
  GER_Medium_Tank_equipment_1936_short: "Großtraktor"
  GER_Medium_Tank_equipment_1939: "Panzerkampfwagen III"
  GER_Medium_Tank_equipment_1939_short: "PzKpfw. III"
@@ -1072,6 +1072,8 @@
 
  USA_Main_Battle_Tank_equipment_1952: "M47 Patton"
  USA_Main_Battle_Tank_equipment_1952_short: "M47"
+ USA_Main_Battle_Tank_equipment_1956: "M48 Patton"
+ USA_Main_Battle_Tank_equipment_1956_short: "M48"
  USA_Main_Battle_Tank_equipment_1962: "M60 Patton"
  USA_Main_Battle_Tank_equipment_1962_short: "M60"
  USA_Main_Battle_Tank_equipment_1976: "M60A3 Patton"
@@ -1331,8 +1333,8 @@
  SOV_Medium_TD_equipment_1943_short: "SU-85"
  SOV_Medium_TD_equipment_1945: "SU-100"
  SOV_Medium_TD_equipment_1945_short: "SU-100"
- SOV_Heavy_TD_equipment_1943: "SU-152"
- SOV_Heavy_TD_equipment_1943_short: "SU-152"
+ SOV_Heavy_TD_equipment_1943: "ISU-152 Zveroboy"
+ SOV_Heavy_TD_equipment_1943_short: "ISU-152"
  SOV_Heavy_TD_equipment_1944: "ISU-122"
  SOV_Heavy_TD_equipment_1944_short: "ISU-122"
 
@@ -1555,6 +1557,8 @@
  USA_Light_SPAA_equipment_1942_short: "M3 MGMC"
  USA_Light_SPAA_equipment_1944: "M19 Multiple Gun Motor Carriage"
  USA_Light_SPAA_equipment_1944_short: "M19 MGMC"
+ USA_Medium_SPAA_equipment_1941: "T52 Multiple Gun Motor Carriage"
+ USA_Medium_SPAA_equipment_1941_short: "T52 MGMC"
  USA_Medium_SPAA_equipment_1943: "M4 Multiple Gun Motor Carriage 'Skink'"
  USA_Medium_SPAA_equipment_1943_short: "M4 MGMC"
  USA_Medium_SPAA_equipment_1945: "M52 Multiple Gun Motor Carriage"

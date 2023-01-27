@@ -11,6 +11,7 @@ add_namespace = SOV_Leningrad_Circle
 add_namespace = SOV_Death_of_Stalin
 add_namespace = SOV_Stalin_Constitution
 add_namespace = SOV_Transpolar_Flight
+add_namespace = SOV_TAN_Integration
 add_namespace = SOV_COMECON
 add_namespace = SOV_Russification
 add_namespace = SOV_Introduce_Childcare
@@ -22,6 +23,9 @@ add_namespace = SOV_Invasion_of_Persia
 add_namespace = SOV_CHI_Intervention
 add_namespace = SOV_SPR_Intervention
 add_namespace = SOV_Liberation_of_Europe
+add_namespace = SOV_Red_Army
+add_namespace = SOV_Airforce
+add_namespace = SOV_Soften_Legislation
 #########################################################################
 # "Now We Know the End..." (Tukhachevsky)
 #########################################################################
@@ -98,7 +102,7 @@ country_event = {
 					L_Father_of_the_Red_Cavalry
 				}
 			}
-			set_country_flag = Mikhail_N_Tukhatchevskiy_unavailable
+			retire_character = SOV_Mikhail_N_Tukhatchevskiy
 			country_event = {
 				id = SOV_Great_Purge_Failure.3
 				days = 1
@@ -216,7 +220,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = SOV_Great_Purge_Failure_Second_Phase.1.A
-		set_country_flag = Kliment_Y_Voroshilov_unavailable
+		retire_character = SOV_Kliment_Y_Voroshilov
 		hidden_effect = {
 			country_event = { id = SOV_Great_Purge_Failure_Second_Phase.2 days = 2 }
 		}
@@ -266,7 +270,7 @@ news_event = {
 	id = SOV_Great_Purge_Failure_Second_Phase.4
 	title = SOV_Great_Purge_Failure_Second_Phase.4.t
 	desc = SOV_Great_Purge_Failure_Second_Phase.4.d
-	picture = GFX_report_SOV_March_on_the_Kremlin
+	picture = GFX_news_SOV_March_on_the_Kremlin
 	major = yes
 	is_triggered_only = yes
 	option = {
@@ -280,7 +284,7 @@ news_event = {
 	id = SOV_Great_Purge_Failure_Second_Phase.5
 	title = SOV_Great_Purge_Failure_Second_Phase.5.t
 	desc = SOV_Great_Purge_Failure_Second_Phase.5.d
-	picture = GFX_report_SOV_March_on_the_Kremlin
+	picture = GFX_news_SOV_Death_of_Stalin
 	is_triggered_only = yes
 	option = {
 		name = SOV_Great_Purge_Failure_Second_Phase.5.A
@@ -309,6 +313,7 @@ country_event = {
 	# We must fend off all threats of the revolution!
 	option = {
 		name = SOV_Great_Purge.1.A
+		remove_ideas = SOV_Aftermath_of_the_Ryutin_Affair
 	}
 }
 
@@ -319,7 +324,7 @@ country_event = {
 	id = SOV_Great_Purge.5
 	title = SOV_Great_Purge.5.t
 	desc = SOV_Great_Purge.5.d
-	picture = GFX_report_SOV_teutonic_menace
+	picture = GFX_report_GER_1934_Hitler_with_Generals
 	is_triggered_only = yes
 	option = {
 		name = SOV_Great_Purge.5.A
@@ -332,7 +337,7 @@ country_event = {
 	id = SOV_Great_Purge.6
 	title = SOV_Great_Purge.6.t
 	desc = SOV_Great_Purge.6.d
-	picture = GFX_report_SOV_teutonic_menace
+	picture = GFX_report_GER_SS_VT
 	is_triggered_only = yes
 	option = {
 		name = SOV_Great_Purge.6.A
@@ -346,11 +351,25 @@ country_event = {
 	id = SOV_Great_Purge.7
 	title = SOV_Great_Purge.7.t
 	desc = SOV_Great_Purge.7.d
-	picture = GFX_report_SOV_teutonic_menace
+	picture = GFX_report_SOV_7th_World_Congress
 	is_triggered_only = yes
 	option = {
 		name = SOV_Great_Purge.7.A
 		add_ideas = interventionism
+	}
+}
+
+#########################################################################
+# Helmsman's Wrath
+#########################################################################
+country_event = {
+	id = SOV_Great_Purge.8
+	title = SOV_Great_Purge.8.t
+	desc = SOV_Great_Purge.8.d
+	picture = GFX_report_SOV_Stalin_Report
+	is_triggered_only = yes
+	option = {
+		name = SOV_Great_Purge.8.A
 	}
 }
 
@@ -361,7 +380,7 @@ country_event = {
 	id = SOV_Great_Purge.9
 	title = SOV_Great_Purge.9.t
 	desc = SOV_Great_Purge.9.d
-	picture = GFX_report_SOV_teutonic_menace
+	picture = GFX_report_SOV_Molotov
 	is_triggered_only = yes
 	option = {
 		name = SOV_Great_Purge.9.A
@@ -375,7 +394,7 @@ country_event = {
 	id = SOV_Great_Purge.12
 	title = SOV_Great_Purge.12.t
 	desc = SOV_Great_Purge.12.d
-	picture = GFX_report_SOV_teutonic_menace
+	picture = GFX_report_SOV_Kirov_Death
 	fire_only_once = yes
 	trigger = {
 		original_tag = SOV
@@ -385,22 +404,12 @@ country_event = {
 	option = {
 		name = SOV_Great_Purge.12.A
 		set_country_flag = SOV_Navigating_the_Storm_flag
+		hidden_effect = {
+			complete_national_focus = SOV_Navigating_the_Storm
+		}
 	}
 }
 
-#########################################################################
-# The trial of fourteen
-#########################################################################
-country_event = {
-	id = SOV_Great_Purge.13
-	title = SOV_Great_Purge.13.t
-	desc = SOV_Great_Purge.13.d
-	picture = GFX_report_SOV_teutonic_menace
-	is_triggered_only = yes
-	option = {
-		name = SOV_Great_Purge.13.A
-	}
-}
 #########################################################################
 # Resolution of Poliburo
 #########################################################################
@@ -408,7 +417,7 @@ country_event = {
 	id = SOV_Great_Purge.14
 	title = SOV_Great_Purge.14.t
 	desc = SOV_Great_Purge.14.d
-	picture = GFX_report_SOV_teutonic_menace
+	picture = GFX_report_SOV_Molotov
 	is_triggered_only = yes
 	option = {
 		name = SOV_Great_Purge.14.A
@@ -422,23 +431,10 @@ country_event = {
 	id = SOV_Great_Purge.15
 	title = SOV_Great_Purge.15.t
 	desc = SOV_Great_Purge.15.d
-	picture = GFX_report_SOV_teutonic_menace
+	picture = GFX_report_SOV_Yezhov_Death
 	is_triggered_only = yes
 	option = {
 		name = SOV_Great_Purge.15.A
-	}
-}
-#########################################################################
-# The Triumph of Yezhov
-#########################################################################
-country_event = {
-	id = SOV_Great_Purge.16
-	title = SOV_Great_Purge.16.t
-	desc = SOV_Great_Purge.16.d
-	picture = GFX_report_SOV_teutonic_menace
-	is_triggered_only = yes
-	option = {
-		name = SOV_Great_Purge.16.A
 	}
 }
 #########################################################################
@@ -448,7 +444,7 @@ country_event = {
 	id = SOV_Great_Purge.17
 	title = SOV_Great_Purge.17.t
 	desc = SOV_Great_Purge.17.d
-	picture = GFX_report_SOV_teutonic_menace
+	picture = GFX_report_SOV_Congress
 	fire_only_once = yes
 	trigger = {
 		original_tag = SOV
@@ -458,6 +454,9 @@ country_event = {
 	option = {
 		name = SOV_Great_Purge.17.A
 		set_country_flag = SOV_XVIII_Congress_done
+		hidden_effect = {
+			complete_national_focus = SOV_XVIII_Congress
+		}
 	}
 }
 
@@ -468,7 +467,7 @@ country_event = {
 	id = SOV_Great_Purge.18
 	title = SOV_Great_Purge.18.t
 	desc = SOV_Great_Purge.18.d
-	picture = GFX_report_SOV_teutonic_menace
+	picture = GFX_report_SOV_Cult_of_Stalin
 	is_triggered_only = yes
 	option = {
 		name = SOV_Great_Purge.18.A
@@ -483,7 +482,7 @@ country_event = {
 	id = SOV_Great_Purge.19
 	title = SOV_Great_Purge.19.t
 	desc = SOV_Great_Purge.19.d
-	picture = GFX_report_SOV_teutonic_menace
+	picture = GFX_report_SOV_Young_Pioneers
 	is_triggered_only = yes
 	option = {
 		name = SOV_Great_Purge.19.A
@@ -497,17 +496,17 @@ country_event = {
 	id = SOV_Great_Purge.20
 	title = SOV_Great_Purge.20.t
 	desc = SOV_Great_Purge.20.d
-	picture = GFX_report_SOV_teutonic_menace
+	picture = GFX_report_SOV_Lenin
 	is_triggered_only = yes
 	option = {
 		name = SOV_Great_Purge.20.A
 		add_war_support = 0.05
-		add_country_leader_trait = SOV_Inheritor_of_lenin
+		add_country_leader_trait = L_Inheritor_of_Lenin
 	}
 	option = {
 		name = SOV_Great_Purge.20.B
 		add_stability = 0.1
-		add_country_leader_trait = SOV_servant_of_lenin
+		add_country_leader_trait = L_Servant_of_Lenin
 	}
 }
 #########################################################################
@@ -517,7 +516,7 @@ country_event = {
 	id = SOV_Great_Purge.21
 	title = SOV_Great_Purge.21.t
 	desc = SOV_Great_Purge.21.d
-	picture = GFX_report_SOV_teutonic_menace
+	picture = GFX_report_SOV_Stalin_Writing
 	is_triggered_only = yes
 	option = {
 		name = SOV_Great_Purge.21.A
@@ -531,10 +530,101 @@ country_event = {
 	id = SOV_Great_Purge.22
 	title = SOV_Great_Purge.22.t
 	desc = SOV_Great_Purge.22.d
-	picture = GFX_report_SOV_teutonic_menace
+	picture = GFX_report_SOV_Order_00447
 	is_triggered_only = yes
 	option = {
 		name = SOV_Great_Purge.22.A
+	}
+}
+
+#########################################################################
+# A Scathing Report
+#########################################################################
+country_event = {
+	id = SOV_Great_Purge.23
+	title = SOV_Great_Purge.23.t
+	desc = SOV_Great_Purge.23.d
+	picture = GFX_report_SOV_Stalins_Retreat
+	is_triggered_only = yes
+	option = {
+		name = SOV_Great_Purge.23.A
+	}
+}
+
+#########################################################################
+# Icarus
+#########################################################################
+country_event = {
+	id = SOV_Great_Purge.24
+	title = SOV_Great_Purge.24.t
+	desc = SOV_Great_Purge.24.d
+	picture = GFX_report_SOV_Beria
+	is_triggered_only = yes
+	option = {
+		name = SOV_Great_Purge.24.A
+		custom_effect_tooltip = SOV_The_Vanishment_of_the_The_Vanishing_Commissar_tt
+		hidden_effect = {
+			retire_character = SOV_Nikolai_I_Yezhov
+			retire_character = SOV_Mikhail_Frinovsky
+		}
+		add_ideas = SOV_Lavrentiy_Beria_MoS
+		set_country_flag = Merkulov_deputy_of_NKVD
+	}
+}
+
+#########################################################################
+# A Secure Union
+#########################################################################
+country_event = {
+	id = SOV_Great_Purge.25
+	title = SOV_Great_Purge.25.t
+	desc = SOV_Great_Purge.25.d
+	picture = GFX_report_SOV_Secured_the_Union
+	is_triggered_only = yes
+	option = {
+		name = SOV_Great_Purge.25.A
+		if = {
+			limit = {
+				has_idea = SOV_Mass_Political_Repression
+			}
+			remove_ideas = SOV_Mass_Political_Repression
+		}
+		else_if = {
+			limit = {
+				has_idea = SOV_Mass_Political_Repression_2
+			}
+			remove_ideas = SOV_Mass_Political_Repression_2
+		}
+		else_if = {
+			limit = {
+				has_idea = SOV_Mass_Political_Repression_3
+			}
+			remove_ideas = SOV_Mass_Political_Repression_3
+		}
+		if = {
+			limit = {
+				has_idea = SOV_Purging_the_Army
+			}
+			remove_ideas = SOV_Purging_the_Army
+		}
+		else_if = {
+			limit = {
+				has_idea = SOV_Purging_the_Army_2
+			}
+			remove_ideas = SOV_Purging_the_Army_2
+		}
+		if = {
+			limit = {
+				has_idea = SOV_Repressed_Church
+			}
+			remove_ideas = SOV_Repressed_Church
+		}
+		remove_ideas = SOV_The_Great_Terror_3
+		add_timed_idea = {
+			idea = SOV_The_Great_Reorganisation
+			days = 420
+		}
+		clr_country_flag = SOV_Great_Purge_Phase_3
 	}
 }
 
@@ -557,7 +647,8 @@ news_event = {
 	option = {
 		name = SOV_Stalin_Constitution.1.A
 		add_stability = 0.05
-		add_political_power = 150
+		add_political_power = 100
+		set_cosmetic_tag = SOV_1936
 	}
 }
 #########################################################################
@@ -567,7 +658,7 @@ country_event = {
 	id = SOV_Stalin_Constitution.2
 	title = SOV_Stalin_Constitution.2.t
 	desc = SOV_Stalin_Constitution.2.d
-	picture = GFX_report_SOV_Stalin_Writing
+	picture = GFX_report_SOV_Elections
 	is_triggered_only = yes
 	option = {
 		name = SOV_Stalin_Constitution.2.A
@@ -581,7 +672,7 @@ country_event = {
 	id = SOV_Stalin_Constitution.3
 	title = SOV_Stalin_Constitution.3.t
 	desc = SOV_Stalin_Constitution.3.d
-	picture = GFX_report_SOV_Stalin_Writing
+	picture = GFX_report_SOV_Socialism_Achieved
 	is_triggered_only = yes
 	option = {
 		name = SOV_Stalin_Constitution.3.A
@@ -611,7 +702,7 @@ country_event = {
 	id = SOV_Great_Purge.3
 	title = SOV_Great_Purge.3.t
 	desc = SOV_Great_Purge.3.d
-	picture = GFX_report_SOV_17th_Congress_vote
+	picture = GFX_report_SOV_Moscow_Trials_2
 	is_triggered_only = yes
 	#
 	option = {
@@ -625,7 +716,7 @@ country_event = {
 	id = SOV_Great_Purge.4
 	title = SOV_Great_Purge.4.t
 	desc = SOV_Great_Purge.4.d
-	picture = GFX_report_SOV_17th_Congress_vote
+	picture = GFX_report_SOV_Tukhachevsky
 	is_triggered_only = yes
 	# Purge Tukhachevsky
 	option = {
@@ -637,8 +728,14 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}
-		set_country_flag = Mikhail_N_Tukhatchevskiy_unavailable
-		remove_unit_leader = 266003
+		retire_character = SOV_Yakov_I_Alksnis
+		retire_character = SOV_Mikhail_N_Tukhatchevskiy
+		retire_character = SOV_Roberts_Eidemanis
+		retire_character = SOV_Iona_Yakir
+		retire_character = SOV_Ieronim_Uborevich
+		retire_character = SOV_Yan_Gamarnik
+		retire_character = SOV_August_Kork
+		retire_character = SOV_Vitaly_Primakov
 		set_temp_variable = { SOV_Stalin_Paranoia_gain = -5 }
 		add_to_variable = { SOV_Stalin_Paranoia = SOV_Stalin_Paranoia_gain }
 		clamp_variable = {
@@ -651,12 +748,11 @@ country_event = {
 	# Purge Rokossovsky
 	option = {
 		name = SOV_Great_Purge.4.B
-		set_country_flag = Konstantin_Rokossovsky_unavailable
-		set_country_flag = Kliment_Y_Voroshilov_unavailable
-		set_country_flag = Semyon_Timoshenko_unavailable
+		retire_character = SOV_Semyon_Timoshenko
+		#retire_character = SOV_Kliment_Y_Voroshilov
+		retire_character = SOV_Ivan_Yumashev
+		retire_character = SOV_Konstantin_K_Rokossovsky
 		custom_effect_tooltip = SOV_Rokossovsky_Purge
-		remove_unit_leader = 266002
-		remove_unit_leader = 266001
 		set_temp_variable = { SOV_Stalin_Paranoia_gain = -10 }
 		add_to_variable = { SOV_Stalin_Paranoia = SOV_Stalin_Paranoia_gain }
 		clamp_variable = {
@@ -665,6 +761,7 @@ country_event = {
 			max = 100
 		}
 		custom_effect_tooltip = SOV_Stalin_Paranoia_Change_tt
+		set_country_flag = SOV_Rokossovsky_Purged
 	}
 }
 #########################################################################
@@ -681,11 +778,11 @@ country_event = {
 		name = SOV_Moscow_Trials.1.A
 		add_political_power = -50
 		add_stability = -0.05
-		set_country_flag = Grigory_Y_Zinoviev_unavailable
-		set_country_flag = Sergey_Kamenev_unavailable
-		country_event = { id = SOV_Moscow_Trials.2 days = 157 }
-		country_event = { id = SOV_Moscow_Trials.3 days = 295 }
-		country_event = { id = SOV_Moscow_Trials.4 days = 563 }
+		hidden_effect = {
+			#country_event = { id = SOV_Moscow_Trials.2 days = 157 }
+			#country_event = { id = SOV_Moscow_Trials.3 days = 295 }
+			#country_event = { id = SOV_Moscow_Trials.4 days = 563 }
+		}
 	}
 }
 #########################################################################
@@ -701,8 +798,6 @@ country_event = {
 	option = {
 		name = SOV_Moscow_Trials.2.A
 		add_political_power = -75
-		set_country_flag = Nikolai_Bukharin_unavailable
-		set_country_flag = Aleksey_Rykov_unavailable
 	}
 }
 #########################################################################
@@ -726,38 +821,29 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		# Remove Alksnis
-		set_country_flag = Yakov_I_Alksnis_unavailable
-		# Remove Tukhachevsky
-		remove_unit_leader = 266003
-		set_country_flag = Mikhail_N_Tukhatchevskiy_unavailable
+		retire_character = SOV_Yakov_I_Alksnis
+		retire_character = SOV_Mikhail_N_Tukhatchevskiy
+		retire_character = SOV_Roberts_Eidemanis
+		retire_character = SOV_Iona_Yakir
+		retire_character = SOV_Ieronim_Uborevich
+		retire_character = SOV_Yan_Gamarnik
+		retire_character = SOV_August_Kork
+		retire_character = SOV_Vitaly_Primakov
 	}
 	# Rokossovsky refuses to confess, but cannot be allowed to live.
 	option = {
 		ai_chance = {
 			factor = 10
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0
+			}
 		}
 		name = SOV_Moscow_Trials.3.B
-		# Remove Timoshenko
-		custom_effect_tooltip = remove_chief_of_army
-		show_ideas_tooltip = SOV_CoArmy_Semen_K_Timoshenko
-		set_country_flag = Semen_K_Timoshenko_unavailable
-		# Remove Kiliment Voroshilov
-		custom_effect_tooltip = remove_chief_of_army
-		show_ideas_tooltip = SOV_CoArmy_Kliment_Y_Voroshilov
-		set_country_flag = Kliment_Y_Voroshilov_unavailable
-		# Remove Yumashev
-		custom_effect_tooltip = remove_chief_of_navy
-		show_ideas_tooltip = SOV_CoNavy_Ivan_Yumashev
-		set_country_flag = Ivan_Yumashev_unavailable
-		# Remove Rokossovsky
-		custom_effect_tooltip = remove_military_high_command
-		show_ideas_tooltip = SOV_CoStaff_Konstantin_K_Rokossovsky
-		set_country_flag = Konstantin_K_Rokossovsky_unavailable
-		remove_unit_leader = 266002 #kliment_voroshilov, field marshal
-		# remove_unit_leader = 402 #konstantin_rokossovsky, general
-		remove_unit_leader = 266001 #semyon_timoshenko, general
-		# remove_unit_leader = 403 #vladimir_kasatonov, naval commander
+		retire_character = SOV_Semyon_Timoshenko
+		retire_character = SOV_Kliment_Y_Voroshilov
+		retire_character = SOV_Ivan_Yumashev
+		retire_character = SOV_Konstantin_K_Rokossovsky
 	}
 }
 #########################################################################
@@ -772,43 +858,10 @@ country_event = {
 	#The navy and air force have been getting off easy so far.
 	option = {
 		name = SOV_Moscow_Trials.4.A
-		ai_chance = {
-			factor = 50
-		}
-		custom_effect_tooltip = remove_political_advisor
-		show_ideas_tooltip = SOV_Nikolai_I_Yezhov
-		custom_effect_tooltip = remove_chief_of_airforce
-		show_ideas_tooltip = SOV_CoAir_Yakov_Smushkevich
-		show_ideas_tooltip = SOV_CoAir_Pavel_V_Rychagov
-		show_ideas_tooltip = SOV_CoAir_Alexander_A_Novikov
-		custom_effect_tooltip = remove_military_high_command
-		show_ideas_tooltip = SOV_HC_Gordey_Levchenko
-		# remove_unit_leader = 406 #gordey_levchenko, naval commander
-		custom_effect_tooltip = soviet.27_tt
-		hidden_effect = {
-			remove_ideas = SOV_Nikolai_I_Yezhov
-			remove_ideas = SOV_CoAir_Yakov_Smushkevich
-			remove_ideas = SOV_CoAir_Pavel_V_Rychagov
-			remove_ideas = SOV_CoAir_Alexander_A_Novikov
-			remove_ideas = SOV_HC_Gordey_Levchenko
-		}
-	}
-	# As we suspected, enemies are everywhere!
-	option = {
-		name = SOV_Moscow_Trials.4.B
-		ai_chance = {
-			factor = 45
-		}
-		custom_effect_tooltip = remove_chief_of_navy
-		show_ideas_tooltip = SOV_CoNavy_Nikolay_G_Kuznetsov
-		custom_effect_tooltip = remove_chief_of_airforce
-		custom_effect_tooltip = remove_military_high_command
-		show_ideas_tooltip = SOV_HC_Aleksandr_Vasilevsky
-		# remove_unit_leader = 407 #aleksandr_vasilevsky, general
-		custom_effect_tooltip = soviet.27_tt
-		hidden_effect = {
-			remove_ideas = SOV_HC_Aleksandr_Vasilevsky
-		}
+		retire_character = SOV_Nikolai_Bukharin
+		retire_character = SOV_Aleksey_Rykov
+		retire_character = SOV_Genrikh_G_Yagoda
+		retire_character = SOV_Hryhoriy_Hrynko
 	}
 }
 #########################################################################
@@ -1080,24 +1133,6 @@ country_event = {
 }
 
 #########################################################################
-# Repurpose Old Naval Guns
-#########################################################################
-country_event = {
-	id = SOV_Repurpose_Naval_Guns.1
-	title = SOV_Repurpose_Naval_Guns.1.t
-	desc = SOV_Repurpose_Naval_Guns.1.d
-	picture = GFX_report_SOV_Naval_Battery
-	is_triggered_only = yes
-	option = {
-		name = SOV_Repurpose_Naval_Guns.1.A
-		add_timed_idea = { idea = SOV_repurpose_guns days = 150 }
-	}
-	option = {
-		name = SOV_Repurpose_Naval_Guns.1.B
-		add_timed_idea = { idea = SOV_repurpose_hulls days = 150 }
-	}
-}
-#########################################################################
 # Transpolar Flight Success
 #########################################################################
 news_event = {
@@ -1106,35 +1141,16 @@ news_event = {
 	desc = SOV_Transpolar_Flight.1.d
 	picture = GFX_news_SOV_Transpolar_Flight
 	is_triggered_only = yes
-	trigger = {
-		OR = {
-			original_tag = SOV
-			is_puppet_of = SOV
-			is_in_faction_with = SOV
-		}
-	}
+	
 	option = { #Transpolar Success
 		name = SOV_Transpolar_Flight.1.A
 		trigger = {
 			original_tag = SOV
 		}
-		add_political_power = 50
+		air_experience = 50
 		USA = {
 			add_popularity = { ideology = communist popularity = 0.01 }
 		}
-	}
-	option = { #Transpolar Success
-		name = SOV_Transpolar_Flight.1.B
-		trigger = {
-			OR = {
-				is_puppet_of = SOV
-				is_in_faction_with = SOV
-			}
-			NOT = {
-				original_tag = SOV
-			}
-		}
-		add_political_power = 10
 	}
 }
 #########################################################################
@@ -1146,9 +1162,6 @@ country_event = {
 	desc = SOV_Transpolar_Flight.2.d
 	picture = GFX_report_SOV_Transpolar_Flight_Crash
 	is_triggered_only = yes
-	trigger = {
-		original_tag = SOV
-	}
 	option = {
 		name = SOV_Transpolar_Flight.2.A
 		add_political_power = -50
@@ -1227,7 +1240,7 @@ country_event = {
 	id = SOV_Generals_Promotions.1
 	title = SOV_Generals_Promotions.1.t
 	desc = SOV_Generals_Promotions.1.d
-	picture = GFX_
+	picture = GFX_report_SOV_Generals_Promotion
 	fire_only_once = yes
 	trigger = {
 		original_tag = SOV
@@ -1256,7 +1269,7 @@ country_event = {
 	id = SOV_Generals_Promotions.2
 	title = SOV_Generals_Promotions.1.t
 	desc = SOV_Generals_Promotions.1.d
-	picture = GFX_
+	picture = GFX_report_SOV_Generals_Promotion
 	fire_only_once = yes
 	trigger = {
 		original_tag = SOV
@@ -1282,7 +1295,7 @@ country_event = {
 	id = SOV_Generals_Promotions.3
 	title = SOV_Generals_Promotions.1.t
 	desc = SOV_Generals_Promotions.1.d
-	picture = GFX_
+	picture = GFX_report_SOV_Generals_Promotion
 	fire_only_once = yes
 	trigger = {
 		original_tag = SOV
@@ -1317,10 +1330,8 @@ country_event = {
 			planning_skill = 1
 			logistics_skill = 2
 		}
-		create_corps_commander = {
-			name = "Ivan Konev"
-			id = 408
-			GFX = GFX_M_Ivan_Konev
+		add_corps_commander_role = {
+			character = SOV_Ivan_Konev
 			traits = {
 				panzer_leader
 				harsh_leader
@@ -1334,7 +1345,7 @@ country_event = {
 			logistics_skill = 2
 		}
 		add_corps_commander_role = {
-			character = SOV_Kirill_A_Meretskov
+			character = SOV_Kirill_Meretskov
 			traits = {
 				organizer
 				winter_specialist
@@ -1351,7 +1362,7 @@ country_event = {
 	id = SOV_Generals_Promotions.4
 	title = SOV_Generals_Promotions.1.t
 	desc = SOV_Generals_Promotions.1.d
-	picture = GFX_
+	picture = GFX_report_SOV_Generals_Promotion
 	fire_only_once = yes
 	trigger = {
 		original_tag = SOV
@@ -1392,7 +1403,7 @@ country_event = {
 	id = SOV_Generals_Promotions.5
 	title = SOV_Generals_Promotions.1.t
 	desc = SOV_Generals_Promotions.1.d
-	picture = GFX_
+	picture = GFX_report_SOV_Generals_Promotion
 	fire_only_once = yes
 	trigger = {
 		original_tag = SOV
@@ -1401,9 +1412,8 @@ country_event = {
 	}
 	option = {
 		name = SOV_Generals_Promotions.1.A
-		create_corps_commander = {
-			name = "Georgy Zhukov"
-			GFX = GFX_M_Georgy_Zhukov
+		add_corps_commander_role = {
+			character = SOV_Georgy_Zhukov
 			traits = {
 				brilliant_strategist
 				panzer_leader
@@ -1456,11 +1466,8 @@ country_event = {
 			planning_skill = 3
 			logistics_skill = 1
 		}
-		create_corps_commander = {
-			name = "Vasily Sokolovsky"
-			GFX = GFX_M_Vasily_Sokolovsky
-			traits = {
-			}
+		add_corps_commander_role = {
+			character = SOV_Vasily_Sokolovsky
 			skill = 2
 			attack_skill = 1
 			defense_skill = 2
@@ -1473,7 +1480,7 @@ country_event = {
 	id = SOV_Generals_Promotions.6
 	title = SOV_Generals_Promotions.1.t
 	desc = SOV_Generals_Promotions.1.d
-	picture = GFX_
+	picture = GFX_report_SOV_Generals_Promotion
 	fire_only_once = yes
 	trigger = {
 		original_tag = SOV
@@ -1538,7 +1545,7 @@ country_event = {
 	id = SOV_Generals_Promotions.7
 	title = SOV_Generals_Promotions.1.t
 	desc = SOV_Generals_Promotions.1.d
-	picture = GFX_
+	picture = GFX_report_SOV_Generals_Promotion
 	fire_only_once = yes
 	trigger = {
 		original_tag = SOV
@@ -1551,10 +1558,8 @@ country_event = {
 			limit = {
 				NOT = { has_country_flag = Konstantin_Rokossovsky_unavailable }
 			}
-			create_corps_commander = {
-				name = "Konstantin Rokossovsky"
-				id = 402
-				GFX = GFX_M_Konstantin_Rokossovsky
+			add_corps_commander_role = {
+				character = SOV_Konstantin_K_Rokossovsky
 				traits = {
 					panzer_leader
 					organizer
@@ -1568,10 +1573,8 @@ country_event = {
 				logistics_skill = 2
 			}
 		}
-		create_corps_commander = {
-			name = "Aleksandr Vasilevsky"
-			id = 407
-			GFX = GFX_M_Aleksandr_Vasilevsky
+		add_corps_commander_role = {
+			character = SOV_Aleksandr_Vasilevsky
 			traits = {
 				armor_officer
 				trickster
@@ -1584,9 +1587,8 @@ country_event = {
 			planning_skill = 4
 			logistics_skill = 2
 		}
-		create_corps_commander = {
-			name = "Leonid Govorov"
-			GFX = GFX_M_Leonid_Govorov
+		add_corps_commander_role = {
+			character = SOV_Leonid_Govorov
 			traits = {
 				bearer_of_artillery
 				trait_engineer
@@ -1598,9 +1600,8 @@ country_event = {
 			planning_skill = 2
 			logistics_skill = 2
 		}
-		create_corps_commander = {
-			name = "Rodion Malinovsky"
-			GFX = GFX_M_Rodion_Malinovsky
+		add_corps_commander_role = {
+			character = SOV_Rodion_Y_Malinovsky
 			traits = {
 				career_officer
 			}
@@ -1630,7 +1631,7 @@ country_event = {
 	id = SOV_Generals_Promotions.8
 	title = SOV_Generals_Promotions.1.t
 	desc = SOV_Generals_Promotions.1.d
-	picture = GFX_
+	picture = GFX_report_SOV_Generals_Promotion
 	fire_only_once = yes
 	trigger = {
 		original_tag = SOV
@@ -1683,7 +1684,7 @@ country_event = {
 	id = SOV_Generals_Promotions.9
 	title = SOV_Generals_Promotions.1.t
 	desc = SOV_Generals_Promotions.1.d
-	picture = GFX_
+	picture = GFX_report_SOV_Generals_Promotion
 	fire_only_once = yes
 	trigger = {
 		original_tag = SOV
@@ -1709,7 +1710,7 @@ country_event = {
 	id = SOV_Generals_Promotions.10
 	title = SOV_Generals_Promotions.1.t
 	desc = SOV_Generals_Promotions.1.d
-	picture = GFX_
+	picture = GFX_report_SOV_Generals_Promotion
 	fire_only_once = yes
 	trigger = {
 		original_tag = SOV
@@ -1745,9 +1746,8 @@ country_event = {
 			planning_skill = 3
 			logistics_skill = 3
 		}
-		create_corps_commander = {
-			name = "Ivan Chernyakhovsky"
-			GFX = GFX_M_Ivan_Chernyakhovsky
+		add_corps_commander_role = {
+			character = SOV_Ivan_Chernyakhovsky
 			traits = {
 				armor_officer
 				brilliant_strategist
@@ -1802,7 +1802,7 @@ country_event = {
 	id = SOV_Generals_Promotions.11
 	title = SOV_Generals_Promotions.1.t
 	desc = SOV_Generals_Promotions.1.d
-	picture = GFX_
+	picture = GFX_report_SOV_Generals_Promotion
 	fire_only_once = yes
 	trigger = {
 		original_tag = SOV
@@ -1830,7 +1830,7 @@ country_event = {
 	id = SOV_Second_Year_Plan.1
 	title = SOV_Second_Year_Plan.1.t
 	desc = SOV_Second_Year_Plan.1.d
-	picture = GFX_
+	picture = GFX_report_SOV_Collectivisation
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -1843,7 +1843,7 @@ country_event = {
 	id = SOV_Second_Year_Plan.2
 	title = SOV_Second_Year_Plan.2.t
 	desc = SOV_Second_Year_Plan.2.d
-	picture = GFX_
+	picture = GFX_report_SOV_Collectivisation
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -1856,7 +1856,7 @@ country_event = {
 	id = SOV_Second_Year_Plan.3
 	title = SOV_Second_Year_Plan.3.t
 	desc = SOV_Second_Year_Plan.3.d
-	picture = GFX_
+	picture = GFX_report_SOV_Collectivisation
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -1872,14 +1872,14 @@ country_event = {
 	id = SOV_Second_Year_Plan.4
 	title = SOV_Second_Year_Plan.4.t
 	desc = SOV_Second_Year_Plan.4.d
-	picture = GFX_
+	picture = GFX_report_SOV_Childare
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
 		name = SOV_Second_Year_Plan.4.A
 		add_political_power = -100
 		add_ideas = SOV_Women_in_the_Workforce
-		country_event = { id = SOV_Second_Year_Plan.5 days = 15 }
+		#country_event = { id = SOV_Second_Year_Plan.5 days = 15 }
 	}
 }
 # Empowerment of Women in Soviet Union
@@ -1887,7 +1887,7 @@ country_event = {
 	id = SOV_Second_Year_Plan.5
 	title = SOV_Second_Year_Plan.5.t
 	desc = SOV_Second_Year_Plan.5.d
-	picture = GFX_
+	picture = GFX_report_SOV_Women_Empowerment
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -1899,14 +1899,25 @@ country_event = {
 	id = SOV_Second_Year_Plan.6
 	title = SOV_Second_Year_Plan.6.t
 	desc = SOV_Second_Year_Plan.6.d
-	picture = GFX_
+	picture = GFX_report_SOV_Famine
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
 		name = SOV_Second_Year_Plan.6.A
-		add_timed_idea = {
-			idea = SOV_Soviet_Famine_idea
-			days = 365
+		if = {
+			limit = {
+				has_idea = SOV_The_Great_Soviet_Famine
+			}
+			modify_timed_idea = {
+				idea = SOV_The_Great_Soviet_Famine
+				days = 120
+			}
+		}
+		else = {
+			add_timed_idea = {
+				idea = SOV_The_Great_Soviet_Famine
+				days = 120
+			}
 		}
 	}
 }
@@ -1915,7 +1926,7 @@ country_event = {
 	id = SOV_Second_Year_Plan.7
 	title = SOV_Second_Year_Plan.7.t
 	desc = SOV_Second_Year_Plan.7.d
-	picture = GFX_
+	picture = GFX_report_SOV_Famine
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -1924,18 +1935,40 @@ country_event = {
 			limit = {
 				has_country_flag = SOV_Mild_Export_of_Grain
 			}
-			add_timed_idea = {
-				idea = SOV_Soviet_Small_Famine_idea
-				days = 365
+			if = {
+				limit = {
+					has_idea = SOV_The_Great_Soviet_Famine
+				}
+				modify_timed_idea = {
+					idea = SOV_The_Great_Soviet_Famine
+					days = 60
+				}
+			}
+			else = {
+				add_timed_idea = {
+					idea = SOV_The_Great_Soviet_Famine
+					days = 60
+				}
 			}
 		}
 		else_if = {
 			limit = {
 				has_country_flag = SOV_Full_Export_of_Grain
 			}
-			add_timed_idea = {
-				idea = SOV_Soviet_Big_Famine_idea
-				days = 365
+			if = {
+				limit = {
+					has_idea = SOV_The_Great_Soviet_Famine
+				}
+				modify_timed_idea = {
+					idea = SOV_The_Great_Soviet_Famine
+					days = 120
+				}
+			}
+			else = {
+				add_timed_idea = {
+					idea = SOV_The_Great_Soviet_Famine
+					days = 120
+				}
 			}
 		}
 	}
@@ -1945,7 +1978,7 @@ news_event = {
 	id = SOV_Second_Year_Plan.8
 	title = SOV_Second_Year_Plan.8.t
 	desc = SOV_Second_Year_Plan.8.d
-	picture = GFX_
+	picture = GFX_news_SOV_Pasha_Angelina
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -1961,7 +1994,7 @@ country_event = {
 	id = SOV_Second_Year_Plan.9
 	title = SOV_Second_Year_Plan.9.t
 	desc = SOV_Second_Year_Plan.9.d
-	picture = GFX_
+	picture = GFX_report_SOV_Diplomats
 	fire_only_once = yes
 	is_triggered_only = yes
 	option = {
@@ -2107,7 +2140,7 @@ news_event = {
 	id = SOV_Bessarabia_Annexation.4
 	title = SOV_Bessarabia_Annexation.4.t
 	desc = SOV_Bessarabia_Annexation.4.d
-	picture = SOMEPIC
+	picture = GFX_news_SOV_Occupation_of_Bessarabia
 	major = yes
 	is_triggered_only = yes
 	option = {
@@ -2215,16 +2248,30 @@ country_event = {
 	id = SOV_Sino_Japanese_War_Chinese_Defeat.1
 	title = SOV_Sino_Japanese_War_Chinese_Defeat.1.t
 	desc = SOV_Sino_Japanese_War_Chinese_Defeat.1.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_CHI_Liuanguang_Incident
 	is_triggered_only = yes
 	option = { # We cannot afford to anger Japan.
 		name = SOV_Sino_Japanese_War_Chinese_Defeat.1.A
+		ai_chance = {
+			base = 80
+		}
 		CHI = {
 			country_event = { id = CHI_Sino_Japanese_War_Chinese_Defeat.5 days = 1 }
 		}
 	}
 	option = { # Chiang is lost, but we must still secure our flank!
 		name = SOV_Sino_Japanese_War_Chinese_Defeat.1.B
+		ai_chance = {
+			base = 15
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
 		trigger = {
 			NOT = {
 				surrender_progress > 0.1
@@ -2237,6 +2284,17 @@ country_event = {
 	}
 	option = { # Japan must be contained.
 		name = SOV_Sino_Japanese_War_Chinese_Defeat.1.C
+		ai_chance = {
+			base = 5
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
 		trigger = {
 			NOT = {
 				surrender_progress > 0.1
@@ -2246,9 +2304,6 @@ country_event = {
 		CHI = {
 			country_event = { id = CHI_Sino_Japanese_War_Chinese_Defeat.6 days = 1 }
 		}
-		JAP = {
-			country_event = { id = JAP_Sino_Japanese_War_Chinese_Defeat.10 days = 1 }
-		}
 	}
 }
 
@@ -2257,7 +2312,7 @@ country_event = {
 	id = SOV_Sino_Japanese_War_Chinese_Defeat.2
 	title = SOV_Sino_Japanese_War_Chinese_Defeat.2.t
 	desc = SOV_Sino_Japanese_War_Chinese_Defeat.2.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_CHI_Suiyuan_Campaign
 	is_triggered_only = yes
 	option = { # Welcome to the Union, Comrades!
 		name = SOV_Sino_Japanese_War_Chinese_Defeat.2.A
@@ -2288,7 +2343,7 @@ country_event = {
 	id = SOV_Sino_Japanese_War_Chinese_Defeat.3
 	title = SOV_Sino_Japanese_War_Chinese_Defeat.3.t
 	desc = SOV_Sino_Japanese_War_Chinese_Defeat.3.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_CHI_Anti_Japanese_Army
 	is_triggered_only = yes
 	option = { # Now to do this the hard way.
 		name = SOV_Sino_Japanese_War_Chinese_Defeat.3.A
@@ -2300,7 +2355,7 @@ country_event = {
 	id = SOV_Invasion_of_Persia.1
 	title = SOV_Invasion_of_Persia.1.t
 	desc = SOV_Invasion_of_Persia.1.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_SOV_Invasion_of_Persia
 
 	is_triggered_only = yes
 
@@ -2310,26 +2365,43 @@ country_event = {
 		set_global_flag = SOV_ENG_Invasion_of_Persia
 	}
 }
-# Capitulation of Persia
+# Hidden event that triggers SOV_Invasion_of_Persia.2
 country_event = {
-	id = SOV_Invasion_of_Persia.2
-	title = SOV_Invasion_of_Persia.2.t
-	desc = SOV_Invasion_of_Persia.2.d
-	picture = GFX_report_event_generic_read_write
+	id = SOV_Invasion_of_Persia.22
+	title = SOV_Invasion_of_Persia.22.t
+	desc = SOV_Invasion_of_Persia.22.d
+	picture = GFX_report_SOV_Invasion_of_Persia
+	hidden = yes
+	fire_only_once = yes
 	trigger = {
-		OR = {
-			original_tag = SOV
-			original_tag = ENG
-		}
+		original_tag = SOV
 		has_global_flag = SOV_ENG_Invasion_of_Persia
-		NOT = {
-			has_country_flag = SOV_ENG_Successful_Invasion_of_Persia
-		}
 		PER = {
 			surrender_progress > 0.59
 		}
 	}
 
+	option = { # 
+		name = SOV_Invasion_of_Persia.22.A
+		SOV = {
+			country_event = { id = SOV_Invasion_of_Persia.2 }
+		}
+		ENG = {
+			country_event = { id = SOV_Invasion_of_Persia.2 }
+		}
+	}
+}
+# Capitulation of Persia
+country_event = {
+	id = SOV_Invasion_of_Persia.2
+	title = SOV_Invasion_of_Persia.2.t
+	desc = SOV_Invasion_of_Persia.2.d
+	picture = GFX_SOV_Invasion_of_Persia.1
+	is_triggered_only = yes
+
+	immediate = {
+		news_event = { id = PER_Flavour.1 days = 200}
+	}
 	option = {
 		name = SOV_Invasion_of_Persia.2.A
 		set_country_flag = SOV_ENG_Successful_Invasion_of_Persia
@@ -2375,7 +2447,6 @@ country_event = {
 					traits = { POSITION_Shah SUBIDEOLOGY_Monarchism }
 				}
 			}
-			news_event = { id = PER_Flavour.1 days = 200}
 		}
 	}
 }
@@ -2389,7 +2460,7 @@ news_event = {
 	id = SOV_CHI_Intervention.1
 	title = SOV_CHI_Intervention.1.t
 	desc = SOV_CHI_Intervention.1.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_news_SOV_Invasion_of_Manchuria
 	is_triggered_only = yes
 	major = yes
 
@@ -2404,7 +2475,7 @@ news_event = {
 	id = SOV_CHI_Intervention.2
 	title = SOV_CHI_Intervention.2.t
 	desc = SOV_CHI_Intervention.2.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_news_SOV_Occupation_Latvia
 	is_triggered_only = yes
 	major = yes
 
@@ -2478,7 +2549,7 @@ news_event = {
 	id = SOV_CHI_Intervention.6
 	title = SOV_CHI_Intervention.6.t
 	desc = SOV_CHI_Intervention.6.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_news_SOV_Sino_Soviet_Alliance
 	is_triggered_only = yes
 	major = yes
 
@@ -2518,7 +2589,7 @@ news_event = {
 	id = SOV_CHI_Intervention.8
 	title = SOV_CHI_Intervention.8.t
 	desc = SOV_CHI_Intervention.8.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_news_SOV_Communists_in_KMT_Government
 	is_triggered_only = yes
 	major = yes
 
@@ -2550,7 +2621,7 @@ news_event = {
 	id = SOV_CHI_Intervention.9
 	title = SOV_CHI_Intervention.9.t
 	desc = SOV_CHI_Intervention.9.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_news_SOV_Chinese_Refuse_Soviet_Demands
 	is_triggered_only = yes
 	major = yes
 
@@ -2582,7 +2653,7 @@ country_event = {
 	id = SOV_CHI_Intervention.10
 	title = SOV_CHI_Intervention.10.t
 	desc = SOV_CHI_Intervention.10.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_report_CHI_Chahar_Operation
 	is_triggered_only = yes
 
 	option = {
@@ -2619,7 +2690,7 @@ news_event = {
 	id = SOV_CHI_Intervention.12
 	title = SOV_CHI_Intervention.12.t
 	desc = SOV_CHI_Intervention.12.d
-	picture = GFX_report_event_generic_read_write
+	picture = GFX_news_CHI_Chinese_Soldiers
 	is_triggered_only = yes
 	major = yes
 
@@ -2717,7 +2788,7 @@ country_event = {
 	id = SOV_Liberation_of_Europe.1
 	title = SOV_Liberation_of_Europe.1.t
 	desc = SOV_Liberation_of_Europe.1.d
-	picture = GFX_
+	picture = GFX_report_SOV_Liberation_of_Czechoslovakia
 	is_triggered_only = yes
 
 	option = {
@@ -2758,7 +2829,7 @@ country_event = {
 	id = SOV_Liberation_of_Europe.2
 	title = SOV_Liberation_of_Europe.2.t
 	desc = SOV_Liberation_of_Europe.2.d
-	picture = GFX_
+	picture = GFX_report_SOV_Liberation_of_Czechoslovakia
 	is_triggered_only = yes
 
 	option = {
@@ -2797,17 +2868,36 @@ country_event = {
 			transfer_state = 63
 			transfer_state = 1174
 			set_cosmetic_tag = POL_SOV_1946
-			create_country_leader = {
-				name = "Edward Osóbka-Morawski"
-				picture = GFX_P_C_Edward_Bolesaw_Osobka-Morawski
-				expire = "1947.1.1"
-				ideology = stalinism
-				traits = {
-					POSITION_Prime_Minister
-					SUBIDEOLOGY_Stalinism
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = SOV_Rokossovsky_Purged
+					}
+				}
+				create_country_leader = {
+					name = "Konstantin Rokossovsky"
+					picture = GFX_M_SOV_Konstantin_Rokossovsky
+					expire = "1947.1.1"
+					ideology = stalinism
+					traits = {
+						POSITION_Commander
+						SUBIDEOLOGY_Stalinism
+					}
 				}
 			}
-			add_ideas = POL_D_Boleslaw_Bierut
+			else = {
+				create_country_leader = {
+					name = "Ivan Chernyakovsky"
+					picture = GFX_M_SOV_Ivan_Chernyakovsky
+					expire = "1947.1.1"
+					ideology = stalinism
+					traits = {
+						POSITION_Commander
+						SUBIDEOLOGY_Stalinism
+					}
+				}
+			}
+			add_ideas = POL_Edward_OsobkaMorawski_HoG
 		}
 		set_autonomy = {
 			target = POL
@@ -2836,17 +2926,36 @@ country_event = {
 			transfer_state = 798
 			transfer_state = 85
 			set_cosmetic_tag = POL_SOV_1946
-			create_country_leader = {
-				name = "Edward Osóbka-Morawski"
-				picture = GFX_P_C_Edward_Bolesaw_Osobka-Morawski
-				expire = "1947.1.1"
-				ideology = stalinism
-				traits = {
-					POSITION_Prime_Minister
-					SUBIDEOLOGY_Stalinism
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = SOV_Rokossovsky_Purged
+					}
+				}
+				create_country_leader = {
+					name = "Konstantin Rokossovsky"
+					picture = GFX_M_SOV_Konstantin_Rokossovsky
+					expire = "1947.1.1"
+					ideology = stalinism
+					traits = {
+						POSITION_Commander
+						SUBIDEOLOGY_Stalinism
+					}
 				}
 			}
-			add_ideas = POL_D_Boleslaw_Bierut
+			else = {
+				create_country_leader = {
+					name = "Ivan Chernyakovsky"
+					picture = GFX_M_SOV_Ivan_Chernyakovsky
+					expire = "1947.1.1"
+					ideology = stalinism
+					traits = {
+						POSITION_Commander
+						SUBIDEOLOGY_Stalinism
+					}
+				}
+			}
+			add_ideas = POL_Edward_OsobkaMorawski_HoG
 		}
 		set_autonomy = {
 			target = POL
@@ -2860,7 +2969,7 @@ country_event = {
 	id = SOV_Liberation_of_Europe.3
 	title = SOV_Liberation_of_Europe.3.t
 	desc = SOV_Liberation_of_Europe.3.d
-	picture = GFX_
+	picture = GFX_report_SOV_Liberation_of_Czechoslovakia
 	is_triggered_only = yes
 
 	option = {
@@ -2883,10 +2992,10 @@ country_event = {
 				name = "Constantin Sanatescu"
 				picture = GFX_M_Constantin_Sanatescu
 				expire = "1947.1.1"
-				ideology = stalinism
+				ideology = social_democracy
 				traits = {
 					POSITION_Prime_Minister
-					SUBIDEOLOGY_Stalinism
+					SUBIDEOLOGY_Social_Democracy
 				}
 			}
 			remove_ideas = ROM_D_Carol_II
@@ -2896,6 +3005,18 @@ country_event = {
 			target = ROM
 			autonomous_state = AUTONOMY_Satellite
 		}
+		hidden_effect = {
+			ROM = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = no
+				}
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.5
+				}
+			}
+		}
 	}
 }
 
@@ -2904,7 +3025,7 @@ country_event = {
 	id = SOV_Liberation_of_Europe.4
 	title = SOV_Liberation_of_Europe.4.t
 	desc = SOV_Liberation_of_Europe.4.d
-	picture = GFX_
+	picture = GFX_report_SOV_Liberation_of_Czechoslovakia
 	is_triggered_only = yes
 
 	option = {
@@ -2940,7 +3061,7 @@ country_event = {
 	id = SOV_Liberation_of_Europe.5
 	title = SOV_Liberation_of_Europe.5.t
 	desc = SOV_Liberation_of_Europe.5.d
-	picture = GFX_
+	picture = GFX_report_SOV_Liberation_of_Czechoslovakia
 	is_triggered_only = yes
 
 	option = {
@@ -2976,19 +3097,31 @@ country_event = {
 	id = SOV_Liberation_of_Europe.6
 	title = SOV_Liberation_of_Europe.6.t
 	desc = SOV_Liberation_of_Europe.6.d
-	picture = GFX_
+	picture = GFX_report_SOV_Liberation_of_Czechoslovakia
 	is_triggered_only = yes
 
 	option = {
 		name = SOV_Liberation_of_Europe.6.A
 		GRE = {
-			transfer_state = 48
-			transfer_state = 211
-			transfer_state = 212
-			transfer_state = 1095
-			transfer_state = 1096
-			transfer_state = 1097
-			transfer_state = 1098
+			transfer_state = 1109
+			transfer_state = 184
+			transfer_state = 1110
+			transfer_state = 900
+			transfer_state = 731
+			transfer_state = 1112
+			transfer_state = 1111
+			transfer_state = 1114
+			transfer_state = 185
+			transfer_state = 1113
+			transfer_state = 1115
+			transfer_state = 186
+			transfer_state = 47
+			transfer_state = 187
+			transfer_state = 1117
+			transfer_state = 1118
+			transfer_state = 1119
+			transfer_state = 1116
+			transfer_state = 182
 			add_ideas = GRE_D_Georgios_Siantos
 		}
 		set_autonomy = {
@@ -3003,7 +3136,7 @@ country_event = {
 	id = SOV_Liberation_of_Europe.7
 	title = SOV_Liberation_of_Europe.7.t
 	desc = SOV_Liberation_of_Europe.7.d
-	picture = GFX_
+	picture = GFX_report_SOV_Liberation_of_Yugoslavia
 	is_triggered_only = yes
 
 	option = {
@@ -3043,16 +3176,6 @@ country_event = {
 			transfer_state = 770
 			transfer_state = 163
 			transfer_state = 1091
-			create_country_leader = {
-				name = "Josep Tito"
-				picture = GFX_P_C_Josep_Broz_Tito_1950
-				expire = "1947.1.1"
-				ideology = stalinism
-				traits = {
-					POSITION_Prime_Minister
-					SUBIDEOLOGY_Stalinism
-				}
-			}
 			add_ideas = YUG_Ivan_Ribar_HoG
 			retire_character = YUG_Aleksandar_I
 			retire_character = YUG_Petar_II
@@ -3067,6 +3190,7 @@ country_event = {
 					ruling_party = communist
 					elections_allowed = no
 				}
+				set_cosmetic_tag = YUG_AVNOJ_communist
 			}
 		}
 		add_to_faction = YUG
@@ -3078,7 +3202,7 @@ country_event = {
 	id = SOV_Liberation_of_Europe.8
 	title = SOV_Liberation_of_Europe.8.t
 	desc = SOV_Liberation_of_Europe.8.d
-	picture = GFX_
+	picture = GFX_report_SOV_Liberation_of_Czechoslovakia
 	is_triggered_only = yes
 
 	option = {
@@ -3127,7 +3251,7 @@ country_event = {
 	id = SOV_Liberation_of_Europe.9
 	title = SOV_Liberation_of_Europe.9.t
 	desc = SOV_Liberation_of_Europe.9.d
-	picture = GFX_
+	picture = GFX_report_SOV_Liberation_of_Czechoslovakia
 	is_triggered_only = yes
 
 	option = {
@@ -3157,5 +3281,238 @@ country_event = {
 			target = DDR
 			autonomous_state = AUTONOMY_SSR
 		}
+	}
+}
+
+#########################################################################
+# Red Army Focuses
+#########################################################################
+
+### State of the Red Army
+country_event = {
+	id = SOV_Red_Army.1
+	title = SOV_Red_Army.1.t
+	desc = SOV_Red_Army.1.d
+	picture = GFX_report_SOV_Red_Army
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = SOV_Red_Army.1.A
+	}
+}
+
+### Reports About Low Readiness of the Army
+country_event = {
+	id = SOV_Red_Army.2
+	title = SOV_Red_Army.2.t
+	desc = SOV_Red_Army.2.d
+	picture = GFX_report_SOV_Red_Army
+	trigger = {
+		tag = SOV
+		focus_progress = {
+			focus = SOV_Reorganize_the_Red_Army
+			progress > 0.3
+		}
+	}
+	fire_only_once = yes
+
+	option = {
+		name = SOV_Red_Army.2.A
+	}
+}
+
+### Reorganization of the General Staff
+country_event = {
+	id = SOV_Red_Army.3
+	title = SOV_Red_Army.3.t
+	desc = SOV_Red_Army.3.d
+	picture = GFX_report_SOV_General_Staff
+	trigger = {
+		tag = SOV
+		focus_progress = {
+			focus = SOV_Reorganize_the_Red_Army
+			progress > 0.6
+		}
+	}
+	fire_only_once = yes
+
+	option = {
+		name = SOV_Red_Army.3.A
+		trigger = {
+			has_character = SOV_Mikhail_N_Tukhatchevskiy
+		}
+		activate_advisor = SOV_Mikhail_N_Tukhatchevskiy_CoStaff
+	}
+	option = {
+		name = SOV_Red_Army.3.B
+		trigger = {
+			has_character = SOV_Kliment_Y_Voroshilov
+		}
+		activate_advisor = SOV_Kliment_Y_Voroshilov_CoStaff
+	}
+}
+
+### Introduction of Military Ranks to the Army
+country_event = {
+	id = SOV_Red_Army.4
+	title = SOV_Red_Army.4.t
+	desc = SOV_Red_Army.4.d
+	picture = GFX_report_SOV_General_Staff
+	trigger = {
+		tag = SOV
+		focus_progress = {
+			focus = SOV_Reorganize_the_Red_Army
+			progress > 0.9
+		}
+	}
+	fire_only_once = yes
+
+	option = {
+		name = SOV_Red_Army.4.A
+		army_experience = 5
+	}
+}
+
+### On the Cossacks
+country_event = {
+	id = SOV_Red_Army.7
+	title = SOV_Red_Army.7.t
+	desc = SOV_Red_Army.7.d
+	picture = GFX_report_SOV_Cossacks
+	is_triggered_only = yes
+
+	option = {
+		name = SOV_Red_Army.7.A
+		
+	}
+	option = {
+		name = SOV_Red_Army.7.B
+		
+	}
+}
+
+### Katyusha, Stalin's Organs
+country_event = {
+	id = SOV_Red_Army.8
+	title = SOV_Red_Army.8.t
+	desc = SOV_Red_Army.8.d
+	picture = GFX_report_SOV_Stalin_and_Voroshilov
+	is_triggered_only = yes
+
+	option = {
+		name = SOV_Red_Army.8.A
+		
+	}
+}
+
+#########################################################################
+# Airforce Focuses
+#########################################################################
+
+### The Heroes of Aviation
+country_event = {
+	id = SOV_Airforce.1
+	title = SOV_Airforce.1.t
+	desc = SOV_Airforce.1.d
+	picture = GFX_report_SOV_Aviator
+	is_triggered_only = yes
+
+	option = {
+		name = SOV_Airforce.1.A
+		
+	}
+}
+
+### The Ladies of the Air
+country_event = {
+	id = SOV_Airforce.2
+	title = SOV_Airforce.2.t
+	desc = SOV_Airforce.2.d
+	picture = GFX_report_SOV_Female_Aviators
+	is_triggered_only = yes
+
+	option = {
+		name = SOV_Airforce.2.A
+		set_country_flag = SOV_Raskova_Advisor
+	}
+	option = {
+		name = SOV_Airforce.2.B
+		add_ace = {
+			name = "Marina"
+			surname = "Raskova"
+			type = bomber_unique
+			is_female = yes
+		}
+	}
+}
+
+### Amendments to the Law of Three Spikelets
+country_event = {
+	id = SOV_Soften_Legislation.1
+	title = SOV_Soften_Legislation.1.t
+	desc = SOV_Soften_Legislation.1.d
+	picture = GFX_report_SOV_Female_Aviators
+	is_triggered_only = yes
+
+	option = {
+		name = SOV_Soften_Legislation.1.A
+		add_political_power = -50
+		add_stability = 0.05
+	}
+}
+
+### Discussion on Return of Citizen's Rights for Lishensi
+country_event = {
+	id = SOV_Soften_Legislation.2
+	title = SOV_Soften_Legislation.2.t
+	desc = SOV_Soften_Legislation.2.d
+	picture = GFX_report_SOV_Female_Aviators
+	is_triggered_only = yes
+
+	option = {
+		name = SOV_Soften_Legislation.2.A
+		add_political_power = -50
+		add_stability = 0.05
+	}
+}
+
+### Accession into the Union of Soviet Socialist Republics
+country_event = {
+	id = SOV_TAN_Integration.1
+	title = SOV_TAN_Integration.1.t
+	desc = SOV_TAN_Integration.1.d
+	picture = GFX_report_SOV_17th_Congress_vote
+	is_triggered_only = yes
+	
+	option = {
+		name = SOV_TAN_Integration.1.A
+		SOV = {
+			annex_country = {
+				target = TAN
+				transfer_troops = yes
+			}
+			add_state_core = 329
+			add_state_core = 1645
+			country_event = {
+				id = SOV_TAN_Integration.2
+				days = 2
+			}				
+		}
+	}
+}
+
+### Integration of the Tuvan Autonomous Oblast
+country_event = {
+	id = SOV_TAN_Integration.2
+	title = SOV_TAN_Integration.2.t
+	desc = SOV_TAN_Integration.2.d
+	picture = GFX_report_SOV_Diplomats
+	is_triggered_only = yes
+	
+	option = {
+		name = SOV_TAN_Integration.2.A
+		
+		custom_effect_tooltip = SOV_TAN_Integration.2.A.tt
 	}
 }

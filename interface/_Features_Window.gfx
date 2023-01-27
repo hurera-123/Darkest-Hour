@@ -43,6 +43,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/features_window/images/2.2.dds"
 	}
 	spriteType = {
+		name = "GFX_features_window_image_2.3"
+		textureFile = "gfx/interface/features_window/images/2.3.dds"
+	}
+	spriteType = {
 		name = "GFX_features_window_image_3.1"
 		textureFile = "gfx/interface/features_window/images/3.1.dds"
 	}

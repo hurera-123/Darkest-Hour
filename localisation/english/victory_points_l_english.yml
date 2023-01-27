@@ -160,6 +160,7 @@
  VICTORY_POINTS_6613: "Lyon"
 
  VICTORY_POINTS_9737: "Bordeaux"
+ VICTORY_POINTS_9737_german: "Bordeaus"
 
  VICTORY_POINTS_11834: "Marseille"
  VICTORY_POINTS_11834_italian: "Marsiglia" #Italian
@@ -192,6 +193,7 @@
  VICTORY_POINTS_6536_breton: "An Oriant" #Breton
 
  VICTORY_POINTS_6657: "La Rochelle"
+ VICTORY_POINTS_6657_german: "Die Roch"
 
  VICTORY_POINTS_6766: "Toulouse"
 
@@ -211,6 +213,7 @@
  VICTORY_POINTS_9642_german: "Bisanz" #German
 
  VICTORY_POINTS_9898: "Montpellier"
+ VICTORY_POINTS_9898_german: "Montpellien"
 
  VICTORY_POINTS_9909: "Nice"
  VICTORY_POINTS_9909_italian: "Nizza" #Italian
@@ -334,6 +337,7 @@
 
  VICTORY_POINTS_9904: "Roma"
  VICTORY_POINTS_9904_exonym: "Rome" #Exonym
+ VICTORY_POINTS_9904_german: "Rom"
 
  VICTORY_POINTS_3780: "Milano"
  VICTORY_POINTS_3780_exonym: "Milan" #Exonym
@@ -399,8 +403,10 @@
  VICTORY_POINTS_9340: "Riga"
 
  VICTORY_POINTS_310: "Daugavpils"
+ VICTORY_POINTS_310_german: "Dünaburg"
 
  VICTORY_POINTS_6296: "Kaunas"
+ VICTORY_POINTS_6296_german: "Kauen"
 
  VICTORY_POINTS_6376: "Siauliai"
 
@@ -428,35 +434,44 @@
 
  VICTORY_POINTS_6380: "Moskva"
  VICTORY_POINTS_6380_exonym: "Moscow" #Exonym
+ VICTORY_POINTS_6380_german: "Moskau"
 
  VICTORY_POINTS_525: "Kiev"
  VICTORY_POINTS_525_ukrainian: "Kyiv" #Ukrainian
  VICTORY_POINTS_525_polish: "Kijów" #Polish
+ VICTORY_POINTS_525_german: "Kiroffo"
 
  VICTORY_POINTS_3529: "Stalingrad"
  VICTORY_POINTS_3529_2: "Volgograd" #Alternate name - Destalinization
+ VICTORY_POINTS_3529_german: "Wolfstadt"
 
  VICTORY_POINTS_3151: "Leningrad"
  VICTORY_POINTS_3151_2: "Sankt-Peterburg" #Altername name - Desovietization
  VICTORY_POINTS_3151_finnish: "Pietari" #Finnish
+ VICTORY_POINTS_3151_german: "Wolfsburg"
 
  VICTORY_POINTS_6474: "Stalino"
  VICTORY_POINTS_6474_2: "Donetsk" #Alternate name - Destalinization
+ VICTORY_POINTS_6474_german: "Neukoblenz"
 
  VICTORY_POINTS_9417: "Rostov-na-Donu"
+ VICTORY_POINTS_9417_german: "Donnhafen"
 
  VICTORY_POINTS_11375: "Gorky"
 
  VICTORY_POINTS_117: "Novgorod"
+ VICTORY_POINTS_117_german: "Holmgard"
 
  VICTORY_POINTS_121: "Yaroslavl"
 
  VICTORY_POINTS_306: "Smolensk"
+ VICTORY_POINTS_306_german: "Smolenau"
 
  VICTORY_POINTS_413: "Voronezh"
 
  VICTORY_POINTS_418: "Kharkov"
  VICTORY_POINTS_418_ukrainian: "Kharkiv" #Ukrainian
+ VICTORY_POINTS_418_german: "Karkau"
 
  VICTORY_POINTS_957: "Vladivostok"
 
@@ -469,22 +484,26 @@
  VICTORY_POINTS_1821: "Sverdlovsk"
 
  VICTORY_POINTS_3134: "Murmansk"
+ VICTORY_POINTS_3134_german: "Murmau"
 
  VICTORY_POINTS_3140: "Tikhvin"
 
  VICTORY_POINTS_3335: "Bryansk"
 
  VICTORY_POINTS_3338: "Arkhangelsk"
+ VICTORY_POINTS_3338_german: "Erzengel"
 
  VICTORY_POINTS_3578: "Saratov"
 
  VICTORY_POINTS_3580: "Kursk"
+ VICTORY_POINTS_3580_german: "Zitadellenfurt"
 
  VICTORY_POINTS_3653: "Batumi"
 
  VICTORY_POINTS_3672: "Grozny"
 
  VICTORY_POINTS_3686: "Sevastopol"
+ VICTORY_POINTS_3686_german: "Theoderichshafen"
 
  VICTORY_POINTS_3717: "Maykop"
 
@@ -493,10 +512,13 @@
  VICTORY_POINTS_2727: "Irkutsk"
 
  VICTORY_POINTS_6245: "Kalinin"
+ VICTORY_POINTS_6245_german: "Königstein"
 
  VICTORY_POINTS_6262: "Tula"
+ VICTORY_POINTS_6262_german: "Thulestadt"
 
  VICTORY_POINTS_6338: "Kazan"
+ VICTORY_POINTS_6338_german: "Kosakenstadt"
 
  VICTORY_POINTS_7825: "Novosibirsk"
 
@@ -506,10 +528,12 @@
  VICTORY_POINTS_7661: "Baku"
 
  VICTORY_POINTS_9288: "Gomel"
+ VICTORY_POINTS_9288_german: "Homiel"
 
  VICTORY_POINTS_9355: "Orel"
 
  VICTORY_POINTS_9753: "Astrakhan"
+ VICTORY_POINTS_9753_german: "Etil"
 
  VICTORY_POINTS_10641: "Yakutsk"
 
@@ -532,8 +556,10 @@
  VICTORY_POINTS_11437_ukrainian: "Dnipropetrovsk" #Ukrainian
  VICTORY_POINTS_11437_2: "Dnepr" #Altername name - Decommunization
  VICTORY_POINTS_11437_2_ukrainian: "Dnipro" #Ukrainian Altername name - Decommunization
+ VICTORY_POINTS_11437_german: "Katerinoslau"
 
  VICTORY_POINTS_11670: "Odessa"
+ VICTORY_POINTS_11670_german: "Gotenschau"
 
  VICTORY_POINTS_12189: "Khabarovsk"
 
@@ -1127,6 +1153,7 @@
 
  VICTORY_POINTS_3838: "Ajaccio"
  VICTORY_POINTS_3838_italian: "Aiaccio" #Italian
+ VICTORY_POINTS_3838_german: "Ajaccio"
 
  VICTORY_POINTS_4159: "Messina"
 
@@ -1184,7 +1211,7 @@
  VICTORY_POINTS_11969_italian: "Biserta" #Italian
 
  VICTORY_POINTS_10007: "Rodi"
- VICTORY_POINTS_10007_2: "Rhodes" #Greek
+ VICTORY_POINTS_10007_greek: "Rodos" #Greek
 
  VICTORY_POINTS_14064: "Trincomalee"
 
@@ -1227,6 +1254,7 @@
 
  VICTORY_POINTS_11561: "Krivoy Rog"
  VICTORY_POINTS_11561_ukrainian: "Kryvyi Rih" #Ukrainian
+ VICTORY_POINTS_11561_german: "Siegen Rog"
 
  VICTORY_POINTS_9461: "Lugansk"
  VICTORY_POINTS_9461_ukrainian: "Luhansk" #Ukrainian
@@ -1383,6 +1411,7 @@
  VICTORY_POINTS_13248: "Dubai"
 
  VICTORY_POINTS_13251: "Simferopol"
+ VICTORY_POINTS_13251_german: "Gotenburg"
 
  VICTORY_POINTS_9680: "Kerch"
 
@@ -2385,8 +2414,10 @@
 
  VICTORY_POINTS_599: "Capodistria"
  VICTORY_POINTS_599_german: "Gafers" #German
+ VICTORY_POINTS_599_croatian: "Koper"
 
  VICTORY_POINTS_11735: "Pola"
+ VICTORY_POINTS_11735_croatian: "Pula"
 
  VICTORY_POINTS_11564: "Fiume"
  VICTORY_POINTS_11564_croatian: "Rijeka" #Croatian
@@ -2431,8 +2462,9 @@
  VICTORY_POINTS_3617: "Novi Sad"
  VICTORY_POINTS_3617_hungarian: "Újvidék" #Hungarian
 
- VICTORY_POINTS_11787: "Zrenjanin"
+ VICTORY_POINTS_11787: "Veliki Bečkerek"
  VICTORY_POINTS_11787_hungarian: "Nagybecskerek" #Hungarian
+ VICTORY_POINTS_11787_yugoslavian: "Petrovgrad"
 
  VICTORY_POINTS_3609: "Šabac"
 
@@ -2720,18 +2752,22 @@
  VICTORY_POINTS_13657_german: "Budweis" #German
 
  VICTORY_POINTS_11905: "Alexandroupoli"
+ VICTORY_POINTS_11905_bulgarian: "Dedeagach"
 
  VICTORY_POINTS_11774: "Xanthi"
+ VICTORY_POINTS_11774_bulgarian: "Ksanti"
 
  VICTORY_POINTS_9930: "Kavala"
 
  VICTORY_POINTS_6990: "Serres"
+ VICTORY_POINTS_6990_bulgarian: "Syar"
 
  VICTORY_POINTS_3844: "Katerini"
 
  VICTORY_POINTS_3980: "Kozani"
 
  VICTORY_POINTS_3914: "Ioannina"
+ VICTORY_POINTS_3914_italian: "Giannina"
 
  VICTORY_POINTS_11786: "Trikala"
 
@@ -3814,7 +3850,7 @@
 
  VICTORY_POINTS_6704: "Yalta"
 
- VICTORY_POINTS_737: "Kherson"
+ VICTORY_POINTS_3755: "Kherson"
 
  VICTORY_POINTS_3421: "Mariupol"
  VICTORY_POINTS_3421_2: "Zhdanov" #alternate communist name 1948-1989

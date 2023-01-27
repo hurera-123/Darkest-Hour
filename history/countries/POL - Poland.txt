@@ -1,6 +1,178 @@
 ﻿######################################################################
 # Poland - 1933
 ######################################################################
+recruit_character = POL_Tadeusz_Bielecki
+recruit_character = POL_Roman_Dmowski
+recruit_character = POL_Waclaw_Kozielski
+recruit_character = POL_Janusz_Jedrzejewicz
+recruit_character = POL_Aleksander_Prystor
+recruit_character = POL_Leon_Kozlowski
+recruit_character = POL_Walery_Slawek
+recruit_character = POL_Henryk_Jozewski
+recruit_character = POL_Marian_ZyndramKoscialkowski
+recruit_character = POL_Felicjan_SlawojSkladkowski
+recruit_character = POL_August_Zaleski
+recruit_character = POL_Edward_RydzSmigly
+recruit_character = POL_Kardynal_AS_Sapieha
+recruit_character = POL_Ignacy_Moscicki
+recruit_character = POL_Mikolaj_Dolanowski
+recruit_character = POL_Jozef_Pilsudski
+recruit_character = POL_Wladyslaw_Sikorski
+recruit_character = POL_Boguslaw_Miedzinski
+recruit_character = POL_Jan_Kwapinski
+recruit_character = POL_Kardynal_Stefan_Wyszynski
+recruit_character = POL_Antoni_Paczek
+recruit_character = POL_Stanislaw_Mikolajczyk
+recruit_character = POL_Wojciech_Korfanty
+recruit_character = POL_Eugeniusz_Kwiatkowski
+recruit_character = POL_Tomasz_Arciszewski
+recruit_character = POL_Stanislaw_Osiecki
+recruit_character = POL_Stanislas_A_Neyman
+recruit_character = POL_Mieczyslaw_Michalowicz
+recruit_character = POL_Hugon_Hanke
+recruit_character = POL_Jozef_Dziegielewski
+recruit_character = POL_Boleslaw_Drobner
+recruit_character = POL_Edward_OsobkaMorawski
+recruit_character = POL_Marceli_Nowotko
+recruit_character = POL_Jozef_Cyrenkiewicz
+recruit_character = POL_Boleslaw_Bierut
+recruit_character = POL_Jedrzej_Giertych
+recruit_character = POL_Wojciech_Wasiutynski
+recruit_character = POL_Witold_Staniszkis
+recruit_character = POL_Janusz_Radziwill
+recruit_character = POL_Jozef_Beck
+recruit_character = POL_Jan_hr_Szembek
+recruit_character = POL_Leon_Janta_Polczynski
+recruit_character = POL_Edward_Raczynski
+recruit_character = POL_Tadeusz_Romer
+recruit_character = POL_Kazimierz_Baginski
+recruit_character = POL_Henryk_Leon_Strasburger
+recruit_character = POL_Adam_Tarnowski
+recruit_character = POL_Wladyslaw_Kiernik
+recruit_character = POL_Jan_Piekalkiewicz
+recruit_character = POL_Aleksander_Zawisza
+recruit_character = POL_Wincenty_Rzymowski
+recruit_character = POL_Adam_Prochnik
+recruit_character = POL_Jozef_Niski
+recruit_character = POL_Norbert_Barlicki
+recruit_character = POL_Pawel_Finder
+recruit_character = POL_Zygmunt_Modzelewski
+recruit_character = POL_Mieczyslaw_Trajdos
+recruit_character = POL_Czeslaw_Michalowski
+recruit_character = POL_Bronislaw_Pieracki
+recruit_character = POL_Wladyslaw_Raczkiewicz
+recruit_character = POL_Kazimierz_Switalski
+recruit_character = POL_Witold_Grabowski
+recruit_character = POL_Waclaw_Mohl
+recruit_character = POL_Zygmunt_Berezowski
+recruit_character = POL_Adam_Rose
+recruit_character = POL_Bronislaw_Kusnierz
+recruit_character = POL_Roman_Odzierzynski
+recruit_character = POL_Marjan_Rudzinski
+recruit_character = POL_Antoni_Roman
+recruit_character = POL_Karol_Popiel
+recruit_character = POL_Wincenty_Witos
+recruit_character = POL_Mieczyslaw_Niedzialkowski
+recruit_character = POL_Pantaleon_Karpinski
+recruit_character = POL_Jozef_Lokietek_Rebe
+recruit_character = POL_Feliks_Wirski
+recruit_character = POL_Stanislaw_Radkiewicz
+recruit_character = POL_Aleksander_Zawadzki
+recruit_character = POL_Franciszek_Jozwiak
+recruit_character = POL_Jakub_Berman
+recruit_character = POL_Jerzy_Zdziechowski
+recruit_character = POL_Stanislaw_Glabinski
+recruit_character = POL_Jan_Wroczynski
+recruit_character = POL_Wladyslaw_M_Zawadzki
+recruit_character = POL_Jan_Pilsudski
+recruit_character = POL_Tadeusz_Kasprzycki
+recruit_character = POL_Bp_Stanislaw_Adamski
+recruit_character = POL_Karol_Niezabytowski
+recruit_character = POL_Witold_Staniewicz
+recruit_character = POL_Witold_Lesniewski
+recruit_character = POL_Czeslaw_Klarner 
+recruit_character = POL_Casimir_Ehrenberg
+recruit_character = POL_Bronislaw_Regulski
+recruit_character = POL_Ludwik_W_Rajchmann
+recruit_character = POL_Adam_Koc
+recruit_character = POL_Jozef_Haller
+recruit_character = POL_Wladyslaw_Fokierski
+recruit_character = POL_Stanislaw_Sopicki
+recruit_character = POL_Jozef_Niecko
+recruit_character = POL_Tadeusz_Lychowski
+recruit_character = POL_Herman_Liebermann
+recruit_character = POL_Zygmunt_Berling
+recruit_character = POL_Jan_Stefan_Haneman
+recruit_character = POL_Michal_RolaZymierski
+recruit_character = POL_Konstanty_Dabrowski
+recruit_character = POL_Hilary_Minc
+recruit_character = POL_Janusz_Zoltowski
+recruit_character = POL_Wojciech_Zaleski
+recruit_character = POL_Kordian_Zamorski
+recruit_character = POL_Mieczyslaw_Mackiewicz
+recruit_character = POL_Tadeusz_Puszczynski
+recruit_character = POL_Karol_Boldeskul
+recruit_character = POL_T_PelczynskiGrzegorz
+recruit_character = POL_Jan_Kowalewski
+recruit_character = POL_Jan_Zychon
+recruit_character = POL_Ignacy_Matuszewski
+recruit_character = POL_Stanislaw_Gano
+recruit_character = POL_Zygmunt_Zaremba
+recruit_character = POL_Feliks_Koneczny
+recruit_character = POL_Wieslaw_Domaniewski
+recruit_character = POL_Alfred_Leon_Konopka
+recruit_character = POL_Mieczyslaw_Sokolowski
+recruit_character = POL_Lukasz_Siemiatkowski
+recruit_character = POL_Tadeusz_Szturm_de_Sztrem
+recruit_character = POL_Ozjasz_Szechter
+recruit_character = POL_Stanislaw_Dubois
+recruit_character = POL_Stefan_Antosiewicz
+recruit_character = POL_Henryk_Swiatkowski
+recruit_character = POL_Marian_JanuszajtisZegota
+recruit_character = POL_Waclaw_Stachiewicz
+recruit_character = POL_Janusz_Gasiorowski
+recruit_character = POL_Michal_KaraszewiczTokarzewski
+recruit_character = POL_Stefan_Rowecki
+recruit_character = POL_Tadeusz_BorKomorowski
+recruit_character = POL_Stanislaw_Kopanski
+recruit_character = POL_Leopold_Okulicki
+recruit_character = POL_Rajmund_Jaworski
+recruit_character = POL_Kazimierz_Sosnkowski
+recruit_character = POL_Wladyslaw_Anders
+recruit_character = POL_Wladyslaw_Grabsky
+recruit_character = POL_Karol_Swierczewski
+recruit_character = POL_Jerzy_Swirski
+recruit_character = POL_Jozef_Unrug
+recruit_character = POL_Francois_Sokal
+recruit_character = POL_Leon_Chajn
+recruit_character = POL_Adam_Mohuczy
+recruit_character = POL_Wlodzimierz_Steyer
+recruit_character = POL_Adam_Rapacki
+recruit_character = POL_Iwan_Szylingowski
+recruit_character = POL_Nikolaj_Abramow
+recruit_character = POL_Alfred_Chlapowski
+recruit_character = POL_Sergiusz_Abzoltowski
+recruit_character = POL_Jozef_Zajac
+recruit_character = POL_Ludomil_Rayski
+recruit_character = POL_Stanislaw_Pawluc
+recruit_character = POL_Wladyslaw_Kalkus
+recruit_character = POL_Ludwik_Grosfeld
+recruit_character = POL_Czeslaw_Bieszczad
+recruit_character = POL_Leon_Berbecki
+recruit_character = POL_Jan_Kruszewski
+recruit_character = POL_Juliusz_Rommel
+recruit_character = POL_Tadeusz_Piskor
+recruit_character = POL_Stefan_Dab_Biernacki
+recruit_character = POL_Gustaw_Orlicz_Dreszer
+recruit_character = POL_Antoni_Szyling
+recruit_character = POL_Wiktor_Thomee
+recruit_character = POL_Franciszek_Kleeberg
+recruit_character = POL_Tadeusz_Kutrzeba
+recruit_character = POL_Wladyslaw_Bortnowski
+recruit_character = POL_Wilhelm_Orlik_Ruckemann
+recruit_character = POL_Emil_Krukowicz_Przedrzymirski
+recruit_character = POL_Mieczysaw_Boruta_Spiechowicz
+
 1933.1.1 = {
 	capital = 10
 	oob = "POL_1933"
@@ -169,16 +341,16 @@
 		POL_May_Coup
 		POL_Embers_of_Industry
 		# Cabinet
-		POL_D_Ignacy_Moscicki
-		POL_FM_Jozef_Beck
-		POL_AM_Jan_Pilsudski
-		POL_MoS_Bronislaw_Piernacki
-		# POL_HoI_Janusz_Jagrym_Maleszewski
+		POL_Ignacy_Moscicki_HoG
+		POL_Jozef_Beck_FM
+		POL_Jan_Pilsudski_AM
+		POL_Bronislaw_Pieracki_MoS
+		POL_POL_T_PelczynskiGrzegorz_HoI
 		# Military Staff
-		POL_CoStaff_Janusz_Gasiorowski
-		POL_CoArmy_Jozef_Pilsudski
-		POL_CoNavy_Jerzy_Swirski
-		POL_CoAir_Ludomil_Rayski
+		POL_Janusz_Gasiorowski_CoStaff
+		POL_Jozef_Pilsudski_CoArmy
+		POL_Jerzy_Swirski_CoNavy
+		POL_Ludomil_Rayski_CoAir
 		# Policies
 		industrializing_economy
 		limited_civil_liberties
@@ -203,32 +375,6 @@
 		ideology = falangism
 		traits = { POSITION_President SUBIDEOLOGY_Falangism L_Barking_Buffoon }
 	}
-	# Paternal Autocracy
-	create_country_leader = {
-		name = "Ignacy Moscicki"
-		desc = ""
-		picture = GFX_P_A_Ignacy_Moscicki
-		expire = "1965.1.1"
-		ideology = authoritarian_democracy
-		traits = { POSITION_President SUBIDEOLOGY_Authoritarian_Democracy L_Stern_Imperialist }
-	}
-	create_country_leader = {
-		name = "Józef Pilsudski"
-		desc = ""
-		picture = GFX_P_A_Josef_Pilsudski
-		expire = "1935.5.12"
-		ideology = authoritarian_democracy
-		traits = { POSITION_Marshal SUBIDEOLOGY_Authoritarian_Democracy L_Resigned_Generalissimo }
-	}
-	# Democracy
-	create_country_leader = {
-		name = "Roman Dmowski"
-		desc = ""
-		picture = GFX_P_D_Roman_Dmowski
-		expire = "1965.1.1"
-		ideology = social_conservatism
-		traits = { POSITION_President SUBIDEOLOGY_Social_Conservatism L_Weary_Stiff_Neck }
-	}
 	# Socialism
 	create_country_leader = {
 		name = "Ignacy Daszynski"
@@ -237,227 +383,6 @@
 		expire = "1965.1.1"
 		ideology = socialism
 		traits = { POSITION_General_Secretary SUBIDEOLOGY_Socialism L_Popular_Figurehead }
-	}
-	# Marxism-Leninism
-	create_country_leader = {
-		name = "Boleslaw Bierut"
-		desc = ""
-		picture = GFX_P_C_Boleslaw_Bierut
-		expire = "1965.1.1"
-		ideology = stalinism
-		traits = { POSITION_General_Secretary SUBIDEOLOGY_Stalinism L_Barking_Buffoon }
-	}
-	#######################
-	# Generals
-	#######################
-	create_field_marshal = {
-		name = "Józef Piłsudski"
-	    id = 213000
-		GFX = GFX_M_Josef_Pilsudski_MILITARY
-		traits = { media_personality offensive_doctrine inspirational_leader }
-		skill = 2
-		attack_skill = 3
-		defense_skill = 2
-		planning_skill = 1
-		logistics_skill = 1
-	}
-	create_corps_commander = {
-		name = "Kazimierz Sosnkowski"
-	    id = 213001
-		GFX = GFX_M_Kazimierz_Sosnowski
-		traits = { old_guard organizer }
-		skill = 3
-		attack_skill = 2
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 4
-	}
-	create_corps_commander = {
-		name = "Edward Rydz-Śmigły"
-	    id = 213002
-		GFX = GFX_M_Edward_Rydz_Smigly
-		traits = {  politically_connected war_hero media_personality skilled_staffer  }
-		skill = 2
-		attack_skill = 3
-		defense_skill = 2
-		planning_skill = 1
-		logistics_skill = 2
-	}
-	create_corps_commander = {
-		name = "Leon Berbecki"
-	    id = 213003
-		GFX = GFX_M_Leon_Berbecki
-		traits = {  old_guard infantry_officer politically_connected }
-		skill = 2
-		attack_skill = 2
-		defense_skill = 3
-		planning_skill = 2
-		logistics_skill = 2
-	}
-	create_corps_commander = {
-		name = "Jan Kruszewski"
-	    id = 213004
-		GFX = GFX_M_Jan_Kruszewski
-		traits = {  politically_connected infantry_officer }
-		skill = 2
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 1
-	}
-	create_corps_commander = {
-		name = "Juliusz Rómmel"
-	    id = 213005
-		GFX = GFX_M_Juliusz_Rommel
-		traits = {  old_guard war_hero trait_cautious cavalry_officer cavalry_leader }
-		skill = 2
-		attack_skill = 4
-		defense_skill = 1
-		planning_skill = 2
-		logistics_skill = 1
-	}
-	create_corps_commander = {
-		name = "Tadeusz Piskor"
-	    id = 213006
-		GFX = GFX_M_Tadeusz_Piskor
-		traits = {  infantry_officer trait_engineer }
-		skill = 2
-		attack_skill = 1
-		defense_skill = 2
-		planning_skill = 3
-		logistics_skill = 3
-	}
-	create_corps_commander = {
-		name = "Stefan Dab-Biernacki"
-	    id = 213007
-		GFX = GFX_M_Stefan_Dab_Biernacki
-		traits = {  old_guard politically_connected harsh_leader substance_abuser }
-		skill = 1
-		attack_skill = 1
-		defense_skill = 1
-		planning_skill = 1
-		logistics_skill = 1
-	}
-	create_corps_commander = {
-		name = "Gustaw Orlicz-Dreszer"
-	    id = 213008
-		GFX = GFX_M_Gustaw_Orlicz-Dreszer
-		traits = {  politically_connected }
-		skill = 1
-		attack_skill = 2
-		defense_skill = 1
-		planning_skill = 2
-		logistics_skill = 2
-	}
-	create_corps_commander = {
-		name = "Antoni Szyling"
-	    id = 213009
-		GFX = GFX_M_Antoni_Szyling
-		traits = { inflexible_strategist old_guard trickster }
-		skill = 4
-		attack_skill = 2
-		defense_skill = 5
-		planning_skill = 4
-		logistics_skill = 2
-	}
-	create_corps_commander = {
-		name = "Wiktor Thomée"
-	    id = 213010
-		GFX = GFX_M_Wiktor_Thomee
-		traits = {  harsh_leader organizer commando }
-		skill = 4
-		attack_skill = 2
-		defense_skill = 5
-		planning_skill = 3
-		logistics_skill = 3
-	}
-	create_corps_commander = {
-		name = "Franciszek Kleeberg"
-	    id = 213011
-		GFX = GFX_M_Franciszek_Kleeberg
-		traits = {  infantry_officer infantry_leader swamp_fox }
-		skill = 3
-		attack_skill = 3
-		defense_skill = 4
-		planning_skill = 3
-		logistics_skill = 4
-	}
-	create_corps_commander = {
-		name = "Tadeusz Kutrzeba"
-	    id = 213012
-		GFX = GFX_M_Tadeusz_Kutrzeba
-		traits = {  brilliant_strategist career_officer skilled_staffer trait_engineer }
-		skill = 3
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 4
-		logistics_skill = 4
-	}
-	create_corps_commander = {
-		name = "Władysław Bortnowski"
-	    id = 213013
-		GFX = GFX_M_Wladyslaw_Bortnowski
-		traits = {  media_personality politically_connected organizer }
-		skill = 2
-		attack_skill = 3
-		defense_skill = 1
-		planning_skill = 2
-		logistics_skill = 2
-	}
-	create_corps_commander = {
-		name = "Janusz Gasiorowski"
-	    id = 213014
-		GFX = GFX_M_Janusz_Gasiorowski
-		traits = {  trickster }
-		skill = 2
-		attack_skill = 1
-		defense_skill = 2
-		planning_skill = 3
-		logistics_skill = 2
-	}
-	create_corps_commander = {
-		name = "Władysław Anders"
-	    id = 213015
-		GFX = GFX_M_Wladyslaw_Anders
-		traits = {  media_personality cavalry_leader war_hero }
-		skill = 2
-		attack_skill = 4
-		defense_skill = 1
-		planning_skill = 2
-		logistics_skill = 1
-	}
-	create_corps_commander = {
-		name = "Wilhelm Orlik-Rückemann"
-	    id = 213016
-		GFX = GFX_M_Wilhelm_Orlik-Ruckemann
-		traits = {  panzer_leader commando }
-		skill = 3
-		attack_skill = 2
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-	create_corps_commander = {
-		name = "Emil Krukowicz-Przedrzymirski"
-	    id = 213017
-		GFX = GFX_M_Emil_Krukowicz-Przedrzymirski
-		traits = {  organizer inflexible_strategist }
-		skill = 2
-		attack_skill = 1
-		defense_skill = 2
-		planning_skill = 3
-		logistics_skill = 2
-	}
-	create_corps_commander = {
-		name = "Mieczysław Boruta-Spiechowicz"
-	    id = 213018
-		GFX = GFX_M_Mieczysaw_Boruta-Spiechowicz
-		traits = {  trait_mountaineer }
-		skill = 2
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
 	}
 	country_event = {
 		id = POL_Death_of_Pilsudski.1

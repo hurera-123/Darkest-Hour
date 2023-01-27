@@ -1,5 +1,11 @@
 ideas = {
-
+	hidden_ideas = {
+		PAR_You_Are_Strong_Now = {
+			modifier = {
+				army_attack_factor = 0.4
+			}
+		}
+	}
 	high_command = {
 
 		PAR_isaias_baez_allende = {

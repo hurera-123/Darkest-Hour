@@ -22,16 +22,6 @@
  SOV_Death_of_Stalin.2.C: "Lavrenti P. Beria."
  SOV_Death_of_Stalin.2.D: "Georgy Zhukov."
 
- soviet.5.t: "Proposition from Berlin"
- soviet.5.d: "It seems that Berlin has finally come around, and acknowledges our shared duty in spreading the world revolution to all four corners. Combined, Germany and the Soviet Union shall embark on a crusade against the west. It merely requries our pledge of allegiance."
- soviet.5.A: "Let's bury the West"
- soviet.5.B: "We need more time"
-
- soviet.6.t: "Move Industry to the Urals"
- soviet.6.d: "It would be smart of us to move our industry to the Urals as a war with Germany seems inevitable."
- soviet.6.A: "Agreed"
- soviet.6.B: "Don't be ridiculous"
-
  SOV_Stalin_Constitution.1.t: "History in One Stroke"
  SOV_Stalin_Constitution.1.d: "[FROM.GetNewsIcon]Again our glorious government has moved further in achieving class equality and in furthering the interests of the hardworking workers of the Union in a single stroke, by having adopted a new Constitution.\n\nThe new “Stalin’s” Constitution will be replacing the heavily revised 1924 constitution. The new Constitution has been termed as an unprecedented step for the Soviet people, the Constitution enumerates economic rights not included in constitutions of the so-called Western “Democracies”. It has repealed restrictions on voting, abolishing the “lishentsy” category of people, and has added universal direct suffrage and the right to work. In addition, the new Constitution has recognized collective social and economic rights including the rights to work, rest and leisure, health protection, care in old age and sickness, housing, education, and cultural benefits. The new Constitution also provides for the direct election of all government bodies and their reorganization into a single, uniform system.\n\nOur General Secretary Joseph Stalin, genius of the new world, the wisest man of the epoch, the great leader of communism, has personally chaired over a special commission of 31 members in the creation of this new constitution which has already been enacted by the Congress of Soviets, which itself has been reformed into the Supreme Soviet."
  SOV_Stalin_Constitution.1.A: "Rejoice, Comrades."
@@ -45,7 +35,6 @@
  SOV_Transpolar_Flight.1.t.SOV: "Glory to Stalin's Falcons"
  SOV_Transpolar_Flight.1.d: "[FROM.GetNewsIcon]Yesterday, June 20, 1937, a specially outfitted Soviet ANT-25 landed in Vancouver in the United States of America, completing the first-ever transpolar airplane flight. It flew from the Soviet Union to the United States across the North Pole, the aircraft being piloted by our very own falcons - pilot Valery Chkalov, co-pilot Georgy Baidukov, and navigator Alexander Belyakov.\n\nLong and careful preparations were made for the flight, as a forced landing in the Polar Regions would mean certain death for the entire crew, after taking off the first 24 hours of the trans-polar flight proved to be routine and uneventful, but the remainder of the long flight would test the mettle of the Soviet Union’s elite flyers. As the flight neared the Polar Regions, the aircraft’s magnetic compass became inoperable; navigation had to rely solely on dead reckoning and a solar heading indicator, with corrections made by regular sun and star observations. But Despite all the odds, the flight landed at Vancouver's Pearson Airfield successfully after a flight of 63 hours and 16 minutes and were welcomed as heroes.\n\nWhile they do a nation-wide tour of the United States, which includes a meeting with President Roosevelt and a parade in New York City, the people at home desperately await to welcome the heroes."
  SOV_Transpolar_Flight.1.A: "Congrats, to the air pioneers."
- SOV_Transpolar_Flight.1.B: "Congrats, to the air pioneers."
 
  SOV_Transpolar_Flight.2.t: "The Lost Falcons"
  SOV_Transpolar_Flight.2.d: "Yesterday, we lost contact with Valery Chkalov and his crew of three. They were flying a specially outfitted ANT 25 and were tasked with attempting the world's first-ever transpolar flight. Prior to their unfortunate disappearance, Chkalov reported that all instruments were functioning properly and that his crew was in good condition, which has raised questions about their disappearance. The last sighting of the aircraft was near the 75th parallel.\n\nDue to the highly secretive nature of the mission, Canadian and American authorities were not informed, but there will be no need to tell them now. We have already sent planes into the air to search the area for Chkalov and his crew, however, the chances of finding them are quite low.\n\nTo avoid any trouble, Comrade Stalin has ordered the covering up of all records related to the flight and its fate."
@@ -83,7 +72,7 @@
  SOV_Great_Purge_Failure.2.A.tt: "The §RTukhachevsky Plot§! has been defeated by Marshal §YSemyon Budyonny§!, albeit at a high cost..."
 
  SOV_Great_Purge_Failure.3.t: "The Revolution Secured"
- SOV_Great_Purge_Failure.3.d: "Of all the chaos and confusion that has been thrown at us since the days of the October Revolution, it seems that another spanner has been thrown in the works of the hulking machine that is the Soviet Union.\n\nJoseph Stalin, the Man of Steel, our glorious leader, has been slain by ruthless counterrevolutionaries.\n\nAnd not just Stalin, but many of our top officials, such as the NKVD leadership, and even Voroshivlov, one of our top military commanders. So many intelligent and powerful men, taken by the vicious claws of the traitorous Tukhachevsky and his foolish followers.\n\nBut while we may still have tears in our eyes for those we have lost, we must not become distracted from the grave task that is at hand; filling the void that has been left within the ranks of the Politburo. There will be many opportunists waiting for the right time to make their move, so if we are to prevent any further descent into instability, we must act quickly. Thus, the Central Committee has been called for an emergency session in hopes to find a way out of this dark tunnel we find ourselves in.\n\nWhilst we have already decided that Molotov will remain Premier, we still must vote for the crucial role of General Secretary.  There are two frontrunners, with the first being the loyal Stalinist Lazar Kaganovich. He was a close friend of Stalin and choosing him would ensure that we will be able to continue to build on the vision our late leader had for the Union.\n\nAlthough Kaganovich seems like the best choice, the other proposal has been Marshall Semyon Budyonny, who helped put a stop to the threat posed by the counterrevolutionaries. Although not everyone within the Central Committee is sure of the direction he will take our country in, he would be able to provide a great sense of strength and stability, something which the nation is lacking because of recent events.\nWhatever choice we make, it is sure to have great implications for not just the Soviet Union, but for the entire world…"
+ SOV_Great_Purge_Failure.3.d: "Of all the chaos and confusion that has been thrown at us since the days of the October Revolution, it seems that another spanner has been thrown in the works of the hulking machine that is the Soviet Union.\n\nJoseph Stalin, the Man of Steel, our glorious leader, has been slain by ruthless counterrevolutionaries.\n\nAnd not just Stalin, but many of our top officials, such as the NKVD leadership, and even Voroshivlov, one of our top military commanders. So many intelligent and powerful men, taken by the vicious claws of the traitorous Tukhachevsky and his foolish followers.\n\nBut while we may still have tears in our eyes for those we have lost, we must not become distracted from the grave task that is at hand; filling the void that has been left within the ranks of the Politburo. There will be many opportunists waiting for the right time to make their move, so if we are to prevent any further descent into instability, we must act quickly. Thus, the Central Committee has been called for an emergency session in hopes to find a way out of this dark tunnel we find ourselves in.\n\nWhilst we have already decided that Molotov will remain Premier, we still must vote for the crucial role of General Secretary.  There are two frontrunners, with the first being the loyal Stalinist Lazar Kaganovich. He was a close friend of Stalin and choosing him would ensure that we will be able to continue to build on the vision our late leader had for the Union.\n\nAlthough Kaganovich seems like the best choice, the other proposal has been Marshall Semyon Budyonny, who helped put a stop to the threat posed by the counterrevolutionaries. Although not everyone within the Central Committee is sure of the direction he will take our country in, he would be able to provide a great sense of strength and stability, something which the nation is lacking because of recent events.\nWhatever choice we make, it is sure to have great implications for not just the Soviet Union, but for the entire world..."
  SOV_Great_Purge_Failure.3.A: "Only Marshall Budyonny can save the revolution now!"
  SOV_Great_Purge_Failure.3.B: "Comrade Kaganovich will carry the torch of Stalinism forward!"
 
@@ -126,33 +115,29 @@
  SOV_Great_Purge.7.d: "The 7th World Congress of the Communist International began this evening in Moscow's House of Unions' Hall of Pillars. The gathering, held almost exactly seven years after the last Comintern World Congress, was attended by 513 delegates representing 65 Comintern member parties and 19 sympathising parties.\n\nThe keynote address delivered by Wilhelm Pieck of the Communist Party of Germany set the tone for the 7th World Congress. While praising the 1928 tactic of "class against class," Pieck admitted that "a certain number of sectarian mistakes were made." During the late 1920s strike movement, this push for ideologically pure leadership divided workers, gaining the support of some while alienating others and ultimately failing due to "clumsy and sectarian tactics."\n\nFollowing Pieck's keynote report and the lengthy discussion that followed, a second report, this time by Georgi Dimitrov, was presented on the task of building working-class unity in opposition to fascism. Dimitrov began by defining fascism as "the open terrorist dictatorship of the most reactionary, chauvinistic, and imperialist elements of finance capital," intent on wreaking organised "terrorist vengeance against the working class and the revolutionary section of the peasantry and intelligentsia." Dimitrov described fascism's foreign policy as "jingoism in its most brutal form, fomenting bestial hatred of other nations."The 7th World Congress resulted in the endorsement of a Popular Front of communist and non-communist forces against the growing threat of fascism in Europe, paving the way for advocacy of collective security between our country and the various capitalist states of Europe." This represents a dramatic shift away from the Comintern's previous support for class warfare, which was endorsed by the 6th World Congress."
  SOV_Great_Purge.7.A: "United against fascism."
 
+ SOV_Great_Purge.8.t: "Helmsman's Wrath"
+ SOV_Great_Purge.8.d: "Making enemies of the revolution pay for their transgressions was nothing new for Pavel - not with his years of experience in the VChK since the start of the civil war. However, the lists he'd seen handed out today came as a surprise. There were hundreds condemned to immediate imprisonment, or worse, in Stalingrad alone. After decades of relative peace in the RSFSR, this wave of repression came as a sobering reminder. Counterrevolutionaries were always on the move, and leaving them be even for a moment was criminal complacency.\n\nOne only needed to look at what happened to comrade Kirov - a great revolutionary snuffed out so abruptly, all because the machine of repression paused for a few years. Per comrade Stalin's orders, a reminder to all enemies of communism was long overdue. However, as Pavel knocked on the door of the first dissident on his list, a horrible feeling nagged at him. As if this was only the beginning of something never before seen. Oh well. He silenced the internal voice of worry, and barked an order:"
+ SOV_Great_Purge.8.A: "Open up!"
+
  SOV_Great_Purge.9.t: "Choosing Molotov"
- SOV_Great_Purge.9.d: "“The Soviet Government intends to improve its relations with Hitler, and if possible, sign a pact with Nazi Germany. As a Jew and an avowed opponent of such a policy… you stand in the way."\n\nLitvinov's immediate reaction was one of disbelief, then fiery anger. He stood up and banged on the table, arguing over the claim, ready to defend his policies, his faith, his entire career. The meeting room grew tenser, as the others waited for Stalin's response. He sucked on his pipe and said with a chilling tone:\n\n"Enough."\n\nThe man of steel thrust a paper of registration, already filled out, towards Litvinov. \n\n“Sign.”\n\nSeeing the futility of his situation, he took up a pen and signed it. NKVD agents are currently surrounding the Foreign Office, and Molotov, Beria, and Malenkov are expected to inform him of his dismissal any second now. While we will keep Litvinov in the party, with him out of the government, Molotov can finally take his place as Minister of Foreign Affairs. Molotov's foreign policy will help us solidify a pact with Germany, further establish our influence in Europe, and reconcile with Japan. Litvinov failed to do anything with the Allied powers, but Molotov won't fail with the Axis."
+ SOV_Great_Purge.9.d: "“The Soviet Government intends to improve its relations with Hitler, and if possible, sign a pact with Nazi Germany. As a Jew and an avowed opponent of such a policy... you stand in the way."\n\nLitvinov's immediate reaction was one of disbelief, then fiery anger. He stood up and banged on the table, arguing over the claim, ready to defend his policies, his faith, his entire career. The meeting room grew tenser, as the others waited for Stalin's response. He sucked on his pipe and said with a chilling tone:\n\n"Enough."\n\nThe man of steel thrust a paper of registration, already filled out, towards Litvinov. \n\n“Sign.”\n\nSeeing the futility of his situation, he took up a pen and signed it. NKVD agents are currently surrounding the Foreign Office, and Molotov, Beria, and Malenkov are expected to inform him of his dismissal any second now. While we will keep Litvinov in the party, with him out of the government, Molotov can finally take his place as Minister of Foreign Affairs. Molotov's foreign policy will help us solidify a pact with Germany, further establish our influence in Europe, and reconcile with Japan. Litvinov failed to do anything with the Allied powers, but Molotov won't fail with the Axis."
  SOV_Great_Purge.9.A: "Sorry Maxim, things change."
 
  SOV_Great_Purge.12.t: "Memento Mori"
- SOV_Great_Purge.12.d: "“So poor old Kirov is dead? This… this is a loss for the Soviet Union”.\n\nThe adviser had never seen Stalin look genuinely sad and disappointed in hearing the death of an old comrade, as most of the time, he had organized their deaths. But not this time. This one came as a complete shock to Stalin, and one that upset him greatly.\n\nSergei Kirov, a friend, a comrade, and a true revolutionary. He had always been with Stalin since the days of the October Revolution of 1917, rising through the various ranks of the Communist Party and eventually settling as the head of the party in Leningrad. And even though Stalin would be seen as his superior, he was never treated that way by the General Secretary, and even found himself on the Politburo when Stalin came to power. However, all of that came to a sudden halt, when Kirov was shot by who NKVD sources are calling a “known Zinovievist”, Leonid Nikolaev. While those who have been deemed responsible have been put on trial and dealt with, this is far from the end.\n\n“We do not know how many more of these counter-revolutionaries and revisionists remain within the cracks of the party. They could be in the army, the navy the airforce, perhaps even the politburo! This is the beginning of something that will ensure the revolution lives on, and one by one, those who disagree with the principles of the revolution will be cut from society…”\n\nAs Stalin trailed off into a paranoid rant, the adviser only hoped that what was to come would spare him from any fateful end."
+ SOV_Great_Purge.12.d: "“So poor old Kirov is dead? This... this is a loss for the Soviet Union”.\n\nThe adviser had never seen Stalin look genuinely sad and disappointed in hearing the death of an old comrade, as most of the time, he had organized their deaths. But not this time. This one came as a complete shock to Stalin, and one that upset him greatly.\n\nSergei Kirov, a friend, a comrade, and a true revolutionary. He had always been with Stalin since the days of the October Revolution of 1917, rising through the various ranks of the Communist Party and eventually settling as the head of the party in Leningrad. And even though Stalin would be seen as his superior, he was never treated that way by the General Secretary, and even found himself on the Politburo when Stalin came to power. However, all of that came to a sudden halt, when Kirov was shot by who NKVD sources are calling a “known Zinovievist”, Leonid Nikolaev. While those who have been deemed responsible have been put on trial and dealt with, this is far from the end.\n\n“We do not know how many more of these counter-revolutionaries and revisionists remain within the cracks of the party. They could be in the army, the navy the airforce, perhaps even the politburo! This is the beginning of something that will ensure the revolution lives on, and one by one, those who disagree with the principles of the revolution will be cut from society...”\n\nAs Stalin trailed off into a paranoid rant, the adviser only hoped that what was to come would spare him from any fateful end."
  SOV_Great_Purge.12.A: "The axe is sharpened..."
 
- SOV_Great_Purge.13.t: "The Trial of the Fourteen"
- SOV_Great_Purge.13.d: ""
- SOV_Great_Purge.13.A: ""
-
- SOV_Great_Purge.14.t: "Resolution of Poliburo"
- SOV_Great_Purge.14.d: "❝Comrade, I come to you today to present my final choice.❞\n❝About Kirov's affair?❞\n❝Not just that, but concerning the Soviet Union's future,❞ Stalin responded, his voice visibly exhausted.\n❝His death was not simply an assassination. This was nothing more than a massive conspiracy against the Union's leaders, including me.❞\n❝...But how many can there be?❞\n\n❝Thousands, on every street corner in every city...❞\nMolotov, perplexed, raised his head.\n❝How will we identify them? They will realise we intend to eliminate them long before the last of them are executed.❞\n❝Through their Trotskyist connections, as well as others.❞ Stalin seemed increasingly tense.\n❝Who must be dealt with?❞\n❝We must eliminate the Bukharinist opposition. Their soft approach to capitalism is treason.❞\n❝Correct. As a result, we will crush the Trotsky Revolution and adherents of Bukharin's economic programme. I'll forward this to the NKVD, and...❞\n❝I haven't finished yet!❞\n❝What? You think destroying both sides isn't enough?❞\n❝Don't forget who you're talking to, Molotov... The last one we need to eliminate is the most difficult: Tukhachevsky.❞\n\n❝You... want to eliminate the Red Marshall?" Molotov now became pale.\n❝The Red Napoleon, the head of the Red Army? ❞\n❝Yes, that is exactly what I want. That's all I have for now.❞\nBefore leaving, Molotov gave Stalin one last look: a few minutes ago, he was weakened, and now, in a few words, he ordered the extermination of the opposition. Stalin stared him down in the doorway and responded to his glare:"
- SOV_Great_Purge.14.A: "❝You know what, Vyacheslav? I’m not a new Robespierre. I'm stopping a tank-driver from causing my downfall.❞"
+ SOV_Great_Purge.14.t: "Resolution of Politburo"
+ SOV_Great_Purge.14.d: "\"Comrade, I come to you today to present my final choice.\"\n\"About Kirov's affair?\"\n\"Not just that, but concerning the Soviet Union's future,\" Stalin responded, his voice visibly exhausted.\n\"His death was not simply an assassination. This was nothing more than a massive conspiracy against the Union's leaders, including me.\"\n\"...But how many can there be?\"\n\n\"Thousands, on every street corner in every city...\"\nMolotov, perplexed, raised his head.\n\"How will we identify them? They will realise we intend to eliminate them long before the last of them are executed.\"\n\"Through their Trotskyist connections, as well as others.\" Stalin seemed increasingly tense.\n\"Who must be dealt with?\"\n\"We must eliminate the Bukharinist opposition. Their soft approach to capitalism is treason.\"\n\"Correct. As a result, we will crush the Trotsky Revolution and adherents of Bukharin's economic programme. I'll forward this to the NKVD, and...\"\n\"I haven't finished yet!\"\n\"What? You think destroying both sides isn't enough?\"\n\"Don't forget who you're talking to, Molotov... The last one we need to eliminate is the most difficult: Tukhachevsky.\"\n\n\"You... want to eliminate the Red Marshall?\" Molotov now became pale.\n\"The Red Napoleon, the head of the Red Army?\"\n\"Yes, that is exactly what I want. That's all I have for now.\"\nBefore leaving, Molotov gave Stalin one last look: a few minutes ago, he was weakened, and now, in a few words, he ordered the extermination of the opposition. Stalin stared him down in the doorway and responded to his glare:"
+ SOV_Great_Purge.14.A: "\"You know what, Vyacheslav? I’m not a new Robespierre. I'm stopping a tank-driver from causing my downfall.\""
 
  SOV_Great_Purge.15.t: "The End of Yezhov"
  SOV_Great_Purge.15.d: "Yezhov wandered aimlessly through Moscow's streets and back alleys, drink in hand, slowly stumbling in the general direction of his home. How could he, once the NKVD's king, have been reduced to this? Yezhov's face twisted into a scowl. Of course, he knew the answer: it was all because of that pudgy psychopath, Beria. He should have expedited that monster’s execution immediately when he ordered it in ‘38. If he had, Beria would never have had the opportunity to appeal to Stalin for mercy.\n\nYezhov tripped over a crack in the pavement and briefly fell to the ground. As he stood up to continue walking, the Kremlin in the distance caught his eye. It's not like he hadn't noticed his power was being usurped. The reassignment of his first deputy, Mikhail Frinovsky, signaled the impending "dismissal." He should known, because he used to organize such dismissals. Hell, he did the same thing to his chief predecessor.\n\nOf course, Frinovsky, like many of Yezhov's proteges, had been formally arrested a few months before. He had time to warn his old friend and mentee Aleksandr Uspensky, who went into hiding, but who knew how long he would be able to avoid capture. If he had learned anything about running the NKVD, it was how effective the organization was at locating and eliminating its targets.\n\nThere was no one left for Yezhov to rely on, neither student nor ally. Politically he had become radioactive. No member of the Politburo would dare talk to him outside of their assigned work for fear of being associated with him. Yezhov didn't even have his wife. While there had never been a great love between them, to have seen her commit suicide using those sleeping pills weighed heavily upon him.\n\nAs he finally stumbled back to the block that held his apartment, his eyes sluggishly focused on the two men in uniform standing at the entrance to the building. A feeling of ice pierced Yezhov’s heart as one of the men opened his mouth to speak the words Yezhov knew were coming."
- SOV_Great_Purge.15.A: ""Comrade Nikolai Yezhov, you are being arrested on suspicion of anti-Soviet behavior”"
-
- SOV_Great_Purge.16.t: "The Triumph of Yezhov"
- SOV_Great_Purge.16.d: ""
- SOV_Great_Purge.16.A: ""
+ SOV_Great_Purge.15.A: "\"Comrade Nikolai Yezhov, you are being arrested on suspicion of anti-Soviet behavior\""
 
  SOV_Great_Purge.17.t: "18th Congress of the All-Union Communist Party"
- SOV_Great_Purge.17.d: ""
- SOV_Great_Purge.17.A: ""
+ SOV_Great_Purge.17.d: "The All Union Communist Party's 18th Congress convened today, and it was a very different group of men than the previous one. This is the first Congress held since Stalin cleansed the leadership of Trotskyite infiltration. Many of the men who once stood in this hall have died or are in prison. Those who have arrived are either too afraid to speak out against Stalin in such a public forum or they owe their jobs and lives to him. As a result, the purpose of this Congress has largely been to rubber stamp the General Secretary's new agenda. This agenda is also quite full. The Congress will confirm Stalin's bold new foreign policy direction, reform the Bolshevik Party to control who can now join the Party, and approve the next Five-Year Plan.\n\nMost people are interested in the foreign policy debate because it has been reported that Stalin has grown angry at Litvinov and his outreach to Western democracies. Some speculate that he may appoint Premier Molotov, who has shown favouritism toward the Fascists in the West, to Litvinov's old post."
+ SOV_Great_Purge.17.A: "The people’s voice?"
 
  SOV_Great_Purge.18.t: "The Cult of Stalin"
  SOV_Great_Purge.18.d: "Comrade Stalin, the "architect of socialism," leads the Soviet Union fearlessly into a brighter future! His ideals are the ideals of our country! His vision is the vision that will lead to the prosperity of our great Union!\n\nEven children can see the magnificence that emanates from our great "liberator of nations"! They follow the principles they learned in the Komsomol and Young Pioneers in the schools, holding "classroom trials" to uphold the integrity of their classmates and themselves, playing Reds and Whites games, and even pretending to be our glorious leader, Stalin, himself!\n\nOfficials at all levels of government are hanging on his every word! They look to Comrade Stalin as the guiding light of Soviet influence, shining brightly on all nations of the world! Those who oppose Stalin are opposing not only him, but also the will of the Soviet Union and all of its citizens! Lead the way, oh great Soviet patriarch!"
@@ -163,30 +148,42 @@
  SOV_Great_Purge.19.A: "A truly 'revolutionary' experience!"
 
  SOV_Great_Purge.20.t: "The Honoring of Lenin"
- SOV_Great_Purge.20.d: "Today is a holiday. On the same day, fifteen years ago, on April 3, 1922, Joseph Stalin was elected General Secretary of the Bolshevik Party. And, after all this time, many of his plans have been realised: Russia is rapidly industrialising, the army has been cleansed of Trotskyist opposition, and, at long last, he has emerged as the Soviet Union's sole true leader.\n\nHowever, even thirteen years after his death, Stalin continues to refer to one man: Vladimir Lenin. The man who brought the revolutionaries together, the man who paved the way for the Bolsheviks to seize power. However, Stalin did not completely disregard Lenin's legacy. Of course, he and Lenin disagreed on how and when the revolution should spread, but Leon Trotsky had the same reservations about communism in one country during his lifetime.\n\nBut now Stalin must choose between continuing to do things his way and respecting Lenin's legacy. Should he choose to assume Lenin's mantle, he will do what he believes is best for communism, but always in the name of the man who gave his name to Marxism-Leninism. In contrast, if he chooses to be the Servant of Lenin, Joseph Stalin will be required to be more respectful of Lenin's reforms and way of thinking, as the first revolutionary who changed the way in Russia.\n\nThe final choice, of course, lies only with him…"
+ SOV_Great_Purge.20.d: "Today is a holiday. On the same day, fifteen years ago, on April 3, 1922, Joseph Stalin was elected General Secretary of the Bolshevik Party. And, after all this time, many of his plans have been realised: Russia is rapidly industrialising, the army has been cleansed of Trotskyist opposition, and, at long last, he has emerged as the Soviet Union's sole true leader.\n\nHowever, even thirteen years after his death, Stalin continues to refer to one man: Vladimir Lenin. The man who brought the revolutionaries together, the man who paved the way for the Bolsheviks to seize power. However, Stalin did not completely disregard Lenin's legacy. Of course, he and Lenin disagreed on how and when the revolution should spread, but Leon Trotsky had the same reservations about communism in one country during his lifetime.\n\nBut now Stalin must choose between continuing to do things his way and respecting Lenin's legacy. Should he choose to assume Lenin's mantle, he will do what he believes is best for communism, but always in the name of the man who gave his name to Marxism-Leninism. In contrast, if he chooses to be the Servant of Lenin, Joseph Stalin will be required to be more respectful of Lenin's reforms and way of thinking, as the first revolutionary who changed the way in Russia.\n\nThe final choice, of course, lies only with him..."
  SOV_Great_Purge.20.A: "Take the Mantle of Lenin, for a more Stalinist way!"
  SOV_Great_Purge.20.B: "Be the Servant of Lenin, for the honouring of Marxism-Leninism!"
 
- SOV_Great_Purge.21.t: "Stalin Addresses"
- SOV_Great_Purge.21.d: ""Comrades, men of the Red Army and Red Navy, commanders and political instructors, working men and women, collective farmers-men and women, intellectual workers, brothers and sisters!" On behalf of the Soviet Government and our Bolshevik Party, I greet you. This country has largely realized socialism, the first stage of communism. Now, the Soviet Union must serve as a rallying point for the revolution so that the cause of socialism can be spread throughout the world. Rather than limiting themselves to forming a united front with working-class parties, Communist parties should seek to form a popular front with all anti-fascist parties.\n\nThe capitalist system is nearing its end, and unless a socialist revolution sweeps Europe and the world, we will be crushed by world capitalism's military might, just as the Paris Commune was crushed by force of arms in 1871. And remember: an internationalist is someone who is willing to defend the USSR without reservation, without wavering, unconditionally; the USSR is the foundation of the global revolutionary movement, and this revolutionary movement cannot be defended and promoted unless the USSR is defended.\n\nLong live our magnificent Motherland, her liberty, and independence! Forward to victory under the banner of Lenin!""
+ SOV_Great_Purge.21.t: "Stalin's Address"
+ SOV_Great_Purge.21.d: "\"Comrades, men of the Red Army and Red Navy, commanders and political instructors, working men and women, collective farmers-men and women, intellectual workers, brothers and sisters!\" On behalf of the Soviet Government and our Bolshevik Party, I greet you. This country has largely realized socialism, the first stage of communism. Now, the Soviet Union must serve as a rallying point for the revolution so that the cause of socialism can be spread throughout the world. Rather than limiting themselves to forming a united front with working-class parties, Communist parties should seek to form a popular front with all anti-fascist parties.\n\nThe capitalist system is nearing its end, and unless a socialist revolution sweeps Europe and the world, we will be crushed by world capitalism's military might, just as the Paris Commune was crushed by force of arms in 1871. And remember: an internationalist is someone who is willing to defend the USSR without reservation, without wavering, unconditionally; the USSR is the foundation of the global revolutionary movement, and this revolutionary movement cannot be defended and promoted unless the USSR is defended.\n\nLong live our magnificent Motherland, her liberty, and independence! Forward to victory under the banner of Lenin!\""
  SOV_Great_Purge.21.A: "Glory to the creator of all our victories, Comrade Stalin!"
 
  SOV_Great_Purge.22.t: "Order No .00447"
- SOV_Great_Purge.22.d: ""Comrade, today, I want to submit to you this new order, 00447."\n"And what is the goal of this new one?"\nSlowly, Iejov started walking into the office.\n\n"Its goal? I can assure you that with this new order, we will finally decapitate the opposition!"\n"What kind of opposition? Do you mean the terrorist Trotskyists? Or the Bukharin merchants?"\n"No, comrade, I want to deal with the real devils of the Soviet Union: the old kulaks, criminal parasites, and all anti-soviet elements we can find!"\nIn Stalin's absence, Molotov, who represents the Politburo, shook his head.\n\n"I'm not sure, Nikola, and besides, I believe Stalin would like to see this before we implement it..."\n"Do you wish to wait, Molotov? Don't you realize that every hour we wait makes them stronger? The only way to deal with the kulaks, traitors and parasites of the Union, is to purge them!"\n\n"Arlight, alright! Just hand me a pen."\n\nAfter little hesitation, Molotov finally approved and signed the sheet. He then left the office to report to the first secretary.\n\nNow, the streets of Moscow are witnessing the beginning of a new purge, as ex-kulaks, criminals, and regime opponents are being arrested and sent to where they belong: the gulags."
+ SOV_Great_Purge.22.d: "\"Comrade, today, I want to submit to you this new order, 00447.\"\n\"And what is the goal of this new one?\"\nSlowly, Iejov started walking into the office.\n\n\"Its goal? I can assure you that with this new order, we will finally decapitate the opposition!\"\n\"What kind of opposition? Do you mean the terrorist Trotskyists? Or the Bukharin merchants?\"\n\"No, comrade, I want to deal with the real devils of the Soviet Union: the old kulaks, criminal parasites, and all anti-soviet elements we can find!\"\nIn Stalin's absence, Molotov, who represents the Politburo, shook his head.\n\n\"I'm not sure, Nikola, and besides, I believe Stalin would like to see this before we implement it...\"\n\"Do you wish to wait, Molotov? Don't you realize that every hour we wait makes them stronger? The only way to deal with the kulaks, traitors and parasites of the Union, is to purge them!\"\n\n\"Arlight, alright! Just hand me a pen.\"\n\nAfter little hesitation, Molotov finally approved and signed the sheet. He then left the office to report to the first secretary.\n\nNow, the streets of Moscow are witnessing the beginning of a new purge, as ex-kulaks, criminals, and regime opponents are being arrested and sent to where they belong: the gulags."
  SOV_Great_Purge.22.A: "The Union is saved from itself."
+
+ SOV_Great_Purge.23.t: "A Scathing Report"
+ SOV_Great_Purge.23.d: "“Comrade, are you sure about this?”\n“I am, Vyacheslav, of course I am!”\n“But, these reports... it will cause some trouble.”\n“Which will lead to more purges, I know.”\n“I see you have already made your decision about this.”\n\nThis discussion takes place in the office of Stalin’s, in company of his friend and collaborator, Molotov. Today, they took the harsh decision to send a report criticising the NKVD’s performance. And, when they criticise the NKVD, they are directly attacking Nikolai Yezhov.\n\nFor a while now, they have been worried by his actions in the purges, and his growing influence. In reaction to the situation, they have both decided to cut his ascension, and they will remove him from the head of the agency.\n\nAnd, to do this, what better solution than using the legal way? Yezhov has not reached his quotas, and Yezhov will pay it. The “Bloody Dwarf” will not be a threat any longer."
+ SOV_Great_Purge.23.A: "How many men does it take to exercise a purge? Two. One to deal with the purge itself. The second to eliminate the first."
+
+ SOV_Great_Purge.24.t: "Icarus"
+ SOV_Great_Purge.24.d: "Yevgenia was dead. Frinovsky was as good as dead. Uspensky was gone, and if he was lucky, he'd never be seen again.\n\nNikolai stared at the paper on his desk. Although Yezhov's eyes burned with hatred, the paper did not ignite. The paper was the culmination of his shame, despair and loss - it was a request to be relieved of responsibilities as People's Commissar of Internal Affairs, officially at least. In practice? It was his death sentence.\n\nBeria, the Georgian snake, had managed to not only escape his death, but turn the odds against Nikolai. In retrospect, he took too many risks, acted with too much confidence, flew too close to the sun. And now Stalin wanted him gone, and there wasn't a thing he or anyone else in this wretched world could do about it. And so the hate vanished from his eyes, endless despair taking its place."
+ SOV_Great_Purge.24.A: "Resigned, shamed, defeated."
+
+ SOV_Great_Purge.25.t: "A Secure Union"
+ SOV_Great_Purge.25.d: "For some weeks now, the purges have greatly decreased. As the days pass, it becomes more and more evident that it was not just an impression. It was real. After months of terror and oppression, executions and deportations, finally... the job has been done.\n\nThis morning, Stalin received a message from his comrade, the new head of the NKVD: Lavrenti Beria. He explained that the Purges, finally, were a complete success.\n\nIf it has taken a long, long time to be achieved, but now, every enemy of the government has been destroyed, one by one.  The Trotskyists and trotsko-fascists, in the order of Leon Trotsky, and followers of a Permanent Revolution, have been destroyed. The Bhukarinists, following Nikolai Bukharin and his capitalist-like communism, have been crushed. The Zinoviests, from Grigori Zinoviev's camp, and allegedly the heirs of Leninism, have been eradicated.\n\nAnd, finally, the military traitors. The faithfull of the former leader of the Red Army Mikhail Tukachevsky and all their cliques of followers, they were all hanged.\n\nAfter years of infection and parasitism, the party and the army have been purged of all threats to Stalin, to Bolshevism, and to the Revolution.\n\nFinally, the leaders of the Union no longer have any opposition. The words of Stalin to his mother are now completely true."
+ SOV_Great_Purge.25.A: "Do you remember the tsar? Well, I'm like a tsar."
 
  SOV_Rokossovsky_Purge: "§RRokossovsky won't be available later on!§!"
 
  SOV_Great_Purge_Failure_Second_Phase.1.t: "Et Tu, Klim?"
- SOV_Great_Purge_Failure_Second_Phase.1.d: ""
- SOV_Great_Purge_Failure_Second_Phase.1.A: ""
+ SOV_Great_Purge_Failure_Second_Phase.1.d: "Stalin is sitting in his office in the Kremlin, as he hears a knock on the door. As the door opens the Minister of Defense Kliment Voroshilov enters the office. Stalin gestures for him to take place on a chair opposite of his desk.\n\n\"Mikhail Lukin is a threat to national security and a traitor to the Motherland.\", Stalin says before Voroshilov even sits down.\n\n\"General Secretary, I assure you that Lukin is a loyal and capable Commander and has no intention of plotting against the government.\", Voroshilov calmly responds.\n\n\"What is it with you and that man? Why do you continue to protect him? He is a loose end that needs to be tied up.\", Stalin said, noticeably agitated.\n\n\"The reason I am protecting him is because there is no doubt in my mind that he is loyal. But if you really think that he is a danger then I will arrange for him to be reprimanded and sent to Serbia where he will not be able to cause any damage.\", Voroshilov responds, now seemingly distressed.\n\n\"That will not do. I want him gone for good. No half-measures. I will not take any chances or show any mercy to traitors. You will do as I say.\"As soon as these words left Stalin's mouth, Voroshilov shoots out of his chair and raises his voice: "Lukin is a good man! How many more loyal, innocent people have to die until you are satisfied Joseph?"\n\nWhile Voroshilov was stepping out of line and almost shouting at him, Stalin noticed something. On Voroshilov, tucked in his belt, was a Nagant revolver. And suddenly it dawned on him. He now knew why Voroshilov was protecting Lukin.\n\n"Why are you carrying that?" Stalin shouted as he pointed at the weapon. "This is not the first time you have conspired against me, but it will be the last. I should have had you killed back then, but I won't make the same mistake twice. I thought you could be trusted, but it seems I was wrong.", he starts to ramble as his shouting gets louder and his face starts to turn red from anger.\n\nVoroshilov, stunned and confused, can't believe what he is hearing. "What are you saying, Joseph? Have you completely lost your mind? You are paranoid! You are completely delusional!"\n\nBut Voroshilov does not have much time to defend himself as Stalin calls for his guards which promptly seize and arrest the marshal."
+ SOV_Great_Purge_Failure_Second_Phase.1.A: "It seems no one can be trusted."
 
  SOV_Great_Purge_Failure_Second_Phase.2.t: "Stalin's Retreat"
- SOV_Great_Purge_Failure_Second_Phase.2.d: "For the members of the Politburo, it was just another session. Following Voroshilov’s arrest, Stalin had gone in hiding and only communicated with the Politburo through signed communiques’ brought by a special NKVD courier. But today Second Secretary Lazar Kaganovich was about to set something in motion that would forever alter the future of the Soviet Union.\n\nAs the session drew to a close, Kaganovich received a letter from Stalin's courier: He was to prepare the trial and execution of Marshal Voroshilov. As the members of the Politburo left, he relayed a message to Marshal Budyonny, requesting his immediate presence. Simultaneously, he called upon Kalinin and Molotov, two men he trusted with his life.\n\n"Stalin's paranoia has completely consumed him. While Stalin is in hiding and sending his petty communiques, the State is growing weaker and more unstable by the day. We have to do something, lest Stalin completely ruin the Union."\n\nKaganovich then looked at the faces of the two and awaited their reaction. He could see that they were shocked, horrified even. But could sense that they were in partial agreement to his words.\n\n"Lazar, what are you saying? You will get us all killed just for talking about this!", Molotov replied.\n\n"I have just  received this letter, stating that Voroshilov is to be put on trial and executed. We all know that Voroshilov is as loyal as they come. If Stalin is willing to kill his closest and most loyal comrades, then who knows if we, or maybe even the entire Politburo, might be next? It is time we put an end to this madness."\n\n"I don't like this Lazar, but I know that you are right. This affair with Voroshilov is just too much.", Molotov said. "I agree.", Kalinin followed up: "Stalin has gone insane. We can't govern this Union, if we kill ourselves first."\n\n"Then we are in agreement.", Kaganovich nodded.\n\nAt this moment, Marshal Budyonny arrived. "I hope this is important Lazar. What is the reason for this meeting?""
+ SOV_Great_Purge_Failure_Second_Phase.2.d: "For the members of the Politburo, it was just another session. Following Voroshilov’s arrest, Stalin had gone in hiding and only communicated with the Politburo through signed communiques’ brought by a special NKVD courier. But today Second Secretary Lazar Kaganovich was about to set something in motion that would forever alter the future of the Soviet Union.\n\nAs the session drew to a close, Kaganovich received a letter from Stalin's courier: He was to prepare the trial and execution of Marshal Voroshilov. As the members of the Politburo left, he relayed a message to Marshal Budyonny, requesting his immediate presence. Simultaneously, he called upon Kalinin and Molotov, two men he trusted with his life.\n\n\"Stalin's paranoia has completely consumed him. While Stalin is in hiding and sending his petty communiques, the State is growing weaker and more unstable by the day. We have to do something, lest Stalin completely ruin the Union.\"\n\nKaganovich then looked at the faces of the two and awaited their reaction. He could see that they were shocked, horrified even. But could sense that they were in partial agreement to his words.\n\n\"Lazar, what are you saying? You will get us all killed just for talking about this!\", Molotov replied.\n\n\"I have just  received this letter, stating that Voroshilov is to be put on trial and executed. We all know that Voroshilov is as loyal as they come. If Stalin is willing to kill his closest and most loyal comrades, then who knows if we, or maybe even the entire Politburo, might be next? It is time we put an end to this madness.\"\n\n\"I don't like this Lazar, but I know that you are right. This affair with Voroshilov is just too much.\", Molotov said. \"I agree.\", Kalinin followed up: "Stalin has gone insane. We can't govern this Union, if we kill ourselves first."\n\n"Then we are in agreement.", Kaganovich nodded.\n\nAt this moment, Marshal Budyonny arrived. "I hope this is important Lazar. What is the reason for this meeting?""
  SOV_Great_Purge_Failure_Second_Phase.2.A: "Saving the Soviet Union."
 
  SOV_Great_Purge_Failure_Second_Phase.3.t: "Now We Know the End"
- SOV_Great_Purge_Failure_Second_Phase.3.d: "At dawn, Kaganovich, Molotov, Budyonny and a few other officers, accompanied by a Brigade of Red Army soldiers marched towards Stalin's Dacha, where he had been hiding ever since Voroshilov's arrest. As they approach the Dacha, they were stopped by NKVD guards, who, upon seeing the armed escort of the entourage, started aiming their weapons at them: "Second Secretary, what is the meaning of this?". "Stalin holds no authority anymore. You are outnumbered. Lay down your weapons and your lives shall be spared", Kaganovich replied. The guards hesitated for a moment, but in the end, decided to comply. They were handcuffed and escorted out of the area, while Kaganovich's entourage entered the Dacha proper.\n\nAfter the entourage reached Stalin's office, they barged in & saw Stalin sitting on his desk attending to a large pile of documents. Before the General Secretary could inquire upon the reason for the intrusion, Budyonny drew his "Honorary Revolutionary Weapon" upon Stalin. Molotov pulled out a document from his coat and handed the paper to Kaganovich, who starts reading it aloud: "Joseph Vissarionovich Stalin, after the necessary investigations conducted by the Politburo, you have been found guilty of treason and plotting against the Soviet State. And are hereby sentenced to execution". In a fiery outburst, he started screaming and cursing, threatening to have the "conspirators" and everyone they know shot. But his rambling was cut short by Budyonny's bullet.\n\nAfter the General Secretary fell to the ground, the entourage left the office. Outside, Kaganovich was approached by a Captain, asking what to do with the NKVD guards. "They are all guilty of treason. Execute them." The young officer nodded and ran off. With a series of gunshots from the executions ringing in the background, Kaganovich turned to Molotov and Budyonny: "My comrades. We have done it. We have saved the Soviet Union." Molotov stayed silent, but the Marshal replied, with a smug face."
+ SOV_Great_Purge_Failure_Second_Phase.3.d: "At dawn, Kaganovich, Molotov, Budyonny and a few other officers, accompanied by a Brigade of Red Army soldiers marched towards Stalin's Dacha, where he had been hiding ever since Voroshilov's arrest. As they approach the Dacha, they were stopped by NKVD guards, who, upon seeing the armed escort of the entourage, started aiming their weapons at them: \"Second Secretary, what is the meaning of this?\". \"Stalin holds no authority anymore. You are outnumbered. Lay down your weapons and your lives shall be spared\", Kaganovich replied. The guards hesitated for a moment, but in the end, decided to comply. They were handcuffed and escorted out of the area, while Kaganovich's entourage entered the Dacha proper.\n\nAfter the entourage reached Stalin's office, they barged in & saw Stalin sitting on his desk attending to a large pile of documents. Before the General Secretary could inquire upon the reason for the intrusion, Budyonny drew his \"Honorary Revolutionary Weapon\" upon Stalin. Molotov pulled out a document from his coat and handed the paper to Kaganovich, who starts reading it aloud: \"Joseph Vissarionovich Stalin, after the necessary investigations conducted by the Politburo, you have been found guilty of treason and plotting against the Soviet State. And are hereby sentenced to execution\". In a fiery outburst, he started screaming and cursing, threatening to have the \"conspirators\" and everyone they know shot. But his rambling was cut short by Budyonny's bullet.\n\nAfter the General Secretary fell to the ground, the entourage left the office. Outside, Kaganovich was approached by a Captain, asking what to do with the NKVD guards. \"They are all guilty of treason. Execute them.\" The young officer nodded and ran off. With a series of gunshots from the executions ringing in the background, Kaganovich turned to Molotov and Budyonny: "My comrades. We have done it. We have saved the Soviet Union." Molotov stayed silent, but the Marshal replied, with a smug face."
  SOV_Great_Purge_Failure_Second_Phase.3.A: "The NKVD will have to answer for the murder of Joseph Stalin."
 
  SOV_Great_Purge_Failure_Second_Phase.4.t: "Stalin Killed in Conspiracy, NKVD Executive Arrested"
@@ -213,8 +210,7 @@
 
  SOV_Moscow_Trials.4.t: "Trial of the Twenty-One"
  SOV_Moscow_Trials.4.d: "The third show trial, which commenced earlier this month, tied together all the loose threads from earlier trials. It includes 21 defendants alleged to belong to the so-called " Bloc of Rightists and Trotskyites". As part of the great purge, an overwhelmingly saddening task necessary to ensure loyalty to our motherland, the Trial of the Twenty-One will finish our struggle with the defiant upper class. Ambassadors, heads of mighty organizations and plain doctors alike will fall by our hand, doth they betrayed our motherland!"
- SOV_Moscow_Trials.4.A: "The navy and air force have been getting off easy so far."
- SOV_Moscow_Trials.4.B: "As we suspected, enemies are everywhere!"
+ SOV_Moscow_Trials.4.A: "As we suspected, enemies are everywhere!"
 
  SOV_Leningrad_Circle.1.t: "The Meeting"
  SOV_Leningrad_Circle.1.d: "“But that's not in the spirit of the revolution that Comrade Lenin wanted” said one of the Red Army Generals present in the meeting, “Well Comrade Lenin sure as hell didn't want Stalin in power”, said Marshal Tukhachevsky.\n\nThe group of Generals all held some of the most important ranks in the Red Army, each of the Military districts had at least one officer or more representing them in this meeting, on their orders the entire Red Army could be mobilized immediately for war or for any other “purpose”.\n\nMarshal Tukhachevsky ranted on how political interference had prevented him from capturing Warsaw in 1920, with many other officers also concurring and lamenting how almost daily interference by Political Commissars and their authority to countermand unit officer’s orders prevents them from doing something as trivial as regular shooting practices. A relatively junior officer from the Volga Military District pointed out how the Red Army’s leadership is being culled of the so-called “Trotskyites” and has made many of the commanders fearful of their lives, as executions and dismissals have become almost regular. After several hours of discussion, the officers dispersed, promising to meet again soon."
@@ -289,7 +285,7 @@
 
  SOV_Politburo_Weakened.2.t: "The Politiburo Supports the Opposition"
  SOV_Politburo_Weakened.2.d: "After much ramblings, uncertainties, and intrigue in the higher echelons of the political structure and leadership of the Soviet Union, it has become quite evident that the “Opposition” has consolidated itself and has a more than significant presence in the party circles.\n\nSeveral members of the Politburo, who are not supposed to give in to “factionalism” have made their intentions clear, and indicated that they will do everything in their power to remove General Secretary Stalin, this development has effectively led to the de-facto creation of an anti-Stalinist power bloc. \n\nThough not with certainty, it is widely believed that the oppositionists themselves are divided into their own sections, it is suspected that there are 3 main constituents, Nikolai Bukharin, leading the right-leaning members, highly improbable but rumored Sergei Kirov from the Party Center, and insignificant yet present Lev Kamenev and Grigory Zinoviev who lead the left elements. Kamenev and Zinoviev have long been considered as Stalin rivals and even Nikolai Bukharin’s disagreements with the General Secretary regarding the decision of collectivization, which led to millions of deaths and his subsequent drifting away from Stalin all indicate their possible involvement in the “Opposition”. But the rumors about Sergei Kirov’s involvement, which some think to be absurd are the real shockers considering his personal relationship with the General Secretary, though seemingly improbable, he is an influential member and commands enough respect to even refuse Stalin’s directives, whatever the case maybe it remains clear for any action to be taken against Stalin by the politburo, all the sections will play decisive roles, especially with the 17th Congress of the All-Union Communist Party coming up, which will elect the Central Committee."
- SOV_Politburo_Weakened.2.A: "Hopefully…..the Union and the party will know peace once more."
+ SOV_Politburo_Weakened.2.A: "Hopefully.....the Union and the party will know peace once more."
  SOV_Politburo_Weakened.2.A.tt: "§RStalin§! has been overpowered by the §OPolitburo§!\nPolitburo & Orgburo Strenght: §GOverwelming§!"
 
  SOV_Politburo_Weakened.3.t: "Stalin Denounces the Opposition's Plot"
@@ -365,7 +361,7 @@
  SOV_XVII_Congress.13.d2: "[FROM.GetNewsIcon]The recently organized 17th Congress of the All-Union Communist Party in Moscow has finally concluded after nearly 2 weeks of proceedings. It was one of the largest party gatherings to have yet taken place, with almost if not all of the top hierarchy of the party in attendance.\n\nSupposed to be the “Congress of Victors” to mark the achievements of the successes of the first five-year plan and the collectivization instituted in the agricultural sector. But instead, the highlight has been the formation of a “Provisional Government”, headed by long time party member Nikolai Bukharin.\n\nThe current General Secretary Joseph Stalin received more than 100 votes against him for the Central Committee elections, making it evident that it was impossible for him to be elected in the face of such great opposition from Party ranks. A staunch proponent of the New economic policy during the early 1920s, many are scratching their heads, trying to predict the direction in which Comrade Bukharin will steer the nation to, but rest assured the people of the glorious Soviet Union will continue to thrive under his guiding hand."
  SOV_XVII_Congress.13.A: "Order the NKVD Chief to Persecue Kirov"
  SOV_XVII_Congress.13.A.tt: "§RKirov§! is a menace to our power, he has to go\n§OComrade Stalin§! to lead us until further notice"
- SOV_XVII_Congress.13.B: "Keep a eye on Kirov"
+ SOV_XVII_Congress.13.B: "Keep an eye on Kirov"
  SOV_XVII_Congress.13.B.tt: "The §ONKVD§! should monitor §RKirov§!'s movements\n§OComrade Stalin§! to lead us until further notice"
  SOV_XVII_Congress.13.C: "Kirov is loyal to the party"
  SOV_XVII_Congress.13.C.tt: "We dont need to do anything about him\n§OComrade Stalin§! to lead us until further notice"
@@ -381,44 +377,44 @@
  SOV_XVII_Congress_complete: "§LXVII Congress must have ended§!"
 
  SOV_Generals_Promotions.1.t: "General Promotions"
- SOV_Generals_Promotions.1.d: "Generals Promoted in past 6 months"
- SOV_Generals_Promotions.1.A: "Ok"
+ SOV_Generals_Promotions.1.d: "During the last few months, the Soviet army school has trained and taught some new promising officers. But, as the number of officers increases, it is obvious that we need more generals to lead them.\n\nThis, along with other elements which has boosted the competence of our army altogether, has convinced the high command to promote new generals to lead the glorious Red Army.\n\nWe need the best, and we need them now. The Soviet Union requires a good military body, and what is better than a powerful army? A powerful army led by competent and charismatic leaders."
+ SOV_Generals_Promotions.1.A: "They shall make our Union proud!"
 
  SOV_Second_Year_Plan.1.t: "Liquidation of Khutors"
  SOV_Second_Year_Plan.1.d: "Initially khutor farming appeared in Russia in XVIII centry at cossack territories. Khutor was a small settlement, usually having less than 10 households, usually rich owners. Khutors spread all accross Russian Empire during the Stolypin's agrarian reform focused on bringing capitalism to Russian agricultural sector. These khutors now hinder collectivization and thus must be liquidated"
- SOV_Second_Year_Plan.1.A: ""
+ SOV_Second_Year_Plan.1.A: "Use every means necessary to get rid of them."
 
  SOV_Second_Year_Plan.2.t: "Liquidate Khutors in Kuban"
  SOV_Second_Year_Plan.2.d: "Finally freedom-loving cossacks of Kuban can be brought to the heel. With liquidation of their small settlements (khutors) we can strive for better indoctrination of these suspicious rural-dwellers"
- SOV_Second_Year_Plan.2.A: ""
+ SOV_Second_Year_Plan.2.A: "This is just the beginning."
 
  SOV_Second_Year_Plan.3.t: "Liquidate Khutors in Ukraine"
  SOV_Second_Year_Plan.3.d: "For many years Ukraine served as major grain basket of the Russian Empire. During Stolypin's agrarian reform, new khutors appeared here en masse. Now is the time to eliminate them. Ukrainian peasants should live in large villages, where it is easier to control them and make them work in kolkhozes"
- SOV_Second_Year_Plan.3.A: ""
+ SOV_Second_Year_Plan.3.A: "Our work is not over yet!"
 
  SOV_Second_Year_Plan.4.t: "Childcare System in the USSR"
  SOV_Second_Year_Plan.4.d: "Children are the future of every nation. Every single one of them holds the potential to become anything from a hard-working peasant, growing tonnes upon tonnes of crops to feed their fellow comrades, to a scientist, ready to make the next breakthrough in medicine, electricity or technology! Truly, they are the hope of the Motherland.\n\nHowever important children are, though, one cannot deny they are a hindrance for the first few years of their lives. Utterly dependent on their mothers for everything from moving to eating, they act as a distraction and hinder productivity. A natural question arises, then: How can we take care of the present and the future at the same time?\n\nThe answer lies in our childcare system. While not the first ones to implement it, we are the ones who perfected it. Crèches, government-supported daycare institutions, are places where infants and toddlers are taken care of by women specifically tasked with nurturing our precious little ones, making sure their needs are taken care of.\n\nAs there is no longer any need for them to look after their offspring, millions of young mothers can dedicate themselves fully to working to further the Motherland’s cause. As an added bonus, since they can occupy vital places in the workforce, more men can be conscripted than could be otherwise. The ingenuity of the Soviet people knows no bounds."
- SOV_Second_Year_Plan.4.A: "No One Can Say We Don’t Think Of the Children."
+ SOV_Second_Year_Plan.4.A: "No one can say we don't think of the children."
 
  SOV_Second_Year_Plan.5.t: "Empowerment of Women in Soviet Union"
  SOV_Second_Year_Plan.5.d: "By 1917 only three nations in Europe had female suffrage: Finland, Denmark and Norway. On 20 July 1917 Provisional Government enfranchised women with the right to vote, making Russian Republic one of the most democratic nations in the world. Bolshevik revolution strengthened equality of men and women even more by adopting Constitution of 1918"
- SOV_Second_Year_Plan.5.A: ""
+ SOV_Second_Year_Plan.5.A: "A women's place is at the heart of the revolution!"
 
  SOV_Second_Year_Plan.6.t: "The Great Soviet Famine"
  SOV_Second_Year_Plan.6.d: "Sacrifice. This is the word that represents our cause the best. Without sacrifices, progress cannot be achieved. Men and women alike must give up their ambitions, their comfort, their very lives to further the communist dream. A reality understood by all, yet we find ourselves facing something we couldn’t have predicted in our darkest dreams.\n\nSwollen faces, legs and arms. Graves that seem without end. Hate, fear and hopelessness. These are all part of the everyday lives of millions of our citizens in the vast grain plains of the Soviet Union. If luck exists, then we certainly lack it, for a myriad of causes have gathered to give us what can only be called the worst famine in the history of the USSR.\n\nOur policy of urbanisation and industrialisation led to countless peasants moving in the cities to work in the factories and meet the quotas required by the Five-Year Plan. This decrease in the number of farmers should have been mitigated by increased agricultural efficiency and yield due to the collectivisation undertaken at the same time, but natural disasters, food exports and the resistance of kulaks, holders of arable land from the time of the tsar, have lead to a catastrophically low harvest.\n\nSiberia, Kazakhstan, Northern Caucasus and Ukraine are only some of the many regions affected by the lack of food. As their people starve and struggle to survive, we find ourselves unable to feed them without compromising the industrialisation program.\n\nAnd we will do no such thing. Whatever the cost may be, the Five-Year Plan must continue."
- SOV_Second_Year_Plan.6.A: "Whatever the Cost…"
+ SOV_Second_Year_Plan.6.A: "Whatever the cost..."
 
  SOV_Second_Year_Plan.7.t: "Famine Caused by too Many Exports"
  SOV_Second_Year_Plan.7.d: "As it stands, we lack the industrial equipment and expertise necessary to accomplish the Five-Year Plan on our own. To solve this problem, we have had to, regrettably, export our own sweat and blood, that being food, to foreign powers in exchange for advanced industrial technology and personnel to train our people. The sheer humiliation aside, we cannot deny that we have still not caught up to the West. Thankfully, the Plan has as its aim to bring the Soviet Union to the same level as them and make us technologically independent.\n\nWhile the benefits of the food export can be clearly seen, so can the negative effects. We have already been stretching the limits of our capacity to feed the citizens with the industrialisation and urbanisation programs, but having to sell abroad our people’s source of sustenance has finally hit the nail in the figurative coffin. A famine is beginning to set in the food-producing areas of the Soviet Union, as the farmers’ yields are taken from them to feed the workers in the cities and the citizens of nations they did not even hear of.\n\nIf we wish to at least alleviate the symptoms of the disease, then action must be taken sooner than later, lest the whole body begins to suffer."
- SOV_Second_Year_Plan.7.A: "Solutions Must Be Found"
+ SOV_Second_Year_Plan.7.A: "Solutions must be found."
 
  SOV_Second_Year_Plan.8.t: "Pasha Angelina"
  SOV_Second_Year_Plan.8.d: "[FROM.GetNewsIcon]Women are an integral part of every society. They are the ones who nurture our future generations of citizens and take care of the houses while the men toil on the fields and factories of the Motherland. No one can deny the value of their roles, but perhaps there is more potential in them than one could gauge at first glance.\n\nThe best example of such potential can be found in the young udarnik and participant of the Stakhanovite movement, Praskovya Nikitichna Angelina. ‘Pasha Angelina’, as she has been colloquially called, has started attending tractor-driving courses in her native oblast in 1929 while also working at a dairy farm. In no time she proved herself to be an example to be followed by men and women alike, her leadership and dedication apparent as she organised an all-female tractor team that has been reported to have achieved 129% of the quota and thus have ranked first among the tractor teams of the region. Since then, the young worker has become a celebrity, widely covered in media and depicted on our propaganda posters. \n\nThe most recent of her statements has been ‘One hundred thousand female friends - onto the tractor!’, encouraging her fellow women to take up the roles of tractor operators that hitherto have been occupied only by men. We can only encourage this kind of appeal, for we direly need manpower. Dark clouds are gathering to our East and West, and our armies need more and more personnel to prepare for the upcoming storm. \n\nEvery female tractor worker means one more soldier that can be conscripted in the Red Army. Pasha Angelina’s work and exhortations will continue to receive our full support."
- SOV_Second_Year_Plan.8.A: "To the Tractors!"
+ SOV_Second_Year_Plan.8.A: "To the tractors!"
 
  SOV_Second_Year_Plan.9.t: "Rise of the Tolkachi"
  SOV_Second_Year_Plan.9.d: "Our planned economy could be said to be a ‘work in progress’, for it has many deficiencies and what some would call ‘flaws’. One of the more concerning ones is our inability to set realistic targets and commit resources to enterprises that are in most need of them. This has been leading to widespread inability to meet the quotas set by the Five-Year Plans, not helped by the fact that the various enterprises can’t simply buy the lacking resources because of the non-existent market economy.\n\nTo overcome this conundrum, a peculiar trend has emerged in the form of Tolkachi. Literally meaning ‘pushers’, these employees have as objective the use of ‘informal connections’ to enable production managers to meet or manipulate targeted outputs imposed by the State Planning Committee, better known as ‘Gosplan’.\n\nAn obvious form of corruption, the trend has nevertheless gained momentum, so much so that the Tolkachi have come to occupy an unofficial but powerful position as mediators between the enterprises and commissariats. This tendency, however immoral and damaging, is predicted to only rise in prevalence if the very cause of its existence is not dealt with."
- SOV_Second_Year_Plan.9.A: "At Least Have the Decency to Admit Failure."
+ SOV_Second_Year_Plan.9.A: "At least have the decency to admit failure"
 
  SOV_Bessarabia_Annexation.1.t: "Soviet Union Demands Bessarabia"
  SOV_Bessarabia_Annexation.1.d: ""
@@ -452,6 +448,15 @@
  SOV_Bessarabia_Annexation.6.A: "This is essential to the [From.GetAdjective] strategy"
  SOV_Bessarabia_Annexation.6.B: "The countries of the world must face the evil of the [FROM.GetNameDef]!"
  SOV_Bessarabia_Annexation.6.C: "[ROM.GetNameDefCap] is in an unfortunate position."
+ 
+ SOV_TAN_Integration.1.t: "Accession to the Union of Soviet Socialist Republics"
+ SOV_TAN_Integration.1.d: ""
+ SOV_TAN_Integration.1.A: "We will join our brothers!"
+ 
+ SOV_TAN_Integration.2.t: "Integration of the Tuvan Autonomous Oblast"
+ SOV_TAN_Integration.2.d: "As expected, the representatives of the now former "Tuvan People's Republic" have just informed us that the region has agreed to join the Soviet Union as an Autonomous Oblast. The integration of such a small and remote land has gone beneath the notice of most of the world's major powers - many of which never recognised the state in the first place, instead falsely labelling it a "puppet regime" under our tutelage. However, domestically the news is cause for at least muted celebration among the public, as the incorporation of yet more fellow proletariat into our great nation is always welcomed."
+ SOV_TAN_Integration.2.A: "Welcome to the Union, Comrades!"
+ SOV_TAN_Integration.2.A.tt: "Tannu Tuva has been integrated as the §CTuvan Autonomous Oblast§!!"  
 
  SOV_Sino_Japanese_War_Chinese_Defeat.1.t: "Kuomintang Pleas for Aid!"
  SOV_Sino_Japanese_War_Chinese_Defeat.1.d: " "
@@ -490,11 +495,11 @@
  SOV_Invasion_of_Persia.2.A: ""
 
  SOV_CHI_Intervention.1.t: "Soviet Intervention in China"
- SOV_CHI_Intervention.1.d: "Even before the Sino-Japanese War, the USSR supported Chinese factions in order to expand its influence. With the Sino-Japanese War increasingly favouring Japan, the Politburo in Moscow has consulted with the Stavka and decided to intervene in favour of the Chinese side in the Sino-Japanese War. The Soviet ambassador to Japan has issued a formal declaration of war to the Japanese government, and the two countries are now formally at war. [SOV.GetLeader] has announced that this is an attempt to halt further Japanese aggression against East Asian and other nations.\n\nMany commentators have expressed reservations about the Soviet intentions, to which [SOV.GetLeader] has responded that such reservations are "a perfidious act to justify Japanese aggression" and "irresponsible claims for inactivity." The Sino-Japanese War has now reached new heights, and threatens to bring the entire region down with it."
+ SOV_CHI_Intervention.1.d: "[FROM.GetNewsIcon]Even before the Sino-Japanese War, the USSR supported Chinese factions in order to expand its influence. With the Sino-Japanese War increasingly favouring Japan, the Politburo in Moscow has consulted with the Stavka and decided to intervene in favour of the Chinese side in the Sino-Japanese War. The Soviet ambassador to Japan has issued a formal declaration of war to the Japanese government, and the two countries are now formally at war. [SOV.GetLeader] has announced that this is an attempt to halt further Japanese aggression against East Asian and other nations.\n\nMany commentators have expressed reservations about the Soviet intentions, to which [SOV.GetLeader] has responded that such reservations are "a perfidious act to justify Japanese aggression" and "irresponsible claims for inactivity." The Sino-Japanese War has now reached new heights, and threatens to bring the entire region down with it."
  SOV_CHI_Intervention.1.A: "Asia's fate hangs in the balance..."
 
  SOV_CHI_Intervention.2.t: "The Soviets Puppet Xinjiang!"
- SOV_CHI_Intervention.2.d: ""
+ SOV_CHI_Intervention.2.d: "[FROM.GetNewsIcon]"
  SOV_CHI_Intervention.2.A: ""
 
  SOV_CHI_Intervention.3.t: "The Soviets Invite Us into the Comintern"
@@ -511,7 +516,7 @@
  SOV_CHI_Intervention.5.A: "Welcome CCP comrades!"
 
  SOV_CHI_Intervention.6.t: "The Sino-Soviet Alliance"
- SOV_CHI_Intervention.6.d: "A political earthquake occurred today when a Soviet ambassador in London confirmed to his British counterpart that Vyacheslav Molotov, the Soviet Minister of Foreign Affairs, met with Mao Zedong, the Chairman of the Chinese Communist Party.\n\nDespite the lack of information about what they may have said, Joseph Stalin stated in a rare display of emotion that "This is the first step in a long friendship between the Soviet Union and the legitimate government of China. I'm glad to see them finally join the Comintern".\n\nWhile the news was well received in the Soviet republics and in other communist circles worldwide, the governments of France and the United Kingdom reacted rather coldly, citing concerns about their colonial possessions in the Pacific. Unsurprisingly, the American reaction was harsh, with the President accusing Soviet leaders of attempting to destabilise the region. According to rumours, he immediately renewed his friendship with the Chiang Kai-Shek government, as well as asking for weapons and military equipment."
+ SOV_CHI_Intervention.6.d: "[FROM.GetNewsIcon]A political earthquake occurred today when a Soviet ambassador in London confirmed to his British counterpart that Vyacheslav Molotov, the Soviet Minister of Foreign Affairs, met with Mao Zedong, the Chairman of the Chinese Communist Party.\n\nDespite the lack of information about what they may have said, Joseph Stalin stated in a rare display of emotion that "This is the first step in a long friendship between the Soviet Union and the legitimate government of China. I'm glad to see them finally join the Comintern".\n\nWhile the news was well received in the Soviet republics and in other communist circles worldwide, the governments of France and the United Kingdom reacted rather coldly, citing concerns about their colonial possessions in the Pacific. Unsurprisingly, the American reaction was harsh, with the President accusing Soviet leaders of attempting to destabilise the region. According to rumours, he immediately renewed his friendship with the Chiang Kai-Shek government, as well as asking for weapons and military equipment."
  SOV_CHI_Intervention.6.A: "The world situation is heating up."
 
  SOV_CHI_Intervention.7.t: "The Soviet Demands"
@@ -520,13 +525,13 @@
  SOV_CHI_Intervention.7.B: "No"
 
  SOV_CHI_Intervention.8.t: "KMT Forced to Allow Communists into Goverment"
- SOV_CHI_Intervention.8.d: "Unexpected news has emerged from China: Chiang Kai-Shek, the leader of the Republic of China, has been forced to admit CCP members to the central government, a move widely interpreted as a sign that his power is dwindling.\n\nWhile it is unclear what compelled Chiang to allow his sworn enemies to come so close to power, many experts believe that the Soviet Union exerted significant pressure, seeing the CCP as a means to further the revolution and secure Soviet interests in the region. While the Soviet government has expressed delight at the announcement, they strongly deny any involvement in the matter.\n\nMany KMT members were outraged by the decision, with one source close to Chiang declaring that "the poisonous dagger of communist evil has been plunged into our nation, and it will be a swift death for our country." Democratic nations around the world have also condemned the move, warning that China could fall to communism and that many other countries are vulnerable to the same fate. They also warned that any attempt by communists to seize complete control of the country would almost certainly result in embargoes and the abolition of diplomatic relations."
+ SOV_CHI_Intervention.8.d: "[FROM.GetNewsIcon]Unexpected news has emerged from China: Chiang Kai-Shek, the leader of the Republic of China, has been forced to admit CCP members to the central government, a move widely interpreted as a sign that his power is dwindling.\n\nWhile it is unclear what compelled Chiang to allow his sworn enemies to come so close to power, many experts believe that the Soviet Union exerted significant pressure, seeing the CCP as a means to further the revolution and secure Soviet interests in the region. While the Soviet government has expressed delight at the announcement, they strongly deny any involvement in the matter.\n\nMany KMT members were outraged by the decision, with one source close to Chiang declaring that "the poisonous dagger of communist evil has been plunged into our nation, and it will be a swift death for our country." Democratic nations around the world have also condemned the move, warning that China could fall to communism and that many other countries are vulnerable to the same fate. They also warned that any attempt by communists to seize complete control of the country would almost certainly result in embargoes and the abolition of diplomatic relations."
  SOV_CHI_Intervention.8.A: "The liberation of the Chinese workers is near!"
  SOV_CHI_Intervention.8.B: "A death knell for our nation"
  SOV_CHI_Intervention.8.C: "An extraordinary move with grave consequences"
 
  SOV_CHI_Intervention.9.t: "Chiang Refuses Soviet Demands"
- SOV_CHI_Intervention.9.d: "Following a flurry of diplomatic messages, threats, and warnings, Chiang Kai-Shek has publicly condemned Soviet efforts to force CCP members into the central government. Chiang has refused any cooperation with the CCP, revealing written demands from both the Soviet Union and the Chinese Communists, reinforcing his anti-communist credentials while increasing tensions in the region that appear to be spiralling out of control.\n\nThe CCP has reacted angrily, claiming that they only wanted to work with Chiang to "help build a better China for an uncertain future," and that "the rhetoric coming from Nanjing is extremely threatening." As a result, the CCP has begun to seek protection from the USSR, including military and economic assistance. In response to this "unprecedented move," the Republic of China has begun a rapid military buildup campaign in preparation for any Soviet Union attack.\n\nOther nations around the world are looking on with concern, with the USA calling for calm in the region and the need for a peaceful solution to be found. While this would be the ideal outcome, it seems that the plea for call for cool heads may have fallen on deaf ears."
+ SOV_CHI_Intervention.9.d: "[FROM.GetNewsIcon]Following a flurry of diplomatic messages, threats, and warnings, Chiang Kai-Shek has publicly condemned Soviet efforts to force CCP members into the central government. Chiang has refused any cooperation with the CCP, revealing written demands from both the Soviet Union and the Chinese Communists, reinforcing his anti-communist credentials while increasing tensions in the region that appear to be spiralling out of control.\n\nThe CCP has reacted angrily, claiming that they only wanted to work with Chiang to "help build a better China for an uncertain future," and that "the rhetoric coming from Nanjing is extremely threatening." As a result, the CCP has begun to seek protection from the USSR, including military and economic assistance. In response to this "unprecedented move," the Republic of China has begun a rapid military buildup campaign in preparation for any Soviet Union attack.\n\nOther nations around the world are looking on with concern, with the USA calling for calm in the region and the need for a peaceful solution to be found. While this would be the ideal outcome, it seems that the plea for call for cool heads may have fallen on deaf ears."
  SOV_CHI_Intervention.9.A: "We must protect our communist brothers and sisters!"
  SOV_CHI_Intervention.9.B: "China will be the bulwark against the communist menace"
  SOV_CHI_Intervention.9.C: "The drums of war grow louder in China"
@@ -536,17 +541,21 @@
  SOV_CHI_Intervention.10.A: "Send word to Chairman Mao; we shall protect the workers of China!"
  SOV_CHI_Intervention.10.B: "We resent the Kuomintang's choice, but the risk of war is too much..."
 
- SOV_CHI_Intervention.11.t: "Demands Subjugation"
+ China_Nationalist: "[CHI.GetName]"
+ China_Communist: "[PRC.GetName]"
+ China_Sinkiang: "[SIK.GetName]"
+ 
+ SOV_CHI_Intervention.11.t: "[ROOT.Supported_Faction_China] Demands Subjugation"
  SOV_CHI_Intervention.11.d: ""
  SOV_CHI_Intervention.11.A: "Yes"
  SOV_CHI_Intervention.11.B: "No"
 
  SOV_CHI_Intervention.12.t: "Demands Unification of China!"
- SOV_CHI_Intervention.12.d: "Today (Supported Faction) has sent (Supposed nations) an ultimatum to unify under the banner of (Supposed Nation) in order to stabilize the Chinese region and to liberate the workers of the whole Chinese region and to put an end to Japanese domination. This action has enraged Japan’s government and will cause further tensions in the diplomatic relations between (Supported Faction) and Japan because of their ever stronger grip over Asia. The ultimatum has also reached Germany, where the German Reich have declared support for the Japanese and being against (Supported Faction) intervention.\n\nIt is unsure what the response will be from the warlords and (Supposed Nation) but this surely will spark the Chinese powder keg and will most likely result in another war between the various factions, including the Communists and the Kuomintang."
+ SOV_CHI_Intervention.12.d: "[FROM.GetNewsIcon]Today [ROOT.Supported_Faction_China] has sent the other Chinese warlords an ultimatum to unify under the banner of [ROOT.Supported_Faction_China] in order to stabilize the Chinese region and to liberate the workers of the whole Chinese region and to put an end to Japanese domination. This action has enraged Japan’s government and will cause further tensions in the diplomatic relations between [ROOT.Supported_Faction_China] and Japan because of their ever stronger grip over Asia. The ultimatum has also reached Germany, where the German Reich have declared support for the Japanese and being against the intervention by [ROOT.Supported_Faction_China].\n\nIt is unsure what the response will be from the warlords but this surely will spark the Chinese powder keg and will most likely result in another war between the various factions, including the Communists and the Kuomintang."
  SOV_CHI_Intervention.12.A: "C’mon... Another one?"
 
  SOV_SPR_Intervention.1.t: "Spain Is Now Under Our Influence"
- SOV_SPR_Intervention.1.d: "Our demands to Spain were a success! After investing in the country economically and growing our influence, Jose Diaz had little choice in the matter of their independence, and we're forced to accept our "agreement". Now, they are an official satellite state of Moscow and bow to our every need. This gives us access to Western Europe, an ally in the Mediterranean, and a trade partner in the Atlantic. Let every fascist and capitalist superpower tremble at our growing influence, and let this be a warning to them all!"
+ SOV_SPR_Intervention.1.d: "Our demands to Spain were a success! After investing in the country economically and growing our influence, Jose Diaz had little choice in the matter of their independence, and they're forced to accept our "agreement". Now, they are an official satellite state of Moscow and bow to our every need. This gives us access to Western Europe, an ally in the Mediterranean, and a trade partner in the Atlantic. Let every fascist and capitalist superpower tremble at our growing influence, and let this be a warning to them all!"
  SOV_SPR_Intervention.1.A: "Spanish and Soviet relations, forever cemented"
 
  SOV_SPR_Intervention.2.t: "Spain Bows to the Soviets"
@@ -564,8 +573,8 @@
  SOV_Liberation_of_Europe.100.A: "Sunrise for the revolution, sunset for the eagle."
 
  SOV_Liberation_of_Europe.1.t: "The Liberation of Czechoslovakia"
- SOV_Liberation_of_Europe.1.d: ""
- SOV_Liberation_of_Europe.1.A: ""
+ SOV_Liberation_of_Europe.1.d: "The end of the fighting has finally been proclaimed over the liberated Czech and Slovak republics, as our troops have entered into Prague.\n\nAfter the fall of the city, the Czechoslovak Socialist Republic was quickly proclaimed, with, at his head, the communist sympathiser Klement Gottwald. Our troops have not encountered much resistance in the region, mainly due to the harsh conditions of occupation the Germans have enacted here. And, after a long separation, both Czechs and Slovaks are united again.\n\nEven though the road to the liberation of the world is still long, today we have taken a big step forward!"
+ SOV_Liberation_of_Europe.1.A: "Czechoslovak workers, breathe the fresh air at last!"
 
  SOV_Liberation_of_Europe.2.t: "The Liberation of Poland"
  SOV_Liberation_of_Europe.2.d: ""
@@ -576,8 +585,8 @@
  SOV_Liberation_of_Europe.3.A: ""
 
  SOV_Liberation_of_Europe.4.t: "The Liberation of Hungary"
- SOV_Liberation_of_Europe.4.d: ""
- SOV_Liberation_of_Europe.4.A: ""
+ SOV_Liberation_of_Europe.4.d: "Today, the Soviet troops have entered Budapest. Finally, more than twenty years after the fall of the Hungarian Council’s Republic of comrade Béla Kun, communism has risen again.\n\nEven though the former leader has not survived long enough to see it again, the communist party of Hungary, despite the purges of Horthy, have not totally disappeared. Mátyás Rákosi, the General Secretary of the Hungarian Workers Party, has even been suggested to lead the new republic.\n\nNow, our troops have entered the city, and the Hungarian troops have started to surrender in their thousands to our soldiers, with the most radical fleeing to the Austrian or Yugoslav territories. But for now, our victory is total, and a new sister republic has finally been reborn!"
+ SOV_Liberation_of_Europe.4.A: "May he be "The best Hungarian pupil of the Soviets"!"
 
  SOV_Liberation_of_Europe.5.t: "The Liberation of Bulgaria"
  SOV_Liberation_of_Europe.5.d: ""
@@ -596,17 +605,54 @@
  SOV_Liberation_of_Europe.8.A: ""
 
  SOV_Liberation_of_Europe.9.t: "The Liberation of Germany"
- SOV_Liberation_of_Europe.9.d: ""
- SOV_Liberation_of_Europe.9.A: ""
+ SOV_Liberation_of_Europe.9.d: "After months of hard fighting, our troops have finally entered Berlin. The fall of the city has signalled the death throes of the German Reich, and, at the same time, both the end of the Teutonic ambitions and the victory of the workers against their oppressors! Finally, the country of Marx is freed from fascism and totalitarianism!\n\nReceiving the news, our great leader has spoken of his eagerness to fly to the liberated city at the first available chance, determined to address both the population and the soldiers in an historical speech.\n\nEven though fighting continues in some areas, it is now clear that our victory is total. A new soviet republic will be proclaimed in the coming weeks, and celebrations will begin across the Union, to celebrate, finally, the end of the Great Patriotic War!"
+ SOV_Liberation_of_Europe.9.A: "The workers revolution shall last for all eternity!"
 
- ### Soviet Special Events
- soviet_special.1.t: "German Betrayal"
- soviet_special.1.d: "Germany signed a treaty with us and dares break it!? This must not go without punishment!"
- soviet_special.1.A: "For the Motherland!"
+ ###Red Army Tree
+ SOV_Red_Army.1.t: "State of the Red Army"
+ SOV_Red_Army.1.d: "A report to the general staff of the Red Army on its combat ability.\n\nThe Workers and Peasants Red Army is commonly referred to as the Red Army. It is now plagued with corruption ranging from the lowest of officers to even our own commissars. Once the proud army of the people and the sign of the liberation of the working class is now a disorganized mess and severely lacking doctrinal coordination.\n\nTwo factions seem to be forming among our officer class. The first one is the doctrine of “deep battle”:  The process of thrusting into an enemy's rear after a breakthrough is made. Then there is the old guard's preferred way of doing things: "human wave tactics". This doctrine is comprised of overpowering our enemy by sheer numbers.\n\nIt is highly recommended that serious consideration and evaluation of the Red Army take place as advised in the 17th Congress."
+ SOV_Red_Army.1.A: "A crucial issue that needs to be addressed. "
 
- soviet_special.2.t: "Great Patriotic War"
- soviet_special.2.d: "Germany pushes into the Motherland farther then we thought they could. We must put a end to this!"
- soviet_special.2.A: "For the Motherland!"
+ SOV_Red_Army.2.t: "Reports About Low Readiness of the Army"
+ SOV_Red_Army.2.d: "As the Great Purge has progressed, the Red Army has received a lot of attention. Because it was once led by the arch traitor Leon Trotsky himself, Stalin fears that many of its soldiers and generals still owe allegiance to him or the Tsar they served before the Revolution. Alleged letters between Marshal Tukhachevsky and German intelligence heightened these fears. Because of these concerns, the Red Army's officer corps has been reduced significantly. This has alleviated the General Secretary's concerns, but according to a recent report, has left the Red Army a shell of its former self. Some of the current officers barely survived the Purge, making them too afraid to act on their own. Others were only recently promoted, so they lack the necessary experience. Those assumptions also only apply to officers who are present. Many officer positions remain unfilled, forcing lower ranks to assume responsibilities for which they were not trained.\n\nTaken as a whole, this report paints a bleak picture. It depicts the Red Army as a vehicle on its last legs, waiting for one more thing to go wrong before collapsing. This is especially troubling given the threat posed by Fascist and Capitalist hordes to the West, who appear destined to attack us."
+ SOV_Red_Army.2.A: "Shoot the bastard who wrote this!"
+ 
+ SOV_Red_Army.3.t: "Reorganization of the General Staff"
+ SOV_Red_Army.3.d: ""
+ SOV_Red_Army.3.A: "Marshal Tukachevsky"
+ SOV_Red_Army.3.B: "Marshal Voroshilov"
+
+ SOV_Red_Army.4.t: "Introduction of Military Ranks to the Army"
+ SOV_Red_Army.4.d: "Many things were abolished in the aftermath of the Revolution due to the taint of Tsarism. Military ranks were one of those many things. In fact, in our revolutionary zeal, the term "officer" was dropped entirely. In their place, the Red Army has used a service classification system ranging from K-1 to K-9. These served as military ranks, but had been cleansed of the previous system's long history of Tsarism. The system, however, was not without flaws. The insignia dictated a commander's category, not his rank, but soldiers still had to address commanders using functional titles.\n\nAll of this resulted in titles like Comrade Deputy Chief of Staff of Corps. While these issues did not jeopardize the military's ability to function, the eventual clunkiness of some titles led to some officers in the field simply reverting to the old Tsarist rank system in the heat of battle. Rather than execute these men for treason, the Army and government have recognized the system's flaws. After much deliberation, they have decided to reinstate military ranks in the Army, but not Tsarist ranks. Instead, it will be a hybrid of the old Tsarist system and a new system entirely created by the state."
+ SOV_Red_Army.4.A: "A satisfactory compromise"
+
+ SOV_Red_Army.7.t: "On the Cossacks"
+ SOV_Red_Army.7.d: "The Cossacks are a unique ethnic group in Russia. They are both an ethnic group centred on the Don, Terek, Ural, and Dnieper River basins and a special military elite. This military elite has a long history in Russia, having fought alongside the Tsar against Napoleon, the Turks, the Germans, and the English and French in the Crimea. When we took power in 1918, the Cossacks rebelled on behalf of their Tsarist masters. They provided assistance to the German invaders and even established a brief state in the Don. With the demise of that so-called state, however, the Cossacks are once again at our mercy.\n\nSome have suggested that we simply eliminate them. Their fight against us demonstrates how heinous their entire class is, and they should be exterminated along with all other enemies of the state. Others, on the other hand, have a different idea. They claim that while the Cossacks did fight us, it was at the behest of their leaders. They claim that if given the opportunity, many Cossacks would have joined us in our just cause. After all, they were not blind to the facts on the ground in 1917; they could see Russia's impending disaster just as well as we did. They use the Red Cossacks' valiant service during the Civil War to prove their point. These valiant men served honourably until they were nearly annihilated by the Poles in 1920. Perhaps we should honour their memory by rehabilitating their comrades."
+ SOV_Red_Army.7.A: "Reintegrate the cossack units"
+ SOV_Red_Army.7.B: "Purge them"
+
+ SOV_Red_Army.8.t: "Katyusha, Stalin's Organs"
+ SOV_Red_Army.8.d: "From the offices of rocket scientists and engineers pulling all-nighters back in the late 1920s in the Gas Dynamics Laboratory, became a new form of artillery in the matter of a decade, albeit experimental in nature. The Reactive Scientific Research Institute has given us the BM-13, after many tests, but our comrades of the artillery corps were disappointed in their reload times, but the results are there, from 5 kilometres, an intense saturation bombing of an area with devastating effect. We have yet to see what the maiden combat use shall result in."
+ SOV_Red_Army.8.A: "O is for obliterating everyone. And R is for rockets to get those that hide."
+
+ ###Airforce Tree
+ SOV_Airforce.1.t: "The Heroes of Aviation"
+ SOV_Airforce.1.d: "For a long time, we have maintained that the Union's progress is forged through the collective sweat and blood of all citizens in our country, with no room for individuals to claim something for themselves. Recent advancements in the air force, however, have caused us to reconsider, and we believe it is time to honour outstanding pilots who truly devote themselves to the revolution.\n\nValery Chkalov has spent the majority of his life in aviation, joining the early foundations of the Red Air Force and becoming a mechanic at the age of 16 in 1920, and by the early 1930s was already training the next generation of Soviet pilots. His notable accomplishments include performing 250 loop-the-loops in just 45 minutes, which was a sight to behold.\n\nGeorgy Baydukov has served in the military since 1926 and is well known among pilots and aviation students for developing instrument flight rules for the entire Air Force, which has been critical to its development.\n\nAlexander Belyakov is a skilled navigator, having travelled to Udd Island over a distance of over 9374 kilometres, spanning the entire width of our vast country. He's also flown from Moscow to the United States over the North Pole, a feat only a great Soviet man like him could accomplish.\n\nFinally, Mikhail Gromov is the Central Aerohydrodynamic Institute's chief pilot. He has served in the Air Force since graduation and has even won the Soviet weightlifting championship!\n\nThese men are excellent role models for all people in the Soviet Union, whether they are workers, soldiers, or pilots!"
+ SOV_Airforce.1.A: "Incredible accomplishments by incredible men!"
+
+ SOV_Airforce.2.t: "The Ladies of the Air"
+ SOV_Airforce.2.d: "\"Women and men! Together as one!\". Marina's room was filled with the same lines she heard every day over the radio's speaker. She had devoted every fibre of her being to the revolution. Despite this, she had never been able to pursue her dream of becoming a pilot. In theory, all people in the USSR were equal, yet she had never seen female pilots flying the latest developments in plane technology. All she wanted was to get out of the thick haze that hung over Moscow.\n\nA knock on her door jolted her back to reality, with one of her neighbours most likely trying to sell her cheap and suspect-looking vodka. She was pleasantly surprised, however, to see Mikhail, the local postman, standing at the door. She'd never been happier to see a postman before, because it meant she'd finally be interacting with someone who wasn't one of her neighbours.\n\n“Letter for Marina Raskova” he smiled, handing her the small, and slightly damp envelope. “It looks important too”, he said, pointing towards the seal on it.\n\nMarina recognised the seal; the Soviet Air Force.\n\n“Thank you very much!”. She almost wanted to hug Mikhail, but he was gone before she could. Going back inside, she tore open the letter, and quickly began reading it.\n\n“Miss M Raskova,\n\nWe are excited to announce the formation of a new squadron, the 588th Night Bomber Regiment. We know you've been in close contact with [SOV.GetLeader] about this proposal, and we'd be delighted to welcome you as an air advisor in government. You can, of course, lead this squadron yourself, but we believe your expertise is best served here in government.\n\nYours sincerely\nSoviet Air Force Command”\n\nMarina knew what her heart wanted, but she thought that perhaps the government could do with a woman who knew her way around planes..."
+ SOV_Airforce.2.A: "...my place is here, in the heart of the government."
+ SOV_Airforce.2.B: "...the wind will whisper when the Night Witches come."
+
+ ### Soften Legislation
+ SOV_Soften_Legislation.1.t: "Amendments to the Law of Three Spikelets"
+ SOV_Soften_Legislation.1.d: "One year ago, the Soviet Union’s government passed a law, with a big impact in the agriculture sector. This is not really a new thing, as there were plenty of such laws for the last 16 years.\n\nNo, the important matter was the importance of this last law. The Law of Three Spikelets, as it was nicknamed by the peasants, is a law enacted to counter the sabotage in the crops. That sabotage was obviously orchestrated by the rich peasants, or “kulaks”, who want to eat what they produce instead of giving their crops to the rest of the people of the Union.\n\nThis was declared an unacceptable situation by the government, who enacted the law to punish these thieves before they propagate inside the union. And, in reaction, the responsibles peasants were persecuted by the kolkhoz.\n\nBut, as the New Year began, Stalin declared that this law was perhaps too harsh, surely in reaction to the extreme unpopularity engendered by it. The law was not totally abolished, but, if all works as it should, the arrests should decrease.\n\nEven more importantly, hunger and deep need were evoked to explain the violations of the law. And, first within the Union, amnesty should be declared for those who were already arrested because of this law."
+ SOV_Soften_Legislation.1.A: "A big step forward for our agricultural policy!"
+
+ SOV_Soften_Legislation.2.t: "Discussion on return of Citizen's Rights for Lishensi"
+ SOV_Soften_Legislation.2.d: "The new Soviet constitution! What a great project for the country! But, before its completion, we need more work to be done. One of the important points to be changed is the question of the Lishensi.\n\nThe Lishensi are a special category of people, which consist of former privileged classes and their families, condemned criminals, and kulaks, for the most known.\n\nOf course, all of the Lishensi have no reason to love Stalin and his Bolsheviks, so, to appease tensions, the comrade General Secretary gives his authorization to return them their political rights.\n\nStalin also asked to abolish this entirely people’s category, and to start a silent amnesty for the kulaks. The deportation of the latter should be definitively halted, and, lastly, the deported Kulaks will be able to apply for their rehabilitation.\n\nAs the news about this proposition is diffusing in Moscow, some manifestations have been noted in the now former centres of Kulak’s and other Lishensi’s population, but, for once, these are not manifestations against the government. They are in its favour."
+ SOV_Soften_Legislation.2.A: "Citizens of the Soviet world, unite!"
 
 ######################################################################
 #  Soviet Union Focuses
@@ -637,7 +683,7 @@
  SOV_XVIII_Congress.tt: "§YStalin Will Guide the Union to a Bright Future.§!"
 
  SOV_Purges_in_the_Red_Army: "Purges in the Red Army"
- SOV_Purges_in_the_Red_Army_desc: "Our initial assumption that only the KPSS had been infiltrated by the “fifth columnists” has proven to be wrong, among other sections of the society, even the Red Army has been affected by subversive individuals, working from within the organisation itself. It’s astonishing but the latest NKVD report is very definite, and has implicated senior commanders all the way from the division level to Army level for traitorous offences, ranging from having trotskyite sympathies to being actively involved in spying and collaborating with Foreign entities…...even a few of the Marshals have been implicated. Comrade Stalin has authorised the NKVD to begin extending the purge to the Red Army as well and cleanse it of these traitorous individuals immediately."
+ SOV_Purges_in_the_Red_Army_desc: "Our initial assumption that only the KPSS had been infiltrated by the “fifth columnists” has proven to be wrong, among other sections of the society, even the Red Army has been affected by subversive individuals, working from within the organisation itself. It’s astonishing but the latest NKVD report is very definite, and has implicated senior commanders all the way from the division level to Army level for traitorous offences, ranging from having trotskyite sympathies to being actively involved in spying and collaborating with Foreign entities......even a few of the Marshals have been implicated. Comrade Stalin has authorised the NKVD to begin extending the purge to the Red Army as well and cleanse it of these traitorous individuals immediately."
 
  SOV_State_Defense_Committee: "State Defense Committee"
  SOV_State_Defense_Committee_desc: "War is upon us, the very existence of the revolution and its birthplace has been threatened, we cannot afford to lose this battle of survival. Our Nation covers an extraordinarily wide expanse of land, stretching for thousands of kilometres from the Baltic Sea, all the way to the Pacific ocean. The wide expanse creates several organisational difficulties, in an attempt to better coordinate national efforts, especially for war, it has been decided to centralise power and form a national organisation, i.e. the State Defense Committee(GKO or ГКО). The GKO which staffed by the top members of the KPSS, including General Secretary Stalin himself, will be tasked with coordinating all the national wartime efforts to maximise operability and functionality."
@@ -728,7 +774,7 @@
  SOV_Stalins_Protege_desc: "Georgy Malenkov has been a longtime established member of the VKP(b), personally having formed a relationship with the father of the revolution- Vladimir Lenin himself during the early days of the Union, guaranteeing his rise and prominence in the party. General Secretary Stalin holds a very favourable opinion of him, he has shown himself to be a competent and effective organiser, participating in the recent purges with great zeal, confirming his motivation and political reliability. It is time his role was expanded, and accordingly the People’s Commissariat of Affairs will be placed under his disposal to better effectivise the ongoing purges. His appointment will aim to fix “some” of the issues that have occurred due to Yezhov’s rabid bloodletting, where in the past year or so he has caused considerable irreparable damage to the economic, political and military structures of the Soviet society."
 
  SOV_The_Beria_Flight: "The Beria Flight"
- SOV_The_Beria_Flight_desc: "In the latest wave of arrest order, an interesting name has come up, that of Lavrentiy Beria. Beria enjoy’s the General Secretary Stalin’s trust, having developed a relationship while working in the Transcaucasian region, and thwarting an assasination “attempt” on him, nevertheless he was effective, ruthless and very competent while leading the Georgian OGPU, dismantling Turkish and Iranian intelligence networks in the region, while building our own in them. It seems his dismissal will be a great loss, especially when we need ruthless and reliable men like him during these uncertain times. Only if he could present his case……."
+ SOV_The_Beria_Flight_desc: "In the latest wave of arrest order, an interesting name has come up, that of Lavrentiy Beria. Beria enjoy’s the General Secretary Stalin’s trust, having developed a relationship while working in the Transcaucasian region, and thwarting an assasination “attempt” on him, nevertheless he was effective, ruthless and very competent while leading the Georgian OGPU, dismantling Turkish and Iranian intelligence networks in the region, while building our own in them. It seems his dismissal will be a great loss, especially when we need ruthless and reliable men like him during these uncertain times. Only if he could present his case..."
 
  SOV_Yezhovchina: "Yezhovchina"
  SOV_Yezhovchina_desc: "Though sections of the society have been purged of several “fifth columnists”, many remain, continuing to spread their traitorous anti- socialist propaganda freely to poison the socialist spirit in the Soviet people. Nikolai Yezhov, heading the People’s Commissariat of Internal Affairs since Yagoda’s “dismissal” has been spearheading the purges to cleanse the Soviet society. It has slowly become evident that a more heavy handed approach is needed to better crack down on the “fifth columnists”, and accordingly Yezhov has been given the authority to step up his operations. The bloodletting will be stepped up, and this year will forever be remembered as \"Yezhovshchina\", or the \"Time of Yezhov\"."
@@ -812,7 +858,7 @@
  SOV_Yakovlev_Fighters_desc: "Formed in 1934 under the comrade Alexander Sergeyevich Yakovlev and codenamed Experimental Design Bureau-115, the Yakovlev aircraft manufacturer is specialized in the design and production of high speed interceptors, something that could be vital in case of conflict, for if any enemy takes control of our airspace this could spell deep trouble and engender catastrophic results, as it means that our cities, factories, and infrastructure are exposed to bombardment that could and will weaken our capability to wage war. Something that the Soviet Union can not allow!"
 
  SOV_Military_Reorganization: "Military Reorganization"
- SOV_Military_Reorganization_desc: "The Great Purge has left the officer core of the Red Army in quite a state to say the least. Although ridding the military organisation of many of the NCOs and command staff may have been a necessary sacrifice, it certainly has proved a devastating blow in the fighting capabilities of our army. The power vacuum left by the absence of our old commanders, must be filled by a new generation of young, fresh and eager officers. The situation may look dire at its contemporary stage, but the overhaul of military staff will pave the way for a new and innovative generation of Soviet command staff. A full military reorganisation must take place if we wish to stand a hope in hell in the coming wars…"
+ SOV_Military_Reorganization_desc: "The Great Purge has left the officer core of the Red Army in quite a state to say the least. Although ridding the military organisation of many of the NCOs and command staff may have been a necessary sacrifice, it certainly has proved a devastating blow in the fighting capabilities of our army. The power vacuum left by the absence of our old commanders, must be filled by a new generation of young, fresh and eager officers. The situation may look dire at its contemporary stage, but the overhaul of military staff will pave the way for a new and innovative generation of Soviet command staff. A full military reorganisation must take place if we wish to stand a hope in hell in the coming wars..."
 
  SOV_Third_Year_Plan: "3rd Five Year Plan"
  SOV_Third_Year_Plan_desc: "Given the success of our other plans, a third Five Year Plan is the obvious option. We need to focus on heavy industry and developing our natural resources if we are ever to triumph in the endless struggle against Capitalism. However, many paths lay before us. We need to either focus on armaments, in case of war or consumer goods, in order to create a worker's paradise. Another problem is that we can only choose to develop either our oil production in Baku or hunt for the valuable minerals that sit deep in the Ural Mountains. No matter what, our plans must go forward. Together, we will make the USSR a developed, self-sufficient power to rival the capitalist system."
@@ -973,7 +1019,7 @@
  SOV_Get_Rid_of_Opposition: "Get Rid of Opposition"
  SOV_Get_Rid_of_Opposition_desc: "This, Opposition, is causing more problems than the economy, at long last we shall rid the earth from their scourge and bring forth true Communism and finally make our country one not of sadness and famine but a country revered the world over. At long last, We can finally rid the earth of their stain and finally go to the future."
 
- SOV_Supress_Socially_Alien_Elements: "Supress Socially Alien Elements"
+ SOV_Supress_Socially_Alien_Elements: "Suppress Socially Alien Elements"
  SOV_Supress_Socially_Alien_Elements_desc: "Those who had the biggest role and impact in subverting the socialist cause will face justice for their crimes, no doubt. But those who stand tall in history are supported by thousands of nameless faces. Insignificant as they might be individually, every single one of them has the potential to endanger everything we have built. Aristocrats, imperial militarists, bureaucrats, clergymen, all these Tzarist ‘former people’, already at the fringes of our society due to their role in the former regime, still move in the shadows of our cities and the forests of our nation, bidding their time until they can have their revenge on those they once took advantage of. Obvious is their inclination to collaborate with the traitors from our own ranks, and so is their potential to damage the achievements of the USSR.\n\nAnts have to be crushed, lest they slowly fester the Union. Many of them can be found in Leningrad, once the centre of the Russian monarchy. They shall make a fine example of what happens when you play with fire."
 
  SOV_Rule_By_Force: "Rule by Force"
@@ -1044,13 +1090,71 @@
 
  #### Red Army stuff
  SOV_Red_Army_Airforce: "Voyenno-Vozdushnyye Sily Krasnoy Armii"
- SOV_Red_Army_Airforce_desc: "Our enemies rain steel upon our helpless soldiers on the ground. Nothing stops them from achieving domination of the skies, since our air force is weak and helpless. It's time for this to change. Our enemies will learn to fear the sound of Soviet aircraft as they clean the skies of inferior airplanes. But it is not enough to have superiority in numbers or design. We must outsmart our opponents in the sky as we outmaneuver them on the ground."
+ SOV_Red_Army_Airforce_desc: "Our reforms of the Soviet Air Force are paying off for our country, with the USSR gradually becoming feared around the world for our aerial prowess. What was once a ragtag collection of biplanes has evolved into a true force of power and projection. With thousands of young pilots eager to earn their wings, interest in the air force is at an all-time high. The biplane relics of the Great War, which served a much more useful purpose as a museum piece, have been replaced by more modern, stronger aircraft that can ensure our dominance of the skies is maintained. The Red Air Force is also collaborating with ground forces to bring workers liberation from above. The skies are turning red all over the world, and the workers' liberation is undoubtedly coming from above!"
 
  SOV_Red_Army: "Krasnaya Armiya"
  SOV_Red_Army_desc: "Created after Lenin's October Revolution and made up of brave workers and peasants, the proud Red Army is the shield and sword of the mighty Soviet Union, although a capable and proven force, the multiple wars, limited conflicts, and clashes have proven that this apparatus needs to be updated once more if the people's union wants to survive the troubled times ahead and triumphs against the Capitalist and fascist menace."
 
  SOV_Red_Fleet: "Krasnyy Flot"
  SOV_Red_Fleet_desc: "The Red Menace, as our enemies call us, can attack from the land or the air. The only place our enemies have yet to fear us is the Sea. High Command has approved a considerable budget towards the expansion of our weak fleet. We have decided to spend this budget on developing each part of our navy at a time. However, we should also allocate funds to researching newer, better ships. We should also attempt to imitate the submarines that the Germans have developed. Soon, no imperialist sailor will be safe from our ships. We will liberate the oppressed workers, starting from the sea."
+
+ SOV_Evaluate_the_Baltic_Fleet: "Evaluate the Baltic Fleet"
+ SOV_Evaluate_the_Baltic_Fleet_desc: ""
+ SOV_Evaluating_Fleet: "§LAlready evaluating another fleet§!"
+
+ SOV_A_Second_Home: "A Second Home"
+ SOV_A_Second_Home_desc: ""
+
+ SOV_Our_Northern_Brothers: "Our Northern Brothers"
+ SOV_Our_Northern_Brothers_desc: ""
+
+ SOV_Morskaya_Aviatsiya: "Morskaya Aviatsiya"
+ SOV_Morskaya_Aviatsiya_desc: ""
+
+ SOV_Gnevnyi_Class_Destroyers: "Gnevnyi Class Destroyers"
+ SOV_Gnevnyi_Class_Destroyers_desc: ""
+
+ SOV_Upgrade_Leningrads_Defenses: "Upgrade Leningrads Defenses"
+ SOV_Upgrade_Leningrads_Defenses_desc: ""
+
+ SOV_The_Baltic_Fleet_is_Ready: "The Baltic Fleet is Ready"
+ SOV_The_Baltic_Fleet_is_Ready_desc: ""
+
+ SOV_Evaluate_the_Black_Fleet: "Evaluate the Black Sea Fleet"
+ SOV_Evaluate_the_Black_Fleet_desc: ""
+
+ SOV_Reinforce_Sevastopol_Naval_Bases: "Reinforce Sevastopol Naval Bases"
+ SOV_Reinforce_Sevastopol_Naval_Bases_desc: ""
+
+ SOV_Radar: "Radar Detection"
+ SOV_Radar_desc: ""
+
+ SOV_Reevaluate_Submarine_Doctrine: "Reevaluate Submarine Doctrine"
+ SOV_Reevaluate_Submarine_Doctrine_desc: ""
+
+ SOV_The_Black_Sea_Fleet_is_Ready: "The Black Sea Fleet is Ready"
+ SOV_The_Black_Sea_Fleet_is_Ready_desc: ""
+
+ SOV_Evaluate_the_Pacific_Fleet: "Evaluate the Pacific Fleet"
+ SOV_Evaluate_the_Pacific_Fleet_desc: ""
+
+ SOV_Upgrade_Vladivostok_Facilities: "Upgrade Vladivostok Naval Facilities"
+ SOV_Upgrade_Vladivostok_Facilities_desc: ""
+
+ SOV_Evaluate_Landing_Craft: "Evaluate Landing Craft"
+ SOV_Evaluate_Landing_Craft_desc: ""
+
+ SOV_Gvardiya_Morskoy_Pekhoty: "Gvardiya Morskoy Pekhoty"
+ SOV_Gvardiya_Morskoy_Pekhoty_desc: ""
+
+ SOV_Oryol_Class_Carriers: "Oryol Class Carriers"
+ SOV_Oryol_Class_Carriers_desc: ""
+
+ SOV_Long_Range_Raiders: "Long Range Raiders"
+ SOV_Long_Range_Raiders_desc: ""
+
+ SOV_The_Far_Eastern_Fleet_is_Ready: "The Far Eastern Fleet is Ready"
+ SOV_The_Far_Eastern_Fleet_is_Ready_desc: ""
 
  SOV_Kirov_Cruisers: "“Kirov” Cruisers"
  SOV_Kirov_Cruisers_desc: ""
@@ -1143,8 +1247,29 @@
  SOV_Tupovlev_SB_desc: "The ANT-40, or SB, is a high-speed twin-engined three-seat monoplane bomber developed by the Tupolev design bureau. Prototypes of the aircraft show great promise, but existing models lack refinement and exhibit several minor flaws that could be dangerous in combat scenarios.\n\nThe SB incorporates numerous cutting-edge innovations such as a modern stressed skin, which allows for a lighter construction with a similar load-carrying ability of the structure to other aircraft utilizing different construction methods. The Tupolev SB also features a broad and high aspect ratio wing, which will give it a good altitude performance- a trait that has proven extremely useful in bombing missions."
 
  SOV_Transpolar_Flight: "Transpolar Flight"
- SOV_Transpolar_Flight_desc: "The Arctic circle, skirting the Northern coast of Russia is an impenetrable wilderness of wind and ice, a true symbol of the omnipotent force of mother nature. Perhaps, this needs no longer be the case… Soviet ingenuity has led to daring new missions in which brave pioneers are venturing into the unknown once more, as previous generations did in the 17th century with the conquest of Siberia. One of these pioneers, the pilot Valery Chkalov, will embark on a non-stop transpolar flight, from Moscow to Washington state. If successful, this flight marks the beginning of a new age in Soviet aviation and paves the way for future aeronautical accomplishments. It would also present a fine opportunity for propaganda."
+ SOV_Transpolar_Flight_desc: "The Arctic circle, skirting the Northern coast of Russia is an impenetrable wilderness of wind and ice, a true symbol of the omnipotent force of mother nature. Perhaps, this needs no longer be the case... Soviet ingenuity has led to daring new missions in which brave pioneers are venturing into the unknown once more, as previous generations did in the 17th century with the conquest of Siberia. One of these pioneers, the pilot Valery Chkalov, will embark on a non-stop transpolar flight, from Moscow to Washington state. If successful, this flight marks the beginning of a new age in Soviet aviation and paves the way for future aeronautical accomplishments. It would also present a fine opportunity for propaganda."
  SOV_Transpolar_Flight_tt: "§YWe will send an ANT-25 in a mission to Washington State, US§!"
+
+ SOV_Positive_Heroism_in_Aviation: "Positive Heroism in Aviation"
+ SOV_Positive_Heroism_in_Aviation_desc: "All aspects of the Soviet Union were built by the people, including our illustrious air force. While we strive to work as one, there are always a few among many who exhibit outstanding qualities that distinguish them as proud Union heroes. Valery Chkalov, Georgy Baydukov, Alexander Belyakov, and Mikhail Gromov have mastered their aviation skills and are among the world's best pilots, and are sure to give us an edge in any aviation combat! We will award them the rank of Soviet Union hero to enshrine them in Soviet folk legend, not only to draw attention to our growing air power, but also to ensure that they will be remembered by all aspiring pilots in our nation!"
+
+ SOV_Expand_the_Aviation_Industry: "Expand the Aviation Industry"
+ SOV_Expand_the_Aviation_Industry_desc: "While our air force is expanding, our capacity to accommodate new aircraft is not. As a result, it is important that we begin building a wave of new airfields to house our air force. It is also critical that these be constructed in areas where invaders are most likely to enter, such as the Ukraine SSR and the Byelorussian SSR. This means that we will not only be able to station more fighters and CAS planes closer to the frontlines to assist our forces in combat, but we will also be able to use them to launch bombing campaigns deep into enemy territory to disrupt their supply lines and hinder their war efforts."
+
+ SOV_Expand_Air_Testing: "Expand Air Testing"
+ SOV_Expand_Air_Testing_desc: "New advancements in air technology are both exciting and critical to maintaining any advantages we may have over other nations' air forces. However, researching them is one thing; testing them is another, and we do not currently have the capacity to do so. By expanding the areas available for air testing and allocating more funding to it, we will be able to see what works and what doesn't with our air force much faster than our adversaries, which will undoubtedly be an investment worth making. A modern air force, after all, is a model air force!"
+
+ SOV_Foster_Interest_in_Flight: "Foster Interest in Flight"
+ SOV_Foster_Interest_in_Flight_desc: "While we can build as many planes as we want, we still need pilots to fly them, and the pilots of tomorrow must be created today. Flight clubs help to foster interest in flight and aviation, but there aren't many of them, and they're too underfunded to have an impact on the next generation of pilots in our country. As a result, it should be our responsibility to expand the already existing network of flight clubs and build new flight schools to help nurture pilots and teach them about the might of the Soviet air force, which they will help to strengthen!"
+
+ SOV_The_Aerial_Army: "The Aerial Army"
+ SOV_The_Aerial_Army_desc: "It's all well and good to have a powerful air force, but in order to fully appreciate its capabilities, we must ensure that it works in tandem with our ground forces. Close cooperation can help to sow the seeds of victory in a war and can also quickly turn the tide in our favour. As a result, new plans must be put in place to ensure that the commanders of the Red Army and Red Air Force collaborate. This can be accomplished by scheduling weekly meetings between the top brass of each branch of the armed forces to ensure that they can coordinate what they need each other to do in times of conflict, as well as informing our CAS squadrons to support friendly units when they approach an enemy-controlled town or city."
+
+ SOV_Modernization_of_the_Air_Program: "Modernization of the Air Program"
+ SOV_Modernization_of_the_Air_Program_desc: "Throughout the Soviet Union, posters and images depict magnificent flying machines capable of flying long distances at high speeds, blazing across the sky and easily destroying the enemy air force! Unfortunately, the reality of the Red Air Force differs greatly from our fantasies, with the air force resembling paper planes rather than futuristic fighter jets. Not only that, but our air doctrine is still out of date, employing tactics not seen since the Great War.\n\nAs a result, we will embark on a modernization programme that will see our air force rise to become the best in the world. Old biplanes will be retired and replaced by the most recent fighter plane designs, and tactical bombers will be transformed from men dropping small bombs out the side of the plane to flying behemoths capable of levelling large areas at once. The aviation world does not wait for anyone, and we will not be left behind!"
+
+ SOV_The_Jet_Program: "The Jet Program"
+ SOV_The_Jet_Program_desc: ""
 
  SOV_Pacific_Military_School: "Pacific Military School"
  SOV_Pacific_Military_School_desc: "Our Pacific navy and army employs people from across the Soviet Union. Most of them aren't accommodated to the conditions and the tactics employed in this region. As so, it's damaging our armed force's efficiency and organization. As tension gets higher between us and the Japanese imperialists and as the capitalist United States expands their influence in Asia, this position of unpreparedness is intolerable. Therefore, the high command has ordered the founding of a dedicated Pacific military school in Vladivostok."
@@ -1168,7 +1293,7 @@
  SOV_Gulag_Based_Economic_Programs_desc: "While in our drive to weed out counter revolutionaries in the Union has been with results, now the question arises, as to what the fate should be- that of the thousands of politically unreliable individuals now in our custody. To engage these prisoners in productive work for our glorious Union, it has been decided to expand the Main Directorate of Camps (GULAG or ГУЛАГ) under the People’s Commissariat of Internal Affairs, and begin employing the prisoners in hard labour for their reformation and for the economical gain of the nation, where they will be employed in construction, agricultural and industrial activities."
 
  SOV_Closed_Cities: "Closed Cities"
- SOV_Closed_Cities_desc: "With the establishment of ‘Closed Cities’, specific communities and urban centres that will have visitation restrictions imposed upon them, we can greatly increase our research potential. The secretive nature of these stations enables us to conduct our confidential scientific endeavours in a state of greater security and privacy. We should establish an intricate network of Closed Cities. This would give the Soviet scientists greater freedom to conduct large scale experiments on experimental new projects. These could prove especially useful in the weaponization of nuclear energy…"
+ SOV_Closed_Cities_desc: "With the establishment of ‘Closed Cities’, specific communities and urban centres that will have visitation restrictions imposed upon them, we can greatly increase our research potential. The secretive nature of these stations enables us to conduct our confidential scientific endeavours in a state of greater security and privacy. We should establish an intricate network of Closed Cities. This would give the Soviet scientists greater freedom to conduct large scale experiments on experimental new projects. These could prove especially useful in the weaponization of nuclear energy..."
 
  SOV_A_Bomb: "Kurchatov's Bomb"
  SOV_A_Bomb_desc: "Ever since splitting the atom became feasible, we have noticed a concerning lack of publishing on that topic in the Western countries. This may mean they are researching possible applications of this science and have found enough that they are not keen to let the rest of the world know. Georgii Flerov has addressed a secret leader to (get leader name) on this topic, and it has convinced the Premier to devote additional resources to it. He has also chosen Igor Kurchatov, a scientist at the Soviet Academy of Sciences who is known for his experience in nuclear physics, to develop whatever comes of his research. Perhaps it may yield weapons to fight capitalism, but only time will tell."
@@ -1192,6 +1317,9 @@
 
  SOV_Kiev_Maneuvers: "Kiev Maneuvers"
  SOV_Kiev_Maneuvers_desc: "To test the innovative tactical and operational doctrines formulated by our prominent defense theorists, the Commissariat of Defense has instructed the Red Army in conjunction with the VVS to conduct massive exercises and drills in the Kiev Military District.\n\nThese will be the largest Red Army exercise to date; personnel numbering in tens of thousands will take part in the drills, along with thousands of armored vehicles and hundreds of aircraft.\n\nThese drills will test the ability of the Red Army to utilize a combined force of aircraft, tanks, cavalry, and infantry to decisively defeat the enemy by crushing their front lines and reaching their rear. The Red Army will demonstrate how this new "Operativnaia Iskusstva," or Operational Art, would utilize the aforementioned innovative tactics to the party leadership along with many foreign dignitaries and observers in attendance."
+
+ SOV_The_Question_of_The_Cossacks: "The Question of the Cossacks"
+ SOV_The_Question_of_The_Cossacks_desc: ""
 
  SOV_Guard_Units: "Guard Units"
  SOV_Guard_Units_desc: "The title of ‘Soviet Guard’ was awarded to only the most outstanding and distinguished combat units, following the introduction of the title following the Great Patriotic War, commencing in 1941. By establishing these elite rifle divisions, we can use their superior martial abilities to great strategic effect, as well as strike fear into the hearts of our enemies. These units will only be equipped with the latest and most sophisticated ordinance, and furthermore will solely comprise the most courageous and skilled Russian warriors."
@@ -1217,14 +1345,17 @@
  SOV_Deep_Battle_Plan: "Deep Battle Plan"
  SOV_Deep_Battle_Plan_desc: "Marshal Tukhachevskys greatest achievement in his study of military theory has been his development of Deep Battle Doctrine. The Essentials of the plans laid out are to use a combined arms assault consisting of Large amounts of Artillery and Infantry to destroy large areas of the enemy front, and then Use fast moving motorised and armoured units to rush in and destroy an enemies rear area. Much of our senior staff, Zhukov, Bluchyr, Rokossovsky and Varfolomeev all advocate for this doctrine to become the centerpiece of our warplans against the fascists and capitalists."
 
+ SOV_The_Red_Army_Reborn: "The Red Army Reborn"
+ SOV_The_Red_Army_Reborn_desc: ""
+
  SOV_Samokhodnaya_Ustanovka: "Samokhodnaya Ustanovka"
  SOV_Samokhodnaya_Ustanovka_desc: "Recent advance in army research by our scientists has yielded designs for self-propelled artillery. These armaments will be crucial for the Red Army’s anti-tank and anti-rifle corp defences, and can even be put on the offensive.\n\nThese designs could even be utilized on a variety of tank chassis, so with the SU series of self-propelled artillery, there are many possibilities. In any combat strategy we utilize, a supply of self-propelled artillery will be essential to our army’s endeavours."
 
  SOV_Morozovs_Armored_Evolution: "Morozov's Armored Evolution"
  SOV_Morozovs_Armored_Evolution_desc: "Intrinsically tied to the Deep Battle Strategy is the Tank, a weapon so strong and formidable. Our very own army can be bolstered with a lineup and a roadmap of medium tanks to surpass the Germans and any other foe. Headed by Major General Morozov, this plan involves the creation of a medium Battle Tank to outfit to Soviet Armoured divisions, and the eventual evolution of this armament until it can reach perfection.\n\nAlthough it is unlikely such a weapon will see warfare in the next few years, its predecessors can face our foes and funnel back valuable information to help research and further evolve our medium tank designs."
 
- SOV_Reinvigorate_Heavy_Tank_Designs: "Reinvigorate Heavy Tank Designs"
- SOV_Reinvigorate_Heavy_Tank_Designs_desc: "Integral to the Deep battle Doctrine is the Heavy Tank, but not much research has been put into this subject for many years. Thus, our Heavy Tank capabilities have been lacking. One solution to this issue has been the IS family of tanks, named after Joseph Stalin. These designs feature enhanced firepower abilities and are sure to outmatch any heavy tanks the enemy throws at us. These come to replace our old designs and will be sure to bolster the power of the Deep battle Doctrine."
+ SOV_Chelyabinsk_Tractor_Plant: "Chelyabinsk Tractor Plant"
+ SOV_Chelyabinsk_Tractor_Plant_desc: "Integral to the Deep battle Doctrine is the Heavy Tank, but not much research has been put into this subject for many years. Thus, our Heavy Tank capabilities have been lacking. One solution to this issue has been the IS family of tanks, named after Joseph Stalin. These designs feature enhanced firepower abilities and are sure to outmatch any heavy tanks the enemy throws at us. These come to replace our old designs and will be sure to bolster the power of the Deep battle Doctrine."
 
  SOV_STAVKA: "STAVKA"
  SOV_STAVKA_desc: "During the First Imperialist War, our predecessors, the despicable Tsars, called their central command, headed by the hated Tsar Nicholas II, the Stavka, named after the tents they resided in. In order to perfect this, our Premier (leader name) has signed a top secret decree to reestablish this institution as a method of creating a rigid command structure after the necessary purges of the military. This will improve our overall coordination between the Supreme Main Command and each individual soldier defending our borders against imperialism."
@@ -1241,6 +1372,7 @@
 
  SOV_Women_in_Aviation: "Women in Aviation"
  SOV_Women_in_Aviation_desc: "One of the basic tenets of the socialist cause is equality, to make all spheres of life accessible to all individuals. Soviet women, while officially not disbarred as flyers, are generally subjected to long application delays to convince them otherwise.\n\nTo promote aviation among Soviet women, the party leadership has heeded the advice of the famed woman aviator Marina Raskova, deciding to open up more flying roles for women and encourage them to volunteer. Undoubtedly, the Soviet woman will serve with distinction as pilots and bring much glory to the motherland. With enough practice and support, they may even surpass their male counterparts."
+ SOV_Women_in_Aviation_tt: "§YThe all-female aviation regiments 586, 587, and 588 will be deployed.§!"
 
  SOV_Tukhachevskys_Reformists: "Tukhachevsky's Reformists"
  SOV_Tukhachevskys_Reformists_desc: "A Hero of the Russian Civil War Marshal Tukhachevsky has ever since the end of that conflict been working diligently to push for and come up with reforms for the Reds Army. Especially since the 1926 maneuvers his main focus is on retraining much of our officer corps to be more flexible in combat situations so that split second tactical choices can be made without party authorization. HIs Reforms have been popular amongst much of the new Professional Military staff of the Red Army, however the Party Leadership has some doubts seeing this as a potential avenue for Bonapartism."
@@ -1346,7 +1478,7 @@
  SOV_Shadow_Factories_desc: "The USSR span 8,650,000 square miles across the tundra, with seas of forests and mountain ranges that stretch as far as the eye can see. Even with this endless amount of land, most of our great socialist state’s industry is located on the west side of the nation. As Europe is getting closer to the brink of war, this could turn out to be a problem if we get caught in it.\n\nTo prepare for such a conflict, we could assemble a council from the GKO on the evacuation of industry, with one sole purpose: to move factories and people in an instant to the rural areas beyond Moscow, with the nickname “Shadow Factories”. We might have to pull a few strings to make it happen, but it’s better to be prepared than not at all."
 
  SOV_Tankograd: "Tankograd"
- SOV_Tankograd_desc: "Tucked away in the Ural Mountains is a city with great potential. Chelyabinsk is a rapidly growing city, and the industry is following. In 1933, as part of our first Five Year Plan, Chelyabinsk Tractor Plant was built to help supply the growing demand for agricultural equipment around our nation. \n\nAlthough, with the threat of potential enemies around the globe, we need to be prepared for any military assault. With that, we could invest in the large growing city by buying new military factories and keep at the ready to convert the tractor plant into a tank-producing powerhouse. Funnily enough, some of our advisers are now calling the city “Tankograd” due to the potential it has as a military supplier. Let's hope that they're right…"
+ SOV_Tankograd_desc: "Tucked away in the Ural Mountains is a city with great potential. Chelyabinsk is a rapidly growing city, and the industry is following. In 1933, as part of our first Five Year Plan, Chelyabinsk Tractor Plant was built to help supply the growing demand for agricultural equipment around our nation. \n\nAlthough, with the threat of potential enemies around the globe, we need to be prepared for any military assault. With that, we could invest in the large growing city by buying new military factories and keep at the ready to convert the tractor plant into a tank-producing powerhouse. Funnily enough, some of our advisers are now calling the city “Tankograd” due to the potential it has as a military supplier. Let's hope that they're right..."
 
  SOV_Fragmentation_of_Industrial_Peoples_Commissariats: "Fragmentation of Industrial People's Commussariats"
  SOV_Fragmentation_of_Industrial_Peoples_Commissariats_desc: "As our industrialization process speeds up, our needs are becoming more and more diverse. The People's Commissariat of Heavy Industry, or the NKTP, is responsible for almost all things that include heavy industrial goods, including mining and machinery. \n\nRecently, the commissariat is becoming overwhelmed with tracking the projects we've been competing with, so it's been proposed that we break up the commissariat into six different zones, each specializing in their own field of work. It will take the strain off of our planning advisers and allow us to take more control over our country's industries to make production goals."
@@ -1391,60 +1523,62 @@
  SOV_The_Revolution_Marches_West_desc: "The Soviet Union's strength has been contained for many years.\nLock between between Europe and Asia, Finland and Japan, and China and Turkey.  Today, thanks to Comrade Stalin's decisions, we are finally ready to flood Europe. To paint it red.\n\nEurope holds the key to the Union's destiny. As to what Lenin himself declared, "Berlin is the centre of Europe." Whoever controls Berlin, controls the entire continent. So, with the help of the revolution, we will liberate all the continent's enslaved peoples! Fascists, capitalists, all of Russia's adversaries. And, according to Eurasian beliefs, we are truly unique: all of Europe and Asia belong to the motherlands!\n\nFirst, we should keep small countries just outside our domains of influence, such as Finland, Estonia, Lithuania, and Latvia, in mind. Following that, Poland, Romania, and Czechoslovakia would be realistic choices. And, of course, when we are ready, there will be one more, final enemy, those who hate us for our ideology and for our people's: The Germans."
 
  SOV_The_Great_Patriotic_War: "The Great Patriotic War"
- SOV_The_Great_Patriotic_War_desc: "Workers! Comrades! Brothers and Sisters of the Union! The fascist threat has launched an all-out invasion at the heart of the revolution, threatening our very way of life as well as the survival of communism! Enemy forces from Hungary, Romania, Bulgaria, and, of course, the beast itself, the German Reich, have crossed our western border without warning, capturing many small settlements and villages in the process, all while pursuing their goal of "Lebensraum." Well, now it is the time to let them know that their silly little dreams end here! We must put all of our resources and manpower, all of our blood and our sweat towards defending the motherland, and defend every inch of our land no matter the cost! Every strike of a hammer in the factories must be a strike for victory, and every shot fired by a gun must be a shot well aimed! The enemy will give no mercy, so we must show none either! And when the fascist creatures are bloodied and bruised, we will push them out and all the way back to the hole that they call Berlin! There can be no peace until we achieve total victory! Uraa!"
+ SOV_The_Great_Patriotic_War_desc: "Workers! Comrades! Brothers and Sisters of the Union! The fascist threat has launched an all-out invasion at the heart of the revolution, threatening our very way of life as well as the survival of communism!\n\nEnemy forces from Hungary, Romania, Bulgaria, and, of course, the beast itself, the German Reich, have crossed our western border without warning, capturing many small settlements and villages in the process, all while pursuing their goal of "Lebensraum." Well, now it is the time to let them know that their silly little dreams end here! We must put all of our resources and manpower, all of our blood and our sweat towards defending the motherland, and defend every inch of our land no matter the cost! Every strike of a hammer in the factories must be a strike for victory, and every shot fired by a gun must be a shot well aimed!\n\nThe enemy will give no mercy, so we must show none either! And when the fascist creatures are bloodied and bruised, we will push them out and all the way back to the hole that they call Berlin! There can be no peace until we achieve total victory! Uraa!"
  SOV_focus_on_offensive: "§YAll major Soviet cities are under our control.§!"
  SOV_focus_on_defensive: "§RWe have lost major Soviet cities.§!"
 
  SOV_Arise_Our_Mighty_Land: "Arise, Our Mighty Land!"
- SOV_Arise_Our_Mighty_Land_desc: ""
+ SOV_Arise_Our_Mighty_Land_desc: "Few expected to live long enough to witness such an event. Our troops are stationed at the old border posts, peering across the invisible line into the German Reich and salivating at the inevitable next step. The Germans are shattered and broken in front of us. Their resistance is fierce but inept because we have taken so much that they have no real hope of defeating us. Their lands have grown wealthy as a result of the loot they stole from us. A euphoric zeal has overtaken the Red Army as it advances into Germany. Germany has been raping and pillaging its way through our country for the past few years. They wanted us to be afraid of them. With all of Germany in front of us, many are eager to show the Teutons the true meaning of fear."
  SOV_Arise_Our_Mighty_Land.tt: "§LOur Focus Will Shift to the Offensive§!"
 
  SOV_The_Slaughterers_of_Men: "The Slaugterers of Men"
- SOV_The_Slaughterers_of_Men_desc: ""
+ SOV_The_Slaughterers_of_Men_desc: "The Germans take great pride in their panzers, claiming to be the best in the world and that they can outrun anyone. We disproved that claim. However, as we advance deeper into Germany, we encounter newer tanks that can compete with ours, and we must approach these new metal monsters with a Soviet mindset if we are to defeat them. Developing a tank that is superior to the ones we currently face will take too long and may waste our resources, so we will simply make more of what we have. A Panther may be able to defeat a T-34 in a one-on-one battle, but what if it is up against a dozen, a hundred, or even a thousand of them? The Germans will discover that their overengineered weapons are nothing more than scrap."
+ SOV_The_Slaughterers_of_Men_tt: "§Y2§! §LArmoured Units§! £tank_icon_1_20x20 will be deployed\n"
 
  SOV_Fighting_on_Their_Ground: "Fighting on Their Ground"
- SOV_Fighting_on_Their_Ground_desc: ""
+ SOV_Fighting_on_Their_Ground_desc: "For the first time in this long and bloody war, a Soviet soldier is fighting outside of the Soviet Union. All of the people he meets and places he visits are completely unfamiliar to him. This could be demoralizing for any other Army. They might be homesick and want to get away from the fighting. The Soviet Soldier, on the other hand, is built differently. He'd rather be here, deep in his adversary's heartland, than anywhere else.\n\nFor years, the Germans ravaged our lands, destroying our homes, destroying our crops, and killing our families, but now, as we delve deeper into the dark heart of Nazism, the Germans are discovering what it's like to be on the receiving end of terror. They may refer to us as savages, demons sent from Hell to bring destruction and sorrow to the 'innocent' German people. However, we are more aware than anyone else that there is no such thing as an innocent German. They are all guilty, and they must now pay the price for their actions."
 
  SOV_Drive_Them_to_Their_Tombs: "Drive Them to Their Tombs!"
  SOV_Drive_Them_to_Their_Tombs_desc: ""
 
  SOV_Shoot_Down_the_Black_Wings: "Shoot Down the Black Wings!"
- SOV_Shoot_Down_the_Black_Wings_desc: ""
+ SOV_Shoot_Down_the_Black_Wings_desc: "There is no doubt that the German Luftwaffe is a terrifying beast. They have repeatedly demonstrated that they produce some of the best pilots in the world. The Red Air Force, on the other hand, is not their equal, at least not right now. That, however, will not deter us. The Germans have forgotten that their planes, like ours, are machines, and they are just as easily shot down as we are. We will assist the Red Air Force as they take to the skies once more to do noble battle with their enemies. With flak filling the skies and our pilots becoming more and more professional by the day, it won't be long before a Soviet soldier can look up at the sky with a sense of calm security, knowing that whatever is up there will be killing the Teutons and not them."
 
  SOV_Our_Noble_Anger: "Our Noble Anger"
- SOV_Our_Noble_Anger_desc: ""
+ SOV_Our_Noble_Anger_desc: "Welcome to Germany, You are about to begin the proudest moment of your life. The Germans have lost thousands of tanks and planes. Hitler’s brutalized hordes are falling back to the Oder over mountains of their own dead bodies. Our Bolshevik Party, our Nation, our Great Country have given us the mission to reach the heart of Hitler’s Reich and seize the city of Berlin! Forward against the enemy! Up into the unremitting battle, comrades! For our great country! Not one step back! Cowards and traitors will be shot! Do not count days, do not count miles, count only the number of Germans you have killed! Kill the German! This is your mother's prayer! Kill the German! This is the cry of your Russian earth! Do not waver! Do not let up! Kill! Death to the German menace!\n\n- Commissar Viktor Durasov"
 
  SOV_Arise_for_Sacred_War: "Arise, for Sacred War!"
- SOV_Arise_for_Sacred_War_desc: ""
+ SOV_Arise_for_Sacred_War_desc: "The Revolution continues to march forward! The demonic Hitlerite waves crashed onto our shores and shattered them like a wave. With their strength depleted and morale shattered, they now run like rats with their tails between their legs. Meanwhile, at home, our victory is now unavoidable, and this inevitability has galvanized the Soviet people into one final and ferocious display of strength. Factories are producing guns and war machines at an increasing rate. Our training camps produce soldiers of increasing quality. Meanwhile, our glorious Red Army has risen to become the most powerful force in Europe, if not the world. With the Germans at our mercy, their demise is only a matter of time."
  SOV_Arise_for_Sacred_War.tt: "§LOur Focus Will Further Shift to the Offensive§!"
 
  SOV_A_Meeting_In_Yalta: "A Meeting in Yalta"
- SOV_A_Meeting_In_Yalta_desc: ""
+ SOV_A_Meeting_In_Yalta_desc: "As we drive the Germans from our lands, the Western democracies that have stood by and watched us fight the Germans have finally decided to act. They've told us that they plan to launch a massive invasion of Europe soon, an invasion that will only be possible because of our sacrifice. Nonetheless, it is clearer than ever that the Nazis will lose, and our leaders must decide what the world will look like after this war. Without a doubt, the West will try to take as much of Europe from us as possible, denying us the victory we paid for with oceans of blood. Stalin, on the other hand, is determined not to let the weak and sluggish democratic states take all the credit. Yes, there will be a meeting in Yalta, but Stalin will make certain that we get what we are owed."
 
  SOV_For_The_Motherland: "For the Motherland!"
- SOV_For_The_Motherland_desc: ""
+ SOV_For_The_Motherland_desc: "The German invasion caught us off guard, to say the least. The Red Army is in no way prepared to fight off the Teutonic hordes, and our valiant soldiers, while fighting like men possessed, are simply unable to compete with Hitlerite Germany's professional soldiers. Nonetheless, they will have to fight. We must make it clear that if they give in, they will die. The Germans despise us, regard us as vermin worth less than the mud on their boots.\n\nWe must also reinvigorate our Army with the Rodina or Motherland spirit. The beasts we fight do not adore our home as much as we do. They want to see our priceless Motherland exploited and squeezed for all that she is worth. They wish to reduce her people to the status of slaves! We cannot allow this to happen! Our glorious Russia has saved us numerous times. Napoleon froze! It almost swallowed the Huns in 1917, and now we must repay her by doing her work. We simply cannot afford to lose this battle! As our men fight, we will work tirelessly to prepare for the next battle, and the one after that, and the one after that, until we finally raise our flag triumphantly over Berlin!"
  SOV_For_The_Motherland.tt: "§LOur Focus Will Shift to the Defensive§!"
 
  SOV_The_Defense_of_the_Union: "The Defense of the Union"
- SOV_The_Defense_of_the_Union_desc: ""
+ SOV_The_Defense_of_the_Union_desc: "There can be no 'civilians' in this war of extermination. If we are to survive, everyone must contribute to the war effort. That is why we must rouse the populace to war and draft them in large numbers to fill the gaps in our lines left by the Germans. These units will not be as good as their veteran counterparts, but they must learn or die. Those who cannot fight, such as the very young or the very old, will be used to dig trenches. Those who continue to refuse to serve their Motherland and the Union that defends her are clearly Hitlerite subversives. We will force them into penal battalions or factories in order to free up even more patriots for frontline service. They'll work themselves to the bone, then some. Many will die, but they may find redemption for their treason in death. Their service will prove that even enemies of the state can be useful."
+ SOV_The_Defense_of_the_Union_tt: "§LA Wave of Militia§! £manpower_texticon will be deployed\n"
 
  SOV_Fighting_on_Familiar_Ground: "Fighting on Familiar Ground"
- SOV_Fighting_on_Familiar_Ground_desc: ""
+ SOV_Fighting_on_Familiar_Ground_desc: "While invasion is a situation that is usually best avoided, it does have some advantages. The most significant of these is that we are now fighting on land where we have lived for generations. The families who live on these lands know them intimately and are eager to share all the side paths and hidden trails they know with us. We'll use these backdoor routes to surprise the Germans when and where they least expect it. As we fight like demons, it will appear as if we came from the darkness to terrorize them. If we are still forced to retreat, we can leave men behind to attack the Germans' rear echelons using these trails and paths. With luck, we'll be able to cut the Germans' perilous supply lines and watch them starve in the vast expanse of the steppe."
 
  SOV_From_Cities_to_Fortresses: "From Cities to Fortresses"
- SOV_From_Cities_to_Fortresses_desc: ""
+ SOV_From_Cities_to_Fortresses_desc: "While much of the Union is featureless plains, cities of all sizes dot the landscape. Even these inanimate cities can be drafted into service for the Motherland. Every city will be heavily fortified and turned into a black hole. To seize a city block, let alone an entire city, the Germans will have to commit enormous resources, resources they cannot afford to lose. Every room will be a bunker, every structure will be a fortress, and every city will be hell on Earth. We will also enlist the citizens of these cities in fortification efforts, explaining that the sooner the Germans are defeated, the sooner life will return to normal. This, combined with the constant threat that the Germans will exterminate all those they capture, will motivate them to work harder and faster."
 
  SOV_Secure_the_Far_East: "Secure the Far East"
- SOV_Secure_the_Far_East_desc: ""
+ SOV_Secure_the_Far_East_desc: "The ever-present Japanese threat looms especially large as we draw more and more forces from the Union's farthest reaches towards the Western Front. If we bring in too many forces from Siberia, the Japanese may surprise us. So, to prevent this from happening in the future and free up even more soldiers for deployment to the Front, we will approach Japan and ask them to sign a Pact of Nonaggression. We have already defeated the Japanese at Khalkhin Gol, while Japan is struggling to defeat China. Because of these two issues, they may be open to such an agreement."
 
  SOV_General_Winter: "General Winter"
- SOV_General_Winter_desc: ""
+ SOV_General_Winter_desc: "General Winter has arrived, and he is reaping a bountiful harvest. Temperatures are dropping into the negatives, oil in German tanks is freezing, and German soldiers are freezing in their holes. As the Germans rush to the front in heavier winter clothing, they are defeated by the same thing that stopped Napoleon, Gustavus Adolphus, and the Kaiser. Meanwhile, our soldiers, who are better prepared for this weather, have dug out tried and true survival methods such as igloos and fur clothing. They have received assistance in this matter from sympathetic locals who have welcomed their brave soldiers into their homes to weather the storm. Outside, the enemy can only shiver and pray for a quick death, which the Old General will not provide."
 
  SOV_The_Peoples_War: "The People's War"
- SOV_The_Peoples_War_desc: ""
+ SOV_The_Peoples_War_desc: "Our war is unlike any other in history. The Germans fight not only for the destruction of our country, but also of our people. Because we are Slavs, the Germans regard us as little better than dirt. They want to rule in the same way that a master rules over a slave. That is, those they allow to live. It is no secret that the Germans will kill hundreds of thousands, if not millions, of us in their insatiable desire for land and racial purity. Everyone must fight if we are to avoid extinction as a people. Anyone who can fire a gun will be sent to the Front. Those who cant will be put to work building fortifications so we may fend off the next attack easier. Even prisoners will be used to fill positions in war-critical work, allowing more workers to be sent to the front lines. Some of the methods we employ may be...disgusting, but we must discard petty morals. We are fighting for the lives of all of our children and their children, not just our own. The Germans must perish if we are to survive!"
 
  SOV_For_the_Soviet_Union: "For the Soviet Union!"
- SOV_For_the_Soviet_Union_desc: ""
+ SOV_For_the_Soviet_Union_desc: "Every step we take during our retreat is one too many. Every inch of Soviet territory taken by the Germans only encourages them to continue their futile war. Despite our valiant efforts, we have been driven back to the very gates of Moscow! Our country is on the verge of failure! To the untrained eye, we're just an old house waiting for a strong wind to blow us over. We have, however, done a lot to prepare for the next German assault. Defence has become the name of the game, and when the Germans strike again, they will be met with resistance from our ever-passionate and zealous soldiers, who are now protected by miles of trenches and fields of bunkers and blockhouses.\n\nThe Germans will meet our steel and die in their thousands. They will fail again and again, and when Mother Russia has had enough of Germania's pests, we will strike back with the rage of the millions they have slaughtered. We will strike them down like lightning and chase those rats out of our lands, all the way to their nest in Berlin! Da zdravstvuyet Rossiya! Da zdravstvuyet Sovetskiy Soyuz!"
  SOV_For_the_Soviet_Union.tt: "§LOur Focus Will Further Shift to the Defensive§!"
 
  SOV_The_Deal: "The Deal"
@@ -1472,13 +1606,18 @@
  SOV_less_than_50_paranoia: "§AYou must have 50 or less Paranoia§!"
  SOV_less_than_20_paranoia: "§AYou must have 20 or less Paranoia§!"
  SOV_Great_Purge_Phase_2: "§gPhase 2 of the Great Purge has Started§!"
+ SOV_Great_Purge_Phase_3: "§gPhase 3 of the Great Purge has Started§!"
 
  Yagoda_chief_of_NKVD: "Genrikh Yagoda"
+ Agranov_chief_of_NKVD: "Yakov Agranov"
+ Yezhov_chief_of_NKVD: "Nikolai Yezhov"
+ Beria_chief_of_NKVD: "Lavrenty Beria"
  Agranov_deputy_of_NKVD: "Yakov Agranov"
  Frinovsky_deputy_of_NKVD: "Mikhail Frinovsky"
  SOV_Frinovsky_is_Deputy_of_NKVD: "Mikhail Frinovsky is deputy of NKVD"
  Beria_deputy_of_NKVD: "Lavrentiy Beria"
  SOV_Beria_is_Deputy_of_NKVD: "Lavrentiy Beria is deputy of NKVD"
+ Merkulov_deputy_of_NKVD: "Vsevolod Merkulov"
  SOV_Stalin_Weekly_Paranoia_Change_tt: "£stalin_paranoia §OWeekly Paranoia§! Changed by: [?SOV_Stalin_Paranoia_Change_gain|=%1-]"
  SOV_Stalin_Paranoia_Change_tt: "£stalin_paranoia §OParanoia§! Changed by: [?SOV_Stalin_Paranoia_gain|=%%1-]"
  SOV_Agranov_is_Replaced: "§LYakov Agranov§! will be §RReplaced§! by §LMikhail Frinovsky§!"
@@ -1497,7 +1636,7 @@
  SOV_Expelled_Officers_Excluded_from_the_Party: "Expelled Officers Excluded from the Party"
  SOV_Liquidated_the_Menshevik_Underground: "Liquidated the Menshevik Underground"
  SOV_Deportations_of_Kulaks_and_Mullahs: "Deportations of Kulaks and Mullahs"
- SOV_Expel_Officers_Excluded_from_the_Party: "Expel Officers Excluded from the Party""
+ SOV_Expel_Officers_Excluded_from_the_Party: "Expel Officers Excluded from the Party"
  SOV_Liquidate_the_Menshevik_Underground: "Liquidate the \"Menshevik Underground\""
  SOV_Replace_Agranov: "Replace Agranov"
  SOV_Anti_Soviet_Military_Organisation: "Anti-Soviet Military Organisation"
@@ -1528,11 +1667,15 @@
  SOV_Commit_to_Ethnic_Operations: "Commit to Ethnic Operations"
  SOV_Imminent_Counter_Revolution_2: "Imminent Counter-revolution"
  #Phase 3
- SOV_Purge_NKVD_Itself: "Purge NKVD Itself"
+ SOV_Criticise_the_NKVD: "Criticise the NKVD"
+ SOV_NKVD_Criticised: "Criticised the NKVD"
  SOV_Stop_the_Activities_of_Extrajudicial_Organs: "Stop the Activities of Extrajudicial Organs"
+ SOV_Extrajudicial_Organs_Stopped: "Stopped the activities of the extrajudicial organs"
+ SOV_Purge_the_NKVD: "Purge the NKVD"
+ SOV_NKVD_Purged: "Purged the NKVD"
  SOV_Restore_Socialist_Legality: "Restore Socialist Legality"
+ SOV_Socialist_Legality_Restored: "Restored Socialist Legality"
  SOV_Invalidate_Extrajudicial_Sentences: "Invalidate Extrajudicial Sentences"
- SOV_Remove_Yezhov: "Remove Yezhov"
  #Yezhovshchina
  SOV_Recall_Frinovsky: "Recall Frinovsky"
  SOV_Restore_NKVD_Troikas: "Restore NKVD Troikas"
@@ -1551,6 +1694,8 @@
  SOV_Commit_to_Stability_of_the_Regime: "Commit to Stability of the Regime"
 
 
+ SOV_Invade_Poland: "Invade Poland"
+ SOV_Invade_Poland_desc: ""
  SOV_Demand_Bessarabia: "Demand Bessarabia"
  SOV_Demand_Bessarabia_desc: "Now that we have acquired our claims in the North, it is time to face attention to the Balkans once more. Romania holds a once key part of the Russian Empire - the province of Bessarbia, with a significant Russian population. It is time to continue our expansion into Europe."
  SOV_Demand_Karjala: "Demand Finnish Karelia"
@@ -1577,9 +1722,10 @@
  SOV_Invade_Japan_desc: "For too long Japan was a thorn on our back. With their aggressive expansion into China and their skirmishes on our borders against our own troops, it's finally time to put down the imperialist dog of the East from it's misery."
  #Second Five-Year Plan
  SOV_Second_Five_Year_Plan_category: "Second Five-Year Plan"
- SOV_Second_Five_Year_Plan_category_desc: "\n\n\n£decision_header_SOV_Second_Five_Year_Plan£\n\n\n\nThe industrial might that our grand union can muster certainly knows no bounds. And with the rising tension in Europe and the Far East, it is imperative that we utilize a §YSecond Five Year Plan.§! After all, we saw the immense success of our previous Five Year Plan; albeit, with some difficulties regarding our methods. However, these supposed mistakes will not be repeated, and the successes of the previous plan will only be increased.\n\n Our main objective for this Five Year Plan is to continue the §Ymass mechanization§! we have been experiencing over the past few years. We will also see to the empowerment of our dear workers, who toil the §Ycollective farmland§! with such rigour, and their families, who provide the children to continue the revolutionary cause.\n\n We will see our glorious Union achieve §Gindustrial, agricultural, and cultural success§! to rival and even surpass that of the dreaded Germans."
+ SOV_Second_Five_Year_Plan_category_desc: "\n\n\n£decision_header_SOV_Second_Five_Year_Plan£\n\n\n\nThe industrial might that our grand union can muster certainly knows no bounds. And with the rising tension in Europe and the Far East, it is imperative that we utilize a §YSecond Five Year Plan.§! After all, we saw the immense success of our previous Five Year Plan; albeit, with some difficulties regarding our methods. However, these supposed mistakes will not be repeated, and the successes of the previous plan will only be increased.\n\n Our main objective for this Five Year Plan is to continue the §Ymass mechanization§! we have been experiencing over the past few years. We will also see to the empowerment of our dear workers, who toil the §Ycollective farmland§! with such rigour, and their families, who provide the children to continue the revolutionary cause.\n\n We will see our glorious Union achieve §Gindustrial, agricultural, and cultural success§! to rival and even surpass that of the dreaded Germans.\n"
  SOV_Moscow_Metro: "Moscow Metro"
  SOV_Moscow_Metro_desc: "The ongoing project of the construction of the Moscow Metro is nearing completion. Thousands of Soviet workers, guided by several foreign engineers and designers have over the last few years have done considerable work, and quite successfully so. Once complete, the Moscow Metro system will become the finest and most modern metro transit system in the whole world. To celebrate this achievement of the Soviet state and its people, a fine song by the name of "Songs of the Joyous Metro Conquerors" has been composed, and preparations are being made for celebrations on the inauguration day. It is projected that on the day first itself, the metro will allow for over 280,000 people to be able to ride and experience this marvel in modern engineering."
+
  SOV_Ural_Heavy_Machinery_Plant: "Ural Heavy Machinery Plant"
  SOV_Ural_Heavy_Machinery_Plant_desc: ""
  SOV_Kramatorsk_Heavy_Machine_Tool_Engineering_Plant: "Kramatorsk Heavy Machine-Tool Engineering Plant"
@@ -1611,7 +1757,13 @@
 
  # Battle for Harvest "Year"
  SOV_Battle_for_Harvest_category: "Battle for Harvest [GetYear]"
- SOV_Battle_for_Harvest_category_desc: "\n\n\n£decision_header_SOV_Battle_for_Harvest£\n\n\n\nThe lands of our glorious Union are vast, expansive, and varied, and these lands bear the responsibility of feeding an equally large and diverse populace. While the 'Chernozem' abundant land in Ukraine, & southern Russia allow for highly productive agricultural activities, there are frontier regions, some near the fringes of Siberia, others in Transcaucasia, the Steppes, Central Asia and some even near the Urals, which all significantly contribute to our yearly harvest as well. These climates and circumstances do not favour the peasant, but the State does. To increase our yield and agricultural output, the State will pump in the necessary capital and resources, along with allocating machinery and tools so that in the end, no worker will sleep on a hungry stomach."
+ SOV_Battle_for_Harvest_category_desc: "\n\n\n£decision_header_SOV_Battle_for_Harvest£\n\n\n\nThe lands of our glorious Union are vast, expansive, and varied, and these lands bear the responsibility of feeding an equally large and diverse populace. While the 'Chernozem' abundant land in Ukraine, & southern Russia allow for highly productive agricultural activities, there are frontier regions, some near the fringes of Siberia, others in Transcaucasia, the Steppes, Central Asia and some even near the Urals, which all significantly contribute to our yearly harvest as well.\n\nThese climates and circumstances do not favour the peasant, but the State does. To increase our yield and agricultural output, the State will pump in the necessary capital and resources, along with allocating machinery and tools so that in the end, no worker will sleep on a hungry stomach.\n"
+ SOV_Invest_Significant_Resources_1933: "Invest Significant Resources"
+ SOV_Invest_Significant_Resources_1933_desc: "Due to the issues with the harvest in the previous years, we have done everything possible to prepare for this year's sowing season. While monetary investment will be necessary, we have set aside the necessary surplus equipment to meet our goals. However, for the next year's sowing season we will need to produce more."
+ SOV_Invest_Medium_Resources_1933: "Invest Medium Resources"
+ SOV_Invest_Medium_Resources_1933_desc: "Due to the issues with the harvest in the previous years, we have done everything possible to prepare for this year's sowing season. While monetary investment will be necessary, we have set aside the necessary surplus equipment to meet our goals. However, for the next year's sowing season we will need to produce more."
+ SOV_Invest_Minor_Resources_1933: "Invest Minor Resources"
+ SOV_Invest_Minor_Resources_1933_desc: "Due to the issues with the harvest in the previous years, we have done everything possible to prepare for this year's sowing season. While monetary investment will be necessary, we have set aside the necessary surplus equipment to meet our goals. However, for the next year's sowing season we will need to produce more."
  SOV_Invest_Significant_Resources: "Invest Significant Resources"
  SOV_Invest_Medium_Resources: "Invest Medium Resources"
  SOV_Invest_Minor_Resources: "Invest Minor Resources"
@@ -1622,11 +1774,11 @@
  SOV_Invested_Significant_Resources: "Invested §GSignificant§! §YResources§!"
  SOV_Invested_Medium_Resources: "Invested §LMedium§! §YResources§!"
  SOV_Invested_Minor_Resources: "Invested §RMinor§! §YResources§!"
- SOV_Sowing_Warning: "§RIf we don't Invest, the People'll Starve§!"
+ SOV_Sowing_Warning: "§RIf we don't invest, the people will starve§!"
 
  # Harvest of "Year"
  SOV_Harvest_category: "Harvest of [GetYear]"
- SOV_Harvest_category_desc: "\n\n\n£decision_header_SOV_Harvest£\n\n\n\nIt is that time of the year again, when children accompany their friends and play in the fields while their parents toil the lands. Massive combine harvesters rumble across the lands, threshers operate around the clock - separating the seeds from the stalks and husks. In the evening, government officers come to note down the number of crops harvested, and trucks laden with grain transport the produce to governmental godowns. After laborious record keeping, with a few mistakes here and there, but in large parts accounted for, the Harvest is completed. However, the work is not done. Now comes the time to decide the fate of the produce. Some will be exported and some will be allocated to public distribution systems for domestic consumption. As to the degree of the allocation, it is completely up to us to decide.\n\nTotal £grain_icon §YGrain§! Harvest Collected: §O[?SOV_Total_Harvest] mln tonnes§!\nTotal £grain_icon §YGrain§! collected as State Procurements: §O[?SOV_Grain_Collected] mln tonnes§!\nTotal £grain_icon §YGrain§! Available for Export: §O[?SOV_Grain_for_Export] mln tonnes§!\n"
+ SOV_Harvest_category_desc: "\n\n\n£decision_header_SOV_Harvest£\n\n\n\nIt is that time of the year again, when children accompany their friends and play in the fields while their parents toil the lands. Massive combine harvesters rumble across the lands, threshers operate around the clock - separating the seeds from the stalks and husks. In the evening, government officers come to note down the number of crops harvested, and trucks laden with grain transport the produce to governmental godowns.\n\nAfter laborious record keeping, with a few mistakes here and there, but in large parts accounted for, the Harvest is completed. However, the work is not done. Now comes the time to decide the fate of the produce. Some will be exported and some will be allocated to public distribution systems for domestic consumption. As to the degree of the allocation, it is completely up to us to decide.\n\nTotal £grain_icon §YGrain§! Harvest Collected: §O[?SOV_Total_Harvest] mln tonnes§!\nTotal £grain_icon §YGrain§! collected as State Procurements: §O[?SOV_Grain_Collected] mln tonnes§!\nTotal £grain_icon §YGrain§! Available for Export: §O[?SOV_Grain_for_Export] mln tonnes§!\n"
  SOV_Export_All_Grain_Surplus_Abroad: "Export §RAll§! Grain Surplus Abroad"
  SOV_Export_70_of_Our_Grain_Surplus_Abroad: "Export §Y70%§! of Our Grain Surplus Abroad"
  SOV_Export_30_of_Our_Grain_Surplus_Abroad: "Export §G30%§! of Our Grain Surplus Abroad"
@@ -1637,7 +1789,7 @@
 
  # Evacuation of Industry
  SOV_Evacuation_of_Industry_category: "Evacuation of Industry"
- SOV_Evacuation_of_Industry_category_desc: "\n\n\n£decision_header_SOV_Evacuation_of_Industry£\n\n\n\nThe Fascist tide has turned towards us and seeks to engulf our homeland and its peace loving people into an abyss of suffering and destruction. While the traitorous representatives of the the Nazi scum signed agreements and treaties with us, they secretly sharpened their daggers in the night to stab us in the back. They bought our grain to feed their army, the same army which now marches towards Moscow. They bought our oil, oil which is now used to fuel their Panzers that pierce our motherland.\n\nBut our armies are standing their ground, and give it only inch by inch, taking an increasing toll on the attackers. Our factories and industry in the West - the fruits of our 5 Years Plans are under threat. They are of utmost importance to the war effort and as such their survival is tied directly to the fate of our Union. We have begun marshaling railway cars and set up transit systems to begin the relocation of our industries eastwards at the earliest opportune moment.\n\nFar away from the Germans, our factories will churn out weapons in immeasurable quantities. We will arm our soldiers to the hilt, and unleash upon our enemies massive hordes of armoured legions, and swarms of aircraft in order to destroy and push back the "mighty" Reich's armies until the Red Banner flies atop their fascist lair, all the way back in Berlin.\n                                               §RThe Decisions are on the Map§!"
+ SOV_Evacuation_of_Industry_category_desc: "\n\n\n£decision_header_SOV_Evacuation_of_Industry£\n\n\n\nThe Fascist tide has turned towards us and seeks to engulf our homeland and its peace loving people into an abyss of suffering and destruction. While the traitorous representatives of the the Nazi scum signed agreements and treaties with us, they secretly sharpened their daggers in the night to stab us in the back. They bought our grain to feed their army, the same army which now marches towards Moscow. They bought our oil, oil which is now used to fuel their Panzers that pierce our motherland.\n\nBut our armies are standing their ground, and give it only inch by inch, taking an increasing toll on the attackers. Our factories and industry in the West - the fruits of our 5 Years Plans are under threat. They are of utmost importance to the war effort and as such their survival is tied directly to the fate of our Union. We have begun marshaling railway cars and set up transit systems to begin the relocation of our industries eastwards at the earliest opportune moment.\n\nFar away from the Germans, our factories will churn out weapons in immeasurable quantities. We will arm our soldiers to the hilt, and unleash upon our enemies massive hordes of armoured legions, and swarms of aircraft in order to destroy and push back the "mighty" Reich's armies until the Red Banner flies atop their fascist lair, all the way back in Berlin.\n\n                                               §RThe Decisions are on the Map§!\n"
  SOV_Evacuation_of_Belarus: "Evacuation of Belarus"
  SOV_Evacuation_of_Western_Ukraine: "Evacuation of Western Ukraine"
  SOV_Evacuation_of_Baltic_Republics: "Evacuation of Baltic Republics"
@@ -1652,7 +1804,7 @@
 
  # Transformation of Nature
  SOV_Trasformation_of_Nature_category: "Transformation of Nature"
- SOV_Trasformation_of_Nature_category_desc: "\n\n\n£decision_header_SOV_Great_Plan_for_Transformation_of_Nature£\n\n\n\nThe Great Plan for the Transformation of Nature is an extremely ambitious and intensive development program, proposed and being implemented under the aegis of General Secretary Stalin. Its motto calls for "the great transformation of nature" (or великое преобразование природы), referring to the introduction and implementation of new land development, agricultural practices and water projects in order to improve the agricultural sector throughout the nation.\n\nThese include the planting and construction of gigantic networks of shelterbelts ("forest strips" or лесополоса), the introduction of grassland crop rotation and the construction of ponds, reservoirs & irrigation canals to ensure highly sustainable crop yields. This project has been well received, though there have been some discerning reports about the "nest method" of plantation. However, they are secondary activities in purview of the much larger project. As we embark on this campaign for the national good, we develop the Motherland, & in the words of the General Secretary Stalin \"defeat drought\"."
+ SOV_Trasformation_of_Nature_category_desc: "\n\n\n£decision_header_SOV_Great_Plan_for_Transformation_of_Nature£\n\n\n\nThe Great Plan for the Transformation of Nature is an extremely ambitious and intensive development program, proposed and being implemented under the aegis of General Secretary Stalin. Its motto calls for "the great transformation of nature" (or великое преобразование природы), referring to the introduction and implementation of new land development, agricultural practices and water projects in order to improve the agricultural sector throughout the nation.\n\nThese include the planting and construction of gigantic networks of shelterbelts ("forest strips" or лесополоса), the introduction of grassland crop rotation and the construction of ponds, reservoirs & irrigation canals to ensure highly sustainable crop yields. This project has been well received, though there have been some discerning reports about the "nest method" of plantation. However, they are secondary activities in purview of the much larger project. As we embark on this campaign for the national good, we develop the Motherland, & in the words of the General Secretary Stalin \"defeat drought\".\n"
  SOV_Windbreak_in_Central_Russia: "Plant Windbreak Mainlines in Central Russia"
  SOV_Windbreak_in_Southern_Russia: "Plant Windbreak Mainlines in Southern Russia"
  SOV_Windbreak_in_Northern_Caucasus: "Plant Windbreak Mainlines in Northern Caucasus"
@@ -1693,7 +1845,7 @@
 
  # The Great Patriotic War
  SOV_The_Great_Patriotic_War_category: "The Great Patriotic War"
- SOV_The_Great_Patriotic_War_category_desc: "\n\n\n£decision_header_SOV_The_Great_Patriotic_War£\n\n\n\n[GER.GetLeader]'s Germany has invaded our country! We've tried everything to keep the Nazis at bay, yet they've still come to destroy our people! Despite the Red Army's courageous fight, and despite the enemy's greatest divisions and air force units being obliterated and slaughtered on the battlefield, the opposition continues to press forward, with new soldiers being thrown to the front on a regular basis. The Motherland must be preserved to prevent the German war machine from reaching Moscow! Every weapon, every man, and every woman must be used to repel their assault, no matter the cost! This is no ordinary war, but a war to defend our very right to live!\n\n§RLong live our magnificent Motherland, and may the Germans be sent back to the hell from which they came!§!"
+ SOV_The_Great_Patriotic_War_category_desc: "\n\n\n£decision_header_SOV_The_Great_Patriotic_War£\n\n\n\n[GER.GetLeader]'s Germany has invaded our country! We've tried everything to keep the Nazis at bay, yet they've still come to destroy our people! Despite the Red Army's courageous fight, and despite the enemy's greatest divisions and air force units being obliterated and slaughtered on the battlefield, the opposition continues to press forward, with new soldiers being thrown to the front on a regular basis. \n\nThe Motherland must be preserved to prevent the German war machine from reaching Moscow! Every weapon, every man, and every woman must be used to repel their assault, no matter the cost!\nThis is no ordinary war, but a war to defend our very right to live!\n\n§RLong live our magnificent Motherland, and may the Germans be sent back to the hell from which they came!§!\n"
  SOV_Launch_Operatsiya_Sochuvstviye: "Launch Operatsiya \"Sochuvstviye\""
  SOV_Hold_the_First_Moscow_Conference: "Hold the First Moscow Conference"
  SOV_Mobilisation_of_the_Soviet_Industry: "Mobilisation of the Soviet Industry"
@@ -1833,6 +1985,18 @@
  SOV_Liberation_of_Finland: "Liberation of Finland"
  SOV_Liberation_of_Germany: "Liberation of Germany"
 
+ # Formation of the Guards Army
+ SOV_Formation_of_the_Guards_Army: "Formation of the Guards Army"
+ SOV_Formation_of_the_Guards_Army_desc: "\n\n\n£decision_header_SOV_Guards_Army£\n\n\n\nArise brave men and women for your scared duty, arise factory worker's from your labor, arise peasant's from your slumber to your scared responsibility.\n\nArise to the defense of the motherland.\n\nThese are the duties of the Guard."
+ SOV_Introduce_Guards_Title: "Introduce the Guards Title"
+ SOV_Introduce_Guards_Title_tt: "§YThe first Guards divisions will be deployed§!"
+ SOV_Guards_Army_Formed: "§YThe Guards army has been formed§!"
+ SOV_Guards_Motorized_Rifle_Corps: "Deploy the Guards Motor Rifle Corps"
+ SOV_Guards_Motorized_Rifle_Corps_tt: "§YThe Guards motor rifle corps will be deployed§!"
+ SOV_Raise_Guards_Cavalry_Divisions: "Raise Guards Cavalry Divisions"
+ SOV_Raise_Guards_Cavalry_Divisions_tt: "§YGuards cavalry divisions will be raised!"
+ SOV_Guards_Cavalry_Raised: "§YGuards cavalry divisions have been raised§!"
+
 ######################################################################
 #  Soviet Union Ideas
 ######################################################################
@@ -1920,13 +2084,13 @@
  SOV_Five_Year_Plan_Failed: "Five-Year Plan Failed"
  SOV_Five_Year_Plan_Failed_desc: ""
 
- SOV_Soviet_Famine_idea: "Great Famine"
+ SOV_Soviet_Famine_idea: "Failure of the Harvest"
  SOV_Soviet_Famine_idea_desc: ""
 
- SOV_Soviet_Small_Famine_idea: "Minor Famine"
+ SOV_Soviet_Small_Famine_idea: "Harvest Shortages"
  SOV_Soviet_Small_Famine_idea_desc: ""
 
- SOV_Soviet_Big_Famine_idea: "Large Famine"
+ SOV_Soviet_Big_Famine_idea: "Major Failure of the Harvest"
  SOV_Soviet_Big_Famine_idea_desc: ""
 
  SOV_Soviet_Work_Discipline: "Soviet Work Discipline"
@@ -1952,9 +2116,6 @@
 
  SOV_The_German_Betrayal: "The German Betrayal"
  SOV_The_German_Betrayal_desc: ""
-
- SOV_The_German_Betrayal_2: "The Great Patriotic War"
- SOV_The_German_Betrayal_2_desc: ""
 
  SOV_Mobilization_of_the_Soviet_Industry_1: "Mobilization of the Soviet Industry"
  SOV_Mobilization_of_the_Soviet_Industry_1_desc: ""
@@ -1986,8 +2147,38 @@
  SOV_Operation_Groza_Baltic_Seaports: "Control of Baltic Seaports"
  SOV_Operation_Groza_Completed: "Operation Groza Completed"
 
+ SOV_The_Great_Terror_1: "The Great Terror"
+ SOV_The_Great_Terror_1_desc: ""
+
+ SOV_The_Great_Terror_2: "The Great Terror"
+ SOV_The_Great_Terror_2_desc: ""
+
+ SOV_The_Great_Terror_3: "The Great Terror"
+ SOV_The_Great_Terror_3_desc: ""
+
+ SOV_The_Great_Reorganisation: "The Great Reorganisation"
+ SOV_The_Great_Terror_Reorganisation_desc: ""
+
+ SOV_The_Great_Disgrace: "The Great Disgrace"
+ SOV_The_Great_Disgrace_desc: ""
+
  SOV_The_Deal_idea: "The Deal"
  SOV_The_Deal_idea_desc: "Soviets have deployed Freddy Fazbear, RUN"
+
+ SOV_Heroes_of_the_Air: "Heroes of the Air"
+ SOV_Heroes_of_the_Air_desc: ""
+
+ SOV_Growing_Flight_Industry: "Growing Flight Industry"
+ SOV_Growing_Flight_Industry_desc: ""
+
+ SOV_Wings_of_the_Red_Army: "Wings of the Red Army"
+ SOV_Wings_of_the_Red_Army_desc: ""
+
+ SOV_Wings_of_the_Red_Army_2: "Wings of the Red Army"
+ SOV_Wings_of_the_Red_Army_2_desc: ""
+
+ SOV_Women_in_Aviation: "Women in Aviation"
+ SOV_Women_in_Aviation_desc: ""
 
 ### OLD
  SOV_Centerally_Planned_Economy: "Centrally Planned Economy"
@@ -2098,12 +2289,6 @@
  SOV_Focalize_on_Sovkhoz_Farms_3: "Sovkhov Agricultural Model"
  SOV_Focalize_on_Sovkhoz_Farms_3_desc: ""
 
- SOV_Voroshilovtchina: "Voroshilovtchina"
- SOV_Voroshilovtchina_desc: ""
-
- SOV_Voroshilovtchina_2: "Voroshilovtchina"
- SOV_Voroshilovtchina_2_desc: ""
-
  SOV_Shock_Troops: "Shock Troops"
  SOV_Shock_Troops_desc: ""
 
@@ -2172,3 +2357,29 @@
  population_suspicion_medium: "§OMedium§!"
  population_suspicion_high: "§RHigh§!"
  population_suspicion_very_high: "§RVery High§!"
+
+ #Red Army ideas
+ SOV_Tukhachevsky_Reforms: "Tukhachevsky Reforms"
+ SOV_Tukhachevsky_Reforms_desc: ""
+ 
+ SOV_Tukhachevsky_Reforms_2: "Tukhachevsky Reforms"
+ SOV_Tukhachevsky_Reforms_2_desc: ""
+
+ SOV_Voroshilovtchina: "Voroshilovtchina"
+ SOV_Voroshilovtchina_desc: ""
+
+ SOV_Voroshilovtchina_2: "Voroshilovtchina"
+ SOV_Voroshilovtchina_2_desc: ""
+ 
+ SOV_Deep_Battle: "Deep Battle"
+ SOV_Deep_Battle_desc: ""
+ 
+ SOV_Human_Wave: "Human Wave"
+ SOV_Deep_Battle_desc: ""
+ 
+ SOV_TANKOGRAD: "Tankograd"
+ SOV_TANKOGRAD_desc: ""
+ 
+ SOV_Krasnaya_Armiya_Vorzrozhdayetsya: "The Red Army Reborn"
+ SOV_Krasnaya_Armiya_Vorzrozhdayetsya_desc: ""
+ 

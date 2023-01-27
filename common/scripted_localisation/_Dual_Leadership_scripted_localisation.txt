@@ -30,18 +30,6 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_idea = SOV_Lev_Kamenev_HoG
-		}
-		localization_key = SOV_Lev_Kamenev
-	}
-	text = {
-		trigger = {
-			has_idea = SOV_Alexei_Kosygin_HoG
-		}
-		localization_key = SOV_Alexei_Kosygin
-	}
-	text = {
-		trigger = {
 			has_idea = SOV_Sergey_Kirov_HoG
 		}
 		localization_key = SOV_Sergey_Kirov
@@ -346,12 +334,12 @@ defined_text = {
 		}
 		localization_key = USA_Harry_S_Truman
 	}
-	# text = {
-	# 	trigger = {
-	# 		has_idea = USA_Henry_Wallace_HoG
-	# 	}
-	# 	localization_key = USA_Henry_Wallace
-	# }
+	text = {
+	 	trigger = {
+	 		has_idea = USA_Henry_A_Wallace_HoG
+	 	}
+	 	localization_key = USA_Henry_A_Wallace
+	}
 	text = {
 		trigger = {
 			has_idea = USA_Cordell_Hull_HoG
@@ -397,24 +385,42 @@ defined_text = {
 		}
 		localization_key = ROM_D_Mihai_I
 	}
+	text = {
+		trigger = {
+			has_idea = ROM_D_Gheorghe_Tatarescu
+		}
+		localization_key = ROM_D_Gheorghe_Tatarescu
+	}
+	text = {
+		trigger = {
+			has_idea = ROM_D_Armand_Calinescu
+		}
+		localization_key = ROM_D_Armand_Calinescu
+	}
 	#### POL - Poland
 	text = {
 		trigger = {
-			has_idea = POL_CoArmy_Edward_RydzSmigly
+			has_idea = POL_Edward_RydzSmigly_CoArmy
 		}
-		localization_key = POL_CoArmy_Edward_RydzSmigly
+		localization_key = POL_Edward_RydzSmigly
 	}
 	text = {
 		trigger = {
-			has_idea = POL_D_Ignacy_Moscicki
+			has_idea = POL_Ignacy_Moscicki_HoG
 		}
-		localization_key = POL_D_Ignacy_Moscicki
+		localization_key = POL_Ignacy_Moscicki
 	}
 	text = {
 		trigger = {
-			has_idea = POL_D_Boleslaw_Bierut
+			has_idea = POL_Boleslaw_Bierut_HoG
 		}
-		localization_key = POL_D_Boleslaw_Bierut
+		localization_key = POL_Boleslaw_Bierut
+	}
+	text = {
+		trigger = {
+			has_idea = POL_Edward_OsobkaMorawski_HoG
+		}
+		localization_key = POL_Edward_OsobkaMorawski
 	}
 	#### FRA - France
 	text = {
@@ -436,24 +442,11 @@ defined_text = {
 	# 	localization_key = FRA_Felix_Eboue
 	# }
 	text = {
-	 	trigger = {
-			has_idea = FRA_Charles_de_Gaulle_HoG
-	 	}
-	 	localization_key = FRA_Charles_de_Gaulle
-	}
-	text = {
-	 	trigger = {
-			has_idea = FRA_Philippe_Petain_HoG
-	 	}
-	 	localization_key = FRA_Philippe_Petain
-	}
-
-	text = {
-	 	trigger = {
-			has_idea = FRA_Henri_Giraud_HoG
-	 	}
-	 	localization_key = FRA_Henri_Giraud
-	}
+		trigger = {
+		   has_idea = FRA_Charles_Maurras_HoG
+		}
+		localization_key = FRA_Charles_Maurras
+    }
 
 	#### TIB - Tibet
 	text = {
@@ -528,6 +521,12 @@ defined_text = {
 			has_idea = YUG_Aleksandar_I_HoG
 		}
 		localization_key = YUG_Aleksandar_I
+	}
+	text = {
+		trigger = {
+			has_idea = YUG_Prince_Paul_HoG
+		}
+		localization_key = YUG_Prince_Paul_HoG
 	}
 	text = {
 		trigger = {
@@ -1510,12 +1509,12 @@ defined_text = {
 		}
 		localization_key = GFX_P_D_John_Bricker
 	}
-	# text = {
-	# 	trigger = {
-	# 		has_idea = USA_Henry_Wallace_HoG
-	# 	}
-	# 	localization_key = GFX_P_D_Henry_Wallace
-	# }
+	text = {
+		trigger = {
+	 		has_idea = USA_Henry_A_Wallace_HoG
+	 	}
+	 	localization_key = GFX_P_D_Henry_Wallace
+	}
 	text = {
 		trigger = {
 			has_idea = USA_Cordell_Hull_HoG
@@ -1567,24 +1566,42 @@ defined_text = {
 		}
 		localization_key = GFX_P_A_Mihai_I
 	}
+	text = {
+		trigger = {
+			has_idea = ROM_D_Gheorghe_Tatarescu
+		}
+		localization_key = GFX_P_D_Gheorghe_Tatarescu
+	}
+	text = {
+		trigger = {
+			has_idea = ROM_D_Armand_Calinescu
+		}
+		localization_key = GFX_P_D_Armand_Calinescu
+	}
 	#### POL - Poland
 	text = {
 		trigger = {
-			has_idea = POL_CoArmy_Edward_RydzSmigly
+			has_idea = POL_Edward_RydzSmigly_CoArmy
 		}
 		localization_key = GFX_M_Edward_Rydz_Smigly
 	}
 	text = {
 		trigger = {
-			has_idea = POL_D_Ignacy_Moscicki
+			has_idea = POL_Ignacy_Moscicki_HoG
 		}
 		localization_key = GFX_P_A_Ignacy_Moscicki
 	}
 	text = {
 		trigger = {
-			has_idea = POL_D_Boleslaw_Bierut
+			has_idea = POL_Boleslaw_Bierut_HoG
 		}
 		localization_key = GFX_P_C_Boleslaw_Bierut
+	}
+	text = {
+		trigger = {
+			has_idea = POL_Edward_OsobkaMorawski_HoG
+		}
+		localization_key = GFX_P_C_Edward_Bolesaw_Osobka_Morawski
 	}
 	#### BEL - Belgium
 	text = {
@@ -1626,24 +1643,6 @@ defined_text = {
 	# 	}
 	# 	localization_key = GFX_P_D_Felix_Eboue
 	# }
-	text = {
-	 	trigger = {
-	 		has_idea = FRA_Charles_de_Gaulle_HoG
-	 	}
-	 	localization_key = GFX_M_Charles_De_Gaulle
-	}
-	text = {
-	 	trigger = {
-	 		has_idea = FRA_Philippe_Petain_HoG
-	 	}
-	 	localization_key = GFX_M_Philippe_Petain
-	}
-	text = {
-	 	trigger = {
-	 		has_idea = FRA_Henri_Giraud_HoG
-	 	}
-	 	localization_key = GFX_M_Henri_Giraud
-	}
 	#### GER - Germany
 	text = {
 		trigger = {
@@ -1882,6 +1881,12 @@ defined_text = {
 			has_idea = YUG_Aleksandar_I_HoG
 		}
 		localization_key = GFX_P_A_Aleksandar_I
+	}
+	text = {
+		trigger = {
+			has_idea = YUG_Prince_Paul_HoG
+		}
+		localization_key = GFX_P_A_Prince_Paul
 	}
 	text = {
 		trigger = {
@@ -2547,6 +2552,13 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			tag = AOI
+			has_government = fascist
+		}
+		localization_key = GFX_P_AOI_F_Vacant
+	}
+	text = {
+		trigger = {
 			original_tag = LAT
 		}
 		localization_key = GFX_P_LAT_Vacant
@@ -2960,7 +2972,7 @@ defined_text = {
 		trigger = {
 			has_idea = ROM_D_Mihai_I
 		}
-		localization_key = ROM_D_Mihai_I_desc
+		localization_key = ROM_Mihai_I_desc
 	}
 	#### GER - Germany
 	text = {
@@ -2979,7 +2991,7 @@ defined_text = {
 		trigger = {
 			has_idea = GER_Adolf_Hitler_HoG
 		}
-		localization_key = GER_Adolf_Hitler_desc
+		localization_key = GER_Adolf_Hitler_HoG_desc
 	}
 	text = {
 		trigger = {

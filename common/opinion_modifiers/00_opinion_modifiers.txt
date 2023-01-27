@@ -1034,6 +1034,9 @@ opinion_modifiers = {
 	large_decrease = {
 		value = -50
 	}
+	huge_decrease = {
+		value = -100
+	}
 	small_increase = {
 		value = 10
 	}

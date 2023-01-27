@@ -361,6 +361,11 @@ FRA_INF_01 =
 		328 = { "28e Division d'Infanterie Coloniale" }
 		329 = { "29e Division d'Infanterie Coloniale" }
 		330 = { "30e Division d'Infanterie Coloniale" }
+		193 = { "1re Division d’Infanterie Tchécoslovaque" } # Put at the end of the list so they won't be formed by accident hopefully, but still allowing name changes.
+		194 = { "1re Division de Grenadiers Polonais" }
+		195 = { "2e Division de Chasseurs Polonais" }
+		196 = { "3e Division d'Infanterie Polonais" }
+		197 = { "4e Division d'Infanterie Polonais" }
 	}
 }
 FRA_LGH_01 = 
@@ -694,6 +699,11 @@ FRA_LGH_01 =
 		328 = { "28e Division Légère d'Infanterie Coloniale" }
 		329 = { "29e Division Légère d'Infanterie Coloniale" }
 		330 = { "30e Division Légère d'Infanterie Coloniale" }
+		193 = { "1re Division d’Infanterie Tchécoslovaque" } # Put at the end of the list so they won't be formed by accident hopefully, but still allowing name changes.
+		194 = { "1re Division de Chasseurs Polonais" }
+		195 = { "2e Division de Chasseurs Polonais" }
+		196 = { "3e Division de Chasseurs Polonais" }
+		197 = { "4e Division de Chasseurs Polonais" }
 	}
 }
 FRA_MOT_01 = 
@@ -1027,6 +1037,11 @@ FRA_MOT_01 =
 		328 = { "28e Division d'Infanterie Motorisée Coloniale" }
 		329 = { "29e Division d'Infanterie Motorisée Coloniale" }
 		330 = { "30e Division d'Infanterie Motorisée Coloniale" }
+		193 = { "1re Division d'Infanterie Motorisée Tchécoslovaque" } # Put at the end of the list so they won't be formed by accident hopefully, but still allowing name changes.
+		194 = { "1re Division d'Infanterie Motorisée Polonais" }
+		195 = { "2e Division d'Infanterie Motorisée Polonais" }
+		196 = { "3e Division d'Infanterie Motorisée Polonais" }
+		197 = { "4e Division d'Infanterie Motorisée Polonais" }
 	}
 }
 FRA_MTN_01 = 
@@ -1360,6 +1375,11 @@ FRA_MTN_01 =
 		328 = { "28e Division de Montagne Coloniale" }
 		329 = { "29e Division de Montagne Coloniale" }
 		330 = { "30e Division de Montagne Coloniale" }
+		193 = { "1re Division de Chasseurs Tchécoslovaque" } # Put at the end of the list so they won't be formed by accident hopefully, but still allowing name changes.
+		194 = { "1re Division de Chasseurs Polonais" }
+		195 = { "2e Division de Chasseurs Polonais" }
+		196 = { "3e Division de Chasseurs Polonais" }
+		197 = { "4e Division de Chasseurs Polonais" }
 	}
 }
 FRA_GAR_01 = 
@@ -1368,9 +1388,9 @@ FRA_GAR_01 =
 
 	for_countries = { FRA }
 
-	can_use = { always = no } # Triggered by loading Series B reserves
+	can_use = { always = yes }
 
-	division_types = { "garrison" }
+	division_types = { "garrison" "infantry" }
 
 	# Number reservation system will tie to another group.
 	link_numbering_with = { FRA_INF_01 FRA_LGH_01 FRA_MOT_01 FRA_MTN_01 FRA_PAR_01 FRA_CINF_01 FRA_CLGH_01 FRA_CINF_02 FRA_CMAR_02 FRA_CINF_03 FRA_CLGH_03 FRA_CINF_04 FRA_CAF_04 }
@@ -1693,6 +1713,11 @@ FRA_GAR_01 =
 		328 = { "28e Division d'Infanterie Forteresse Coloniale" }
 		329 = { "29e Division d'Infanterie Forteresse Coloniale" }
 		330 = { "30e Division d'Infanterie Forteresse Coloniale" }
+		193 = { "1re Division d'Infanterie Tchécoslovaque" } # Put at the end of the list so they won't be formed by accident hopefully, but still allowing name changes.
+		194 = { "1re Division d'Infanterie Polonais" }
+		195 = { "2e Division d'Infanterie Polonais" }
+		196 = { "3e Division d'Infanterie Polonais" }
+		197 = { "4e Division d'Infanterie Polonais" }
 	}
 }
 FRA_PAR_01 = 
@@ -2026,6 +2051,11 @@ FRA_PAR_01 =
 		328 = { "28e Division Aéroportée Coloniale" }
 		329 = { "29e Division Aéroportée Coloniale" }
 		330 = { "30e Division Aéroportée Coloniale" }
+		193 = { "1re Division Aéroportée Tchécoslovaque" } # Put at the end of the list so they won't be formed by accident hopefully, but still allowing name changes.
+		194 = { "1re Division Aéroportée Polonais" }
+		195 = { "2e Division Aéroportée Polonais" }
+		196 = { "3e Division Aéroportée Polonais" }
+		197 = { "4e Division Aéroportée Polonais" }
 	}
 }
 FRA_CAV_01 = 

@@ -110,6 +110,7 @@ country_event = {
 		create_country_leader = {
 			name = "John J. Curtin"
 			picture = GFX_P_D_John_Curtin
+			desc = AST_John_Curtin_desc
 			ideology = social_democracy
 			traits = {
 				POSITION_Prime_Minister
@@ -164,6 +165,7 @@ country_event = {
 		create_country_leader = {
 			name = "John J. Curtin"
 			picture = GFX_P_D_John_Curtin
+			desc = AST_John_Curtin_desc
 			ideology = social_democracy
 			traits = {
 				POSITION_Prime_Minister
@@ -218,6 +220,7 @@ country_event = {
 		create_country_leader = {
 			name = "John J. Curtin"
 			picture = GFX_P_D_John_Curtin
+			desc = AST_John_Curtin_desc
 			ideology = social_democracy
 			traits = {
 				POSITION_Prime_Minister
@@ -272,6 +275,7 @@ country_event = {
 		create_country_leader = {
 			name = "Ben Chifley"
 			picture = GFX_P_D_Ben_Chifley
+			desc = AST_Ben_Chifley_desc
 			ideology = social_democracy
 			traits = {
 				POSITION_Prime_Minister
@@ -337,7 +341,7 @@ news_event = {
 		set_party_name = { ideology = democratic long_name = "Labor Party" name = "LP" }
 		create_country_leader = {
 			name = "John J. Curtin"
-			desc = ""
+			desc = AST_John_Curtin_desc
 			picture = GFX_P_D_John_Curtin
 			ideology = social_democracy
 			traits = {}

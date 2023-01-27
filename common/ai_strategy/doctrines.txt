@@ -72,7 +72,7 @@ superior_firepower_ratios = {
 		has_tech = Superior_Firepower
 	}
 	abort = {
-		# has_tech = concentrated_fire_plans
+		always = no
 	}
 	
 	ai_strategy = {
@@ -85,35 +85,6 @@ superior_firepower_ratios = {
 		type = role_ratio
 		id = artillery
 		value = 15
-	}
-	
-}
-
-## Later in superior_firepower tree
-concentrated_fire_plans_ratios = {
-	enable = {
-		# has_tech = concentrated_fire_plans
-	}
-	abort = {
-		always = no
-	}
-	
-	ai_strategy = {
-		type = role_ratio
-		id = infantry
-		value = -5
-	}
-	
-	ai_strategy = {
-		type = role_ratio
-		id = armor
-		value = 10
-	}
-
-	ai_strategy = {
-		type = role_ratio
-		id = cas
-		value = 5
 	}
 	
 }

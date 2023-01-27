@@ -470,7 +470,6 @@ equipments = {
 		## shore_bombardment = 10
 		armor_value = 0
 		ap_attack = 0
-		#carrier_size = 45
 		#Resources
 		resources = {
 			steel = 2
@@ -513,7 +512,6 @@ equipments = {
 		## shore_bombardment = 10
 		armor_value = 0
 		ap_attack = 0
-		#carrier_size = 45
 		#Resources
 		resources = {
 			steel = 2
@@ -612,7 +610,6 @@ equipments = {
 		## shore_bombardment = 10
 		armor_value = 0
 		ap_attack = 0
-		#carrier_size = 45
 		#Resources
 		resources = {
 			steel = 1

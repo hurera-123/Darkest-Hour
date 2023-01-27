@@ -85,9 +85,13 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = {
+			custom_effect_tooltip = ITA_Motorized_Division
 			swap_ideas = {
 				remove_idea = ITA_Regio_Esercito_Reorganization_2
 				add_idea = ITA_Regio_Esercito_Reorganization_3
+			}
+			hidden_effect = {
+				load_oob = ITA_Motorized
 			}
 		}
 	}
@@ -105,9 +109,13 @@ focus_tree = {
 		x = -1
 		y = 1
 		completion_reward = {
+			custom_effect_tooltip = ITA_Armoured_Division_Badoglio
 			swap_ideas = {
 				remove_idea = ITA_Regio_Esercito_Reorganization_3
 				add_idea = ITA_Old_Style_Army
+			}
+			hidden_effect = {
+				load_oob = ITA_Badoglio
 			}
 		}
 		search_filters = { FOCUS_FILTER_HISTORICAL }
@@ -161,7 +169,7 @@ focus_tree = {
 	focus = {
 		id = ITA_A_Romans_Sword
 		icon = GFX_GENERIC_Superior_Firepower
-		cost = 38
+		cost = 40
 		prerequisite = {
 			focus = ITA_De_Bono_and_Graziani_Know_Best
 		}
@@ -190,7 +198,7 @@ focus_tree = {
 	focus = {
 		id = ITA_A_Romans_Tools
 		icon = GFX_goal_generic_construction2
-		cost = 38
+		cost = 40
 		prerequisite = {
 			focus = ITA_De_Bono_and_Graziani_Know_Best
 		}
@@ -219,7 +227,7 @@ focus_tree = {
 	focus = {
 		id = ITA_Simplify_Infantry_Support_Equipment
 		icon = GFX_focus_generic_military_mission
-		cost = 33
+		cost = 35
 		prerequisite = {
 			focus = ITA_A_Romans_Sword
 		}
@@ -261,9 +269,13 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = {
+			custom_effect_tooltip = ITA_Armoured_Division_Pariani
 			swap_ideas = {
 				remove_idea = ITA_Regio_Esercito_Reorganization_3
 				add_idea = ITA_New_Style_Army
+			}
+			hidden_effect = {
+				load_oob = ITA_Pariani
 			}
 		}
 	}
@@ -401,6 +413,11 @@ focus_tree = {
 					add_idea = ITA_New_Style_Army_4
 				}
 			}
+			add_tech_bonus = {
+				uses = 1
+				bonus = 1
+				category = motorized_equipment
+			}
 		}
 	}
 	focus = {
@@ -457,7 +474,7 @@ focus_tree = {
 			add_tech_bonus = {
 				uses = 1
 				bonus = 1
-				category = motorized_equipment
+				category = cat_medium_armor
 			}
 			set_temp_variable = {
 				money_to_gain = -50
@@ -690,6 +707,10 @@ focus_tree = {
 				bonus = 1
 				category = para_tech
 			}
+			custom_effect_tooltip = ITA_Ex_Alto_Fulgor_tt
+			hidden_effect = {
+				load_oob = ITA_Folgore
+			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -731,6 +752,24 @@ focus_tree = {
 				uses = 1
 				cost_reduction = 0.5
 				category = cat_battlefield_support
+			}
+			add_ace = {
+				name = "Giuseppe"
+				surname = "Cenni"
+				callsign = "Vittorio Stella"
+				type = fighter_good
+			}
+			add_ace = {
+				name = "Mario"
+				surname = "Visintini"
+				callsign = "Cacciatore Scientifico"
+				type = fighter_unique
+			}
+			add_ace = {
+				name = "Franco"
+				surname = "Lucchini"
+				callsign = "Francesco Baracca II"
+				type = fighter_unique
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -836,9 +875,9 @@ focus_tree = {
 		search_filters = {  }
 	}
 	focus = {
-		id = ITA_Littorio_Class
-		icon = GFX_GENERIC_Battleship
-		cost = 10
+		id = ITA_First_Reggimento_San_Marco
+		icon = GFX_GENERIC_Marines
+		cost = 30
 		prerequisite = {
 			focus = ITA_Tridens
 		}
@@ -846,17 +885,21 @@ focus_tree = {
 		x = -2
 		y = 1
 		completion_reward = {
+			custom_effect_tooltip = ITA_Reggimento_San_Marco
 			add_tech_bonus = {
-				bonus = 1
 				uses = 1
-				technology = BB_1933
+				bonus = 1
+				category = marine_tech
+			}
+			hidden_effect = {
+				load_oob = ITA_San_Marco
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
 	focus = {
 		id = ITA_Taranto_Queen_of_the_Sea
-		icon = GFX_GENERIC_Marines
+		icon = GFX_goal_generic_construct_naval_dockyard
 		cost = 40
 		prerequisite = {
 			focus = ITA_Tridens
@@ -911,7 +954,7 @@ focus_tree = {
 			focus = ITA_Taranto_Queen_of_the_Sea
 		}
 		prerequisite = {
-			focus = ITA_Littorio_Class
+			focus = ITA_First_Reggimento_San_Marco
 		}
 		prerequisite = {
 			focus = ITA_Old_Ships_New_Guns
@@ -919,7 +962,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = ITA_Cavagnaris_Battleship_Fleet
 		}
-		relative_position_id = ITA_Littorio_Class
+		relative_position_id = ITA_First_Reggimento_San_Marco
 		x = 1
 		y = 1
 		completion_reward = {
@@ -943,7 +986,7 @@ focus_tree = {
 			focus = ITA_Taranto_Queen_of_the_Sea
 		}
 		prerequisite = {
-			focus = ITA_Littorio_Class
+			focus = ITA_First_Reggimento_San_Marco
 		}
 		prerequisite = {
 			focus = ITA_Old_Ships_New_Guns
@@ -1009,6 +1052,18 @@ focus_tree = {
 				uses = 1
 				bonus = 0.5
 				category = naval_air
+			}
+			add_ace = {
+				type = support_unique
+				name = "Giulio"
+				surname = "Graziani"
+				callsign = "Torpedo Twin"
+			}
+			add_ace = {
+				type = support_good
+				name = "Carlo"
+				surname = "Faggioni"
+				callsign = "Torpedo Twin"
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -1183,9 +1238,9 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_HISTORICAL }
 	}
 	focus = {
-		id = ITA_First_Reggimento_San_Marco
-		icon = GFX_GENERIC_Marines
-		cost = 30
+		id = ITA_Littorio_Class
+		icon = GFX_GENERIC_Battleship
+		cost = 10
 		prerequisite = {
 			focus = ITA_Meritocratic_Naval_Colleges
 			focus = ITA_Old_Guard_Hierarchy
@@ -1195,9 +1250,9 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			add_tech_bonus = {
-				uses = 1
 				bonus = 1
-				category = marine_tech
+				uses = 1
+				technology = BB_1933
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
@@ -1207,14 +1262,14 @@ focus_tree = {
 		icon = GFX_GENERIC_Coastal_Defense
 		cost = 65
 		prerequisite = {
-			focus = ITA_First_Reggimento_San_Marco
+			focus = ITA_Littorio_Class
 		}
 		mutually_exclusive = {
 			focus = ITA_Pista_Aerea_Sicilia
 		}
-		relative_position_id = ITA_First_Reggimento_San_Marco
-		x = -1
-		y = 1
+		relative_position_id = ITA_Meritocratic_Naval_Colleges
+		x = 0
+		y = 2
 		completion_reward = {
 			115 = {
 				add_building_construction = {
@@ -1250,14 +1305,14 @@ focus_tree = {
 		icon = GFX_GENERIC_Militarize_Civilian_Airports
 		cost = 65
 		prerequisite = {
-			focus = ITA_First_Reggimento_San_Marco
+			focus = ITA_Littorio_Class
 		}
 		mutually_exclusive = {
 			focus = ITA_Fortezza_Sicilia
 		}
-		relative_position_id = ITA_First_Reggimento_San_Marco
-		x = 1
-		y = 1
+		relative_position_id = ITA_Meritocratic_Naval_Colleges
+		x = 2
+		y = 2
 		completion_reward = {
 			115 = {
 				add_building_construction = {
@@ -2197,6 +2252,23 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = ITA_Italianizzazione
+		icon = GFX_ITA_Italianizzazione
+		cost = 35
+		x = 0
+		y = 2
+		available = {
+			Owns_Italian_Irredenta = yes
+		}
+		prerequisite = {
+			focus = ITA_Integration_of_Albania
+		}
+		relative_position_id = ITA_Italia_Imperiale
+		completion_reward = {
+			unlock_decision_category_tooltip = ITA_Italianizzazione_category
+		}
+	}
+	focus = {
 		id = ITA_In_The_Footsteps_of_Giant
 		icon = GFX_ITA_Third_Rome
 		cost = 35
@@ -2290,7 +2362,11 @@ focus_tree = {
 		available = {
 			date > 1938.6.6
 			has_army_manpower = {
-				size > 800000
+				size > 500000
+			}
+			OR = {
+				is_in_faction_with = GER
+				is_faction_leader = yes
 			}
 		}
 		prerequisite = {
@@ -2312,7 +2388,7 @@ focus_tree = {
 		available = {
 			date > 1938.6.6
 			has_army_manpower = {
-				size > 800000
+				size > 500000
 			}
 			NOT = {
 				has_completed_focus = ITA_Align_With_Mitteleuropa
@@ -2339,7 +2415,7 @@ focus_tree = {
 		available = {
 			date > 1938.6.6
 			has_army_manpower = {
-				size > 800000
+				size > 500000
 			}
 		}
 		prerequisite = {
@@ -2347,7 +2423,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_The_Balkan_Strategy
 		completion_reward = {
-			unlock_decision_tooltip = ITA_Issue_Ultimatum_to_Bulgaria
+			#unlock_decision_tooltip = ITA_Issue_Ultimatum_to_Bulgaria
 			unlock_decision_tooltip = ITA_Demand_Islands_from_Greece
 		}
 	}
@@ -2454,10 +2530,7 @@ focus_tree = {
 		}
 		relative_position_id = ITA_Rescue_Italic_Businesses
 		completion_reward = {
-			add_timed_idea = {
-				idea = ITA_Battaglia_del_Grano
-				days = 372
-			}
+			add_ideas = ITA_Battaglia_del_Grano
 		}
 	}
 	focus = {
@@ -2503,6 +2576,28 @@ focus_tree = {
 			swap_ideas = {
 				add_idea = ITA_The_Corporatist_Experiment_2
 				remove_idea = ITA_The_Corporatist_Experiment
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ITA
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ITA
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
 			}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_HISTORICAL }
@@ -2677,6 +2772,9 @@ focus_tree = {
 		cost = 30
 		x = 0
 		y = 1
+		available = {
+			date > 1936.1.1
+		}
 		prerequisite = {
 			focus = ITA_Introduce_Currency_Control
 		}
@@ -2792,7 +2890,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = ITA_Expand_OCI_Factory
+		id = ITA_Expand_OCI_Production
 		icon = GFX_GENERIC_Military_Production
 		cost = 60
 		x = 0
@@ -2824,9 +2922,9 @@ focus_tree = {
 		x = -1
 		y = 1
 		prerequisite = {
-			focus = ITA_Expand_OCI_Factory
+			focus = ITA_Expand_OCI_Production
 		}
-		relative_position_id = ITA_Expand_OCI_Factory
+		relative_position_id = ITA_Expand_OCI_Production
 		completion_reward = {
 			set_temp_variable = {
 				money_to_gain = 100
@@ -2864,9 +2962,9 @@ focus_tree = {
 		x = 1
 		y = 1
 		prerequisite = {
-			focus = ITA_Expand_OCI_Factory
+			focus = ITA_Expand_OCI_Production
 		}
-		relative_position_id = ITA_Expand_OCI_Factory
+		relative_position_id = ITA_Expand_OCI_Production
 		completion_reward = {
 			add_tech_bonus = {
 				bonus = 0.5
@@ -2978,46 +3076,66 @@ focus_tree = {
 		relative_position_id = ITA_Rescue_Italic_Businesses
 		completion_reward = {
 			add_political_power = 50
-			unlock_decision_category_tooltip = ITA_Drain_the_Swamp_category
-			set_country_flag = ITA_Pontine_Marshes_Swamp
-			set_variable = {
-				var = Swamps_Progress
-				value = 0
-			}
-			set_variable = {
-				var = ITA_Swamps_Stage
-				value = 0
-			}
-			set_variable = {
-				var = ITA_Swamps_Progress_Monthly
-				value = 3.5
-			}
-			set_variable = {
-				var = ITA_Swamps_kW_Produced
-				value = 3000
-			}
-			set_variable = {
-				var = ITA_Swamps_kW_Upkeep
-				value = 2800
-			}
-			set_variable = {
-				var = ITA_Decision_Selection_Times
-				value = 0
-			}
-			clamp_variable = {
-				var = ITA_Swamps_Stage
-				min = 0
-				max = 5
-			}
-			hidden_effect = {
-				set_temp_variable = {
-					swamp_progress_to_add = 40
+			if = {
+				limit = {
+					is_ai = yes
 				}
-				ITA_add_swamp_progress = yes
+				hidden_effect = {
+					random_owned_controlled_state = {
+						limit = {
+							is_core_of = ITA
+						}
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+						add_extra_state_shared_building_slots = 1
+					}
+				}
 			}
-			country_event = {
-				id = ITA_Economic_Tree.5
-				days = 1
+			else = {
+				unlock_decision_category_tooltip = ITA_Drain_the_Swamp_category
+				set_country_flag = ITA_Pontine_Marshes_Swamp
+				set_variable = {
+					var = Swamps_Progress
+					value = 0
+				}
+				set_variable = {
+					var = ITA_Swamps_Stage
+					value = 0
+				}
+				set_variable = {
+					var = ITA_Swamps_Progress_Monthly
+					value = 3.5
+				}
+				set_variable = {
+					var = ITA_Swamps_kW_Produced
+					value = 3000
+				}
+				set_variable = {
+					var = ITA_Swamps_kW_Upkeep
+					value = 2800
+				}
+				set_variable = {
+					var = ITA_Decision_Selection_Times
+					value = 0
+				}
+				clamp_variable = {
+					var = ITA_Swamps_Stage
+					min = 0
+					max = 5
+				}
+				hidden_effect = {
+					set_temp_variable = {
+						swamp_progress_to_add = 40
+					}
+					ITA_add_swamp_progress = yes
+				}
+				country_event = {
+					id = ITA_Economic_Tree.5
+					days = 1
+				}
 			}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -3910,11 +4028,11 @@ focus_tree = {
 	focus = {
 		id = ITA_Impero_Coloniale_Italiano
 		icon = GFX_ITA_Impero_Coloniale
-		cost = 70
+		cost = 35
 		x = 37
 		y = 0
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 75
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -4092,7 +4210,7 @@ focus_tree = {
 	focus = {
 		id = ITA_Establish_the_Africa_Orientale_Italiana
 		icon = GFX_ITA_Italian_Oriental_Africa
-		cost = 10
+		cost = 25
 		available = {
 			OR = {
 				ETH = {
@@ -4110,7 +4228,6 @@ focus_tree = {
 		}
 		relative_position_id = ITA_Impero_Coloniale_Italiano
 		completion_reward = {
-			add_political_power = 20
 			country_event = {
 				id = ITA_Colonial.5
 			}
@@ -4166,7 +4283,7 @@ focus_tree = {
 	focus = {
 		id = ITA_Piccola_Roma
 		icon = GFX_ITA_Piccola_Roma
-		cost = 10
+		cost = 35
 		x = 2
 		y = 1
 		prerequisite = {
@@ -4195,7 +4312,7 @@ focus_tree = {
 	focus = {
 		id = ITA_Linea_Dellimpero
 		icon = GFX_GENERIC_Militarize_Civilian_Airports
-		cost = 10
+		cost = 35
 		x = -1
 		y = 1
 		prerequisite = {
@@ -4237,7 +4354,7 @@ focus_tree = {
 	focus = {
 		id = ITA_Build_the_Imperial_Road
 		icon = GFX_GENERIC_Road_Construction
-		cost = 10
+		cost = 40
 		x = 1
 		y = 1
 		prerequisite = {
@@ -4289,7 +4406,7 @@ focus_tree = {
 	focus = {
 		id = ITA_Ethiopian_Hydroelectricity
 		icon = GFX_GENERIC_Electric_Grid
-		cost = 10
+		cost = 35
 		x = 1
 		y = 1
 		prerequisite = {
@@ -4310,7 +4427,7 @@ focus_tree = {
 	focus = {
 		id = ITA_Ambitions_on_the_Horn
 		icon = GFX_GENERIC_Draw_Borders
-		cost = 10
+		cost = 50
 		x = 0
 		y = 1
 		available = {

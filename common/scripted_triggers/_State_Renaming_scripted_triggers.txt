@@ -107,3 +107,18 @@ State_Renaming_French = {
 State_Renaming_Polish = {
 	tag = POL
 }
+
+State_Renaming_Croatian = {
+	OR = {
+		tag = YUG
+		tag = CRO
+	}
+}
+
+State_Renaming_Greek = {
+	tag = GRE
+}
+
+State_Renaming_Yugoslavian = {
+	tag = YUG
+}

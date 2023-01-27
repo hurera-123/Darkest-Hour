@@ -70,7 +70,11 @@ USA_USACE_Projects_Category = {
 		original_tag = USA
 	}
 	visible = {
-		has_completed_focus = USA_USACE_Projects
+		OR = {
+			has_completed_focus = USA_USACE_Projects
+			has_completed_focus = USA_Enlarge_Military_Industry
+			has_completed_focus = USA_Make_Use_of_the_USACE
+		}
 	}
 }
 USA_OSS_Category = {
@@ -171,6 +175,9 @@ FRA_Motorisation_de_Armee_category = {
 	}
 	visible = {
 		has_completed_focus = FRA_Cavalerie_Motorisee
+		NOT = {
+			has_country_flag = become_vichy
+		}
 	}
 }
 FRA_Finish_the_Maginot_Line_category = {
@@ -181,6 +188,11 @@ FRA_Finish_the_Maginot_Line_category = {
 	visible = {
 		has_completed_focus = FRA_The_Maginot_Line
 		NOT = { has_country_flag = FRA_Maginot_Finished }
+		AND = {
+			owns_state = 1169
+			owns_state = 28
+		}	
+		has_war = no
 	}
 }
 FRA_La_Armee_delAir_category = {
@@ -199,6 +211,7 @@ FRA_Programme_des_12_Milliards_category = {
 	}
 	visible = {
 		has_completed_focus = FRA_Decret_National_Defence
+		has_war = no
 	}
 }
 FRA_Grand_Quartier_General_category = {
@@ -208,6 +221,7 @@ FRA_Grand_Quartier_General_category = {
 	}
 	visible = {
 		has_completed_focus = FRA_The_GQG
+		has_war = yes
 	}
 }
 FRA_Battle_of_France_category = {
@@ -217,6 +231,7 @@ FRA_Battle_of_France_category = {
 	}
 	visible = {
 		has_country_flag = FRA_Battle_of_France
+		has_war = yes
 	}
 }
 
@@ -238,6 +253,7 @@ GER_Reichsverteidigung_category = {
 		original_tag = GER
 		has_government = fascist
 		has_war = yes
+		surrender_progress > 0.05
 	}
 }
 ITA_reform_military_category = {
@@ -447,6 +463,16 @@ SOV_The_Great_Patriotic_War_category = {
 	visible = {
 		has_completed_focus = SOV_The_Great_Patriotic_War
 		has_war_with = GER
+	}
+	visible_when_empty = yes
+}
+SOV_Formation_of_the_Guards_Army = {
+	icon = GFX_decision_category_sov_great_patriotic_war
+	allowed = {
+		original_tag = SOV
+	}
+	visible = {
+		has_completed_focus = SOV_Guard_Units
 	}
 	visible_when_empty = yes
 }

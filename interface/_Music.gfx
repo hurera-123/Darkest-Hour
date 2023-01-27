@@ -1,59 +1,109 @@
 spriteTypes = {
 
-	
+
 	spriteType = {
 		name = "GFX_allied_faceplate"
 		textureFile = "gfx/faceplate_allies.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_musicplayer_play_pause_button_allies"
 		texturefile = "gfx/musicplayer_play_pause_button_allies.dds"
-		effectFile = "gfx/FX/buttonstate.lua"	
-		noOfFrames = 2			
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
 	}
 
 	spriteType = {
 		name = "GFX_musicplayer_stop_button"
 		texturefile = "gfx//interface//topbar//musicplayer//musicplayer_stop_button.dds"
-		effectFile = "gfx/FX/buttonstate.lua"	
+		effectFile = "gfx/FX/buttonstate.lua"
 	}
 
 	spriteType = {
 		name = "GFX_musicplayer_next_button_allies"
 		texturefile = "gfx/musicplayer_next_button_allies.dds"
-		effectFile = "gfx/FX/buttonstate.lua"	
+		effectFile = "gfx/FX/buttonstate.lua"
 	}
 
 	spriteType = {
 		name = "GFX_musicplayer_previous_button_allies"
 		texturefile = "gfx/musicplayer_previous_button_allies.dds"
-		effectFile = "gfx/FX/buttonstate.lua"	
+		effectFile = "gfx/FX/buttonstate.lua"
 	}
 
 	spriteType = {
 		name = "GFX_toggle_shuffle_buttons_allies"
 		texturefile = "gfx/toggle_shuffle_buttons_allies.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
-		noOfFrames = 3			
+		noOfFrames = 3
 	}
-	
-	
-	progressbartype = {
-		name = "GFX_volume_track_allies"
-		color = { 1.0 1.0 1.0 }
-		colortwo = { 1.0 1.0 1.0 }
-		textureFile1 = "gfx/music_vol_progress_allies.dds"
-		textureFile2 = "gfx/music_vol_progress_bg_allies.dds"
-		size = { x = 89 y = 15 }
-		effectFile = "gfx/FX/progress.lua"
-	}
-	
+
 	spriteType = {
-		name = "GFX_DH_icon"
-		texturefile = "gfx/DH_icon.dds"
+		name = "GFX_musicplayer_bg"
+		textureFile = "gfx/interface/musicplayer_bg.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	spriteType = {
+		name = "GFX_musicplayer_radio_stations_icon"
+		textureFile = "gfx/interface/musicplayer_radio_stations_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_musicplayer_radio_stations_bg"
+		textureFile = "gfx/interface/musicplayer_radio_stations_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_musicplayer_close_button_bg"
+		textureFile = "gfx/interface/musicplayer_close_button_bg.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_musicplayer_close_button_frame"
+		textureFile = "gfx/interface/musicplayer_close_button_frame.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_musicplayer_close_button"
+		textureFile = "gfx/interface/musicplayer_close_button.dds"
 		noOfFrames = 2
-	}	
+	}
+	spriteType = {
+		name = "GFX_musicplayer_dh_logo"
+		textureFile = "gfx/interface/musicplayer_dh_logo.dds"
+	}
 
+	# Album Arts:
+	spriteType = {
+		name = "GFX_DH_album_art"
+		texturefile = "gfx/interface/topbar/musicplayer/DH_album_art.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_DH_allies_album_art"
+		texturefile = "gfx/interface/topbar/musicplayer/DH_allies_album_art.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_DH_comintern_album_art"
+		texturefile = "gfx/interface/topbar/musicplayer/DH_comintern_album_art.dds"
+		noOfFrames = 2
+	}
 
+	# Backgrounds:
+	spriteType = {
+		name = "GFX_musicplayer_background_generic"
+		textureFile = "gfx/interface/topbar/musicplayer/backgrounds/_generic.dds"
+	}
+	spriteType = {
+		name = "GFX_musicplayer_background_Allies"
+		textureFile = "gfx/interface/topbar/musicplayer/backgrounds/Allies.dds"
+	}
+	spriteType = {
+		name = "GFX_musicplayer_background_Axis"
+		textureFile = "gfx/interface/topbar/musicplayer/backgrounds/Axis.dds"
+	}
+	spriteType = {
+		name = "GFX_musicplayer_background_Comintern"
+		textureFile = "gfx/interface/topbar/musicplayer/backgrounds/Comintern.dds"
+	}
 }

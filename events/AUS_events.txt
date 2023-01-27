@@ -115,7 +115,7 @@ news_event = {
 			ideology = socialist
 			popularity = -0.1
 		}
-		news_event = { #19 June 1933
+		country_event = { #19 June 1933
 			id = AUS_Politics.3
 			days = 30
 		}
@@ -159,7 +159,20 @@ country_event = {
 news_event = {
 	id = AUS_Politics.4
 	title = AUS_Politics.4.t
-	desc = AUS_Politics.4.d
+	desc = {
+		text = AUS_Politics.4.d1
+		trigger = {
+			tag = AUS
+		}
+	}
+	desc = {
+		text = AUS_Politics.4.d
+		trigger = {
+			NOT = {
+				tag = AUS
+			}
+		}
+	}
 	picture = GFX_news_AUS_Austrian_Civil_War
 	fire_only_once = yes
 	trigger = {
@@ -167,6 +180,7 @@ news_event = {
 		date > 1934.2.12
 		has_start_date < 1934.2.12
 	}
+	major = yes
 	option = {
 		name = AUS_Politics.4.A
 		trigger = {
@@ -181,7 +195,6 @@ news_event = {
 				original_tag = AUS
 			}
 		}
-		add_stability = -0.2
 	}
 }
 #########################################################################
@@ -196,6 +209,10 @@ news_event = {
 		set_country_flag = AUS_Federal_Republic_of_Austria
 	}
 	trigger = {
+		AUS = {
+			is_subject = no
+			exists = yes
+		}
 		date > 1934.5.1
 		has_start_date < 1934.5.1
 		NOT = { has_country_flag = AUS_Federal_Republic_of_Austria }
@@ -228,42 +245,6 @@ news_event = {
 			NOT = {
 				original_tag = AUS
 			}
-		}
-	}
-}
-#########################################################################
-# Kurt Schuschnigg resigns, Seyss-Inquart named new chancellor
-#########################################################################
-news_event = {
-	id = AUS.1
-	title = AUS.1.t
-	desc = AUS.1.d
-	picture = GFX_news_AUS_Seyss_Inquart_Cabinet
-	fire_only_once = yes
-	trigger = {
-		tag = AUS
-		is_subject = no
-		date > 1938.3.10 #10 March 1938
-		has_start_date < 1938.3.10
-	}
-	immediate = {
-		hidden_effect = { set_country_flag = Austrian_Political_Crisis }
-	}
-	# Red White Red, until we're dead
-	option = {
-		name = AUS.1.A
-		add_stability = -0.10
-		set_politics = { ruling_party = fascist elections_allowed = no }
-		add_ideas = {
-			AUS_D_Edmund_GlaiseHorstenau
-			AUS_FM_Wilhelm_Wolff
-			AUS_MoS_Arthur_SeyssInquart
-			AUS_AM_Rudolf_Neumayr
-			AUS_HoI_Wilhelm_Wolff
-			AUS_CoStaff_Emil_Hickmann
-			AUS_CoArmy_Eugen_Beyer
-			AUS_CoNavy_Emil_Hickmann
-			AUS_CoAir_Alexander_Lohr
 		}
 	}
 }

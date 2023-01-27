@@ -399,3 +399,372 @@ ARBC_PAR_01 =
 
 	}
 }
+
+ARBC_INF_02 = 
+{
+	name = "Infantry Brigades"
+
+	for_countries = { ALG BHR CHA EGY IRQ JOR KUW LBA LEB MOR MRT OMA PAL QAT RIF SAH SAU SYR SUD TIZ TUN UAE YEM ZNB }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" "light_infantry" "shock_infantry" "bicycle_battalion" "militia" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ARBC_MOT_02 ARBC_MEC_02 ARBC_GAR_02 ARBC_MAR_02 ARBC_MTN_02 ARBC_PAR_02 }
+
+	fallback_name = "%d. Liwa Al-Mushat"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Liwa Al-Mushat" }
+		2 = { "%d. Liwa Al-Mushat" }
+		3 = { "%d. Liwa Al-Mushat" }
+		4 = { "%d. Liwa Al-Mushat" }
+		5 = { "%d. Liwa Al-Mushat" }
+		6 = { "%d. Liwa Al-Mushat" }
+		7 = { "%d. Liwa Al-Mushat" }
+		8 = { "%d. Liwa Al-Mushat" }
+		9 = { "%d. Liwa Al-Mushat" }
+		10 = { "%d. Liwa Al-Mushat" }
+		12 = { "%d. Liwa Al-Mushat" }
+		13 = { "%d. Liwa Al-Mushat" }
+		14 = { "%d. Liwa Al-Mushat" }
+		15 = { "%d. Liwa Al-Mushat" }
+		16 = { "%d. Liwa Al-Mushat" }
+		17 = { "%d. Liwa Al-Mushat" }
+		18 = { "%d. Liwa Al-Mushat" }
+		19 = { "%d. Liwa Al-Mushat" }
+		20 = { "%d. Liwa Al-Mushat" }
+
+	}
+}
+
+ARBC_CAV_02 = 
+{
+	name = "Cavalry Brigades"
+
+	for_countries = { ALG BHR CHA EGY IRQ JOR KUW LBA LEB MOR MRT OMA PAL QAT RIF SAH SAU SYR SUD TIZ TUN UAE YEM ZNB }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" "armored_car_battalion" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ARBC_ARM_02 }
+
+	fallback_name = "%d. Liwa Al-Fursan"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Liwa Al-Fursan" }
+		2 = { "%d. Liwa Al-Fursan" }
+		3 = { "%d. Liwa Al-Fursan" }
+		4 = { "%d. Liwa Al-Fursan" }
+		5 = { "%d. Liwa Al-Fursan" }
+		6 = { "%d. Liwa Al-Fursan" }
+		7 = { "%d. Liwa Al-Fursan" }
+		8 = { "%d. Liwa Al-Fursan" }
+		9 = { "%d. Liwa Al-Fursan" }
+		10 = { "%d. Liwa Al-Fursan" }
+		11 = { "%d. Liwa Al-Fursan" }
+		12 = { "%d. Liwa Al-Fursan" }
+		13 = { "%d. Liwa Al-Fursan" }
+		14 = { "%d. Liwa Al-Fursan" }
+		15 = { "%d. Liwa Al-Fursan" }
+
+	}
+}
+
+ARBC_MOT_02 = 
+{
+	name = "Motorised Brigades"
+
+	for_countries = { ALG BHR CHA EGY IRQ JOR KUW LBA LEB MOR MRT OMA PAL QAT RIF SAH SAU SYR SUD TIZ TUN UAE YEM ZNB }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ARBC_INF_02 ARBC_MEC_02 ARBC_GAR_02 ARBC_MAR_02 ARBC_MTN_02 ARBC_PAR_02 }
+
+	fallback_name = "%d. Liwa Al-Mushat Al-Alia"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Liwa Al-Mushat Al-Alia" }
+		2 = { "%d. Liwa Al-Mushat Al-Alia" }
+		3 = { "%d. Liwa Al-Mushat Al-Alia" }
+		4 = { "%d. Liwa Al-Mushat Al-Alia" }
+		5 = { "%d. Liwa Al-Mushat Al-Alia" }
+		6 = { "%d. Liwa Al-Mushat Al-Alia" }
+		7 = { "%d. Liwa Al-Mushat Al-Alia" }
+		8 = { "%d. Liwa Al-Mushat Al-Alia" }
+		9 = { "%d. Liwa Al-Mushat Al-Alia" }
+		10 = { "%d. Liwa Al-Mushat Al-Alia" }
+		12 = { "%d. Liwa Al-Mushat Al-Alia" }
+		13 = { "%d. Liwa Al-Mushat Al-Alia" }
+		14 = { "%d. Liwa Al-Mushat Al-Alia" }
+		15 = { "%d. Liwa Al-Mushat Al-Alia" }
+		16 = { "%d. Liwa Al-Mushat Al-Alia" }
+		17 = { "%d. Liwa Al-Mushat Al-Alia" }
+		18 = { "%d. Liwa Al-Mushat Al-Alia" }
+		19 = { "%d. Liwa Al-Mushat Al-Alia" }
+		20 = { "%d. Liwa Al-Mushat Al-Alia" }
+
+	}
+}
+
+ARBC_ARM_02 = 
+{
+	name = "Armoured Brigades"
+
+	for_countries = { ALG BHR CHA EGY IRQ JOR KUW LBA LEB MOR MRT OMA PAL QAT RIF SAH SAU SYR SUD TIZ TUN UAE YEM ZNB }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ARBC_CAV_02 }
+
+	fallback_name = "%d. Liwa Al-Mudaraea"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Liwa Al-Mudaraea" }
+		2 = { "%d. Liwa Al-Mudaraea" }
+		3 = { "%d. Liwa Al-Mudaraea" }
+		4 = { "%d. Liwa Al-Mudaraea" }
+		5 = { "%d. Liwa Al-Mudaraea" }
+		6 = { "%d. Liwa Al-Mudaraea" }
+		7 = { "%d. Liwa Al-Mudaraea" }
+		8 = { "%d. Liwa Al-Mudaraea" }
+		9 = { "%d. Liwa Al-Mudaraea" }
+		10 = { "%d. Liwa Al-Mudaraea" }
+		11 = { "%d. Liwa Al-Mudaraea" }
+		12 = { "%d. Liwa Al-Mudaraea" }
+		13 = { "%d. Liwa Al-Mudaraea" }
+		14 = { "%d. Liwa Al-Mudaraea" }
+		15 = { "%d. Liwa Al-Mudaraea" }
+
+	}
+}
+
+ARBC_MEC_02 = 
+{
+	name = "Mechanised Brigades"
+
+	for_countries = { ALG BHR CHA EGY IRQ JOR KUW LBA LEB MOR MRT OMA PAL QAT RIF SAH SAU SYR SUD TIZ TUN UAE YEM ZNB }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" "heavy_mechanized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ARBC_INF_02 ARBC_MOT_02 ARBC_GAR_02 ARBC_MAR_02 ARBC_MTN_02 ARBC_PAR_02 }
+
+	fallback_name = "%d. Liwa Al-Mushat Al-Mekanikia"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		2 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		3 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		4 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		5 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		6 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		7 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		8 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		9 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		10 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		12 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		13 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		14 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		15 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		16 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		17 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		18 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		19 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+		20 = { "%d. Liwa Al-Mushat Al-Mekanikia" }
+
+	}
+}
+
+ARBC_GAR_02 = 
+{
+	name = "Garrison Brigades"
+
+	for_countries = { ALG BHR CHA EGY IRQ JOR KUW LBA LEB MOR MRT OMA PAL QAT RIF SAH SAU SYR SUD TIZ TUN UAE YEM ZNB }
+
+	can_use = { always = yes }
+
+	division_types = { "garrison" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ARBC_INF_02 ARBC_MOT_02 ARBC_MEC_02 ARBC_MAR_02 ARBC_MTN_02 ARBC_PAR_02 }
+
+	fallback_name = "%d. Liwa Al-Mushat Al-Hamia"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		2 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		3 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		4 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		5 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		6 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		7 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		8 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		9 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		10 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		12 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		13 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		14 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		15 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		16 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		17 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		18 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		19 = { "%d. Liwa Al-Mushat Al-Hamia" }
+		20 = { "%d. Liwa Al-Mushat Al-Hamia" }
+
+	}
+}
+
+ARBC_MAR_02 = 
+{
+	name = "Marine Brigades"
+
+	for_countries = { ALG BHR CHA EGY IRQ JOR KUW LBA LEB MOR MRT OMA PAL QAT RIF SAH SAU SYR SUD TIZ TUN UAE YEM ZNB }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ARBC_INF_02 ARBC_MOT_02 ARBC_MEC_02 ARBC_GAR_02 ARBC_MTN_02 ARBC_PAR_02 }
+
+	fallback_name = "%d. Liwa Al-Mushat Al-Bahria"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		2 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		3 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		4 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		5 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		6 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		7 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		8 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		9 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		10 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		12 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		13 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		14 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		15 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		16 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		17 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		18 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		19 = { "%d. Liwa Al-Mushat Al-Bahria" }
+		20 = { "%d. Liwa Al-Mushat Al-Bahria" }
+	}
+}
+
+ARBC_MTN_02 = 
+{
+	name = "Mountain Brigades"
+
+	for_countries = { ALG BHR CHA EGY IRQ JOR KUW LBA LEB MOR MRT OMA PAL QAT RIF SAH SAU SYR SUD TIZ TUN UAE YEM ZNB }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ARBC_INF_02 ARBC_MOT_02 ARBC_MEC_02 ARBC_GAR_02 ARBC_MAR_02 ARBC_PAR_02 }
+
+	fallback_name = "%d. Liwa Al-Mushat Al-Jabalia"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		2 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		3 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		4 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		5 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		6 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		7 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		8 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		9 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		10 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		12 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		13 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		14 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		15 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		16 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		17 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		18 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		19 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+		20 = { "%d. Liwa Al-Mushat Al-Jabalia" }
+
+	}
+}
+
+ARBC_PAR_02 = 
+{
+	name = "Paratrooper Brigades"
+
+	for_countries = { ALG BHR CHA EGY IRQ JOR KUW LBA LEB MOR MRT OMA PAL QAT RIF SAH SAU SYR SUD TIZ TUN UAE YEM ZNB }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ARBC_INF_02 ARBC_MOT_02 ARBC_MEC_02 ARBC_GAR_02 ARBC_MAR_02 ARBC_MTN_02 }
+
+	fallback_name = "%d. Liwa Al-Mushat Al-Mazalia"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		2 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		3 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		4 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		5 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		6 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		7 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		8 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		9 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		10 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		12 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		13 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		14 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		15 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		16 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		17 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		18 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		19 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+		20 = { "%d. Liwa Al-Mushat Al-Mazalia" }
+
+	}
+}

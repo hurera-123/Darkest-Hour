@@ -176,8 +176,8 @@
  POL_Plan_Completed.2.A: ""
 
  POL_Airforce.1.t: "Warsaw Okęcie Opens for Business"
- POL_Airforce.1.d: ""
- POL_Airforce.1.A: ""
+ POL_Airforce.1.d: "As urban development began to impede the use of Pole Mokotow, an aerodrome in Warsaw's Mokotow Field, it was decided that a new purpose-built airport was required in 1924. After much thought, the Ministry of Railways, which oversees Polish air travel, purchased a plot of land near the village of Okecie. The complex was completed after a decade of construction on a budget of nearly ten million zlotys. It was designed in the Modernist style, with three hangars, garages, and a large terminal building. As a modern European capital, Warsaw finally got the airport it deserved. Following its completion in 1934, the complex was expanded with a Polish Air Force base, a branch of the Institute of Aviation, and a plane-building plant run by PZL, Poland's leading aircraft designer. It would take in 10,750 passengers in its first year, and this figure would only grow over time."
+ POL_Airforce.1.A: "The beginning of a new age of Polish aviation!"
 
  POL_Airforce.2.t: "Investing in Civil Aviation"
  POL_Airforce.2.d: ""
@@ -258,7 +258,7 @@
  POL_Finish_Off_Opposition: "Finish off the Opposition"
  POL_State_Sponsored_Assimilation: "State Sponsored Assimilation"
  POL_Strenghten_Watterplate_Garnison: "Strengthen the Westerplatte Garrison"
- POL_Charasmatic_Authoritarianism: "Charasmatic Authoritarianism"
+ POL_Charismatic_Authoritarianism: "Charismatic Authoritarianism"
  POL_Ratify_April_Constitution: "Ratify the April Constitution"
  POL_Sanation_Left: "The Sanation Left"
  POL_Chase_True_Enemy: "Chase the True Enemy"
@@ -338,7 +338,7 @@
  POL_Build_the_Resistance: "Build the Resistance"
  POL_The_Great_Siege: "The Great Siege"
  POR_Radar_Dev_British: "Radar Development with the British"
- POL_Beetween_the_seas_concept: "The Beetween the Seas Concept"
+ POL_Between_the_seas_concept: "The Between the Seas Concept"
  POL_Promethean_Project: "The Promethean Project"
  POL_Solidarity_Ruthenians: "Solidarity with the Ruthenians"
  POL_Deal_With_Huns: "Deal with the Huns"
@@ -422,7 +422,7 @@
  POL_May_Coup: "The May Coup"
  
  POL_Embers_of_Industry: "Embers of Industry"
- POL_Economy_Laws_Locked_tt: "§RWhile Embers of Industry is active, changing economic laws is not be possible§!"
+ POL_Economy_Laws_Locked_tt: "§RWhile Embers of Industry is active, changing economic laws is not possible§!"
 
  POL_Fractured_Government: "Fractured Government"
 
@@ -508,7 +508,7 @@ POL_Innovative_Revival_2: "Innovative Revival"
  POL_Extend_the_Hel_Fortified_Area: "Extend the Hel Fortified Area"
  POL_Fortify_the_Silesian_Frontier: "Fortify the Silesian Frontier"
 
- POL_Protecting_the_Polish_Heartlands: "Protecting the Polish Hearthlands"
+ POL_Protecting_the_Polish_Heartlands: "Protecting the Polish Heartlands"
  POL_The_Northern_Neman_Line: "The Northern Neman Line"
  POL_Wall_Along_the_Bug: "Wall Along the Bug"
  POL_Prepare_the_Vistula: "Prepare the Vistula"

@@ -72,3 +72,19 @@ news_event = { # Bolivia Wins Chaco War
 		name = BOL_Chaco_War.4.A
 	}
 }
+country_event = { #Bolivia Wins Chaco War
+	id = BOL_Chaco_War.5
+	title = BOL_Chaco_War.5.t
+	desc = BOL_Chaco_War.12.d
+	fire_only_once = yes
+	hidden = yes
+	trigger = {
+		original_tag = PAR
+		has_war_with = BOL
+		date > 1935.2.30
+	}
+	option = {
+		name = BOL_Chaco_War.5.A
+		add_ideas = PAR_You_Are_Strong_Now
+	}
+}
