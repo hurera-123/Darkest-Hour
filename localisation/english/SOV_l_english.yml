@@ -2382,21 +2382,6 @@
  population_suspicion_high: "§RHigh§!"
  population_suspicion_very_high: "§RVery High§!"
 
- SOV_OPERATION_GROZA_DECISION_GUI_HEADER: "Operation Groza Preparations"
- SOV_OPERATION_GROZA_DECISION_GUI_CURRENT_PHASE_TT: "Our current preparation progress is at §Y[?SOV_operation_readiness|2%]§!. \n[!indicator_icon_click]"
- SOV_OPERATION_GROZA_DECISION_GUI_PHASE_1_TT: "[!phase_icon_1_click]"
- SOV_OPERATION_GROZA_DECISION_GUI_PHASE_2_TT: "[!phase_icon_2_click]"
- SOV_OPERATION_GROZA_DECISION_GUI_PHASE_3_TT: "[!phase_icon_3_click]"
- SOV_OPERATION_GROZA_DECISION_GUI_PHASE_TT_DELAYED: "These bonuses replace the bonuses from the previous phase."
- SOV_OPERATION_GROZA_DECISION_GUI_CURRENT_PHASE_TT_NONE: "Due to that, we have not reached any of the three phases yet. \n\n§YThe current phase gives us the following effects:§! \n§gNone§!"
- SOV_OPERATION_GROZA_DECISION_GUI_CURRENT_PHASE_TT_ANY: "Due to that, we have reached §YPhase [?current_phase_temp]§! of the preparations. \n\n§YThe current phase gives us the following effects:§!"
- SOV_OPERATION_GROZA_DECISION_GUI_PHASE_1_TT_NOT_REACHED: "§YPhase 1§! will be reached at a preparation progress of §Y70.00%§!. \n\nReaching this phase will give us the following effects:"
- SOV_OPERATION_GROZA_DECISION_GUI_PHASE_1_TT_REACHED: "§YPhase 1 has already been reached, which gives us the following effects:§!"
- SOV_OPERATION_GROZA_DECISION_GUI_PHASE_2_TT_NOT_REACHED: "§YPhase 2§! will be reached at a preparation progress of §Y85.00%§!. \n\nReaching this phase will give us the following effects:"
- SOV_OPERATION_GROZA_DECISION_GUI_PHASE_2_TT_REACHED: "§YPhase 2 has already been reached, which gives us the following effects:§!"
- SOV_OPERATION_GROZA_DECISION_GUI_PHASE_3_TT_NOT_REACHED: "§YPhase 3§! will be reached at a preparation progress of §Y100.00%§!. \n\nReaching this phase will give us the following effects:"
- SOV_OPERATION_GROZA_DECISION_GUI_PHASE_3_TT_REACHED: "§YPhase 3 has already been reached, which gives us the following effects:§!"
-
  #Red Army ideas
  SOV_Tukhachevsky_Reforms: "Tukhachevsky Reforms"
  SOV_Tukhachevsky_Reforms_desc: ""
