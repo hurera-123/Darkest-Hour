@@ -259,6 +259,7 @@ recruit_character = POL_Mieczysaw_Boruta_Spiechowicz
 		computing_3 = 1
 		decryption_encryption_1 = 1
 		### Support Companies
+		tech_support = 1
 		tech_engineers = 1
 		tech_assault_weapons_1 = 1
 		tech_assault_weapons_2 = 1
