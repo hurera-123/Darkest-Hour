@@ -3818,7 +3818,7 @@ characters={
 		}
 		corps_commander={
 			traits = {
-				organizer infantry_leader
+				organizer infantry_officer
 			}
 			skill = 4
 			attack_skill = 3
@@ -3836,7 +3836,7 @@ characters={
 		}
 		corps_commander={
 			traits = {
-				infantry_leader
+				infantry_officer
 			}
 			skill = 2
 			attack_skill = 2
@@ -3854,7 +3854,7 @@ characters={
 		}
 		corps_commander={
 			traits = {
-				infantry_leader trickster
+				infantry_officer trickster
 			}
 			skill = 3
 			attack_skill = 3
@@ -3872,7 +3872,7 @@ characters={
 		}
 		corps_commander={
 			traits = {
-				infantry_leader career_officer
+				infantry_officer career_officer
 			}
 			skill = 3
 			attack_skill = 2
@@ -3908,7 +3908,7 @@ characters={
 		}
 		corps_commander={
 			traits = {
-				cavalry_leader inspirational_leader
+				cavalry_officer inspirational_leader
 			}
 			skill = 3
 			attack_skill = 3
