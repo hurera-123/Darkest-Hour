@@ -3,6 +3,18 @@
 ############################################################################################################
 
 on_actions = {
+	on_daily = {
+		effect = {
+
+			EAI_daily_update = yes
+		}
+	}
+	on_monthly = {
+		effect = {
+
+			EAI_monthly_update = yes
+		}
+	}
 	on_operation_completed = {
 		effect = {
 			# same scope setup as in operation outcome:
