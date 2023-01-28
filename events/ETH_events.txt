@@ -66,48 +66,6 @@ country_event = {
 		}
 	}
 }
-country_event = {
-	id = ETH.4
-	title = ETH.4.t
-	desc = ETH.4.d
-	picture = GFX_event_picture
-	fire_only_once = yes
-	is_triggered_only = yes
-	option = {
-		name = ETH.4.A
-		hidden_effect = {
-			set_country_flag = eth_dervish_accord
-		}
-	}
-}
-country_event = {
-	id = ETH.5
-	title = ETH.5.t
-	desc = ETH.5.d
-	picture = GFX_event_picture
-	fire_only_once = yes
-	is_triggered_only = yes
-	option = {
-		name = ETH.5.A
-	}
-	option = {
-		name = ETH.5.B
-	}
-}
-country_event = {
-	id = ETH.6
-	title = ETH.6.t
-	desc = ETH.6.d
-	picture = GFX_event_picture
-	fire_only_once = yes
-	is_triggered_only = yes
-	option = {
-		name = ETH.6.A
-	}
-	option = {
-		name = ETH.6.B
-	}
-}
 ###########################
 #  We won the war
 ###########################

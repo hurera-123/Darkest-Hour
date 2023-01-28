@@ -43,9 +43,22 @@ country_event = {
 	# 
 	option = {
 		name = GER_SOV_War.1.A
-		add_timed_idea = {
-			idea = SOV_The_German_Betrayal
-			days = 200
+		if = {
+			limit = {
+				GER = {
+					is_ai = no
+				}
+			}
+			add_timed_idea = {
+				idea = SOV_The_German_Betrayal
+				days = 100
+			}
+		}
+		else = {
+			add_timed_idea = {
+				idea = SOV_The_German_Betrayal
+				days = 200
+			}
 		}
 	}
 }

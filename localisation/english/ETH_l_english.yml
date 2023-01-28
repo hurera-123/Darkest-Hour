@@ -14,20 +14,6 @@
  ETH.3.d: "History repeats itself as Italian troops crossed our borders with no justification for war. Skirmishes were exchanged, as all negotiations with the League of Nations broke down despite the little efforts put up. Emperor Selassie has given a speech in Addis Ababa, calling for the Ethiopian people to mobilise against the aggressors who had returned to pillage once more."
  ETH.3.A: "Leniguše Negešitu!"
 
- ETH.4.t: "The Dervish Accord"
- ETH.4.d: "Stuff?"
- ETH.4.A: "Sure"
-
- ETH.5.t: "Alliance with Ethiopia?"
- ETH.5.d: "Stuff?"
- ETH.5.A: "Sure"
- ETH.5.B: "Fuck em"
-
- ETH.6.t: "Ethiopia calls against the Italians"
- ETH.6.d: "These Italians suck my dudes help me out."
- ETH.6.A: "Sure my dude"
- ETH.6.B: "Fuck you lmao"
-
  ETH_Italian_Loss_in_War.1.t: "Colonialism, Refuted"
  ETH_Italian_Loss_in_War.1.d: "As the guns fall silent once more, everyone stands in stunned silence. Even the Italian soldiers, who have been pushed onto the beaches of Eritrea and are running out of food and ammunition, can hardly believe what has happened in the last few months. What began as a slaughter of Ethiopians and a sure bet to avenge their grandfathers' loss at Adwa has turned into yet another humiliation. The Italian soldier could no longer go on, and now, with Ethiopian troops marching victoriously through Mogadishu and Asmara, the two linchpins of the Italian East African colonial empire are in enemy hands.\n\nTwo entire Italian armies were forced to surrender due to a lack of supplies and a lack of escape routes. Thousands of Italian soldiers, the cream of the Italian army's crop, have begun the long and humiliating march to prison camps across Ethiopia. Ethiopia has overtaken Italy in euphoric celebrations as Italy reels. Their Emperor, Haile Selassie, is being compared to the Messiah, who was blessed by God himself to triumph.\n\nHow else could such an unlikely outcome occur? The people of Addis Abba celebrated for two weeks, the people of Harar for one, and everyone in every village and town thanked God and Halie for rescuing them from the Italians' oppression and exploitation. Now, with all the cards and all the time in the world, the victorious Emperor Halie Selassie shall meet the Italians for peace and make sure it's one that will secure his Kingdom for all time."
  ETH_Italian_Loss_in_War.1.A: "March Forwards, Dear Mother Ethiopia!"
@@ -267,11 +253,4 @@
  ETH_Pushing_to_Asmara: "Push to Asmara"
  ETH_Fortifying_Ogaden: "Fortify Ogaden"
  ETH_Counter_Attacking_Somaliland: "Counter-Attack in Somaliland"
- ETH_Dealing_with_the_Somali_Revolt: "Deal with the Somali Revolt"
-
- ETH_The_Dervish_Accord: "The Dervish Accord"
- ETH_Alliance_Against_the_Italians: "Alliance against the Italians"
- ETH_Peace_with_Mogadishu: "Peace with Mogadishu"
- ETH_Two_Birds_with_One_Stone: "Two Birds with One Stone"
- ETH_Crush_the_Dervish_Movement: "Crush the Dervish Movement"
 
