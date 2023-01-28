@@ -1719,6 +1719,7 @@ country_event = {
 	desc = JAP_Tojo_Cabinet.4.d
 	picture = GFX_report_JAP_Diet_Meeting
 	is_triggered_only = yes
+	fire_only_once = yes
 	# 
 	option = {
 		name = JAP_Tojo_Cabinet.4.A
@@ -1734,7 +1735,6 @@ country_event = {
 				}
 			}
 			country_event= { id = JAP_Tojo_Cabinet.5 days = 1 }
-			complete_national_focus = JAP_Tojos_Gamble
 		}
 	}
 }
