@@ -429,12 +429,12 @@ motorized_ENG = {
 
 		modifier = {
 			factor = 5
-			has_tech = eng_motorised_infantry
+			has_tech = Motorized_1932
 		}
 
 		modifier = {
 			factor = 2
-			has_tech = eng_mechanized_infantry_5
+			has_tech = APC_1941
 		}
 	}
 
@@ -527,10 +527,6 @@ motorized_ENG = {
 				factor = 15
 				has_tech = APC_1941
 			}
-		}
-
-		can_upgrade_in_field = {
-			has_equipment = { mechanized_equipment < 500 }
 		}
 
 		target_width = 30.0

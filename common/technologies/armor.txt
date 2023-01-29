@@ -174,6 +174,10 @@ technologies = {
 				factor = 0
 				date < "1940.6.1"
 			}
+			modifier = {
+				factor = 10
+				is_major = yes
+			}
 		}
 	}
 	# Halftrack 1943
@@ -1122,6 +1126,10 @@ technologies = {
 				is_major = yes
 			}
 			modifier = {
+				factor = 10
+				tag = USA
+			}
+			modifier = {
 				factor = 0
 				tag = JAP
 			}
@@ -1164,6 +1172,10 @@ technologies = {
 				is_major = yes
 			}
 			modifier = {
+				factor = 10
+				tag = USA
+			}
+			modifier = {
 				factor = 0
 				tag = JAP
 			}
@@ -1204,6 +1216,10 @@ technologies = {
 			modifier = {
 				factor = 0
 				date < "1942.6.1"
+			}
+			modifier = {
+				factor = 10
+				tag = USA
 			}
 			modifier = {
 				factor = 2
