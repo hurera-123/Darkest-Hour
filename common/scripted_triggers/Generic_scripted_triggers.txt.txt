@@ -192,3 +192,51 @@ is_unlikely_country_tag = {
 		tag = BAL
 	}
 }
+has_self_propelled_artillery_tech = {
+	OR = {
+		has_tech = Light_SPG_1942
+		has_tech = Light_SPG_1944
+		has_tech = Light_SPG_1946
+		has_tech = Medium_SPG_1939
+		has_tech = Medium_SPG_1941
+		has_tech = Medium_SPG_1943
+		has_tech = Medium_SPG_1945
+		has_tech = Heavy_SPG_1941
+		has_tech = Heavy_SPG_1943
+		has_tech = Heavy_SPG_1944
+	}
+}
+has_self_propelled_anti_air_tech = {
+	OR = {
+		has_tech = Light_SPAA_1942
+		has_tech = Light_SPAA_1944
+		has_tech = Light_SPAA_1946
+		has_tech = Medium_SPAA_1939
+		has_tech = Medium_SPAA_1941
+		has_tech = Medium_SPAA_1943
+		has_tech = Medium_SPAA_1945
+	}
+}
+has_tank_destroyer_tech = {
+	OR = {
+		has_tech = Light_TD_1942
+		has_tech = Light_TD_1944
+		has_tech = Light_TD_1946
+		has_tech = Medium_TD_1939
+		has_tech = Medium_TD_1941
+		has_tech = Medium_TD_1943
+		has_tech = Medium_TD_1945
+		has_tech = Heavy_TD_1939
+		has_tech = Heavy_TD_1941
+		has_tech = Heavy_TD_1943
+		has_tech = Heavy_TD_1944
+	}
+}
+has_heavy_tank_destroyer_tech = {
+	OR = {
+		has_tech = Heavy_TD_1939
+		has_tech = Heavy_TD_1941
+		has_tech = Heavy_TD_1943
+		has_tech = Heavy_TD_1944
+	}
+}

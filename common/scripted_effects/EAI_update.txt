@@ -103,10 +103,6 @@ EAI_bimonthly_update = {
 
 			EAI_update_espionage_strategy = yes
 		}
-
-		###
-
-		EAI_set_template_flags = yes
 	}
 }
 
@@ -138,11 +134,6 @@ EAI_monthly_update = {
 		subtract_from_variable = { global.EAI_years_elapsed = 1933 }
 
 		EAI_force_upgrade_agency_to_level_5 = yes
-
-
-		### Controls when the AI should start upgrading specific templates
-
-		EAI_template_upgrades = yes
 	}
 }
 
