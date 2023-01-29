@@ -6283,4 +6283,9 @@ spriteTypes = {
         name = "GFX_YUG_Royal_Yugoslav_Navy"
         texturefile = "gfx/interface/goals/YUG_Royal_Yugoslav_Navy.png"
     }
+
+    spriteType = {
+        name = "GFX_USA_Reorganize_Field_Command_Structure"
+        texturefile = "gfx/interface/goals/USA_Reorganize_Field_Command_Structure.png"
+    }
 }

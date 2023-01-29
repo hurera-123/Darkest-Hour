@@ -1798,7 +1798,7 @@ focus_tree = {
 	focus = {
 		# Reorganize Field Command Structures
 		id = USA_Reorganize_Field_Command_Structure
-		icon = GFX_focus_generic_military_academy
+		icon = GFX_USA_Reorganize_Field_Command_Structure
 		cost = 50
 		prerequisite = {
 			focus = USA_Eisenhower_Grand_Battleplan
