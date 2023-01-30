@@ -32,6 +32,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/tiles/tiled_window_pol_goal.dds"
 		size = { x=330 y=330 }
 		borderSize = { x=180 y=85 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
 	spriteType = {
@@ -72,6 +73,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_popup_new_exile_hosted_small_bg"
 		texturefile = "gfx//interface//new_exile_hosted_small_bg.dds"
+	}
+	
+	corneredTileSpriteType = {
+		name = "GFX_diplo_window_bg_overlay"
+		texturefile = "gfx/interface/career_profile/diplo_window_bg_overlay.dds"
+		size= { x = 256 y = 256 }
+		borderSize = { x = 94 y = 94 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_button_123x34_red"
+		texturefile = "gfx//interface//button_123x34_red.dds"
+	}
+
+	spriteType = {
+		name = "GFX_button_123x34_grey"
+		texturefile = "gfx//interface//button_123x34_grey.dds"
+	}
+
+	spriteType = {
+		name = "GFX_focus_bg"
+		texturefile = "gfx//interface//focus_bg.dds"
 	}
 
 	### Parts for a Re-Sizeable PopUp Confirmation Window.

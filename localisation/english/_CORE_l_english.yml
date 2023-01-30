@@ -142,3 +142,8 @@
  ## Focus Filter Localisation
  ###################################################################### 
  FOCUS_FILTER_HISTORICAL: "Historical"
+ ######################################################################
+ ## Popup Windows Localization
+ ###################################################################### 
+ QUIT_TITLE:0 "Exit Game"
+ QUIT_DESC:0 "Are you sure you want to exit §RDarkest Hour§!?\n\nAny unsaved progress will be lost."
