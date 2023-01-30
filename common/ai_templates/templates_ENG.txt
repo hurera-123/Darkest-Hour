@@ -9,13 +9,10 @@ armor_ENG = {
 	}
 
 	upgrade_prio = {
-		factor = 2.17
+		factor = 2
 
 		modifier = {
-			factor = 7
-			OR = {
-				has_tech = Medium_Tank_1939
-			}
+			factor = 5
 		}
 		
 		modifier = {
@@ -24,17 +21,16 @@ armor_ENG = {
 		}
 	}
 	
-	match_to_count = 0.9
+	match_to_count = 0.6
 
 	medium_armor_default_ENG = {
 	
 		
 		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 1
-			}
+			factor = 12
+		}
+		production_prio = {
+			factor = 12
 		}
 		
 		target_width = 30.0
@@ -125,7 +121,7 @@ armor_ENG = {
 			factor = 2
 
 			modifier = {
-				factor = 15
+				factor = 7
 				has_self_propelled_anti_air_tech = yes
 			}
 		}
@@ -134,7 +130,7 @@ armor_ENG = {
 			factor = 2
 
 			modifier = {
-				factor = 15
+				factor = 7
 				has_self_propelled_anti_air_tech = yes
 			}
 		}
@@ -311,7 +307,7 @@ heavy_armor_ENG = {
 		heavy_armor
 	}
 
-	match_to_count = 0.8
+	match_to_count = 0.6
 
 	upgrade_prio = {
 		factor = 2.0
@@ -330,11 +326,7 @@ heavy_armor_ENG = {
 	heavy_armor_default_ENG = {
 	
 		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 1
-			}
+			factor = 14
 		}
 		
 		target_width = 30.0
@@ -586,19 +578,15 @@ infantry_ENG = {
 	}
 	
 	upgrade_prio = {
-		factor = 5
-
-		modifier = {
-			factor = 1
-		}
+		factor = 30
 	}
 	
-	match_to_count = 0.9
+	match_to_count = 0.6
 
 	infantry_default_ENG = {
 	
 		upgrade_prio = {
-			factor = 2
+			factor = 15
 
 			modifier = {
 				factor = 1
@@ -699,7 +687,7 @@ mountaineers_ENG = {
 		}
 	}
 	
-	match_to_count = 0.9
+	match_to_count = 0.6
 
 	mountaineers_default_ENG = {
 	
@@ -794,7 +782,7 @@ marines_ENG = {
 		}
 	}
 	
-	match_to_count = 0.9
+	match_to_count = 0.6
 
 	marine_default_ENG = {
 		upgrade_prio = {
@@ -886,7 +874,7 @@ paratrooper_ENG = {
 		}
 	}
 	
-	match_to_count = 0.9
+	match_to_count = 0.6
 
 	paratrooper_default_ENG = {
 			
@@ -975,11 +963,10 @@ garrison_ENG = {
 	}
 	
 	upgrade_prio = {
-		factor = 80
-
+		factor = 10
 	}
 	
-	match_to_count = 0.9
+	match_to_count = 0.6
 	
 	garrison_ENG = {
 	

@@ -9,11 +9,10 @@ armor_JAP = {
 	}
 
 	upgrade_prio = {
-		factor = 2.17
+		factor = 2
 
 		modifier = {
-			factor = 7
-			has_tech = Medium_Tank_1939
+			factor = 5
 		}
 		
 		modifier = {
@@ -30,7 +29,7 @@ armor_JAP = {
 			factor = 2
 
 			modifier = {
-				factor = 1
+				factor = 5
 			}
 		}
 		
@@ -110,7 +109,7 @@ armor_JAP = {
 			factor = 2
 
 			modifier = {
-				factor = 5
+				factor = 8
 				has_tech = Medium_Tank_1936
 				NOT = {
 					has_tank_destroyer_tech = yes
@@ -211,7 +210,7 @@ armor_JAP = {
 			factor = 2
 
 			modifier = {
-				factor = 20
+				factor = 9
 				has_tank_destroyer_tech = yes
 				has_self_propelled_artillery_tech = yes
 				has_tech = APC_1941
@@ -305,7 +304,7 @@ armor_JAP = {
 			factor = 2
 
 			modifier = {
-				factor = 20
+				factor = 10
 				has_tech = Main_Battle_Tank_1952
 				has_self_propelled_anti_air_tech = yes
 			}
@@ -391,20 +390,10 @@ infantry_JAP = {
 	}
 	
 	upgrade_prio = {
-		factor = 2
-
-		modifier = {
-			factor = 30
-			date < 1941.1.1
-		}
-
-		modifier = {
-			factor = 0
-			date > 1941.1.1
-		}
+		factor = 25
 	}
 	
-	match_to_count = 0.70 #0.45 to 0.70
+	match_to_count = 0.6
 
 	infantry_default_JAP = {
 	
@@ -412,7 +401,7 @@ infantry_JAP = {
 			factor = 10
 
 			modifier = {
-				factor = 1
+				factor = 2
 				date < 1941.1.1
 			}
 
@@ -497,7 +486,7 @@ infantry_JAP = {
 	infantry_2_JAP = {
 	
 		upgrade_prio = {
-			factor = 10
+			factor = 2
 
 			modifier = {
 				factor = 0
@@ -611,7 +600,7 @@ mountaineers_JAP = {
 			}
 		}
 		
-		target_width = 19.9
+		target_width = 20.0
 		width_weight = 3
 		column_swap_factor = 0.2
 		
@@ -885,16 +874,15 @@ garrison_JAP = {
 	}
 	
 	upgrade_prio = {
-		factor = 80
+		factor = 4
 
 		modifier = {
-			factor = 0
-			ai_has_role_template = garrison
-			date < "1939.1.1"
+			factor = 2
+			date > "1939.1.1"
 		}
 	}
 	
-	match_to_count = 0.8
+	match_to_count = 0.65
 
 
 	garrison_JAP = {
@@ -903,11 +891,7 @@ garrison_JAP = {
 		custom_icon = 7
 	
 		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 1
-			}
+			factor = 5
 		}
 		
 		target_width = 30.0

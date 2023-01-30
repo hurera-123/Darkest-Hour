@@ -8,32 +8,19 @@ armored_GER = {
 		armor
 	}
 	
-	match_to_count = 0.9
+	match_to_count = 0.65
 	
 	upgrade_prio = {
-		factor = 2.0
-
-		modifier = {
-			factor = 5
-			OR = {
-				has_tech = Medium_Tank_1939
-			}
-		}
-		
-		modifier = {
-			factor = 2
-			has_tech = Main_Battle_Tank_1952
-		}
+		factor = 10
 	}
 
 	light_armor_default_GER = {
 	
 		upgrade_prio = {
-			factor = 1
-
-			modifier = {
-				factor = 1
-			}
+			factor = 5
+		}
+		production_prio = {
+			factor = 5
 		}
 		
 		target_width = 30.0
@@ -132,7 +119,7 @@ armored_GER = {
 			factor = 2
 
 			modifier = {
-				factor = 10
+				factor = 6
 				has_tank_destroyer_tech = yes
 				has_self_propelled_artillery_tech = yes
 			}
@@ -145,36 +132,6 @@ armored_GER = {
 		# this is a stop-gap towards medium tanks, if deployed dont upgrade to medium tanks until we burn out our light tanks
 		can_upgrade_in_field = {
 			has_equipment = { armor_equipment < 500 } 
-		}
-		
-		stat_weights = {
-			0.00 #-- default_morale
-			1.10 #-- defense
-			2.10 #-- breakthrough
-			2.60 #-- hardness
-			1.00 #-- soft_attack
-			2.00 #-- hard_attack
-			0.10 #-- recon
-			0.01 #-- entrenchment
-			0.10 #-- initiative
-			0.01 #-- casualty_trickleback
-			-0.05 #-- supply_consumption_factor
-			-0.01 #-- supply_consumption
-			0.00 #-- suppression
-			0.00 #-- suppression_factor
-			0.01 #-- experience_loss_factor
-			#-- Air Values
-			0.02 #-- air_attack
-			#-- Common Values
-			5.00 #-- max_organisation
-			0.80 #-- max_strength
-			0.00 #-- build_cost_ic
-			1.0 #-- maximum_speed
-			10.0 #-- armor_value
-			0.05 #-- ap_attack
-			0.10 #-- reliability
-			0.10 #-- reliability_factor
-			0.00 #-- weight
 		}
 
 		target_template = {
@@ -229,7 +186,7 @@ armored_GER = {
 			factor = 2
 			
 			modifier = {
-				factor = 20
+				factor = 8
 				has_tech = Medium_Tank_1939
 				NOT = {
 					has_tech = Main_Battle_Tank_1952
@@ -243,7 +200,7 @@ armored_GER = {
 			factor = 2
 
 			modifier = {
-				factor = 10
+				factor = 8
 				has_self_propelled_artillery_tech = yes
 			}
 		}
@@ -421,13 +378,13 @@ heavy_armor_GER = {
 		heavy_armor
 	}
 
-	match_to_count = 0.8
+	match_to_count = 0.65
 
 	upgrade_prio = {
-		factor = 2.0
+		factor = 5
 
 		modifier = {
-			factor = 5
+			factor = 2
 			date > 1942.1.1
 		}
 
@@ -550,13 +507,13 @@ motorized_GER = {
 		motorized
 	}
 
-	match_to_count = 0.5
+	match_to_count = 0.6
 
 	upgrade_prio = {
-		factor = 2.0
+		factor = 6
 
 		modifier = {
-			factor = 5
+			factor = 2
 			has_tech = Motorized_1932
 		}
 
@@ -572,7 +529,7 @@ motorized_GER = {
 			factor = 2
 
 			modifier = {
-				factor = 10
+				factor = 15
 				has_tech = Motorized_1932
 				NOT = {
 					has_tech = APC_1941
@@ -584,7 +541,7 @@ motorized_GER = {
 			factor = 2
 
 			modifier = {
-				factor = 10
+				factor = 15
 				has_tech = Motorized_1932
 				NOT = {
 					has_tech = APC_1941
@@ -728,7 +685,7 @@ garrison_GER = {
 		}
 	}
 	
-	match_to_count = 0.9
+	match_to_count = 0.6
 
 
 	garrison_GER = {
@@ -816,20 +773,19 @@ infantry_GER = {
 	}
 	
 	upgrade_prio = {
-		factor = 5
+		factor = 30
 	}
 	
-	match_to_count = 0.8
+	match_to_count = 0.65
 
 
 	infantry_default_GER = {
 	
 		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-			}
+			factor = 30
+		}
+		production_prio = {
+			factor = 30
 		}
 		
 		target_width = 40.0
@@ -917,7 +873,7 @@ mountaineers_GER = {
 		}
 	}
 	
-	match_to_count = 0.9
+	match_to_count = 0.65
 	
 	mountaineers_default_GER = {
 	
@@ -1014,7 +970,7 @@ marines_GER = {
 		}
 	}
 	
-	match_to_count = 0.9
+	match_to_count = 0.65
 
 	marine_default_GER = {
 	
@@ -1111,7 +1067,7 @@ paratroopers_GER = {
 		}
 	}
 	
-	match_to_count = 0.9
+	match_to_count = 0.65
 
 	paratrooper_default_GER = {
 	
@@ -1215,7 +1171,7 @@ anti_armor_GER = {
 		}
 	}
 	
-	match_to_count = 0.95
+	match_to_count = 0.65
 	
 	infantry_anti_armor_GER = {
 	

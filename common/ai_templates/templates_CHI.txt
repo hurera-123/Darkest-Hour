@@ -83,7 +83,6 @@ infantry_CHI = {
 				logistics_company = 1
 				anti_tank_company = 1
 				artillery_battery = 1
-				anti_air = 1
 			}
 			
 			regiments = {
@@ -102,7 +101,6 @@ infantry_CHI = {
 			logistics_company
 			anti_tank_company
 			artillery_battery
-			anti_air
 		}
 	}
 

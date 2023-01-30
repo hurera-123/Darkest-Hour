@@ -8,13 +8,13 @@ armored_SOV = {
 		armor
 	}
 	
-	match_to_count = 0.5
+	match_to_count = 0.65
 	
 	upgrade_prio = {
-		factor = 2.0
+		factor = 2
 
 		modifier = {
-			factor = 7
+			factor = 8
 			date > 1936.1.1
 		}
 
@@ -30,7 +30,7 @@ armored_SOV = {
 			factor = 2
 
 			modifier = {
-				factor = 3
+				factor = 5
 				has_tech = Medium_Tank_1936
 				NOT = {
 					has_tech = Medium_Tank_1941
@@ -43,7 +43,7 @@ armored_SOV = {
 			factor = 2
 
 			modifier = {
-				factor = 3
+				factor = 5
 				has_tech = Medium_Tank_1936
 				NOT = {
 					has_tech = Medium_Tank_1941
@@ -129,7 +129,7 @@ armored_SOV = {
 			factor = 2
 
 			modifier = {
-				factor = 5
+				factor = 6
 				has_tech = Medium_Tank_1941
 				has_tech = APC_1941
 				NOT = {
@@ -142,7 +142,7 @@ armored_SOV = {
 			factor = 2
 
 			modifier = {
-				factor = 5
+				factor = 6
 				has_tech = Medium_Tank_1941
 				has_tech = APC_1941
 				NOT = {
@@ -197,7 +197,7 @@ armored_SOV = {
 			factor = 2
 
 			modifier = {
-				factor = 10
+				factor = 8
 				has_tank_destroyer_tech = yes
 				has_tech = Medium_Tank_1943
 			}
@@ -207,7 +207,7 @@ armored_SOV = {
 			factor = 2
 
 			modifier = {
-				factor = 10
+				factor = 8
 				has_tank_destroyer_tech = yes
 				has_tech = Medium_Tank_1943
 			}
@@ -348,7 +348,7 @@ heavy_armor_SOV = {
 		heavy_armor
 	}
 
-	match_to_count = 0.5
+	match_to_count = 0.65
 
 	upgrade_prio = {
 		factor = 2.0
@@ -597,7 +597,7 @@ motorized_SOV = {
 	match_to_count = 0.5
 
 	upgrade_prio = {
-		factor = 2.0
+		factor = 2
 
 		modifier = {
 			factor = 5
@@ -820,23 +820,15 @@ infantry_SOV = {
 	}
 	
 	upgrade_prio = {
-		factor = 5
-
-		modifier = {
-			factor = 1
-		}
+		factor = 30
 	}
 	
-	match_to_count = 0.7
+	match_to_count = 0.65
 
 	infantry_default_SOV = {
 	
 		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 20
-			}
+			factor = 25
 		}
 		
 		target_width = 30.0
@@ -1016,7 +1008,7 @@ marines_SOV = {
 	}
 	
 	upgrade_prio = {
-		factor = 2
+		factor = 1
 
 		modifier = {
 			factor = 0
@@ -1026,7 +1018,7 @@ marines_SOV = {
 		}
 	}
 	
-	match_to_count = 0.60
+	match_to_count = 0.6
 	
 	marine_default_SOV = {
 	
@@ -1106,7 +1098,7 @@ paratroopers_SOV = {
 	}
 	
 	upgrade_prio = {
-		factor = 2
+		factor = 1
 
 		modifier = {
 			factor = 0
@@ -1116,7 +1108,7 @@ paratroopers_SOV = {
 		}
 	}
 	
-	match_to_count = 0.60
+	match_to_count = 0.6
 
 	paratrooper_default_SOV = {
 	
@@ -1205,7 +1197,7 @@ garrison_SOV = {
 	}
 	
 	upgrade_prio = {
-		factor = 80
+		factor = 10
 
 		modifier = {
 			factor = 0
@@ -1213,7 +1205,7 @@ garrison_SOV = {
 		}
 	}
 	
-	match_to_count = 0.8
+	match_to_count = 0.6
 
 
 	garrison_SOV = {

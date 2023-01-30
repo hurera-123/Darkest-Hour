@@ -8,10 +8,10 @@ light_armor_USA= {
 		light_armor
 	}
 
-	match_to_count = 0.5
+	match_to_count = 0.6
 
 	upgrade_prio = {
-		factor = 2.2
+		factor = 2
 
 		modifier = {
 			factor = 7
@@ -237,7 +237,7 @@ armored_USA= {
 		armor
 	}
 	
-	match_to_count = 0.9
+	match_to_count = 0.65
 	
 	upgrade_prio = {
 		factor = 2.17
@@ -903,7 +903,7 @@ garrison_USA = {
 		}
 	}
 	
-	match_to_count = 0.9
+	match_to_count = 0.65
 
 
 	garrison_USA = {
@@ -1000,23 +1000,15 @@ infantry_USA = {
 	}
 	
 	upgrade_prio = {
-		factor = 2
-
-		modifier = {
-			factor = 1
-		}
+		factor = 25
 	}
 	
-	match_to_count = 0.6
+	match_to_count = 0.65
 
 	infantry_default_USA = {
 	
 		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 1
-			}
+			factor = 20
 		}
 		
 		target_width = 30.0
@@ -1110,7 +1102,7 @@ mountaineers_USA = {
 		}
 	}
 	
-	match_to_count = 0.8
+	match_to_count = 0.6
 
 	mountaineers_default_USA = {
 	
@@ -1296,7 +1288,7 @@ paratroopers_USA = {
 		}
 	}
 	
-	match_to_count = 0.8
+	match_to_count = 0.6
 
 	paratrooper_default_USA = {
 	

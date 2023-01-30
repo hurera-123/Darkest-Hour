@@ -8,15 +8,10 @@ armored_ITA = {
 		armor
 	}
 	
-	match_to_count = 0.5
+	match_to_count = 0.6
 	
 	upgrade_prio = {
-		factor = 2.0
-
-		modifier = {
-			factor = 5
-			has_tech = Medium_Tank_1939
-		}
+		factor = 10
 		
 		modifier = {
 			factor = 2
@@ -27,11 +22,7 @@ armored_ITA = {
 	light_armor_default_ITA = {
 	
 		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-			}
+			factor = 5
 		}
 		
 		target_width = 20.0 
@@ -392,7 +383,7 @@ heavy_armor_ITA = {
 		heavy_armor
 	}
 
-	match_to_count = 0.5
+	match_to_count = 0.55
 
 	upgrade_prio = {
 		factor = 2
@@ -509,7 +500,7 @@ garrison_ITA = {
 		}
 	}
 	
-	match_to_count = 0.8
+	match_to_count = 0.55
 
 
 	garrison_ITA = {
@@ -518,11 +509,7 @@ garrison_ITA = {
 		custom_icon = 7
 	
 		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 1
-			}
+			factor = 10
 		}
 		
 		target_width = 25.0
@@ -601,23 +588,15 @@ infantry_ITA = {
 	}
 	
 	upgrade_prio = {
-		factor = 5
-
-		modifier = {
-			factor = 1
-		}
+		factor = 25
 	}
 	
-	match_to_count = 0.45
+	match_to_count = 0.65
 
 	infantry_default_ITA = {
 	
 		upgrade_prio = {
-			factor = 10
-
-			modifier = {
-				factor = 1
-			}
+			factor = 20
 		}
 	
 		target_width = 30.0
@@ -698,7 +677,7 @@ mountaineers_ITA = {
 	}
 	
 	upgrade_prio = {
-		factor = 2
+		factor = 5
 
 		modifier = {
 			factor = 0
@@ -793,7 +772,7 @@ marines_ITA = {
 	}
 	
 	upgrade_prio = {
-		factor = 2
+		factor = 3
 
 		modifier = {
 			factor = 0
@@ -884,7 +863,7 @@ paratroopers_ITA = {
 	}
 	
 	upgrade_prio = {
-		factor = 2
+		factor = 1
 
 		modifier = {
 			factor = 0

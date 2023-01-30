@@ -1,4 +1,4 @@
-	armored_POL = {
+armored_POL = {
 
 	available_for = {
 		POL
@@ -243,7 +243,7 @@ infantry_POL = {
 	}
 
 	upgrade_prio = {
-		factor = 5
+		factor = 20
 	}
 
 	match_to_count = 0.5
@@ -251,7 +251,7 @@ infantry_POL = {
 	infantry_default_POL = {
 
 		upgrade_prio = {
-			factor = 5
+			factor = 20
 		}
 
 		target_width = 30.0
