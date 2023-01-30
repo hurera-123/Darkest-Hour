@@ -823,7 +823,7 @@ infantry_SOV = {
 		factor = 30
 	}
 	
-	match_to_count = 0.65
+	match_to_count = 0.55
 
 	infantry_default_SOV = {
 	

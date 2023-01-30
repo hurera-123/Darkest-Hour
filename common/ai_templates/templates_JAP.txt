@@ -393,7 +393,7 @@ infantry_JAP = {
 		factor = 25
 	}
 	
-	match_to_count = 0.6
+	match_to_count = 0.5
 
 	infantry_default_JAP = {
 	
