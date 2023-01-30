@@ -5788,6 +5788,13 @@ focus_tree = {
 		id = USA_A_Special_Relationship
 		icon = GFX_ENG_A_Special_Relationship
 		cost = 45
+		bypass = {
+			ENG = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+		}
 		available = {
 			ENG = {
 				has_government = democratic
