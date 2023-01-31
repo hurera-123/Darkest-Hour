@@ -30,7 +30,7 @@
  
  ENG_End_of_Newfoundland.1.t: "The Newfoundland Debacle"
  ENG_End_of_Newfoundland.1.d: "While the depression has hit the British mainland hard, we must not forget the effect it has had on our overseas territories. One place that has provided us a major headache is Newfoundland, as a number of issues that have spiraled from 1929 have threatened to get out of hand even further. The first of these and the most prominent is the economic crash. Newfoundland’s main export is fish, and its price has plunged recently, severely harming the income of the territory and the wider population of 290,000. The people and the merchants are running out of money, with many increasingly dependent on government relief to bail them out in these tough times.\n\nThe second problem is the collapse of faith in politicians and the government of the territory. Its government was suspended for a brief period of time in 1932 on the recommendation of the Newfoundland Royal Commission, and with no credit available to them, we were unsuccessful in trying to sell Labrador to Canada. On top of all this, the former leader of the government, Richard Squires, fell from power after being arrested for bribery in 1932.\n\nAfter much deliberation and debate here in the UK, a possible solution has been conjured up through the passing of a new Act: The Newfoundland Act 1933. This will help to provide “a rest from politics”, as well as clearing out corruption from the government. We will assume control of Newfoundland’s finances to try and fix them, and in return they will concede their self-governance, being replaced by a commission that will have executive and legislative authority. If this Act passes, it will surely bring much needed stability and calmness to the region that has been missing since those fateful days of 1929."
- ENG_End_of_Newfoundland.1.a: "Maybe some day they can return to responsible government"
+ ENG_End_of_Newfoundland.1.A: "Maybe some day they can return to responsible government"
  
 #########################################################
 ### Flavor Events
@@ -635,62 +635,62 @@
 
  ENG_Wartime_Tree.1.t: "His Majesty's Most Loyal Enemy Aliens"
  ENG_Wartime_Tree.1.d: "An enemy alien is any native, citizen, denizen, or subject of a foreign country or government with which a domestic country or government is at war. Typically, nations have declared war on one another by this time.\n\nPeople who had fled Nazi persecution, particularly Jews and political refugees, have found refuge in our country since the beginning of the war against the German Reich and the Axis powers. The majority of them were relocated to the Isle of Man, where we also housed Enemy Aliens during the Great War. At the start of the war, approximately 70,000 German and Austrian residents of the United Kingdom were designated as enemy aliens.\n\nInitially, they were used by the Pioneer Corps to aid in fortification and military construction. These men, dubbed \"The King's Most Loyal Enemy Aliens\" later served in fighting units and saw active combat. Some were recruited as secret agents by the Special Operations Executive (S.O.E.)."
- ENG_Wartime_Tree.1.a: "Alle waffen gegen Hitler!"
+ ENG_Wartime_Tree.1.A: "Alle waffen gegen Hitler!"
 
  ENG_Wartime_Tree.2.t: "Our Darkest Hour"
  ENG_Wartime_Tree.2.d: "A wave of evil has swept across Europe. Norway, Denmark, the Netherlands, and Belgium are currently under German occupation. France is clearly not going to last much longer, and Britain and its Empire will be the only ones standing against the war machine. It’s clear we've entered our darkest hour.\n\nThe House of Commons reflected this attitude. With Britain soon to be alone in the fight, a sense of hopelessness has gripped the country. Peace talks have been proposed, and the war appeared to be unwinnable at this point.\n\nAs Churchill approached the house table, the Commons fell silent. And, for the second time, he gave a speech about the war. One that is more electrifying, humbling, and powerful than ever before...\n\n“Even though large tracts of Europe and many old and famous States have fallen or may fall into the grip of the Gestapo and all the odious apparatus of Nazi rule, we shall not flag or fail. We shall go on to the end. We shall fight in France, we shall fight on the seas and oceans, we shall fight with growing confidence and growing strength in the air, we shall defend our island, whatever the cost may be. We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender!”\n\nThe Commons broke out into several cheers.\n\n“And if, which I do not for a moment believe, this island or a large part of it were subjugated and starving, then our Empire beyond the seas, armed and guarded by the British Fleet, would carry on the struggle, until, in God's good time, the New World, with all its power and might, steps forth to the rescue and the liberation of the old!”\n\nThe commons proceeded to explode into excitement. Several Labour MP’s cried, and Conservatives cheered louder than ever before. Churchill turned to a colleague and muttered, “And we’ll fight them with the butt ends of broken beer bottles because that's bloody well all we've got!”"
- ENG_Wartime_Tree.2.a: "We shall never surrender!"
+ ENG_Wartime_Tree.2.A: "We shall never surrender!"
 
  ENG_Wartime_Tree.3.t: "The Czechoslovak Government-in-Exile"
  ENG_Wartime_Tree.3.d: "The Germans have taken another step toward extinguishing European liberty. With their conquest of Paris, they have placed the lives of many important officials from various European nations in danger. Paris had been hosting many governments in exile, each of whom represented their people's continuing fighting spirit and desire to oppose Fascism. The Czechoslovak Government-in-Exile was one such government.\n\nAs the Germans marched into Paris, plans were being made to relocate them to the United Kingdom, where they could continue fighting for their country's freedom and security. Those preparations have now paid off, with the establishment of a formal Czechoslovak Government-in-Exile in London, led by [CZE.GetLeader].\n\nThis relocation, however, is not without complications. For one thing, the Czechoslovaks have made it clear that they intend to reverse the Munich Agreement at the end of the war. Many of our officials have reported that they continue to hold us in contempt and anger for signing the agreement in the first place.\n\nAnother issue is the Germans' creation of [SLO.GetNameDef]. While it claims to be a sovereign Slovak nation, there is no doubt that it is a German puppet. In any case, there is some debate over whether the Czechoslovak Government-in-Exile is truly a Czechoslovak Government-in-Exile or simply a Czech Government-in-Exile.\n\nIn any case, with all formalities completed, [CZE.GetLeader] will be settling into the London weather and organising the Czechoslovak resistance from his English Oak table."
- ENG_Wartime_Tree.3.a: "We shall wish them the best."
+ ENG_Wartime_Tree.3.A: "We shall wish them the best."
 
  ENG_Wartime_Tree.4.t: "The Tizard Mission"
  ENG_Wartime_Tree.4.d: "The British government have sent us a scientific delegation led by Henry Tizard with an interesting proposal. The British are willing to pool their research efforts with ours in several key areas as they do not have the industrial capacity to produce their inventions in great enough numbers."
- ENG_Wartime_Tree.4.a: "An excellent proposal!"
+ ENG_Wartime_Tree.4.A: "An excellent proposal!"
  ENG_Wartime_Tree.4.b: "No, the British are on their own."
  ENG_Wartime_Tree.4.c: "We should aim for a more long term cooperation."
 
  ENG_Wartime_Tree.5.t: "Tizard Successful"
  ENG_Wartime_Tree.5.d: "The Tizard Mission has been completed after a few months of waiting! The delegation did not return empty-handed: after lengthy negotiations, they obtained plans for RADAR technology, which should now aid us in the current war.\n\nEven if the collaborations with the American behemoth were not as fruitful as some would have liked, the RADAR is a significant step forward. Military industries have already installed them on planes and ships to improve visibility in Europe's seas and skies."
- ENG_Wartime_Tree.5.a: "Jolly good!"
+ ENG_Wartime_Tree.5.A: "Jolly good!"
 
  ENG_Wartime_Tree.6.t: "Tizard Rejected"
  ENG_Wartime_Tree.6.d: "Despite spending months in the USA, our delegation will return to London tomorrow without any new technology from the Americans. Congress has completely rejected our proposal for cooperation, viewing their intervention in our research as a threat to the stability of the policy of isolation.\n\nThe government has dramatically stated that it has been the worst diplomatic failure in the world since the declaration of the Franco-Prussian war in 1870, also saying that “much is at stake because of this”. The expedition's leader, Henry Tizard, is disappointed, but he assures the government that he will continue to develop the technology required to win the war, even if it means killing himself at work.\n\nThe government has quickly reassigned him to a new mission, developing our own RADAR technology, and, if he believes he is capable, the development of our own nuclear program. At the same time, the rejection of our proposition by the Americans has launched a cooling of our mutual relations. We will never have the same relationship with the US as no one is quite sure what the future of our diplomacy will look like with them."
- ENG_Wartime_Tree.6.a: "A failure for the Allies, or a benefit for British science?"
+ ENG_Wartime_Tree.6.A: "A failure for the Allies, or a benefit for British science?"
 
  ENG_Wartime_Tree.7.t: "Tizard Triumphant!"
  ENG_Wartime_Tree.7.d: "The Tizard delegation has good news! After months of back-and-forth negotiations, the Americans have finally decided to assist us! And, contrary to popular belief, they will not only provide us with assistance, but will also assist us in the development of our RADAR plans, as well as in its installation for use in a variety of areas. Some of their scientists also seem to have been impressed by our research on the atom, and they have indicated their willingness to work on this with us in the future.\n\nThis is a huge success for our government, and military industrialists have already begun to develop RADAR-equipped planes and submarines. The Americans, on the other hand, are very impressed by the British delegation's effectiveness and have asked Professor Tizard to stay in America with the American delegates for some time.\n\nIn the Prime Minister’s cabinet, everyone has agreed on the fact this operation is the biggest achievement of the century for the British services, and we think it can, in the long run, lead to the end of American isolationism."
- ENG_Wartime_Tree.7.a: "After months of dark storms, the skies of Europe finally see the sun appear!"
+ ENG_Wartime_Tree.7.A: "After months of dark storms, the skies of Europe finally see the sun appear!"
 
  ENG_Wartime_Tree.8.t: "The Atlantic Charter"
- ENG_Wartime_Tree.8.d: "Yesterday, the President of the United States [USA.GetLeader] and the Prime Minister met to discuss their post-war goals and visions. After hours of deliberation, both leaders signed a charter outlining their respective visions.\n\nThis agreement, dubbed the \"Atlantic Charter\" by experts, has made it clear that the United States supports the Allies in the war. It contains eight clauses ranging from limiting territorial expansion to ensuring increased global trade.\n\nThe Charter's reception has been mixed. While the clauses concerning freedom of the seas and increased global trade have received widespread support, the third clause, which states: \"All people have the right to self-determination,\" has sparked controversy.\n\nWhile colonial powers such as ourselves and the Netherlands argue that the clause should not apply to their own colonies, the colonies themselves appear to have seen the Charter as a ray of hope.\n\nThe Charter has also heightened tensions between the Western Allies and the Soviet Union because it does not specify whether the people of the Baltic nations, Eastern Poland, and Ukraine also have the right to self-determination. While the Soviets appear determined to maintain their stranglehold on Eastern Europe, the response of the Western Allies remains to be seen."
- ENG_Wartime_Tree.8.a: "One Step Closer - Together."
+ ENG_Wartime_Tree.8.d: "[FROM.GetNewsIcon]Yesterday, the President of the United States [USA.GetLeader] and the Prime Minister met to discuss their post-war goals and visions. After hours of deliberation, both leaders signed a charter outlining their respective visions.\n\nThis agreement, dubbed the \"Atlantic Charter\" by experts, has made it clear that the United States supports the Allies in the war. It contains eight clauses ranging from limiting territorial expansion to ensuring increased global trade.\n\nThe Charter's reception has been mixed. While the clauses concerning freedom of the seas and increased global trade have received widespread support, the third clause, which states: \"All people have the right to self-determination,\" has sparked controversy.\n\nWhile colonial powers such as ourselves and the Netherlands argue that the clause should not apply to their own colonies, the colonies themselves appear to have seen the Charter as a ray of hope.\n\nThe Charter has also heightened tensions between the Western Allies and the Soviet Union because it does not specify whether the people of the Baltic nations, Eastern Poland, and Ukraine also have the right to self-determination. While the Soviets appear determined to maintain their stranglehold on Eastern Europe, the response of the Western Allies remains to be seen."
+ ENG_Wartime_Tree.8.A: "One step closer - together."
 
  ENG_Wartime_Tree.9.t: "The Death of Appeasement"
  ENG_Wartime_Tree.9.d: "\"Well, Sam...\" asked James, pointing to the headline: WAR IN EUROPE. "What do you think of appeasement now, eh?"\n"It was a noble attempt to safeguard peace." said Samuel, calmly sipping his tea.\n"Noble attempt? Are you out of your bloody mind? This was the stupidest idea of them all. Instead of defending European liberty, we stood by like idiots. And now, thousands will pay for it with their lives!" James yelled. Samuel could feel the anger bubbling up.\n\n"You don't know what you're talking about, James. Leave it." he said, tightening his grip on his cup.\n"Oh, I bloody well do! You old men are pussies, is what. They wanna hide in their houses because of some old war that happened years ago. Me? I'm not like that. If my country wants me to, I won't even think twice before picking up a gun to shoot the fascists!" James retaliated. Samuel saw red. He stood up, dropping the cup of tea to the ground. It shattered to pieces, spilling tea all over.\n\n"Do you have any idea what its like in the trenches, you silly boy? Have you ever seen all your comrades die beside you as you shared a hole in the ground with rats and disease? Have you ever felt a ringing in your ear from artillery exploding next to you? Have you ever seen someone's brains drip out their ears?" he screamed, "No you haven't! So don't tell me you know what war is, and for God's sake, don't even think you'll survive a day out there!" he stormed out of the café.\n\nAs Samuel walked back back home, he felt dreadful. Despite his protests, there was no denying that appeasement had failed. There was no denying that European peace had been shattered, just like his tea cup. There was no denying that, like his tea, the blood of thousands, if not millions, of people would be spilled all over....."
- ENG_Wartime_Tree.9.a: "We have thrown down the gauntlet."
- ENG_Wartime_Tree.9.a.tt: "We will stop this tyrant or §Rdie§! trying"
+ ENG_Wartime_Tree.9.A: "We have thrown down the gauntlet."
+ ENG_Wartime_Tree.9.A.tt: "We will stop this tyrant or §Rdie§! trying"
 
  ENG_Wartime_Tree.10.t: "Roaring Factories"
  ENG_Wartime_Tree.10.d: ""
- ENG_Wartime_Tree.10.a: "Not Even Time for Tea?"
+ ENG_Wartime_Tree.10.A: "Not Even Time for Tea?"
 
  ENG_Wartime_Tree.11.t: "V is for Victory!"
  ENG_Wartime_Tree.11.d: ""
- ENG_Wartime_Tree.11.a: "Response"
+ ENG_Wartime_Tree.11.A: "Response"
 
  ENG_Wartime_Tree.12.t: "After the End"
  ENG_Wartime_Tree.12.d: ""
- ENG_Wartime_Tree.12.a: "Glad to be rid of the National Loaf!"
+ ENG_Wartime_Tree.12.A: "Glad to be rid of the National Loaf!"
 
  ENG_Wartime_Tree.13.t: "We'll Meet Again"
  ENG_Wartime_Tree.13.d: ""
- ENG_Wartime_Tree.13.a: "Some Sunny Day"
+ ENG_Wartime_Tree.13.A: "Some Sunny Day"
 
  ENG_Wartime_Tree.14.t: "The Saint James's Palace Declaration"
  ENG_Wartime_Tree.14.d: ""
- ENG_Wartime_Tree.14.a: "United We Are Strong!"
+ ENG_Wartime_Tree.14.A: "United We Are Strong!"
 
 ######################################################################
 #  Wartime Decision Events
