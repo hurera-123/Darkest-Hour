@@ -9,6 +9,7 @@ England_historical = {
 	abort = {}
 
 	ai_national_focuses = {
+		ENG_The_Chiefs_of_Staff_Committee
 	 	#Ramsay MacDonald
 		ENG_Strengthen_The_National_Government
 	 	ENG_The_London_Economic_Conference

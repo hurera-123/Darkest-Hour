@@ -1331,7 +1331,7 @@ defined_text = {
 		trigger = {
 			check_variable = { ss_division_name = 82 }
 		}
-		localization_key = "„Eiserne Garde“"
+		localization_key = "„Rumänisches Nr. 1“"
 	}
 	text = {
 		trigger = {

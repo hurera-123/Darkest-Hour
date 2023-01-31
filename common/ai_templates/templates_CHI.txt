@@ -156,7 +156,6 @@ infantry_CHI = {
 			support = {
 				engineer = 1
 				recon = 1
-				anti_air = 1
 			}
 			
 			regiments = {
@@ -173,7 +172,6 @@ infantry_CHI = {
 			
 			engineer
 			recon
-			anti_air
 		}
 	}
 	

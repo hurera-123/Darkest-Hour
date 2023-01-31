@@ -165,7 +165,7 @@ armored_SOV = {
 				signal_company = 1
 				maintenance_company = 1
 				logistics_company = 1
-				anti_air = 1
+				anti_air_battery = 1
 			}
 
 			regiments = {
@@ -183,7 +183,7 @@ armored_SOV = {
 			signal_company
 			maintenance_company
 			logistics_company
-			anti_air
+			anti_air_battery
 		}
 
 		replace_at_match = 0.8
@@ -714,7 +714,7 @@ motorized_SOV = {
 				logistics_company = 1
 				signal_company = 1
 				field_hospital = 1
-				anti_air = 1
+				anti_air_battery = 1
 			}
 
 			regiments = {
@@ -738,7 +738,7 @@ motorized_SOV = {
 			logistics_company
 			signal_company
 			field_hospital
-			anti_air
+			anti_air_battery
 		}
 
 		replace_at_match = 0.8
@@ -780,7 +780,7 @@ motorized_SOV = {
 				logistics_company = 1
 				signal_company = 1
 				field_hospital = 1
-				anti_air = 1
+				anti_air_battery = 1
 			}
 
 			regiments = {
@@ -804,7 +804,7 @@ motorized_SOV = {
 			logistics_company
 			signal_company
 			field_hospital
-			anti_air
+			anti_air_battery
 		}
 	}
 }
@@ -874,7 +874,7 @@ infantry_SOV = {
 				recon = 1
 				field_hospital = 1
 				artillery_battery = 1
-				anti_air = 1
+				anti_air_battery = 1
 				anti_tank_company = 1
 			}
 			
@@ -894,7 +894,7 @@ infantry_SOV = {
 			recon
 			field_hospital
 			artillery_battery
-			anti_air
+			anti_air_battery
 			anti_tank_company
 		}
 	}

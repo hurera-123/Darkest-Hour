@@ -476,6 +476,9 @@ focus_tree = {
 		id = ENG_Fostering_Imperial_Development
 		icon = GFX_ENG_Reinforce_the_Commonwealth
 		cost = 50
+		available = {
+			date > 1934.6.1
+		}
 		prerequisite = {
 			focus = ENG_Steady_As_She_Goes
 		}
@@ -1208,6 +1211,12 @@ focus_tree = {
 		id = ENG_Imperial_Defence_Shakeup
 		icon = GFX_focus_eng_global_defense
 		cost = 40
+		available = {
+			has_country_leader = {
+				character = ENG_Neville_Chamberlain
+				ruling_only = yes
+			}
+		}
 		prerequisite = {
 			focus = ENG_Steady_As_She_Goes
 		}

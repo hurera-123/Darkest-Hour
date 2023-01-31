@@ -86,11 +86,12 @@ armored_GER = {
 			light_armor
 			motorized
 			motorized_artillery_battalion
+			
 			engineer
 			mot_recon
 			anti_air_battery
-			maintenance_company
 			signal_company
+			maintenance_company
 			logistics_company
 		}
 		
@@ -144,7 +145,7 @@ armored_GER = {
 				signal_company = 1
 				maintenance_company = 1
 				logistics_company = 1
-				anti_air = 1
+				anti_air_battery = 1
 			}
 			
 			regiments = {
@@ -170,7 +171,7 @@ armored_GER = {
 			signal_company
 			maintenance_company
 			logistics_company
-			anti_air
+			anti_air_battery
 
 			anti_tank_company
 		}
@@ -250,7 +251,7 @@ armored_GER = {
 				signal_company = 1
 				maintenance_company = 1
 				logistics_company = 1
-				anti_air = 1
+				anti_air_battery = 1
 			}
 			
 			regiments = {
@@ -271,7 +272,7 @@ armored_GER = {
 			signal_company
 			maintenance_company
 			logistics_company
-			anti_air
+			anti_air_battery
 		}
 		
 		replace_at_match = 0.8
@@ -335,7 +336,7 @@ armored_GER = {
 				maintenance_company = 1
 				logistics_company = 1
 				artillery_battery = 1
-				anti_air = 1
+				anti_air_battery = 1
 			}
 			
 			regiments = {
@@ -358,7 +359,7 @@ armored_GER = {
 			maintenance_company
 			logistics_company
 			
-			anti_air
+			anti_air_battery
 			anti_tank_company
 			military_police
 			artillery_battery
@@ -564,7 +565,7 @@ motorized_GER = {
 				mot_recon = 1
 				field_hospital = 1
 				anti_tank_company = 1
-				anti_air  = 1
+				anti_air_battery  = 1
 			}
 
 			regiments = {
@@ -585,7 +586,7 @@ motorized_GER = {
 			mot_recon
 			field_hospital
 			anti_tank_company
-			anti_air
+			anti_air_battery
 		}
 
 		replace_at_match = 0.8
@@ -628,7 +629,7 @@ motorized_GER = {
 				mot_recon = 1
 				field_hospital = 1
 				anti_tank_company = 1
-				anti_air  = 1
+				anti_air_battery  = 1
 			}
 
 			regiments = {
@@ -649,7 +650,7 @@ motorized_GER = {
 			mot_recon
 			field_hospital
 			anti_tank_company
-			anti_air
+			anti_air_battery
 		}
 	}
 }
@@ -745,7 +746,7 @@ garrison_GER = {
 			}
 			
 			regiments = {
-				garrison = 7
+				garrison = 6
 				artillery_battalion = 1
 				anti_tank_battalion = 2
 			}
@@ -832,7 +833,7 @@ infantry_GER = {
 				field_hospital = 1
 				anti_tank_company = 1
 				artillery_battery = 1
-				anti_air = 1
+				anti_air_battery = 1
 			}
 			
 			regiments = {
@@ -847,7 +848,7 @@ infantry_GER = {
 			recon
 			field_hospital
 			anti_tank_company
-			anti_air
+			anti_air_battery
 			artillery_battery
 			anti_tank_battalion
 			artillery_battalion
@@ -1457,7 +1458,7 @@ anti_armor_GER = {
 	#paratrooper
 	#rocket_artillery
 	#light_tank_destroyer
-	#anti_air
+	#anti_air_battery
 	#artillery
 
 	# SUPPORT:

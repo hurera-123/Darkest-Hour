@@ -72,7 +72,7 @@ armored_ITA = {
 				engineer = 1
 				mot_recon = 1
 				logistics_company = 1
-				anti_air = 1
+				anti_air_battery = 1
 			}
 			
 			regiments = {
@@ -86,7 +86,7 @@ armored_ITA = {
 			light_armor
 			motorized
 			engineer
-			anti_air
+			anti_air_battery
 			logistics_company
 			mot_recon
 			motorized_artillery_battalion
@@ -160,7 +160,7 @@ armored_ITA = {
 				logistics_company = 1
 				maintenance_company = 1
 				signal_company = 1
-				anti_air = 1
+				anti_air_battery = 1
 				anti_tank_company = 1
 			}
 			
@@ -176,7 +176,7 @@ armored_ITA = {
 			medium_armor
 			motorized
 			mechanized
-			anti_air
+			anti_air_battery
 
 
 			engineer
@@ -453,7 +453,7 @@ heavy_armor_ITA = {
 				mot_recon = 1
 				logistics_company = 1
 				maintenance_company = 1
-				anti_air = 1
+				anti_air_battery = 1
 			}
 			
 			regiments = {
@@ -475,7 +475,7 @@ heavy_armor_ITA = {
 			maintenance_company
 			logistics_company
 
-			anti_air
+			anti_air_battery
 		}
 	}
 }

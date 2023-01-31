@@ -216,7 +216,7 @@ garrison_POL = {
 
 			support = {
 				military_police = 1
-				anti_air = 1
+				anti_air_battery = 1
 			}
 
 			regiments = {
@@ -226,7 +226,7 @@ garrison_POL = {
 
 		allowed_types = {
 			infantry
-			anti_air
+			anti_air_battery
 			military_police
 		}
 	}
@@ -390,23 +390,24 @@ mountaineers_POL = {
 				recon = 1
 				artillery_battery = 1
 				logistics_company = 1
-				anti_tank = 1
+				anti_tank_company = 1
 			}
 
 			regiments = {
 				mountaineers = 11
-				artillery_brigade = 2
+				artillery_battalion = 2
 			}
 		}
 
 		allowed_types = {
 			mountaineers
-			artillery_brigade
+			artillery_battalion
+			
 			engineer
 			recon
 			artillery_battery
 			logistics_company
-			anti_tank
+			anti_tank_company
 		}
 	}
 }
