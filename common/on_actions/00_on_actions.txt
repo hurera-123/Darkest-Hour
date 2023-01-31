@@ -1145,6 +1145,39 @@ on_actions = {
 					set_global_flag = Fall_of_Wuhan
 				}
 			}
+			if = {
+				limit = {
+					FROM = {
+						tag = FRA
+					}
+					ROOT = {
+						tag = GER
+					}
+					FROM.FROM = {
+						is_core_of = FRA
+						state = 29
+					}
+					ITA = {
+						is_in_faction_with = GER
+					}
+					FRA = {
+						has_capitulated = no
+					}
+				}
+				ITA = {
+					add_to_war = { 
+						targeted_alliance = GER
+						enemy = FRA 
+						hostility_reason = asked_to_join
+					}
+					add_to_war = { 
+						targeted_alliance = GER
+						enemy = POL 
+						hostility_reason = asked_to_join
+					}
+				}
+				
+			}
 		}
 	}
 	on_subject_free = {

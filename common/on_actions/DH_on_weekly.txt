@@ -138,50 +138,43 @@ on_actions = {
 			#	}
 			#}
 			# GERMANY #
-			every_country = {
-				add_to_variable = { GER_Influence = modifier@weekly_influence_growth }
-				clamp_variable = {
-					var = GER_Influence
-					min = 0
-					max = 100
-				}
-			}
 			if = {
 				limit = {
-					tag = GER
-					date > 1944.1.1
-					date < 1944.1.10
-					has_start_date < 1944.1.1
-					has_country_leader = {
-						character = GER_Adolf_Hitler
-						ruling_only = yes
-					}
-				}
-				set_portraits = {
-					character = GER_Adolf_Hitler
-					civilian = { large ="GFX_P_F_Adolf_Hitler_1945" }
-				} 
-			}
-			if = {
-				limit = {
-					original_tag = ITA
 					GER = {
-						has_war_with = FRA
-						controls_state = 29
-					}
-					FRA = {
-						has_capitulated = no
+						has_completed_focus = GER_Rule_over_the_Danube
 					}
 				}
-				add_to_war = { 
-					targeted_alliance = GER
-					enemy = FRA 
-					hostility_reason = asked_to_join
+				HUN = {
+					add_to_variable = { GER_Influence = modifier@weekly_influence_growth }
+					clamp_variable = {
+						var = GER_Influence
+						min = 0
+						max = 100
+					}
 				}
-				add_to_war = { 
-					targeted_alliance = GER
-					enemy = POL 
-					hostility_reason = asked_to_join
+				YUG = {
+					add_to_variable = { GER_Influence = modifier@weekly_influence_growth }
+					clamp_variable = {
+						var = GER_Influence
+						min = 0
+						max = 100
+					}
+				}
+				BUL = {
+					add_to_variable = { GER_Influence = modifier@weekly_influence_growth }
+					clamp_variable = {
+						var = GER_Influence
+						min = 0
+						max = 100
+					}
+				}
+				ROM = {
+					add_to_variable = { GER_Influence = modifier@weekly_influence_growth }
+					clamp_variable = {
+						var = GER_Influence
+						min = 0
+						max = 100
+					}
 				}
 			}
 			# FACTIONS #
