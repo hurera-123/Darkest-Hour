@@ -1754,6 +1754,7 @@
  SOV_Ural_Kuznetsk_Ore_Mining_Smelting_Works_desc: ""
  SOV_Second_Five_Year_Plan_decision: "Second Five Year Plan"
  SOV_Five_Year_Plan_Completed_flag: "§OThe Five-Year Plan§! §GSucceeded§! or §RFailed§!"
+ SOV_Max_2_Decisions_tt: "We are not already doing §Y2 projects§! of the §OFive Year Plan§!"
 
  # Battle for Harvest "Year"
  SOV_Battle_for_Harvest_category: "Battle for Harvest [GetYear]"

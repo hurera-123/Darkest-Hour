@@ -34,32 +34,6 @@ areas = {
 			asia
 		}
 	}
-	french_north_africa = {
-		strategic_regions = {
-			241
-			182
-		}
-	}
-	french_border_congo = {
-		strategic_regions = {
-			183
-			305
-			304
-		}
-	}
-	french_west_africa = {
-		strategic_regions = {
-			292
-			293
-			240
-		}
-	}
-	french_islands = {
-		strategic_regions = {
-			55
-			53
-		}
-	}
 	normandy_landing_zone = {
         strategic_regions = {
             264
@@ -173,8 +147,50 @@ areas = {
 	north_africa = {
 		strategic_regions = {
 			126
+			241
 			242
 			128
+			182
+		}
+	}
+	central_africa = {
+		strategic_regions = {
+			240
+			291
+			292
+			293
+			294
+			140
+			304
+			303
+			183
+			300
+			302
+			305
+			301
+			299
+			294
+		}
+	}
+	east_africa = {
+		strategic_regions = {
+			232
+			234
+			238
+			231
+			17
+			235
+		}
+	}
+	south_africa = {
+		strategic_regions = {
+			184
+			233
+			185
+			298
+			297
+			296
+			139
 		}
 	}
 	norwegian_coast = {

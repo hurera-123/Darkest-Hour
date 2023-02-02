@@ -1,0 +1,922 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+# contain
+# area_priority
+
+DH_default_ground_production_strategy = {
+	allowed = {
+		is_major = yes
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 40
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 25
+	}
+}
+
+DH_default_ground_production_strategy_minor = {
+	allowed = {
+		is_major = no
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = -20
+	}
+}
+
+DH_default_ground_production_strategy_major = {
+	allowed = {
+		is_major = yes
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = artillery
+		value = 1
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = anti_air
+		value = 2
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = anti_tank
+		value = 3
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = train
+		value = 1
+	}
+
+	# So the ai is more flexible
+	ai_strategy = {
+		type = equipment_stockpile_surplus_ratio
+		value = -25
+	}
+}
+
+### FRANCE
+
+DH_FRA_ground_production_strategy_default = {
+	allowed = {
+		original_tag = FRA
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 35
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 30
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 15
+	}
+}
+
+DH_FRA_ground_production_strategy_early  = {
+	allowed = {
+		original_tag = FRA
+	}
+	enable = {
+		has_war = no
+		date < 1940.1.1
+	}
+
+	abort_when_not_enabled = yes
+
+	# Reserves are enough for France
+	ai_strategy = {
+		type = build_army
+		id = infantry
+		value = -1
+	}
+	ai_strategy = {
+		type = build_army
+		id = armor
+		value = -1
+	}
+}
+
+DH_FRA_ground_production_strategy_late = {
+	allowed = {
+		original_tag = FRA
+	}
+	enable = {
+		num_of_military_factories > 99
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 22
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = heavy_armor
+		value = 5
+	}
+}
+
+### ITALY
+
+DH_ITA_ground_production_strategy_default = {
+	allowed = {
+		original_tag = ITA
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 35
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 30
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 10
+	}
+}
+
+### JAPAN
+
+DH_JAP_ground_production_strategy_default = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		always = yes
+	}
+
+    ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 35
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 30
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 10
+	}
+}
+
+DH_JAP_ground_production_strategy_late = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		num_of_military_factories > 79
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = -5
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 5
+	}
+
+    ai_strategy = {
+		type = equipment_production_min_factories
+		id = armor
+		value = 3
+	}
+}
+
+### GERMANY
+
+DH_GER_ground_production_strategy_default = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = -20
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 20
+	}
+}
+
+DH_GER_ground_production_strategy_early = {
+	allowed = {
+		original_tag = GER
+	}
+	enable = {
+		date < 1939.1.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_stockpile_surplus_ratio
+		value = -25 # reduce while we build up troops
+	}
+	ai_strategy = {
+		type = build_army
+		id = infantry
+		value = 500
+	}
+	ai_strategy = {
+		type = force_build_armies
+		value = 300
+	}
+}
+
+AI_stopspammingtrains = {
+	allowed = {
+		OR = {
+			original_tag = GER
+			original_tag = USA
+		}
+	}
+	enable = {
+		date > 1940.1.1
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = train_equipment
+		value = -75
+	}
+}
+
+### SOVIET UNION
+
+DH_SOV_ground_production_strategy_default = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 15
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = anti_tank
+		value = 10
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 36
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = mechanized
+		value = 15
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 15
+	}
+}
+
+DH_SOV_ground_production_strategy_late = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		date > 1942.1.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 30
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 30
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = heavy_armor
+		value = 14
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = motorized
+		value = 15
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = -15
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = armor
+		value = 10
+	}
+
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = infantry
+		value = 30
+	}
+}
+
+DH_SOV_ground_production_strategy_very_late = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		date > 1943.6.1
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = motorized
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = -10
+	}
+}
+
+### UK
+
+DH_ENG_ground_production_strategy_default = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = mountaineers
+		value = -1
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 30
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 30
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 10
+	}
+}
+
+DH_ENG_ground_production_strategy_early = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		num_divisions < 40
+		date < 1940.1.1
+	}
+	abort_when_not_enabled = yes
+
+
+	ai_strategy = {
+		type = build_army
+		id = infantry
+		value = 200
+	}
+}
+
+DH_ENG_ground_production_strategy_late = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		num_of_military_factories > 94
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = build_army
+		id = motorized
+		value = 200
+	}
+	ai_strategy = {
+		type = build_army
+		id = mechanized
+		value = 200
+	}
+	ai_strategy = {
+		type = build_army
+		id = armor
+		value = 200
+	}
+	ai_strategy = {
+		type = build_army
+		id = heavy_armor
+		value = 200
+	}
+}
+
+### USA
+
+DH_USA_ground_production_strategy_default = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = mountaineers
+		value = -1
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 30 #30 to 50
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 25 #20 to 40
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 25
+	}
+}
+
+DH_USA_ground_production_strategy_mid = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		num_of_military_factories > 159
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = role_ratio
+		id = motorized
+		value = 20
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = -20
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 25
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = light_armor
+		value = -50
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = heavy_armor
+		value = 4
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = infantry
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = garrison
+		value = -1
+	}
+}
+
+DH_USA_ground_production_strategy_late = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		num_of_military_factories > 159
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = motorized
+		value = 25
+	}
+}
+
+DH_USA_lend_lease_production = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		num_of_military_factories > 199
+		#has_completed_focus = USA_lend_lease_act
+		SOV = { has_war_with = GER }
+		date > 1942.1.1
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = artillery
+		value = 25
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = anti_tank
+		value = 12
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = infantry
+		value = 100
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = mechanized
+		value = 25
+	}
+}
+
+### CHI
+
+DH_CHI_ground_production_strategy_default = {
+	allowed = {
+		original_tag = CHI
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = mountaineers
+		value = -1
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = fighter
+		value = 20
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 35
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 25
+	}
+
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = ignore_army_incompetence
+		value = 50
+	}
+
+    ai_strategy = {
+		type = equipment_production_min_factories
+		id = infantry
+		value = 10
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+}
+
+### CZE
+
+DH_CZE_ground_production_strategy_default = {
+	allowed = {
+		original_tag = CZE
+	}
+	enable = {
+		always = yes
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = infantry
+		value = 20		#30 to 50
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = artillery
+		value = 20		#20 to 40
+	}
+	ai_strategy = {
+		type = equipment_production_factor
+		id = armor
+		value = 20
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories
+		id = artillery
+		value = 5
+	}
+}
+
+##################### DEFAULT ARMY SIZES
+
+default_army_size_too_many_garrisons = {
+	allowed = {
+		tag = USA
+	}
+	enable = {
+		num_divisions > 199
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = build_army
+		id = infantry
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = mechanized
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = motorized
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = garrison
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = light_armor
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = armor
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = heavy_armor
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = mountaineers
+		value = -1
+	}
+}
+
+default_army_size = {
+	allowed = {
+		NOT = {
+			tag = SOV
+			tag = CHI
+			tag = USA
+		}
+	}
+	enable = {
+		num_divisions > 249
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = build_army
+		id = infantry
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = mechanized
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = motorized
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = garrison
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = light_armor
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = armor
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = heavy_armor
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = mountaineers
+		value = -1
+	}
+}
+
+default_army_size_snowflakes = {
+	allowed = {
+		OR = {
+			tag = SOV
+			tag = CHI
+		}
+	}
+	enable = {
+		num_divisions > 349
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = build_army
+		id = infantry
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = mechanized
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = motorized
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = garrison
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = light_armor
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = armor
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = heavy_armor
+		value = -1
+	}
+
+	ai_strategy = {
+		type = build_army
+		id = mountaineers
+		value = -1
+	}
+}

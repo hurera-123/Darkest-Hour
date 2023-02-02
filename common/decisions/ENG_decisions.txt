@@ -372,7 +372,7 @@ operations = {
 		}
 		visible = {
 			has_war_with = GER
-			has_global_flag = vichy_established
+			has_global_flag = VIC_Vichy_Established
 			FRA = {
 				NOT = {
 					has_war_with = ENG

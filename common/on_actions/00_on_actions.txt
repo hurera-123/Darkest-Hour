@@ -723,6 +723,26 @@ on_actions = {
 			}
 			if = {
 				limit = {
+					original_tag = BEL
+					FROM = { tag = GER }
+				}
+				BEL = {
+					transfer_state = 1382
+					transfer_state = 295
+					transfer_state = 1381
+					transfer_state = 538
+					transfer_state = 718
+					transfer_state = 1380
+					transfer_state = 1376
+					transfer_state = 1378
+					transfer_state = 1377
+					transfer_state = 791
+					transfer_state = 792
+					transfer_state = 1379
+				}
+			}
+			if = {
+				limit = {
 					original_tag = YUG
 				}
 				remove_ideas = YUG_idea_economic_aid
@@ -741,93 +761,6 @@ on_actions = {
 					country_event = { id = ITA_Ethiopian_War.40 days = 1 }
 				}
 			}
-#			if = {
-#				limit = {
-#					original_tag = CHI
-#					FROM = { tag = JAP }
-#				}
-#				RNG = {
-#					annex_country = {
-#						target = CHI
-#						transfer_troops = no
-#					}
-#					annex_country = {
-#						target = GND
-#						transfer_troops = no
-#					}
-#					annex_country = {
-#						target = GXC
-#						transfer_troops = no
-#					}
-#					annex_country = {
-#						target = YUN
-#						transfer_troops = no
-#					}
-#					annex_country = {
-#						target = PRC
-#						transfer_troops = no
-#					}
-#					annex_country = {
-#						target = XSM
-#						transfer_troops = no
-#					}
-#					annex_country = {
-#						target = SHD
-#						transfer_troops = no
-#					}
-#					annex_country = {
-#						target = SHX
-#						transfer_troops = no
-#					}
-#					set_cosmetic_tag = RNG_JAP
-#					set_capital = {
-#						state = 613 
-#						remember_old_capital = no
-#					}
-#					transfer_state = 614
-#					transfer_state = 608
-#					transfer_state = 609
-#				}
-#				MEN = {
-#					827 = { add_core_of = MEN }
-#					transfer_state = 827
-#					825 = { add_core_of = MEN }
-#					transfer_state = 825
-#					621 = { add_core_of = MEN }
-#					transfer_state = 621
-#					746 = { add_core_of = MEN }
-#					transfer_state = 746
-#					set_capital = {
-#						state = 611 
-#						remember_old_capital = no
-#					}
-#				}
-#				JAP = {
-#					country_event = { id = JAP_Sino_Japanese_War_Chinese_Defeat.1 days = 0 }
-#					transfer_state = 868
-#					transfer_state = 1472
-#					transfer_state = 1482
-#					transfer_state = 743
-#					transfer_state = 1036
-#					transfer_state = 591
-#				}
-#				if = {
-#					limit = {
-#						RNG = { NOT = { is_puppet_of = JAP } }
-#					}
-#					puppet = RNG
-#					JAP = {
-#						set_autonomy = {
-#							target = RNG
-#							autonomy_state = AUTONOMY_Imperial_Associate
-#						}
-#					}
-#				}
-#				white_peace = {
-#					tag = CHI
-#					message = KUOMINTANG_COLLAPSE
-#				}
-#			}
 			if = {
 				limit = {
 					OR = {

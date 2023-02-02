@@ -100,9 +100,14 @@ focus_tree = {
 		completion_reward = {
 			every_owned_state = {
 				limit = {
-					is_core_of = ENG
-					NOT = {
-						state = 119
+					OR = {
+						state = 131
+						state = 130
+						state = 132
+						state = 128
+						state = 123
+						state = 126
+						state = 121
 					}
 				}
 				add_building_construction = {

@@ -4611,7 +4611,6 @@ country_event = {
 				}
 			}
 		}
-		set_global_flag = vichy_established
 		hidden_effect =  {
 			news_event = { id = FRA_Capitulation_of_France.3 hours = 6 } # The Second Armistice at Compiégne
 			GER = { news_event = { id = Germany_V.52 days = 5 } } # Hitler visits Paris

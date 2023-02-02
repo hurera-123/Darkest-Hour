@@ -1095,6 +1095,9 @@ characters={
 				
 				CoStaff_Fortifications_Supporter
 			}
+			ai_will_do = {
+				factor = 5
+			}
 		}
 		advisor={
 			slot=Chief_of_Army
@@ -1108,6 +1111,9 @@ characters={
 			traits={
 				
 				CoArmy_Static_Defense_Supporter
+			}
+			ai_will_do = {
+				factor = 5
 			}
 		}
 	}

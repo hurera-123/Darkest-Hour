@@ -1,0 +1,529 @@
+DH_aircraft_production_strategies = {
+
+	############# Fighters
+
+	if = {
+		limit = {
+			has_tech = Fighter_1933
+			if = {
+				limit = {
+					OR = {
+						original_tag = SOV
+						original_tag = GER
+					}
+				}
+				has_deployed_air_force_size = { size < 8000 type = fighter }
+			}
+			if = {
+				limit = {
+					NOT = {
+						original_tag = SOV
+						original_tag = GER
+						original_tag = USA
+					}
+				}
+				has_deployed_air_force_size = { size < 5000 type = fighter }
+			}
+			if = {
+				limit = {
+					AND = {
+						original_tag = USA
+						NOT = {
+							has_tech = Fighter_Bomber_1936
+						}
+					}
+				}
+				has_deployed_air_force_size = { size < 1500 type = fighter }
+			}
+			if = {
+				limit = {
+					AND = {
+						original_tag = USA
+						has_tech = Fighter_Bomber_1940
+						NOT = {
+							has_tech = Fighter_1943
+						}
+					}
+				}
+				has_deployed_air_force_size = { size < 5000 type = fighter }
+			}
+			if = {
+				limit = {
+					AND = {
+						original_tag = USA
+						has_tech = Fighter_1943
+					}
+				}
+				has_deployed_air_force_size = { size < 9000 type = fighter }
+			}
+			num_of_military_factories > 24
+			NOT = { original_tag = SOV }
+			OR = {
+				is_major = yes
+				NOT = {
+					any_allied_country = {
+						is_major = yes
+					}
+				}
+			}
+		}
+		set_country_flag = DH_fighter_multirole_production_flag
+	}
+	else_if = {
+		limit = {
+			has_country_flag = DH_fighter_multirole_production_flag
+		}
+		clr_country_flag = DH_fighter_multirole_production_flag
+	}
+
+	if = {
+		limit = {
+			has_tech = Fighter_1933
+			has_tech = Fighter_Bomber_1933
+			if = {
+				limit = {
+					OR = {
+						original_tag = SOV
+						original_tag = GER
+					}
+				}
+				has_deployed_air_force_size = { size < 8000 type = fighter }
+			}
+			if = {
+				limit = {
+					NOT = {
+						original_tag = SOV
+						original_tag = GER
+					}
+				}
+				has_deployed_air_force_size = { size < 5000 type = fighter }
+			}
+			num_of_military_factories > 24
+			OR = {
+				is_major = yes
+				tag = AST
+				NOT = {
+					any_allied_country = {
+						is_major = yes
+					}
+				}
+			}
+		}
+
+		set_country_flag = DH_fighter_production_flag
+	}
+	else_if = {
+		limit = {
+			has_country_flag = DH_fighter_production_flag
+		}
+		clr_country_flag = DH_fighter_production_flag
+	}
+
+	if = {
+		limit = {
+			has_tech = Fighter_Bomber_1933
+			if = {
+				limit = {
+					OR = {
+						original_tag = SOV
+						original_tag = GER
+					}
+				}
+				has_deployed_air_force_size = { size < 8000 type = fighter }
+			}
+			if = {
+				limit = {
+					NOT = {
+						original_tag = SOV
+						original_tag = GER
+					}
+				}
+				has_deployed_air_force_size = { size < 5000 type = fighter }
+			}
+			num_of_military_factories > 24
+			NOT = { original_tag = SOV }
+			OR = {
+				is_major = yes
+				NOT = {
+					any_allied_country = {
+						is_major = yes
+					}
+				}
+			}
+		}
+
+		set_country_flag = DH_multirole_production_flag
+	}
+	else_if = {
+		limit = {
+			has_country_flag = DH_multirole_production_flag
+		}
+		clr_country_flag = DH_multirole_production_flag
+	}
+	
+	################################### Battle of Britain
+	
+	if = {
+		limit = {
+			NOT = {
+				ENG = {
+					is_subject_of = GER
+				}
+				GER = {
+					has_war_with = SOV
+				}
+			}
+			tag = ENG
+			has_global_flag = fall_of_france
+			has_tech = Fighter_1933
+			OR = {
+				has_deployed_air_force_size = { size < 5000 type = fighter }
+				AND = {
+					has_global_flag = GER_Victory_Against_the_USSR
+					has_deployed_air_force_size = { size < 10000 type = fighter }
+				}
+			}
+		}
+
+		set_country_flag = DH_bob_production_flag
+	}
+	else_if = {
+		limit = {
+			has_country_flag = DH_bob_production_flag
+		}
+		clr_country_flag = DH_bob_production_flag
+	}
+	
+	############# CAS
+
+	if = {
+		limit = {
+			if = {
+				limit = {
+					tag = SOV
+				}
+				has_tech = Attacker_1940
+			}
+
+			NOT = {
+				has_country_flag = DH_bob_production_flag
+			}
+			NOT = {
+				tag = USA
+			}
+			has_tech = Attacker_1933
+			has_deployed_air_force_size = { size < 3000 type = cas }
+			num_of_military_factories > 49
+			OR = {
+				is_major = yes
+				NOT = {
+					any_allied_country = {
+						is_major = yes
+					}
+				}
+			}
+		}
+
+		set_country_flag = DH_cas_production_flag
+	}
+	else_if = {
+		limit = {
+			has_country_flag = DH_cas_production_flag
+		}
+		clr_country_flag = DH_cas_production_flag
+	}
+
+	############# Heavy Fighters
+
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = DH_bob_production_flag
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				has_tech = Heavy_Fighter_1940
+			}
+			NOT = { has_tech = Fighter_1945 }
+			has_tech = Heavy_Fighter_1936
+			#DH_need_heavy_fighters = yes
+			OR = {
+				if = {
+					limit = {
+						OR = {
+							original_tag = SOV
+							original_tag = GER
+						}
+					}
+					has_deployed_air_force_size = { size < 9000 type = fighter }
+				}
+				if = {
+					limit = {
+						NOT = {
+							original_tag = SOV
+							original_tag = GER
+							original_tag = USA
+						}
+					}
+					has_deployed_air_force_size = { size < 6000 type = fighter }
+				}
+				if = {
+					limit = {
+						original_tag = USA
+						has_tech = Heavy_Fighter_1936
+						NOT = {
+							has_tech = Heavy_Fighter_1940
+						}
+					}
+					has_deployed_air_force_size = { size < 4000 type = fighter }
+				}
+				if = {
+					limit = {
+						original_tag = USA
+						has_tech = Heavy_Fighter_1940
+						NOT = {
+							has_tech = Heavy_Fighter_1943
+						}
+					}
+					has_deployed_air_force_size = { size < 6000 type = fighter }
+				}
+				AND = {
+					NOT = {
+						has_equipment = {
+							heavy_fighter_equipment > 3999
+						}
+					}
+					has_deployed_air_force_size = { size < 10500 type = fighter }
+					has_tech = Heavy_Fighter_1943
+				}
+			}
+			num_of_military_factories > 99
+			NOT = { original_tag = ITA }
+			NOT = { original_tag = GER }
+			NOT = { original_tag = SOV }
+			OR = {
+				is_major = yes
+				NOT = {
+					any_allied_country = {
+						is_major = yes
+					}
+				}
+			}
+		}
+		set_country_flag = DH_heavy_fighter_production_flag
+	}
+	else_if = {
+		limit = {
+			has_country_flag = DH_heavy_fighter_production_flag
+		}
+		clr_country_flag = DH_heavy_fighter_production_flag
+	}
+
+	############# Tactical Bombers
+
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = DH_bob_production_flag
+			}
+			NOT = { DH_need_strat = yes }
+			DH_need_tac = yes
+			has_tech = Tactical_Bomber_1933
+			has_deployed_air_force_size = { size < 4000 type = tactical_bomber }
+			num_of_military_factories > 99
+			NOT = { original_tag = ITA }
+			NOT = { original_tag = SOV }
+			if = {
+				limit = {
+					tag = GER
+				}
+				date > 1939.6.1
+				OR = {
+					has_war_with = HOL
+					has_war_with = BEL
+					has_war_with = SOV
+					surrender_progress > 0.1
+					date > 1940.5.1
+				}
+				NOT = { has_war_with = SOV }
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				OR = {
+					date > 1940.8.1
+					surrender_progress > 0.02
+					AND = {
+						is_in_faction_with = FRA
+						FRA = { has_capitulated = yes }
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = FRA
+				}
+				OR = {
+					surrender_progress > 0.02
+					date > 1940.8.1
+				}
+			}
+			OR = {
+				is_major = yes
+				NOT = {
+					any_allied_country = {
+						is_major = yes
+					}
+				}
+			}
+		}
+
+		set_country_flag = DH_tactical_bomber_production_flag
+	}
+	else_if = {
+		limit = {
+			has_country_flag = DH_tactical_bomber_production_flag
+		}
+		clr_country_flag = DH_tactical_bomber_production_flag
+	}
+
+	############# Strategic Bombers
+
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = DH_bob_production_flag
+			}
+			has_tech = Strategic_Bomber_1933
+			DH_need_strat = yes
+			if = {
+				limit = {
+					tag = USA
+				}
+				NOT = {
+					AND = {
+						has_global_flag = GER_Victory_Against_the_USSR
+						ENG = {
+							has_country_flag = DH_bob_production_flag
+						}
+					}
+				}
+			}
+			OR = {
+				AND = {
+					NOT = { original_tag = USA }
+					has_deployed_air_force_size = { size < 3000 type = strategic_bomber }
+				}
+				AND = {
+					original_tag = USA
+					has_deployed_air_force_size = { size < 10000 type = strategic_bomber }
+				}
+				AND = {
+					date > 1944.1.1
+					original_tag = ENG
+					has_deployed_air_force_size = { size < 4500 type = strategic_bomber }
+					NOT = { has_global_flag = GER_Victory_Against_the_USSR }
+				}
+			}
+			num_of_military_factories > 149
+			OR = {
+				is_major = yes
+				NOT = {
+					any_allied_country = {
+						is_major = yes
+					}
+				}
+			}
+		}
+
+		set_country_flag = DH_strategic_bomber_production_flag
+	}
+	else_if = {
+		limit = {
+			has_country_flag = DH_strategic_bomber_production_flag
+		}
+		clr_country_flag = DH_strategic_bomber_production_flag
+	}
+
+	############# Carrier Planes
+
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = DH_bob_production_flag
+			}
+			if = {
+				limit = {
+					tag = USA
+				}
+				has_tech = cv_Fighter_1943
+				NOT = {
+					AND = {
+						has_global_flag = GER_Victory_Against_the_USSR
+						ENG = {
+							has_country_flag = DH_bob_production_flag
+						}
+					}
+				}
+			}
+			NOT = {
+				tag = GER
+			}
+			if = {
+				limit = {
+					tag = ENG
+				}
+				OR = {
+					has_tech = cv_Fighter_1943
+					has_tech = cv_Fighter_1940
+				}
+			}
+			num_of_military_factories > 25
+			DH_need_cv_fighters = yes
+			has_navy_size = { unit = carrier size > 0 }
+			NOT = {
+				has_equipment = { cv_fighter_equipment > 1000 }
+			}
+			has_deployed_air_force_size = { size < 2000 type = fighter }
+		}
+		set_country_flag = DH_cv_production_flag
+	}
+	else_if = {
+		limit = {
+			has_country_flag = DH_cv_production_flag
+		}
+		clr_country_flag = DH_cv_production_flag
+	}
+
+	############# Transport
+
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = DH_bob_production_flag
+				tag = GER
+			}
+			num_of_military_factories > 99
+			alliance_strength_ratio > 0.5
+			OR = {
+				is_major = yes
+				NOT = {
+					any_allied_country = {
+						is_major = yes
+					}
+				}
+			}
+		}
+
+		set_country_flag = DH_transport_production_flag
+	}
+	else_if = {
+		limit = {
+			has_country_flag = DH_transport_production_flag
+		}
+		clr_country_flag = DH_transport_production_flag
+	}
+}

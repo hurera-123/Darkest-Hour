@@ -1581,10 +1581,7 @@ foreign_politics = {
 		fire_only_once = yes
 		is_good = no
 		activation = {
-			AND = {
-				has_war_with = FIN
-				has_country_flag = SOV_Winter_War
-			}
+			always = no
 		}
 		#Fail
 		timeout_effect = {
@@ -2277,6 +2274,10 @@ SOV_Second_Five_Year_Plan_category = {
 				amount_of_money_to_check = 120
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = SOV_Max_2_Decisions_tt
+				check_variable = { SOV_Decisions_in_Progress < 2 }
+			}
 		}
 		days_remove = 155
 		highlight_states = {
@@ -2289,6 +2290,9 @@ SOV_Second_Five_Year_Plan_category = {
 				money_to_gain = -120
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
+			add_to_variable = {
+				SOV_Decisions_in_Progress = 1
+			}
 		}
 		remove_effect = {
 			219 = {
@@ -2301,6 +2305,9 @@ SOV_Second_Five_Year_Plan_category = {
 			}
 			add_to_variable = {
 				SOV_Number_of_Completed_Decisions = 1
+			}
+			subtract_from_variable = {
+				SOV_Decisions_in_Progress = 1
 			}
 		}
 		ai_will_do = {
@@ -2325,6 +2332,10 @@ SOV_Second_Five_Year_Plan_category = {
 				amount_of_money_to_check = 375
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = SOV_Max_2_Decisions_tt
+				check_variable = { SOV_Decisions_in_Progress < 2 }
+			}
 		}
 		days_remove = 155
 		highlight_states = {
@@ -2337,6 +2348,9 @@ SOV_Second_Five_Year_Plan_category = {
 				money_to_gain = -375
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
+			add_to_variable = {
+				SOV_Decisions_in_Progress = 1
+			}
 		}
 		remove_effect = {
 			653 = {
@@ -2349,6 +2363,9 @@ SOV_Second_Five_Year_Plan_category = {
 			}
 			add_to_variable = {
 				SOV_Number_of_Completed_Decisions = 1
+			}
+			subtract_from_variable = {
+				SOV_Decisions_in_Progress = 1
 			}
 		}
 		ai_will_do = {
@@ -2373,6 +2390,10 @@ SOV_Second_Five_Year_Plan_category = {
 				amount_of_money_to_check = 250
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = SOV_Max_2_Decisions_tt
+				check_variable = { SOV_Decisions_in_Progress < 2 }
+			}
 		}
 		days_remove = 155
 		highlight_states = {
@@ -2385,6 +2406,9 @@ SOV_Second_Five_Year_Plan_category = {
 				money_to_gain = -250
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
+			add_to_variable = {
+				SOV_Decisions_in_Progress = 1
+			}
 		}
 		remove_effect = {
 			227 = {
@@ -2402,6 +2426,9 @@ SOV_Second_Five_Year_Plan_category = {
 			}
 			add_to_variable = {
 				SOV_Number_of_Completed_Decisions = 1
+			}
+			subtract_from_variable = {
+				SOV_Decisions_in_Progress = 1
 			}
 		}
 		ai_will_do = {
@@ -2426,6 +2453,10 @@ SOV_Second_Five_Year_Plan_category = {
 				amount_of_money_to_check = 300
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = SOV_Max_2_Decisions_tt
+				check_variable = { SOV_Decisions_in_Progress < 2 }
+			}
 		}
 		days_remove = 155
 		highlight_states = {
@@ -2438,6 +2469,9 @@ SOV_Second_Five_Year_Plan_category = {
 				money_to_gain = -300
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
+			add_to_variable = {
+				SOV_Decisions_in_Progress = 1
+			}
 		}
 		remove_effect = {
 			653 = {
@@ -2455,6 +2489,9 @@ SOV_Second_Five_Year_Plan_category = {
 			}
 			add_to_variable = {
 				SOV_Number_of_Completed_Decisions = 1
+			}
+			subtract_from_variable = {
+				SOV_Decisions_in_Progress = 1
 			}
 		}
 		ai_will_do = {
@@ -2479,6 +2516,10 @@ SOV_Second_Five_Year_Plan_category = {
 				amount_of_money_to_check = 450
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = SOV_Max_2_Decisions_tt
+				check_variable = { SOV_Decisions_in_Progress < 2 }
+			}
 		}
 		days_remove = 155
 		highlight_states = {
@@ -2491,6 +2532,9 @@ SOV_Second_Five_Year_Plan_category = {
 				money_to_gain = -450
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
+			add_to_variable = {
+				SOV_Decisions_in_Progress = 1
+			}
 		}
 		remove_effect = {
 			572 = {
@@ -2508,6 +2552,9 @@ SOV_Second_Five_Year_Plan_category = {
 			}
 			add_to_variable = {
 				SOV_Number_of_Completed_Decisions = 1
+			}
+			subtract_from_variable = {
+				SOV_Decisions_in_Progress = 1
 			}
 		}
 		ai_will_do = {
@@ -2532,6 +2579,10 @@ SOV_Second_Five_Year_Plan_category = {
 				amount_of_money_to_check = 300
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = SOV_Max_2_Decisions_tt
+				check_variable = { SOV_Decisions_in_Progress < 2 }
+			}
 		}
 		days_remove = 155
 		highlight_states = {
@@ -2544,6 +2595,9 @@ SOV_Second_Five_Year_Plan_category = {
 				money_to_gain = -300
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
+			add_to_variable = {
+				SOV_Decisions_in_Progress = 1
+			}
 		}
 		remove_effect = {
 			226 = {
@@ -2565,6 +2619,9 @@ SOV_Second_Five_Year_Plan_category = {
 			}
 			add_to_variable = {
 				SOV_Number_of_Completed_Decisions = 1
+			}
+			subtract_from_variable = {
+				SOV_Decisions_in_Progress = 1
 			}
 		}
 		ai_will_do = {
@@ -2589,6 +2646,10 @@ SOV_Second_Five_Year_Plan_category = {
 				amount_of_money_to_check = 250
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = SOV_Max_2_Decisions_tt
+				check_variable = { SOV_Decisions_in_Progress < 2 }
+			}
 		}
 		days_remove = 155
 		highlight_states = {
@@ -2601,6 +2662,9 @@ SOV_Second_Five_Year_Plan_category = {
 				money_to_gain = -250
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
+			add_to_variable = {
+				SOV_Decisions_in_Progress = 1
+			}
 		}
 		remove_effect = {
 			258 = {
@@ -2622,6 +2686,9 @@ SOV_Second_Five_Year_Plan_category = {
 			}
 			add_to_variable = {
 				SOV_Number_of_Completed_Decisions = 1
+			}
+			subtract_from_variable = {
+				SOV_Decisions_in_Progress = 1
 			}
 		}
 		ai_will_do = {
@@ -2646,6 +2713,10 @@ SOV_Second_Five_Year_Plan_category = {
 				amount_of_money_to_check = 250
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = SOV_Max_2_Decisions_tt
+				check_variable = { SOV_Decisions_in_Progress < 2 }
+			}
 		}
 		days_remove = 155
 		highlight_states = {
@@ -2658,6 +2729,9 @@ SOV_Second_Five_Year_Plan_category = {
 				money_to_gain = -250
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
+			add_to_variable = {
+				SOV_Decisions_in_Progress = 1
+			}
 		}
 		remove_effect = {
 			223 = {
@@ -2679,6 +2753,9 @@ SOV_Second_Five_Year_Plan_category = {
 			}
 			add_to_variable = {
 				SOV_Number_of_Completed_Decisions = 1
+			}
+			subtract_from_variable = {
+				SOV_Decisions_in_Progress = 1
 			}
 		}
 		ai_will_do = {
@@ -2703,6 +2780,10 @@ SOV_Second_Five_Year_Plan_category = {
 				amount_of_money_to_check = 250
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = SOV_Max_2_Decisions_tt
+				check_variable = { SOV_Decisions_in_Progress < 2 }
+			}
 		}
 		days_remove = 155
 		highlight_states = {
@@ -2715,6 +2796,9 @@ SOV_Second_Five_Year_Plan_category = {
 				money_to_gain = -250
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
+			add_to_variable = {
+				SOV_Decisions_in_Progress = 1
+			}
 		}
 		remove_effect = {
 			227 = {
@@ -2736,6 +2820,9 @@ SOV_Second_Five_Year_Plan_category = {
 			}
 			add_to_variable = {
 				SOV_Number_of_Completed_Decisions = 1
+			}
+			subtract_from_variable = {
+				SOV_Decisions_in_Progress = 1
 			}
 		}
 		ai_will_do = {
@@ -2760,6 +2847,10 @@ SOV_Second_Five_Year_Plan_category = {
 				amount_of_money_to_check = 250
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = SOV_Max_2_Decisions_tt
+				check_variable = { SOV_Decisions_in_Progress < 2 }
+			}
 		}
 		days_remove = 155
 		highlight_states = {
@@ -2772,6 +2863,9 @@ SOV_Second_Five_Year_Plan_category = {
 				money_to_gain = -250
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
+			add_to_variable = {
+				SOV_Decisions_in_Progress = 1
+			}
 		}
 		remove_effect = {
 			200 = {
@@ -2793,6 +2887,9 @@ SOV_Second_Five_Year_Plan_category = {
 			}
 			add_to_variable = {
 				SOV_Number_of_Completed_Decisions = 1
+			}
+			subtract_from_variable = {
+				SOV_Decisions_in_Progress = 1
 			}
 		}
 		ai_will_do = {
@@ -2817,6 +2914,10 @@ SOV_Second_Five_Year_Plan_category = {
 				amount_of_money_to_check = 100
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = SOV_Max_2_Decisions_tt
+				check_variable = { SOV_Decisions_in_Progress < 2 }
+			}
 		}
 		days_remove = 155
 		highlight_states = {
@@ -2829,6 +2930,9 @@ SOV_Second_Five_Year_Plan_category = {
 				money_to_gain = -100
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
+			add_to_variable = {
+				SOV_Decisions_in_Progress = 1
+			}
 		}
 		remove_effect = {
 			405 = {
@@ -2840,6 +2944,9 @@ SOV_Second_Five_Year_Plan_category = {
 			}
 			add_to_variable = {
 				SOV_Number_of_Completed_Decisions = 1
+			}
+			subtract_from_variable = {
+				SOV_Decisions_in_Progress = 1
 			}
 		}
 		ai_will_do = {
@@ -2864,6 +2971,10 @@ SOV_Second_Five_Year_Plan_category = {
 				amount_of_money_to_check = 100
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = SOV_Max_2_Decisions_tt
+				check_variable = { SOV_Decisions_in_Progress < 2 }
+			}
 		}
 		days_remove = 155
 		highlight_states = {
@@ -2876,6 +2987,9 @@ SOV_Second_Five_Year_Plan_category = {
 				money_to_gain = -100
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
+			add_to_variable = {
+				SOV_Decisions_in_Progress = 1
+			}
 		}
 		remove_effect = {
 			40 = {
@@ -2887,6 +3001,9 @@ SOV_Second_Five_Year_Plan_category = {
 			}
 			add_to_variable = {
 				SOV_Number_of_Completed_Decisions = 1
+			}
+			subtract_from_variable = {
+				SOV_Decisions_in_Progress = 1
 			}
 		}
 		ai_will_do = {
@@ -2911,6 +3028,10 @@ SOV_Second_Five_Year_Plan_category = {
 				amount_of_money_to_check = 250
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = SOV_Max_2_Decisions_tt
+				check_variable = { SOV_Decisions_in_Progress < 2 }
+			}
 		}
 		days_remove = 155
 		highlight_states = {
@@ -2923,6 +3044,9 @@ SOV_Second_Five_Year_Plan_category = {
 				money_to_gain = -250
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
+			add_to_variable = {
+				SOV_Decisions_in_Progress = 1
+			}
 		}
 		remove_effect = {
 			516 = {
@@ -2939,6 +3063,9 @@ SOV_Second_Five_Year_Plan_category = {
 			}
 			add_to_variable = {
 				SOV_Number_of_Completed_Decisions = 1
+			}
+			subtract_from_variable = {
+				SOV_Decisions_in_Progress = 1
 			}
 		}
 		ai_will_do = {
@@ -2963,6 +3090,10 @@ SOV_Second_Five_Year_Plan_category = {
 				amount_of_money_to_check = 400
 			}
 			has_specific_amount_of_money_with_inflation_included = yes
+			custom_trigger_tooltip = {
+				tooltip = SOV_Max_2_Decisions_tt
+				check_variable = { SOV_Decisions_in_Progress < 2 }
+			}
 		}
 		days_remove = 155
 		highlight_states = {
@@ -2975,6 +3106,9 @@ SOV_Second_Five_Year_Plan_category = {
 				money_to_gain = -400
 			}
 			add_money_with_inflation_included_with_tooltip_effect = yes
+			add_to_variable = {
+				SOV_Decisions_in_Progress = 1
+			}
 		}
 		remove_effect = {
 			582 = {
@@ -3003,6 +3137,9 @@ SOV_Second_Five_Year_Plan_category = {
 			}
 			add_to_variable = {
 				SOV_Number_of_Completed_Decisions = 1
+			}
+			subtract_from_variable = {
+				SOV_Decisions_in_Progress = 1
 			}
 		}
 		ai_will_do = {

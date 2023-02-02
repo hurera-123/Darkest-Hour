@@ -1,6 +1,7 @@
 on_actions = {
 	on_weekly = {
 		effect = {
+			DH_aircraft_production_strategies = yes
 			if = {
 				limit = {
 					NOT = {

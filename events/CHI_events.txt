@@ -1705,29 +1705,13 @@ country_event = {
 	trigger = {
 		original_tag = CHI
 		has_war_with = JAP
-		surrender_progress > 0.1
+		surrender_progress > 0.2
 	}
 	option = { 
 		name = CHI_War_Buffs_Increase.1.A
 		swap_ideas = {
 			remove_idea = CHI_Incompetent_NRA
 			add_idea = CHI_Incompetent_NRA_2
-		}
-		add_equipment_to_stockpile = {
-			type = infantry_equipment
-			amount = 15000
-		}
-		add_equipment_to_stockpile = {
-			type = support_equipment
-			amount = 1000
-		}
-		add_equipment_to_stockpile = {
-			type = motorized_equipment
-			amount = 1000
-		}
-		add_equipment_to_stockpile = {
-			type = artillery_equipment
-			amount = 500
 		}
 	}
 }
@@ -1742,54 +1726,13 @@ country_event = {
 	trigger = {
 		original_tag = CHI
 		has_war_with = JAP
-		surrender_progress > 0.2
+		surrender_progress > 0.3
 	}
 	option = { 
 		name = CHI_War_Buffs_Increase.2.A
 		swap_ideas = {
 			remove_idea = CHI_Incompetent_NRA_2
 			add_idea = CHI_Incompetent_NRA_3
-		}
-		if = {
-			limit = {
-				JAP = {
-					is_ai = no
-				}
-			}
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 15000
-			}
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 1000
-			}
-			add_equipment_to_stockpile = {
-				type = motorized_equipment
-				amount = 1000
-			}
-			add_equipment_to_stockpile = {
-				type = artillery_equipment
-				amount = 500
-			}
-		}
-		else = {
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 15000
-			}
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 700
-			}
-			add_equipment_to_stockpile = {
-				type = motorized_equipment
-				amount = 500
-			}
-			add_equipment_to_stockpile = {
-				type = artillery_equipment
-				amount = 500
-			}
 		}
 	}
 }
@@ -1804,54 +1747,13 @@ country_event = {
 	trigger = {
 		original_tag = CHI
 		has_war_with = JAP
-		surrender_progress > 0.25
+		surrender_progress > 0.5
 	}
 	option = { 
 		name = CHI_War_Buffs_Increase.3.A
 		swap_ideas = {
 			remove_idea = CHI_Incompetent_NRA_3
 			add_idea = CHI_Incompetent_NRA_4
-		}
-		if = {
-			limit = {
-				JAP = {
-					is_ai = no
-				}
-			}
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 15000
-			}
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 1000
-			}
-			add_equipment_to_stockpile = {
-				type = motorized_equipment
-				amount = 1000
-			}
-			add_equipment_to_stockpile = {
-				type = artillery_equipment
-				amount = 500
-			}
-		}
-		else = {
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = 15000
-			}
-			add_equipment_to_stockpile = {
-				type = support_equipment
-				amount = 700
-			}
-			add_equipment_to_stockpile = {
-				type = motorized_equipment
-				amount = 500
-			}
-			add_equipment_to_stockpile = {
-				type = artillery_equipment
-				amount = 500
-			}
 		}
 	}
 }
@@ -1874,22 +1776,6 @@ country_event = {
 			remove_idea = CHI_Incompetent_NRA_4
 			add_idea = CHI_Incompetent_NRA_5
 		}
-		add_equipment_to_stockpile = {
-			type = infantry_equipment
-			amount = 15000
-		}
-		add_equipment_to_stockpile = {
-			type = support_equipment
-			amount = 2000
-		}
-		add_equipment_to_stockpile = {
-			type = motorized_equipment
-			amount = 2000
-		}
-		add_equipment_to_stockpile = {
-			type = artillery_equipment
-			amount = 2000
-		}
 	}
 }
 ### Buffs Increase
@@ -1907,22 +1793,6 @@ country_event = {
 	}
 	option = { 
 		name = CHI_War_Buffs_Increase.5.A
-		add_equipment_to_stockpile = {
-			type = infantry_equipment
-			amount = 15000
-		}
-		add_equipment_to_stockpile = {
-			type = support_equipment
-			amount = 1000
-		}
-		add_equipment_to_stockpile = {
-			type = motorized_equipment
-			amount = 1000
-		}
-		add_equipment_to_stockpile = {
-			type = artillery_equipment
-			amount = 1000
-		}
 	}
 }
 ### Buffs Increase
