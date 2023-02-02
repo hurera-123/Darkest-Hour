@@ -580,7 +580,7 @@ motorized_GER = {
 garrison_GER = {
 
 	available_for = {
-		tag = GER
+		GER
 	}
 	
 	roles = {
