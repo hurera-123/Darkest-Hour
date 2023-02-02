@@ -4802,6 +4802,11 @@ focus_tree = {
 		id = GER_Support_Kuomintang_Government
 		icon = GFX_CHI_Sino_German_Cooperation
 		cost = 10
+		available = {
+			NOT = {
+				has_completed_focus = GER_Goodwill_Gesture_to_Japan
+			}
+		}
 		prerequisite = {
 			focus = GER_Walk_in_the_Backyard
 		}

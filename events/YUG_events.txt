@@ -399,6 +399,13 @@ country_event = {
 					autonomy_state = AUTONOMY_Puppet
 				}
 			}
+			CRO = {
+				drop_cosmetic_tag = yes
+				set_cosmetic_tag = CRO_ITA
+			}
+			SER = {
+				set_cosmetic_tag = SER_ITA
+			}
 		}
 	}
 }

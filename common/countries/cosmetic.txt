@@ -8,6 +8,11 @@ CRO_Ustashe = {
 	color_ui = rgb { 119 85 101 }
 }
 
+CRO_ITA = {
+    color = rgb { 20 97 56 }
+    color_ui = rgb { 20 97 56 }
+}
+
 UAE_TRUCIAL = {
 	color = rgb { 170 10 53 }
 	color_ui = rgb { 200 10 10 }
@@ -136,6 +141,11 @@ MEN_JAP = {
 SER_GER = {
     color = rgb { 110 110 110 }
     color_ui = rgb { 185 170 167 }
+}
+
+SER_ITA = {
+    color = rgb { 20 97 56 }
+    color_ui = rgb { 20 97 56 }
 }
 
 DEN_GER = {

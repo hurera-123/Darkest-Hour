@@ -5583,7 +5583,6 @@ news_event = {
 	title = GER_Kuomintang.2.t
 	desc = GER_Kuomintang.2.d
 	picture = GFX_news_JAP_Operation_Nekka
-	fire_only_once = no
 	is_triggered_only = yes
 	###
 	option = {
