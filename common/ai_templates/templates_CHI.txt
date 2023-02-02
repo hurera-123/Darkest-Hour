@@ -89,13 +89,15 @@ infantry_CHI = {
 			}
 			
 			regiments = {
-				infantry = 9
+				infantry = 8
+				light_infantry = 2
 				artillery_battalion = 2
 			}
 		}
 		
 		allowed_types = {
 			infantry
+			light_infantry
 			artillery_battalion
 			
 			engineer

@@ -169,7 +169,7 @@ country_event = {
 	}
 }
 #########################################################################
-# Our Capitulation
+# Our Capitulation (Historical)
 #########################################################################
 country_event = {
 	id = YUG_Capitulation.1
@@ -277,7 +277,7 @@ country_event = {
 		hidden_effect = {
 			GER = {
 				news_event = {
-					id = YUG_Capitulation.2
+					id = YUG_Capitulation.3
 				}
 				set_autonomy = {
 					target = CRO
@@ -303,18 +303,133 @@ country_event = {
 	}
 }
 #########################################################################
-# The Capitulation of Yugoslavia
+# Our Capitulation (Alt-History Italy alone conquers Yugoslavia)
 #########################################################################
-news_event = {
+country_event = {
 	id = YUG_Capitulation.2
 	title = YUG_Capitulation.2.t
 	desc = YUG_Capitulation.2.d
+	picture = GFX_report_GER_Luftwaffe_Parade
+	fire_only_once = yes
+	trigger = {
+		original_tag = YUG
+		has_war_with = ITA
+		NOT = {
+			has_war_with = GER
+		}
+		ITA = {
+			NOT = {
+				is_in_faction_with = GER
+			}
+		}
+		surrender_progress > 0.8
+	}
+	# 
+	option = {
+		name = YUG_Capitulation.2.A
+		ITA = {
+			transfer_state = 1085
+			transfer_state = 103
+			transfer_state = 1091
+			transfer_state = 105
+			transfer_state = 1404
+			transfer_state = 765
+			transfer_state = 102
+			transfer_state = 770
+		}
+		CRO = {
+			transfer_state = 109
+			transfer_state = 1084
+			transfer_state = 1086
+			transfer_state = 1635
+			transfer_state = 1570
+			transfer_state = 104
+			transfer_state = 1452
+			transfer_state = 819
+			transfer_state = 1087
+			transfer_state = 1384
+			add_ideas = CRO_Tomislav_II_HoG
+		}
+		if = {
+			limit = {
+				HUN = {
+					is_in_faction_with = ITA
+				}
+			}
+			HUN = {
+				transfer_state = 45
+				transfer_state = 978
+				transfer_state = 770
+				transfer_state = 1384
+			}
+		}
+		if = {
+			limit = {
+				BUL = {
+					is_in_faction_with = ITA
+				}
+			}
+			BUL = {
+				transfer_state = 1093
+				transfer_state = 1094
+				transfer_state = 106
+				transfer_state = 958
+				transfer_state = 1446
+				transfer_state = 890
+			}
+		}
+		SER = {
+			annex_country = {
+				target = YUG
+				transfer_troops = no
+			}
+			add_ideas = SER_Tomislav_II_HoG
+		}
+		hidden_effect = {
+			ITA = {
+				news_event = {
+					id = YUG_Capitulation.4
+				}
+				set_autonomy = {
+					target = CRO
+					autonomy_state = AUTONOMY_Puppet
+				}
+				set_autonomy = {
+					target = SER
+					autonomy_state = AUTONOMY_Puppet
+				}
+			}
+		}
+	}
+}
+#########################################################################
+# The Capitulation of Yugoslavia (Historical)
+#########################################################################
+news_event = {
+	id = YUG_Capitulation.3
+	title = YUG_Capitulation.3.t
+	desc = YUG_Capitulation.3.d
 	picture = GFX_news_YUG_Yugoslav_Capitulation
 	is_triggered_only = yes
 	major = yes
 	# 
 	option = {
-		name = YUG_Capitulation.2.A
+		name = YUG_Capitulation.3.A
+	}
+}
+#########################################################################
+# The Capitulation of Yugoslavia (Alt-History Italy alone conquers Yugoslavia)
+#########################################################################
+news_event = {
+	id = YUG_Capitulation.4
+	title = YUG_Capitulation.4.t
+	desc = YUG_Capitulation.4.d
+	picture = GFX_news_YUG_Yugoslav_Capitulation_Italy
+	is_triggered_only = yes
+	major = yes
+	# 
+	option = {
+		name = YUG_Capitulation.4.A
 	}
 }
 #########################################################################

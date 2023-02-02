@@ -1184,9 +1184,16 @@ defined_text = {
 	### CRO - Croatia
 	text = {
 		trigger = {
-			has_idea = CRO_D_Tomislav_II
+			has_idea = CRO_Tomislav_II_HoG
 		}
-		localization_key = CRO_D_Tomislav_II
+		localization_key = CRO_Tomislav_II
+	}
+	### SER - Serbia
+	text = {
+		trigger = {
+			has_idea = SER_Tomislav_II_HoG
+		}
+		localization_key = SER_Tomislav_II
 	}
 	### NEP - Nepal
 	text = {
@@ -2346,7 +2353,14 @@ defined_text = {
 	#### CRO - Croatia
 	text = {
 		trigger = {
-			has_idea = CRO_D_Tomislav_II
+			has_idea = CRO_Tomislav_II_HoG
+		}
+		localization_key = GFX_P_F_Tomislav_II
+	}
+	#### SER - Serbia
+	text = {
+		trigger = {
+			has_idea = SER_Tomislav_II_HoG
 		}
 		localization_key = GFX_P_F_Tomislav_II
 	}
@@ -2544,7 +2558,10 @@ defined_text = {
 				AND = {
 					original_tag = SER
 					has_government = fascist
-				}	
+					NOT = {
+						is_puppet_of = ITA
+					}
+				}
 			}
 			has_government = fascist
 		}

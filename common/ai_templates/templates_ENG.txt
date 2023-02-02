@@ -34,13 +34,12 @@ armor_ENG = {
 		}
 		
 		target_width = 30.0
-		width_weight = 2
+		width_weight = 3.0
 		column_swap_factor = 0.4
 		
 		can_upgrade_in_field = {
 			has_equipment = { APC_equipment > 500 }
 			has_tech = APC_1941
-			has_self_propelled_anti_air_tech = yes
 		}
 		
 		stat_weights = {
@@ -96,23 +95,13 @@ armor_ENG = {
 		allowed_types = {
 			medium_armor
 			motorized
-			mechanized
-
-			motorized_rocket_artillery_battalion 
 			
 			engineer
-			recon
 			mot_recon
 			signal_company
 			maintenance_company
 			logistics_company
 			anti_air_battery
-
-			anti_tank_company
-			military_police
-			artillery_battery
-			anti_air_battery
-			rocket_artillery_battery
 		}
 		
 		replace_at_match = 0.8
@@ -128,7 +117,6 @@ armor_ENG = {
 
 			modifier = {
 				factor = 7
-				has_self_propelled_anti_air_tech = yes
 			}
 		}
 		
@@ -137,12 +125,11 @@ armor_ENG = {
 
 			modifier = {
 				factor = 7
-				has_self_propelled_anti_air_tech = yes
 			}
 		}
 		
 		target_width = 30.0
-		width_weight = 2
+		width_weight = 3.0
 		column_swap_factor = 0.1
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
@@ -189,32 +176,25 @@ armor_ENG = {
 				signal_company = 1
 				maintenance_company = 1
 				logistics_company = 1
+				anti_air_battalion = 1
 			}
 			
 			regiments = {
 				medium_armor = 8
-				medium_sp_anti_air_battalion = 1
 				mechanized = 6
 			}
 		}
 
 		allowed_types = {
 			medium_armor
-			motorized
 			mechanized
-
-			motorized_rocket_artillery_battalion 
-			medium_sp_anti_air_battalion
-
+			
 			engineer
 			mot_recon
 			signal_company
 			maintenance_company
 			logistics_company
-
-			anti_tank_company
-			military_police
-			rocket_artillery_battery
+			anti_air_battery
 		}
 	}
 }
@@ -252,7 +232,7 @@ heavy_armor_ENG = {
 		}
 		
 		target_width = 30.0
-		width_weight = 2
+		width_weight = 3.0
 		column_swap_factor = 0.4
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
@@ -404,7 +384,7 @@ motorized_ENG = {
 			}
 
 			regiments = {
-				motorized = 11
+				motorized = 9
 				motorized_artillery_battalion = 2
 				motorized_anti_tank_battalion = 1
 				motorized_anti_air_battalion = 1
@@ -472,7 +452,7 @@ motorized_ENG = {
 			}
 
 			regiments = {
-				mechanized = 11
+				mechanized = 9
 				motorized_artillery_battalion = 2
 				motorized_anti_air_battalion = 1
 				motorized_anti_tank_battalion = 1
@@ -573,7 +553,7 @@ infantry_ENG = {
 			}
 			
 			regiments = {
-				infantry = 11
+				infantry = 9
 				artillery_battalion = 2
 				anti_tank_battalion = 2
 			}
@@ -679,14 +659,14 @@ mountaineers_ENG = {
 			}
 			
 			regiments = {
-				mountaineers = 8
-				artillery_battalion_light = 2
+				mountaineers = 7
+				artillery_battalion = 2
 			}
 		}
 		
 		allowed_types = {
 			mountaineers
-			artillery_battalion_light
+			artillery_battalion
 			recon
 			signal_company
 			field_hospital
@@ -775,18 +755,19 @@ marines_ENG = {
 			}
 			
 			regiments = {
-				marine = 9
-				artillery_battalion_light = 2
+				marine = 7
+				artillery_battalion = 2
 			}
 		}
 
 		
 		allowed_types = {
 			marine
+			artillery_battalion
+			
+			recon
 			engineer
-			anti_tank_company
 			logistics_company
-			artillery_battalion_light
 		}
 	}
 }

@@ -119,8 +119,8 @@ armor_FRA = {
 			}
 
 			regiments = {
-				medium_armor = 6
-				motorized = 5
+				medium_armor = 5
+				motorized = 4
 				motorized_anti_tank_battalion = 2
 				motorized_artillery_battalion = 2
 			}
@@ -209,10 +209,10 @@ heavy_armor_FRA = {
 			}
 
 			regiments = {
-				heavy_armor = 6
+				heavy_armor = 5
 				medium_armor = 2
 				motorized = 5
-				motorized_anti_tank_battalion = 1
+				motorized_artillery_battalion = 2
 			}
 		}
 
@@ -220,7 +220,7 @@ heavy_armor_FRA = {
 			heavy_armor
 			medium_armor
 			motorized
-			motorized_anti_tank_battalion
+			motorized_artillery_battalion
 			
 			engineer
 			mot_recon
@@ -278,9 +278,9 @@ heavy_armor_FRA = {
 			}
 
 			regiments = {
-				heavy_armor = 6
-				medium_sp_artillery_battalion = 3
-				motorized = 5
+				heavy_armor = 5
+				medium_sp_artillery_battalion = 4
+				motorized = 4
 			}
 		}
 
@@ -370,7 +370,7 @@ motorized_FRA = {
 			}
 
 			regiments = {
-				motorized = 11
+				motorized = 9
 				motorized_artillery_battalion = 3
 				motorized_anti_tank_battalion = 1
 			}
@@ -435,7 +435,7 @@ motorized_FRA = {
 			}
 
 			regiments = {
-				mechanized = 11
+				mechanized = 9
 				armored_car_battalion = 2
 				motorized_artillery_battalion = 2
 			}
@@ -479,7 +479,7 @@ infantry_FRA = {
 		}
 
 		target_width = 30.0
-		width_weight = 2
+		width_weight = 3.0
 		column_swap_factor = 0.5
 
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
@@ -530,7 +530,7 @@ infantry_FRA = {
 			}
 
 			regiments = {
-				infantry = 10
+				infantry = 9
 				artillery_battalion = 3
 				anti_tank_battalion = 1
 			}
@@ -574,7 +574,7 @@ mountaineers_FRA = {
 		}
 
 		target_width = 20
-		width_weight = 3
+		width_weight = 3.0
 		column_swap_factor = 0.2
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/

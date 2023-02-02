@@ -80,7 +80,7 @@ armored_GER = {
 			
 			regiments = {
 				light_armor = 8
-				motorized = 5
+				motorized = 4
 				motorized_artillery_battalion = 2
 			}
 		}
@@ -155,7 +155,7 @@ armored_GER = {
 			
 			regiments = {
 				medium_armor = 6
-				motorized = 6
+				motorized = 5
 				medium_sp_artillery_battalion = 2
 				medium_tank_destroyer_battalion = 1
 			}
@@ -264,7 +264,7 @@ armored_GER = {
 			regiments = {
 				medium_armor = 8
 				medium_sp_artillery_battalion = 2
-				mechanized = 5
+				mechanized = 4
 			}
 		}
 
@@ -488,7 +488,7 @@ motorized_GER = {
 			}
 
 			regiments = {
-				motorized = 10
+				motorized = 9
 				motorized_anti_tank_battalion = 1
 				motorized_artillery_battalion = 3
 			}
@@ -555,7 +555,7 @@ motorized_GER = {
 			}
 
 			regiments = {
-				mechanized = 10
+				mechanized = 9
 				motorized_anti_tank_battalion = 1
 				motorized_artillery_battalion = 3
 			}
@@ -625,7 +625,7 @@ garrison_GER = {
 		}
 		
 		target_width = 20.0
-		width_weight = 100.0
+		width_weight = 3.0
 		column_swap_factor = 0.5
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
@@ -671,9 +671,9 @@ garrison_GER = {
 			}
 			
 			regiments = {
-				garrison = 6
+				garrison = 7
 				artillery_battalion = 1
-				anti_tank_battalion = 2
+				anti_tank_battalion = 1
 			}
 		}
 		
@@ -765,7 +765,7 @@ infantry_GER = {
 			}
 			
 			regiments = {
-				infantry = 12
+				infantry = 9
 				artillery_battalion = 4
 			}
 		}
@@ -814,8 +814,8 @@ mountaineers_GER = {
 			}
 		}
 		
-		target_width = 22.0
-		width_weight = 2
+		target_width = 20.0
+		width_weight = 3.0
 		column_swap_factor = 0.1
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
@@ -858,25 +858,24 @@ mountaineers_GER = {
 			support = {
 				engineer = 1
 				artillery_battery = 1
-				anti_tank_company = 1
 				logistics_company = 1
 				recon = 1
 			}
 			
 			regiments = {
-				mountaineers = 8
+				mountaineers = 7
 				artillery_battalion = 2
 			}
 		}
 		
 		allowed_types = {
 			mountaineers
+			artillery_battalion
+			
+			engineer
 			artillery_battery
-			recon
-			signal_company
-			field_hospital
 			logistics_company
-			anti_tank_company
+			recon
 		}
 	}
 }
@@ -915,7 +914,7 @@ marines_GER = {
 		}
 		
 		target_width = 20.0
-		width_weight = 2
+		width_weight = 3.0
 		column_swap_factor = 0.1
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
@@ -1015,7 +1014,7 @@ paratroopers_GER = {
 		}
 		
 		target_width = 20.0
-		width_weight = 2
+		width_weight = 3.0
 		column_swap_factor = 0.1
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/

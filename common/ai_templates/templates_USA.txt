@@ -72,7 +72,7 @@ light_armor_USA= {
 			regiments = {
 				light_armor = 6
 				motorized_anti_air_battalion = 2
-				motorized = 5
+				motorized = 6
 			}
 		}
 		
@@ -144,10 +144,10 @@ light_armor_USA= {
 			}
 
 			regiments = {
-				light_armor = 6
+				light_armor = 5
 				motorized_anti_air_battalion = 2
 				medium_sp_artillery_battalion = 2
-				motorized = 5
+				motorized = 4
 			}
 		}
 
@@ -217,10 +217,10 @@ light_armor_USA= {
 			}
 
 			regiments = {
-				light_armor = 6
-				medium_sp_anti_air_battalion = 1
+				light_armor = 5
+				medium_sp_anti_air_battalion = 2
 				medium_sp_artillery_battalion = 2
-				mechanized = 5
+				mechanized = 4
 			}
 		}
 
@@ -356,7 +356,7 @@ armored_USA= {
 			}
 			
 			regiments = {
-				medium_armor = 8
+				medium_armor = 7
 				medium_sp_artillery_battalion = 1
 				medium_tank_destroyer_battalion = 1
 				motorized = 5
@@ -429,7 +429,7 @@ armored_USA= {
 			}
 
 			regiments = {
-				medium_armor = 8
+				medium_armor = 7
 				medium_sp_artillery_battalion = 1
 				medium_tank_destroyer_battalion = 1
 				mechanized = 5
@@ -536,7 +536,7 @@ heavy_armor_USA = {
 			}
 
 			regiments = {
-				heavy_armor = 8
+				heavy_armor = 7
 				medium_sp_artillery_battalion = 1
 				medium_tank_destroyer_battalion = 1
 				motorized = 5
@@ -609,7 +609,7 @@ heavy_armor_USA = {
 			}
 
 			regiments = {
-				heavy_armor = 8
+				heavy_armor = 7
 				medium_sp_artillery_battalion = 1
 				medium_sp_anti_air_battalion = 1
 				mechanized = 5
@@ -708,7 +708,7 @@ motorized_USA = {
 			}
 
 			regiments = {
-				motorized = 10
+				motorized = 9
 				motorized_artillery_battalion = 3
 				motorized_anti_air_battalion = 1
 			}
@@ -783,7 +783,7 @@ motorized_USA = {
 			}
 
 			regiments = {
-				mechanized = 10
+				mechanized = 9
 				motorized_artillery_battalion = 4
 				motorized_anti_air_battalion = 2
 			}
@@ -853,7 +853,7 @@ motorized_USA = {
 
 			regiments = {
 				mechanized = 12
-				medium_sp_artillery_battalion = 3
+				medium_sp_artillery_battalion = 2
 			}
 		}
 
@@ -868,115 +868,6 @@ motorized_USA = {
 			logistics_company
 			field_hospital
 			anti_air_battery
-		}
-	}
-}
-
-
-garrison_USA = {
-
-	available_for = {
-		USA
-	}
-	
-	roles = {
-		garrison
-	}
-	
-	upgrade_prio = {
-		factor = 20
-
-		modifier = {
-			factor = 0
-			ai_has_role_template = garrison
-		}
-	}
-	
-	match_to_count = 0.65
-
-
-	garrison_USA = {
-	
-		reinforce_prio = 0
-		custom_icon = 7
-	
-		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 1
-			}
-		}
-		
-		reinforce_prio = 0
-		custom_icon = 7
-		
-		target_width = 10.0
-		width_weight = 100.0
-		column_swap_factor = 0.4
-		
-		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
-		can_upgrade_in_field = { always = no }
-		
-		stat_weights = {
-			0.00 #-- default_morale
-			0.00 #-- defense
-			0.00 #-- breakthrough
-			0.00 #-- hardness
-			4.00 #-- soft_attack
-			0.00 #-- hard_attack
-			0.00 #-- recon
-			3.00 #-- entrenchment
-			0.00 #-- initiative
-			0.00 #-- casualty_trickleback
-			0.00 #-- supply_consumption_factor
-			0.00 #-- supply_consumption
-			0.00 #-- suppression
-			0.00 #-- suppression_factor
-			0.00 #-- experience_loss_factor
-			#-- Air Values
-			0.00 #-- air_attack
-			#-- Common Values
-			0.60 #-- max_organisation
-			0.40 #-- max_strength
-			0.00 #-- build_cost_ic
-			0.00 #-- maximum_speed
-			0.00 #-- armor_value
-			0.20 #-- ap_attack
-			0.00 #-- reliability
-			0.00 #-- reliability_factor
-			0.00 #-- weight
-		}
-		
-		target_template = {
-			weight = 0.9
-			match_value = 3000.0
-			
-			support = {
-				engineer = 1
-				recon = 1
-				signal_company = 1
-				logistics_company = 1
-        		field_hospital = 1
-			}
-			
-			regiments = {
-				infantry = 11
-				artillery_battalion = 2
-				anti_tank_battalion = 2
-			}
-		}
-		
-		allowed_types = {
-			infantry
-			artillery_battalion
-			anti_tank_battalion
-			
-			engineer
-			recon
-			signal_company
-			logistics_company
-			field_hospital
 		}
 	}
 }
@@ -1055,9 +946,9 @@ infantry_USA = {
 			}
 			
 			regiments = {
-				infantry = 10
-				artillery_battalion = 4
-				anti_tank_battalion = 2
+				infantry = 9
+				artillery_battalion = 3
+				anti_tank_battalion = 1
 			}
 		}
 		
@@ -1072,6 +963,114 @@ infantry_USA = {
 			anti_tank_company
 			artillery_battery
 			military_police
+		}
+	}
+}
+
+garrison_USA = {
+
+	available_for = {
+		USA
+	}
+	
+	roles = {
+		garrison
+	}
+	
+	upgrade_prio = {
+		factor = 20
+
+		modifier = {
+			factor = 0
+			ai_has_role_template = garrison
+		}
+	}
+	
+	match_to_count = 0.65
+
+
+	garrison_USA = {
+	
+		reinforce_prio = 0
+		custom_icon = 7
+	
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		reinforce_prio = 0
+		custom_icon = 7
+		
+		target_width = 30.0
+		width_weight = 100.0
+		column_swap_factor = 0.4
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			0.00 #-- breakthrough
+			0.00 #-- hardness
+			4.00 #-- soft_attack
+			0.00 #-- hard_attack
+			0.00 #-- recon
+			3.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.60 #-- max_organisation
+			0.40 #-- max_strength
+			0.00 #-- build_cost_ic
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.20 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+		}
+		
+		target_template = {
+			weight = 0.9
+			match_value = 3000.0
+			
+			support = {
+				engineer = 1
+				recon = 1
+				signal_company = 1
+				logistics_company = 1
+        		field_hospital = 1
+			}
+			
+			regiments = {
+				garrison = 9
+				artillery_battalion = 2
+				anti_tank_battalion = 2
+			}
+		}
+		
+		allowed_types = {
+			garrison
+			artillery_battalion
+			anti_tank_battalion
+			
+			engineer
+			recon
+			signal_company
+			logistics_company
+			field_hospital
 		}
 	}
 }
@@ -1158,7 +1157,7 @@ mountaineers_USA = {
 			}
 			
 			regiments = {
-				mountaineers = 8
+				mountaineers = 7
 				artillery_battalion = 2
 			}
 		}
@@ -1301,7 +1300,7 @@ paratroopers_USA = {
 			}
 		}
 		
-		target_width = 10.0
+		target_width = 20.0
 		width_weight = 3.0
 		column_swap_factor = 0.1
 		
@@ -1349,7 +1348,7 @@ paratroopers_USA = {
 			}
 			
 			regiments = {
-				paratrooper = 11				
+				paratrooper = 10				
 			}
 		}
 		
