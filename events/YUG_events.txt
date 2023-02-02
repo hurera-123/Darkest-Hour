@@ -219,6 +219,7 @@ country_event = {
 				HUN = {
 					is_in_faction_with = GER
 				}
+				country_exists = HUN
 			}
 			HUN = {
 				transfer_state = 45
@@ -244,6 +245,7 @@ country_event = {
 				BUL = {
 					is_in_faction_with = GER
 				}
+				country_exists = BUL
 			}
 			BUL = {
 				transfer_state = 1093
@@ -355,6 +357,7 @@ country_event = {
 				HUN = {
 					is_in_faction_with = ITA
 				}
+				country_exists = HUN
 			}
 			HUN = {
 				transfer_state = 45
@@ -368,6 +371,7 @@ country_event = {
 				BUL = {
 					is_in_faction_with = ITA
 				}
+				country_exists = BUL
 			}
 			BUL = {
 				transfer_state = 1093
@@ -376,6 +380,17 @@ country_event = {
 				transfer_state = 958
 				transfer_state = 1446
 				transfer_state = 890
+			}
+		}
+		if = {
+			limit = {
+				AUS = {
+					is_in_faction_with = ITA
+				}
+				country_exists = AUS
+			}
+			AUS = {
+				transfer_state = 102
 			}
 		}
 		SER = {
