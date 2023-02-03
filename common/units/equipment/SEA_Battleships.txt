@@ -373,7 +373,7 @@ equipments = {
 		priority = 1500
 		#Misc Stats
 		build_cost_ic = 7500
-		manpower = 1100
+		manpower = 1200
 		# port_capacity_usage = 2
 		naval_range = 7000
 
@@ -481,7 +481,7 @@ equipments = {
 		priority = 1500
 		#Misc Stats
 		build_cost_ic = 8200
-		manpower = 1300
+		manpower = 1400
 		# port_capacity_usage = 2
 		naval_range = 8000
 
@@ -589,7 +589,7 @@ equipments = {
 		priority = 1500
 		#Misc Stats
 		build_cost_ic = 8600
-		manpower = 1500
+		manpower = 1700
 		# port_capacity_usage = 2
 		naval_range = 9000
 
@@ -697,7 +697,7 @@ equipments = {
 		priority = 1500
 		#Misc Stats
 		build_cost_ic = 9200
-		manpower = 1300
+		manpower = 1800
 		# port_capacity_usage = 2
 		naval_range = 10000
 		
@@ -806,7 +806,7 @@ equipments = {
 		priority = 1500
 		#Misc Stats
 		build_cost_ic = 9600
-		manpower = 1800
+		manpower = 1900
 		# port_capacity_usage = 2
 		naval_range = 11000
 		
@@ -859,7 +859,7 @@ equipments = {
 		priority = 1500
 		#Misc Stats
 		build_cost_ic = 11000
-		manpower = 2000
+		manpower = 2600
 		# port_capacity_usage = 2
 		naval_range = 12000
 		
@@ -911,7 +911,7 @@ equipments = {
 		priority = 1500
 		#Misc Stats
 		build_cost_ic = 12500
-		manpower = 2200
+		manpower = 2800
 		# port_capacity_usage = 2
 		naval_range = 12500
 
@@ -962,7 +962,7 @@ equipments = {
 		priority = 1400
 		#Misc Stats
 		build_cost_ic = 11000
-		manpower = 2800
+		manpower = 3000
 		# port_capacity_usage = 2
 		naval_range = 12000
 

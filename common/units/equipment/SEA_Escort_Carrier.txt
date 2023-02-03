@@ -126,7 +126,7 @@ equipments = {
 		resources = {
 		  steel = 1
 		}
-		manpower = 1200
+		manpower = 400
 	}
 ################################
 # 1916 CVE
@@ -157,7 +157,7 @@ equipments = {
 		resources = {
 			steel = 1
 		}
-		manpower = 1200
+		manpower = 800
 	}
 ################################
 # 1922 CVE
@@ -182,7 +182,7 @@ equipments = {
 		surface_visibility = 13
 		naval_range = 9000
 		naval_speed = 16
-		manpower = 1200
+		manpower = 1000
 		# port_capacity_usage = 0.7
 		resources = {
 			steel = 1
@@ -199,7 +199,7 @@ equipments = {
 		priority = 1200
 
 		build_cost_ic = 12000
-		manpower = 2800
+		manpower = 1200
 
 		naval_range = 16000
 
@@ -245,7 +245,7 @@ equipments = {
 		priority = 1200
 		
 		build_cost_ic = 14000
-		manpower = 2800
+		manpower = 1400
 
 		naval_range = 16000
 

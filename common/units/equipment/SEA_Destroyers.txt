@@ -116,7 +116,7 @@ equipments = {
 		priority = 2000
 		#Misc Stats
 		build_cost_ic = 460
-		manpower = 200
+		manpower = 90
 		# port_capacity_usage = 1
 		naval_range = 1500
 
@@ -165,7 +165,7 @@ equipments = {
 		parent = DD_equipment_1885
 		#Misc Stats
 		build_cost_ic = 520
-		manpower = 375
+		manpower = 90
 		# port_capacity_usage = 1
 		naval_range = 2000
 
@@ -214,7 +214,7 @@ equipments = {
 		parent = DD_equipment_1900
 		#Misc Stats
 		build_cost_ic = 600
-		manpower = 500
+		manpower = 140
 		# port_capacity_usage = 1.2
 		naval_range = 2500
 
@@ -263,7 +263,7 @@ equipments = {
 		parent = DD_equipment_1912
 		#Misc Stats
 		build_cost_ic = 680
-		manpower = 500
+		manpower = 140
 		# port_capacity_usage = 2
 		naval_range = 5000
 
@@ -312,7 +312,7 @@ equipments = {
 		parent = DD_equipment_1916
 		#Misc Stats
 		build_cost_ic = 740
-		manpower = 650
+		manpower = 140
 		# port_capacity_usage = 2
 		naval_range = 7500
 
@@ -361,7 +361,7 @@ equipments = {
 		parent = DD_equipment_1922
 		#Misc Stats
 		build_cost_ic = 880
-		manpower = 800
+		manpower = 240
 		# port_capacity_usage = 2
 		naval_range = 7500
 
@@ -414,7 +414,7 @@ equipments = {
 		parent = DD_equipment_1933
 		#Misc Stats
 		build_cost_ic = 1100
-		manpower = 1250
+		manpower = 260
 		# port_capacity_usage = 2
 		naval_range = 8000
 
@@ -467,7 +467,7 @@ equipments = {
 		parent = DD_equipment_1936
 		#Misc Stats
 		build_cost_ic = 1100
-		manpower = 1500
+		manpower = 320
 		# port_capacity_usage = 2
 		naval_range = 8000
 
@@ -520,7 +520,7 @@ equipments = {
 		parent = DD_equipment_1940
 		#Misc Stats
 		build_cost_ic = 1100
-		manpower = 1600
+		manpower = 360
 		# port_capacity_usage = 2
 		naval_range = 9000
 
@@ -574,7 +574,7 @@ equipments = {
 		parent = DD_equipment_1945
 		#Misc Stats
 		build_cost_ic = 1435
-		manpower = 2000
+		manpower = 400
 		# port_capacity_usage = 2.5
 		naval_range = 10000
 		naval_speed = 38
@@ -600,85 +600,5 @@ equipments = {
 		resources = { steel = 4 chromium = 1 }
 		type = { screen_ship anti_air }
 		#
-	}
-	################################
-	# 1955 DDG
-	################################
-	DDG_equipment_1955 = {
-		year = 1955
-		archetype = DD_equipment
-		priority = 2000
-		parent = DD_equipment_1950
-		type = { screen_ship anti_air }
-	}
-	################################
-	# 1960 DDG
-	################################
-	DDG_equipment_1960 = {
-		year = 1960
-		archetype = DD_equipment
-		priority = 2000
-		parent = DDG_equipment_1955
-		type = { screen_ship anti_air }
-	}
-	################################
-	# 1970 DDG
-	################################
-	DDG_equipment_1970 = {
-		year = 1970
-		archetype = DD_equipment
-		priority = 2000
-		parent = DDG_equipment_1960
-		type = { screen_ship anti_air }
-	}
-	################################
-	# 1980 DDG
-	################################
-	DDG_equipment_1980 = {
-		year = 1980
-		archetype = DD_equipment
-		priority = 2000
-		parent = DDG_equipment_1970
-		type = { screen_ship anti_air }
-	}
-	################################
-	# 1990 DDG
-	################################
-	DDG_equipment_1990 = {
-		year = 1990
-		archetype = DD_equipment
-		priority = 2000
-		parent = DDG_equipment_1980
-		type = { screen_ship anti_air }
-	}
-	################################
-	# 1970 FFG
-	################################
-	FFG_equipment_1970 = {
-		year = 1970
-		archetype = DD_equipment
-		priority = 2000
-		parent = DDG_equipment_1960
-		type = { screen_ship anti_air }
-	}
-	################################
-	# 1980 FFG
-	################################
-	FFG_equipment_1980 = {
-		year = 1980
-		archetype = DD_equipment
-		priority = 2000
-		parent = FFG_equipment_1970
-		type = { screen_ship anti_air }
-	}
-	################################
-	# 1990 FFG
-	################################
-	FFG_equipment_1990 = {
-		year = 1990
-		archetype = DD_equipment
-		priority = 2000
-		parent = FFG_equipment_1980
-		type = { screen_ship anti_air }
 	}
 }

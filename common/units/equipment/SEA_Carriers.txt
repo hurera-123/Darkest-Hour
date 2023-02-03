@@ -358,7 +358,7 @@ equipments = {
 
 		#Misc Stats
 		build_cost_ic = 12500
-		manpower = 1800
+		manpower = 2100
 		# port_capacity_usage = 2
 		naval_range = 14000
 
@@ -603,74 +603,5 @@ equipments = {
 		#Resources
 		resources = { steel = 5 chromium = 1 }
 		#
-	}
-	################################
-	#1970 Nuclear Carrier (CVN)
-	################################
-	CV_equipment_1970 = {
-		archetype = CV_equipment
-		parent = CV_equipment_1960
-		priority = 1000
-	}
-	################################
-	#1980 Nuclear Carrier (CV)
-	################################
-	CV_equipment_1980 = {
-		archetype = CV_equipment
-		parent = CV_equipment_1970
-		priority = 1000
-	}
-	################################
-	#1960 Nuclear Carrier (CVN)
-	################################
-	CVN_equipment_1960 = {
-		archetype = CV_equipment
-		parent = CV_equipment_1960
-		priority = 900
-
-		#Misc Stats
-		build_cost_ic = 33150
-		manpower = 5000
-		# port_capacity_usage = 2
-		naval_range = 40000
-		naval_speed = 34
-		#Detection Stats
-		surface_detection = 60
-		sub_detection = 15
-		surface_visibility = 35
-		sub_visibility = 0
-		#Defensive Stats
-		max_strength = 280
-		# evasion = 75
-		reliability = 0.90
-		#Offensive Stats
-		# fire_range = 17
-		# attack = 22
-		torpedo_attack = 0
-		anti_air_attack = 80
-		sub_attack = 20
-		## shore_bombardment = 8
-		armor_value = 12
-		ap_attack = 3
-		carrier_size = 10
-		#Resources
-		resources = { steel = 7 chromium = 2 }
-		#
-	}
-	################################
-	#1970 Nuclear Carrier (CVN)
-	################################
-	CVN_equipment_1970 = {
-		archetype = CV_equipment
-		parent = CVN_equipment_1960
-		priority = 900
-	}
-	################################
-	#1980 Nuclear Carrier (CVN)
-	################################
-	CVN_equipment_1980 = {
-		archetype = CV_equipment
-		parent = CVN_equipment_1970
-		priority = 900
 	}
 }

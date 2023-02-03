@@ -340,13 +340,13 @@
  ENG_CVN_equipment_1960: "Victorious-class"
  
 
- ENG_CVE_equipment_1933: "Hermes-class"
+ ENG_CVE_equipment_1933: "Archer-class"
  ENG_CVE_equipment_1940: "Avenger-class"
  ENG_CVE_equipment_1945: "Ruler-class"
 
  ENG_CVL_equipment_1940: "Colossus-class"
- ENG_CVL_equipment_1945: "Glory-class"
- ENG_CVL_equipment_1950: "Warrior-class"
+ ENG_CVL_equipment_1945: "Centaur-class"
+ ENG_CVL_equipment_1950: "Hermes-class"
  
 ######################################################################
  ### FRA - FRANCE 
@@ -555,7 +555,7 @@
  ITA_SHSS_equipment_1945: "Ammiraglio Cagni B-class"
  
  ITA_DD_equipment_1885: "Lampo-class"
- ITA_DD_equipment_1900: "Soldati Artigliere-class"
+ ITA_DD_equipment_1900: "Soldato-class"
  ITA_DD_equipment_1912: "Indomito-class"
  ITA_DD_equipment_1916: "La Masa-class"
  ITA_DD_equipment_1922: "Navigatori-class"
@@ -748,7 +748,7 @@
  
  SOV_DD_equipment_1885: "Pruitki-class"
  SOV_DD_equipment_1900: "Finn-class"
- SOV_DD_equipment_1912: "Ussuriets-class"
+ SOV_DD_equipment_1912: "Vsadnik-class"
  SOV_DD_equipment_1916: "Orfey-class"
  SOV_DD_equipment_1922: "O-class"
  SOV_DD_equipment_1933: "Leningrad-class"

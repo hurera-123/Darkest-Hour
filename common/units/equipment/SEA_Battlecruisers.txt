@@ -129,7 +129,7 @@ equipments = {
 		priority = 1600
 		#Misc Stats
 		build_cost_ic = 8800
-		manpower = 800
+		manpower = 850
 		# port_capacity_usage = 1.5
 		naval_range = 4000
 
@@ -182,7 +182,7 @@ equipments = {
 		priority = 1600
 		#Misc Stats
 		build_cost_ic = 9500
-		manpower = 1200
+		manpower = 1300
 		# port_capacity_usage = 1.5
 		naval_range = 5000
 
@@ -232,7 +232,7 @@ equipments = {
 		year = 1916
 		archetype = BC_equipment
 		parent = BC_equipment_1912
-		priority = 1600
+		priority = 1500
 		#Misc Stats
 		build_cost_ic = 11000
 		manpower = 1200
@@ -288,7 +288,7 @@ equipments = {
 		priority = 1600
 		#Misc Stats
 		build_cost_ic = 13000
-		manpower = 1400
+		manpower = 1700
 		# port_capacity_usage = 1.5
 		naval_range = 8000
 
@@ -338,7 +338,7 @@ equipments = {
 		year = 1940
 		archetype = BC_equipment
 		parent = BC_equipment_1933
-		priority = 1600
+		priority = 1800
 		#Misc Stats
 		build_cost_ic = 15000
 		manpower = 1500
@@ -391,7 +391,7 @@ equipments = {
 		year = 1950
 		archetype = BC_equipment
 		parent = BC_equipment_1940
-		priority = 1600
+		priority = 2000
 		#Misc Stats
 		build_cost_ic = 21000
 		manpower = 1500
