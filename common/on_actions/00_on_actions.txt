@@ -400,6 +400,22 @@ on_actions = {
 							hostility_reason = asked_to_join
 						}
 					}
+					# Activate Evacuation of Industry Decisions if AI
+					SOV = {
+						if = {
+							limit = {
+								is_ai = yes
+							}
+							activate_decision = SOV_Evacuation_of_Belarus
+							activate_decision = SOV_Evacuation_of_Western_Ukraine
+							activate_decision = SOV_Evacuation_of_Baltic_Republics
+							activate_decision = SOV_Evacuation_of_Eastern_Ukraine
+							activate_decision = SOV_Evacuation_of_Central_Russia
+							activate_decision = SOV_Evacuate_Moscow_and_Leningrad
+							activate_decision = SOV_Evacuate_Lipetsk
+							activate_decision = SOV_Evacuate_Stalingrad
+						}
+					}
 				}
 			}
 			# Change US Spirit to Remove Unemployment Growth

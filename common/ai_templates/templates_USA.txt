@@ -8,7 +8,7 @@ light_armor_USA= {
 		light_armor
 	}
 
-	match_to_count = 0.6
+	match_to_count = 0.45
 
 	upgrade_prio = {
 		factor = 2
@@ -56,7 +56,7 @@ light_armor_USA= {
 		}
 	
 		target_width = 30.0
-		width_weight = 2.0
+		width_weight = 100.0
 		column_swap_factor = 0.1
 		
 		target_template = {
@@ -120,7 +120,7 @@ light_armor_USA= {
 		}
 
 		target_width = 30.0
-		width_weight = 2.0
+		width_weight = 100.0
 		column_swap_factor = 0.1
 		
 		can_upgrade_in_field = {
@@ -249,7 +249,7 @@ armored_USA= {
 		armor
 	}
 	
-	match_to_count = 0.65
+	match_to_count = 0.5
 	
 	upgrade_prio = {
 		factor = 2.17
@@ -886,7 +886,7 @@ infantry_USA = {
 		factor = 30
 	}
 	
-	match_to_count = 0.55
+	match_to_count = 0.45
 
 	infantry_default_USA = {
 	
@@ -895,8 +895,8 @@ infantry_USA = {
 		}
 		
 		target_width = 30.0
-		width_weight = 2.0
-		column_swap_factor = 0.4
+		width_weight = 100.0
+		column_swap_factor = 0.1
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
@@ -986,7 +986,7 @@ garrison_USA = {
 		}
 	}
 	
-	match_to_count = 0.65
+	match_to_count = 0.4
 
 
 	garrison_USA = {
@@ -1007,7 +1007,7 @@ garrison_USA = {
 		
 		target_width = 30.0
 		width_weight = 100.0
-		column_swap_factor = 0.4
+		column_swap_factor = 0.1
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
@@ -1096,7 +1096,7 @@ mountaineers_USA = {
 		}
 	}
 	
-	match_to_count = 0.6
+	match_to_count = 0.5
 
 	mountaineers_default_USA = {
 	
@@ -1195,7 +1195,7 @@ marines_USA = {
 		}
 	}
 	
-	match_to_count = 0.8
+	match_to_count = 0.5
 
 	marine_default_USA = {
 	
@@ -1288,7 +1288,7 @@ paratroopers_USA = {
 		}
 	}
 	
-	match_to_count = 0.6
+	match_to_count = 0.5
 
 	paratrooper_default_USA = {
 	

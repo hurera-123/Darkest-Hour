@@ -5580,6 +5580,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_P_D_Kim_Hong_il"
+        texturefile = "gfx/leaders/KOR/P_D_Kim_Hong_il.png"
+    }
+
+    spriteType = {
         name = "GFX_P_D_Kim_Koo"
         texturefile = "gfx/leaders/KOR/P_D_Kim_Koo.png"
     }

@@ -9,7 +9,7 @@ armor_FRA = {
 	}
 
 	upgrade_prio = {
-		factor = 10
+		factor = 20
 	}
 
 	match_to_count = 0.5
@@ -76,9 +76,9 @@ armor_FRA = {
 			logistics_company
 		}
 
-		replace_at_match = 0.4
+		replace_at_match = 0.8
 		replace_with = medium_armor_default_FRA
-		target_min_match = 0.5
+		target_min_match = 0.6
 	}
 
 	medium_armor_default_FRA = {
@@ -150,7 +150,7 @@ heavy_armor_FRA = {
 	}
 
 	upgrade_prio = {
-		factor = 8
+		factor = 15
 	}
 
 	match_to_count = 0.5
@@ -197,7 +197,7 @@ heavy_armor_FRA = {
 
 		target_template = {
 			weight = 2.0
-			match_value = 5000.0
+			match_value = 7000.0
 
 			support = {
 				engineer = 1
@@ -348,8 +348,8 @@ motorized_FRA = {
 		}
 
 		target_width = 30.0
-		width_weight = 3.0
-		column_swap_factor = 0.5
+		width_weight = 100.0
+		column_swap_factor = 0.1
 		
 		can_upgrade_in_field = {
 			has_equipment = { APC_equipment > 500 }
@@ -416,7 +416,7 @@ motorized_FRA = {
 
 		target_width = 30.0
 		width_weight = 3.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.1
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
@@ -479,8 +479,8 @@ infantry_FRA = {
 		}
 
 		target_width = 30.0
-		width_weight = 3.0
-		column_swap_factor = 0.5
+		width_weight = 100.0
+		column_swap_factor = 0.1
 
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
@@ -517,7 +517,7 @@ infantry_FRA = {
 		}
 
 		target_template = {
-			weight = 1
+			weight = 2.0
 			match_value = 10000.0
 
 			support = {
@@ -848,7 +848,7 @@ garrison_FRA = {
 		}
 	}
 
-	match_to_count = 0.8
+	match_to_count = 0.5
 
 	garrison_FRA = {
 
@@ -860,8 +860,8 @@ garrison_FRA = {
 		custom_icon = 7
 
         target_width = 30.0
-        width_weight = 2
-        column_swap_factor = 0.5
+        width_weight = 2.0
+        column_swap_factor = 0.1
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }

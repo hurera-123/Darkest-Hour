@@ -8,10 +8,10 @@ armored_GER = {
 		armor
 	}
 	
-	match_to_count = 0.65
+	match_to_count = 0.5
 	
 	upgrade_prio = {
-		factor = 10
+		factor = 20
 	}
 
 	light_armor_default_GER = {
@@ -24,8 +24,8 @@ armored_GER = {
 		}
 		
 		target_width = 30.0
-		width_weight = 2
-		column_swap_factor = 0.5
+		width_weight = 2.0
+		column_swap_factor = 0.1
 
 		can_upgrade_in_field = {
 			has_equipment = { light_armor_equipment < 1000 }
@@ -130,8 +130,8 @@ armored_GER = {
 		}
 		
 		target_width = 30.0
-		width_weight = 100.0
-		column_swap_factor = 0.5
+		width_weight = 3.0
+		column_swap_factor = 0.1
 
 		can_upgrade_in_field = {
 			has_tech = Medium_Tank_1939
@@ -141,8 +141,8 @@ armored_GER = {
 		}
 
 		target_template = {
-			weight = 1.0
-			match_value = 7000.0
+			weight = 2.0
+			match_value = 14000.0
 			
 			support = {
 				engineer = 1
@@ -164,21 +164,15 @@ armored_GER = {
 		allowed_types = {
 			medium_armor
 			motorized
-			mechanized
-
-			motorized_rocket_artillery_battalion
 			medium_sp_artillery_battalion
 			medium_tank_destroyer_battalion
-
+			
 			engineer
-			recon
 			mot_recon
 			signal_company
 			maintenance_company
 			logistics_company
 			anti_air_battery
-
-			anti_tank_company
 		}
 		
 		replace_at_match = 0.8
@@ -211,8 +205,8 @@ armored_GER = {
 		}
 		
 		target_width = 30.0
-		width_weight = 100.0
-		column_swap_factor = 0.5
+		width_weight = 3.0
+		column_swap_factor = 0.1
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
@@ -249,8 +243,8 @@ armored_GER = {
 		
 
 		target_template = {
-			weight = 1.0
-			match_value = 7000.0
+			weight = 2.0
+			match_value = 14000.0
 			
 			support = {
 				engineer = 1
@@ -270,11 +264,10 @@ armored_GER = {
 
 		allowed_types = {
 			medium_armor
-			motorized
-			mechanized
 			medium_sp_artillery_battalion
+			mechanized
+			
 			engineer
-			signal_company
 			mot_recon
 			signal_company
 			maintenance_company
@@ -294,7 +287,7 @@ heavy_armor_GER = {
 		heavy_armor
 	}
 
-	match_to_count = 0.65
+	match_to_count = 0.5
 
 	upgrade_prio = {
 		factor = 5
@@ -422,7 +415,7 @@ motorized_GER = {
 		motorized
 	}
 
-	match_to_count = 0.6
+	match_to_count = 0.5
 
 	upgrade_prio = {
 		factor = 6
@@ -466,11 +459,11 @@ motorized_GER = {
 
 		target_width = 30.0
 		width_weight = 3.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.1
 		
 		can_upgrade_in_field = {
 			has_tech = APC_1941
-			has_equipment = { APC_equipment > 500 }
+			has_equipment = { APC_equipment > 1000 }
 		}
 
 		target_template = {
@@ -535,7 +528,7 @@ motorized_GER = {
 
 		target_width = 30.0
 		width_weight = 3.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.1
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
@@ -591,7 +584,7 @@ garrison_GER = {
 		factor = 1
 
 		modifier = {
-			factor = 100
+			factor = 20
 			OR = {
 				AND = {
 					has_completed_focus = GER_Heim_ins_Reich
@@ -608,7 +601,7 @@ garrison_GER = {
 		}
 	}
 	
-	match_to_count = 0.6
+	match_to_count = 0.5
 
 
 	garrison_GER = {
@@ -626,7 +619,7 @@ garrison_GER = {
 		
 		target_width = 20.0
 		width_weight = 3.0
-		column_swap_factor = 0.5
+		column_swap_factor = 0.1
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
@@ -668,6 +661,9 @@ garrison_GER = {
 			support = {
 				military_police = 1
 				engineer = 1
+				recon = 1
+				signal_company = 1
+				field_hospital = 1
 			}
 			
 			regiments = {
@@ -678,12 +674,15 @@ garrison_GER = {
 		}
 		
 		allowed_types = {
+			garrison
 			artillery_battalion
 			anti_tank_battalion
-			garrison
-			engineer
-			infantry		
+			
 			military_police
+			engineer
+			recon
+			signal_company
+			field_hospital
 		}
 	}
 }
@@ -714,7 +713,7 @@ infantry_GER = {
 			factor = 30
 		}
 		
-		target_width = 40.0
+		target_width = 30.0
 		width_weight = 2
 		column_swap_factor = 0.5
 		
@@ -802,7 +801,7 @@ mountaineers_GER = {
 		}
 	}
 	
-	match_to_count = 0.65
+	match_to_count = 0.5
 	
 	mountaineers_default_GER = {
 	

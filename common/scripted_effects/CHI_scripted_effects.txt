@@ -1,0 +1,53 @@
+CHI_Create_Korean_State = {
+	every_state = {
+		limit = {
+			OR = {
+				state = 980
+				state = 981
+				state = 982
+				state = 527
+				state = 983
+				state = 979
+				state = 817
+				state = 525
+				state = 988
+				state = 987
+				state = 986
+				state = 985
+				state = 816
+			}
+		}
+		KOR = { transfer_state = PREV }
+	}
+	KOR = {
+		add_ideas = KOR_Kim_Hong_il_HoG
+		add_country_leader_role = {
+			character = KOR_Kim_Koo
+			promote_leader = yes
+			country_leader = {
+				desc = KOR_Kim_Koo_desc
+				ideology = authoritarian_democracy
+				traits = { 
+					POSITION_President
+					SUBIDEOLOGY_Authoritarian_Democracy
+				}
+				expire = "1965.1.1"
+				id = -1
+			}
+		}
+		add_country_leader_role = {
+			character = KOR_Kim_Koo
+			promote_leader = yes
+			country_leader = {
+				desc = KOR_Kim_Koo_desc
+				ideology = national_conservatism
+				traits = { 
+					POSITION_President
+					SUBIDEOLOGY_National_Conservatism
+				}
+				expire = "1965.1.1"
+				id = -1
+			}
+		}
+	}
+}

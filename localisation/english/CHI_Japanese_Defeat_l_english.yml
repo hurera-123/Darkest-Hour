@@ -1,0 +1,33 @@
+﻿l_english:
+######################################################################
+# Events
+######################################################################
+ CHI_Japanese_Defeat.1.t: "Capitulation of Japan"
+ CHI_Japanese_Defeat.1.d: ""
+ CHI_Japanese_Defeat.1.A: ""
+
+ CHI_Japanese_Defeat.2.t: "Our Defeat"
+ CHI_Japanese_Defeat.2.d: ""
+ CHI_Japanese_Defeat.2.A: ""
+
+ CHI_Japanese_Defeat.3.t: "The Japanese Empire Signs Peace with China"
+ CHI_Japanese_Defeat.3.d: ""
+ CHI_Japanese_Defeat.3.A: ""
+
+ CHI_Japanese_Defeat.4.t: "The Question of Taiwan"
+ CHI_Japanese_Defeat.4.d: ""
+ CHI_Japanese_Defeat.4.A: "Make the offer to the Japanese"
+ CHI_Japanese_Defeat.4.B: "Don't make the offer"
+
+ CHI_Japanese_Defeat.5.t: "China Asks for Taiwan in Exchange of Korea's Neutrality"
+ CHI_Japanese_Defeat.5.d: ""
+ CHI_Japanese_Defeat.5.A: "Accept"
+ CHI_Japanese_Defeat.5.B: "Refuse"
+
+ CHI_Japanese_Defeat.6.t: "Japan Accepts"
+ CHI_Japanese_Defeat.6.d: ""
+ CHI_Japanese_Defeat.6.A: ""
+
+ CHI_Japanese_Defeat.7.t: "Japan Refuses"
+ CHI_Japanese_Defeat.7.d: ""
+ CHI_Japanese_Defeat.7.A: ""

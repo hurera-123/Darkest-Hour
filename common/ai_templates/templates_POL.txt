@@ -176,8 +176,8 @@ infantry_POL = {
 		}
 
 		target_width = 30.0
-		width_weight = 1.0
-		column_swap_factor = 0.5
+		width_weight = 100.0
+		column_swap_factor = 0.1
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }

@@ -804,7 +804,7 @@
  USA_1940_1944_FDR.2.A: "Back the attack!"
 
  USA_1940_1944_FDR.3.t: "The Atlantic Charter"
- USA_1940_1944_FDR.3.d: "We must ensure that after the war, there will be a peaceful, stable, and cooperative world order. This will be achieved by declaring to the world that we come in peace and seek not to be their oppressor with a different flag, but rather to be a force of peace and liberation, bringing self determination to the liberated territory. We will also begin efforts to lower trade barriers and work toward a world with open seas. We will proceed with great determination and commitment in order to see a new peaceful world free of want and fear.\n\nMay our charter be a beacon for the new world we are about to fight for."
+ USA_1940_1944_FDR.3.d: "[FROM.GetNewsIcon]We must ensure that after the war, there will be a peaceful, stable, and cooperative world order. This will be achieved by declaring to the world that we come in peace and seek not to be their oppressor with a different flag, but rather to be a force of peace and liberation, bringing self determination to the liberated territory. We will also begin efforts to lower trade barriers and work toward a world with open seas. We will proceed with great determination and commitment in order to see a new peaceful world free of want and fear.\n\nMay our charter be a beacon for the new world we are about to fight for."
  USA_1940_1944_FDR.3.A: "Freedom to all!"
 
  USA_1940_1944_FDR.4.t: "Internment Camps"

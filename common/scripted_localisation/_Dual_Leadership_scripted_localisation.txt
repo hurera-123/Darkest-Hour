@@ -774,6 +774,13 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = KOR
+			has_idea = KOR_Kim_Hong_il_HoG
+		}
+		localization_key = KOR_Kim_Hong_il
+	}
+	text = {
+		trigger = {
+			tag = KOR
 			has_idea = KOR_D_Archer_L_Lerch
 		}
 		localization_key = KOR_D_Archer_L_Lerch
@@ -1977,6 +1984,13 @@ defined_text = {
 		localization_key = GFX_P_A_Sabit_Damolla
 	}
 	### KOR - Korea
+	text = {
+		trigger = {
+			tag = KOR
+			has_idea = KOR_Kim_Hong_il_HoG
+		}
+		localization_key = GFX_P_D_Kim_Hong_il
+	}
 	text = {
 		trigger = {
 			tag = KOR

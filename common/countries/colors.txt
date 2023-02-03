@@ -6,7 +6,7 @@ ISR = {
 }
 
 KOR = {
-	color = rgb { 34 86 169 }
+	color = rgb { 71 72 141 }
 	color_ui = rgb { 255 190 127 }
 }
 
