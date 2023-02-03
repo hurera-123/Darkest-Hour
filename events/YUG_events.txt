@@ -338,6 +338,7 @@ country_event = {
 			transfer_state = 765
 			transfer_state = 102
 			transfer_state = 770
+			transfer_state = 890
 		}
 		CRO = {
 			transfer_state = 109
@@ -379,7 +380,6 @@ country_event = {
 				transfer_state = 106
 				transfer_state = 958
 				transfer_state = 1446
-				transfer_state = 890
 			}
 		}
 		if = {

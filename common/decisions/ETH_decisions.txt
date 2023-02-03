@@ -3,24 +3,42 @@
 #########################################################################
 ETH_Second_Italo_Ethiopian_War = {
 	ETH_Holding_Adowa_Again = {
-		icon = decision_generic_civil_support
+		icon = GFX_decision_generic_mountain_fortification
 		fire_only_once = yes
 
-		visible = {
+		allowed = {
 			original_tag = ETH
 		}
-		available = {
-			original_tag = ETH
+		available = { 
+			count_triggers = {
+				amount = 2
+				NOT = { controls_province = 1984 }
+				NOT = { controls_province = 2072 }
+				NOT = { controls_province = 13524 }
+				
+			}
 		}
-
-		ai_will_do = {
-			factor = 1
+		activation = { 
+			always = no 
 		}
-
-		complete_effect = {
+		is_good = yes 
+		fire_only_once = yes                            
+		selectable_mission = no  
+		days_mission_timeout = 90
+		timeout_effect = {
+			set_country_flag = ETH_Holding_Adowa
+			set_country_flag = ETH_hold_the_north_mission_success_flag
 			every_owned_state = {
 				limit = {
-					is_owned_by = ETH
+					is_controlled_by = ETH
+					OR = {
+						state = 1434
+						state = 875
+						state = 1432
+						state = 876
+						state = 879
+						state = 1433
+					}
 				}
 				add_province_modifier = {
 					static_modifiers = { defense_buff }
@@ -29,81 +47,68 @@ ETH_Second_Italo_Ethiopian_War = {
 					}
 				}
 			}
-			hidden_effect = {
-				set_country_flag = eth_holding_adowa
-			}
+		}
+		complete_effect = {  
+			set_country_flag = ETH_Holding_Adowa
+			add_war_support = -0.1
 		}
 	}
 
 	ETH_Christmas_Offensive = {
-		icon = decision_generic_civil_support
+		icon = GFX_decision_generic_ignite_civil_war
 		fire_only_once = yes
 
 		visible = {
 			original_tag = ETH
-			hidden_trigger = {
-				has_country_flag = eth_holding_adowa
-			}
-		}
-		available = {
-			original_tag = ETH
-			hidden_trigger = {
-				has_country_flag = eth_holding_adowa
-			}
+			has_country_flag = ETH_Holding_Adowa
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 
 		complete_effect = {
-			add_timed_idea = { idea = ETH_Christmas_Offensive days = 180 }
-			550 = { add_core_of = ETH }
+			add_timed_idea = { idea = ETH_Christmas_Offensive days = 60 }
 			hidden_effect = {
-				set_country_flag = eth_christmas_offensive
+				set_country_flag = ETH_Christmas_Offensive
 			}
-		}
-	}
-
-	ETH_Pushing_to_Asmara = {
-		icon = decision_generic_civil_support
-		fire_only_once = yes
-
-		visible = {
-			original_tag = ETH
-			#KerenStateID = { is_controlled_by = ETH }
-			hidden_trigger = {
-				has_country_flag = eth_christmas_offensive
-			}
-		}
-		available = {
-			original_tag = ETH
-			#KerenStateID = { is_controlled_by = ETH }
-			hidden_trigger = {
-				has_country_flag = eth_christmas_offensive
-			}
-		}
-
-		complete_effect = {
-			#something
 		}
 	}
 
 	ETH_Fortifying_Ogaden = {
-		icon = decision_generic_civil_support
+		icon = GFX_decision_generic_mountain_fortification
 		fire_only_once = yes
 
-		visible = {
-			original_tag = ETH
-		}
-		available = {
+		allowed = {
 			original_tag = ETH
 		}
 
-		complete_effect = {
+		available = { 
+			count_triggers = {
+				amount = 2
+				NOT = { controls_province = 14605 }
+				NOT = { controls_province = 12714 }
+				NOT = { controls_province = 10955 }
+			}
+		}
+		activation = { 
+			always = no 
+		}
+		is_good = yes 
+		fire_only_once = yes                            
+		selectable_mission = no  
+		days_mission_timeout = 90
+		timeout_effect = {
+			set_country_flag = ETH_Fortified_Ogaden
+			set_country_flag = ETH_hold_the_south_mission_success_flag
 			every_owned_state = {
 				limit = {
-					is_owned_by = ETH
+					is_controlled_by = ETH
+					OR = {
+						state = 880
+						state = 1431
+						state = 1063
+					}
 				}
 				add_province_modifier = {
 					static_modifiers = { fortifying_ogaden }
@@ -112,31 +117,24 @@ ETH_Second_Italo_Ethiopian_War = {
 					}
 				}
 			}
-			hidden_effect = {
-				set_country_flag = eth_fortifying_ogaden
-			}
+		}
+		complete_effect = {  		
+			set_country_flag = ETH_Fortified_Ogaden
+			add_war_support = -0.1
 		}
 	}
 
 	ETH_Counter_Attacking_Somaliland = {
-		icon = decision_generic_civil_support
+		icon = GFX_decision_generic_reorganize_irregulars
 		fire_only_once = yes
 
 		visible = {
 			original_tag = ETH
-			hidden_trigger = {
-				has_country_flag = eth_fortifying_ogaden
-			}
-		}
-		available = {
-			original_tag = ETH
-			hidden_trigger = {
-				has_country_flag = eth_fortifying_ogaden
-			}
+			has_country_flag = ETH_Fortified_Ogaden
 		}
 
 		complete_effect = {
-			add_timed_idea = { idea = ETH_Counter_Attacking_Somaliland days = 180 }
+			add_timed_idea = { idea = ETH_Counter_Attacking_Somaliland days = 60 }
 			hidden_effect = {
 				set_country_flag = eth_counter_attack_somali
 			}

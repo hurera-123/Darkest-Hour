@@ -296,8 +296,20 @@ State_Renaming_Bulgarian = {
         FROM.FROM = {
             set_state_name = STATE_1110_bulgarian
             set_province_name = {
-				id = 6690
+				id = 6990
 				name = VICTORY_POINTS_6990_bulgarian
+			}
+        }
+    }
+    if = {
+        limit = {
+            FROM.FROM = { state = 731 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_731_bulgarian
+            set_province_name = {
+				id = 11818
+				name = VICTORY_POINTS_11818_bulgarian
 			}
         }
     }
@@ -2984,8 +2996,20 @@ State_Renaming_Greek = {
         FROM.FROM = {
             set_state_name = STATE_1110
             set_province_name = {
-				id = 6690
+				id = 6990
 				name = VICTORY_POINTS_6990
+			}
+        }
+    }
+    if = {
+        limit = {
+            FROM.FROM = { state = 731 }
+        }
+        FROM.FROM = {
+            set_state_name = STATE_731
+            set_province_name = {
+				id = 11818
+				name = VICTORY_POINTS_11818
 			}
         }
     }
