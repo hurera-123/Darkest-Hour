@@ -880,7 +880,7 @@ GER_Operation_Weserubung_2 = {
 	ai_strategy = {
 		type = invasion_unit_request
 		state = 110
-		value = 200
+		value = 400
 	}
 	ai_strategy = {
 		type = invasion_unit_request
@@ -1165,8 +1165,10 @@ GER_Dont_Garrison_ITA= {
 	}
 }
 GER_Ignore_SOV = {
-	enable = {
+	allowed = {
 		tag = GER
+	}
+	enable = {
 		has_global_flag = Molotov_Ribbentrop_Signed
 	}
 	abort = {
@@ -1291,9 +1293,9 @@ GER_Ignore_Vichy = {
 	}
 
 	ai_strategy = {
-		type = invade
-		id = "FRA"
-		value = -1000
+		type = front_unit_request
+		tag = FRA
+		value = -500
 	}
 }
 

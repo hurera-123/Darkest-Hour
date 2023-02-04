@@ -637,13 +637,8 @@ ITA_Invade_Greece = {
 	}
 	ai_strategy = {
 		type = front_unit_request
-		tag = "GRE"
-		value = 50
-	}
-	ai_strategy = {
-		type = conquer
-		id = "GRE"
-		value = 500
+		tag = GRE
+		value = 80
 	}
 }
 ITA_war_against_ENG = {

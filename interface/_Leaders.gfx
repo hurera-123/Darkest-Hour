@@ -2220,6 +2220,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_M_George_Alexander_Weir"
+        texturefile = "gfx/leaders/ENG/M_George_Alexander_Weir.png"
+    }
+
+    spriteType = {
         name = "GFX_M_George_Giffard"
         texturefile = "gfx/leaders/ENG/M_George_Giffard.png"
     }
@@ -2320,6 +2325,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_M_Percy_Radcliffe"
+        texturefile = "gfx/leaders/ENG/M_Percy_Radcliffe.png"
+    }
+
+    spriteType = {
         name = "GFX_M_Richard_McCreery"
         texturefile = "gfx/leaders/ENG/M_Richard_McCreery.png"
     }
@@ -2332,6 +2342,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_M_Thomas_Jacomb_Hutton"
         texturefile = "gfx/leaders/ENG/M_Thomas_Jacomb_Hutton.png"
+    }
+
+    spriteType = {
+        name = "GFX_M_Walter_Kirke"
+        texturefile = "gfx/leaders/ENG/M_Walter_Kirke.png"
     }
 
     spriteType = {
@@ -8255,8 +8270,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_P_A_Francesco_Franco"
-        texturefile = "gfx/leaders/SPA/P_A_Francesco_Franco.png"
+        name = "GFX_P_A_Francisco_Franco"
+        texturefile = "gfx/leaders/SPA/P_A_Francisco_Franco.png"
     }
 
     spriteType = {
@@ -8380,8 +8395,8 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = "GFX_P_A_Francesco_Franco"
-        texturefile = "gfx/leaders/SPR/P_A_Francesco_Franco.png"
+        name = "GFX_P_A_Francisco_Franco"
+        texturefile = "gfx/leaders/SPR/P_A_Francisco_Franco.png"
     }
 
     spriteType = {
