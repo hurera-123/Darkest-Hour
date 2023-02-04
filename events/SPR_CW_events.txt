@@ -794,7 +794,7 @@ country_event = {
 		create_country_leader = {
 			name = "Francisco Franco Bahamonde"
 			desc = ""
-			picture = GFX_P_A_Francesco_Franco
+			picture = GFX_P_A_Francisco_Franco
 			ideology = authoritarian_democracy
 			traits = {
 			}
@@ -856,7 +856,7 @@ country_event = {
 		create_country_leader = {
 			name = "Francisco Franco Bahamonde"
 			desc = ""
-			picture = GFX_P_A_Francesco_Franco
+			picture = GFX_P_A_Francisco_Franco
 			ideology = authoritarian_democracy
 			traits = {
 			}
