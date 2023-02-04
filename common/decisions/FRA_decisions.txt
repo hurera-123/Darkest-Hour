@@ -1090,7 +1090,7 @@ FRA_Plan_Marquet_category = {
 				unemployment_value = -0.005
 			}
 			add_unemployment_effect = yes
-			country_event = { id = FRA_Reform_of_the_State.11 hours = 6 }
+			country_event = { id = FRA_Events.43 hours = 6 }
 		}
 	}
 }

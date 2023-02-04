@@ -3033,17 +3033,17 @@ news_event = {
 }
 
 #########################################################################
-# Les Beauté de Bordeaux
+# Les Beautés de Bordeaux
 #########################################################################
 country_event = {
-	id = FRA_Reform_of_the_State.11
-	title = FRA_Reform_of_the_State.11.t
-	desc = FRA_Reform_of_the_State.11.d
+	id = FRA_Events.43
+	title = FRA_Events.43.t
+	desc = FRA_Events.43.d
 	picture = GFX_report_FRA_Bordeaux
 	is_triggered_only = yes
 	# 
 	option = {
-		name = FRA_Reform_of_the_State.11.A
+		name = FRA_Events.43.A
 		
 	}
 }
