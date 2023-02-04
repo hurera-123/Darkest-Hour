@@ -5542,40 +5542,6 @@ country_event = {
 	}
 }
 ###########################
-# Germany supports us
-###########################
-country_event = {
-	id = GER_Kuomintang.1
-	title = GER_Kuomintang.1.t
-	desc = GER_Kuomintang.1.d
-	picture = GFX_report_GER_Elser_Plot
-	fire_only_once = yes
-	is_triggered_only = yes
-	#Hurray to the allies of the Kuomintang !
-	option = {
-		name = GER_Kuomintang.1.A
-		add_tech_bonus = {
-			bonus = 0.5
-			uses = 1
-			category = industry
-		}
-		add_tech_bonus = {
-			bonus = 0.5
-			uses = 1
-			category = infantry_weapons
-		}
-		GER = {
-			create_production_license = {
-				target = CHI
-				equipment = {
-					type = Small_Arms_equipment_1935
-				}
-				cost_factor = 1
-			}
-		}
-	}
-}
-###########################
 # Condemation of the Japanese Agression
 ###########################
 news_event = {
@@ -5583,8 +5549,9 @@ news_event = {
 	title = GER_Kuomintang.2.t
 	desc = GER_Kuomintang.2.d
 	picture = GFX_news_JAP_Operation_Nekka
+	major = yes
 	is_triggered_only = yes
-	###
+	### Germany
 	option = {
 		name = GER_Kuomintang.2.A
 		trigger = {
@@ -5598,12 +5565,17 @@ news_event = {
 			target = JAP
 			modifier = GER_Condemned_Japanese_Agression_JAP
 		}
-		swap_ideas = {
-			remove_idea = GER_Sino-German-Relations
-			add_idea = GER_Sino-German-Relations_increased
+		add_opinion_modifier = {
+			target = CHI
+			modifier = GER_CHI_Trade_Agreement
 		}
+		swap_ideas = {
+			remove_idea = GER_Sino_German_Cooperation
+			add_idea = GER_Sino_German_Cooperation_Expanded
+		}
+
 	}
-	###
+	### China
 	option = {
 		name = GER_Kuomintang.2.B
 		trigger = {
@@ -5612,6 +5584,16 @@ news_event = {
 		add_opinion_modifier = {
 			target = GER
 			modifier = GER_Condemned_Japanese_Agression
+		}
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = industry
+		}
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 1
+			category = infantry_weapons
 		}
 		army_experience = 25
 		add_equipment_to_stockpile = {
@@ -5624,8 +5606,40 @@ news_event = {
 			uses = 1
 			category = land_doctrine
 		}
+		if = {
+			limit = {
+				GER = {
+					has_tech = Small_Arms_1935
+				}
+			}
+			GER = {
+				create_production_license = {
+					target = CHI
+					equipment = {
+						type = Small_Arms_equipment_1935
+					}
+					cost_factor = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				GER = {
+					has_tech = Heavy_Weapons_1936
+				}
+			}
+			GER = {
+				create_production_license = {
+					target = CHI
+					equipment = {
+						type = Heavy_Weapons_equipment_1936
+					}
+					cost_factor = 1
+				}
+			}
+		}
 	}
-	###
+	### Japan
 	option = {
 		name = GER_Kuomintang.2.C
 		trigger = {
@@ -5634,6 +5648,17 @@ news_event = {
 		add_opinion_modifier = {
 			target = GER
 			modifier = GER_Condemned_Japanese_Agression_JAP
+		}
+	}
+	### Others
+	option = {
+		name = GER_Kuomintang.2.D
+		trigger = {
+			NOT = {
+				original_tag = GER
+				original_tag = CHI
+				original_tag = JAP
+			}
 		}
 	}
 }
@@ -5676,10 +5701,7 @@ country_event = {
 			target = CHI
 			modifier = GER_CHI_Trade_Agreement_reduced
 		}
-		swap_ideas = {
-			remove_idea = GER_Sino-German-Relations
-			add_idea = GER_Sino-German-Relations_Reduced
-		}
+		remove_ideas = GER_Sino_German_Relations
 		add_opinion_modifier = {
 			target = JAP
 			modifier = GER_Recognized_Manchuoko

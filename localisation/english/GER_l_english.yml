@@ -2125,15 +2125,12 @@
  GER_Barbarossa.4.A: "Excellent"
 
 # Asian Diplomacy events
- GER_Kuomintang.1.t: "Germany Supports us"
- GER_Kuomintang.1.d: ""
- GER_Kuomintang.1.A: "Hurray to the allies of the Kuomintang"
-
  GER_Kuomintang.2.t: "Germany Condemns Japanese Aggression"
  GER_Kuomintang.2.d: "[FROM.GetNewsIcon]Recent developments have left sour relations between the Germans and the Japanese. Tensions have been running high in the embassies of Berlin and Tokyo after the foreign minister of the German Reich, Joachim von Ribbentrop, declared on behalf of the entire German nation a condemnation of Japan's acts in China, which he labeled as “criminal” and “unprovoked”. Ministers in Japan have been left completely stunned and now face potential widespread backlash worldwide initiated by the Germans.\n\nRibbentrop added a lengthy statement pledging further German support for China, something not well received in Japan. This news came as a shock to the Japanese Emperor Hirohito himself. Though the emperor has been uninvolved in political affairs for many years now, Hirohito made a rare exception and compelled Japan's foreign minister, Yosuke Matsuoka, to demand an explanation from the German Reich. For days, no reply has been given from the German end, leaving an uncertain future between the two nations."
  GER_Kuomintang.2.A: "A political crisis is at hand..."
  GER_Kuomintang.2.B: "China will never forget Germany's contribution to our cause"
  GER_Kuomintang.2.C: "Those Germans be damned"
+ GER_Kuomintang.2.D: "An intersting situation is developing."
 
  GER_Manchukuo.1.t: "Germany Recognizes Manchukuo"
  GER_Manchukuo.1.d: "Just yesterday, a tired but excited looking Ribbentrop departed off of a German transport plane. Germany's Foreign Minister had been away in Japan, discussing matters with the Manchukuoan Prime Minister Zheng Xiaoxu as well with the Japanese Foreign Minister Koki Hirota. This morning, the headlines of the morning paper revealed: \"Germany officially recognizes Manchukuo!\".\n\nRecently, politics have revolved in a friendly matter between the Empire of Japan and the German Reich. It appears the Germans are seeking a potential partnership in the future. Of course, it is too early to determine for sure, but it seems this recognition of Manchukuo, Japan's puppet state in Manchuria, is a German attempt to show friendship. There is much to wonder about their relations, but it seems that many countries are pursuing possible alliances in this time of chaos. However, are Germany and Japan seeking a temporary nonaggression pact before they clash, or is legitimate co-operation they seek?"
@@ -3642,9 +3639,10 @@
  GER_Economic_Liberalization_3: "Economic Liberalization"
 
  GER_SOV_Trade_Agreement_Idea: "Trade agreement with the Soviets"
- GER_Sino-German-Relations: "Sino-German Relations"
- GER_Sino-German-Relations_increased: "Sino-German Relations"
- GER_Sino-German-Relations_Reduced: "Sino-German Relations"
+ GER_Sino_German_Cooperation: "Sino-German Cooperation"
+ GER_Sino_German_Cooperation_desc: ""
+ GER_Sino_German_Cooperation_Expanded: "Treaty of Eternal Friendship"
+ GER_Sino_German_Cooperation_Expanded_desc: ""
 
  GER_Deutsche_Arbeitfront: "Deutsche Arbeitsfront"
  GER_National_Labor_Day: "§YNational Labor Day§!"
