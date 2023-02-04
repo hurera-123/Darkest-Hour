@@ -1251,6 +1251,9 @@ GER_Ignore_Vichy = {
 	enable = {
 		has_global_flag = VIC_Vichy_Established
 		NOT = {
+			has_global_flag = Allies_Torch_Success # For Case Anton
+		}
+		NOT = {
 			has_war_with = FRA
 		}
 	}
@@ -1296,6 +1299,34 @@ GER_Ignore_Vichy = {
 		type = front_unit_request
 		tag = FRA
 		value = -500
+	}
+}
+
+GER_Case_Anton = {
+	allowed = {
+		tag = GER
+	}
+	enable = {
+		has_global_flag = VIC_Vichy_Established
+		has_global_flag = Allies_Torch_Success
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 500
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = -2000
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		tag = FRA
+		value = 200
 	}
 }
 
@@ -2125,7 +2156,7 @@ GER_Less_Garrison = {
 	ai_strategy = {
 		type = garrison
 		id = "GER"
-		value = -5
+		value = -50
 	}
 }
 GER_Friendly_Countries_Wont_Embargo = {
