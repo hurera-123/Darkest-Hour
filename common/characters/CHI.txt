@@ -1,0 +1,28 @@
+characters = {
+	CHI_Alexander_von_Falkenhausen = {
+		name = CHI_Alexander_von_Falkenhausen
+		portraits = {
+			army={
+				small="GFX_idea_Alexander_von_Falkenhausen"
+			}
+		}
+		advisor={
+			slot = Chief_of_Staff
+			idea_token = CHI_Alexander_von_Falkenhausen_CoStaff
+			allowed = {
+				tag = CHI
+			}
+			visible = {
+				date > 1933.1.1
+				date < 1964.1.1
+				has_global_flag = GER_CHI_Treaty_of_Eternal_Friendship
+				NOT = {
+					has_country_flag = Alexander_von_Falkenhausen_unavailable
+				}
+			}
+			traits = {
+				CoStaff_Counterattack_Genius
+			}
+		}
+	}
+}

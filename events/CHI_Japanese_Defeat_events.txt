@@ -66,18 +66,32 @@ country_event = {
 					state = 986
 					state = 985
 					state = 816
+					AND = {
+						is_controlled_by = JAP
+						is_core_of = CHI
+					}
 				}
 			}
 			CHI = { transfer_state = PREV }
+		}
+		if = {
+			limit = {
+				has_global_flag = GER_CHI_Treaty_of_Eternal_Friendship
+			}
+			GER = {
+				transfer_state = 743
+				transfer_state = 1036
+			}
 		}
 		hidden_effect = {
 			JAP = {
 				country_event = { id = CHI_Japanese_Defeat.2 }
 			}
 			CHI = {
-				country_event = { id = CHI_Japanese_Defeat.4 days = 2}
+				country_event = { id = CHI_Japanese_Defeat.4 days = 2 }
 			}
 		}
+		
 	}
 }
 #########################################################################
@@ -130,7 +144,7 @@ country_event = {
 			base = 100
 		}
 		JAP = {
-			country_event = { id = CHI_Japanese_Defeat.5 days = 1}
+			country_event = { id = CHI_Japanese_Defeat.5 days = 1 }
 		}
 	}
 	# Don't make the offer
