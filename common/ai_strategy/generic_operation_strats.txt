@@ -1,3 +1,208 @@
+
+build_intelligence_agency_as_major = {
+	enable = {
+		is_major = yes
+		OR = {
+			has_war = yes
+			date > 1938.1.1
+		}
+	}
+
+	ai_strategy = {
+		type = intelligence_agency_usable_factories
+		value = 5
+	}
+
+}
+
+build_intelligence_agency = {
+	enable = {
+		date > 1940.1.1
+		has_war = no
+		num_of_civilian_factories > 25
+	}
+	abort = {
+		OR = {
+			has_war = yes
+			num_of_civilian_factories < 25
+		}
+	}
+
+	ai_strategy = {
+		type = intelligence_agency_usable_factories
+		value = 5
+	}
+
+}
+
+upgrade_intelligence_agency = {
+	enable = {
+		date > 1940.1.1
+		num_of_civilian_factories > 50
+	}
+	abort = {
+		OR = {
+			num_of_civilian_factories < 40
+		}
+	}
+
+	ai_strategy = {
+		type = intelligence_agency_usable_factories
+		value = 5
+	}
+}
+
+upgrade_intelligence_agency_as_spy_master = {
+	enable = {
+		is_spymaster = yes
+		OR = {
+			has_war = no
+			num_of_civilian_factories > 50
+		}
+	}
+	abort = {
+		is_spymaster = no
+		num_of_civilian_factories < 40
+	}
+
+	ai_strategy = {
+		type = intelligence_agency_usable_factories
+		value = 10
+	}
+}
+
+addintelligence_agency_normal_upgrade_prio = {
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_intelligence
+		value = 800
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_defense
+		value = 800
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_operation
+		value = 800
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_operative
+		value = 800
+	}
+	ai_strategy = {
+		type = intelligence_agency_branch_desire_factor
+		id = branch_crypto
+		value = 800
+	}	
+}
+
+ask_foreign_manpower_as_major = {
+	allowed = { OR = { tag = GER tag = ITA tag = JAP tag = ENG tag = FRA tag = USA tag = SOV } }
+	enable = {
+		garrison_manpower_need > 200000
+	}
+	
+	abort = {
+		garrison_manpower_need < 100000
+	}
+
+	ai_strategy = {
+		type = asking_foreign_garrison
+		value = 100
+	}
+}
+
+more_upgrades_as_spymaster = {
+
+	enable = {
+		is_spymaster = yes
+	}
+	
+	abort = {
+		is_spymaster = no
+	}
+
+	ai_strategy = {
+		type = agency_ai_base_num_factories_factor
+		value = -50    # -50% on the define
+	}
+
+	ai_strategy = {
+		type = agency_ai_per_upgrade_factories_factor
+		value = -25    # -25% on the define
+	}
+}
+
+# Note that an operative mission has to be enabled through strategies first
+# before its potential targets are evaluated.
+#
+# The weight set in strategies is added to the weight of the target as
+# determined in scorers/country/operative_mission_scorer.txt
+
+# enable some missions for all countries having an agency
+enable_operative_missions = {
+
+	# enabled once the first operative has been recruited
+	enable = {
+		num_of_operatives > 0
+	}
+
+	ai_strategy = {
+		type = operative_mission
+		mission = build_intel_network
+		value = 100
+	}
+
+	ai_strategy = {
+		type = operative_mission
+		mission = counter_intelligence
+		value = 100
+	}
+
+#	ai_strategy = {
+#		type = operative_mission
+#		mission = quiet_network
+#		value = 100
+#	}
+
+#	ai_strategy = {
+#		type = operative_mission
+#		mission = boost_ideology
+#		value = 100
+#	}
+
+#	ai_strategy = {
+#		type = operative_mission
+#		mission = propaganda
+#		value = 100
+#	}
+
+	ai_strategy = {
+		type = operative_mission
+		mission = root_out_resistance
+		value = 100
+	}
+
+	ai_strategy = {
+		type = operative_mission
+		mission = control_trade
+		value = 100
+	}
+
+#	ai_strategy = {
+#		type = operative_mission
+#		mission = diplomatic_pressure
+#		value = 100
+#	}
+
+}
 run_generic_operation = {
 	enable = {
 		NOT = { check_variable = { generic_operation_target = 0 } }
@@ -34,6 +239,7 @@ run_generic_operation = {
 
 run_generic_operation_add_more_operatives = {
 	enable = {
+		num_of_operatives > 4
 		NOT = { check_variable = { generic_operation_target = 0 } }
 		NOT = { check_variable = { generic_operation_type_to_run = 0 } }
 		
@@ -42,7 +248,6 @@ run_generic_operation_add_more_operatives = {
 			has_capitulated = no
 			NOT = { is_ally_with = PREV }
 		}
-		num_of_operatives > 4
 	}
 	
 	abort_when_not_enabled = yes
