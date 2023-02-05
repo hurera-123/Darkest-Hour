@@ -3221,7 +3221,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
 	focus = {
-		id = ITA_Expand_Portello_Plant
+		id = ITA_Expand_The_Macchi_Factory
 		icon = GFX_goal_generic_construct_civilian
 		cost = 70
 		available = {
@@ -3282,7 +3282,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		mutually_exclusive = {
-			focus = ITA_Expand_Portello_Plant
+			focus = ITA_Expand_The_Macchi_Factory
 		}
 		prerequisite = {
 			focus = ITA_Expand_Porto_Marghera
@@ -3337,9 +3337,9 @@ focus_tree = {
 		y = 1
 		prerequisite = {
 			focus = ITA_Expand_Pomigliano_DArco_Plant
-			focus = ITA_Expand_Portello_Plant
+			focus = ITA_Expand_The_Macchi_Factory
 		}
-		relative_position_id = ITA_Expand_Portello_Plant
+		relative_position_id = ITA_Expand_The_Macchi_Factory
 		completion_reward = {
 			159 = {
 				add_building_construction = {
