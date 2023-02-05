@@ -20,7 +20,11 @@ operative_mission_no_mission_scorer = {
 		#target_array = global.majors
 		#target_array = global.countries
 		#target_array = neighbors
-		targets = { "GER" }
+		#targets = { "GER" }
+		target_array = potential_and_current_enemies
+		target_array = enemies_of_allies
+		target_array = neighbors
+		target_array = global.majors
 
 		# the country initiating the mission has to pass this trigger
 		target_root_trigger = { always = no }
@@ -35,7 +39,7 @@ operative_mission_no_mission_scorer = {
 			base = 100
 			modifier = {
 				has_capitulated = yes
-				factor = 0 
+				factor = 0
 			}
 		}
 	}
@@ -49,100 +53,26 @@ operative_mission_build_intel_network_scorer = {
 		target_array = global.majors
 
 		score = {
-			base = 0
-
+			base = 100
 			modifier = {
-				set_temp_variable = { add_score = 100 }
-				
-				if = { 
-					limit = { 
-						has_government = FROM
-					}
-					
-					multiply_temp_variable = { add_score = 0.5 }
-				}
-				if = { 
-					limit = { 
-						is_major = yes
-					}
-					
-					multiply_temp_variable = { add_score = 1.5 }
-				}
-				if = { 
-					limit = { 
-						is_neighbor_of = FROM
-					}
-					
-					multiply_temp_variable = { add_score = 1.5 }
-				}
-				if = { 
-					limit = { 
-						is_neighbor_of = FROM
-						is_major = yes
-						NOT = { has_government = FROM }
-					}
-					
-					add_to_temp_variable = { add_score = 500 }
-				}
-				if = { 
-					limit = { 
-						is_major = yes
-						NOT = { has_government = FROM }
-						set_temp_variable = { temp_score = num_of_military_factories }
-						divide_temp_variable = { temp_score = 200 }
-						add_to_temp_variable = { temp_score = 1.0 }
-						clamp_temp_variable = { var = temp_score max = 2 }
-					}
-					
-					multiply_temp_variable = { add_score = temp_score }
-				}
-				if = { 
-					limit = { 
-						NOT = { has_captured_operative = FROM }
-						has_non_aggression_pact_with = FROM
-						strength_ratio = { tag = FROM ratio < 0.2 }
-					}
-					
-					multiply_temp_variable = { add_score = 0 }
-				}
-				if = { 
-					limit = { 
-						has_capitulated = yes
-					}
-					
-					multiply_temp_variable = { add_score = 0 }
-				}
-				if = { 
-					limit = { 
-						has_wargoal_against = FROM
-					}
-					
-					add_to_temp_variable = { add_score = 100 }
-				}
-				if = { 
-					limit = { 
+				has_capitulated = yes
+				factor = 0
+			}
+			modifier = {
+				has_wargoal_against = FROM
+				add = 100
+			}
+			modifier = {
+				OR = {
+					has_war_with = FROM
+					FROM = {
 						OR = {
-							has_war_with = FROM
-							FROM = {
-								OR = {
-									has_wargoal_against = PREV
-									is_justifying_wargoal_against = PREV
-								}
-							}
+							has_wargoal_against = PREV
+							is_justifying_wargoal_against = PREV
 						}
 					}
-					
-					add_to_temp_variable = { add_score = 2000 }
 				}
-				if = {
-					limit = { 
-						FROM = { has_variable = EAI_operation_target }
-					}
-					
-					set_temp_variable = { add_score = 0 }
-				}
-
-				add = add_score 
+				add = 200
 			}
 		}
 	}
@@ -164,14 +94,26 @@ operative_mission_counter_intelligence_scorer = {
 		score = {
 			base = 100
 			modifier = {
-				FROM = {
-					has_variable = EAI_operation_target
-				}
-				add = -50000
-			}
-			modifier = {
 				has_capitulated = yes
 				factor = 0
+			}
+			modifier = {
+				tag = FROM
+				factor = 1.5
+			}
+			modifier = {
+				set_temp_variable = {
+					army_weight = num_armies
+				}
+				divide_temp_variable = {
+					var = army_weight
+					value = 10
+				}
+				clamp_temp_variable = {
+					var = army_weight
+					max = 50
+				}
+				add = army_weight
 			}
 		}
 	}
@@ -190,7 +132,11 @@ operative_mission_root_out_resistance_scorer = {
 
 operative_mission_boost_ideology_scorer = {
 	targets = {
-		# TODO
+		# the country initiating the mission has to pass this trigger
+		target_root_trigger = { always = no }
+
+		# each target among the selected ones has to pass this trigger
+		target_trigger = { always = no }
 	}
 }
 
@@ -203,7 +149,11 @@ operative_mission_control_trade_scorer = {
 
 operative_mission_diplomatic_pressure_scorer = {
 	targets = {
-		# TODO
+		# the country initiating the mission has to pass this trigger
+		target_root_trigger = { always = no }
+
+		# each target among the selected ones has to pass this trigger
+		target_trigger = { always = no }
 	}
 }
 
