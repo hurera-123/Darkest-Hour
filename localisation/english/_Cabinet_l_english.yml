@@ -14,6 +14,8 @@
  Chief_of_Navy: "Chief of Navy"
  Chief_of_Airforce: "Chief of Air Force"
  Head_of_Intelligence: "Head of Intelligence"
+ 
+ available_chief_of_staff: "§GAvailable§! as §LChief of Staff:§!\n"
 ###########################################
 ## Post for Ministers 
 ###########################################

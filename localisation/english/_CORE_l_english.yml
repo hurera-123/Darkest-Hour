@@ -61,6 +61,8 @@
  EFFECT_REMOVE_RESOURCE: "§RRemove§! production of $RESOURCE|H$ in §O$STATE$§!."
  EFFECT_ADD_TEMPORARY_RESOURCE: "Add production of $RESOURCE|H$ in §O$STATE$§! for $DAYS|H$ days."
  EFFECT_REMOVE_TEMPORARY_RESOURCE: "Remove production of $RESOURCE|H$ in §O$STATE$§! for $DAYS|H$ days."
+ 
+ EFFECT_SHOW_IDEA_TOOLTIP_DETAILED: "$NAME|Y$, which grants ($DESC$).\n"
 
  EFFECT_ADD_IDEA_NATIONAL_SPIRIT_TOOLTIP_DETAILED: "Gains §ONational Modifier§!: $NAME|Y$, which grants ($DESC$).\n"
  EFFECT_CHANGE_LAW_foreign_policy: "Change §OForeign Policy§! to '$NAME|Y$' which grants ($DESC$).\n"

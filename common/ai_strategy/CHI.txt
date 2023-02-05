@@ -326,6 +326,62 @@ China_Xinjiang_rebellion_response = {
 	}
 }
 
+CHI_Befriend_Germany_if_Allied = {
+	allowed = {
+		tag = CHI
+	}
+	enable = {
+		has_global_flag = GER_CHI_Treaty_of_Eternal_Friendship
+		NOT = { has_war_with = GER }
+		has_war_with = JAP
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = befriend
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "GER"
+		value = -200
+	}
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = "GER"
+		value = -200
+	}
+}
+
+CHI_Befriend_Germany_if_Allied_and_not_at_War = {
+	allowed = {
+		tag = CHI
+	}
+	enable = {
+		has_global_flag = GER_CHI_Treaty_of_Eternal_Friendship
+		NOT = { has_war_with = GER }
+		NOT = {
+			has_war_with = JAP
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = befriend
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = "GER"
+		value = -200
+	}
+}
+
 MAN_area_priority = {
 	enable = {
 		original_tag = MAN

@@ -5638,6 +5638,12 @@ news_event = {
 				}
 			}
 		}
+		if = {
+			limit = {
+				is_ai = yes
+			}
+			add_ideas = CHI_Alexander_von_Falkenhausen_CoStaff
+		}
 	}
 	### Japan
 	option = {

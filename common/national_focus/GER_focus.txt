@@ -802,7 +802,7 @@ focus_tree = {
 		icon = GFX_GER_Volksgemeinschaft
 		cost = 20
 		available = {
-			date > 1934.6.1
+			date > 1934.1.1
 		}
 		prerequisite = {
 			focus = GER_Adopt_Positive_Christianity
@@ -4778,6 +4778,7 @@ focus_tree = {
 				id = GER_Kuomintang.2
 				hours = 6
 			}
+			custom_effect_tooltip = GER_Treaty_Ports_China_tt
 			set_global_flag = GER_CHI_Treaty_of_Eternal_Friendship
 			effect_tooltip = {
 				GER = {
@@ -4787,6 +4788,8 @@ focus_tree = {
 					}
 				}
 				CHI = {
+					custom_effect_tooltip = available_chief_of_staff
+					show_ideas_tooltip = CHI_Alexander_von_Falkenhausen_CoStaff
 					add_opinion_modifier = {
 						target = GER
 						modifier = GER_Condemned_Japanese_Agression
