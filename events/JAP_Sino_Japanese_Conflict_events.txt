@@ -1735,9 +1735,7 @@ country_event = {
 	picture = GFX_report_JAP_Provisional_Government_of_China
 	fire_only_once = yes
 	trigger = {
-		OR = {
-			original_tag = JAP
-		}
+		original_tag = JAP
 		YUN = {
 			has_country_flag = YUN_long_yun_defiant
 			has_war_with = JAP
@@ -1819,9 +1817,7 @@ country_event = {
 	picture = GFX_report_JAP_Provisional_Government_of_China
 	fire_only_once = yes
 	trigger = {
-		OR = {
-			original_tag = JAP
-		}
+		original_tag = JAP
 		PRC = {
 			has_country_flag = PRC_red_army_confronts_victorious_japan
 			has_war_with = JAP
@@ -1865,9 +1861,7 @@ country_event = {
 	picture = GFX_report_JAP_Provisional_Government_of_China
 	fire_only_once = yes
 	trigger = {
-		OR = {
-			original_tag = JAP
-		}
+		original_tag = JAP
 		JAP = {
 			has_country_flag = JAP_tackle_the_remnants
 		}

@@ -1,0 +1,32 @@
+characters = {
+	KOR_Kim_Koo = {
+		name = KOR_Kim_Koo
+		portraits = {
+			civilian = {
+				large = "GFX_P_D_Kim_Koo"
+			}
+		}
+	}
+	KOR_Kim_Hong_il = {
+		name = KOR_Kim_Hong_il
+		portraits = {
+			civilian = {
+				large = "GFX_P_D_Kim_Hong_il"
+			}
+		}
+		advisor = {
+			slot = Head_of_Government
+			idea_token = KOR_Kim_Hong_il_HoG
+			can_be_fired = no
+			allowed = {
+				tag = KOR
+			}
+			visible = {
+				A_Minister_Allowed = yes
+			}
+			traits = {
+				POSITION_Vice_President
+			}
+		}
+	}
+}

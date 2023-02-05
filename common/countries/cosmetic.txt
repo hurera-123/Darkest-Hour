@@ -8,6 +8,11 @@ CRO_Ustashe = {
 	color_ui = rgb { 119 85 101 }
 }
 
+CRO_ITA = {
+    color = rgb { 51 150 98 }
+    color_ui = rgb { 51 150 98 }
+}
+
 UAE_TRUCIAL = {
 	color = rgb { 170 10 53 }
 	color_ui = rgb { 200 10 10 }
@@ -138,6 +143,11 @@ SER_GER = {
     color_ui = rgb { 185 170 167 }
 }
 
+SER_ITA = {
+    color = rgb { 51 150 98 }
+    color_ui = rgb { 51 150 98 }
+}
+
 DEN_GER = {
     color = rgb { 110 110 110 }
     color_ui = rgb { 185 170 167 }
@@ -251,6 +261,11 @@ CHI_warlord_PRC = {
 CHI_power_struggle_defeated = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
+}
+
+KOR_CHI_Puppet = {
+	color = rgb { 34 86 169 }
+	color_ui = rgb { 255 190 127 }
 }
 
 SOV_LENINGRAD = {

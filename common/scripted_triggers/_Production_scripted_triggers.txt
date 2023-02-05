@@ -1,0 +1,103 @@
+DH_need_heavy_fighters = {
+	OR = {
+		AND = {
+			has_war = yes
+			NOT = {
+				any_home_area_neighbor_country = {
+					has_war_with = ROOT
+				}
+			}
+		}
+		has_war_with = ENG
+		has_war_with = USA
+		DH_need_strat = yes
+	}
+}
+
+DH_need_tac = {
+	OR = {
+		num_of_military_factories > 119
+		IF = {
+			limit = {
+				original_tag = FRA
+			}
+			has_tech = Tactical_Bomber_1943
+		}
+		IF = {
+			limit = {
+				original_tag = ENG
+			}
+			has_tech = Tactical_Bomber_1943
+		}
+		IF = {
+			limit = {
+				original_tag = GER
+			}
+			has_tech = Tactical_Bomber_1943
+		}
+		IF = {
+			limit = {
+				original_tag = ITA
+			}
+			has_tech = Tactical_Bomber_1943
+		}
+	}
+	IF = {
+		limit = {
+			NOT = {is_major = yes }
+		}
+		NOT = {
+			any_allied_country = {
+				is_major = yes
+			}
+		}
+	}
+}
+
+DH_need_nav = {
+	any_owned_state = {
+		is_coastal = yes
+	}
+	OR = {
+		tag = ENG
+		tag = JAP
+		AND = {
+			NOT = { tag = ENG }
+			NOT = { tag = JAP }
+			OR = {
+				has_war_with = JAP
+				has_war_with = ENG
+				has_war_with = USA
+			}
+			surrender_progress < 0.1
+			alliance_strength_ratio > 0.5
+		}
+	}
+}
+
+DH_need_strat = {
+	surrender_progress < 0.1
+	NOT = { original_tag = GER }
+	OR = {
+		original_tag = USA
+		original_tag = ENG
+	}
+	num_of_military_factories > 149
+}
+
+DH_need_cv_fighters = {
+	IF = {
+		limit = {
+			has_war = no
+			tag = ENG
+		}
+		has_tech = cv_Fighter_1940 #1940
+	}
+	IF = {
+		limit = {
+			has_war = no
+			tag = FRA
+		}
+		has_tech = cv_Fighter_1940 #1939
+	}
+}

@@ -1,0 +1,63 @@
+####################################################
+## Norway
+#####################################################
+NOR_Stay_Home = {
+	allowed = {
+		tag = NOR
+	}
+	enable = {
+		has_war_with = GER
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = FRA
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = HOL
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = BEL
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = ENG
+		value = 100
+	}
+
+	ai_strategy = {
+		type = garrison
+		value = 80
+	}
+
+	ai_strategy = { # Southern Norway
+		type = put_unit_buffers
+		ratio = 0.3
+		states = {
+			110
+			1126
+			142
+			1125
+		}
+		subtract_fronts_from_need = no
+	}
+	ai_strategy = { # Northern Norway
+		type = put_unit_buffers
+		ratio = 0.3
+		states = {
+			143
+			144
+			1124
+		}
+		subtract_fronts_from_need = no
+	}
+}

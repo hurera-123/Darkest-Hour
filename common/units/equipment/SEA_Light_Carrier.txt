@@ -225,7 +225,7 @@ equipments = {
 		parent = CVL_equipment_1940
 		priority = 1100
 		build_cost_ic = 8100
-		manpower = 1400
+		manpower = 1800
 		naval_range = 14000
 
 		module_slots = inherit

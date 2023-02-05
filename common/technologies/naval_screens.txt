@@ -753,7 +753,7 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
-			cl_tech
+			ca_tech
 		}
 	}
 	# 1895 CA
@@ -835,7 +835,7 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
-			cl_tech
+			ca_tech
 		}
 	}
 	#1922 CA
@@ -876,7 +876,7 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
-			cl_tech
+			ca_tech
 		}
 	}
 	#1933 CA
@@ -917,7 +917,7 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
-			cl_tech
+			ca_tech
 		}
 	}
 	#1936 CA
@@ -962,7 +962,7 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
-			cl_tech
+			ca_tech
 		}
 	}
 	#1940 CA
@@ -1007,7 +1007,7 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
-			cl_tech
+			ca_tech
 		}
 	}
 	#1945 CA
@@ -1048,7 +1048,7 @@ technologies = {
 		}
 		categories = {
 			naval_equipment
-			cl_tech
+			ca_tech
 		}
 	}
 	############################################################################################################

@@ -1,0 +1,77 @@
+####################################################
+## Bulgaria
+#####################################################
+BUL_Occupying_Not_Fighting = {
+	allowed = {
+		tag = BUL
+		is_historical_focus_on = yes
+	}
+	enable = {
+		country_exists = GER
+		is_in_faction_with = GER
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = GER }
+			date > 1942.01.01
+		}
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = GER
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = ITA
+		value = 100
+	}
+
+	ai_strategy = {
+		type = garrison
+		value = 60
+	}
+}
+BUL_Garrison_Annexed_Territories = {
+	allowed = {
+		tag = BUL
+		is_historical_focus_on = yes
+	}
+	enable = {
+		country_exists = GER
+		is_in_faction_with = GER
+	}
+	abort = {
+		OR = {
+			NOT = { country_exists = GER }
+			date > 1942.01.01
+		}
+	}
+
+	
+
+	ai_strategy = { # Greece
+		type = put_unit_buffers
+		ratio = 0.3
+		states = {
+			123
+			124
+			125
+			126
+		}
+		subtract_fronts_from_need = no
+	}
+	ai_strategy = { # Yugoslavia
+		type = put_unit_buffers
+		ratio = 0.3
+		states = {
+			123
+			124
+			125
+			126
+		}
+		subtract_fronts_from_need = no
+	}
+}

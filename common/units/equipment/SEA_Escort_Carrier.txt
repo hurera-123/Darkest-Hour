@@ -111,7 +111,7 @@ equipments = {
 		# fire_range = 0
 		torpedo_attack = 0
 		sub_attack = 12
-		carrier_size = 0
+		carrier_size = 1
 		anti_air_attack = 0
 		armor_value = 0
 		# evasion = 5
@@ -126,7 +126,7 @@ equipments = {
 		resources = {
 		  steel = 1
 		}
-		manpower = 1200
+		manpower = 400
 	}
 ################################
 # 1916 CVE
@@ -141,7 +141,7 @@ equipments = {
 		# fire_range = 15.5
 		torpedo_attack = 0
 		sub_attack = 16
-		carrier_size = 0
+		carrier_size = 1
 		anti_air_attack = 8
 		armor_value = 1
 		# evasion = 10
@@ -157,7 +157,7 @@ equipments = {
 		resources = {
 			steel = 1
 		}
-		manpower = 1200
+		manpower = 800
 	}
 ################################
 # 1922 CVE
@@ -170,7 +170,7 @@ equipments = {
 		ap_attack = 2
 		# attack = 10
 		# fire_range = 15.5
-		carrier_size = 0
+		carrier_size = 1
 		anti_air_attack = 12
 		sub_attack = 20
 		armor_value = 1
@@ -182,7 +182,7 @@ equipments = {
 		surface_visibility = 13
 		naval_range = 9000
 		naval_speed = 16
-		manpower = 1200
+		manpower = 1000
 		# port_capacity_usage = 0.7
 		resources = {
 			steel = 1
@@ -199,7 +199,7 @@ equipments = {
 		priority = 1200
 
 		build_cost_ic = 12000
-		manpower = 2800
+		manpower = 1200
 
 		naval_range = 16000
 
@@ -245,7 +245,7 @@ equipments = {
 		priority = 1200
 		
 		build_cost_ic = 14000
-		manpower = 2800
+		manpower = 1400
 
 		naval_range = 16000
 

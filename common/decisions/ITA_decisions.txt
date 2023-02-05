@@ -396,6 +396,10 @@ ITA_ETH_war = {
 				idea = ITA_Prepared_Ethiopian_Supply_Lines
 				days = 30
 			}
+			hidden_effect = {
+				ETH = { activate_mission = ETH_Holding_Adowa_Again }
+				ETH = { activate_mission = ETH_Fortifying_Ogaden }
+			}
 			if = {
 				limit = {
 					OR = {

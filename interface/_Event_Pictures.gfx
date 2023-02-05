@@ -2043,6 +2043,11 @@ spriteTypes = {
         name = "GFX_news_YUG_Yugoslav_Capitulation"
         texturefile = "gfx/event_pictures/news_YUG_Yugoslav_Capitulation.png"
     }
+	
+	spriteType = {
+        name = "GFX_news_YUG_Yugoslav_Capitulation_Italy"
+        texturefile = "gfx/event_pictures/news_YUG_Yugoslav_Capitulation_Italy.png"
+    }
 
     spriteType = {
         name = "GFX_news_YUG_Yugoslav_Coup"

@@ -721,6 +721,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Aircraft/FRA_Bre16.dds"
 	}
 	SpriteType = {
+		name = "GFX_FRA_Tactical_Bomber_1925_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/FRA_A122_Bp3.dds"
+	}
+	SpriteType = {
 		name = "GFX_FRA_Tactical_Bomber_1933_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/FRA_Mb210.dds"
 	}
@@ -991,6 +995,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ENG_Tactical_Bomber_1918_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/ENG_DH9.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Tactical_Bomber_1925_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/ENG_Horsley.dds"
 	}
 	SpriteType = {
 		name = "GFX_ENG_Tactical_Bomber_1933_medium"
@@ -1503,6 +1511,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ITA_Tactical_Bomber_1918_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/ITA_Ca5.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Tactical_Bomber_1925_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/ITA_Ca101.dds"
 	}
 	SpriteType = {
 		name = "GFX_ITA_Tactical_Bomber_1933_medium"
@@ -2333,6 +2345,22 @@ spriteTypes = {
 	}
 	## Tactical Bomber
 	SpriteType = {
+		name = "GFX_USA_Tactical_Bomber_1914_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_G4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Tactical_Bomber_1916_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_DH4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Tactical_Bomber_1918_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_MB1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Tactical_Bomber_1925_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_LB5.dds"
+	}
+	SpriteType = {
 		name = "GFX_USA_Tactical_Bomber_1933_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/USA_B18.dds"
 	}
@@ -2377,6 +2405,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Aircraft/USA_F15SE.dds"
 	}
 	## Strategic Bomber
+	SpriteType = {
+		name = "GFX_USA_Strategic_Bomber_1916_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_HP12.dds"
+	}
 	SpriteType = {
 		name = "GFX_USA_Strategic_Bomber_1933_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/USA_B2.dds"
@@ -2451,6 +2483,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Aircraft/USA_BTD.dds"
 	}
 	## Naval Bomber
+	SpriteType = {
+		name = "GFX_USA_Naval_Bomber_1918_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_F5L.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_Naval_Bomber_1925_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_PN.dds"
+	}
 	SpriteType = {
 		name = "GFX_USA_Naval_Bomber_1936_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/USA_PBY.dds"

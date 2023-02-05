@@ -8,17 +8,10 @@ armored_ITA = {
 		armor
 	}
 	
-	match_to_count = 0.5
+	match_to_count = 0.6
 	
 	upgrade_prio = {
-		factor = 2.0
-
-		modifier = {
-			factor = 5
-			OR = {
-				has_tech = Medium_Tank_1939
-			}
-		}
+		factor = 10
 		
 		modifier = {
 			factor = 2
@@ -29,20 +22,18 @@ armored_ITA = {
 	light_armor_default_ITA = {
 	
 		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-			}
+			factor = 5
 		}
 		
-		target_width = 12.0 
-		width_weight = 1.0
-		column_swap_factor = 0.5
+		target_width = 30.0 
+		width_weight = 100.0
+		column_swap_factor = 0.1
 
-		# this is a stop-gap towards medium tanks, if deployed dont upgrade to medium tanks until we burn out our light tanks
 		can_upgrade_in_field = {
-			has_equipment = { armor_equipment < 500 } 
+			has_equipment = { APC_equipment > 500 }
+			has_equipment = { armor_equipment > 500 }
+			has_tech = Medium_Tank_1939
+			has_tech = APC_1941
 		}
 		
 		stat_weights = {
@@ -76,18 +67,20 @@ armored_ITA = {
 		}
 		
 		target_template = {
-			weight = 0.9
-			match_value = 5000.0
+			weight = 2.0
+			match_value = 14000.0
 			
 			support = {
 				engineer = 1
-				recon = 1
-				artillery_battery = 1
+				mot_recon = 1
+				logistics_company = 1
+				anti_air_battery = 1
 			}
 			
 			regiments = {
-				light_armor = 4
-				motorized = 2
+				light_armor = 6
+				motorized_artillery_battalion = 2
+				motorized = 6
 			}
 		}
 		
@@ -95,103 +88,15 @@ armored_ITA = {
 			light_armor
 			motorized
 			engineer
-			recon
-			artillery_battery
-		}
-		
-		replace_at_match = 0.4
-		replace_with = medium_armor_default_GER
-		target_min_match = 0.5
-	}
-
-	heavy_armor_default_ITA = {
-	
-		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 1
-			}
-		}
-		
-		target_width = 20.0
-		width_weight = 2.0
-		column_swap_factor = 0.5
-		
-		stat_weights = {
-			0.00 #-- default_morale
-			1.10 #-- defense
-			1.10 #-- breakthrough
-			0.60 #-- hardness
-			2.00 #-- soft_attack
-			0.00 #-- hard_attack
-			0.10 #-- recon
-			0.01 #-- entrenchment
-			0.10 #-- initiative
-			0.01 #-- casualty_trickleback
-			-0.05 #-- supply_consumption_factor
-			-0.01 #-- supply_consumption
-			0.00 #-- suppression
-			0.00 #-- suppression_factor
-			0.01 #-- experience_loss_factor
-			#-- Air Values
-			0.02 #-- air_attack
-			#-- Common Values
-			10.00 #-- max_organisation
-			0.80 #-- max_strength
-			0.00 #-- build_cost_ic
-			0.0 #-- maximum_speed
-			0.20 #-- armor_value
-			0.05 #-- ap_attack
-			0.10 #-- reliability
-			0.10 #-- reliability_factor
-			0.00 #-- weight
-		}
-
-		target_template = {
-			weight = 0.5
-			match_value = 1000.0
-			
-			support = {
-				engineer = 1
-				recon = 1
-				logistics_company = 1
-				maintenance_company = 1
-			}
-			
-			regiments = {
-				heavy_armor = 4
-				infantry = 2
-			}
-		}
-		
-		allowed_types = {
-			modern_armor
-			heavy_armor
-			
-			mechanized
-
-			#Cheaper but slower might be worth considering
-			infantry
-			artillery_battalion
-			rocket_artillery_battalion
-
-			motorized_rocket_artillery_battalion 
-
-			engineer
-			recon
-			signal_company
-			maintenance_company
+			anti_air_battery
 			logistics_company
-
-			anti_tank_company
-			artillery_battery
-
+			mot_recon
+			motorized_artillery_battalion
 		}
 		
-		replace_at_match = 0.4
-		replace_with = modern_armor_default_GER
-		target_min_match = 0.5
+		replace_at_match = 0.8
+		replace_with = medium_armor_default_GER
+		target_min_match = 0.6
 	}
 
 	medium_armor_default_ITA = {
@@ -202,20 +107,19 @@ armored_ITA = {
 			modifier = {
 				factor = 5
 				has_tech = Medium_Tank_1939
+				has_tech = APC_1941
 				NOT = {
 					has_tech = Main_Battle_Tank_1952
 				}
 			}
 		}
 		
-		target_width = 8.0
-		width_weight = 1.5
-		column_swap_factor = 0.5
-
-		# this is a stop-gap towards medium tanks, if deployed dont upgrade to medium tanks until we burn out our light tanks
-		can_upgrade_in_field = {
-			has_equipment = { armor_equipment < 1000 } 
-		}
+		target_width = 30.0
+		width_weight = 100.0
+		column_swap_factor = 0.1
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -248,158 +152,83 @@ armored_ITA = {
 		}
 
 		target_template = {
-			weight = 0.9
+			weight = 1
 			match_value = 7000.0
 			
 			support = {
 				engineer = 1
-				recon = 1
-				anti_tank_company = 1
+				mot_recon = 1
+				logistics_company = 1
+				maintenance_company = 1
+				signal_company = 1
+				anti_air_battery = 1
 			}
 			
 			regiments = {
-				medium_armor = 1
-				light_armor = 2
-				motorized = 1
+				medium_armor = 6
+				mechanized = 6
+				motorized_artillery_battalion = 2
 			}
 		}
 
 		allowed_types = {
-			modern_armor
-			light_armor
 			medium_armor
-			motorized
 			mechanized
-			#medium_sp_artillery_battalion
-
-			motorized_rocket_artillery_battalion 
-
+			motorized_artillery_battalion
+			
 			engineer
-			recon
-			signal_company
-			maintenance_company
+			mot_recon
 			logistics_company
-
-			anti_tank_company
-
-			artillery_battery
-
+			maintenance_company
+			signal_company
+			anti_air_battery
 		}
-		
-		replace_at_match = 0.6
-		replace_with = medium_armor_2_GER
-		target_min_match = 0.5
+	}
+}
+
+heavy_armor_ITA = {
+
+	available_for = {
+		ITA
 	}
 
-	medium_armor_2_ITA = {
+	roles = {
+		heavy_armor
+	}
+
+	match_to_count = 0.55
+
+	upgrade_prio = {
+		factor = 2
+
+	}
+
+	heavy_armor_default_ITA = {
 	
 		upgrade_prio = {
 			factor = 2
 
 			modifier = {
-				factor = 5
-			}
-			
-			modifier = {
-				factor = 4
-				has_tech = Medium_Tank_1939
-				NOT = {
-					has_tech = Main_Battle_Tank_1952
-				}
-				has_equipment = { armor_equipment < 50 }
-				has_equipment = { armor_equipment > 25 }
-			}
-		}
-		
-		target_width = 10.0
-		width_weight = 1.5
-		column_swap_factor = 0.5
-		
-		stat_weights = {
-			0.00 #-- default_morale
-			1.10 #-- defense
-			2.10 #-- breakthrough
-			2.60 #-- hardness
-			1.00 #-- soft_attack
-			2.00 #-- hard_attack
-			0.10 #-- recon
-			0.01 #-- entrenchment
-			0.10 #-- initiative
-			0.01 #-- casualty_trickleback
-			-0.05 #-- supply_consumption_factor
-			-0.01 #-- supply_consumption
-			0.00 #-- suppression
-			0.00 #-- suppression_factor
-			0.01 #-- experience_loss_factor
-			#-- Air Values
-			0.02 #-- air_attack
-			#-- Common Values
-			5.00 #-- max_organisation
-			0.80 #-- max_strength
-			0.00 #-- build_cost_ic
-			0.5 #-- maximum_speed
-			10.0 #-- armor_value
-			0.05 #-- ap_attack
-			0.10 #-- reliability
-			0.10 #-- reliability_factor
-			0.00 #-- weight
-		}
-		
-
-		target_template = {
-			weight = 0.9
-			match_value = 7000.0
-			
-			support = {
-				engineer = 1
-				recon = 1
-				#anti_tank_company = 1
-				maintenance_company = 1
-				logistics_company = 1
-			}
-			
-			regiments = {
-				medium_armor = 3 #remove sp
-				motorized = 2
-				#medium_sp_artillery_battalion = 2
+				factor = 25
+				has_heavy_tank_destroyer_tech = yes
 			}
 		}
 
-		allowed_types = {
-			light_armor
-			modern_armor
-			medium_armor
-			motorized
-			mechanized
-			#medium_sp_artillery_battalion
-			#motorized_rocket_artillery_battalion 
-			engineer
-			recon
-			signal_company
-			maintenance_company
-			logistics_company
-			#anti_tank_company
-		}
-		
-		replace_at_match = 0.75
-		replace_with = modern_armor_default_GER
-		target_min_match = 0.5
-	}
-
-	modern_armor_default_ITA = {
-
-		upgrade_prio = {
+		production_prio = {
 			factor = 2
 
 			modifier = {
-				factor = 15
-				has_tech = Main_Battle_Tank_1952
+				factor = 25
+				has_heavy_tank_destroyer_tech = yes
 			}
 		}
 		
-		target_width = 15.0
+		target_width = 30.0
 		width_weight = 3.0
 		column_swap_factor = 0.5
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -420,10 +249,10 @@ armored_ITA = {
 			#-- Air Values
 			0.02 #-- air_attack
 			#-- Common Values
-			50.00 #-- max_organisation
+			10.00 #-- max_organisation
 			0.80 #-- max_strength
 			0.00 #-- build_cost_ic
-			10.0 #-- maximum_speed
+			0.0 #-- maximum_speed
 			0.20 #-- armor_value
 			0.05 #-- ap_attack
 			0.10 #-- reliability
@@ -432,133 +261,36 @@ armored_ITA = {
 		}
 
 		target_template = {
-			weight = 0.9
-			match_value = 5000.0
+			weight = 1
+			match_value = 7000.0
 			
 			support = {
 				engineer = 1
-				recon = 1
-				maintenance_company = 1
+				mot_recon = 1
 				logistics_company = 1
+				maintenance_company = 1
+				anti_air_battery = 1
 			}
 			
 			regiments = {
-				modern_armor = 2
-				mechanized = 1
-				medium_sp_artillery_battalion = 1
+				heavy_armor = 6
+				medium_tank_destroyer_battalion = 1
+				motorized_artillery_battalion = 1
+				motorized = 6
 			}
 		}
 		
-
 		allowed_types = {
-			modern_armor
-			mechanized
-			motorized_rocket_artillery_battalion 
-			medium_sp_artillery_battalion
+			heavy_armor
+			medium_tank_destroyer_battalion
+			motorized_artillery_battalion
+			motorized
+			
 			engineer
-			recon
-			signal_company
-			maintenance_company
+			mot_recon
 			logistics_company
-
-			anti_tank_company
-			military_police
-			artillery_battery
+			maintenance_company
 			anti_air_battery
-			rocket_artillery_battery
-		}
-	}
-}
-
-
-garrison_ITA = {
-
-	available_for = {
-		ITA
-	}
-	
-	roles = {
-		garrison
-	}
-	
-	upgrade_prio = {
-		factor = 80
-
-		modifier = {
-			factor = 0
-			ai_has_role_template = garrison
-		}
-	}
-	
-	match_to_count = 0.8
-
-
-	garrison_ITA = {
-	
-		reinforce_prio = 0
-		custom_icon = 7
-	
-		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 1
-			}
-		}
-		
-		target_width = 5.0
-		width_weight = 1.0
-		column_swap_factor = 0.5
-		
-		stat_weights = {
-			0.00 #-- default_morale
-			0.00 #-- defense
-			0.00 #-- breakthrough
-			0.00 #-- hardness
-			4.00 #-- soft_attack
-			0.00 #-- hard_attack
-			0.00 #-- recon
-			3.00 #-- entrenchment
-			0.00 #-- initiative
-			0.00 #-- casualty_trickleback
-			0.00 #-- supply_consumption_factor
-			0.00 #-- supply_consumption
-			0.00 #-- suppression
-			0.00 #-- suppression_factor
-			0.00 #-- experience_loss_factor
-			#-- Air Values
-			0.00 #-- air_attack
-			#-- Common Values
-			0.60 #-- max_organisation
-			0.40 #-- max_strength
-			0.00 #-- build_cost_ic
-			0.00 #-- maximum_speed
-			0.00 #-- armor_value
-			0.20 #-- ap_attack
-			0.00 #-- reliability
-			0.00 #-- reliability_factor
-			0.00 #-- weight
-		}
-		
-		target_template = {
-			weight = 0.9
-			match_value = 3000.0
-			
-			support = {
-				military_police = 1
-			}
-			
-			regiments = {
-				infantry = 4
-			}
-		}
-		
-		allowed_types = {
-			infantry		
-			engineer
-			field_hospital
-			anti_tank_company
-			military_police
 		}
 	}
 }
@@ -574,28 +306,23 @@ infantry_ITA = {
 	}
 	
 	upgrade_prio = {
-		factor = 2
-
-		modifier = {
-			factor = 1
-		}
+		factor = 30
 	}
 	
-	match_to_count = 0.45
+	match_to_count = 0.5
 
 	infantry_default_ITA = {
 	
 		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 1
-			}
+			factor = 20
 		}
 	
-		target_width = 20.0
-		width_weight = 1.0
-		column_swap_factor = 0.5
+		target_width = 30.0
+		width_weight = 2.0
+		column_swap_factor = 0.1
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -635,32 +362,216 @@ infantry_ITA = {
 				engineer = 1
 				recon = 1
 				field_hospital = 1
-				anti_tank_company = 1
+				artillery_battery = 1
+				anti_air_battery = 1
 			}
 			
 			regiments = {
-				infantry = 7
-				artillery_battalion = 2
+				infantry = 9
+				artillery_battalion = 3
+				anti_tank_battalion = 1
 			}
 		}
 		
 		allowed_types = {
-			infantry		
+			infantry
+			artillery_battalion
+			anti_tank_battalion
+			
+			engineer
+			recon
+			field_hospital
+			artillery_battery
+			anti_air_battery
+		}
+	}
+}
+
+motorized_ITA = {
+
+	available_for = {
+		ITA
+	}
+
+	roles = {
+		motorized
+	}
+
+	match_to_count = 0.5
+
+	upgrade_prio = {
+		factor = 6
+
+		modifier = {
+			factor = 2
+			has_tech = Motorized_1932
+		}
+
+		modifier = {
+			factor = 2
+			has_tech = APC_1941
+		}
+	}
+
+	motorized_default_GER = {
+
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 15
+				has_tech = Motorized_1932
+			}
+		}
+
+		production_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 15
+				has_tech = Motorized_1932
+			}
+		}
+
+		target_width = 30.0
+		width_weight = 3.0
+		column_swap_factor = 0.1
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
+		
+		target_template = {
+			weight = 3.0
+			match_value = 8000.0
+
+			support = {
+				engineer = 1
+				logistics_company = 1
+				signal_company = 1
+				mot_recon = 1
+				field_hospital = 1
+				anti_tank_company = 1
+				anti_air_battery  = 1
+			}
+
+			regiments = {
+				motorized = 9
+				motorized_anti_tank_battalion = 1
+				motorized_artillery_battalion = 3
+			}
+		}
+
+		allowed_types = {
+			motorized
+			motorized_anti_tank_battalion
+			motorized_artillery_battalion
+			
+			engineer
+			logistics_company
+			signal_company
+			mot_recon
+			field_hospital
+			anti_tank_company
+			anti_air_battery
+		}
+	}
+}
+
+garrison_ITA = {
+
+	available_for = {
+		ITA
+	}
+	
+	roles = {
+		garrison
+	}
+	
+	upgrade_prio = {
+		factor = 20
+
+		modifier = {
+			factor = 0
+			ai_has_role_template = garrison
+		}
+	}
+	
+	match_to_count = 0.5
+
+
+	garrison_ITA = {
+	
+		reinforce_prio = 0
+		custom_icon = 7
+	
+		upgrade_prio = {
+			factor = 10
+		}
+		
+		target_width = 30.0
+		width_weight = 100.0
+		column_swap_factor = 0.1
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			0.00 #-- breakthrough
+			0.00 #-- hardness
+			4.00 #-- soft_attack
+			0.00 #-- hard_attack
+			0.00 #-- recon
+			3.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.60 #-- max_organisation
+			0.40 #-- max_strength
+			0.00 #-- build_cost_ic
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.20 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+		}
+		
+		target_template = {
+			weight = 0.9
+			match_value = 3000.0
+			
+			support = {
+				engineer = 1
+				recon = 1
+				signal_company = 1
+				field_hospital = 1
+			}
+			
+			regiments = {
+				garrison = 9
+				artillery_battalion = 3
+				anti_tank_battalion = 1			
+			}
+		}
+		
+		allowed_types = {		
 			engineer
 			recon
 			signal_company
 			field_hospital
-			logistics_company
-			anti_tank_company
-			military_police
-			artillery_battery
-	#		anti_air_battery
-			rocket_artillery_battery
-			anti_tank_battalion
+			
+			garrison
 			artillery_battalion
-			rocket_artillery_battalion
-	#		light_tank_destroyer_battalion 
-	#		medium_tank_destroyer_battalion 
+			anti_tank_battalion
 		}
 	}
 }
@@ -676,7 +587,7 @@ mountaineers_ITA = {
 	}
 	
 	upgrade_prio = {
-		factor = 2
+		factor = 5
 
 		modifier = {
 			factor = 0
@@ -697,9 +608,12 @@ mountaineers_ITA = {
 			}
 		}
 		
-		target_width = 19.9
+		target_width = 20.0
 		width_weight = 3
 		column_swap_factor = 0.2
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
 		
 		stat_weights = {
 			0 #-- default_morale
@@ -743,7 +657,7 @@ mountaineers_ITA = {
 			}
 			
 			regiments = {
-				mountaineers = 8
+				mountaineers = 7
 				artillery_battalion = 2
 			}
 		}
@@ -771,7 +685,7 @@ marines_ITA = {
 	}
 	
 	upgrade_prio = {
-		factor = 2
+		factor = 3
 
 		modifier = {
 			factor = 0
@@ -796,6 +710,9 @@ marines_ITA = {
 		target_width = 20.0
 		width_weight = 1.0
 		column_swap_factor = 0.1
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -837,7 +754,7 @@ marines_ITA = {
 			}
 			
 			regiments = {
-				marine = 9
+				marine = 10
 			}
 		}
 
@@ -862,7 +779,7 @@ paratroopers_ITA = {
 	}
 	
 	upgrade_prio = {
-		factor = 2
+		factor = 1
 
 		modifier = {
 			factor = 0
@@ -884,9 +801,12 @@ paratroopers_ITA = {
 			}
 		}
 		
-		target_width = 9.9
+		target_width = 10.0
 		width_weight = 3.0
 		column_swap_factor = 0.1
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
 		
 		stat_weights = {
 			0.20 #-- default_morale
@@ -929,7 +849,7 @@ paratroopers_ITA = {
 			}
 			
 			regiments = {
-				paratrooper= 5 
+				paratrooper = 5 
 			}
 		}
 		

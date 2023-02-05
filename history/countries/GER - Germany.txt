@@ -403,6 +403,7 @@ recruit_character = GER_Wilhelm_III
 		GER_The_Weimar_Era
 		GER_Destroyed_German_Spirit
 		GER_Treaty_of_Versailles
+		GER_Sino_German_Cooperation
 		# Laws and Policies
 		free_trade
 		volunteer_only

@@ -1732,10 +1732,15 @@ focus_tree = {
 				has_at_least_parliament_total_support = yes
 				has_war_support > 0.4
 			}
-			
 		}
 		completion_reward = {
 			country_event = USA_Army.1
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				army_experience = 150
+			}
 		}
 	}
 	focus = {
@@ -1793,7 +1798,7 @@ focus_tree = {
 	focus = {
 		# Reorganize Field Command Structures
 		id = USA_Reorganize_Field_Command_Structure
-		icon = GFX_focus_generic_military_academy
+		icon = GFX_USA_Reorganize_Field_Command_Structure
 		cost = 50
 		prerequisite = {
 			focus = USA_Eisenhower_Grand_Battleplan
@@ -5783,6 +5788,13 @@ focus_tree = {
 		id = USA_A_Special_Relationship
 		icon = GFX_ENG_A_Special_Relationship
 		cost = 45
+		bypass = {
+			ENG = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+		}
 		available = {
 			ENG = {
 				has_government = democratic

@@ -87,7 +87,7 @@ equipments = {
 		priority = 2600
 		#Misc Stats
 		build_cost_ic = 1200
-		manpower = 200
+		manpower = 120
 		# port_capacity_usage = 0.5
 		naval_range = 15000
 
@@ -133,6 +133,7 @@ equipments = {
 		naval_range = 20000
 
 		build_cost_ic = 1400
+		manpower = 150
 		
 		module_slots = inherit
 		
@@ -177,6 +178,7 @@ equipments = {
 		naval_range = 24000
 
 		build_cost_ic = 1800
+		manpower = 180
 
 		module_slots = inherit
 		

@@ -297,6 +297,10 @@
  JAP_Crush_Xinjiang: "Crush Xinjiang"
  JAP_Woo_Tibet: "Woo Tibet"
 
+ JAP_victory_in_china: "We have achieved victory in China"
+ JAP_victory_in_yunnan: "Yunnan has been dealt with"
+ JAP_death_of_the_roc: "The Republic of China has been completely destroyed"
+
  ###############################################
  ## Tooltips & Other
  ###############################################

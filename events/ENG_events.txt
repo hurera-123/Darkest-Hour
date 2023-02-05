@@ -4081,6 +4081,20 @@ country_event = {
 			transfer_state = 1005
 			transfer_state = 1006
 		}
+		if = {
+			limit = {
+				CAN = {
+					owns_state = 1545
+				}
+			}
+			every_state = {
+				limit = {	
+					is_owned_by = CAN
+					is_core_of = PER
+				}
+				PER = { transfer_state = PREV }
+			}
+		}
 	}
 }
 
@@ -4822,7 +4836,7 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
-		name = ENG_Wartime_Tree.1.a
+		name = ENG_Wartime_Tree.1.A
 		add_manpower = 1500
 	}
 }
@@ -4844,7 +4858,7 @@ country_event = {
 		#}
 	}
 	option = {
-		name = ENG_Wartime_Tree.2.a
+		name = ENG_Wartime_Tree.2.A
 		set_variable = { ENG_Britannia_Defiant_WS_Weekly_Var = 0.001 }
 		set_variable = { ENG_Britannia_Defiant_SL_Var = 0.05 }
 		ENG = {
@@ -4867,7 +4881,7 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
-		name = ENG_Wartime_Tree.3.a
+		name = ENG_Wartime_Tree.3.A
 		GER = {
 			9 = {
 				set_state_owner_to = CZE
@@ -4905,7 +4919,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = ENG_Wartime_Tree.4.a	#sounds good
+		name = ENG_Wartime_Tree.4.A	#sounds good
 		ai_chance = { factor = 90 }
 		add_political_power = -10
 		ENG = {
@@ -4966,7 +4980,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = ENG_Wartime_Tree.5.a
+		name = ENG_Wartime_Tree.5.A
 		add_tech_bonus = {
 			name = tizard_mission_focus
 			bonus = 1.0
@@ -4996,7 +5010,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = ENG_Wartime_Tree.6.a
+		name = ENG_Wartime_Tree.6.A
 		add_opinion_modifier = { target = USA modifier = tizard_refused }
 	}
 }
@@ -5013,7 +5027,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = ENG_Wartime_Tree.7.a
+		name = ENG_Wartime_Tree.7.A
 		add_to_tech_sharing_group = tizard_mission
 		USA = {
 			add_opinion_modifier = { target = ENG modifier = tizard_relations }
@@ -5033,7 +5047,7 @@ news_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = ENG_Wartime_Tree.8.a
+		name = ENG_Wartime_Tree.8.A
 		ENG = { add_political_power = 100 }
 		USA = { add_war_support = 0.05 }
 	}
@@ -5051,9 +5065,9 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = ENG_Wartime_Tree.9.a
+		name = ENG_Wartime_Tree.9.A
 		add_war_support = 0.05
-		custom_effect_tooltip = ENG_Wartime_Tree.9.a.tt
+		custom_effect_tooltip = ENG_Wartime_Tree.9.A.tt
 	}
 }
 
@@ -5069,7 +5083,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = ENG_Wartime_Tree.10.a
+		name = ENG_Wartime_Tree.10.A
 		121 = {
 			add_building_construction = {
 				type = arms_factory
@@ -5099,7 +5113,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = ENG_Wartime_Tree.11.a
+		name = ENG_Wartime_Tree.11.A
 		add_to_Variable = { ENG_Britannia_Defiant_SL_Var = 0.05 }
 	}
 }
@@ -5116,7 +5130,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = ENG_Wartime_Tree.12.a
+		name = ENG_Wartime_Tree.12.A
 		add_stability = 0.15
 		remove_ideas = ENG_Food_Rations
 	}
@@ -5134,7 +5148,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = ENG_Wartime_Tree.13.a
+		name = ENG_Wartime_Tree.13.A
 		add_to_variable = { ENG_Britannia_Defiant_ACGCGF_Var = 0.10 }
 		add_to_variable = { ENG_Britannia_Defiant_ACGCHF_Var = 0.10 }
 	}
@@ -5152,7 +5166,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = ENG_Wartime_Tree.14.a
+		name = ENG_Wartime_Tree.14.A
 		every_country = {
 			limit = { is_in_faction_with = ENG }
 			add_war_support = 0.05
@@ -5710,7 +5724,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ENG_End_of_Newfoundland.1.a
+		name = ENG_End_of_Newfoundland.1.A
 		annex_country = {
 			target = NFL
 			transfer_troops = no
@@ -5776,7 +5790,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ENG_Chamberlain_Events.2.a
+		name = ENG_Chamberlain_Events.2.A
 		remove_ideas = ENG_Pax_Britannica
 		remove_ideas = generic_unemployment_idea
 	}

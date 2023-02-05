@@ -43,9 +43,22 @@ country_event = {
 	# 
 	option = {
 		name = GER_SOV_War.1.A
-		add_timed_idea = {
-			idea = SOV_The_German_Betrayal
-			days = 200
+		if = {
+			limit = {
+				GER = {
+					is_ai = no
+				}
+			}
+			add_timed_idea = {
+				idea = SOV_The_German_Betrayal
+				days = 100
+			}
+		}
+		else = {
+			add_timed_idea = {
+				idea = SOV_The_German_Betrayal
+				days = 200
+			}
 		}
 	}
 }
@@ -174,7 +187,7 @@ news_event = {
 	id = GER_SOV_War.8
 	title = GER_SOV_War.8.t
 	desc = GER_SOV_War.8.d
-	picture = GFX_report_event_generic_army
+	picture = GFX_
 	is_triggered_only = yes
 
 	major = yes
@@ -191,7 +204,7 @@ news_event = {
 	id = GER_SOV_War.9
 	title = GER_SOV_War.9.t
 	desc = GER_SOV_War.9.d
-	picture = GFX_report_event_generic_army
+	picture = GFX_
 	is_triggered_only = yes
 
 	major = yes

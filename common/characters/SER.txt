@@ -1,0 +1,36 @@
+characters = {
+	SER_Tomislav_II = {
+		name = SER_Tomislav_II
+		portraits = {
+			civilian = {
+				large = "GFX_P_F_Tomislav_II"
+			}
+		}
+		country_leader = {
+			desc = SER_Tomislav_II_desc
+			ideology = monarchism
+			traits = { 
+				POSITION_King
+				SUBIDEOLOGY_Monarchism
+			}
+			expire = "1965.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = Head_of_Government
+			idea_token = SER_Tomislav_II_HoG
+			can_be_fired = no
+			allowed = {
+				tag = SER
+			}
+			visible = {
+				F_Minister_Allowed = yes
+				is_puppet_of = ITA
+				NOT = { has_country_flag = Tomislav_II_unavailable }
+			}
+			traits = {
+				POSITION_King
+			}
+		}
+	}
+}

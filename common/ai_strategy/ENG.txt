@@ -586,6 +586,29 @@ British_Soviet_Relations = {
 	}
 }
 
+ENG_Dont_Invite_Romania = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		ENG = {
+			has_government = democratic
+		}
+		ROM = {
+			OR = {
+				has_government = fascist
+				has_government = authoritarian
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = alliance
+		id = "ROM"
+		value = -1000
+	}
+}
+
 #### WAR WITH ITALY ####
 dont_do_early_invasions_ITA = {
 	enable = {
@@ -643,7 +666,7 @@ ENG_prepare_war_against_ITA = {
 	ai_strategy = {
 		type = front_unit_request
 		tag = ITA			
-		value = 30
+		value = 40
 	}
 }
 
@@ -669,7 +692,7 @@ ENG_Focus_North_Africa = {
 	ai_strategy = {
 		type = area_priority
 		id = north_africa
-		value = 100
+		value = 200
 	}
 
 	ai_strategy = {
@@ -680,8 +703,10 @@ ENG_Focus_North_Africa = {
 }
 
 ENG_war_against_ITA_1 = {
-	enable = {
+	allowed = {
 		tag = ENG
+	}
+	enable = {
 		has_war_with = ITA
 		OR = {
 			date < 1943.7.1
@@ -692,10 +717,8 @@ ENG_war_against_ITA_1 = {
 			661 = { is_controlled_by = ITA }
 			662 = { is_controlled_by = ITA }
 			663 = { is_controlled_by = ITA }
-
 			665 = { is_controlled_by = ITA }
 			458 = { is_controlled_by = ITA }
-			460 = { is_controlled_by = ITA }
 		}
 	}
 
@@ -744,8 +767,10 @@ ENG_war_against_ITA_1 = {
 }
 
 ENG_war_against_ITA_2 = {
-	enable = {
+	allowed = {
 		tag = ENG
+	}
+	enable = {
 		has_war_with = ITA
 		OR = {
 			is_historical_focus_on = no
@@ -796,32 +821,20 @@ ENG_war_against_ITA_2 = {
 	ai_strategy = {
 		type = invasion_unit_request
 		state = 1638
-		value = 100
+		value = 150
 	}
 
 	ai_strategy = {
 		type = invasion_unit_request
 		state = 115
-		value = 100
-	}
-
-	ai_strategy = {
-		type = invasion_unit_request
-		state = 117
-		value = 100
+		value = 250
 	}
 
 	ai_strategy = {
 		type = invasion_unit_request
 		state = 156
-		value = 100
+		value = 200
 	}
-
-	ai_strategy = {
-		type = invasion_unit_request
-		state = 858
-		value = 100
-	}	
 }
 
 ENG_war_against_ITA_3 = {
@@ -863,35 +876,6 @@ ENG_War_Against_Vichy = {
 		type = conquer
 		id = "FRA"
 		value = 200
-	}
-}
-
-ENG_Defend_Mediterranean = {
-	allowed = {
-		original_tag = ENG
-	}
-	enable = {
-		always = yes
-	}
-	# Alexandria
-	ai_strategy = {
-		type = theatre_distribution_demand_increase
-		id = 447
-		value = 10
-	}
-
-	# Gibraltar
-	ai_strategy = {
-		type = theatre_distribution_demand_increase
-		id = 118
-		value = 4
-	}
-
-	# Malta
-	ai_strategy = {
-		type = theatre_distribution_demand_increase
-		id = 116
-		value = 4
 	}
 }
 
@@ -959,37 +943,6 @@ ENG_Invade_Persia = {
 		type = invade
 		id = "PER"
 		value = 200
-	}
-}
-
-ENG_Stop_Building_so_Much = {
-	allowed = {
-		original_tag = ENG
-	}
-	enable = {
-		has_army_size = {
-			size > 120
-		}
-	}
-	abort_when_not_enabled = yes
-	ai_strategy = {
-		type = force_build_armies
-		value = -500
-	}
-	ai_strategy = {
-		type = build_army
-		id = infantry
-		value = -500
-	}
-	ai_strategy = {
-		type = build_army
-		id = armor
-		value = -500
-	}
-	ai_strategy = {
-		type = build_army
-		id = motorized
-		value = -500
 	}
 }
 
@@ -1375,17 +1328,12 @@ ENG_trying_to_save_benelux_is_deathtrap = {
 
 ENG_avoiding_early_deathtraps = {
 	enable = {
-		tag = ENG
-		has_war_with = GER
-		is_in_faction_with = FRA
-		date < 1941.6.1
 		OR = {
-			BEL = { has_capitulated = yes }
-			NOT = {	BEL = { has_full_control_of_state = 6 }}
-			NOT = {	FRA = { has_full_control_of_state = 763 }}
-			NOT = {	FRA = { has_full_control_of_state = 28 }}
-			FRA = { surrender_progress > 0.2 }
+			tag = ENG
+			is_in_faction_with = ENG
 		}
+		has_war_with = GER
+		date < 1941.10.1
 	}
 	abort_when_not_enabled = yes
 	
@@ -1590,6 +1538,43 @@ Dont_Invade_Benelux = {
 	}
 }
 
+Dont_Invade_Balkan = {	
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		OR = {
+			has_war_with = ROM
+			has_war_with = BUL
+			has_war_with = CRO
+		}
+		OR = {
+			ROM = { is_in_faction_with = GER }
+			BUL = { is_in_faction_with = GER }
+			CRO = { is_in_faction_with = GER }
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = invade
+		id = "ROM"
+		value = -2000
+	}
+
+	ai_strategy = {
+		type = invade
+		id = "BUL"
+		value = -2000
+	}
+
+	ai_strategy = {
+		type = invade
+		id = "CRO"
+		value = -2000
+	}
+}
+
 denmark_is_a_deathtrap = {
 	allowed = {
 		original_tag = ENG
@@ -1686,6 +1671,96 @@ ENG_trying_to_save_the_east_is_a_deathtrap = {
 		type = dont_defend_ally_borders
 		id = "ALB"
 		value = 500
+	}
+}
+
+minor_allies_dont_invade = {
+	allowed = {
+		NOT = { original_tag = ENG }
+		NOT = { original_tag = USA }
+	}
+	enable = {
+		is_in_faction_with = ENG
+		has_war = yes
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = invade
+		id = "GER"
+		value = -2000
+	}
+	ai_strategy = {
+		type = invasion_unit_request
+		tag = GER
+		value = -100
+	}
+	ai_strategy = {
+		type = invade
+		id = "SOV"
+		value = -2000
+	}
+	ai_strategy = {
+		type = invade
+		id = "ITA"
+		value = -2000
+	}
+	ai_strategy = {
+		type = invasion_unit_request
+		tag = ITA
+		value = -100
+	}
+
+	ai_strategy = {
+		type = invade
+		id = "YUG"
+		value = -2000
+	}
+	ai_strategy = {
+		type = invade
+		id = "ALB"
+		value = -2000
+	}
+	ai_strategy = {
+		type = invade
+		id = "BUL"
+		value = -2000
+	}
+	ai_strategy = {
+		type = invade
+		id = "ROM"
+		value = -2000
+	}
+	ai_strategy = {
+		type = invade
+		id = "CRO"
+		value = -2000
+	}
+	ai_strategy = {
+		type = invade
+		id = "FRA"
+		value = -2000
+	}
+	ai_strategy = {
+		type = invade
+		id = "AOI"
+		value = -2000
+	}
+	ai_strategy = {
+		type = invade
+		id = "RBF"
+		value = -2000
+	}
+	ai_strategy = {
+		type = invade
+		id = "RND"
+		value = -2000
+	}
+	ai_strategy = {
+		type = invade
+		id = "RNR"
+		value = -2000
 	}
 }
 
@@ -1791,78 +1866,6 @@ ENG_USA_focus_on_europe_loads_more = {
 	}
 }
 
-ENG_in_for_the_long_haul_bruv = {
-	allowed = { original_tag = ENG }
-	enable = {
-		has_government = democratic
-		date < 1935.10.1
-		has_war = no
-	}
-	abort_when_not_enabled = yes
-	ai_strategy = {
-		type = building_target
-		id = industrial_complex
-		value = 49
-	}
-	ai_strategy = {
-		type = air_factory_balance
-		value = 20
-	}
-}
-
-ENG_industry_we_on_an_island_bruv = {
-	allowed = { original_tag = ENG }
-	enable = {
-		has_government = democratic
-		has_war = no
-		date > 1937.10.1
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = added_military_to_civilian_factory_ratio
-		value = -60
-	}
-	ai_strategy = {
-		type = air_factory_balance
-		value = 55
-	}
-}
-
-ENG_if_the_best_arrangements_are_made_as_they_are_being_made = {
-	allowed = {
-		original_tag = ENG
-	}
-	enable = {
-		date > 1940.1.1
-		has_war_with = GER
-		num_of_military_factories < 150
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = added_military_to_civilian_factory_ratio
-		value = 50
-	}
-}
-
-ENG_the_best_arrangements_are_made = {
-	allowed = {
-		original_tag = ENG
-	}
-	enable = {
-		date > 1940.1.1
-		has_war_with = GER
-		num_of_military_factories > 150
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = added_military_to_civilian_factory_ratio
-		value = 20
-	}
-}
-
 #### D-DAY ####
 # lets make sure the allies dont overcommit to invasions early on
 careful_with_early_invasions = {
@@ -1903,67 +1906,446 @@ careful_with_early_invasions = {
 	}
 }
 
-ENG_onto_the_beaches = {
-	allowed = {
-		original_tag = ENG
-		is_historical_focus_on = yes
-	}
+ENG_dday_avoid_regions_france = {
 	enable = {
-		date > 1943.1.1
+		is_in_faction_with = ENG
+		GER = { has_war_with = ENG }
+		AND = {
+			14 = { CONTROLLER = { has_war_with = ROOT } }
+			30 = { CONTROLLER = { has_war_with = ROOT } }
+			23 = { CONTROLLER = { has_war_with = ROOT } }
+			19 = { CONTROLLER = { has_war_with = ROOT } }
+		}
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = naval_invasion_focus
-		value = 10
+		type = naval_avoid_region
+		id = 42 #Bay of Biscay
+		value = 2000
 	}
 }
 
-ENG_onto_the_beaches_2 = {
+ENG_dday_hold = {
 	allowed = {
-		original_tag = ENG
-		is_historical_focus_on = yes
+		OR = {
+			tag = ENG
+			tag = FRA
+		}
 	}
 	enable = {
-		date > 1943.6.1
+		has_war_with = GER
+		is_in_faction_with = ENG
+		OR = {
+			date < 1941.8.1
+			AND = {
+				date > 1944.4.1
+				OR = {
+					6 = { CONTROLLER = { is_in_faction_with = ROOT } }
+					29 = { CONTROLLER = { is_in_faction_with = ROOT } }
+					785 = { CONTROLLER = { is_in_faction_with = ROOT } }
+					15 = { CONTROLLER = { is_in_faction_with = ROOT } }
+					14 = { CONTROLLER = { is_in_faction_with = ROOT } }
+					30 = { CONTROLLER = { is_in_faction_with = ROOT } }
+					23 = { CONTROLLER = { is_in_faction_with = ROOT } }
+					19 = { CONTROLLER = { is_in_faction_with = ROOT } }
+				}
+			}
+			AND = {
+				date < 1944.4.1
+				OR = {
+					ITA = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 6
+						}
+					}
+					ITA = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 29
+						}
+					}
+					ITA = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 785
+						}
+					}
+					ITA = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 15
+						}
+					}
+					ITA = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 14
+						}
+					}
+					ITA = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 30
+						}
+					}
+					ITA = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 23
+						}
+					}
+					ITA = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 19
+						}
+					}
+					ITA = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 855
+						}
+					}
+					ITA = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 16
+						}
+					}
+					ITA = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 24
+						}
+					}
+					GER = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 6
+						}
+					}
+					GER = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 29
+						}
+					}
+					GER = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 785
+						}
+					}
+					GER = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 15
+						}
+					}
+					GER = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 14
+						}
+					}
+					GER = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 30
+						}
+					}
+					GER = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 23
+						}
+					}
+					GER = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 19
+						}
+					}
+					GER = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 855
+						}
+					}
+					GER = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 16
+						}
+					}
+					GER = {
+						divisions_in_state = {
+							type = infantry
+							size > 2
+							state = 24
+						}
+					}
+					GER = { is_ai = yes }
+				}
+			}
+		}
+
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = naval_invasion_focus
-		value = 20
+		type = invade
+		id = "GER"
+		value = -5000
+	}
+	ai_strategy = {
+		type = invasion_unit_request
+		tag = GER
+		value = -100
 	}
 }
 
-ENG_onto_the_beaches_3 = {
+ENG_dday_fire = {
 	allowed = {
-		original_tag = ENG
-		is_historical_focus_on = yes
+		OR = {
+			tag = ENG
+			tag = FRA
+		}
 	}
 	enable = {
-		date > 1944.1.1
+		is_in_faction_with = ENG
+		OR = {
+			AND = {
+				date > 1941.8.1
+				GER = { is_ai = no }
+			}
+			date > 1944.6.1
+		}
+		has_war_with = GER
+		OR = {
+			date > 1944.4.1
+			NOT = {
+				ITA = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 6
+					}
+				}
+				ITA = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 29
+					}
+				}
+				ITA = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 785
+					}
+				}
+				ITA = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 15
+					}
+				}
+				ITA = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 14
+					}
+				}
+				ITA = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 30
+					}
+				}
+				ITA = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 23
+					}
+				}
+				ITA = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 19
+					}
+				}
+				ITA = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 855
+					}
+				}
+				ITA = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 16
+					}
+				}
+				ITA = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 24
+					}
+				}
+				GER = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 6
+					}
+				}
+				GER = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 29
+					}
+				}
+				GER = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 785
+					}
+				}
+				GER = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 15
+					}
+				}
+				GER = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 14
+					}
+				}
+				GER = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 30
+					}
+				}
+				GER = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 23
+					}
+				}
+				GER = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 19
+					}
+				}
+				GER = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 855
+					}
+				}
+				GER = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 16
+					}
+				}
+				GER = {
+					divisions_in_state = {
+						type = infantry
+						size > 2
+						state = 24
+					}
+				}
+			}
+		}
+		AND = {
+			6 = { CONTROLLER = { has_war_with = ROOT } }
+			29 = { CONTROLLER = { has_war_with = ROOT } }
+			785 = { CONTROLLER = { has_war_with = ROOT } }
+			15 = { CONTROLLER = { has_war_with = ROOT } }
+			14 = { CONTROLLER = { has_war_with = ROOT } }
+			30 = { CONTROLLER = { has_war_with = ROOT } }
+			23 = { CONTROLLER = { has_war_with = ROOT } }
+			19 = { CONTROLLER = { has_war_with = ROOT } }
+		}
 	}
+
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = naval_invasion_focus
-		value = 30
-	}
-}
+		type = front_control
 
-ENG_onto_the_beaches_4 = {
-	allowed = {
-		original_tag = ENG
-		is_historical_focus_on = yes
+		area = north_france
+
+		ordertype = invasion
+		execute_order = yes
 	}
-	enable = {
-		date > 1944.6.1
-	}
-	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = naval_invasion_focus
-		value = 20
+		type = front_control
+
+		area = benelux
+
+		ordertype = invasion
+		execute_order = no
+	}
+
+	ai_strategy = {
+		type = invade
+		id = "GER"
+		value = 500
+	}
+
+	ai_strategy = {
+		type = invade
+		id = "FRA"
+		value = 500
 	}
 }
 
@@ -2104,42 +2486,57 @@ British_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = europe
-		value = 250
+		value = 200
 	}
 	ai_strategy = {
 		type = area_priority
 		id = north_america
-		value = 10
+		value = -50
 	}
 	ai_strategy = {
 		type = area_priority
 		id = south_america
-		value = 10
+		value = -100
 	}
 	ai_strategy = {
 		type = area_priority
 		id = asia
-		value = 20
+		value = 10
 	}
 	ai_strategy = {
 		type = area_priority
 		id = pacific
-		value = 50
+		value = -100
 	}
 	ai_strategy = {
 		type = area_priority
 		id = oceania
-		value = 70
-	}
-	ai_strategy = {
-		type = area_priority
-		id = middle_east
 		value = 30
 	}
 	ai_strategy = {
 		type = area_priority
+		id = middle_east
+		value = 20
+	}
+	ai_strategy = {
+		type = area_priority
 		id = north_africa
-		value = 50
+		value = 120
+	}
+	ai_strategy = {
+		type = area_priority
+		id = east_africa
+		value = 40
+	}
+	ai_strategy = {
+		type = area_priority
+		id = central_africa
+		value = 0
+	}
+	ai_strategy = {
+		type = area_priority
+		id = south_africa
+		value = 0
 	}
 }
 
@@ -2214,7 +2611,7 @@ ENG_protect_home = {
 			118
 		}
 		
-		ratio = 0.1
+		ratio = 0.2
 		
 		subtract_invasions_from_need = no
 		subtract_fronts_from_need = no
@@ -2230,10 +2627,28 @@ ENG_protect_home = {
 			116
 		}
 		
-		ratio = 0.1
+		ratio = 0.2
 		
 		subtract_invasions_from_need = no
 		subtract_fronts_from_need = no
+	}
+
+	ai_strategy = {
+		type = put_unit_buffers
+
+		order_id = 1
+
+		# north_africa
+		states = {
+			452
+			447
+		}
+
+		ratio = 0.4
+
+		area = north_africa
+
+		subtract_invasions_from_need = no
 	}
 
 	ai_strategy = {
@@ -2246,10 +2661,50 @@ ENG_protect_home = {
 			336
 		}
 		
-		ratio = 0.1
+		ratio = 0.2
 		
 		subtract_invasions_from_need = no
 	}
+}
+
+ENG_lifeline_of_the_empire = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = north_africa
+		value = 30
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		area = north_africa
+		value = 30
+	}
+
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = "EGY"
+		value = 500
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "AST"
+		value = 2000
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "NZL"
+		value = 2000
+	}
+
 }
 
 #### UNIT PRODUCTION ####
@@ -2263,7 +2718,7 @@ ENG_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = garrison
-		value = 5
+		value = -40
 	}
 	ai_strategy = {
 		type = role_ratio
@@ -2288,38 +2743,17 @@ ENG_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = 15
+		value = 10
 	}
 	ai_strategy = {
 		type = role_ratio
 		id = infantry
-		value = 75
-	}
-	#Air unit factors
-	ai_strategy = {
-		type = unit_ratio
-		id = fighter
-		value = 40
+		value = 30
 	}
 	ai_strategy = {
-		type = unit_ratio
-		id = cas
-		value = 3
-	}
-	ai_strategy = {
-		type = unit_ratio
-		id = tactical_bomber
-		value = 5
-	}
-	ai_strategy = {
-		type = unit_ratio
-		id = strategic_bomber
-		value = 25
-	}
-	ai_strategy = {
-		type = unit_ratio
-		id = naval_bomber
-		value = 15
+		type = role_ratio
+		id = motorized
+		value = 20
 	}
 	# Naval unit factors
 	ai_strategy = {
@@ -2335,7 +2769,7 @@ ENG_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = submarine
-		value = 20
+		value = 5
 	}
 	ai_strategy = {
 		type = unit_ratio
@@ -2346,60 +2780,6 @@ ENG_unit_production = {
 		type = unit_ratio
 		id = convoy
 		value = 10
-	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = fighter
-		value = 20
-	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = strategic_bomber
-		value = 15
-	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = infantry
-		value = 30
-	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = artillery
-		value = 30
-	}
-	ai_strategy = {
-		type = equipment_production_factor
-		id = armor
-		value = 15
-	}
-}
-
-royal_air_force = {
-	allowed = {
-		tag = ENG
-	}
-	enable = {
-		date > 1937.12.31
-	}
-	abort = {
-		NOT = {
-			tag = ENG
-			date > 1937.12.31
-		}
-	}
-	ai_strategy = {
-		type = air_factory_balance
-		value = 125
-	}
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = fighter
-		value = 5
-	}
-	ai_strategy = {
-		type = equipment_production_min_factories
-		id = strategic_bomber
-		value = 5
 	}
 }
 
@@ -2520,7 +2900,7 @@ ENG_naval_role_ratios_historical = {
 	ai_strategy = {
 		type = role_ratio
 		id = naval_capital_bb
-		value = -90
+		value = 5
 	}
 	ai_strategy = {
 		type = dockyard_to_military_factory_ratio
@@ -2535,7 +2915,7 @@ ENG_naval_role_ratios_historical = {
 	ai_strategy = {
 		type = role_ratio
 		id = naval_carrier
-		value = -90
+		value = 10
 	}
 
 	ai_strategy = {
@@ -2571,7 +2951,7 @@ ENG_naval_role_ratios_historical = {
 	ai_strategy = {
 		type = role_ratio
 		id = naval_cruiser_heavy
-		value = 00
+		value = 5
 	}
 
 	ai_strategy = {
@@ -2651,5 +3031,55 @@ ENG_convoy_raids_german_italian_convoys = {
 		type = naval_convoy_raid_region
 		id = 29 # Central Mediterranean Sea
 		value = 100
+	}
+}
+
+ENG_med_is_lost = {
+	allowed = {
+		tag = ENG
+	}
+	enable = {
+		448 = { is_controlled_by = ITA }
+		OR = {
+			has_war_with = ITA
+			has_war_with = GER
+		}
+		NOT = { is_in_faction_with = ITA }
+		OR = {
+			NOT = {
+				118 = { is_controlled_by = ENG }
+			}
+			AND = {
+				NOT = {
+					447 = { is_controlled_by = ENG }
+				}
+				NOT = {
+					447 = { is_controlled_by = EGY }
+				}
+			}
+		}
+		NOT = {
+			116 = { is_controlled_by = ENG }
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 29 #central med
+		value = 2000
+	}
+
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 218 #central med
+		value = 2000
+	}
+
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 68 #Algerian Coast
+		value = 2000
 	}
 }

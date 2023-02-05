@@ -16,11 +16,7 @@ HUN_ignore_claims = {
 		tag = HUN
 	}
 	enable = {
-		NOT = {
-			HUN = {
-				has_war = yes
-			}
-		}
+		always = yes
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {

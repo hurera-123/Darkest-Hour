@@ -312,6 +312,24 @@ characters={
 				L_The_Pacifier
 			}
 		}
+		advisor={
+			slot=Armaments_Minister
+			idea_token=ENG_Neville_Chamberlain_AM
+			can_be_fired = no
+			allowed={
+				tag=ENG
+			}
+			visible={
+				date > 1933.01.01
+				date < 1941.01.01
+				D_Minister_Allowed = yes
+				NOT = { has_country_flag = Neville_Chamberlain_unavailable }
+			}
+			traits={
+				
+				AM_Balanced_Budget_Economy
+			}
+		}
 	}
 	ENG_Winston_Churchill = {
 		name=ENG_Winston_Churchill
@@ -2884,6 +2902,7 @@ characters={
 		portraits={
 			army={
 				small="GFX_idea_Archibald_Montgomery_Massingberd"
+				large = "GFX_M_Archibald_Montgomery_Massingberd"
 			}
 		}
 		advisor={
@@ -2919,6 +2938,19 @@ characters={
 				
 				CoArmy_Static_Defence_Doctrine
 			}
+		}
+		field_marshal={
+			traits = {
+				old_guard
+				career_officer
+				inflexible_strategist
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
 		}
 	}
 	ENG_Cyril_Deverell = {
@@ -3141,14 +3173,6 @@ characters={
 				large="GFX_M_William_Slim"
 			}
 		}
-        corps_commander={
-			traits = { trickster war_hero }
-			skill = 5
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 5
-			logistics_skill = 5
-		}
 		advisor={
 			slot=Chief_of_Staff
 			idea_token=ENG_William_Slim_CoStaff
@@ -3328,21 +3352,24 @@ characters={
 			}
 		}
 	}
-	ENG_Lord_Archibald_Wavell = {
-		name=ENG_Lord_Archibald_Wavell
+	ENG_Archibald_Wavell = {
+		name=ENG_Archibald_Wavell
 		portraits={
 			army={
-				small="GFX_idea_Lord_Archibald_Wavell"
+				small="GFX_idea_Archibald_Wavell"
 				large="GFX_M_Archibald_Wavell"
 			}
 		}
-        corps_commander={
-			traits = { career_officer }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 4
+		advisor={
+			slot=high_command
+			idea_token=ENG_Archibald_Wavell_HC
+			allowed={
+				tag=ENG
+			}
+			traits={
+				
+				army_regrouping_2
+			}
 		}
 		advisor={
 			slot=Chief_of_Army
@@ -3369,14 +3396,6 @@ characters={
 				small="GFX_idea_Miles_Dempsey"
 				large="GFX_M_Miles_Dempsey"
 			}
-		}
-        corps_commander={
-			traits = { brilliant_strategist infantry_officer career_officer }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 2
 		}
 		advisor={
 			slot=Chief_of_Army
@@ -4132,25 +4151,6 @@ characters={
 			}
 		}
 	}
-	ENG_Archibald_Wavell = {
-		name=ENG_Archibald_Wavell
-		portraits={
-			army={
-				small="GFX_idea_Archibald_Wavell"
-			}
-		}
-		advisor={
-			slot=high_command
-			idea_token=ENG_Archibald_Wavell_HC
-			allowed={
-				tag=ENG
-			}
-			traits={
-				
-				army_regrouping_2
-			}
-		}
-	}
 	ENG_Claude_Auchinleck = {
 		name=ENG_Claude_Auchinleck
 		portraits={
@@ -4158,14 +4158,6 @@ characters={
 				small="GFX_idea_Claude_Auchinleck"
 				large="GFX_M_Claude_Auchinleck"
 			}
-		}
-		corps_commander={
-			traits = { inflexible_strategist career_officer }
-			skill = 5
-			attack_skill = 3
-			defense_skill = 5
-			planning_skill = 3
-			logistics_skill = 5
 		}
 		advisor={
 			slot=high_command
@@ -4464,14 +4456,6 @@ characters={
 				large="GFX_M_Neil_Ritchie"
 			}
 		}
-        corps_commander={
-			traits = { inflexible_strategist armor_officer politically_connected  }
-			skill = 4
-			attack_skill = 3
-			defense_skill = 4
-			planning_skill = 3
-			logistics_skill = 3
-		}
 	}
 	ENG_Alan_Cunningham = {
 		name=ENG_Alan_Cunningham
@@ -4496,14 +4480,6 @@ characters={
 				large="GFX_M_Richard_OConnor"
 			}
 		}
-        corps_commander={
-			traits = {  }
-			skill = 4
-			attack_skill = 2
-			defense_skill = 4
-			planning_skill = 4
-			logistics_skill = 3
-		}
 	}
 	ENG_George_Giffard = {
 		name=ENG_George_Giffard
@@ -4527,14 +4503,6 @@ characters={
 			army={
 				large="GFX_M_Thomas_Jacomb_Hutton"
 			}
-		}
-        corps_commander={
-			traits = { old_guard }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 1
 		}
 	}
 	ENG_Arthur_Percival = {
@@ -4576,14 +4544,6 @@ characters={
 				large="GFX_M_Oliver_Leese"
 			}
 		}
-        corps_commander={
-			traits = {  armor_officer harsh_leader politically_connected }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 4
-		}
 	}
 	ENG_Brian_Horrocks = {
 		name=ENG_Brian_Horrocks
@@ -4591,14 +4551,6 @@ characters={
 			army={
 				large="GFX_M_Brian_Horrocks"
 			}
-		}
-        corps_commander={
-			traits = {  armor_officer career_officer war_hero }
-			skill = 3
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 3
-			logistics_skill = 3
 		}
 	}
 	ENG_James_Fowness_Somerville = {

@@ -964,9 +964,13 @@
 
 ### Minors
  POL_Heavy_Weapons_equipment_1916: "Ckm wz. 25 & Mozdzierz wz. 18"
+ POL_Heavy_Weapons_equipment_1916_short: "Ckm 25 & Mozdzierz 18"
  POL_Heavy_Weapons_equipment_1936: "Rkm Browning wz.1928 & Granatnik wz. 36"
+ POL_Heavy_Weapons_equipment_1936_short: "Rkm Browning 1928 & Granatnik 36"
  POL_Heavy_Weapons_equipment_1942: "Ckm wz.32 & Mozdzierz wz. 31"
+ POL_Heavy_Weapons_equipment_1942_short: "Ckm 32 & Mozdzierz 31"
  POL_Heavy_Weapons_equipment_1945: "Nkm wz. 38 FK & Mozdzierz wz. 40 ST"
+ POL_Heavy_Weapons_equipment_1945_short: "Nkm 38 FK & Mozdzierz 40 ST"
 
  CAN_Heavy_Weapons_equipment_1916: "Vickers MG & Stokes mortar"
  CAN_Heavy_Weapons_equipment_1936: "Lewis Mk. III DEMS & SBML two-inch mortar"

@@ -100,9 +100,14 @@ focus_tree = {
 		completion_reward = {
 			every_owned_state = {
 				limit = {
-					is_core_of = ENG
-					NOT = {
-						state = 119
+					OR = {
+						state = 131
+						state = 130
+						state = 132
+						state = 128
+						state = 123
+						state = 126
+						state = 121
 					}
 				}
 				add_building_construction = {
@@ -476,6 +481,9 @@ focus_tree = {
 		id = ENG_Fostering_Imperial_Development
 		icon = GFX_ENG_Reinforce_the_Commonwealth
 		cost = 50
+		available = {
+			date > 1934.6.1
+		}
 		prerequisite = {
 			focus = ENG_Steady_As_She_Goes
 		}
@@ -1131,6 +1139,33 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			unlock_decision_category_tooltip = ENG_British_Indian_Army_Category
+			add_corps_commander_role = {
+				character = ENG_Claude_Auchinleck
+				traits = { inflexible_strategist career_officer }
+				skill = 5
+				attack_skill = 3
+				defense_skill = 5
+				planning_skill = 3
+				logistics_skill = 5
+			}
+			add_corps_commander_role={
+				character = ENG_William_Slim
+				traits = { trickster war_hero }
+				skill = 5
+				attack_skill = 3
+				defense_skill = 3
+				planning_skill = 5
+				logistics_skill = 5
+			}
+			add_corps_commander_role={
+				character = ENG_Thomas_Jacomb_Hutton
+				traits = { old_guard }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 1
+			}
 		}
 	}
 	focus = {
@@ -1181,6 +1216,12 @@ focus_tree = {
 		id = ENG_Imperial_Defence_Shakeup
 		icon = GFX_focus_eng_global_defense
 		cost = 40
+		available = {
+			has_country_leader = {
+				character = ENG_Neville_Chamberlain
+				ruling_only = yes
+			}
+		}
 		prerequisite = {
 			focus = ENG_Steady_As_She_Goes
 		}
@@ -1317,6 +1358,70 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			unlock_decision_tooltip = ENG_Fortify_El_Alamein
+			add_corps_commander_role = {
+				character = ENG_Archibald_Wavell
+				traits = { career_officer }
+				skill = 4
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 4
+			}
+			add_corps_commander_role={
+				character = ENG_Oliver_Leese
+				traits = {  armor_officer harsh_leader politically_connected }
+				skill = 4
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 4
+			}
+			add_corps_commander_role={
+				character = ENG_Brian_Horrocks
+				traits = {  armor_officer career_officer war_hero }
+				skill = 3
+				attack_skill = 1
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 3
+			}
+			add_corps_commander_role={
+				character = ENG_Miles_Dempsey
+				traits = { brilliant_strategist infantry_officer career_officer }
+				skill = 4
+				attack_skill = 3
+				defense_skill = 4
+				planning_skill = 4
+				logistics_skill = 2
+			}
+			add_corps_commander_role={
+				character = ENG_Neil_Ritchie
+				traits = { inflexible_strategist armor_officer politically_connected  }
+				skill = 4
+				attack_skill = 3
+				defense_skill = 4
+				planning_skill = 3
+				logistics_skill = 3
+			}
+			add_corps_commander_role = {
+				character = ENG_Richard_OConnor
+				traits = {  }
+				skill = 4
+				attack_skill = 2
+				defense_skill = 4
+				planning_skill = 4
+				logistics_skill = 3
+			}
+			create_corps_commander = {
+				name = "Henry Wilson"
+				GFX = GFX_M_Henry_Wilson
+				traits = { career_officer }
+				skill = 4
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 4
+			}
 		}
 	}
 	focus = {
@@ -1423,6 +1528,12 @@ focus_tree = {
 		completion_reward = {
 			country_event = ENG_Military_Tree.1
 			add_war_support = 0.05
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				army_experience = 150
+			}
 		}
 	}
 	### Airforce Branch

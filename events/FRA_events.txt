@@ -3033,17 +3033,17 @@ news_event = {
 }
 
 #########################################################################
-# Les Beauté de Bordeaux
+# Les Beautés de Bordeaux
 #########################################################################
 country_event = {
-	id = FRA_Reform_of_the_State.11
-	title = FRA_Reform_of_the_State.11.t
-	desc = FRA_Reform_of_the_State.11.d
+	id = FRA_Events.43
+	title = FRA_Events.43.t
+	desc = FRA_Events.43.d
 	picture = GFX_report_FRA_Bordeaux
 	is_triggered_only = yes
 	# 
 	option = {
-		name = FRA_Reform_of_the_State.11.A
+		name = FRA_Events.43.A
 		
 	}
 }
@@ -4611,7 +4611,6 @@ country_event = {
 				}
 			}
 		}
-		set_global_flag = vichy_established
 		hidden_effect =  {
 			news_event = { id = FRA_Capitulation_of_France.3 hours = 6 } # The Second Armistice at Compiégne
 			GER = { news_event = { id = Germany_V.52 days = 5 } } # Hitler visits Paris

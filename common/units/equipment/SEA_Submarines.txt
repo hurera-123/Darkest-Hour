@@ -87,7 +87,7 @@ equipments = {
 		priority = 2500
 		#Misc Stats
 		build_cost_ic = 300
-		manpower = 100
+		manpower = 20
 		# port_capacity_usage = 0.5
 		naval_range = 500
 
@@ -132,7 +132,7 @@ equipments = {
 		priority = 2500
 		#Misc Stats
 		build_cost_ic = 320
-		manpower = 200
+		manpower = 30
 		# port_capacity_usage = 0.75
 		naval_range = 1500
 
@@ -177,7 +177,7 @@ equipments = {
 		priority = 2500
 		#Misc Stats
 		build_cost_ic = 350
-		manpower = 200
+		manpower = 40
 		# port_capacity_usage = 0.75
 		naval_range = 4000
 
@@ -222,7 +222,7 @@ equipments = {
 		priority = 2500
 		#Misc Stats
 		build_cost_ic = 420
-		manpower = 250
+		manpower = 65
 		# port_capacity_usage = 0.75
 		naval_range = 7500
 
@@ -267,7 +267,7 @@ equipments = {
 		priority = 2500
 		#Misc Stats
 		build_cost_ic = 480
-		manpower = 250
+		manpower = 70
 		# port_capacity_usage = 0.75
 		naval_range = 9000
 
@@ -312,7 +312,7 @@ equipments = {
 		priority = 2500
 		#Misc Stats
 		build_cost_ic = 520
-		manpower = 300
+		manpower = 70
 		# port_capacity_usage = 0.75
 		naval_range = 12000
 
@@ -357,7 +357,7 @@ equipments = {
 		priority = 2500
 		#Misc Stats
 		build_cost_ic = 600
-		manpower = 350
+		manpower = 75
 		# port_capacity_usage = 1
 		naval_range = 15000
 
@@ -402,7 +402,7 @@ equipments = {
 		priority = 2500
 		#Misc Stats
 		build_cost_ic = 640
-		manpower = 400
+		manpower = 80
 		# port_capacity_usage = 1
 		naval_range = 15000
 
@@ -448,7 +448,7 @@ equipments = {
 		priority = 2500
 		#Misc Stats
 		build_cost_ic = 2250
-		manpower = 400
+		manpower = 90
 		# port_capacity_usage = 1
 		naval_range = 15000
 		naval_speed = 21
@@ -490,7 +490,7 @@ equipments = {
 		priority = 2500
 		#Misc Stats
 		build_cost_ic = 2812.5
-		manpower = 450
+		manpower = 90
 		# port_capacity_usage = 1
 		naval_range = 15000
 		naval_speed = 21
@@ -521,54 +521,6 @@ equipments = {
 			submarine
 		}
 		#
-	}
-	################################
-	#1960 Submarine
-	################################
-	SSK_equipment_1960 = {
-		year = 1960
-		archetype = SS_equipment
-		parent = SSK_equipment_1955
-		priority = 2500
-		type = {
-			submarine
-		}
-	}
-	################################
-	#1970 SSK
-	################################
-	SSK_equipment_1970 = {
-		year = 1970
-		archetype = SS_equipment
-		parent = SSK_equipment_1960
-		priority = 2500
-		type = {
-			submarine
-		}
-	}
-	################################
-	#1980 SSK
-	################################
-	SSK_equipment_1980 = {
-		year = 1980
-		archetype = SS_equipment
-		parent = SSK_equipment_1970
-		priority = 2500
-		type = {
-			submarine
-		}
-	}
-	################################
-	#1990 SSK
-	################################
-	SSK_equipment_1990 = {
-		year = 1990
-		archetype = SS_equipment
-		parent = SSK_equipment_1980
-		priority = 2500
-		type = {
-			submarine
-		}
 	}
 	######################################################################
 	###################### Nuclear Submarines  (SSN) ##################################
@@ -613,65 +565,6 @@ equipments = {
 		#Resources
 		resources = {
 			steel = 1
-		}
-	}
-	################################
-	#1955 SSN
-	################################
-	SSN_equipment_1955 = {
-		year = 1960
-		archetype = SSN_equipment
-		priority = 2400
-		type = {
-			submarine
-		}
-	}
-	################################
-	#1960 SSN
-	################################
-	SSN_equipment_1960 = {
-		year = 1960
-		archetype = SSN_equipment
-		parent = SSN_equipment_1955
-		priority = 2400
-		type = {
-			submarine
-		}
-	}
-	################################
-	#1970 SSN
-	################################
-	SSN_equipment_1970 = {
-		year = 1970
-		archetype = SSN_equipment
-		parent = SSN_equipment_1960
-		priority = 2400
-		type = {
-			submarine
-		}
-	}
-	################################
-	#1980 SSN
-	################################
-	SSN_equipment_1980 = {
-		year = 1980
-		archetype = SSN_equipment
-		parent = SSN_equipment_1970
-		priority = 2400
-		type = {
-			submarine
-		}
-	}
-	################################
-	#1990 SSN
-	################################
-	SSN_equipment_1990 = {
-		year = 1990
-		archetype = SSN_equipment
-		parent = SSN_equipment_1980
-		priority = 2400
-		type = {
-			submarine
 		}
 	}
 }

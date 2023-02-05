@@ -223,7 +223,7 @@ country_event = {
 			}
 		}
 		SOV = {
-			set_country_flag = SOV_Winter_War
+			activate_mission = SOV_Everything_According_to_Plan
 			declare_war_on = {
 				target = FIN
 				type = take_claimed_state
@@ -388,9 +388,9 @@ country_event = {
 	option = {
 		name = FIN_Winter_War.12.B
 		trigger = {
-			NOT = {
-				controls_state = 146
-				controls_state = 1130
+			OR = {
+				NOT = { controls_state = 146 }
+				NOT = { controls_state = 1130 }
 			}
 		}
 		white_peace = FIN

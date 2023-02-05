@@ -1,0 +1,235 @@
+﻿###########################
+# Darkest Hour Events : Japanese Defeat by China
+###########################
+add_namespace = CHI_Japanese_Defeat
+#########################################################################
+# Capitulation of Japan
+#########################################################################
+country_event = {
+	id = CHI_Japanese_Defeat.1
+	title = CHI_Japanese_Defeat.1.t
+	desc = CHI_Japanese_Defeat.1.d
+	picture = GFX_report_CHI_Lushan_Declaration
+	fire_only_once = yes
+	trigger = {
+		original_tag = CHI
+		has_war_with = JAP
+		JAP = {
+			NOT = {
+				has_war_with = SOV
+			}
+		}
+		OR = {
+			MAN = {
+				exists = no
+				has_capitulated = yes
+			}
+		}
+		controls_state = 985
+		controls_state = 986
+		controls_state = 525
+		controls_state = 988
+		controls_state = 527
+	}
+
+	option = { ### We never should have trusted them!
+		name = CHI_Japanese_Defeat.1.A
+		white_peace = JAP
+		annex_country = {
+			target = MAN
+			transfer_troops = no
+		}
+		annex_country = {
+			target = RNG
+			transfer_troops = no
+		}
+		annex_country = {
+			target = MEN
+			transfer_troops = no
+		}
+		transfer_state = 745
+		transfer_state = 609
+		transfer_state = 611
+		every_state = {
+			limit = {
+				OR = {
+					state = 980
+					state = 981
+					state = 982
+					state = 527
+					state = 983
+					state = 979
+					state = 817
+					state = 525
+					state = 988
+					state = 987
+					state = 986
+					state = 985
+					state = 816
+				}
+			}
+			CHI = { transfer_state = PREV }
+		}
+		hidden_effect = {
+			JAP = {
+				country_event = { id = CHI_Japanese_Defeat.2 }
+			}
+			CHI = {
+				country_event = { id = CHI_Japanese_Defeat.4 days = 2}
+			}
+		}
+	}
+}
+#########################################################################
+# Our Defeat
+#########################################################################
+country_event = {
+	id = CHI_Japanese_Defeat.2
+	title = CHI_Japanese_Defeat.2.t
+	desc = CHI_Japanese_Defeat.2.d
+	picture = GFX_report_CHI_Lushan_Declaration
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = CHI_Japanese_Defeat.2.A
+		hidden_effect = {
+			news_event = { id = CHI_Japanese_Defeat.3 }
+		}
+	}
+}
+#########################################################################
+# The Japanese Empire Signs Peace with China
+#########################################################################
+news_event = {
+	id = CHI_Japanese_Defeat.3
+	title = CHI_Japanese_Defeat.3.t
+	desc = CHI_Japanese_Defeat.3.d
+	picture = GFX_news_CHI_Chinese_Soldiers
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = CHI_Japanese_Defeat.3.A
+	}
+}
+#########################################################################
+# The Question of Taiwan
+#########################################################################
+country_event = {
+	id = CHI_Japanese_Defeat.4
+	title = CHI_Japanese_Defeat.4.t
+	desc = CHI_Japanese_Defeat.4.d
+	picture = GFX_report_CHI_Lushan_Declaration
+	fire_only_once = yes
+	is_triggered_only = yes
+	# Make the offer to the Japanese
+	option = {
+		name = CHI_Japanese_Defeat.4.A
+		ai_chance = {
+			base = 100
+		}
+		JAP = {
+			country_event = { id = CHI_Japanese_Defeat.5 days = 1}
+		}
+	}
+	# Don't make the offer
+	option = {
+		name = CHI_Japanese_Defeat.4.B
+		ai_chance = {
+			base = 0
+		}
+		CHI_Create_Korean_State = yes
+		CHI = {
+			set_autonomy = {
+				target = KOR
+				autonomy_state = AUTONOMY_Puppet
+			}
+		}
+		KOR = {
+			set_cosmetic_tag = KOR_CHI_Puppet
+		}
+	}
+}
+#########################################################################
+# China Asks for Taiwan in Exchange of Korea's Neutrality
+#########################################################################
+country_event = {
+	id = CHI_Japanese_Defeat.5
+	title = CHI_Japanese_Defeat.5.t
+	desc = CHI_Japanese_Defeat.5.d
+	picture = GFX_report_JAP_Formosa_Island
+	fire_only_once = yes
+	is_triggered_only = yes
+	# Accept
+	option = {
+		name = CHI_Japanese_Defeat.5.A
+		ai_chance = {
+			base = 100
+		}
+		CHI_Create_Korean_State = yes
+		CHI = {
+			transfer_state = 524
+			transfer_state = 1526
+		}
+		hidden_effect = {
+			CHI = {
+				country_event = { id = CHI_Japanese_Defeat.6 }
+			}
+		}
+	}
+	# Refuse
+	option = {
+		name = CHI_Japanese_Defeat.5.B
+		ai_chance = {
+			base = 0
+		}
+		CHI_Create_Korean_State = yes
+		CHI = {
+			set_autonomy = {
+				target = KOR
+				autonomy_state = AUTONOMY_Puppet
+			}
+		}
+		KOR = {
+			set_cosmetic_tag = KOR_CHI_Puppet
+		}
+		hidden_effect = {
+			CHI = {
+				country_event = { id = CHI_Japanese_Defeat.7 }
+			}
+		}
+	}
+}
+#########################################################################
+# Japan Accepts
+#########################################################################
+country_event = {
+	id = CHI_Japanese_Defeat.6
+	title = CHI_Japanese_Defeat.6.t
+	desc = CHI_Japanese_Defeat.6.d
+	picture = GFX_report_JAP_Formosa_Island
+	fire_only_once = yes
+	is_triggered_only = yes
+	# Accept
+	option = {
+		name = CHI_Japanese_Defeat.6.A
+		
+	}
+}
+#########################################################################
+# Japan Refuses
+#########################################################################
+country_event = {
+	id = CHI_Japanese_Defeat.7
+	title = CHI_Japanese_Defeat.7.t
+	desc = CHI_Japanese_Defeat.7.d
+	picture = GFX_report_JAP_Formosa_Island
+	fire_only_once = yes
+	is_triggered_only = yes
+	# Accept
+	option = {
+		name = CHI_Japanese_Defeat.7.A
+		
+	}
+}

@@ -270,3 +270,784 @@ Do_Not_Guarantee = {
 		target = guarantee
 	}
 }
+
+default_unit_production = {
+	allowed = {
+		NOT = { original_tag = ENG }
+		NOT = { original_tag = GER }
+		NOT = { original_tag = SOV }
+		NOT = { original_tag = USA }
+		NOT = { original_tag = JAP }
+		NOT = { original_tag = FRA }
+		NOT = { original_tag = CHI }
+		NOT = { original_tag = ITA }
+		NOT = { original_tag = POL }
+		NOT = { original_tag = CZE }
+		NOT = { original_tag = HUN }
+		NOT = { original_tag = SWE }
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 4
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 2
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 80
+	}
+
+	# Naval unit factors
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 20
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 10
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 40
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 15
+	}
+}
+
+DEFAULT_area_priority = {
+	allowed = {
+		NOT = { original_tag = GER }
+		NOT = { original_tag = FRA }
+		NOT = { original_tag = JAP }
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 100
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = 100
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = south_america
+		value = 10
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = 75
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = 20
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = north_africa
+		value = 90
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = east_africa
+		value = 40
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = central_africa
+		value = 0
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = south_africa
+		value = -90
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = pacific
+		value = 50
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = oceania
+		value = 50
+	}
+}
+
+DEFAULT_priority_non_africa = {
+	allowed = {
+		NOT = { original_tag = GER }
+		NOT = { original_tag = FRA }
+		NOT = { original_tag = ENG }
+		NOT = { original_tag = ITA }
+	}
+    enable = {
+        NOT = { capital_scope = { is_on_continent = africa } }
+    }
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = area_priority
+		id = north_africa
+		value = -90
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = africa
+		value = -90
+	}
+}
+
+DEFAULT_produce_floating_harbors = {
+	allowed = {
+		OR = {
+			original_tag = ENG
+			original_tag = USA
+			is_historical_focus_on = no
+		}
+	}
+	enable = {
+		has_war = yes
+		num_of_naval_factories > 25
+		num_of_military_factories > 40 # floating harbors are used for invasions. Why do large invasions if you don't have the industrial capacity?
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = unit_ratio
+		id = floating_harbor # for floating harbors, 'unit_ratio' is actually not a ratio but an absolute desired number
+		value = 10
+	}
+}
+
+DEFAULT_east_and_west_dont_mix = {
+	allowed = {
+		OR = {
+			original_tag = JAP
+			original_tag = CHI
+			original_tag = PRC
+			original_tag = MAN
+			original_tag = MEN
+			original_tag = SIK
+			original_tag = XSM
+			original_tag = SHX
+			original_tag = NEA
+			original_tag = GUZ
+			original_tag = YUN
+			original_tag = GXC
+			original_tag = GND
+			original_tag = LXI
+			original_tag = SHD
+			original_tag = LWH
+		}
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ITA"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FFL"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HUN"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ROM"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FIN"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BUL"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SPR"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HOL"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BEL"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "LUX"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "DEN"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "AUS"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SWI"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "POL"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "IRQ"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PER"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SAU"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "OMA"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "YEM"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "EGY"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ETH"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SAF"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "RAJ"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BRA"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "VEN"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "COL"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PRU"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ARG"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHL"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BOL"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ECU"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "URG"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "MEX"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CAN"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ICE"
+		value = -5000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "ICE"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "GER"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "ITA"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "AOI"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "ETH"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "FFL"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "FIN"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "SWE"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "IRQ"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "PER"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "ROM"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "HUN"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "BUL"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "SLO"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "IRQ"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "PER"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "SAU"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "OMA"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "YEM"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "EGY"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "ETH"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "SAF"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "RAJ"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "BRA"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "VEN"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "COL"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "PRU"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "ARG"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "CHL"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "BOL"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "ECU"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "URG"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "MEX"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "CAN"
+		value = -500
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "TUR"
+		value = -500
+	}
+}
+
+DEFAULT_west_and_east_dont_mix = {
+	allowed = {
+		OR = {
+			original_tag = ENG
+			original_tag = FRA
+			original_tag = BEL
+			original_tag = HOL
+			original_tag = LUX
+			original_tag = SPR
+			original_tag = POR
+			original_tag = SWI
+			original_tag = AUS
+			original_tag = CZE
+			original_tag = POL
+			original_tag = ROM
+			original_tag = HUN
+			original_tag = YUG
+			original_tag = BUL
+			original_tag = GRE
+			original_tag = ITA
+			original_tag = DEN
+			original_tag = NOR
+			original_tag = SWE
+			original_tag = FIN
+			original_tag = LAT
+			original_tag = LIT
+			original_tag = EST
+			original_tag = CRO
+			original_tag = SLO
+			original_tag = IRE
+			original_tag = ICE
+			original_tag = IRQ
+			original_tag = PER
+			original_tag = SAU
+			original_tag = OMA
+			original_tag = YEM
+			original_tag = EGY
+			original_tag = ETH
+			original_tag = SAF
+			original_tag = RAJ
+			original_tag = BRA
+			original_tag = VEN
+			original_tag = COL
+			original_tag = PRU
+			original_tag = ARG
+			original_tag = CHL
+			original_tag = BOL
+			original_tag = ECU
+			original_tag = URG
+			original_tag = MEX
+			original_tag = CAN
+			original_tag = TUR
+		}
+	}
+	enable = {
+		always = yes
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "JAP"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PRC"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GXC"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "XSM"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "YUN"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SHX"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SIK"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GND"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GUZ"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SHD"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "LXI"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "LWH"
+		value = -5000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "NEA"
+		value = -5000
+	}
+}
+
+DEFAULT_dont_ask_for_docking_rights_to_GER = {
+	allowed = {
+		NOT = { tag = SPA }
+		NOT = { tag = SPR }
+		NOT = { tag = GER }
+	}
+	enable = {
+		NOT = { is_in_faction_with = GER }
+		NOT = {
+			is_subject_of = GER
+		}
+		NOT = {
+			has_war_with = GER
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = diplo_action_desire
+		id = GER
+		target = docking_rights
+		value = -5000
+	}
+}
+
+DEFAULT_dont_ask_for_docking_rights_to_SOV = {
+	allowed = {
+		NOT = {
+			tag = SOV
+		}
+	}
+	enable = {
+		NOT = { is_in_faction_with = SOV }
+		NOT = {
+			is_subject_of = SOV
+		}
+		NOT = {
+			has_war_with = SOV
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = diplo_action_desire
+		id = SOV
+		target = docking_rights
+		value = -5000
+	}
+}

@@ -26,9 +26,17 @@
  YUG_Capitulation.1.d: ""
  YUG_Capitulation.1.A: ""
 
- YUG_Capitulation.2.t: "The Capitulation of Yugoslavia"
+ YUG_Capitulation.2.t: "Our Capitulation"
  YUG_Capitulation.2.d: ""
  YUG_Capitulation.2.A: ""
+
+ YUG_Capitulation.3.t: "The Capitulation of Yugoslavia"
+ YUG_Capitulation.3.d: "[GER.GetNewsIcon]"
+ YUG_Capitulation.3.A: ""
+
+ YUG_Capitulation.4.t: "The Capitulation of Yugoslavia"
+ YUG_Capitulation.4.d: "[ITA.GetNewsIcon]"
+ YUG_Capitulation.4.A: ""
 
 ######################################################################
 #  Yugoslavia Spirit

@@ -14,20 +14,6 @@
  ETH.3.d: "History repeats itself as Italian troops crossed our borders with no justification for war. Skirmishes were exchanged, as all negotiations with the League of Nations broke down despite the little efforts put up. Emperor Selassie has given a speech in Addis Ababa, calling for the Ethiopian people to mobilise against the aggressors who had returned to pillage once more."
  ETH.3.A: "Leniguše Negešitu!"
 
- ETH.4.t: "The Dervish Accord"
- ETH.4.d: "Stuff?"
- ETH.4.A: "Sure"
-
- ETH.5.t: "Alliance with Ethiopia?"
- ETH.5.d: "Stuff?"
- ETH.5.A: "Sure"
- ETH.5.B: "Fuck em"
-
- ETH.6.t: "Ethiopia calls against the Italians"
- ETH.6.d: "These Italians suck my dudes help me out."
- ETH.6.A: "Sure my dude"
- ETH.6.B: "Fuck you lmao"
-
  ETH_Italian_Loss_in_War.1.t: "Colonialism, Refuted"
  ETH_Italian_Loss_in_War.1.d: "As the guns fall silent once more, everyone stands in stunned silence. Even the Italian soldiers, who have been pushed onto the beaches of Eritrea and are running out of food and ammunition, can hardly believe what has happened in the last few months. What began as a slaughter of Ethiopians and a sure bet to avenge their grandfathers' loss at Adwa has turned into yet another humiliation. The Italian soldier could no longer go on, and now, with Ethiopian troops marching victoriously through Mogadishu and Asmara, the two linchpins of the Italian East African colonial empire are in enemy hands.\n\nTwo entire Italian armies were forced to surrender due to a lack of supplies and a lack of escape routes. Thousands of Italian soldiers, the cream of the Italian army's crop, have begun the long and humiliating march to prison camps across Ethiopia. Ethiopia has overtaken Italy in euphoric celebrations as Italy reels. Their Emperor, Haile Selassie, is being compared to the Messiah, who was blessed by God himself to triumph.\n\nHow else could such an unlikely outcome occur? The people of Addis Abba celebrated for two weeks, the people of Harar for one, and everyone in every village and town thanked God and Halie for rescuing them from the Italians' oppression and exploitation. Now, with all the cards and all the time in the world, the victorious Emperor Halie Selassie shall meet the Italians for peace and make sure it's one that will secure his Kingdom for all time."
  ETH_Italian_Loss_in_War.1.A: "March Forwards, Dear Mother Ethiopia!"
@@ -60,7 +46,7 @@
 
  ETH_Mobilising_The_NDF: "Mobilising the NDF"
  ETH_Mobilising_The_NDF_desc: "As the Italian coloniser sharpens his blade to strike so shall the Ethiopian lion must be on the prowl and ready to fight for the sake of its peoples and their freedom, to the death if it has to. We must make ready with haste, shall our diplomacy fail we will have to rely on the arms and legs of our soldiers, be they young or old, to be ready to fight tooth and nail for the fatherland and our Emperor."
- ETH_Mobilising_The_NDF_tt: "§YMobilise 3 Infantry Divisions§!"
+ ETH_Mobilising_The_NDF_tt: "Mobilise £helmet_icon_1_20x20 §Y3 Infantry Divisions§!"
 
  ETH_The_Second_Italo_Ethiopian_War: "The Second Italo-Ethiopian War"
  ETH_The_Second_Italo_Ethiopian_War_desc: "It seems that our trust in the international community was misplaced, in the end they’re all nothing but a bunch of vultures, jackals! As we had foreseen, the Italians have shown once more that they are not to be trusted and have declared war upon our nation. It is now the duty of every Ethiopian to do their part and defend our lands from the powers that be and remind them of what happened to their previous expedition into Ethiopian territory."
@@ -68,10 +54,13 @@
 
  ETH_Mobilise_The_Zebeyna: "Mobilise the Zebeyna"
  ETH_Mobilise_The_Zebeyna_desc: "While our men shall fight bravely, we’re going to need more than bravery to win this war. It is time to call upon the best of the best from our ranks, the Emperor’s sword, the Imperial Guard. Armed with the best we have to offer and trained like the most elite of European forces they are undoubtedly going to be the fulcrum of our war operations."
- ETH_Mobilise_The_Zebeyna_tt: "§YMobilise 1 Zebeyna Division§!"
+ ETH_Mobilise_The_Zebeyna_tt: "Mobilise £helmet_icon_1_20x20 §Y1 Zebeyna Division§!"
 
  ETH_Digging_In: "Digging In"
  ETH_Digging_In_desc: "For our defense, we have to retreat into the womb of our sacred earth, our scars upon it shall run wide and deep but for every inch that our men manage to dig, it shall save thousands of innocents and make the Italians regret their mindless decisions even more."
+
+ ETH_Regional_Supply_Depots: "Regional Supply Depots"
+ ETH_Regional_Supply_Depots_desc: ""
 
  ETH_The_Lion_of_Africa: "The Lion of Africa"
  ETH_The_Lion_of_Africa_desc: "The Lion stands proud above its enemies! The Italians are running with their tail between their legs and our troops have made their worth known to not only the Italians but the international community at large, we are no longer just another prey in the eyes of the greedy European gluttons, we are a sovereign nation that has shown that it has the ability to defend its interests and its peoples. Our place on the global stage is assured and it seems that for now any threat to our independence has been dispelled."
@@ -79,7 +68,9 @@
 
  ETH_Guerrilla_Regiments: "Guerrilla Regiments"
  ETH_Guerrilla_Regiments_desc: "Even as the enemy advances, the struggle of our peoples continues on, we have to make sure that every step they’ll make will be filled with uncertainty, that in every corner they won’t supervise our eyes will grow and influence expand. Do not let the Italians forget that they are not welcomed in this realm."
-
+ ETH_Scavenging_Tactics: "Scavenging Tactics"
+ ETH_Scavenging_Tactics_desc: ""
+ 
  ETH_Consolidating_Royal_Titles: "Consolidating Royal Titles"
  ETH_Consolidating_Royal_Titles_desc: "The betrayal and attempted assassination in 1928 of the now Emperor Haile Selassie, then regent,, by the previous empress, followed by her untimely demise lead to a quick ascension to the throne for the young Emperor, valid to succession by his paternal grandmother’s lineage and after being nominated \"Negus\". While an impressive feat this speedy ascension and the turmoil caused by these palace infights have left the Monarch with little time to placate and to befriend the local nobility leading to instability, to fix this a demonstration of royal validity and a sequence of feasts and personal visits are scheduled to properly pacify the upper classes."
 
@@ -262,11 +253,4 @@
  ETH_Pushing_to_Asmara: "Push to Asmara"
  ETH_Fortifying_Ogaden: "Fortify Ogaden"
  ETH_Counter_Attacking_Somaliland: "Counter-Attack in Somaliland"
- ETH_Dealing_with_the_Somali_Revolt: "Deal with the Somali Revolt"
-
- ETH_The_Dervish_Accord: "The Dervish Accord"
- ETH_Alliance_Against_the_Italians: "Alliance against the Italians"
- ETH_Peace_with_Mogadishu: "Peace with Mogadishu"
- ETH_Two_Birds_with_One_Stone: "Two Birds with One Stone"
- ETH_Crush_the_Dervish_Movement: "Crush the Dervish Movement"
 

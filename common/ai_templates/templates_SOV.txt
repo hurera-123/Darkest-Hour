@@ -11,209 +11,57 @@ armored_SOV = {
 	match_to_count = 0.5
 	
 	upgrade_prio = {
-		factor = 2.17
+		factor = 2
 
 		modifier = {
-			factor = 7
-			OR = {
-				has_tech = Medium_Tank_1939
-			}
+			factor = 8
+			date > 1936.1.1
 		}
-		
+
 		modifier = {
 			factor = 2
-			has_tech = Main_Battle_Tank_1952
+			date > 1946.1.1
 		}
 	}
 	
-	light_armor_default_SOV = {
-	
-		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 2
-			}
-		}
-		
-		can_upgrade_in_field = {
-			has_equipment = { armor_equipment < 500 } 
-		}
-	
-		target_width = 20.0
-		width_weight = 1.0
-		column_swap_factor = 0.1
-		
-		stat_weights = {
-			0.00 #-- default_morale
-			1.10 #-- defense
-			1.10 #-- breakthrough
-			0.60 #-- hardness
-			2.00 #-- soft_attack
-			0.00 #-- hard_attack
-			0.10 #-- recon
-			0.01 #-- entrenchment
-			0.10 #-- initiative
-			0.01 #-- casualty_trickleback
-			-0.05 #-- supply_consumption_factor
-			-0.01 #-- supply_consumption
-			0.00 #-- suppression
-			0.00 #-- suppression_factor
-			0.01 #-- experience_loss_factor
-			#-- Air Values
-			0.02 #-- air_attack
-			#-- Common Values
-			30.00 #-- max_organisation
-			0.80 #-- max_strength
-			0.00 #-- build_cost_ic
-			2.0 #-- maximum_speed
-			0.20 #-- armor_value
-			0.05 #-- ap_attack
-			0.10 #-- reliability
-			0.10 #-- reliability_factor
-			0.00 #-- weight
-		}
-		
-		target_template = {
-			weight = 0.9
-			match_value = 4000.0
-			
-			support = {
-				engineer = 1
-				recon = 1
-				artillery_battery = 1
-			}
-			
-			regiments = {
-				light_armor = 6
-				motorized = 3
-			}
-		}
-		
-		allowed_types = {
-			light_armor
-			motorized
-			engineer
-			recon
-			artillery_battery
-		}
-		
-		replace_at_match = 0.4
-		replace_with = medium_armor_default_SOV
-		target_min_match = 0.5
-	}
-
-
-	heavy_armor_default_SOV = {
-	
-		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 1.1
-			}
-		}
-		
-		target_width = 19.9
-		width_weight = 3.0
-		column_swap_factor = 0.1
-		
-		stat_weights = {
-			0.00 #-- default_morale
-			1.10 #-- defense
-			1.10 #-- breakthrough
-			0.60 #-- hardness
-			2.00 #-- soft_attack
-			0.00 #-- hard_attack
-			0.10 #-- recon
-			0.01 #-- entrenchment
-			0.10 #-- initiative
-			0.01 #-- casualty_trickleback
-			-0.05 #-- supply_consumption_factor
-			-0.01 #-- supply_consumption
-			0.00 #-- suppression
-			0.00 #-- suppression_factor
-			0.01 #-- experience_loss_factor
-			#-- Air Values
-			0.02 #-- air_attack
-			#-- Common Values
-			10.00 #-- max_organisation
-			0.80 #-- max_strength
-			0.00 #-- build_cost_ic
-			0.0 #-- maximum_speed
-			0.20 #-- armor_value
-			0.05 #-- ap_attack
-			0.10 #-- reliability
-			0.10 #-- reliability_factor
-			0.00 #-- weight
-		}
-
-		target_template = {
-			weight = 0.5
-			match_value = 1000.0
-			
-			support = {
-				engineer = 1
-				recon = 1
-				logistics_company = 1
-				maintenance_company = 1
-			}
-			
-			regiments = {
-				heavy_armor = 6
-				infantry = 3
-			}
-		}
-		
-		allowed_types = {
-			modern_armor
-			heavy_armor
-			
-			motorized
-			mechanized
-
-			#Cheaper but slower might be worth considering
-			infantry
-			artillery_battalion
-			rocket_artillery_battalion
-
-			motorized_rocket_artillery_battalion 
-
-			engineer
-			recon
-			signal_company
-			maintenance_company
-			logistics_company
-
-			anti_tank_company
-			military_police
-			artillery_battery
-			anti_air_battery
-			rocket_artillery_battery
-		}
-		
-		replace_at_match = 0.4
-		replace_with = modern_armor_default_SOV
-		target_min_match = 0.5
-	}
-
 	medium_armor_default_SOV = {
 	
 		upgrade_prio = {
 			factor = 2
 
 			modifier = {
-				factor = 3
-				has_tech = Medium_Tank_1939
+				factor = 5
+				has_tech = Medium_Tank_1936
 				NOT = {
-					has_tech = Main_Battle_Tank_1952
+					has_tech = Medium_Tank_1941
+					has_tech = APC_1941
+				}
+			}
+		}
+		
+		production_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 5
+				has_tech = Medium_Tank_1936
+				NOT = {
+					has_tech = Medium_Tank_1941
+					has_tech = APC_1941
 				}
 			}
 		}
 		
 		target_width = 30.0
-		width_weight = 1.0
+		width_weight = 2.0
 		column_swap_factor = 0.1
+		
+		can_upgrade_in_field = {
+			has_equipment = { armor_equipment > 1000 }
+			has_equipment = { APC_equipment > 1000 }
+			has_tech = Medium_Tank_1941
+			has_tech = APC_1941
+		}
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -247,67 +95,227 @@ armored_SOV = {
 		
 
 		target_template = {
-			weight = 0.9
+			weight = 1
 			match_value = 5000.0
 			
 			support = {
 				engineer = 1
-				recon = 1
+				mot_recon = 1
+				signal_company = 1
 				maintenance_company = 1
 				logistics_company = 1
 			}
 			
 			regiments = {
-				medium_armor = 7
-				motorized = 3
+				light_armor = 6
+				medium_armor = 3
+				motorized = 6
 			}
 		}
 
 		allowed_types = {
-			modern_armor
+			light_armor
 			medium_armor
 			motorized
-			mechanized
-			infantry
-
-			motorized_rocket_artillery_battalion 
-
+			
 			engineer
-			recon
+			mot_recon
 			signal_company
 			maintenance_company
 			logistics_company
-
-			anti_tank_company
-			military_police
-			artillery_battery
-			anti_air_battery
-			rocket_artillery_battery
 		}
 		
-		replace_at_match = 0.7
-		replace_with = modern_armor_default_SOV
-		target_min_match = 0.5
+		replace_at_match = 0.8
+		replace_with = medium_armor_2_SOV
+		target_min_match = 0.6
+	}
+	
+	medium_armor_2_SOV = {
+
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 6
+				has_tech = Medium_Tank_1941
+				has_tech = APC_1941
+				NOT = {
+					has_tank_destroyer_tech = yes
+				}
+			}
+		}
+
+		production_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 6
+				has_tech = Medium_Tank_1941
+				has_tech = APC_1941
+				NOT = {
+					has_tank_destroyer_tech = yes
+				}
+			}
+		}
+
+		target_width = 30.0
+		width_weight = 2.0
+		column_swap_factor = 0.1
+		
+		can_upgrade_in_field = {
+			has_tech = Medium_Tank_1943
+			has_tank_destroyer_tech = yes
+		}
+
+		target_template = {
+			weight = 2.0
+			match_value = 10000.0
+
+			support = {
+				engineer = 1
+				mot_recon = 1
+				signal_company = 1
+				maintenance_company = 1
+				logistics_company = 1
+				anti_air_battery = 1
+			}
+
+			regiments = {
+				medium_armor = 10
+				mechanized = 5
+			}
+		}
+
+		allowed_types = {
+			medium_armor
+			mechanized
+			
+			engineer
+			mot_recon
+			signal_company
+			maintenance_company
+			logistics_company
+			anti_air_battery
+		}
+
+		replace_at_match = 0.8
+		replace_with = medium_armor_3_SOV
+		target_min_match = 0.6
+	}
+	
+	medium_armor_3_SOV = {
+
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 8
+				has_tank_destroyer_tech = yes
+				has_tech = Medium_Tank_1943
+			}
+		}
+
+		production_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 8
+				has_tank_destroyer_tech = yes
+				has_tech = Medium_Tank_1943
+			}
+		}
+
+		target_width = 30.0
+		width_weight = 2.0
+		column_swap_factor = 0.1
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
+
+		target_template = {
+			weight = 2.0
+			match_value = 17000.0
+
+			support = {
+				engineer = 1
+				mot_recon = 1
+				signal_company = 1
+				maintenance_company = 1
+				logistics_company = 1
+				field_hospital = 1
+			}
+
+			regiments = {
+				medium_armor = 8
+				medium_tank_destroyer_battalion = 2
+				mechanized = 4
+			}
+		}
+
+		allowed_types = {
+			medium_armor
+			medium_tank_destroyer_battalion
+			mechanized
+			
+			engineer
+			mot_recon
+			signal_company
+			maintenance_company
+			logistics_company
+			field_hospital
+		}
+	}
+}
+
+heavy_armor_SOV = {
+
+	available_for = {
+		SOV
 	}
 
+	roles = {
+		heavy_armor
+	}
 
-	modern_armor_default_SOV = {
+	match_to_count = 0.5
+
+	upgrade_prio = {
+		factor = 2.0
+
+		modifier = {
+			factor = 7
+			has_tech = Heavy_Tank_1939
+		}
+
+		modifier = {
+			factor = 2
+			has_tech = Heavy_Tank_1939
+		}
+	}
+
+	heavy_armor_default_SOV = {
 	
 		upgrade_prio = {
 			factor = 2
 
 			modifier = {
-				factor = 3
-				has_tech = Medium_Tank_1939
-				NOT = {
-					has_tech = Main_Battle_Tank_1952
-				}
+				factor = 5
+				has_tech = motorized_rocket_unit
+				has_tech = Heavy_Tank_1939
+				NOT = { has_self_propelled_anti_air_tech = yes }
 			}
 		}
 		
 		target_width = 30.0
-		width_weight = 3.0
+		width_weight = 100.0
 		column_swap_factor = 0.1
+		
+		can_upgrade_in_field = {
+			has_equipment = { APC_equipment > 1000 }
+			has_tech = APC_1941
+			has_tech = motorized_rocket_unit
+			has_self_propelled_anti_air_tech = yes
+		}
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -328,10 +336,10 @@ armored_SOV = {
 			#-- Air Values
 			0.02 #-- air_attack
 			#-- Common Values
-			50.00 #-- max_organisation
+			10.00 #-- max_organisation
 			0.80 #-- max_strength
 			0.00 #-- build_cost_ic
-			10.0 #-- maximum_speed
+			0.0 #-- maximum_speed
 			0.20 #-- armor_value
 			0.05 #-- ap_attack
 			0.10 #-- reliability
@@ -340,41 +348,424 @@ armored_SOV = {
 		}
 
 		target_template = {
-			weight = 0.9
-			match_value = 5000.0
+			weight = 2.0
+			match_value = 14000.0
 			
 			support = {
 				engineer = 1
-				recon = 1
+				mot_recon = 1
+				signal_company = 1
 				maintenance_company = 1
 				logistics_company = 1
+				rocket_artillery_battery = 1
 			}
 			
 			regiments = {
-				modern_armor = 4
-				mechanized = 3
-				medium_sp_artillery_battalion = 2
+				heavy_armor = 9
+				motorized = 6
 			}
 		}
 		
-
 		allowed_types = {
-			modern_armor
+			heavy_armor
 			motorized
-			mechanized
-			motorized_rocket_artillery_battalion 
-			medium_sp_artillery_battalion
+			
 			engineer
-			recon
+			mot_recon
 			signal_company
 			maintenance_company
 			logistics_company
-
-			anti_tank_company
-			military_police
-			artillery_battery
-			anti_air_battery
 			rocket_artillery_battery
+		}
+		
+		replace_at_match = 0.8
+		replace_with = heavy_armor_2_SOV
+		target_min_match = 0.6
+	}
+
+	heavy_armor_2_SOV = {
+
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 10
+				has_self_propelled_anti_air_tech = yes
+				has_tech = motorized_rocket_unit
+				NOT = {
+					has_tank_destroyer_tech = yes
+				}
+			}
+		}
+
+		production_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 10
+				has_self_propelled_anti_air_tech = yes
+				has_tech = motorized_rocket_unit
+				NOT = {
+					has_tank_destroyer_tech = yes
+				}
+			}
+		}
+
+		target_width = 30.0
+		width_weight = 3.0
+		column_swap_factor = 0.1
+		
+		can_upgrade_in_field = {
+			has_tech = Heavy_Tank_1943
+			has_tank_destroyer_tech = yes
+		}
+
+		target_template = {
+			weight = 2.0
+			match_value = 14000.0
+
+			support = {
+				engineer = 1
+				mot_recon = 1
+				signal_company = 1
+				maintenance_company = 1
+				logistics_company = 1
+				rocket_artillery_battery = 1
+			}
+
+			regiments = {
+				heavy_armor = 8
+				medium_sp_anti_air_battalion = 1
+				motorized_rocket_artillery_battalion = 1
+				mechanized = 4
+			}
+		}
+
+		allowed_types = {
+			heavy_armor
+			medium_sp_anti_air_battalion
+			motorized_rocket_artillery_battalion
+			mechanized
+			
+			engineer
+			mot_recon
+			signal_company
+			maintenance_company
+			logistics_company
+			rocket_artillery_battery
+		}
+
+		replace_at_match = 0.8
+		replace_with = heavy_armor_3_SOV
+		target_min_match = 0.6
+	}
+
+	heavy_armor_3_SOV = {
+
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 20
+				has_self_propelled_anti_air_tech = yes
+				has_tank_destroyer_tech = yes
+				has_tech = motorized_rocket_unit
+				has_tech = Heavy_Tank_1943
+			}
+		}
+
+		production_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 20
+				has_self_propelled_anti_air_tech = yes
+				has_tank_destroyer_tech = yes
+				has_tech = motorized_rocket_unit
+				has_tech = Heavy_Tank_1943
+			}
+		}
+
+		target_width = 30.0
+		width_weight = 3.0
+		column_swap_factor = 0.1
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
+
+		target_template = {
+			weight = 2.0
+			match_value = 14000.0
+
+			support = {
+				engineer = 1
+				mot_recon = 1
+				signal_company = 1
+				maintenance_company = 1
+				logistics_company = 1
+				rocket_artillery_battery = 1
+			}
+
+			regiments = {
+				heavy_armor = 8
+				medium_sp_anti_air_battalion = 1
+				medium_tank_destroyer_battalion = 1
+				mechanized = 4
+			}
+		}
+
+		allowed_types = {
+			heavy_armor
+			medium_sp_anti_air_battalion
+			medium_tank_destroyer_battalion
+			mechanized
+			
+			engineer
+			mot_recon
+			signal_company
+			maintenance_company
+			logistics_company
+			rocket_artillery_battery
+		}
+	}
+}
+
+motorized_SOV = {
+
+	available_for = {
+		SOV
+	}
+
+	roles = {
+		motorized
+	}
+
+	match_to_count = 0.5
+
+	upgrade_prio = {
+		factor = 2
+
+		modifier = {
+			factor = 5
+			has_tech = Motorized_1932
+		}
+
+		modifier = {
+			factor = 2
+			has_tech = APC_1941
+		}
+	}
+
+	motorized_default_SOV = {
+
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 10
+				has_tech = Motorized_1932
+				NOT = {
+					has_tech = APC_1941
+				}
+			}
+		}
+
+		production_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 10
+				has_tech = Motorized_1932
+				NOT = {
+					has_tech = APC_1941
+				}
+			}
+		}
+
+		target_width = 30.0
+		width_weight = 100.0
+		column_swap_factor = 0.1
+		
+		can_upgrade_in_field = {
+			has_equipment = { APC_equipment > 500 }
+			has_tech = APC_1941
+			has_tech = motorized_rocket_unit
+		}
+
+		target_template = {
+			weight = 3.0
+			match_value = 8000.0
+
+			support = {
+				engineer = 1
+				mobile_recon = 1
+			}
+
+			regiments = {
+				motorized = 9
+				motorized_artillery_battalion = 3
+				motorized_anti_tank_battalion = 1
+			}
+		}
+
+		allowed_types = {
+			motorized
+			motorized_artillery_battalion
+			motorized_anti_tank_battalion
+			
+			engineer
+			mobile_recon
+		}
+
+		replace_at_match = 0.8
+		replace_with = motorized_2_SOV
+		target_min_match = 0.6
+	}
+
+	motorized_2_SOV = {
+
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 15
+				has_tech = APC_1941
+				has_tech = motorized_rocket_unit
+				NOT = {
+					has_tech = APC_1943
+				}
+			}
+		}
+
+		production_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 15
+				has_tech = APC_1941
+				has_tech = motorized_rocket_unit
+				NOT = {
+					has_tech = APC_1943
+				}
+			}
+		}
+
+		can_upgrade_in_field = {
+			has_equipment = { motorized_equipment < 500 }
+		}
+
+		target_width = 30.0
+		width_weight = 3.0
+		column_swap_factor = 0.1
+		
+		can_upgrade_in_field = {
+			has_equipment = { APC_equipment > 500 }
+			has_tech = APC_1943
+			has_tech = motorized_rocket_unit
+		}
+
+		target_template = {
+			weight = 3.0
+			match_value = 8000.0
+
+			support = {
+				engineer = 1
+				mobile_recon = 1
+				logistics_company = 1
+				signal_company = 1
+				field_hospital = 1
+				anti_air_battery = 1
+			}
+
+			regiments = {
+				motorized = 5
+				mechanized = 4
+				motorized_artillery_battalion = 2
+				motorized_anti_air_battalion = 1
+				motorized_rocket_artillery_battalion = 1
+			}
+		}
+
+		allowed_types = {
+			motorized
+			mechanized
+			motorized_artillery_battalion
+			motorized_anti_air_battalion
+			motorized_rocket_artillery_battalion
+			
+			engineer
+			mobile_recon
+			logistics_company
+			signal_company
+			field_hospital
+			anti_air_battery
+		}
+
+		replace_at_match = 0.8
+		replace_with = motorized_3_SOV
+		target_min_match = 0.6
+	}
+
+	motorized_3_SOV = {
+
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 20
+				has_tech = APC_1943
+			}
+		}
+
+		production_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 20
+				has_tech = APC_1943
+			}
+		}
+
+		target_width = 30.0
+		width_weight = 3.0
+		column_swap_factor = 0.5
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
+
+		target_template = {
+			weight = 3.0
+			match_value = 15000.0
+
+			support = {
+				engineer = 1
+				mobile_recon = 1
+				logistics_company = 1
+				signal_company = 1
+				field_hospital = 1
+				anti_air_battery = 1
+			}
+
+			regiments = {
+				mechanized = 9
+				motorized_artillery_battalion = 1
+				motorized_anti_tank_battalion = 1
+				motorized_rocket_artillery_battalion = 2
+			}
+		}
+
+		allowed_types = {
+			mechanized
+			motorized_artillery_battalion
+			motorized_anti_tank_battalion
+			motorized_rocket_artillery_battalion
+			
+			engineer
+			mobile_recon
+			logistics_company
+			signal_company
+			field_hospital
+			anti_air_battery
 		}
 	}
 }
@@ -390,28 +781,23 @@ infantry_SOV = {
 	}
 	
 	upgrade_prio = {
-		factor = 2
-
-		modifier = {
-			factor = 5
-		}
+		factor = 30
 	}
 	
-	match_to_count = 0.60
+	match_to_count = 0.55
 
 	infantry_default_SOV = {
 	
 		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 20
-			}
+			factor = 25
 		}
 		
-		target_width = 27.0
-		width_weight = 1.0
-		column_swap_factor = 0.5
+		target_width = 30.0
+		width_weight = 2
+		column_swap_factor = 0.1
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -444,39 +830,36 @@ infantry_SOV = {
 		}
 		
 		target_template = {
-			weight = 0.9
+			weight = 1
 			match_value = 3000.0
 			
 			support = {
 				engineer = 1
 				recon = 1
 				field_hospital = 1
+				artillery_battery = 1
+				anti_air_battery = 1
 				anti_tank_company = 1
 			}
 			
 			regiments = {
 				infantry = 9
 				artillery_battalion = 3
+				anti_tank_battalion = 1
 			}
 		}
 		
 		allowed_types = {
-			infantry		
+			infantry
+			artillery_battalion
+			anti_tank_battalion
+			
 			engineer
 			recon
-			signal_company
 			field_hospital
-			logistics_company
-			anti_tank_company
-			military_police
 			artillery_battery
-	#		anti_air_battery
-			rocket_artillery_battery
-			anti_tank_battalion
-			artillery_battalion
-			rocket_artillery_battalion
-	#		light_tank_destroyer_battalion 
-	#		medium_tank_destroyer_battalion 
+			anti_air_battery
+			anti_tank_company
 		}
 	}
 }
@@ -502,7 +885,7 @@ mountaineers_SOV = {
 		}
 	}
 	
-	match_to_count = 0.60
+	match_to_count = 0.5
 
 	mountaineers_default_SOV = {
 	
@@ -514,9 +897,12 @@ mountaineers_SOV = {
 			}
 		}
 		
-		target_width = 19.9
-		width_weight = 3
+		target_width = 20.0
+		width_weight = 2
 		column_swap_factor = 0.2
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
 		
 		stat_weights = {
 			0 #-- default_morale
@@ -549,7 +935,7 @@ mountaineers_SOV = {
 		}
 
 		target_template = {
-			weight = 0.5
+			weight = 0.9
 			match_value = 3000.0
 			
 			support = {
@@ -560,19 +946,19 @@ mountaineers_SOV = {
 			}
 			
 			regiments = {
-				mountaineers = 8
+				mountaineers = 7
 				artillery_battalion = 2
 			}
 		}
 		
 		allowed_types = {
 			mountaineers
+			artillery_battalion
+			
+			engineer
 			artillery_battery
-			recon
-			signal_company
-			field_hospital
-			logistics_company
 			anti_tank_company
+			logistics_company
 		}
 	}
 }
@@ -588,7 +974,7 @@ marines_SOV = {
 	}
 	
 	upgrade_prio = {
-		factor = 2
+		factor = 1
 
 		modifier = {
 			factor = 0
@@ -598,7 +984,7 @@ marines_SOV = {
 		}
 	}
 	
-	match_to_count = 0.60
+	match_to_count = 0.5
 	
 	marine_default_SOV = {
 	
@@ -611,8 +997,11 @@ marines_SOV = {
 		}
 		
 		target_width = 20.0
-		width_weight = 1.0
+		width_weight = 2
 		column_swap_factor = 0.1
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -654,14 +1043,14 @@ marines_SOV = {
 			}
 			
 			regiments = {
-				marine = 9
+				marine = 10
 			}
 		}
 
 		
 		allowed_types = {
 			marine
-			engineer
+			recon
 			logistics_company
 		}
 	}
@@ -678,7 +1067,7 @@ paratroopers_SOV = {
 	}
 	
 	upgrade_prio = {
-		factor = 2
+		factor = 1
 
 		modifier = {
 			factor = 0
@@ -688,7 +1077,7 @@ paratroopers_SOV = {
 		}
 	}
 	
-	match_to_count = 0.60
+	match_to_count = 0.5
 
 	paratrooper_default_SOV = {
 	
@@ -700,9 +1089,12 @@ paratroopers_SOV = {
 			}
 		}
 		
-		target_width = 9.9
-		width_weight = 3.0
+		target_width = 10.0
+		width_weight = 2
 		column_swap_factor = 0.1
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
 		
 		stat_weights = {
 			0.20 #-- default_morale
@@ -745,7 +1137,7 @@ paratroopers_SOV = {
 			}
 			
 			regiments = {
-				paratrooper= 5 
+				paratrooper = 5 
 			}
 		}
 		
@@ -777,7 +1169,7 @@ garrison_SOV = {
 	}
 	
 	upgrade_prio = {
-		factor = 80
+		factor = 10
 
 		modifier = {
 			factor = 0
@@ -785,7 +1177,7 @@ garrison_SOV = {
 		}
 	}
 	
-	match_to_count = 0.8
+	match_to_count = 0.5
 
 
 	garrison_SOV = {
@@ -801,9 +1193,12 @@ garrison_SOV = {
 		reinforce_prio = 0
 		custom_icon = 7
 		
-		target_width = 1.0
-		width_weight = 1.0
+		target_width = 20.0
+		width_weight = 2
 		column_swap_factor = 0.5
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
 		
 		stat_weights = {
 			0.00 #-- default_morale
@@ -836,328 +1231,31 @@ garrison_SOV = {
 		}
 		
 		target_template = {
-			weight = 0.9
-			match_value = 3000.0
+			weight = 1
+			match_value = 7000.0
 			
 			support = {
 				military_police = 1
-			}
-			
-			regiments = {
-				cavalry = 4
-			}
-		}
-		
-		allowed_types = {
-			military_police
-			cavalry
-		}
-	}
-}
-
-
-anti_armor_SOV = {
-
-	available_for = {
-		SOV
-	}
-	
-	roles = {
-		anti_armor
-	}
-	
-	upgrade_prio = {
-		factor = 2
-
-		modifier = {
-			factor = 30
-			#has_war_with = GER
-			any_enemy_country = {
-				ROOT = {
-					estimated_intel_max_armor = {
-						tag = PREV
-						value > 20
-					}
-				}
-			}
-		}
-	}
-	
-	match_to_count = 0.70
-	
-	infantry_anti_armor_SOV = {
-	
-		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 30
-				has_tech = Anti_Tank_Gun_1935
-				#has_war_with = GER
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 20
-						}
-					}
-				}
-			}
-		}
-		
-		target_width = 12.0
-		width_weight = 1.0
-		column_swap_factor = 0.5
-		
-		stat_weights = {
-			0.00 #-- default_morale
-			0.00 #-- defense
-			1.00 #-- breakthrough
-			0.00 #-- hardness
-			1.00 #-- soft_attack
-			4.00 #-- hard_attack
-			0.00 #-- recon
-			1.00 #-- entrenchment
-			0.00 #-- initiative
-			0.00 #-- casualty_trickleback
-			0.00 #-- supply_consumption_factor
-			0.00 #-- supply_consumption
-			0.00 #-- suppression
-			0.00 #-- suppression_factor
-			0.00 #-- experience_loss_factor
-			#-- Air Values
-			0.00 #-- air_attack
-			#-- Common Values
-			0.60 #-- max_organisation
-			0.40 #-- max_strength
-			0.00 #-- build_cost_ic
-			0.00 #-- maximum_speed
-			0.00 #-- armor_value
-			0.20 #-- ap_attack
-			0.00 #-- reliability
-			0.00 #-- reliability_factor
-			0.00 #-- weight
-		}
-		
-		target_template = {
-			weight = 0.9
-			match_value = 3000.0
-			
-			support = {
 				engineer = 1
-				recon = 1
-				field_hospital = 1
-				anti_tank_company = 1
 			}
 			
 			regiments = {
-				infantry = 6
-				anti_tank_battalion = 3
+				garrison = 7
+				artillery_battalion = 1
+				anti_tank_battalion = 1
 			}
 		}
 		
 		allowed_types = {
-			infantry		
-			engineer
-			recon
-			signal_company
-			field_hospital
-			logistics_company
-			anti_tank_company
-			military_police
-			artillery_battery
-	#		anti_air_battery
-			rocket_artillery_battery
-			anti_tank_battalion
 			artillery_battalion
-			rocket_artillery_battalion
-	#		light_tank_destroyer_battalion 
-	#		medium_tank_destroyer_battalion 
-		}
-	}
-	
-	light_armor_anti_amor_SOV = {
-	
-		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 50
-				#has_tech = basic_light_td
-				#has_war_with = GER
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 27
-						}
-					}
-				}
-			}
-		}
-	
-		target_width = 20.0
-		width_weight = 1.0
-		column_swap_factor = 0.1
-		
-		stat_weights = {
-			0.00 #-- default_morale
-			1.10 #-- defense
-			1.10 #-- breakthrough
-			0.60 #-- hardness
-			2.00 #-- soft_attack
-			0.00 #-- hard_attack
-			0.10 #-- recon
-			0.01 #-- entrenchment
-			0.10 #-- initiative
-			0.01 #-- casualty_trickleback
-			-0.05 #-- supply_consumption_factor
-			-0.01 #-- supply_consumption
-			0.00 #-- suppression
-			0.00 #-- suppression_factor
-			0.01 #-- experience_loss_factor
-			#-- Air Values
-			0.02 #-- air_attack
-			#-- Common Values
-			30.00 #-- max_organisation
-			0.80 #-- max_strength
-			0.00 #-- build_cost_ic
-			2.0 #-- maximum_speed
-			0.20 #-- armor_value
-			0.05 #-- ap_attack
-			0.10 #-- reliability
-			0.10 #-- reliability_factor
-			0.00 #-- weight
-		}
-		
-		target_template = {
-			weight = 0.9
-			match_value = 4000.0
-			
-			support = {
-				engineer = 1
-				recon = 1
-				anti_tank_company = 1
-			}
-			
-			regiments = {
-				light_tank_destroyer_battalion = 4
-				motorized = 4
-			}
-		}
-		
-		allowed_types = {
-			light_armor
-			motorized
+			anti_tank_battalion
+			garrison
 			engineer
-			recon
-			artillery_battery
-			anti_tank_company
-			light_tank_destroyer_battalion
-		}
-		
-		replace_at_match = 0.4
-		replace_with = medium_armor_anti_armor_SOV
-		target_min_match = 0.5
-	}
-	
-	medium_armor_anti_armor_SOV = {
-	
-		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 60
-				#has_tech = basic_medium_td
-				#has_war_with = GER
-				any_enemy_country = {
-					ROOT = {
-						estimated_intel_max_armor = {
-							tag = PREV
-							value > 35
-						}
-					}
-				}
-			}
-		}
-		
-		target_width = 19.9
-		width_weight = 3.0
-		column_swap_factor = 0.1
-		
-		stat_weights = {
-			0.00 #-- default_morale
-			1.10 #-- defense
-			1.10 #-- breakthrough
-			1.60 #-- hardness
-			1.00 #-- soft_attack
-			2.00 #-- hard_attack
-			0.10 #-- recon
-			0.01 #-- entrenchment
-			0.10 #-- initiative
-			0.01 #-- casualty_trickleback
-			-0.05 #-- supply_consumption_factor
-			-0.01 #-- supply_consumption
-			0.00 #-- suppression
-			0.00 #-- suppression_factor
-			0.01 #-- experience_loss_factor
-			#-- Air Values
-			0.02 #-- air_attack
-			#-- Common Values
-			50.00 #-- max_organisation
-			0.80 #-- max_strength
-			0.00 #-- build_cost_ic
-			1.0 #-- maximum_speed
-			10.0 #-- armor_value
-			0.05 #-- ap_attack
-			0.10 #-- reliability
-			0.10 #-- reliability_factor
-			0.00 #-- weight
-		}
-
-		target_template = {
-			weight = 0.9
-			match_value = 5000.0
-			
-			support = {
-				engineer = 1
-				recon = 1
-				maintenance_company = 1
-				logistics_company = 1
-				anti_tank_company = 1
-			}
-			
-			regiments = {
-				medium_tank_destroyer_battalion = 7
-				mechanized = 3
-			}
-		}
-
-		allowed_types = {
-			modern_armor
-			medium_armor
-			motorized
-			mechanized
-			infantry
-
-			motorized_rocket_artillery_battalion 
-			medium_tank_destroyer_battalion
-
-			engineer
-			recon
-			signal_company
-			maintenance_company
-			logistics_company
-
-			anti_tank_company
+			infantry		
 			military_police
-			artillery_battery
-			anti_air_battery
-			rocket_artillery_battery
 		}
 	}
 }
-
 
 	# REGIMENTS:
 	#infantry

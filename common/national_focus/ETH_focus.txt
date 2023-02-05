@@ -54,6 +54,7 @@ focus_tree = {
 		x = 18
 		y = 0
 		completion_reward = {
+			army_experience = 25
 			add_tech_bonus = {
 				uses = 2
 				bonus = 0.5
@@ -93,7 +94,7 @@ focus_tree = {
 	focus = {
 		id = ETH_Mobilising_The_NDF
 		icon = GFX_focus_ETH_expand_the_levy
-		cost = 70
+		cost = 35
 		prerequisite = {
 			focus = ETH_Wal_Wal_Incident
 		}
@@ -133,6 +134,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = ETH_Establishing_The_Ethiopia_Airways
 		completion_reward = {
+			air_experience = 15
 			add_tech_bonus = {
 				uses = 2
 				bonus = 0.5
@@ -144,7 +146,7 @@ focus_tree = {
 	focus = {
 		id = ETH_Pleas_to_the_League_of_Nations
 		icon = GFX_focus_ETH_addressing_the_league_of_nations
-		cost = 70
+		cost = 35
 		prerequisite = {
 			focus = ETH_Wal_Wal_Incident
 		}
@@ -170,9 +172,9 @@ focus_tree = {
 		prerequisite = {
 			focus = ETH_Mobilising_The_NDF
 		}
-		x = 0
-		y = 2
-		relative_position_id = ETH_Wal_Wal_Incident
+		x = 1
+		y = 1
+		relative_position_id = ETH_Pleas_to_the_League_of_Nations
 		available = {
 			always = no
 		}
@@ -183,13 +185,13 @@ focus_tree = {
 	focus = {
 		id = ETH_Mobilise_The_Zebeyna
 		icon = GFX_ETH_Mobilize_the_Zebenya
-		cost = 70
+		cost = 35
 		prerequisite = {
 			focus = ETH_The_Second_Italo_Ethiopian_War
 		}
 		x = 0
-		y = 3
-		relative_position_id = ETH_Wal_Wal_Incident
+		y = 1
+		relative_position_id = ETH_The_Second_Italo_Ethiopian_War
 		completion_reward = {
 			custom_effect_tooltip = ETH_Mobilise_The_Zebeyna_tt
 			hidden_effect = {
@@ -206,13 +208,27 @@ focus_tree = {
 			focus = ETH_Mobilise_The_Zebeyna
 		}
 		x = -1
-		y = 4
-		relative_position_id = ETH_Wal_Wal_Incident
+		y = 1
+		relative_position_id = ETH_Mobilise_The_Zebeyna
 		completion_reward = {
 			add_timed_idea = {
 				idea = ETH_Digging_in_idea
 				days = 60
 			}
+		}
+	}
+	focus = {
+		id = ETH_Regional_Supply_Depots
+		icon = GFX_goal_generic_build_tank
+		cost = 70
+		prerequisite = {
+			focus = ETH_Digging_In
+		}
+		x = -1
+		y = 1
+		relative_position_id = ETH_Digging_In
+		completion_reward = {
+			add_ideas = ETH_Regional_Supply_Depots
 		}
 	}
 	focus = {
@@ -223,8 +239,8 @@ focus_tree = {
 			focus = ETH_Mobilise_The_Zebeyna
 		}
 		x = 0
-		y = 5
-		relative_position_id = ETH_Wal_Wal_Incident
+		y = 2
+		relative_position_id = ETH_Mobilise_The_Zebeyna
 		available = {
 			has_country_flag = ETH_Won_Second_Italio_Ethiopian_War
 		}
@@ -243,8 +259,8 @@ focus_tree = {
 			focus = ETH_Mobilise_The_Zebeyna
 		}
 		x = 1
-		y = 4
-		relative_position_id = ETH_Wal_Wal_Incident
+		y = 1
+		relative_position_id = ETH_Mobilise_The_Zebeyna
 		completion_reward = {
 			add_tech_bonus = {
 				uses = 2
@@ -253,6 +269,44 @@ focus_tree = {
 			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
+	}
+	focus = {
+		id = ETH_Scavenging_Tactics
+		icon = GFX_focus_ETH_scavenging_tactics
+		cost = 70
+		prerequisite = {
+			focus = ETH_Guerrilla_Regiments
+		}
+		x = 1
+		y = 1
+		relative_position_id = ETH_Guerrilla_Regiments
+		completion_reward = {
+			add_ideas = ETH_Scavenging_Tactics
+			random_army_leader = {			
+				limit = {
+					NOT = {
+						has_trait = scavenger
+					}
+				}
+				add_trait = {trait = scavenger}
+			}
+			random_army_leader = {			
+				limit = {
+					NOT = {
+						has_trait = scavenger
+					}
+				}
+				add_trait = {trait = scavenger}
+			}
+			random_army_leader = {			
+				limit = {
+					NOT = {
+						has_trait = scavenger
+					}
+				}
+				add_trait = {trait = scavenger}
+			}
+		}
 	}
 	focus = {
 		id = ETH_Consolidating_Royal_Titles
@@ -438,6 +492,9 @@ focus_tree = {
 		cost = 70
 		prerequisite = {
 			focus = ETH_Establishing_The_Ethiopia_Airways
+		}
+		prerequisite = {
+			focus = ETH_Constructing_More_Schools
 		}
 		x = -2
 		y = 1
@@ -697,13 +754,13 @@ focus_tree = {
 						is_owned_and_controlled_by = ROOT
 						free_building_slots = {
 							building = air_base
-							size > 2
+							size > 1
 							include_locked = yes
 						}
 					}
 					add_building_construction = {
 						type = air_base
-						level = 3
+						level = 2
 						instant_build = yes
 					}
 				}
@@ -850,7 +907,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ETH_African_Foreign_Legions
-		icon = GFX_GENERIC_Drafted_Army
+		icon = GFX_focus_ETH_peacekeeping_forces
 		cost = 70
 		prerequisite = {
 			focus = ETH_Importing_Western_Tanks

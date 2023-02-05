@@ -1506,13 +1506,10 @@ JAP_Sino_Japanese_War_category = {
 		}
 		visible = {
 			original_tag = JAP
-			date > 1940.3.1
+			has_war_with = CHI
 			has_global_flag = fall_of_france
 		}
-		available = {
-			has_war_with = CHI
-		}
-		cost = 5
+		cost = 25
 		days_remove = 10
 		remove_effect = {
 			country_event = { id = JAP_Indochina.0 }

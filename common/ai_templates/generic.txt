@@ -7,6 +7,8 @@ armor_generic = {
 		USA
 		ITA
 		SOV
+		FRA
+		POL
 	}
 
 	roles = {
@@ -370,6 +372,8 @@ garrison_generic = {
 		USA
 		ITA
 		SOV
+		FRA
+		POL
 	}
 	
 	roles = {
@@ -463,7 +467,20 @@ infantry_generic = {
 		USA
 		ITA
 		SOV
+		###### China + Warlords
 		CHI
+		PRC
+		GXC
+		YUN
+		SHX
+		XSM
+		SIK
+		NEA
+		MEN
+		MAN
+		######
+		FRA
+		POL
 	}
 
 	roles = {
@@ -566,6 +583,8 @@ mountaineers_generic = {
 		USA
 		ITA
 		SOV
+		FRA
+		POL
 	}
 
 	roles = {
@@ -667,6 +686,8 @@ marines_generic = {
 		USA
 		ITA
 		SOV
+		FRA
+		POL
 	}
 
 	roles = {
@@ -763,6 +784,8 @@ paratrooper_generic = {
 		USA
 		ITA
 		SOV
+		FRA
+		POL
 	}
 
 	roles = {

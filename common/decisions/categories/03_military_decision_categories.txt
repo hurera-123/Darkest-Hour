@@ -41,7 +41,7 @@ ENG_British_Indian_Army_Category = {
 	}
 }
 ENG_Imperial_Defence_Shakeup_Category = {
-	icon = GFX_decision_category_army_reform
+	icon = GFX_decision_category_generic_mountain_fortification
 	allowed = {
 		original_tag = ENG
 	}
@@ -50,6 +50,7 @@ ENG_Imperial_Defence_Shakeup_Category = {
 	}
 }
 USA_Mobilization_Category = {
+	icon = GFX_decision_category_ger_military_buildup
 	allowed = {
 		original_tag = USA
 	}
@@ -196,7 +197,7 @@ FRA_Finish_the_Maginot_Line_category = {
 	}
 }
 FRA_La_Armee_delAir_category = {
-	icon = army_reform
+	icon = GFX_decision_category_ITA_reggianes_exports
 	allowed = {
 		original_tag = FRA
 	}
@@ -215,7 +216,7 @@ FRA_Programme_des_12_Milliards_category = {
 	}
 }
 FRA_Grand_Quartier_General_category = {
-	icon = army_reform
+	icon = GFX_decision_category_military_operation
 	allowed = {
 		original_tag = FRA
 	}
@@ -225,7 +226,7 @@ FRA_Grand_Quartier_General_category = {
 	}
 }
 FRA_Battle_of_France_category = {
-	icon = army_reform
+	icon = GFX_decision_category_intervention_overseas
 	allowed = {
 		original_tag = FRA
 	}
@@ -269,7 +270,7 @@ ITA_spanish_cw_intervention_category = {
 	}
 }
 ITA_ETH_war = {
-	icon = army_reform
+	icon = GFX_decision_category_ETH_italo_ethiopian_war
 	allowed = {
 		original_tag = ITA
 	}
@@ -283,7 +284,7 @@ ITA_ETH_war = {
 	}
 }
 ITA_The_Balkan_Strategy = {
-	icon = army_reform
+	icon = GFX_decision_category_generic_fascism
 	allowed = {
 		original_tag = ITA
 	}
@@ -366,22 +367,12 @@ PRC_Long_March = {
 ### ETH
 ETH_Second_Italo_Ethiopian_War = {
 	icon = generic_propaganda
-	picture = GFX_decision_cat_generic_mefo_bills
+	picture = GFX_decision_category_ETH_italo_ethiopian_war
 	allowed = {
 		original_tag = ETH
 	}
 	visible = {
 		has_country_flag = eth_second_italo_ethiopian_war
-	}
-}
-ETH_The_Dervish_Accord = {
-	icon = generic_propaganda
-	picture = GFX_decision_cat_generic_mefo_bills
-	allowed = {
-		original_tag = ETH
-	}
-	visible = {
-		has_country_flag = eth_dervish_accord
 	}
 }
 GER_Treaty_of_Versaille = {
@@ -541,6 +532,7 @@ JAP_Sino_Japanese_War_category = {
 	}
 }
 JAP_Soviet_Japanese_Border_Clashes_category = {
+	icon = GFX_decision_category_border_conflicts
 	allowed = {
 		OR = {
 			tag = JAP
@@ -587,7 +579,7 @@ JAP_Strike_South_category = {
 	visible_when_empty = yes
 }
 JAP_Maru_Keikaku_category = {
-	icon = GFX_decision_category_power_struggle
+	icon = GFX_decision_category_mtg_naval_treaties
 	allowed = {
 		original_tag = JAP
 	}

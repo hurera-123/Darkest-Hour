@@ -506,7 +506,15 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			army_experience = 30
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				army_experience = 200
+			}
+			else = {
+				army_experience = 30
+			}
 			country_event = { id = SOV_Red_Army.1 days = 1}
 		}
 		search_filters = { }

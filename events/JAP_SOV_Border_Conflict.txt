@@ -18,10 +18,7 @@ country_event = {
 	desc = JAP_SOV_Border_Conflict.1.d
 	picture = GFX_report_SOV_JAP_Troops_Fighting
 	trigger = {
-		OR = {
-			original_tag = JAP
-			original_tag = SOV
-		}
+		original_tag = JAP
 		NOT = { has_country_flag = JAP_SOV_Halhamio_Incident }
 		date > 1935.1.8
 		has_start_date < 1935.1.8
@@ -37,6 +34,11 @@ country_event = {
 		name = JAP_SOV_Border_Conflict.1.A
 		trigger = {
 			original_tag = JAP
+		}
+		hidden_effect = {
+			SOV = {
+				country_event = { id = JAP_SOV_Border_Conflict.1 }
+			}
 		}
 	}
 	#
@@ -56,10 +58,7 @@ country_event = {
 	desc = JAP_SOV_Border_Conflict.2.d
 	picture = GFX_report_SOV_JAP_Troops_Fighting
 	trigger = {
-		OR = {
-			original_tag = JAP
-			original_tag = SOV
-		}
+		original_tag = JAP
 		NOT = { has_country_flag = JAP_SOV_Clashes_Lake_Khanka }
 		date > 1935.6.15
 		has_start_date < 1935.6.15
@@ -75,6 +74,11 @@ country_event = {
 		name = JAP_SOV_Border_Conflict.2.A
 		trigger = {
 			original_tag = JAP
+		}
+		hidden_effect = {
+			SOV = {
+				country_event = { id = JAP_SOV_Border_Conflict.2 }
+			}
 		}
 	}
 	#
@@ -94,10 +98,7 @@ country_event = {
 	desc = JAP_SOV_Border_Conflict.3.d
 	picture = GFX_report_SOV_JAP_Troops
 	trigger = {
-		OR = {
-			original_tag = JAP
-			original_tag = SOV
-		}
+		original_tag = JAP
 		NOT = { has_country_flag = JAP_SOV_Suifenho_Border_Incident }
 		date > 1935.10.4
 		has_start_date < 1935.10.4
@@ -113,6 +114,11 @@ country_event = {
 		name = JAP_SOV_Border_Conflict.3.A
 		trigger = {
 			original_tag = JAP
+		}
+		hidden_effect = {
+			SOV = {
+				country_event = { id = JAP_SOV_Border_Conflict.3 }
+			}
 		}
 	}
 	#
@@ -132,10 +138,7 @@ country_event = {
 	desc = JAP_SOV_Border_Conflict.4.d
 	picture = GFX_report_SOV_JAP_Japanese_Troops
 	trigger = {
-		OR = {
-			original_tag = JAP
-			original_tag = SOV
-		}
+		original_tag = JAP
 		NOT = { has_country_flag = JAP_SOV_Buir_Lake }
 		date > 1935.12.19
 		has_start_date < 1935.12.19
@@ -151,6 +154,11 @@ country_event = {
 		name = JAP_SOV_Border_Conflict.4.A
 		trigger = {
 			original_tag = JAP
+		}
+		hidden_effect = {
+			SOV = {
+				country_event = { id = JAP_SOV_Border_Conflict.4 }
+			}
 		}
 	}
 	#
@@ -192,10 +200,7 @@ country_event = {
 	}
 	picture = GFX_report_SOV_JAP_Troops
 	trigger = {
-		OR = {
-			original_tag = JAP
-			original_tag = SOV
-		}
+		original_tag = JAP
 		NOT = { has_country_flag = JAP_SOV_Border_Tensions }
 		date > 1936.2.4
 		has_start_date < 1936.2.4
@@ -223,6 +228,11 @@ country_event = {
 			original_tag = JAP
 		}
 		unlock_decision_category_tooltip = JAP_Soviet_Japanese_Border_Clashes_category
+		hidden_effect = {
+			SOV = {
+				country_event = { id = JAP_SOV_Border_Conflict.5 }
+			}
+		}
 	}
 	#
 	option = {
@@ -269,6 +279,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.1.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_10_tt
 		add_war_support = 0.01
 		army_experience = 5
 	}
@@ -323,6 +334,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.3.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_Minus_10_tt
 		add_war_support = -0.01
 		army_experience = -5
 	}
@@ -363,6 +375,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.4.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_15_tt
 		add_war_support = 0.02
 		army_experience = 20
 		add_manpower = -100
@@ -421,6 +434,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.6.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_Minus_15_tt
 		add_war_support = -0.02
 		army_experience = -20
 		add_manpower = -500
@@ -462,6 +476,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.7.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_5_tt
 		add_manpower = 1000
 	}
 }
@@ -516,6 +531,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.9.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_Minus_5_tt
 		add_manpower = -1000
 	}
 }
@@ -555,6 +571,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.10.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_5_tt
 		add_war_support = 0.01
 		army_experience = 5
 	}
@@ -609,6 +626,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.12.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_Minus_5_tt
 		army_experience = -5
 		add_equipment_to_stockpile = {
 			type = artillery_equipment
@@ -653,6 +671,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.13.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_10_tt
 		add_war_support = 0.01
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
@@ -716,6 +735,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.15.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_Minus_10_tt
 		add_war_support = -0.01
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
@@ -760,6 +780,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.16.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_15_tt
 		add_war_support = 0.02
 		army_experience = 20
 		add_manpower = -100
@@ -818,6 +839,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.18.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_Minus_15_tt
 		add_war_support = -0.02
 		army_experience = -20
 		add_manpower = -500
@@ -859,6 +881,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.19.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_5_tt
 		add_manpower = 1000
 	}
 }
@@ -913,6 +936,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.21.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_Minus_10_tt
 		add_manpower = -1000
 	}
 }
@@ -952,6 +976,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.22.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_5_tt
 		add_war_support = 0.01
 		army_experience = 5
 	}
@@ -1006,6 +1031,7 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Decisions_Events.24.A
+		custom_effect_tooltip = JAP_SOV_Balance_of_Power_Minus_5_tt
 		army_experience = -5
 		add_equipment_to_stockpile = {
 			type = armor_equipment
@@ -1028,6 +1054,7 @@ country_event = {
 		name = JAP_SOV_Unique_Decisions_Events.1.A
 		random_list = {
 			50 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_10_tt
 				subtract_from_variable = {  # Balance of power leans towards Japan
 					var = JAP_SOV_Balance_of_Power
 					value = 10
@@ -1050,6 +1077,7 @@ country_event = {
 				}
 			}
 			25 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_5_tt
 				subtract_from_variable = {  # Balance of power leans towards Japan
 					var = JAP_SOV_Balance_of_Power
 					value = 5
@@ -1090,6 +1118,7 @@ country_event = {
 		name = JAP_SOV_Unique_Decisions_Events.2.A
 		random_list = {
 			50 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_10_tt
 				add_to_variable = {  # Balance of power leans towards USSR
 					var = JAP_SOV_Balance_of_Power
 					value = 10
@@ -1112,6 +1141,7 @@ country_event = {
 				}
 			}
 			25 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_5_tt
 				add_to_variable = {  # Balance of power leans towards USSR
 					var = JAP_SOV_Balance_of_Power
 					value = 5
@@ -1152,6 +1182,7 @@ country_event = {
 		name = JAP_SOV_Unique_Decisions_Events.3.A
 		random_list = {
 			50 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_10_tt
 				subtract_from_variable = {  # Balance of power leans towards Japan
 					var = JAP_SOV_Balance_of_Power
 					value = 10
@@ -1174,6 +1205,7 @@ country_event = {
 				}
 			}
 			25 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_5_tt
 				subtract_from_variable = {  # Balance of power leans towards Japan
 					var = JAP_SOV_Balance_of_Power
 					value = 5
@@ -1214,6 +1246,7 @@ country_event = {
 		name = JAP_SOV_Unique_Decisions_Events.4.A
 		random_list = {
 			50 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_10_tt
 				add_to_variable = {  # Balance of power leans towards USSR
 					var = JAP_SOV_Balance_of_Power
 					value = 10
@@ -1236,6 +1269,7 @@ country_event = {
 				}
 			}
 			25 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_5_tt
 				add_to_variable = {  # Balance of power leans towards USSR
 					var = JAP_SOV_Balance_of_Power
 					value = 5
@@ -1276,6 +1310,7 @@ country_event = {
 		name = JAP_SOV_Unique_Decisions_Events.5.A
 		random_list = {
 			50 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_10_tt
 				subtract_from_variable = {  # Balance of power leans towards Japan
 					var = JAP_SOV_Balance_of_Power
 					value = 10
@@ -1298,6 +1333,7 @@ country_event = {
 				}
 			}
 			25 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_5_tt
 				subtract_from_variable = {  # Balance of power leans towards Japan
 					var = JAP_SOV_Balance_of_Power
 					value = 5
@@ -1338,6 +1374,7 @@ country_event = {
 		name = JAP_SOV_Unique_Decisions_Events.6.A
 		random_list = {
 			50 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_10_tt
 				add_to_variable = {  # Balance of power leans towards USSR
 					var = JAP_SOV_Balance_of_Power
 					value = 10
@@ -1360,6 +1397,7 @@ country_event = {
 				}
 			}
 			25 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_5_tt
 				add_to_variable = {  # Balance of power leans towards USSR
 					var = JAP_SOV_Balance_of_Power
 					value = 5
@@ -1400,6 +1438,7 @@ country_event = {
 		name = JAP_SOV_Unique_Decisions_Events.7.A
 		random_list = {
 			50 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_10_tt
 				subtract_from_variable = {  # Balance of power leans towards Japan
 					var = JAP_SOV_Balance_of_Power
 					value = 10
@@ -1422,6 +1461,7 @@ country_event = {
 				}
 			}
 			25 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_5_tt
 				subtract_from_variable = {  # Balance of power leans towards Japan
 					var = JAP_SOV_Balance_of_Power
 					value = 5
@@ -1462,6 +1502,7 @@ country_event = {
 		name = JAP_SOV_Unique_Decisions_Events.8.A
 		random_list = {
 			50 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_10_tt
 				add_to_variable = {  # Balance of power leans towards USSR
 					var = JAP_SOV_Balance_of_Power
 					value = 10
@@ -1484,6 +1525,7 @@ country_event = {
 				}
 			}
 			25 = {
+				custom_effect_tooltip = JAP_SOV_Balance_of_Power_5_tt
 				add_to_variable = {  # Balance of power leans towards USSR
 					var = JAP_SOV_Balance_of_Power
 					value = 5
@@ -1848,10 +1890,7 @@ country_event = {
 	}
 	picture = GFX_report_SOV_JAP_Gunboats
 	trigger = {
-		OR = {
-			original_tag = JAP
-			original_tag = SOV
-		}
+		original_tag = JAP
 		date > 1938.7.28
 		has_start_date < 1938.7.28
 		NOT = { has_country_flag = JAP_SOV_Khasan_Incident_Started }
@@ -1871,6 +1910,11 @@ country_event = {
 		name = JAP_SOV_Khasan_Incident.011.A
 		trigger = {
 			tag = JAP
+		}
+		hidden_effect = {
+			SOV = {
+				country_event = { id = JAP_SOV_Khasan_Incident.011 }
+			}
 		}
 	}
 	option = {
@@ -2023,10 +2067,7 @@ country_event = {
 	}
 	picture = GFX_report_SOV_JAP_Soviet_Division
 	trigger = {
-		OR = {
-			original_tag = JAP
-			original_tag = SOV
-		}
+		original_tag = JAP
 		date > 1939.5.1
 		has_start_date < 1939.5.1
 		NOT = { has_country_flag = JAP_SOV_Khalkin_Gol_Incident_Started }
@@ -2045,6 +2086,11 @@ country_event = {
 		name = JAP_SOV_Khalkin_Gol_Incident.011.A
 		trigger = {
 			tag = JAP
+		}
+		hidden_effect = {
+			SOV = {
+				country_event = { id = JAP_SOV_Khalkin_Gol_Incident.011 }
+			}
 		}
 	}
 	option = {
@@ -2288,10 +2334,7 @@ country_event = {
 	desc = JAP_SOV_Heihe_Incident.011.d
 	picture = GFX_report_SOV_JAP_Troops
 	trigger = {
-		OR = {
-			original_tag = JAP
-			original_tag = SOV
-		}
+		original_tag = JAP
 		date > 1940.8.5
 		has_start_date < 1940.8.5
 		NOT = { has_country_flag = JAP_SOV_Heihe_Incident_Started }
@@ -2309,6 +2352,20 @@ country_event = {
 	#
 	option = {
 		name = JAP_SOV_Heihe_Incident.011.A
+		trigger = {
+			original_tag = JAP
+		}
+		hidden_effect = {
+			SOV = {
+				country_event = { id = JAP_SOV_Heihe_Incident.011 }
+			}
+		}
+	}
+	option = {
+		name = JAP_SOV_Heihe_Incident.011.B
+		trigger = {
+			original_tag = SOV
+		}
 	}
 }
 #########################################################################

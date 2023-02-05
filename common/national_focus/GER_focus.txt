@@ -4763,13 +4763,10 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Deepen_Our_Friendship_with_China
-		icon = GFX_focus_chi_cooperation_with_the_nationalists
-		cost = 10
+		icon = GFX_CHI_Sino_German_Cooperation
+		cost = 70
 		prerequisite = {
 			focus = GER_Trautmann_Mediation
-		}
-		prerequisite = {
-			focus = GER_Support_Kuomintang_Government
 		}
 		mutually_exclusive = {
 			focus = GER_Goodwill_Gesture_to_Japan
@@ -4781,44 +4778,72 @@ focus_tree = {
 				id = GER_Kuomintang.2
 				hours = 6
 			}
-			hidden_effect = {
+			set_global_flag = GER_CHI_Treaty_of_Eternal_Friendship
+			effect_tooltip = {
+				GER = {
+					swap_ideas = {
+						remove_idea = GER_Sino_German_Cooperation
+						add_idea = GER_Sino_German_Cooperation_Expanded
+					}
+				}
 				CHI = {
-					news_event = {
-						id = GER_Kuomintang.2
-						hours = 6
+					add_opinion_modifier = {
+						target = GER
+						modifier = GER_Condemned_Japanese_Agression
 					}
-				}
-				JAP = {
-					news_event = {
-						id = GER_Kuomintang.2
-						hours = 6
+					add_tech_bonus = {
+						bonus = 0.5
+						uses = 1
+						category = industry
 					}
-				}
-			}
-		}
-		relative_position_id = GER_Chancellor_Hitler
-	}
-	focus = {
-		id = GER_Support_Kuomintang_Government
-		icon = GFX_CHI_Sino_German_Cooperation
-		cost = 10
-		prerequisite = {
-			focus = GER_Walk_in_the_Backyard
-		}
-		x = 6
-		y = 9
-		completion_reward = {
-			add_ideas = {
-				GER_Sino-German-Relations
-			}
-			add_opinion_modifier = {
-				target = CHI
-				modifier = GER_CHI_Trade_Agreement
-			}
-			CHI = {
-				country_event = {
-					id = GER_Kuomintang.1
-					days = 2
+					add_tech_bonus = {
+						bonus = 0.5
+						uses = 1
+						category = infantry_weapons
+					}
+					army_experience = 25
+					add_equipment_to_stockpile = {
+						type = Fighter_equipment
+						amount = 20
+						producer = GER
+					}
+					add_doctrine_cost_reduction = {
+						cost_reduction = 0.25
+						uses = 1
+						category = land_doctrine
+					}
+					if = {
+						limit = {
+							GER = {
+								has_tech = Small_Arms_1935
+							}
+						}
+						GER = {
+							create_production_license = {
+								target = CHI
+								equipment = {
+									type = Small_Arms_equipment_1935
+								}
+								cost_factor = 1
+							}
+						}
+					}
+					if = {
+						limit = {
+							GER = {
+								has_tech = Heavy_Weapons_1936
+							}
+						}
+						GER = {
+							create_production_license = {
+								target = CHI
+								equipment = {
+									type = Heavy_Weapons_equipment_1936
+								}
+								cost_factor = 1
+							}
+						}
+					}
 				}
 			}
 		}
