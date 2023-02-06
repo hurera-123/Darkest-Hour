@@ -10,6 +10,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_plain_bg2"
 		}
 		
+		
 		instantTextboxType = {
 			name = "national_focus_title"
 			position = { x = 45 y = 8 }
@@ -556,6 +557,17 @@ guiTypes = {
 			#SpriteType ="GFX_technology_info_bg"
 			SpriteType = "GFX_tiled_window_w_close"
 		}
+
+		#containerWindowType = {
+		#	name = "title_diplo_background_window3"
+		#	position = { x = 21 y = 70 }
+		#	size = { width = 175 height = 144 }
+		#	
+		#	background = {
+		#		name = "background"
+		#		spriteType = "GFX_diplo_window_bg_overlay"
+		#	}
+		#}
 		
 		#iconType ={
 		#	name ="info_top_win"
@@ -589,7 +601,7 @@ guiTypes = {
 		}
 		iconType = {
 			name = "symbol"
-			position = { x = 42 y = 88 }
+			position = { x = 62 y = 95 }
 			spriteType = "GFX_goal_unknown"
 			alwaystransparent = yes
 		}
@@ -598,7 +610,7 @@ guiTypes = {
 			position = { x = 205 y = 102 }
 			spriteType = "GFX_generic_bg_307x113"
 			alwaystransparent = yes
-		}		
+		}
 		instantTextboxType = {
 			name = "prerequisites"
 			position = { x = 215 y = 110 }
