@@ -1978,9 +1978,9 @@ focus_tree = {
 			custom_effect_tooltip = GER_Panzertruppen_tt
 			add_tech_bonus = {
 				name = GER_Panzertruppen
-				bonus = 1.5
-				ahead_reduction = 1
-				uses = 2
+				bonus = 0.45
+				ahead_reduction = 0.5
+				uses = 1
 				technology = Light_Tank_1936
 				technology = Medium_Tank_1939
 			}
@@ -2022,9 +2022,9 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = GER_Panzertruppen
-				bonus = 1.5
+				bonus = 0.4
 				ahead_reduction = 1
-				uses = 2
+				uses = 1
 				technology = Motorized_1938
 			}
 			add_equipment_to_stockpile = {
@@ -2058,8 +2058,8 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = GER_Increasing_The_Attack_Power
-				uses = 2
-				bonus = 1
+				uses = 1
+				bonus = 0.45
 				technology = Medium_TD_1939
 				technology = Light_TD_1942
 			}
@@ -2071,6 +2071,9 @@ focus_tree = {
 		id = GER_Bewegungskrieg
 		icon = GFX_GENERIC_Mobile_Warfare
 		cost = 54
+		available = {
+			has_war = yes
+		}
 		prerequisite = {
 			focus = GER_Panzertruppen
 		}
@@ -2246,16 +2249,15 @@ focus_tree = {
 			army_experience = 15
 			add_tech_bonus = {
 				name = GER_Panzerkorps
-				bonus = 1
+				bonus = 0.7
 				uses = 1
 				technology = Light_Tank_1939
 				technology = Medium_Tank_1941
 			}
 			add_tech_bonus = {
 				name = GER_Panzerkorps
-				bonus = 1
+				bonus = 0.7
 				uses = 1
-				ahead_reduction = 1
 				technology = Armored_Schwerpunkt
 			}
 		}

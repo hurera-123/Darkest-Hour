@@ -63,6 +63,48 @@ Hungary_war_with_Carpatho_Ukraine = {
 	}
 }
 
+# Hungary declares war to Carpatho-Ukraine
+CPU_Dont_Join_Allies = {
+	enable = {
+		tag = CPU
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = -1000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = -1000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = -1000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ITA"
+		value = -1000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = -1000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "JAP"
+		value = -1000
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = -1000
+	}
+}
+
 germany_ally_1 = {
 	enable = {
 		tag = HUN
