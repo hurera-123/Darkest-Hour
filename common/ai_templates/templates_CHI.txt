@@ -84,7 +84,6 @@ infantry_CHI = {
 				recon = 1
 				field_hospital = 1
 				logistics_company = 1
-				anti_tank_company = 1
 				artillery_battery = 1
 			}
 			
