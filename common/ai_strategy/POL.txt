@@ -10,6 +10,9 @@
 # protect
 # influence
 british_help_against_germany = {
+	allowed = {
+		original_tag = POL
+	}
 	enable = {
 		tag = POL
 		OR = {
@@ -37,8 +40,10 @@ british_help_against_germany = {
 }
 
 POL_template_design = {
-	enable = {
+	allowed = {
 		original_tag = POL
+	}
+	enable = {
 		date < 1940.1.1
 	}
 	abort = {

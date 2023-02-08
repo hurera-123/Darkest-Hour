@@ -2,8 +2,10 @@
 ## Iraq
 #####################################################
 Iraq_Dont_Join_Factions = {
-	enable = {
+	allowed = {
 		original_tag = IRQ
+	}
+	enable = {
 		is_historical_focus_on = yes
 	}
 	ai_strategy = {
@@ -38,8 +40,10 @@ Iraq_Dont_Join_Factions = {
 	}
 }
 Iraq_Befriend_Germany_After_Coup = {
-	enable = {
+	allowed = {
 		original_tag = IRQ
+	}
+	enable = {
 		has_global_flag = IRQ_Golden_Square_Coup
 		GER = {
 			has_government = fascist

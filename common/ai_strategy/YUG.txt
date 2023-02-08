@@ -3,8 +3,17 @@
 #####################################################
 # Yugoslavia stay neutral
 Yugoslavia_stay_neutral = {
-	enable = {
+	allowed = {
 		original_tag = YUG
+	}
+	enable = {
+		NOT = {
+			OR = {
+				is_puppet = yes
+				is_in_faction = yes
+				has_war = yes
+			}
+		}
 	}
 	abort = {
 		OR = {
@@ -52,10 +61,12 @@ Yugoslavia_stay_neutral = {
 
 # Yugoslavia stay neutral 2
 Yugoslavia_stay_neutral_2 = {
-	enable = {
+	allowed = {
 		original_tag = YUG
-		has_war_with = GER
 		is_historical_focus_on = yes
+	}
+	enable = {
+		has_war_with = GER
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {

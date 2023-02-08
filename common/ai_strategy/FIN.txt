@@ -28,6 +28,9 @@
 # unit_ratio
 # Finland stay neutral until faction joined
 Finland_stay_neutral = {
+	allowed = {
+		original_tag = FIN
+	}
 	enable = {
 		original_tag = FIN
 	}
@@ -75,8 +78,10 @@ Finland_stay_neutral = {
 	}
 }
 FIN_Prepare_for_War_Against_Soviets = {
-	enable = {
+	allowed = {
 		original_tag = FIN
+	}
+	enable = {
 		has_country_flag = FIN_Soviet_Keraila_Demands
 	}
 	abort_when_not_enabled = yes
@@ -92,8 +97,10 @@ FIN_Prepare_for_War_Against_Soviets = {
 	}
 }
 FIN_Befriend_Germans_After_War = {
-	enable = {
+	allowed = {
 		original_tag = FIN
+	}
+	enable = {
 		has_country_flag = FIN_Lost_Winter_War
 		NOT = {
 			is_puppet = yes
@@ -131,9 +138,10 @@ FIN_Befriend_Germans_After_War = {
 }
 
 FIN_Antagonize_SOV = {
+	allowed = {
+		original_tag = FIN
+	}
 	enable = {
-		tag = FIN
-		is_historical_focus_on = yes
 		SOV = { owns_state = 146 } #Karjala
 		NOT = { is_subject_of = SOV }
 	}
@@ -147,8 +155,10 @@ FIN_Antagonize_SOV = {
 }
 
 GER_Dont_Join_Finland = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
-		tag = GER
 		is_historical_focus_on = yes
 		has_country_flag = FIN_Soviet_Keraila_Demands
 	}

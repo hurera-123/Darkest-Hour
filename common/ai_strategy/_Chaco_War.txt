@@ -130,6 +130,12 @@ PAR_Attack = {
 	}
 }
 chaco_war_use_all_your_troops = {
+	allowed = {
+		OR = {
+			tag = PAR
+			tag = BOL
+		}
+	}
 	enable = {
 		PAR = {
 			has_war_with = BOL

@@ -67,8 +67,10 @@ JAP_Faction = {
 }
 # Japanese-German Relations
 JAP_German_Relations = {
-	enable = {
+	allowed = {
 		original_tag = JAP
+	}
+	enable = {
 		JAP = {
 			has_government = fascist
 		}
@@ -168,8 +170,10 @@ JAP_NEA_Relations = {
 }
 # Japanese-British Relations
 JAP_British_Relations = {
-	enable = {
+	allowed = {
 		original_tag = JAP
+	}
+	enable = {
 		JAP = {
 			has_government = fascist
 		}
@@ -220,8 +224,10 @@ JAP_British_Relations = {
 }
 # Japanese-French Relations
 JAP_French_Relations = {
-	enable = {
+	allowed = {
 		original_tag = JAP
+	}
+	enable = {
 		JAP = {
 			has_government = fascist
 		}
@@ -272,8 +278,10 @@ JAP_French_Relations = {
 }
 # Japanese-US Relations
 JAP_US_Relations = {
-	enable = {
+	allowed = {
 		original_tag = JAP
+	}
+	enable = {
 		JAP = {
 			has_government = fascist
 		}
@@ -424,8 +432,10 @@ Puppets_Prepare_for_Attack_on_China = {
 	}
 }
 JAP_China_Invasions_1 = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		has_war_with = CHI
 		608 = { is_controlled_by = JAP }
 		date > 1937.11.1
@@ -472,8 +482,10 @@ JAP_China_Invasions_1 = {
 }
 
 JAP_China_Invasions_2 = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		has_war_with = CHI
 		NOT = { has_war_with = SOV }
 		608 = { is_controlled_by = JAP }
@@ -511,8 +523,10 @@ JAP_China_Invasions_2 = {
 	}
 }
 JAP_China_War = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		has_war_with = CHI
 		date < 1939.4.1
 	}
@@ -550,8 +564,10 @@ JAP_China_War = {
 }
 
 JAP_China_War_2 = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		has_war_with = CHI
 		date > 1940.1.1
 		date < 1941.9.1
@@ -657,8 +673,10 @@ MAN_help_in_northen_china = {
 }
 
 JAP_Southern_Expansion_1 = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		has_completed_focus = JAP_Strike_on_the_Southern_Resource_Area
 		NOT = { is_in_faction_With = PHI }
 		PHI = { has_capitulated = no }
@@ -703,8 +721,10 @@ JAP_Southern_Expansion_1 = {
 }
 
 JAP_Southern_Expansion_2 = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		has_completed_focus = JAP_Strike_on_the_Southern_Resource_Area
 		OR = {
 			NOT = { has_war_with = PHI }
@@ -766,8 +786,10 @@ JAP_Southern_Expansion_2 = {
 }
 
 JAP_Southern_Expansion_3 = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		has_completed_focus = JAP_Strike_on_the_Southern_Resource_Area
 		has_war_with = USA
 		date < 1944.1.1
@@ -839,8 +861,10 @@ JAP_Southern_Expansion_3 = {
 }
 
 JAP_Protect_Our_Expansion = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		has_war = yes
 		date > 1944.1.1
 	}
@@ -853,8 +877,10 @@ JAP_Protect_Our_Expansion = {
 }
 
 JAP_Strike_USA = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		has_completed_focus = JAP_Strike_on_the_Southern_Resource_Area
 		country_exists = USA
 	}
@@ -878,8 +904,10 @@ JAP_Strike_USA = {
 }
 
 JAP_If_USA_Gets_Too_Strong_Stop_Invading = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		has_war_with = USA
 		JAP = {
 			naval_strength_ratio = {
@@ -923,8 +951,10 @@ JAP_If_USA_Gets_Too_Strong_Stop_Invading = {
 }
 
 JAP_Push_Burma_and_Malaya = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		OR = {
 			is_in_faction_with = SIA
 			SIA = { is_subject_of = JAP }
@@ -958,6 +988,9 @@ JAP_Push_Burma_and_Malaya = {
 }
 
 JAP_Siams_Job = {
+	allowed = {
+		original_tag = SIA
+	}
 	enable = {
 		tag = SIA
 		is_in_faction_with = JAP
@@ -973,9 +1006,13 @@ JAP_Siams_Job = {
 ## ------------------ Region Priorities -------------------------------------------------------------
 ## Japanese Region Priorities
 JAP_area_priority = {
-	enable = {
+	allowed = {
 		original_tag = JAP
 	}
+	enable = {
+		always = yes
+	}
+	
 	ai_strategy = {
 		type = area_priority
 		id = europe
@@ -1018,8 +1055,10 @@ JAP_area_priority = {
 	}
 }
 JAP_Protect_Home = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		OR = {
 			date > 1941.10.1
 			has_war_with = USA
@@ -1055,8 +1094,10 @@ JAP_Protect_Home = {
 }
 
 JAP_Protect_Home_Islands = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		has_war = yes
 		naval_strength_ratio = {
 			tag = USA
@@ -1115,8 +1156,10 @@ JAP_Protect_Home_Islands = {
 }
 
 JAP_Protect_Conquered_Lands = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		has_war = yes
 		NOT = { has_war_with = SOV }
 		date > 1942.8.1
@@ -1185,8 +1228,10 @@ JAP_Protect_Conquered_Lands = {
 }
 # hey dynamic targets would be swole as f*
 all_china_must_prosper_in_my_prosperity_sphere_SIK = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		OR = {
 			NOT = {
 				country_exists = CHI
@@ -1224,8 +1269,10 @@ all_china_must_prosper_in_my_prosperity_sphere_SIK = {
 	}
 }
 all_china_must_prosper_in_my_prosperity_sphere_XSM = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		OR = {
 			NOT = {
 				country_exists = CHI
@@ -1263,8 +1310,10 @@ all_china_must_prosper_in_my_prosperity_sphere_XSM = {
 	}
 }
 all_china_must_prosper_in_my_prosperity_sphere_GXC = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		OR = {
 			NOT = {
 				country_exists = CHI
@@ -1302,8 +1351,10 @@ all_china_must_prosper_in_my_prosperity_sphere_GXC = {
 	}
 }
 all_china_must_prosper_in_my_prosperity_sphere_SHX = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		OR = {
 			NOT = {
 				country_exists = CHI
@@ -1341,8 +1392,10 @@ all_china_must_prosper_in_my_prosperity_sphere_SHX = {
 	}
 }
 all_china_must_prosper_in_my_prosperity_sphere_YUN = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		OR = {
 			NOT = {
 				country_exists = CHI
@@ -1380,8 +1433,10 @@ all_china_must_prosper_in_my_prosperity_sphere_YUN = {
 	}
 }
 all_china_must_prosper_in_my_prosperity_sphere_PRC = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		OR = {
 			NOT = {
 				country_exists = CHI
@@ -1419,8 +1474,10 @@ all_china_must_prosper_in_my_prosperity_sphere_PRC = {
 	}
 }
 jap_china_is_weak = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		date < 1939.10.1
 		NOT = {
 			is_in_faction_with = CHI
@@ -1474,8 +1531,10 @@ jap_china_is_weak = {
 	}
 }
 jap_building_boats_is_great = {
+	allowed = {
+		original_tag = JAP
+	}
 	enable = {
-		tag = JAP
 		num_of_civilian_factories_available_for_projects > 15
 	}
 	abort = {

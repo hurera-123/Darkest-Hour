@@ -862,12 +862,14 @@ USA_stop_soviet_from_falling_2 = {
 }
 
 USA_Germany_First = {
+	allowed = {
+		original_tag = USA
+	}
 	enable = {
 		date < 1945.6.1
 		SOV = {
 			has_war_with = GER
 		}
-		original_tag = USA
 		has_war_with = GER
 		is_in_faction_with = ENG
 		NOT = {
@@ -1071,8 +1073,10 @@ USA_Germany_First = {
 }
 
 USA_Home_Bases_Pacific = {
-	enable = {
+	allowed = {
 		original_tag = USA
+	}
+	enable = {
 		OR = {
 			has_war_with = JAP
 			date < 1944.1.1
@@ -1095,8 +1099,10 @@ USA_Home_Bases_Pacific = {
 }
 
 USA_Protect_PHI = {
+	allowed = {
+		original_tag = USA
+	}
 	enable = {
-		tag = USA
 		has_war_with = JAP
 		date > 1944.1.1
 	}
@@ -1123,8 +1129,10 @@ USA_Protect_PHI = {
 }
 
 USA_Fight_JAP = {
+	allowed = {
+		original_tag = USA
+	}
 	enable = {
-		tag = USA
 		has_war_with = JAP
 		OR = {
 			NOT = { has_war_with = GER }
@@ -1527,8 +1535,10 @@ USA_Operation_Torch_Landing = {
 }
 
 USA_Operation_Torch_Disable = {
+	allowed = {
+		original_tag = USA
+	}
 	enable = {
-		tag = USA
 		OR = {
 			has_war_with = GER
 			has_war_with = ITA
@@ -1635,7 +1645,6 @@ USA_garrison_the_pacific = {
 		tag = USA
 	}
 	enable = {
-		tag = USA
 		date > 1937.1.1
 	}
 	
@@ -1772,8 +1781,10 @@ usa_unit_production = {
 }
 
 USA_highered_armored_production = {
-	enable = {
+	allowed = {
 		original_tag = USA
+	}
+	enable = {
 		num_of_military_factories > 119
 	}
 	abort = {
@@ -1823,8 +1834,10 @@ USA_highered_armored_production = {
 	}
 }
 USA_build_mils = {
+	allowed = {
+		original_tag = USA
+	}
 	enable = {
-		tag = USA
 		date > 1940.1.7
 		num_of_military_factories < 250
 	}

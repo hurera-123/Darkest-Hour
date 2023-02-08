@@ -3,7 +3,7 @@
 #####################################################
 # Baltics stay neutral
 Baltics_stay_neutral = {
-	enable = {
+	allowed = {
 		OR = {
 			original_tag = LIT
 			original_tag = LAT

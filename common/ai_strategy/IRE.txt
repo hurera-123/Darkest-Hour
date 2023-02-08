@@ -1,6 +1,9 @@
 
 #Anglo-Irish Relations
 Anglo_Irish_Animosity = {
+	allowed = {
+		tag = IRE
+	}
 	enable = {
 		original_tag = IRE
 		NOT = {

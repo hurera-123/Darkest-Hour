@@ -26,7 +26,7 @@ infantry_CHI = {
 		}
 	}
 
-	match_to_count = 0.10
+	match_to_count = 0.35
 	
 	infantry_default_CHI = {
 	
@@ -39,8 +39,8 @@ infantry_CHI = {
 		}
 		
 		target_width = 20.0
-		width_weight = 1.0
-		column_swap_factor = 0.5
+		width_weight = 100.0
+		column_swap_factor = 0.3
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }

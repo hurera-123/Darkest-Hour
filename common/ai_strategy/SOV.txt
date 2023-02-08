@@ -120,8 +120,10 @@ Soviet_Japanese_Relations = {
 	}
 }
 SOV_Prepare_for_War_with_Germany = {
-	enable = {
+	allowed = {
 		tag = SOV
+	}
+	enable = {
 		country_exists = GER
 		POL = {
 			OR = {
@@ -282,8 +284,10 @@ SOV_Invade_Germany_if_they_dont_Attack = {
 }
 
 SOV_Prepare_for_Finland = {
-	enable = {
+	allowed = {
 		tag = SOV
+	}
+	enable = {
 		has_completed_focus = SOV_Expansion_of_the_Soviet_Sphere
 		NOT = {
 			has_war_with = FIN
@@ -302,8 +306,10 @@ SOV_Prepare_for_Finland = {
 }
 
 SOV_Winter_War = {
-	enable = {
+	allowed = {
 		tag = SOV
+	}
+	enable = {
 		has_completed_focus = SOV_Expansion_of_the_Soviet_Sphere
 		has_war_with = FIN
 		date < 1940.2.1
@@ -337,8 +343,10 @@ SOV_Winter_War = {
 }
 
 SOV_War_with_Germany = {
-	enable = {
+	allowed = {
 		tag = SOV
+	}
+	enable = {
 		has_war_with = GER
 		NOT = {
 			has_war_with = CHI
@@ -381,28 +389,24 @@ SOV_War_with_Germany = {
 
 	ai_strategy = {
 		type = front_unit_request
-
 		area = east_europe
 		value = 1000
 	}
 
 	ai_strategy = {
 		type = front_unit_request
-
 		area = north_russia
 		value = 1000
 	}
 
 	ai_strategy = {
 		type = front_unit_request
-
 		area = west_russia
 		value = 1000
 	}
 
 	ai_strategy = {
 		type = front_unit_request
-
 		area = south_russia
 		value = 1000
 	}
@@ -441,7 +445,6 @@ SOV_Be_Defensive = {
 	allowed = {
 		tag = SOV
 	}
-
 	enable = {
 		has_war_with = GER
 		surrender_progress > 0
@@ -469,7 +472,6 @@ SOV_Dont_Be_Aggressive = {
 	allowed = {
 		tag = SOV
 	}
-
 	enable = {
 		has_war_with = GER
 		surrender_progress > 0
@@ -498,7 +500,6 @@ SOV_Push = {
 	allowed = {
 		tag = SOV
 	}
-
 	enable = {
 		has_war_with = GER
 		date > 1944.8.1
@@ -521,12 +522,13 @@ SOV_Push = {
 	}
 }
 SOV_Defend_Leningrad = {
+	allowed = {
+		tag = SOV
+	}
 	enable = {
-		original_tag = SOV
 		date > 1933.1.1
 		date < 1942.1.1
 	}
-
 	ai_strategy = {
 		type = garrison
 		value = -25
@@ -549,8 +551,10 @@ SOV_Defend_Leningrad = {
 }
 
 SOV_Defend_Sevastapol = {
+	allowed = {
+		tag = SOV
+	}
 	enable = {
-		original_tag = SOV
 		date > 1933.1.1
 		date < 1942.1.1
 	}
@@ -726,8 +730,10 @@ Soviet_Xinjiang_rebellion_response = {
 }
 # Soviet Intervention in the SCW
 SOV_SCW = {
+	allowed = {
+		tag = SOV
+	}
 	enable = {
-		original_tag = SOV
 		country_exists = SPA
 		country_exists = SPR
 	}
@@ -798,8 +804,10 @@ GER_Ignore_SOV = {
 	}
 }
 SOV_Prepare_to_Invade_Japan = {
-	enable = {
+	allowed = {
 		tag = SOV
+	}
+	enable = {
 		JAP = { has_war_with = USA }
 		NOT = { has_war_with = FRA }
 		NOT = { has_war_with = ENG }
@@ -838,8 +846,10 @@ SOV_Prepare_to_Invade_Japan = {
 	}
 }
 SOV_Ignore_Claims_in_Turkey = {
-	enable = {
+	allowed = {
 		tag = SOV
+	}
+	enable = {
 		NOT = {
 			has_war_with = TUR
 		}
@@ -854,8 +864,10 @@ SOV_Ignore_Claims_in_Turkey = {
 	}
 }
 SOV_Ignore_Claims_in_Romania = {
-	enable = {
+	allowed = {
 		tag = SOV
+	}
+	enable = {
 		NOT = {
 			has_war_with = ROM
 		}
@@ -870,8 +882,10 @@ SOV_Ignore_Claims_in_Romania = {
 	}
 }
 SOV_Ignore_Claims_in_Finland = {
-	enable = {
+	allowed = {
 		tag = SOV
+	}
+	enable = {
 		NOT = {
 			has_war_with = ROM
 		}
@@ -886,8 +900,11 @@ SOV_Ignore_Claims_in_Finland = {
 	}
 }
 SOV_Ignore_Claims_Baltics = {
-	enable = {
+	allowed = {
 		tag = SOV
+	}
+	enable = {
+		always = yes
 	}
 
 	ai_strategy = {
@@ -909,8 +926,10 @@ SOV_Ignore_Claims_Baltics = {
 	}
 }
 SOV_Dont_Come_Back_After_Losing = {
-	enable = {
+	allowed = {
 		tag = SOV
+	}
+	enable = {
 		NOT = {
 			has_war_with = GER
 		}
@@ -1185,8 +1204,10 @@ SOV_template_design_1 = {
 	}
 }
 SOV_template_design_2 = {
-	enable = {
+	allowed = {
 		original_tag = SOV
+	}
+	enable = {
 		date > 1940.1.1
 	}
 	ai_strategy = {
@@ -1236,7 +1257,6 @@ SOV_naval_role_ratios_historical = {
 		has_dlc = "Man the Guns"
 		original_tag = SOV
 	}
-
 	enable = {
 		always = yes
 	}
@@ -1297,8 +1317,10 @@ SOV_naval_role_ratios_historical = {
 }
 
 SOV_pp_spending = {
-	enable = {
+	allowed = {
 		original_tag = SOV
+	}
+	enable = {
 		has_manpower < 100000
 		has_political_power < 200
 	}

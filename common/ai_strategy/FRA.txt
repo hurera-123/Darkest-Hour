@@ -11,6 +11,9 @@
 # influence
 
 FRA_Anglo_French_Relations = {
+	allowed = {
+		original_tag = FRA
+	}
 	enable = {
 		original_tag = FRA
 		FRA = {
@@ -34,6 +37,9 @@ FRA_Anglo_French_Relations = {
 }
 
 FRA_Franco_Soviet_Relations = {
+	allowed = {
+		original_tag = FRA
+	}
 	enable = {
 		original_tag = FRA
 		FRA = {
@@ -72,6 +78,9 @@ FRA_Franco_Soviet_Relations = {
 }
 
 FRA_Franco_German_Relations = {
+	allowed = {
+		original_tag = FRA
+	}
 	enable = {
 		original_tag = FRA
 		FRA = {

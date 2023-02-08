@@ -2,9 +2,10 @@
 ## Republican Spain
 #####################################################
 Spain_Defend_Cities = { #During Civil War
-	enable = {
+	allowed = {
 		tag = SPR
-		is_historical_focus_on = yes
+	}
+	enable = {
 		has_global_flag = SCW_started
 	}
 	ai_strategy = {

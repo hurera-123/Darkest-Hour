@@ -94,7 +94,7 @@ ITA_historical = {
 		ITA_New_Fascist_Airfleet
 		ITA_Carta_della_Scuola
 		ITA_Gufo_Naval_Radar
-		ITA_Expand_Portello_Plant
+		ITA_Expand_The_Macchi_Factory
 		ITA_Ground_Support_Aircraft
 		ITA_Ex_Alto_Fulgor
 		# 1941

@@ -191,6 +191,9 @@ GER_ITA_Relations = {
 }
 # German-Japanese Relations
 GER_JAP_Relations = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		original_tag = GER
 		GER = {
@@ -225,6 +228,9 @@ GER_JAP_Relations = {
 }
 # German-Hungarian Relations
 GER_HUN_Relations = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		original_tag = GER
 		GER = {
@@ -270,6 +276,9 @@ GER_HUN_Relations = {
 }
 # German-Romanian Relations
 GER_ROM_Relations = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		original_tag = GER
 		GER = {
@@ -314,6 +323,9 @@ GER_ROM_Relations = {
 }
 # German-Bulgarian Relations
 GER_BUL_Relations = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		original_tag = GER
 		GER = {
@@ -359,6 +371,9 @@ GER_BUL_Relations = {
 }
 # German-British Relations
 GER_ENG_Relations = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		original_tag = GER
 		GER = {
@@ -411,6 +426,9 @@ GER_ENG_Relations = {
 }
 # German-French Relations
 GER_FRA_Relations = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		original_tag = GER
 		GER = {
@@ -460,6 +478,9 @@ GER_FRA_Relations = {
 }
 # German-Polish Relations
 GER_POL_Relations = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		original_tag = GER
 		GER = {
@@ -504,6 +525,9 @@ GER_POL_Relations = {
 }
 # German-US Relations
 GER_USA_Relations = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		original_tag = GER
 		GER = {
@@ -551,6 +575,9 @@ GER_USA_Relations = {
 }
 # German-Soviet Relations
 GER_SOV_Relations = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		original_tag = GER
 		GER = {
@@ -597,6 +624,9 @@ GER_SOV_Relations = {
 	}
 }
 GER_Benelux_Early_Relations = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		tag = GER
 	}
@@ -951,6 +981,9 @@ GER_Operation_Weserubung_2 = {
 	}
 }
 GER_Fall_Gelb = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		original_tag = GER
 		has_government = fascist
@@ -1163,6 +1196,9 @@ GER_Prepare_for_Yugoslavia = {
 	}
 }
 GER_Dont_Garrison_ITA= {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		original_tag = GER
 		date < 1943.1.1
@@ -1396,7 +1432,6 @@ GER_stock_up_on_trains_before_barbarossa = {
 	allowed = {
 		original_tag = GER
 	}
-
 	enable = {
 		date > 1940.7.1
 		date < 1943.1.1
@@ -1542,6 +1577,9 @@ GER_pause_in_SOV = { #We got this far but our home is under siege
 # Military
 #########################
 dont_die_in_mountains = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		tag = GER
 		date < 1942.5.1
@@ -1561,6 +1599,9 @@ dont_die_in_mountains = {
 	}
 }
 invading_france_is_pointless_because_we_go_through_benelux_soon = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		tag = GER
 		NOT = {
@@ -1831,6 +1872,9 @@ GER_Invade_Crete = {
 	}
 }
 GER_Help_ITA_in_Africa = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		tag = GER	
 		has_global_flag = fall_of_france
@@ -1899,6 +1943,9 @@ GER_Allies_Dont_Help_in_Africa = {
 }
 #Operation Barbarossa
 GER_Operation_Barbarossa = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		original_tag = GER
 		has_country_flag = GER_Preparation_for_Barbarossa
@@ -2130,6 +2177,9 @@ GER_Fall_Blau = {
 }
 #Operation Amerika
 GER_Operation_Amerika = {
+	allowed = {
+		original_tag = GER
+	}
 	enable = {
 		original_tag = GER
 		GER = {
@@ -2171,9 +2221,12 @@ GER_Operation_Amerika = {
 }
 
 GER_Less_Garrison = {
-	enable = {
-		date > 1939.1.1
+	allowed = {
 		original_tag = GER
+	}
+	enable = {
+		original_tag = GER
+		date > 1939.1.1
 		OR = {
 			has_war_with = FRA
 			has_war_with = SOV
@@ -2455,8 +2508,10 @@ GER_intermediate_production = {
 }
 
 GER_template_design = {
-	enable = {
+	allowed = {
 		original_tag = GER
+	}
+	enable = {
 		date < 1940.1.1
 	}
 	abort = {

@@ -2,8 +2,10 @@
 ## Nationalist Spain
 #####################################################
 Spain_No_Invasions = { #During Civil War
-	enable = {
+	allowed = {
 		tag = SPA
+	}
+	enable = {
 		has_global_flag = SCW_started
 	}
 	ai_strategy = {
@@ -13,8 +15,10 @@ Spain_No_Invasions = { #During Civil War
 	}
 }
 Spain_Push = { #During Civil War
-	enable = {
+	allowed = {
 		tag = SPA
+	}
+	enable = {
 		has_global_flag = SCW_started
 	}
 	ai_strategy = {

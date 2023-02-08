@@ -1,12 +1,13 @@
 
-build_intelligence_agency_as_major = {
+build_intelligence_agency_as_minor = {
 	enable = {
-		is_major = yes
+		is_major = no
 		OR = {
 			has_war = yes
 			date > 1938.1.1
 		}
 	}
+	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = intelligence_agency_usable_factories
@@ -17,7 +18,7 @@ build_intelligence_agency_as_major = {
 
 build_intelligence_agency = {
 	enable = {
-		date > 1940.1.1
+		date > 1938.1.1
 		has_war = no
 		num_of_civilian_factories > 25
 	}
@@ -37,7 +38,7 @@ build_intelligence_agency = {
 
 upgrade_intelligence_agency = {
 	enable = {
-		date > 1940.1.1
+		date > 1938.1.1
 		num_of_civilian_factories > 50
 	}
 	abort = {
@@ -48,7 +49,7 @@ upgrade_intelligence_agency = {
 
 	ai_strategy = {
 		type = intelligence_agency_usable_factories
-		value = 5
+		value = 10
 	}
 }
 

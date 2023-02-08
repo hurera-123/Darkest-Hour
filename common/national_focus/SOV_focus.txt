@@ -1825,7 +1825,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				uses = 1
-				bonus = 1
+				bonus = 0.7
 				category = motorized_equipment
 			}
 			add_timed_idea = {
@@ -1944,7 +1944,7 @@ focus_tree = {
 		relative_position_id = SOV_Tukhachevskys_Reformists
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.75
+				bonus = 0.5
 				uses = 2
 				category = cat_medium_armor
 			}

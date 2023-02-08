@@ -3,7 +3,7 @@
 #####################################################
 # Benelux stay neutral until at war
 Benelux_stay_neutral_until_war = {
-	enable = {
+	allowed = {
 		OR = {
 			original_tag = BEL
 			original_tag = HOL

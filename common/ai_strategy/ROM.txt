@@ -11,12 +11,13 @@
 # influence
 
 Ignore_Everyone_until_Bessarabia = {
-	enable = {
+	allowed = {
 		original_tag = ROM
+	}
+	enable = {
 		NOT = {
 			has_country_flag = ROM_Bessarabia_Ceded
 		}
-		is_historical_focus_on = yes
 	}
 	abort = {
 		has_country_flag = ROM_Bessarabia_Ceded
@@ -49,8 +50,10 @@ Ignore_Everyone_until_Bessarabia = {
 }
 
 Ally_with_Germany = {
-	enable = {
+	allowed = {
 		original_tag = ROM
+	}
+	enable = {
 		has_country_flag = ROM_Bessarabia_Ceded
 	}
 	ai_strategy = {
@@ -66,8 +69,10 @@ Ally_with_Germany = {
 }
 
 Stop_Protecting_Yugo = {
-	enable = {
+	allowed = {
 		original_tag = ROM
+	}
+	enable = {
 		date > 1939.1.1
 	}
 	ai_strategy = {

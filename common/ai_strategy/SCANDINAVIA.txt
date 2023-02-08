@@ -3,8 +3,17 @@
 #####################################################
 # Norway stay neutral until at war
 Norway_stay_neutral_until_war = {
-	enable = {
+	allowed = {
 		original_tag = NOR
+	}
+	enable = {
+		NOT = {
+			OR = {
+				is_puppet = yes
+				is_in_faction = yes
+				has_war = yes
+			}
+		}
 	}
 	abort = {
 		OR = {

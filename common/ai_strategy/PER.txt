@@ -1,6 +1,14 @@
 Persia_stay_neutral = {
-	enable = {
+	allowed = {
 		original_tag = PER
+	}
+	enable = {
+		NOT = {
+			OR = {
+				is_puppet = yes
+				is_in_faction = yes
+			}
+		}
 	}
 	abort = {
 		OR = {

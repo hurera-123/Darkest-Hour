@@ -42,6 +42,9 @@ HUN_ignore_claims = {
 }
 # Hungary declares war to Carpatho-Ukraine
 Hungary_war_with_Carpatho_Ukraine = {
+	allowed = {
+		tag = HUN
+	}
 	enable = {
 		original_tag = HUN
 		country_exists = CPU
@@ -65,8 +68,11 @@ Hungary_war_with_Carpatho_Ukraine = {
 
 # Hungary declares war to Carpatho-Ukraine
 CPU_Dont_Join_Allies = {
-	enable = {
+	allowed = {
 		tag = CPU
+	}
+	enable = {
+		always = yes
 	}
 	ai_strategy = {
 		type = alliance
@@ -106,6 +112,9 @@ CPU_Dont_Join_Allies = {
 }
 
 germany_ally_1 = {
+	allowed = {
+		tag = HUN
+	}
 	enable = {
 		tag = HUN
 		has_global_flag = Upper_Transylvania_Awarded
@@ -129,6 +138,9 @@ germany_ally_1 = {
 }
 
 germany_ally_2 = {
+	allowed = {
+		tag = HUN
+	}
 	enable = {
 		tag = HUN
 		has_global_flag = Transylvania_Awarded
@@ -152,6 +164,9 @@ germany_ally_2 = {
 }
 
 germany_jerk = {
+	allowed = {
+		tag = HUN
+	}
 	enable = {
 		tag = HUN
 		has_global_flag = Transylvania_No_Award

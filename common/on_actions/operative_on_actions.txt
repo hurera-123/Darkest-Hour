@@ -165,45 +165,8 @@ on_actions = {
 						has_country_flag = just_freed_operative_flag
 					}
 				}
-				every_operative = {
-					if = {
-						limit = {
-							NOT = {
-								has_trait = operative_silent_running
-							}
-						}
-						random_list = {
-							15 = {
-								add_unit_leader_trait = operative_silent_running
-							}
-							85 = {
-							}
-						}
-					}
-				}
 				ROOT = {
 					clr_country_flag = just_freed_operative_flag
-				}
-			}
-
-			if = {
-				limit = {
-					ROOT = {
-						has_country_flag = commando_agency_upgrade
-					}
-				}
-				every_operative = {
-					if = {
-						limit = {
-							NOT = {
-								operative_leader_mission = no_mission
-							}
-							NOT = {
-								has_trait = operative_intensive_training
-							}
-						}
-						add_unit_leader_trait = operative_intensive_training
-					}
 				}
 			}
 
