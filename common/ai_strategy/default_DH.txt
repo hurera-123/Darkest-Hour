@@ -81,47 +81,47 @@ Build_Only_Civs_Custom = {
 	ai_strategy = {
 		type = building_target
 		id = infrastructure
-		value = -500
+		value = 10
 	}
 	ai_strategy = {
 		type = building_target
 		id = coastal_bunker
-		value = -500
+		value = 10
 	}
 	ai_strategy = {
 		type = building_target
 		id = naval_base
-		value = -500
+		value = 10
 	}
 	ai_strategy = {
 		type = building_target
 		id = air_base
-		value = -500
+		value = 10
 	}
 	ai_strategy = {
 		type = building_target
 		id = rail_way
-		value = -500
+		value = 10
 	}
 	ai_strategy = {
 		type = building_target
 		id = supply_node
-		value = -500
+		value = 10
 	}
 	ai_strategy = {
 		type = building_target
 		id = radar_station
-		value = -500
+		value = 10
 	}
 	ai_strategy = {
 		type = building_target
 		id = anti_air_building
-		value = -500
+		value = 10
 	}
 	ai_strategy = {
 		type = building_target
 		id = bunker
-		value = -500
+		value = 10
 	}
 }
 Increase_Mils_Construction_Ratio_1936 = {
@@ -193,6 +193,51 @@ Build_Only_Mils_Custom = {
 		id = arms_factory
 		value = 800
 	}
+	ai_strategy = {
+		type = building_target
+		id = infrastructure
+		value = 10
+	}
+	ai_strategy = {
+		type = building_target
+		id = coastal_bunker
+		value = 10
+	}
+	ai_strategy = {
+		type = building_target
+		id = naval_base
+		value = 10
+	}
+	ai_strategy = {
+		type = building_target
+		id = air_base
+		value = 10
+	}
+	ai_strategy = {
+		type = building_target
+		id = rail_way
+		value = 10
+	}
+	ai_strategy = {
+		type = building_target
+		id = supply_node
+		value = 10
+	}
+	ai_strategy = {
+		type = building_target
+		id = radar_station
+		value = 10
+	}
+	ai_strategy = {
+		type = building_target
+		id = anti_air_building
+		value = 10
+	}
+	ai_strategy = {
+		type = building_target
+		id = bunker
+		value = 10
+	}
 }
 Build_Less_of_These = {
 	enable = {
@@ -201,7 +246,7 @@ Build_Less_of_These = {
 	ai_strategy = {
 		type = building_target
 		id = infrastructure
-		value = -100
+		value = 1
 	}
 }
 Ally_Germany_if_Tripartite = {
