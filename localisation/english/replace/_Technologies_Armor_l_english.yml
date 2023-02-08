@@ -565,6 +565,17 @@
  NZL_Light_Tank_equipment_1939_short: "Schofield Tank"
  NZL_Light_Tank_equipment_1943: "M5 Honey"
  NZL_Light_Tank_equipment_1943_short: "M5 Honey"
+
+ POL_Light_Tank_equipment_1926: "PZInż TK-3"
+ POL_Light_Tank_equipment_1926_short: "TK-3"
+ POL_Light_Tank_equipment_1934: "PZInż TKS"
+ POL_Light_Tank_equipment_1934_short: "TKS"
+ POL_Light_Tank_equipment_1936: "PZInż 4TP"
+ POL_Light_Tank_equipment_1936_short: "4TP"
+ POL_Light_Tank_equipment_1939: "PZInż 7TP"
+ POL_Light_Tank_equipment_1939_short: "7TP"
+ POL_Light_Tank_equipment_1943: "PZInż 10TP"
+ POL_Light_Tank_equipment_1943_short: "10TP"
 ######################################################################
 ###  Medium Tanks
 ######################################################################

@@ -756,6 +756,33 @@ spriteTypes = {
 		name = "GFX_ENG_Small_Arms_1995_medium"
 		texturefile = "gfx/interface/technologies/Small Arms/ENG_L22A1.dds"
 	}
+
+	# Uniform
+	SpriteType = {
+		name = "GFX_ENG_Infantry_Kit_1914_medium"
+		texturefile = "gfx/interface/technologies/Uniform/ENG_Uniform_1914.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Infantry_Kit_1918_medium"
+		texturefile = "gfx/interface/technologies/Uniform/ENG_Uniform_1918.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Infantry_Kit_1935_medium"
+		texturefile = "gfx/interface/technologies/Uniform/ENG_Uniform_1935.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Infantry_Kit_1942_medium"
+		texturefile = "gfx/interface/technologies/Uniform/ENG_Uniform_1942.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Infantry_Kit_1945_medium"
+		texturefile = "gfx/interface/technologies/Uniform/ENG_Uniform_1945.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_Infantry_Kit_1952_medium"
+		texturefile = "gfx/interface/technologies/Uniform/ENG_Uniform_1952.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_ENG_Motorized_1916_medium"
 		texturefile = "gfx/interface/technologies/Infantry Vehicles/ENG_Bedford_OYD.dds"
@@ -1348,27 +1375,27 @@ spriteTypes = {
 	}
 	# Support Weapons
 	SpriteType = {
-		name = "GFX_Heavy_Weapons_1905_medium"
+		name = "GFX_POL_Heavy_Weapons_1905_medium"
 		texturefile = "gfx/interface/technologies/Support Weapons/Poland/POL_1900_Heavy_Maxim.dds"
 	}
 	SpriteType = {
-		name = "GFX_Heavy_Weapons_1916_medium"
+		name = "GFX_POL_Heavy_Weapons_1916_medium"
 		texturefile = "gfx/interface/technologies/Support Weapons/Poland/POL_1914_Heavy_MG15.dds"
 	}
 	SpriteType = {
-		name = "GFX_Heavy_Weapons_1936_medium"
+		name = "GFX_POL_Heavy_Weapons_1936_medium"
 		texturefile = "gfx/interface/technologies/Support Weapons/Poland/POL_1935_Heavy_wz.1928.dds"
 	}
 	SpriteType = {
-		name = "GFX_Heavy_Weapons_1942_medium"
+		name = "GFX_POL_Heavy_Weapons_1942_medium"
 		texturefile = "gfx/interface/technologies/Support Weapons/Poland/POL_1942_Heavy_MG34.dds"
 	}
 	SpriteType = {
-		name = "GFX_Heavy_Weapons_1945_medium"
+		name = "GFX_POL_Heavy_Weapons_1945_medium"
 		texturefile = "gfx/interface/technologies/Support Weapons/Poland/POL_1945_Heavy_SG43.dds"
 	}
 	SpriteType = {
-		name = "GFX_Heavy_Weapons_1952_medium"
+		name = "GFX_POL_Heavy_Weapons_1952_medium"
 		texturefile = "gfx/interface/technologies/Support Weapons/Poland/POL_1952_RKM-D.dds"
 	}
 	#######################################################

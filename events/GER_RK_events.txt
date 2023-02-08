@@ -48,7 +48,6 @@ country_event = {
 				transfer_state = 942
 			}
 		}
-		custom_effect_tooltip = germany_establish_rk_iceland
 	}
 	#Establish direct military occupation
 	option = {
@@ -127,7 +126,6 @@ country_event = {
 				transfer_state = 1102
 			}
 		}
-		custom_effect_tooltip = germany_establish_rk_sweden
 	}
 	#Establish direct military occupation
 	option = {
