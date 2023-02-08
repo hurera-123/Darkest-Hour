@@ -2646,6 +2646,10 @@
 
  SER_GER_fascist: "Government of National Salvation"
  SER_GER_fascist_DEF: "The Government of National Salvation"
+ 
+ SER_ITA_fascist: "Independent State of Serbia"
+ SER_ITA_fascist_DEF: "The Independent State of Serbia"
+
 
  ### Iceland
  ICE_fascist: "Icelandic State"

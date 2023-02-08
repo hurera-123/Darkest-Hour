@@ -13,6 +13,19 @@
 # area_priority
 
 Build_Only_Civs_Custom = {
+	allowed = {
+		OR = {
+			original_tag = SOV
+			original_tag = SPR
+			original_tag = ENG
+			original_tag = FRA
+			original_tag = POL
+			original_tag = JAP
+			original_tag = CHI
+			original_tag = ITA
+			original_tag = GER
+		}
+	}
 	enable = {
 		OR = {
 			AND = {
@@ -125,6 +138,14 @@ Build_Only_Civs_Custom = {
 	}
 }
 Increase_Mils_Construction_Ratio_1936 = {
+	allowed = {
+		OR = {
+			original_tag = SOV
+			original_tag = SPR
+			original_tag = ENG
+			original_tag = FRA
+		}
+	}
 	enable = {
 		date > 1936.1.1
 		OR = {
@@ -143,6 +164,15 @@ Increase_Mils_Construction_Ratio_1936 = {
 	}
 }
 Build_Only_Mils_Custom = {
+	allowed = {
+		OR = {
+			original_tag = CHI
+			original_tag = POL
+			original_tag = ITA
+			original_tag = GER
+			original_tag = JAP
+		}
+	}
 	enable = {
 		OR = {
 			AND = {
