@@ -453,6 +453,26 @@ FRA_VIC_Be_Neutral = {
 	}
 }
 
+FRA_Ignore_Claims = {
+	allowed = {
+		tag = FRA
+	}
+	enable = {
+		always= yes
+	}
+	abort_when_not_enabled = yes	
+	ai_strategy = {
+		type = ignore_claim
+		id = "GER"
+		value = 1
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = "ITA"
+		value = 1
+	}
+}
+
 FRA_unit_production = {
 	allowed = { original_tag = FRA }
 	enable = {

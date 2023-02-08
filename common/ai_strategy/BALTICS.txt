@@ -10,6 +10,9 @@ Baltics_stay_neutral = {
 			original_tag = EST
 		}
 	}
+	enable = {
+		always = yes
+	}
 	abort = {
 		OR = {
 			is_puppet = yes

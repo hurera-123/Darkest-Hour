@@ -10,6 +10,9 @@ Benelux_stay_neutral_until_war = {
 			original_tag = LUX
 		}
 	}
+	enable = {
+		has_war = no
+	}
 	abort = {
 		OR = {
 			is_puppet = yes
