@@ -140,7 +140,6 @@ Build_Only_Civs_Custom = {
 Increase_Mils_Construction_Ratio_1936 = {
 	allowed = {
 		OR = {
-			original_tag = SOV
 			original_tag = SPR
 			original_tag = ENG
 			original_tag = FRA
@@ -149,7 +148,6 @@ Increase_Mils_Construction_Ratio_1936 = {
 	enable = {
 		date > 1936.1.1
 		OR = {
-			original_tag = SOV
 			original_tag = SPR
 			original_tag = ENG
 			original_tag = FRA
@@ -171,6 +169,7 @@ Build_Only_Mils_Custom = {
 			original_tag = ITA
 			original_tag = GER
 			original_tag = JAP
+			original_tag = SOV
 		}
 	}
 	enable = {
@@ -195,6 +194,10 @@ Build_Only_Mils_Custom = {
 				date > 1935.1.1
 				original_tag = JAP
 			}
+			AND = {
+				date > 1936.1.1
+				original_tag = SOV
+			}
 		}
 	}
 	abort = {
@@ -215,6 +218,10 @@ Build_Only_Mils_Custom = {
 			AND = {
 				date > 1936.1.1
 				original_tag = CHI
+			}
+			AND = {
+				date > 1939.1.1
+				original_tag = SOV
 			}
 		}
 	}

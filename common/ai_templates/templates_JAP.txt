@@ -1,3 +1,19 @@
+@GARRISON_PRIO = 0
+@LIGHT_INFANTRY_PRIO = 1
+@INFANTRY_PRIO = 2 
+@CAVALRY_PRIO = 3
+@ASSAULT_INFANTRY_PRIO = 4
+@HEAVY_INFANTRY_PRIO = 5
+@MOTORIZED_PRIO = 6
+@MOUNTAINEER_PRIO = 7
+@LIGHT_ARMOR_ALT_PRIO = 8
+@LIGHT_ARMOR_PRIO = 9
+@MEDIUM_ARMOR_ALT_PRIO = 10
+@MEDIUM_ARMOR_PRIO = 11
+@HEAVY_ARMOR_ALT_PRIO = 12
+@HEAVY_ARMOR_PRIO = 13
+@MARINES_PRIO = 14
+
 armor_JAP = {
 
 	available_for = {
@@ -338,7 +354,7 @@ infantry_JAP = {
 		}
 		
 		target_width = 30.0
-		width_weight = 2.0
+		width_weight = 100.0
 		column_swap_factor = 0.1
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
@@ -882,7 +898,7 @@ garrison_JAP = {
 		}
 	}
 	
-	match_to_count = 0.5
+	match_to_count = 0.4
 
 
 	garrison_JAP = {
@@ -894,8 +910,8 @@ garrison_JAP = {
 			factor = 5
 		}
 		
-		target_width = 30.0
-		width_weight = 20.0
+		target_width = 20.0
+		width_weight = 100.0
 		column_swap_factor = 0.1
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
@@ -943,14 +959,12 @@ garrison_JAP = {
 			}
 			
 			regiments = {
-				garrison = 12
-				artillery_battalion = 2
+				garrison = 10
 			}
 		}
 		
 		allowed_types = {
 			garrison
-			artillery_battalion
 			
 			engineer
 			recon

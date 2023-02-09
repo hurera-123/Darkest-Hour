@@ -213,6 +213,7 @@ country_event = {
 			transfer_state = 1092
 			transfer_state = 108
 			transfer_state = 1088
+			transfer_state = 817
 		}
 		if = {
 			limit = {

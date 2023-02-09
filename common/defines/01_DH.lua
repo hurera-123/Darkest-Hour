@@ -182,3 +182,6 @@ NDefines.NCharacter.DEFAULT_PP_COST_FOR_POLITICAL_ADVISOR = 150
 -- Operatives
 NDefines.NOperatives.AGENCY_AI_BASE_NUM_FACTORIES = 25.0	-- Used by AI to pace the upgrades. Formula : if( AGENCY_AI_BASE_NUM_FACTORIES <= num_civ_factories - num_upgrades * AGENCY_AI_PER_UPGRADE_FACTORIES )
 NDefines.NOperatives.AGENCY_AI_PER_UPGRADE_FACTORIES = 6.0	-- Used by AI to pace the upgrades. Formula : if( AGENCY_AI_BASE_NUM_FACTORIES <= num_civ_factories - num_upgrades * AGENCY_AI_PER_UPGRADE_FACTORIES )
+
+-- Templates
+NDefines.NCountry.REINFORCEMENT_DIVISION_PRIORITY_COUNT = 16 -- How many priority stages we have in division template? Vanilla is 3: 0.Reserves, 1.Normal, 2.Elite.

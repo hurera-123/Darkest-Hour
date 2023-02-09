@@ -117,7 +117,7 @@ POL_Power_to_the_People = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		highlight_states = {
 			highlight_state_targets = {
@@ -159,7 +159,7 @@ POL_Power_to_the_People = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -195,7 +195,7 @@ POL_Power_to_the_People = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -227,7 +227,7 @@ POL_Power_to_the_People = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -279,7 +279,7 @@ POL_Power_to_the_People = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -305,7 +305,7 @@ POL_Power_to_the_People = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -331,7 +331,7 @@ POL_Power_to_the_People = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -357,7 +357,7 @@ POL_Power_to_the_People = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -383,7 +383,7 @@ POL_Power_to_the_People = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -413,7 +413,7 @@ POL_Power_to_the_People = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -439,7 +439,7 @@ POL_Power_to_the_People = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -465,7 +465,7 @@ POL_Power_to_the_People = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		complete_effect = {
 			set_temp_variable = {
@@ -491,7 +491,7 @@ POL_Power_to_the_People = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		highlight_states = {
 			highlight_state_targets = {
@@ -536,7 +536,7 @@ POL_Power_to_the_People = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 100
 		}
 		highlight_states = {
 			highlight_state_targets = {
@@ -584,7 +584,7 @@ POL_Defending_the_Fringes = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 500
 		}
 		highlight_states = {
 			highlight_state_targets = {
@@ -662,7 +662,7 @@ POL_Defending_the_Fringes = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 500
 		}
 		modifier = {
 			civilian_factory_use = 2
@@ -743,7 +743,7 @@ POL_Defending_the_Fringes = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 500
 		}
 		modifier = {
 			civilian_factory_use = 2
@@ -820,7 +820,7 @@ POL_Defending_the_Fringes = {
 			has_specific_amount_of_money_with_inflation_included = yes
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 500
 		}
 		modifier = {
 			civilian_factory_use = 2

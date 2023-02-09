@@ -43,7 +43,7 @@ technologies = {
 			}
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 		}
 		categories = {
 			industry
@@ -69,7 +69,7 @@ technologies = {
 			}
 		}
 		ai_will_do = {
-			factor = 50
+			factor = 1000
 		}
 		categories = {
 			industry
@@ -95,7 +95,7 @@ technologies = {
 			}
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 		}
 		categories = {
 			industry
@@ -123,7 +123,7 @@ technologies = {
 			}
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 		}
 		categories = {
 			industry
@@ -155,7 +155,7 @@ technologies = {
 			}
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 		}
 		categories = {
 			industry
@@ -187,7 +187,7 @@ technologies = {
 			}
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 		}
 		categories = {
 			industry
@@ -249,7 +249,7 @@ technologies = {
 			}
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 		}
 		categories = {
 			industry
@@ -273,7 +273,7 @@ technologies = {
 			}
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 			modifier = {
 				factor = 0
 				date < "1934.6.1"
@@ -306,7 +306,7 @@ technologies = {
 			}
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 			modifier = {
 				factor = 0
 				date < "1936.6.1"
@@ -378,7 +378,7 @@ technologies = {
 			}
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 			modifier = {
 				factor = 0
 				date < "1939.6.1"
@@ -410,7 +410,7 @@ technologies = {
 			}
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 			modifier = {
 				factor = 0
 				date < "1941.6.1"
@@ -442,7 +442,7 @@ technologies = {
 			}
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 			modifier = {
 				factor = 0
 				date < "1941.6.1"
@@ -470,7 +470,7 @@ technologies = {
 			}
 		}
 		ai_will_do = {
-			factor = 500
+			factor = 1000
 			modifier = {
 				factor = 0
 				date < "1944.6.1"
@@ -512,10 +512,6 @@ technologies = {
 		}
 		ai_will_do = {
 			factor = 500
-			modifier = {
-				factor = 5
-				date > "1911.1.1"
-			}
 		}
 	}
 	Novel_Drills = {
@@ -611,10 +607,6 @@ technologies = {
 		}
 		ai_will_do = {
 			factor = 500
-			modifier = {
-				factor = 5
-				date > "1921.1.1"
-			}
 		}
 	}
 	Advanced_Drilling_Method = {
@@ -711,10 +703,6 @@ technologies = {
 		}
 		ai_will_do = {
 			factor = 500
-			modifier = {
-				factor = 5
-				date > "1931.1.1"
-			}
 		}
 	}
 	Mineral_Discovery = {

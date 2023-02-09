@@ -241,6 +241,17 @@ recruit_character = POL_Mieczysaw_Boruta_Spiechowicz
 		SS_1912 = 1
 		SS_1916 = 1
 		SS_1922 = 1
+		### Industry
+		Industrial_Management = 1
+		Factory_Electrification = 1
+		Facilities_Design = 1
+		Moving_Assembly_Line = 1
+		Basic_Construction_Machines = 1
+		Novel_Drills = 1
+		Contemporary_Construction_Standards = 1
+		Motorized_Plowing = 1
+		Farm_Tractors = 1
+		Scientific_Agricultural_Processes = 1
 		### Land Doctrines
 		Twentieth_Century_Warfare = 1
 		Leading_by_Order = 1
