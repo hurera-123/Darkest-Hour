@@ -1,0 +1,15 @@
+daily_assigned_operation_progress_gain = {
+	color_type = good
+	value_type = number
+	precision = 2
+	postfix = daily
+	category = unit_leader
+}
+
+daily_assigned_operation_progress_gain_factor = {
+	color_type = good
+	value_type = percentage
+	precision = 2
+	postfix = none
+	category = unit_leader
+}

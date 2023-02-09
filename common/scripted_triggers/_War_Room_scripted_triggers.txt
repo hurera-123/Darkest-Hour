@@ -208,6 +208,30 @@ is_war_room_operation_progress_phase_4_active = {
 
 # usage:
 ## set_temp_variable = { operation_id = 1 }
+## has_war_room_operation_progress_phase_5 = yes
+has_war_room_operation_progress_phase_5 = {
+	meta_trigger = {
+		text = {
+			has_progress_phase_5_for_war_room_operation_[ID] = yes
+		}
+		ID = "[?operation_id]"
+	}
+}
+
+# usage:
+## set_temp_variable = { operation_id = 1 }
+## is_war_room_operation_progress_phase_5_active = yes
+is_war_room_operation_progress_phase_5_active = {
+	meta_trigger = {
+		text = {
+			is_progress_phase_5_active_for_war_room_operation_[ID] = yes
+		}
+		ID = "[?operation_id]"
+	}
+}
+
+# usage:
+## set_temp_variable = { operation_id = 1 }
 ## has_completed_war_room_operation = yes
 has_completed_war_room_operation = {
 	custom_trigger_tooltip = {
@@ -530,6 +554,34 @@ has_less_amount_of_war_room_operation_used_generals = {
 	custom_trigger_tooltip = {
 		tooltip = HAS_LESS_AMOUNT_OF_WAR_ROOM_OPERATION_USED_GENERALS_TT
 		check_variable = { used_generals < amount }
+	}
+}
+
+# usage:
+## calculate_assigned_individual_general_daily_war_room_progress_gain = yes
+calculate_assigned_individual_general_daily_war_room_progress_gain = {
+	set_temp_variable = { daily_progress_temp = leader_modifier@daily_assigned_operation_progress_gain }
+	set_temp_variable = { daily_progress_factor_temp = 1 }
+	add_to_temp_variable = { daily_progress_factor_temp = leader_modifier@daily_assigned_operation_progress_gain_factor }
+	multiply_temp_variable = { daily_progress_temp = daily_progress_factor_temp }
+}
+
+# usage:
+## set_temp_variable = { operation_id = 1 }
+## calculate_assigned_generals_daily_war_room_progress_gain = yes
+calculate_assigned_generals_daily_war_room_progress_gain = {
+	hidden_trigger = {
+		set_temp_variable = { total_daily_progress_temp = 0 }
+		meta_trigger = {
+			text = {
+				all_of_scopes = {
+					array = war_room_operation_[ID]_assigned_generals_array
+					calculate_assigned_individual_general_daily_war_room_progress_gain = yes
+					add_to_temp_variable = { total_daily_progress_temp = daily_progress_temp }
+				}
+			}
+			ID = "[?operation_id]"
+		}
 	}
 }
 

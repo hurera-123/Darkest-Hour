@@ -329,10 +329,21 @@ launch_war_room_operation = {
 						has_war_room_operation_progress_phase_4 = yes
 						is_war_room_operation_progress_phase_4_active = yes
 					}
+					AND = {
+						has_war_room_operation_progress_phase_5 = yes
+						is_war_room_operation_progress_phase_5_active = yes
+					}
 				}
 			}
 			custom_effect_tooltip = LAUNCH_WAR_ROOM_OPERATION_PHASES_TT
 			if = {
+				limit = {
+					has_war_room_operation_progress_phase_5 = yes
+					is_war_room_operation_progress_phase_5_active = yes
+				}
+				execute_war_room_operation_progress_phase_5_effect = yes
+			}
+			else_if = {
 				limit = {
 					has_war_room_operation_progress_phase_4 = yes
 					is_war_room_operation_progress_phase_4_active = yes
@@ -872,6 +883,18 @@ execute_war_room_operation_progress_phase_4_effect = {
 	meta_effect = {
 		text = {
 			execute_progress_phase_4_effect_for_war_room_operation_[ID] = yes
+		}
+		ID = "[?operation_id]"
+	}
+}
+
+# usage:
+## set_temp_variable = { operation_id = 1 }
+## execute_war_room_operation_progress_phase_5_effect = yes
+execute_war_room_operation_progress_phase_5_effect = {
+	meta_effect = {
+		text = {
+			execute_progress_phase_5_effect_for_war_room_operation_[ID] = yes
 		}
 		ID = "[?operation_id]"
 	}

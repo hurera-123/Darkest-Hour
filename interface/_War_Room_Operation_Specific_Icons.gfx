@@ -41,7 +41,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_war_room_operation_generic_progressbar_phases_icons"
 		textureFile = "gfx/interface/war_room/progressbars/generic/progressbar_phases_icons.dds"
-		noOfFrames = 8
+		noOfFrames = 10
 		transparencecheck = yes
 	}
 
@@ -69,7 +69,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_war_room_operation_1_progressbar_phases_icons"
 		textureFile = "gfx/interface/war_room/progressbars/groza/progressbar_phases_icons.dds"
-		noOfFrames = 8
+		noOfFrames = 10
 		transparencecheck = yes
 	}
 }

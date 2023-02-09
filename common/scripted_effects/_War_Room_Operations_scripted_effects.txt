@@ -42,6 +42,11 @@
 ##		# only executed if the operation uses at least 4 phases
 ##	}
 ##
+##	execute_progress_phase_5_effect_for_war_room_operation_<operation id> = {
+##		# the effects that should be executed when the operation is launched after having reached phase 5 of the preparations
+##		# only executed if the operation uses at least 5 phases
+##	}
+##
 ########################
 ### Decision Specific ##
 ########################
@@ -128,27 +133,31 @@ fail_war_room_operation_1 = {
 }
 
 execute_progress_phase_1_effect_for_war_room_operation_1 = {
+	custom_effect_tooltip = DH_WAR_ROOM_OPERATION_NO_EFFECT_TT
+}
+
+execute_progress_phase_2_effect_for_war_room_operation_1 = {
 	add_timed_idea {
 		idea = SOV_Operation_Groza_1
 		days = 120
 	}
 }
 
-execute_progress_phase_2_effect_for_war_room_operation_1 = {
+execute_progress_phase_3_effect_for_war_room_operation_1 = {
 	add_timed_idea {
 		idea = SOV_Operation_Groza_2
 		days = 120
 	}
 }
 
-execute_progress_phase_3_effect_for_war_room_operation_1 = {
+execute_progress_phase_4_effect_for_war_room_operation_1 = {
 	add_timed_idea {
 		idea = SOV_Operation_Groza_3
 		days = 120
 	}
 }
 
-execute_progress_phase_4_effect_for_war_room_operation_1 = {
+execute_progress_phase_5_effect_for_war_room_operation_1 = {
 }
 
 ## Decisions ##

@@ -16,6 +16,7 @@
 ##
 ##	has_progress_phase_1_for_war_room_operation_<operation id> = {
 ##		# use always = yes if the operation uses at least 1 phases to give additional bonuses when launching based on amount of preparation done
+##		#	 first phase is used to display required amount of progress to launch, so this should be used in most cases
 ##		# else use always = no
 ##		# if it uses always = yes, set the position for the phase icon with the temp var below: (0 is the min (left), 385 the max (right))
 ##		set_temp_variable = { active_operation_phase_1_x = 134 }
@@ -64,6 +65,20 @@
 ##	}
 ##
 ##	is_progress_phase_4_active_for_war_room_operation_<operation id> = {
+##		# check for the required progress to reach the phase, e.g.:
+##		#	set_temp_variable = { amount = 100 }
+##		#	has_amount_of_war_room_operation_progress = yes
+##		# if the operation doesn't use that many phases, use always = no instead
+##	}
+##
+##	has_progress_phase_5_for_war_room_operation_<operation id> = {
+##		# use always = yes if the operation uses 5 phases to give additional bonuses when launching based on amount of preparation done
+##		# else use always = no
+##		# if it uses always = yes, set the position for the phase icon with the temp var below: (0 is the min (left), 385 the max (right))
+##		set_temp_variable = { active_operation_phase_5_x = 134 }
+##	}
+##
+##	is_progress_phase_5_active_for_war_room_operation_<operation id> = {
 ##		# check for the required progress to reach the phase, e.g.:
 ##		#	set_temp_variable = { amount = 100 }
 ##		#	has_amount_of_war_room_operation_progress = yes
@@ -134,40 +149,50 @@ can_fail_war_room_operation_1 = {
 }
 
 has_progress_phase_1_for_war_room_operation_1 = {
-	set_temp_variable = { active_operation_phase_1_x = 134 }
+	set_temp_variable = { active_operation_phase_1_x = 38 }
 	always = yes
 }
 
 is_progress_phase_1_active_for_war_room_operation_1 = {
-	set_temp_variable = { amount = 70 }
+	set_temp_variable = { amount = 20 }
 	has_amount_of_war_room_operation_progress = yes
 }
 
 has_progress_phase_2_for_war_room_operation_1 = {
-	set_temp_variable = { active_operation_phase_2_x = 296 }
+	set_temp_variable = { active_operation_phase_2_x = 174 }
 	always = yes
 }
 
 is_progress_phase_2_active_for_war_room_operation_1 = {
-	set_temp_variable = { amount = 85 }
+	set_temp_variable = { amount = 70 }
 	has_amount_of_war_room_operation_progress = yes
 }
 
 has_progress_phase_3_for_war_room_operation_1 = {
-	set_temp_variable = { active_operation_phase_3_x = 358 }
+	set_temp_variable = { active_operation_phase_3_x = 296 }
 	always = yes
 }
 
 is_progress_phase_3_active_for_war_room_operation_1 = {
-	set_temp_variable = { amount = 100 }
+	set_temp_variable = { amount = 85 }
 	has_amount_of_war_room_operation_progress = yes
 }
 
 has_progress_phase_4_for_war_room_operation_1 = {
-	always = no
+	set_temp_variable = { active_operation_phase_4_x = 358 }
+	always = yes
 }
 
 is_progress_phase_4_active_for_war_room_operation_1 = {
+	set_temp_variable = { amount = 100 }
+	has_amount_of_war_room_operation_progress = yes
+}
+
+has_progress_phase_5_for_war_room_operation_1 = {
+	always = no
+}
+
+is_progress_phase_5_active_for_war_room_operation_1 = {
 	always = no
 }
 
@@ -178,7 +203,7 @@ war_room_operation_decision_visible_trigger_operation_groza_decision_launch_oper
 war_room_operation_decision_available_trigger_operation_groza_decision_launch_operation = {
 	has_not_launched_war_room_operation = yes
 	is_not_any_war_room_operation_decision_in_progress = yes
-	set_temp_variable = { amount = 70 }
+	set_temp_variable = { amount = 20 }
 	has_amount_of_war_room_operation_progress = yes
 }
 war_room_operation_decision_remove_trigger_operation_groza_decision_launch_operation = {

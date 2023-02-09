@@ -52,6 +52,26 @@ on_actions = {
 			}
 			## unassign generals, if they are no longer available (e.g. died)
 			unassign_all_unavailable_generals_from_all_war_room_operations = yes
+			## add daily progress from assigned generals
+			if = {
+				limit = {
+					set_temp_variable = { amount = 1 }
+					has_amount_of_active_war_room_operations = yes
+				}
+				for_each_loop = {
+					array = active_war_room_operations_array
+					value = value_temp
+					index = index_temp
+					set_temp_variable = { operation_id = value_temp }
+					if = {
+						limit = {
+							calculate_assigned_generals_daily_war_room_progress_gain = yes
+						}
+						set_temp_variable = { amount = total_daily_progress_temp }
+						add_war_room_operation_progress = yes
+					}
+				}
+			}
 		}
 	}
 }

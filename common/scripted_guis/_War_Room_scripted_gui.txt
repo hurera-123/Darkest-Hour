@@ -212,9 +212,20 @@ scripted_gui = {
 							has_war_room_operation_progress_phase_2 = yes
 							has_war_room_operation_progress_phase_3 = yes
 							has_war_room_operation_progress_phase_4 = yes
+							has_war_room_operation_progress_phase_5 = yes
 						}
 					}
 					if = {
+						limit = {
+							has_war_room_operation_progress_phase_5 = yes
+							is_war_room_operation_progress_phase_5_active = yes
+						}
+						custom_effect_tooltip = DH_WAR_ROOM_OPERATION_ACTIVE_ENTRY_PROGRESS_BAR_CURRENT_PHASE_TT_5
+						effect_tooltip = {
+							execute_war_room_operation_progress_phase_5_effect = yes
+						}
+					}
+					else_if = {
 						limit = {
 							has_war_room_operation_progress_phase_4 = yes
 							is_war_room_operation_progress_phase_4_active = yes
@@ -253,6 +264,7 @@ scripted_gui = {
 						effect_tooltip = {
 							execute_war_room_operation_progress_phase_1_effect = yes
 						}
+						custom_effect_tooltip = DH_WAR_ROOM_OPERATION_CAN_BE_STARTED_TT
 					}
 					else = {
 						custom_effect_tooltip = DH_WAR_ROOM_OPERATION_ACTIVE_ENTRY_PROGRESS_BAR_CURRENT_PHASE_TT_NONE
@@ -274,6 +286,7 @@ scripted_gui = {
 				effect_tooltip = {
 					execute_war_room_operation_progress_phase_1_effect = yes
 				}
+				custom_effect_tooltip = DH_WAR_ROOM_OPERATION_CAN_BE_STARTED_TT
 			}
 			active_operation_phase_icon_2_click = {
 				# get tooltip for current phase
@@ -321,6 +334,22 @@ scripted_gui = {
 				}
 				effect_tooltip = {
 					execute_war_room_operation_progress_phase_4_effect = yes
+				}
+			}
+			active_operation_phase_icon_5_click = {
+				# get tooltip for current phase
+				set_temp_variable = { operation_id = v }
+				if = {
+					limit = {
+						is_war_room_operation_progress_phase_5_active = yes
+					}
+					custom_effect_tooltip = DH_WAR_ROOM_OPERATION_ACTIVE_ENTRY_PROGRESS_BAR_PHASE_5_TT_ACTIVE
+				}
+				else = {
+					custom_effect_tooltip = DH_WAR_ROOM_OPERATION_ACTIVE_ENTRY_PROGRESS_BAR_PHASE_5_TT_INACTIVE
+				}
+				effect_tooltip = {
+					execute_war_room_operation_progress_phase_5_effect = yes
 				}
 			}
 		}
@@ -845,6 +874,36 @@ scripted_gui = {
 				has_not_launched_war_room_operation = yes
 				is_war_room_operation_progress_phase_4_active = yes
 			}
+			active_operation_phase_icon_5_visible = {
+				set_temp_variable = { operation_id = v }
+				NOT = { has_war_room_operation_collapsed = yes }
+				has_war_room_operation_selected_decisions_tab = yes
+				has_not_launched_war_room_operation = yes
+				has_war_room_operation_progress_phase_5 = yes
+				NOT = { is_war_room_operation_progress_phase_5_active = yes }
+			}
+			active_operation_phase_icon_5_active_visible = {
+				set_temp_variable = { operation_id = v }
+				NOT = { has_war_room_operation_collapsed = yes }
+				has_war_room_operation_selected_decisions_tab = yes
+				has_not_launched_war_room_operation = yes
+				is_war_room_operation_progress_phase_5_active = yes
+			}
+			active_operation_phase_text_5_visible = {
+				set_temp_variable = { operation_id = v }
+				NOT = { has_war_room_operation_collapsed = yes }
+				has_war_room_operation_selected_decisions_tab = yes
+				has_not_launched_war_room_operation = yes
+				has_war_room_operation_progress_phase_5 = yes
+				NOT = { is_war_room_operation_progress_phase_5_active = yes }
+			}
+			active_operation_phase_text_5_active_visible = {
+				set_temp_variable = { operation_id = v }
+				NOT = { has_war_room_operation_collapsed = yes }
+				has_war_room_operation_selected_decisions_tab = yes
+				has_not_launched_war_room_operation = yes
+				is_war_room_operation_progress_phase_5_active = yes
+			}
 		}
 
 		dynamic_lists = {
@@ -992,6 +1051,22 @@ scripted_gui = {
 			}
 			active_operation_phase_text_4_active = {
 				x = active_operation_phase_4_x
+			}
+			active_operation_phase_icon_5 = {
+				image = "[This.GetWarRoomActiveOperationProgressBarPhaseIcon]"
+				frame = 9
+				x = active_operation_phase_5_x
+			}
+			active_operation_phase_icon_5_active = {
+				image = "[This.GetWarRoomActiveOperationProgressBarPhaseIcon]"
+				frame = 10
+				x = active_operation_phase_5_x
+			}
+			active_operation_phase_text_5 = {
+				x = active_operation_phase_5_x
+			}
+			active_operation_phase_text_5_active = {
+				x = active_operation_phase_5_x
 			}
 		}
 
