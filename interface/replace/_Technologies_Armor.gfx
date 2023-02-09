@@ -1608,7 +1608,6 @@ spriteTypes = {
 		name = "GFX_FIN_Medium_TD_1939_medium"
 		texturefile = "gfx/interface/technologies/Armor/FIN_StuG_III.dds"
 	}
-}
 
 	###########################################################
 	### Poland 
@@ -1633,65 +1632,5 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_POL_Light_Tank_1943_medium"
 		texturefile = "gfx/interface/technologies/Armor/POL_10TP.dds"
-	}
-	SpriteType = {
-		name = "GFX_FIN_Light_Tank_1950_medium"
-		texturefile = "gfx/interface/technologies/Armor/GER_HWK12.dds"
-	}
-	#Medium Tanks	
-	SpriteType = {
-		name = "GFX_FIN_Medium_Tank_1939_medium"
-		texturefile = "gfx/interface/technologies/Armor/GER_PzIII.dds"
-	}
-	SpriteType = {
-		name = "GFX_FIN_Medium_Tank_1941_medium"
-		texturefile = "gfx/interface/technologies/Armor/FIN_PzIV.dds"
-	}
-	SpriteType = {
-		name = "GFX_FIN_Medium_Tank_1943_medium"
-		texturefile = "gfx/interface/technologies/Armor/FIN_T34.dds"
-	}
-	SpriteType = {
-		name = "GFX_FIN_Medium_Tank_1945_medium"
-		texturefile = "gfx/interface/technologies/Armor/ENG_Comet.dds"
-	}
-	#Heavy Tanks		
-	SpriteType = {
-		name = "GFX_FIN_Heavy_Tank_1939_medium"
-		texturefile = "gfx/interface/technologies/Armor/GER_NbFz.dds"
-	}
-	SpriteType = {
-		name = "GFX_FIN_Heavy_Tank_1941_medium"
-		texturefile = "gfx/interface/technologies/Armor/SOV_KV1.dds"
-	}
-	SpriteType = {
-		name = "GFX_FIN_Heavy_Tank_1943_medium"
-		texturefile = "gfx/interface/technologies/Armor/GER_PzVI.dds"
-	}
-	SpriteType = {
-		name = "GFX_FIN_Heavy_Tank_1945_medium"
-		texturefile = "gfx/interface/technologies/Armor/ENG_Black_Prince.dds"
-	}
-	SpriteType = {
-		name = "GFX_FIN_Heavy_Tank_1956_medium"
-		texturefile = "gfx/interface/technologies/Armor/GER_Pz90.dds"
-	}
-	#Super Heavy Tanks		
-	SpriteType = {
-		name = "GFX_FIN_Super_Heavy_Tank_1944_medium"
-		texturefile = "gfx/interface/technologies/Armor/FIN_Antero_Vipunen.dds"
-	}
-	#Main Battle Tanks	
-	SpriteType = {
-		name = "GFX_FIN_Main_Battle_Tank_1952_medium"
-		texturefile = "gfx/interface/technologies/Armor/FIN_Charioteer.dds"
-	}
-	SpriteType = {
-		name = "GFX_FIN_Light_TD_1942_medium"
-		texturefile = "gfx/interface/technologies/Armor/FIN_BT42.dds"
-	}
-	SpriteType = {
-		name = "GFX_FIN_Medium_TD_1939_medium"
-		texturefile = "gfx/interface/technologies/Armor/FIN_StuG_III.dds"
 	}
 }
