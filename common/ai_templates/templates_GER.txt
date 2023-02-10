@@ -728,16 +728,16 @@ infantry_GER = {
 	}
 	
 	upgrade_prio = {
-		factor = 50
+		factor = 1000
 	}
 	
-	match_to_count = 0.4
+	match_to_count = 0.5
 
 
 	infantry_default_GER = {
 	
 		upgrade_prio = {
-			factor = 30
+			factor = 100
 		}
 		production_prio = {
 			factor = 30
@@ -783,7 +783,7 @@ infantry_GER = {
 		}
 		
 		target_template = {
-			weight = 0.9
+			weight = 100.0
 			match_value = 14000.0
 			
 			support = {
@@ -802,15 +802,15 @@ infantry_GER = {
 		}
 		
 		allowed_types = {
-			infantry		
+			infantry
+			artillery_battalion
+			
 			engineer
 			recon
 			field_hospital
 			anti_tank_company
-			anti_air_battery
 			artillery_battery
-			anti_tank_battalion
-			artillery_battalion
+			anti_air_battery
 		}
 	}
 }

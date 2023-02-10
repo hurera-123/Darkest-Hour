@@ -44,6 +44,8 @@ armored_ITA = {
 		target_width = 30.0 
 		width_weight = 100.0
 		column_swap_factor = 0.1
+		
+		reinforce_prio = @LIGHT_ARMOR_PRIO
 
 		can_upgrade_in_field = {
 			has_equipment = { APC_equipment > 500 }
@@ -133,6 +135,8 @@ armored_ITA = {
 		target_width = 30.0
 		width_weight = 100.0
 		column_swap_factor = 0.1
+		
+		reinforce_prio = @MEDIUM_ARMOR_PRIO
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
@@ -243,6 +247,8 @@ heavy_armor_ITA = {
 		width_weight = 3.0
 		column_swap_factor = 0.5
 		
+		reinforce_prio = @HEAVY_ARMOR_PRIO
+		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
 		
@@ -336,6 +342,8 @@ infantry_ITA = {
 		target_width = 30.0
 		width_weight = 2.0
 		column_swap_factor = 0.1
+		
+		reinforce_prio = @INFANTRY_PRIO
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
@@ -453,6 +461,8 @@ motorized_ITA = {
 		width_weight = 100.0
 		column_swap_factor = 0.1
 		
+		reinforce_prio = @MOTORIZED_PRIO
+		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
 		
@@ -516,8 +526,6 @@ garrison_ITA = {
 
 
 	garrison_ITA = {
-	
-		reinforce_prio = 0
 		custom_icon = 7
 	
 		upgrade_prio = {
@@ -527,6 +535,8 @@ garrison_ITA = {
 		target_width = 30.0
 		width_weight = 100.0
 		column_swap_factor = 0.1
+		
+		reinforce_prio = @GARRISON_PRIO
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
@@ -628,6 +638,8 @@ mountaineers_ITA = {
 		width_weight = 3
 		column_swap_factor = 0.2
 		
+		reinforce_prio = @MOUNTAINEER_PRIO
+		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
 		
@@ -727,6 +739,8 @@ marines_ITA = {
 		width_weight = 1.0
 		column_swap_factor = 0.1
 		
+		reinforce_prio = @MARINES_PRIO
+		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
 		
@@ -820,6 +834,8 @@ paratroopers_ITA = {
 		target_width = 10.0
 		width_weight = 3.0
 		column_swap_factor = 0.1
+		
+		reinforce_prio = @MARINES_PRIO
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }

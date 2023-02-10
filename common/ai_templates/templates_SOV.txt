@@ -72,6 +72,8 @@ armored_SOV = {
 		width_weight = 2.0
 		column_swap_factor = 0.1
 		
+		reinforce_prio = @MEDIUM_ARMOR_PRIO
+		
 		can_upgrade_in_field = {
 			has_equipment = { armor_equipment > 1000 }
 			has_equipment = { APC_equipment > 1000 }
@@ -178,6 +180,8 @@ armored_SOV = {
 		width_weight = 2.0
 		column_swap_factor = 0.1
 		
+		reinforce_prio = @MEDIUM_ARMOR_PRIO
+		
 		can_upgrade_in_field = {
 			has_tech = Medium_Tank_1943
 			has_tank_destroyer_tech = yes
@@ -244,6 +248,8 @@ armored_SOV = {
 		target_width = 30.0
 		width_weight = 2.0
 		column_swap_factor = 0.1
+		
+		reinforce_prio = @MEDIUM_ARMOR_PRIO
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
@@ -325,6 +331,8 @@ heavy_armor_SOV = {
 		target_width = 30.0
 		width_weight = 100.0
 		column_swap_factor = 0.1
+		
+		reinforce_prio = @HEAVY_ARMOR_PRIO
 		
 		can_upgrade_in_field = {
 			has_equipment = { APC_equipment > 1000 }
@@ -431,6 +439,8 @@ heavy_armor_SOV = {
 		width_weight = 3.0
 		column_swap_factor = 0.1
 		
+		reinforce_prio = @HEAVY_ARMOR_PRIO
+		
 		can_upgrade_in_field = {
 			has_tech = Heavy_Tank_1943
 			has_tank_destroyer_tech = yes
@@ -505,6 +515,8 @@ heavy_armor_SOV = {
 		target_width = 30.0
 		width_weight = 3.0
 		column_swap_factor = 0.1
+		
+		reinforce_prio = @HEAVY_ARMOR_PRIO
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
@@ -602,6 +614,8 @@ motorized_SOV = {
 		width_weight = 100.0
 		column_swap_factor = 0.1
 		
+		reinforce_prio = @MOTORIZED_PRIO
+		
 		can_upgrade_in_field = {
 			has_equipment = { APC_equipment > 500 }
 			has_tech = APC_1941
@@ -665,14 +679,12 @@ motorized_SOV = {
 				}
 			}
 		}
-
-		can_upgrade_in_field = {
-			has_equipment = { motorized_equipment < 500 }
-		}
-
+		
 		target_width = 30.0
 		width_weight = 3.0
 		column_swap_factor = 0.1
+		
+		reinforce_prio = @MOTORIZED_PRIO
 		
 		can_upgrade_in_field = {
 			has_equipment = { APC_equipment > 500 }
@@ -746,6 +758,8 @@ motorized_SOV = {
 		width_weight = 3.0
 		column_swap_factor = 0.1
 		
+		reinforce_prio = @MOTORIZED_PRIO
+		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
 
@@ -811,6 +825,8 @@ infantry_SOV = {
 		target_width = 30.0
 		width_weight = 2
 		column_swap_factor = 0.1
+		
+		reinforce_prio = @INFANTRY_PRIO
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
@@ -880,6 +896,105 @@ infantry_SOV = {
 	}
 }
 
+garrison_SOV = {
+
+	available_for = {
+		SOV
+	}
+	
+	roles = {
+		garrison
+	}
+	
+	upgrade_prio = {
+		factor = 10
+
+		modifier = {
+			factor = 0
+			ai_has_role_template = garrison
+		}
+	}
+	
+	match_to_count = 0.5
+
+
+	garrison_SOV = {
+		custom_icon = 7
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 15
+			}
+		}
+		
+		
+		target_width = 20.0
+		width_weight = 2
+		column_swap_factor = 0.5
+		
+		reinforce_prio = @GARRISON_PRIO
+		
+		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
+		can_upgrade_in_field = { always = no }
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			0.00 #-- breakthrough
+			0.00 #-- hardness
+			4.00 #-- soft_attack
+			0.00 #-- hard_attack
+			0.00 #-- recon
+			3.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.60 #-- max_organisation
+			0.40 #-- max_strength
+			0.00 #-- build_cost_ic
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.20 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+		}
+		
+		target_template = {
+			weight = 1
+			match_value = 7000.0
+			
+			support = {
+				military_police = 1
+				engineer = 1
+			}
+			
+			regiments = {
+				garrison = 7
+				artillery_battalion = 1
+				anti_tank_battalion = 1
+			}
+		}
+		
+		allowed_types = {
+			artillery_battalion
+			anti_tank_battalion
+			garrison
+			engineer
+			infantry		
+			military_police
+		}
+	}
+}
+
 mountaineers_SOV = {
 
 	available_for = {
@@ -916,6 +1031,8 @@ mountaineers_SOV = {
 		target_width = 20.0
 		width_weight = 2
 		column_swap_factor = 0.2
+		
+		reinforce_prio = @MOUNTAINEER_PRIO
 		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
@@ -1016,6 +1133,8 @@ marines_SOV = {
 		width_weight = 2
 		column_swap_factor = 0.1
 		
+		reinforce_prio = @MARINES_PRIO
+		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
 		
@@ -1109,6 +1228,8 @@ paratroopers_SOV = {
 		width_weight = 2
 		column_swap_factor = 0.1
 		
+		reinforce_prio = @MARINES_PRIO
+		
 		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
 		can_upgrade_in_field = { always = no }
 		
@@ -1172,107 +1293,6 @@ paratroopers_SOV = {
 		}
 	}
 }
-
-
-garrison_SOV = {
-
-	available_for = {
-		SOV
-	}
-	
-	roles = {
-		garrison
-	}
-	
-	upgrade_prio = {
-		factor = 10
-
-		modifier = {
-			factor = 0
-			ai_has_role_template = garrison
-		}
-	}
-	
-	match_to_count = 0.5
-
-
-	garrison_SOV = {
-	
-		upgrade_prio = {
-			factor = 2
-
-			modifier = {
-				factor = 15
-			}
-		}
-		
-		reinforce_prio = 0
-		custom_icon = 7
-		
-		target_width = 20.0
-		width_weight = 2
-		column_swap_factor = 0.5
-		
-		# workaround for a PDX bug https://forum.paradoxplaza.com/forum/threads/hoi-4-incremental-division-upgrade-does-not-work-in-most-cases.1414193/
-		can_upgrade_in_field = { always = no }
-		
-		stat_weights = {
-			0.00 #-- default_morale
-			0.00 #-- defense
-			0.00 #-- breakthrough
-			0.00 #-- hardness
-			4.00 #-- soft_attack
-			0.00 #-- hard_attack
-			0.00 #-- recon
-			3.00 #-- entrenchment
-			0.00 #-- initiative
-			0.00 #-- casualty_trickleback
-			0.00 #-- supply_consumption_factor
-			0.00 #-- supply_consumption
-			0.00 #-- suppression
-			0.00 #-- suppression_factor
-			0.00 #-- experience_loss_factor
-			#-- Air Values
-			0.00 #-- air_attack
-			#-- Common Values
-			0.60 #-- max_organisation
-			0.40 #-- max_strength
-			0.00 #-- build_cost_ic
-			0.00 #-- maximum_speed
-			0.00 #-- armor_value
-			0.20 #-- ap_attack
-			0.00 #-- reliability
-			0.00 #-- reliability_factor
-			0.00 #-- weight
-		}
-		
-		target_template = {
-			weight = 1
-			match_value = 7000.0
-			
-			support = {
-				military_police = 1
-				engineer = 1
-			}
-			
-			regiments = {
-				garrison = 7
-				artillery_battalion = 1
-				anti_tank_battalion = 1
-			}
-		}
-		
-		allowed_types = {
-			artillery_battalion
-			anti_tank_battalion
-			garrison
-			engineer
-			infantry		
-			military_police
-		}
-	}
-}
-
 	# REGIMENTS:
 	#infantry
 	#light_armor
