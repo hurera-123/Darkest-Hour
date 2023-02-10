@@ -436,7 +436,8 @@ characters={
 					has_country_flag = Edward_RydzSmigly_unavailable
 				}
 			}
-			traits = {		
+			traits = {
+				POSITION_Marshal
 				CoArmy_Decisive_Battle_Doctrine
 			}
 		}

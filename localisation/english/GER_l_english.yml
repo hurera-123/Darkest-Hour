@@ -789,7 +789,7 @@
 
 ### Death of Hindenburg
  GER_Death_of_Hindenburg.1.t: "Reichspräsident Hindenburg ist tot!"
- GER_Death_of_Hindenburg.1.d: "[GER.GetNewsIcon]The German nation mourns today, as one of it's great national heroes has finally passed away. Paul von Hindenburg, aged 86 years old, died today from his long-lasting lung cancer while at his home in Neudeck, East Prussia.\n\nA universally loved war hero who beat back the Russians in the Great War and Reichspräsident of the German Reich for the last eight years, he faced one of the worst situations a leader could ever face following the recall of debts after the Wall Street Crash. Despite taking hold of a nation in shambles and chaos, he managed to hold the German nation together throughout, steering it clear of civil war with level headed decisions and love for his country - even beginning to rebuild its economy through cooperation with multiple Reichskanzlers.\n\nDespite his lung cancer and deteriorating health, he performed his elected duty to the nation to his last breath - something no man, no matter their political allegiance, can disrespect.\n\nAll Germans have put down their weapons for one day to mourn one person who, no matter your allegiance, you could hold your head up high and call a hero."
+ GER_Death_of_Hindenburg.1.d: "[GER.GetNewsIcon]The German nation mourns today, as one of it's great national heroes has finally passed away. Paul von Hindenburg, aged 86 years old, died today from his long-lasting lung cancer while at his home in Neudeck, East Prussia.\n\nA universally loved war hero who beat back the Russians in the Great War and Reichspräsident of the German Reich for the last eight years, he faced one of the worst situations a leader could ever face following the recall of debts after the Wall Street Crash. Despite taking hold of a nation in shambles and chaos, he managed to hold the German nation together throughout, steering it clear of civil war with level headed decisions and love for his country - even beginning to rebuild its economy through cooperation with multiple Reichskanzlers.\n\nDespite his lung cancer and deteriorating health, he performed his elected duty to the nation to his last breath - something no man, no matter their political allegiance, can disrespect.\n\nGermany mourns a man who, no matter your allegiance, you could hold your head up high and call a hero."
  GER_Death_of_Hindenburg.1.A: "Germany mourns a hero."
 
  GER_Death_of_Hindenburg.2.t: "Adolf Hitler Proclaimed Führer"
@@ -2312,14 +2312,18 @@
  GER_Molotov_Ribbentrop.7.d: ""
  GER_Molotov_Ribbentrop.7.A: "Yes"
 
- GER_Sudtirol_Claim.1.t: "Germany claims Südtirol"
+ GER_Sudtirol_Claim.1.t: "Germany Claims Südtirol"
  GER_Sudtirol_Claim.1.d: ""
  GER_Sudtirol_Claim.1.A: "Agree"
  GER_Sudtirol_Claim.1.B: "Disagree"
 
- GER_Sudtirol_Claim.2.t: "Enforce the German-Italian agreement"
+ GER_Sudtirol_Claim.2.t: "Italy Hands over Südtirol"
  GER_Sudtirol_Claim.2.d: ""
  GER_Sudtirol_Claim.2.A: ""
+
+ GER_Sudtirol_Claim.3.t: "Italy Refuses to Hand over Südtirol"
+ GER_Sudtirol_Claim.3.d: ""
+ GER_Sudtirol_Claim.3.A: ""
 
  GER_Demand_Memel.1.t: "Germany Demands Memel"
  GER_Demand_Memel.1.d: "German forces are massing in Ostpreussen, and their Foreign Ministry has presented us with an ultimatum! We are to immediately cede the Memel territory to them, or face the threat of military action. Should we agree to their demands?"
