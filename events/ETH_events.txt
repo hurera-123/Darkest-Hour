@@ -102,6 +102,7 @@ country_event = {
 		transfer_state = 559
 		transfer_state = 1045
 		transfer_state = 1046
+		set_country_flag = ETH_Won_Second_Italio_Ethiopian_War
 	}
 }
 ###########################

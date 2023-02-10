@@ -887,7 +887,7 @@ GER_Operation_Weserubung_1 = {
 	ai_strategy = {
 		type = front_unit_request
 		tag = DEN
-		value = 30
+		value = 60
 	}
 
 	ai_strategy = {
