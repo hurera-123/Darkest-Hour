@@ -1210,6 +1210,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_FRA_Generalize_Radio_Usage"
+        texturefile = "gfx/interface/goals/FRA_Generalize_Radio_Usage.png"
+    }
+
+    spriteType = {
         name = "GFX_FRA_Girauds_Defensive_Approach"
         texturefile = "gfx/interface/goals/FRA_Girauds_Defensive_Approach.png"
     }
@@ -1217,6 +1222,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_FRA_Grande_Reforme_de_letat"
         texturefile = "gfx/interface/goals/FRA_Grande_Reforme_de_letat.png"
+    }
+
+    spriteType = {
+        name = "GFX_FRA_Hundered_Million_Bayonets"
+        texturefile = "gfx/interface/goals/FRA_Hundered_Million_Bayonets.png"
     }
 
     spriteType = {
@@ -1272,6 +1282,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_FRA_Matignot_Agreement"
         texturefile = "gfx/interface/goals/FRA_Matignot_Agreement.png"
+    }
+
+    spriteType = {
+        name = "GFX_FRA_Mordacqs_lecon_de_14"
+        texturefile = "gfx/interface/goals/FRA_Mordacqs_lecon_de_14.png"
     }
 
     spriteType = {
@@ -1385,6 +1400,16 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_FRA_The_GQG"
+        texturefile = "gfx/interface/goals/FRA_The_GQG.png"
+    }
+
+    spriteType = {
+        name = "GFX_FRA_The_Mediterranean_Retreat"
+        texturefile = "gfx/interface/goals/FRA_The_Mediterranean_Retreat.png"
+    }
+
+    spriteType = {
         name = "GFX_FRA_The_Paris_Line"
         texturefile = "gfx/interface/goals/FRA_The_Paris_Line.png"
     }
@@ -1402,6 +1427,11 @@ spriteTypes = {
     spriteType = {
         name = "GFX_FRA_The_Reform_is_Rejected"
         texturefile = "gfx/interface/goals/FRA_The_Reform_is_Rejected.png"
+    }
+
+    spriteType = {
+        name = "GFX_FRA_The_Supreme_Role_of_Machine_Guns"
+        texturefile = "gfx/interface/goals/FRA_The_Supreme_Role_of_Machine_Guns.png"
     }
 
     spriteType = {
@@ -3583,15 +3613,15 @@ spriteTypes = {
         name = "GFX_ITA_Integrate_Albania"
         texturefile = "gfx/interface/goals/ITA_Integrate_Albania.png"
     }
-	
-	spriteType = {
-        name = "GFX_ITA_Italianizzazione"
-        texturefile = "gfx/interface/goals/ITA_Italianizzazione.png"
-    }
 
     spriteType = {
         name = "GFX_ITA_Istituto_Luce"
         texturefile = "gfx/interface/goals/ITA_Istituto_Luce.png"
+    }
+
+    spriteType = {
+        name = "GFX_ITA_Italianizzazione"
+        texturefile = "gfx/interface/goals/ITA_Italianizzazione.png"
     }
 
     spriteType = {
@@ -6085,6 +6115,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_USA_Reorganize_Field_Command_Structure"
+        texturefile = "gfx/interface/goals/USA_Reorganize_Field_Command_Structure.png"
+    }
+
+    spriteType = {
         name = "GFX_USA_Restore_Confidence_in_the_Banks"
         texturefile = "gfx/interface/goals/USA_Restore_Confidence_in_the_Banks.png"
     }
@@ -6282,10 +6317,5 @@ spriteTypes = {
     spriteType = {
         name = "GFX_YUG_Royal_Yugoslav_Navy"
         texturefile = "gfx/interface/goals/YUG_Royal_Yugoslav_Navy.png"
-    }
-
-    spriteType = {
-        name = "GFX_USA_Reorganize_Field_Command_Structure"
-        texturefile = "gfx/interface/goals/USA_Reorganize_Field_Command_Structure.png"
     }
 }

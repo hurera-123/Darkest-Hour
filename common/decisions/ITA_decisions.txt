@@ -3338,6 +3338,9 @@ ITA_The_Balkan_Strategy = {
 						exists = no
 					}
 				}
+				NOT = {
+					has_war_with = FRA
+				}
 			}
 		}
 	}

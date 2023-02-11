@@ -2024,7 +2024,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Supreme_Role_OF_Machinegun
-		icon = GFX_FRA_Armee_de_Terre
+		icon = GFX_FRA_The_Supreme_Role_of_Machine_Guns
 		cost = 56
 		prerequisite = {
 			focus = FRA_Prepare_The_Second_Trench_Warfare
@@ -2382,8 +2382,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = FRA_Generalize_Radio_Use
-		icon = GFX_FRA_Armee_de_Terre
+		id = FRA_Generalize_Radio_Usage
+		icon = GFX_FRA_Generalize_Radio_Usage
 		cost = 35
 		prerequisite = {
 			focus = FRA_Modernize_Armee_Terre
@@ -2408,7 +2408,7 @@ focus_tree = {
 			focus = FRA_Improve_D2_Tank
 		}
 		prerequisite = {
-			focus = FRA_Generalize_Radio_Use
+			focus = FRA_Generalize_Radio_Usage
 		}
 		relative_position_id = FRA_Improve_D2_Tank
 		x = 0
@@ -2436,9 +2436,9 @@ focus_tree = {
 			focus = FRA_Haute_Instit_Strat
 		}
 		prerequisite = {
-			focus = FRA_Generalize_Radio_Use
+			focus = FRA_Generalize_Radio_Usage
 		}
-		relative_position_id = FRA_Generalize_Radio_Use
+		relative_position_id = FRA_Generalize_Radio_Usage
 		x = 1
 		y = 1
 		completion_reward = { 
@@ -2453,7 +2453,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Mordacq_Lecon_de_14
-		icon = GFX_FRA_Armee_de_Terre
+		icon = GFX_FRA_Mordacqs_lecon_de_14
 		cost = 28
 		available = {
 			has_idea = FRA_Henri_Mordacq_CoArmy
@@ -4129,7 +4129,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_The_GQG
-		icon = GFX_GENERIC_Military_State
+		icon = GFX_FRA_The_GQG
 		cost = 14
 		relative_position_id = FRA_General_Mobilization
 		x = 2
@@ -4242,7 +4242,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_Hundred_Million_Bayonets
-		icon = GFX_FRA_Revolution
+		icon = GFX_FRA_Hundered_Million_Bayonets
 		cost = 84
 		relative_position_id = FRA_La_Patrie_en_Danger
 		x = 1
@@ -4354,7 +4354,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_The_Mediterranean_Retreat
-		icon = GFX_
+		icon = GFX_FRA_The_Mediterranean_Retreat
 		cost = 7
 		relative_position_id = FRA_Desperate_Defence
 		x = 1

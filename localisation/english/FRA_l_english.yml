@@ -1350,8 +1350,8 @@
  FRA_Modernize_Armee_Terre: "Modernise the Armee de Terre"
  FRA_Modernize_Armee_Terre_desc: ""
 
- FRA_Generalize_Radio_Use: "Generalise Radio Usage"
- FRA_Generalize_Radio_Use_desc: ""
+ FRA_Generalize_Radio_Usage: "Generalise Radio Usage"
+ FRA_Generalize_Radio_Usage_desc: ""
 
  FRA_Char_Futur: "The Char Futur"
  FRA_Char_Futur_desc: ""
