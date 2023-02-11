@@ -99,10 +99,6 @@
  FRA_Crisis_of_the_6_February.3.d: ""
  FRA_Crisis_of_the_6_February.3.A: ""
 
- FRA_Aborted_Crisis.1.t: "Peaceful Demonstration of the Leagues"
- FRA_Aborted_Crisis.1.d: ""
- FRA_Aborted_Crisis.1.A: ""
-
  FRA_Aborted_Crisis.2.t: "The February 6th Events"
  FRA_Aborted_Crisis.2.d: ""
  FRA_Aborted_Crisis.2.A: "We came close to disaster"
@@ -140,7 +136,7 @@
  FRA_Events.42.A: "Law and Order"
 
  FRA_Reform_of_the_State.1.t: "Composition of the National Union?"
- FRA_Reform_of_the_State.1.d: "Now that Doumerge has taken control of the country, the parties that will form the new government must be determined. We have several options, but we must choose wisely because this decision will determine the direction of our government, and thus the country.\n\nThe first option would be to form a "Old Guard'' government made up of Doumerge supporters and political parties. This, however, may enrage the other parties and some members of the public, leaving us with no allies and only a few people in government.\n\nThe second option is to form a larger coalition with more parties and individuals, which would increase our public popularity. They would, however, be less loyal and would, if necessary, oppose Doumerge and his policies.\n\nThere is technically a third option, though no one recommends it: A massive coalition with the Workers' International's French Section, led by Pierre Renaudel. This would be a major upset not only in the political scene, but also among many people, especially given the party's recent demonstrations."
+ FRA_Reform_of_the_State.1.d: "Now that Doumerge has taken control of the country, the parties that will form the new government must be determined. We have several options, but we must choose wisely because this decision will determine the direction of our government, and thus the country.\n\nThe first option would be to form a \"Old Guard\" government made up of Doumerge supporters and political parties. This, however, may enrage the other parties and some members of the public, leaving us with no allies and only a few people in government.\n\nThe second option is to form a larger coalition with more parties and individuals, which would increase our public popularity. They would, however, be less loyal and would, if necessary, oppose Doumerge and his policies.\n\nThere is technically a third option, though no one recommends it: A massive coalition with the Workers' International's French Section, led by Pierre Renaudel. This would be a major upset not only in the political scene, but also among many people, especially given the party's recent demonstrations."
  FRA_Reform_of_the_State.1.A: "The old guard will bring unity"
  FRA_Reform_of_the_State.1.B: "An extended coalition for the people."
  FRA_Reform_of_the_State.1.C: "Renaudel has some interesting ideas..."
@@ -206,7 +202,7 @@
 
  FRA_Assassination_of_Alexander_I.6.t: "Assassination of King Alexander of Yugoslavia"
  FRA_Assassination_of_Alexander_I.6.d: "[FROM.GetNewsIcon]While on a royal visit to the coastal town of Marseille with the French Foreign Minister Louis Barthou, King Alexander of Yugoslavia was shot dead! The attacker is Vlado Chernozemski, a member of the IMRO and an instructor for the Ustaše. The attacker was cut down by the sword of a French policeman and then beaten by the crowd, and he eventually died in police custody. Thankfully the Foreign Minister of France survived the attack and is safe and well!\n\nThe motive of the attack is suspected to have been Alexander’s attempt to try to restore a parliamentary form of government and further demand to return to a democratic form of government.\n\nAfter this tragic death of the King, the relations between France and Yugoslavia might sour even more than they were before. What will the future bring to this young nation and how will this affect the whole Balkan peninsula?"
- FRA_Assassination_of_Alexander_I.6.A: ""
+ FRA_Assassination_of_Alexander_I.6.A: "A horrible end for a powerful man."
 
  FRA_Assassination_of_Alexander_I.7.t: "Foiled Assassination Attempt on Lives of King Alexander and Louis Barthou"
  FRA_Assassination_of_Alexander_I.7.d: "[FROM.GetNewsIcon]A potentially disastrous incident for the country has occurred! French Minister Barthou and Yugoslav King Alexander narrowly escaped an assassination attempt.\n\nWhile the King and the Minister were slowly driving through the streets in their car, a Bulgarian terrorist emerged from the crowd and attempted to shoot both the King and the FM with a Mauser. Fortunately, patrolling police noticed the gun and pushed it away from the car, causing the assassin to miss the shot. The assassin attempted to flee but was apprehended by the angry crowd and reported beaten to death, while the police appear to make no attempt to stop them. The terrorist was thought to be a Macedonian separatist seeking vengeance on King Alexander.\n\nThis assassination attempt had the potential to be a huge disaster, not only for the political environment in France, but also for our diplomatic relations with Yugoslavia. Fortunately, neither of them was hurt."
@@ -221,7 +217,7 @@
  FRA_Assassination_of_Alexander_I.9.d: "[FROM.GetNewsIcon]Today in Paris, the funeral for the former Foreign Minister Louis Barthou was held , four days after he was killed in the Ustaše terror attack in Marseille. Many people, both civilians and politicians alike have come to honour Barthou, paying their respects to a major player in French politics. A member of the Alliance Démocratique, he held the prestigious post of Prime Minister in 1913, and oversaw major changes to our nation's social policy, including the introduction of allowances to families with children.\n\nAs well as serving as Prime Minister, he has also served as the Foreign Minister before his unfortunate death, with many agreeing that Barthou's greatest diplomatic achievement was the improvement of Franco-Soviet relations. He is largely responsible for the Soviet Union's admission to the League of Nations, and prior to his death, he was involved in efforts to establish an "Eastern Pact," which would have included Germany, the Soviet Union, Poland, the Baltic States, and Czechoslovakia. The goal of this was to maintain peace and settle border disputes between the Soviets and Germans, but this is unlikely to come to fruition now.\n\nThe current Minister of Security, Albert Sarraut, has resigned in shame, stating that better security measures should’ve been put in place, and that it was his fault for overlooking such a great detail"
  FRA_Assassination_of_Alexander_I.9.A: "A sad ending for a great man."
 
- FRA_Assassination_of_Alexander_I.10.t: "Barthou Support the Reform."
+ FRA_Assassination_of_Alexander_I.10.t: "Barthou Supports the Reform."
  FRA_Assassination_of_Alexander_I.10.d: ""
  FRA_Assassination_of_Alexander_I.10.A: "Good"
 
@@ -449,10 +445,6 @@
  FRA_Events.43.d: "Franck Bouhier is a simple man living a simple life. He usually wakes up early, gets a drink of coffee and a tartine from the cafe below his apartment, reads the morning paper, and heads off to work. It takes him a good 20-25 minutes to get to work when walking at a fast pace. However, it's hard for his back as he is in his mid-50s and works as a janitor to stand most of the day. Though he enjoys his walks to work seeing the city streets.\n\nThough this morning is different as the construction in the road that he has seen progress through his window has finally been completed. It is a brand new tram line with a stop right outside his apartment with cars imported from Paris. This new tram line has been touted by the mayor of Bordeaux Adrian Marquet for a few weeks now and thanks to the recently enacted national plan that paid for new infrastructure all around France. Franck does not think much about politics or the government. Still, he does enjoy the mayor's initiation for this new tram line as his back will no longer hurt on the way to work."
  FRA_Events.43.A: "An Easier Way to Work Indeed"
 
- FRA_Front_Populaire_1936.7.t: "Creation of the CNRS"
- FRA_Front_Populaire_1936.7.d: ""
- FRA_Front_Populaire_1936.7.A: ""
-
 #########################################################################
 #  ###  ###  #     # #   #
 # #   # #  # ##   ##  # #
@@ -462,7 +454,7 @@
 #########################################################################
 #Army
 
- FRA_Army.1.t: "Gamelin inspect the Maginot line"
+ FRA_Army.1.t: "Gamelin inspects the Maginot line"
  FRA_Army.1.d: ""
  FRA_Army.1.A: "... the block fall on him and kills"
  FRA_Army.1.B: "... the block fall in front of him"
@@ -731,7 +723,7 @@
  FRA_Capitulation_of_France.3.C: "The fight continues!"
 
  FRA_Capitulation_of_France.4.t: "Germany Refuses Armistice!"
- FRA_Capitulation_of_France.4.d: "The shadow of occupation looms over France.\n\nThanks to their stunning advances and decisive victories on the battlefield, the Germans have arrived at the gates of Paris. Faced with the impossibility of a military victory over the Germans and immense political turmoil, it was decided to seek peace with the Germans. They had made no secret of their intention to seek retaliation for the Treaty of Versailles. We were willing to accept humiliating terms in order to achieve peace and relieve the burdens of war on our people. However, our hopes appear to have been dashed.\n\nIn an astonishing display of ruthlessness and hatred, the Germans have rejected our request for an armistice. In response to our proposal, the German High Command stated that "a complete military victory over the French was required to wash away the stains of the humiliation imposed on Germany at the end of the Great War," and that "the German people believe that the French must be brought to their knees by the Reich's mighty war machine."\n\nAs a result of this derogatory response, the government has become even more polarised. While everyone recognises that France's freedom and survival are at stake, their solutions differ. Some argue that we should immediately surrender our arms and allow France to be completely occupied. They argue that by doing so, the Germans will at the very least demonstrate their respect and friendship for the French people. Others argue that this occupation will be hell on Earth for our people and that the only way to end it is to fight until the end.\n\nOne thing is certain, however: the Germans have defeated us. The only question now is how badly they have done so."
+ FRA_Capitulation_of_France.4.d: "The shadow of occupation looms over France.\n\nThanks to their stunning advances and decisive victories on the battlefield, the Germans have arrived at the gates of Paris. Faced with the impossibility of a military victory over the Germans and immense political turmoil, it was decided to seek peace with the Germans. They had made no secret of their intention to seek retaliation for the Treaty of Versailles. We were willing to accept humiliating terms in order to achieve peace and relieve the burdens of war on our people. However, our hopes appear to have been dashed.\n\nIn an astonishing display of ruthlessness and hatred, the Germans have rejected our request for an armistice. In response to our proposal, the German High Command stated that \"a complete military victory over the French was required to wash away the stains of the humiliation imposed on Germany at the end of the Great War,\" and that \"the German people believe that the French must be brought to their knees by the Reich's mighty war machine.\"\n\nAs a result of this derogatory response, the government has become even more polarised. While everyone recognises that France's freedom and survival are at stake, their solutions differ. Some argue that we should immediately surrender our arms and allow France to be completely occupied. They argue that by doing so, the Germans will at the very least demonstrate their respect and friendship for the French people. Others argue that this occupation will be hell on Earth for our people and that the only way to end it is to fight until the end.\n\nOne thing is certain, however: the Germans have defeated us. The only question now is how badly they have done so."
  FRA_Capitulation_of_France.4.A: "May God help us all..."
 
 #########################################################################
@@ -769,7 +761,7 @@
  Treaty_of_Danzig.2.B: "Austria will stay German"
 
  Treaty_of_Danzig.3.t: "The Treaty of Danzig"
- Treaty_of_Danzig.3.d: ""
+ Treaty_of_Danzig.3.d: "[FROM.GetNewsIcon]"
  Treaty_of_Danzig.3.A: "Peace has returned"
 
  Treaty_of_Munich.1.t: "The Treaty of Munich"
@@ -788,7 +780,7 @@
  Treaty_of_Munich.3.C: "Austria will stay German"
 
  Treaty_of_Munich.4.t: "The Treaty of Munich"
- Treaty_of_Munich.4.d: ""
+ Treaty_of_Munich.4.d: "[FROM.GetNewsIcon]"
  Treaty_of_Munich.4.A: "Will Germany ever recover from this?"
 
  #### High Commission in Africa

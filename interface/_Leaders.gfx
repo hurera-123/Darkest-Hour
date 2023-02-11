@@ -4205,6 +4205,11 @@ spriteTypes = {
     }
 
     spriteType = {
+        name = "GFX_P_F_Adolf_Hitler_1939"
+        texturefile = "gfx/leaders/GER/P_F_Adolf_Hitler_1939.png"
+    }
+
+    spriteType = {
         name = "GFX_P_F_Adolf_Hitler_1945"
         texturefile = "gfx/leaders/GER/P_F_Adolf_Hitler_1945.png"
     }
@@ -4962,11 +4967,6 @@ spriteTypes = {
     spriteType = {
         name = "GFX_P_A_Naji_Shawkat"
         texturefile = "gfx/leaders/IRQ/P_A_Naji_Shawkat.png"
-    }
-
-    spriteType = {
-        name = "GFX_P_A_Naji_Shawkat_old"
-        texturefile = "gfx/leaders/IRQ/P_A_Naji_Shawkat_old.png"
     }
 
     spriteType = {

@@ -1422,7 +1422,7 @@ news_event = {
 	}
 }
 #########################################################################
-# Barthou Support Reform.
+# Barthou Supports the Reform.
 #########################################################################
 country_event = {
 	id = FRA_Assassination_of_Alexander_I.10

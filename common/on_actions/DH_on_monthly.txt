@@ -147,6 +147,22 @@ on_actions = {
 					civilian = { large ="GFX_P_F_Adolf_Hitler_1945" }
 				} 
 			}
+			if = {
+				limit = {
+					tag = GER
+					date > 1939.1.1
+					date < 1939.3.1
+					has_start_date < 1939.3.1
+					has_country_leader = {
+						character = GER_Adolf_Hitler
+						ruling_only = yes
+					}
+				}
+				set_portraits = {
+					character = GER_Adolf_Hitler
+					civilian = { large ="GFX_P_F_Adolf_Hitler_1939" }
+				} 
+			}
 		}
 	}
 }

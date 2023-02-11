@@ -918,62 +918,47 @@ GER_Operation_Weserubung_2 = {
 		}
 	}
 	abort = {
-		NOR = {
-			has_capitulated = yes
-		}
+		NOR = { surrender_progress > 0.01 }
 	}
 
-	ai_strategy = {
-		type = invade
-		id = "NOR"
-		value = 1000
-	}
+	ai_strategy = { type = prepare_for_war id = "NOR"	value = 300 }
+	ai_strategy = { type = invade id = "NOR"	value = 2000 }
 	ai_strategy = {
 		type = front_control
-		area = norwegian_coast
+		state = 110
+		priority = 100
+		ratio = 0.2
 		ordertype = invasion
 		execute_order = yes
 	}
 	ai_strategy = {
-		type = invasion_unit_request
-		state = 110
-		value = 400
+		type = dont_defend_ally_borders
+		id = "ITA"
+		value = 500
 	}
+}
+GER_Operation_Weserubung_3 = {
+	allowed = {
+		tag = GER
+	}
+	enable = {
+		has_war_with = NOR
+		NOR = { surrender_progress > 0.01 }
+	}
+	abort = {
+		NOR = {
+			has_capitulated = yes
+		}
+	}
+	ai_strategy = { type = front_armor_score id = "NOR"	value = -100 }
 	ai_strategy = {
-		type = invasion_unit_request
-		state = 1123
-		value = -200
+		type = front_control
+		tag = NOR
+		ordertype = front
+		execution_type = rush
+		execute_order = yes
+		manual_attack = yes
 	}
-	ai_strategy = {
-		type = invasion_unit_request
-		state = 1561
-		value = -200
-	}
-
-	ai_strategy = {
-		type = naval_avoid_region
-		id = 46 #barents sea
-		value = 2000
-	}
-
-	ai_strategy = {
-		type = area_priority
-		id = scandinavia
-		value = 50
-	}
-
-	ai_strategy = {
-		type = prepare_for_war
-		id = "BEL"
-		value = 70
-	}
-
-	ai_strategy = {
-		type = prepare_for_war
-		id = "HOL"
-		value = 70
-	}
-
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = "ITA"
@@ -1640,12 +1625,27 @@ GER_Leave_Sweden_Alone = {
 	ai_strategy = {
 		type = ignore
 		id = SWE
-		value = 800
+		value = 500
+	}
+	ai_strategy = {
+		type = befriend
+		id = SWE
+		value = 100
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = SWE
+		value = -500
+	}
+	ai_strategy = {
+		type = conquer
+		id = SWE
+		value = -500
 	}
 	ai_strategy = {
 		type = antagonize
 		id = SWE
-		value = -400 #keep the iron coming and no one gets hurt
+		value = -500 #keep the iron coming and no one gets hurt
 	}
 }
 GER_Dont_Push_on_Maginot = {
