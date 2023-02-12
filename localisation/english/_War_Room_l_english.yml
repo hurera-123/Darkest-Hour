@@ -124,7 +124,7 @@
  DH_WAR_ROOM_OPERATION_GENERAL_CANNOT_ASSIGN_BECAUSE_MAX_ASSIGNED_REACHED: "§RWe cannot assign more than §Y4§! generals to §Y[This.GetWarRoomOperationNameLongOtherContext]§!.§W"
  DH_WAR_ROOM_OPERATION_GENERAL_CANNOT_ASSIGN_BECAUSE_ALREADY_ASSIGNED: "§RWe cannot assign §Y[This.GetName]§! to §Y[This.GetWarRoomOperationNameLongOtherContext]§!, because [This.GetSheHe] is already assigned to an operation.§W"
  DH_WAR_ROOM_OPERATION_GENERAL_CAN_ASSIGN: "§GClick§! to assign §Y[This.GetName]§! to §Y[This.GetWarRoomOperationNameLongOtherContext]§!."
- DH_WAR_ROOM_OPERATION_GENERAL_ASSIGN_DELAYED_TT: "While §Y[This.GetName]§! is assigned to an operation, [This.GetSheHe] will receive the following effects: \n   $daily_assigned_operation_progress_gain$: §G+0.10§! $MOD_DAILY$ \n   $MODIFIER_XP_GAIN_FACTOR$: §R-25.0%§! \n   $MODIFIER_UNIT_LEADER_SKILL_BONUS_FACTOR$: §R-50.0%§! \n   $MODIFIER_CANNOT_USE_ABILITIES$: §RYes§!"
+ DH_WAR_ROOM_OPERATION_GENERAL_ASSIGN_DELAYED_TT: "While §Y[This.GetName]§! is assigned to an operation, [This.GetSheHe] will receive the following effects: \n   $daily_assigned_operation_progress_gain$: §G+0.05§! $MOD_DAILY$ \n   $MODIFIER_XP_GAIN_FACTOR$: §R-25.0%§! \n   $MODIFIER_UNIT_LEADER_SKILL_BONUS_FACTOR$: §R-50.0%§! \n   $MODIFIER_CANNOT_USE_ABILITIES$: §RYes§!"
 
  DH_WAR_ROOM_OPERATION_ACTIVE_ENTRY_ASSIGNED_GENERAL_TT_VALUE: "This general affects the planning progress of §Y[This.GetWarRoomOperationNameLongOtherContext]§! per day by [?daily_progress_temp|2+=]."
 
