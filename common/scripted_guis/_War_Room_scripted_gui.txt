@@ -971,7 +971,7 @@ scripted_gui = {
 				y = cost_icon_y
 			}
 			## progressbars
-			active_operation_progressbar_bg = {
+			active_operation_progressbar_background = {
 				image = "[This.GetWarRoomActiveOperationProgressBarBg]"
 			}
 			active_operation_progressbar = {
