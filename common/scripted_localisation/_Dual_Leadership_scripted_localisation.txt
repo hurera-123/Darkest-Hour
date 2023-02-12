@@ -526,7 +526,7 @@ defined_text = {
 		trigger = {
 			has_idea = YUG_Prince_Paul_HoG
 		}
-		localization_key = YUG_Prince_Paul_HoG
+		localization_key = YUG_Prince_Paul
 	}
 	text = {
 		trigger = {
